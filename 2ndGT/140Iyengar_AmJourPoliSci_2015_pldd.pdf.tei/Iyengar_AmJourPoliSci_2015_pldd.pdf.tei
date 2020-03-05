@@ -1,0 +1,1782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fear and Loathing across Party Lines: New Evidence on Group Polarization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shanto</forename><surname>Iyengar</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sean</forename><forename type="middle">J</forename><surname>Westwood</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<address>
+									<addrLine>Building 120, Room 110, 450 Serra Mall, Stanford</addrLine>
+									<postCode>94305-2050</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fear and Loathing across Party Lines: New Evidence on Group Polarization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1111/ajps.12152</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:04+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>When defined in terms of social identity and affect toward copartisans and opposing partisans, the polarization of the American electorate has dramatically increased. We document the scope and consequences of affective polarization of partisans using implicit, explicit, and behavioral indicators. Our evidence demonstrates that hostile feelings for the opposing party are ingrained or automatic in voters' minds, and that affective polarization based on party is just as strong as polarization based on race. We further show that party cues exert powerful effects on nonpolitical judgments and behaviors. Partisans discriminate against opposing partisans, doing so to a degree that exceeds discrimination based on race. We note that the willingness of partisans to display open animus for opposing partisans can be attributed to the absence of norms governing the expression of negative sentiment and that increased partisan affect provides an incentive for elites to engage in confrontation rather than cooperation. ) Sean J. Westwood is Postdoctoral Researcher, Princeton University, 308 Robertson Hall, Princeton, NJ 08544 (seanjwestwood@gmail.com).</p><p>We are grateful for helpful comments and suggestions from the editors of AJPS, our anonymous reviewers, Additional Supporting Information may be found in the online version of this article at the publisher's website:</p><p>Measure and sample information are included in the supporting information.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>M ore than 50 years after the publication of The American Voter <ref type="bibr" coords="1,178.79,331.30,92.52,9.30" target="#b11">(Campbell et al. 1960</ref>), debates over the nature of partisanship and the extent of party polarization continue (see <ref type="bibr" coords="1,247.59,357.20,50.53,9.30;1,62.05,370.15,59.19,9.30" target="#b23">Fiorina and Abrams 2008;</ref><ref type="bibr" coords="1,125.13,370.15,78.41,9.30" target="#b35">Hetherington 2009</ref>). While early studies viewed partisanship as a manifestation of other group affiliations <ref type="bibr" coords="1,112.91,396.06,185.24,9.30" target="#b4">(Berelson, Lazarsfeld, and McPhee 1954;</ref><ref type="bibr" coords="1,62.05,409.01,87.60,9.30" target="#b11">Campbell et al. 1960</ref>), more recent work suggests that party is an important form of social identity in its own right <ref type="bibr" coords="1,84.01,434.92,158.78,9.30" target="#b27">(Green, Palmquist, and Schickler 2004;</ref><ref type="bibr" coords="1,244.30,434.92,53.96,9.30" target="#b28">Greene 1999;</ref><ref type="bibr" coords="1,62.05,447.87,131.53,9.30" target="#b38">Huddy, Mason, and Aarøe 2010;</ref><ref type="bibr" coords="1,195.17,447.87,103.04,9.30;1,62.05,460.82,22.06,9.30" target="#b39">Iyengar, Sood, and Lelkes 2012)</ref>. As anticipated by social identity theorists (e.g., <ref type="bibr" coords="1,62.05,473.78,49.15,9.30" target="#b65">Tajfel 1970;</ref><ref type="bibr" coords="1,115.16,473.78,101.13,9.30" target="#b66">Tajfel and Turner 1979)</ref>, under conditions of group competition, the sense of group membership inculcates positive evaluations of the ingroup and correspondingly hostile evaluations of outgroups. In the case of partisanship, this divergence in affect toward the in and out parties-affective polarization-has increased substantially over the past four decades <ref type="bibr" coords="1,248.65,551.48,49.52,9.30;1,62.05,564.44,81.88,9.30" target="#b34">(Haidt and Hetherington 2012;</ref><ref type="bibr" coords="1,146.33,564.44,129.85,9.30" target="#b39">Iyengar, Sood, and Lelkes 2012)</ref>.</p><p>Unlike race, gender, and other social divides where group-related attitudes and behaviors are constrained by social norms <ref type="bibr" coords="1,373.78,318.35,137.40,9.30" target="#b36">(Himmelfarb and Lickteig 1982;</ref><ref type="bibr" coords="1,514.62,318.35,37.59,9.30;1,316.09,331.30,82.91,9.30" target="#b49">Maccoby and Maccoby 1954;</ref><ref type="bibr" coords="1,402.47,331.30,89.83,9.30" target="#b61">Sigall and Page 1971)</ref>, there are no corresponding pressures to temper disapproval of political opponents. If anything, the rhetoric and actions of political leaders demonstrate that hostility directed at the opposition is acceptable, even appropriate. Partisans therefore feel free to express animus and engage in discriminatory behavior toward opposing partisans.</p><p>Scholars have typically treated the sense of partisan identity as a major cue for political choices, most notably, voting behavior. We demonstrate that partisan cues now also influence decisions outside of politics and that partisanship is a political and social divide. Using novel measurement techniques, we directly compare implicit, explicit, and behavioral measures of partisan affect with affect based on racial identity. We find that implicit affect and behavioral discrimination based on partisanship are just as significant as affect and discrimination based on race.</p><p>Our argument proceeds in two parts. We first scale the magnitude of the ingroup versus outgroup partisan divide against the comparable divide for race. To ensure a American Journal of Political Science, <ref type="bibr" coords="1,202.42,708.45,83.83,7.97">Vol. 59, No. 3, July 2015</ref><ref type="bibr" coords="1,286.26,708.45,49.96,7.97;1,63.60,724.39,20.34,7.97">, Pp. 690-707 C 2014</ref><ref type="bibr" coords="1,83.94,724.39,139.70,7.97;1,463.04,724.39,47.23,7.97">, Midwest Political Science Association DOI: 10.1111</ref> fair comparison, we use implicit measures. The use of implicit measures allows us to assess racial attitudes that are uncontaminated by social desirability biases <ref type="bibr" coords="2,245.60,88.00,50.31,9.30;2,59.76,100.95,110.37,9.30" target="#b1">(Asendorpf, Banse, and Mücke 2002;</ref><ref type="bibr" coords="2,175.55,100.95,120.37,9.30;2,59.76,113.90,23.95,9.30" target="#b9">Boysen, Vogel, and Madon 2006)</ref> and to capture unconscious attitudes <ref type="bibr" coords="2,244.43,113.90,51.44,9.30;2,59.76,126.86,122.27,9.30" target="#b30">(Greenwald, McGhee, and Schwartz 1998)</ref> that are difficult to manipulate. By documenting significant implicit partisan affective polarization, we demonstrate that hostile feelings for the opposing party are ingrained and automatic in voters' minds. The general agreement that race represents the deepest divide in American society <ref type="bibr" coords="2,210.12,191.62,59.71,9.30" target="#b54">(Myrdal 1944;</ref><ref type="bibr" coords="2,272.85,191.62,23.03,9.30;2,59.76,204.57,81.80,9.30" target="#b57">Pager and Shepherd 2008;</ref><ref type="bibr" coords="2,143.44,204.57,81.47,9.30" target="#b60">Schuman et al. 1997</ref>) makes racial affect a particularly robust benchmark for the assessment of partisan affect. We show that the level of partisan animus in the American public exceeds racial hostility. Second, through three experiments, we show that partisanship and partisan affect are strong cues for nonpolitical judgments and behaviors. We continue to benchmark the effects of partisan bias against racial bias. In the absence of a social norm or sanction that discourages partisan discrimination, we show in three independent studies that partisans frequently choose to discriminate against opposing partisans. We further document that discrimination against the outgroup is based more on outgroup animus than ingroup favoritism.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Affective Polarization by Party: The State of the Evidence</head><p>We define affective polarization as the tendency of people identifying as Republicans or Democrats to view opposing partisans negatively and copartisans positively <ref type="bibr" coords="2,251.36,502.46,44.53,9.30;2,59.76,515.41,42.94,9.30" target="#b11">(Campbell et al. 1960;</ref><ref type="bibr" coords="2,104.21,515.41,154.38,9.30" target="#b27">Green, Palmquist, and Schickler 2004)</ref>. This affective separation is a result of classifying opposing partisans as members of an outgroup and copartisans as members of an ingroup. The standard definition of an outgroup is a group to which a person does not belong, whereas an ingroup is a group to which a person does belong. Research in psychology generally shows that members of an ingroup frequently ascribe undesirable or inappropriate traits to members of outgroups <ref type="bibr" coords="2,202.95,619.02,51.05,9.30" target="#b65">(Tajfel 1970;</ref><ref type="bibr" coords="2,255.74,619.02,40.15,9.30;2,59.76,631.97,52.45,9.30" target="#b66">Tajfel and Turner 1979)</ref>, though some high-status outgroups such as whites are viewed positively by outgroup members <ref type="bibr" coords="2,276.02,644.92,19.86,9.30;2,59.76,657.87,71.56,9.30" target="#b41">(Jost and Banaji 1994)</ref>. Classic studies by psychologists have demonstrated that the mere act of identifying with a particular group in competitive environments-no matter how trivial the basis for group assignment-is often sufficient to trigger negative evaluations of outgroups (see <ref type="bibr" coords="2,59.76,722.64,89.41,9.30" target="#b6">Billig and Tajfel 1973)</ref>.</p><p>In the contemporary American political environment, there is evidence of increasing hostility across party lines, which has been attributed to a variety of factors, including candidates' reliance on negative campaigning and the availability of news sources with a clear partisan preference (see <ref type="bibr" coords="2,364.71,126.86,136.13,9.30" target="#b39">Iyengar, Sood, and Lelkes 2012;</ref><ref type="bibr" coords="2,504.67,126.86,45.23,9.30;2,313.80,139.81,56.20,9.30" target="#b48">Lelkes and Iyengar 2012)</ref>. Among Americans who say they identify with a political party, negative views of the out party and its supporters have risen sharply since the 1980s <ref type="bibr" coords="2,522.11,165.71,27.80,9.30;2,313.80,178.67,99.89,9.30" target="#b34">(Haidt and Hetherington 2012;</ref><ref type="bibr" coords="2,416.01,178.67,129.49,9.30" target="#b39">Iyengar, Sood, and Lelkes 2012)</ref>. Not only are group evaluations polarized along party lines, but the specific content of outgroup stereotypes has also followed suit. While Republicans view fellow partisans as patriotic, well informed, and altruistic, Democrats are judged to exhibit precisely the opposite traits (see <ref type="bibr" coords="2,313.80,256.38,133.61,9.30" target="#b39">Iyengar, Sood, and Lelkes 2012)</ref>. Citizens are also more dubious of the motivations and ulterior motives of politicians from opposing parties than copartisans <ref type="bibr" coords="2,514.40,282.28,35.51,9.30;2,313.80,295.23,85.54,9.30" target="#b52">(Munro, Weih, and Tsai 2010)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Intrusion of Partisan Cues into Everyday Life</head><p>Unlike race and gender, which are physical traits, partisanship is a less obvious affiliation. Nonetheless, there are ample opportunities to discern partisan cues. Political discussion at the workplace provides one such opportunity <ref type="bibr" coords="2,313.80,437.69,109.06,9.30" target="#b53">(Mutz and Mondak 2006)</ref>. Exposure to social networks is another; on Facebook, 35 million Americans like President Barack Obama, 11 million like Mitt Romney, and more than 25 million like various national politicians and news correspondents for Fox News and MSNBC (Facebook 2013). Partisan affiliation is also displayed openly on cars and lawns. Two months before the end of the 2012 election, Obama for America sold-only counting official campaign sales-over $43 million in campaign merchandise such as T-shirts and bumper stickers <ref type="bibr" coords="2,522.75,554.26,27.19,9.30;2,313.80,567.22,22.03,9.30" target="#b47">(Korte 2012)</ref>. Thus, for a large portion of the electorate, information on individuals' political affiliations is conveniently accessible. Even more striking than the availability of partisan cues is the gradual encroachment of party preference into nonpolitical and hitherto personal domains. Residential neighborhoods are increasingly politically homogeneous <ref type="bibr" coords="2,313.80,657.87,59.77,9.30" target="#b7">(Bishop 2008)</ref>, and geographic distance creates social distance <ref type="bibr" coords="2,351.09,670.82,68.54,9.30" target="#b8">(Bogardus 1925)</ref>. A standard measure of social distance-parents' displeasure over the prospects of their offspring marrying into a family with a different party affiliation-shows startling increases in the United States, but not in Britain <ref type="bibr" coords="2,400.72,722.63,144.78,9.30" target="#b39">(Iyengar, Sood, and Lelkes 2012)</ref>.</p><p>The stated preference for same-party marriage is but the tip of an evidentiary iceberg concerning the growing relevance of partisan cues for interpersonal relations. Actual marriage across party lines is rare; in a 2009 survey of married couples, only 9% consisted of Democrat-Republican pairs <ref type="bibr" coords="3,88.00,126.85,170.24,9.30" target="#b58">(Rosenfeld, Reuben, and Falcon 2011;</ref><ref type="bibr" coords="3,263.78,126.85,34.36,9.30;3,62.05,139.80,111.29,9.30">also see Stoker and Jennings 1995)</ref>. Moreover, marital selection based on partisanship exceeds selection based on physical (e.g., body shape) or personality attributes <ref type="bibr" coords="3,244.22,165.71,53.95,9.30;3,62.05,178.67,22.06,9.30" target="#b0">(Alford et al. 2011)</ref>. Recent data from online dating sites are especially revealing. Even though single men and women seeking companionship online behave strategically and exclude political interests from their personal profiles <ref type="bibr" coords="3,256.75,217.52,41.40,9.30;3,62.05,230.47,140.85,9.30" target="#b46">(Klofstad, McDermott, and Hatemi 2012)</ref>, partisan agreement nevertheless predicts reciprocal communication between men and women seeking potential dates <ref type="bibr" coords="3,246.66,256.37,51.48,9.30;3,62.05,269.32,65.97,9.30" target="#b37">(Huber and Malhotra 2012)</ref>. As the authors of one intermarriage study put it, "the timeless character of political divisiveness may emanate not just from the machinations of elites, but also from the nuances of courtship" <ref type="bibr" coords="3,241.83,308.17,56.38,9.30;3,62.05,321.12,42.16,9.30">(Alford et al. 2011, 378)</ref>.</p><p>All told, despite only mixed evidence of sharp ideological or partisan divergence in their policy preferences, Americans increasingly dislike people and groups on the other side of the political divide and face no social repercussions for the open expression of these attitudes. Heightened affective polarization has widened the reach of partisan cues; party affiliation increasingly constrains social and personal ties.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hypotheses</head><p>Our underlying research questions are (1) how does partisan affect compare with affect based on other social divides, and <ref type="formula" coords="3,117.28,525.86,12.77,9.30">(2)</ref> to what extent are partisans willing to discriminate against opposing partisans in nonpolitical decisions? For the first research question, we hypothesize (1) that partisan affect is sufficiently ingrained in citizen consciousness to manifest itself in implicit indicators of partisan attitudes and (2) that the effect size of partisan affect is larger than the effect size of affect for other social divides where social norms discourage discrimination. For the second research question, our hypotheses are (1) that partisanship and partisan affect motivate respondents to make determinations and judgments that are biased in favor of copartisans and (2) that copartisan favoritism is a weaker influence than animosity toward opposing partisans.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study 1: Anchoring Partisan Affect</head><p>The growth of explicit partisan affective polarization is clear from analysis of survey data <ref type="bibr" coords="3,467.41,106.00,84.79,9.30;3,316.09,118.95,49.84,9.30" target="#b39">(Iyengar, Sood, and Lelkes 2012)</ref>, but these data only show that people report affective biases when evaluating partisan groups. Survey data do not show the extent to which affective partisan attitudes are ingrained in the minds of the public. Survey data are also subject to cognitive manipulation, which allows participants to filter or underreport actual partisan affect. To address these limitations, we designed Study 1 to measure implicit partisan affect.</p><p>Implicit attitudes are the "traces of past experience that mediate favorable or unfavorable feeling, thought, or action toward social objects" <ref type="bibr" coords="3,454.36,248.47,97.81,9.30;3,316.09,261.42,34.02,9.30">(Greenwald and Banaji 1995, 8)</ref>. The detection of implicit partisan affect thus shows that the sense of partisan identity is deeply embedded in citizens' minds. We also include an implicit assessment of racial affect to anchor the measure of implicit partisan affect. The general argument is that implicit measures-not subject to cognitive processing-are more accurate since they do not permit active masking of feelings toward outgroups. Unobtrusive measures such as the Implicit Association Test (IAT) developed by <ref type="bibr" coords="3,522.90,365.03,24.43,9.30;3,316.09,377.98,156.19,9.30" target="#b30">Greenwald, McGhee, and Schwartz (1998)</ref> and the brief version (BIAT) developed by <ref type="bibr" coords="3,426.64,390.93,125.54,9.30" target="#b62">Sriram and Greenwald (2009)</ref> are much harder to manipulate than explicit self-reports, producing more valid and less biased results <ref type="bibr" coords="3,502.00,416.84,50.24,9.30;3,316.09,429.79,98.44,9.30" target="#b1">(Asendorpf, Banse, and Mücke 2002;</ref><ref type="bibr" coords="3,415.97,429.79,131.92,9.30" target="#b9">Boysen, Vogel, and Madon 2006)</ref>.</p><p>The full IAT measures the reaction time necessary to associate ingroups and outgroups (e.g., "Democrat" and "Republican" or "African American" and "European American") with positive and negative attributes (e.g., "good" and "bad"). While completing the task, participants are instructed to go as quickly as possible. Since people are able to respond faster to group-attribute pairs for which they have acquired automatic associations, the metric of the IAT compares the time taken to respond to pairings of ingroup + good with outgroup + good as well as ingroup + bad and outgroup + bad. The differences in response times to the group pairings are used to generate an indirect measure of group preference. Since the full version of the IAT requires more than 15 minutes to administer, psychologists have developed (and validated) a brief version (BIAT), which measures the same associations, but with a reduced number of trials. We measure implicit racial affect using the standard European American/African American BIAT and implicit partisan affect using a partisan BIAT that we created.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FIGURE 1 BIAT Design</head><p>Note: The state of California and the "(D)" are colored blue, and the state of Texas and the "(R)" are colored red.</p><p>In a BIAT, participants complete four rounds of 20 timed categorizations, with the first pair of rounds treated as training and the last pair used for scoring the measure of implicit attitudes. The four blocks consist of two repetitions (randomly ordered) of the "ingroup + good" block and the "outgroup + good" block. In each block, the group not paired with "good" is grouped with negative words. The top panel of <ref type="figure" coords="4,181.79,593.11,34.67,9.30">Figure 1</ref> shows an example of a categorization round in the partisan BIAT. In this example, the target stimulus is the Democratic mascot, and the round pairs Democrats with "good." Democratic respondents should more quickly categorize the mascot as "good" since they have come to associate "good" with Democrats. Conversely, Republican respondents should take more time to associate the Democratic mascot with "good." We constructed the partisan BIAT using the standard set of good stimuli (Wonderful, Best, Superb, Excellent), the standard set of bad stimuli (Terrible, Awful, Worst, Horrible), and eight images (shown in the bottom panel of <ref type="figure" coords="4,352.03,75.06,34.61,9.30">Figure 1</ref>) referring to the Democratic and Republican parties. <ref type="bibr" coords="4,384.38,86.25,3.51,6.51">1</ref> We created a custom software tool to implement theBIAT in a web browser.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Design</head><p>We recruited a sample of 2,000 adults from the Survey Sampling International (SSI) panel. 2 Respondents completed both the African American/European American BIAT and our partisan BIAT at the end of a survey instrument. To minimize possible order effects and to account for reductions in implicit attitude extremity among those who have completed one or more IATs (see <ref type="bibr" coords="4,503.41,233.35,41.67,9.30;4,313.80,246.30,106.32,9.30">Nosek, Banaji, and Greenwald 1980)</ref>, the order of the two BIATs was randomized. We oversampled African Americans (500) in order to capture racial affect among nonwhites.</p><p>Following <ref type="bibr" coords="4,376.16,285.15,155.27,9.30" target="#b31">Greenwald, Nosek, and Banaji (2003)</ref>, we utilize the "D-score" to interpret the BIAT results. The score, which can range from −2 to 2, is calculated by subtracting the mean response times for the round pairing targets from Category A (Democrat/Black) with positive terms from the mean response times for the round pairing targets from Category B (Republican/White) with positive terms (for full details on the computation of the D-score, see <ref type="bibr" coords="4,387.82,388.76,157.71,9.30" target="#b31">Greenwald, Nosek, and Banaji 2003)</ref>. This difference in response latency is then divided by the pooled standard deviation over both rounds. 3 Positive D-scores indicate that participants respond faster to Republican-good than to Democrat-good pairings. Since people respond faster to group attribute pairs for which they have acquired automatic associations, this pattern would indicate greater positive affect for Republicans, whereas the inverse response times would reflect greater positive affect for Democrats. The party stimuli used to construct the D-score produced highly correlated latencies (r = .35) and a robust standardized Cronbach's alpha of .89. 4</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>The sign and magnitude of the obtained partisan Dscore converged with traditional measures of partisan and ideological affiliation. <ref type="figure" coords="5,179.44,446.87,36.08,9.30">Figure 2</ref> shows the average partisan D-scores grouped by responses to self-reported strength of partisan and ideological identity. The partisan D-score corresponded closely with the conventional survey measure of party identification. "Strong Republicans" revealed the most bias in favor of Republicans (mean = .35, s.e. = .03, n = 218), whereas "weak Democrats" were the most biased in favor of Democrats (mean = -.26, s.e. = .02, n = 374). There were traces of intransitivity in the explicit indicator, as strong Democrats were slightly less biased against Republicans than weak Democrats (mean = -.21, s.e. = .02, n = 466).</p><p>Turning to the measure of ideology, "very conservative" individuals had the strongest implicit preference for Republicans (mean = .227, s.e. = .041, n = 171), followed by "conservatives," who obtained the next highest preference (mean = .170, s.e. = .026, n = 360). Once again, there were minor inconsistencies in the pattern. Thus, "liberals" were the most biased toward Democrats (mean = -.282, s.e. = .025, n = 338), followed closely by respondents in the "very liberal" category (mean = -.267, s.e. = .041, n = 149).</p><p>As a further validation test, and to compare the extent of polarization across implicit and explicit measures, we examined the relationship between the partisan D-score and a conventional survey-based measure of affective polarization: the difference in feeling thermometer ratings of Democrats and Republicans (on a 0-100 scale). The D-score correlated strongly with the net thermometer rating (r = .418). Although our measure of implicit affect closely parallels the explicit measure, there is also divergence, with the D-score explaining only 17.5% of the variance in the thermometer scores. The variation is substantively interesting insofar as it reveals differences in the extent of affective polarization across the implicit and explicit indicators. <ref type="bibr" coords="5,411.53,613.48,3.51,6.51">5</ref> When respondents have less ability to control their affect, do they exhibit more or less polarized attitudes? <ref type="figure" coords="5,316.09,654.10,36.57,9.30">Figure 3</ref> compares the distribution of both measures for respondents who identified as Democrats and Republicans. Clearly, the overlap between party responses is small in both cases, suggesting strong polarization.</p><p>To compare the magnitude of the differences, we use Cohen's d, a measure of effect size <ref type="bibr" coords="6,200.60,638.74,51.38,9.30" target="#b14">(Cohen 1988</ref>). Cohen's d is .95 for the implicit measure, suggesting considerable division between Democrats and Republicans, but it is even higher (1.72) in the case of the net thermometer score, suggesting that cognitive processing exacerbates rather than attenuates the level of affective polarization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparing Partisan and Racial Affect</head><p>How does implicit bias against racial outgroups compare with implicit partisan bias? Since the partisan and race BIATs have the identical metric, we have comparable estimates of the magnitude of partisan and race-based polarization and can anchor partisan polarization with racial polarization. Moreover, by using implicit measures, we circumvent the underreporting of racial bias caused by normative pressures facing respondents asked explicit questions about race relations (see, e.g., <ref type="bibr" coords="7,227.29,450.65,70.86,9.30;7,62.05,463.60,65.75,9.30" target="#b16">Crosby, Bromley, and Saxe 1980;</ref><ref type="bibr" coords="7,132.18,463.60,161.57,9.30" target="#b50">McConahay, Hardee, and Batts 1981)</ref>. <ref type="figure" coords="7,62.05,476.55,35.72,9.30" target="#fig_2">Figure 4</ref> shows the results of the partisan and African American/European American BIATs. Negative D-scores indicate an affective preference for Democrats (and African Americans), whereas positive scores indicate an affective preference for Republicans and European Americans, respectively. The spread between Democrats and Republicans on the partisan D-score was massive, t(824.66) = 17.68, p &lt; .001, with the Republicans averaging .27 (s.e. = .02), the Democrats -.23 (s.e. = .02), and Independents -.02 (s.e. = .02). In the case of implicit racial bias, African Americans showed a preference for African Americans (D-score = -.09, s.e. = .02), whereas whites displayed a somewhat stronger ingroup preference (D-score = .16, s.e. = .01). Hispanics and Asians both revealed a slight preference for whites over blacks. Consistent with previous research, the black-white difference in implicit bias was substantial, t(740.10) = 11.04, p &lt; .001, but the effect size for race (Cohen's d = .61) was not nearly as strong as the corresponding effect of party (Cohen's d = .95).</p><p>As shown in <ref type="figure" coords="7,399.40,62.11,38.05,9.30" target="#fig_2">Figure 4</ref> (graphs of D-scores for Democrats and Republicans and blacks and whites, respectively), the separation of the D-Scores appears larger between Republicans and Democrats than between whites and African Americans. Party polarization exceeds polarization based on race.</p><p>From our perspective, the difference in the magnitude of the partisan and racial divides in implicit affect is especially telling. Racial identity is acquired at birth, and racial attitudes are deeply ingrained (see <ref type="bibr" coords="7,481.24,178.67,70.95,9.30;7,316.09,191.62,22.04,9.30" target="#b2">Baron and Banaji 2006)</ref>. For partisanship to approach (and surpass) race, the underlying animosity must be more substantial than previously thought. The data show that negative associations of opposing partisans are faster (more automatic) than negative associations of African Americans.</p><p>Given the contrasting positions of the parties on issues relating to race and the clear racial divide in party affiliation, it is possible that the level of out-party animosity reflects a concatenation of racial and partisan or ideological affect. At the level of explicit attitudes, there is significant overlap between measures of antiblack sentiment and ideological sentiment (e.g., <ref type="bibr" coords="7,475.66,334.08,72.18,9.30;7,316.09,347.04,93.10,9.30" target="#b12">Carmines, Sniderman, and Easter 2011)</ref>. At the level of implicit attitudes, however, our evidence suggests that the overlap between partisan and racial affect is minimal. The correlation between the partisan D-score and race D-score was .13 (p &lt; .001), suggesting that implicit affect based on racial identity does not simply mirror partisan leanings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Partisan Affect among Independents and Leaners</head><p>Not surprisingly, self-identified partisans have the highest levels of polarization, but pure Independents and Independent leaners also show significant levels of partisan affect. As shown in <ref type="figure" coords="7,405.49,528.36,34.89,9.30">Figure 5</ref>, among Independents in the SSI sample, the difference in Republican and Democratic feeling thermometer scores is slightly slanted toward Democrats (mean = 3.52, s.e. = 0.84, n = 697), t  (mean = 42.58, s.e. = 1.32, n = 624), t(461.55) = 6.33, p &lt; .001), and significantly more polarized than Independents with no leanings, t(317.25) = -12.13, p &lt; .001. Consistent with prior research showing that leaners adopt a social identity of their preferred party <ref type="bibr" coords="8,59.76,303.76,58.61,9.30" target="#b28">(Greene 1999)</ref>, these results offer additional support for the contention that leaners behave like partisans.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study 2: The Intrusion of Partisan Affect into Nonpolitical Domains</head><p>Our comparisons of implicit partisan and racial bias suggest that partisan identity is a relatively strong source of group affect, but the behavioral implications remain unclear. We designed this follow-up study to compare the relative influence of partisan and racial affiliation in a nonpolitical decision task and to examine whether affect predicted decisions favoring the respondent's own group affiliation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Design</head><p>We randomly assigned 1,021 participants drawn from the SSI panel to one of two selection tasks. The first selection task required a selection between a Democrat and a Republican, and the second required selection between a European American and an African American. In each task, we asked participants to read the resumes for a pair of graduating high school seniors. We extend existing scholarship assessment designs (e.g., DeSante 2013; <ref type="bibr" coords="8,59.76,649.12,127.25,9.30" target="#b52">Munro, Weih, and Tsai 2010)</ref> to measure partisan and racial bias. <ref type="bibr" coords="8,105.98,660.32,3.51,6.51">6</ref> To increase the robustness of our design, we randomly varied the academic achievements of each candidate (by assigning them either a 4.0 GPA or a 3.5 GPA). We therefore have a four-cell design (candidate 1 more qualified; candidate 2 more qualified; both candidates equally qualified with a 4.0 GPA; both candidates equally qualified with a 3.5 GPA). This design allows us to measure the effects of partisan and racial bias when the candidates are equally qualified and when one candidate is more qualified than the other. Participants were randomly assigned to complete only one of the two selection tasks. The order of the two candidates as well as the order of their extracurricular activities was randomized. 7 An example of the resumes presented is shown in <ref type="table" coords="8,313.80,407.38,28.38,9.30" target="#tab_1">Table 1</ref>.</p><p>Depending on the task to which they were assigned, participants were exposed to candidates with either a partisan affiliation (cued through membership in a partisan extracurricular group) or a racial identity (cued through a stereotypical African American/European American name and membership in an extracurricular group). <ref type="table" coords="8,313.80,498.03,30.69,9.30" target="#tab_2">Table 2</ref> shows the full set of names and extracurricular activities for each task. Gender was not varied but fixed as male; in the partisan task, race was fixed as European American for both candidates; in the race task, partisanship was not offered as an attribute of the student.</p><p>Given this design, comparisons across conditions shed light on the relative strength of ingroup preference across partisan and racial lines. More specifically, we can compare the frequency with which respondents demonstrate a discriminatory preference for the ingroup candidate while varying an objective measure of merit (GPA).   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Despite the explicitly apolitical nature of the task, it was the party cue that exerted the strongest impact on selection for the largest number of participants. <ref type="table" coords="9,266.73,645.10,31.37,9.30" target="#tab_3">Table 3</ref> shows the effects of participant partisanship and participant race on winner selection, aggregating across the four qualification manipulations.</p><p>In the partisan task, approximately 80% of partisans (both Democrats and Republicans) selected their in-party candidate. Democratic leaners showed a stronger preference for the Democratic candidate than Republican leaners showed for the Republican candidate, though both groups displayed the in-party preference (80.4% and 69.2%, respectively). Independents showed a slight preference for the Democratic candidate (57.9%).</p><p>Ingroup selection on the basis of race was confined to African Americans (73.1% selecting the African American), with European Americans showing a small preference for the African American candidate (55.8% selecting the African American). To clarify these results and account for the manipulation of academic qualifications, we generated predicted probabilities ( <ref type="figure" coords="10,219.49,286.83,33.51,9.30">Figure 6</ref>) from logistic regression models. 8 For the partisan task, the dependent variable was a dummy coded as 1 when the Republican was selected; for the race task, the dependent variable was set as 1 when the African American was selected. The independent variables were participant partisan affiliation (including Independents and leaners) interacted with academic qualification for the partisan task, and participant race interacted with qualification for the race task. <ref type="bibr" coords="10,78.91,401.64,3.51,6.51">9</ref> In the partisan task, candidate qualification had no significant effect on winner selection. Compared to Independents, Democrats were more likely to select a fellow Democrat (b = -1.04, s.e. = .33, p &lt; .01) and Republicans were more likely to select a fellow Republican (b = 1.60, s.e. = .39, p &lt; .001). Even when the candidate from the opposing party was more qualified, partisans opted to award the scholarship money to the copartisan candidate. When the Republican was more qualified than the Democrat, the probability of a Democrat selecting the Republican candidate was only .30 (95% confidence interval [.20, .44]); when both candidates were equally qualified, the probability of a Democrat selecting the Republican candidate fell to .21 (95% confidence interval [.14, .29]); and when the Democrat was most qualified, the probability of a Democrat selecting the Republican candidate was a meager .14 (95% confidence interval [.08, .24]). Similarly, when the Democrat was more qualified, the 8 Full model results are included in the supporting information. <ref type="bibr" coords="10,59.76,682.43,2.87,5.31">9</ref> In both tasks, there was no significant or substantive difference in selection rates between the two conditions where candidates were equally qualified at different GPAs (two 3.5 GPAs and two 4.0 GPAs), so both conditions were combined to produce a singe "equally qualified" condition. probability of a Republican selecting the Democrat was only .15 (95% confidence interval [.16, .35]); when the two candidates were equally qualified, the probability of a Republican selecting the Democratic candidate was .21 (95% confidence interval [.13, .33]); and when the Republican was most qualified, the probability of Republicans selecting the Democratic candidate was .21 (95% confidence interval [.10, .38]). The probability of a partisan selecting an out-party candidate never rose above .3, and the coefficients for the various interaction terms between participant partisan affiliation and candidate qualifications were never significant; partisanship simply trumped academic excellence in this task.</p><p>Consistent with the results from the party feeling thermometers, leaners behaved like partisans and selected the candidate from the party they prefer, but the effects were less robust than those of partisans due to smaller numbers of leaners in the sample (top of <ref type="figure" coords="10,477.48,497.04,31.88,9.30">Figure 8</ref>). Despite the larger variance in the behavior of leaners, compared to Independents their tendency to select a winner from their preferred party was consistently significant for both Democratic leaners (b = -1.35, s.e. = .33, p &lt; .05) and Republican leaners (b = .99, s.e. = .49, p &lt; .05). Leaners were also unresponsive to candidate qualifications, with all estimates of the interaction between leaner political identity and candidate qualification proving insignificant. This result offers additional evidence that lea ners are in fact closet partisans.</p><p>Independents were nearly evenly split in all conditions, even when one candidate was more qualified than another. When the candidates were equally qualified, the probability of an Independent selecting a Republican winner was .42 (95% confidence interval [.32, .54]); when the Republican was more qualified, the probability of an Independent selecting the Republican candidate was The horizontal values group the data by the race of the participant, and the vertical facets group the data by the qualifications of the scholarship candidates. The dots are the predicted probabilities of selection in each group, and the bars are 95% confidence intervals. .50 (95% confidence interval [.34, .66]); and when the Democrat was more qualified, the probability of an Independent selecting the Republican candidate was .33 (95% confidence interval <ref type="bibr" coords="11,148.03,491.67,38.39,9.30">[.19, .51]</ref>). Their unresponsiveness to academic qualification and the general preference for a Democratic winner corresponds with the small Democratic skew in Independents' implicit and explicit partisan affect and suggests that Independents are also more responsive to partisan cues than academic qualifications. Partisanship is important even for individuals who, in terms of self-identified partisan affiliation, present themselves as nonpartisan. Placed in the context of affective preferences and behavior, the label "Independent" seems to function merely as an identity tag and not as a measure of the relevance of partisan cues to decision making. The results of the race manipulation <ref type="figure" coords="11,253.06,647.09,40.64,9.30">(Figure 7</ref>) showed generally weaker effects of outgroup bias. Most African American and European American participants selected the African American candidate. African Americans were significantly more likely than European Americans to select the African American candidate (b = .95, s.e. = .36, p &lt; .01). However, there was an overall tendency to select the European American as the winner when he was the more qualified candidate (b = -.93, s.e. = .30, p &lt; .01). There were no significant interactions between participant race and candidate qualifications.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FIGURE 7 Predicted Probabilities for Racial Winner Selection</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FIGURE 8 Effects of Race and Partisanship on Allocations to Player 2</head><p>To illustrate these effects, we again present predicted probabilities. Unlike partisanship where ingroup preferences dominate selection, only African Americans showed a consistent preference for the ingroup candidate. Asked to choose between two equally qualified candidates, the probability of an African American selecting an ingroup winner was .78 (95% confidence interval [.66, .87]), which was no different than their support for the more qualified ingroup candidate-.76 (95% confidence interval <ref type="bibr" coords="11,533.30,608.24,18.93,9.30;11,316.09,621.19,15.20,9.30">[.59, .87]</ref>). Compared to these conditions, the probability of African Americans selecting an outgroup winner was at its highest-.45-when the European American was most qualified (95% confidence interval <ref type="bibr" coords="11,462.66,660.04,36.53,9.30">[.26, .66]</ref>).</p><p>The probability of a European American selecting an ingroup winner was only .42 (95% confidence interval <ref type="bibr" coords="11,316.09,698.89,32.71,9.30">[.34, .50</ref>]), and further decreased to .29 (95% confidence interval <ref type="bibr" coords="11,351.23,711.85,34.21,9.30">[.20, .40</ref>]) when the ingroup candidate was less qualified. The only condition in which a majority of European Americans selected their ingroup candidate was when the candidate was more qualified, with a probability of ingroup selection at .64 (95% confidence interval <ref type="bibr" coords="12,94.04,100.95,36.36,9.30">[.53, .74]</ref>). Overall, in contrast with the behavior of partisans, the majority racial group consistently selected the minority candidate unless the qualifications of the majority ingroup candidate exceeded the qualifications of the minority candidate. Ingroup selection was stronger and the effects of academic qualifications much weaker in the partisan cue conditions.</p><p>Overall, the results from the candidate selection study suggest that evaluations of high school students' academic credentials are remarkably sensitive to small partisan cues. The partisan cue consisted of a single activity (among a randomly ordered list of five); nevertheless, the effects of the cue proved strong, even for leaners. Facing no social pressures to make unbiased choices, partisans feel no compunction to discriminate against out-party candidates. The data also show that discrimination based on party affiliation exceeds discrimination based on race. Despite the obvious relevance of academic credentials to scholarship eligibility, we found no evidence that partisans took academic merit into account.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study 3: Behavioral Evidence of Partisan Bias</head><p>We have shown that partisans display strong implicit biases toward opposing partisans, but do these effects persist when discrimination has tangible, possibly adverse, consequences for participants? The previous study documented effects of partisan bias in a hypothetical decision-making situation where the decision itself did not affect the participant. In this study, we use trust and dictator games <ref type="bibr" coords="12,149.12,528.36,95.97,9.30" target="#b25">(Forsythe et al. 1994)</ref> to test the robustness of our findings. The games provide a more consequential test of bias, for they assess the extent to which participants are willing to donate or risk money they would otherwise receive themselves to copartisans while simultaneously withholding money from opposing partisans. Once again, we compare partisanship and race as bases for discriminatory behavior. Behavioral games are used extensively to assess group cooperation and conflict <ref type="bibr" coords="12,168.05,644.92,127.82,9.30;12,59.76,657.87,22.60,9.30" target="#b5">(Berg, Dickhaut, and McCabe 1995;</ref><ref type="bibr" coords="12,85.06,657.87,111.32,9.30" target="#b20">Eckel and Grossman 1998;</ref><ref type="bibr" coords="12,199.08,657.87,96.80,9.30;12,59.76,670.82,22.59,9.30" target="#b22">Fershtman and Gneezy 2001;</ref><ref type="bibr" coords="12,84.85,670.82,104.53,9.30" target="#b33">Habyarimana et al. 2007;</ref><ref type="bibr" coords="12,191.90,670.82,99.55,9.30" target="#b67">Whitt and Wilson 2007)</ref>. In the trust game, Player 1 is given an initial endowment ($10) and instructed that she is free to give some, all, or none to Player 2 (said to be a member of a designated group). She is further informed that the researcher will triple the amount transferred to Player 2, who will have a chance to transfer an amount back to Player 1 (though Player 2 is under no obligation to return any money). The dictator game is an abbreviated version in which there is no opportunity for Player 2 to return funds to Player 1 and where the amount transferred is not tripled by the researcher. Since there is no opportunity for Player 1 to observe the strategy of Player 2, variation in the amount Player 1 allocates to different categories of Player 2 in the dictator game is attributable only to group dislike and prejudice. As <ref type="bibr" coords="12,371.78,191.62,149.07,9.30">Fershtman and Gneezy (2001, 354)</ref> put it, "any transfer distribution differences in the dictator game must be due to a taste for discrimination."</p><p>The behavioral economics literature suggests that Player 1, contrary to the axioms of rationality, typically allocates nontrivial amounts <ref type="bibr" coords="12,436.74,256.38,113.20,9.30" target="#b40">(Johnson and Mislin 2008;</ref><ref type="bibr" coords="12,313.80,269.33,104.11,9.30" target="#b68">Wilson and Eckel 2011)</ref> and that the allocation varies depending on attributes of Player 1 and the group affiliation of Player 2 <ref type="bibr" coords="12,398.43,295.23,127.30,9.30" target="#b22">(Fershtman and Gneezy 2001;</ref><ref type="bibr" coords="12,528.86,295.23,21.07,9.30;12,313.80,308.18,76.11,9.30" target="#b24">Fong and Luttmer 2011)</ref>. Women, for instance, tend to allocate greater amounts and are less prone to discriminate on the basis of group attributes <ref type="bibr" coords="12,432.21,334.08,113.30,9.30" target="#b20">(Eckel and Grossman 1998)</ref>. Prior work by <ref type="bibr" coords="12,373.44,347.04,98.50,9.30" target="#b26">Fowler and Kam (2007)</ref> detected small but significant traces of favoritism directed at copartisans, but the study focused on the effects of biases in giving on political participation and did not compare partisanship with other social divides as a basis for discrimination between recipients.</p><p>A sample of 814 adults, drawn from the SSI panel, participated in the study. We oversampled Republicans so that there were approximately equal numbers of Democrats and Republicans in the sample. 10 The sample was also stratified by race, age, region, and income so that the distribution of these background variables approximated census data. <ref type="bibr" coords="12,424.68,500.70,7.03,6.51">11</ref> Participants were randomly assigned to play four rounds of the dictator game or four rounds of the trust game. In both games, participants were told that they would receive $10 for each round that they could split with Player 2 in any way they wished. In the trust game, participants were informed that the experimenters would triple any amount given to Player 2 and that Player 2 could then allocate some, all, or none of the funds back to Player 1. Finally, to make clear the incentives, participants were told that the amount of money held at the end of the study would determine their success.</p><p>For each round of the game, players were provided a capsule description of the second player, including information about the player's age, gender, income, race/ethnicity, and party affiliation. Age was randomly assigned to range between 32 and 38, income varied between $39,000 and $42,300, and gender was fixed as male. Player 2's partisanship was limited to Democrat or Republican, so there are two pairings of partisan similarity (Democrats and Republicans playing with Democrats and Republicans). The race of Player 2 was limited to white or African American. Race and partisanship were crossed in a 2 × 2, within-subjects design totaling four rounds/Player 2s. The order of each of the four rounds was randomized.</p><p>To minimize demand effects, participants were given no indication they were participating in a study of race or partisanship. At the outset, participants were asked to provide some basic demographic information and were told that this information would be offered to other participants who were simultaneously playing the game. Before playing either version of the game, participants were given detailed instructions, read examples, and completed a short comprehension quiz. In both games, participants only took the role of Player 1. To minimize round-ordering concerns, there was no feedback offered at the end of each round; participants were told all results would be provided at the end of the study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>As shown in <ref type="figure" coords="13,124.86,484.70,35.95,9.30">Figure 8</ref>, we assess the effects of partisanship and race on allocations through a withinsubjects 2 × 2 analysis that estimates the independent and joint effects of racial (white or African American) and partisan (Republican or Democrat) similarity between Players 1 and 2. The within-subjects analysis (i.e., using a multilevel model with random effects across individuals) has the effect of controlling for individual-level variation in generosity, sense of egalitarianism, and other relevant predispositions (see <ref type="bibr" coords="13,147.65,601.26,104.96,9.30" target="#b33">Habyarimana et al. 2007;</ref><ref type="bibr" coords="13,255.26,601.26,42.87,9.30;13,62.05,614.21,54.17,9.30" target="#b67">Whitt and Wilson 2007)</ref>.</p><p>Consistent with prior research, players chose not to profit maximize, 12 but rather to allocate nontrivial amounts of their endowment-a mean of $4.17 (95% confidence interval <ref type="bibr" coords="13,146.32,666.01,48.45,9.30">[3.91, 4.43]</ref>) in the trust game, and a mean of $2.88 (95% confidence interval [2.66, 3.10]) in the dictator game. In both versions of the game, players were more generous toward copartisans, but not coethnics. The average amount allocated to copartisans in the trust game was $4.58 <ref type="bibr" coords="13,421.03,100.95,131.17,9.30;13,316.09,113.90,3.97,9.30">(95% confidence interval [4.33, 4</ref>.83]), representing a "bonus" of some 10% over the average allocation of $4.17. In the dictator game, copartisans were awarded 24% over the average allocation. <ref type="bibr" coords="13,510.22,138.05,7.03,6.51">13</ref> Overall, Republicans tended to be less generous than Democrats (see <ref type="table" coords="13,385.35,165.71,30.19,9.30" target="#tab_6">Table 4</ref>) toward ingroup and outgroup players in both forms of the game. They allocated about 35 cents less, on average, to copartisans and about 20 cents less than Democrats to opposing partisans. 14 The additional amount allocated to copartisans in the dictator game was exactly equal for Democrats and Republicans ($0.68), but three times as large for Democrats ($0.63) than Republicans ($0.24) in the trust game.</p><p>From <ref type="figure" coords="13,360.87,269.33,34.32,9.30">Figure 8</ref>, it is clear that in comparison with party, the effects of racial similarity proved negligible and not significant-coethnics were treated more generously (by eight cents, 95% confidence interval <ref type="bibr" coords="13,481.09,308.18,42.09,9.30">[-.11, .27]</ref>) in the dictator game, but incurred a loss (seven cents, 95% confidence interval <ref type="bibr" coords="13,376.02,334.08,42.20,9.30">[-.34, .20]</ref>) in the trust game. There was no interaction between partisan and racial similarity; playing with both a copartisan and coethnic did not elicit additional trust over and above the effects of copartisanship. These results thus replicate Study 1 and Study 2. Despite lingering negative attitudes toward African Americans, social norms appear to suppress racial discrimination, but there is no such reluctance to discriminate based on partisan affiliation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study 4: Separating Ingroup Favoritism from Outgroup Animosity</head><p>Affect toward copartisans has remained relatively stable in American National Election Studies (ANES) data, whereas affect toward opposing partisans has dramatically decreased <ref type="bibr" coords="13,382.44,566.59,137.90,9.30" target="#b39">(Iyengar, Sood, and Lelkes 2012)</ref>. Study 2 shows that when placed in a zero-sum decision task, participants were more likely to select a copartisan. Study 3 similarly shows that participants are more generous and trusting toward copartisans. Neither study, however, allows us to disentangle the effects of outgroup prejudice from ingroup favoritism. This was the goal of Study 4. We drew a sample of 1,252 members of the SSI panel in the winter of 2012. Participants were randomly assigned to complete either a dictator game or a trust game. We used the same instructions and procedure as in Study 3, but we utilized a different set of Player 2 profiles. For both games, we deployed a four-condition, within-subjects design (Player 2 was described without any partisan identity, as a Democrat, as a Republican, or as an Independent). The inclusion of a true control lacking any reference to partisan affiliation provides a neutral baseline from which to assess preferences for ingroup and outgroup members. <ref type="bibr" coords="14,143.02,426.44,7.03,6.51">15</ref> As shown in <ref type="figure" coords="14,132.61,441.15,33.32,9.30">Figure 9</ref>, there was a significant copartisan bonus of $0.67 (95% confidence interval <ref type="bibr" coords="14,254.17,454.10,41.70,9.30">[.50, .84])</ref> in the dictator game and $0.30 (95% confidence interval <ref type="bibr" coords="14,59.76,480.00,37.79,9.30">[.08, .52]</ref>) in the trust game. There was also a significant penalty of $0.63 (95% confidence interval <ref type="bibr" coords="14,241.23,492.95,50.38,9.30">[-.80, -.46]</ref>) for opposing partisans in the dictator game and a penalty of $0.63 (95% confidence interval <ref type="bibr" coords="14,198.45,518.85,48.58,9.30">[-.85, -.41]</ref>) for opposing partisans in the trust game. Compared to the control (no information) condition, there was no effect when Player 2 was an Independent in the dictator game or the trust game.</p><p>The outgroup penalty remained approximately the same across the two types of games (although the penalty represented a smaller proportion of the overall allocation to Player 2 in the trust game than the dictator game), whereas the ingroup bonus was halved in the trust game compared to the dictator game. Decisions in the trust game require more complex analysis than the dictator game. Not only must participants judge how much money they wish to keep for themselves, but they must also assess 15 Leaners were grouped with partisans. how likely it is that a given Player 2 will share some of the returns offered by the researcher. If information on Player 2 is not useful in the assessment of the trustworthiness of Player 2, the information should be ignored or given little weight. However, if participants believe that a known trait of Player 2 is an indicator of trustworthiness, they should be more likely to increase their allocation to Player 2 in anticipation of reaping greater financial rewards. Study 3 clearly shows that partisanship is used to assess the trustworthiness of Player 2, a finding we replicate here, but the results from this study show that partisanship is treated differently when Player 2 is a member of the ingroup rather than the outgroup. Participants assume that copartisans are more likely to return money and adjust their allocations upward to increase potential returns. They remain, however, more punitive and untrusting of opposing partisans (with the opposing partisan penalty amounting to almost twice the copartisan bonus). Despite the stronger incentive to allocate funds to Player 2, participants are much less inclined to favor copartisans in the trust game compared to the dictator game, but only slightly less inclined to discriminate against opposing partisans in the trust game compared to the dictator game. Outgroup animosity is more consequential than favoritism for the ingroup</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Compared with the most salient social divide in American society-race-partisanship elicits more extreme evaluations and behavioral responses to ingroups and outgroups. This remarkable patterns applies to both explicit and implicit measures of group affect and holds even when the tests of ingroup favoritism are unobtrusive and completely nonpolitical, and partisans are incentivized to treat copartisans no differently from opposing partisans. The most plausible explanation for the stronger affective response generated by partisan cues is the nonapplicability of egalitarian norms. These norms, which are supported by large majorities, discourage the manifestation of behavior that may be constructed as discriminatory. In contemporary America, the strength of these norms has made virtually any discussion of racial differences a taboo subject to the point that citizens suppress their true feelings <ref type="bibr" coords="15,143.10,517.42,155.03,9.30;15,62.05,530.37,22.04,9.30" target="#b30">(Greenwald, McGhee, and Schwartz 1998)</ref>. No such constraints apply to evaluations of partisan groups. The larger animus associated with the party divide is further attributable to fundamental differences between partisan and race-based identity. First, individuals choose rather than inherit their party affiliation. It is possible, therefore, that they are more likely to be held responsible (i.e., blamed) for their partisanship rather than their ethnic affiliation. Second, Democrats and Republicans almost by definition stand in opposition to each other, and Americans are regularly exposed to rhetoric from their leaders conveying open hostility toward political opponents. Racial identity, on the other hand, is less transparently conflictual. Finally, there is considerable evidence that group identity is heightened among disadvantaged groups, that is, among women and nonwhites (see <ref type="bibr" coords="15,379.30,374.96,100.39,9.30" target="#b13">Chong and Rogers 2005;</ref><ref type="bibr" coords="15,481.45,374.96,70.78,9.30" target="#b51">Miller et al. 1981;</ref><ref type="bibr" coords="15,316.09,387.91,78.08,9.30" target="#b59">Schmitt et al. 2002)</ref>. For men and whites, accordingly, the sense of gender/racial identity may be insufficiently salient to generate animus for the outgroup.</p><p>Our comparisons across indicators of implicit and explicit party affect revealed no differences in the degree of affective polarization; if anything, conventional survey measures may be somewhat inflated. Similarly, the analysis of individuals' responsiveness to party cues suggests that it is partisan affect-either implicit or explicitthat underlies the broader political ramifications of polarization.</p><p>More generally, our results provide further support for the view that party identification in the United States is more of an affective than instrumental or ideological bond. This "primal" view of partisanship was first documented in The American Voter <ref type="bibr" coords="15,442.58,582.18,87.06,9.30" target="#b11">(Campbell et al. 1960</ref>) and has since been reinforced by considerable work on the psychology of partisan identity (see <ref type="bibr" coords="15,457.23,608.08,94.99,9.30;15,316.09,621.03,63.48,9.30" target="#b27">Green, Palmquist, and Schickler 2004;</ref><ref type="bibr" coords="15,382.50,621.03,138.11,9.30" target="#b38">Huddy, Mason, and Aarøe 2010)</ref> and by corroborating evidence demonstrating that partisans are poorly informed about the policy positions advocated by party elites <ref type="bibr" coords="15,362.45,659.89,60.87,9.30" target="#b3">(Bennett 2003;</ref><ref type="bibr" coords="15,424.88,659.89,122.98,9.30" target="#b17">Delli Carpini and Keeter 1996)</ref>.</p><p>Current debates over the degree of ideological polarization within the electorate and dismissals of polarization as a symptom of partisan sorting (e.g., <ref type="bibr" coords="15,316.09,711.69,115.30,9.30" target="#b23">Fiorina and Abrams 2008)</ref> do not come to grips with this conception of partisan identity and the significant role played by partisan affect in the psyche of ordinary Americans. The mass public may offer centrist preferences, but they certainly sense that "the other side" is an outgroup. While Americans are inclined to "hedge" expressions of overt animosity toward racial minorities, immigrants, gays, or other marginalized groups, they enthusiastically voice hostility for the opposing party and its supporters.</p><p>The extent of affective polarization-at least in these studies-appears uniform across parties. Previous research suggests stronger bias against the outgroup among Republicans and conservatives <ref type="bibr" coords="16,197.40,204.57,75.21,9.30" target="#b42">(Jost et al. 2003;</ref><ref type="bibr" coords="16,277.74,204.57,18.14,9.30;16,59.76,217.52,107.74,9.30" target="#b43">Jost, Hennes, and Lavine 2013;</ref><ref type="bibr" coords="16,169.97,217.52,64.54,9.30" target="#b63">Stern et al. 2012</ref>), but our evidence indicates that the polarization scores (both explicit and implicit) for partisans on the left and right were generally indistinguishable. However, when we limit the analysis to people who identify as strongly partisan, outparty animus is significantly higher among Republicans.</p><p>There are several limitations to this work. Racial cues are easy to assess and hard to suppress, whereas partisanship must be disclosed or revealed. We can therefore document effects of partisanship on decision making, and show that they are consistently more sizable than race, but we cannot show that partisanship is considered as frequently as race. However, partisanship, as we note, is a source of social identity that people embrace in their social networks, their workplace discussions, and their place of residence. People may not wear their partisanship on their sleeves, but, for millions of Americans, it is not difficult to discern. It is true that we run the risk of artificially elevating the role of partisanship by revealing it as an attribute of the target individuals in Studies 2-4. However, these studies also provided participants with information about the target person's race, gender, income, and academic achievements. If partisanship were unimportant, we should expect participants to disregard it when given a good reason to do so (e.g., the presence of a candidate with superior academic qualifications). It is also possible that the political environment at the time of the decision encouraged the use of partisanship in decision tasks. However, our results replicate during times of relatively low political conflict (i.e., winter 2013 and spring 2013) and times of stronger political conflict (i.e., during the 2012 presidential election).</p><p>In closing, we note that the increased levels of partisan affect have fairly clear implications for the political process. Hostility for the opposition party among rank-and-file partisans sends a clear signal to elected officials; representatives who appear willing to work across party lines run the risk of being perceived as "appeasers." For the vast majority who represent uncompetitive districts, there are strong incentives to "bash" the op-position. Recent evidence on congressional "taunting" fits precisely this pattern; representatives from safe seats are especially likely to taunt the opposition party. Congressional press releases that fit the partisan taunting category-meaning that they utilize "exaggerated language to put [the opposition] down or devalue their ideas"-make up more than one-quarter of all congressional press releases issued between <ref type="bibr" coords="16,459.15,152.76,20.08,9.30" target="#b13">2005</ref><ref type="bibr" coords="16,519.67,152.76,25.26,9.30;16,313.80,165.71,77.91,9.30" target="#b32">(Grimmer and King 2011</ref><ref type="bibr" coords="16,391.71,165.71,24.57,9.30">, 2649</ref>.</p><p>The level of animosity across party lines also implies a reduced willingness to treat the actions of partisan opponents as legitimate, resulting in more intense contestation of policy outcomes. The passage of the landmark 1964 and 1965 Civil Rights Acts were no doubt controversial and opposed by large numbers of Americans, but they were not subject to persistent efforts at nullification. In contrast, two years after passage of the Affordable Care Act, legislative efforts to repeal the law show no signs of weakening.</p><p>Finally, our evidence documents a significant shift in the relationship between American voters and their parties. Fifty years ago, comparative party researchers described American parties as relatively weak, at least by the standards of European "mass membership" parties <ref type="bibr" coords="16,329.86,372.92,154.67,9.30">(Committee on Political Parties 1950;</ref><ref type="bibr" coords="16,486.44,372.92,63.48,9.30" target="#b19">Duverger 1963;</ref><ref type="bibr" coords="16,313.80,385.87,76.38,9.30" target="#b45">Kirchheimer 1966)</ref>. The prototypical instance of the latter category was a party "membership in which is bound up in all aspects of the individual's life" <ref type="bibr" coords="16,462.83,411.78,87.10,9.30;16,313.80,424.73,7.60,9.30">(Katz and Mair 1995, 6)</ref>. By this standard, American parties have undergone a significant role reversal. Today, the sense of partisan identification is all encompassing and affects behavior in both political and nonpolitical contexts.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="5,138.63,62.11,322.18,10.63;5,185.98,74.06,32.40,10.63"><head></head><label></label><figDesc>The dots are the means for each group, and the bars are 95% confidence intervals for the mean.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="6,142.34,62.11,304.41,10.63;6,189.68,74.06,73.55,10.63"><head></head><label></label><figDesc>This figure shows the distributions of partisan affective polarization scores (explicit in the top and implicit in the bottom) for Democrats (to the left) and Republicans (to the right).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="7,65.10,62.11,192.53,10.63;7,112.45,74.06,140.16,10.63;7,112.45,86.02,80.24,10.63"><head>FIGURE 4</head><label>4</label><figDesc>This figure shows the distributions of implicit partisan affect (top) and implicit racial affect (bottom) with 95% confidence intervals.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="8,76.84,62.11,344.84,10.63"><head></head><label></label><figDesc>The dots are the means for each group, and the bars are 95% confidence intervals for the mean.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="10,70.84,62.11,310.02,10.63"><head></head><label></label><figDesc>The horizontal values group the data by the partisanship of the participant, and the vertical facets group the data by the qualifications of the scholarship candidates. The dots are the predicted probabilities of selection in each group, and the bars are 95% confidence intervals.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="7,316.09,579.12,236.14,152.82"><head></head><label></label><figDesc>) = 4.19, p &lt; .001. Among Democratic leaners, the net thermometer ratings reveal a stronger affective preference for Democrats (mean = -30.64, s.e. = 1.60, n = 297) that is smaller than the preference among Democrats (mean = -48.84, s.e. = 0.93, n = 1,340). Thus, Democratic leaners are significantly less affectively polarized than self-identified Democrats, t(466.93)= -15.02, p &lt; .001), but significantly more polarized than Independents, t(516.52) = 9.98, p &lt; .001. This pattern is nearly identical on the Republican side, where leaners (mean = 28.18, s.e. = 1.85, n = 222) are significantly less polarized than partisans</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="9,62.05,62.11,490.13,167.94"><head>TABLE 1</head><label>1</label><figDesc>Sample Instructions for Study 2</figDesc><table coords="9,263.84,86.80,86.57,8.86">Applicant Highlights 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="9,62.05,251.86,490.22,90.23"><head>TABLE 2</head><label>2</label><figDesc>Full Set of Conditions and Treatments for Study 2</figDesc><table coords="9,62.05,276.54,490.22,65.55">Task 
+Identity 
+Name 
+Extracurricular Activity 
+GPA 
+
+Partisan Republican 
+Arthur Wolfe 
+President of the Young Republicans 
+3.5 or 4.0 
+Democrat 
+Jeremy O'Neill 
+President of the Young Democrats 
+3.5 or 4.0 
+Racial 
+European American Arthur Wolfe 
+President of the Future Investment Banker Club 
+3.5 or 4.0 
+African American 
+Jamal Washington President of the African American Student Association 3.5 or 4.0 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="9,62.05,363.90,490.16,200.57"><head>TABLE 3</head><label>3</label><figDesc>Favoritism in Candidate Selection by Group Membership</figDesc><table coords="9,62.05,388.59,490.16,175.88">Partisan Selection Task 
+
+Participant's Partisanship 
+Democrat Winner (N) 
+Republican Winner (N) 
+
+Democrat 
+79.2% (202) 
+20.8% (53) 
+Lean Democrat 
+80.4% (45) 
+19.6% (11) 
+Independent 
+57.9% (81) 
+42.1% (59) 
+Lean Republican 
+30.8% (12) 
+69.2% (27) 
+Republican 
+20.0% (24) 
+80.0% (96) 
+
+Racial Selection Task 
+
+Participant's Race 
+European American Winner (N) 
+African American Winner (N) 
+
+European American 
+44.2% (129) 
+55.8% (163) 
+African American 
+26.9% (32) 
+73.1% (87) 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="11,112.63,246.25,388.57,185.94"><head></head><label></label><figDesc>Note: The dots are the means for each group, and the bars are 95% confidence intervals.</figDesc><table coords="11,113.81,246.25,387.38,164.02">Different Race 
+Same Race 
+
+• 
+
+• 
+
+• 
+
+• 
+
+Copartisan 
+
+Opposing Partisan 
+
+$2.00 $2.50 $3.00 $3.50 $4.00 $4.50 $5.00 $2.00 $2.50 $3.00 $3.50 $4.00 $4.50 $5.00 
+
+Amount Allocated to Player 2 
+
+Player 2 
+
+Dictator Game 
+
+Different Race 
+Same Race 
+
+• 
+
+• 
+
+• 
+
+• 
+
+Copartisan 
+
+Opposing Partisan 
+
+$2.00 $2.50 $3.00 $3.50 $4.00 $4.50 $5.00 $2.00 $2.50 $3.00 $3.50 $4.00 $4.50 $5.00 
+
+Amount Allocated to Player 2 
+
+Player 2 
+
+Trust Game 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="14,59.76,62.11,490.12,181.88"><head>TABLE 4</head><label>4</label><figDesc>Allocation Based on Party</figDesc><table coords="14,274.29,86.80,61.08,8.86">Dictator Game 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" coords="15,126.62,62.11,360.99,292.23"><head></head><label></label><figDesc>FIGURE 9 Effects of Ingroup and Outgroup Membership on Allocations toPlayer 2Note: The dots are the means for each group, and the bars are 95% confidence intervals.</figDesc><table coords="15,127.89,102.91,355.26,229.50">• 
+
+• 
+
+• 
+
+• 
+
+Control (No PID) 
+
+Copartisan 
+
+Independent 
+
+Opposing Partisan 
+
+$2.00 
+$2.50 
+$3.00 
+$3.50 
+$4.00 
+$4.50 
+$5.00 
+
+Amount Allocated to Player 2 
+
+Player 2 
+
+Dictator Game 
+
+• 
+
+• 
+
+• 
+
+• 
+
+Control (No PID) 
+
+Copartisan 
+
+Independent 
+
+Opposing Partisan 
+
+$2.00 
+$2.50 
+$3.00 
+$3.50 
+$4.00 
+$4.50 
+$5.00 
+
+Amount Allocated to Player 2 
+
+Player 2 
+
+Trust Game 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">The study was fielded in July 2012.2  After removing subjects with BIAT error rates above .35-the recommended filtering rate-and those who failed to complete the BIATs, we were left with a sample of 1,971.3 The D-score is recommended for a variety of reasons, including only weak effects of cognitive ability on IAT results<ref type="bibr" coords="4,492.28,697.69,53.88,7.97" target="#b10">(Cai et al. 2004)</ref>.4  Cronbach's alpha for the average latencies (pooled) within the two sets of party stimuli was .81.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">We document the predictive and convergent validity of the partisan D-score in the supporting information.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6">As a cover story, participants were instructed that an anonymous donor had contributed $30,000 to a scholarship fund. The instructions also stated that the selection committee had deadlocked over two finalists and commissioned a survey to decide the winner.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">We use a paired instead of factorial design since crossing the various group attributes would have necessitated a sample beyond our budget constraint and because many of the cells in a fully crossed design correspond to only small segments of the U.S. population.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10">Independents were excluded from the sample, and leaners were grouped with partisans.11  We fielded the study in September 2012. The permanent state of modern political campaigns<ref type="bibr" coords="12,419.11,673.79,99.90,7.97" target="#b56">(Ornstein and Mann 2000)</ref> and the persistence of partisan bias over time<ref type="bibr" coords="12,453.45,683.75,96.43,7.97;12,313.80,693.71,20.52,7.97" target="#b39">(Iyengar, Sood, and Lelkes 2012)</ref> suggest that proximity to the campaign is a valid but likely insignificant concern. Our results also replicate a pretest fielded in July before the start of the conventions. They were also replicated in Study 4, which was fielded in the winter of 2013.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12">Player 1's dominant strategy in both games is to share with or entrust to Player 2 some amount of money.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="13">The significantly larger allocation in the trust game suggests that participants did in fact understand the incentives and were expecting to receive some return from Player 2. 14 Republicans awarded 46 cents less to Democrats in the dictator game, but were slightly more generous in the trust game (by a margin of 23 cents).</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="16,313.80,554.41,236.19,8.41;16,325.76,564.87,224.14,8.41;16,325.76,575.33,156.29,8.41" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The Politics of Mate Choice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">R</forename><surname>Alford</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">R</forename><surname>Hatemi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicholas</forename><forename type="middle">G</forename><surname>Hibbing</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lindon</forename><forename type="middle">J</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eaves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Politics</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="362" to="79" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,588.78,236.13,8.41;16,325.75,599.24,224.17,8.41;16,325.75,609.70,224.17,8.41;16,325.75,620.17,179.44,8.41" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Double Dissociation between Implicit and Explicit Personality Self-Concept: The Case of Shy Behavior</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jens</forename><forename type="middle">B</forename><surname>Asendorpf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rainer</forename><surname>Banse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Mücke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="380" to="93" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,633.61,236.11,8.41;16,325.75,644.07,224.19,8.41;16,325.75,654.54,224.18,8.41;16,325.75,664.99,50.26,8.41" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The Development of Implicit Attitudes: Evidence of Race Evaluations from Ages 6 and 10 and Adulthood</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><forename type="middle">S</forename><surname>Baron</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Mahzarin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Banaji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="53" to="58" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,678.44,236.12,8.41;16,325.75,688.91,80.12,8.41" xml:id="b3">
+	<monogr>
+		<title level="m" type="main">News: The Politics of Illusion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Bennett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lance</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Longman</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>5th ed</note>
+</biblStruct>
+
+<biblStruct coords="16,313.80,702.35,236.12,8.41;16,325.75,712.81,224.16,8.41;16,325.75,723.28,196.33,8.41" xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Voting: A Study of Opinion Formation in a Presidential Campaign</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Berelson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><forename type="middle">F</forename><surname>Bernard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><surname>Lazarsfeld</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mcphee</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1954" />
+			<publisher>University of Chicago Press</publisher>
+			<pubPlace>Chicago, IL</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,62.75,236.12,8.41;17,74.00,73.21,224.17,8.41;17,74.00,83.67,80.60,8.41" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Trust, Reciprocity, and Social History</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joyce</forename><surname>Berg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Dickhaut</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kevin</forename><surname>Mccabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Games and Economic Behavior</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="122" to="164" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,97.12,236.11,8.41;17,74.00,107.58,224.16,8.41;17,74.00,118.05,120.14,8.41" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Social Categorization and Similarity in Intergroup Behaviour</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Billig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Henri</forename><surname>Tajfel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="27" to="51" />
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,131.49,236.17,8.41;17,74.00,141.95,224.19,8.41;17,74.00,152.42,66.00,8.41" xml:id="b7">
+	<monogr>
+		<title level="m" type="main">The Big Sort: Why the Clustering of Like-Minded America Is Tearing Us Apart</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bill</forename><surname>Bishop</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<pubPlace>New York: Houghton Mifflin Harcourt</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,165.86,236.11,8.41;17,74.00,176.32,155.22,8.41" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Social Distance and Its Origins</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Emory</forename><forename type="middle">S</forename><surname>Bogardus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Sociology</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="216" to="242" />
+			<date type="published" when="1925" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,189.78,236.14,8.41;17,74.00,200.23,224.19,8.41;17,74.00,210.69,224.17,8.41;17,74.00,221.16,29.73,8.41" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A Public versus Private Administration of the Implicit Association Test</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guy</forename><forename type="middle">A</forename><surname>Boysen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephanie</forename><surname>Vogel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Madon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="845" to="56" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,234.61,236.08,8.41;17,74.00,245.06,224.17,8.41;17,74.00,255.53,224.19,8.41;17,74.00,265.99,224.19,8.41;17,74.00,276.45,11.36,8.41" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The Implicit Association Tests D Measure Can Minimize a Cognitive Skill Confound: Comment on McFarland and Crouch</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Huajian</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Sriram</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><forename type="middle">G</forename><surname>Greenwald</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sam</forename><forename type="middle">G</forename><surname>Mcfarland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Cognition</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="673" to="84" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,289.90,236.12,8.41;17,74.00,300.36,224.14,8.41;17,74.00,310.82,84.74,8.41" xml:id="b11">
+	<monogr>
+		<title level="m" type="main">The American Voter. Unabridged edition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Angus</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><forename type="middle">E</forename><surname>Converse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Warren</forename><forename type="middle">E</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><surname>Stokes</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1960" />
+			<publisher>Wiley</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,324.27,236.13,8.41;17,74.00,334.73,224.18,8.41;17,74.00,345.19,224.17,8.41;17,74.00,355.66,159.91,8.41" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">On the Meaning, Measurement, and Implications of Racial Resentment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edward</forename><forename type="middle">G</forename><surname>Carmines</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Beth</forename><forename type="middle">C</forename><surname>Sniderman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Easter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of the American Academy of Political and Social Science</title>
+		<imprint>
+			<biblScope unit="volume">634</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="98" to="116" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,369.10,236.16,8.41;17,74.00,379.56,224.17,8.41;17,74.00,390.03,29.73,8.41" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Racial Solidarity and Political Participation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dennis</forename><surname>Chong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Reuel</forename><surname>Rogers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Behavior</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="347" to="74" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,403.47,236.12,8.41;17,74.00,413.93,171.55,8.41" xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Statistical Power Analysis for the Behavioral Sciences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jack</forename><surname>Cohen</surname></persName>
+		</author>
+		<editor>L. Erlbaum Associates</editor>
+		<imprint>
+			<date type="published" when="1988" />
+			<pubPlace>Hillsdale, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,427.39,236.12,8.41;17,74.00,437.85,224.15,8.41;17,74.00,448.30,134.32,8.41" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Toward a More Responsible Two-Party System</title>
+		<idno type="DOI">10.1002/ncr.4110391113</idno>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="1950" />
+		</imprint>
+	</monogr>
+	<note>Committee on Political Parties</note>
+</biblStruct>
+
+<biblStruct coords="17,62.05,461.76,236.12,8.41;17,74.00,472.22,224.24,8.41;17,74.00,482.68,224.16,8.41;17,74.00,493.14,54.82,8.41" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Recent Unobtrusive Studies of Black and White Discrimination and Prejudice: A Literature Review</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Faye</forename><surname>Crosby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephanie</forename><surname>Bromley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leonard</forename><surname>Saxe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="546" to="63" />
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,506.59,236.13,8.41;17,74.00,517.05,224.17,8.41;17,74.00,527.51,96.07,8.41" xml:id="b17">
+	<monogr>
+		<title level="m" type="main">What Americans Know about Politics and Why It Matters</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Delli</forename><surname>Carpini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Michael</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Scott</forename><surname>Keeter</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Yale University Press</publisher>
+			<pubPlace>New Haven, CT</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,540.96,236.12,8.41;17,74.00,551.42,224.20,8.41;17,74.00,561.88,224.16,8.41;17,74.00,572.34,11.36,8.41" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Working Twice as Hard to Get Half as Far: Race, Work Ethic, and America&apos;s Deserving Poor</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><forename type="middle">D</forename><surname>Desante</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="342" to="56" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.04,585.79,236.08,8.41;17,74.00,596.26,189.49,8.41" xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Political Parties: Their Organization and Activity in the Modern State</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maurice</forename><surname>Duverger</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1963" />
+			<publisher>Wiley</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.04,609.70,236.12,8.41;17,74.00,620.17,224.19,8.41;17,74.00,630.63,167.24,8.41" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Are Women Less Selfish Than Men? Evidence from Dictator Experiments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine</forename><forename type="middle">C</forename><surname>Eckel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><forename type="middle">J</forename><surname>Grossman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economic Journal</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">448</biblScope>
+			<biblScope unit="page" from="726" to="761" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.04,644.07,236.12,8.41;17,74.00,654.54,69.96,8.41" xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Facebook</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Facebook</surname></persName>
+		</author>
+		<ptr target="http://www.facebook.com/press/info.php?statistics" />
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.04,667.99,236.12,8.41;17,74.00,678.44,224.14,8.41;17,74.00,688.91,138.44,8.41" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Discrimination in a Segmented Society: An Experimental Approach</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chaim</forename><surname>Fershtman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Uri</forename><surname>Gneezy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="351" to="77" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.04,702.36,236.08,8.41;17,74.00,712.82,224.17,8.41;17,74.00,723.28,71.78,8.41" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Political Polarization in the American Public</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Morris</forename><forename type="middle">P</forename><surname>Fiorina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Samuel</forename><forename type="middle">J</forename><surname>Abrams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="563" to="88" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,62.75,236.12,8.41;17,328.04,73.21,224.20,8.41;17,328.04,83.68,224.17,8.41;17,328.04,94.14,95.53,8.41" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Do Fairness and Race Matter in Generosity? Evidence from a Nationally Representative Charity Experiment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christina</forename><forename type="middle">M</forename><surname>Fong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Erzo</forename><forename type="middle">F</forename><surname>Luttmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Economics</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="372" to="94" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,107.58,236.16,8.41;17,328.04,118.05,224.16,8.41;17,328.04,128.51,166.33,8.41" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Fairness in Simple Bargaining Experiments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Forsythe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joel</forename><forename type="middle">L</forename><surname>Horowitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nathan</forename><forename type="middle">E</forename><surname>Savin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Sefton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Games and Economic Behavior</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="347" to="69" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,141.96,236.11,8.41;17,328.04,152.42,224.17,8.42;17,328.04,162.87,91.87,8.41" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Beyond the Self: Social Identity, Altruism, and Political Participation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">H</forename><surname>Fowler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cindy</forename><forename type="middle">D</forename><surname>Kam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Politics</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="813" to="840" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,176.32,236.15,8.41;17,328.04,186.79,224.17,8.41;17,328.04,197.25,216.15,8.41" xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Partisan Hearts and Minds: Political Parties and the Social Identities of Voters</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bradley</forename><surname>Palmquist</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><surname>Schickler</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>Yale University Press</publisher>
+			<pubPlace>New Haven, CT</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,210.69,236.14,8.41;17,328.04,221.16,224.17,8.41;17,328.04,231.62,15.91,8.41" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Understanding Party Identification: A Social Identity Approach</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><surname>Greene</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Psychology</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="393" to="403" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,245.06,236.10,8.41;17,328.04,255.53,224.16,8.41;17,328.04,265.99,157.32,8.41" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Implicit Social Cognition: Attitudes, Self-Esteem, and Stereotypes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><forename type="middle">G</forename><surname>Greenwald</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mahzarin</forename><forename type="middle">R</forename><surname>Banaji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="4" to="27" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,279.43,236.11,8.41;17,328.04,289.90,224.20,8.41;17,328.04,300.36,224.17,8.41;17,328.04,310.82,183.99,8.41" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Measuring Individual Differences in Implicit Cognition: The Implicit Association Test</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><forename type="middle">G</forename><surname>Greenwald</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Debbie</forename><forename type="middle">E</forename><surname>Mcghee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jordan</forename><forename type="middle">L K</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1464" to="80" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,324.27,236.09,8.41;17,328.04,334.73,224.18,8.41;17,328.04,345.19,224.17,8.41;17,328.04,355.66,183.99,8.41" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Understanding and Using the Implicit Association Test: I. An Improved Scoring Algorithm</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><forename type="middle">G</forename><surname>Greenwald</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Brian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mahzarin</forename><forename type="middle">R</forename><surname>Nosek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Banaji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="197" to="216" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.08,369.10,236.12,8.41;17,328.04,379.56,224.20,8.41;17,328.04,390.03,224.19,8.41" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">General Purpose Computer-Assisted Clustering and Conceptualization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Justin</forename><surname>Grimmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="264" to="350" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.08,403.47,236.13,8.41;17,328.04,413.93,224.11,8.41;17,328.04,424.40,224.17,8.41;17,328.04,434.86,116.31,8.41" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Why Does Ethnic Diversity Undermine Public Goods Provision?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><surname>Habyarimana</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Macartan</forename><surname>Humphreys</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">N</forename><surname>Posner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeremy</forename><forename type="middle">M</forename><surname>Weinstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="709" to="734" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.08,448.30,236.11,8.41;17,328.04,458.77,224.17,8.41;17,328.04,469.23,224.16,8.41;17,328.04,479.69,219.17,8.41;17,328.04,490.15,25.13,8.41" xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Campaign Stops, The New York Times</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><surname>Haidt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marc</forename><forename type="middle">J</forename><surname>Hetherington</surname></persName>
+		</author>
+		<ptr target="http://campaignstops.blogs.nytimes.com/2012/09/17/look-how-far-weve-come-apart/" />
+		<imprint>
+			<date type="published" when="2012-09-17" />
+		</imprint>
+	</monogr>
+	<note>Look How Far We&apos;ve Come Apart</note>
+</biblStruct>
+
+<biblStruct coords="17,316.08,503.60,236.09,8.41;17,328.04,514.06,202.60,8.41" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Putting Polarization in Perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marc</forename><forename type="middle">J</forename><surname>Hetherington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="413" to="461" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.08,527.51,236.15,8.41;17,328.04,537.97,224.17,8.41;17,328.04,548.43,188.36,8.41" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Social Desirability and the Randomized Response Technique</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Samuel</forename><surname>Himmelfarb</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carl</forename><surname>Lickteig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="710" to="727" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.08,561.88,236.10,8.41;17,328.04,572.34,224.18,8.41;17,328.04,582.80,221.77,8.41" xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Political Sorting in Social Relationships: Evidence from an Online Dating Community</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gregory</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Neil</forename><surname>Malhotra</surname></persName>
+		</author>
+		<ptr target="http://xa.yimg.com/kq/groups/Relationships.pdf" />
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.08,596.26,236.13,8.41;17,328.04,606.71,224.17,8.41;17,328.04,617.17,224.14,8.41;17,328.04,627.64,219.62,8.41" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Measuring Partisanship as a Social Identity, Predicting Political Activism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leonie</forename><surname>Huddy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lilliana</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lene</forename><surname>Aarøe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Paper presented at the annual meeting of the International Society for Political Psychology</title>
+		<meeting><address><addrLine>San Francisco</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.08,641.08,236.12,8.41;17,328.04,651.54,224.15,8.41;17,328.04,662.01,174.98,8.41" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Affect, Not Ideology: A Social Identity Perspective on Polarization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shanto</forename><surname>Iyengar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gaurav</forename><surname>Sood</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yphtach</forename><surname>Lelkes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Public Opinion Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="405" to="436" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.08,675.46,236.13,8.41;17,328.04,685.91,224.19,8.41;17,328.04,696.38,123.24,8.41" xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Cultures of Kindness: A Meta-Analysis of Trust Game Experiments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Noel</forename><forename type="middle">D</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexandra</forename><surname>Mislin</surname></persName>
+		</author>
+		<ptr target="http://ssrncom/abstract1315325" />
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.08,709.83,236.10,8.41;17,328.04,720.29,224.16,8.41;18,71.71,62.75,224.17,8.41;18,71.71,73.21,20.64,8.41" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The Role of Stereotyping in System-Justification and the Production of False Consciousness</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">T</forename><surname>Jost</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mahzarin</forename><forename type="middle">R</forename><surname>Banaji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="27" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,86.66,236.12,8.41;18,71.71,97.12,224.14,8.41;18,71.71,107.58,179.14,8.41" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Political Conservatism as Motivated Social Cognition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">T</forename><surname>Jost</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jack</forename><surname>Glaser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arie</forename><forename type="middle">W</forename><surname>Kruglanski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frank</forename><forename type="middle">J</forename><surname>Sulloway</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="3" to="39" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,121.03,236.13,8.41;18,71.71,131.49,224.16,8.41;18,71.71,141.95,224.16,8.41;18,71.71,152.42,144.69,8.41" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Hot Political Cognition: Its Self-, Group-, and System-Serving Purposes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">T</forename><surname>Jost</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">P</forename><surname>Hennes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Lavine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Oxford Handbook of Social Cognition</title>
+		<editor>Donal E. Carlston</editor>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,165.86,236.12,8.41;18,71.71,176.32,224.20,8.41;18,71.71,186.79,169.02,8.41" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Changing Models of Party Organization and Party Democracy: The Emergence of the Cartel Party</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">S</forename><surname>Katz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Mair</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Party Politics</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="5" to="28" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,200.23,236.14,8.41;18,71.71,210.69,224.16,8.41;18,71.71,221.16,224.17,8.41;18,71.71,231.62,224.21,8.41;18,71.71,242.08,57.91,8.41" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The Transformation of the Western European Party Systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Otto</forename><surname>Kirchheimer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Political Parties and Political Development</title>
+		<editor>Joseph LaPalombara and Myron Weiner</editor>
+		<meeting><address><addrLine>Princeton, NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1966" />
+			<biblScope unit="page" from="177" to="200" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,255.53,236.15,8.41;18,71.71,265.99,224.16,8.41;18,71.71,276.45,103.51,8.41" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The Dating Preferences of Liberals and Conservatives</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Casey</forename><forename type="middle">A</forename><surname>Klofstad</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rose</forename><surname>Mcdermott</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><forename type="middle">K</forename><surname>Hatemi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Behavior</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1" to="20" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,289.90,236.12,8.41;18,71.71,300.36,123.56,8.41" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Obama Has Edge in Political Merchandise</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gregory</forename><surname>Korte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">USA Today</title>
+		<imprint>
+			<date type="published" when="2012-09-25" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,313.81,236.12,8.41;18,71.71,324.27,224.17,8.41;18,71.71,334.73,93.09,8.41" xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Fear and Loathing across Party Lines? Cross-National Evidence on Party Polarization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yphtach</forename><surname>Lelkes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shanto</forename><surname>Iyengar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>Working paper</note>
+</biblStruct>
+
+<biblStruct coords="18,59.76,348.18,236.10,8.41;18,71.71,358.64,224.16,8.41;18,71.71,369.10,224.16,8.41;18,71.71,379.56,59.58,8.41" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The Interview: A Tool of Social Science</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eleanor</forename><forename type="middle">E</forename><surname>Maccoby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nathan</forename><surname>Maccoby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of Social Psychology</title>
+		<meeting><address><addrLine>Cambridge, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Addison Wesley</publisher>
+			<date type="published" when="1954" />
+			<biblScope unit="page" from="449" to="87" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,393.02,236.13,8.41;18,71.71,403.47,224.15,8.41;18,71.71,413.93,224.14,8.41;18,71.71,424.40,54.82,8.41" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Has Racism Declined in America? It Depends on Who Is Asking and What Is Asked</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">B</forename><surname>Mcconahay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Betty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Valerie</forename><surname>Hardee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Batts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Conflict Resolution</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="563" to="79" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,437.85,236.12,8.41;18,71.71,448.30,224.14,8.41;18,71.71,458.77,224.16,8.41;18,71.71,469.23,15.91,8.41" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Group Consciousness and Political Participation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arthur</forename><forename type="middle">H</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patricia</forename><surname>Gurin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerald</forename><surname>Gurin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Oksana</forename><surname>Malanchuk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="494" to="511" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,482.68,236.12,8.41;18,71.71,493.14,224.17,8.41;18,71.71,503.60,224.17,8.41;18,71.71,514.06,140.34,8.41" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Motivated Suspicion: Asymmetrical Attributions of the Behavior of Political Ingroup and Outgroup Members</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoffrey</forename><forename type="middle">D</forename><surname>Munro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carrie</forename><surname>Weih</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><surname>Tsai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="173" to="84" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note>Basic and Applied</note>
+</biblStruct>
+
+<biblStruct coords="18,59.76,527.51,236.13,8.41;18,71.71,537.97,224.17,8.41;18,71.71,548.43,82.94,8.41" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">The Workplace as a Context for Cross-Cutting Political Discourse</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Diana</forename><forename type="middle">C</forename><surname>Mutz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffry</forename><surname>Mondak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Politics</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="140" to="55" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,561.88,236.12,8.41;18,71.71,572.34,214.63,8.41" xml:id="b54">
+	<monogr>
+		<title level="m" type="main">An American Dilemma: The Negro Problem and Modern Democracy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gunnar</forename><surname>Myrdal</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1944" />
+			<publisher>Transaction</publisher>
+			<pubPlace>Piscataway, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,585.79,236.09,8.41;18,71.71,596.26,224.15,8.41;18,71.71,606.71,224.16,8.41;18,71.71,617.17,133.89,8.41" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Harvesting Implicit Group Attitudes and Beliefs from a Demonstration Web Site</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brian</forename><forename type="middle">A</forename><surname>Nosek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Mahzarin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><forename type="middle">G</forename><surname>Banaji</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Greenwald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Group Dynamics: Theory, Research, and Practice</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="101" to="116" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,630.63,236.14,8.41;18,71.71,641.09,224.19,8.41;18,71.71,651.54,96.85,8.41" xml:id="b56">
+	<monogr>
+		<title level="m" type="main">The Permanent Campaign and Its Future</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Norman</forename><forename type="middle">J</forename><surname>Ornstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><forename type="middle">E</forename><surname>Mann</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>American Enterprise Institute Press</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,62.75,236.22,8.41;18,325.75,73.21,224.14,8.41;18,325.75,83.68,224.17,8.41;18,325.75,94.14,75.18,8.41" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">The Sociology of Discrimination: Racial Discrimination in Employment, Housing, Credit, and Consumer Markets</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Devah</forename><surname>Pager</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hana</forename><surname>Shepherd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="181" to="209" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,107.58,236.17,8.41;18,325.75,118.05,224.17,8.41;18,325.75,128.51,224.19,8.41;18,325.75,138.97,35.77,8.41" xml:id="b58">
+	<monogr>
+		<title level="m" type="main">How Couples Meet and Stay Together, Waves 1, 2, and 3: Public Version 3.04</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Rosenfeld</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maja</forename><surname>Reuben</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Falcon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<pubPlace>Stanford, CA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Stanford University Libraries</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,152.42,236.10,8.41;18,325.75,162.88,224.12,8.41;18,325.75,173.34,224.18,8.41;18,325.75,183.81,224.18,8.41;18,325.75,194.26,90.80,8.41" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Perceiving Discrimination Against One&apos;s Gender Group Has Different Implications for Well-Being in Women and Men</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">T</forename><surname>Schmitt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Nyla</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Diane</forename><surname>Branscombe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Susan</forename><surname>Kobrynowicz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Owen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Personality and Social Psychology Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="197" to="210" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,207.71,236.11,8.41;18,325.75,218.18,224.17,8.41;18,325.75,228.63,96.38,8.41" xml:id="b60">
+	<monogr>
+		<title level="m" type="main">Racial Attitudes in America</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Howard</forename><surname>Schuman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charlotte</forename><surname>Steeh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lawrence</forename><surname>Bobo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maria</forename><surname>Krysan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>Harvard University Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,242.07,236.08,8.41;18,325.76,252.54,224.15,8.41;18,325.76,263.00,120.31,8.41" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Current Stereotypes: A Little Fading, a Little Faking</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Harold</forename><surname>Sigall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><surname>Page</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="247" to="55" />
+			<date type="published" when="1971" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,276.45,236.09,8.41;18,325.76,286.91,224.17,8.41;18,325.76,297.37,11.36,8.41" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The Brief Implicit Association Test</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Sriram</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><forename type="middle">G</forename><surname>Greenwald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="283" to="94" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,310.82,236.10,8.41;18,325.76,321.28,224.16,8.41;18,325.76,331.74,224.21,8.41;18,325.76,342.20,224.17,8.41;18,325.76,352.67,29.73,8.41" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">The Politics of Gaydar: Ideological Differences in the Use of Gendered Cues in Categorizing Sexual Orientation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Stern</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tessa</forename><forename type="middle">V</forename><surname>Chadly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">T</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicholas</forename><forename type="middle">O</forename><surname>Jost</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Rule</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="520" to="561" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,366.11,236.12,8.41;18,325.76,376.57,224.20,8.41;18,325.76,387.04,181.41,8.41" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Life-Cycle Transitions and Political Participation: The Case of Marriage</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Laura</forename><surname>Stoker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M. Kent</forename><surname>Jennings</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="421" to="454" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,400.48,236.14,8.41;18,325.76,410.94,156.63,8.41" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Experiments in Intergroup Discrimination</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Henri</forename><surname>Tajfel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific American</title>
+		<imprint>
+			<biblScope unit="volume">223</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="96" to="102" />
+			<date type="published" when="1970" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,424.40,236.15,8.41;18,325.76,434.86,224.17,8.41;18,325.76,445.31,224.19,8.41;18,325.76,455.78,134.45,8.41" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">An Integrative Theory of Intergroup Conflict</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Henri</forename><surname>Tajfel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">C</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Social Psychology of Intergroup Relations</title>
+		<editor>William G. Austin and Stephen Worchel</editor>
+		<meeting><address><addrLine>Monterey, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Brooks-Cole</publisher>
+			<date type="published" when="1979" />
+			<biblScope unit="page" from="33" to="47" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,469.23,236.12,8.41;18,325.76,479.69,224.18,8.41;18,325.76,490.15,124.10,8.41" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">The Dictator Game, Fairness and Ethnicity in Postwar Bosnia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sam</forename><surname>Whitt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rick</forename><forename type="middle">K</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="655" to="68" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,503.60,236.16,8.41;18,325.76,514.06,224.23,8.41;18,325.76,524.52,224.17,8.41;18,325.76,534.98,224.18,8.41;18,325.76,545.44,80.28,8.41" xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Trust and Social Exchange</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rick</forename><forename type="middle">K</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine</forename><forename type="middle">C</forename><surname>Eckel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><forename type="middle">P</forename><surname>Druckman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">H</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arthur</forename><surname>Kuklinski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lupia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Cambridge Handbook of Experimental Political Science</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="243" to="57" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A disadvantage in bilingual sentence production modulated by syntactic frequency and similarity across languages</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2013-08-14">Available online 14 August 2013</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elin</forename><surname>Runnqvist</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Université Aix-Marseille</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tamar</forename><forename type="middle">H</forename><surname>Gollan</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego</addrLine>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Albert</forename><surname>Costa</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Universitat Pompeu Fabra</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Institució Catalana de Recerca i Estudis Avançats</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Victor</forename><forename type="middle">S</forename><surname>Ferreira</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego</addrLine>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="laboratory">Laboratoire de Psychologie Cognitive</orgName>
+								<orgName type="institution">Université</orgName>
+								<address>
+									<addrLine>3 place Victor Hugo</addrLine>
+									<postCode>13331</postCode>
+									<settlement>Aix-Marseille, Marseille</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A disadvantage in bilingual sentence production modulated by syntactic frequency and similarity across languages</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2013-08-14">Available online 14 August 2013</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.cognition.2013.07.008</idno>
+					<note type="submission">Article history: Received 22 May 2012 Revised 10 July 2013 Accepted 12 July 2013</note>
+					<note>a r t i c l e i n f o</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:15+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Sentence production Bilingual disadvantage Frequency effects Cross-language interactivity</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>a b s t r a c t</head><p>Bilingual speakers access individual words less fluently, quickly, and accurately than monolinguals, particularly when accessing low-frequency words. Here we examined whether the bilingual speech production disadvantage would (a) extend to full sentences above and beyond single word retrieval and whether it would be modulated by (b) structural frequency and (c) syntactic properties of the bilingual speakers' other language. English monolinguals, Spanish-English bilinguals and Mandarin-English bilinguals were tested in a sentence production task conducted exclusively in English. Response times were modulated by bilingualism, structural frequency, and structural similarity across the bilingual speakers' two languages. These results refine our knowledge regarding the scope of the bilingual disadvantage, demonstrate that frequency effects apply to syntactic structures, and also suggest that syntax is partially shared across bilinguals' two languages.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">A frequency modulated disadvantage in bilingual sentence production</head><p>Speaking two languages entails some small but consistent disadvantages in linguistic processing compared to only speaking one language. For example, bilinguals take longer than monolinguals to name pictures and produce noun phrases (e.g., <ref type="bibr" coords="1,121.21,518.55,141.16,7.53;1,41.16,529.04,21.81,7.53" target="#b12">Gollan, Montoya, Cera, &amp; Sandoval, 2008;</ref><ref type="bibr" coords="1,67.07,529.04,76.77,7.53" target="#b10">Gollan et al., 2011;</ref><ref type="bibr" coords="1,147.96,529.04,90.17,7.53" target="#b15">Ivanova &amp; Costa, 2008;</ref><ref type="bibr" coords="1,238.13,529.04,24.19,7.53;1,41.16,539.47,108.54,7.53" target="#b21">Sadat, Martin, Alario, &amp; Costa, 2012)</ref>, even when speaking in their first and/or dominant language. Several studies indicate that the bilingual disadvantage is more pronounced for low-frequency words (e.g., <ref type="bibr" coords="1,143.09,570.88,65.10,7.53" target="#b12">Gollan et al., 2008</ref><ref type="bibr" coords="1,214.35,570.88,17.52,7.53" target="#b10">Gollan et al., , 2011</ref><ref type="bibr" coords="1,238.22,570.88,20.09,7.53;1,41.16,581.31,68.83,7.53" target="#b15">Ivanova &amp; Costa, 2008)</ref>. This finding led to the frequency lag hypothesis according to which bilinguals are disadvantaged relative to monolinguals because, by virtue of using each language onlysome of the time, bilinguals use of each language less frequently than monolinguals. An alternative explanation, and one that is not mutually exclusive with frequency lag <ref type="bibr" coords="1,341.74,466.22,152.65,7.53">(Gollan, Ferreira, Cera, &amp; Flett, in press)</ref>, is that bilinguals are disadvantaged because of interference from simultaneously activated and competing representations from the language not in use (e.g., <ref type="bibr" coords="1,438.52,497.63,68.89,7.53;1,286.24,508.12,52.66,7.53" target="#b16">Kroll, Bobb, Misra, &amp; Guo, 2008)</ref>. Furthermore, the bilingual disadvantage seems to be absent or reduced for representations that can be shared or that interact across languages. This is presumably why bilinguals are not disadvantaged for producing proper names, which tend not to differ across languages <ref type="bibr" coords="1,327.51,560.39,138.10,7.53" target="#b9">(Gollan, Bonanni, &amp; Montoya, 2005)</ref>, and why cognates (translations with high semantic and phonological overlap) are easier for bilinguals to producethan noncognates (e.g., <ref type="bibr" coords="1,351.10,591.80,156.28,7.53;1,286.24,602.23,21.72,7.53" target="#b6">Costa, Caramazza, &amp; Sebastian-Galles, 2000;</ref><ref type="bibr" coords="1,311.07,602.23,123.08,7.53" target="#b24">Strijkers, Costa, &amp; Thierry, 2010)</ref>. However, little is known about the generalization of this phenomenon and the variables modulating it to situations of connected speech. Here we investigated whether the bilingual disadvantage extends to full sentence production and, if so, whether the disadvantage varies as a function of syntactic 0010-0277/$ -see front matter Ó 2013 Elsevier B.V. All rights reserved. http://dx.doi.org/10.1016/j.cognition.2013.07.008 frequency and similarity across the bilingual's two languages.</p><p>Our first goal was to assess whether the bilingual disadvantage extends to production of full sentences. Producing sentences involves additional processes (e.g., extended speech planning, verb inflection, etc.) compared to singleword production. To the extent that these additional processes are not specific to a particular language, they might neutralize the bilingual disadvantage, because there would be no frequency lag or interference. In addition, bilinguals might develop more efficient processing for these operations, to compensate for their disadvantage in lexical retrieval, attenuating or eliminating the disadvantage in full sentence production.</p><p>Our second goal was to explore the hypothesis that the frequency with which a syntactic structure is used might modulate the bilingual disadvantage. Perhaps the most noteworthy property of full sentence production as compared to single word production is syntax, a representational dimension which, just as lexical items, can vary in frequency of use. Having to retrieve syntactic representations might create a disadvantage beyond that of lexical retrieval. Assuming that statistical properties of syntax can have an impact on the onset of sentence production (in a similar way to structural complexity; e.g., <ref type="bibr" coords="2,194.91,305.78,63.17,7.53;2,36.85,316.21,19.78,7.53" target="#b7">Ferreira &amp; Swets, 2002)</ref>, it is possible that bilinguals may not show a big disadvantage for high frequency structures that are repeated massively every day, instead showing a bigger disadvantage for more low frequency structures with which they have less experience. That is, the bilingual disadvantage for retrieval of syntactic structures could be modulated by frequency, as it seems to be for production of single words <ref type="bibr" coords="2,62.93,389.46,69.97,7.53" target="#b12">(Gollan et al., 2008</ref><ref type="bibr" coords="2,139.69,389.46,17.52,7.53" target="#b10">(Gollan et al., , 2011</ref><ref type="bibr" coords="2,164.24,389.46,85.33,7.53" target="#b15">Ivanova &amp; Costa, 2008)</ref>. <ref type="bibr" coords="2,253.53,387.84,3.48,5.02">1</ref> A third goal of this study was to examine the impact of cross-language syntactic similarity on response times. Just as for cognates at the level of lexical items, bilinguals could be more or less disadvantaged in full sentence production as a function of the similarity of syntactic structures across languages. Evidence showing transfer of syntactic properties across languages (e.g., Antón-Méndez, 2010) and cross-language syntactic priming (e.g., <ref type="bibr" coords="2,189.47,473.14,64.70,7.53;2,36.85,483.57,87.00,7.53" target="#b2">Bernolet, Hartsuiker, &amp; Pickering, 2007;</ref><ref type="bibr" coords="2,126.71,483.57,131.37,7.53;2,36.85,494.06,21.81,7.53" target="#b14">Hartsuiker, Pickering, &amp; Veltkamp, 2004;</ref><ref type="bibr" coords="2,62.65,494.06,86.15,7.53" target="#b17">Loebell &amp; Bock, 2003;</ref><ref type="bibr" coords="2,152.79,494.06,105.26,7.53" target="#b22">Shin &amp; Christianson, 2009)</ref> suggests that syntax may be shared, or at least may interact during online processing, across languages. This might lead to full or partial frequency inheritance across languages for similar syntactic structures, attenuating, eliminating, or even reversing the bilingual disadvantage. Similarly, shared or interacting representations might lead bilinguals to experience less competition from the unintended language for structures that are similar across languages (i.e., <ref type="bibr" coords="2,95.25,588.22,107.99,7.53" target="#b1">Bates &amp; MacWhinney, 1981;</ref><ref type="bibr" coords="2,205.79,588.22,52.22,7.53;2,36.85,598.66,19.78,7.53" target="#b18">MacWhinney, 2005)</ref>, which should also decrease the bilingual disadvantage.</p><p>Evidence showing a disadvantage for multi-word utterances such as ''el coche rojo'' [the red car] suggests that the bilingual disadvantage transcends single-word production (e.g., <ref type="bibr" coords="2,302.23,86.10,66.72,7.53" target="#b21">Sadat et al., 2012)</ref>. Interestingly, the disadvantage in response times observed for single words and for noun phrases was of the same magnitude in <ref type="bibr" coords="2,432.17,107.02,67.07,7.53;2,281.94,117.45,76.40,7.53" target="#b21">Sadat, Martin, Alario, and Costa (2012)</ref>. This would suggest that syntactic retrieval imposes no additional difficulty to speech production. However, the study of <ref type="bibr" coords="2,417.03,138.37,70.85,7.53" target="#b21">Sadat et al. (2012)</ref> did not include any variables specifically targeting syntactic retrieval. Thus, it is impossible to tease apart the contribution of lexical and syntactic retrieval respectively in their study. Furthermore, there are studies indicating that when a given structure is repeated throughout an entire experiment as in <ref type="bibr" coords="2,326.50,201.18,69.07,7.53" target="#b21">Sadat et al. (2012)</ref>, production becomes more like picture naming, with speech-planning proceeding word by word (e.g., <ref type="bibr" coords="2,358.70,222.10,144.48,7.53;2,281.94,232.53,55.04,7.53" target="#b19">Martin, Crowther, Knight, Tamborello, &amp; Yang, 2010)</ref>. In addition to the latter, though nounphrase production requires processes that are not shared with single-word production (e.g., word combination and gender agreement), it mostly involves retrieval of lexical information and lacks other processes needed to produce full sentences. Thus, it is possible that noun-phrase production does not offer enough room for detecting compensation in other processes. Therefore, in order to estimate the impact of bilingualism on the production of connected speech it is necessary to collect evidence from paradigms using a more varied and complex set of syntactic structures in which variables targeting syntactic processing are directly manipulated.</p><p>With this aim, we tested bilinguals of different language combinations exclusively in the dominant language. The task induced production 2 of sentences with structures that varied in English frequency and in cross-language similarity. Specifically, English monolinguals, Spanish-English bilinguals and Mandarin-English bilinguals produced English sentences by combining a verb (''push'') or adjectival phrase (''is pink'') with two nouns (''woman stroller'') in the order they appeared on a computer screen (''the woman's stroller is pink'') and response times were recorded. Target sentences involved two syntactic alternations: active versus passive voice (e.g., ''the woman pushes the stroller'' and ''the stroller is pushed by the woman'') and pre versus post-modified possessive noun phrases (e.g., ''the woman's stroller is pink'' and ''the stroller of the woman is pink''). Thus, by including four different types of syntactic constructions, all full sentences, we could be confident that participants engaged in the more complex speech planning and additionalmental operations needed for full sentence production. Therefore, response times to initiate production of these structures would measure whether the bilingual disadvantage generalizes to the production of full sentences (see <ref type="table" coords="2,448.05,588.22,25.71,7.53" target="#tab_0">Table 1</ref>). Additionally, within both syntactic alternations tested, one option is more frequent than the other in English (i.e., the 1 The greater disadvantage for bilinguals for low than for high frequency targets mirrors the logarithmic nature of the frequency effect (small differences in exposure make a big difference in the low frequency but not the high frequency range; <ref type="bibr" coords="2,118.94,666.39,75.46,6.03" target="#b20">Murray &amp; Forster, 2004)</ref>, and implies that representations are promoted as a function of distance from threshold (for detailed explanation see <ref type="bibr" coords="2,107.04,683.56,54.99,6.03" target="#b12">Gollan et al., 2008)</ref>.</p><p>active is more frequent than the passive, e.g., <ref type="bibr" coords="3,208.40,207.48,49.84,7.53;3,41.16,217.97,79.82,7.53" target="#b4">Bresnan, Dingare, &amp; Manning, 2001</ref>, and, at least for human possessors, pre-modified possessive NPs are more frequent than postmodified possessive NPs, e.g., <ref type="bibr" coords="3,162.48,238.89,72.15,7.53" target="#b25">Szmrecsanyi, 2009)</ref>. 3 This allowed us to assess whether the retrieval of syntactic representations would, like the retrieval of lexical and phonological representations (e.g., <ref type="bibr" coords="3,144.11,270.24,78.22,7.53" target="#b12">Gollan et al., 2008;</ref><ref type="bibr" coords="3,227.62,270.24,34.69,7.53;3,41.16,280.72,55.79,7.53" target="#b8">Gollan &amp; Goldrick, 2012)</ref>, be modulated by the frequency of use of different syntactic structures. If so, bilinguals should show larger frequency effects than monolinguals in both syntactic alternations (i.e., a greater disadvantage for lower frequency structures, see <ref type="table" coords="3,96.43,322.56,25.19,7.53" target="#tab_0">Table 1</ref>). However, shared or interacting syntax across languages might lead to frequency inheritance from one language to another, and/or it might lead bilinguals to experience less competition from co-activated representations of the unintended language. In this way, frequency effects might also bemodulated by bilingual speakers' experience with a given structure through their other language. In the case of the active-passive alternation, the English frequency distribution of the constructions is largely congruent with that of the other two languages (i.e., the active is more frequent than the passive in all three languages though in English the passive is used about twice as frequently as in Spanish and Mandarin, e.g., <ref type="bibr" coords="3,234.65,448.08,27.71,7.53;3,41.16,458.57,51.34,7.53" target="#b3">Blanco-Gómez, 2002;</ref><ref type="bibr" coords="3,95.13,458.57,106.72,7.53" target="#b26">Xiao, McEnery, &amp; Qian, 2006)</ref>. 4 Thus, granted that syntactic retrieval is modulated by frequency of use, both Mandarin-English bilinguals and Spanish-English bilinguals might be relatively more disadvantaged in the passive construction compared to the active regardless whether syntax is shared or not across languages. A more critical contrast for providing evidence for shared syntax, was the pre versus post-modified possessive NP alternation, where the frequency distribution differs across languages (see <ref type="table" coords="3,304.16,207.48,26.00,7.53" target="#tab_0">Table 1</ref>). In Mandarin, possessive NPs are always premodified (i.e., ''??????/Nu ren de ying er che'' [woman possessive particle stroller]), while in Spanish all non-pronominal possessive NPs are post-modified (i.e., ''la carreola de la mujer'' [the stroller of the woman]). Thus, if syntax is shared across languages, the higher frequency of the Mandarin pre-modified possessiveconstruction specifically -which in English is the more frequent and so faster-to-produce construction of the pair -will speed its production (relative to if syntax were not shared). At the same time, the lower (zero) frequency of the Mandarin post-modified possessive construction specifically -which in English is the lower frequency and so slower-to-produce construction of the pairwill not speed its production (again, relative to if syntax were not shared). Thus, for Mandarin-English bilinguals, shared syntax should speed the faster English construction and should not affect the speed of production of the slower English construction, resulting in a larger difference between these constructions -a larger frequency effect -relative to if syntax is not shared (which itself is reflected by the size of the same difference in monolinguals). Meanwhile, shared syntax for the Spanish-English bilinguals predicts a different pattern for production of the possessive constructions. Thelower frequency of the Spanish pre-modified possessive specifically -which in English is the more frequent and so faster-to-produce construction of the pair -will not speed its production (relative to if syntax were not shared). At the same time, the higher frequency of the Spanish postmodified possessive specifically -which in English is the less frequent and so slower-to-produce construction of the pair -will speed its production. Thus, for Spanish-English bilinguals, shared syntax should not speed the faster English construction, but it should speed the slower English construction more, resulting in a smaller difference between these constructions -a smaller frequency effect -relative to if syntax is not shared. Note that these predicted influences of shared syntax may be on top of an overall main effect of bilingualism, where overall, bilinguals are slower than monolinguals, perhaps because of slower lexical retrieval in bilingual speakers (relative to monolingual speakers)that is not compensated for by the additional operations involved in full sentence production (e.g., <ref type="bibr" coords="3,482.23,636.35,25.21,7.53;3,286.24,646.84,56.67,7.53" target="#b23">Spieler &amp; Griffin, 2006)</ref>. More generally, any differential impact of the variables we manipulated (i.e., syntactic frequency and cross-language similarity) on response times between monolingual and bilingual speakers would indicate a generalization of the bilingual disadvantage to syntactic retrieval above and beyond lexical retrieval.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Participants</head><p>Forty-six monolinguals, 50 early and high-proficiency Spanish-English bilinguals, and 49 early and high-proficiency Mandarin-English bilinguals took part in the experiment. Before the experiment, participants completed a language history and proficiency questionnaire. They also named pictures from the Multilingual Naming Test (MINT; <ref type="bibr" coords="4,36.85,195.34,211.38,7.53" target="#b13">Gollan, Weissberger, Runnqvist, Montoya, &amp; Cera, 2012)</ref> in English and (for bilingual participants) their other language. Finally, they completed a vocabulary and matrices reasoning tests (see <ref type="table" coords="4,116.67,226.75,26.93,7.53" target="#tab_1">Table 2</ref>). To test a homogeneous set of bilinguals, 10 Spanish-English bilinguals and 14 Mandarin-English bilinguals who reported being dominant in Spanish or Mandarin were excluded from the analyses. The remaining bilinguals were dominant in English as revealed by their naming accuracy on the MINT. Twelveparticipants of the monolingual group reported having some experience with a foreign language, but were for all practical purposes monolingual at the time of testing. Participants without at least one observation in each condition were excluded (5 monolinguals, 6 Spanish-English bilinguals and 1 Mandarin-English bilingual), leaving 41 monolinguals, 34 Spanish-English bilinguals and 34 Mandarin-English bilinguals in the analyses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Materials</head><p>The stimuli consisted of four agents (e.g., woman), eight objects (e.g., stroller), 32 verbs (e.g., push) and 32 adjectival phrases (e.g., is pink). The four agents were combined with eight objects each (e.g., woman, stroller). In turn, these combinations were paired with (a) a verb (e.g., woman, stroller, push), and (b) an adjectival phrase (e.g., woman, stroller, is pink). All combinations could elicit two different responses (e.g., ''the woman pushes the stroller'' or ''the stroller is pushed by the woman'' for the active vs. passive alternation, and ''the woman's stroller is pink'' and ''the stroller of the woman is pink'' for the pre vs. post-modified NP alternation), resulting in a total of 128 possible sentences. Words were presented in black font (12 point) on a white background.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Procedure</head><p>All trials (see <ref type="figure" coords="4,110.49,588.23,22.64,7.53" target="#fig_1">Fig. 1</ref>) began with a fixation cross (500 ms) and a blank screen (500 ms), followed by a first screen (1500 ms) containing either a verb (push) or an adjectival phrase (is pink). Then participants saw another blank screen (250 ms) and a second screen (until voice onset) containing an agent and an object (''woman stroller''). Participants were instructed to form grammatical English sentences as quickly as possible by combining the words from the first screen with those from the second screen, using the linear order in which the latter appeared (''wo-man stroller'' or ''stroller woman''). They were also instructed to add the determiner ''the'' where it was needed. Speakers were familiarized with this procedure in 12 practice trials before the experiment. The experiment consisted of two blocks of 32 sentences each (each speaker was presented with all combinations of agents, objects, verbs and adjectival phrases, but only had to produce one alternative of the syntactic alternation for a given combination). In this way, each speaker produced a total of 64 sentences (16 actives, passives, pre-modified possessive NPs and post-modified possessive NPs). Four different lists were created in which the combinations of agents, objects, verbs and adjectival phrases were counterbalanced, and the 32 combinations of each block were presented in a random order. The experiment was administered on Apple Macintosh computers running PsyScope <ref type="bibr" coords="4,449.51,211.61,53.64,7.53;4,281.93,222.10,120.38,7.53">(Cohen, Mac-Whinney, Flatt, &amp; Provost, 1993)</ref>. Vocal responses were recorded using a head-worn microphone connected to a PsyScope button box (measuring response times) and a standard recorder.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Analyses</head><p>Untargeted constructions (13% of the data, e.g., ''the woman is pushing the stroller'', ''the stroller that the woman pushes'' etc.), errors (5%, of the data corresponding to partial repetitions, target word recall failures, omissions and voice-key triggering failures) and trials with response times three standard deviations below or above the average of each subject (2% of the data) were removed. The remaining data were included in separate ANOVAs for each alternation (active/passive, pre/post-modified possessive) with English structural frequency (low vs. high frequency) as a within-subjects variable and group (monolinguals vs. Mandarin-English bilinguals and monolinguals vs. Spanish-English bilinguals) as a between-subjects variable (see <ref type="figure" coords="4,299.79,436.52,18.94,7.53" target="#fig_2">Fig. 2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Results</head><p>Bilinguals were generally slower than monolinguals. Mandarin-English bilinguals were overall 749 ms slower than monolinguals in the active-passive alternation Next, we looked at interactions between English structural frequency and language group. In the active-passive alternation, frequency effects were larger for both Spanish-English bilinguals (1109 ms) and Mandarin-English bilinguals (1119 ms) compared to monolinguals (605 ms). The larger frequency effects for bilinguals compared to monolinguals was supported by interactions of English frequency by group for all comparisons between monolinguals and bilinguals, although for Spanish-English  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Discussion</head><p>The first goal of this study was to assess whether the bilingual speech production disadvantage would extend to production of full sentences. Results showed that it did. Though consistent with the finding of a bilingual disadvantage for production of noun-phrases (e.g., <ref type="bibr" coords="6,237.32,640.50,20.69,7.53;6,36.85,650.99,46.18,7.53" target="#b21">Sadat et al., 2012)</ref>, the current data go beyond these data in several ways. The present study involved different types of larger and syntactically more complex utterances than those of <ref type="bibr" coords="6,69.67,682.39,69.05,7.53" target="#b21">(Sadat et al., 2012)</ref>. Thus, additional morpho-syn-tactic operations such as verb inflection and extended speech planning were required to perform the task. We hypothesized that the lexical retrieval disadvantage might become undetectable when intermixed with other processes or that bilinguals might even compensate for their less efficient word retrieval by developing greater efficiency in these languagenon-specific processes, attenuating in this way the bilingual disadvantage (e.g., <ref type="bibr" coords="6,281.93,138.37,87.99,7.53" target="#b23">Spieler &amp; Griffin, 2006)</ref>. Our findings suggest that this is not the case.</p><p>A second goal of this study was to assess whether syntactic retrieval would create a disadvantage beyond that of lexical retrieval. We hypothesized that if this were the case, bilinguals might be relatively more disadvantaged for low frequency than for high frequency structures, mimicking findings in single word production. Finally, we wanted to assess whether frequency effects might also be modulated by bilingual speakers' experience with a given structure through their other language. Results indeed showed that both syntactic frequency and cross-language similarity affected bilingual speakers in a different way than monolingual speakers, indicating that the bilingual disadvantage generalizes to the retrieval of syntactic structures above and beyond the previously reported lexical retrieval disadvantage. More concretely, in the active-passive alternation, both Spanish-English and Mandarin-English bilinguals showed larger frequency effects than monolinguals. This result might be caused by a frequency-lag relative to English alone, or by an additional influence of bilingual speakers' other language because passives are even lower frequency in Mandarin and Spanish than in English, or by both factors. More importantly, a frequency-lag relative to English alone could not explain the results obtained for the pre versus post-modified NP alternation, and this result therefore seems to call for some form of sharing in how frequency of syntactic structures accumulates across languages. As predicted by the shared syntax account, Mandarin-English bilinguals but not Spanish-English bilinguals exhibited larger frequency effects than monolinguals. Recall that this was the expected pattern according to the shared syntax hypothesis for more than one reason (i.e., because of high frequency of Mandarin pre-modified NPs and Spanish post-modified NPs relative to English, or because of the absence of post-modified NPs in Mandarin and pre-modified NPs in Spanish). A question for future research is to identify more precisely how syntax is shared (or interactive) between languages, and our data do not suggest a simple answer to this question. For example, the interaction between frequency and group (comparing Mandarin-English bilinguals to monolinguals) was at least partially driven by the lack of a bilingual disadvantage in the pre-modified possessive construction that is high frequency in Mandarin increasing the frequency effect in the pre versus post-modified NP alternation. That is, the absence of a post-modified possessive in Mandarin did not seem to be the only factor in play that increased the frequency effect.</p><p>Similarly, Spanish-English bilinguals did not show a smaller frequency effect than monolinguals, and were not fastest of all to produce the post-modified possessiveeven though this structure is very high frequency in Span- ish and as would have been predicted if frequency of syntactic structures fully inherited across languages. On this view, Spanish-English bilinguals should have been most disadvantaged of all structures for the pre-modified possessives that do not exist in Spanish, and should have produced the post-modified possessives more quickly than monolinguals because these are very high frequency in Spanish and low frequency in English. Although we observed a disadvantage for the pre-modified possessives, we did not observe a Spanish-English bilingual advantage for the post-modified possessives. One possible reason why the influence of non-target language syntax was clearer in the English-Mandarin group is that in Mandarin, all possessive forms are pre-modified, while in Spanish only some of the possessive forms (the non-pronominal ones) are post-modified. Another possibility is that since the speakers we tested use English more often than their other language, their overall frequency distribution between alternative structures is pulled towards that of English, rendering cross-language effects that are congruent with the English distribution (as in the Mandarin case) larger than those that are not (as in the Spanish case). Taken together, these results lend support to accounts that propose interactive or partially shared syntax across languages (e.g., <ref type="bibr" coords="7,91.62,305.78,110.54,7.53" target="#b1">Bates &amp; MacWhinney, 1981;</ref><ref type="bibr" coords="7,205.62,305.78,56.70,7.53;7,41.16,316.21,21.81,7.53" target="#b2">Bernolet et al., 2007;</ref><ref type="bibr" coords="7,64.86,316.21,85.36,7.53" target="#b14">Hartsuiker et al., 2004;</ref><ref type="bibr" coords="7,152.10,316.21,76.00,7.53" target="#b18">MacWhinney, 2005)</ref> and suggest that such interactivity is relevant for language production as it occurs for bilinguals in contexts in which only one language is used. At the same time, some limitations on the extent of sharing and transfer across languages also seems to be indicated.</p><p>To conclude, like single word production, bilinguals are disadvantaged in sentence production relative to monolinguals, particularly for retrieval of low-frequency syntactic structures, and in a manner that also requires assuming some degree of between-language influence in how structural frequency is counted in bilingual speakers. A topic for future study will be to identify which aspects of bilingual experience seem more important for dictating the extent and manner of sharing. In addition to having implications for understanding bilingual language production, the current results are relevant more broadly for understanding grammatical encoding, and possible contextual influence (i.e., language membership) on fluent retrieval of syntactic structures.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="4,281.93,514.51,190.07,8.29;4,471.97,513.42,3.48,5.02;4,477.47,514.98,25.63,7.53;4,281.94,525.00,188.09,8.29;4,470.04,523.85,3.48,5.02;4,475.48,525.47,27.65,7.53;4,281.94,535.90,221.16,7.53;4,281.94,546.39,219.15,7.53;4,281.94,556.35,85.81,8.29;4,367.77,555.26,3.48,5.02;4,373.21,556.82,127.88,7.53;4,281.94,566.84,76.01,8.29;4,357.90,565.69,3.48,5.02;4,363.40,567.31,139.74,7.53;4,281.93,577.74,221.17,7.53;4,281.93,588.23,219.16,7.53;4,281.93,598.19,33.66,8.29;4,315.61,597.10,3.48,5.02;4,321.05,598.66,180.04,7.53;4,281.93,608.68,30.20,8.29;4,312.15,607.53,3.48,5.02;4,317.59,609.15,185.48,7.53;4,281.93,619.58,219.15,7.53;4,281.93,629.60,141.21,8.29;4,423.10,628.45,3.48,5.02;4,428.60,630.07,72.49,7.53;4,281.93,640.03,131.34,8.29;4,413.29,638.94,3.48,5.02;4,418.73,640.50,27.73,7.53;4,293.61,650.99,209.49,7.53;4,281.93,661.42,221.22,7.53;4,281.93,671.91,221.18,7.53;4,281.93,682.39,221.18,7.53;5,41.16,523.37,221.20,7.53;5,41.16,533.80,219.15,7.53;5,41.16,543.82,83.44,8.29;5,124.55,542.67,3.48,5.02;5,130.05,544.29,130.26,7.53;5,41.16,554.25,72.78,8.29;5,113.90,553.16,3.48,5.02;5,119.40,554.72,142.95,7.53;5,41.16,564.74,209.18,8.29;5,250.36,563.59,3.48,5.02;5,255.80,565.21,4.52,7.53;5,41.16,575.64,221.15,7.53;5,41.16,585.66,9.39,8.29;5,50.57,584.51,3.48,5.02;5,56.01,586.13,206.28,7.53;5,41.16,596.09,190.13,8.29;5,231.31,595.00,3.48,5.02;5,236.75,596.56,25.60,7.53;5,41.16,606.58,167.34,8.29;5,208.52,605.43,3.48,5.02;5,213.96,607.05,48.36,7.53;5,41.16,617.48,221.17,7.53;5,41.16,627.50,114.39,8.29;5,155.57,626.35,3.48,5.02;5,161.01,627.97,101.32,7.53;5,41.16,637.93,104.81,8.29;5,145.93,636.84,3.48,5.02;5,151.43,638.40,110.90,7.53;5,41.16,648.89,221.15,7.53;5,41.16,658.85,9.39,8.29;5,50.57,657.76,3.48,5.02;5,56.01,659.32,206.30,7.53;5,41.16,669.34,9.39,8.29;5,50.57,668.19,3.48,5.02;5,56.01,669.81,206.28,7.53;5,41.16,679.77,190.02,8.29;5,231.19,678.68,3.48,5.02;5,236.69,680.24,25.63,7.53;5,286.24,522.90,190.07,8.29;5,476.28,521.75,3.48,5.02;5,481.78,523.37,25.63,7.53;5,286.24,533.80,219.15,7.53;5,286.24,543.82,141.26,8.29;5,427.46,542.67,3.48,5.02;5,432.96,544.29,72.43,7.53;5,286.24,554.25,133.49,8.29;5,419.75,553.16,3.48,5.02;5,425.25,554.72,82.13,7.53;5,286.24,565.21,219.15,7.53;5,286.24,575.17,83.44,8.29;5,369.64,574.08,3.48,5.02;5,375.14,575.64,130.26,7.53;5,286.24,585.66,75.44,8.29;5,361.64,584.51,3.48,5.02;5,367.14,586.13,27.67,7.53"><head>(</head><label></label><figDesc>F1(1, 73) = 9.29, MSE = 2245843, p = .003, gp 2 = .113; F2(1, 62) = 68.194, MSE = 156856, p &lt; .001, gp 2 = .524), and 382 ms slower than monolinguals in the pre versus post-modified NP alternation (F1(1, 73) = 3.74, MSE = 1446850, p = .057, gp 2 = .049; F2(1, 62) = 17.497, MSE = 129878, p &lt; .001, gp 2 = .220). Also, Spanish-English bilinguals were 791 ms slower than monolinguals in the activepassive alternation (F1(1, 73) = 11.94, MSE = 1948192, p = .001, gp 2 = .141; F2(1, 62) = 62.443, MSE = 207656, p &lt; .001, gp 2 = .502) and 559 ms slower than monolinguals in the pre versus post-modified NP alternation (F1(1, 73) = 8.34, MSE = 1392159, p = .005, gp 2 = .102; F2(1, 62) = 39.254, MSE = 180693, p &lt; .001, gp 2 = .388). Planned comparisons for each construction were also conducted. These corroborated the presence of a bilingual disadvantage in all constructions, except for the Mandarin-English bilinguals who were not slower than monolinguals for the pre-modified possessives (actives Mand-Eng vs. monolinguals: F1(1, 73) = 6.162, MSE = 730279, p = .015, gp 2 = .078; F2(1, 62) = 15.695, MSE = 66,249, p &lt; .001, gp 2 = .202; passives Mand-Eng vs. monolinguals: F1(1, 73) = 9.550, MSE = 1969572, p &lt; .003, gp 2 = .116 // F2(1, 62) = 42.940, MSE = 302753, p &lt; .001, gp 2 = .409; pre-modified Mand-Eng vs. monolinguals: F1(1, 73) = 1.027, MSE = 468225, p = .314, gp 2 = .014; F2(1, 62) = 2.111, MSE = 98,478, p = .151, gp 2 = .033; postmodified Mand-Eng vs. monolinguals: F1(1, 73) = 4.696, MSE = 1436766, p = .033, gp 2 = .060; F2(1, 62) = 19.002, MSE = 147803, p &lt; .001, gp 2 = .235; actives Span-Eng vs. monolinguals: F1(1, 73) = 10.455, MSE = 517284, p = .002, gp 2 = .125; F2(1, 62) = 22.114, MSE = 199542, p &lt; .001, gp 2 = .263; passives Span-Eng vs. monolinguals: F1(1, 73) = 11.183, MSE = 1807266, p = .001, gp 2 = .133; F2(1, 62) = 17.243, MSE = 519119, p &lt; .001, gp 2 = .218; pre-modified Span-Eng. vs. monolinguals: F1(1, 73) = 7.191, MSE = 656897, p = .009, gp 2 = .090; F2(1, 62) = 21.945, MSE = 157428, p &lt; .001, gp 2 = .261; post-modified Span-Eng vs. monolinguals: F(1, 73) = 7.167, MSE = 975684, p = .009, gp 2 = .089; F2(1, 62) = 17.256, MSE = 210909, p &lt; .001, gp 2 = .218).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="5,79.20,495.97,390.14,6.03"><head>Fig. 1 .</head><label>1</label><figDesc>Schematic representation of the experimental procedure illustrated through an example of each type of target structure. bilinguals this interaction only reached significance in the F1 analysis (Mand-Eng bilinguals vs. monolinguals: F1(1, 73) = 5.41, MSE = 454009, p = .023, gp 2 = .069; F2(1, 62) = 15.760, MSE = 212146, p &lt; .001, gp 2 = .203;Span-Eng bilinguals vs. monolinguals: F1(1, 73) = 6.26, MSE = 376358, p = .015, gp 2 = .079; F2 &lt; 1). In the pre versus post-modified NP alternation, frequency effects were larger for Mandarin-English bilinguals (740 ms) but not for Spanish-English bilinguals (407 ms) compared to monolinguals (298 ms). This was confirmed by an interaction frequency by group in the comparison between Mandarin-English bilinguals and monolinguals (F1(1, 73) = 3.96, MSE = 458141, p = .050, gp 2 = .051; F2(1, 62) = 6.392, MSE = 116403, p = .014, gp 2 = .093) and the lack of such an interaction for the comparison between Spanish-English bilinguals and monolinguals (F1 &lt; 1; F2 &lt; 1).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="6,36.85,322.43,221.18,6.03;6,36.85,330.99,221.16,6.03;6,36.85,339.55,221.19,6.03;6,36.85,348.11,221.17,6.03;6,36.85,356.67,108.64,6.03"><head>Fig. 2 .</head><label>2</label><figDesc>Response times for the active and passive constructions (top) and the pre-modified possessive NP and post-modified possessive NP constructions (bottom) broken down by group of speakers (English monolinguals, English-Spanish bilinguals and English-Mandarin bilinguals). Error bars represent standard error.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="3,41.16,54.16,455.19,635.43"><head>Table 1</head><label>1</label><figDesc>Schematic representation of the hypotheses tested and the predictions these generate.</figDesc><table coords="3,53.97,77.06,442.37,99.91">Predictions 
+
+Hypothesis 
+Group effect 
+Frequency by group interaction 
+
+Mere extension of bilingual lexical retrieval 
+disadvantage to full sentence production 
+
+Yes 
+No 
+
+Compensatory processing in connected speech 
+neutralizing the bilingual disadvantage 
+
+No 
+-
+
+Additional disadvantage in syntactic retrieval only 
+affected by target language properties 
+
+Yes 
+Yes, larger frequency effects for bilingual 
+speakers 
+Additional disadvantage in syntactic retrieval also 
+affected by properties of the other language 
+(shared syntax) 
+
+Presence, size and polarity of the effect 
+dependent on the frequency of a given structure 
+across languages 
+
+Presence and form of the interaction 
+dependent on the frequency congruency 
+across languages 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="5,41.16,54.73,458.53,233.42"><head>Table 2</head><label>2</label><figDesc>Description of participant characteristics. Numbers represent means of the indicated measure and numbers in parentheses represent standard deviations.</figDesc><table coords="5,46.94,77.57,448.90,210.58">Group 
+Age 
+Age first 
+exposure to 
+English 
+
+Age onset 
+regular use of 
+English 
+
+Age first 
+exposure to other 
+language 
+
+Age onset regular 
+use of other 
+language 
+
+Percent of daily use 
+of English 
+currently 
+
+Percent of daily use of 
+English when growing 
+up 
+
+Monolinguals 20.29 
+0.30 
+1.63 
+10.39 
+13.00 a 
+98.95 
+95 
+(1.74) (0.73) 
+(1.77) 
+(4.38) 
+(5.24) 
+(2) 
+(7) 
+Mandarin 
+bilinguals 
+
+20.21 
+3.13 
+4.97 
+0.51 
+2.65 
+90 
+66 
+
+2.38 
+(3.81) 
+(3.83) 
+(0.84) 
+(2.19) 
+(9) 
+(16) 
+Spanish 
+bilinguals 
+
+21.44 2.95 
+4.81 
+0.51 
+1.56 
+86 
+65 
+
+(3.71) (2.52) 
+(3.08) 
+(1.51) 
+(1.98) 
+(11) 
+(15) 
+
+Group 
+Years of 
+education 
+
+Scores 
+matrices (1-
+46) 
+
+Scores shipley 
+vocabulary (1-40) 
+
+Percent correct English 
+picture naming 
+
+Percent correct other 
+language naming 
+
+Self rated English 
+proficency (1-10) 
+
+Monolinguals 13.78 
+38.56 
+32.00 
+96 
+N.A. 
+9.58 
+(1.42) 
+(4.24) 
+(2.85) 
+(3) 
+(0.60) 
+Mandarin 
+bilinguals 
+
+13.50 
+39.18 
+30.41 
+92 
+64 
+9.18 
+
+(0.99) 
+(4.64) 
+(3.16) 
+(5) 
+(21) 
+(0.80) 
+Spanish 
+bilinguals 
+
+14.03 
+35.53 
+30.24 
+92 
+69 
+9.69 
+
+(1.40) 
+(4.08) 
+(3.09) 
+(4) 
+(15) 
+(0.50) 
+
+a The mean corresponds to the 12 monolingual participants who answered this question. 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">Bilingual disadvantages have also been observed in language comprehension (e.g.,<ref type="bibr" coords="2,319.98,649.27,56.80,6.03" target="#b10">Gollan et al., 2011)</ref>. However, the effects are usually more robust in language production. Therefore, when exploring a subtle contrast such as frequency and cross-language similarity within the bilingual disadvantage, a production task presumably maximizes the chances of observing any such effect.</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head><p>This work was supported by Grants from NICHD (HD050287 and HD051030) and NIDCD (011492), and the Spanish Government (PSI2008-01191, Consolider Ingenio 2010 CSD2007-00012), and the Catalan government (Consolidado SGR 2009-1521), a predoctoral grant (FI) and a travelling grant (BE) from the Catalan government. The authors are grateful to Kristof Strijkers, Rob Hartsuiker, Gerry Altmann and two anonymous reviewers for their comments on previous versions of this manuscript.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="7,286.30,74.74,221.06,6.03;7,298.21,82.68,189.67,6.03" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Whose? L2-English speakers&apos; possessive pronoun gender errors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Antón-Méndez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bilingualism: Language and Cognition</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,90.67,221.11,6.03;7,298.21,98.66,209.16,6.03;7,298.21,106.60,209.21,6.03;7,298.21,114.60,209.20,6.03;7,298.21,122.53,177.94,6.03" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Second language acquisition from a functionalist perspective: Pragmatic, semantic and perceptual strategies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Macwhinney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Annals of the New York Academy of Sciences conference on native and foreign language acquisition</title>
+		<editor>H. Winitz</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>New York Academy of Sciences</publisher>
+			<date type="published" when="1981" />
+			<biblScope unit="page" from="190" to="214" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,130.53,221.13,6.03;7,298.21,138.52,209.20,6.03;7,298.21,146.46,209.21,6.03;7,298.21,154.45,78.95,6.03" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Shared syntactic representations in bilinguals: evidence for the role of word-order repetition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Bernolet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Hartsuiker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Pickering</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology. Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="931" to="949" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,162.39,221.08,6.03;7,298.21,170.38,209.18,6.03;7,298.21,178.38,209.17,6.03;7,298.21,186.31,209.19,6.03;7,298.21,194.31,113.20,6.03" xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Conceptualization of events in newspaper discourse: Mystification of events and degree of implication in news reports</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Blanco-Gómez</surname></persName>
+		</author>
+		<editor>Marín Arrese, J. I.</editor>
+		<imprint>
+			<date type="published" when="2002" />
+		</imprint>
+		<respStmt>
+			<orgName>Universidad Complutense de Madrid</orgName>
+		</respStmt>
+	</monogr>
+	<note>Hiding the agent in English and Spanish newspaper articles: The periphrastic passive</note>
+</biblStruct>
+
+<biblStruct coords="7,286.30,202.24,221.08,6.03;7,298.21,210.24,209.19,6.03;7,298.21,218.17,164.88,6.03" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Soft constraints mirror hard constraints: Voice and person in English and Lummi</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bresnan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dingare</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Manning</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the LFG 01 conference</title>
+		<meeting>the LFG 01 conference</meeting>
+		<imprint>
+			<publisher>CSLI Publications</publisher>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,226.17,221.08,6.03;7,298.21,234.16,209.20,6.03;7,298.21,242.10,209.19,6.03;7,298.21,250.09,209.21,6.03;7,298.21,258.03,39.10,6.03" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">PsyScope: An interactive graphical system for designing and controlling experiments in the psychology laboratory using Macintosh computers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Macwhinney</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Flatt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Provost</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behavior Research Methods, Instruments, and Computers</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="257" to="271" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,266.02,221.10,6.03;7,298.21,274.02,209.21,6.03;7,298.21,281.95,209.16,6.03;7,298.21,289.95,35.92,6.03" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The cognate facilitation effect: Implications for models of lexical access</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Caramazza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Sebastian-Galles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1283" to="1296" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,297.88,221.12,6.03;7,298.21,305.88,209.19,6.03;7,298.21,313.81,191.43,6.03" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">How incremental is language production? Evidence from the production of utterances requiring the computation of arithmetic sums</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Swets</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Memory and Language</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="57" to="84" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,321.81,221.09,6.03;7,298.21,329.80,82.58,6.03" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Does bilingualism twist your tongue?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">H</forename><surname>Gollan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Goldrick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="491" to="497" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,337.74,221.10,6.03;7,298.21,345.73,209.22,6.03;7,298.21,353.67,135.70,6.03" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Proper names get stuck on bilingual and monolingual speakers&apos; tip of the tongue equally often</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">H</forename><surname>Gollan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">P</forename><surname>Bonanni</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">I</forename><surname>Montoya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychology</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="278" to="287" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,361.66,221.08,6.03;7,298.21,369.66,209.20,6.03;7,298.21,377.59,209.18,6.03;7,298.21,385.59,112.97,6.03" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Frequency drives lexical access in reading but not in speaking: The frequency-lag hypothesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">H</forename><surname>Gollan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">J</forename><surname>Slattery</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Goldenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Van Assche</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Duyck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Rayner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: General</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="186" to="209" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,393.53,221.07,6.03;7,298.21,401.52,209.22,6.03;7,298.21,409.46,111.62,6.03" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Translation-priming effects of tip-of-the-tongue states</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">H</forename><surname>Gollan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">S</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Cera</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Flett</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01690965.2012.762457</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Language and Cognitive Processes</title>
+		<imprint/>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct coords="7,286.30,417.45,221.07,6.03;7,298.21,425.44,209.20,6.03;7,298.21,433.38,209.22,6.03;7,298.21,441.37,28.27,6.03" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">More use almost always means a smaller frequency effect: Aging, bilingualism, and the weaker links hypothesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">H</forename><surname>Gollan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">I</forename><surname>Montoya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Cera</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Sandoval</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Memory and Language</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="787" to="814" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,449.31,221.13,6.03;7,298.21,457.30,209.19,6.03;7,298.21,465.30,209.18,6.03;7,298.21,473.23,209.14,6.03;7,298.21,481.23,51.51,6.03" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Self-ratings of spoken language dominance: A Multilingual Naming Test (MINT) and preliminary norms for young and aging Spanish-English bilinguals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">H</forename><surname>Gollan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">H</forename><surname>Weissberger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Runnqvist</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Montoya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Cera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bilingualism: Language and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">03</biblScope>
+			<biblScope unit="page" from="594" to="615" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,489.17,221.08,6.03;7,298.21,497.16,209.18,6.03;7,298.21,505.10,187.23,6.03" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Is syntax separate or shared between languages? Cross-linguistic syntactic priming in Spanish/English bilinguals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Hartsuiker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Pickering</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Veltkamp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="409" to="414" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,513.09,221.09,6.03;7,298.21,521.08,159.51,6.03" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Does bilingualism hamper lexical access in speech production?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Ivanova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Costa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Psychologica</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="277" to="288" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,529.02,221.08,6.03;7,298.21,537.01,209.17,6.03;7,298.21,544.95,42.67,6.03" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Language selection in bilingual speech: Evidence for inhibitory processes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Kroll</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Bobb</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Misra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Guo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Psychologica</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="416" to="430" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,552.95,221.09,6.03;7,298.21,560.94,81.44,6.03" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Structural priming across languages</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Loebell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Bock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Linguistics</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="791" to="824" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,568.88,221.08,6.03;7,298.21,576.87,209.21,6.03;7,298.20,584.81,98.51,6.03" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A unified model of language acquisition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Macwhinney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of bilingualism</title>
+		<editor>J. Kroll &amp; A. DeGroot</editor>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2005" />
+			<biblScope unit="page" from="49" to="67" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,592.80,221.13,6.03;7,298.21,600.79,209.20,6.03;7,298.21,608.73,139.16,6.03" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Planning in sentence production: Evidence for the phrase as a default planning scope</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Crowther</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">P</forename><surname>Tamborello</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="77" to="92" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,616.73,221.10,6.03;7,298.21,624.66,172.78,6.03" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Serial mechanisms in lexical access: The rank hypothesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">S</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">I</forename><surname>Forster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="721" to="756" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,632.66,221.11,6.03;7,298.21,640.59,209.21,6.03;7,298.21,648.59,124.70,6.03" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Characterizing the bilingual disadvantage in noun phrase production</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Sadat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">X</forename><surname>Alario</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Costa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Psycholinguistic Research</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="159" to="179" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,286.30,656.58,221.11,6.03;7,298.21,664.52,209.15,6.03;7,298.21,672.51,141.94,6.03" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Syntactic processing in Korean-English bilingual production: Evidence from cross-linguistic structural priming</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Christianson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="175" to="180" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,36.91,54.73,221.12,6.03;8,48.81,62.66,209.21,6.03;8,48.81,70.66,119.49,6.03" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The influence of age on the time course of word preparation in multiword utterances</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">H</forename><surname>Spieler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><forename type="middle">M</forename><surname>Griffin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Language and Cognitive Processes</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1/2/3</biblScope>
+			<biblScope unit="page" from="291" to="321" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,36.91,78.60,221.10,6.03;8,48.81,86.59,209.22,6.03;8,48.81,94.58,209.20,6.03;8,48.81,102.52,28.27,6.03" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Tracking lexical access in speech production: Electrophysiological correlates of word frequency and cognate effects</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Strijkers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Thierry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cerebral Cortex</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="912" to="928" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,281.99,54.73,221.12,6.03;8,293.90,62.66,209.17,6.03;8,293.90,70.66,209.17,6.03;8,293.90,78.60,113.93,6.03" xml:id="b25">
+	<monogr>
+		<title level="m" type="main">The great regression: Genitive variability in Late Modern English news texts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Szmrecsanyi</surname></persName>
+		</author>
+		<editor>K. Börjars, D. Denison, &amp; A. Scott</editor>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>Benjamins</publisher>
+			<pubPlace>Amsterdam, Philadelphia</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Morphosyntactic categories and the expression of possession</note>
+</biblStruct>
+
+<biblStruct coords="8,281.99,86.59,221.12,6.03;8,293.90,94.58,209.17,6.03;8,293.90,102.52,44.08,6.03" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Passive constructions in English and Chinese: A corpus-based contrastive study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Mcenery</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Qian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Languages in Contrast</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="109" to="149" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

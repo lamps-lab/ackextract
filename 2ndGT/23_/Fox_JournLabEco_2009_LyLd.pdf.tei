@@ -1,0 +1,1822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Firm-Size Wage Gaps, Job Responsibility, and Hierarchical Matching</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2009">2009</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeremy</forename><forename type="middle">T</forename><surname>Fox</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Chicago</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Firm-Size Wage Gaps, Job Responsibility, and Hierarchical Matching</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of Labor Economics</title>
+						<imprint>
+							<biblScope unit="volume">27</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2009">2009</date>
+						</imprint>
+					</monogr>
+					<note>83</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T14:59+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. Introduction</head><p>One of the key puzzles in labor economics is why larger firms pay observationally equivalent workers higher wages than smaller firms pay. In a competitive labor market, the law of one price should hold, and workers of the same ability should earn the same wage. Our failure to Thanks to helpful comments from seminar participants at Aarhus, Chicago, Stanford, and the DILEED conference in Wellington. Thanks to comments from Luis Garicano, Walter Oi, and Esteban Rossi-Hansberg. This article is part of the project Pay and Promotion in Swedish Private Industries 1970-90, which is under the leadership of Eva Meyersson-Milgrom, with financial support from the Swedish Council for Research in the Humanities and Social Sciences. Thanks to Arie Hietasalo, Å ke Kempe, and Svenskt Näringsliv for generously providing the SAF data and guidance on their use. The Kapnick Foundation provided support through a grant to the Stanford Institute for Economic Policy Research. Contact the author at fox@uchicago.edu. Fox <ref type="figure" coords="2,157.72,374.73,25.77,7.73">Fig. 1.</ref>-Establishment-size wage gaps by worker age for Swedish workers. The sample is male, full-time employees in the Swedish private sector. For blue-collar workers, the data are for 1990. For white-collar workers, I use data for 1970-90 to increase statistical precision. Information about the sample is in the data appendix. I estimate the set of 36 equations, where is the hourly log w p a ϩ g log n ϩ X b ϩ e for age p 25, … , 60, w it age age it it,age age it,age it wage of an individual worker i in year t, is his or her employer's total number of n it employees, a age is an age-specific intercept that captures concave age-wage profiles, and is a vector of nonworker ability control parameters, here indicators for county and X it industry as well as the log of contractual hours of work. I include year indicators for white-collar workers. Almost all firms in Sweden are unionized. The figure reports , the predicted wage gap between employers with 500 and 10 exp (log (500/10) 7 g ) Ϫ 1 age workers, which is motivated by the Swedish establishment-size distribution that the data appendix describes. The bounds represent 95% confidence intervals for the point estimates from the delta method. The standard errors allow for heteroskedasticity and clustering on employers within and, for white-collar workers, across years. For the 1970-90 white-collar sample, workers increase in age each year and so appear in each of the 36 age-specific regressions no more than once. However, the data are correlated across regressions, so comparisons of coefficients from different regressions should be done with care. explain firm-size wage gaps means economists do not understand key features of how firms and labor markets work.</p><p>This article presents a new stylized fact: firm-size wage gaps increase with job responsibility, evidenced through data from Sweden and the United States. <ref type="figure" coords="2,212.08,601.47,35.44,9.66">Figure 1</ref> presents one version of the new stylized fact. The figure shows how the wage gaps between large and small firms change over a career for both blue-and white-collar workers. The horizontal axis shows a variable correlated with job responsibility for white-collar workers in Sweden: worker age. The vertical axis depicts the predicted wagegap percentage between firms with 500 workers and firms with 10 work-ers. The prediction arises from many worker-age-specific regressions of log wages on log firm size. I run the regressions separately for whiteand blue-collar workers. Measures of worker ability, namely schooling, are not controls in the regressions. <ref type="figure" coords="3,306.12,183.65,36.42,9.66">Figure 1</ref> shows that firm-size wage gaps increase with age for white-collar but not for blue-collar workers. For white-collar workers at age 25, we see a small negative wage gap of Ϫ1.6% between establishments with 500 and 10 workers. By age 60, the wage gap is 6.4%. For blue-collar workers, the 3.4% wage gap at age 25 is almost the same as the 3.3% wage gap at age 60.</p><p>As I will argue, figure 1 is consistent with a hierarchical matching model in which white-collar workers advance with age in hierarchies and supervise other workers, and blue-collar workers remain at the bottom of the hierarchy. 1 Blue-collar workers are part of the hierarchy, and abler bluecollar workers in equilibrium match to the abler managers at larger firms. The wage gaps of white-collar workers increase with age because the older workers at larger firms supervise increasingly more workers. The negative firm-size wage gaps for younger white-collar workers suggest that other models beyond hierarchical matching may be at work, a point I acknowledge in more detail later. <ref type="bibr" coords="3,256.75,366.51,2.99,5.31">2</ref> The rest of the empirical work in this article replicates the stylized fact that firm-size wage gaps increase with job responsibility, using different countries and more direct measures of job responsibility. I focus on the United States, which has a relatively unregulated labor market, and Sweden, whose labor market has stronger regulations. For both economies, I find evidence that firm-size wage gaps increase with job responsibility. Therefore, labor-market regulations are less likely to drive the patterns seen in the data. <ref type="bibr" coords="3,219.89,464.54,2.99,5.31">3</ref> The private-sector data from the Swedish Employers' Federation (SAF in Swedish) for 1970-90 include a measure of job assignment, and hence 1 Some blue-collar workers advance to white-collar positions over time. The white-collar-worker age pattern of employer-size wage gaps is similar if I restrict the estimation sample to a group of highly educated workers, who almost never start off as blue-collar workers. <ref type="bibr" coords="3,158.72,551.63,2.69,4.74">2</ref> The exact age at which negative wage gaps become positive is sensitive to the controls included. The pattern of wage gaps increasing for white-collar workers as they age is robust across subsamples (specific schooling backgrounds, years of the data) of the estimation sample of male, full-time employees in the private sector. The upward-sloping pattern is not as clear for women, perhaps because age is less correlated with labor-market experience for women. <ref type="bibr" coords="3,158.72,611.41,2.69,4.74">3</ref> Many governments do regulate wages. Neoclassical hierarchical matching models use wages to enforce the optimal assignment of workers to firms, so predicted sorting patterns may possibly be muted in countries with regulated wage setting. Further, the prediction that firm-size wage gaps should increase with job responsibility also arises from assumptions about production functions and wage setting. all parameter choices I have examined, the Garicano and Rossi-Hansberg model shows that the difference in wages between workers at large and small firms should increase with job responsibility. I empirically show that firm-size wage gaps increase with measures of job responsibility, which confirms a key prediction of the model. I also confirm the model prediction that spans of control are greater at larger firms.</p><p>Section II discusses the previous empirical literature. In order to inform the interpretation of the empirical work, Section III presents an overview of the Garicano and Rossi-Hansberg hierarchical matching model as well as the new computational prediction that firm-size wage gaps increase with job responsibility. Section IV presents an overview of the data; the data appendix provides fuller details. Section V uses the detailed jobresponsibility measures from Sweden to investigate whether firm-size wage gaps increase with job responsibility. The key mechanism in a hierarchical matching model is supervision, so Section V.D looks at spans of control by firm size as well as how span-of-control wage gaps vary with job responsibility. Section VI looks at whether firm-size wage gaps increase with job responsibility in the United States. Finally, Section VII considers some explanations for the new stylized fact that do not involve hierarchical matching.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. Previous Literature</head><p>Positive firm-size wage gaps exist in data from many different countries and time periods <ref type="bibr" coords="5,224.55,446.26,110.88,9.66" target="#b7">(Brown and Medoff 1989;</ref><ref type="bibr" coords="5,338.36,446.26,62.30,9.66" target="#b24">Groshen 1991;</ref><ref type="bibr" coords="5,403.51,446.26,57.10,9.66;5,149.75,458.81,21.42,9.66" target="#b40">Oi and Idson 1999)</ref>. The data show that wage gaps exist even after controlling for observed employer and employee characteristics. Because larger employers are more likely to provide fringe benefits such as health insurance, total compensation gaps are even larger <ref type="bibr" coords="5,321.89,496.77,40.32,9.66" target="#b39">(Oi 1983;</ref><ref type="bibr" coords="5,365.20,496.77,95.43,9.66;5,149.75,509.42,21.44,9.66" target="#b13">Even and Macpherson 1994)</ref>. Addressing unmeasured ability with selection models <ref type="bibr" coords="5,414.02,509.42,46.61,9.66;5,149.75,522.07,54.65,9.66" target="#b27">(Idson and Feaster 1990)</ref>, better data <ref type="bibr" coords="5,259.50,522.07,56.40,9.66" target="#b45">(Troske 1999)</ref>, and worker fixed effects <ref type="bibr" coords="5,428.02,522.07,32.64,9.66;5,149.75,534.73,76.01,9.66" target="#b7">(Brown and Medoff 1989)</ref> does not eliminate positive estimates of firm-size wage gaps. However, workers in larger firms have higher levels of schooling, which is one measure of ability <ref type="bibr" coords="5,284.20,560.03,60.83,9.66" target="#b37">(Mellow 1982;</ref><ref type="bibr" coords="5,347.53,560.03,36.53,9.66" target="#b39">Oi 1983;</ref><ref type="bibr" coords="5,386.55,560.03,69.79,9.66" target="#b3">Barth et al. 1987)</ref>. Most importantly for the hierarchical production and equilibrium matching hypothesis, workers in larger firms are more productive .</p><p>Little prior research focuses on the correlation between job responsibility and firm-size wage gaps, although a few papers consider the related topic of firm-specific tenure and wage gaps. The survey by <ref type="bibr" coords="5,403.76,635.94,42.60,9.66" target="#b26">Idson and</ref><ref type="bibr" coords="5,449.05,635.94,11.63,9.66;5,149.75,648.60,117.24,9.66">Oi (1999, sec. 4.5.2, n. 40, and</ref><ref type="bibr" coords="5,270.58,648.60,54.99,9.66">also p. 2178)</ref> shows that the most common, but not universal, finding in the wage-tenure literature is that tenure profiles are steeper at larger firms. 4 Researchers might criticize a current focus on tenure because the newer empirical literature finds no causal increase in wages due to firm-specific human capital as opposed to industry-or occupation-specific human capital <ref type="bibr" coords="6,341.27,183.65,48.22,9.66" target="#b38">(Neal 1995;</ref><ref type="bibr" coords="6,391.58,183.65,69.04,9.66;6,149.75,195.80,71.02,9.66" target="#b29">Kambourov and Manovskii 2009)</ref>. The hierarchical matching models that motivate the empirical work do not refer to specific human capital, delayed compensation, or other motivations for considering tenure. Therefore, I focus on a worker's current job responsibility, not on whether the worker was an external hire or an internal promotion, the source of variation in firm tenure independent of total labor-market experience. <ref type="bibr" coords="6,159.71,268.73,49.08,9.66" target="#b7">Brown and</ref><ref type="bibr" coords="6,213.08,268.73,88.86,9.66">Medoff (1989, 1037)</ref> describe the qualitative conclusions from unreported regressions in which firm-size wage gaps are estimated by rank (not firm tenure). They report a declining pattern, which is the opposite of what I find and seems dissimilar to the findings using tenure. A precise comparison is difficult without more information on their data and the magnitude of the results. They use the Professional, Administrative, Technical and Clerical (PATC) survey, a firm-level survey for which the minimum firm size is 100 (and sometimes 250) workers; I use the SIPP, which is representative of the U.S. population. The SIPP makes 100 workers the boundary between medium-sized and large firms: 29.4% of workers in the estimation sample are in firms with less than 100 workers, and 55.7% of workers are in establishments with fewer than 100 workers. By not sampling small and medium-sized firms, the PATC misses important variation in firm size. The level of wages may level off, or even decline, at larger firms.</p><p>In their paper on technology adoption, <ref type="bibr" coords="6,341.45,451.04,119.24,9.66;6,149.75,463.19,68.21,9.66">Doms, Dunne, and Troske (1997, table III)</ref> report roughly similar firm-size wage gaps across three job-responsibility levels for 258 U.S. manufacturing plants (the comparison is sensitive to controls). However, they look at a nonrepresentative sample of establishments and include controls for technology adoption that may be correlated with firm size. I conjecture that in a hierarchical matching model in which technology is also sorted to firms, and firm size is endogenous, technology adoption would be a one-for-one function of firm size in equilibrium. Including another matching outcome, such as technology adoption, is overcontrolling when using the theoretical benchmark of hierarchical matching.</p><p>In independent work, <ref type="bibr" coords="6,261.11,584.93,123.33,9.66" target="#b36">Meagher and Wilson (2004)</ref> use data on 597 Australian workers and find that the firm-size wage gap is higher for supervisors than for nonsupervisors; 54% of the sample are supervisors. 4 By contrast, <ref type="bibr" coords="6,211.92,632.06,143.68,8.70" target="#b2">Barron, Black, and Lowenstein (1987)</ref> examine a U.S. government survey of employers who are asked the wage of the last worker hired and the typical wage for that position after 2 years. A regression of the ratio of the two wages on firm size produces a negative coefficient with a small sign. The paper does not use any detailed occupational ladders. The data simply report whether a worker is a supervisor, and the paper includes that variable as a dummy interacted with plant size. As with Swedish but not American wages, Australian wages were set mostly by centralized bargaining.</p><p>Because the earlier literature focuses mostly on worker tenure and, to some degree, finds inconclusive results, I believe the facts here are important to our understanding of firm-size wage gaps.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. Hierarchical Production, Matching, and Wages</head><p>This section presents a model with hierarchical production and equilibrium matching. Indeed, the number and sizes of hierarchies ("firms") are endogenous in the matching model. I will computationally show the new prediction that equilibrium wage gaps should increase with job responsibility. In addition to predicting the key stylized fact, the equilibrium model is useful for choosing specifications (such as what controls to include) and interpreting the new facts. Section VII discusses to what extent some other models can fit the evidence as well.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Complementarities in Production</head><p>Complementarities govern the sorting pattern in competitive matching models with heterogeneous workers and jobs. Entry-level workers are distinguished by human capital levels , and jobs are distinguished by x e levels of managerial ability . A job produces output , and all</p><formula xml:id="formula_0" coords="7,269.45,422.15,155.69,10.45">x f (x , x ) m m e</formula><p>agents are price takers with quasilinear utility. In matching models such as <ref type="bibr" coords="7,162.13,446.06,58.25,9.66" target="#b4">Becker (1973)</ref>, <ref type="bibr" coords="7,228.62,446.06,66.55,9.66" target="#b43">Sattinger (1979)</ref>, and <ref type="bibr" coords="7,322.99,446.06,61.57,9.66" target="#b30">Kremer (1993)</ref> abler entry-level workers with abler managers. The equilibrium assignment maximizes economy-wide production, and complementarities imply high incremental production from matching a high-ability worker with a high-ability manager. Complementarities between managerial ability and the total labor inputs of workers, , play important</p><formula xml:id="formula_1" coords="7,149.75,515.15,239.21,13.58">n x X p x m e i ip1</formula><p>that maps worker abilities, , into the number of workers of level x l Ϫ 1 that a manager of level l can supervise, . By assumption</p><formula xml:id="formula_2" coords="8,323.99,159.74,136.61,10.45">n (x) n (x) 1 lϪ1 lϪ1</formula><p>, a manager can supervise more workers if the workers are abler. 6 Workers 0 have a univariate ability ; the total number of levels of hierarchy and x the assignment of workers into firms and job-responsibility levels within the firm all are equilibrium outcomes. Production at level l takes the form . Therefore,</p><formula xml:id="formula_3" coords="8,149.75,220.27,310.85,11.29">1 2 f(x , x ) p x 7 n (x ) [ Ѩ f /(x , x )]Ѩx Ѩx p n (x ) l l Ϫ1 l l Ϫ1 lϪ1 l l Ϫ1 l l Ϫ1 lϪ1 lϪ1</formula><p>0, so abler managers should match with abler workers. I set L, the maximum number of levels in a hierarchy, to 2 for expositional simplicity. To draw implications for firm size, I let the span of control of each manager be a separate firm. I address the equivalence of hierarchies and firms empirically below. GR show that the equilibrium satisfies stratification by job responsibility: the best workers become managers, and the rest are entry-level workers. For a numerical example, I adopt a specification from <ref type="bibr" coords="8,173.84,318.84,43.43,9.66">GR (2004)</ref>. I let , , and the distribution Ϫ1 Ϫ1</p><p>n(x) p h (1 Ϫ x) h p 0.20 of worker ability be uniform on . <ref type="figure" coords="8,334.90,331.39,34.92,9.66" target="#fig_0">Figure 2</ref> plots the equilibrium G(x)</p><p>[0, 1] wage w(x) for a worker with ability . In this example, the productionx function parameters imply that in equilibrium, workers with abilities greater than become managers, and workers with abilities less ૽ x p 0.901 than 0.901 are entry-level workers. Job-responsibility stratification exists. The worker with ability 1 becomes a manager and supervises the greatest number of workers, namely the highest-ability production workers, . ૽ x p 0.901 The equilibrium wage function has a point of nondifferentiability at the managerial cutoff ability of . Wages increase almost linearly ૽ x p 0.901 for production workers. Wages increase dramatically for the high-ability workers who become managers. The highest-ability production worker, , earns a wage of 0.963. His or her manager, the worker with ૽ x p 0.901 ability , earns a wage of 1.86. The ablest manager supervises the x p 1 ablest production workers in the endogenously largest firm.</p><p>The prediction that larger firms have better managers is consistent with other empirical evidence if we interpret the manager in the GR model as a CEO. By arguing that CEOs have much higher marginal products in larger firms due to the larger amount of inputs large-firm CEOs supervise, <ref type="bibr" coords="8,149.75,563.61,115.75,9.66" target="#b17">Gabaix and Landier (2008)</ref> explain the well-known fact that CEOs earn much more in larger firms. <ref type="bibr" coords="8,269.79,575.57,132.04,9.66" target="#b6">Bloom and Van Reenen (2007)</ref> look at firmlevel outcomes such as firm productivity, revenue, stock market value, and survival and compare them to measures of managerial practice. They 6 In their more primitively specified model, is a function of a time cost n (x) lϪ1 of a manager and a worker interacting. Here I work with a simple version of the model that combines elements from <ref type="bibr" coords="8,292.80,642.02,40.84,8.70">GR (2004)</ref> and <ref type="bibr" coords="8,353.62,642.02,39.29,8.70">GR (2006)</ref>. Compared with the model in <ref type="bibr" coords="8,205.00,651.98,40.29,8.70">GR (2006)</ref>, the main simplification in these other papers is that is exogenous rather than the result of endogenous knowledge acquisition. n (x) wage function that supports the matching function. Both steps involve the solution to differential equations, which can be done in closed form for the uniform distribution. In equilibrium,</p><p>. The computed equilibrium wage function is ૽ x p 0.901 w(x) p 0.708 ϩ for , and for .</p><formula xml:id="formula_4" coords="9,149.75,428.36,258.64,8.89">2 ૽ ૽ 0.193x ϩ 0.1x x ≤ x w (x) p 1.96 Ϫ 50.400392 Ϫ 0.4x x ≥ x</formula><p>find that larger firms have better managers, which they interpret as support for the hierarchical matching model of <ref type="bibr" coords="9,319.70,473.95,53.04,9.66" target="#b33">Lucas (1978)</ref>, an intellectual predecessor to GR. <ref type="bibr" coords="9,227.20,485.91,140.56,9.66" target="#b34">Maksimovic and Phillips (2001)</ref> show that empirical patterns of mergers and asset sales at the plant level are consistent with predictions from a generalized <ref type="bibr" coords="9,281.96,509.82,54.11,9.66" target="#b33">Lucas (1978)</ref> model. These empirical findings provide support for one aspect of hierarchical matching models: managers at larger firms are abler than their subordinates and managers at larger firms. The GR model goes further by specifying a structure that ensures all workers, and not just the highest-ranking workers, of a given job-responsibility level at larger firms are abler. 7 7 One might worry that the marginal products of entry-level workers employed in equilibrium at larger firms are higher than those at smaller firms only because of the supervision of the abler managers at larger firms. Entry-level workers are of homogeneous quality in the <ref type="bibr" coords="9,275.21,622.09,49.91,8.70" target="#b33">Lucas (1978)</ref> model. In this case, a hierarchical matching model with a competitive labor market, such as Lucas, would predict equal wages for entry-level workers across large and small firms. See also Sec. VII.A. Profit sharing could cause a firm-size wage gap for entry-level workers, as I discuss in Sec. VII.B. Worker ability is not measured well in typical labor data, so figure 2 cannot be directly tested. I use data on wages, firm sizes, and job responsibilities to analyze the predictions of the GR model in terms of wages and firm size but not worker ability. <ref type="figure" coords="10,159.71,534.72,36.10,9.66" target="#fig_1">Figure 3</ref>, which is not found in GR, reports the equilibrium wage function for workers and managers as a function of firm size. The model and the parameters are the same as in <ref type="figure" coords="10,313.02,560.03,31.58,9.66" target="#fig_0">figure 2</ref>; the only difference is that the horizontal axis is firm size, not worker ability. <ref type="figure" coords="10,373.93,572.68,36.27,9.66" target="#fig_1">Figure 3</ref> shows that all managers earn more than workers at their respective firms, regardless of size. Also as before, the manager at the smallest firm with ૽ x n p min entry-level workers earns the same as the entry-level workers n(0) p 5 at the largest firm, with entry-level workers.  <ref type="figure" coords="10,171.47,637.34,30.97,9.66" target="#fig_1">figure 3</ref>, the firm-size wage gap is larger for managers than for entrylevel workers. The best manager earns a wage of 1.86, and the worst manager, who is indifferent between working as a manager or production The entry-level firm-size wage gap of 0.00563 is only 28% of the wage gap of 0.0198 for managers. <ref type="figure" coords="11,159.71,613.43,36.04,9.66" target="#fig_3">Figure 4</ref> shows firm-size wage gaps are higher for managers than for workers, , for any level of the production function parameter Qualifying this prediction is important, as the figures rely on a uniformability distribution and the production function used by GR, although I know of no counterexamples. However, the quantitative magnitudes of the prediction can be quite large under a priori reasonable parameterizations, as figures 2-4 show. 9 D. Complementarities without Ability Differences <ref type="bibr" coords="12,159.71,256.27,131.92,9.66" target="#b22">Gibbons and Waldman (1999)</ref> and many others suggest that current productivity is a complex result of past occupational choice, training, learning by doing, schooling, incentives, and other mechanisms. Hierarchical matching models do not explain where ability comes from; they propose the optimal sorting of workers to firms (or managers), given the cross-sectional distribution of abilities and wages. <ref type="bibr" coords="12,159.71,328.00,108.18,9.66" target="#b10">Calvo and Wellisz (1978)</ref> present a model in which workers put forth more effort if they receive more pay. In one example, production is hierarchical, as in <ref type="bibr" coords="12,221.20,351.91,61.34,9.66" target="#b30">Kremer (1993)</ref>. Managers outnumber and receive more pay than workers, although they are ex ante identical to workers. The key is the complementarities in the hierarchical production function. The Calvo and Wellisz formulation, in which wages elicit labor inputs under the GR production function, will likely produce the same qualitative pattern of equilibrium wages. To the extent that productivity-enhancing work practices operate through higher wages, hierarchical production may produce equilibrium wage patterns similar to those the GR model predicts. <ref type="figure" coords="12,159.71,472.96,35.39,9.66" target="#fig_0">Figure 2</ref> shows that because of job-responsibility stratification in equilibrium, , or unobserved (in the data) ability, is a lexicographic x p o(l, n) function of, first, job responsibility and, then, firm size. Therefore, worker 8 <ref type="figure" coords="12,163.65,522.47,33.28,8.70" target="#fig_3">Figure 4</ref> also shows that the difference in firm-size wage gaps across jobresponsibility levels is highest when the managerial technology is effective, or h is small. Improvements in management, therefore, should increase the rate at which firm-size wage gaps increase with job responsibility. <ref type="bibr" coords="12,158.72,561.60,2.69,4.74">9</ref> Testing whether requires data on measures of job responsibility WG /WG 1 1 m e in addition to firm size. An alternative approach that does not use data on job responsibility would be to compare the wages of the 25th, 50th, and 75th percentiles of the large-and small-firm wage distributions. With more than two layers of hierarchy, the GR model does not have direct predictions about this comparison. One manager supervises more (but abler) workers in a larger firm. Because of the smaller percentage of entry-level workers, the 75th-percentile worker at a smaller firm could be in a higher level in the hierarchy and have more ability than the 75th-percentile worker at a larger firm. The GR model makes predictions for wages across firm sizes only for workers in the same level of their respective hierarchies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. Labor Inputs and Worker Ability</head><p>labor inputs are linearly dependent with a nonparametric function of job responsibility and firm size. Now, say a researcher has data not only on l and n but also on x, which is unobserved in my data. Then, if the GR equilibrium were to generate the data, we could not identify a nonparametric regression of wages w on x, l, and n to recover the three-argument wage function , because no variation in is independent of w(x, l, n)</p><p>x variation in , a nonparametric function of job responsibility and o(l, n) firm size. In equilibrium, workers sort to jobs and firm sizes based on ability, so no valid decomposition of equilibrium wages into a "skill effect" based on and a "job effect" based on 1 and n exists. <ref type="bibr" coords="13,384.12,253.94,5.98,5.31">10</ref> x Therefore, this article does not regress wages on firm size and measures of ability in order to see how much firm-size wage gaps decrease. Although total ability is not in the data, we often find components of x ability, namely race and schooling. As this exercise is common in the literature, I estimated one specification with the U.S. data in a previous draft. The positive wage gaps shrink a little but persist when ability measures are included. This finding is consistent with models like <ref type="bibr" coords="13,416.77,338.46,43.78,9.66;13,149.75,350.42,60.90,9.66" target="#b10">Calvo and Wellisz (1978)</ref> that emphasize work practices, such as incentives, as opposed to matching by inherent worker ability. <ref type="bibr" coords="13,349.05,361.53,5.98,5.31">11</ref> I do not use worker panel data to estimate or control for time-invariant worker ability, although other researchers have, showing the use does not eliminate firm-size wage gaps <ref type="bibr" coords="13,276.26,398.24,107.96,9.66" target="#b7">(Brown and Medoff 1989)</ref>. Variation in firm size over a worker's career only comes from firm growth and job mobility. The hiring and wage policies of growing firms are a current research interest of mine beyond the scope of this article. Also, most recent theoretical models of, and empirical papers on, job mobility emphasize changes in omitted variables that induce sorting <ref type="bibr" coords="13,325.93,458.01,90.37,9.66" target="#b21">(Gibbons et al. 2005)</ref>. Workers who switch firms are not representative of all workers; thus, controlling for time-invariant worker ability does not necessarily lead to less correlation between changes in firm size and changes in omitted factors in wages than would looking at the raw correlation between wages and firm size, as I do in this article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F. Establishment Size, Firm Size, and Hierarchy Size</head><p>One firm can own many different physical establishments. Establishments are fixed physical locations, unlike firms, which are legal constructs. <ref type="bibr" coords="13,158.72,591.48,5.38,4.74">10</ref> If a linear regression estimates coefficients on x, l, and n, then identification comes from the misspecification that the regression equation is linear. <ref type="bibr" coords="13,158.72,611.41,5.38,4.74">11</ref> Hierarchical matching models predict that larger firms should match with abler workers. The most commonly observed measure of ability is formal schooling. <ref type="bibr" coords="13,168.34,632.06,56.19,8.70" target="#b37">Mellow (1982)</ref>, <ref type="bibr" coords="13,232.64,632.06,37.26,8.70" target="#b39">Oi (1983)</ref>, and <ref type="bibr" coords="13,296.25,632.06,74.01,8.70" target="#b3">Barth et al. (1987)</ref>  Both firm and establishment sizes may be relevant for hierarchies and supervision. I use both measures in this article. <ref type="bibr" coords="14,352.94,158.30,5.98,5.31">12</ref> In the full GR model, with an unrestricted number of hierarchy levels at each firm, and even the option to be self-employed, equilibrium firms and hence hierarchies arise endogenously. However, the legal notion of a firm does not correspond to a hierarchical chain of managers. Firms can form for reasons that do not involve shared management, such as regulation, tax savings, shared fixed costs, and empire building. Also, coordination between firms can occur through contracts. Still, evidence suggests that theories of matching and a common manager for each firm, such as the <ref type="bibr" coords="14,203.56,266.74,55.75,9.66" target="#b33">Lucas (1978)</ref> firm-size model, are good predictors of firm boundaries. For example, <ref type="bibr" coords="14,260.69,278.69,134.38,9.66" target="#b34">Maksimovic and Phillips (2001)</ref> use U.S. plantlevel data to show that conglomerate mergers and asset sales are consistent with the predictions of the Lucas model. The Lucas model emphasizes matching managers to inputs and is a predecessor to the GR model. Therefore, evidence suggests that boundaries of firms, which are determined by asset sales, match the predictions of hierarchical matching models that use one hierarchy per firm.</p><p>A key endogenous outcome of the GR model is that workers of a given job responsibility individually supervise more employees at larger firms. Section V.D empirically confirms the GR model's prediction that spans of control are greater at larger firms, at least for Sweden.</p><p>Although unrelated business functions may locate at the same establishment, workers at the same establishment are likely to be in the same overall hierarchy. However, firm size and establishment size are both imperfect proxies for the size of a hierarchy. Two main types of consequences may result from using, say, legal firm size to proxy for the model's hierarchy size in a wage regression. Classical measurement error in firm size will produce the usual attenuation bias: the coefficient on firm size will be biased toward zero if the hypothesized GR model generates the data. This interpretation makes any estimate a lower bound (in absolute value) on the true relationship. In other words, the classical-measurementerror story for firm size suggests the data may understate any true pattern that hierarchy-size wage gaps are positive. <ref type="bibr" coords="14,331.91,540.86,5.98,5.31">13</ref> However, the measurement error may not be classical. Consider the case in which hierarchy size equals firm size for small firms, but n n 12 A few papers include firm and establishment size in the same regression <ref type="bibr" coords="14,149.75,602.17,103.09,8.70" target="#b7">(Brown and Medoff 1989)</ref>. The production function interpretation of holding establishment size constant while varying firm size is not clear, so I do not include both measures in the same regression. <ref type="bibr" coords="14,158.72,631.33,5.38,4.74">13</ref> The algebra of measurement error is less clear in predicting a bias on the coefficient of the interaction between hierarchy size and job responsibility when both hierarchy size and job responsibility are included as noninteraction-level effects as well.</p><p>hierarchy size is less than firm size for larger firms, or for large .n ! n n Perhaps each small firm is a true hierarchy and each large firm is formed from the merger of two small firms for nonmanagement reasons, such as tax reduction and empire building. Consider a regression in which job responsibility is held constant. Let the true model be ,</p><formula xml:id="formula_5" coords="15,381.43,194.52,76.70,10.94">w p b ϩ b n ϩ e 0 n</formula><p>where w is wage, is hierarchy size, and e is the usual regression error. n Say I estimate a firm-size wage regression,</p><formula xml:id="formula_6" coords="15,266.61,239.35,77.26,10.94">w p b ϩ b n ϩ e, 1 n</formula><p>where is firm size, and is the discrepancy between firm and n p n ϩ v v hierarchy size. To focus only on measurement error in hierarchy size, assume e is independent of and . If large firms are comprised of multiple v n distinct hierarchies but small firms are not, , as when is Cov (v, n) ! 0 n large and is more negative. Then the probability limit of the linear v regression slope coefficient from the regression of wages on firm size isC</p><formula xml:id="formula_7" coords="15,176.40,340.87,284.24,58.07">ov (w, n) Cov (b ϩ b n ϩ e, n) 0 n plim b p p n¯V ar (n) Var (n) Cov (n, n) Var (n) ϩ Cov (n, v) p b p b . (1) n n Var (n) Var (n) ϩ Var (v) ϩ 2 Cov (n, v)</formula><p>Let the true hierarchy-size wage gap be positive, or . As variances b 1 0 n are always positive, the denominator is always positive. Thus, the sign of the estimate is given by the numerator, and the sign could switch to negative if or . This misspecification Cov (n, n) ! 0 F Cov (n, v)F 1 Var (n) would lead to reporting a smaller firm-size wage gap than the true hierarchy-size wage gap from the GR model. How this bias varies with job responsibility is not clear. However, the possibility that , Cov (n, n) ! 0 or that larger firms have smaller hierarchies, seems remote.</p><p>Without measurement error, the denominator of equation <ref type="formula" coords="15,407.04,505.83,11.61,9.66">(1)</ref> would be . Under classical measurement error, and Var (n) Var (n) 1 0 Cov (n, v) p , so the denominator is too large and there is attenuation bias. Depending 0 on the relative magnitudes of and , attenuation bias Var (n) 2 Cov (n, v) could now exist, or the magnitude of the estimate could be higher than the true parameter . So it is mathematically possible, although the nu-b n merator would also be offsetting, that a regression would report too high a firm-size wage effect compared to the true hierarchy-size effect. Altogether, the formula (eq. [1]) has three extra terms:</p><p>, , Cov (n, v) Var (v) and</p><p>. If , only works toward finding 2 Cov (n, v)</p><p>Cov (v, n) ! 0 2 Cov (n, v) a firm-size wage gap larger than the true hierarchy-size wage gap.</p><p>This article's most important stylized fact is that the firm-size wage gap increases with job responsibility. This new fact is still a fact even if firm size is not a good proxy for hierarchy size. The empirical results in Fox Section V.D that confirm the GR model's prediction that spans of control are greater at larger firms are evidence that firm size and hierarchy size may be positively correlated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. Data Overview</head><p>I use data from both Sweden and the United States. Sweden is an outlier in many of its labor-market characteristics. During the sample period, 1970-90, centralized wage bargaining with labor unions partially set wages in Sweden. A smaller percentage of the U.S. private-sector workforce is unionized, and that percentage has decreased over time. 14 Also, the United States has fewer labor-market regulations than Sweden. If qualitatively similar patterns of firm-size wage gaps exist in Sweden and the United States, then the institutional details of one national labor market are less likely to drive the empirical results. <ref type="bibr" coords="16,303.27,312.72,5.98,5.31">15</ref> The SAF data contain about 60% of white-and blue-collar workers in the private sector in Sweden for 1970-90. The SIPP data sample the civilian population of the United States for 1996-99. <ref type="bibr" coords="16,343.22,350.08,5.98,5.31">16</ref> The U.S. data are a more representative sample, whereas the Swedish data have more precise measures of wages and firm and establishment sizes. For both data sets, I concentrate on male, full-time workers in the private sector.</p><p>For both Sweden and the United States, a regression of log wages on log firm size always yields a positive coefficient. As has been shown many times before for both countries, the traditional firm-size wage gaps are positive, although they are smaller in Sweden than in the United States.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. Swedish Firm-Size Wage Gaps by Job Responsibility</head><p>My data encompass the job assignments of more than half of the privatesector workers in Sweden. I can examine whether the key stylized fact is found: do firm-size wage gaps increase with this direct measure of job responsibility? I report results in which wages are regressed on firm size and other firm characteristics. The experiment compares workers at large <ref type="bibr" coords="16,158.72,571.56,5.38,4.74">14</ref> In contrast, unionization in the public sector has increased recently in the United States. <ref type="bibr" coords="16,158.72,591.48,5.38,4.74">15</ref>  <ref type="bibr" coords="16,166.34,592.21,112.38,8.70" target="#b11">Davis and Henrekson (1999)</ref> show Swedish employment is concentrated in industries with high average establishment sizes, but average establishment sizes are higher in the United States. The authors argue that the small size of local labor markets in Sweden prevents many large establishments from operating. <ref type="bibr" coords="16,158.72,631.33,5.38,4.74">16</ref> A previous draft presented wage gaps using the April 1993 Current Population Survey (CPS), which contains measures of firm size. However, the CPS does not have enough observations to precisely estimate firm-size wage gaps that vary by worker age, so I do not report these results. and small firms in the same industry and geographic location but does not hold worker ability constant. <ref type="bibr" coords="17,293.41,158.30,5.98,5.31">17</ref> This section first explains the data's major advantage: the occupational code for each worker. Next, this section shows the key stylized fact of the article: firm-size wage gaps increase with two measures of job responsibility-the directly recorded rank within certain occupations as well as a measure of job responsibility constructed using the ordering of the mean wage of workers within each given job assignment and rank.</p><p>I also provide more information pointing to hierarchical production and matching as important drivers of the key stylized fact. The GR model predicts spans of control are greater at larger firms. I observe all whitecollar workers in each firm and use the data to construct a notion of mean span of control. I show that, for workers of the same responsibility level, spans of control are larger in larger firms. Then I show that span-ofcontrol wage gaps increase with job responsibilities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Job Assignments and Ranks</head><p>The Swedish data record a detailed four-digit occupational code. The first three digits reflect the type of work being done, while the fourth digit is a worker's rank within that occupation. For white-collar workers, 76 distinct three-digit codes over all years (51 were used in 1990) represent the firm's evaluation of a worker's current job assignment. For example, job-assignment code 440 is "quality-control specialist." Each code has a fourth digit reflecting the level of responsibility in that type of job. The fourth digit, often referred to as rank, runs from 1 to 7, with 7 being the highest. So a worker could have a code of 4404, "rank-4 quality-control specialist." There were 280 combinations of job-assignment codes and ranks in 1990.</p><p>Worker careers do not run through the ranks within a single job assignment; workers often switch between job assignments. For example, workers often move from technical to managerial positions. Personnel at each responding firm list all of their employees and assign their jobs national standardized codes on an annual basis. Informal conversations suggest the number of workers an employee supervises is the main criterion for picking a rank. Thus, the rank measure is relevant for this article's focus on hierarchies.</p><p>In practice, administrators at each firm translate their firm's organizational structure into the national codes in the data. Because occupational codes are subjective, the results using these measures should be treated <ref type="bibr" coords="17,158.72,631.33,5.38,4.74">17</ref> The Swedish data lack schooling variables for half of the white-collar and all of the blue-collar workers. In unreported regressions, I estimate wage gaps using the sample of white-collar workers with reported schooling and I control for schooling. The wage gaps are slightly smaller but qualitatively similar. with caution. Indeed, any cross-firm notion of job responsibility is only a noisy measure of the GR model's definition of job responsibility. Even titles such as "CEO" and "president" correspond to different levels of authority across companies. 18 Nevertheless, the ability to observe standardized job-responsibility measures for most private-sector firms in an entire country is extremely rare. Because firms and labor unions use the Swedish code in negotiations, both entities have an economic incentive to standardize it. Compared to a hypothetical attempt to create a jobassignment code in the United States, the Swedish code is less distorted across companies.</p><p>Keep in mind that in the GR model, in equilibrium, a worker of a given rank supervises more subordinates at a larger firm than at a smaller one. A coming subsection verifies this span-of-control sorting prediction empirically. Even in the matching model, the details of day-to-day work are not equivalent across large and small firms for workers of the same rank. So finding differences in the work patterns of employees of the same rank is expected according to the model. Also, the GR model predicts that abler workers sort to larger firms for the same job-responsibility level. Therefore, the model predicts unmeasured worker ability is correlated with firm size.</p><p>This worry about subjectivity of recorded job assignments does introduce a concern about bias in the stylized facts about wages to the extent that the recorded ranks do not equal the job responsibilities from the GR model. This concern arises from classification error rather than classical measurement error. Given that workers of a given rank at larger firms appear to be supervising more employees, one concern might be that workers of the same rank in the GR model would be recorded in the data as having a higher rank in large firms. Indeed, by looking at the distribution of codes across large and small firms, one can see that large firms use more codes in total and especially more higher-ranked codes. If anything, larger firms are assigning workers of the same GR model rank to higher recorded ranks than smaller firms. Inflating the recorded ranks of large-firm employees would work against finding firm-size wage gaps that increase with job responsibility.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Firm-Size Wage Gaps by Job Responsibility for Large Job Assignments</head><p>I now look at firm-size wage gaps by a direct measure of job responsibility. In 1990, the three largest job assignments in the male, full-time, <ref type="bibr" coords="18,158.72,621.37,5.38,4.74">18</ref>  <ref type="bibr" coords="18,166.34,622.09,53.68,8.70" target="#b31">Lazear (1992)</ref> and <ref type="bibr" coords="18,241.70,622.09,148.30,8.70" target="#b1">Baker, Gibbs, and Holmstrom (1994)</ref> use data on promotions from one job to another to document the internal hierarchy of single firms. A detailed description of promotion paths and firm hierarchies is beyond the scope of this section, which uses data on most private-sector white-collar workers in a medium-sized nation.</p><p>white-collar estimation sample were as follows: marketing and sales, 38,416 workers; work supervision within production and related tasks, 22,299 workers; and mechanical and electrical design engineering, 21,277 workers. Many of those employees involved in supervising production workers presumably are former blue-collar workers supervising current blue-collar workers. Because a separate data set that is not easily merged records blue-collar workers, I estimate firm-size wage gaps for workers in marketing and sales as well as design engineering. The meaning and use of job-assignment codes change over time, so I use only the data from 1990. Consequently, standard errors are higher than in pooling samples across years.</p><p>I estimate the log salary regression,</p><formula xml:id="formula_8" coords="19,231.29,297.63,147.94,10.94">log w p a ϩ g 7 log n ϩ X b ϩ e , i l l i i i</formula><p>where an observation is a worker, l is 's rank in a given occupation, a l i i is a rank-specific intercept, g l is the coefficient on the log of firm size for rank l, and is the residual. The firm controls in are the log of n e X i i i contractual hours of work as well as indicators for region (county) and industry. <ref type="figure" coords="19,159.71,377.32,35.54,9.66" target="#fig_4">Figure 5</ref> reports the predicted wage gap between firms with 500 workers and those with 10 workers. Formally, the percentage wage gap is . The establishment-size distribution in the data exp (log (500/10) 7 g ) Ϫ 1 l appendix motivates this size range, although to save space, I plot on the same graph both firm size and establishment size, which come from separate regressions. The coefficients on establishment and firm size are similar. The left figure compares higher-and lower-ranked sales workers; the right figure compares higher-and lower-ranked engineering workers. <ref type="bibr" coords="19,448.08,460.16,5.98,5.31">19</ref> For both engineers and marketers, the coefficients are mostly negative: smaller firms pay their workers more. For rank-3 engineers and firm size, the coefficient is Ϫ0.024 and so , g exp (log (500/10) 7 g ) Ϫ 1 p Ϫ0.091 3 3 meaning a firm with 500 workers is predicted to pay 9% less than a firm with 10 workers. For firm size, a more appropriate motivation for the comparison would be size 1,000 to size 20 firms. For ranks 5 and 6, in both sales and engineering, the coefficients are small in absolute value; wages are relatively flat with firm size for those ranks. For the highest rank, wages increase with firm size. One puzzle is the discrepancy between the relative position wage gaps become positive in terms of worker age in <ref type="figure" coords="19,162.09,592.51,33.90,9.66">figure 1</ref> and job-assignment ranks in <ref type="figure" coords="19,327.55,592.51,32.55,9.66" target="#fig_4">figure 5</ref>. The exact break-even points for both measures are somewhat sensitive to the controls included, and I do not want to overemphasize the distinction as a robust finding. The larger Swedish firms providing lower-ranked workers more train- ing or delayed compensation can explain the negative coefficients. The negative coefficients also could be the result of trying to match mean wages (not conditioning for age or job assignment) across firms in union bargaining. Regardless of the levels, firm-size wage gaps become more positive as job responsibility increases. A firm with 1,000 workers is predicted to pay rank-1 engineers 11% less than a firm with 20 engineers, whereas the same firm is predicted to pay 6% more to rank-7 engineers. I interpret this evidence as partial support for my numerical calculations based on the GR model. The prediction about how wage gaps change with responsibility is correct, but the prediction that all wage gaps are positive is not verified. An earlier version of this article and Ekberg and Salabasis <ref type="formula" coords="21,419.73,279.79,26.55,9.66" target="#formula_10">(2001)</ref> simultaneously discovered the negative firm-size wage gaps. I focused on the fact that the coefficients become less negative and eventually positive; Ekberg and Salabasis emphasized that most of the coefficients were negative, so when conditioning on job assignment, we do not find the traditional, positive firm-size wage effect in Sweden. The raw correlation between wages and firm size is positive; when conditioning on rank and job assignment, it becomes negative. The body of the evidence, for Sweden and elsewhere, does not support the theory that the firm-size wage effect is a composition effect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Firm-Size Wage Gaps by Job-Responsibility Quantiles</head><p>I want to take advantage of the data on all white-collar workers, but producing a version of figure 5 for each job-assignment code would take too much space. Further, many workers do not advance between ranks in a single job assignment. Therefore, this section shows how to construct a measure of job responsibility that does not compare ranks only within the same occupation and uses the data on all white-collar workers. I also avoid using my own judgment to decide whether a "rank-4 production engineer" has more responsibility than a "rank-5 quality-control specialist." This section reports firm-size wage gaps by this measure of job responsibility.</p><p>I use data on the wage distribution to create an ordinal ranking of job assignment and rank combinations. A key implication of almost all hierarchical matching models, as well as some wage-incentive models such as <ref type="bibr" coords="21,161.44,588.32,106.73,9.66" target="#b10">Calvo and Wellisz (1978)</ref>, is that workers who contribute more labor inputs are paid more, so the wage of a worker is an ordinal (but not cardinal) measure of ability. Also, almost all hierarchical-production models find that workers with more labor inputs are assigned to jobs with more responsibility. Combining these two theoretical results, the average wage in a job assignment/rank combination is an ordinal measure of that combination's responsibility. <ref type="bibr" coords="22,445.69,124.97,14.95,8.70">Fox</ref> Empirically, I compute the mean wage of each job assignment/rank combination. I then order the job assignments by mean wages and create a new measure called "job-responsibility quantile," which is the inverse order (order 1 is the lowest average wage job) of the job/rank combination divided by the total number of job/rank combinations in the data. My measure of job responsibility ranges from 0 to 1, with 1 being the most responsible job code. <ref type="bibr" coords="22,239.16,221.06,5.98,5.31">20</ref> The position "quality-control specialist" has seven ranks, for example, with job-responsibility quantiles of 0.111, 0.239, 0.346, 0.457, 0.618, 0.764, and 0.943 for the year 1990. Quality-control specialist is not always an entry-level position, so even the few rank-1 qualitycontrol specialists earn more than 11% of the other assignment/rank combinations.</p><p>Many of the lowest-paid white-collar assignments are part time or heavily female and have little presence in the estimation sample. The lowestpaid assignment/rank combination in 1990 with more than 100 workers is a rank-2 job in financial administration. The highest-paid assignment is a rank-7 job in marketing and sales.</p><p>Workers are not evenly distributed across jobs. For 1990, 5.5% of fulltime male workers are in a job assignment/rank combination in the lowest quartile of job responsibilities, 41% are in the second quartile, 41% are in the third quartile, and 11% are in the highest quartile. Job responsibilities are not evenly distributed across firm sizes either. A regression of job responsibility on the log of firm size yields a coefficient of 0.013, meaning a firm that is 10% larger has workers with job responsibilities that are 0.0013 higher, a small effect. Larger firms also use more assignments and more ranks within an assignment in their reports. Of course, there is little point in using ranks to make small distinctions among workers in a firm of only 10 people. Nonetheless, the exercise of letting firmsize wage gaps vary with job responsibility is valid only under the assumption that job-responsibility quantiles yield valid comparisons of jobs across large and small firms.</p><p>By construction, workers with higher job-responsibility quantiles earn higher wages on average. This subsection examines whether firm-size wage gaps increase with job-responsibility quantiles. I divide the job assignment/rank combinations into 20 bins, with workers in bin 1 having ordinal job responsibilities of between 0 and 0.05, workers in bin 2 having job responsibilities between 0.05 and 0.10, and so on. Let l index the 20 bins for the new, constructed measure of job responsibility. Let l p 25 for the bin with jobs with ordinal responsibilities from 0.20 to 0.25. I estimate the wage regression for worker in year with job-responsibility i t bin l,</p><formula xml:id="formula_9" coords="23,223.82,176.98,162.89,10.94">log w p a ϩ g 7 log n ϩ X b ϩ e , i,t l l i ,t i ,t i ,t</formula><p>where is a bin-specific intercept, is the firm-size wage effect for a g l l workers with job-responsibility bin l, is firm size, and are the firm n X i,t i ,t controls, that is, the log of contractual hours of work, county indicators, industry indicators, and year indicators. As before, I do not control for worker ability because it should affect the assignment of workers to jobs. <ref type="figure" coords="23,159.71,255.58,34.71,9.66" target="#fig_5">Figure 6</ref> shows that firm-size wage gaps increase with job responsibility. The firm-size wage gaps start out negative and become positive. For workers in the 10-15 ordinal job-responsibility bin, wage gaps between firms with 500 workers and firms with 10 workers are Ϫ1.6%. For the most elite job-responsibility levels, the 95-100 job-responsibility bin, firm-size wage gaps are 4.9%. The results for establishment size are similar.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Spans of Control and Firm Size as well as</head><p>Span-of-Control Wage Gaps I have shown that firm-size wage gaps increase with two different measures of job responsibility. Now I use the rich Swedish data to compute a new measure: mean span of control. The span of control of a worker is how many subordinates he or she supervises directly or indirectly through a hierarchical chain. The GR hierarchical matching model predicts that spans of control are greater at larger firms. The higher spans of control at larger firms in the model are in large part the underlying reason firm-size wage gaps are predicted to increase with job responsibility. This section will first test whether spans of control increase with firm size. I then examine whether span-of-control wage gaps increase with job responsibility; I will drop firm size from the regression and replace it with a measure of a worker's span of control.</p><p>Although I do not have data on reporting relationships, I can use the Swedish data to construct an approximation of the span of control of an individual worker. 21 This construction is possible as I observe all the white-collar workers at each plant and firm. Let be the number of n j,l workers in firm with a specified job assignment and job responsibility j of rank l. The mean span-of-control statistic for rank l out of 7 is</p><formula xml:id="formula_10" coords="23,242.25,584.59,218.39,18.97">J 1 n ϩ … ϩ n j,1 j,lϪ1 span p ,<label>(2)</label></formula><formula xml:id="formula_11" coords="23,262.18,599.04,74.54,12.29">l J n jp1 j,l</formula><p>where is the number of employers. The interpretation is that rank l J workers at firm supervise workers. Therefore, dividing j n ϩ … ϩ n j,1 j,lϪ1 by gives the number of workers an individual worker of rank l might n j,l expect to supervise at firm . Note that I focus on the total number of j workers under a given manager in the hierarchy rather than only the workers who directly report to the manager. So if worker A reports to supervisor B who reports to manager C, I include both A and B in the span for C. In the production function in <ref type="bibr" coords="25,325.09,218.92,42.57,9.66">GR (2006)</ref>, the ability of worker A and manager C are direct complements. Thus, to match the theory, I focus on all workers below in the pyramid, not just those a manager directly supervises. After all, all levels of a hierarchy work together as a team. 22 <ref type="figure" coords="25,159.71,278.69,37.34,9.66">Figure 7</ref> plots span l for the four highest ranks and seven firm-size categories for both establishment and firm size. I pick a representative occupational hierarchy, engineering, although the qualitative patterns hold for all white-collar workers and for other job assignments. I use data only for 1990. For rank-7 workers, the span of control, span 7 , increases from close to 0 for firms of 1-10 workers to close to 100 for firms with size 100. There is a small decrease in span 7 , from 100 to 90, between firms of size 501-1,000 and 1,001ϩ. There is a natural upper bound to span 7 for smaller firms: a rank-7 engineer cannot supervise 100 workers in a firm with 50 workers. However, there is no natural lower bound to span 7 , and span 7 does dramatically increase with size. For firm size and the sixth job-responsibility level, span 6 increases for the first three size intervals and then plateaus at around 15. For establishment size, span 6 increases for size 501-1,000 establishments, followed by a slight decrease for establishments of size 1,001ϩ. Despite the small drop in span of controls at size 1,001ϩ, the findings verify the GR model's prediction that managers at larger firms supervise more workers. <ref type="bibr" coords="25,344.17,469.13,5.98,5.31">23</ref> I now examine whether span-of-control wage gaps increase with job responsibility. In the GR model, the equilibrium span of control for workers in a given job-responsibility level is a nonlinear change of variables from firm size. Therefore, span-of-control wage gaps do not necessarily increase with job responsibility under all parameterizations of the GR model. However, this stylized fact is still interesting to consider. For worker , I estimate the regression equation i responsibility level l from equation <ref type="formula" coords="27,307.49,147.19,10.58,9.66" target="#formula_10">(2)</ref>. Firm size is not directly in the wage regression. As before, I compute spans within job assignments (engineers supervising other engineers) at both the firm and establishment levels. <ref type="figure" coords="27,159.71,196.60,35.87,9.66" target="#fig_7">Figure 8</ref> reports estimates of the wage gap measured across computed spans of control. Because the standard deviation of span l across firms varies with job-responsibility levels, the figure shows wage gaps corresponding to a somewhat arbitrary threefold difference in spans, or . These occupation-specific span-of-control wage exp (log (3/1) 7 g ) Ϫ 1 l gaps are mostly not statistically distinct from zero at the 95% level. All of the point estimates are positive, and the span-of-control wage gaps increase with job responsibility. 24 For sales workers, rank-4 workers who supervise three times the number of workers earn 1% more. 25 For rank-7 sales workers, the threefold span-of-control wage gap is 3.4%. 26</p><formula xml:id="formula_12" coords="25,222.38,574.09,238.26,10.15">log w p a ϩ g 7 log span ϩ X b ϩ e ,<label>(3)</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI. U.S. Firm-Size Wage Gaps by Occupation</head><p>I now examine whether the stylized facts about wage gaps in Sweden can be found in an economy with different labor-market regulations. This section reports firm-size wage gaps by the best available proxies for job responsibility in U.S. data. The U.S. SIPP data report a three-digit occupational code. Some occupation titles mention a supervisory role. I formulate four examples of firm-size wage gaps between occupations, in which titles suggest one group of occupations may be supervising another group. The four examples are as follows: (1) white-collar versus bluecollar workers; (2) sales managers and proprietors versus salespeople; (3) white-collar workers broken up into managers, supervisors, and lowerlevel workers; and (4) engineers versus technicians. The occupational code is self-reported, so it is a function of the subjective self-evaluation of the respondent and the interviewer/encoder. There is no particular reason to <ref type="bibr" coords="27,158.72,521.75,5.38,4.74">24</ref> To see if outliers in computed spans of control drive these results, I reran the regressions in <ref type="figure" coords="27,221.54,532.43,19.97,8.70" target="#fig_7">fig. 8</ref> after winsorizing the spans of control. Within each job assignment/rank combination, the top 5% and bottom 5% of spans of control were replaced with the 95% and 5% quantiles of the span of controls. Winsorizing increases (when compared to <ref type="figure" coords="27,267.01,562.32,19.33,8.70" target="#fig_7">fig. 8</ref>) the point estimates for the span-of-control wage gaps. Further, the pattern of span-of-control gaps increasing with job responsibility ( <ref type="figure" coords="27,200.60,582.24,18.99,8.70" target="#fig_7">fig. 8</ref>) is more noticeable.</p><p>25 When comparing figs. 5 and 8, keep in mind that employer size can vary by 50 times, within the same job-responsibility level, whereas span of control varies a lot less across firms. The elasticity coefficients g l are actually larger for spans of control; I just multiply them by larger constants for employer size to better reflect the economic magnitudes of interest. <ref type="bibr" coords="27,158.72,641.30,5.38,4.74">26</ref> In unreported regressions, I include establishment size and span of control measured at the establishment and occupational level in the same regression. The qualitative patterns in both figs. 5 and 8 and are found with muted magnitudes. believe this measure is reported consistently across workers or firm sizes. Still, it is instructive to consider. The SIPP data report both establishment and firm size as one of three intervals: 1-24, 25-100, or more than 100. Let be the size interval of n i,t worker in period . Let be the job responsibility of that worker. I i t l i,t estimate the regressions</p><formula xml:id="formula_13" coords="29,248.88,227.39,112.77,10.94">log w p g ϩ X b ϩ e , i,t n ,l i ,t i ,t</formula><p>where g n,l is the intercept specific to an occupation/job responsibility l i,t and employer size , and the firm controls in are an indicator of n X i,t i ,t whether a collective bargaining agreement covers the worker, an indicator for whether the worker lives in a metropolitan area, industry indicators, and time indicators. The regressions compare workers at large firms to workers at small firms within the same industry. 27 As with the Swedish data, I use multiple time periods to improve statistical precision, with appropriate standard error corrections. <ref type="table" coords="29,159.71,344.44,31.30,9.66" target="#tab_3">Table 1</ref> lists the estimated firm-size wage gaps from eight regressions. Each regression is a combination of one of the four occupational comparisons and a firm-size measure (firm or establishment size). To be similar to the Swedish figures, each cell reports either , the firm-exp (g Ϫ g ) Ϫ 1 l,2 l,1 size wage gap percentage between firms with 25-100 workers and firms with 1-24 workers, or , the firm-size wage gap per-exp (g Ϫ g ) Ϫ 1 l,3 l,1 centage between firms with more than 100 workers and firms with 1-24 workers. 28 My numerical simulations using the GR model suggest firmsize wage gaps should increase with job responsibility. In the table, the GR model suggests wage gaps should increase as one moves downward within a comparison. Comparison A in table 1 lists the firm-size wage gaps for all blue-collar and all white-collar workers. In all cases, the wage gap for white-collar workers exceeds that for blue-collar workers. Blue-collar workers receive 14% more pay in establishments of 100ϩ workers than in firms with 1-24 workers, whereas white-collar workers receive 20% more pay. For firm size, the wage gaps for 100ϩ versus 1-24 workers are larger: 18% for blue-collar workers and 24% for white-collar workers. For both es-27 One approach is to create a continuous firm-size measure by assigning each worker's establishment size to be the midpoint of his or her size interval. The midpoint procedure is not a consistent estimator for an equation with the true firm size entering as a continuous variable, as the midpoint procedure does not consider correlation between true firm size and the controls. <ref type="bibr" coords="29,394.24,612.13,50.36,8.70" target="#b25">Hsiao (1983)</ref> describes a consistent pseudo-instrumental-variables estimator for the model with a continuous covariate. This procedure, applied to the U.S. SIPP data, produces statistically imprecise estimates of the coefficient on firm size. 28 A previous draft plotted these employer-size wage gaps, which offered a more visual comparison with the Swedish results. I use the table to save space. Ϫ.045</p><p>.036</p><p>.126 .038</p><p>Note. <ref type="table" coords="30,351.85,599.22,3.01,38.13;30,348.10,582.44,6.76,14.33;30,348.10,558.74,6.76,21.32">-The table reports</ref> and . Each combination of a lettered section (A-D) and a size measure (establishment or firm)</p><formula xml:id="formula_14" coords="30,347.76,438.25,7.64,118.50">exp (g Ϫ g ) Ϫ 1 e x p( g Ϫ g ) Ϫ 1 l,2 l,1 l,3 l,1</formula><p>is a regression of the log of hourly wages on indicators for the interactions of size intervals and job responsibility, an indicator for coverage by a collective bargaining agreement, an indicator for location in a metropolitan area, and industry indicators. Standard errors are corrected for heteroskedasticity across worker panels and an AR(1) term in worker-specific disturbances. The base estimation sample is all male, full-time employees in the private sector. The columns labeled "Test Gap Constant" report the p-values of the test of the null hypothesis that the firm-size wage gap from the most responsible job assignment is equal to the firm-size wage gap from the least responsible job assignment. Section A: As the data appendix discusses, white-collar workers have census occupational codes less than 400, and blue-collar workers have codes greater than 400. There are 16,007 unique workers and 359,092 observations. Section B: Managers have census occupational codes 4-22, supervisors 300-307, and entry-level white-collar workers 308-99. There are 3,413 unique workers and 61,135 observations. Section C: Sales managers have census occupational code 243. Sales people are 244-85. There are 2,396 unique workers and 42,234 observations. Section D: Engineers have census occupational codes 44-59, and technicians 203-25. There are 1,014 unique workers and 20,474 observations. tablishment and firm size, a formal statistical test that the 100ϩ versus 1-24 size wage gaps are the same for blue-and white-collar workers is rejected with a p-value less than .001. Comparison B in table 1 examines firm-size wage gaps for the comparison of managers (the highest level under executives) to supervisors (middle-ranking workers) to entry-level white-collar workers, the base case. Although many more of the census's occupational codes are assigned to entry-level workers, over 76% of the workers in this category in firms with less than 25 workers consider themselves to be a manager of some sort. The number drops to 73% in medium firms and 67% in the largest firms. The number of people in the middle category, which I label "supervisors," is tiny: 2.5% overall. The remainder of workers self-report being in the smallest category: entry-level workers. It is unlikely that 76% of typical white-collar workers at small firms are managers in the common use of the term; perhaps workers self-report their own codes too generously? Keep in mind that the estimation sample is male, full-time employees. Many entry-level white-collar jobs, such as clerical work, are disproportionately held by part-time workers and women.</p><p>Comparison B in table 1 shows that entry-level workers at establishments with more than 100 workers earn 14% more than workers at firms with less than 25 workers. Supervisors earn 9.4% more at the largest establishments, whereas managers earn 25% more. Although establishment-size wage gaps decline somewhat between entry level and the (tiny) supervisors category, wage gaps-more importantly-increase from 14% to 25% between entry-level workers and managers. The test for an equal wage gap between entry-level workers and managers is rejected with a -value less than .001. For firm size, the pattern is qualitatively the same, p with slightly higher point estimates for the wage gaps and no decline in wage gaps for the middle category, supervisors. Comparison C in table 1 reports how employer-size wage gaps differ between sales managers and salespeople; 30% of workers in firms employing less than 25 workers are sales managers. The corresponding percentages of sales managers at medium and large firms are 35% and 42%, respectively. For establishments, wage gaps between those with more than 100 workers and less than 25 workers are 16% for entry-level sales workers and 32% for sales managers. The test of equality between the wage gaps is rejected at all conventional levels. For firms, the results are similar: the wage gaps are 14% for entry-level sales workers and 27% for sales managers.</p><p>Comparison D in table 1 describes how firm-size wage gaps differ between engineers and technicians. In some work environments, an engineer may supervise a technician. The table shows that firm-size wage gaps are, if anything, smaller for engineers than for technicians. The establishment-size wage gap for technicians in establishments of more than 100 versus less than 25 workers is 16%. The establishment-size wage gap for engineers in firms of more than 100 versus less than 25 workers is 7%, not large compared to earlier U.S. results. Further, the test that the wage gaps are constant is rejected at the 95% level, with a p-value of .009. Similar findings arise in comparisons of establishments of 25-100 workers versus those with less than 25. Note that 48% of both technicians and engineers self-report being engineers in small firms; the percentage of engineers increases to 66% in firms with more than 100 workers. If technicians at large firms falsely claim to be engineers, the measured engineer pool may be of lower quality than the true engineer pool (when the same definition for engineer is used across firms). Leaving aside the measurement of job responsibility, the pattern of firm-size wage gaps for technicians and engineers is at odds with the model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VII. Explanations other than Hierarchical Production</head><p>I have shown firm-size wage gaps increase with job responsibility. This stylized fact is consistent with hierarchical production and matching, but other explanations should also be considered.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Span of Control without Complementarities</head><p>In a span-of-control model without complementarities in the production function, a manager is paid according to the number of workers he or she supervises. The chief executive of a firm with more workers should receive more pay than the chief executive of a smaller company, as the data show <ref type="bibr" coords="32,200.27,442.07,114.63,9.66" target="#b17">(Gabaix and Landier 2008</ref>). However, entry-level workers should earn the same at all firms. Therefore, span-of-control models without complementarities do not predict positive firm-size wage gaps for workers of all job-responsibility levels, thereby contradicting the data.</p><p>The managerial technology in GR may not be identical across all n (x) l firms. For example, the U.S. retailer Walmart is thought to pay executives more and entry-level workers less than older, smaller chain retailers such as Sears do. For Walmart, information technology and supervision may substitute for rather than complement individual worker ability, although managers may supervise more efficiency units of labor inputs. Nevertheless, Walmart versus Sears is not the dominant case in the empirical literature: larger firms do pay higher salaries.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Rent Sharing</head><p>Rent sharing suggests more profitable firms will pay their workers higher wages; larger firms are more profitable in most data. If firms share an equal fraction of profits with each worker, firm-size (log) wage gaps should decrease with job responsibility. If firms increase wages by an equal percentage per worker, firm-size (log) wage gaps should not vary with job responsibility. The prediction from hierarchical-production models-that firm-size (log) wage gaps increase with job responsibility-arises only if more profitable firms increase wages by a greater percentage for workers with higher levels of job responsibility. Empirically, rent sharing is unlikely to drive all firm-size wage gaps because wages are correlated with firm size even after controlling for profits <ref type="bibr" coords="33,357.16,209.45,46.90,9.66" target="#b0">(Arai 2003)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Compensating Wage Differentials with Homogeneous Workers</head><p>Another explanation for firm-size wage gaps involves worker preferences or compensating wage differentials. With homogeneous preferences, larger firms would offer poor work environments. Indeed, this story is true in some industries. For example, small, elite private schools are able to hire excellent teachers at low wages mainly because of the teachers' nonwage preferences for good students. However, in across-industry studies, better controls for working conditions have not eliminated positive estimates of firm-size wage gaps <ref type="bibr" coords="33,321.77,338.46,58.28,9.66" target="#b45">(Troske 1999)</ref>. Further, the homogeneous-preferences story is somewhat inconsistent with the empirical finding that larger firms have less worker turnover <ref type="bibr" coords="33,372.60,363.37,52.45,9.66" target="#b26">(Idson 1996)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Upward-Sloping Labor-Supply Curves Faced by Individual Firms</head><p>Another explanation for firm-size wage gaps that increase with age is that labor-supply curves that individual firms face are upward sloping. A larger firm needs to pay higher wages to hire more workers if all firms face the same upward-sloping labor-supply curve. One reason for an upward-sloping labor-supply curve is that workers have heterogeneous preferences for employment at each firm. Equilibrium search models suggest preferences may reflect dispersed knowledge about employment opportunities in various companies <ref type="bibr" coords="33,291.18,492.38,126.51,9.66" target="#b8">(Burdett and Mortensen 1998)</ref>. A growing literature labels the upward-sloping story the monopsony explanation for firm-size wage gaps <ref type="bibr" coords="33,258.21,517.29,159.98,9.66" target="#b23">(Green, Machin, and Manning 1996;</ref><ref type="bibr" coords="33,422.43,517.29,38.18,9.66;33,149.75,529.74,18.57,9.66" target="#b35">Manning 2003</ref>) because a profit-maximizing firm aware of the upward-sloping labor-supply curve should exploit its monopsony power. However, firmsize wage gaps are generated by upward-sloping labor-supply curves, not by labor-demand reductions to exploit monopsony power.</p><p>The upward-sloping labor-supply-curve story does not involve the production function generating firm output. Therefore, the story suggests firm-size wage gaps should be relatively constant with job responsibilities. 29 E. Tournaments and Delayed Compensation Tournament models <ref type="bibr" coords="34,250.79,163.53,109.87,9.66" target="#b32">(Lazear and Rosen 1981)</ref> and related models of delayed compensation <ref type="bibr" coords="34,248.41,175.88,107.54,9.66" target="#b5">(Becker and Stigler 1974;</ref><ref type="bibr" coords="34,359.24,175.88,55.18,9.66" target="#b31">Lazear 1981)</ref> argue that the promise of a future reward motivates worker employment or effort today. For the same reasons as in the GR model, larger firms are probably more likely to use delayed compensation if production is hierarchical and if delayed compensation increases worker labor inputs.</p><p>Tournament models may explain why firm-size wage gaps increase with job responsibility: in a large firm, more workers may compete in a tournament, increasing the future wage necessary to motivate them if only a few workers can win a promotion. The motivation is the increase in wages. Tournament and delayed-compensation models have a harder time explaining why the wages of entry-level workers should be higher in a larger firm. If entry-level wages are higher, the gain from winning the tournament is lower, thereby reducing motivation (other factors held constant). Because a positive firm-size wage gap exists at all levels in the United States, tournaments cannot easily explain the entire gap. Tournament explanations are more consistent with the pattern of Swedish wage gaps, which also fits the existing evidence that there is lower turnover in Sweden than in the United States.</p><p>F. General Human-Capital Training <ref type="bibr" coords="34,159.71,430.62,80.72,9.66" target="#b2">Barron et al. (1987)</ref> show that larger firms provide more of several types of training. A typical model of general human-capital training that firms provide suggests firms should deduct training costs from worker wages <ref type="bibr" coords="34,149.75,467.97,58.13,9.66" target="#b4">(Becker 1962)</ref>. A general human-capital training explanation fails to fit the U.S. evidence that measured firm-size wage gaps are positive for all job-responsibility levels. It is, however, consistent with the Swedish results. If workers at larger firms receive training, become more productive, and are promoted, we see why firm-size wage gaps could increase with job responsibility.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>G. Combining Multiple Explanations</head><p>Combining multiple alternative explanations may offer the same wage implications as hierarchical production. For example, entry-level firmsize wage gaps can be explained by upward-sloping labor-supply curves, and increases in the firm-size wage gap with job responsibility may be attributable to compensating tournament participants for the number of participants. The hierarchical production explanation is attractive for its parsimony, although many factors probably combine to produce the firmsize wage gaps seen in the data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VIII. Conclusions</head><p>This article finds a new stylized fact: firm-size wage gaps increase with job responsibility, as measured by job assignment and occupation codes. A positive interaction between job responsibility and firm size in a wage regression exists in the data. Firm-size wage gaps increase with job responsibility for Swedish engineers, for Swedish sales workers, and, using a constructed job-responsibility quantile, for all Swedish white-collar workers. The point estimates show that span-of-control wage gaps increase with job responsibility, although the standard errors are high. Further, firm-size wage gaps increase with worker age for Swedish whitecollar workers but are constant with age for blue-collar workers, who are less likely to advance far in a hierarchy. Firm-size wage gaps increase with job responsibility for all U.S. workers (white collar vs. blue collar), U.S. white-collar workers (entry level vs. managers), and U.S. sales workers. The single exception is for U.S. technicians versus engineers, for whom firm-size wage gaps decline with job responsibility.</p><p>The key economic idea underlying the empirical investigations in this article is that the labor inputs he or she supervises amplify a manager's input. If managers' time is scarce, the ablest managers match with the ablest and largest number of subordinates in equilibrium. One critical problem in examining the models' predictions for wages is that worker ability and productivity (labor input) are unobserved in labor-market data. However, the GR (2006) model shows job-responsibility stratification exists: in equilibrium, worker ability is a one-to-one function of an ordering of job responsibility, first, and then firm size. My empirical insight is that worker labor inputs are observed (in terms of proxies) if job responsibility and firm size can be measured.</p><p>The Swedish data confirm GR's prediction that, for workers of the same job-responsibility level, spans of control are higher at larger firms. Further, my numerical simulations show firm-size wage gaps should increase with job responsibility. Amplification explains this result: the marginal products of managers at larger firms are especially high because the managers supervise more and abler workers. Another prediction of the hierarchical matching model is empirically verified in Sweden: spans of control are greater at larger firms for workers at the same responsibility level. The empirical evidence is consistent with the hierarchical matching model, although combinations of other models are also consistent with the evidence.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Appendix</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">U.S. Data</head><p>The 1996 SIPP tracks all members of a household and splinter households for up to 48 months. Because of a rotational design, 51 calendar Fox months, December 1995 to February 2000, are represented. The SIPP tries to represent the entire American population rather than just privatesector workers. It contains self-reported information, which is often more error prone than the administrative records behind the SAF data. I delete observations for which important regressors have been statistically imputed. 30 <ref type="table" coords="36,159.71,221.90,39.85,9.66" target="#tab_3">Table A1</ref> describes the number of observations these procedures remove. The estimation samples, which remove observations with imputed values of any of several regressors, are older and vary less in age than all the observations corresponding to male, full-time workers. Also, there is a decrease in total months per individual at the 75th percentile of total months. This finding corresponds to individual worker-month observations I delete because of imputed regressors.</p><p>In my wage regressions, I include a separate indicator for four age intervals: ages 25-29, 30-39, 40-49, and 50-59. I remove workers under age 25 and over 59. I consider male, full-time workers only and estimate the models for blue-and white-collar workers separately. 31 I include workers only from for-profit companies.</p><p>The SIPP lists whether an employee typically works more than 35 hours a week, which is my measure of a full-time worker. I use total monthly labor income divided by hours of work as my wage measure for all workers.</p><p>The SIPP data are monthly in frequency. Wages change little from month to month. Therefore, I estimate wage regressions allowing for an AR(1) term and heteroskedasticity across worker panels, using the <ref type="bibr" coords="36,439.66,446.06,21.02,9.66;36,149.75,458.51,83.79,9.66" target="#b41">Prais and Winsten (1954)</ref> estimator.</p><p>The SIPP reports employer size as one of several discrete intervals: less than 25 employees, between 25 and 99 employees, and 100 or more employees. I include each interval as an indicator variable in wage regressions. <ref type="table" coords="36,149.75,508.32,39.32,9.66" target="#tab_5">Table A2</ref> describes the firm-and establishment-size distributions in the SIPP for a representative month, May 1996. The table reports results separately for white-and blue-collar workers. Most workers are concentrated in firms with more than 100 workers. <ref type="bibr" coords="36,158.72,571.56,5.38,4.74">30</ref> I leave values corresponding to logical imputation, such as when a person's answer reveals he is male even if he does not directly report gender. <ref type="bibr" coords="36,158.72,591.48,5.38,4.74">31</ref> There is no official breakdown in the United States between white-and bluecollar workers. The SIPP uses the census's occupation coding scheme. I make jobs with codes less than 400, white collar, and jobs above 400, blue collar. To some degree, the codes form a hierarchy of jobs, with lower code numbers being more prestigious. For the occupational codes around my chosen break point, the occupations in the 300s are clerical workers, whereas those in the 400s, whom I classify as blue collar, are public safety workers, waiters, janitors, and agricultural workers.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Swedish Data</head><p>The Swedish data come from the SAF, which represents the interests of private-sector employers before the government and during nationallevel wage negotiations with unions. During the sample period, 1970-90, member companies reported information on salaries and other measures for all of their nonexecutive employees. The data contain information on roughly 60% of the Swedish private-sector workforce. <ref type="bibr" coords="38,387.85,385.44,5.98,5.31">32</ref> The data overrepresent the manufacturing sector. The data contain service-sector workers because they often are unionized in Sweden.</p><p>The SAF separates the data into white-and blue-collar workers. The employer and employee identification codes in the two data sets are not the same, so I consider the results from each separately. Throughout the article, the measure of employer size is the total number of white-collar workers or the total number of blue-collar workers.</p><p>The estimation sample includes only male workers between the ages of 25 and 60 who are employed full time in the current and previous years. 33 This selection procedure focuses on workers who probably are committed to the labor market and for whom age (conditional on education) may be a good proxy for labor-market experience. The age range reduces the influence of selection problems from Swedish "institutions," such as schooling, mandatory military service, and early retirement.</p><p>For white-collar workers, the measure of the wage in the regressions is the log of a worker's contractual monthly salary in Swedish crowns. Salary is a total compensation measure that also includes bonuses for 32 I calculate the 60% figure based on numbers in <ref type="bibr" coords="38,344.52,612.13,112.40,8.70" target="#b9">Calmfors and Forslund (1990)</ref>. The main exceptions are the banking industry, which is represented by a different employers' federation, firms that are cooperatively owned by their workers, and firms that do not belong to any employers' federation. <ref type="bibr" coords="38,158.72,651.26,5.38,4.74">33</ref> The SAF defines full-time status to be a stipulated workweek of 35 hours or more. fringe benefits, commissions, and working nonstandard shifts. I include contractual hours of work as a covariate in wage regressions. <ref type="bibr" coords="40,418.54,158.30,5.98,5.31">34</ref> The regressions include year-specific indicators to control for inflation and other time-changing factors correlated with wages but not with firm size. Because these are administrative data collected for tracking salaries, measurement error in salaries is minor when compared with data in which workers self-report labor earnings. Firms pay blue-collar workers by the hour and can supplement hourly pay with piece rates. Firms belong to employers' federations below the SAF that handle industry-level employment issues. The measure of industry is an establishment's smaller federation. <ref type="table" coords="40,159.71,278.69,40.03,9.66" target="#tab_6">Table A3</ref> shows information about the firm-and establishment-size distributions for a typical year, 1990. Many small firms and establishments have only a few workers each. Precisely estimating the compensation policy of one small establishment or firm is difficult, but with a group of them, I generalize based on shared characteristics across firms. Conversely, there are only a few large firms, but each has many workers. Here only a few unique compensation policies exist, but I estimate each precisely with the large sample for each firm. <ref type="table" coords="40,159.71,399.24,38.97,9.66" target="#tab_7">Table A4</ref> lists the number of different categories in each topical set of controls, as well as other characteristics of the estimation samples I use in this article. The table also lists the means of four key variables: the log of wage, worker age, and, for the Swedish data sets, the logs of establishment and firm size. The U.S. data report firm size in intervals. In Sweden, the mean age of blue-collar workers is similar to the mean age for white-collar workers, so no obvious pattern supports the notion that most white-collar workers are former blue-collar workers. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Regression Controls</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="9,157.72,375.73,126.59,7.73;9,306.40,375.73,154.23,7.73;9,287.18,375.73,15.46,7.73;9,149.75,384.69,311.00,7.73;9,149.75,393.66,71.70,7.73;9,299.08,393.66,161.56,7.73;9,223.42,393.27,75.29,8.12;9,149.75,402.62,310.91,7.73;9,149.75,411.59,310.91,7.73;9,149.75,420.56,41.86,7.73;9,234.53,420.56,167.85,7.73"><head>Fig. 2 .</head><label>2</label><figDesc>-Equilibrium wage function from computation of the GR (2004) model. w(x) This computation uses a uniform [0, 1] distribution of worker ability and GR's production function component, . I calculate the matching function and then the n(x) p 1/[0.20(1 Ϫ x)]</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="10,157.72,375.73,126.25,7.73;10,306.05,375.73,154.61,7.73;10,286.59,375.73,15.85,7.73;10,149.75,384.69,310.89,7.73;10,149.75,393.66,310.93,7.73;10,149.75,402.62,109.28,7.73"><head>FoxFig. 3 .</head><label>3</label><figDesc>-Equilibrium wage function by firm size (n) for entry-level workers and w(n) firm managers. The model and parameterization are the same as in fig. 2. The figure reports wages as a function of firm size instead of worker ability because the data measure both firm size and job responsibility. C. Testable Numerical Predictions for Wages, Job Responsibility, and Firm Size</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="11,157.72,374.73,302.91,7.73;11,149.75,383.70,41.05,7.73;11,235.08,383.70,225.59,7.73;11,193.69,383.70,36.26,7.73;11,208.28,387.80,3.98,4.25;11,229.90,387.80,2.12,4.25;11,149.75,392.66,310.93,7.73;11,149.75,401.63,269.17,7.73;11,149.75,424.14,310.87,9.66;11,149.75,436.10,141.63,9.66;11,320.85,436.10,65.88,9.66;11,294.80,436.10,17.66,9.66;11,312.44,441.23,4.98,5.31;11,225.47,460.51,84.26,10.15;11,325.27,460.51,52.47,10.15;11,232.69,466.14,24.71,5.31;11,281.45,466.14,24.10,5.31;11,187.36,468.97,35.32,9.66;11,312.49,472.44,9.96,4.78;11,380.53,468.97,42.64,9.66;11,204.99,474.11,4.98,5.31"><head>Fig. 4 .</head><label>4</label><figDesc>-Firm-size wage gaps increase with job-responsibility levels across models indexed by h: by managerial ineffectiveness h. The model and parameterization WG /WG m e are the same as in fig. 2. The figure reports wages as a function of firm size instead of worker ability because the data measure both firm size and job responsibility.worker, earns a wage of 0.963. Approximating a regression of wages on firm size, the firm-size wage gap for managers is WG m w (n ) Ϫ w production worker, , earns the indifference wage of 0.963, ૽ x and the least able worker, , earns a wage of 0.708. The firm-size x p 0 wage gap WG e for entry-level workers is then w (n ) Ϫ w</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="20,330.96,646.88,7.73,14.38;20,330.96,601.08,7.73,41.85;20,330.96,568.48,7.73,30.55;20,330.96,549.13,7.73,17.26;20,330.96,531.98,7.73,15.06;20,330.96,521.08,7.73,8.86;20,330.96,503.58,7.73,15.50;20,330.96,479.44,7.73,22.15;20,330.96,425.64,7.73,51.81;20,330.96,402.61,7.73,21.03;20,330.96,385.13,7.73,15.49;20,330.96,370.78,7.73,12.40;20,330.96,327.44,7.73,41.40;20,330.96,312.21,7.73,13.29;20,330.96,293.88,7.73,16.39;20,330.96,273.78,7.73,18.16;20,330.96,257.76,7.73,14.17;20,330.96,233.95,7.73,21.92;20,330.96,190.88,7.73,41.18;20,330.96,173.69,7.73,15.44;20,330.96,142.20,7.73,29.75;20,339.93,658.60,7.73,10.62;20,339.93,644.20,7.73,11.06;20,339.93,622.71,7.73,18.16;20,339.93,605.20,7.73,14.17;20,339.93,579.95,7.73,21.92;20,339.93,535.43,7.73,41.18;20,339.93,492.73,7.73,39.41;20,339.93,459.50,7.73,29.90;20,339.93,439.38,7.73,16.82;20,339.93,417.99,7.73,18.16;20,339.93,386.36,7.73,28.34;20,339.93,344.56,7.73,38.51;20,339.93,324.45,7.73,16.82;20,339.93,308.81,7.73,12.40;20,339.93,271.03,7.73,34.54;20,339.93,252.34,7.73,15.50;20,339.93,202.72,7.73,46.49;20,339.93,186.74,7.73,12.84;20,339.93,171.20,7.73,12.40;20,339.93,142.15,7.73,26.01;20,348.89,634.68,7.73,34.54;20,348.89,616.54,7.73,15.50;20,348.89,599.29,7.73,14.61;20,348.89,581.77,7.73,14.83;20,348.89,575.98,7.73,3.10;20,348.89,549.83,7.73,23.46;20,348.89,536.51,7.73,10.62;20,348.89,523.19,7.73,10.63;20,348.89,513.42,7.73,7.09;20,348.89,481.49,7.73,29.23;20,348.89,454.56,7.73,24.35;20,348.89,443.05,7.73,8.86;20,348.89,432.49,7.73,7.97;20,348.89,399.35,7.73,30.56;20,348.89,386.52,7.73,10.19;20,348.89,368.88,7.73,15.05;20,348.89,348.85,7.73,17.49;20,348.89,338.29,7.73,7.97;20,348.89,299.00,7.73,36.75;20,348.89,268.12,7.73,28.33;20,348.89,255.01,7.73,10.62;20,348.89,221.91,7.73,30.56;20,348.89,209.28,7.73,10.19;20,348.89,191.75,7.73,15.05;20,348.89,173.80,7.73,15.50;20,348.89,159.01,7.73,12.40;20,348.89,142.16,7.73,14.56;20,357.86,654.39,7.73,14.83;20,357.86,640.88,7.73,10.62;20,357.86,627.36,7.73,10.63;20,357.86,617.39,7.73,7.09;20,357.86,576.42,7.73,38.07;20,357.86,554.09,7.73,19.49;20,357.86,544.12,7.73,7.09;20,357.86,521.12,7.73,20.16;20,357.86,484.62,7.73,33.66;20,357.86,471.60,7.73,10.19;20,357.86,443.55,7.73,25.21;20,357.86,428.31,7.73,12.40;20,357.86,391.86,7.73,33.66;20,357.86,378.83,7.73,10.19;20,357.86,345.95,7.73,30.09;20,357.86,337.41,7.73,5.75;20,357.75,330.21,7.05,4.43;20,361.97,328.88,4.25,1.33;20,357.86,320.81,7.73,5.31;20,357.86,307.42,7.73,10.60;20,357.86,269.31,7.73,35.32;20,357.86,257.65,7.73,8.86;20,357.86,240.33,7.73,14.59;20,357.86,224.77,7.73,12.81;20,357.86,211.82,7.73,10.17;20,357.86,198.02,7.73,11.06;20,357.86,148.99,7.73,46.39;20,357.86,142.22,7.73,4.18;20,366.83,658.60,7.73,10.62;20,366.83,617.85,7.73,38.51;20,366.83,608.96,7.73,6.65;20,366.83,596.14,7.73,10.62;20,366.83,570.93,7.73,23.03;20,366.83,558.56,7.73,10.18;20,366.83,451.01,7.73,1.99;20,366.83,438.19,7.73,10.62;20,366.83,404.12,7.73,31.88;20,366.83,384.67,7.73,17.26;20,366.83,370.52,7.73,11.95;20,366.83,340.04,7.73,28.33;20,366.83,320.24,7.73,17.71;20,366.83,302.60,7.73,15.50;20,366.83,288.55,7.73,11.95;20,366.83,274.01,7.73,12.40;20,366.83,254.21,7.73,17.71;20,366.83,236.61,7.73,15.50;20,366.83,226.60,7.73,7.97;20,366.83,194.61,7.73,29.90;20,366.83,179.38,7.73,13.24;20,366.83,142.12,7.73,35.32;20,366.83,544.89,7.73,11.95;20,366.83,527.76,7.73,15.94;20,366.83,514.61,7.73,11.95;20,366.43,506.48,7.97,6.64;20,366.83,494.66,7.73,10.63;20,366.83,482.84,7.73,10.62;20,369.54,477.30,4.85,3.98;20,366.71,471.23,7.05,4.43;20,366.83,467.32,7.73,2.65;20,366.43,459.06,7.97,6.64;20,366.83,453.44,7.73,3.98;20,370.93,469.94,4.25,1.33;20,375.79,645.76,7.73,23.46;20,375.79,637.76,7.73,5.32;20,375.79,617.14,7.73,17.92;20,375.79,584.79,7.73,29.66;20,375.79,546.23,7.73,35.86;20,375.79,536.95,7.73,6.65;20,375.79,523.73,7.73,10.62;20,375.79,493.19,7.73,27.90;20,375.79,467.14,7.73,23.46;20,375.79,444.13,7.73,20.36;20,375.79,434.85,7.73,6.65;20,375.79,416.32,7.73,15.94;20,375.79,407.03,7.73,6.65;20,375.79,392.04,7.73,12.40;20,375.79,382.31,7.73,7.09;20,375.79,369.05,7.73,10.62;20,375.79,348.30,7.73,18.16;20,375.79,334.68,7.73,11.08;20,375.79,289.41,7.73,42.73;20,375.79,268.71,7.73,18.16;20,375.79,252.06,7.73,14.16;20,375.79,232.69,7.73,16.82;20,375.79,214.26,7.73,15.94;20,375.79,201.59,7.73,10.18;20,375.79,183.60,7.73,15.50;20,375.79,155.19,7.73,26.02;20,375.79,142.13,7.73,10.62;20,384.76,636.01,7.73,33.22;20,384.76,626.09,7.73,7.53;20,384.76,612.62,7.73,11.07;20,384.76,603.10,7.73,7.09;20,384.76,548.89,7.73,51.81;20,384.76,527.46,7.73,19.04;20,384.76,498.51,7.73,26.56;20,384.76,481.06,7.73,15.06;20,384.76,461.63,7.73,17.04;20,384.76,429.13,7.73,30.11;20,384.76,406.47,7.73,20.37;20,384.76,394.00,7.73,10.18;20,384.76,351.81,7.73,39.85;20,384.76,331.35,7.73,18.16;20,384.76,318.44,7.73,10.62;20,384.76,299.77,7.73,16.38;20,384.76,271.35,7.73,26.13;20,384.76,256.76,7.73,12.40;20,384.76,244.39,7.73,10.18;20,384.76,211.60,7.73,30.55;20,384.76,203.26,7.73,6.19;20,384.76,190.50,7.73,10.62;20,384.76,142.08,7.73,46.33;20,393.72,653.73,7.73,15.49;20,393.72,644.35,7.73,6.65;20,393.72,630.98,7.73,10.62;20,393.72,590.75,7.73,37.49;20,393.72,572.56,7.73,15.45;20,393.72,553.97,7.73,15.85;20,393.72,504.94,7.73,46.29;20,393.72,489.41,7.73,12.84;20,393.72,474.22,7.73,12.40;20,393.72,456.97,7.73,14.56;20,393.72,439.39,7.73,14.83"><head>Fig. 5 .</head><label>5</label><figDesc>-Swedish firm-size wage gaps by rank within job-assignment codes: sales and engineering. The right panel uses 38,416 white-collar sales workers; the left panel uses 21,227 white-collar engineering workers. Each panel contains coefficients from one regression with establishment size and another regression with firm size. I regress the log of monthly salaries on an indicator for each rank, an interaction between the indicator for each rank and firm size, the log of contractual hours of work, indicators for county, and indicators for industry. If g l is the coefficient on firm size for job responsibility l, the coefficients in the figures are , the predicted wage gap between firms with 500 and firms with 10 workers. male, full-time employees in the Swedish private sector in 1990 in one of the listed job assignments. Only data from 1990 are used because the definition or use of job-assignment codes changes over time. Standard errors are constructed using the delta method and are clustered at the establishment level in the regressions with both establishment size and firm size. This content downloaded from 128.250.144.144 on July 02, 2019 13:00:14 PM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="24,340.92,646.88,7.73,14.38;24,340.92,601.08,7.73,41.85;24,340.92,567.64,7.73,30.55;24,340.92,547.44,7.73,17.26;24,340.92,529.44,7.73,15.06;24,340.92,517.64,7.73,8.86;24,340.92,454.06,7.73,60.69;24,340.92,418.67,7.73,32.55;24,340.92,402.50,7.73,13.29;24,340.92,383.22,7.73,16.39;24,340.92,362.18,7.73,18.16;24,340.92,345.12,7.73,14.17;24,340.92,295.79,7.73,46.49;24,340.92,278.12,7.73,14.83;24,340.92,264.65,7.73,10.62;24,340.92,250.75,7.73,11.06;24,340.92,229.76,7.73,18.16;24,340.92,212.85,7.73,14.17;24,340.92,195.45,7.73,14.61;24,340.92,177.83,7.73,14.83;24,340.92,155.21,7.73,19.83;24,340.92,142.19,7.73,10.18;24,349.89,655.94,7.73,13.28;24,349.89,626.87,7.73,27.43;24,349.89,585.56,7.73,39.62;24,349.89,567.10,7.73,16.82;24,349.89,530.97,7.73,34.53;24,349.89,515.21,7.73,14.17;24,349.89,481.70,7.73,31.87;24,349.89,438.90,7.73,41.16;24,349.89,394.31,7.73,42.94;24,349.89,375.95,7.73,16.82;24,349.89,358.42,7.73,15.94;24,349.89,349.74,7.73,7.08;24,349.89,330.27,7.73,17.93;24,349.89,317.62,7.73,11.06;24,349.89,305.40,7.73,10.62;24,349.89,290.98,7.73,12.83;24,349.89,279.25,7.73,10.18;24,349.89,269.74,7.73,7.97;24,349.89,228.85,7.73,39.40;24,349.89,220.32,7.73,7.08;24,349.89,203.82,7.73,15.06;24,349.89,142.09,7.73,60.39;24,358.86,655.05,7.73,14.18;24,358.86,644.63,7.73,7.53;24,358.86,611.18,7.73,30.56;24,358.86,598.16,7.73,10.18;24,358.86,553.48,7.73,41.84;24,358.86,547.54,7.73,3.10;24,358.86,524.32,7.73,20.38;24,358.86,510.86,7.73,10.62;24,358.86,496.94,7.73,11.08;24,358.86,443.22,7.73,50.94;24,358.86,426.74,7.73,13.73;24,358.86,416.04,7.73,7.97;24,358.86,391.11,7.73,22.14;24,358.86,365.79,7.73,22.58;24,358.86,320.53,7.73,42.51;24,358.86,308.93,7.73,8.86;24,358.86,295.57,7.73,10.62;24,358.86,266.21,7.73,26.57;24,358.86,256.33,7.73,7.09;24,358.86,225.64,7.73,27.90;24,358.86,216.30,7.73,6.65;24,358.86,198.57,7.73,15.05;24,358.86,184.90,7.73,11.03;24,358.86,142.17,7.73,40.14;24,367.82,635.59,7.73,33.64;24,367.82,620.84,7.73,12.40;24,367.82,590.67,7.73,27.88;24,367.82,580.41,7.73,7.97;24,367.82,541.37,7.73,36.75;24,367.71,534.74,7.05,4.43;24,371.93,533.40,4.25,1.33;24,367.82,502.81,7.73,28.33;24,367.82,489.95,7.73,10.62;24,367.82,477.02,7.73,10.63;24,367.82,467.65,7.73,7.09;24,367.82,450.80,7.73,14.61;24,367.82,435.67,7.73,12.84;24,367.82,420.97,7.73,12.40;24,367.82,403.68,7.73,15.05;24,367.82,374.04,7.73,27.46;24,367.82,367.62,7.73,4.18;24,367.82,352.09,7.73,13.29;24,367.82,326.87,7.73,23.03;24,367.82,310.95,7.73,13.73;24,367.82,190.84,7.73,12.40;24,367.82,178.17,7.73,10.62;24,367.82,142.19,7.73,33.94"><head>Fig. 6 .</head><label>6</label><figDesc>-Swedish firm-size wage gaps by job-responsibility quantiles. The right panel uses establishment size; the left panel uses firm size. There are two separate regressions. Each regression uses 4,054,518 white-collar observations from 1970 to 1990. See the text for an explanation of how job-responsibility bins or quantiles are constructed. I group the job responsibilities into 20 evenly spaced (unweighted by the number of workers in each job assignment) categories and estimate an interaction g l between the log of firm size and each quantile l. intervals from the delta method. The sample is full-time male white-collar workers from 1970 to 1990. The log salary regression includes controls for the log of contractual hours, industry, county, years, and level effects for the 20 bins of job responsibility. The confidence intervals cluster at the firm or establishment level across years and allow for heteroskedasticity. Because of limitations with my statistics package, I do not separately cluster at the worker level, so the standard errors are likely understated to the extent workers are mobile across employers. Results using only the year 1990 are qualitatively similar, with somewhat larger confidence regions. This content downloaded from 128.250.144.144 on July 02, 2019 13:00:14 PM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="26,347.90,646.88,7.73,14.38;26,347.90,609.95,7.73,32.98;26,347.90,564.35,7.73,42.50;26,347.90,542.71,7.73,18.60;26,347.90,532.54,7.73,7.09;26,347.90,504.65,7.73,24.80;26,347.90,492.70,7.73,8.86;26,347.90,457.33,7.73,32.33;26,347.90,439.41,7.73,14.83;26,347.90,426.14,7.73,10.19;26,347.90,395.15,7.73,27.90;26,347.90,358.24,7.73,33.87;26,347.90,341.86,7.73,13.29;26,347.90,322.44,7.73,16.39;26,347.90,301.24,7.73,18.16;26,347.90,292.94,7.73,5.32;26,347.90,279.71,7.73,10.19;26,347.90,230.19,7.73,46.49;26,347.90,212.37,7.73,14.83;26,347.90,198.75,7.73,10.62;26,347.90,184.70,7.73,11.06;26,347.90,163.56,7.73,18.16;26,347.90,155.30,7.73,5.32;26,347.90,142.18,7.73,10.14;26,356.86,654.62,7.73,14.61;26,356.86,636.75,7.73,14.83;26,356.86,620.42,7.73,13.29;26,356.86,594.80,7.73,22.59;26,356.86,584.77,7.73,7.09;26,356.86,553.88,7.73,27.90;26,356.86,544.70,7.73,6.19;26,356.86,526.66,7.73,15.05;26,356.86,509.11,7.73,14.61;26,356.86,493.72,7.73,12.40;26,356.86,430.09,7.73,60.69;26,356.86,411.66,7.73,15.49;26,356.86,383.87,7.73,24.80;26,356.86,372.96,7.73,7.97;26,356.86,342.12,7.73,27.90;26,356.86,323.68,7.73,15.50;26,356.86,309.66,7.73,11.08;26,356.86,266.04,7.73,40.73;26,356.86,256.56,7.73,6.64;26,356.86,219.80,7.73,33.87;26,356.86,200.96,7.73,15.95;26,356.86,182.24,7.73,15.93;26,356.86,167.00,7.73,12.40;26,356.86,142.18,7.73,22.08;26,365.83,656.82,7.73,12.40;26,365.83,642.52,7.73,11.52;26,365.83,627.38,7.73,12.40;26,365.83,610.91,7.73,13.72;26,365.83,591.13,7.73,17.04;26,365.83,581.75,7.73,6.65;26,365.83,561.12,7.73,17.93;26,365.83,545.10,7.73,13.29;26,365.83,522.43,7.73,19.93;26,365.83,495.34,7.73,24.36;26,365.83,481.97,7.73,10.62;26,365.83,453.56,7.73,25.67;26,365.83,444.18,7.73,6.65;26,365.83,431.52,7.73,9.96;26,365.83,419.49,7.73,9.29;26,365.83,406.61,7.73,10.19;26,365.83,386.22,7.73,17.71;26,365.83,376.88,7.73,6.65;26,365.83,359.19,7.73,15.05;26,365.83,338.40,7.73,18.16;26,365.83,322.92,7.73,12.84;26,365.83,292.55,7.73,27.67;26,365.83,273.53,7.73,16.39;26,365.83,263.85,7.73,7.09;26,365.83,236.41,7.73,24.80;26,365.83,205.92,7.73,27.90;26,365.83,195.51,7.73,7.97;26,365.83,165.26,7.73,27.80;26,365.83,142.07,7.73,20.80;26,374.79,658.64,7.73,10.59;26,374.79,631.21,7.73,24.69;26,374.79,603.80,7.73,24.71;26,374.79,594.38,7.73,6.63;26,374.79,581.11,7.73,10.59;26,374.79,544.93,7.73,33.43;26,374.79,530.70,7.73,11.50;26,374.79,515.61,7.73,12.35;26,374.79,494.73,7.73,18.09;26,374.79,464.15,7.73,27.80;26,374.79,454.76,7.73,6.65;26,374.79,441.41,7.73,10.61;26,374.79,396.79,7.73,41.88;26,374.79,374.63,7.73,19.42;26,374.79,356.42,7.73,15.42;26,374.79,346.56,7.73,7.07;26,374.79,333.23,7.73,10.59;26,374.79,297.05,7.73,33.45"><head></head><label></label><figDesc>l,i is the computed span of control for worker in job-iFig. 7.-Mean approximate spans of control by employer size, for Swedish engineers. The right panel is for establishment size; the left panel is for firm size. The counts of workers at each firm and job-responsibility level include all workers with job assignments as engineers, both male and female and full and part time, in 1990. The figure reports the statistic in eq.(2) for firms in each listed size interval. Span of control includes all workers below the current worker in the hierarchy, not just those workers in the immediately lower level of the hierarchy.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7" coords="28,344.91,646.88,7.73,14.38;28,344.91,601.08,7.73,41.85;28,344.91,544.70,7.73,53.59;28,344.91,524.59,7.73,17.26;28,344.91,506.70,7.73,15.06;28,344.91,495.00,7.73,8.86;28,344.91,476.71,7.73,15.50;28,344.91,451.77,7.73,22.15;28,344.91,397.22,7.73,51.81;28,344.91,373.39,7.73,21.03;28,344.91,355.11,7.73,15.49;28,344.91,339.92,7.73,12.40;28,344.91,295.78,7.73,41.40;28,344.91,279.70,7.73,13.29;28,344.91,242.37,7.73,34.54;28,344.91,225.46,7.73,14.17;28,344.91,207.26,7.73,15.51;28,344.91,176.77,7.73,27.90;28,344.91,158.73,7.73,15.45;28,344.91,142.15,7.73,14.13;28,353.87,622.71,7.73,46.51;28,353.87,600.98,7.73,18.59;28,353.87,574.39,7.73,23.46;28,353.87,556.14,7.73,15.06;28,353.87,547.03,7.73,5.98;28,353.87,527.45,7.73,16.39;28,353.87,517.23,7.73,7.09;28,353.87,489.24,7.73,24.80;28,353.87,480.79,7.73,5.32;28,353.87,473.66,7.73,3.98;28,353.87,458.07,7.73,12.40;28,353.87,449.57,7.73,5.32;28,353.87,412.74,7.73,33.64;28,353.87,391.44,7.73,18.16;28,353.87,372.74,7.73,15.51;28,353.87,341.75,7.73,27.90;28,353.87,332.01,7.73,6.65;28,353.87,318.30,7.73,10.62;28,353.87,298.35,7.73,16.82;28,353.87,284.13,7.73,11.08;28,353.87,241.42,7.73,39.63;28,353.87,224.99,7.73,13.29;28,353.87,205.52,7.73,16.39;28,353.87,184.32,7.73,18.16;28,353.87,167.16,7.73,14.12;28,353.87,142.21,7.73,21.92;28,362.84,628.05,7.73,41.18;28,362.84,609.91,7.73,15.49;28,362.84,577.38,7.73,29.90;28,362.84,564.11,7.73,10.62;28,362.84,550.41,7.73,11.06;28,362.84,529.61,7.73,18.16;28,362.84,512.80,7.73,14.17;28,362.84,488.24,7.73,21.92;28,362.84,444.42,7.73,41.18;28,362.84,402.42,7.73,39.41;28,362.84,369.94,7.73,29.90;28,362.84,350.57,7.73,16.82;28,362.84,329.93,7.73,18.16;28,362.84,299.04,7.73,28.34;28,362.84,258.04,7.73,38.51;28,362.84,238.78,7.73,16.82;28,362.84,223.93,7.73,12.40;28,362.84,187.00,7.73,34.54;28,362.84,169.16,7.73,15.50;28,362.84,151.43,7.73,15.45;28,362.84,142.11,7.73,7.09;28,371.81,644.42,7.73,24.80;28,371.81,608.04,7.73,33.64;28,371.81,599.16,7.73,6.19;28,371.81,585.80,7.73,10.62;28,371.81,536.62,7.73,46.49;28,371.81,518.48,7.73,15.49;28,371.81,503.44,7.73,12.40;28,371.81,474.68,7.73,26.13;28,371.81,437.45,7.73,34.54;28,371.81,419.30,7.73,15.50;28,371.81,401.16,7.73,15.50;28,371.81,391.49,7.73,7.09;28,371.81,364.04,7.73,24.80;28,371.81,327.31,7.73,34.10;28,371.81,318.52,7.73,6.19;28,371.81,305.31,7.73,10.62;28,371.81,288.11,7.73,14.61;28,371.81,268.08,7.73,17.49;28,371.81,262.39,7.73,3.10;28,371.81,236.34,7.73,23.46;28,371.81,223.13,7.73,10.62;28,371.81,209.95,7.73,10.63;28,371.81,200.38,7.73,7.09;28,371.81,168.80,7.73,29.09;28,371.81,142.13,7.73,24.33;28,380.77,660.36,7.73,8.86;28,380.77,649.45,7.73,7.97;28,380.77,615.96,7.73,30.56;28,380.77,602.78,7.73,10.19;28,380.77,584.75,7.73,15.05;28,380.77,564.32,7.73,17.49;28,380.77,553.36,7.73,7.97;28,380.77,513.67,7.73,36.75;28,380.77,482.40,7.73,28.33;28,380.77,468.83,7.73,10.62;28,380.77,435.29,7.73,30.56;28,380.77,422.16,7.73,10.19;28,380.77,404.18,7.73,15.05;28,380.77,385.74,7.73,15.50;28,380.77,370.44,7.73,12.40;28,380.77,356.93,7.73,10.62;28,380.77,343.36,7.73,10.63;28,380.77,333.34,7.73,7.09;28,380.77,314.95,7.73,15.50;28,380.77,304.97,7.73,7.09;28,380.77,275.24,7.73,26.79;28,380.77,261.67,7.73,10.62;28,380.77,248.10,7.73,10.63;28,380.77,238.13,7.73,7.09;28,380.77,197.17,7.73,38.07;28,380.77,174.83,7.73,19.49;28,380.77,165.01,7.73,7.09;28,380.77,142.16,7.73,20.06;28,389.74,635.57,7.73,33.66;28,389.74,622.10,7.73,10.19;28,389.74,593.65,7.73,25.21;28,389.74,577.96,7.73,12.40;28,389.74,541.06,7.73,33.66;28,389.74,527.64,7.73,10.19;28,389.74,494.31,7.73,30.09;28,389.74,485.32,7.73,5.75;28,389.63,477.70,7.05,4.43;28,393.85,476.37,4.25,1.33;28,389.74,467.85,7.73,5.32;28,389.74,453.99,7.73,10.62;28,389.74,415.34,7.73,35.41;28,389.74,403.24,7.73,8.86;28,389.74,384.55,7.73,15.50;28,389.74,374.28,7.73,7.09;28,389.74,346.24,7.73,24.80;28,389.74,332.86,7.73,10.19;28,389.74,318.60,7.73,11.08;28,389.74,267.65,7.73,47.81;28,389.74,260.32,7.73,4.18;28,389.74,246.56,7.73,10.62;28,389.74,204.91,7.73,38.51;28,389.74,195.17,7.73,6.65;28,389.74,181.51,7.73,10.62;28,389.74,155.50,7.73,22.93;28,389.74,142.23,7.73,10.18;28,398.70,593.91,7.73,1.99;28,398.70,580.40,7.73,10.62;28,398.70,545.63,7.73,31.88;28,398.70,525.52,7.73,17.26;28,398.70,510.68,7.73,11.95;28,398.70,479.51,7.73,28.33;28,398.70,458.07,7.73,18.60;28,398.70,441.95,7.73,13.28;28,398.70,420.47,7.73,18.59;28,398.70,410.93,7.73,6.65;28,398.70,395.25,7.73,12.84;28,398.70,383.50,7.73,8.86;28,398.70,377.12,7.73,3.54;28,398.70,354.31,7.73,19.92;28,398.70,344.34,7.73,7.09;28,398.70,335.52,7.73,5.98;28,398.70,319.35,7.73,13.29;28,398.70,281.09,7.73,35.42;28,398.70,254.84,7.73,23.46;28,398.70,246.68,7.73,5.32;28,398.70,214.18,7.73,29.66;28,398.70,195.46,7.73,15.93;28,398.70,164.76,7.73,27.90;28,398.70,155.43,7.73,6.65;28,398.70,142.11,7.73,10.62"><head>Fig. 8 .</head><label>8</label><figDesc>-Swedish span-of-control wage gaps by rank within job-assignment codes: sales and engineering. The regression uses only workers with jobresponsibility levels greater than 4. Span of control is 2 and is calculated using only workers in the same job assignment. The right panel uses 21,830 white-collar sales workers; the left panel uses 18,650 white-collar engineering workers. Each panel contains coefficients from one regression with span of control calculated at the establishment level and another regression with span of control computed at the firm level. I regress the log of monthly salaries on an indicator for each rank, an interaction between the indicator for each rank and the log of span of control, the log of contractual hours of work, indicators for county, and indicators for industry. If g l is the coefficient on span of control for job responsibility, l, the coefficients in the figures are , the predicted wage gap between spans that differ in size by a factor of 3. The estimation sample is full-time male workers Swedish private sector in 1990 in one of the listed job assignments. Only data from 1990 are used because the definition or use of job-assignment codes changes over time. Standard errors are constructed using the delta method and are clustered at the establishment level for establishment spans of control and at the firm level for firm spans of control.This content downloaded from 128.250.144.144 on July 02, 2019 13:00:14 PM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8" coords="37,345.90,464.31,7.73,13.29;37,345.90,430.13,7.73,3.98;37,345.90,386.60,7.73,13.29;37,345.90,352.42,7.73,3.98;37,345.90,308.90,7.73,13.29;37,345.90,274.71,7.73,3.98;37,345.90,231.19,7.73,13.29;37,345.90,197.00,7.73,3.98;37,345.90,153.48,7.73,13.29;37,354.37,618.09,7.73,32.21;37,354.37,600.35,7.73,14.95;37,354.37,575.48,7.73,22.08;37,354.37,564.72,7.73,7.97;37,354.37,500.80,7.73,17.88;37,354.37,464.27,7.73,13.27;37,354.37,430.08,7.73,3.98;37,354.37,386.56,7.73,13.29;37,354.37,352.38,7.73,3.98;37,354.37,308.87,7.73,13.27;37,354.37,274.68,7.73,3.98;37,354.37,231.16,7.73,13.29;37,354.37,196.98,7.73,3.98;37,354.37,153.47,7.73,13.27;37,362.84,621.17,7.73,29.13;37,362.84,572.14,7.73,46.29;37,362.84,556.61,7.73,12.84;37,362.84,545.85,7.73,7.97;37,362.84,500.87,7.73,17.93;37,362.84,464.32,7.73,13.29;37,362.84,423.16,7.73,17.93;37,362.84,386.61,7.73,13.29;37,362.84,352.43,7.73,3.98;37,362.84,308.91,7.73,13.29;37,362.84,267.75,7.73,17.93;37,362.84,231.20,7.73,13.29;37,362.84,197.02,7.73,3.98;37,362.84,153.50,7.73,13.29;37,375.99,605.20,6.76,38.13;37,375.99,589.93,6.76,13.17;37,375.99,568.46,6.76,19.38;37,375.99,552.85,6.76,13.57;37,375.99,546.16,6.76,4.65;37,375.99,513.56,6.76,30.60;37,375.99,466.47,6.76,45.05;37,375.99,448.78,6.76,15.69;37,375.99,435.11,6.76,11.63;37,375.99,416.84,6.76,16.28;37,375.99,394.26,6.76,20.53;37,375.99,367.90,6.76,24.42;37,375.99,358.98,6.76,6.98;37,375.99,342.32,6.76,14.72;37,375.99,304.28,6.76,36.05;37,375.99,288.82,6.76,13.57;37,375.99,263.72,6.76,23.26;37,375.99,246.32,6.76,15.51;37,375.99,221.03,6.76,23.44;37,375.99,207.61,6.76,11.63;37,375.99,189.98,6.76,15.89;37,375.99,165.24,6.76,23.10;37,375.99,142.12,6.76,21.52;37,383.46,636.72,6.76,13.57;37,383.46,608.77,6.76,25.96;37,383.46,592.79,6.76,13.94;37,383.46,566.32,6.76,24.42;37,383.46,558.47,6.76,5.82;37,383.46,528.14,6.76,28.33;37,383.46,493.02,6.76,33.13;37,383.46,479.40,6.76,11.63;37,383.46,446.41,6.76,31.00;37,383.46,423.98,6.76,20.53;37,383.46,397.24,6.76,24.80;37,383.46,370.93,6.76,24.42;37,383.46,355.47,6.76,13.57;37,383.46,328.82,6.76,24.80;37,383.46,308.82,6.76,18.21;37,383.46,300.82,6.76,6.20;37,383.46,283.48,6.76,15.51;37,383.46,258.24,6.76,23.44;37,383.46,237.69,6.76,18.80;37,383.46,201.31,6.76,34.69;37,383.46,169.66,6.76,30.15;37,383.46,142.07,6.76,26.09;37,390.93,632.85,6.76,17.45;37,390.93,611.56,6.76,18.79;37,390.93,598.17,6.76,10.85;37,390.93,554.99,6.76,40.69;37,390.93,539.47,6.76,12.98;37,390.93,525.12,6.76,11.81;37,390.93,505.97,6.76,16.66;37,390.93,479.01,6.76,24.42;37,390.93,462.96,6.76,13.56;37,390.93,451.12,6.76,9.30;37,390.93,433.08,6.76,15.50;37,390.93,424.39,6.76,6.20;37,390.93,397.54,6.76,24.41;37,390.93,385.80,6.76,9.30;37,390.93,355.84,6.76,27.51;37,390.93,348.75,6.76,4.65;37,390.93,317.93,6.76,28.33;37,390.93,290.68,6.76,24.80;37,390.93,282.09,6.76,6.20;37,390.93,265.35,6.76,14.35;37,390.93,246.11,6.76,16.85;37,390.93,206.08,6.76,37.59;37,390.93,179.32,6.76,24.42;37,390.93,168.15,6.76,8.88;37,390.93,150.07,6.76,15.79;37,390.93,142.07,6.76,5.82;37,398.41,631.05,6.76,19.25;37,398.41,593.25,6.76,35.41;37,398.41,577.37,6.76,13.49;37,398.41,558.41,6.76,16.56;37,398.41,545.61,6.76,10.41;37,398.41,530.10,6.76,13.12;37,398.41,515.57,6.76,12.13;37,398.41,495.02,6.76,18.11;37,398.41,473.36,6.76,19.28;37,398.41,435.61,6.76,35.41;37,398.41,424.36,6.76,8.86;37,398.41,406.13,6.76,15.79;37,398.41,397.93,6.76,5.81;37,398.41,382.80,6.76,12.74;37,398.41,362.67,6.76,17.73;38,445.69,124.97,14.95,8.70"><head></head><label></label><figDesc>.-The time period used is December 1995-February 2000. The "All" sample includes all SIPP respondents with positive labor income. The other samples include only full-time male workers in for-profit companies. The estimation sample removes workers with imputed values of labor income, hours, occupation, schooling, industry, union status, and establishment size. Too many workers have the value of whether the company is for-profit imputed to drop them. White-collar workers are those in census occupations with codes less than 400. Other census occupations are listed as blue collar.Fox</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="13,144.13,632.06,363.74,154.94"><head></head><label></label><figDesc>use the 1979 Current Population Survey to show that workers in larger firms have higher levels of schooling. I have reproduced this fact for the Swedish and U.S. data sets I use in this article. This content downloaded from 128.250.144.144 on July 02, 2019 13:00:14 PM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="30,152.93,171.35,189.74,472.98"><head>Table 1 U</head><label>1</label><figDesc>.S. Employer-Size Wage Gaps by Occupation</figDesc><table coords="30,180.53,171.35,162.15,472.98">Establishment Size 
+
+Firm Size 
+
+Size 25-100 vs. Size 1-24 Size 100ϩ vs. Size 1-24 Size 25-100 vs. Size 1-24 Size 100ϩ vs. Size 1-24 
+
+Comparisons 
+
+Wage 
+Gap 
+
+SE 
+Test Gap 
+Constant 
+
+Wage 
+Gap 
+
+SE 
+Test Gap 
+Constant 
+
+Wage 
+Gap 
+
+SE 
+Test Gap 
+Constant 
+
+Wage 
+Gap 
+
+SE 
+Test Gap 
+Constant 
+
+A. Blue and white collar: 
+
+.005 
+
+!.001 
+
+.001 
+
+!.001 
+
+Blue collar 
+
+.074 .005 
+
+.140 .006 
+
+.087 .006 
+
+.181 .007 
+
+White collar 
+
+.096 .006 
+
+.197 .007 
+
+.119 .008 
+
+.236 .008 
+
+B. Different white collar: 
+
+.013 
+
+!.001 
+
+.043 
+
+!.001 
+
+Entry level 
+
+.077 .018 
+
+.138 .020 
+
+.093 .025 
+
+.173 .026 
+
+Supervisors 
+
+Ϫ.001 
+
+.051 
+
+.094 .058 
+
+.085 .100 
+
+.220 .115 
+
+Managers 
+
+.120 .011 
+
+.253 .014 
+
+.168 .017 
+
+.288 .018 
+
+C. Sales workers: 
+
+!.001 
+
+!.001 
+
+!.001 
+
+.005 
+
+Salespeople 
+
+.071 .014 
+
+.158 .016 
+
+.071 .017 
+
+.139 .017 
+
+Sales managers 
+
+.176 .018 
+
+.318 .212 
+
+.152 .024 
+
+.269 .025 
+
+D. Technical workers: 
+
+.009 
+
+.001 
+
+.006 
+
+.46 
+
+Engineers 
+
+.076 .026 
+
+.162 .025 
+
+.084 .029 
+
+.160 .026 
+
+Technicians 
+
+Ϫ.034 
+
+.023 
+
+.074 .024 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="37,206.73,153.18,146.91,497.12"><head>Table A1</head><label>A1</label><figDesc>Numbers of Observations in the All Workers, Full-Time, and Estimation Samples for the 1996 SIPP</figDesc><table coords="37,234.33,153.18,119.31,497.12">Sample 
+
+All 
+
+White Collar 
+
+White Collar 
+
+Blue Collar 
+
+Blue Collar 
+
+Selection group 
+
+Workers 
+Full time, male 
+
+Estimation 
+Full time, male 
+
+Estimation 
+
+Total observations 
+
+1,629,756 
+
+246,285 
+
+162,534 
+
+329,343 
+
+196,558 
+
+Unique workers 
+
+62,522 
+
+10,784 
+
+7,550 
+
+15,715 
+
+9,959 
+
+Months per unique worker: 
+25th percentile 
+
+9 
+
+7 
+
+7 
+
+6 
+
+5 
+
+50th percentile (median) 
+
+25 
+
+18 
+
+17 
+
+16 
+
+16 
+
+75th percentile 
+
+44 
+
+42 
+
+36 
+
+36 
+
+33 
+
+Variable 
+
+Mean 
+
+SD 
+
+Mean 
+
+SD 
+
+Mean 
+
+SD 
+
+Mean 
+
+SD 
+
+Mean 
+
+SD 
+
+Age 
+
+38.53 
+
+12.79 
+
+39.15 
+
+11.01 
+
+39.32 
+
+8.85 
+
+37.66 
+
+11.73 
+
+39.48 
+
+8.99 
+
+Female % 
+
+49.06 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="38,149.75,145.39,310.86,133.95"><head>Table A2 U</head><label>A2</label><figDesc>.S. Firm and Establishment Sizes for May 1996</figDesc><table coords="38,149.75,172.99,310.86,106.36">Firm Sizes 
+Establishment Sizes 
+
+Size Category 
+
+Workers 
+(No.) 
+
+Workers 
+(%) 
+
+Workers 
+(No.) 
+
+Workers 
+(%) 
+
+White collar 
+1-10 
+625 
+15.5 
+1,273 
+31.5 
+11-99 
+562 
+13.9 
+977 
+24.2 
+100ϩ 
+2,849 
+70.6 
+1,786 
+44.3 
+Total 
+4,036 
+100.0 
+4,036 
+100.0 
+Blue collar 
+1-10 
+1,149 
+22.8 
+1,664 
+33.0 
+11-99 
+829 
+16.5 
+1,262 
+25.1 
+100ϩ 
+3,058 
+60.7 
+2,110 
+41.9 
+Total 
+5,036 
+100.0 
+5,036 
+100.0 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="39,144.13,160.06,363.74,626.94"><head>Table A3 Swedish</head><label>A3</label><figDesc>Firm and Establishment Sizes in 1990 Note.-The worker statistics use only the estimation sample. The firm-and establishment-size calculations and the counts of firms and establishments by size use all workers. content downloaded from 128.250.144.144 on July 02, 2019 13:00:14 PM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</figDesc><table coords="39,198.46,166.54,174.10,611.20">Firm Size 
+
+Establishment Size 
+
+Size Category 
+
+Firm 
+(No.) 
+
+Firm 
+(%) 
+
+Workers 
+(No.) 
+
+Workers 
+(%) 
+
+Est. 
+(No.) 
+
+Est. 
+(%) 
+
+Workers 
+(No.) 
+
+Workers 
+(%) 
+
+White collar 
+
+1-10 
+
+8,985 
+
+65.2 
+
+14,050 
+
+7.0 
+
+15,501 
+
+70.4 
+
+26,622 
+
+13.2 
+
+11-25 
+
+2,402 
+
+17.4 
+
+18,162 
+
+9.1 
+
+3,709 
+
+16.8 
+
+28,670 
+
+14.2 
+
+26-75 
+
+1,502 
+
+10.9 
+
+31,374 
+
+15.6 
+
+1,941 
+
+8.8 
+
+39,924 
+
+19.8 
+
+76-150 
+
+477 
+
+3.5 
+
+25,214 
+
+12.5 
+
+524 
+
+2.4 
+
+27,975 
+
+13.9 
+
+151-500 
+
+326 
+
+2.4 
+
+43,847 
+
+21.8 
+
+294 
+
+1.3 
+
+40,569 
+
+20.1 
+
+501-1,000 
+
+60 
+
+.4 
+
+22,874 
+
+11.4 
+
+44 
+
+.2 
+
+16,234 
+
+8.06 
+
+1,001ϩ 
+
+36 
+
+.3 
+
+45,969 
+
+22.8 
+
+18 
+
+.1 
+
+21,496 
+
+10.7 
+
+Total 
+
+13,788 
+
+100 
+
+201,490 
+
+100 
+
+22,031 
+
+100 
+
+201,490 
+
+100 
+
+Blue collar 
+
+1-10 
+
+10,353 
+
+58.4 
+
+23,366 
+
+7.8 
+
+13,728 
+
+59.0 
+
+30,994 
+
+10.3 
+
+11-25 
+
+3,581 
+
+20.2 
+
+29,535 
+
+9.8 
+
+4,829 
+
+20.8 
+
+39,015 
+
+12.9 
+
+26-75 
+
+2,494 
+
+14.1 
+
+50,883 
+
+16.9 
+
+3,133 
+
+13.5 
+
+62,298 
+
+20.7 
+
+76-150 
+
+718 
+
+4.1 
+
+37,612 
+
+12.5 
+
+922 
+
+4.0 
+
+45,580 
+
+15.1 
+
+151-500 
+
+424 
+
+2.4 
+
+57,620 
+
+19.1 
+
+530 
+
+2.3 
+
+66,414 
+
+22.0 
+
+501-1,000 
+
+95 
+
+.5 
+
+34,905 
+
+11.6 
+
+84 
+
+.4 
+
+25,989 
+
+8.6 
+
+1,001ϩ 
+
+62 
+
+.4 
+
+67,607 
+
+22.4 
+
+25 
+
+.1 
+
+31,238 
+
+10.4 
+
+Total 
+
+17,727 
+
+100 
+
+301,528 
+
+100 
+
+23,251 
+
+100 
+
+301,528 
+
+100 
+
+This </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" coords="41,152.74,145.39,301.10,200.44"><head>Table A4 Data</head><label>A4</label><figDesc>Sets and the Number of Categories for Regression ControlsNote.-The table uses only the estimation samples: male, full-time workers in the private sector.</figDesc><table coords="41,152.74,172.99,298.94,160.65">Data Source 
+SAF 
+SAF 
+SIPP 
+
+Group 
+White collar 
+Blue collar 
+White and blue collar 
+Country 
+Sweden 
+Sweden 
+U.S. 
+Period 
+1970-90 
+1990 
+Dec 1995-Feb 2000 
+Education 
+0 
+0 
+17 
+Industry 
+44 
+26 
+223 
+Collective bargaining 
+0 
+0 
+1 
+Region 
+25 
+24 
+0 
+City size 
+0 
+0 
+1 
+Time 
+21 
+0 
+51 
+Hours of work 
+1 
+1 
+0 
+Wage measure (in logs) 
+Monthly salary Hourly wage 
+Hourly wage 
+Mean log wage 
+9.76 (1990) 
+4.26 
+2.60 
+Mean age 
+42.1 
+39.5 
+43.7 
+Mean log firm size 
+5.66 
+5.29 
+Intervals 
+Mean log establishment size 
+4.66 
+4.64 
+Intervals 
+# of person-time obs. 
+4,064,887 
+303,439 
+359,092 
+# of unique persons 
+939,678 
+303,439 
+16,007 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">This content downloaded from 128.250.144.144 on July 02, 2019 13:00:14 PM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="19">The estimation sample comprises the workers assigned to engineering positions, not the workers with engineering degrees.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="20">Codes change over time, so I construct job responsibility separately for each year of data.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="21">Data on reporting relationships are rare.Smeets and Warzynski (2007)  analyze data on reporting relationships for a single large firm. For workers at the same job-responsibility level, wages are positively correlated with spans of control.This content downloaded from 128.250.144.144 on July 02, 2019 13:00:14 PM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="22">This type of measure is common in the literature on executive compensation. A CEO's span of control is not the number of other high-ranking executives but the total size of the firm.23  This prediction is in the original GR papers and is not sensitive to the uniform distribution for worker ability.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="29"><ref type="bibr" coords="33,166.34,642.02,40.84,8.70" target="#b16">Fox (2004)</ref> has a model of upward-sloping labor-supply curves with switching costs in a second period. Larger switching costs lower, rather than raise, wages for workers who stay longer at a firm.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="34">Excluding hours of work does not seriously alter the estimates of firm-size wage gaps. This content downloaded from 128.250.144.144 on July 02, 2019 13:00:14 PM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">This content downloaded from 128.250.144.144 on July 02, 2019 13:00:14 PM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="41,149.75,398.24,310.93,9.66;41,159.71,410.19,300.90,9.66;41,159.71,422.15,37.56,9.66" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Wages, profits, and capital intensity: Evidence from matched worker-firm data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mahmood</forename><surname>Arai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Labor Economics</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="593" to="618" />
+			<date type="published" when="2003-07" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,149.75,434.10,310.91,9.66;41,159.71,446.06,300.92,9.66;41,159.71,458.01,201.60,9.66" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The internal economics of the firm: Evidence from personnel data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">George</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Gibbs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bengt</forename><surname>Holmstrom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="881" to="919" />
+			<date type="published" when="1994-11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,149.75,469.97,310.93,9.66;41,159.71,481.92,300.97,9.66;41,159.71,493.88,300.99,9.66;41,159.71,505.83,32.58,9.66" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Employer size: The implications for search, training, capital investment, starting wages, and wage growth</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">M</forename><surname>Barron</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dan</forename><forename type="middle">A</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><forename type="middle">A</forename><surname>Lowenstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Labor Economics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="477" to="99" />
+			<date type="published" when="1987-10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,149.75,517.79,310.92,9.66;41,159.71,529.74,300.98,9.66;41,159.71,541.70,222.11,9.66" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Employee characteristics and firm size: Are there systematic empirical relationships?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">R</forename><surname>Barth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Joseph</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sheldon</forename><forename type="middle">E</forename><surname>Cordes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Haber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Economics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="555" to="67" />
+			<date type="published" when="1987-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,149.75,553.65,310.82,9.66;41,159.71,565.61,106.77,9.66;41,149.75,577.56,310.84,9.66;41,159.71,589.52,142.31,9.66" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A theory of marriage: Part I</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><forename type="middle">S</forename><surname>Becker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Political Economy</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="813" to="859" />
+			<date type="published" when="1962" />
+		</imprint>
+	</monogr>
+	<note>Journal of Political Economy</note>
+</biblStruct>
+
+<biblStruct coords="41,149.75,601.47,310.96,9.66;41,159.71,613.43,300.86,9.66;41,159.71,625.38,69.26,9.66" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Law enforcement, malfeasance, and compensation of enforcers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><forename type="middle">S</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">George</forename><forename type="middle">J</forename><surname>Stigler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Legal Studies</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="1974-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,149.75,637.34,310.87,9.66;41,159.71,649.29,300.91,9.66;41,159.71,661.25,140.54,9.66;42,445.69,124.97,14.95,8.70" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Measuring and explaining management practices across firms and countries</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicholas</forename><surname>Bloom</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Van Reenen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1351" to="1408" />
+			<date type="published" when="2007" />
+			<publisher>Fox</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,149.75,147.19,310.84,9.66;42,159.71,159.34,205.00,9.66" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The employer-size wage effect</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><surname>Medoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Political Economy</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1027" to="59" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,149.75,171.69,310.90,9.66;42,159.71,183.85,300.88,9.66;42,159.71,196.00,77.88,9.66" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Wage differentials, employer size, and unemployment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenneth</forename><surname>Burdett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Dale</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mortensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">39</biblScope>
+			<biblScope unit="page" from="257" to="73" />
+			<date type="published" when="1998-05" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,149.75,208.36,310.84,9.66;42,159.71,220.51,300.86,9.66;42,159.71,232.66,224.48,9.66" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Wage formation in Sweden</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lars</forename><surname>Calmfors</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anders</forename><surname>Forslund</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Wage formation and macroeconomic policy in the Nordic countries, ed. Lars Calmfors, chap. 2. Stockholm: SNS Fö rlag</title>
+		<imprint>
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,149.75,245.02,310.88,9.66;42,159.71,257.17,300.88,9.66;42,159.71,269.33,122.40,9.66" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Supervision, loss of control, and the optimum size of the firm</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guillermo</forename><forename type="middle">A</forename><surname>Calvo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stanislaw</forename><surname>Wellisz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Political Economy</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="943" to="52" />
+			<date type="published" when="1978-10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,149.75,281.68,310.96,9.66;42,159.71,293.83,300.95,9.66;42,159.71,305.99,206.47,9.66" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Explaining national differences in the size and industry distribution of employment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">J</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Magnus</forename><surname>Henrekson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Business Economics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="59" to="83" />
+			<date type="published" when="1999-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,149.75,318.34,310.88,9.66;42,159.71,330.49,300.92,9.66;42,159.71,342.65,65.00,9.66" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Workers, wages, and technology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Doms</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Timothy</forename><surname>Dunne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenneth</forename><forename type="middle">R</forename><surname>Troske</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="253" to="90" />
+			<date type="published" when="1997-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,149.75,355.00,310.92,9.66;42,159.71,367.16,235.28,9.66;42,149.75,379.51,310.82,9.66;42,159.71,391.66,300.96,9.66;42,159.71,403.82,136.15,9.66" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Employer size and compensation: The role of worker characteristics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Ekberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mickael</forename><surname>Salabasis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">;</forename><surname>Sse/Efi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Stockholm</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">E</forename><surname>Even</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">A</forename><surname>Macpherson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Economics</title>
+		<imprint>
+			<biblScope unit="volume">462</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="897" to="907" />
+			<date type="published" when="1994-09" />
+		</imprint>
+	</monogr>
+	<note>The firm-size effect: Fact or artifact? Working Paper no</note>
+</biblStruct>
+
+<biblStruct coords="42,149.75,416.17,310.98,9.66;42,159.71,428.33,190.55,9.66" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Empirical analysis of occupational hierarchies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><surname>Ferrall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Human Resources</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="34" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,149.75,440.68,310.87,9.66;42,159.71,452.83,300.98,9.66;42,159.71,464.99,300.90,9.66;42,159.71,477.14,130.63,9.66" xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Wages and seniority when coworkers matter: Estimating a joint production economy using Norwegian administrative data. Working paper</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ferrall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kjell</forename><forename type="middle">G</forename><surname>Christopher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Erik</forename><forename type="middle">Ø</forename><surname>Salavanes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sørensen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<pubPlace>Kingston</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Queen&apos;s University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,149.75,489.50,310.93,9.66;42,159.71,501.65,300.91,9.66" xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Employer-size wage gaps: Testing worker preferences and talents explanations. Working paper</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeremy</forename><forename type="middle">T</forename><surname>Fox</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Chicago</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,149.75,514.00,310.94,9.66;42,159.71,526.16,262.58,9.66" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Why has CEO pay increased so much?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xavier</forename><surname>Gabaix</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Augustin</forename><surname>Landier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="49" to="100" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,149.75,538.51,310.90,9.66;42,159.71,550.66,231.59,9.66" xml:id="b18">
+	<monogr>
+		<title level="m" type="main">The return to knowledge hierarchies. Working paper</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luis</forename><surname>Garicano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><forename type="middle">N</forename><surname>Hubbard</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+		<respStmt>
+			<orgName>Northwestern University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,149.75,563.02,310.90,9.66;42,159.71,575.17,300.88,9.66;42,159.71,587.33,69.40,9.66" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Inequality and the organization of knowledge</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luis</forename><surname>Garicano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Esteban</forename><surname>Rossi-Hansberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="197" to="202" />
+			<date type="published" when="2004-05" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,149.75,599.68,310.86,9.66;42,159.71,611.83,292.37,9.66" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Organization and inequality in a knowledge economy</title>
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1383" to="1435" />
+			<date type="published" when="2006-11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,149.75,624.19,310.87,9.66;42,159.71,636.44,300.96,9.66;42,159.71,648.69,224.77,9.66" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Comparative advantage, learning, and sectoral wage determination</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Gibbons</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lawrence</forename><forename type="middle">F</forename><surname>Katz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><surname>Lemieux</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Parent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Labor Economics</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="681" to="723" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,149.75,661.25,310.82,9.66;43,159.71,147.19,300.86,9.66;43,159.71,159.34,121.41,9.66" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A theory of wage and promotion dynamics inside firms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Gibbons</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Waldman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1321" to="58" />
+			<date type="published" when="1999-11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,149.75,171.69,310.94,9.66;43,159.71,183.85,300.93,9.66;43,159.71,196.00,180.57,9.66" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The employersize wage effect: Can dynamic monopsony provide an answer?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francis</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><surname>Machin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alan</forename><surname>Manning</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oxford Economic Papers</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="433" to="55" />
+			<date type="published" when="1996-07" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,149.75,208.36,310.96,9.66;43,159.71,220.51,190.44,9.66" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Five reasons why wages vary across employers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Erica</forename><forename type="middle">L</forename><surname>Groshen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Industrial Relations</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="350" to="81" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,149.75,232.86,310.95,9.66;43,159.71,245.02,300.85,9.66;43,159.71,257.17,232.52,9.66" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Regression analysis with a categorized explanatory variable</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cheng</forename><surname>Hsiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Studies in econometrics, time series, and multivariate statistics</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,149.75,269.52,310.90,9.66;43,159.71,281.68,138.78,9.66" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Employer size and labor turnover</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Todd</forename><forename type="middle">L</forename><surname>Idson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Research in Labor Economics</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="273" to="304" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,149.75,294.03,310.91,9.66;43,159.71,306.19,300.83,9.66;43,159.71,318.34,79.22,9.66" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A selectivity model of employer-size wage differentials</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Todd</forename><forename type="middle">L</forename><surname>Idson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">J</forename><surname>Feaster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Labor Economics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="99" to="122" />
+			<date type="published" when="1990-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,149.75,330.69,310.91,9.66;43,159.71,342.85,278.23,9.66" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Workers are more productive in large firms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Todd</forename><forename type="middle">L</forename><surname>Idson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Walter</forename><forename type="middle">Y</forename><surname>Oi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="104" to="112" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,149.75,355.20,310.95,9.66;43,159.71,367.36,300.91,9.66;43,159.71,379.51,65.00,9.66" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Occupational specificity of human capital</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gueorgui</forename><surname>Kambourov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iourii</forename><surname>Manovskii</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="63" to="115" />
+			<date type="published" when="2009-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,149.75,391.86,310.96,9.66;43,159.71,404.02,262.57,9.66" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The O-ring theory of economic development</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Kremer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="551" to="75" />
+			<date type="published" when="1993-08" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,149.75,416.37,310.86,9.66;43,159.71,428.52,300.86,9.66;43,149.75,440.88,310.90,9.66;43,159.71,453.03,300.92,9.66;43,159.71,465.19,96.45,9.66" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Agency, earnings profiles, productivity, and hours restrictions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edward</forename><forename type="middle">P</forename><surname>Lazear</surname></persName>
+		</author>
+		<idno>chap. 7</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Performance measurement, evaluation and incentives</title>
+		<editor>William J. Bruns Jr.</editor>
+		<meeting><address><addrLine>Boston</addrLine></address></meeting>
+		<imprint>
+			<publisher>Harvard Business School Press</publisher>
+			<date type="published" when="1981-09" />
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="606" to="626" />
+		</imprint>
+	</monogr>
+	<note>The job as a concept</note>
+</biblStruct>
+
+<biblStruct coords="43,149.75,477.54,310.99,9.66;43,159.71,489.69,300.88,9.66;43,159.71,501.85,80.93,9.66" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Rank-order tournaments as optimum labor contracts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edward</forename><forename type="middle">P</forename><surname>Lazear</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sherwin</forename><surname>Rosen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Political Economy</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="841" to="64" />
+			<date type="published" when="1981-10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,149.75,514.20,310.90,9.66;43,159.71,526.36,211.73,9.66" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">On the size distribution of business firms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">E</forename><surname>Lucas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bell Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="508" to="531" />
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,149.75,538.71,310.89,9.66;43,159.71,550.86,300.99,9.66;43,159.71,563.02,234.24,9.66" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The market for corporate assets: Who engages in mergers and asset sales and are there efficiency gains</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vojislav</forename><surname>Maksimovic</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gordon</forename><surname>Phillips</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Finance</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2019" to="65" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,149.75,575.37,310.87,9.66;43,159.71,587.52,73.13,9.66" xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Monopsony in motion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alan</forename><surname>Manning</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Princeton, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,149.75,599.88,310.93,9.66;43,159.71,612.03,300.88,9.66;43,159.71,624.19,32.58,9.66" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Different firm size effects on wages for supervisors and workers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kieron</forename><forename type="middle">J</forename><surname>Meagher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hugh</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economics Letters</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="225" to="255" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,149.75,636.54,310.94,9.66;43,159.71,648.69,181.19,9.66" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Employer size and wages</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wesley</forename><surname>Mellow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Economics and Statistics</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="495" to="501" />
+			<date type="published" when="1982-08" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,149.75,661.25,310.91,9.66;44,159.71,147.19,301.00,9.66;44,159.71,159.14,32.58,9.66" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Industry-specific human capital: Evidence from displaced workers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Derek</forename><surname>Neal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Labor Economics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="653" to="77" />
+			<date type="published" when="1995-10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="44,149.75,171.10,310.85,9.66;44,159.71,183.05,300.94,9.66;44,159.71,195.01,63.27,9.66" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Fixed employment costs of specialized labor</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Walter</forename><forename type="middle">Y</forename><surname>Oi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The measurement of labor cost</title>
+		<editor>Jack E. Triplett</editor>
+		<meeting><address><addrLine>Chicago</addrLine></address></meeting>
+		<imprint>
+			<publisher>University of Chicago Press</publisher>
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="44,149.75,206.96,310.82,9.66;44,159.71,218.92,300.86,9.66;44,159.71,230.87,203.18,9.66" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Firm size and wages</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Walter</forename><forename type="middle">Y</forename><surname>Oi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Todd</forename><forename type="middle">L</forename><surname>Idson</surname></persName>
+		</author>
+		<idno>chap. 33</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of labor economics</title>
+		<editor>Orley Ashenfelter and David Card</editor>
+		<meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier/North-Holland</publisher>
+			<date type="published" when="1999" />
+			<biblScope unit="volume">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="44,149.75,242.83,311.02,9.66;44,159.71,254.78,300.89,9.66" xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Trend estimators and serial correlation. Discussion Paper no</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Prais</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">B</forename><surname>Winsten</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1954" />
+			<biblScope unit="volume">382</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Cowles Commission, Yale University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="44,149.75,266.74,310.94,9.66;44,159.71,278.69,236.68,9.66" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Authority, control, and the distribution of earnings</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sherwin</forename><surname>Rosen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bell Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="311" to="334" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="44,149.75,290.64,310.92,9.66;44,159.71,302.60,219.22,9.66" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Differential rents and the distribution of earnings</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Sattinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oxford Economic Papers</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="60" to="71" />
+			<date type="published" when="1979-03" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="44,149.75,314.55,310.89,9.66;44,159.71,326.51,300.94,9.66;44,159.71,338.46,300.86,9.66" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Too many theories, too few facts? What the data tell us about the link between span of control, compensation and career dynamics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Valérie</forename><surname>Smeets</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frederic</forename><surname>Warzynski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Labour Economics</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="688" to="704" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="44,149.75,350.42,310.85,9.66;44,159.71,362.37,300.87,9.66;44,159.71,374.33,159.95,9.66" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Evidence on the employer size-wage premium from worker-establishment matched data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenneth</forename><forename type="middle">R</forename><surname>Troske</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Economics and Statistics</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="15" to="26" />
+			<date type="published" when="1999-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="44,149.75,386.28,310.87,9.66;44,159.71,398.24,216.14,9.66" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Job assignments, signalling, and efficiency</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Waldman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rand Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="255" to="67" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

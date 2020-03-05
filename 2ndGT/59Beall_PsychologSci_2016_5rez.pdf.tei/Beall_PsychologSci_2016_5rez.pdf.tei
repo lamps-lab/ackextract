@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Infections and Elections: Did an Ebola Outbreak Influence the 2014 U.S. Federal Elections (and if so, How)?</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2016">2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alec</forename><forename type="middle">T</forename><surname>Beall</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<addrLine>2136 West Mall</addrLine>
+									<postCode>V6T 1Z4</postCode>
+									<settlement>Vancouver</settlement>
+									<region>British Columbia</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alec</forename><forename type="middle">T</forename><surname>Beall</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marlise</forename><forename type="middle">K</forename><surname>Hofer</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Schaller</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Infections and Elections: Did an Ebola Outbreak Influence the 2014 U.S. Federal Elections (and if so, How)?</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Psychological Science</title>
+						<imprint>
+							<biblScope unit="volume">27</biblScope>
+							<biblScope unit="issue">5</biblScope>
+							<biblScope unit="page" from="595" to="605"/>
+							<date type="published" when="2016">2016</date>
+						</imprint>
+					</monogr>
+					<note>Corresponding Author: Received 9/24/15; Revision accepted 1/4/16</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T14:55+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>political attitudes</term>
+					<term>conformity</term>
+					<term>voter behavior</term>
+					<term>disease threat</term>
+					<term>Ebola</term>
+					<term>open data</term>
+					<term>open materials</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In the studies reported here, we conducted longitudinal analyses of preelection polling data to test whether an Ebola outbreak predicted voting intentions preceding the 2014 U.S. federal elections. Analyses were conducted on nationwide polls pertaining to 435 House of Representatives elections and on state-specific polls pertaining to 34 Senate elections. Analyses compared voting intentions before and after the initial Ebola outbreak and assessed correlations between Internet search activity for the term "Ebola" and voting intentions. Results revealed that (a) the psychological salience of Ebola was associated with increased intention to vote for Republican candidates and (b) this effect occurred primarily in states characterized by norms favoring Republican Party candidates (the effect did not occur in states with norms favoring Democratic Party candidates). Ancillary analyses addressed several interpretational issues. Overall, these results suggest that disease outbreaks may influence voter behavior in two psychologically distinct ways: increased inclination to vote for politically conservative candidates and increased inclination to conform to popular opinion.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Research Article</head><p>Infectious diseases are the leading cause of death worldwide, and it has been projected that disease outbreaks may become increasingly common even in relatively wealthy, nontropical regions, such as Europe and North America <ref type="bibr" coords="1,87.66,533.03,84.88,8.76" target="#b11">( Jones et al., 2008;</ref><ref type="bibr" coords="1,177.20,533.03,115.52,8.76;1,48.00,545.03,106.71,8.76" target="#b15">Lindgren, Andersson, Suk, Sudre, &amp; Semenza, 2012)</ref>. Apart from the obvious implications that diseases can have for human health outcomes, the perceived threat that they pose also influences attitudes and values <ref type="bibr" coords="1,139.64,581.03,65.83,8.76" target="#b23">(Schaller, 2016;</ref><ref type="bibr" coords="1,209.70,581.03,82.81,8.76;1,48.00,593.03,69.05,8.76" target="#b24">Schaller, Murray, &amp; Bangerter, 2015)</ref>. These attitudes and values may inform voting behavior during political elections. When the threat of infection is salient, people are increasingly likely to support physically attractive political candidates <ref type="bibr" coords="1,48.00,641.03,146.76,8.76" target="#b25">(White, Kenrick, &amp; Neuberg, 2013)</ref>, and individual differences in sensitivity to disgust (the emotion associated with perceived threat of infection) predict inclinations to vote for politically conservative candidates <ref type="bibr" coords="1,242.64,677.03,49.84,8.76;1,48.00,689.03,50.40,8.76" target="#b2">(Brenner &amp; Inbar, 2015;</ref><ref type="bibr" coords="1,101.60,689.03,145.96,8.76" target="#b10">Inbar, Pizarro, Iyer, &amp; Haidt, 2012)</ref>.</p><p>Although these results support a link between the psychology of disease threat and voting intentions, no previous research has tested whether an actual disease outbreak may affect voter behavior. In the present research, we analyzed preelection polling data to investigate whether an Ebola outbreak in the United Stateswhich occurred 5 weeks prior to the 2014 U.S. federal elections-may have affected voter decision making during these elections.</p><p>The 2014 Ebola Outbreak and the U.S. Federal Elections U.S. federal elections were held on November 4, 2014, for all 435 district-specific seats in the House of Representatives and for 36 state-specific seats in the Senate. On 628861P <ref type="bibr" coords="1,44.13,8.93,25.80,0.88">SSXXX10.1177/0956797616628861Beall et al.Infections and</ref><ref type="bibr" coords="1,70.25,8.93,3.85,0.88;1,8.40,9.93,8.65,0.88">Elections research-article2016</ref> September 30, 2014 (35 days prior to the election), the U.S. Centers for Disease Control and Prevention (CDC) announced the first case of Ebola virus disease within the United States. Because of Ebola's lethal reputation, this outbreak attracted considerable media attention. A LexisNexis search reveals that there was a mean of 244.0 Ebola-related articles per day during the 3 days immediately following the CDC announcement, compared with a mean of 56.3 during the 3 preceding days. Additional U.S. cases of Ebola were announced on October 12, October 15, and October 24, and Ebola continued to receive heavy media coverage throughout the month preceding election day. LexisNexis shows that the mean number of Ebola-related U.S. news stories per day was 286.0 during October, compared with a mean of 60.3 during September.</p><p>Because of these events, the threat of Ebola was highly salient to U.S. residents during October 2014. One mid-October poll showed that 65% of Americans feared a widespread Ebola epidemic ("Concern Over Ebola Epidemic in the United States," 2014). Amplified concern about Ebola was also evident in Internet search activity: According to Google Trends data, Americans searched for "Ebola" nearly 10 times more during October than during September. On one day during mid-October, Americans searched for "Ebola" even more than they searched for "porn."</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>How Might a Disease Outbreak Influence Voter Decision Making?</head><p>Given the timing of the U.S. Ebola outbreak and its psychological salience within the U.S. population, it may have affected voter behavior. Recent psychological research suggests two conceptually distinct plausible consequences of concern about Ebola on voters' intentions.</p><p>One such consequence is a greater intention to vote for candidates associated with conservative, rather than liberal, political parties. This hypothesis is predicated, in part, on evidence that, historically, many cultural traditions served as buffers against disease transmission <ref type="bibr" coords="2,48.00,561.94,66.87,8.76" target="#b5">(Fabrega, 1997)</ref>. One psychological implication of this hypothesis is that the perceived threat of disease leads individuals to favor attitudes and actions that are consistent with long-standing traditions and norms (e.g., <ref type="bibr" coords="2,48.00,609.94,102.59,8.76" target="#b17">Murray &amp; Schaller, 2012;</ref><ref type="bibr" coords="2,153.07,609.94,80.42,8.76" target="#b26">Wu &amp; Chang, 2012)</ref>. The hypothesis follows also from research showing that the threat of disease leads individuals to respond especially aversively to people who are perceived to pose an infection risk, such as immigrants from unfamiliar countries <ref type="bibr" coords="2,249.32,657.94,43.40,8.76;2,48.00,669.94,139.92,8.76" target="#b6">(Faulkner, Schaller, Park, &amp; Duncan, 2004)</ref>. Traditionalist attitudes and xenophobic policies are characteristic of political conservatism. Therefore, when people feel greater vulnerability to infectious diseases, they are more likely to express conservative political attitudes and to show greater support for conservative political parties <ref type="bibr" coords="2,516.99,81.77,38.00,8.76;2,310.50,93.77,61.16,8.76" target="#b2">(Brenner &amp; Inbar, 2015;</ref><ref type="bibr" coords="2,375.14,93.77,100.50,8.76" target="#b9">Helzer &amp; Pizarro, 2011;</ref><ref type="bibr" coords="2,479.12,93.77,75.84,8.76" target="#b10">Inbar et al., 2012;</ref><ref type="bibr" coords="2,310.50,105.77,151.80,8.76">Terrizzi, Shook, &amp; McDaniel, 2013)</ref>. The implication for the 2014 U.S. federal elections is straightforward: Among the two major U.S. political parties, the Republican Party is more conservative than the Democratic Party; therefore, the Ebola outbreak might plausibly have led voters to become more supportive of Republican than Democratic candidates.</p><p>If indeed the threat of disease leads individuals to be more inclined toward norm-consistent attitudes and actions <ref type="bibr" coords="2,343.21,213.77,105.96,8.76" target="#b17">(Murray &amp; Schaller, 2012)</ref>, then an additional conceptual hypothesis follows: A disease outbreak may lead people to express voting intentions that conform more closely to perceived majority opinion. There are two ways in which increased conformity might plausibly manifest in voter behavior. One would be an exaggerated bandwagon effect-the phenomenon in which voters show an increased inclination to support whichever political candidate is leading in recent polls <ref type="bibr" coords="2,507.87,309.77,47.11,8.76;2,310.50,321.77,47.03,8.76" target="#b13">(Kenney &amp; Rice, 1994;</ref><ref type="bibr" coords="2,361.56,321.77,54.06,8.76" target="#b16">Marsh, 1985)</ref>. Thus, in the 2014 U.S. federal elections, the Ebola outbreak may have led voters to express increased support for candidates who were leading local polls when the outbreak occurred. A second plausible manifestation follows from the likelihood that voters' perceptions of majority opinion are influenced not only by recent polls but also by psychologically salient results of prior local elections. The implication is that the Ebola outbreak may have led voters to express increased support for candidates affiliated with whichever political party attracted the most popular support in previous elections within voters' geographical region.</p><p>In sum, multiple predictions can be made about the effects that the Ebola outbreak might have had on voting intentions prior to the 2014 U.S. federal elections. We tested these predictions by conducting longitudinal analyses on preelection polling data collected during September and October 2014.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Overview of Analytic Strategies</head><p>We used two complementary analytic strategies. One strategy compared polling results obtained prior to the CDC's announcement of the first U.S. Ebola case with polling results obtained afterward. Given the timing of the CDC's announcement, we considered any poll occurring on or after October 1 to have captured data after voters became aware of the U.S. Ebola outbreak. The second strategy consisted of a correlational approach, which we used in order to be more sensitive to short-term variability in the extent to which Ebola was psychologically salient. Internet search activity is an indicator of topics that are of popular interest, including popular concern about diseases <ref type="bibr" coords="3,86.40,69.77,206.30,8.76;3,48.00,81.77,22.40,8.76" target="#b4">(Cooper, Mallon, Leadbetter, Pollack, &amp; Peipins, 2005;</ref><ref type="bibr" coords="3,74.16,81.77,182.78,8.76" target="#b21">Polgreen, Chen, Pennock, &amp; Nelson, 2008)</ref>. Therefore, we tested whether day-to-day variation in the volume of U.S. residents' Internet searches for "Ebola" (an indicator of the disease's psychological salience) predicted changes in polling results.</p><p>These analytic strategies were applied to two different sets of preelection polling data. Both data sets contained all data that were publically available for analysis; no additional data or variables were omitted from the analyses reported here. One data set (Study 1) contained a nationwide aggregate of polling results documenting temporal changes in U.S. voters' intentions to vote for either Republican or Democratic candidates in House of Representatives elections. Analyses of these data tested the prediction that the perceived threat of Ebola would be associated with greater support for Republican than for Democratic candidates. A second data set (Study 2) was composed of polling results specific to each of the Senate elections for which polling data were available. These data allowed us to test whether the Ebola outbreak was associated with greater intentions to vote for Republican than for Democratic candidates and whether such intentions were moderated by either an exaggerated bandwagon effect or an exaggerated conformity to enduring local political norms.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study 1: Nationwide Polling Results for House of Representatives Elections</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head><p>Voter-intention indices. We collected aggregated results from nonpartisan polling organizations (i.e., excluding polls commissioned by political parties themselves), and we focused just on results pertaining to candidates from the two major political parties (the Democrats and Republicans). Preelection polling results were obtained from the poll-aggregation Web site Pollster (http://elections.huffingtonpost.com/pollster). Results aggregated on Pollster were obtained from dozens of polls conducted at nonstandard intervals by a variety of polling organizations. For each day on which polling data were available, Pollster specified the percentage of potential voters within the United States who indicated an intention to vote for each candidate from the two major political parties.</p><p>We created a single voter-intention index for each day on which aggregate polling data were available by subtracting the percentage of voters who intended to vote for a Democrat from the percentage of voters who intended to vote for a Republican. Positive values on this index indicate preference for Republican candidates, while negative values indicate preference for Democratic candidates. Our analyses focused exclusively on polling data collected on or after September 1, 2014. Within this time frame, aggregate nationwide polling results were available for 24 days-9 days preceding the initial Ebola outbreak (i.e., 9 days during September) and for 15 days following the initial outbreak (i.e., 14 days during October and November 1).</p><p>We also created an additional variable reflecting shortterm temporal changes in voting intentions. For each of the 16 days on which the necessary polling data were available from Pollster, we computed a voter-intentionchange index to assess the difference between that day's voter-intention index and the voter-intention index 7 days before. These difference scores were calculated such that positive values indicated increased support for Republican candidates, and negative values indicated increased support for Democratic candidates.</p><p>Internet searches for "Ebola." We obtained information on changes in Internet search volume from Google Trends (https://www.google.com/trends). This Web site allows users to obtain the daily search volume (relative to all Google searches on that day) for any search term within a specified geographical region and time frame. Google calculates search volume based on a random sampling method, and the values provided on Google Trends are presented on a scale with a maximum value of 100. The value of 100 is assigned to the date within the specified time frame for which the highest search volume occurred; values for all other days are expressed as a percentage of that value.</p><p>We obtained values indicating daily search volume within the United States for the term "Ebola" for the time period from August 26, 2014, to November 1, 2014 (the date on which the last preelection polling data were provided by Pollster). From these values, we calculated-for each day from September 1 through November 1-the mean "Ebola" daily search volume during the 7-day period that ended on (and included) the specified day. This value-an Ebola-search-volume index-was the primary predictor variable in our correlational analyses. Across all days in the data set, this value was very highly correlated with an index-computed from LexisNexis data-of the mean number of daily news stories about Ebola during the preceding week, r = .83, p &lt; .001.</p><p>Other variables assessing temporally coincident concerns. In addition to health threats such as Ebola, terrorism and economic outcomes were also of paramount concern to American voters prior to the 2014 elections <ref type="bibr" coords="3,310.50,669.77,53.36,8.76" target="#b20">(Nicks, 2014)</ref>. These additional concerns may also predict political attitudes (e.g., <ref type="bibr" coords="3,404.81,681.77,67.90,8.76" target="#b1">Altemeyer, 1988;</ref><ref type="bibr" coords="3,474.73,681.77,80.44,8.76;3,310.50,693.77,21.21,8.76" target="#b7">Feldman &amp; Stenner, 1997)</ref>. Therefore, we assessed two additional variables reflecting concerns with terrorism and the economy.</p><p>The terrorist entity of particular relevance was the jihadi extremist militant organization commonly known as ISIS. ISIS was frequently in the American news in 2014, and candidates for election frequently identified ISIS as a threat to the United States. According to Google Trends data, mean daily Internet search volume for "ISIS" was more than double that for "Ebola" during the month preceding the initial outbreak of Ebola in the United States. To assess temporal variation in the psychological salience of ISIS, we created an ISIS-search-volume index using data obtained from Google Trends. Our methods for computing this index were identical to those used to create the Ebola-search-volume index. The ISIS-searchvolume index reflects the mean daily search volume for "ISIS" in the United States during the 7-day period that ended on (and included) each day on which Americans' voting intentions were polled.</p><p>An economic concern of particular temporal relevance was the declining U.S. stock market. Although much economic news at the time of the Ebola outbreak was positive <ref type="bibr" coords="4,109.74,309.77,50.77,8.76" target="#b12">(Kell, 2014)</ref>, the stock market-as indicated by the Dow Jones Industrial Average (DJIA)showed a downward trend that coincided with the Ebola outbreak. Specifically, the mean value of the DJIA was lower during October (M = 16,703.4) than during September (M = 17,098.1). To measure stock-market performance, we obtained the daily values of the DJIA from The Wall Street Journal (http://quotes.wsj.com/ index/DJIA/advanced-chart) for each day from September 1 through November 1, 2014. DJIA values are not computed on weekends or holidays, so in order to conduct analyses on the full set of preelection polling data-some of which were obtained on weekends-we carried over Friday DJIA values to the subsequent Saturday and Sunday.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pre-and postoutbreak differences in voter intentions.</head><p>Voters' intentions differed depending on whether they were expressed before or after the initial U.S. Ebola outbreak. There was greater nationwide support for Republican (relative to Democratic) candidates following the initial outbreak (M = 1.55%) than there was preceding the outbreak (M = 0.40%), d = 1.67, t(22) = 3.91, p = .001. Even more revealing, this difference was evident when we compared voters' intentions during the week immediately preceding the Ebola outbreak with their intentions the week immediately following: There was greater nationwide support for Republican (relative to Democratic) candidates during the week of October 1 through October 7 (M = 0.65%; N = 4 days) than during the week of September 24 through September 30 (M = −0.25%; N = 4 days), d = 3.12, t(6) = 4.41, p = .005. These mean differences would be uninformative if they simply reflected existing temporal trajectories in polling results. To test whether this was the case, we conducted two pairs of regression analyses, in which we entered the date as a predictor variable and the voterintention index as the dependent variable. The first pair of regression analyses analyzed polling results obtained, respectively, during the month immediately preceding the initial U.S. Ebola outbreak (September) and during the month immediately following (October). Results revealed that during September there was a temporal trend toward greater support for Democratic than Republican candidates, b = −0.08, 95% confidence interval (CI) = [−0.096, −0.057], but this pattern was reversed during October, when there was a temporal trend toward greater support for Republican than Democratic candidates, b = 0.07, 95% CI = [0.063, 0.084] (see <ref type="figure" coords="4,500.54,261.77,26.55,8.76" target="#fig_0">Fig. 1a</ref>).</p><p>The second pair of regression analyses analyzed polling results obtained, respectively, during the week immediately preceding the U.S. Ebola outbreak (the last week in September) and the week immediately following (the first week in October). Results revealed that during the immediately preceding week, there was a weak temporal trend toward greater support for Republican than Democratic candidates, b = 0.06, 95% CI = [0.004, 0.110], but during the immediately following week, there was a much steeper trend toward greater support for Republican than Democratic candidates, b = 0.18, 95% CI = [0.130, 0.227] (see <ref type="figure" coords="4,390.10,405.77,26.95,8.76" target="#fig_0">Fig. 1b</ref>).</p><p>Note that for both pairs of regression analyses, there was no overlap between the confidence intervals around the regression coefficients, which indicates that the U.S. Ebola outbreak was associated with statistically significant (p &lt; .05) differences in the temporal trajectories of voters' intentions.</p><p>Correlations between voter intentions and Internet searches for "Ebola." The Ebola-search-volume index was positively correlated with the voter-intention index, r = .51, p = .012, N = 24 days. Thus, following time periods characterized by especially heavy volumes of Ebolarelated Internet search activity, U.S. voters were especially likely to indicate an intention to vote for a Republican candidate. We also computed a correlation between dayto-day "Ebola" search volume and the voter-intention index for just the 2-week period that included the last week of September and the first week of October and found the correlation to be positive, r = .61, p = .111, N = 8 days.</p><p>The Ebola-search-volume index was also positively correlated with the voter-intention-change index, r = .84, p &lt; .001. Thus, the 7-day time periods characterized by especially heavy volumes of Ebola-related Internet searches were also characterized by especially substantial The latter results suggest that the change in preelection polling values during the week immediately following the initial Ebola outbreak was mediated by an increase in the number of Internet searches for "Ebola."</p><p>Analyses controlling for temporally coincident concerns (ISIS and DJIA). The ISIS-search-volume index was negatively correlated with both the voterintention index (r = −.54, p &lt; .01) and the voter-intentionchange index (r = −.65, p &lt; .01), which indicates that the increased psychological salience of ISIS was associated with decreased support for Republican candidates. DJIA values also correlated negatively with the voter-intention index (r = −.28) and the voter-intention-change index (r = −.43). The latter findings indicate that decreased stock-market performance was associated with increased intentions to vote for Republican candidates, but neither correlation was statistically significant, ps = .189 and .100, respectively. Those zero-order correlations may be misleading because both the ISIS-search-volume index and the DJIA were highly negatively correlated with the Ebola-searchvolume index (rs = −.74 and −.79, respectively, when calculated on the 24 days for which preelection polling data were available). To test unique predictive effects, we conducted two regression analyses in which the Ebolasearch-volume index, the ISIS-search-volume index, and the DJIA were entered simultaneously as predictors. For one regression analysis, the dependent variable was the voter-intention index. The three predictors collectively accounted for a significant amount of variance (R 2 = .33, p = .043). Given the combination of high multicollinearity and modest sample size, it is unsurprising that none of the predictor variables had a significant unique effect, but it is notable that there was a stronger effect associated with the Ebola-search-volume index (β = 0.47, p = .297) than with the ISIS-search-volume index (β = −0.29, p = .341) and the DJIA (β = 0.22, p = .518).</p><p>The second regression analysis was conducted on the voter-intention-change index (R 2 = .79, p &lt; .001). Again, multicollinearity and small sample size constrained power to detect statistically significant effects of individual predictors. Nevertheless, statistically significant effects were found for both the DJIA and the Ebola-search-volume index (there was no effect of the ISIS-search-volume index; β = 0.04, p = .855). DJIA had a unique positive effect (β = 0.46, p = .047), which suggests that when we controlled for concerns with Ebola and ISIS, decreased stock-market performance was associated with decreased support for Republican candidates. Of greater note was the unique positive effect of the Ebola-search-volume index (β = 1.21, p = .001): Even when we controlled for other temporally coincident concerns, the psychological salience of Ebola predicted increased support for Republican candidates.</p><p>Overall, these results offer no evidence that concerns pertaining to either terrorism or the economy predicted polling outcomes in a consistent or meaningful way, and they provide some further substantiation of a relation between the psychological salience of Ebola and Americans' voting intentions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study 2: Polling Results for 34 Statewide Senate Elections</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head><p>The U.S. Senate is composed of two Senators from each of the 50 U.S. states. Elections for 36 of these 100 Senate seats were held in 2014. One of the elections was uncontested (the incumbent senator from Alabama was unopposed), and the Pollster Web site aggregated polling results specific to each of the 35 contested elections. For one of these elections (held in Kansas), there were no polling results available after September-and thus no polling results after the initial U.S. Ebola outbreak. Our analyses therefore focused on polling results pertaining to the remaining 34 Senate elections. 1 State-specific pre-and postoutbreak differences in voter intentions. Across these 34 Senate elections, the number of days for which polling results were available during the time frame from September to October 2014 ranged from 3 to 23 (M = 8.71). Following the same procedures as in Study 1, we computed a state-specific voterintention index for each day on which polling data were available. Positive values on these indices indicated greater preference for Republican than Democratic candidates; negative values indicated greater preference for Democratic than Republican candidates.</p><p>For each election, we subtracted the mean score on the voter-intention index during September from the mean score on the voter-intention index during October. The resulting state-specific voter-intention difference scores indicate the extent to which the initial Ebola outbreak was associated with a state-specific change in voting intentions. Positive values represent a post-Ebola shift favoring Republican candidates; negative values represent a shift favoring Democratic candidates. Two values were extreme outliers: For Senate elections held in Rhode Island and Hawaii, the voter-intention difference score was more than 3 SDs below the mean. These outliers were excluded from primary analyses on this variable; however, we also report results with these outliers included.</p><p>By computing state-specific voter-intention difference scores, we were further able to test whether the direction or magnitude of these differences depended on (a) the party affiliation of the candidate leading the polls at the time of the initial Ebola outbreak (thus testing the prediction that the Ebola outbreak led to an exaggerated bandwagon effect) and (b) the party that attracted the majority of the popular vote in recent political elections (thus testing the prediction that the Ebola outbreak led to an increased inclination to conform to enduring political norms).</p><p>To test the first of these predictions, we categorized each Senate election according to whether a Republican (n = 21) or Democratic (n = 11) candidate was leading the polls at the time of the initial Ebola outbreak (based on the most recent poll preceding the outbreak). To test whether the initial outbreak was associated with an exaggerated inclination to conform to enduring political norms, we employed the Cook Political Report's Partisan Voter Index (PVI) for the year 2014 (http://www.cookpolitical.com/ story/5604). A state's PVI score is calculated using election results from recent election years and indicates the extent to which voters in the state generally favor either Republican or Democratic candidates. States with positive PVI scores were categorized as generally Republican states (n = 19); states with negative PVI scores were categorized as generally Democratic states (n = 12). (Virginia had a PVI score of 0 and so was excluded from this analysis.)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>State-specific correlations between voter intentions and Internet searches for "Ebola."</head><p>For each of the 34 Senate elections in the analysis, we computed the correlation between the Ebola-search-volume index and the state-specific voter-intention index. Highly positive correlation coefficients represent a positive relation between Ebola searches and intentions to vote for Republican (rather than Democratic) candidates. No states were extreme outliers (±3 SDs from the mean) on this variable; however, given that Rhode Island and Hawaii were outliers in the analyses on state-specific voter-intention difference scores, we excluded them from the primary analysis on this variable as well. Results are also reported with these states included.</p><p>We further tested whether the direction or magnitude of these correlation coefficients was moderated by (a) the party affiliation of the candidate who led the polls at the time of the initial outbreak and (b) the state's categorization as having either generally Republican or Democratic voting norms. (The latter analysis excluded Virginia because it had a PVI score of 0.) We also conducted a regression analysis to test the independent effects of the state's PVI score and the pre-Ebola polling difference between Republican and Democratic candidates on correlations between the Ebola-search-volume index and the state-specific voter-intention index.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pre-and postoutbreak differences in voter intentions.</head><p>Across the 32 elections included in primary analyses, the mean voter-intention difference score was greater than zero (M = 1.02%), d = 0.84, t(31) = 2.34, p = .026. This result is consistent with the pre-and postelection difference in nationwide polling results for the House of Representatives elections, which indicates a general postoutbreak shift toward favoring Republican rather than Democratic candidates. (If the two outliers were included in the analysis, the mean voter-intention difference score was not meaningfully different from zero, p = .937.)</p><p>The state-specific voter-intention difference score was greater for elections in which a Republican candidate was leading the polls at the time of the initial Ebola outbreak (M = 1.73%), compared with elections in which Democratic candidate was leading the polls at that time (M = −0.34%), d = 0.89, t(30) = 2.43, p = .021. This result is consistent with the prediction of an exaggerated bandwagon effect. Similar results were obtained from an analysis that also included the two outliers, Rhode Island and Hawaii: Means were 1.73% and −2.63% in elections with Republican and Democratic polling leaders, respectively; the difference between these means was significant, p = .005.</p><p>The state-specific voter-intention difference score was greater in states with positive PVI scores (i.e., Republican voting norms; M = 1.84%), compared with states with negative PVI scores (i.e., Democratic voting norms; M = −0.58%), d = 1.15, t(29) = 3.09, p = .004 (see <ref type="figure" coords="7,504.47,669.77,22.21,8.76" target="#fig_2">Fig. 2</ref>). This result is consistent with the prediction that the Ebola outbreak led voters to conform more closely to enduring local political norms. Similar results were obtained when Rhode Island and Hawaii were also included in the analysis: Means were 1.84% and −2.68% for generally Republican and Democratic states, respectively; the difference between these means was significant, p = .003.</p><p>The moderating effects of statewide PVI scores and preoutbreak polling results were nonindependent. There was a correlation of .81 between a state's PVI score and the pre-Ebola polling difference between Republican and Democratic candidates (this correlation was .86 when the two outliers were included). We conducted a regression analysis to test their independent effects. The dependent variable was the state-specific voter-intention difference score. Predictor variables were the state's PVI score and the preoutbreak polling difference (with positive values indicating a Republican polling leader and negative values indicating a Democratic polling leader). The overall R 2 was statistically significant (.21, p = .03), but-given the high level of multicollinearity coupled with modest sample size-neither predictor had a statistically significant independent effect. Nevertheless, there was a notably stronger effect for state PVI score (β = 0.51, p = .08) than for preoutbreak polling difference (β = −0.06, p = .83). Similar results were obtained when Rhode Island and Hawaii were included in the regression analysis, R 2 = .41, p &lt; .001; βs for state PVI score and for preoutbreak polling difference were 0.44 and 0.23, respectively.</p><p>Correlations between voter intentions and Internet searches for "Ebola." Across the 32 Senate elections in the primary data set, the mean correlation between the Ebola-search-volume index and the state-specific voterintention index was greater than zero (M = .31), d = 0.92, t(31) = 2.55, p = .016. Thus, across Senate elections, higher Internet search volume for "Ebola" was associated with greater intentions to vote for Republican candidates. Similar results were found in analyses that included Rhode Island and Hawaii (M = .24), d = 0.69, t(33) = 1.97, p = .057.</p><p>Correlations between the Ebola-search-volume index and the state-specific voter-intention index were substantially positive for elections in which a Republican candidate led the polls at the time of the initial Ebola outbreak (M = .51) but not for elections in which a Democratic candidate led the polls at that time (M = −.08). The difference between these means (d = 0.92) was statistically significant, t(30) = 2.52, p = .017. Similar results were obtained when Rhode Island and Hawaii were included: Correlations were positive when a Republican candidate led the polls (M = .51) but not when a Democratic candidate led the polls (M = −.19), d = 1.11, t(32) = 3.15, p = .004.</p><p>The same pattern held when we tested whether these correlations were moderated by state-specific PVI values. Correlations were substantially positive in states with positive PVI scores (i.e., Republican voting norms; M = .55, n = 19) but not in states with negative PVI scores (i.e., Democratic voting norms; M = −.12, n = 12; see We conducted a regression analysis to test the independent effects of PVI score and preoutbreak polling difference on the correlation between the Ebola-searchvolume index and the state-specific voter-intention index. The overall R 2 was statistically significant (.25, p = .02), but neither predictor variable had a statistically significant independent effect. Nevertheless, it is worth noting that there was a stronger effect for state PVI score (β = 0.37, p = .19) than for preoutbreak polling difference (β = 0.16, p = .57). Similar results were obtained when Rhode Island and Hawaii were included (R 2 = .35, p &lt; .001); βs for state PVI score and for preoutbreak polling difference were 0.39 and 0.22, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study 3: Analyses on Canadian Polling Results</head><p>Although the results of Study 1 (and a subset of results from Study 2) are consistent with the hypothesis that a disease outbreak leads to greater intention to vote for conservative rather than liberal political candidates, these findings are also consistent with an alternative interpretation. Research in political science has suggested that voters tend to attribute negative events to incumbent governments and, as a consequence, may decrease their level of support for incumbent heads of state-and their political parties-in subsequent elections <ref type="bibr" coords="9,71.47,395.03,99.85,8.76" target="#b0">(Achen &amp; Bartels, 2004)</ref>. Given that during the 2014 U.S. federal elections, the salience of Ebola may have been associated with increased support of Republican candidates and that these elections occurred while the U.S. head of state (President Barack Obama) was a Democrat, the results might fit this alternative interpretation.</p><p>One potential means of addressing this interpretational ambiguity is to examine Canadian political polling data obtained during the same time period. Given the geographical proximity of Canada to the United States, the U.S. Ebola outbreak was a major news story in Canada, and day-to-day changes in Canadians' Ebola-related Internet searches were virtually identical to those in the United States (r = .96). In contrast to the United States, however, the Canadian head of state-the Prime Minister-was affiliated with a relatively conservative political party (the Conservative Party). Therefore, if concerns about Ebola led Canadians to decrease support for the incumbent party, polls should show decreased support for the Conservative Party. But if concerns about Ebola led Canadians to endorse more conservative political attitudes, polls should reveal increased support for the Conservative Party.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head><p>Canadian political polling results were obtained from the polling aggregator Web site Nanosresearch.com. During the time period from September 1 through October 31, 2014, there were nine weekly polls in which potential voters were asked to indicate which political party they intended to vote for in the next federal election (which occurred the following year, in October 2015). For each of these weekly polls, results summarized the percentage of respondents who indicated an intention to vote for each of the major Canadian political parties. We focused on polling results pertaining to the two major national political parties that most clearly differed along the conservative-liberal dimension: the Conservative Party and the New Democratic Party (NDP; generally considered to be a relatively liberal party within the Canadian political context).</p><p>For each of the 9 days for which polling data were available within the time frame from September 1 through October 31, we computed a Canada-specific voterintention index by subtracting the percentage of voters who favored the NDP from the percentage who favored the Conservative Party. Higher values on this index indicate greater support for the Conservative Party. Next, we computed a voter-intention-change index by taking the difference between that day's voter-intention index and the voter-intention index 7 days before, with more positive values indicating greater support for the Conservative Party. Finally, we created a Canada-specific Ebola-search-volume index based on Internet search data obtained from Google Trends. This index indicated the mean "Ebola" daily search volume in Canada during the 7-day period that ended on (and included) each day on which Canadian voting intentions were recorded.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>The Ebola-search-volume index was positively correlated with the voter-intention index, r = .69, p = .042, and also positively associated with the voter-intentionchange index, r = .76, p = .017. Thus, the 7-day time periods characterized by especially heavy volumes of Ebola-related Internet searches were also characterized by an increase in Canadians' support for the Conservative Party.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>There is a substantial literature on the psychological bases of political behavior <ref type="bibr" coords="9,431.86,623.79,123.32,8.76;9,310.50,635.79,21.83,8.76" target="#b14">(Krosnick, Visser, &amp; Harder, 2010)</ref>, but the present investigation appears to have been the first to systematically test whether-and howdisease outbreaks may affect voter behavior. Although there are inferential limitations associated with these longitudinal archival analyses, the results suggest that the Ebola outbreak in September 2014 may have had two psychologically distinct effects on voting intentions in advance of that year's U.S. federal elections.  <ref type="figure" coords="9,48.00,249.58,20.82,7.01">Fig. 3</ref>. Results from Study 2: mean correlation between Ebola-searchvolume index and state-specific voter-intention index for U.S. Senate elections as a function of whether states had Democratic or Republican voting norms. Correlations indicate the extent to which Google searches for "Ebola" were associated with intentions to favor Democratic candidates (negative correlations) or Republican candidates (positive correlations). Error bars indicate 1 SEM.</p><p>Studies 1 and 2 revealed associations between Ebola and increased support for Republican Party candidates. Considered in conjunction with additional data from Canadian polls (Study 3), these results suggest that the Ebola outbreak was associated with increased support for ideologically conservative political candidates. This interpretation is consistent with correlational evidence linking ecological variation in pathogen prevalence to cultural differences in authoritarianism <ref type="bibr" coords="10,218.09,165.77,74.61,8.76;10,48.00,177.77,74.41,8.76" target="#b18">(Murray, Schaller, &amp; Suedfeld, 2013)</ref>, additional correlational evidence linking disgust to conservative voting behavior <ref type="bibr" coords="10,243.15,189.77,49.37,8.76;10,48.00,201.77,52.30,8.76" target="#b2">(Brenner &amp; Inbar, 2015;</ref><ref type="bibr" coords="10,105.40,201.77,79.93,8.76" target="#b10">Inbar et al., 2012)</ref>, and experimental evidence that the temporary salience of infectious diseases leads to temporary changes in political attitudes <ref type="bibr" coords="10,260.88,225.77,31.60,8.76;10,48.00,237.77,67.68,8.76" target="#b9">(Helzer &amp; Pizarro, 2011)</ref>.</p><p>Additional results from Study 2 showed that the relationship between Ebola and conservative voting intentions occurred primarily in states in which popular opinion favored Republican political candidates; however, in states in which popular opinion favored the Democratic Party, Ebola was-if anything-associated with increased support for Democratic candidates. These results fit conceptually with correlational evidence linking ecological variation in pathogen prevalence to cultural differences in conformity behavior <ref type="bibr" coords="10,203.64,357.77,88.87,8.76;10,48.00,369.77,62.09,8.76" target="#b19">(Murray, Trudeau, &amp; Schaller, 2011)</ref> and with experimental evidence showing that the temporary salience of infectious diseases leads to increased conformity behavior <ref type="bibr" coords="10,182.93,393.77,109.58,8.76" target="#b17">(Murray &amp; Schaller, 2012;</ref><ref type="bibr" coords="10,48.00,405.77,81.78,8.76" target="#b26">Wu &amp; Chang, 2012)</ref>.</p><p>Before confident conclusions can be drawn about effects of disease outbreaks on electoral outcomes, it will be necessary for these results to be complemented by additional studies testing the effects of other outbreaks on other elections in other places at other times. It would be inhumane to hope that future events offer opportunities to conduct conceptual replications of this investigation. Regardless, epidemiological projections (e.g., <ref type="bibr" coords="10,255.04,501.77,37.45,8.76;10,48.00,513.77,51.40,8.76" target="#b15">Lindgren et al., 2012)</ref> suggest that these events and opportunities are likely to occur.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="5,483.08,696.55,7.01,14.45;5,483.08,686.80,7.01,7.14;5,483.08,658.96,7.01,23.84;5,483.08,640.20,7.01,16.16;5,483.08,618.56,7.01,19.04;5,483.08,609.88,7.01,6.08;5,483.08,588.40,7.01,18.88;5,483.08,567.72,7.01,18.08;5,483.08,556.16,7.01,8.96;5,483.08,542.84,7.01,10.72;5,483.08,489.68,7.01,50.56;5,483.08,467.88,7.01,19.20;5,483.08,455.68,7.01,9.60;5,483.08,439.48,7.01,13.60;5,483.08,414.80,7.01,22.08;5,483.08,405.32,7.01,6.88;5,483.08,349.44,7.01,53.28;5,483.08,316.60,7.01,30.24;5,483.08,291.92,7.01,22.08;5,483.08,276.52,7.01,12.80;5,483.08,258.72,7.01,15.20;5,483.08,245.40,7.01,10.72;5,483.08,223.92,7.01,18.88;5,483.08,207.72,7.01,13.60;5,483.08,185.76,7.01,19.36;5,483.08,152.60,7.01,30.56;5,483.08,136.72,7.01,13.28;5,483.08,95.72,7.01,38.40;5,483.08,75.20,7.01,17.92;5,492.58,687.00,7.01,24.00;5,492.58,674.54,7.01,10.08;5,492.58,651.19,7.01,20.96;5,492.58,637.45,7.01,11.36;5,492.58,619.06,7.01,16.00;5,492.58,604.36,7.01,12.32;5,492.58,593.02,7.01,8.96;5,492.58,569.67,7.01,20.96;5,492.58,552.89,7.01,14.40;5,492.58,533.54,7.01,16.96;5,492.58,498.84,7.01,32.32;5,492.58,474.54,7.01,21.92;5,492.58,461.59,7.01,10.56;5,492.58,436.33,7.01,22.88;5,492.58,399.38,7.01,34.56;5,492.58,387.40,7.01,9.60;5,492.58,375.42,7.01,9.60;5,492.58,362.31,7.01,10.72;5,492.58,334.49,7.01,25.44;5,492.58,310.02,7.01,22.08;5,492.58,294.84,7.01,12.80;5,492.58,277.26,7.01,15.20;5,492.58,264.15,7.01,10.72;5,492.58,210.57,7.01,51.20;5,492.58,195.38,7.01,12.80;5,492.58,182.76,7.01,10.24;5,492.58,169.66,7.01,10.72;5,492.58,145.51,7.01,21.76;5,492.58,121.05,7.01,22.08;5,492.58,105.86,7.01,12.80;5,492.58,88.28,7.01,15.20;5,492.58,75.18,7.01,10.72;5,502.07,657.72,7.01,53.28;5,502.07,618.62,7.01,36.80;5,502.07,581.27,7.01,35.04;5,502.07,563.13,7.01,15.84;5,502.07,550.26,7.01,10.56;5,502.07,525.08,7.01,22.88;5,502.07,513.18,7.01,9.60;5,502.07,494.87,7.01,16.00;5,502.07,463.77,7.01,28.80;5,502.07,450.74,7.01,10.72;5,502.07,437.72,7.01,10.72;5,502.07,384.86,7.01,50.56;5,502.07,361.27,7.01,21.28;5,502.07,337.05,7.01,21.92;5,502.07,313.14,7.01,21.60;5,502.07,283.96,7.01,26.88;5,502.07,257.98,7.01,23.68;5,502.07,229.27,7.01,26.40;5,502.07,217.37,7.01,9.60;5,502.07,176.66,7.01,38.40;5,502.07,135.96,7.01,38.40;5,502.07,120.86,7.01,12.80;5,502.07,99.03,7.01,19.52;5,502.07,75.13,7.01,21.60;5,511.57,684.12,7.01,26.88;5,511.57,657.88,7.01,23.68;5,511.57,628.92,7.01,26.40;5,511.57,616.76,7.01,9.60;5,511.57,575.00,7.01,39.20;5,511.57,534.04,7.01,38.40"><head>Fig. 1 .</head><label>1</label><figDesc>Results from Study 1: mean score on the voter-intention index for U.S. House of Representatives elections before and after the initial U.S. Ebola outbreak was announced(September 30, 2014). For each day on which data were available, results are shown separately for (a) the months before and after the announcement and (b) the weeks before and after the announcement.Best-fitting regression lines are shown for each analysis. On the voter-intention index, higher values indicate greater support for Republican candidates, and lower values indicate greater support for Democratic candidates. increases in U.S. voters' intentions to vote for Republican candidates for the House of Representatives.Mediation analyses. We conducted two additional analyses to test whether the volume of Ebola-related Internet searches mediated the relationship between preoutbreak and postoutbreak time periods and values on the voter-intention index. Both analyses were conducted using the PROCESS modeling tool within SPSS<ref type="bibr" coords="6,260.59,165.77,32.08,8.76;6,48.00,177.77,23.60,8.76" target="#b8">(Hayes, 2013)</ref> andemployed a bootstrapping procedure (1,000 bootstrap samples) to compute indirect effects and their 95% CIs. One analysis treated all of September and all of October as the pre-and postoutbreak time periods, respectively. Results of this analysis offered no evidence of mediation, indirect effect = 0.048 (SE = 0.705), 95% CI = [−1.156, 1.632]. The second analysis treated the last week of September and the first week of October as the pre-and postoutbreak time periods, respectively. Results of this analysis did indicate evidence of mediation, indirect effect = 1.113 (SE = 1.172), 95% CI = [0.718, 3.964].</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="8,539.65,357.77,15.60,8.76;8,310.49,369.77,244.69,8.76;8,310.49,381.77,244.52,8.76;8,310.49,393.77,244.47,8.76;8,310.49,405.77,244.48,8.76;8,310.49,417.77,244.48,8.76;8,310.49,429.77,244.71,8.76;8,310.49,441.77,37.25,8.76"><head></head><label></label><figDesc>Fig. 3). This difference (d = 1.11) was statistically significant, t(29) = 3.00, p = .005. Similar results emerged when we included Rhode Island and Hawaii: Correlations were positive in states characterized by Republican voting norms (M = .55) but not in states characterized by Democratic voting norms (M = −.22), d = 1.29, t(31) = 3.59, p = .001.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="8,48.00,265.67,244.52,7.01;8,48.00,275.16,244.46,7.01;8,48.00,284.66,244.48,7.01;8,48.00,294.15,244.50,7.01;8,48.00,303.65,239.09,7.01"><head>Fig. 2 .</head><label>2</label><figDesc>Results from Study 2: mean state-specific voter-intention difference score for U.S. Senate elections as a function of whether states had Democratic or Republican voting norms. Positive values indicate greater support for Republican candidates; negative values indicate greater support for Democratic candidates. Error bars indicate 1 SEM.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Action Editor</head><p>Hal Arkes served as action editor for this article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p>All authors contributed to the study concept and design. Data were obtained and analyzed by all authors. A. T. Beall drafted the manuscript, and M. K. Hofer and M. Schaller provided critical revisions. All authors approved the final version of the manuscript for submission.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>We thank Paul Quirk for helpful comments and suggestions regarding this research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of Conflicting Interests</head><p>The authors declared that they had no conflicts of interest with respect to their authorship or the publication of this article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding</head><p>This research was funded by an Insight Grant (435-2012-0519) from the Social Sciences and Humanities Research Council of Canada.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Open Practices</head><p>All data have been made publicly available via Open Science Framework and can be accessed at https://osf.io/pr3hf/. The Web sites from which the materials (raw data) were obtained are listed in the complete Open Practices Disclosure for this article, which can be found at http://pss.sagepub.com/content/ by/supplemental-data. This article has received the badges for Open Data and Open Materials. More information about the Open Practices badges can be found at https://osf.io/tvyxz/ wiki/1.%20View%20the%20Badges/ and http://pss.sagepub.com/ content/25/1/3.full. Note 1. Ideally, analyses conducted on the state-specific Senate polling data could also be conducted on district-specific House of Representatives polling data. However, polling data on individual House districts were too meager to be of analytic utility: Pollster compiled district-specific polling data for only 23 out of 435 House districts, and for 5 of these 23 districts, there were no polling data at all prior to the initial Ebola outbreak.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="10,310.50,467.40,244.49,7.88;10,326.50,478.39,228.49,7.88;10,326.50,489.39,228.50,7.88;10,326.50,500.39,42.39,7.88" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Blind retrospection: Electoral responses to drought, flu, and shark attacks (Working Paper No</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">H</forename><surname>Achen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Bartels</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="0199" />
+			<publisher>Princeton University</publisher>
+			<pubPlace>Princeton, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.50,511.39,244.48,7.88;10,326.50,522.39,214.88,7.88" xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Enemies of freedom: Understanding rightwing authoritarianism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Altemeyer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+			<publisher>Jossey-Bass</publisher>
+			<pubPlace>San Francisco, CA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.50,533.38,244.51,7.88;10,326.50,544.38,228.51,7.88;10,326.50,555.38,193.80,7.88" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Disgust sensitivity predicts political ideology and policy attitudes in The Netherlands</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Brenner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Inbar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="27" to="38" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.50,566.38,244.48,7.88;10,326.50,577.38,228.51,7.88;10,326.50,588.37,228.62,7.88;10,326.50,599.37,224.64,7.88" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The Washington Post</title>
+		<ptr target="http://www.washingtonpost.com/page/2010-2019/WashingtonPost/2014/10/14/National-Politics/Polling/release_366.xml" />
+	</analytic>
+	<monogr>
+		<title level="m">Concern over Ebola epidemic in the United States</title>
+		<imprint>
+			<date type="published" when="2014-10-19" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.50,610.37,244.48,7.88;10,326.50,621.37,228.47,7.88;10,326.50,632.37,228.50,7.88;10,326.50,643.36,228.49,7.88;10,326.50,654.36,44.28,7.88" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Cancer Internet search activity on a major search engine, United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">P</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">P</forename><surname>Mallon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Leadbetter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Pollack</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Peipins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Medical Internet Research</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note>Article e36. doi:10.2196/ jmir.7.3.e36</note>
+</biblStruct>
+
+<biblStruct coords="10,310.50,665.36,244.47,7.88;10,326.50,676.36,220.02,7.88" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Earliest phases in the evolution of sickness and healing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Fabrega</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medical Anthropology Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="26" to="55" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.50,687.36,244.47,7.88;10,326.50,698.35,228.49,7.88;11,64.00,69.69,228.49,7.88;11,64.00,80.69,42.64,7.88" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Evolved disease-avoidance mechanisms and contemporary xenophobic attitudes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Faulkner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Schaller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Duncan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Group Processes &amp; Intergroup Relations</title>
+		<imprint>
+			<date type="published" when="2004" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="333" to="353" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,91.69,244.50,7.88;11,64.00,102.69,170.29,7.88" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Perceived threat and authoritarianism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Feldman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Stenner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Psychology</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="741" to="770" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,113.69,244.49,7.88;11,64.00,124.68,228.50,7.88;11,64.00,135.68,119.52,7.88" xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Introduction to mediation, moderation, and conditional process analysis: A regression-based approach</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">F</forename><surname>Hayes</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<publisher>Guilford Press</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,146.68,244.53,7.88;11,64.00,157.68,228.47,7.88;11,64.00,168.68,163.05,7.88" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Dirty liberals! Reminders of physical cleanliness influence moral and political attitudes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G</forename><surname>Helzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Pizarro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="517" to="522" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,179.67,244.46,7.88;11,64.00,190.67,228.48,7.88;11,64.00,201.67,131.44,7.88" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Disgust sensitivity, political conservatism, and voting</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Inbar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Pizarro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Iyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Haidt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Psychological &amp; Personality Science</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="537" to="544" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,212.67,244.53,7.88;11,64.00,223.67,228.51,7.88;11,64.00,234.66,201.44,7.88" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Global trends in emerging infectious diseases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">E</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">G</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Storeygard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Balk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Gittleman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Daszak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">451</biblScope>
+			<biblScope unit="page" from="990" to="993" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,245.66,244.48,7.88;11,64.00,256.66,228.50,7.88;11,64.00,267.66,153.00,7.88" xml:id="b12">
+	<monogr>
+		<title level="m" type="main">October). U.S. businesses added 213,000 jobs in September</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kell</surname></persName>
+		</author>
+		<ptr target="http://fortune.com/2014/10/01/adp-september-jobs-report/" />
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,278.66,244.53,7.88;11,64.00,289.65,211.54,7.88" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The psychology of political momentum</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Kenney</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">W</forename><surname>Rice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Research Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="923" to="938" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,300.65,244.49,7.88;11,64.00,311.65,228.51,7.88;11,64.00,322.65,228.50,7.88;11,64.00,333.65,186.48,7.88" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The psychological underpinnings of political behavior</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Krosnick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">S</forename><surname>Visser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Harder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of social psychology</title>
+		<editor>S. T. Fiske, D. T. Gilbert, &amp; G. Lindzey</editor>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="1288" to="1342" />
+		</imprint>
+	</monogr>
+	<note>5th ed.</note>
+</biblStruct>
+
+<biblStruct coords="11,48.00,344.64,244.53,7.88;11,64.00,355.64,228.53,7.88;11,64.00,366.64,178.93,7.88" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Monitoring EU emerging infectious disease risk due to climate change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Lindgren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Andersson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Suk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Sudre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Semenza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="418" to="419" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,377.64,244.53,7.88;11,64.00,388.64,228.48,7.88;11,64.00,399.63,73.74,7.88" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Back on the bandwagon: The effect of opinion polls on public opinion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Marsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="51" to="74" />
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,410.63,244.50,7.88;11,64.00,421.63,228.47,7.88;11,326.50,69.63,228.50,7.88;11,326.50,80.63,202.80,7.88" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Threat(s) and conformity deconstructed: Perceived threat of infectious disease and its implications for conformist attitudes and behavior</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">R</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Schaller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="180" to="188" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,310.50,91.63,244.52,7.88;11,326.50,102.62,228.51,7.88;11,326.50,113.62,228.49,7.88;11,326.50,124.62,130.50,7.88" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Pathogens and politics: Further evidence that parasite prevalence predicts authoritarianism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">R</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Schaller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Suedfeld</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0062275</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Article e62275</title>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="volume">8</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,310.50,135.62,244.49,7.88;11,326.50,146.62,228.51,7.88;11,326.50,157.61,228.50,7.88;11,326.50,168.61,129.07,7.88" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">On the origins of cultural differences in conformity: Four tests of the pathogen prevalence hypothesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">R</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Trudeau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Schaller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Personality and Social Psychology Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="318" to="329" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,310.50,179.61,244.48,7.88;11,326.50,190.61,228.49,7.88;11,326.50,201.61,228.29,7.88;11,326.50,212.60,136.62,7.88" xml:id="b20">
+	<monogr>
+		<title level="m" type="main">What voters care about most: Economy, healthcare and terrorism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Nicks</surname></persName>
+		</author>
+		<ptr target="http://time.com/3342016/what-voters-care-about-most-economy-healthcare-and-terrorism/" />
+		<imprint>
+			<date type="published" when="2014-09" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,310.50,223.60,244.48,7.88" xml:id="b21">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Polgreen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Pennock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Nelson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,326.50,234.60,228.52,7.88;11,326.50,245.60,134.97,7.88" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Using Internet searches for influenza surveillance</title>
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Infectious Diseases</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="1443" to="1448" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,310.50,256.60,244.48,7.88;11,326.50,267.59,228.50,7.88;11,326.50,278.59,159.30,7.88" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The behavioral immune system</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Schaller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The handbook of evolutionary psychology</title>
+		<editor>D. M. Buss</editor>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="206" to="224" />
+		</imprint>
+	</monogr>
+	<note>2nd ed.</note>
+</biblStruct>
+
+<biblStruct coords="11,310.50,289.59,244.49,7.88;11,326.50,300.59,228.49,7.88;11,326.50,311.59,228.50,7.88;11,326.50,322.58,228.50,7.88;11,310.51,333.58,244.53,7.88;11,326.51,344.58,228.51,7.88;11,326.51,355.58,221.21,7.88" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Implications of the behavioural immune system for social behaviour and human health in the modern world</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Schaller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">R</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Bangerter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Transactions of the Royal Society B: Biological Sciences</title>
+		<editor>Terrizzi, J. A., Shook, N. J., &amp; McDaniel, M. A.</editor>
+		<imprint>
+			<biblScope unit="volume">370</biblScope>
+			<biblScope unit="page" from="99" to="108" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note>Evolution &amp; Human Behavior</note>
+</biblStruct>
+
+<biblStruct coords="11,310.51,366.58,244.49,7.88;11,326.51,377.57,228.47,7.88;11,326.51,388.57,228.49,7.88" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Beauty at the ballot box: Disease threats predict preferences for physically attractive leaders</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">T</forename><surname>Kenrick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Neuberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="2429" to="2436" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,310.51,399.57,244.53,7.88;11,326.51,410.57,228.50,7.88;11,326.51,421.57,168.94,7.88" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">The social impact of pathogen threat: How disease salience influences conformity. Personality and Individual Differences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Chang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="50" to="54" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,2196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Personality Trait Change Across Late Childhood to Young Adulthood: Evidence for Nonlinearity and Sex Differences in Change</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">Emily</forename><surname>Durbin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Michigan State University</orgName>
+								<address>
+									<settlement>East Lansing</settlement>
+									<region>MI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brian</forename><forename type="middle">M</forename><surname>Hicks</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<settlement>Ann Arbor</settlement>
+									<region>MI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">M</forename><surname>Blonigen</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Veterans Affairs</orgName>
+								<orgName type="institution">Palo Alto Health Care System</orgName>
+								<address>
+									<settlement>Palo Alto</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wendy</forename><surname>Johnson</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">University of Edinburgh</orgName>
+								<address>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">G</forename><surname>Iacono</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution">University of Minnesota</orgName>
+								<address>
+									<settlement>Minneapolis</settlement>
+									<region>MN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matt</forename><surname>Mcgue</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution">University of Minnesota</orgName>
+								<address>
+									<settlement>Minneapolis</settlement>
+									<region>MN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Personality Trait Change Across Late Childhood to Young Adulthood: Evidence for Nonlinearity and Sex Differences in Change</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:00+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>development of personality</term>
+					<term>personality scales and inventories</term>
+					<term>sex differences</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We explored patterns of self-reported personality trait change across late childhood through young adulthood in a sample assessed up to four times on the lower order facets of Positive Emotionality, Negative Emotionality (NEM), and Constraint (CON). Multilevel modelling analyses were used to describe both group-and individual-level change trajectories across this time span. There was evidence for nonlinear age-related change in most traits, and substantial individual differences in change for all traits. Gender differences were detected in the change trajectories for several facets of NEM and CON. Findings add to the literature on personality development by demonstrating robust nonlinear change in several traits across late childhood to young adulthood, as well as deviations from normative patterns of maturation at the earliest ages.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Although personality traits have traditionally been described as enduring patterns of thinking feeling, and behaving <ref type="bibr" coords="1,48.02,451.40,100.58,8.80" target="#b7">(Costa &amp; McCrae, 1997)</ref>, contemporary theories espouse a dynamic perspective that conceptualizes traits as developmental constructs subject to change and adaptation throughout the lifespan <ref type="bibr" coords="1,149.78,487.41,140.17,8.80" target="#b6">(Caspi, Roberts, &amp; Shiner, 2005;</ref><ref type="bibr" coords="1,48.02,499.37,102.56,8.80" target="#b13">Fraley &amp; Roberts, 2005)</ref>. Recent efforts to capture these processes have focused on describing patterns of personality maturation that characterize the transition from late adolescence to young adulthood <ref type="bibr" coords="1,181.99,535.37,107.98,8.80;1,48.02,547.39,106.72,8.80" target="#b3">(Blonigen, Carlson, Hicks, Krueger, &amp; Iacono, 2008;</ref><ref type="bibr" coords="1,158.74,547.39,131.19,8.80;1,48.02,559.41,22.70,8.80" target="#b12">Donnellan, Conger, &amp; Burzette, 2007;</ref><ref type="bibr" coords="1,75.85,559.41,96.81,8.80" target="#b16">Hopwood et al., 2011;</ref><ref type="bibr" coords="1,177.79,559.41,112.16,8.80;1,48.02,571.37,21.43,8.80" target="#b40">Roberts, Caspi, &amp; Moffitt, 2001)</ref>. Many prior studies of personality change during this developmental period have focused on describing grouplevel change rather than exploring the presence or predictors of individual differences in change trajectories (for notable exceptions, see <ref type="bibr" coords="1,112.88,619.39,85.63,8.80" target="#b19">Johnson et al., 2007;</ref><ref type="bibr" coords="1,202.17,619.39,87.79,8.80;1,48.02,631.41,70.49,8.80" target="#b4">Branje, van Lieshout, &amp; Gerris, 2007;</ref><ref type="bibr" coords="1,125.07,631.41,95.89,8.80">Klimstra et al., 2010;</ref><ref type="bibr" coords="1,227.45,631.41,62.53,8.80;1,48.02,643.37,21.43,8.80">deHaan et al., 2013)</ref>. Additionally, most have focused on higher order traits rather than those at the facet level and were limited in their ability to detect nonlinear change owing to their analytic framework or use of only two or three waves of assessment. Theories of the processes that may underlie personality development could be improved by more precise knowledge about the pacing of mean-level changes with age (i.e. linear versus nonlinear), their degree of consistency across different facets of higher order traits and the extent to which individuals differ from mean-level trajectories at the population level. Moreover, less is known about whether the maturational trends characteristic of late adolescence and young adulthood are unique to these particular developmental periods, or begin to emerge at even earlier ages.</p><p>We used a large longitudinal sample to delineate trajectories of personality change from late childhood (age 11 years) through young adulthood (age 30 years). Across four waves of assessment, data were gathered using the Multidimensional Personality Questionnaire (MPQ; <ref type="bibr" coords="1,477.02,535.37,77.93,8.80;1,313.00,547.39,21.43,8.80" target="#b49">Tellegen &amp; Waller, 2008)</ref>, an omnibus measure of normal-range personality that assesses both broad and specific levels of the trait hierarchy. Data were analysed using multilevel modelling (MLM) to test for nonlinear patterns of change, quantify change parameters at both the group and individual levels and test for sex differences in these parameters. These design features allowed for a uniquely fine-grained analysis of trait change across a critical developmental window.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Personality development across late adolescence and young adulthood</head><p>Young adulthood is the period of the life course in which the greatest amount of normative change in personality occurs <ref type="bibr" coords="1,313.00,725.41,169.86,8.80" target="#b41">(Roberts, Walton, &amp; Viechtbauer, 2006)</ref>. Prospective research has consistently revealed mean-level decreases in traits associated with negative emotionality (stress reactivity, neuroticism, aggression and alienation) and increases in traits associated with behavioural constraint (self-control and conscientiousness) across this period <ref type="bibr" coords="2,191.34,77.40,90.90,8.80" target="#b3">(Blonigen et al., 2008;</ref><ref type="bibr" coords="2,40.25,89.36,99.12,8.80" target="#b12">Donnellan et al., 2007;</ref><ref type="bibr" coords="2,144.63,89.36,97.14,8.80" target="#b16">Hopwood et al., 2011;</ref><ref type="bibr" coords="2,247.02,89.36,35.28,8.80;2,40.25,101.38,127.07,8.80" target="#b19">Johnson, Hicks, McGue, &amp; Iacono, 2007;</ref><ref type="bibr" coords="2,169.63,101.38,79.56,8.80" target="#b40">Roberts et al., 2001;</ref><ref type="bibr" coords="2,251.55,101.38,30.71,8.80;2,40.25,113.40,166.68,8.80" target="#b44">Robins, Fraley, Roberts, &amp; Trzesniewski, 2001)</ref>. By comparison, mean levels of traits associated with positive emotionality (well-being and extraversion) remain relatively stable.</p><p>These findings have been described as reflecting the 'maturity principle' of personality development <ref type="bibr" coords="2,256.42,161.36,25.80,8.80;2,40.25,173.38,45.87,8.80" target="#b6">(Caspi et al., 2005)</ref>, which states that during young adulthood, most individuals become more cautious and self-controlled and less prone to negative emotions. The social investment principle  proposes that this maturation process begins with taking on new social roles (committed relationships, work and community responsibilities; <ref type="bibr" coords="2,254.55,233.36,27.67,8.80;2,40.25,245.38,23.29,8.80" target="#b2">Arnett, 2000)</ref> that prompt changes in identity and behaviour that increasingly match role expectations. Individuals who take on these roles, such as entering into committed intimate relationships, do tend to exhibit subsequent increases in trait maturation (i.e. decreases in negative emotionality and increases in constraint; <ref type="bibr" coords="2,86.80,305.36,113.41,8.80" target="#b34">Neyer &amp; Asendorpf, 2001;</ref><ref type="bibr" coords="2,205.00,305.36,77.26,8.80;2,40.25,317.38,52.05,8.80" target="#b27">Lehnart, Neyer, &amp; Eccles, 2010)</ref>, although these effects are less consistent when accounting for pre-existing trait differences among those who do and do not begin romantic partnerships <ref type="bibr" coords="2,245.14,341.36,37.13,8.80;2,40.25,353.38,148.43,8.80" target="#b50">(Wagner, Becker, Ludtke, &amp; Trautwein, 2015)</ref>. Other important psychosocial and biological changes occur during this period, including consolidation and commitment to an identity <ref type="bibr" coords="2,40.25,389.38,61.29,8.80" target="#b13">(Erikson, 1968)</ref>, the solidification of a life story <ref type="bibr" coords="2,237.66,389.38,44.54,8.80;2,40.25,401.40,66.42,8.80" target="#b30">(McAdams &amp; Olson, 2010)</ref> and pruning and structural maturation of the prefrontal cortex <ref type="bibr" coords="2,130.17,413.37,120.65,8.80" target="#b45">(Segalowitz &amp; Davies, 2004)</ref>. Thus, trait change may emerge as a consequence of the developmental challenges of young adulthood, along with psychological mechanisms that support the ability to navigate this period's role transitions in ways consistent with unfolding life plans.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Personality development in early to middle adolescence</head><p>Recent evidence suggests that the nature of personality development in the early adolescent years is distinct from the maturational trends evident in emerging adulthood. Multiple studies have documented declines in conscientiousness in early and middle adolescence <ref type="bibr" coords="2,167.30,569.39,78.66,8.80" target="#b0">(Allik et al., 2004;</ref><ref type="bibr" coords="2,250.36,569.39,31.84,8.80;2,40.25,581.40,49.69,8.80" target="#b31">McCrae et al., 2002;</ref><ref type="bibr" coords="2,93.88,581.40,71.80,8.80" target="#b47">Soto et al., 2011;</ref><ref type="bibr" coords="2,169.63,581.40,86.80,8.80" target="#b23">Klimstra et al., 2009)</ref>, with one exception in female participants only <ref type="bibr" coords="2,222.98,593.37,59.30,8.80;2,40.25,605.39,21.49,8.80" target="#b4">(Branje et al., 2007)</ref>. Changes in Neuroticism and Extraversion across adolescence are less consistent across studies <ref type="bibr" coords="2,226.77,617.41,55.44,8.80;2,40.25,629.37,22.77,8.80" target="#b4">(Branje et al., 2007;</ref><ref type="bibr" coords="2,68.43,629.37,78.43,8.80" target="#b0">Allik et al., 2004;</ref><ref type="bibr" coords="2,152.28,629.37,92.66,8.80" target="#b23">Klimstra et al., 2009;</ref><ref type="bibr" coords="2,250.36,629.37,31.84,8.80;2,40.25,641.39,53.09,8.80" target="#b31">McCrae et al., 2002;</ref><ref type="bibr" coords="2,98.98,641.39,95.47,8.80" target="#b37">Pullmann et al., 2006)</ref>, and a few studies indicating trait change differed across male and female participants <ref type="bibr" coords="2,89.06,665.37,71.40,8.80" target="#b47">(Soto et al., 2011;</ref><ref type="bibr" coords="2,163.22,665.37,81.83,8.80" target="#b31">McCrae et al., 2002;</ref><ref type="bibr" coords="2,247.75,665.37,34.42,8.80;2,40.25,677.39,47.23,8.80" target="#b23">Klimstra et al., 2009)</ref>.</p><p>In contrast to the role changes that typify young adulthood, adolescence is a period characterized by developmental challenges that may provoke movement away from adjustment. For example, youngsters are more likely to experience reduced positive mood and self-esteem, increased negative mood and risk taking, and greater conflict with parents during adolescence than in either childhood or young adulthood <ref type="bibr" coords="2,351.21,65.38,196.01,8.80" target="#b25">(Larson, Moneta, Richards, &amp; Wilson, 2002;</ref><ref type="bibr" coords="2,305.29,77.40,54.90,8.80" target="#b1">Arnett, 1999;</ref><ref type="bibr" coords="2,364.71,77.40,45.41,8.80" target="#b14">Hall, 1904)</ref>. Early adolescence is a time of increasing autonomy from the family and intensification of the impact of peer relationships on self-worth <ref type="bibr" coords="2,492.78,101.39,54.48,8.80;2,305.29,113.40,21.43,8.80" target="#b35">(Parker et al., 2006)</ref>, as well as growing pressures from socializing agents for youngsters to demonstrate competency at more challenging tasks. The uncertainty of success in response to these pressures may destabilize early trait patterns and produce trait changes that are different than those characterizing later adolescence.</p><p>Less is known about personality development during early adolescence than during late adolescence/emerging adulthood, some studies were cross-sectional, and few captured the earliest ages of adolescence or preadolescence or covered the entirety of adolescence through emerging adulthood. Thus, we aim to provide important information regarding longitudinal change in traits across late childhood through young adulthood (for a cross-sectional investigation of mean-level differences over this time period, see <ref type="bibr" coords="2,529.01,281.39,18.22,8.80;2,305.29,293.41,46.60,8.80" target="#b47">Soto et al., 2011)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Understanding personality development from late childhood through young adulthood</head><p>Any effort to provide a comprehensive examination of personality development across this formative period must address several factors. First, linear change models are likely insufficient to describe trajectories across very different developmental periods. Specifically, the normative pattern of maturation of traits seen in young adulthood may not extend backward to adolescence in a linear fashion. Consistent with the notion of adolescence as a time when increasing developmental pressures act on individuals who have yet to develop adult levels of competence, depression and low self-esteem (correlates of low positive emotionality and high negative emotionality) as well as risk taking and criminality (markers of low behavioural constraint) are elevated in adolescence in comparison with either childhood or young adulthood <ref type="bibr" coords="2,305.29,521.37,56.58,8.80" target="#b1">(Arnett, 1999)</ref>. Thus, during adolescence, these traits may exhibit trends that are the opposite of the pattern of maturation observed in young adulthood. Consistent with this, a meta-analysis of 14 studies with samples aged 10 to 20 years found that early adolescence was associated with declines in conscientiousness, openness, extraversion and emotional stability <ref type="bibr" coords="2,333.75,593.37,209.20,8.80" target="#b11">(Denissen, van Aken, Penke, &amp; Wood, 2013)</ref>, confirming the findings of earlier studies <ref type="bibr" coords="2,472.48,605.39,74.75,8.80" target="#b0">(Allik et al., 2004;</ref><ref type="bibr" coords="2,305.29,617.40,121.91,8.80" target="#b15">Harden &amp; Tucker-Drob, 2011;</ref><ref type="bibr" coords="2,429.91,617.40,82.74,8.80" target="#b19">Johnson et al., 2007;</ref><ref type="bibr" coords="2,515.40,617.40,31.84,8.80;2,305.29,629.36,49.46,8.80" target="#b31">McCrae et al., 2002;</ref><ref type="bibr" coords="2,358.58,629.36,70.25,8.80" target="#b47">Soto et al., 2011)</ref>. Decreases in agreeableness and conscientiousness across late childhood to middle adolescence were recently replicated in yet another study <ref type="bibr" coords="2,529.63,653.40,17.59,8.80;2,305.29,665.36,188.23,8.80">(van den Akker, Dekovic, Asscher, &amp; Prinzie, 2014)</ref>. The present study extended this work by testing for nonlinear trends in a longitudinal design with four waves of assessment, providing a fine-grained analysis of change in personality traits from late childhood through young adulthood.</p><p>Second, findings regarding sex differences have been less consistent than those for general maturational trends. Some evidence suggests the changes in higher order traits in young adulthood are fairly uniform across sex <ref type="bibr" coords="2,478.32,761.40,68.93,8.80;3,48.02,65.38,22.70,8.80" target="#b3">(Blonigen et al., 2008;</ref><ref type="bibr" coords="3,73.08,65.38,90.39,8.80" target="#b12">Donnellan et al., 2007;</ref><ref type="bibr" coords="3,165.89,65.38,78.52,8.80" target="#b40">Roberts et al., 2001)</ref>. However, others have found sex differences in trait development. Specifically, some have reported that female participants increased on negative emotionality traits during adolescence, whereas such traits tended to remain stable or decrease in male participants <ref type="bibr" coords="3,121.38,125.36,89.20,8.80" target="#b31">(McCrae et al., 2002;</ref><ref type="bibr" coords="3,214.64,125.36,71.04,8.80" target="#b47">Soto et al., 2011)</ref>. During late adolescence and young adulthood, traits associated with behavioural constraint (e.g. conscientiousness) have been found to increase at a faster rate in female than in male participants <ref type="bibr" coords="3,134.93,173.38,95.55,8.80" target="#b3">(Blonigen et al., 2008;</ref><ref type="bibr" coords="3,235.17,173.38,54.82,8.80;3,48.02,185.40,22.70,8.80" target="#b4">Branje et al., 2007;</ref><ref type="bibr" coords="3,73.93,185.40,92.83,8.80" target="#b12">Donnellan et al., 2007;</ref><ref type="bibr" coords="3,169.97,185.40,85.97,8.80" target="#b23">Klimstra et al., 2009;</ref><ref type="bibr" coords="3,259.15,185.40,30.80,8.80;3,48.02,197.36,51.05,8.80" target="#b40">Roberts et al., 2001;</ref><ref type="bibr" coords="3,103.69,197.36,72.69,8.80" target="#b47">Soto et al., 2011)</ref>. These differences in trait development may be due to sex differences in maturational processes, socialization, the extent and timing of their exposure to normative transitions or the psychological meaning of those transitions.</p><p>Third, most prospective studies of personality development in either adolescence or young adulthood have focused on changes at the higher order level of the trait hierarchy-Big Five or Big Three domains <ref type="bibr" coords="3,160.44,293.40,74.69,8.80" target="#b0">(Allik et al., 2004;</ref><ref type="bibr" coords="3,238.29,293.40,51.70,8.80;3,48.02,305.36,22.70,8.80" target="#b4">Branje et al., 2007;</ref><ref type="bibr" coords="3,73.82,305.36,87.39,8.80" target="#b10">De Fruyt et al., 2006;</ref><ref type="bibr" coords="3,164.36,305.36,90.62,8.80" target="#b16">Hopwood et al., 2011;</ref><ref type="bibr" coords="3,258.07,305.36,31.92,8.80;3,48.02,317.38,47.65,8.80" target="#b31">McCrae et al., 2002;</ref><ref type="bibr" coords="3,98.59,317.38,87.31,8.80" target="#b37">Pullmann et al., 2006)</ref>. However, in their crosssectional study, <ref type="bibr" coords="3,110.27,329.40,65.90,8.80" target="#b47">Soto et al. (2011)</ref> observed different age trends for several facets from the same domain. Differences are most pronounced across facets of neuroticism/negative emotionality and conscientiousness/behavioural constraint <ref type="bibr" coords="3,229.16,365.40,60.87,8.80;3,48.02,377.36,20.91,8.80" target="#b18">(Jackson et al., 2009)</ref>. Similarly, in an epidemiological sample of youth assessed from ages 12 to 24 years, <ref type="bibr" coords="3,157.86,389.38,132.05,8.80" target="#b15">Harden and Tucker-Drob (2011)</ref> reported divergent patterns of change for facets of behavioural constraint. Mean levels of impulsivity exhibited a monotonic decline, whereas levels of sensation seeking displayed a nonlinear pattern-increasing during early adolescence then gradually declining over late adolescence and young adulthood. Collectively, these findings suggest that lower order traits may reveal a more complex picture of the rate and timing of personality maturation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The present study</head><p>Using data from large community-epidemiological samples assessed up to four time points, we modelled individual differences in personality trait trajectories from late childhood through the entirety of young adulthood. Several studies have reported significant individual-level changes for traits during adolescence <ref type="bibr" coords="3,129.94,596.37,89.15,8.80" target="#b31">(McCrae et al., 2002;</ref><ref type="bibr" coords="3,223.21,596.37,66.75,8.80;3,48.02,608.39,23.22,8.80" target="#b46">Shiner &amp; Caspi, 2003)</ref> and young adulthood using reliable change indices <ref type="bibr" coords="3,48.02,620.41,98.90,8.80" target="#b3">(Blonigen et al., 2008;</ref><ref type="bibr" coords="3,152.73,620.41,100.60,8.80" target="#b12">Donnellan et al., 2007;</ref><ref type="bibr" coords="3,259.15,620.41,30.80,8.80;3,48.02,632.37,50.65,8.80" target="#b40">Roberts et al., 2001;</ref><ref type="bibr" coords="3,103.07,632.37,81.98,8.80" target="#b44">Robins et al., 2001)</ref>. We extended this prior research through the use of MLM to test for nonlinear as well as linear change and to quantify individual differences in the parameters of change.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHOD</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample</head><p>Participants were members of three ongoing longitudinal studies conducted at the Minnesota Center for Twin and Family Research <ref type="bibr" coords="3,386.42,65.38,147.57,8.80">(Iacono, McGue, &amp; Krueger, 2006)</ref>: the Minnesota Twin Family Study <ref type="bibr" coords="3,449.18,77.40,31.85,8.80">(MTFS;</ref><ref type="bibr" coords="3,486.60,77.40,68.34,8.80;3,313.00,89.36,138.34,8.80">Iacono, Carlson, Taylor, Elkins, &amp; McGue, 1999)</ref>, the MTFS Enrichment Sample (MTFS-ES; <ref type="bibr" coords="3,394.19,101.38,74.36,8.80" target="#b21">Keyes et al., 2009)</ref> and the Sibling Interaction and Behavior Study <ref type="bibr" coords="3,423.84,113.40,26.84,8.80">(SIBS;</ref><ref type="bibr" coords="3,453.89,113.40,79.89,8.80" target="#b32">McGue et al., 2007)</ref>. For all studies, families that met the biological relationship conditions were eligible if they lived within a day's drive of the University of Minnesota laboratories and neither target child had a mental or physical disability that would preclude participating in the day-long assessment. The MTFS and MTFS-ES are community-based studies of twins born in <ref type="bibr" coords="3,313.00,197.37,90.02,8.80">Minnesota from 1972</ref><ref type="bibr" coords="3,419.64,197.37,20.00,8.80">Minnesota from to 1984</ref><ref type="bibr" coords="3,462.96,197.37,20.00,8.80">Minnesota from and 1988</ref><ref type="bibr" coords="3,499.58,197.37,18.00,8.80">Minnesota from to 1994</ref>tively. Eligible families were identified using public birth records and located using other publically available databases. The MTFS used an accelerated cohort design with families recruited to participate the year the twins turned either 11 (n = 1517) or 17 years old (n = 1252). For the MTFS-ES (n = 998), all families were recruited the year the twins turned 11 years old. All twin pairs were same sex. For any given birth year, over 90% of twin families were located, and over 80% agreed to participate. For the MTFS-ES, an additional screening procedure was used to ensure that for one half of the participating families, at least one twin exhibited elevated conduct problems. No significant differences were observed between participating and non-participating families on self-reported history of mental health problems or socioeconomic status, so that the final sample was representative of the Minnesota population for the target birth years on key demographic variables <ref type="bibr" coords="3,396.00,401.41,79.45,8.80">(Iacono et al., 1999;</ref><ref type="bibr" coords="3,477.92,401.41,68.46,8.80" target="#b21">Keyes et al., 2009</ref>). The sample included slightly more female (51.9%) than male (48.1%) participants, with 96% of the sample being of European-American ancestry. Twins were invited to participate in follow-up assessments at 3-to 4-year intervals.</p><p>The SIBS is an adoption study that included 409 adoptive families and 208 non-adoptive control families (n = 1232). All families included two siblings within 5 years of age of one another, each between the ages of 11 and 21 years old at the intake assessment. Adoptive families were ascertained from private adoption agencies in Minnesota and included two biologically unrelated siblings (although one sibling could be a biological child of the parents). The mean age of placement for all adopted siblings was 4.7 months (SD = 3.4 months). Non-adoptive families were identified from public birth records and selected to include a pair of full biological siblings comparable in age and gender with the adoptive sibling pairs. Siblings pairs were either same sex (60.8%) or opposite sex (39.2%) with slightly more female (54.9%) than male (45.1%) participants overall. About two thirds of adoptions were international, such that for the total sample, 55.8% of participants were of European-American ancestry and 44.2% were of non-European (primarily East Asian) ancestry.</p><p>Participation rates were 63.2% for adoptive and 57.3% for non-adoptive families. Demographic information including parental education and occupation, rates of remarriage in the parents and behavioural problems in the offspring was obtained from 73% of non-participating families to assess any recruitment bias. The only significant difference was greater educational attainment for mothers of the non-adoptive families, suggesting families were broadly representative of their respective populations. Siblings were invited to participate in two follow-up assessments at 3-to 4-year intervals. <ref type="table" coords="4,54.26,113.40,31.08,8.80" target="#tab_0">Table 1</ref> lists the age distribution and number of participants for each assessment wave, or time point. Wave 1 refers to the intake assessment, and so includes the total number of participants across all studies. The declining number of participants with increasing time points is a function of attrition, ongoing assessments and study design. Only the Wave 2 (first follow-up) assessment is completed for all studies, with an overall retention rate of 92.1% across all studies. Ongoing assessments include Wave 3 (second follow-up) for the MTFS-ES and SIBS and Wave 4 for the MTFS-ES. Participants of the age 17 cohort of the MTFS have completed all scheduled assessments. The SIBS sample is currently only scheduled to complete three waves of assessment. Despite the ongoing and unequal number of assessments across participants, when data were aggregated across all samples and all time points, there was sufficient coverage of every age to model developmental trends from ages 11 to 30 years [ <ref type="table" coords="4,309.58,197.36,27.86,8.80" target="#tab_0">Table 1</ref>; Ns ranged from 43 (at age 27 years) to 1947 (at age 17 years), with a mean N of 592 at each chronological year between 11 and 30 years]. The mean true retention rate was about 90% across all completed follow-up assessments for the SIBS and different age and gender cohorts of the MTFS and MTFS-ES.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Personality assessment</head><p>The MPQ assesses an individual's typical affective and behavioural styles relevant to 11 trait constructs. The MPQ scales are listed in <ref type="table" coords="4,382.11,329.63,30.57,8.80">Table 2</ref> with descriptions of high scorers for each and estimates of internal consistency reliability (Cronbach's α) for the most common assessment ages (14, 17, 20, 24 and 29 years). Correlations among the 11 primary scales exhibit either three-or four-factor higher order structures that include Positive Emotionality (PEM), Negative Emotionality (NEM) and Constraint (CON), with PEM splitting into Agentic-PEM and Communal-PEM for the fourfactor structure <ref type="bibr" coords="4,367.37,425.61,136.98,8.80" target="#b36">(Patrick, Curtin, &amp; Tellegen, 2002)</ref>. Achievement and social potency scales define Agentic-PEM, with higher scorers described as enjoying working hard, reaching goals and being dominant and persuasive in social contexts. Social closeness and well-being scales define Communal-PEM; high scorers value intimate interpersonal ties and have optimistic and cheerful dispositions. Stress reaction, alienation and aggression scales define NEM with high scorers described as experiencing elevated levels of negative emotions, sensitivity to stress and interpersonal slights, and having antagonistic and hostile interpersonal styles. Control, harm avoidance and traditionalism define CON with high scorers described as planful and cautious, risk aversive and endorsing conservative moral and ethical values. Absorption is a primary scale that does not load principally on a single factor; high scorers are described as experiencing vivid and compelling images and readily becoming easily engrossed in sensory stimuli. The full set of 11 primary scales was assessed using the 198-item version of the MPQ at the age 17, 24 and 29 assessments of the MTFS and MTFS-ES. An abbreviated version with items for six scales only (well-being, stress reaction, alienation, aggression, control and harm avoidance) was administered to twins at the age 14 assessment. Female twins from the age 17 cohort also completed these six scales only at the age 20 assessment. For the SIBS, all participants 16 years of age and older completed all scales, while all participants younger than 16 years completed the abbreviated six-scale version. For any given assessment, 83% to 93% of participants had MPQ data; 632 participants had personality data at four assessments, and an additional 1340 had personality data for three assessments. Thus, analyses focused on individual differences in nonlinear trajectories are based on a smaller subset of participants with three or more completed assessments (N = 1972). The total sample (N = 5001) contributed to analyses describing the form of change in the sample as a whole (both linear and nonlinear change) and individual differences in linear change. We tested for patterns of missingness separately for the six scales that were administered at all waves (well-being, stress reaction, alienation, aggression, control and harm avoidance) and those that were deliberately administered only at some waves (social closeness, achievement, social potency, traditionalism and harm avoidance). For the first set of scales, data were missing completely at random, Little's MCAR chi-square (82) = 101.94, p = .067. For the second set, data were missing completely at random, Little's MCAR chi-square (27) = 33.31, p = .187.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>For each MPQ scale, age-related change was evaluated using MLM with full information maximum likelihood estimation. Each model included three levels to account for the nesting of assessments within participants and participants within families. The highest level was family (twin pairs, adoptive siblings; level 3), followed by participant (level 2) and repeated observations within participant across time (level 1). For each scale, a series of models was employed to (i) quantify the overall degree of age-related change; (ii) describe the shape of change in the sample (linear and nonlinear); (iii) test whether male and female participants exhibited differential change trajectories; and (iv) quantify individual differences in change. Significant fixed effects indicate those parameters that capture the shape of change across the entire sample, and significant variance components indicate those parameters for which there were individual differences across participants. Because participants varied in chronological age at the time of each assessment, change was modelled as a function of participants' actual ages at each assessment, rather than by assessment wave, allowing for more precise estimates of change parameters over time.</p><p>To explore the simplest form of change that might characterize the sample and for comparison with other studies that have reported on linear change, we first tested whether personality scales exhibited linear change by comparing unconditional means models to unconditional growth models. The unconditional means model included only an intercept term reflecting the overall elevation of the scale, but no linear slope coefficient. The unconditional growth model added a slope parameter. To facilitate interpretation of the intercept parameter, we centred the intercept such that it reflected the earliest age at which that particular scale was collected (specifically, 11 years for well-being, stress reaction, alienation, aggression, control and harm avoidance; 14 years for social potency, achievement, social closeness, traditionalism and absorption). Thus, the intercept reflected the model-derived scale score at age 11 or 14 years, and the slope coefficients reflected the degree of linear and nonlinear change in that scale as a function of increasing age after 11 or 14 years. Models were compared with one another by reference to their Akaike information criterion (AIC); models with smaller AIC models provide a better ft to the data.</p><p>We evaluated one potential predictor of individual differences in change-participant sex-by incorporating it as a level 2 predictor of individual differences in change parameters, added to the best-fitting model for each scale. For example, for traditionalism, we tested the following model:</p><formula xml:id="formula_0" coords="5,333.81,502.00,200.01,34.54">TR ¼ B 00 þ B 01 Ã SEX ð ÞþR0 ½ þ AGEÃ B 10 þ B 11 ð Þ ÃSEX ð Þþ R1 ð Þ ½ þ error</formula><p>In this example, the first term, B00 + B01 * (SEX) + R0, models the intercept of traditionalism at age 11 years, with B01 representing the effect of being male on the intercept (B 00 ) and R0 error. The second term, AGE * (B 10 + B 11 ) * (SEX) + (R1), models the effect of being male (B 11 ) on the linear slope for age (B10), along with an error term. Models for scales with significant nonlinear effects also included sex as a predictor of the quadratic and cubic age parameters. Finally, to test for individual differences in level 1 change parameters, we added variance components to the best-fitting fixed effects model (i.e. the one with the lowest AIC value). Because each additional variance component at level 1 added several parameters to the model, we were limited to exploring individual differences in up to three parameters in any one model (i.e. intercept, linear change and quadratic change). In all models, only one random effect (on the intercept) was estimated at level 3, as it included only two observations (twins and siblings).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Linear change in personality scales as a function of age</head><p>For nine of 11 MPQ scales, there were significant fixed effects of age in the unconditional growth models. Decreases were evident for social potency, stress reaction, alienation, aggression and absorption; and achievement, control, harm avoidance and traditionalism all increased with age. Wellbeing and social closeness did not exhibit linear change. <ref type="table" coords="6,40.25,185.06,33.23,8.80" target="#tab_1">Table 3</ref> shows the MLM linear growth parameters and intraclass correlation coefficients (ICCs) for the scales. The ICC provides an index of trait stability, indicating the proportion of total variance in scale scores, including within-person variability across time, attributable to between-person differences. The scales with the least stability across time were traditionalism, alienation and aggression, while the greatest temporal stability was evident for social potency. <ref type="table" coords="6,250.47,269.08,31.82,8.80" target="#tab_2">Table 4</ref> shows descriptive statistics for estimated intercept and linear slope parameters for the linear change models. Consistent with the significant variance components for all scales, these estimates demonstrate considerable individual deviation from the sample mean trajectories.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nonlinear changes in personality traits across late childhood through young adulthood</head><p>Individual deviations from sample-based change trajectories could also indicate misfit of the linear change model. As we had up to four assessments, we were able to test for nonlinear change (quadratic and cubic terms). We sequentially added a quadratic and then a cubic age term as fixed effects in models for each trait, while fixing the variance in all parameters except the intercept. We evaluated model fit by comparing the AICs across models with additional change parameters.</p><p>For all scales except traditionalism and absorption, the best-fitting model included both quadratic and cubic change terms; model coefficients are shown in <ref type="table" coords="6,462.39,269.82,28.98,8.80" target="#tab_3">Table 5</ref>. For comparison, we also report the best-fitting models for the higher order MPQ scales. These results demonstrate the utility of exploring personality trait change at the facet level, as the  , and the coefficient for the cubic term was nonsignificant (p = .058). Therefore, in subsequent analyses, we considered the quadratic model to be the best-fitting model for social closeness. Finally, we tested whether model parameters varied across the different samples (twin and adoption samples) by entering a dummy code for sample as a level 2 predictor of each change parameter. Of the 40 sample dummy code effects estimated, none were significant.</p><p>To ensure that the mean-level changes we detected were not primarily due to a lack of measurement invariance across different ages (i.e. differential loading of MPQ items on their respective latent scales across different developmental periods) rather than true developmental change, we fit confirmatory factor analytic models assessing measurement invariance using item-level data for each scale at ages 17 and 24 years. We examined these two ages because they anchored the period wherein we detected the greatest amount of change and because we had the most observations at these two points, allowing for maximal power to detect invariance. Because the sample size would yield a significant difference in the chi-square fit index for even well-fitting models, we focused on differences in the Bayesian information criterion (BIC), and the root mean square error of approximation (RMSEA) and standardized root mean square residual (SRMR) for indices of overall fit. None of the scales exhibited a decline in fit when item loadings were constrained to equality across ages 17 and 24 years, as indexed by the RMSEA; the change in the SRMR ranged from 0.000 to 0.003 across scales, indicating a trivial change in model fit.</p><p>With one exception (aggression), for each MPQ scale, the BIC was lower (indicating better fit) after constraining the factor loadings to be the same at ages 17 and 24 years. For the aggression scale, the BIC values increased when the factor loadings were constrained, but the RMSEA values did not change (0.048; indicative of good model fit), and the SRMR increased by only 0.005 while maintaining a good overall fit (0.054). Thus, the changes we detected were likely due to developmental changes in trait levels rather than differences in measurement properties of the scales at different ages.</p><p>Later, we describe the form of change for each trait from models including all participants, as well as sex differences in these trajectories.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Individual differences in personality trait change</head><p>To evaluate individual differences in age-related change, we compared the best-fitting models described earlier (shown in <ref type="table" coords="7,313.00,593.37,29.09,8.80" target="#tab_3">Table 5</ref>), which included a variance component only for the intercept parameter, to ones in which we also allowed the linear effect of age to vary. For every trait, the model in which both the intercept and linear age parameter were allowed to vary across persons provided a superior fit. Thus, there was evidence of individual differences in the degree of linear age-related change for all traits. Because we were limited by degrees of freedom to a maximum of two level 1 variance components per model, we were not able to include variance components for all of the change parameters in models that included quadratic and cubic age effects. However, to provide some preliminary tests of the presence of individual differences in nonlinear age-related change, we ran models in which variance was estimated for the linear and quadratic effects of age (intercept and cubic terms were fixed). These models were estimated for all traits except traditionalism and absorption, which did not exhibit nonlinear change. For all traits tested, these models revealed significant variance components for both the linear and quadratic age effects. However, the AICs were uniformly larger (i.e. model fit was worse) for these models than those in which the intercept and linear age effects were freely estimated, suggesting that the bulk of individual differences were evident in initial elevation of traits, with less (but significant) variance evident in linear and nonlinear age-related change.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sex differences in personality trait trajectories</head><p>We evaluated one potential predictor of individual differences in developmental trajectories-participant sex-by incorporating it as a level 2 predictor of individual differences in change parameters (intercept, linear and nonlinear change), added to the best-fitting model for each scale. <ref type="table" coords="8,40.25,283.14,30.57,8.80" target="#tab_4">Table 6</ref> shows the coefficients for all level 1 growth parameters and the level 2 effects of sex on each parameter. Because sex was coded as 0 = female and 1 = male, the coefficients for the level 1 parameters reflect the values for female participants, while the level 2 coefficients reflect the difference between male and female participants on these parameters. For six of the 11 scales, there were significant effects of sex on at least one parameter. <ref type="figure" coords="8,54.26,379.12,48.14,8.80" target="#fig_0">Figures 1-4</ref> show the model-derived change trajectories for male and female participants on each scale. Thus, they do not represent the observed values but rather the predicted scale values calculated by entering different age values for each sex into the MLM equation from the best-fitting change models for each scale. Model-derived estimates were transformed by placing each on a T-scale so that the values were consistent across different scales.</p><p>Male and female participants did not differ in change trajectories for any PEM scale, although they did differ on their overall level of social closeness. However, the four PEM scales did exhibit distinct developmental trajectories.  The two components of communal PEM (well-being and social closeness) demonstrated only modest change. Aspects of Agentic-PEM exhibited more pronounced nonlinear change. Social potency exhibited a striking increase across mid to late adolescence, with a more modest subsequent decline in the twenties. Achievement increased substantially across adolescence through early adulthood, the period most typified by developmental challenges to establish educational and occupational credentials. For the NEM scales, both the overall magnitudes of change and sex differences in these patterns were more striking than those observed for PEM traits. The simplest pattern of sex differences was in aggression, for which male and female participants differed only on the elevation of the trajectory, but not on age-related change parameters. Overall, the sample increased slightly in aggression through middle adolescence and then declined to a marked degree across the remainder of the study period. Thus, while the press towards maturation on this trait was clearly evident in adolescence and early adulthood, it was preceded by a period in late childhood to early adolescence in which the sample deviated from maturation.</p><p>For stress reaction, male and female participants differed on each change parameter. While male participants exhibited steady declines in stress reaction across late childhood and early adulthood, female participants had a period of increasing stress reaction from late childhood through adolescence before finally exhibiting their own decline on stress reaction that did not begin until late adolescence. The sex difference in change parameters was so substantial that it reversed the sex difference on this trait that was evident at age 11 years, when girls had lower levels than boys, to the opposite pattern by age 30 years, when female participants were higher than men on stress reaction.</p><p>For alienation, substantial declines were evident for both male and female participants from late childhood to adulthood, although this decrease was somewhat greater for male participants. For both sexes, declines were most dramatic across mid-adolescence to the mid-twenties.</p><p>Sex differences were evident for all CON scales. The simplest pattern was for traditionalism, which included only linear effects of age; there were significant sex differences on both the intercept and linear slope for this scale. Male participants had a lower mean than female participants at 14 years, but they increased twice as much over time than female participants, such that the sexes did not differ on their levels of traditionalism by age 30 years. The increases for both sexes on this trait were quite modest across this wide developmental period, suggesting that it was subject to weaker developmental pressures than many other traits we examined.   For control, the male and female trajectories had similar shapes, although changes were more dramatic for female participants (in addition to a higher overall level of control among female participants). For male participants, the trajectory was flat across early adolescence, followed by an increase across the remainder of the developmental period. For female participants, their scores decreased slightly across the earliest ages and then increased over the remainder of the ages assessed. Male and female participants differed only on the intercept for harm avoidance; the patterns of nonlinear change in that trait were similar for both sexes. For both sexes, harm avoidance decreased from late childhood to age 18 years, after which the trajectory reversed, such that this trait increased substantially late adolescence to age 30 years. Thus, for two aspects of CON (control and harm avoidance), the sample exhibited deviations from maturation at the earliest ages.</p><p>Finally, for absorption, the best-fitting change model included only a linear effect of age. Male participants had a lower mean than female participants at age 14 years, but female participants declined more rapidly than male participants from ages 14 to 30 years. By age 30 years, female participants had lower average scores than male participants, reversing the mean-level sex difference evident in late childhood.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>If we are to understand the dynamics of personality development, we must first precisely document its natural course, including both normative trends and the extent of individual variation around these trends. Although previous research has made considerable progress in doing this, the present study advanced this project in several important ways. First, we delineated normative patterns and individual differences in personality change across the critical developmental time frame from late childhood (age 11 years) through young adulthood (age 30 years), thus linking development across all of adolescence with that across young adulthood. Second, we used a measure of normal-range personality that assesses lower levels of the trait hierarchy, making it possible to identify distinct developmental patterns in aspects of personality that are typically collapsed together in many studies. Finally, we used a statistical technique that allowed us to identify nonlinear patterns of change and test for sex differences in these patterns. Although the results of our analyses broadly confirmed those from prior studies, the long time span of observation and fine level of detail available to us made possible some new observations as well as clarifications of prior findings that will inform future theorizing about the nature of personality development from late childhood through early adulthood.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Implications of examining development over a long time span</head><p>For nine of the 11 MPQ scales, models including quadratic and cubic terms provided significantly better fit than those including only linear terms. This highlights the importance of using multiple assessments (necessary for detecting nonlinear changes) and of considering a long period of developmental time. Although the trajectories for some traits were clearly consistent with overall trends towards personality maturation, there were many for which the patterns we observed in late childhood and early adolescence were not consistent with maturation (alienation, aggression and harm avoidance). Our findings are consistent with evidence from other samples indicating deviation from trait maturation in early adolescence (e.g. <ref type="bibr" coords="10,325.76,161.37,86.79,8.80" target="#b11">Denissen et al., 2013;</ref><ref type="bibr" coords="10,415.73,161.37,68.92,8.80" target="#b47">Soto et al., 2011;</ref><ref type="bibr" coords="10,487.90,161.37,59.41,8.80;10,305.29,173.38,43.53,8.80">van den Akker et al., 2014)</ref>. Thus, theories of the processes underlying personality development, such as biological maturation <ref type="bibr" coords="10,509.61,185.40,37.63,8.80;10,305.29,197.37,60.82,8.80" target="#b8">(Costa &amp; McCrae, 2006)</ref>, identity consolidation <ref type="bibr" coords="10,469.76,197.37,77.59,8.80;10,305.29,209.39,22.84,8.80" target="#b39">(Roberts &amp; Caspi, 2003)</ref> and investment in social roles <ref type="bibr" coords="10,468.17,209.39,79.16,8.80;10,305.29,221.40,21.11,8.80" target="#b42">(Roberts &amp; Wood, 2006)</ref>, appear less relevant to understanding the changes these traits underwent during the early adolescent period. Of course, it is also possible that studies using multiple assessment waves tightly spaced within a shorter developmental interval might also detect previously unanticipated nonlinear age effects.</p><p>Several developmental processes could potentially account for the patterns of deviation from maturation that we detected in adolescence. Early adolescent personality development may be influenced by mechanisms that are themselves nonlinear, such as fluctuations in identity development processes of commitment versus explorations of different decisions and roles <ref type="bibr" coords="10,425.03,353.39,89.92,8.80">(Klimstra et al., 2010)</ref>, or the experience of normative and non-normative life events <ref type="bibr" coords="10,305.29,377.37,177.57,8.80" target="#b28">(Ludtke, Roberts, Trautwein, &amp; Nagy, 2011)</ref>. The new challenges evident in this period may interact with pre-existing individual differences to produce movement away from maturation in some youth, specifically those who are unprepared in terms of their existing skills and experience (e.g. <ref type="bibr" coords="10,510.92,425.39,36.32,8.80;10,305.29,437.41,47.10,8.80" target="#b11">Denissen et al., 2013)</ref> or intrinsic motivation (e.g. <ref type="bibr" coords="10,465.17,437.41,82.09,8.80;10,305.29,449.37,23.22,8.80">van den Akker et al., 2014)</ref> to respond 'maturely' to new challenges that first emerge in early adolescence. This is consistent with <ref type="bibr" coords="10,524.64,461.39,22.58,8.80;10,305.29,473.40,83.76,8.81" target="#b5">Caspi and Moffitt's (1993)</ref> accentuation hypothesis, which posits that during times of environmental change characterized by less clear norms about how to respond to such change, pre-existing individual differences are intensified (e.g. more disinhibited youth deviate even further from maturation of conscientiousness). In particular, social changes prominent in this period may be particularly important sources of such challenges. The early adolescent period is often characterized by the onset of dating, increasing complexity and turmoil in peer relationships <ref type="bibr" coords="10,381.15,581.40,82.04,8.80" target="#b35">(Parker et al., 2006)</ref>, and broadening of peer networks to include mixed-sex friendships <ref type="bibr" coords="10,512.23,593.36,34.97,8.80;10,305.29,605.38,129.27,8.80" target="#b33">(Molloy, Gest, Feinberg, &amp; Osgood, 2014)</ref>. These social changes come with considerable uncertainty regarding how best to respond and how to judge one's success, and likely lean heavily on youth entering these challenges with relative deficits in personality maturation compared with their peers. Alternatively, changing norms among the peer group may influence trait development during this adolescent period towards engaging in less conscientious behaviours .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Consistency with prior evidence regarding personality development</head><p>Previous studies have generally found aspects of positive emotionality to be relatively stable in adolescence <ref type="bibr" coords="10,507.58,761.40,39.65,8.80;11,48.02,65.38,50.31,8.80" target="#b3">(Blonigen et al., 2008;</ref><ref type="bibr" coords="11,102.56,65.38,95.89,8.80" target="#b12">Donnellan et al., 2007;</ref><ref type="bibr" coords="11,202.68,65.38,87.28,8.80" target="#b19">Johnson et al., 2007;</ref><ref type="bibr" coords="11,48.02,77.40,93.31,8.80" target="#b16">Hopwood et al., 2011;</ref><ref type="bibr" coords="11,145.65,77.40,84.62,8.80" target="#b40">Roberts et al., 2001;</ref><ref type="bibr" coords="11,234.66,77.40,55.34,8.80;11,48.02,89.36,21.11,8.80" target="#b44">Robins et al., 2001)</ref>. Our results generally corroborated the broad observation of overall mean-level stability of PEM traits across the late adolescent-to-early adulthood transition. However, they also revealed that mean-level change was more apparent for some facets of PEM than others; thus, our study contrasts with other studies conducted in other countries that report more modest change for changes in measures emphasizing sociability aspects of Extraversion (e.g. <ref type="bibr" coords="11,159.65,173.38,80.35,8.80" target="#b23">Klimstra et al., 2009)</ref>. Well-being was the only PEM facet to exhibit an overall decline from ages 11 to 30 years, with the largest losses occurring from late childhood to middle adolescence. By contrast, adolescence appeared to be marked by increasing saliency of both social potency and achievement motivation, after which these traits exhibited much less mean-level change. Although achievement is a PEM scale in the MPQ, it is also linked with several aspects of conscientiousness in the five-factor model, so its increases from childhood through young adulthood were consistent with other studies that have shown increasing conscientiousness across this age range.</p><p>Prior studies have found that facets of NEM declined from adolescence to young adulthood (e.g. <ref type="bibr" coords="11,223.37,329.40,66.61,8.80;11,48.02,341.36,22.70,8.80" target="#b12">Donnellan et al., 2007;</ref><ref type="bibr" coords="11,73.13,341.36,78.75,8.80" target="#b40">Roberts et al., 2001)</ref>, and our results place these observations in a somewhat broader developmental context. We found nonlinear change in NEM across that window, as well as different patterns of change in earlier developmental periods. Contrary to prior findings (e.g. <ref type="bibr" coords="11,165.88,389.38,71.95,8.80" target="#b23">Klimstra et al. 2009</ref>), stress reaction increased from late childhood to late adolescence for female participants before declining, whereas male participants declined rather smoothly from late childhood to age 30 years. Our findings are consistent, however, with evidence that internalizing problems increase in girls during this same developmental period <ref type="bibr" coords="11,108.06,461.38,88.62,8.80" target="#b9">(Costello et al., 2006)</ref>. We replicated earlier findings of normative decreases in alienation and aggression.</p><p>We also uncovered more nuanced patterns of change for aspects of CON, while generally replicating the findings of prior studies that this trait increased across adolescence and early adulthood. First, for control and harm avoidance, the bulk of these increases occurred in the twenties. By contrast, harm avoidance actually declined in from late childhood to late adolescence, consistent with evidence of increases in risk-taking and thrill-seeking behaviours during this period <ref type="bibr" coords="11,247.70,569.39,42.30,8.80;11,48.02,581.40,20.85,8.80" target="#b48">(Steinberg, 2007)</ref>. Female participants also declined in control from late childhood to mid-adolescence and in the late twenties; they increased on this scale only from late adolescence to young adulthood. Our results could be summarized as indicating that the observations of prior studies that CON increased from late adolescence to early adulthood were reasonably isolated to that period, as the trajectory of CON traits is different in other periods. Our observations of changes in CON traits in the early adolescent period were generally consistent with the studies that have focused on this particular period <ref type="bibr" coords="11,176.52,689.41,71.86,8.80" target="#b0">(Allik et al., 2004;</ref><ref type="bibr" coords="11,251.06,689.41,38.95,8.80;11,48.02,701.37,76.96,8.80" target="#b15">Harden &amp; Tucker-Drob, 2011;</ref><ref type="bibr" coords="11,127.21,701.37,79.20,8.80" target="#b19">Johnson et al., 2007;</ref><ref type="bibr" coords="11,208.59,701.37,77.25,8.80" target="#b31">McCrae et al., 2002)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Individual differences in personality development</head><p>Studies of personality development have tended to focus on mean-level changes over time (for exceptions, see <ref type="bibr" coords="11,253.48,761.41,36.53,8.80;11,313.00,65.38,43.40,8.80" target="#b3">Blonigen et al., 2008</ref><ref type="bibr" coords="11,443.20,65.38,111.74,8.80;11,313.00,77.40,60.28,8.80" target="#b4">, and Branje, van Lieshout, &amp; Gerris, 2007</ref>. Our study showed clearly, however, that these mean-level changes do not apply to all individuals. For each scale, we found evidence for substantial individual variability in both the initial elevations of each trait and linear age-related change. Moreover, all scales had participants who displayed positive change and others who displayed negative change. This suggests that in addition to normative processes acting upon mean-level personality traits, other static or dynamic factors that differentiate among individuals act to produce deviation from the normative trends. The occurrence of important life events is one likely influence on these individual differences <ref type="bibr" coords="11,524.13,209.39,30.89,8.80;11,313.00,221.41,45.76,8.80" target="#b39">Roberts et al., 2003)</ref>, such that differential timing, context or psychological meaning of important transitional moments or developmental tasks  may act to produce different patterns of personality changes across individuals. Future research should focus on identifying which common life events are most powerful in this respect, as well as whether any show specificity for change in particular traits. Moreover, it will be important to understand whether common events or life transitions are associated with the same pattern of subsequent personality changes regardless of the timing of those events (e.g. early versus late pubertal onset), or if their impact on personality varies with timing. Finally, analytic models testing such questions must be able to provide evidence that such life events are causally impacting subsequent personality change, rather than reflecting preexisting trait differences between those who do and do not experience the event(s) or trait change that occurs prior to and perhaps facilitates entry into the life event <ref type="bibr" coords="11,513.59,425.39,41.41,8.80;11,313.00,437.41,45.19,8.80" target="#b29">(Luhmann et al., 2014)</ref>. In addition to exploring life events, it is possible that dynamic contextual influences in the social environment, as well as static individual difference factors, may help to account for differential personality development trajectories.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sex differences in personality development</head><p>Contrary to earlier claims that there are no sex differences in patterns of mean-level personality change <ref type="bibr" coords="11,498.11,533.39,56.86,8.80;11,313.00,545.41,21.43,8.80" target="#b6">(Caspi et al., 2005)</ref>, we found differential age-related change for male and female participants on many traits, although this varied across traits. First, there were no indications of sex differences in development of any of the four PEM scales. Our findings for social potency are in contrast to meta-analytic work showing that adult male participants score higher than female participants on assertiveness facets of PEM <ref type="bibr" coords="11,519.88,617.41,35.06,8.80;11,313.00,629.37,60.30,8.80">(McCrae &amp; Costa, 1987;</ref><ref type="bibr" coords="11,375.65,629.37,86.69,8.80">Lynn &amp; Martin, 1997)</ref>. Second, for the scales reflecting NEM, there were substantial sex differences in both the overall level and pattern of change. At age 11 years, female participants showed slightly lower stress reaction than male participants, but they increased rapidly while male participants remained relatively stable, a difference that persisted even when both sexes increased again in the late twenties. These findings are consistent with evidence that adult women are higher than men on self-reported NEM, especially its anxiety elements (e.g. <ref type="bibr" coords="11,476.96,737.36,77.98,8.80;11,313.00,749.38,22.70,8.80">McCrae &amp; Costa, 1987;</ref><ref type="bibr" coords="11,338.23,749.38,87.20,8.80">Lynn &amp; Martin, 1997)</ref>. Thus, there appeared to be factors unique to female participants that acted to increase their levels of negative mood in adolescence and early adulthood. At age 11 years, male participants were higher than female participants in alienation, but decreased more rapidly, suggesting greater developmental press on male participants to decline in their mistrust and distance from others. There were no differences in change parameters for aggression, but male participants exhibited large elevations relative to female participants in aggression across the entire developmental period from childhood through young adulthood, suggesting that the factors accounting for the large sex differences in aggression across the lifespan are already present in late childhood.</p><p>Finally, for CON traits, the most marked sex differences were in overall elevation, as the differences in change parameters we observed were modest in comparison with those for NEM traits. Female participants had higher mean levels of CON traits across the entire developmental window covered by our assessments, with one exception. Male participants were slightly lower than female participants at age 11 years in traditionalism, but they increased more rapidly, so the difference had disappeared by age 30 years. It appears that sex differences in CON traits were largely influenced by factors acting prior to age 11 years, with a modest influence of general maturational processes or new influences that became apparent later in the lifespan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study limitations</head><p>Some aspects of our study design warrant caution in the degree to which our findings can be extrapolated to other methods and samples. First, personality was assessed using a self-report questionnaire only and thus was subject to the well-known limitations of such measures. Very little is known about the extent to which the normative developmental changes documented for self-report measures of personality traits are corroborated by other measures of those constructs, including informant reports, behavioural samples or laboratory/observational methods. Moreover, the interpretation of longitudinal trends is complicated when different informants or observations are used at different assessment points, making self-reports the most obvious method of choice for such questions. However, we acknowledge that confirmation from studies using other approaches would provide important additional information about the nature of personality development.</p><p>Second, our sample consisted of twin pairs and adoptive and biological siblings drawn from a particular geographic region and cohort (people born in Minnesota from the 1970s to the 1990s). Although it was quite representative of this population, it was primarily of European-American descent. Those participants who were adopted also had rather restricted demographic characteristics, as most were born in South Korea. Thus, we cannot speculate as to how our results would generalize to broader populations or those with different demographic characteristics. However, there is little evidence of personality trait differences between twins and non-twins <ref type="bibr" coords="12,84.47,737.37,197.78,8.80" target="#b20">(Johnson, Krueger, Bouchard &amp; McGue, 2002)</ref> or adoptees and non-adoptees <ref type="bibr" coords="12,166.79,749.39,115.48,8.80;12,40.25,761.41,56.81,8.80" target="#b22">(Keyes, Legrand, Iacono, &amp; McGue, 2008)</ref>.</p><p>Our analyses of individual differences in nonlinear change parameters were based on a smaller subset of the larger sample (approximately 2000 of the 5000 participants). Although this subset is still rather large in an absolute sense, the results of these analyses should be interpreted more cautiously than those that deal with the general pattern of nonlinear change evident in the sample as a whole. Finally, some scales were not assessed until age 14 years (social potency, achievement, social closeness, traditionalism and absorption). Thus, we were unable to explore trait change in the earliest developmental period (ages 11 to 14 years) for these facets.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions and future directions</head><p>In this study, we evaluated personality development in specific (lower order) aspects of personality over the critical developmental period from late childhood through early adulthood. Our results showed the importance of being able to model nonlinear as well as linear change in order to describe personality change accurately. Our findings corroborated, extended and refined our previous understanding of personality development and emphasized the individual variability that surrounds the overall developmental patterns. Future research should investigate more fully the factors involved in producing nonlinear trends, as well as individual variability about these trajectories. Although we explored one such factor (sex), it is likely that an array of dynamic influences (e.g. socio-contextual factors) and discrete and normative life events (e.g. the onset of puberty; dating) may shed light on the contexts that impinge on individuals to constrain or expand their patterns of personality functioning.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="8,305.29,269.44,242.00,7.04;8,305.29,278.45,93.98,7.04"><head>Figure 1 .</head><label>1</label><figDesc>Model-derived change trajectories for PEM traits (T scores) in male and female participants.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="9,48.02,282.93,242.00,7.04;9,48.02,291.95,93.98,7.04"><head>Figure 2 .</head><label>2</label><figDesc>Model-derived change trajectories for NEM traits (T scores) in male and female participants.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="9,48.02,530.06,242.00,7.04;9,48.02,539.07,93.98,7.04"><head>Figure 3 .</head><label>3</label><figDesc>Model-derived change trajectories for CON traits (T scores) in male and female participants.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="9,313.00,315.98,242.00,7.04;9,313.00,325.00,94.06,7.04"><head>Figure 4 .</head><label>4</label><figDesc>Model-derived change trajectories for absorption (T scores) in male and female participants.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="4,40.25,201.31,507.04,568.45"><head>Table 1 .</head><label>1</label><figDesc>Number of participants of each age at each assessment wave</figDesc><table coords="4,40.25,231.81,507.04,537.95">Age 
+(years) 
+
+Assessment 
+wave 1 
+
+Assessment 
+wave 2 
+
+Assessment 
+wave 3 
+
+Assessment 
+wave 4 
+
+10 
+6 
+11 
+104 
+12 
+119 
+13 
+255 
+5 
+14 
+1047 
+82 
+1 
+15 
+878 
+110 
+16 
+762 
+153 
+17 
+1152 
+795 
+18 
+479 
+742 
+19 
+99 
+375 
+49 
+20 
+32 
+465 
+14 
+21 
+16 
+238 
+23 
+22 
+2 
+41 
+19 
+23 
+20 
+127 
+97 
+24 
+38 
+335 
+530 
+25 
+83 
+408 
+423 
+15 
+26 
+17 
+90 
+76 
+3 
+27 
+8 
+15 
+19 
+1 
+28 
+3 
+25 
+131 
+99 
+29 
+23 
+117 
+453 
+376 
+30 
+8 
+38 
+100 
+119 
+31 
+4 
+4 
+13 
+13 
+32 
+1 
+
+Table 2. Scale descriptions and internal consistency reliability estimates for the MPQ scales 
+
+MPQ scale 
+Age 14 
+Age 17 
+Age 20 
+Age 24 
+Age 29 
+Description of a high scorer 
+
+Well-being 
+.89 
+.88 
+.92 
+.90 
+.90 
+Has a cheerful disposition; tends to be optimistic, lives an 
+active and exciting life 
+Social Potency 
+.87 
+.90 
+.89 
+.90 
+Prefers to take charge; is persuasive; enjoys influencing 
+people; decisive 
+Achievement 
+.87 
+.88 
+.87 
+.88 
+Enjoys demanding projects; will put work ahead of their 
+activities; diligent 
+Social Closeness 
+.87 
+.88 
+.89 
+.89 
+Sociable; enjoys the company of others; values close 
+interpersonal ties 
+Stress Reaction 
+.87 
+.87 
+.89 
+.89 
+.90 
+Prone to worry; sensitive; easily upset or irritable; guilt prone 
+
+Alienation 
+.88 
+.87 
+.87 
+.91 
+.92 
+Suspicious of others' motives; feels they are often treated 
+unfairly; sees self as victim 
+Aggression 
+.91 
+.90 
+.87 
+.88 
+.88 
+Competitive; will intimidate others; may seek revenge for a 
+perceived wrongdoing 
+Control 
+.86 
+.84 
+.88 
+.87 
+.88 
+Reflective and rational; likes to plan ahead; cautious 
+Harm Avoidance 
+.84 
+.84 
+.84 
+.87 
+.87 
+Would prefer safe and tedious to potentially risky and 
+exciting tasks 
+Traditionalism 
+.78 
+.85 
+.81 
+.79 
+Values high moral standards and a conservative social order; 
+rarely challenges authority 
+Absorption 
+.86 
+.87 
+.88 
+.89 
+Easily engrossed in sensory experiences; may think in 
+terms of images 
+
+MPQ, Multidimensional Personality Questionnaire. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="6,40.25,344.46,507.05,233.99"><head>Table 3 .</head><label>3</label><figDesc>Unconditional growth models for each MPQ personality subscale Note: ICC = proportion of the variance in the trait due to between subjects differences (vs. within subjects variation across time). Intercept values reflect scores at age 11 years for the well-being, stress reaction, alienation, aggression, control and harm avoidance scales, and for age 14 years for social potency, achievement, social closeness, traditionalism and absorption. MPQ, Multidimensional Personality Questionnaire. *p &lt; .0001, with no adjustments for multiple testing.</figDesc><table coords="6,40.25,364.98,507.05,154.71">Trait 
+
+Fixed effects 
+Variance components 
+
+ICC 
+
+Intercept 
+Linear age 
+Intercept 
+Linear age 
+Coeff (SE) 
+Coeff (SE) 
+
+Well-being 
+55.64 (0.17)* 
+0.00 (0.01) 
+27.20* 
+0.09* 
+0.34 
+Social potency 
+46.30 (0.21)* 
+À0.07 (0.02)* 
+37.10* 
+0.20* 
+0.50 
+Achievement 
+47.75 (0.18)* 
+0.28 (0.02)* 
+44.38* 
+0.20* 
+0.41 
+Social closeness 
+54.31 (0.18)* 
+0.01 (0.02) 
+40.08* 
+0.21* 
+0.43 
+Stress reaction 
+43.89 (0.20)* 
+À0.24 (0.02)* 
+39.19* 
+0.15* 
+0.40 
+Alienation 
+38.30 (0.19)* 
+À0.50 (0.02)* 
+39.11* 
+0.14* 
+0.29 
+Aggression 
+41.48 (0.21)* 
+À0.61 (0.01)* 
+55.53* 
+0.10* 
+0.30 
+Control 
+44.95 (0.16)* 
+0.39 (0.01)* 
+38.85* 
+0.12* 
+0.43 
+Harm avoidance 
+45.38 (0.22)* 
+0.30 (0.02)* 
+50.26* 
+0.21* 
+0.41 
+Traditionalism 
+50.45 (0.16)* 
+0.10 (0.01)* 
+17.88* 
+0.12* 
+0.28 
+Absorption 
+44.41 (0.20)* 
+À0.36 (0.02)* 
+41.57* 
+0.25* 
+0.35 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="6,40.25,599.07,507.02,165.19"><head>Table 4 .</head><label>4</label><figDesc>Descriptive statistics for model-derived participant-specific growth curve parameters</figDesc><table coords="6,40.25,619.54,507.02,144.73">Trait 
+
+Intercept coefficient 
+Slope coefficient 
+
+Mean 
+SD 
+Min 
+Max 
+Mean 
+SD 
+Min 
+Max 
+
+Well-being 
+55.65 
+5.33 
+30.37 
+69.73 
+0.00 
+0.11 
+À0.44 
+0.56 
+Social potency 
+46.36 
+6.45 
+23.80 
+67.59 
+À0.07 
+0.20 
+À1.23 
+1.17 
+Achievement 
+47.77 
+6.36 
+24.18 
+67.32 
+0.28 
+0.21 
+À1.65 
+1.40 
+Social closeness 
+54.30 
+6.30 
+26.14 
+69.47 
+0.01 
+0.21 
+À1.10 
+1.01 
+Stress reaction 
+43.89 
+6.45 
+25.01 
+66.15 
+À0.24 
+0.15 
+À0.94 
+0.44 
+Alienation 
+38.29 
+6.46 
+23.17 
+63.36 
+À0.50 
+0.16 
+À1.28 
+0.20 
+Aggression 
+41.47 
+8.22 
+22.44 
+71.12 
+À0.61 
+0.19 
+À1.33 
+0.05 
+Control 
+44.95 
+5.61 
+25.88 
+65.75 
+0.39 
+0.14 
+À0.22 
+1.10 
+Harm avoidance 
+45.40 
+8.25 
+17.75 
+66.91 
+0.30 
+0.20 
+À0.47 
+1.31 
+Traditionalism 
+50.50 
+5.17 
+28.84 
+67.15 
+0.10 
+0.14 
+À0.65 
+0.73 
+Absorption 
+44.41 
+6.80 
+25.07 
+70.01 
+À0.36 
+0.22 
+À1.46 
+1.24 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="7,48.02,64.06,507.00,263.93"><head>Table 5 .</head><label>5</label><figDesc>Best-fitting models incorporating nonlinear (quadratic, cubic) effects of age on personality traits</figDesc><table coords="7,48.02,84.52,507.00,243.46">Trait 
+
+Fixed effects 
+
+Model fit 
+AIC 
+
+Intercept 
+Age 
+Age 2 
+Age 3 
+Coeff (SE) 
+Coeff (SE) 
+Coeff (SE) 
+Coeff (SE) 
+
+Well-being 
+58.07 (0.49)* 
+À0.80 (0.16)** 
+0.07 (0.02)* 
+À0.002 (0.0005)* 
+76 744.34 
+Social potency 
+34.67 (2.67)* 
+3.21 (0.62)* 
+À0.27 (0.05)* 
+0.007 (0.001)* 
+55 842.24 
+Achievement 
+37.01 (2.42)* 
+2.81 (0.67)* 
+À0.19 (0.06)** 
+0.004 (0.001)** 
+55 921.78 
+Social closeness 
+48.66 (2.48)* 
+1.49 (0.68)*** 
+À0.12 (0.06)*** 
+0.003 (0.001) 
+56 367.04 
+Stress reaction 
+40.08 (0.55)* 
+1.04 (0.18)* 
+À0.12 (0.02)* 
+0.003 (0.0005)* 
+79 716.24 
+Alienation 
+37.02 (0.56)* 
+0.12 (0.18) 
+À0.08 (0.02)* 
+0.003 (0.001)* 
+78 490.50 
+Aggression 
+38.66 (0.56)* 
+0.59 (0.18)** 
+À0.14 (0.02)* 
+0.005 (0.0005)* 
+79 000.17 
+Control 
+47.20 (0.48)* 
+À0.51 (0.16)** 
+0.10 (0.02)* 
+À0.003 (0.0005)* 
+76 594.40 
+Harm avoidance 
+53.13 (0.61)* 
+À2.22 (0.20)* 
+0.22 (0.02)* 
+À0.006 (0.0006)* 
+81 311.51 
+Traditionalism 
+50.43 (0.16)* 
+0.10 (0.02)* 
+-
+-
+52 751.09 
+Absorption 
+44.40 (0.20)* 
+À0.35 (0.02)* 
+-
+-
+58 001.29 
+PEM 
+116.45 (1.42)* 
+2.91 (0.59)* 
+À0.32 (0.07)* 
+0.01 (0.002)* 
+62 466.01 
+NEM 
+100.94 (0.91)* 
+À2.14 (0.16)* 
+0.05 (0.006)* 
+-
+63 228.56 
+CON 
+128.46 (0.58)* 
+1.24 (0.14)* 
+À0.02 (0.007)** 
+-
+65 083.17 
+
+Note: Intercept values reflect scores at age 11 years for the well-being, stress reaction, alienation, aggression, control and harm avoidance scales, and for age 
+14 years for social potency, achievement, social closeness, traditionalism and absorption. Random effects are estimated for the intercept; all other parameters 
+(age, age2 and age3) were fixed. 
+AIC, Akaike information criterion. 
+*p &lt; .001; **p &lt; .01; ***p &lt; .05; no adjustments for multiple testing. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="8,40.25,427.80,507.08,342.22"><head>Table 6 .</head><label>6</label><figDesc>Sex differences in personality trait trajectories</figDesc><table coords="8,40.25,447.47,507.08,322.55">Trait 
+
+Level 1 fixed effects 
+Level 2 fixed effects of sex 
+
+AIC 
+
+Intercept 
+Age 
+Age 2 
+Age 3 
+Intercept 
+Age 
+Age 2 
+Age 3 
+
+Coeff (SE) Coeff (SE) Coeff (SE) Coeff (SE) Coeff (SE) Coeff (SE) Coeff (SE) Coeff (SE) 
+
+Well-being 
+58.27* 
+À0.74** 
+0.06*** À0.002*** À0.71 
+0.05 
+0.02 
+À0.0007 
+76 743.20 
+(0.66) 
+(0.22) 
+(0.02) 
+(0.0007) 
+(0.95) 
+(0.31) 
+(0.03) 
+(0.001) 
+Social potency 
+41.90* 
+1.81* 
+À0.23* 
+0.008* 
+À0.02 
+0.02 
+0.05 
+À0.003 
+55 744.62 
+(1.22) 
+(0.51) 
+(0.06) 
+(0.002) 
+(1.66) 
+(0.69) 
+(0.08) 
+(0.003) 
+Achievement 
+44.21* 
+1.56** 
+À0.14*** 
+0.004*** À0.86 
+0.55 
+À0.03 
+0.0003 
+55 882.84 
+(1.22) 
+(0.50) 
+(0.06) 
+(0.002) 
+(1.79) 
+(0.75) 
+(0.09) 
+(0.003) 
+Social closeness 
+54.95* 
+0.20 
+À0.006 
+-
+À2.14** 
+À0.19 
+0.003 
+-
+56 191.17 
+(0.43) 
+(0.10) 
+(0.006) 
+(0.61) 
+(0.15) 
+(0.008) 
+Stress reaction 
+39.37* 
+1.75* 
+À0.19* 
+0.005* 
+2.32*** 
+À1.78* 
+0.15* 
+À0.004* 
+79 543.72 
+(0.71) 
+(0.24) 
+(0.02) 
+(0.0007) 
+(2.28) 
+(0.35) 
+(0.04) 
+(0.001) 
+Alienation 
+35.54* 
+0.35 
+À0.10* 
+0.003* 
+4.24* 
+À0.78*** 
+0.06 
+À0.001 
+78 454.37 
+(0.72) 
+(0.24) 
+(0.02) 
+(0.007) 
+(1.11) 
+(0.36) 
+(0.04) 
+(0.001) 
+Aggression 
+35.93* 
+0.35 
+À0.12* 
+0.004* 
+6.85* 
+0.32 
+À0.03 
+0.001 
+78 207.11 
+(0.67) 
+(0.22) 
+(0.02) 
+(0.0006) 
+(1.17) 
+(0.37) 
+(0.04) 
+(0.001) 
+Control 
+48.70* 
+À0.79* 
+0.14* 
+À0.004* 
+À3.43* 
+0.68*** 
+À0.09** 
+0.003** 76 465.41 
+(0.59) 
+(0.20) 
+(0.02) 
+(0.0006) 
+(0.99) 
+(0.32) 
+(0.03) 
+(0.009) 
+Harm avoidance 
+55.06* 
+À2.10* 
+0.23* 
+À0.006* 
+À2.81*** 
+À0.44 
+À0.03 
+0.002 
+80 676.06 
+(0.74) 
+(0.24) 
+(0.02) 
+(0.0007) 
+(1.25) 
+(0.40) 
+(0.04) 
+(0.001) 
+Traditionalism 
+51.11* 
+0.06** 
+-
+-
+À1.44* 
+0.08*** 
+-
+-
+52 730.22 
+(0.22) 
+(0.02) 
+(0.31) 
+(0.03) 
+Absorption 
+45.13* 
+À0.46* 
+-
+-
+À1.45* 
+0.19* 
+-
+-
+57 968.76 
+(0.29) 
+(0.03) 
+(0.40) 
+(0.04) 
+
+Note: Sex coded as 0 = female, 1 = male. Intercept values reflect scores at age 11 years for the well-being, stress reaction, alienation, aggression, control and harm 
+avoidance scales, and for age 14 years for social potency, achievement, social closeness, traditionalism and absorption. 
+AIC, Akaike information criterion. 
+*p &lt; .0001; **p &lt; .001; ***p &lt; .05; no adjustments for multiple testing. 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Copyright © 2015 European Association of Personality Psychology Eur. J. Pers. 30: 31-44 (2016) DOI: 10.1002/per</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Copyright © 2015 European Association of Personality PsychologyEur. J. Pers. 30: 31-44(2016)</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACKNOWLEDGEMENTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPORTING INFORMATION</head><p>Additional supporting information may be found in the online version of this article at the publisher's web-site.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="12,305.29,732.07,241.98,7.92;12,314.25,742.05,233.01,7.92;12,314.25,752.03,233.02,7.92;12,314.25,762.06,111.32,7.92" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Personality development from 12 to 18 years of age: Changes in mean levels and structure of traits</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Allik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Laidra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Realo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Pullmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/per.524</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Personality</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="445" to="462" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,48.02,64.06,242.00,7.92;13,56.98,74.04,222.56,7.92" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Adolescent storm and stress, reconsidered</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Arnett</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0003-066x.54.5.317</idno>
+	</analytic>
+	<monogr>
+		<title level="j">American Psychologist</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="317" to="326" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,48.02,84.07,241.96,7.92;13,56.98,94.05,233.05,7.92;13,56.98,104.03,183.53,7.92" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Emerging adulthood-A theory of development from the late teens through the twenties</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Arnett</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0003-066x.55.5.469</idno>
+	</analytic>
+	<monogr>
+		<title level="j">American Psychologist</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="469" to="480" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,48.02,114.06,241.98,7.92;13,56.98,124.04,233.02,7.92;13,56.98,134.02,233.01,7.92;13,56.98,144.06,233.02,7.92;13,56.98,154.03,97.58,7.92" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Stability and change in personality traits from late adolescence to early adulthood: A longitudinal twin study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Blonigen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Carlson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">M</forename><surname>Hicks</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">F</forename><surname>Krueger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">G</forename><surname>Iacono</surname></persName>
+		</author>
+		<idno>doi:10.1111/ j.1467-6494.2007.00485.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="229" to="266" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,48.02,164.07,241.99,7.92;13,56.98,174.05,233.01,7.92;13,56.98,184.03,233.02,7.92;13,56.98,194.06,29.33,7.92" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Big Five personality development in adolescence and adulthood</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J T</forename><surname>Branje</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">F M</forename><surname>Van Lieshout</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R M</forename><surname>Gerris</surname></persName>
+		</author>
+		<idno>doi:10.1002/ per.596</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Personality</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="45" to="62" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,48.02,204.04,241.94,7.92;13,56.97,214.07,233.04,7.92;13,56.97,224.05,101.81,7.92" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">When do individual differences matter? A paradoxical theory of personality coherence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Caspi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">E</forename><surname>Moffitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Inquiry</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="247" to="271" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,48.02,234.03,241.98,7.92;13,56.97,244.06,233.04,7.92;13,56.97,254.04,85.77,7.92" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Personality development: Stability and change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Caspi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">W</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Shiner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Psychology</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="453" to="484" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,48.02,264.08,241.98,7.92;13,56.97,274.06,233.03,7.92;13,56.97,284.03,233.03,7.92;13,56.98,294.07,152.56,7.92" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Stability and change in personality assessment: The Revised NEO Personality Inventory in the year 2000</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">T</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">R</forename><surname>Mccrae</surname></persName>
+		</author>
+		<idno type="DOI">10.1207/s15327752jpa6801_7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality Assessment</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="86" to="94" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,48.02,304.05,241.97,7.92;13,56.98,314.03,233.03,7.92;13,56.98,324.06,233.02,7.92;13,56.98,334.04,74.90,7.92" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Age changes in personality and their origins: Comment on Roberts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">T</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">R</forename><surname>Mccrae</surname></persName>
+		</author>
+		<idno>doi:10.1037/ 0033-2909.132.1.26</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="26" to="28" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,48.02,344.07,241.95,7.92;13,56.98,354.05,233.02,7.92;13,56.98,364.03,159.66,7.92" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Is there an epidemic of child or adolescent depression</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Costello</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Erkanli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Angold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Child Psychology and Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="1263" to="1271" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,48.02,374.07,241.97,7.92;13,56.98,384.04,233.00,7.92;13,56.98,394.08,232.99,7.92;13,56.98,404.06,230.82,7.92" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Five types of personality continuity in childhood and adolescence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>De Fruyt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bartels</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">G</forename><surname>Van Leeuwen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>De Clercq</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Decuyper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Mervielde</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0022-3514.91.3.538</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="538" to="552" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,48.02,414.04,241.95,7.92;13,56.97,424.07,233.00,7.92;13,56.97,434.05,233.03,7.92;13,56.97,444.07,103.34,7.92" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Self-regulation underlies temperament and personality: An integrative developmental framework</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J A</forename><surname>Denissen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A G</forename><surname>Van Aken</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Penke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Wood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Child Development Perspectives</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="255" to="260" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,48.02,454.05,241.97,7.92;13,56.98,464.03,233.02,7.92;13,56.98,474.06,232.99,7.92;13,56.98,484.04,233.03,7.92;13,56.98,494.02,179.49,7.92" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Personality development from late adolescence to young adulthood: Differential stability, normative maturity, and evidence for the maturity-stability hypothesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">B</forename><surname>Donnellan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Conger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">G</forename><surname>Burzette</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1467-6494.2007.00438.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="237" to="263" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,48.02,504.05,242.01,7.92;13,48.02,514.03,242.00,7.92;13,56.98,524.07,233.14,7.92;13,56.98,534.05,233.05,7.92;13,56.98,544.02,168.32,7.92" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Patterns of continuity: A dynamic model for conceptualizing the stability of individual differences in psychological constructs across the life course</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">H</forename><surname>Erikson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Norton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Fraley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">W</forename><surname>Roberts</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-295x.112.1.60</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="60" to="74" />
+			<date type="published" when="1968" />
+		</imprint>
+	</monogr>
+	<note>Identity: Youth and crisis</note>
+</biblStruct>
+
+<biblStruct coords="13,48.02,554.06,241.98,7.92;13,56.98,564.12,233.01,7.73;13,56.98,574.07,214.24,7.92" xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Adolescence: Its psychology and its relations to physiology, anthropology, sociology, sex, crime, religion, and education</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">S</forename><surname>Hall</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1904" />
+			<publisher>Appleton-Century-Crofts</publisher>
+			<biblScope unit="volume">1</biblScope>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,48.02,584.05,241.98,7.92;13,56.98,594.03,232.98,7.92;13,56.98,604.06,233.00,7.92;13,56.98,614.04,182.83,7.92" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Individual differences in the development of sensation seeking and impulsivity during adolescence: Further evidence for a dual systems model</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">P</forename><surname>Harden</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Tucker-Drob</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0023279</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Developmental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="739" to="746" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,48.02,624.08,241.96,7.92;13,56.98,634.06,233.00,7.92;13,56.98,644.03,233.01,7.92;13,56.98,654.07,233.00,7.92;13,56.98,664.05,233.02,7.92;13,56.98,674.08,119.68,7.92" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Genetic and environmental influences on personality trait stability and growth during the transition to adulthood: A three-wave longitudinal study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Hopwood</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">B</forename><surname>Donnellan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Blonigen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">F</forename><surname>Krueger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mcgue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">G</forename><surname>Iacono</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Burt</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0022409</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="545" to="556" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,48.02,684.06,241.95,7.92;13,56.98,694.04,233.01,7.92;13,56.98,704.07,233.02,7.92;13,56.98,714.05,93.65,7.92" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Developmental tasks as a framework to study personality development in adulthood and old age</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Hutteman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Henneke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Orth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">K</forename><surname>Reitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Specht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Personality</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="267" to="278" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,48.02,724.03,241.98,7.92;13,56.97,734.07,233.02,7.92;13,56.97,744.04,233.03,7.92;13,56.97,754.08,233.02,7.92;13,322.01,64.07,232.98,7.92;13,322.01,74.05,67.11,7.92" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Not all Conscientiousness scales change alike: A multimethod, multisample study of age differences in the facets of Conscientiousness</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Bogg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">E</forename><surname>Walton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">D</forename><surname>Harms</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lodi-Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">.</forename><forename type="middle">.</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">W</forename></persName>
+		</author>
+		<idno type="DOI">10.1037/a0014156</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="446" to="459" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,313.00,84.08,241.99,7.92;13,322.01,94.06,232.96,7.92;13,322.01,104.04,232.95,7.92;13,322.01,114.07,232.97,7.92;13,322.01,124.05,156.83,7.92" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Most of the girls are alright, but some aren&apos;t: Personality trajectory groups from ages 14 to 24 and some associations with outcomes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">M</forename><surname>Hicks</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mcgue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">G</forename><surname>Iacono</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0022-3514.93.2.266</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="266" to="284" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,313.00,134.03,241.97,7.92;13,322.01,144.07,232.99,7.92;13,322.01,154.04,185.65,7.92" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The personalities of twins: Just ordinary folks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">F</forename><surname>Krueger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">J</forename><surname>Bouchard</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mcgue</surname></persName>
+		</author>
+		<idno type="DOI">10.1375/136905202292</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Twin Research</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="125" to="131" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,313.00,164.06,241.98,7.92;13,322.02,174.04,233.00,7.92;13,322.02,184.02,232.94,7.92;13,322.02,194.06,232.95,7.92;13,322.02,204.03,139.28,7.92" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The Enrichment Study of the Minnesota Twin Family Study: Increasing the yield of twin families at high risk for externalizing psychopathology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Keyes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Malone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">J</forename><surname>Elkins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">N</forename><surname>Legrand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mcgue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">G</forename><surname>Iacono</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Twin Research and Human Genetics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="489" to="501" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,313.00,214.07,241.99,7.92;13,322.02,224.05,232.98,7.92;13,322.02,234.03,207.26,7.92" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The mental health of US adolescents adopted in infancy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Keyes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">N</forename><surname>Legrand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">G</forename><surname>Iacono</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mcgue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Archives of Pediatrics and Adolescent Medicine</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="419" to="425" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,313.00,244.06,242.01,7.92;13,322.02,254.04,232.97,7.92;13,322.02,264.07,232.97,7.92;13,322.02,274.05,119.62,7.92" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Maturation of personality in adolescence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">A</forename><surname>Klimstra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">W</forename><surname>Hale</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Iii</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">W</forename><surname>Raaijmakers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J T</forename><surname>Branje</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">H J</forename><surname>Meeus</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0014746</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="898" to="912" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,313.00,284.03,241.99,7.92;13,322.02,294.07,232.98,7.92;13,322.02,304.04,232.99,7.92;13,322.02,314.02,49.77,7.92" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A developmental typology of adolescent personality</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">A</forename><surname>Klimstra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">W</forename><surname>Hale</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><forename type="middle">A</forename><surname>Raaijmakers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Branje</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">H</forename><surname>Meeus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Personality</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="309" to="323" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,313.00,324.06,241.99,7.92" xml:id="b25">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">W</forename><surname>Larson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Moneta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">H</forename><surname>Richards</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Wilson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,322.02,334.04,232.95,7.92;13,322.02,344.07,233.02,7.92;13,322.02,354.05,111.35,7.92" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Continuity, stability, and change in daily emotional experience across adolescence</title>
+		<idno type="DOI">10.1111/1467-8624.00464</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Child Development</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1151" to="1165" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,313.00,364.03,241.99,7.92;13,322.02,374.06,233.01,7.92;13,322.02,384.04,144.10,7.92" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Long-term effects of social investment: The case of partnering in young adulthood</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lehnart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">J</forename><surname>Neyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Eccles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="639" to="669" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,313.00,394.08,241.96,7.92;13,322.02,404.05,232.96,7.92;13,322.02,414.03,232.94,7.92;13,322.02,424.15,232.97,7.73;13,322.02,434.05,119.62,7.92" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A random walk down university avenue: Life paths, life events, and personality trait change at the transition to university life</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Ludtke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">W</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Trautwein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Nagy</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0023743</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="620" to="637" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,313.00,444.08,242.00,7.92;13,322.02,454.06,232.95,7.92;13,322.02,464.04,229.42,7.92" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Studying changes in life circumstances and personality: It&apos;s about time</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Orth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Specht</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Kandler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Lucas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Personality</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="256" to="266" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,313.00,474.07,242.01,7.92;13,322.02,484.05,232.96,7.92;13,322.02,494.03,93.70,7.92" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Personality development: Continuity and change over the life course</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">P</forename><surname>Mcadams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">D</forename><surname>Olson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Psychology</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="517" to="542" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,313.00,504.06,242.01,7.92;13,322.01,514.04,232.95,7.92;13,322.01,524.08,232.96,7.92;13,322.01,534.06,232.98,7.92;13,322.01,544.03,232.99,7.92;13,322.01,554.07,58.50,7.92" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Personality trait development from age 12 to age 18: Longitudinal, crosssectional, and cross-cultural analyses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">R</forename><surname>Mccrae</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">T</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Terracciano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">D</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>De Fruyt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Mervielde</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0022-3514.83.6.1456</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1456" to="1468" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,313.00,564.05,241.98,7.92;13,322.01,574.08,232.98,7.92;13,322.01,584.06,232.97,7.92;13,322.01,594.04,232.98,7.92;13,322.01,604.06,228.18,7.92" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The environments of adopted and non-adopted youth: Evidence on range restriction from the Sibling Interaction and Behavior Study (SIBS)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mcgue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Keyes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Elkins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Legrand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">G</forename><surname>Iacono</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10519-007-9142-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Behavior Genetics</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="449" to="462" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,313.00,614.04,241.99,7.92;13,322.02,624.07,232.98,7.92;13,322.02,634.05,232.95,7.92;13,322.02,644.03,221.68,7.92" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Emergence of mixed-sex friendship groups during adolescence: Developmental associations with substance use and delinquency</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">E</forename><surname>Molloy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">D</forename><surname>Gest</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Feinberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Osgood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Developmental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2449" to="2461" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,313.00,654.06,241.99,7.92;13,322.02,664.04,232.96,7.92;13,322.02,674.08,138.00,7.92" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Personality-relationship transaction in young adulthood</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">J</forename><surname>Neyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Asendorpf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1190" to="1204" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,313.00,684.06,241.98,7.92;13,322.02,694.03,232.99,7.92;13,322.02,704.07,232.98,7.92;13,322.02,714.13,232.92,7.73;13,322.02,724.02,232.99,7.92" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Peer relationships, child development, and adjustment: A developmental psychopathology perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">G</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">H</forename><surname>Rubin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Erath</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Wojslawowicz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">A</forename><surname>Buskirk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Developmental psychopathology</title>
+		<editor>D. Cicchetti &amp; D.J. Cohen</editor>
+		<meeting><address><addrLine>Hoboken, N.J.</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley &amp; Sons</publisher>
+			<date type="published" when="2006" />
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+	<note>Theory and method. 2nd ed.</note>
+</biblStruct>
+
+<biblStruct coords="13,313.00,734.06,242.03,7.92;13,322.02,744.04,232.97,7.92;13,322.02,754.07,201.25,7.92" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Development and validation of a brief form of the Multidimensional Personality Questionnaire</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Patrick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Curtin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Tellegen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Assessment</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="150" to="163" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,40.25,64.06,242.03,7.92;14,49.27,74.04,233.02,7.92;14,49.27,84.07,220.34,7.92" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Stability and change in adolescents&apos; personality: A longitudinal study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Pullmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Raudsepp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Allik</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/per.611</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Personality</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="447" to="459" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,40.25,94.05,242.04,7.92;14,49.27,104.03,233.05,7.92;14,49.27,114.06,233.02,7.92;14,49.27,124.04,133.78,7.92" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">How peers make a difference: The role of peer groups and peer relationships in personality development</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">K</forename><surname>Reitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Zimmerman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Hutteman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Specht</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">J</forename><surname>Neyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Personality</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="279" to="288" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,40.25,134.02,242.00,7.92;14,49.27,144.06,232.99,7.92;14,49.27,154.03,232.97,7.92;14,49.27,164.07,233.00,7.92;14,49.27,174.13,233.01,7.73;14,49.27,184.03,233.00,7.92;14,49.27,194.06,39.34,7.92" xml:id="b39">
+	<monogr>
+		<title level="m" type="main">The cumulative continuity model of personality development: Striking a balance between continuity and change in personality traits across the life course</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">W</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Caspi</surname></persName>
+		</author>
+		<editor>R. M. Staudinger &amp; U. Lindenberger</editor>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Kluwer Academic Publishers</publisher>
+			<biblScope unit="page" from="183" to="214" />
+			<pubPlace>Dordrecht, NL</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Understanding human development: Lifespan psychology in exchange with other disciplines</note>
+</biblStruct>
+
+<biblStruct coords="14,40.25,204.04,242.01,7.92;14,49.27,214.07,233.00,7.92;14,49.27,224.05,233.02,7.92;14,49.27,234.03,230.32,7.92" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The kids are alright: Growth and stability in personality development from adolescence to adulthood</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">W</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Caspi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">E</forename><surname>Moffitt</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0022-3514.81.4.670</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="670" to="683" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,40.25,244.06,242.00,7.92;14,49.27,254.04,233.01,7.92;14,49.27,264.08,233.01,7.92;14,49.26,274.06,154.15,7.92" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Patterns of mean-level change in personality traits across the life course: A meta-analysis of longitudinal studies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">W</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">E</forename><surname>Walton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Viechtbauer</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-2909.132.1.1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="25" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,40.25,284.03,242.00,7.92;14,49.26,294.07,232.99,7.92;14,49.26,304.05,233.02,7.92;14,49.26,314.03,149.78,7.92" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Personality development in the context of the neo-socioanalytic model of personality</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">W</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Wood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of personality development</title>
+		<editor>D. K. Mroczek, Little, T. D.</editor>
+		<meeting><address><addrLine>Mahwah, NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>Erlbaum</publisher>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="11" to="39" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,40.25,323.27,242.04,9.00;14,49.26,334.04,232.97,7.92;14,49.26,344.07,201.92,7.92" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Evaluating five-factor theory and social investment perspectives on personality trait development</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">W</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Research in Personality</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="166" to="184" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,40.25,354.05,242.00,7.92;14,49.26,364.03,233.00,7.92;14,314.25,64.07,233.02,7.92;14,314.25,74.05,70.40,7.92" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A longitudinal study of personality change in young adulthood</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">W</forename><surname>Robins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Fraley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">W</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">H</forename><surname>Trzesniewski</surname></persName>
+		</author>
+		<idno>doi:10.1111/ 1467-6494.694157</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="617" to="640" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,305.29,84.08,242.01,7.92;14,314.24,94.06,233.03,7.92;14,314.24,104.04,226.60,7.92" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Charting the maturation of the frontal lobe: An electrophysiological strategy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Segalowitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">L</forename><surname>Davies</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0278-2626(03)00283-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Brain and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="116" to="133" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,305.29,114.07,241.98,7.92;14,314.24,124.05,233.05,7.92;14,314.24,134.11,233.02,7.73;14,314.24,144.07,184.76,7.92" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Personality differences in childhood and adolescence: Measurement development, and consequences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Shiner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Caspi</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1469-7610.00101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Child Psychology and Psychiatry and Allied Disciplines</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="2" to="32" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,305.29,154.04,241.99,7.92;14,314.24,164.08,233.01,7.92;14,314.25,174.04,233.04,7.92;14,314.25,184.02,233.06,7.92" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Age differences in personality traits from 10 to 65: Big Five domains and facets in a large cross-sectional sample</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Soto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><forename type="middle">P</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">D</forename><surname>Gosling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Potter</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0021717</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="330" to="348" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,305.29,194.06,241.95,7.92;14,314.25,204.03,233.04,7.92;14,314.25,214.07,98.22,7.92" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Risk taking in adolescence: New perspectives from brain and behavioral science. Current Directions in Psychological</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Steinberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="55" to="59" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,305.29,224.05,242.01,7.92;14,314.25,234.03,233.01,7.92;14,314.25,244.06,233.04,7.92;14,314.25,254.04,233.01,7.92;14,314.25,264.16,233.00,7.73;14,314.25,274.05,149.77,7.92;14,305.29,284.03,241.98,7.92;14,314.25,294.07,233.02,7.92;14,314.25,304.04,232.98,7.92;14,314.25,314.02,233.03,7.92;14,314.25,324.06,168.20,7.92" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Mean-level personality development across childhood and adolescence: A temporary defiance of the maturity principle and bidirectional associations with parenting</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Tellegen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">G. ; A L</forename><surname>Waller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Dekovic</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Asscher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Prinzie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The SAGE handbook of personality theory and assessment</title>
+		<editor>G. J. Boyle, G. Matthews, &amp; D. H. Saklofske</editor>
+		<meeting><address><addrLine>Thousand Oaks, CA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="736" to="750" />
+		</imprint>
+	</monogr>
+	<note>Exploring personality through test construction: Development of the Multidimensional Personality Questionnaire</note>
+</biblStruct>
+
+<biblStruct coords="14,305.29,334.04,242.00,7.92;14,314.25,343.28,233.00,9.00;14,314.25,354.05,233.02,7.92;14,314.25,364.03,170.42,7.92" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The first partnership experience and personality development: A propensity score matching study in young adulthood</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Ludtke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Trautwein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Psychological and Personality Science</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

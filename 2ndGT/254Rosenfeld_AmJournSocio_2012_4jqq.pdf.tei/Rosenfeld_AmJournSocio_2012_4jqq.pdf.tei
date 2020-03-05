@@ -1,0 +1,1810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Organized Labor and Racial Wage Inequality in the United States 1</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2012-03">March 2012</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jake</forename><surname>Rosenfeld</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Washington</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Meredith</forename><surname>Kleykamp</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Maryland</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Organized Labor and Racial Wage Inequality in the United States 1</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">AJS</title>
+						<imprint>
+							<biblScope unit="volume">117</biblScope>
+							<biblScope unit="page" from="1460" to="1502"/>
+							<date type="published" when="2012-03">March 2012</date>
+						</imprint>
+					</monogr>
+					<note>1460</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:15+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Why have African-American private-sector unionization rates surpassed those of white workers for decades, and how has privatesector union decline exacerbated black-white wage inequality? Using data from the Current Population Survey , the authors show that African-Americans join unions for protection against discriminatory treatment in nonunion sectors. A modelpredicted wage series also shows that, among women, black-white weekly wage gaps would be between 13% and 30% lower if union representation remained at high levels. The effect of deunionization on racial wage inequality for men is less substantial, but without deunionization, weekly wages for black men would be an estimated $49 higher. The results recast organized labor as an institution vital for its economic inclusion of African-American men and women. This study points to the need to move beyond class-based analyses of union decline to an understanding of the gendered role unions once played in mitigating racial inequality.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>The decades surrounding the turn of the 20th century proved inauspicious for the emergence of a strong African-American presence within the labor movement. Early growth in U. <ref type="bibr" coords="2,200.42,67.49,40.94,8.55">S. unions</ref> coincided with violent attacks on African-American nonunion workers <ref type="bibr" coords="2,248.02,79.45,49.96,8.55" target="#b61">(Olzak 1989</ref>). White workers would constitute the vast majority of all unionists for generations, and many union leaders fought hard to keep it that way. As the nations' trade unions fiercely policed their racial boundaries, they pressed the state for official recognition and protection as organizations granted the legal right to bargain with employers. These political efforts culminated with congressional passage of the National Labor Relations Act, commonly referred to by the name of its chief sponsor, Senator Robert F. Wagner. Passage of the legislation required the cooperation of powerful Southern congressmen, who insisted on provisions excluding agricultural and domestic workers from the law's purview <ref type="bibr" coords="2,238.36,199.00,138.33,8.55;2,65.75,210.95,22.40,8.55" target="#b49">(Katznelson, Geiger, and Kryder 1993;</ref><ref type="bibr" coords="2,91.29,210.95,103.43,8.55">Frymer 2008, pp. 28-29)</ref>. The bill's crafters designed these exemptions to keep the majority of the African-American workforce unorganized and exploited. In 1935, the historic year in which President Franklin Roosevelt signed the Wagner Act into law, less than 1% of all union members were black <ref type="bibr" coords="2,158.30,258.77,59.07,8.55" target="#b36">(Frymer 2008)</ref>.</p><p>This would change remarkably quickly. Less than 40 years later, no group would be more overrepresented in labor unions than African-Americans, at least in the private sector. African-American unionization rates would peak just as private-sector unionization rates began to plummet, suggesting that deunionization has contributed to racial inequality in recent decades. In this article, we address two primary questions: Why have African-American unionization rates surpassed those of white workers for decades, and how has union decline exacerbated black-white wage inequality? The answers to these questions inform two core areas of stratification research: race and organized labor, and racial wage inequality in the contemporary United States. To investigate these issues, we use various series of the Current Population Survey (CPS) from 1973 to <ref type="bibr" coords="2,354.19,402.23,22.42,8.55">2007.</ref> We first investigate unionization in order to test theories of African-Americans' engagement with the labor movement in the United States. Next, we estimate the effects of union membership and of joining a union on wages. Unlike scholarship on the historical relationship between blacks and organized labor, recent research on black-white wage inequality conceptualizes unions as benefiting blacks and whites similarly <ref type="bibr" coords="2,325.82,473.96,50.79,8.55;2,65.75,485.91,57.82,8.55" target="#b26">(Bound and Dresser 1999;</ref><ref type="bibr" coords="2,126.91,485.91,55.84,8.55" target="#b57">McCall 2001)</ref>. This assumption ignores both organized labor's historical role in blocking access to well-paying, stable employment for African-Americans and possible explanations for blacks' overrepresentation in unions in more recent periods. Our analysis tests whether the effect of unionization on wages varies by race. We utilize these racespecific wage premium estimates for our final investigation of the article: an account of what black-white wage inequality in the private sector would look like had 1970s unionization rates-the highest in our series-persisted. <ref type="bibr" coords="3,105.85,66.51,2.99,4.70">2</ref> This counterfactual provides a picture of how the near disintegration of a core labor market institution affects economic inequality between black and white workers.</p><p>Three main empirical findings undergird the theoretical contributions of the article. First, we show that African-Americans' disproportionately high rates of organization are not simply reducible to their labor market positions. Instead, our analyses are consistent with a protectionist theory of the labor movement, where out-groups seek unionized employment as a refuge against discriminatory treatment in nonunion sectors. Second, we find little evidence to suggest that unionization actually offers any additional economic protection to blacks compared with whites: both groups benefit similarly from organization. Third, despite the lack of an added economic benefit, private-sector union decline has exacerbated black-white wage inequality, especially among female workers.</p><p>These empirical findings challenge dominant theories of race and organized labor in the United States as well as explanations for black-white inequality in recent decades. Much of the literature on blacks and organized labor is dated, historical, or both, theorizing unions-particularly American Federation of Labor (AFL) craft unions-as exclusionary, racist organizations focused on protecting white male labor <ref type="bibr" coords="3,307.02,294.63,69.59,8.55" target="#b24">(Bonacich 1976;</ref><ref type="bibr" coords="3,65.75,306.59,48.08,8.55" target="#b22">Beck 1980;</ref><ref type="bibr" coords="3,117.97,306.59,87.84,8.55" target="#b51">Kessler-Harris 1982;</ref><ref type="bibr" coords="3,209.89,306.59,66.86,8.55" target="#b50">Kaufman 1986;</ref><ref type="bibr" coords="3,280.78,306.59,95.84,8.55;3,65.85,318.54,12.45,8.55">Cohen 2001, pp. 148-49;</ref><ref type="bibr" coords="3,83.24,318.54,51.94,8.55" target="#b37">Glenn 2002)</ref>. We provide the most comprehensive account of the relationship between organized labor and African-American workers during the closing decades of the 20th century and recast the labor movement as a remarkably inclusive institution vital for its economic support of African-American men and women. The crumbling of this institution carries important ramifications for economic inequality in the United States and points to the need to move beyond class-based discussions of union decline to an understanding of the gendered role unions played in mitigating racial inequality.</p><p>An examination of this role reveals the layered consequences union decline has for different groups of workers. <ref type="bibr" coords="3,246.62,437.11,2.99,4.70">3</ref> Research on the disequalizing consequences of private-sector deunionization overlooks the racial consequences of union decline <ref type="bibr" coords="3,188.28,462.00,46.77,8.55" target="#b29">(Card 1996</ref><ref type="bibr" coords="3,244.01,462.00,16.79,8.55" target="#b29">(Card , 2001</ref>. Research on how labor unions structure wages among blacks and whites generally focuses on males <ref type="bibr" coords="3,94.38,485.91,119.63,8.55" target="#b27">(Bound and Freeman 1992)</ref>. Accounts of female racial wage inequality rarely investigate women's differential access to pay-setting institutions. Those that do ignore sectoral differences in union memberships or simply emphasize the importance of public-sector employment and public-sector unions in supporting black females' economic standing <ref type="bibr" coords="3,353.33,533.73,23.25,8.55;4,65.75,67.49,17.93,8.55" target="#b68">(Zipp 1994</ref>; <ref type="bibr" coords="4,91.90,67.49,139.05,8.55">Grodsky and Pager 2001, p. 549</ref>; <ref type="bibr" coords="4,239.05,67.49,116.10,8.55" target="#b32">Davis and Dickerson 2007)</ref>. We challenge this outlook, placing private-sector union decline at the center of explanations for racial wage inequality among women in recent decades. More broadly, emerging research on the growth in economic inequality in the United States has pinpointed labor unions as a core equalizing institution <ref type="bibr" coords="4,135.21,127.76,96.42,8.55" target="#b53">(Levy and Temin 2007)</ref>. We argue for a similar treatment of the labor movement in understandings of racial economic inequality, especially among women. <ref type="figure" coords="4,65.75,217.92,35.93,8.55" target="#fig_0">Figure 1</ref> depicts unionization ratios for black and white workers between 1973 and 2007. Each series represents the African-American sex-and sector-specific unionization rate divided by the corresponding rate for white workers. As shown, private-sector unionization rates for African-Americans have exceeded those for whites for decades. This is especially true for female workers. Despite the stereotypical image of the blue-collar male union worker, nearly one in four black women in the private sector belonged to a union by the end of the 1970s. In the heavily industrialized Midwest, rates of unionization for African-American females working in the private sector peaked at 40%. These high rates for black women lead to large racial differentials in unionization. Corresponding race differentials among males never reach similar magnitudes. Yet the organizing advantage among black males is still substantial for most of the years covered here. Even as late as 2000, whites males' unionization rate in the private sector is nearly 25% less than the corresponding rate for black males.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ORGANIZED LABOR AND AFRICAN-AMERICANS IN THE UNITED STATES</head><p>By contrast, public-sector unionization gaps largely disappear by the early 1980s. This is true for both sexes: while public-sector unions organized disproportionately more black men and women at the very beginning of the series, these advantages diminish quickly. Similar rates of public-sector organization leave little room for public-sector unionization patterns to influence contemporary trends in racial wage inequality. As a result, all of our subsequent analyses and discussion focus on the private sector, which employs over four-fifths of the U.S. workforce.</p><p>What the ratios displayed in <ref type="figure" coords="4,204.99,508.83,33.21,8.55" target="#fig_0">figure 1</ref> obscure is the scale of privatesector organization among African-Americans. As shown in figure 2, this scale was tremendous, especially among black men. By the early 1970s, nearly 40% of black males in the private sector belonged to a union, up from less than a percentage point 40 years prior. Over a third of the African-American male private-sector workforce belonged to a labor  <ref type="bibr" coords="5,161.10,391.31,71.92,6.84">1980, 1982, and 1994</ref> are unavailable: we estimate rates for the missing years by averaging the prior and subsequent year's rates. We multiply the 1973-76 unionization rates by 1.094 to reflect changes in CPS wording on the union question <ref type="bibr" coords="5,65.75,418.21,162.80,6.84">(Hirsch, MacPherson, and Vroman 2001, p. 51)</ref>. Estimates are adjusted using appropriate CPS weights. See the data and methods section and the data appendix for further details. union until the early 1980s, and over a fourth did up until the mid-1980s. Rates among African-American females never approached these levels, but as noted above, they were substantial. Given negligible organization rates just decades before, this turnaround for black workers represents a striking historical reversal. The entrance of nearly a quarter of the privatesector African-American female workforce into labor unions by the 1970s is especially impressive given the double disadvantage African-American females faced for generations: not only did many private-sector unions exclude blacks from their ranks, gendered occupational hierarchies consigned black women to a few exclusively nonunion occupations that paid little and offered even less opportunity for advancement <ref type="bibr" coords="5,308.91,569.60,63.56,8.55" target="#b20">(Aldridge 1999)</ref>.  <ref type="bibr" coords="6,65.75,386.83,72.07,6.84">1980, 1982, and 1994</ref> are unavailable: we estimate rates for the missing years by averaging the prior and subsequent year's rates. We multiply the 1973-76 unionization rates by 1.094 to reflect changes in CPS wording on the union question <ref type="bibr" coords="6,256.26,404.76,82.08,6.84">(Hirsch et al. 2001, p. 51)</ref>. Estimates are adjusted using appropriate CPS weights. See the data and methods section and the data appendix for further details.</p><p>What caused this turnaround? One explanation is that blacks work in those labor market positions that are easiest to unionize. A labor market position theory of unionization emphasizes how organizers focus their efforts on the structural locations of the labor market where barriers to unionization are low, irrespective of the race or ethnicity of the individuals who occupy these locations <ref type="bibr" coords="6,188.58,509.82,137.52,8.55" target="#b64">(Rosenfeld and Kleykamp 2009)</ref>. The great migration northward during the early decades of the 20th century brought African-Americans into the expanding industrial centers of the Midwest and Northeast, areas dominated by large, capital-intensive factories. Owing to low relative wage costs, high costs of monitoring, and strict divisions between managers and floor workers, these plants proved easier to or-ganize than other sectors of the economy and provided the growing labor movement with millions of potential members <ref type="bibr" coords="7,260.63,79.45,115.96,8.55;7,65.75,91.40,32.40,8.55">(Freeman and Medoff 1984, chap. 2)</ref>. Overt discrimination by unions against African-American workers would continue for decades, especially in the AFL-affiliated craft unions. However, as fast-growing industrial unions found success organizing large manufacturing firms, "unions had little choice but to try to diversify," given African-Americans' growing concentration in the industrial cores of many midwestern and northeastern cities <ref type="bibr" coords="7,305.13,151.18,71.49,8.55;7,65.75,163.13,11.40,8.55">(Frymer 2008, p. 48)</ref>. At the onset of World War II, African-American participation rates in the newly formed Congress of Industrial Organizations (CIO) unions were double their rates in the AFL affiliates <ref type="bibr" coords="7,260.43,187.04,48.67,8.55" target="#b22">(Beck 1980)</ref>.</p><p>By the 1970s, African-Americans had the highest unionization rates of any racial or ethnic group <ref type="bibr" coords="7,181.56,210.95,108.04,8.55">(Lichtenstein 2002, p. 82;</ref><ref type="bibr" coords="7,292.84,210.95,83.75,8.55;7,65.75,222.90,6.83,8.55">Frymer 2008, chap. 1)</ref>. These rapidly rising organization rates may stem from more than blacks' overrepresentation in those industries in which unions had found great success: the legacy of discrimination and continuing impediments to upward mobility concentrated blacks in nonsupervisory, nonmanagerial occupations eligible for union organizing <ref type="bibr" coords="7,242.93,270.72,52.14,8.55" target="#b65">(Smith 1999)</ref>. Thus high unionization rates for blacks may result from their location in both the industries and occupations easiest to organize. If these high rates of organization stem largely from blacks' labor market location, then controlling for industry, occupation, and other relevant positional variables should result in odds of unionization similar to those for whites. Such a finding would buttress the labor market position theory of unionization.</p><p>African-Americans' high rates of unionization may result from more than where they are situated in the labor market. Unions, on average, offer higher pay and better benefits than otherwise similar nonunion jobs <ref type="bibr" coords="7,65.75,390.27,117.38,8.55" target="#b34">(Freeman and Medoff 1984)</ref>. Unions may also protect against inequitable treatment by bargaining for more standardized and transparent pay and promotion policies as well as clearly delineated procedures to handle shop floor grievances <ref type="bibr" coords="7,138.30,426.14,76.29,8.55" target="#b54">(Lichtenstein 2002</ref>). Yet for much of the 20th century, organized labor hardly provided a refuge from racism. Discriminatory practices among unions ranged across locals and over time. In the earlier decades, with few exceptions, AFL affiliates varied only "in the degree and forms of implementation of extreme racist practices" <ref type="bibr" coords="7,309.75,473.96,66.91,8.55;7,65.75,485.91,14.33,8.55">(Goldfield 1993, p. 5</ref>). Increasing competition from CIO unions at midcentury would temper these practices in some locals, but integration of many craft industries remained decades away. The CIO's record, especially during the 1930s and 1940s, was less overtly racist, especially among locals with leftist leadership <ref type="bibr" coords="7,111.48,533.73,169.44,8.55">(Stepan-Norris and Zeitlin 2003, chap. 2)</ref>. Successful organizing drives in mining, steel, and auto industries were notable for the unions' deliberately inclusive strategies <ref type="bibr" coords="7,202.85,557.64,143.29,8.55" target="#b28">(Brueggemann and Boswell 1998)</ref>.</p><p>But even the most progressive unions "engaged in a variety of discrim-inatory practices" <ref type="bibr" coords="8,145.42,67.49,77.54,8.55">(Hill 1996, p. 199)</ref>. It was only in the late 1960s and early 1970s that many unions began to integrate and end discriminatory practices. The Civil Rights movement played a key role in effecting this change. Legal challenges and the mounting financial strain of lawsuits forced many unions to adopt more inclusive policies <ref type="bibr" coords="8,293.51,115.71,58.79,8.55" target="#b36">(Frymer 2008)</ref>. The relationships between the movement and organized labor were not entirely adversarial, however. As <ref type="bibr" coords="8,176.63,139.82,157.17,8.55">Isaac and Christiansen (2002, p. 724</ref>) recount, "Major civil rights social movement organizations . . . were influenced by, and in turn, influenced, the industrial union movement." This mutual influence helped integrate organized labor's leadership by the early 1970s. And as unions began to diversify, many African-American workers saw them as potential protection against economic inequity <ref type="bibr" coords="8,302.13,200.09,74.48,8.55;8,65.75,212.15,16.14,8.55">(Minchin 1999, p. 243)</ref>. <ref type="bibr" coords="8,89.36,212.15,118.62,8.55">As Lichtenstein (2002, p. 83</ref>) recounts, "To African-Americans . <ref type="bibr" coords="8,366.68,212.15,2.49,8.55">.</ref> . long subject to the capricious exercise of an ethnically coded set of discriminations, the very bureaucratization of labor relations inherent in mass unionization had an impact that was liberating in the world of daily work life."</p><p>The "liberating" impact of unionized work likely speaks more to what African-Americans faced in nonunion settings than to the racially progressive policies of many unions. Nevertheless, this historical evidence suggests that African-American overrepresentation in organized labor is not simply due to their concentration in labor market sectors easy to organize. If African-American workers seek union jobs in part to escape discriminatory employers in the nonunion sector, then controlling for their labor market location should still result in higher rates of organization than among whites. In models that control for labor market location and other common predictors of unionization, we interpret comparatively high unionization rates among African-Americans as supporting the protectionist theory of labor organization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>BLACK-WHITE WAGE INEQUALITY IN THE MODERN UNITED STATES</head><p>Deunionization has likely hit the economic fortunes of African-Americans especially hard. And deunionization has likely contributed to contemporary patterns of racial wage inequality, given blacks' disproportionate involvement in a labor market institution suffering from severe decline. How union decline has affected racial wage inequality depends, in part, on why African-Americans' unionization rates are disproportionately high-an issue that constitutes the first component of our empirical investigation. It also depends on broader trends in racial wage inequality. <ref type="figure" coords="8,65.75,569.59,37.09,8.55" target="#fig_2">Figure 3</ref> displays private-sector weekly wage gaps for black and white  <ref type="bibr" coords="9,205.22,386.83,71.77,6.84">1980, 1982, and 1994</ref> are unavailable: we estimate wages for the missing years by averaging the prior and subsequent year's wages. We restrict the sample to nonimputed earners and trim high and low outliers. Estimates are adjusted using appropriate CPS weights. See the data and methods section and the data appendix for further details.</p><p>workers between 1973 and 2007. As shown, black-white wage inequality rose among both men and women in recent decades. The proportional rise in female racial wage inequality was steeper, however, given the lower base rates at the beginning of our series. In the discussion that follows, we assess current explanations for these trends and hypothesize how declines in union memberships may have contributed to them.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Women</head><p>As shown in figure 3, after almost reaching parity by 1980, weekly wage inequality between black and white women in the private sector more than tripled during the 1980s and 1990s (see also <ref type="bibr" coords="10,279.22,67.49,97.40,8.55;10,65.75,79.45,20.00,8.55">Pettit and Ewert 2009, fig. 1</ref>). By the early 1980s, mean wages for white females in the private sector were only 5 percentage points higher than African-American women's wages, down from 12 points in the early 1970s. During the subsequent decades, white women's wage advantage grew dramatically, leveling off at around 17 percentage points by the late 1990s, approximately where it stands today. As <ref type="bibr" coords="10,202.16,139.22,128.26,8.55">Bound and Dresser (1999, p. 61</ref>) conclude, "The news for African-American women, once heralded as an equal opportunity success story for their near wage parity with white women, is not good." One possible explanation for the level of and growth in female wage gaps is differences in productivity-enhancing characteristics, such as education and experience levels <ref type="bibr" coords="10,192.65,210.95,92.90,8.55">. Neal (2004, table 4)</ref>, however, finds that by 1990, large African-American wage deficits among women exist within all educational categories and are greatest among females with a high school diploma or less. Adding controls for average levels of education, age, part-time employment, and marital status reduces the magnitude of black-white wage inequality, but a sizable portion of the gap is due to racial differences in returns to these variables along with unexplained variance <ref type="bibr" coords="10,105.01,294.63,97.80,8.55" target="#b62">(Pettit and Ewert 2009)</ref>. This growth in returns to unobservable characteristics is echoed in <ref type="bibr" coords="10,178.45,306.59,112.91,8.55" target="#b30">Card and Lemieux's (1994)</ref> earlier investigation of black-white wage differentials, a finding the authors attribute to unobserved skill differences between black and white workers.</p><p>None of the studies mentioned above include union membership in their models. The increase in unexplained variance may be due, in part, to the decline in wage-setting institutions such as unions. Studies of female wage inequality that include measures of unionization find that deunionization has significant effects on black-white wage inequality <ref type="bibr" coords="10,342.40,390.27,34.28,8.55;10,65.75,402.23,22.41,8.55" target="#b57">(McCall 2001;</ref><ref type="bibr" coords="10,90.65,402.23,105.28,8.55" target="#b26">Bound and Dresser 1999)</ref>. McCall investigates race gaps in earnings at the metropolitan statistical area level using 1989 and 1990 data and finds that high levels of unionization-her measure combines private and public membership rates-lower intragender wage inequality among men and women. Bound and Dresser utilize CPS microdata from 1973 to 1991 and investigate deunionizations' impact on earnings inequality among young women only. Using a measure of union status that combines private-sector membership, public-sector membership, and working in the public sector, their analyses reveal that deunionization and shrinking government sector employment account for about 10% of the growth of racial wage gaps in the 1980s and fully a fifth of the growth in earnings disparities in the Midwest (p. 77). As the authors conclude, deindustrialization and the concomitant declining fortune of the labor movement "are not only the problems of male workers" (p. 89).</p><p>What these studies fail to account for are the dramatic differences in black-white private-versus public-sector unionization rates among females and the implications of sectoral union decline on wage inequality. They also assume that unions benefit black and white unionists similarly, despite theories of African-Americans and the labor movement that imply otherwise. If black females' overrepresentation in private-sector unions primarily stems from their concentration in well-organized labor market positions, then accounting for position will result in unionization probabilities similar to those of whites. Similar unionization probabilities suggest that deunionization does not contribute to private-sector black-white wage disparities directly. A protectionist hypothesis, by contrast, suggests that black females' overrepresentation in unions derives from the protection against discrimination unions offer minority workers, or at least from the perception thereof among African-Americans. Under this scenario, accounting for labor market position should still result in disproportionately high unionization rates for African-Americans. One implication of protectionist theory is that unions deliver greater relative wage rewards to minority members than to whites, who do not face comparable discriminatory treatment in nonunion workplaces. To the extent that the race-based inequities blacks face in nonunion private-sector jobs dampen their wages, the relative benefits of unionization should be higher for African-American workers, through both the wage benefits unions provide and the lower wages of blacks in nonunion sectors relative to nonunion <ref type="bibr" coords="11,65.75,330.50,30.17,8.55;11,95.89,329.52,2.99,4.70">whites. 4</ref> Union decline, then, may widen racial wage disparities among women in two separate ways: through black females' overrepresentation in unions and through the protectionist effect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Men</head><p>Weekly wage disparities between black and white private-sector men have remained large throughout the years covered by our data. During the 1980s, male racial wage inequality ticked upward, leveling off at approximately 35 percentage points by the early 1990s, where it remains today. Explanations for these persistent disparities tend to focus on African-American males' overrepresentation in the highly industrialized, core manufacturing cities of the Midwest and Northeast. Deindustriali-4 For example, assume that worker A is African-American, is nonunion, and takes home $200 per week. An otherwise similar white employee (worker B) at the same firm makes $210 per week, the differential attributable to discrimination. Now say that a union successfully organizes their plant or the two workers transfer to a neighboring plant that is organized. Both workers see their wages increase to $250 per week. While the wage rate is the same, the relative benefit of unionization is higher for the black worker as the standardized and transparent pay scales-as a result of collective bargaining-eliminate the discriminatory element of the wage.</p><p>zation hit these urban areas especially hard, with the transformation to a postindustrial economy creating new jobs that former factory workers often lacked the skills to perform. Those jobs that they could perform were often located well beyond the city limits where African-Americans lived <ref type="bibr" coords="12,90.01,115.71,58.13,8.55" target="#b67">(Wilson 1987;</ref><ref type="bibr" coords="12,151.39,115.71,113.57,8.55" target="#b27">Bound and Freeman 1992)</ref>. Many of these manufacturing jobs were unionized, and past research has argued for the central importance of organized labor in supporting black male wages. In her analysis of race and ethnic wage inequality in metropolitan labor markets, <ref type="bibr" coords="12,65.75,163.93,90.57,8.55">McCall (2001, p. 536)</ref> concludes that "For black men in particular, unionization is the strongest source of high relative wages, even after considering a wide range of other labor market characteristics." <ref type="bibr" coords="12,288.23,188.04,88.37,8.55;12,65.75,200.09,77.48,8.55">Bound and Freeman (1992, pp. 216-17)</ref>, however, suggest that racial wage gaps (as opposed to levels) among men are less tied to deunionization than often assumed. In their investigation into the sources of growing wage inequality among young men, they find that union decline explains only about 5% of the overall trend, although deunionization's contributions are greater among young men with low education levels and among young men in the Midwest.</p><p>The lack of stark differences in private-sector unionization rates between black and white men suggests a limited role for deunionization in explaining contemporary patterns of male racial wage inequality. Moreover, recent years of union decline occurred alongside relative stability in black-white wage gaps. As with women, union decline's potential effect on racial wage disparities will depend on what theory explains blackwhite union differentials and on whether the union effect on wages differs between blacks and whites. If the protectionist theory predominates and actually offers black men protection in the form of comparatively higher wage gains as a result of unionization, then deunionization may have widened black-white wage gaps more than the small racial differences in unionization rates would suggest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AND METHODS</head><p>The CPS is a monthly survey of approximately 60,000 households, and it is commonly used to investigate economic issues because of its large sample sizes and comprehensive set of labor force variables (we provide further details of the structure of the CPS and our use of various CPS series in the data appendix). Our empirical investigation has three parts, each relying on various CPS data sets. We begin with an examination of black-white private-sector union differentials by testing theories of organized labor and African-Americans. We model two outcomes: the odds of union membership between 1973 and 2007 and the odds of union attachment between 1983 and 2007. For all years prior to 1982, we use the CPS-May series; for all subsequent years, we utilize the CPS-MORG data <ref type="bibr" coords="13,88.21,91.40,17.98,8.55;13,106.15,90.42,2.99,4.70">sets. 5</ref> All analyses are limited to private-sector workers ages 16-64 with positive, nonimputed wage information. <ref type="bibr" coords="13,260.52,102.37,2.99,4.70">6</ref> The cross-sectional membership model measures the likelihood of belonging to a union in a given survey year. Another strategy to test theories of unionization is to track individuals' labor union exits and entries over time, revealing dynamics uncaptured by static snapshots of the union and nonunion populations. The CPS structure allows us to follow a subset of respondents from one survey year to the next, resulting in a set of minipanels with information on whether the respondent gained, lost, or maintained union membership over a one-year period. We combine those respondents who join a union over the panel duration with those who remain in a union into a "union attached" category. The unattached to a union category combines workers not in a union during the panel with those who have left a union. These models make use of four possible unionization outcomes and focus on individual-level change, providing a robustness check on whether the membership results hold up to this alternative specification. We interpret high relative membership and attachment odds for African-Americans in models controlling for labor market position variables as consistent with the protectionist theory of unionization. By contrast, similar union membership and attachment probabilities between blacks and whites support the positional hypothesis. The results of this investigation are presented in table 2 below.</p><p>Both models have dichotomous outcome variables-whether the respondent belongs to a union in the membership model and whether the respondent joins or remains in a union in the attachment model-so we fit logistic regression models for these analyses (we elaborate on model specifications in the data appendix). Both models control for standard positional variables, along with those human capital and demographic characteristics found to influence union membership. Two key positional characteristics are industry and occupation: union penetration varies dramatically along both industrial and occupational lines. We include in our models a set of four occupational dummies and an expanded set of 16 industry dummies, outlined along with all other control variables in table <ref type="bibr" coords="13,65.75,501.57,2.54,3.93">5</ref> Starting in 1983, the larger CPS merged outgoing rotation group files (CPS-MORG) began including items on union membership. For our models of union attachment, we utilize the panel structure of the CPS-MORG files; see the data appendix for more <ref type="bibr" coords="13,65.75,530.75,25.54,7.27;13,65.75,541.42,2.54,3.93">details. 6</ref> Including imputed earners in union investigations biases union wage effects downward <ref type="bibr" coords="13,87.71,551.67,47.75,7.27" target="#b41">(Hirsch 2004)</ref>. To maintain consistent samples across our various analyses, we drop outliers and imputed earners from our union wage premium and unionization probability models. <ref type="bibr" coords="14,65.75,67.49,14.66,8.55;14,80.40,66.51,2.99,4.70">A5. 7</ref> Research has found that African-Americans are overrepresented in peripheral economic positions characterized by nonstandard work relationships, such as part-time employment <ref type="bibr" coords="14,240.68,91.40,135.91,8.55;14,65.75,103.36,20.96,8.55" target="#b48">(Kalleberg, Reskin, and Hudson 2000)</ref>. Unionized employment, however, tends to be steadier, full-time work. Our models include indicators of hours worked per week to control for possible race differences in full-time and part-time employment. We also include a set of controls to capture the effects of geographical factors that pattern unionization in the United States, such as the historically depressed unionization rates of the South. Both models include metropolitan status dummies, and the membership model includes state-grouping fixed effects. 8 In our model of union attachment, we include broader region effects given the smaller sample size of the CPS-MORG minipanel data set. Other research has highlighted the influence-or lack thereofof demographic and human capital variables on unionization probabilities, precluding the need for justification here <ref type="bibr" coords="14,259.30,234.86,117.30,8.55" target="#b34">(Freeman and Medoff 1984;</ref><ref type="bibr" coords="14,65.75,246.81,130.15,8.55" target="#b64">Rosenfeld and Kleykamp 2009)</ref>. Demographic and human capital controls in both models include a set of four education dummies, potential experience, potential experience 2 , and marital status. <ref type="bibr" coords="14,284.28,269.74,2.99,4.70">9</ref> To control for timevarying characteristics that affect union membership trends, the two models presented in table 2 below include year fixed effects. <ref type="bibr" coords="14,307.09,293.65,5.98,4.70">10</ref> The results from our union membership and union attachment models answer why African-Americans are overrepresented in private-sector unions. In the second stage of our investigation we seek to answer how this overrepresentation affects black-white wage inequality. We model weekly wages and allow for unions' impact on wages to vary by race. <ref type="bibr" coords="14,370.60,353.43,5.98,4.70">11</ref> We estimate these race-specific union wage premiums in two main ways: 7 Results are robust to the inclusion of an expanded set of 13 occupation controls on a subsample of our data in which we are able to maintain consistent occupation categories across time. We present these results in table <ref type="bibr" coords="14,272.14,411.20,12.42,7.27;14,65.75,421.87,2.54,3.93">A2. 8</ref> Prior to 1977 the CPS-May series lack a full set of state measures, identifying only 12 states and the District of Columbia along with 10 multistate groupings. To maintain consistent geographic covariates across time, we use this set of 23 state and stategrouping dummies across all years. Models run on a truncated sample that includes a full slate of state identifiers reveal substantively similar findings and are available on request. <ref type="bibr" coords="14,65.75,480.65,2.54,3.93">9</ref> The CPS lacks an item capturing firm tenure, so we follow standard analyses of unionization using the CPS and define potential experience as age minus years of education minus 6, approximating the potential time spent out of school. <ref type="bibr" coords="14,65.75,511.04,5.08,3.93">10</ref> As a result, the estimates we present obscure time trends in unionization odds among blacks and whites. Models run on individual survey years reveal no significant temporal patterns. <ref type="bibr" coords="14,65.75,541.42,5.08,3.93">11</ref> We prefer weekly wages over hourly wages because of changes in the hours worked per week question in the CPS. (The hours worked per week variable is used to construct hourly wages for nonhourly workers.) As a robustness check, we estimated union wage premiums using hourly wages and present these results in table <ref type="bibr" coords="14,302.22,570.60,12.46,7.27">A1.</ref> the first compares union members with otherwise similar nonmembers using cross-sectional CPS data (recent examples of this estimation approach include <ref type="bibr" coords="15,132.66,92.00,138.72,8.55" target="#b23">Blanchflower and Bryson [2004]</ref> and <ref type="bibr" coords="15,293.87,92.00,54.90,8.55" target="#b41">Hirsch [2004]</ref>). The second provides a robustness check on the cross-sectional estimates by isolating the wage effect of unions for those individuals who change union status over a one-year period, again capitalizing on the CPS's panel structure (for intraindividual models of unionization and wages using the CPS, see <ref type="bibr" coords="15,81.36,153.27,131.54,8.55" target="#b43">Hirsch and Schumacher [1998]</ref> and <ref type="bibr" coords="15,234.68,153.27,137.95,8.55" target="#b60">Neumark and Kawaguchi [2001]</ref>; for a critique of this procedure, see <ref type="bibr" coords="15,222.65,165.52,64.82,8.55" target="#b33">Freeman [1984]</ref>). The results of our wage premium analyses are presented in table 3 below.</p><p>All of our wage models include traditional demographic, human capital, and labor market characteristics found to influence wages, as well as year fixed effects and geographical controls (controls are presented in detail in table A5). Similarly to the union membership model, the cross-sectional wage premium model uses CPS-May and CPS-MORG data and covers the years <ref type="bibr" coords="15,106.25,251.30,47.52,8.55;15,153.77,250.32,5.98,4.70">1973-2007. 12</ref> Similarly to the union attachment model, the minipanel estimates are restricted to the CPS-MORG series from 1983 to 2007. The premium estimates of the cross-sectional model will be biased upward if union employers select on unmeasured skills. Our minipanel estimates account for unmeasured skill differences that may be associated with both being in a union and having high wages. These unobserved time-invariant individual characteristics are averaged out in the fixed-effect analyses that regress deviations from person-specific mean wages on deviations in union status. The premium estimates of the minipanel models will be biased downward, however, if measurement error on the union membership variable is large. Following Hirsch and Schumacher (2004, table 1), we attempt to minimize noise on the union item through a sample restriction: we limit the sample to workers who change industry or occupation in the one-year period. This strategy pinpoints workers who switch <ref type="bibr" coords="15,322.55,410.59,20.20,8.55;15,342.71,409.62,5.98,4.70">jobs. 13</ref> Given that the number of workers in any given year who gain or lose union status through decertification or an organizing campaign is quite small, changes in union status without changes in other job characteristics such as industry or occupation may result from measurement error. <ref type="bibr" coords="16,334.44,78.46,5.98,4.70">14</ref> The results from our cross-sectional and minipanel premium models provide two crucial pieces of information: first, they reveal updated estimates of the union wage premium, relevant to any investigation of union decline's effect on interracial wage inequality. Second, in contrast to prior research on the topic, we consider whether the union wage premium varies by race by including race#union interaction terms. If unions offer protection against inequitable treatment for African-Americans in the private sector, we expect the relative wage premium to be higher for blacks than for whites.</p><p>We close the empirical investigation by measuring the impact of deunionization on racial pay disparities among women and men. We use the cross-sectional wage premium model from table 3 for the construction of counterfactual estimates of wages: first we fix black and white unionization rates at their 1979 levels for women (the highest in the series), allowing the unionization effect to vary by race, and predict annual wages. The fixed unionization model allows all other covariates to vary as they do in the data. Next, we compare these results to model-predicted wages in which unionization declines from 1979 forward as indicated in the data. We replicate these counterfactual estimates for men using 1973 unionization rates (the highest male unionization rates in our series). We then calculate the reduction in racial wage disparities for both sexes had no union decline occurred and present these series in figure 4 below. Should unions offer greater relative wage protection for blacks, then union decline will exacerbate racial wage inequality through two avenues: blacks' overrepresentation in organized labor and blacks' greater relative returns to union membership. If, however, our wage premium estimates reveal that unions benefit blacks no more than whites, then any effect of deunionization on black-white wage disparities will operate only through blacks' relatively high rates of membership.</p><p>In table 1, we present key descriptives from the various data sets we assemble for the analyses. Columns 1 and 2 report means for core variables from the cross-sectional data set. Among women, logged weekly wages are higher among whites than among African-Americans. Private-sector unionization rates in the cross-sectional data set average 7% across the </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Women</head><p>(1)</p><p>Men <ref type="formula" coords="17,269.23,184.89,8.42,6.84">(2)</ref> Women <ref type="formula" coords="17,311.82,184.89,8.42,6.84">(3)</ref> Men <ref type="formula" coords="17,354.41,184.89,8.42,6.84">(4)</ref> Log weekly wages (2007 dollars) . <ref type="bibr" coords="17,186.35,199.33,19.92,6.84;17,227.84,199.33,3.32,6.84">. . . . . . . 6</ref>.0 6.5 6.0 6.4 African-American . <ref type="bibr" coords="17,141.49,208.80,64.76,6.84">. . . . . . . . . . . . . . . . . . . . . .</ref> 6.0 6.2 6.0 6.1 White <ref type="bibr" coords="17,99.66,218.26,106.60,6.84">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</ref> 6.1 6.6 6.0 6.5 Percentage African-American . <ref type="bibr" coords="17,174.39,227.73,31.88,6.84;17,223.86,227.73,6.97,6.84">. . . . . . . . . . . 10</ref>  <ref type="bibr" coords="17,147.47,492.73,229.10,6.84;17,65.75,502.19,223.60,6.84">. . . . . . . . . . . . . . . . . . . . 1973-2007 1973-2007 1983-2007 1983-2007 N . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1,271,266 1,436,740</ref> 106,256 137,542</p><p>Note.-Weighted means are presented. Descriptives for all covariates used in the models but not shown here are available on request.</p><p>35-year period, and blacks' rate of unionization is nearly twice as high as whites'. African-Americans' disproportionate concentration in organized labor market positions is evidenced by a slightly higher rate of manufacturing workers compared to whites and a much lower percentage working as professionals or managers-occupations that are largely nonunion. Among men, logged weekly wage gaps between blacks and whites are greater than among women, as are men's unionization levels: 15% of the sample belongs to a labor union, and nearly one in five African-American men are organized. White workers' overrepresentation in nonunion labor market positions is indicated by the large percentage of white managers and professionals compared to African-Americans.</p><p>The subsequent columns provide information on the CPS-MORG minipanel data sets used to estimate union wage premiums. These samples are restricted to years in which we are able to match respondents across two time periods using the CPS-MORG files and are further restricted to individuals who report changing industry or occupation over their period in the panel. <ref type="bibr" coords="18,119.25,257.79,5.98,4.70">15</ref> The percentage union in columns 3 and 4 is lower than in the cross-sectional data given that relatively small fractions of the population will change union status in any single year. However, similarly to the cross-sectional data, the percentage of black women and men joining unions in a single year runs higher than the corresponding percentage for whites. Similarly to the cross-sectional data sets, African-Americans are concentrated in those industries and occupations in which unionization rates run comparatively high.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Modeling Union Membership and Transitions in Union Status</head><p>The results of the unionization and union attachment models are displayed in table 2. These empirical tests adjudicate between explanations for African-Americans' high unionization rates. The cross-sectional models estimate union membership odds across 1973-2007 for men and women separately; odds ratios marked with an asterisk are statistically significant at . As shown, key positional variables such as working in the P ! .05 transportation industry have strong effects on a worker's odds of belonging to a union: among women, transportation employees have 11 times the odds of belonging to a union compared to workers in agricultural, Years covered . <ref type="bibr" coords="20,173.98,377.01,6.84,136.48;20,173.98,308.23,6.84,35.96;20,173.98,228.54,6.84,35.97;20,173.98,148.84,6.84,35.97;20,173.98,69.14,6.84,35.97">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1973-2007 1973-2007 1983-2007 1983-2007</ref> Number of parameters <ref type="bibr" coords="20,183.45,382.98,6.84,103.61">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</ref>  forestry, and fishery industries. Among men, transportation workers have over seven times the odds of belonging to a union compared to their counterparts in agriculture, forestry, and fisheries. Occupation patterns odds of membership as well: female production/craft/repair workers have five times the odds of membership compared to professional and managerial workers, whereas males in those occupations have nearly seven times higher odds of unionization compared to professionals and managers. Yet despite these strong effects of labor market position, African-American women have over twice the odds of belonging to a union than similarly situated whites. While the African-American estimate is not as large among men, it is still positive and significant. Other covariates operate in the expected directions. <ref type="bibr" coords="21,213.15,200.21,5.98,4.70">16</ref> As the panel estimates reveal, disproportionately high African-American unionization probabilities are not restricted to membership odds. Our CPS-MORG minipanel models indicate that black females have nearly two and a half times the odds of joining or remaining in a union within a single year compared to their otherwise similar white peers. Black males have one and a half times the odds of being union "attached" compared to white males. Combined, these results provide strong evidence that blacks' overrepresentation in private-sector unions is not solely reducible to their concentration in highly unionized labor market positions. Instead, African-Americans' high odds of membership and of union attachment provide evidence for our protectionist hypothesis: African-American overrepresentation in unionized jobs stems in part from the protections unions may provide against employer discrimination. 17 16 Additional analyses (not shown; available on request) reveal that racial differences in membership probabilities are lower in the South and in states with right-to-work laws. This may indicate impediments to unionization for blacks in areas where racial threat is most pronounced, consistent with prior research (Jacobs and Dixon 2010). However, unionization rates are much lower in the South than in other regions and in right-to-work states compared to states lacking such laws. The reduced racial differences in unionization probabilities in the South and among states with a right-towork law, then, may simply reflect the fact that every group's unionization rate runs low in these areas. <ref type="bibr" coords="21,65.75,494.10,5.08,3.93">17</ref> Some research argues that unionized employers select on unmeasured skills when hiring from the union queue, thereby biasing estimations of union wage premiums and potentially biasing estimates of why certain workers are unionized in the first place <ref type="bibr" coords="21,88.10,523.27,59.30,7.27" target="#b63">(Robinson 1989;</ref><ref type="bibr" coords="21,150.89,523.27,39.73,7.27" target="#b29">Card 1996)</ref>. As a final robustness check on our unionization analysis, we utilize the National Longitudinal Study of Youth (NLSY), a panel data set that includes a measure of the Armed Forces Qualification Test (AFQT), commonly used as a proxy for productivity-enhancing skills. We model unionization controlling for AFQT and a host of other predictors and find results broadly comparable with our CPS analyses. See table A4 for details.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Modeling Union Wage Premiums Using Cross-Sectional and Longitudinal Data</head><p>The results from our models predicting membership and union attachment provide evidence consistent with a protectionist account of organized labor and African-Americans in modern America. What remains to be seen is whether unions actually offer African-Americans higher wage returns compared to white workers. <ref type="table" coords="22,194.54,143.21,33.22,8.55" target="#tab_4">Table 3</ref> presents the results of our union wage premium models. The cross-sectional coefficients derive from a regression estimating log weekly wages for private-sector female and male workers. Coefficients marked with an asterisk indicate statistically significant estimates. Among women, the union main effect of .22 indicates that white union members earn, on average, approximately 25% more than otherwise similar nonunion private-sector workers. <ref type="bibr" coords="22,310.78,213.95,5.98,4.70">18</ref> The African-American main effect translates to a 7% wage penalty for black females averaged out over the 1973-2007 period. We include a set of union#race interaction terms to capture dissimilar effects of unions on wages for blacks and whites (coefficients from the other union#race interaction terms are not shown; available on request). The interaction coefficient indicates that despite their high odds of union membership, the wage benefits unions provide African-American females are no higher than those provided to white females. Indeed, the negative interaction effect suggests that blacks' union wage premium is marginally lower than whites'. These basic patterns are replicated in the cross-sectional analysis of men. The union wage premium for whites is slightly higher at .25. The weekly wage deficit relative to whites is larger than the racial wage gap among women. The interaction coefficient indicates that African-American men benefit from unionization a bit more than white men, although the effect is substantively small. Combined, the interaction terms for both men and women in the cross-sectional models reveal that unionization benefits blacks and whites similarly, despite the implications of the protectionist hypothesis. <ref type="bibr" coords="22,155.41,429.14,5.98,4.70">19</ref> We return to this issue in the discussion and implications section. <ref type="bibr" coords="22,65.75,463.71,5.08,3.93">18</ref> Since the coefficient represents logged weekly wages, , or 25% higher wages <ref type="bibr" coords="22,265.15,463.71,6.35,3.93">.22</ref> e p 1.25 than the reference group. This premium estimate is broadly comparable with prior research that utilizes the CPS to establish cross-sectional union wage premiums. For example, <ref type="bibr" coords="22,100.76,492.89,139.04,7.27">Hirsch and Schumacher (2004, table 4</ref>) estimate an average premium of .20 between 1973 and 2001 for both men and women. <ref type="bibr" coords="22,257.62,502.35,119.01,7.27" target="#b23">Blanchflower and Bryson (2004,</ref> table 2) report a female union wage premium <ref type="bibr" coords="22,236.57,511.82,140.03,7.27">of .22 between 1974 and 1979 and .13</ref> between 1996 and 2001. Their models lack occupation controls, which leads to a depressed premium estimate. For a discussion about choice of controls when modeling union wage premiums, see <ref type="bibr" coords="22,165.85,540.21,92.25,7.27">Hirsch (2004, pp. 239-41)</ref>. <ref type="bibr" coords="22,65.75,550.88,5.08,3.93">19</ref> We also ran the cross-sectional premium model on individual survey years. Results indicate no clear time trend in the union#African-American interaction coefficient and are available on request. .08* <ref type="bibr" coords="24,88.80,86.40,6.84,14.17;24,88.80,71.43,6.84,12.18">(.04, .11)</ref> Manufacturing durables . <ref type="bibr" coords="24,98.27,344.93,6.84,127.52;24,98.27,318.40,6.84,13.95;24,98.27,301.44,6.84,14.17;24,98.27,286.47,6.84,12.18">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .25* (.24, .26)</ref> .25* <ref type="bibr" coords="24,98.27,229.76,6.84,14.17;24,98.27,214.79,6.84,12.18">(.24, .26)</ref> .05* <ref type="bibr" coords="24,98.27,158.08,6.84,14.17;24,98.27,143.11,6.84,12.18">(.01, .09)</ref> .08* <ref type="bibr" coords="24,98.27,86.40,6.84,14.17;24,98.27,71.44,6.84,12.18">(.05, .11)</ref> Finance, insurance and real estate . <ref type="bibr" coords="24,107.73,344.90,6.84,94.64;24,107.73,318.40,6.84,13.95;24,107.73,301.44,6.84,14.17;24,107.73,286.47,6.84,12.18">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .20* (.19, .21)</ref> .26* <ref type="bibr" coords="24,107.73,229.76,6.84,14.17;24,107.73,214.79,6.84,12.18">(.25, .27)</ref> .05* <ref type="bibr" coords="24,107.73,158.08,6.84,14.17;24,107.73,143.11,6.84,12.18">(.01, .10)</ref> .06* <ref type="bibr" coords="24,107.73,86.40,6.84,14.17;24,107.73,71.44,6.84,12.18">(.01, .10)</ref> Selected occupation controls (reference is professional/ managerial): Production/craft/repair . <ref type="bibr" coords="24,136.13,347.91,6.84,130.51">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</ref> . Service occupations . <ref type="bibr" coords="24,145.59,347.89,6.84,142.46">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</ref> . Weekly hours . <ref type="bibr" coords="24,155.06,344.90,6.84,172.35;24,155.06,318.41,6.84,13.95;24,155.06,301.44,6.84,14.17;24,155.06,286.47,6.84,12.18">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .04* (.04, .04)</ref> .03* <ref type="bibr" coords="24,155.06,229.76,6.84,14.17;24,155.06,214.79,6.84,12.18">(.03, .03)</ref> .04* <ref type="bibr" coords="24,155.06,158.08,6.84,14.17;24,155.06,143.12,6.84,12.18">(.04, .04)</ref> .03* <ref type="bibr" coords="24,155.06,86.41,6.84,14.17;24,155.06,71.44,6.84,12.18">(.03, .03)</ref> Region effects . <ref type="bibr" coords="24,164.52,344.93,6.84,172.35;24,164.52,300.81,6.84,10.62">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . No</ref> No Yes Yes State-grouping effects . <ref type="bibr" coords="24,173.98,347.90,6.84,142.46">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head><p>No No Metro effects . <ref type="bibr" coords="24,183.45,347.89,6.84,172.35">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head><p>No</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>No</head><p>Year effects . <ref type="bibr" coords="24,192.91,347.88,6.84,175.34">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes</head><p>Yes Yes Yes N . <ref type="bibr" coords="24,202.38,344.95,6.84,214.19;24,202.38,290.20,6.84,31.88;24,202.38,218.53,6.84,31.88;24,202.38,149.84,6.84,25.90">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1,271,266 1,436,740 105,256</ref> 137,542</p><p>Years covered . <ref type="bibr" coords="24,211.84,344.93,6.84,172.35;24,211.84,288.16,6.84,35.96;24,211.84,216.48,6.84,35.97;24,211.84,144.81,6.84,35.97;24,211.84,73.13,6.84,35.97">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1973-2007 1973-2007 1983-2007 1983-2007</ref> Number of parameters <ref type="bibr" coords="24,221.30,344.92,6.84,145.45;24,221.30,302.17,6.84,7.97">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 86</ref> 86 48 48 . <ref type="bibr" coords="24,230.77,353.91,6.84,202.24">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</ref>  We supplement the cross-sectional premium estimates with models measuring individual-level change in union status. These panel models capture the effects of changing to a union job on wages over the course of a oneyear period for a subset of our CPS-MORG respondents not initially in a union. The other coefficient estimates in these models indicate the wage effect of a change over the course of a year: for example, the service occupation dummy estimates the average wage loss for respondents who move into a service occupation and the average wage gain associated with a move from a service occupation to other types of work. Time-invariant covariates, such as race main effects, are not estimated in models with individual fixed effects. A coefficient is estimated for the union#African-American interaction term: while race is a time-invariant measure, the effect of joining a union is allowed to vary by race. In order to reduce measurement error in the union change estimates, we restrict our sample to those respondents who indicate an industry or occupation change.</p><p>The panel model for women estimates a union wage premium of .15 for whites (or a 16% wage premium), somewhat lower than our crosssectional estimate. The union#African-American interaction coefficient is negatively signed, although not statistically significant. The panel model for men also estimates a slightly lower union wage premium compared to the cross-sectional premium. And in contrast to the cross-sectional model, here we see a negative-and significant-union#African-American interaction term. While black men's absolute gains from unionization are substantial, their relative gains are not: among men who have changed industry or occupation, black men fare worse from their transition to a labor union compared to white men.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Estimating Deunionization's Contribution to Black-White Wage Disparities</head><p>The union wage premium estimates presented in table 3 indicate that deunionization's effect on the growth in black-white wage inequality operates through blacks' concentration in unions, and not through any added advantage African-Americans receive for membership. Nevertheless, table 2 reveals substantially higher unionization odds for African-Americans, pointing to the possibility that dramatic private-sector union decline helped drive apart black and white wages in the closing decades of the 20th century, especially among women. In <ref type="figure" coords="25,250.53,509.82,31.26,8.55" target="#fig_5">figure 4</ref>, we use the estimates generated from the cross-sectional premium model from table 3 to predict black-white wage disparities under two scenarios. First, we generate annual wage estimates for blacks and whites, allowing unionization to vary as it does in the data, and estimate the African-American wage penalty over time (our model-predicted wages). Second, we generate annual es- timates of black and white wages after fixing unionization at its 1979 race-specific levels for females and at its 1973 race-specific levels for males, and we estimate the black wage penalty under this alternative scenario (our counterfactual-predicted wages). <ref type="bibr" coords="26,224.40,484.43,5.98,4.70">20</ref> We present the overall percentage reduction in black-white wage inequality had unionization in the private sector remained at its highest levels, calculated by subtracting the two series and dividing by the counterfactual-predicted series. Inequality es-timates are highly sensitive to the inclusion of top earners in the sample, and with the exception of a few occupations, such as airline pilots, unionization rates among top earners are comparatively low, especially among men. <ref type="bibr" coords="27,86.47,102.37,5.98,4.70">21</ref> For these reasons, we replicate our counterfactual procedure for the bottom 95% of wage earners and also present the corresponding reduction in inequality for these truncated samples.</p><p>Among women, deunionization has contributed greatly to growing racial wage disparities. By 2007, compared to our model-predicted series, black-white weekly wage gaps would be 13% lower barring private-sector union declines from 1979 onward. Within the truncated sample of female earners, the corresponding reduction reaches 30% in recent years. For example, in 2007, white workers' wage advantage in our truncated sample was 6.8 percentage points; without union decline in the private sector, the difference would have been 5.3 points. Had 1979 unionization rates prevailed, overall inequality between black and white females would be approximately 28% lower than our model-predicted <ref type="bibr" coords="27,299.41,246.81,25.73,8.55;27,325.12,245.83,5.98,4.70">series. 22</ref> These inequality effects stem from the absolute gains unions provide African-American females: in 2007, barring any private-sector deunionization, weekly wages for blacks would be $15 higher. For whites, wage levels would increase by only $6 a week.</p><p>What about private-sector men? <ref type="figure" coords="27,214.09,306.59,35.34,8.55" target="#fig_5">Figure 4</ref> reveals what we hypothesized previously: since unionization rates do not differ dramatically between white and black men for most of the period covered in our analysis, declining union rolls do not reduce black-white wage inequality all that appreciably. The counterfactual line for all male workers indicates that by the end of the series, union decline has exacerbated black-white inequality by about 3%-4%. Estimates using the truncated sample reveal an effect roughly twice the size. What these male inequality trend lines obscure, however, is deunionization's impact on male wage levels. For black men in 2007, average weekly wages in our truncated sample would be approximately $49 higher had no union decline occurred. For full-time workers, that translates to an annual loss of income of over $2,500. White male workers also experience a similar weekly wage loss as a result of union decline, which blunts organized labor's impact on black-white wage gaps.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION AND IMPLICATIONS</head><p>The preceding analyses clarify contemporary relationships between organized labor and African-American workers and situate labor union decline within trends in and levels of black-white wage inequality. As table 2 reveals, black workers' overrepresentation in labor unions stems from more than their concentration in those pockets of the private sector amenable to organization. Despite the strength of the positional covariates, African-American women have over twice the odds of belonging to a union, and black men have one and a half times the odds of belonging to a union than white men. Panel estimates measuring union attachment reveal an even greater interrace differential for women: blacks have nearly two and a half times the odds of belonging to or joining a union compared to their white peers, and black men have one and a half times the odds of being union "attached" compared to white men. The CPS lacks information on why individuals enter particular jobs or how respondents feel about unions, precluding a purely causal interpretation of our findings. Public opinion research includes some of this information and finds that blacks' support of labor unions is higher than that of other groups (Freeman and Rogers 1999, p. 71). Historical work reveals a strong desire among many African-Americans for the bureaucratized, standardized routines of union employment <ref type="bibr" coords="28,190.32,319.54,81.05,8.55" target="#b54">(Lichtenstein 2002)</ref>. Viewed alongside this other research, we believe that the results of our unionization analyses provide further evidence that black workers seek shelter against discrimination in the unorganized labor market, disconfirming a purely positional account of African-Americans and labor unions.</p><p>The high unionization probabilities and rates of union attachment mark a dramatic historical reversal, especially for black female workers. During the late 19th and early 20th centuries, increases in low-skill immigration and the resulting competition for jobs among native and foreign workers often led to violence against African-Americans, given their subordinate position in the economy and their nearly universal exclusion from protective institutions such as labor unions <ref type="bibr" coords="28,237.30,456.62,49.00,8.55" target="#b61">(Olzak 1989</ref><ref type="bibr" coords="28,304.49,456.62,16.79,8.55">(Olzak , p. 1239</ref>. And while many unions explicitly or through more indirect routes barred black men during the first upsurge of organized labor in the United States, African-American men were at least eligible for employment in certain occupations sought after by immigrant and low-skill native white laborers. Whites effectively blocked African-American women from these occupations, consigning them largely to farming and domestic service <ref type="bibr" coords="28,304.27,531.94,53.71,8.55" target="#b37">(Glenn 1985)</ref>. At the dawn of World War II, over half of all employed black women worked in domestic service <ref type="bibr" coords="28,153.66,557.04,110.92,8.55">(Aldridge 1999, table 11.1</ref>). Passage of the Wagner Act rested on the exclusion of these two occupations from the law's reach, guaranteeing the continual subjugation of the female African-American workforce.</p><p>Continued racial and gender oppression thus doubly segregated black women, both from the employment niches offering any opportunity for economic advancement and from the key labor market institution situated between the employer and the employee. Rapid occupational ascent for African-American women followed in the 1960s and 1970s, stemming from the Civil Rights and women's movement and the resulting legal pressure on employers. Lawsuits and the growing threat thereof also helped open up labor unions to black women. The impact of the social movements of the 1960s and 1970s did not end there: they also sparked a resurgence of worker activism as "militancy moved from the streets to the shop floors" <ref type="bibr" coords="29,133.45,210.95,153.22,8.55">(Isaac and Christiansen 2002, p. 741)</ref>. While this influence was most pronounced among public-sector unions, the activism generated by the Civil Rights and women's movements helped to organize "marginalized low-wage segments of the private sector" that were disproportionately female and African-American <ref type="bibr" coords="29,239.44,258.77,137.21,8.55;29,65.75,270.72,49.21,8.55">(Isaac, McDonald, and Lukasik 2006, p. 53)</ref>. By the end of the 1970s, two in five black female privatesector workers in the Midwest and nearly one in four nationwide belonged to a labor union. After decades of struggle, African-American women joined African-American men in private-sector unions in unprecedented numbers.</p><p>But despite blacks' overrepresentation in organized labor, unions fail to provide them any additional wage benefits compared to white workers (see <ref type="table" coords="29,83.73,354.41,26.93,8.55" target="#tab_4">table 3</ref>). In our panel estimates, black males actually receive less from joining a union than white males. One implication of protectionist theory is that unions provide higher relative returns to blacks: discrimination reduces African-American wages relative to whites in the nonunion sector, driving African-Americans into union jobs. The protection of union employment should then lead to higher relative wage benefits for blacks compared with whites, who face no comparable discrimination in nonunion settings. <ref type="bibr" coords="29,127.02,437.11,5.98,4.70">23</ref> What accounts for this absence of an added benefit? Lack of direct measures of discrimination or other firm-level processes prevents definite conclusions, but one possible explanation knits together research detailing the organizational diversity within the American labor movement with the robust sociological literature on occupational and job devaluation. Historical studies document tremendous differences in orga-nized labor's treatment of minorities and women both between AFL-and CIO-affiliated unions and between the more progressive CIO affiliates themselves <ref type="bibr" coords="30,115.85,91.80,145.57,8.55" target="#b28">(Brueggemann and Boswell 1998;</ref><ref type="bibr" coords="30,265.05,91.80,111.59,8.55;30,65.75,103.95,20.98,8.55" target="#b66">Stepan-Norris and Zeitlin 2003)</ref>. Case studies of developments in more recent periods highlight the importance of organizational legacies in shaping locals' bargaining strategies and capacities <ref type="bibr" coords="30,175.04,128.46,53.65,8.55" target="#b55">(Lopez 2004)</ref>. Stratification research finds that occupations or jobs with a heavy minority or female presence face devaluation (recent applications include <ref type="bibr" coords="30,225.17,152.97,108.03,8.55" target="#b39">Grodsky and Pager [2001]</ref> and Huffman and <ref type="bibr" coords="30,107.57,165.22,54.13,8.55" target="#b44">Cohen [2004]</ref>). The diverse legacies and present-day capacities of local labor unions yield a set of labor market organizations highly varied in terms of their demographic composition and capacities for bargaining. Discriminatory employers may devalue those unions with diverse memberships, or local unions with a large minority presence may lack the organizational capacities to bargain effectively with employers, leading to lower wage gains. It is also unlikely that all unions have shed their discriminatory pasts. Racialized seniority systems and promotion and assignment policies could decrease the wage benefits of unionization for minority members.</p><p>However, unions do more than offer a pay boost to their members: they regulate grievance procedures, standardize hiring and firing processes, and bargain for benefit packages that often exceed what is offered in competing nonunion firms. Some of these actions may mitigate racial disparities (and therefore attract black workers) and are not wage related. The CPS data sets are unsuited for testing many of these other potential union-related benefits, but future research should investigate whether blacks benefit disproportionately from the nonwage benefits unions often provide.</p><p>These lower than expected wage benefits still translate into large weekly wage gains for black unionists versus their unorganized counterparts. <ref type="table" coords="30,65.75,422.55,32.87,8.55" target="#tab_4">Table 3</ref> reveals that union membership boosts weekly wages for black workers nearly 25% for women and over 28% for men. Joining a union also results in substantial gains. Given that African-American unionists receive no additional wage premiums compared to whites, any direct effect of deunionization on black-white wage disparities operates through blacks' disproportionately high rates of organization. As shown in figure 4, these high rates of unionization contributed significantly to black-white wage inequality among women over the past few decades. As a result of union decline, black-white wage gaps run 1-2 percentage points higher than they would if unions remained at their late 1970s levels. In recent years, the racial gap in weekly earnings for the bottom 95% of wage earners would be nearly 30% lower than our model-predicted wage series had private-sector unions remained strong. Among men, given much larger black-white wage disparities, deunionization's contribution to inequality is smaller, although it lowered wage levels significantly. <ref type="bibr" coords="31,342.66,78.46,5.98,4.70">24</ref> Deunionization's contribution to black-white wage inequality reveals the importance of organized labor to understanding stratification outcomes among private-sector female workers and wage levels among private-sector male workers. Our focus is on the direct wage consequences of union decline on racial wage disparities. But shrinking memberships may influence trends in and levels of racial wage inequality through other pathways. Research has found that black women trail white women in labor force experience, as their work careers are often punctuated by bouts of time out of the labor force, especially in their early years <ref type="bibr" coords="31,333.43,187.04,43.18,8.55;31,65.75,199.00,68.29,8.55" target="#b21">(Alon and Haberfeld 2007)</ref>. This phenomenon is especially prevalent among noncollege black females and contributes to black wage deficits (pp. 389-90). Conventional labor force surveys such as the CPS lack work experience measures. But unionized employment may be more stable than nonunion jobs, given reduced employer discretion in firing decisions along with the job loyalty gained through high wages and robust benefit packages <ref type="bibr" coords="31,351.25,258.77,21.20,8.55;31,65.75,270.72,130.94,8.55">(Freeman and Medoff 1984, chap. 6</ref>). Thus a vanishing union presence in the private sector may affect black-white wage disparities indirectly, through the rapid disappearance of stable jobs African-Americans once relied on for employment. Combined with the direct impact on wage levels that we uncover, this possible indirect influence further emphasizes our contention that the costs of private-sector deunionization are borne by more than blue-collar males.</p><p>Past upsurges in U.S. unionization propelled many minority populations' economic ascent into the middle class. African-American men flooded into the labor movement as existing racial barriers against the entrance of nonwhite men began crumbling and enjoyed a few decades of steady membership gains prior to organized labor's decline. African-American women, by contrast, faced double exclusion during the institutionalization of organized labor into the American economy and polity. Decades later, as African-American women fought their way into a wide array of private-sector occupations, they joined unions at rates unprecedented among women. Yet their rates peaked just as private-sector unionization began its dramatic descent; their entrance resulted in the "diversification of an increasingly marginal institution" <ref type="bibr" coords="31,284.11,485.91,88.73,8.55">(Frymer 2008, p. 17)</ref>. Moreover, the wage benefits from belonging to a union among black women and men were no higher than among other groups. Thus African-Americans were never able to consolidate the economic advantages gained through a durable presence in a strong labor movement, further disadvantaging populations long accustomed to economic marginality.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA APPENDIX</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Further Details on Data Sources and Methodologies</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Sources and Sample Construction</head><p>The Current Population Survey is a monthly survey of approximately 60,000 households conducted by the Bureau of Labor Statistics. The sample reflects the civilian, noninstitutional population of the United States. CPS microdata contain a wealth of measures related to labor market outcomes and demographic indicators, making them an invaluable resource for research on the labor force. Although the CPS is a monthly survey, it does not survey completely new households each month. Rather, the sample is subdivided into eight "rotation groups." Each rotation group is interviewed for four consecutive months, is dropped out of the observation sample for eight months, and then returns to the survey for an additional four consecutive months. Thus, surveyed households are measured for eight months in total: four consecutive months in one year followed by four consecutive months one year later. Households in the fourth and eighth month of observation (the CPS refers to this as "month in sample") are designated "outgoing rotation groups" because they are either leaving the sample for the eight-month hiatus or leaving the sample permanently. The CPS-MORG data (merged outgoing rotation groups) comprise those CPS observations in the fourth or eighth month in the observation sample. We utilize the CPS-MORG data for both the crosssectional and panel analyses. Because union measures are not introduced into the CPS-MORG surveys until 1983, we supplement the MORG data with the smaller CPS-May series for our cross-sectional estimates.</p><p>For the cross-sectional estimates of unionization and union wage premiums, we utilize CPS-May files from 1973 to 1981 and CPS-MORG files from 1983 to 2007, with the following exceptions: we exclude the 1980 file because the earnings allocation flag is missing in the UNICON data set, the source we rely on for our CPS files. No union questions are included in the 1982 CPS-May file, so we cannot use 1982 data. In 1994 the allocated earners are not identified, so we drop 1994 data from our files. For the time-series figures we present, we generate estimates for those missing years of data by averaging rates from the preceding and following year.</p><p>For the minipanel analyses presented in tables 2 and 3, we capitalize on the design of the CPS survey whereby the same households are interviewed at time t and again at time year. Matching respondents t ϩ 1 across time in the CPS is not straightforward since the CPS samples households, not individuals. As a consequence, if residents at a particular address move to a new location, they are dropped from the sample and replaced by the new occupants of the location. Matching respondents across time in the CPS involves identifying potential matches based on household identifiers (HHID, HHNUM, and LINENO are the key variables) and then further eliminating improbable matches based on sex, race, and age, which either should be invariant over the year (sex and race) or should vary in predictable ways in a single year (i.e., age). Note that not all years of the CPS-MORG data could be successfully matched: owing to revised geographic identifiers in 1985 and 1995, we could not match respondents in which 1985 and 1995 are time t or . Thus our t ϩ 1 CPS-MORG minipanel data exclude the years 1984-85 and 1993-95. Further details on the procedures for matching using the CPS can be found in <ref type="bibr" coords="33,105.81,258.77,120.51,8.55" target="#b56">Madrian and Lefgren (1999)</ref>.</p><p>We limit our samples to private-sector workers ages 16-64 who have nonzero wage information. All samples used for our analyses exclude imputed earners. We also exclude high and low outliers from our samples: following <ref type="bibr" coords="33,108.78,306.59,64.15,8.55" target="#b52">Lemieux (2006)</ref>, we drop those who report hourly earnings below $1 per hour or above $100 per hour in 1979 dollars. Top codes change across the CPS years. We again follow <ref type="bibr" coords="33,235.74,330.50,65.85,8.55" target="#b52">Lemieux (2006)</ref> and multiply the weekly wages of those with top-coded earnings by 1.4. As we discuss in the results section, wage estimates are sensitive to the treatment of high earners in our sample. For the counterfactual trends we provide in <ref type="figure" coords="33,352.34,366.36,24.36,8.55;33,65.75,378.32,3.73,8.55" target="#fig_5">figure  4</ref>, we supplement the estimates from the entire sample with ones limited to the bottom 95% of weekly wage earners.</p><p>We chose weekly wages over hourly because of greater discrepancies in the hours worked series over time, since information on hours worked per week is needed to calculate hourly wages for nonhourly workers. However, as robustness checks, we reran our cross-sectional model of the union wage premium using an hourly wage item; results of the key covariates are presented in table A1.</p><p>Given the primacy of occupations in research on racial wage inequality, our broad occupational categorization scheme may seem overly coarse. We must counterbalance this concern with major changes in CPS occupation codes over time, as well as research on the union wage premium that argues for either omitting occupation altogether <ref type="bibr" coords="33,297.41,521.78,79.26,8.55;33,65.75,533.73,57.21,8.55" target="#b23">(Blanchflower and Bryson 2004)</ref> or including only broad measures of occupations <ref type="bibr" coords="33,345.13,533.73,31.51,8.55;33,65.75,545.69,73.63,8.55">(Hirsch 2004, pp. 239-41)</ref>. As a robustness check, we construct a seamless set of expanded occupation categories for the subset of years in which occupation codes remain similar <ref type="bibr" coords="33,187.10,569.60,22.98,8.55">(1984)</ref><ref type="bibr" coords="33,210.07,569.60,4.60,8.55">(1985)</ref><ref type="bibr" coords="33,210.07,569.60,4.60,8.55">(1986)</ref><ref type="bibr" coords="33,210.07,569.60,4.60,8.55">(1987)</ref><ref type="bibr" coords="33,210.07,569.60,4.60,8.55">(1988)</ref><ref type="bibr" coords="33,210.07,569.60,4.60,8.55">(1989)</ref><ref type="bibr" coords="33,210.07,569.60,4.60,8.55">(1990)</ref><ref type="bibr" coords="33,210.07,569.60,4.60,8.55">(1991)</ref><ref type="bibr" coords="33,210.07,569.60,4.60,8.55">(1992)</ref><ref type="bibr" coords="33,210.07,569.60,4.60,8.55">(1993)</ref><ref type="bibr" coords="33,210.07,569.60,4.60,8.55">(1994)</ref><ref type="bibr" coords="33,210.07,569.60,4.60,8.55">(1995)</ref><ref type="bibr" coords="33,210.07,569.60,4.60,8.55">(1996)</ref><ref type="bibr" coords="33,210.07,569.60,4.60,8.55">(1997)</ref><ref type="bibr" coords="33,210.07,569.60,4.60,8.55">(1998)</ref><ref type="bibr" coords="33,210.07,569.60,4.60,8.55">(1999)</ref><ref type="bibr" coords="33,210.07,569.60,4.60,8.55">(2000)</ref><ref type="bibr" coords="33,210.07,569.60,4.60,8.55">(2001)</ref><ref type="bibr" coords="33,214.67,569.60,22.98,8.55">(2002)</ref> and estimate unionization prob- Union main effect . <ref type="bibr" coords="34,135.52,145.04,25.90,6.84;34,189.04,145.04,9.96,6.84;34,179.47,154.50,29.14,6.84">. . . . . . . . . .22 (.21, .22)</ref> .19 <ref type="bibr" coords="34,233.27,154.50,29.14,6.84">(.19, .20)</ref> .25 <ref type="bibr" coords="34,287.07,154.50,29.14,6.84">(.24, .25)</ref> .23 <ref type="bibr" coords="34,340.86,154.50,26.09,6.84">(.22, .23</ref> abilities and cross-sectional union wage premiums in models including this expanded set of 13 occupation dummies. Results are shown in table A2 and reveal findings substantively similar to those of our core models that utilize a broad set of four occupation controls.</p><p>As a check on our CPS panel estimations of union attachment, we model union status in the NLSY79. The NLSY79 is a panel data set of nearly 13,000 individuals ages 14-22 when they were first surveyed in 1979. The NLSY reinterviewed the sample annually until 1994 and then biennially from 1994 forward. The NLSY has been utilized by researchers for decades to study workforce dynamics, including union attachment <ref type="bibr" coords="34,65.75,386.79,146.14,8.55" target="#b25">(Booth, Budd, and Munday 2010)</ref>. The NLSY79, while limited for our purposes in key ways, 25 does include a control capturing AFQT scores, a proxy measure for time-invariant skills often used in econometric analyses, and information on the number of prior jobs held. It is plausible that if unionized employers select on unmeasured skills when hiring from the union queue, estimates of why certain workers are unionized in the first place may be biased. It is also plausible that our model of union "attachment" is potentially biased as a result of the greater employment volatility of African-Americans: black workers may join or leave union jobs because of a greater number of job changes, not necessarily because 25 Two shortcomings are paramount: the comparatively small samples prohibit us from estimating annual unionization probabilities and annual wage predictions. The lack of power also inhibits us from including state-grouping effects and other controls important for our analyses. Second, as a panel survey, the NLSY is nonrepresentative of the total labor force at any given point in time, meaning that we could not investigate, e.g., how unionization rates have varied by race over the past four decades.  <ref type="bibr" coords="35,132.77,187.05,40.60,5.98;35,201.29,187.05,8.72,5.98;35,192.97,195.02,25.50,5.98">. . . . . . . . . . . . . . .22 (.22, .23)</ref> .22 <ref type="bibr" coords="35,243.78,195.02,25.50,5.98">(.22, .23)</ref> .24 <ref type="bibr" coords="35,294.59,195.02,25.50,5.98">(.24, .25)</ref> .25 <ref type="bibr" coords="35,345.40,195.02,22.84,5.98">(.25, .26</ref> of a preference for unionized employment. The CPS contains no information on past jobs. The longer duration of the panel compared to our CPS panels also provides for a more comprehensive analysis of union transitions across an individual's working career.</p><p>Aside from the addition of the number of prior jobs variable and AFQT scores, we match the core set of controls we use to model unionization in the CPS. The model includes year dummies, industry and occupation measures, marital status, whether the individual lives in an urban or rural location, education, age, age 2 , and region. Because our primary variable of interest, race, is a fixed characteristic, we cannot include person-level fixed effects. Instead, we treat the NLSY as a time-series cross-sectional data set, including year dummies and correcting standard errors for the nonindependence of repeated observations on individuals. An alternate specification using a random-effects model (not shown) shows substantively similar results. As displayed in table A3, African-American women and men are significantly more likely to belong to a labor union in the NLSY compared with their white counterparts, further buttressing our contention that African-American unionization propensities exceed those of whites.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Main Model Specifications</head><p>Union membership and union joining.-For our investigation of union membership and of joining a union, we estimate logistic regressions. For  <ref type="bibr" coords="36,111.60,158.49,97.63,6.84;36,233.12,158.49,32.06,6.84">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.16 (.97</ref>, 1.39) 1.27* (1.08, 1.49) Other race . <ref type="bibr" coords="36,117.58,167.95,91.65,6.84;36,233.12,167.95,32.06,6.84">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.15 (.83</ref>, 1.60) 1.12 (.85, 1.49) Married . <ref type="bibr" coords="36,108.59,177.42,100.62,6.84;36,237.10,177.42,42.84,6.84">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .90* (.80, .99</ref>) 1.19* (1.08, 1.31) Age . <ref type="bibr" coords="36,93.68,186.88,115.56,6.84;36,233.12,186.88,32.06,6.84">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.04 (.93</ref>   <ref type="bibr" coords="36,102.63,234.20,106.60,6.84;36,237.10,234.20,42.84,6.84">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .32* (.23, .44</ref>  <ref type="bibr" coords="36,132.51,300.45,76.71,6.84;36,229.14,300.45,69.78,6.84">. . . . . . . . . . . . . . . . . . . . . . . . . . 22.33* (10.94, 45.55)</ref> 6.87* (4.87, 9.68) Manufacturing . <ref type="bibr" coords="36,132.51,309.92,76.71,6.84;36,233.12,309.92,58.46,6.84">. . . . . . . . . . . . . . . . . . . . . . . . . . 7.37* (3.71, 14.62</ref>  <ref type="bibr" coords="36,120.56,366.70,88.66,6.84">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</ref> Yes Yes Metro effects . <ref type="bibr" coords="36,117.60,376.17,91.65,6.84">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</ref> Yes Yes Year effects . <ref type="bibr" coords="36,114.62,385.63,94.64,6.84">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</ref> Yes Yes N (person-years) . <ref type="bibr" coords="36,129.53,395.09,79.70,6.84;36,253.05,395.09,21.92,6.84;36,336.73,395.09,21.92,6.84;36,65.75,404.56,143.48,6.84;36,246.02,404.56,15.98,6.84">. . . . . . . . . . . . . . . . . . . . . . . . . . . 48,827 53,606 Years covered . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1981</ref><ref type="bibr" coords="36,262.01,404.56,19.98,6.84" target="#b36">-2008</ref><ref type="bibr" coords="36,329.70,404.56,15.98,6.84">1981</ref><ref type="bibr" coords="36,345.69,404.56,19.98,6.84" target="#b36">-2008</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>R</head><p>. <ref type="bibr" coords="36,262.34,423.49,6.64,6.84">10</ref> .11</p><p>Note.-95% confidence intervals are in parentheses. Data come from the NLSY79 files, 1979-2008. Odds ratios from suppressed covariates are available on request. Standard errors are clustered by person identifier. Estimates are restricted to private-sector workers. See the data appendix for a description of the data construction.</p><p>* P ! .05.</p><p>the cross-sectional estimates presented in geographic, and socioeconomic covariates, including a year fixed effect; is residual individual-level variation; and b and g reflect matrices of i coefficient estimates.</p><p>The panel analysis presented in table 2 uses the minipanels constructed from the CPS-MORG data as described above. We combine those who remain in a union across the panel period (1, 1) with union joiners (0, 1) for our union "attached" category. Those who leave a union (1, 0) or remain nonunion (1, 1) across the panel constitute the reference category. All model covariates are measured at time . Our outcome variable of t Ϫ 1 interest is the binary measure of union attachment status at time t. For individual i at time t,</p><formula xml:id="formula_0" coords="37,111.93,204.82,218.43,24.09">p(union) it h p log p a ϩ R b ϩ X g ϩ , it itϪ1 itϪ1 it 1 Ϫ p(union) it</formula><p>where captures the respondent's race measured at time , R t Ϫ 1 itϪ1 is a set of demographic and socioeconomic covariates measured at X itϪ1 time , is residual individual-level variation, and b and g reflect t Ϫ 1 it matrices of coefficient estimates. Owing to space constraints, we omit descriptives for this full panel data set from table 1 but present them in table <ref type="bibr" coords="37,90.17,296.83,9.78,8.55">A4</ref>.</p><p>Wage returns to union membership and union joining.-For our models investigating the wage premium associated with being in a union presented in table 3, we estimate an ordinary least squares regression model. Our outcome variable of interest, , is logged weekly wages. For indi-</p><formula xml:id="formula_1" coords="37,65.75,345.14,242.88,38.79">Y i vidual i, Y p a ϩ R b ϩ U v ϩ (RU) ϩ X g ϩ , i i i i i i</formula><p>where captures the respondent's race; indicates being in a union; R U i i is the interaction of race#union; is a set of demographic, geo-(RU) X i i graphic, and socioeconomic covariates, including a year fixed effect; is i residual individual-level variation; and b, v, , and g reflect matrices of coefficient estimates.</p><p>For the minipanel analyses of the union wage premiums presented in table 3, we isolate the population of potential union joiners in the 1983-2006 period to estimate union wage premiums in 1984-2007. These models include only individuals not in a union at time and are further t Ϫ 1 restricted to individuals who report an industry or occupation change across the panel year. As with the cross-sectional premium analyses, our outcome variable of interest is , logged weekly wages. For individual i Y i in year t,</p><formula xml:id="formula_2" coords="37,142.61,551.86,157.06,10.49">Y p a ϩ U v ϩ (RU) ϩ X g ϩ , it i it it it it</formula><p>where is a parameter representing unobserved, person-specific char-a i is a set of demographic, geographic, and socio-X it economic covariates that vary over time;</p><p>is residual individual-and it time-level variation; and v, , and g reflect matrices of coefficient estimates.</p><p>Covariates used in models.- <ref type="table" coords="38,197.18,503.35,39.87,8.55">Table A5</ref> presents the full set of covariates included in our models.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TABLE A5</head><p>Covariates Used in Constructing the Unionization, Union Attachment, and Union Wage Estimates <ref type="table" coords="39,173.98,117.57,6.84,24.30;39,173.98,110.79,6.84,3.98;39,173.98,95.15,6.84,12.85;39,173.98,86.26,6.84,6.20;39,196.40,545.68,6.84,19.03;39,196.40,536.97,3.42,5.98" target="#tab_2">(Tables 2 and 3)   Table 2</ref>: Cross-Sectional Estimates   <ref type="bibr" coords="40,211.84,474.22,6.84,37.96;40,211.84,446.73,5.86,24.70;40,221.30,547.71,6.84,10.63;40,221.30,527.03,6.84,17.93;40,221.30,506.31,6.84,17.93;40,221.30,487.58,6.84,15.94">1974-2007, excluding 1980, 1982, 1994</ref> Year </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="5,73.72,373.38,302.84,6.84;5,65.75,382.34,310.91,6.84;5,65.75,391.31,310.90,6.84;5,65.75,400.28,310.85,6.84;5,65.80,409.24,310.87,6.84;5,65.75,418.21,310.86,6.84;5,65.75,427.17,310.83,6.84"><head>Fig. 1 .</head><label>1</label><figDesc>-Ratio of black/white unionization rates by economic sector, 1973Ϫ2007. Data for 1973-81 come from the CPS-May files; data for 1983-2007 come from the CPS-MORG files. Unionization rates for</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="6,73.72,368.89,302.95,6.84;6,65.75,377.86,310.86,6.84;6,65.75,386.83,310.89,6.84;6,65.75,395.79,310.88,6.84;6,65.75,404.76,310.87,6.84;6,65.75,413.72,310.89,6.84;6,65.75,422.69,97.11,6.84"><head>Fig. 2 .</head><label>2</label><figDesc>-Private-sector union memberships, 1973Ϫ2007. Data for 1973-81 come from the CPS-May files; data for 1983-2007 come from the CPS-MORG files. Unionization rates for</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="9,73.72,368.89,302.88,6.84;9,65.75,377.86,310.88,6.84;9,65.75,386.83,310.86,6.84;9,65.75,395.79,310.86,6.84;9,65.75,404.76,310.92,6.84;9,65.75,413.72,310.86,6.84;9,65.75,422.69,63.11,6.84"><head>Fig. 3 .</head><label>3</label><figDesc>-Whites' weekly wage advantage over African-Americans in the private sector, 1973Ϫ2007. Data for 1973-81 come from the CPS-May files; data for 1983-2007 come from the CPS-MORG files. Weekly wages for</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="26,73.72,368.00,302.85,6.84;26,65.75,376.96,310.87,6.84;26,65.75,385.93,310.91,6.84;26,65.75,394.90,310.90,6.84;26,65.75,403.86,310.89,6.84;26,65.75,412.83,310.88,6.84;26,65.75,421.79,274.27,6.84"><head>Fig. 4 .</head><label>4</label><figDesc>-Counterfactual estimates of unionization and racial wage inequality in the private sector, 1973Ϫ2007. Data for 1973-81 come from the CPS-May files; data for 1983-2007 come from the CPS-MORG files. Estimates are based on the cross-sectional wage premium models presented in table 3. The inequality series was generated by subtracting the modelpredicted wage series from the fixed unionization series and dividing by the fixed unionization series. The y axis captures the percentage point reduction in inequality had no deunionization occurred. See the text and the data appendix for further details.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="17,138.58,91.74,232.53,76.08"><head>TABLE 1</head><label>1</label><figDesc>Descriptives of Various CPS Data SourcesCPS-May/MORG:</figDesc><table coords="17,215.49,123.12,155.62,44.70">Union Membership 
+and Cross-
+Sectional 
+Premium Models 
+
+CPS-MORG Mini-
+panels: Panel 
+Premium Model, 
+Occupation or 
+Industry Change 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="17,65.75,227.73,299.83,271.84"><head></head><label></label><figDesc>Percentage union . . . . . . . . . . . . . . . . . . . . . . . . . .  African-American . . . . . . . . . . . . . . . . . . . . . . .  White . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Selected  demographic controls: Average potential experience (in years) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Percentage less than high school . . . . . . Percentage high school diploma or equivalent. . . . . . . . . . . . . . . . . . . . . . . . . . Percentage some college . . . . . . . . . . . . . . . . Percentage BA or higher . . . . . . . . . . . . . . . Percentage married . . . . . . . . . . . . . . . . . . . . . Selected labor market position controls: Weekly hours worked . . . . . . . . . . . . . . . . . . African-American . . . . . . . . . . . . . . . . . . . .White . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Percentage manufacturing  industry . . . . . . . . . . . . . . . . . . . . . . . . . . . .  African-American . . . . . . . . . . . . . . . . . . . .  White . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  African-American . . . . . . . . . . . . . . . . . . . .  White . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  Percentage production/craft/repair  occupations . . . . . . . . . . . . . . . . . . . . . . . .  Percentage Southern . . . . . . . . . . . . . . . . . . . . . .   </figDesc><table coords="17,65.75,227.73,299.83,271.84">.6 
+8.5 
+7.3 
+7.1 
+7.2 
+15.4 
+1.3 
+2.2 
+11.6 
+19.4 
+2.3 
+3.1 
+6.4 
+15.4 
+1.1 
+1.9 
+16.7 
+16.7 
+15.2 
+15.0 
+14.4 
+18.8 
+10.9 
+16.3 
+36.0 
+33.7 
+38.5 
+32.3 
+30.1 
+25.3 
+32.6 
+28.4 
+19.5 
+22.2 
+17.9 
+22.9 
+56.3 
+62.7 
+56.8 
+62.7 
+35.4 
+41.2 
+35.8 
+40.8 
+36.3 
+39.4 
+36.6 
+38.7 
+35.1 
+41.6 
+35.6 
+41.0 
+15.4 
+27.2 
+19.2 
+27.6 
+17.1 
+27.8 
+19.3 
+26.1 
+14.5 
+28.0 
+18.9 
+28.0 
+Percentage transportation industry . . . 
+2.1 
+8.0 
+2.4 
+4.5 
+Percentage professionals/managers . . . . 
+23.8 
+22.8 
+27.8 
+22.9 
+15.3 
+11.9 
+22.1 
+12.6 
+26.0 
+25.8 
+28.8 
+24.7 
+12.3 
+44.5 
+12.1 
+39.2 
+33.6 
+33.7 
+32.7 
+35.6 
+Years of sample used . </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="19,171.00,58.19,199.61,510.12"><head>TABLE 2</head><label>2</label><figDesc>Estimates of African-Americans' Odds of Union Membership and Union Attachment, Various Years American (reference is white) .. . . . . . . . . . . . . . . .   Hispanic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    Other race .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   Married . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   Potential experience . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    high school) .. . . . . . . . . . . . . .   Some college . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    College degree or higher .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   Transportation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   Manufacturing durables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    Finance, insurance, and real estate .. . . . . . . . . . . . . . . . . . .   Production/craft/repair . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   Service occupations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   Weekly hours . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   Region effects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   State-grouping effects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   Metro effects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    Year effects .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   N . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    </figDesc><table coords="19,202.38,58.19,168.23,510.12">Cross-Sectional Estimates 
+
+Panel Estimates 
+
+Women 
+(1) 
+
+Men 
+(2) 
+
+Women 
+(3) 
+
+Men 
+(4) 
+
+Demographic controls: 
+African-2.19* (2.14, 2.24) 
+
+1.48* (1.45, 1.51) 
+
+2.43* (2.23, 2.65) 
+
+1.52* (1.40, 1.65) 
+
+1.16* (1.12, 1.20) 
+
+.88* (.86, .90) 
+
+1.36* (1.23, 1.50) 
+
+.86* (.80, .92) 
+
+1.14* (1.09, 1.19) 
+
+.90* (.87, .93) 
+
+1.33* (1.17, 1.51) 
+
+.99 (.89, 1.10) 
+
+.99 (.98, 1.01) 
+
+1.22* (1.20, 1.24) 
+
+.91* (.86, .97) 
+
+1.12* (1.07, 1.17) 
+
+1.05* (1.05, 1.06) 
+
+1.08* (1.08, 1.08) 
+
+1.05* (1.04, 1.06) 
+
+1.07* (1.06, 1.07) 
+
+Potential experience 2 
+. . .99* (.99, .99) 
+
+.99* (.99, .99) 
+
+.99* (.99, .99) 
+
+1.00* (1.00, 1.00) 
+
+High school (reference is ! 
+
+1.08* (1.05, 1.11) 
+
+1.49* (1.46, 1.51) 
+
+1.20* (1.09, 1.33) 
+
+1.78* (1.66, 1.90) 
+
+1.01 (.98, 1.04) 
+
+1.47* (1.44, 1.50) 
+
+1.21* (1.09, 1.34) 
+
+1.86* (1.73, 1.99) 
+
+1.02 (.99, 1.05) 
+
+.83* (.81, .86) 
+
+1.12 (.99, 1.26) 
+
+1.05 (.96, 1.16) 
+
+Selected industry controls (reference is agriculture/for-
+estry/fisheries): 
+11.23* (9.35, 13.47) 
+
+7.47* (6.83, 8.16) 
+
+10.03* (5.78, 17.32) 
+
+4.56* (3.43, 6.04) 
+
+4.73* (3.95, 5.66) 
+
+4.34* (3.97, 4.74) 
+
+3.55* (2.06, 6.12) 
+
+2.41* (1.82, 3.20) 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="20,183.45,58.16,68.61,510.14"><head></head><label></label><figDesc>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    Note.-95% confidence intervals are in parentheses. Data for the cross-sectional estimates come from the CPS-May/MORG files, 1973-2007. Data for the panel estimates come from the CPS-MORG matched files, 1985-2007. Models are weighted with the appropriate CPS weights. Odds ratios from suppressed covariates are available on request. Estimates are restricted to private-sector workers ages 16-64 with positive earnings and hours worked. See the data appendix for a full description of the data construction and model specifications.</figDesc><table coords="20,183.45,82.14,68.61,486.16">. . 
+
+83 
+
+83 
+
+51 
+
+51 
+
+McFadden's 
+. . 2 
+
+R 
+
+.16 
+
+.23 
+
+.11 
+
+.18 
+
+* P ! 
+
+.05. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="23,182.95,58.20,190.15,513.88"><head>TABLE 3</head><label>3</label><figDesc>Estimates of Union Wage Effects for Private-Sector Workers, Various YearsUnion main effect .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    African-American main effect (reference is white) .. . . . . . . . . . . . . . . . .    Union#African-American interaction effect .. . . . . . . . . . . . . . . . . . . . . . .    Other demographic and labor market position controls:Hispanic main effect .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    Other race main effect .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   Married . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    Potential experience .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    Potential experience 2 .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    High school (reference is ! high school) .. . . . . . . . . . . . . . . . . . . . . . . . . .   Some college . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    College degree or higher .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   Transportation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    </figDesc><table coords="23,214.33,58.20,158.77,280.77">Cross-Sectional Estimates 
+Panel Estimates: Occupation or 
+Industry Change 
+
+Women 
+(1) 
+
+Men 
+(2) 
+
+Women 
+(3) 
+
+Men 
+(4) 
+
+.22* (.21, .22) 
+
+.25* (.24, .25) 
+
+.15* (.11, .19) 
+
+.16* (.13, .19) 
+
+Ϫ.07* (Ϫ.07, 
+Ϫ.07) Ϫ.16* (Ϫ.16, 
+
+Ϫ.16) 
+
+. . . 
+
+. . . 
+
+Ϫ.01* (Ϫ.02, 
+
+Ϫ.00) 
+.02* (.01, .02) 
+
+Ϫ.05 (Ϫ.12, .03) 
+
+Ϫ.08* (Ϫ.15, 
+
+Ϫ.01) 
+
+Ϫ.13* (Ϫ.13, 
+Ϫ.12) Ϫ.19* (Ϫ.19, 
+
+Ϫ.18) 
+
+. . . 
+
+. . . 
+
+Ϫ.06* (Ϫ.06, 
+Ϫ.05) Ϫ.11* (Ϫ.11, 
+
+Ϫ.10) 
+
+. . . 
+
+. . . 
+
+.03* (.03, .03) 
+
+.14* (.14, .14) 
+
+Ϫ.01 (Ϫ.04, .02) 
+
+Ϫ.01 (Ϫ.08, .04) 
+
+.02* (.02, .02) 
+
+.04* (.04, .04) 
+
+Ϫ.00 (Ϫ.02, .01) 
+
+.02* (.00, .03) 
+
+Ϫ.00* (Ϫ.00, 
+Ϫ.00) Ϫ.00* (Ϫ.00, 
+
+Ϫ.00) Ϫ.00* (Ϫ.00, 
+
+Ϫ.00) Ϫ.00* (Ϫ.00, 
+
+Ϫ.00) 
+
+.15* (.15, .15) 
+
+.19* (.19, .19) 
+
+.07* (.04, .10) 
+
+.10* (.07, .13) 
+
+.26* (.26, .27) 
+
+.29* (.29, .30) 
+
+.06* (.02, .10) 
+
+.09* (.05, .13) 
+
+.47* (.47, .47) 
+
+.57* (.57, .57) 
+
+.15* (.08, .22) 
+
+.15* (.09, .21) 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="24,229.98,58.07,69.39,514.01"><head></head><label></label><figDesc>. . .Note.-95% confidence intervals are in parentheses. Data for the cross-sectional estimates come from the CPS-May/MORG files, 1973-2007. Data for the panel estimates come from the CPS-MORG matched files, 1983-2007. Models are weighted with the appropriate CPS weights. Coefficients from suppressed control variables are available on request. Estimates are restricted to private-sector workers ages 16-64 with positive earnings and hours worked. Dependent variable in all models is logged weekly wages. Metro effects are excluded from the panels because of the sampling structure of the CPS. See the data appendix for a full description of the data construction and model specifications. * P !</figDesc><table coords="24,229.98,86.12,69.39,485.96">2 
+
+R 
+
+.70 
+
+.67 
+
+.89 
+
+.89 
+
+.05. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="34,67.15,65.84,308.07,71.59"><head>TABLE A1</head><label>A1</label><figDesc>Estimates of Union Wage Effects for Private-Sector Workers, Hourly Wages</figDesc><table coords="34,181.46,97.22,186.10,40.21">Women 
+Men 
+
+Weekly 
+Wages 
+(1) 
+
+Hourly 
+Wages 
+(2) 
+
+Weekly 
+Wages 
+(3) 
+
+Hourly 
+Wages 
+(4) 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" coords="34,65.75,154.50,310.89,97.00"><head></head><label></label><figDesc>Ϫ.16  (Ϫ.16, Ϫ.16) Ϫ.18 (Ϫ.18, Ϫ.18) Union#African-American interaction . . . . . . . . . . . . . . . . Note.-95% confidence intervals are in parentheses. Data come from the CPS-May/ MORG files, 1973-2007. Weekly wage estimates replicate cols. 1 and 2 of table 3. Models are weighted with the appropriate CPS weights. Coefficients from suppressed control variables are available on request. Estimates are restricted to private-sector workers ages 16-64 with positive earnings and hours worked.</figDesc><table coords="34,65.75,154.50,304.25,45.19">) 
+African-American main ef-
+fect (reference is white) 
+
+Ϫ.07 
+(Ϫ.07, Ϫ.07) 
+
+Ϫ.09 
+(Ϫ.09, Ϫ.09) 
+
+Ϫ.01 
+(Ϫ.02, Ϫ.00) 
+
+.01 
+(Ϫ.00, .01) 
+
+.02 
+(.01, .02) 
+
+.03 
+(.02, .03) 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8" coords="35,65.75,65.84,310.87,127.20"><head>TABLE A2</head><label>A2</label><figDesc>Estimates of Unionization and Union Wage Effects for Private-SectorWorkers, Expanded Occupation Controls, 1984-2002 reference is white) .. . . . . . . . . .    </figDesc><table coords="35,65.75,105.36,310.87,87.68">Women 
+Men 
+
+Model 
+(1) 
+
+Expanded 
+Occupations 
+(2) 
+
+Model 
+(3) 
+
+Expanded 
+Occupations 
+(4) 
+
+1. Modeling unionization (table 2): 
+African-American main effect 
+(2.21 
+(2.14, 2.27) 
+
+2.16 
+(2.10, 2.23) 
+
+1.50 
+(1.46, 1.54) 
+
+1.41 
+(1.38, 1.45) 
+2. Modeling union wage premiums 
+(table 3): 
+Union main effect . </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9" coords="35,65.75,195.02,310.88,80.89"><head></head><label></label><figDesc>) African-American main effect (reference is white) . . . . . . . . . . . Ϫ.16 (Ϫ.16, Ϫ.16) Ϫ.13 (Ϫ.13, Ϫ.12) Union#African-American interaction . . . . . . . . . . . . . . . . . . . . . . . . Note.-95% confidence intervals are in parentheses. Data come from the CPS-MORG files, 1984-2002. Models are weighted with the appropriate CPS weights. Coefficients from suppressed control variables are available on request. Estimates are restricted to privatesector workers ages 16-64 with positive earnings and hours worked.</figDesc><table coords="35,187.19,202.43,183.71,30.88">Ϫ.07 
+(Ϫ.07, Ϫ.07) 
+
+Ϫ.06 
+(Ϫ.07, Ϫ.06) 
+
+Ϫ.02 
+(Ϫ.03, Ϫ.01) 
+
+Ϫ.02 
+(Ϫ.02, Ϫ.01) 
+
+.02 
+(.01, .03) 
+
+.01 
+(.01, .02) 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10" coords="36,65.75,65.84,310.87,99.49"><head>TABLE A3 NLSY</head><label>A3</label><figDesc>Estimates of African-Americans' Odds of Union Membership, Various Years American (reference is white) .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   </figDesc><table coords="36,65.75,106.19,310.87,59.14">Women 
+(1) 
+
+Men 
+(2) 
+
+Demographic controls: 
+African-1.67* (1.43, 1.96) 
+1.81* (1.57, 2.09) 
+Hispanic . </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12" coords="36,73.72,196.35,302.90,44.70"><head></head><label></label><figDesc>Job tenure (in weeks) .. . . . . . . . . . . . . . . . . . .   Total number of previous jobs . .. . . . . . .  Full-time (reference is part-time) .. . . . . .   </figDesc><table coords="36,73.72,196.35,302.90,44.70">. . 
+1.00 (.99, 1.00) 
+1.00 (.99, 1.00) 
+1.00* (1.00, 1.00) 
+1.00* (1.00, 1.00) 
+.99 (.98, 1.01) 
+1.00 (.99, 1.01) 
+1.82* (1.56, 2.12) 
+1.76* (1.46, 2.12) 
+AFQT . </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13" coords="36,65.75,234.20,310.87,73.09"><head></head><label></label><figDesc>) .63* (.49, .82) High school (reference is ! high school) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.23* (1.05, 1.45) 1.59* (1.40, 1.80) Some college . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.42* (1.16, 1.62) 1.44* (1.22, 1.70) College degree or higher . . . . . . . . . . . . . . . . 1.46* (1.13, 1.90) .87 (.68, 1.11) Selected industry controls (reference is agriculture/forestry/fisheries): Transportation .</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14" coords="36,65.75,309.92,310.87,63.62"><head></head><label></label><figDesc>) 4.75* (3.46, 6.52) Finance, insurance, and real estate . . . . 3.10* (1.52, 6.30) 1.49 (.98, 2.28) Selected occupation controls (reference is professional/managerial): Production/craft/repair .. . . . . . . . . . . . . . . . .  Service occupations . . . . . . . . . . . . . . . . . . . . . .   </figDesc><table coords="36,65.75,347.77,310.87,25.77">2.68* (2.23, 3.21) 
+2.71* (2.33, 3.15) 
+1.17* (1.03, 1.33) 
+2.17* (1.87, 2.52) 
+Region effects . </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_15" coords="36,65.75,499.86,310.95,79.43"><head></head><label></label><figDesc>table 2 we use data from both the CPS-May and CPS-MORG for the period 1973-2007. Our outcome variable of interest is a binary measure of union status. For individual i,p(union) i h p log p a ϩ R b ϩ X g ϩ ,</figDesc><table coords="36,65.75,551.68,310.87,27.61">i 
+i 
+i 
+i 
+
+1 Ϫ p(union) i 
+
+where 
+captures the respondent's race; 
+is a set of demographic, 
+R 
+X 
+
+i 
+i 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_16" coords="38,65.75,65.84,310.84,410.19"><head>TABLE A4</head><label>A4</label><figDesc>Descriptives of Panel Data Used to Model Union AttachmentCPS-MORG MinipanelsUnion Attachment Model</figDesc><table coords="38,65.75,130.59,310.84,345.44">Women 
+(1) 
+
+Men 
+(2) 
+acteristics; 
+indicates union status at time t; 
+is the interaction of 
+U 
+(RU) 
+
+it 
+it 
+
+race#union status; 26 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_17" coords="39,196.40,188.33,6.84,231.09"><head>Table 2 :</head><label>2</label><figDesc>Panel EstimatesTable 3: Cross-Sectional Estimates</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_18" coords="39,196.40,62.01,163.25,504.30"><head>Table 3 :</head><label>3</label><figDesc>Panel Estimates Race: white (reference), black, Hispanic, other Race: white (reference), black, Hispanic, other All table 2 cross-sectional estimates controls, plus race # Occupation: professional/managerial (reference), production/craft/ repair, service, farm/forestry/fishery occupations</figDesc><table coords="39,210.84,68.77,25.77,232.54">union in-
+
+teraction terms 
+All table 2 panel estimates con-
+trols, with the following ex-
+ceptions: 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_19" coords="40,202.38,317.41,54.16,248.90"><head></head><label></label><figDesc>fixed effects: 1983 (reference), dummies for 1984-2007, exclud-</figDesc><table coords="40,221.30,327.54,35.23,238.77">ing 1984-85, 1993-95 
+
+State-group fixed effects: Mass. 
+(reference), dummies for 22 other 
+
+states and state-groups 
+
+Region: Northeast (reference), 
+dummies for Midwest, South, 
+
+and West 
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">Direct correspondence to Jake Rosenfeld, Department of Sociology, University of Washington, 211 Savery Hall, Box 353340, Seattle, Washington 98195. E-mail: jakerose@u.washington.edu</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">The union wage premium refers to the wage gains resulting from union membership.3  We thank a helpful reviewer for this formulation.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12">Given the primacy of occupation differences in explanations of black-white wage inequality, we reestimated our core cross-sectional model with an expanded set of 13 occupation dummies for years in which such detailed occupation codes remained consistent. We present these results in table A2.13  We do not restrict the sample to job changers for the earlier model of union attachment because we have little reason to suspect that African-Americans misclassify their union status any more or less than whites. Misclassification of union status may lead those estimates to be biased (although the direction of bias is uncertain), but this bias is not expected to differ by race. In terms of modeling wages, we know the direction and severity of misclassification bias.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14"><ref type="bibr" coords="16,72.92,513.81,42.63,7.27" target="#b29">Card (1996)</ref> adjusts for misclassification on the CPS union membership question by utilizing the results of a 1977 CPS employer supplement that asked a subsample of workers and their employers about their union status. We prefer the sample restriction strategy given that the employer supplement is now over 30 years old and asks a union question slightly different from the one in the standard CPS surveys. Moreover, using the matched employer-employee survey requires making assumptions about the rate of union misclassification by employers as well as employees.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="15">Owing to space constraints, in table 1 we omit descriptives from the samples used for our minipanel union attachment models (table 2, cols. 3 and 4). The minipanel samples displayed in table 1 represent a subset of the full minipanel data set. For descriptives on the full minipanel data, see table A3.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="20">Except for white women, by 1990 all of our counterfactual wages are significantly higher than the model-predicted wage series in which union membership declines. A full set of these series are available on request.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="21">Of high-earning females belonging to a union, a disproportionate number are teachers and nurses, especially in the later years. We suspect that many of these are sector miscodes, further justifying the inclusion of the truncatedsamples.  22  This is calculated by taking the difference between the fixed unionization wage gap (5.3) and model-predicted wage gap (6.8) and dividing by the fixed unionization wage gap (5.3).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="23">This protectionist theory also implies higher racial wage disparities among nonunion workers than among their organized counterparts. In supplemental analyses (not shown; available on request), we model wages separately for union and nonunion workers. Results indicate much greater racial disparities among nonunionists until the very end of our series.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="24">Further declines in private-sector unionization rates are unlikely to exacerbate blackwhite economic inequality much further, given how low rates have fallen for all groups. For the first time since the institutionalization of organized labor in the United States, unions now have little influence over the economic fortunes of minority populations, African-American or other.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="26">The main effects of race drop out of this fixed-effect model because race is time invariant; but the effect of union change can vary by race, so the interaction term can be estimated in the model.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="38,65.75,154.50,179.37,6.84" xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">. . . . . . . . . . . . . . . . . . . . .</forename><surname>Percentage African-American</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,73.72,173.43,171.38,6.84;38,285.87,173.43,13.95,6.84;38,351.62,173.43,13.95,6.84" xml:id="b1">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">. .</forename><surname>African-American</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10.1 16</orgName>
+			</affiliation>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,73.72,182.90,171.39,6.84;38,289.85,182.90,9.96,6.84;38,351.62,182.90,13.95,6.84;38,65.75,192.36,106.35,6.84;38,73.72,201.82,171.36,6.84;38,285.87,201.82,13.95,6.84;38,351.62,201.82,13.95,6.84" xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">. . .</forename><surname>White</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.</orgName>
+			</affiliation>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>4 13.1 Selected demographic controls: Average potential experience (in years) . . . . . . . . . . . . 19.3 19.0</note>
+</biblStruct>
+
+<biblStruct coords="38,73.72,211.29,171.40,6.84;38,285.87,211.29,13.95,6.84" xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Percentage less than high school</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,73.72,230.22,171.36,6.84;38,285.87,230.22,13.95,6.84;38,351.62,230.22,13.95,6.84" xml:id="b4">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">. .</forename><surname>Percentage Some College</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">. . . . . . . . . . . . . . . . . . . . . . . . . 32.5</orgName>
+			</affiliation>
+		</author>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,73.72,239.68,171.38,6.84;38,285.87,239.68,13.95,6.84;38,351.62,239.68,13.95,6.84" xml:id="b5">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">.</forename><forename type="middle">. .</forename><surname>Percentage</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">. . . . . . . . . . . . . . . . . . . . . . . . 24.8 26</orgName>
+			</affiliation>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,65.75,258.61,136.59,6.84;38,73.72,268.07,171.39,6.84;38,285.87,268.07,13.95,6.84;38,351.62,268.07,13.95,6.84" xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Selected labor market position controls: Weekly hours worked</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,81.69,277.54,163.41,6.84;38,285.87,277.54,13.95,6.84;38,351.62,277.54,13.95,6.84" xml:id="b7">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">. .</forename><surname>African-American</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37.5 40</orgName>
+			</affiliation>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,81.69,287.00,163.42,6.84;38,285.87,287.00,13.95,6.84;38,351.62,287.00,13.95,6.84" xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">. .</forename><surname>White</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36.2 42</orgName>
+			</affiliation>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,73.72,296.47,171.41,6.84;38,285.87,296.47,13.95,6.84;38,351.62,296.47,13.95,6.84" xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Percentage manufacturing industry</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,81.69,305.93,163.41,6.84;38,285.87,305.93,13.95,6.84;38,351.62,305.93,13.95,6.84" xml:id="b10">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">. .</forename><surname>African-American</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15.6 27</orgName>
+			</affiliation>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,81.69,315.40,163.42,6.84;38,285.87,315.40,13.95,6.84;38,351.62,315.40,13.95,6.84" xml:id="b11">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">. .</forename><surname>White</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13.0</orgName>
+			</affiliation>
+		</author>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,73.72,324.86,171.38,6.84;38,289.85,324.86,9.96,6.84;38,355.60,324.86,9.96,6.84" xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Percentage transportation industry</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">9</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,81.69,343.79,163.41,6.84;38,285.87,343.79,13.95,6.84;38,351.62,343.79,13.95,6.84" xml:id="b13">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">. .</forename><surname>African-American</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21.0 16</orgName>
+			</affiliation>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,81.69,353.25,163.42,6.84;38,285.87,353.25,13.95,6.84;38,351.62,353.25,13.95,6.84" xml:id="b14">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">. .</forename><surname>White</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33.6</orgName>
+			</affiliation>
+		</author>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,73.72,362.72,117.41,6.84;38,89.66,372.18,155.46,6.84;38,285.87,372.18,13.95,6.84;38,351.62,372.18,13.95,6.84" xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Percentage production/craft/repair occupations</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,65.75,381.65,179.37,6.84;38,285.87,381.65,13.95,6.84;38,351.62,381.65,13.95,6.84" xml:id="b16">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">.</forename><forename type="middle">. .</forename><surname>Percentage Southern</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32.4</orgName>
+			</affiliation>
+		</author>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">0</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,65.75,391.11,179.35,6.84;38,274.86,391.11,35.96,6.84;38,340.61,391.11,35.96,6.84" xml:id="b17">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">.</forename><forename type="middle">. .</forename><surname>Years Of Sample Used</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</orgName>
+			</affiliation>
+		</author>
+		<imprint>
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,65.75,400.57,179.32,6.84;38,279.89,400.57,25.90,6.84;38,345.64,400.57,25.90,6.84" xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">. . .</forename></persName>
+			<affiliation>
+				<orgName type="collaboration">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 237</orgName>
+			</affiliation>
+		</author>
+		<imprint>
+			<biblScope unit="volume">263</biblScope>
+			<biblScope unit="page">320</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,73.72,415.02,302.93,6.84" xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Weighted means are presented. Descriptives for all covariates used in the models</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,65.75,80.05,310.91,7.27;41,74.22,89.61,302.38,7.27;41,74.22,99.18,262.38,7.27" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Black Women and the New World Order: Toward a Fit in the Economic Marketplace</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Delores</forename><forename type="middle">P</forename><surname>Aldridge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">in Latinas and African-American Women at Work</title>
+		<editor>Irene Browne</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Russell Sage Foundation</publisher>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="357" to="79" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,65.75,108.84,310.89,7.27;41,74.22,118.40,302.40,7.27;41,74.22,127.97,67.35,7.27" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Labor Force Attachment and the Evolving Wage Gap between White, Black, and Hispanic Young Women</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sigal</forename><surname>Alon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yitchak</forename><surname>Haberfeld</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Work and Occupations</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="369" to="98" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,65.75,137.63,310.94,7.27;41,74.22,147.20,294.79,7.27" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Labor Unionism and Racial Income Inequality: A Time-Series Analysis of the Post-World War II Period</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Beck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="791" to="814" />
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,65.75,156.86,310.89,7.27;41,74.22,166.42,302.39,7.27;41,74.22,175.99,78.10,7.27" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">What Effect Do Unions Have on Wages Now and Would Freeman and Medoff Be Surprised?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">G</forename><surname>Blanchflower</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alex</forename><surname>Bryson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Labor Research</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="383" to="414" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,65.75,185.65,310.95,7.27;41,74.22,195.21,302.33,7.27;41,74.27,204.78,10.39,7.27" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Advanced Capitalism and Black/White Relations in the United States: A Split Labor Market Interpretation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edna</forename><surname>Bonacich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="34" to="51" />
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,65.75,214.44,310.91,7.27;41,74.22,224.01,302.35,7.27;41,74.22,233.57,71.08,7.27" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Never Say Never? Uncovering the Never-Unionized in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><forename type="middle">E</forename><surname>Booth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kristen</forename><forename type="middle">M</forename><surname>Budd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Munday</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Industrial Relations</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="26" to="52" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,65.75,243.23,310.91,7.27;41,74.22,252.80,302.45,7.27;41,74.22,262.36,302.39,7.27;41,74.22,271.92,44.37,7.27" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Losing Ground: The Erosion of the Relative Earnings of African-American Women during the 1980s</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Bound</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Laura</forename><surname>Dresser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">in Latinas and African-American Women at Work</title>
+		<editor>Irene Browne</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Russell Sage Foundation</publisher>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="61" to="104" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,65.75,281.59,310.90,7.27;41,74.22,291.15,302.41,7.27;41,74.22,300.72,144.20,7.27" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">What Went Wrong? The Erosion of Relative Earnings and Employment among Young Black Men in the 1980s</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Bound</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">B</forename><surname>Freeman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="201" to="233" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,65.75,310.38,310.91,7.27;41,74.22,319.94,298.17,7.27" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Realizing Solidarity: Sources of Interracial Unionism during the Great Depression</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Brueggemann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Terry</forename><surname>Boswell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Work and Occupations</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="436" to="82" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,65.75,329.61,310.86,7.27;41,74.22,339.17,130.01,7.27;41,65.75,348.83,310.88,7.27;41,74.22,358.40,189.18,7.27" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The Effect of Unions on the Structure of Wages: A Longitudinal Analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Card</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Industrial and Labor Relations Review</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="296" to="315" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note>Econometrica</note>
+</biblStruct>
+
+<biblStruct coords="41,65.75,368.06,310.90,7.27;41,74.22,377.62,302.39,7.27;41,74.22,387.19,276.96,7.27" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Changing Wage Structure and Black-White Wage Differentials among Men and Women: A Longitudinal Analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Card</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><surname>Lemieux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">National Bureau of Economic Research</title>
+		<imprint>
+			<biblScope unit="issue">4755</biblScope>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,65.75,396.85,310.85,7.27;41,74.22,406.42,302.38,7.27;41,74.22,415.98,27.62,7.27" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Race, Class, and Labor Markets: The White Working Class and Racial Composition of U.S. Metropolitan Areas</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><forename type="middle">N</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Science Research</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="146" to="69" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,65.75,425.64,310.86,7.27;41,74.22,435.21,302.39,7.27;41,74.27,444.77,115.71,7.27" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Postindustrial Era Restructuring in the Public Sector: The Effect on Black, Latina, and White Women Workers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Katrinell</forename><forename type="middle">M</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Niki</forename><forename type="middle">T</forename><surname>Dickerson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Forces</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="561" to="74" />
+			<date type="published" when="1970" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,65.75,454.43,310.90,7.27;41,74.22,464.00,131.95,7.27" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Longitudinal Analyses of the Effects of Trade Unions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">B</forename><surname>Freeman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Labor Economics</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1" to="26" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,65.75,473.66,310.86,7.27;41,74.22,483.23,47.30,7.27" xml:id="b34">
+	<monogr>
+		<title level="m" type="main">What Do Unions Do</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">B</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">L</forename><surname>Medoff</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984" />
+			<publisher>Basic Books</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,65.75,492.89,310.85,7.27;41,74.22,502.45,61.79,7.27" xml:id="b35">
+	<monogr>
+		<title level="m" type="main">What Workers Want</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">B</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joel</forename><surname>Rogers</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<publisher>Cornell University Press</publisher>
+			<pubPlace>Ithaca, N.Y.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,65.75,512.12,310.83,7.27;41,74.22,521.68,282.97,7.27" xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Black and Blue: African-Americans, the Labor Movement, and the Decline of the Democratic Party</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><surname>Frymer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Princeton, N.J.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="41,65.75,531.54,310.89,7.27;41,74.22,541.21,302.38,7.27;41,74.22,550.87,27.62,7.27;41,65.75,560.73,310.86,7.27;41,74.22,570.40,210.03,7.27" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Racial Ethnic Women&apos;s Labor: The Intersection of Race, Gender and Class Opposition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Evelyn</forename><surname>Glenn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Nakano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Radical Political Economics</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="86" to="108" />
+			<date type="published" when="1985" />
+			<publisher>Harvard University Press</publisher>
+		</imprint>
+	</monogr>
+	<note>Unequal Freedom: How Race and Gender Shaped American Citizenship and Labor</note>
+</biblStruct>
+
+<biblStruct coords="42,65.75,66.00,310.89,7.27;42,74.22,75.47,302.41,7.27;42,74.22,84.93,29.74,7.27" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Race and the CIO: The Possibilities for Racial Egalitarianism during the 1930s and 1940s</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Goldfield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Labor and Working Class History</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="1" to="32" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,65.75,94.39,310.84,7.27;42,74.22,103.86,302.43,7.27;42,74.22,113.32,94.14,7.27" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The Structure of Disadvantage: Individual and Occupational Determinants of the Black-White Wage Gap</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><surname>Grodsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Devah</forename><surname>Pager</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="542" to="67" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,65.75,122.79,310.89,7.27;42,74.22,132.25,110.58,7.27" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The Problem of Race in American Labor History</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Herbert</forename><surname>Hill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Reviews in American History</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="189" to="208" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,65.75,141.72,310.91,7.27;42,74.22,151.18,206.82,7.27" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Reconsidering Union Wage Effects: Surveying New Evidence on an Old Topic</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Barry</forename><forename type="middle">T</forename><surname>Hirsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Labor Research</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="233" to="66" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,65.75,160.64,310.90,7.27;42,74.22,170.11,220.12,7.27" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Estimates of Union Density by State</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Barry</forename><forename type="middle">T</forename><surname>Hirsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wayne</forename><forename type="middle">G</forename><surname>Macpherson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Vroman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Monthly Labor Review</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page" from="51" to="55" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,65.75,179.57,310.87,7.27;42,74.22,189.04,147.44,7.27;42,65.75,198.50,310.91,7.27;42,74.22,207.96,148.89,7.27" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Match Bias in Wage Gap Estimates Due to Earnings Imputation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Barry</forename><forename type="middle">T</forename><surname>Hirsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edward</forename><forename type="middle">J</forename><surname>Schumacher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Human Resources</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="689" to="722" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note>Journal of Labor Economics</note>
+</biblStruct>
+
+<biblStruct coords="42,65.75,217.43,310.90,7.27;42,74.22,226.89,302.37,7.27;42,74.22,236.35,42.44,7.27" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Racial Wage Inequality: Job Segregation and Devaluation across U.S. Labor Markets</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matt</forename><forename type="middle">L</forename><surname>Huffman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><forename type="middle">N</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="902" to="938" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,65.75,245.82,310.91,7.27;42,74.22,255.28,245.92,7.27" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">How the Civil Rights Movement Revitalized Labor Militancy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Larry</forename><surname>Isaac</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lars</forename><surname>Christiansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="722" to="768" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,65.75,264.75,310.89,7.27;42,74.22,274.21,302.38,7.27;42,74.22,283.67,75.77,7.27" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Takin&apos; It from the Streets: How the Sixties Mass Movement Revitalized Unionization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Larry</forename><surname>Isaac</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steve</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Greg</forename><surname>Lukasik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="46" to="96" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,65.75,293.14,310.86,7.27;42,74.22,302.60,302.41,7.27;42,74.22,312.07,42.44,7.27" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Political Partisanship, Race, and Union Strength from 1970 to 2000: A Pooled Time-Series Analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marc</forename><surname>Dixon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Science Research</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="1059" to="72" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,65.75,321.53,310.88,7.27;42,74.22,330.99,302.45,7.27;42,74.22,340.46,181.66,7.27" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Bad Jobs in America: Standard and Nonstandard Employment Relations and Job Quality in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arne</forename><surname>Kalleberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Barbara</forename><surname>Reskin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ken</forename><surname>Hudson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="256" to="78" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,65.75,349.92,310.90,7.27;42,74.22,359.38,297.83,7.27" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Limiting Liberalism: The Southern Veto in Congress, 1933-1950</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ira</forename><surname>Katznelson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kim</forename><surname>Geiger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Kryder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Science Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="283" to="306" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,65.75,368.85,310.89,7.27;42,74.22,378.41,295.73,7.27" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The Impact of Industrial and Occupational Structure on Black-White Employment Allocation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">L</forename><surname>Kaufman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="310" to="333" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,65.75,388.08,310.89,7.27;42,74.22,397.64,176.51,7.27" xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Out to Work: A History of Wage Earning Women in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alice</forename><surname>Kessler-Harris</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1982" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,65.75,407.30,310.88,7.27;42,74.22,416.87,301.11,7.27" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Increasing Residual Wage Inequality: Composition Effects, Noisy Data, or Rising Demand for Skill?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><surname>Lemieux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="461" to="98" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,65.75,426.53,310.88,7.27;42,74.22,436.09,302.45,7.27;42,74.22,445.66,48.90,7.27" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Inequality and Institutions in 20th Century America</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frank</forename><forename type="middle">S</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Temin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">National Bureau of Economic Research</title>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note>Working paper no. 13106</note>
+</biblStruct>
+
+<biblStruct coords="42,65.75,455.32,310.87,7.27;42,74.22,464.89,119.29,7.27" xml:id="b54">
+	<monogr>
+		<title level="m" type="main">State of the Union: A Century of American Labor</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nelson</forename><surname>Lichtenstein</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Princeton, N.J.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,65.75,474.55,310.87,7.27;42,74.22,484.11,297.13,7.27" xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Reorganizing the Rust Belt: An Inside Study of the American Labor Movement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Henry</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>University of California Press</publisher>
+			<pubPlace>Berkeley and Los Angeles</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,65.75,493.78,310.93,7.27;42,74.22,503.34,302.39,7.27;42,74.22,512.90,235.24,7.27" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">A Note on Longitudinally Matching Current Population Survey (CPS) Respondents</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brigitte</forename><forename type="middle">C</forename><surname>Madrian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lars</forename><forename type="middle">John</forename><surname>Lefgren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">National Bureau of Economic Research</title>
+		<imprint>
+			<biblScope unit="issue">247</biblScope>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note>Technical working paper no</note>
+</biblStruct>
+
+<biblStruct coords="42,65.75,522.57,310.89,7.27;42,74.22,532.13,302.38,7.27;42,74.22,541.70,27.62,7.27" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Sources of Racial Wage Inequality in Metropolitan Labor Markets: Racial, Ethnic, and Gender Differences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leslie</forename><surname>Mccall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="520" to="561" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="42,65.75,551.36,310.88,7.27;42,74.22,560.92,302.38,7.27;42,74.22,570.49,20.88,7.27" xml:id="b58">
+	<monogr>
+		<title level="m" type="main">Hiring the Black Worker: The Racial Integration of the Southern Textile Industry</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Timothy</forename><forename type="middle">J</forename><surname>Minchin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1960" />
+			<publisher>University of North Carolina Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,65.75,66.00,310.87,7.27;43,74.22,75.47,215.29,7.27" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">The Measured Black-White Wage Gap among Women Is Too Small</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Derek</forename><surname>Neal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Political Economy</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="1" to="28" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note>suppl</note>
+</biblStruct>
+
+<biblStruct coords="43,65.75,84.93,310.90,7.27;43,74.22,94.39,302.40,7.27;43,74.22,103.86,153.03,7.27" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Attrition Bias in Economic Relationships Estimated with Matched CPS Files</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Neumark</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daiji</forename><surname>Kawaguchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">National Bureau of Economic Research</title>
+		<imprint>
+			<biblScope unit="issue">8663</biblScope>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,65.75,113.32,310.89,7.27;43,74.22,122.79,219.67,7.27" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Labor Unrest, Immigration, and Ethnic Conflict in Urban America, 1880-1914</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Susan</forename><surname>Olzak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="1303" to="1336" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,65.75,132.25,310.91,7.27;43,74.22,141.72,286.17,7.27" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Employment Gains and Wage Declines: The Erosion of Black Women&apos;s Relative Wages since 1980</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Becky</forename><surname>Pettit</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephanie</forename><surname>Ewert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Demography</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="469" to="92" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,65.75,151.18,310.91,7.27;43,74.22,160.64,302.51,7.27" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">The Joint Determination of Union Status and Union Wage Effects: Some Tests of Alternative Models</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chris</forename><surname>Robinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Political Economy</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="639" to="67" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,65.75,170.11,310.88,7.27;43,74.22,179.57,266.79,7.27" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Hispanics and Organized Labor in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jake</forename><surname>Rosenfeld</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Meredith</forename><surname>Kleykamp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="916" to="953" />
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,65.75,189.04,310.93,7.27;43,74.22,198.50,285.42,7.27" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Racial Differences in Access to Hierarchical Authority: An Analysis of Change over Time, 1972-1994</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ryan</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sociological Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="367" to="95" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,65.75,207.96,310.89,7.27;43,74.22,217.43,212.60,7.27" xml:id="b66">
+	<monogr>
+		<title level="m" type="main">Left Out: Reds and America&apos;s Industrial Unions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Judith</forename><surname>Stepan-Norris</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maurice</forename><surname>Zeitlin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,65.75,226.89,310.85,7.27;43,74.22,236.36,209.66,7.27" xml:id="b67">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Julius</surname></persName>
+		</author>
+		<title level="m">The Truly Disadvantaged: The Inner City, the Underclass, and Public Policy</title>
+		<meeting><address><addrLine>Chicago</addrLine></address></meeting>
+		<imprint>
+			<publisher>University of Chicago Press</publisher>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="43,65.75,245.82,310.93,7.27;43,74.22,255.28,302.34,7.27;43,74.27,264.75,10.39,7.27" xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Postindustrial Era Restructuring in the Public Sector: The Effect on Black, Latina, and White Women Workers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">F</forename><surname>Zipp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Problems</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="363" to="82" />
+			<date type="published" when="1970" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

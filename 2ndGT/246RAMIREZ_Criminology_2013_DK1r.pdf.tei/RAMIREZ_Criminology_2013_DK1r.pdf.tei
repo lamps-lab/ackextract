@@ -1,0 +1,2576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">PUNITIVE SENTIMENT *</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Wilson</publisher>
+				<availability status="unknown"><p>Copyright Wilson</p>
+				</availability>
+				<date type="published" when="1997">1997. 1992. 2010. Garland, 2001. 2007. 1995. 2006. 1975. 2002</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><forename type="middle">D</forename><surname>Ramirez</surname></persName>
+							<email>mark.ramirez@asu.edu.</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Politics and Global Studies</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Politics and Global Studies</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<addrLine>Coor Hall, 6th Floor</addrLine>
+									<postBox>P.O. Box 873902</postBox>
+									<postCode>85287-3902</postCode>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">PUNITIVE SENTIMENT *</title>
+					</analytic>
+					<monogr>
+						<title level="m">For instance</title>
+						<meeting> <address><addrLine>Pratt</addrLine></address>
+						</meeting>
+						<imprint>
+							<publisher>Wilson</publisher>
+							<date type="published" when="1997">1997. 1992. 2010. Garland, 2001. 2007. 1995. 2006. 1975. 2002</date>
+						</imprint>
+					</monogr>
+					<note>181) noted that the victim, the offender, the state, and the * Additional supporting information can be found in the listing for this article in the Wiley Online Library at http://onlinelibrary.wiley.com/doi/10.1111/1745-9125.12006/crim.2011.51.issue-2/issuetoc. Thanks to David A. M. Peterson, Paul Kellstedt, Andrew Martin, and James Monogan for comments on earlier drafts of this research. Special thanks to the journal reviewers and Eric P. Baumer for detailed comments during the review process. Data are available at http://www.public.asu.edu/∼mdramir. Direct corre-spondence to Mark D. Ramirez, CRIMINOLOGY Volume 51 Number 2 2013 329</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>public opinion</term>
+					<term>punishment</term>
+					<term>time series</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Scholarship has long noted the importance of understanding the changes that occur over time in aggregate public support for punitive criminal justice policies. Yet, the lack of a reliable and valid measure of this concept limits our understanding of this aspect of the criminal justice system. This research develops a measure of public support for punitive policies from 1951 to 2006 using 242 administrations of 24 unique survey indicators. It argues that punitive sentiment is politically constructed via frames focusing on the permissiveness of the criminal justice system. Punitive sentiment is estimated with an error-correction model showing both the short-and long-term relationships between punitive sentiment and presidential framing of crime, public dissatisfaction with social welfare policies, and perceptions of racial integration. The results highlight the complex dynamics responsible for the change over time in punitive sentiment as well as the possibilities of obtaining public support for alternative solutions to crime.</p><p>This research describes and explains punitive sentiment. Punitive sentiment is the aggregate public support for criminal justice policies that punish offenders. The punitive sentiment of the nation as a whole is an important component of theories about the changes in America's criminal justice system (</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>public comprise the "new axis of penal power" responsible for the expansion of punitive policies. <ref type="bibr" coords="2,181.82,90.35,78.12,9.21" target="#b28">Gottschalk (2006)</ref> argued that the public's acceptance of punitive policies provided the environment necessary for the expansion of the punitive state. Others have argued that punitive sentiment serves as a barometer that politicians use when taking positions on crime policies during campaigns <ref type="bibr" coords="2,187.14,138.17,65.05,9.21" target="#b4">(Beckett, 1997;</ref><ref type="bibr" coords="2,254.73,138.17,111.66,9.21" target="#b5">Beckett and Sasson, 2004;</ref><ref type="bibr" coords="2,368.93,138.17,22.60,9.21;2,73.25,150.12,100.15,9.21" target="#b30">Indermaur and Hough, 2002;</ref><ref type="bibr" coords="2,175.61,150.12,159.05,9.21" target="#b76">Zimring, Hawkins, and Kamin, 2001)</ref> and when justifying changes in policy <ref type="bibr" coords="2,182.99,162.08,72.00,9.21" target="#b22">(Flanagan, 1996;</ref><ref type="bibr" coords="2,258.36,162.08,58.20,9.21" target="#b74">Wilson, 1975)</ref>. Of course, these theories suggest that punitive policies are the result of a complex series of forces-shifts in crime, interest group coalitions, drug usage, political culture, and race relations. However, public opinion plays some role in most theories of punitive politics.</p><p>Yet, the study of the dynamics of public support for punitive policies is still in its infancy-limited by the scarcity of temporal data. Pollsters rarely measure support for the same policy consistently across time. Instead, scholars have relied on a sparse selection of polls to make inferences about the dynamics of punitive sentiment. <ref type="bibr" coords="2,256.47,269.68,78.78,9.21">Beckett (1997: 80)</ref> examined the percentage of support for capital punishment in <ref type="bibr" coords="2,292.96,281.63,64.28,9.21">1965 and 1988</ref> to draw conclusions about the changing nature of punitive sentiment. Similarly, <ref type="bibr" coords="2,73.25,305.54,140.85,9.21">Stinchcombe et al. (1980: 16-38)</ref> examined support for capital punishment and tougher courts using the General Social Survey (GSS). They concluded that the existing "series of data points does not adequately characterize the historical movement [of punitive sentiment]." Temporal inconsistencies in the administration of the same question and the inability of any single question to measure the complexity of public punitiveness also limits the systematic study of punitive sentiment.</p><p>Instead, most of our understanding of public support for crime policies derives from cross-sectional research that has focused on the determinants of individual attitudes (e.g., <ref type="bibr" coords="2,237.02,413.14,111.86,9.21" target="#b8">Bobo and Johnson, 2004;</ref><ref type="bibr" coords="2,352.59,413.14,43.44,9.21;2,73.25,425.09,113.97,9.21" target="#b13">Costelloe, Chiricos, and Gertz, 2009;</ref><ref type="bibr" coords="2,190.45,425.09,59.11,9.21" target="#b62">Stalans, 2002;</ref><ref type="bibr" coords="2,252.80,425.09,112.73,9.21" target="#b70">Unnever and Cullen, 2010</ref>). Yet, theories often speak of historical changes in public opinion in response to macrolevel social, political, and economic forces. These conditions change over time and yet are treated as constants within cross-sectional research. Cross-sectional research designs also assume static relationships between variables. Theories, on the other hand, suggest short-and long-term temporal relationships among concepts. Subsequently, a need exists to measure punitive sentiment over time to test theories about the dynamics of public support for punitive policies. That is the goal of this research.</p><p>The development of a dynamic indicator of punitive sentiment can provide a means of addressing descriptive questions about public support for punitive policies. Foremost, how has punitive sentiment changed over time? What is the range of punitive sentiment, and what historical periods exhibit the highest and lowest levels of public support for punitive policies? Does punitive sentiment revolve around a stable equilibrium, does it experience trends, and are there moments of abrupt change? The answers to these descriptive questions have theoretical significance. For instance, the presence of a trend would be consistent with theories about the inability of punitive policies to satisfy the public's emotional demand for punishment <ref type="bibr" coords="3,350.26,126.22,44.05,9.21;3,71.51,138.17,21.90,9.21" target="#b0">(Aladjem, 2008)</ref>. Evidence of periods of abrupt change would be consistent with theories suggesting "turning points" in sentiment after such events as the assassination of President Kennedy in 1963 <ref type="bibr" coords="3,257.53,162.08,65.63,9.21" target="#b19">(Erskine, 1974)</ref>, the passage of the 1964 Civil Rights Act <ref type="bibr" coords="3,181.66,174.03,61.01,9.21" target="#b21">(Flamm, 2005)</ref>, or the 1968 presidential campaign <ref type="bibr" coords="3,71.51,185.99,101.60,9.21" target="#b36">(Loo and Grimes, 2004)</ref>.</p><p>Moreover, a dynamic indicator of punitive sentiment provides a means to assess theories about the causes and consequences of public punitiveness. Theoretical research has suggested the politicization of crime <ref type="bibr" coords="3,71.51,233.81,64.76,9.21" target="#b4">(Beckett, 1997;</ref><ref type="bibr" coords="3,138.54,233.81,110.81,9.21" target="#b5">Beckett and Sasson, 2004;</ref><ref type="bibr" coords="3,251.61,233.81,101.96,9.21" target="#b18">Edsall and Edsall, 1992;</ref><ref type="bibr" coords="3,355.83,233.81,38.46,9.21;3,71.51,245.76,22.40,9.21" target="#b26">Garland, 2001;</ref><ref type="bibr" coords="3,97.00,245.76,56.75,9.21" target="#b38">Mauer, 2006;</ref><ref type="bibr" coords="3,156.85,245.76,75.09,9.21" target="#b53">Scheingold, 1998)</ref>, changes in drug use <ref type="bibr" coords="3,328.68,245.76,65.59,9.21" target="#b4">(Beckett, 1997;</ref><ref type="bibr" coords="3,71.51,257.72,72.00,9.21" target="#b7">Blumstein, 2003;</ref><ref type="bibr" coords="3,146.35,257.72,101.58,9.21" target="#b31">Kautt and Spohn, 2002)</ref>, growing distrust toward government <ref type="bibr" coords="3,96.84,269.68,59.66,9.21" target="#b57">(Simon, 2007;</ref><ref type="bibr" coords="3,159.73,269.68,63.01,9.21" target="#b75">Zimring, 2003)</ref>, increased public concern about crime <ref type="bibr" coords="3,71.51,281.63,152.80,9.21" target="#b35">(Langworthy and Whitehead, 1986;</ref><ref type="bibr" coords="3,226.91,281.63,57.42,9.21" target="#b74">Wilson, 1975)</ref>, and changing racial animus <ref type="bibr" coords="3,92.10,293.59,57.12,9.21" target="#b37">(Mann, 1993;</ref><ref type="bibr" coords="3,152.12,293.59,56.55,9.21" target="#b38">Mauer, 2006;</ref><ref type="bibr" coords="3,211.58,293.59,59.32,9.21" target="#b51">Russell, 1998;</ref><ref type="bibr" coords="3,273.79,293.59,59.90,9.21" target="#b59">Skogan, 1995;</ref><ref type="bibr" coords="3,336.60,293.59,57.66,9.21" target="#b61">Stabile, 2006;</ref><ref type="bibr" coords="3,71.51,305.54,53.61,9.21" target="#b66">Tonry, 1995;</ref><ref type="bibr" coords="3,127.27,305.54,151.67,9.21" target="#b71">Walker, Spohn, and DeLone, 1996)</ref> may be responsible for the rise in public support for punitive policies. A measure of punitive sentiment over time provides a means to test the dynamic aspects of these theories systematically.</p><p>The next section describes the concept of punitive sentiment and justifies its construction at the macrolevel. I then argue that punitive sentiment moves in response to the politicization of crime by national political actors-particularly the framing of crime as a problem of a lenient criminal justice system. An annual indicator of punitive sentiment for the years 1951 to 2006 is developed from 242 administrations of 24 different survey indicators using a dyadic ratio algorithm. Punitive sentiment is then estimated using a single equation error-correction model. The results show that punitive sentiment moves in response to presidential frames, support for domestic social policies, and perceptions of racial integration. Contrary to much microlevel research, the findings also show a more rational public willing to update its policy preferences in response to changing crime conditions. The conclusion discusses the implications of these results and provides suggestions for future research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCEPT OF PUNITIVE SENTIMENT</head><p>The concept of interest is the public's support or opposition for punitive criminal justice policies, which I shall label punitive sentiment. Punitive sentiment is a general positive or negative evaluation of the punitiveness of the criminal justice system. Punitive criminal justice policies are those that punish, incapacitate, or increase the transaction costs of crime. Policies that increase the authority and resources of law enforcement agencies or the penal system at the expense of policies that target the social causes of crime also can be classified as punitive <ref type="bibr" coords="4,200.32,126.22,62.42,9.21" target="#b74">(Wilson, 1975)</ref>. Punitive policies range from capital punishment to mandatory sentencing to increasing the authority of law enforcement officials. Rehabilitation in prisons and drug treatment programs are examples of nonpunitive policies.</p><p>Moreover, punitive sentiment is a national phenomenon-aggregating the opinions of the public as a whole. Scholars often speak of a national mood toward punitive policies despite it being a mere (and sometimes imperfect) indicator for a more complex set of competing interests. <ref type="bibr" coords="4,73.25,221.85,129.61,9.21">Stinchcombe et al. (1980: 30)</ref> for instance, argued that changes in public support for "capital punishment and tough courts are manifestations of a general tendency to be punitive toward criminals." <ref type="bibr" coords="4,313.14,245.76,82.88,9.21">Flanagan (1996: 5)</ref> wrote that polls "illuminate the public's mood and priorities for criminal justice reform." <ref type="bibr" coords="4,145.49,269.68,172.22,9.21">Simon, López, and Frampton (2008: 5)</ref> noted that "after three decades and more, the national mood may be swinging against the war on crime." All these studies assumed a common public sentiment toward punitive policies. <ref type="bibr" coords="4,83.21,317.49,89.03,9.21">Tonry (1995: 34-35)</ref> argued that this general sentiment is more consequential for politics and policy despite its inability to represent the complexity of opinions (also see <ref type="bibr" coords="4,179.14,341.41,142.06,9.21">Beckett and Sasson, 2004: 45-72)</ref>. Consistent with this notion, <ref type="bibr" coords="4,124.58,353.36,93.41,9.21">Schneider (2006: 457)</ref> found that changes in state incarceration rates respond "as if some kind of national policy mood was important." Nicholson-Crotty, Peterson, and <ref type="bibr" coords="4,218.88,377.27,89.61,9.21">Ramirez (2009: 633)</ref> also suggested that "political actors may not respond to specific opinions with specific actions, but rather will adjust criminal justice policy in response to the population's mood for more or less punitiveness." This is not to deny the importance of individual or subnational opinions but simply to note that these heterogenous interests can sometimes emerge as a single voice-something many scholars have informally referred to as a punitive mood or sentiment. EXPLAINING PUNITIVE SENTIMENT Support for punitive policies often is characterized as a top-down process. According to this argument, support for punitive policies is constructed by politicians looking to advance their political careers and policy goals <ref type="bibr" coords="4,73.25,532.69,65.31,9.21" target="#b4">(Beckett, 1997)</ref>. Of course, the relationship is endogenous because politicians debate the issue using frames that connect with the existing values and beliefs of the public. Yet, these frames can shape how the public thinks about an issue and thereby alter public support for punitive policies. The most common frame involved portraying crime as a problem stemming from a permissive criminal justice system <ref type="bibr" coords="5,256.34,78.56,133.88,9.21">(Beckett and Sasson, 2004: 78)</ref>. This depiction of crime is theorized to have shaped support for punitive sentiment across time. However, the influence of such frames on public support for punitive policies is still unclear in the absence of a dynamic indicator of the concept.</p><p>The development of the permissive frame is something akin to conventional wisdom. The politicization of crime started among conservative politicians opposed to racial integration <ref type="bibr" coords="5,244.00,162.25,64.81,9.21" target="#b4">(Beckett, 1997;</ref><ref type="bibr" coords="5,311.11,162.25,55.46,9.21" target="#b20">Feeley, 2003)</ref>. During the 1950s, conservatives attempted to link the issue of crime to increasing protests and legislation for racial equality. These politicians argued that the civil rights movement fostered lawlessness and public disorder. As racial integration and equality became a social norm that many citizens were less willing to explicitly oppose, support for "law and order" became the subtext for racial animus <ref type="bibr" coords="5,146.50,233.98,107.71,9.21" target="#b1">(Barkan and Cohn, 1994)</ref>.</p><p>The strategy of pandering to those opposed to racial integration by advocating a "law-and-order" platform also evolved to attacks on social welfare. Social welfare programs had given liberal Democrats an electoral advantage since Roosevelt's New Deal <ref type="bibr" coords="5,234.15,281.80,67.99,9.21" target="#b45">(Petrocik, 1996)</ref>. Once conservatives raised the issue of crime, liberals argued that social welfare programs were effective in fighting both poverty and reducing crime. President Johnson's 1964 speech in Dayton, Ohio, summarized this perspective:</p><p>There is something mighty wrong when a candidate for the highest office bemoans violence in the streets but votes against the war on poverty, votes against the Civil Rights Act, and votes against major educational bills that come before him as a legislator.</p><p>Conservatives countered that social programs amounted to coddling criminals rather than encouraging self-reliance and moral rectitude. Liberal social policies were argued to be a means of supporting criminals rather than a means to reduce crime. Crime was growing because the system was more concerned with the rights of criminals rather than of victims. Conservatives attacked the two keystone liberal policies, racial equality and the war on poverty, with "tough-on-crime" rhetoric. Theoretically, these frames should have increased the public's demand for punitive policies both directly and indirectly by reducing the public's belief that social welfare policies could solve the crime problem.</p><p>By the 1970s, the dominate frames across the nation focused on the permissiveness of the system versus the need to treat the social causes of crime. The increasing use of crack cocaine, among other drugs, during the 1980s also provided a means for the federal government to expand the war on drugs and garner more support for punitive policies. Yet even during this period, President Reagan continued to blame crime on a permissive system: When we arrived in Washington we faced a nation in which criminals were running rampant because liberal judges were so interested in protecting the so-called rights of the bad guys, they were placing the good guys at risk. We came in and appointed judges who respect the law, respect the constitution and know the meaning of the word punishment.</p><p>(24 Weekly Compilation of Presidential Documents 1438)</p><p>The "tough-on-crime" platform eventually led to electoral gains by Republicans pushing Democrats to alter their position on crime. By the presidency of Bill Clinton, Democrats had begun to embrace the punitive policies of conservatives <ref type="bibr" coords="6,181.83,209.90,61.14,9.21" target="#b29">(Holian, 2004)</ref>, which potentially moved punitive sentiment into a stable equilibrium.</p><p>There are multiple expectations from this narrative. Empirically, little evidence exists that punitive sentiment responds to actual crime conditions or even public concern over crime ( <ref type="bibr" coords="6,218.08,257.72,60.62,9.21" target="#b4">Beckett, 1997)</ref>. The more political actors frame the issue of crime as a problem of a permissive justice system, the more we should observe increases in punitive sentiment. Decreasing support for social welfare policies also should be correlated with increasing support for punitive solutions to crime.</p><p>In addition, we should observe a relationship between changing racial conditions and punitive sentiment. <ref type="bibr" coords="6,228.70,329.45,64.38,9.21" target="#b6">Blalock (1967)</ref> suggested that Whites' support for punitive policies derives from a desire to use the state to control minority populations (also see <ref type="bibr" coords="6,226.07,353.36,145.53,9.21" target="#b10">Chiricos, Welch, and Gertz, 2004)</ref>. The growth in minority populations should lead to an increase in punitive sentiment as the largest ethnic group in the population (Whites) felt threatened. <ref type="bibr" coords="6,73.25,389.22,63.04,9.21" target="#b2">Barlow (1998)</ref> presented a slightly nuanced version of the theory that is more specific to the issue of crime and punishment. Rather than a mere increase in the size of the Black population, it is increases in civil rights and integration since the 1960s that have threatened White Americans and have led to increases in support for punitive policies (also see <ref type="bibr" coords="6,355.38,437.05,40.67,9.21;6,73.25,449.00,21.90,9.21" target="#b43">Ogletree, 2002)</ref>.</p><p>Another factor that may have altered punitive sentiment is the public's distrust of government <ref type="bibr" coords="6,176.59,472.92,59.90,9.21" target="#b57">(Simon, 2007;</ref><ref type="bibr" coords="6,239.95,472.92,156.08,9.21" target="#b60">Soss, Langbein, and Metelko, 2003;</ref><ref type="bibr" coords="6,73.25,484.87,127.70,9.21" target="#b67">Tyler and Boeckmann, 1997;</ref><ref type="bibr" coords="6,204.79,484.87,119.40,9.21" target="#b70">Unnever and Cullen, 2010;</ref><ref type="bibr" coords="6,328.03,484.87,63.61,9.21" target="#b75">Zimring, 2003)</ref>. The latter research has disagreed about the direction of the relationship between trust and support for punitive policies as well as the various moderators of this relationship. One expectation has been that increases in public distrust in government should be associated with decreases in punitive support. <ref type="bibr" coords="6,96.90,544.65,156.64,9.21" target="#b60">Soss, Langbein, and Metelko (2003)</ref> argued the public should be less willing to grant governments the authority to punish as it becomes aware of governmental abuses of power (e.g., racial disparities and exonerations). However, <ref type="bibr" coords="6,117.79,580.51,65.28,9.21" target="#b75">Zimring (2003)</ref> noted a paradox in the relationship between trust and support for punitive policies. Punitive policies increase the authority of the government. Therefore, increasing trust in government should correlate with increases in support for punitive policies. Yet, historically, the growth of distrust has been toward the government's inability to protect the public from criminals. This distrust should lead to an increase, rather than to a decrease, in support for punitive policies. It is not that the public distrusts the government from abusing its authority; rather, the public distrusts the government to put public safety ahead of due process. 1 <ref type="bibr" coords="7,296.46,162.08,78.04,9.21">Simon (2007: 155)</ref> also argued that punitive sentiment and trust in government are linked. Punitive sentiment should be low when the public has faith in government and government-sponsored welfare programs as a means to solve crime. Yet, when the public starts to distrust government officials, it turns to punitive policies as a solution to crime.</p><p>Research has shown mixed findings regarding trust and support for punitive policies. Several studies have found no relationship between trust in the courts and support for punitive policies <ref type="bibr" coords="7,264.51,257.72,129.78,9.21" target="#b67">(Tyler and Boeckmann, 1997;</ref><ref type="bibr" coords="7,71.51,269.68,113.63,9.21" target="#b70">Unnever and Cullen, 2010)</ref>. <ref type="bibr" coords="7,191.59,269.68,116.92,9.21" target="#b70">Unnever and Cullen (2010)</ref> also found that perceptions of crime failed to moderate the relationship between distrust and policy support. Trust in the executive branch was shown to correlate with higher support for capital punishment <ref type="bibr" coords="7,242.87,305.54,122.12,9.21" target="#b69">(Unnever and Cullen, 2005)</ref>. <ref type="bibr" coords="7,372.99,305.54,21.31,9.21;7,71.51,317.49,131.40,9.21" target="#b60">Soss, Langbein, and Metelko (2003)</ref> found that White citizens with more trust in the government are more supportive of capital punishment and that the effect of trust is larger than other predictors of support such as demographic factors, partisanship, and racial prejudice. However, <ref type="bibr" coords="7,297.28,353.36,97.02,9.21;7,71.51,365.32,74.23,9.21" target="#b40">Messner, Baumer, and Rosenfeld (2006)</ref> found that White Americans with higher levels of distrust are more supportive of capital punishment, whereas the relationship is reversed for Black Americans.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AND METHODS</head><p>This section describes both the data and methods for the analysis. First, it discusses the construction of the punitive sentiment index. Then, the index of punitive sentiment is evaluated showing the common connection among support for different punitive policies between 1951 and 2006. Finally, it 1. <ref type="bibr" coords="7,95.41,511.80,57.39,7.82" target="#b75">Zimring (2003)</ref> argued that the relationship between trust and policy support might be stronger in Southern states with a history of vigilantism. Thus, testing this theory at an aggregate (national) level of analysis might be a bit unfair. However, <ref type="bibr" coords="7,95.41,541.69,153.14,7.82" target="#b40">Messner, Baumer, and Rosenfeld (2006)</ref> found no evidence that 1) vigilantism moderates the relationship between trust and policy support and 2) that there is variation across states. Therefore, we proceed to test this relationship aggregated across states. However, future research may uncover state or regional differences as theorized by <ref type="bibr" coords="7,153.05,581.54,54.18,7.82" target="#b75">Zimring (2003)</ref>.</p><p>describes the measurement of the independent variables and estimation of punitive sentiment via an error-correction model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MEASURING PUNITIVE SENTIMENT</head><p>The survey record provides an empirical foundation for gauging the shift in punitive sentiment over time. For instance, the Gallup organization has asked Americans, "Are you in favor of the death penalty for a person convicted of murder?" a total of 45 times since 1936. Yet, the question has not been asked on a regular basis. Instead, it appears sporadically from year to year with sizable gaps between administrations, making it unusable for any systematic analysis of opinion toward the death penalty. Moreover, even if such a question were asked on a regular basis, it would only capture opinions on a single issue-one aspect of punitiveness. Such an analysis fails to capture public sentiment regarding other aspects of punitiveness such as the toughness of courts, the authority of law enforcement, and the role of prisons.</p><p>Fortunately, support for capital punishment is not the only question pollsters have asked in regard to punitive policies. Pollsters have asked about policies such as rehabilitation, the toughness of courts, three-strikes laws, and increasing the authority of law enforcement-questions that when taken together can provide a more complete portrait of the public's punitiveness. It is likely that these questions measure a common phenomenathe degree to which the public supports punitive policies in the abstract. In fact, each question can be thought of as being composed of two sources of variation. The first source of variation is related to the public's latent support for punitive policies. This variation is needed to develop a measure of punitive sentiment. The second source is variation that is indicator specific. This variation is attributed to survey effects (i.e., differences in question wording and interviewer effects) along with variation connected to the support for the specific policy-sans the individual's overall support or opposition toward punitive policies. The problem facing researchers amounts to extracting the indicator-specific variance from the common variance related to the latent concept of punitive sentiment-variance that is shared across multiple indicators. Does a common component underlie different indicators of public support for punitive policies? If the concept of punitive sentiment is valid, then indicators of specific punitive policies should move together across time. If the concept of punitive sentiment is meaningless, then each policy-specific indicator should move randomly across time independent of each other. The top panel of <ref type="figure" coords="8,148.58,556.60,32.67,9.21" target="#fig_0">figure 1</ref> plots the percentage of citizens providing a more punitive response to four questions relating to different punitive policies: support for capital punishment, tougher judicial sentencing, increasing the Kefauver Committee authority of law enforcement, and increasing spending for tougher police enforcement. 2 The responses to each of these questions are standardized, shown as deviations from their mean, which allows a more straightforward comparison. In addition, a moving average index of all four of these standardized indicators is shown alongside the survey marginals to provide a sense of the shared variation across these measures. In each instance, higher values represent a more punitive response.</p><p>The top panel of <ref type="figure" coords="10,158.55,162.08,32.67,9.21" target="#fig_0">figure 1</ref> shows that the items exhibit similar movement despite measuring different aspects of criminal justice policy. Public support for all four policies increased during the 1970s, plateaued in 1994, and declined afterward. Although the absolute values of each question differ, the relative changes within each item move in tandem. The Pearson correlation among the death penalty, judicial sentencing, and crime spending measures range from .80 to .88, whereas the law enforcement item correlates with the death penalty item at .64, the judicial item at .61, and the crime spending item at .84. Although there is variation unique to each indicator, a common element moves support toward each of these policies. The index combining each item takes us beyond visual associations of the data and shows the possibility for a common dimension of punitive sentiment.</p><p>Underlying each of these four indicators seems to be a common element. However, a moving average index of four issues does not capture the broader concept of punitive sentiment. Punitive sentiment is more extensive than support for any specific policy. It encompasses support toward all criminal justice policies. Second, the moving average does not account for differences across questions as a result of survey effects <ref type="bibr" coords="10,333.34,365.32,62.68,9.21;10,73.25,377.27,58.53,9.21" target="#b55">(Schuman and Presser, 1981)</ref>. Differences in question wording, response options, and survey sampling techniques can all create artificial differences in polling results that make the absolute values of survey marginals incomparable across questions. Finally, a moving average fails to account for missing data because of the infrequent administration of each question.</p><p>Tackling these problems requires the use of a "recursive dyadic dominance algorithm" <ref type="bibr" coords="10,152.88,449.00,66.70,9.21" target="#b63">(Stimson, 1999)</ref>, akin to a dynamic factor analysis with 2. The questions regarding police spending and law enforcement authority are from the GSS, whereas the questions regarding capital punishment are taken from the Gallup Poll. The judicial sentencing responses come from both the GSS and the Gallup Poll. The data were obtained from the Roper Center Public Opinion Archive. Question details are provided in appendix A of the online supporting information. Additional supporting information can be found in the listing for this article in the Wiley Online Library at http://onlinelibrary.wiley.com/doi/10.1111/1745-9125.12006/crim.2011.51.issue-2/issuetoc. missing data. First, a reliable and valid indicator of the concept of punitive sentiment would consist of all questions asking Americans about some aspect of the punitiveness of the criminal justice system rather than the few issues discussed earlier. A search of the Roper Center Public Opinion Archive reveals that 24 distinct survey questions were asked at least two or more times between 1951 and 2006. These questions cover the most important and visible punitive policies in regard to public opinion during this time because they are the policies pollsters felt most compelled to ask about. These questions range from support for capital punishment to tougher law enforcement, the role of prisons, support for rehabilitation, increasing drug penalties, and favoring tougher judicial sentencing. Overall, we can leverage information from 242 administrations of 24 different survey items relating to public support for punitive policies. Thus, we have raw data of public support for a broad spectrum of punitive policies to create a measure of punitive sentiment that is more reliable than measuring support for any specific policy. 3 Second, the recursive dyadic algorithm extracts the shared variation across questions (i.e., issues) from the indicator-specific variance removing question-specific variation and idiosyncratic error. The methodology rests on the reasonable assumption that a survey indicator is comparable with itself at different time points. Then, we can express each survey marginal (i.e., the percentage of respondents favoring a more punitive policy) as a ratio to some fixed point-the initial or final administration of the question. Expressing each indicator as a ratio places the different survey questions on a common metric of ratios. Although the absolute values of survey marginals are incomparable across indicators, the ratio of change across indicators is comparable because ratios are on a common metric. Therefore, if more people prefer a punitive solution on I indicators at time t relative to some previous period t -k, then we can say the public became more punitive on those indicators between time t and t -k. <ref type="bibr" coords="11,333.32,423.54,3.49,6.44">4</ref> Comparable metrics (in ratios) now permit averaging across questions (i.e., issues). The procedure then derives to a simple averaging process across all issues I available for period t and all available dyadic comparisons J for issue i:</p><formula xml:id="formula_0" coords="12,151.11,103.07,165.63,45.64">sentiment = n i=1 t j=1 u 2 i × issue i j issue ib × M b n</formula><p>where b is the base period for the recursive metric generation and M b is the value of the metric for period b. The algorithm starts by setting issues in the period t on a common metric of ratios from time t to t -1. It then estimates the latent concept recursively, reestimating the series from period t -1 until it reestimates the series n times for all t to t -k. The algorithm then reestimates the series using forward recursion from time t -k to time t. The algorithm also estimates the association between each issue and the latent variable as in a factor analysis. The weight u i 2 is an estimate of association of each issue with the latent variable-the common variance shared between each question (i.e., issue).</p><p>The backward and forward recursion process also provides estimation and imputation of missing points in the series leveraging on the large amount of data that is available. Missing ratios within an individual question are imputed based on the weighted average of the ratios that are observable in the data. If a single indicator is unavailable at time t, but I indicators show an increase from time t to t + 1, then the final index will show an increase in proportion to the weight u i 2 of I indicators to the latent variable. The methodology has been validated and used to study a wide range of political opinions such as the movement over time in public liberalism <ref type="bibr" coords="12,354.78,377.27,41.24,9.21;12,73.25,389.22,21.91,9.21" target="#b63">(Stimson, 1999)</ref>, political trust <ref type="bibr" coords="12,161.52,389.22,56.14,9.21" target="#b32">(Keele, 2007)</ref>, congressional approval <ref type="bibr" coords="12,326.15,389.22,69.91,9.21;12,73.25,401.18,100.35,9.21" target="#b17">(Durr, Gilmour, and Wolbrecht, 1997;</ref><ref type="bibr" coords="12,180.33,401.18,68.18,9.21" target="#b48">Ramirez, 2009)</ref>, and racial policy preferences <ref type="bibr" coords="12,73.25,413.14,70.05,9.21" target="#b33">(Kellstedt, 2003)</ref>.</p><p>The punitive sentiment index is generated using all 242 administrations of 24 different survey questions using the dyadic ratios algorithm implemented in the open-source WCalc software. The bottom panel of <ref type="figure" coords="12,332.60,449.00,33.66,9.21" target="#fig_0">figure 1</ref> shows the longitudinal measure of punitive sentiment for the years 1951 to 2006.</p><p>Higher values indicate greater public support for punitive policies. Several historical events are labeled alongside the index as reference points.</p><p>Several scholars have suggested that the public permanently favors punitive solutions to crime <ref type="bibr" coords="12,194.43,508.78,69.31,9.21" target="#b23">(Freiberg, 2001;</ref><ref type="bibr" coords="12,267.20,508.78,64.33,9.21" target="#b25">Garland, 1996;</ref><ref type="bibr" coords="12,335.00,508.78,56.63,9.21" target="#b65">Sutton, 1997)</ref>. <ref type="bibr" coords="12,73.25,520.73,183.28,9.21">Zimring, Hawkins, and Kamin (2001: 178)</ref>, for instance, noted that public support for punitive policies is a "historical constant." In contrast, the index shows a dynamic public sentiment. Punitive sentiment moves slowly over time with few periods of abrupt change, but it does move. Support begins relatively high in 1951 and shows a steady decline thereafter. Contrary to some accounts, punitive sentiment remains low after the Goldwater campaign in 1964 and the enactment of the Civil Rights Act <ref type="bibr" coords="13,343.39,401.18,25.85,9.21">(1964)</ref>. The large upturn in punitive sentiment occurs during the 1970s, after the tumultuous events of the 1960s and prior to the war on drugs in the 1980s. Punitive sentiment remains at a high equilibrium during the 1980s until 1997 when it experiences a decline back to similar levels as the 1950s. Overall, the public generally favors punitive policies, but there are periods when the public is more or less supportive of punitive solutions to crime. Examining the correlation among the individual survey indicators and the index of punitive sentiment provides additional evidence of the validity of the measure. Each indicator should have a strong relationship with the final index if the individual indicators represent some aspect of punitive sentiment. <ref type="table" coords="13,119.17,532.69,32.46,9.21" target="#tab_0">Table 1</ref> shows the commonality of each indicator to the final index of punitive sentiment. The commonalities, u i 2 , are equivalent to factor loadings. Almost all items have a positive commonality with the final index. Fifteen of the 24 items have a commonality of .80 or higher. Even the desire to increase spending on crime, an attitude that might relate more to ideology than punitive preferences, shows a commonality with the index at .70. These results suggest that support for each of these distinct policies moves in response to this common underlying national punitive sentiment and that the index is capturing this shared movement.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MEASUREMENT OF INDEPENDENT VARIABLES</head><p>Punitive sentiment should change in response to the political construction of crime by national political leaders. Although state and local political actors are important in fostering support for punitive policies among their local (and sometimes national) constituencies at specific periods of time, these subnational leaders rarely sustained influence on the crime issue over the entire time period of analysis. Instead, this research focuses on presidential framing of crime because the president is one of the few political actors who has constant national visibility across the entire time period of interest. The president also has the ability to set the political agenda for the nation <ref type="bibr" coords="14,103.90,264.66,70.53,9.21" target="#b41">(Neustadt, 1990)</ref>. Although it is clear the president does not represent the complete construction of crime, he should serve as the best proxy for the multitude of politics actors that engaged in the construction of crime. By focusing on the president, this analysis provides a conservative estimate of the effect of frames. <ref type="bibr" coords="14,170.93,310.93,3.49,6.44">5</ref> To measure the construction of crime, this research analyzes all presidential statements regarding "crime" or "criminal behavior." The data are taken from the Public Papers of the President compiled by the Office of the Federal Register, National Archives, and Records Administration. Each sentence mentioning "crime" or "criminal behavior" was coded as fitting the permissive frame, the treatment frame, or neither frame. The permissive frame connects statements about the "coddling" of criminals with the need for tougher crime policies. For example, Nixon's statement that "when permissive judges are more considerate of the pusher than they are of his victims, there is little incentive for heroin pushers to obey the law" provides an example of framing crime as a problem of a permissive criminal justice system. This finding is consistent with <ref type="bibr" coords="14,273.78,455.95,122.26,9.21;14,73.25,467.90,13.83,9.21">Beckett and Sasson's (2004: 78)</ref> statement that "the most common frame treats crime as a consequence of the failures of the criminal justice system: Criminals escape punishment because of legal technicalities, liberal judges, and permissive laws." Statements regarding the need to deal with crime by supporting policies such as 5. This does not assume that everyone will follow the president's lead. Members of the opposing party are likely to disapprove of the president's message, whereas members of the president's party are more likely to approve of the message, thus, canceling each other out in the aggregate. However, responsiveness among a single subgroup (i.e., moderates) can translate into aggregate shifts in punitive sentiment. drug treatment, education, or welfare (within the context of crime or punishment) would fall into the treatment frame. President Johnson's statement that "we cannot tolerate an endless, self-defeating cycle of imprisonment" or President Clinton's view that "we have to do more to prevent [crime] from occurring in the first place" are examples of a treatment frame. The number of pro-punitive (permissive) statements minus the number of treatment statements is used to create a measure of the net punitive tone of presidential statements regarding crime. The measure of net punitive tone is shown in <ref type="figure" coords="15,281.57,413.14,31.57,9.21" target="#fig_1">figure 2</ref>. Higher values on the y-axis indicate a more punitive stance among the president. The series shows few surprises: Nixon and Reagan took a pro-punitive tone, whereas Johnson and Carter focused on treating the social origins of crime. Clinton, however, deviated from partisan expectations by taking a pro-punitive tone. The data are consistent with an independent content analysis conducted by <ref type="bibr" coords="15,71.51,484.87,59.43,9.21" target="#b29">Holian (2004)</ref>, who also noted that Clinton took a "tough-on-crime" approach during his first term but started to balance his statements after gaining credibility on the issue.</p><p>Also, an expectation exists that punitive sentiment may change in response to shifts in the public's trust in political institutions and leaders. <ref type="bibr" coords="15,71.51,544.65,55.25,9.21" target="#b32">Keele (2007)</ref> developed an index of the nation's overall trust in government composed of responses to nine survey questions asked repeatedly between 1970 and 2000. The index aggregates the public's perception of the government to "do the right thing," "do a good job," "waste taxes," and succumb to the influence of "special interest" groups, in addition to questions measuring the public's general trust toward the government. Higher values on the index represent higher levels of diffuse trust in government. This research extends this measure to span from 1951 to 2006.</p><p>Punitive sentiment also may change in response to changing support for social welfare programs. The attack on social welfare programs as a solution to the nation's crime problem is expected to correlate with an increase in punitive sentiment. I use <ref type="bibr" coords="16,184.81,162.08,72.38,9.21" target="#b63">Stimson's (1999)</ref> measure of policy liberalism as an indicator of public support for social welfare programs. The measure combines public responses of support for a broad range of welfare policy programs such as food stamps, health care, education, and aid to the poor. Higher values on the policy liberalism index represent greater support for social welfare policies.</p><p>No single measure best captures the numerous ways race may affect punitive sentiment over time. Instead, this research relies on several measures to test different predictions regarding the role of race and punitive sentiment. First, it controls for the amount of reported crime committed by Blacks with the percentage of crimes committed by "negroes" or "Blacks" each year as reported by the Federal Bureau of Investigation's (FBI's) Uniform Crime Reports (UCR) program.</p><p>In addition, the model controls for changes in both objective and subjective racial conditions. According to racial threat theory, White Americans should become more supportive of punitive policies the more they perceive society becoming integrated. Racial integration perceptions are measured using a subset of questions regarding perceptions of racial integration taken from <ref type="bibr" coords="16,124.43,377.27,76.50,9.21" target="#b33">Kellstedt's (2003)</ref> index of racial policy preferences (questions measuring government programs to aid Blacks have been removed). The measure combines questions concerning perceptions of integration in areas such as schools and housing. Next, an objective measure of racial integration was created by combining U.S. Census data on the percentage of racial minorities in the population and schools relative to the White population. The models also control for racial crime coverage by measuring the frequency with which Blacks are included in Newsweek stories about crime. These data also derive from <ref type="bibr" coords="16,195.86,472.92,67.64,9.21" target="#b33">Kellstedt (2003)</ref>. <ref type="bibr" coords="16,267.82,471.36,3.49,6.44">6</ref> Punitive sentiment also may be responsive to policy changes. When policy becomes too permissive, the public may ask for more punitive policies 6. Of course, Newsweek does not represent all media coverage and is a sample of convenience because it is available over the entire time period of interest, is national in scope, and has maintained a major position among news magazines across time. <ref type="bibr" coords="16,118.12,561.61,59.31,7.82" target="#b33">Kellstedt (2003)</ref> showed that Newsweek coverage correlates with other major media outlets such as the New York Times; however, it may not represent all forms of media such as the Internet or partisan media sources. and vice versa. No single indicator of the punitiveness of criminal justice policy exists. However, annual state and federal incarceration rates capture the commitment of a variety of public officials: law enforcement personnel, prosecutors, judges, and legislators. The analysis uses the incarceration rate per 100,000 citizens in state and federal prisons taken from the Sourcebook of Criminal Justice Statistics published by the Bureau of Justice Statistics. The number of incarcerations is not entirely a function of the punitiveness of public officials. Instead, the more crimes that are committed, the more people are likely to be incarcerated. Controlling for crime in the statistical model should minimize this concern. <ref type="bibr" coords="17,81.47,197.95,60.32,9.21" target="#b74">Wilson (1975)</ref> argued that demand for punitive policies reflects a rational response to increases in street crime. When crime increases, the public demands punitive policies as a solution to the problem. This model includes the national homicide rate from the FBI's UCR to control for crime conditions. Estimating the models with the UCR crime index does not alter the conclusions. The model also controls for public concern about crime using the percentage of respondents each year naming crime as the nation's "most important problem" taken from the Policy Agenda's Project. <ref type="bibr" coords="17,333.93,280.07,3.49,6.44">7</ref> Separate measures for the proportion of Republicans in state legislatures and the proportion of Republican governors also are included in the model. Although it is difficult to capture all the nuances of state politics and state actors on punitive sentiment across such a long period of time, increases in Republican state governments should partly reflect a more punitive tone of subnational actors. Moreover, the composition of state legislators, unlike budgets or rhetoric, is one of the few measures that is consistent across each state since the 1950s. These data are derived from <ref type="bibr" coords="17,288.49,377.27,62.12,9.21" target="#b34">Klarner (2003)</ref>. Next, the model controls for drug usage across time combining three measures into an additive index. First, the index includes the number of "narcotics" arrests per 100,000 citizens as reported in Crime in the United States to control for overall drug usage. Second, it includes the number of drug fatalities each year, which provides a means to control the intensity of drug usage (more intense drug usage results in more fatalities). 8 Finally, it includes the amount of cocaine seizures (in lbs) by the Drug Enforcement Agency available in the Sourcebook of Criminal Justice Statistics. This controls for the crack-cocaine epidemic because there is no specific measure of crack-cocaine usage across time. The Cronbach reliability coefficient for the index is .82, suggesting these indicators measure a common phenomenon.</p><p>7. More information about the policy agenda project can be found at http:// www.policyagendas.org/. 8. These data are available from the Center for Disease Control Mortality Database and Vital Statistics of the United States for the categories "Drug Dependence," "Dependence Syndrome," and "Other Drug Addiction."</p><p>To control for the possibility that exonerations influence punitive sentiment, the model includes the number of exonerated death row inmates each year. Research has suggested that the increase of exonerations has reduced support for the death penalty <ref type="bibr" coords="18,201.17,114.25,194.86,9.21" target="#b3">(Baumgartner, De Boef, and Boydstun, 2008;</ref><ref type="bibr" coords="18,73.25,126.22,113.78,9.21" target="#b69">Unnever and Cullen, 2005)</ref>, which might generalize to punitive policies (but see <ref type="bibr" coords="18,90.19,138.17,115.06,9.21" target="#b44">Peffley and Hurwitz, 2007)</ref>. Death row exonerations are used because data are readily available and such exonerations are more likely to be visible to the public. These data are compiled from the Innocence List, the Death Penalty Information Center List of Exonerated Death Row Inmates, the Center for Wrongful Convictions, and the Innocence Project.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ESTIMATION AND RESULTS</head><p>Punitive sentiment is estimated using a single-equation error-correction model (ECM) <ref type="bibr" coords="18,136.41,241.33,95.07,9.21" target="#b14">(Davidson et al., 1978)</ref>. The ECM assumes that punitive sentiment exists at a stable equilibrium with short-term movements occurring in response to changes in weakly exogenous independent variables. However, disequilibrium may exist between punitive sentiment and movement in each independent variable leading to a long-term readjustment in punitive sentiment. In the bivariate case, the ECM is:</p><formula xml:id="formula_1" coords="18,151.33,322.96,173.52,11.16">Y t = α 0 + α 1 Y t −1 + β 0 X t + β 1 X t−1 + e t</formula><p>where changes in punitive sentiment ( Y t ) are a function of a constant (α 0 ), the past value of punitive sentiment (α 1 Y t−1 ), the changes (β 0 X t ) and lagged level (β 1 X t−1 ) of a weakly exogenous variable X, and an error term (e t ); is the difference operator. The error correction coefficient α 1 indicates the speed of return to equilibrium of punitive sentiment after a deviation from its equilibrium with X, β 0 reflects the short-term shift from a change in X, and β 1 indicates the long-term relationship between X and Y.</p><p>The ECM has several advantages over alternative models for estimating time-series data. First, it estimates directly both short-term and long-term relationships between each covariate and punitive sentiment. The estimation allows for the calculation of unique decay rates for each variable rather than assumes a common rate of decay. Second, it provides efficient estimation in the presence of nonstationary variables <ref type="bibr" coords="18,283.90,489.48,70.43,9.21" target="#b15">(De Boef, 2000;</ref><ref type="bibr" coords="18,358.02,489.48,37.99,9.21;18,73.25,501.44,82.97,9.21" target="#b16">De Boef and Granato, 1997)</ref>. <ref type="bibr" coords="18,160.60,499.88,3.49,6.44">9</ref> The ECM also allows for various lag structures. The 9. The measures for incarcerations, drug usage, exonerations, and the racial integration index exhibited trend nonstationarity, which was removed using the Hodrick-Prescott filter. A series of stationarity tests shows no consistent evidence of drift, trends, or random walks in the changes of the other variables (shown in appendix B in the online supporting information). is the first-difference operator. N = 55 for models 1 and 2. N = 53 for model 3. None of the models show signs of higher ordered autocorrelation or autoregressive conditional heteroskedasticity (ARCH) disturbances. † p &lt; .10; * p &lt; .05.</p><p>Bayesian information criterion (BIC) statistic suggests a single lag structure for each variable provides the best fit to the data (see appendix B in the online supporting information for details).</p><p>Model 1 in table 2 shows the estimates of punitive sentiment from 1951 to 2006. Consistent with <ref type="bibr" coords="19,165.17,520.73,61.78,9.21" target="#b4">Beckett (1997)</ref>, punitive sentiment moves in response to statements framing crime as a problem of a permissive system (which she referred to as the "respect for authority" frame). The coefficient on the net punitive tone of presidential statements is positive and statistically significant. The ECM provides new insight into the dynamics between presidential tone and punitive sentiment. A single statement by the president is estimated to increase punitive sentiment by an immediate .06 points. Punitive sentiment will increase another .06 points during the next year. Moreover, it will continue to shift at a rate determined by the error-correction coefficient (α 1 ) until it changes a total of .16 points (total change = ß 1 /α 1 ). This suggests that presidential statements about crime have a stickiness or persistence in shaping how citizens think about solutions to crime.</p><p>Although the estimates seem small, presidential tone can have a sizable influence on punitive sentiment. A standard deviation (SD) change in presidential tone (SD = 14.36 statements) is estimated to result in an immediate .86 point shift in punitive sentiment and in a total shift of 1.72 points. The latter is about half a standard deviation in the punitive sentiment series and bolsters the important relationship between punitive sentiment and the political construction of crime.</p><p>These results deviate from existing microlevel cross-sectional research regarding the effect of crime and concern for crime on support for punitive policies <ref type="bibr" coords="20,127.87,269.68,160.75,9.21" target="#b12">(Cohn, Barkan, and Halteman, 1991;</ref><ref type="bibr" coords="20,291.59,269.68,99.48,9.21;20,73.25,281.63,48.46,9.21" target="#b35">Langworthy and Whitehead, 1986;</ref><ref type="bibr" coords="20,124.25,281.63,111.63,9.21" target="#b56">Secret and Johnson, 1989;</ref><ref type="bibr" coords="20,238.42,281.63,101.10,9.21" target="#b68">Tyler and Weber, 1982;</ref><ref type="bibr" coords="20,342.06,281.63,49.58,9.21" target="#b72">Warr, 1995)</ref>. <ref type="bibr" coords="20,73.25,293.59,88.30,9.21">Beckett (1997: 25-7)</ref> summarized this perspective, concluding that the "risk of or anxiety of criminal victimization cannot explain support for tough anticrime policies." Contrary to this view, public concern for crime shows a positive and statistically significant relationship with punitive sentiment. This finding is consistent with <ref type="bibr" coords="20,210.62,341.41,85.94,9.21" target="#b52">Scheingold's (1984)</ref> assessment that punitive policies may provide a sense of security to those who are frightened about crime. A percentage increase in public concern is estimated to increase punitive sentiment by 6.81 points. Although this change seems substantial, public concern for crime never changes an entire percentage point in the time period under analysis. The standard deviation shift in public concern for crime between 1951 and 2006 is .08 points, suggesting the average shift in punitive sentiment from crime concern is a much more modest .54 points. The largest shift in public concern or crime (.19 points) occurs from 1993 to 1994. This finding translates into an immediate 1.29 point shift in punitive sentiment during the last peak in the punitive sentiment series. <ref type="bibr" coords="20,83.21,472.92,89.44,9.21">Beckett (1997: 25-7)</ref> also suggested that the role of crime and drug conditions is to provide legitimacy to the political construction of crime. Interacting presidential tone with the homicide rate and the drug usage measure failed to show a statistically significant conditional effect (results are available from the author). However, table 1 shows that a point increase in the homicide rate is estimated to increase punitive sentiment directly by .39 points. Although the estimated relationship seems large, the homicide rate does not move very much on a year-to-year basis, suggesting the actual estimated relationship between punitive sentiment and homicides is more modest. Whereas a standard deviation shift in the net punitive tone shifts punitive sentiment 1.72 points, a standard deviation in the homicide rate (SD = 2.00) only shifts punitive sentiment by .78 points. Moreover, the effect of homicides on punitive sentiment is not immediate. Instead, the public slowly updates its preferences when crime conditions change. This finding is consistent with <ref type="bibr" coords="21,181.37,126.22,65.37,9.21" target="#b39">Mayer's (1993)</ref> estimate of aggregate support for capital punishment lagging several years behind the homicide rate. Substantively, this result suggests that it takes time for the public to receive, process, and update information about crime before updating its policy preferences. Failure to consider this temporal process can obfuscate the reaction of citizens to crime on the streets.</p><p>In addition, increases in drug usage show an immediate and long-term relationship with punitive sentiment. The coefficient for the short-term changes and the lagged levels in drug usage are positive and statistically significant. The latter is consistent with the expectation that drug usage, particularly the rise of crack cocaine, is correlated with public support for punitive policies <ref type="bibr" coords="21,144.58,257.72,65.02,9.21" target="#b4">(Beckett, 1997;</ref><ref type="bibr" coords="21,212.10,257.72,71.66,9.21" target="#b7">Blumstein, 2003;</ref><ref type="bibr" coords="21,286.27,257.72,100.54,9.21" target="#b31">Kautt and Spohn, 2002)</ref>.</p><p>The estimates fail to show a relationship between trust and punitive sentiment. Instead, it seems that a lack of public support for government welfare policies, rather than a decline in trust, correlates with changes in punitive sentiment. A unit decrease in support for welfare policies results in a lagged .22 point decrease in punitive sentiment. Substantively, a standard deviation change in public liberalism (4.69 points) results in a total 1.03 point shift in punitive sentiment-slightly less than the effect that presidential tone has on punitive sentiment. This finding suggests that the attack on social liberalism was a successful strategy for increasing public support for punitive crime control policies.</p><p>The composition of state legislatures also shows a statistically significant relationship with punitive sentiment. An increase in the number of Republican state legislatures results in an immediate and long-term change in punitive sentiment. The composition of state governors does not seem to have an influence on national punitive sentiment. Incarcerations also fail to show a relationship with punitive sentiment. Including only the federal incarceration rate does not alter the results.</p><p>The model also shows a statistically significant relationship between perceptions of racial integration and punitive sentiment. A shift in public perceptions that racial integration is increasing results in an immediate .29 point increase in punitive sentiment. A standard deviation shift in racial integration perceptions (SD = 4.47) results in a total 1.29 point shift in punitive sentiment, which is larger than the effect of presidential tone or public liberalism.</p><p>Model 2 in table 2 includes the measure of stories connecting Blacks to crime in Newsweek. The results are largely consistent with model 1-presidential tone, public liberalism, drug usage, crime conditions, public concern for crime, and perceptions of racial integration influence punitive sentiment. However, racial crime coverage does not show a statistically significant relationship with punitive sentiment. Of course, this could be a function of the limitations with the measure. Model 3 in table 2 replaces the measure of racial crime coverage with a measure of objective racial integration. Although the rest of the coefficient estimates are consistent with the preceding results, objective racial integration seems to play little role in shaping punitive sentiment. Rather, it is the public's perceptions of those conditions that matters. By altering public perceptions of racial integration, political entrepreneurs have another route to promote tough-on-crime policies.</p><p>The ECM assumes the independent variables are weakly exogenous to punitive sentiment <ref type="bibr" coords="22,159.56,221.85,101.22,9.21" target="#b14">(Davidson et al., 1978;</ref><ref type="bibr" coords="22,264.93,221.85,66.96,9.21" target="#b15">De Boef, 2000)</ref>. Several tests were conducted that demonstrated conditions that violate this assumption. De <ref type="bibr" coords="22,90.59,245.76,52.77,9.21" target="#b15">Boef (2000)</ref> showed that this assumption may be violated if the autoregressive integrated moving average (ARIMA) innovations from each covariate are strongly correlated with the residuals from the ECM. <ref type="table" coords="22,371.12,269.68,24.91,9.21;22,73.25,281.63,4.98,9.21" target="#tab_2">Table  3</ref> shows the Pearson correlation r for the ARIMA innovations from each covariate shown in the first column with the residuals from model 1 in table 2. None of the ARIMA innovations show a strong correlation with the residuals from the model, which is consistent with the weak exogeneity assumption. <ref type="table" coords="22,83.21,341.41,32.76,9.21" target="#tab_2">Table 3</ref> also shows the results of regressing the lagged levels of punitive sentiment on the ARIMA innovations of each covariate shown in column 1. In the absence of knowing the true data-generating process of each covariate, the ARIMA innovations provide the best estimate of each series <ref type="bibr" coords="22,73.25,389.23,69.59,9.21" target="#b15">(De Boef, 2000)</ref>. The coefficient under punitive sentiment represents the relationship of punitive sentiment on each covariate while controlling for the inherent ARIMA movement in each series. None of the estimates show a relationship with punitive sentiment, which is consistent with the weak exogeneity assumption <ref type="bibr" coords="22,165.46,437.05,170.26,9.21">(Charemza and Deadman, 1997: 264-6)</ref>. <ref type="table" coords="22,343.14,437.05,32.82,9.21" target="#tab_2">Table 3</ref> also shows that punitive sentiment explains little, if any, of the variance of each independent variable as indicated by the R-squared column. Finally, table 3 shows the results of a Granger causality test. The vector autoregression equation estimated the incarceration rate, exonerations, public liberalism, and presidential tone as endogenous to punitive sentiment while controlling for the other covariates in the model because it is unlikely that crime conditions, drug usage, or racial integration respond to punitive sentiment directly. None of the p values are statistically significant, suggesting punitive sentiment does not cause any of the potentially endogenous covariates in the model. Of course, these tests do not eliminate the potential for more complex relationships, but the results are consistent with the assumption necessary for efficient and unbiased estimation. .01 -</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>NOTES:</head><p>The r value shows the Pearson correlation coefficient r between the residuals of model 1 and the ARIMA innovations of each variable shown in column 1. None of the relationships show a strong correlation consistent with the weak exogeneity assumption <ref type="bibr" coords="23,359.92,284.84,34.35,7.36;23,71.50,293.80,17.53,7.36" target="#b15">(De Boef, 2000)</ref>. a The coefficients under punitive sentiment represent the lagged effect of punitive sentiment on the movement in each dependent variable in the first column. SE represents the standard error of that coefficient. The R 2 column shows the percentage of each dependent variable explained by punitive sentiment sans the ARIMA processes of each variable. N = 56. b These p values are from a post-VAR Granger causality test. All p values are consistent with the null hypothesis that punitive sentiment does not Granger cause the dependent variable shown in column 1. The VAR includes controls for the homicide rate, crime concern, drug usage, trust in government, state party balance, and all of the race measures. N = 55. The combination of weak exogeneity and the absence of Granger causality is consistent with an assumption of strong exogeneity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUBGROUP ANALYSIS</head><p>Microlevel studies consistently show a great deal of heterogeneity in punitive attitudes among various demographic groups <ref type="bibr" coords="23,317.46,436.13,71.95,9.21;23,71.51,448.08,42.67,9.21" target="#b8">(Bobo and Johnson, 2004;</ref><ref type="bibr" coords="23,117.03,448.08,101.48,9.21" target="#b27">Gault and Sabini, 2000;</ref><ref type="bibr" coords="23,221.36,448.08,172.93,9.21" target="#b40">Messner, Baumer, and Rosenfeld, 2006;</ref><ref type="bibr" coords="23,71.51,460.03,114.28,9.21" target="#b69">Unnever and Cullen, 2005)</ref>. Aggregation of punitive sentiment across these groups might obfuscate distinctions in the dynamics of punitive sentiment. Therefore, measures of punitive sentiment were created for theoretically important subgroups using a subset of indicators from the punitive sentiment index. 10 <ref type="figure" coords="23,141.93,507.86,37.42,9.21" target="#fig_2">Figure 3</ref> shows the movement of punitive sentiment for various subgroups. Panel 1 shows the punitive sentiment of Blacks and 10. These indicators derive from the GSS and cover public support for capital punishment, tougher courts, increasing the authority of law enforcement, and increasing police resources to fight crime. Using a subset of indicators is necessary because the complete set of questions used in the index is not available by subgroup.  <ref type="bibr" coords="24,379.92,388.60,4.24,5.44;24,128.90,528.40,23.41,9.74;24,167.73,528.40,23.41,9.74;24,206.57,528.40,23.41,9.74;24,245.40,528.40,23.41,9.74;24,284.24,528.40,23.41,9.74">R 1975 1980 1985 1990 1995</ref>  Whites, men and women, and different educational groups move in tandem despite different levels of support. The correlation of punitive sentiment among men and women is .91, Blacks and Whites is .78, and citizens with a high-school degree or less and a college degree is .90. Panel 2 shows different levels of punitive sentiment across Democrats, Republicans, and Independents. Republican sentiment seems stable, but the correlation over time with the other partisan groups is higher than .77, indicating that aggregate punitive sentiment does not obfuscate differences in the movement of sentiment among partisans.</p><formula xml:id="formula_2" coords="24,115.84,373.75,260.56,26.35">R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R R</formula><p>It is possible that the South exhibits a unique sense of punitiveness relative to other regions of the country <ref type="bibr" coords="26,239.71,197.95,67.94,9.21" target="#b26">(Garland, 2001)</ref>. Panel 3 shows the movement in punitiveness across different regions of the country. 11 Each region shows similarity in both levels and movement over time, although the data cannot speak to earlier generations. Finally, some movement in aggregated punitive sentiment might derive from generational replacement rather than from the factors estimated by the model. Panel 4 shows the dynamics of punitive sentiment for two age cohorts. One age cohort is composed of respondents who were between 18 and 29 years of age in 1972. The second cohort is composed of respondents between 45 and 65 years of age in 1972. The punitive sentiment of these groups moves together over time contrary to the occurrence of significant generational replacement. Overall, these results suggest punitive sentiment is similar across the dominant political cleavages in American politics.</p><p>Finally, the relationship among covariates and punitive sentiment might differ for several of these subgroups. Whites and Blacks have been shown to differ in their support for punitive policies <ref type="bibr" coords="26,259.97,377.27,112.76,9.21" target="#b8">(Bobo and Johnson, 2004)</ref>, and it is unlikely that perceptions of racial integration would influence the sentiment of Blacks. In addition, because Blacks are more reliant on government social programs, public liberalism should have less of an influence on their support for punitive policies. <ref type="table" coords="26,199.02,425.09,32.20,9.21" target="#tab_3">Table 4</ref> shows estimates of punitive sentiment for Whites and Blacks. Presidential tone continues to a show a positive and significant relationship with the punitive sentiment of both of these groups. However, public liberalism and racial threat are only connected to the punitive sentiment of Whites. <ref type="table" coords="26,83.22,484.87,33.12,9.21" target="#tab_3">Table 4</ref> also shows the estimates of punitive sentiment for Republicans and Democrats because presidential tone might influence these groups in unique ways. The results, however, show that increases in presidential tone increase the punitive sentiment of both partisan groups. The key difference among partisans is that decreases in support for liberal social programs 11. The South includes both the South Atlantic and South Central regions, the Northeast contains the New England and Middle Atlantic regions, and the Midwest contains the East North Central and West North Central regions per the GSS coding. increase support for punitive policies among Democrats and not Republicans. The latter likely occurs because Republicans already tend to hold strong opposition toward such programs, leaving little room for change. Republicans do show a relationship between declining levels of trust in government and declines in support for punitive policies. Moreover, Republicans are the only partisan group to show a positive and statistically significant relationship between perceptions of racial integration and support for punitive policies. Finally, estimates for women and respondents in the South are shown in table 4. Women have been shown to be more compassionate than men <ref type="bibr" coords="28,73.25,197.95,55.48,9.21" target="#b46">(Piven, 1985)</ref>, and citizens in the South seem to be more punitive than the rest of the nation <ref type="bibr" coords="28,156.64,209.90,68.49,9.21" target="#b26">(Garland, 2001)</ref>. However, the estimates suggest that these groups respond to many of the same factors as national punitive sentiment. Punitive sentiment increases for both groups in response to increases in the punitiveness of presidential statements on crime and increasing perceptions of racial integration. Similar to Republicans, Southern respondents decrease their support for punitive policies when their trust in government declines. Overall, the results show that pleas to limit the permissiveness of the criminal justice system do not just influence the punitive sentiment of the racially prejudice or those opposed to "social reform" <ref type="bibr" coords="28,330.30,305.54,65.75,9.21;28,73.25,317.49,12.24,9.21">(Beckett, 1997: 84)</ref>, but instead these pleas appeal across a variety of subgroups.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSION</head><p>The public's punitive sentiment has been argued to be an important component of America's criminal justice system <ref type="bibr" coords="28,276.65,377.27,67.09,9.21" target="#b4">(Beckett, 1997;</ref><ref type="bibr" coords="28,348.31,377.27,47.74,9.21;28,73.25,389.22,54.42,9.21" target="#b18">Edsall and Edsall, 1992;</ref><ref type="bibr" coords="28,130.09,389.22,49.99,9.21" target="#b24">Frost, 2010;</ref><ref type="bibr" coords="28,182.51,389.22,63.29,9.21" target="#b26">Garland, 2001;</ref><ref type="bibr" coords="28,248.22,389.22,74.89,9.21" target="#b28">Gottschalk, 2006;</ref><ref type="bibr" coords="28,325.54,389.22,70.50,9.21" target="#b54">Schneider, 2006;</ref><ref type="bibr" coords="28,73.25,401.18,55.99,9.21" target="#b57">Simon, 2007;</ref><ref type="bibr" coords="28,132.65,401.18,54.88,9.21" target="#b66">Tonry, 1995;</ref><ref type="bibr" coords="28,190.96,401.18,53.85,9.21" target="#b74">Wilson, 1975</ref>). Yet, capturing this concept in a systematic fashion has eluded researchers. Instead, most of the focus has been on explaining individual-level punitive attitudes. This research has developed a measure of punitive sentiment over time from 1951 to 2006. In stark contrast to individual-level attitudes, aggregate punitive sentiment shows substantial variation over time. The movement in punitive sentiment is on par with the movement in public support for social welfare policies <ref type="bibr" coords="28,73.25,484.87,66.82,9.21" target="#b63">(Stimson, 1999)</ref>. This measure illuminates substantial declines in support for punitive policies during the 1950s, 1960s, and late 1990s. And although most scholars might have anticipated the midseries increase in punitive sentiment, the measure shows the most substantial increases occurred during the 1970s rather than the 1960s as often is assumed. Substantively, this result implies that punitive sentiment is not deterministic, and the public may be more open to alternative solutions to crime during certain periodssomething that is bolstered by recent support for prison reform by politicians across the ideological spectrum.</p><p>In addition, the measure of punitive sentiment shows that public support toward specific punitive policies, often thought to be independent of each other, move in tandem over time. Substantively, this creates an easyto-follow signal for policy makers to follow. But it is precisely this general sentiment that often leads policy makers astray from the more complex individual-level preferences of the public <ref type="bibr" coords="29,271.74,138.17,82.38,9.21">(Tonry, 1995: 34-5)</ref>. Following this sentiment may ignore the more benevolent instincts of Americans and the complex connections among various social policies. Indeed, this research shows a strong connection between public support for social welfare policies and support for punitive solutions to crime. That the increase in support for punitive policies occurred at the same time as the public turned away from the New Deal and Great Society solutions to poverty is no coincidence. Conservative politicians implemented a strategy that connected these issues, along with the civil rights movement, to the coddling of criminals and need for punitive solutions to crime.</p><p>Furthermore, these results show the movement in punitive sentiment is far from random. The ups and downs of punitive sentiment are driven by important political factors such as the construction of crime by political leaders. The framing of crime as a problem of a permissive system and increasing perceptions of racial integration increased public demand for punitive policies. Both are normatively unappealing-the former because it suggests the public can be led into supporting unnecessary and costly policies in addition to objective crime conditions, and the latter because it provides a new way of supporting a long-held argument that punitive policies serve as a means of social control of minority populations. Such policies have led to the mass imprisonment of minorities and destroy valuable social structures, making it difficult for future generations of minorities to succeed <ref type="bibr" coords="29,71.51,401.19,150.55,9.21" target="#b49">(Rodriguez, Smith, and Zatz, 2009;</ref><ref type="bibr" coords="29,224.57,401.19,93.86,9.21" target="#b50">Rose and Clear, 1998)</ref>.</p><p>It should go without saying that these processes are part of a complex system. The research provided in this article examines a single slice of that system, what explains punitive sentiment, without analyzing more complex causal connections. Although examining such a slice does not capture the complexity of the system accurately, it does illuminate a portion of the system related to the determinants of punitive sentiment. Punitive sentiment, in turn, also may influence the policies enacted by politicians and subsequently policy outcomes. Thus, the measure of punitive sentiment should contribute to future research projects that attempt to understand the relationship among various components of the criminal justice system. Moreover, scholars will be able to update the measure as more data become available extending the utility of the measure.</p><p>This measure should help develop new insight into critical questions regarding crime and punishment in America. For instance, scholars frequently discuss the question of when and why the public became punitive. At what time point and for what reason(s) did the public begin to shift its support away from treating the social causes of crime to supporting punishing criminal behavior? Cross-sectional designs cannot provide answers regarding change over time. Qualitative researchers studying the historical record often come to different answers because such evidence is open to interpretation. The measure of punitive sentiment can provide a means to answer these questions with empirical data beyond the models tested in this research. Future research also will be able to examine the political consequences of changes in punitive sentiment. How does punitive sentiment shape judicial decisions and the punitiveness of criminal sentencing? Do changes in the toughness of court decisions correlate with changes in punitive sentiment? Does the increase in punitiveness correspond to a similar increase in support for prison privatization, or are these distinct preferences? What other aspects of race correlate with changes in punitive sentiment beyond racial integration? It should be clear that the research developed in this study is just a small portion of the potential usage of a measure of punitive sentiment over time. Such a measure should go a long way in helping scholars understand the complex nature of America's changing punitive landscape.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="9,93.95,553.50,11.05,33.89;9,93.95,541.54,11.05,8.97;9,93.95,483.76,11.05,51.81;9,93.95,470.13,11.05,10.64;9,93.95,423.28,11.05,43.86;9,93.95,367.14,11.05,53.15;9,93.95,328.27,11.05,35.89;9,93.95,298.05,11.05,27.25;9,93.95,275.79,11.05,19.27;9,93.95,232.93,11.05,39.87;9,93.95,177.46,11.05,52.51"><head>Figure 1 .</head><label>1</label><figDesc>Dynamics of Punitive Sentiment Across Time and</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="15,71.51,78.17,304.30,11.05;15,123.32,92.12,62.48,11.05"><head>Figure 2 .</head><label>2</label><figDesc>Net</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="24,73.25,78.28,322.52,11.05"><head>Figure 3 .</head><label>3</label><figDesc>Punitive</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="25,71.51,78.17,109.98,11.05"><head>Figure 3 .</head><label>3</label><figDesc>Continued</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="13,71.50,78.28,322.80,295.68"><head>Table 1 .</head><label>1</label><figDesc>Commonality of Indicators with the Punitive Sentiment IndexNOTES: Appendix A in the online supporting information contains the exact question wording of each indicator. All indicators are taken from nationally representative samples within the United States from the Roper Center Public Opinion Archive.</figDesc><table coords="13,71.50,112.80,322.78,228.50">Survey House 
+Item 
+Observations Commonality with Index 
+
+Gallup 
+Judicial sentencing 
+7 
+.84 
+GSS 
+Judicial sentencing 
+26 
+.83 
+Harris 
+Death penalty 
+12 
+.94 
+Gallup 
+Death penalty 
+42 
+.93 
+Gallup 
+Death penalty (under 21) 
+3 
+-.53 
+Gallup 
+Death penalty (options 1) 
+11 
+.63 
+Gallup 
+Death penalty (options 2) 
+8 
+.80 
+Gallup 
+Increase death penalty 
+6 
+-.71 
+Harris 
+Death penalty or prison 
+3 
+.85 
+Harris 
+Death penalty depends 
+3 
+-.42 
+LA Times 
+Death penalty 
+2 
+-1.00 
+GSS 
+Death penalty 
+26 
+.92 
+Harris 
+Death penalty for rape 
+2 
+1.00 
+Gallup 
+Death penalty for rape 
+4 
+.83 
+ABC 
+Increase prisons 
+3 
+-1.00 
+Harris 
+Purpose of prisons 
+3 
+.99 
+Roper 
+Purpose of prisons 
+3 
+.91 
+Roper 
+Law enforcement authority 
+3 
+.95 
+Gallup/LA Times Law enforcement authority 
+8 
+.26 
+Roper 
+Tougher sentencing 
+3 
+.85 
+GSS/Roper 
+Crime spending 
+40 
+.70 
+GSS 
+Law enforcement spending 
+16 
+.63 
+ABC 
+Three-strikes law 
+2 
+1.00 
+Gallup 
+Drug laws 
+6 
+.05 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="19,71.50,78.17,322.81,341.74"><head>Table 2 .</head><label>2</label><figDesc>Error Correction Estimation of Punitive SentimentNOTES:The coefficients represent the change in punitive sentiment from a unit shift in each variable. Standard errors (SE) are shown in parentheses.</figDesc><table coords="19,71.50,98.74,322.80,297.46">Variables 
+Model 1 
+SE 
+Model 2 
+SE 
+Model 3 
+SE 
+
+Punitive sentiment t−1 
+-.38  *  
+(.07) 
+-.29  *  
+(.09) 
+-.40  *  
+(.10) 
+Homicide rate 
+.60 
+(.50) 
+1.05  † 
+(.54) 
+.53 
+(.52) 
+Homicide rate t−1 
+.39  *  
+(.18) 
+.34  † 
+(.17) 
+.49  *  
+(.20) 
+Crime concern 
+6.81  † 
+(3.63) 
+8.36  † 
+(3.63) 
+8.34  † 
+(3.93) 
+Crime concern t−1 
+.28 
+(3.32) 
+-.31 
+(3.29) 
+1.62 
+(4.16) 
+Incarceration rate 
+.02 
+(.06) 
+.09 
+(.07) 
+.01 
+(.07) 
+Incarcerations rate t−1 
+-.01 
+(.10) 
+.05 
+(.10) 
+-.02 
+(.11) 
+Drug use 
+4.52  *  
+(1.90) 
+5.01  *  
+(1.87) 
+4.65  *  
+(2.14) 
+Drug use t−1 
+8.20  *  
+(3.06) 
+7.36  *  
+(3.03) 
+9.41  *  
+(3.31) 
+Exonerations 
+.11 
+(.08) 
+.19 
+(.09) 
+.12 
+(.11) 
+Exonerations t−1 
+.18 
+(.10) 
+.26 
+(.12) 
+.17 
+(.16) 
+Net punitive tone 
+.06  *  
+(.02) 
+.07  *  
+(.02) 
+.06  *  
+(.02) 
+Net punitive tone t−1 
+.06  *  
+(.02) 
+.05  *  
+(.02) 
+.07  *  
+(.03) 
+Trust in government 
+-.09 
+(.07) 
+-.07 
+(.07) 
+-.07 
+(.08) 
+Trust in government t−1 
+-.04 
+(.06) 
+-.07 
+(.07) 
+-.01 
+(.08) 
+Public liberalism 
+-.10 
+(.09) 
+-.09 
+(.09) 
+-.06 
+(.12) 
+Public liberalism t−1 
+-.22  *  
+(.08) 
+-.18  *  
+(.08) 
+-.23  † 
+(.09) 
+Governor balance 
+-1.24 
+(3.48) 
+-2.77 
+(3.52) 
+-1.24 
+(3.94) 
+Governor balance t−1 
+-6.77 
+(3.86) 
+-8.17 
+(3.89) 
+-7.04 
+(4.23) 
+State legislature balance 
+1.22  † 
+(.73) 
+1.34  † 
+(.73) 
+1.19 
+(.84) 
+State legislature balance t−1 
+1.38  † 
+(.81) 
+1.53  † 
+(.79) 
+1.38 
+(.97) 
+Black crime 
+-1.06  † 
+(.50) 
+-1.27  *  
+(.51) 
+-1.29 
+(.79) 
+Black crime t−1 
+-1.17 
+(1.03) 
+-1.58 
+(1.02) 
+-3.83 
+(6.30) 
+Racial integration perceptions 
+.29  *  
+(.10) 
+.29  *  
+(.10) 
+.30  *  
+(.14) 
+Racial integration perceptions t−1 
+-.01 
+(.08) 
+-.02 
+(.09) 
+-.01 
+(.08) 
+Racial media frames 
+-
+-
+-.01 
+(.01) 
+-
+-
+Racial media frames t−1 
+-
+-
+-.01 
+(.01) 
+-
+-
+Racial integration index 
+-
+-
+-
+-
+-4.82 
+(8.30) 
+Racial integration index t−1 
+-
+-
+-
+-
+. 6 7 
+( 1 . 9 2 ) 
+Intercept 
+30.31  *  
+(6.96) 
+24.93  *  
+(8.21) 
+29.61  *  
+(7.15) 
+R 2 
+.77 
+-
+.79 
+-
+.79 
+-
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="23,71.51,78.17,322.78,181.37"><head>Table 3 .</head><label>3</label><figDesc>Exogeneity Tests of Independent Variables</figDesc><table coords="23,71.51,98.74,74.17,7.36">Dependent Variables 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="27,68.16,77.95,324.94,509.43"><head>Table 4 .</head><label>4</label><figDesc>Estimation of Punitive Sentiment Across SubgroupsNOTES: The dependent variable is a subset of the punitive sentiment index for each subgroup, 1972 to 2006 (N = 34 for each model). The coefficients represent the change in punitive sentiment from a unit shift in each variable. Newey-West standard errors (SEs) are shown in parentheses. is the first-difference operator. Rep. indicates Republicans, and Dem. indicates Democrats. Each attitudinal variable is specific for the group being estimated. Details are in appendix A in the online supporting information under Measuring Subgroup Preferences. *</figDesc><table coords="27,88.74,77.95,304.37,509.43">Variables 
+
+Whites 
+
+SE 
+
+Blacks 
+
+SE 
+
+Rep. 
+
+SE 
+
+Dem. 
+
+SE 
+
+Women 
+
+SE 
+
+South 
+
+SE 
+
+Punitive 
+
+t-1 
+
+-1.02  *  
+
+(.23) 
+
+-.53  *  
+(.23) -1.36  *  
+
+(.17) 
+
+-.59  *  
+
+(.24) 
+
+-.53  *  
+
+(.08) 
+-.93  *  
+
+(.22) 
+
+Homicide rate 
+
+.61 
+
+(1.44) 
+
+-.11 
+
+(.37) 
+
+.09 
+
+(.58) 
+
+.21 
+
+(.26) 
+
+-.10 
+
+(.07) 
+
+.39 
+
+(.30) 
+
+Homicide rate 
+
+t-1 
+
+-.33  *  
+
+(.12) 
+
+-.49  *  
+
+(.18) 
+
+-.54 
+
+(.58) 
+
+.11 
+
+(.26) 
+
+-.84 
+
+(.73) 
+
+.20 
+
+(.18) 
+
+Crime concern 
+
+.70 
+
+(.82) 
+
+-1.27 
+
+(1.73) 
+
+-.21 
+
+(.27) 
+
+1.78 
+
+(1.43) 
+
+.32 
+
+(.45) 
+
+3.65  *  
+
+(1.65) 
+
+Crime concern 
+
+t-1 
+
+-.52 
+
+(.66) 
+
+-1.02 
+
+(1.15) 
+
+-.22 
+
+(.27) 
+
+-3.62 
+
+(1.26) 
+
+-.13 
+
+(.43) 
+
+2.95  *  
+
+(1.27) 
+
+Incarceration rate 
+
+.06 
+
+(.64) 
+
+.98 
+
+(2.24) 
+
+.01 
+
+(.31) 
+
+1.61 
+
+(.94) 
+
+.12 
+
+(.42) 
+
+.97 
+
+(1.18) 
+
+Incarceration rate 
+
+t-1 
+
+-.72  † 
+
+(.35) 
+
+.37 
+
+(.45) 
+
+-.54  *  
+
+(.07) 
+
+-.28 
+
+(.44) 
+
+-.51  *  
+
+(.18) 
+
+-2.12  *  
+
+(.54) 
+
+Drug use 
+
+-.55 
+
+(3.17) 
+
+-.04 
+
+(5.79) 
+
+.29 
+
+(1.17) 
+
+1.08 
+
+(.62) 
+
+4.02  *  
+
+(1.58) 
+
+1.06 
+
+(.50) 
+
+Drug use 
+
+t-1 
+
+-.90 
+
+(6.81) 
+
+-.54 
+
+(1.14) 
+
+-.48 
+
+(2.12) 
+
+6.93 
+
+(5.84) 
+
+4.42 
+
+(3.01) 
+
+2.00  *  
+
+(.93) 
+
+Exonerations 
+
+.16 
+
+(.09) 
+
+-.35 
+
+(.28) 
+
+-.03 
+
+(.06) 
+
+-.36  *  
+
+(.12) 
+
+-.23  *  
+
+(.07) 
+
+-.04 
+
+(.30) 
+
+Exonerations 
+
+t-1 
+
+.25 
+
+(.22) 
+
+-.28 
+
+(.29) 
+
+-.03 
+
+(.06) 
+
+-.12 
+
+(.48) 
+
+-.19 
+
+(.12) 
+
+.51 
+
+(.40) 
+
+Net punitive tone 
+
+.09  † 
+
+(.04) 
+
+.17  † 
+
+(.08) 
+
+.05  *  
+
+(.02) 
+
+.13  *  
+
+(.05) 
+
+.05  † 
+
+(.02) 
+
+.13  † 
+
+(.06) 
+
+Net punitive tone 
+
+t-1 
+
+.18  *  
+
+(.05) 
+
+.18  † 
+
+(.09) 
+
+.05  *  
+
+(.02) 
+
+.19  *  
+
+(.06) 
+
+.05  † 
+
+(.02) 
+
+.29  *  
+
+(.09) 
+
+Trust in government 
+
+-.06 
+
+(.15) 
+
+.01 
+
+(.29) 
+
+-.05  † 
+
+(.02) 
+
+.05 
+
+(.14) 
+
+.01 
+
+(.10) 
+
+-.62  *  
+
+(.21) 
+
+Trust in government 
+
+t-1 
+
+.04 
+
+(.14) 
+
+-.03 
+
+(.26) 
+
+-.02 
+
+(.01) 
+
+.01 
+
+(.14) 
+
+.12 
+
+(.09) 
+
+.38 
+
+(.33) 
+
+Public liberalism 
+
+-.07 
+
+(.29) 
+
+-.04 
+
+(.26) 
+
+.07 
+
+(.08) 
+
+-.11 
+
+(.20) 
+
+-.01 
+
+(.01) 
+
+.08 
+
+(.35) 
+
+Public liberalism 
+
+t-1 
+
+-.58  *  
+
+(.17) 
+
+-.13 
+
+(.13) 
+
+.02 
+
+(.07) 
+
+-.33  *  
+
+(.14) 
+
+-.01 
+
+(.01) 
+
+-1.11  *  
+
+(.37) 
+
+Governor balance 
+
+1.91  † 
+
+(.99) 
+
+.94 
+
+(1.48) 
+
+.45 
+
+(.56) 
+
+.18 
+
+(1.87) 
+
+-1.14 
+
+(.72) 
+
+3.54 
+
+(2.28) 
+
+Governor balance 
+
+t-1 
+
+1.64 
+
+(.94) 
+
+-.55 
+
+(2.14) 
+
+-.71 
+
+(.53) 
+
+-2.81 
+
+(2.95) 
+
+-1.39 
+
+(.84) 
+
+1.33 
+
+(3.02) 
+
+State legislature balance 
+
+-.34 
+
+(.34) 
+
+-.39 
+(.98) -1.16 
+
+(1.53) 
+
+.05 
+
+(.45) 
+
+-.09 
+
+(.15) 
+
+-.98 
+
+(.57) 
+
+State legislature balance 
+
+t-1 
+
+-.22 
+
+(.39) 
+
+-.80 
+
+(1.43) 
+
+-.59 
+
+(1.37) 
+
+.41 
+
+(.48) 
+
+-.41  † 
+
+(.20) 
+
+-1.55  † 
+
+(.72) 
+
+Black crime 
+
+.02 
+
+(.09) 
+
+.08 
+
+(1.47) 
+
+.47  † 
+
+(.22) 
+
+-.34 
+
+(1.38) 
+
+.89 
+
+(.60) 
+
+.40  *  
+
+(.17) 
+
+Black crime 
+
+t-1 
+
+-.51 
+
+(.70) 
+
+1.13 
+
+(1.97) 
+
+.59  † 
+
+(.28) 
+
+1.36 
+
+(.69) 
+
+.19 
+
+(.54) 
+
+-1.83 
+
+(1.56) 
+
+Racial integration 
+
+.18 
+
+(.17) 
+
+.13 
+
+(.23) 
+
+.15  *  
+
+(.05) 
+
+.17 
+
+(.12) 
+
+.19  *  
+
+(.08) 
+
+.20 
+
+(.31) 
+
+Racial integration 
+
+t-1 
+
+.38  *  
+
+(.18) 
+
+.02 
+
+(.23) 
+
+.05  *  
+
+(.02) 
+
+-.10 
+
+(.11) 
+
+.16  *  
+
+(.07) 
+
+.60  *  
+
+(.21) 
+
+R 2 
+
+.92 
+
+-
+
+.87 
+
+-
+
+.93 
+
+-
+
+.90 
+
+-
+
+.97 
+
+-
+
+.94 
+
+-
+
+p 
+&lt; .10;  † 
+
+p 
+&lt; .05. 
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">. All survey questions are from nationally representative samples of the U.S. adult population. Only survey questions asked two or more times can be used because the methodology relies on the ratio of change within an indicator. Questions measuring support for gun regulation are not included in the index because they are more of a preventative than a punitive means of addressing crime. Including gun control questions in the index does not alter the conclusions of this research. 4. Changes in survey marginals could be a result of sampling error, but if the pattern of change is consistent across multiple indicators, then sampling error should be ruled out as an explanation. An exponential smoother is added to the algorithm to account for differences in sampling error across surveys.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="30,73.25,353.36,322.79,9.21;30,89.19,365.32,207.02,9.21" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">The Culture of Vengeance and the Fate of American Justice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Terry</forename><forename type="middle">K</forename><surname>Aladjem</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,73.25,385.24,322.77,9.21;30,89.19,397.20,306.84,9.21;30,89.19,409.15,96.56,9.21" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Racial prejudice and support for the death penalty by whites</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">E</forename><surname>Barkan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">F</forename><surname>Cohn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Research in Crime and Delinquency</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="202" to="211" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,73.25,429.08,322.79,9.21;30,89.19,441.04,288.08,9.21" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Race and the problem of crime in Time and Newsweek cover stories</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Melissa</forename><surname>Barlow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hickman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Justice</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="149" to="83" />
+			<date type="published" when="1946" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,73.25,460.96,322.78,9.21;30,89.19,472.91,306.82,9.21;30,89.19,484.87,173.82,9.21" xml:id="b3">
+	<monogr>
+		<title level="m" type="main">The Decline of the Death Penalty and the Discovery of Innocence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frank</forename><forename type="middle">R</forename><surname>Baumgartner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Suzanna</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amber</forename><forename type="middle">E</forename><surname>De Boef</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Boydstun</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,73.25,504.79,322.79,9.21;30,89.19,516.74,42.63,9.21" xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Making Crime Pay</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Katherine</forename><surname>Beckett</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,73.25,536.67,322.78,9.21;30,89.19,548.63,270.19,9.21" xml:id="b5">
+	<monogr>
+		<title level="m" type="main">The Politics of Injustice: Crime and Punishment in America</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Katherine</forename><surname>Beckett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Theodore</forename><surname>Sasson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>Sage</publisher>
+			<pubPlace>Thousand Oaks, CA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,73.25,568.56,322.78,9.21;30,89.19,580.51,91.07,9.21" xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Toward a Theory of Minority-Group Relations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hubert</forename><forename type="middle">M</forename><surname>Blalock</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1967" />
+			<publisher>Wiley</publisher>
+			<pubPlace>Hoboken, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,71.51,78.39,322.76,9.21;31,87.44,90.35,306.84,9.21;31,87.44,102.30,68.34,9.21" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The notorious 100:1 crack: Powder disparity-the data tell us that it is time to restore the balance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alfred</forename><surname>Blumstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Federal Sentencing Reporter</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="87" to="92" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,71.51,121.53,322.79,9.21;31,87.44,133.49,306.83,9.21;31,87.44,145.44,140.29,9.21" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A taste for punishment: Black and white Americans&apos; views on the death penalty and the war on drugs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lawrence</forename><forename type="middle">D</forename><surname>Bobo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Devon</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Du Bois Review</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="151" to="80" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,71.51,164.67,322.79,9.21;31,87.44,176.62,234.46,9.21" xml:id="b9">
+	<monogr>
+		<title level="m" type="main">New Directions in Econometric Practice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wojciech</forename><forename type="middle">W</forename><surname>Charemza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Derek</forename><forename type="middle">F</forename><surname>Deadman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>Edward Elgar</publisher>
+			<pubPlace>Aldershot, U.K.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,71.51,195.85,322.76,9.21;31,87.45,207.81,281.19,9.21" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Racial typification of crime and support for punitive measures</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ted</forename><surname>Chiricos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kelly</forename><surname>Welch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marc</forename><surname>Gertz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Criminology</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="359" to="89" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,71.51,227.03,259.34,9.21" xml:id="b11">
+	<analytic>
+		<title/>
+		<idno>Pub. L. 88-352, 78 Stat. 241</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Civil Rights Act</title>
+		<imprint>
+			<date type="published" when="1964" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,71.51,246.27,322.77,9.21;31,87.45,258.22,306.85,9.21;31,87.45,270.17,116.77,9.21" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Punitive attitudes toward criminals: Racial consensus or racial conflict</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">F</forename><surname>Cohn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Steven</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">A</forename><surname>Barkan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Halteman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Problems</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="287" to="96" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,71.51,289.40,322.80,9.21;31,87.45,301.36,239.94,9.21" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Punitive attitudes toward criminals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">T</forename><surname>Costelloe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ted</forename><surname>Chiricos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marc</forename><surname>Gertz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Punishment &amp; Society</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="25" to="49" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,71.51,320.58,322.75,9.21;31,87.45,332.54,306.86,9.21;31,87.45,344.49,306.83,9.21;31,87.45,356.45,145.27,9.21" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Econometric modelling of the aggregate time-series relationships between consumers&apos; expenditure and income in the United Kingdom</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">E H</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frank</forename><surname>Hendry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><surname>Srba</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Yeo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Economic Journal</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="661" to="92" />
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,71.51,375.68,322.76,9.21;31,87.45,387.63,306.84,9.21;31,87.45,399.59,34.85,9.21" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Modeling equilibrium relationships: Error correction models with strongly autoregressive data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">De</forename><surname>Boef</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Suzanna</forename><forename type="middle">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Analysis</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="78" to="94" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,71.51,418.81,322.80,9.21;31,87.45,430.77,306.84,9.21;31,87.45,442.73,44.80,9.21" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Near-integrated data and the analysis of political relationships</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">De</forename><surname>Boef</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Suzanna</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jim</forename><surname>Granato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="619" to="659" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,71.51,461.95,322.80,9.21;31,87.45,473.91,306.84,9.21;31,87.45,485.86,49.78,9.21" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Explaining congressional approval</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">H</forename><surname>Durr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christina</forename><surname>Gilmour</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Wolbrecht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="175" to="207" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,71.51,505.09,322.78,9.21;31,87.45,517.05,61.72,9.21" xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Chain Reaction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><surname>Edsall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mary</forename><forename type="middle">D</forename><surname>Byrne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Edsall</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+			<pubPlace>New York; Norton</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,71.51,536.27,322.79,9.21;31,87.45,548.23,44.80,9.21" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The polls: Causes of crime</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hazel</forename><surname>Erskine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Public Opinion Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="288" to="98" />
+			<date type="published" when="1974" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,71.51,567.46,322.77,9.21;31,87.45,579.41,239.94,9.21" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Crime, social order and the rise of neoconservative politics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Malcolm</forename><forename type="middle">M</forename><surname>Feeley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Theoretical Criminology</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="111" to="141" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,73.25,78.39,322.78,9.21;32,89.19,90.35,306.85,9.21;32,89.19,102.30,25.20,9.21" xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Law and Order: Street Crime, Civil Unrest, and the Crisis of Liberalism in the 1960s</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">W</forename><surname>Flamm</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<publisher>Columbia University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,73.25,122.23,322.77,9.21;32,89.19,134.18,306.83,9.21;32,89.19,146.14,306.85,9.21;32,89.19,158.09,164.46,9.21" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Public opinion on crime and justice: History, development, and trends</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Timothy</forename><forename type="middle">J</forename><surname>Flanagan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Americans View Crime and Justice: A National Public Opinion Survey</title>
+		<editor>Timothy J. Flanagan and Dennis R. Longmire</editor>
+		<meeting><address><addrLine>Thousand Oaks, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Sage</publisher>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,73.25,178.02,322.79,9.21;32,89.19,189.97,54.49,9.21" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Affective versus effective justice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arie</forename><surname>Freiberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Punishment &amp; Society</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="265" to="78" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,73.25,209.90,322.81,9.21;32,89.19,221.85,268.46,9.21" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Beyond public opinion polls: Punitive public sentiment and criminal justice policy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Natasha</forename><forename type="middle">A</forename><surname>Frost</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sociology Compass</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="156" to="68" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,73.25,241.78,322.80,9.21;32,89.19,253.74,306.85,9.21;32,89.19,265.69,32.35,9.21" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The limits of the sovereign state: Strategies of crime control in contemporary society</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Garland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Criminology</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="445" to="71" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,73.25,285.62,322.79,9.21;32,89.19,297.57,42.63,9.21" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">The Culture of Control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Garland</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,73.25,317.49,322.80,9.21;32,89.19,329.46,306.87,9.21;32,89.19,341.41,239.40,9.21" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The roles of empathy, anger, and gender in predicting attitudes toward punitive, reparative, and preventative public policies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Barbara</forename><forename type="middle">A</forename><surname>Gault</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Sabini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition &amp; Emotion</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="495" to="520" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,73.25,361.33,322.78,9.21;32,89.19,373.29,285.65,9.21" xml:id="b28">
+	<monogr>
+		<title level="m" type="main">The Prison and the Gallows: The Politics of Mass Incarceration in America</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marie</forename><surname>Gottschalk</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,73.25,393.21,322.78,9.21;32,89.19,405.17,268.47,9.21" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">He&apos;s stealing my issue! Clinton&apos;s crime rhetoric and the dynamics of issue ownership</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">B</forename><surname>Holian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Behavior</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="95" to="124" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,73.25,425.09,322.79,9.21;32,89.19,437.05,306.86,9.21;32,89.19,449.00,306.84,9.21;32,89.19,460.97,94.94,9.21" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Strategies for changing public attitudes to punishment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Indermaur</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mike</forename><surname>Hough</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Changing Attitudes to Punishment: Public Opinion, Crime and Justice</title>
+		<editor>Julian V. Roberts and Mike Hough</editor>
+		<meeting><address><addrLine>Portland, OR</addrLine></address></meeting>
+		<imprint>
+			<publisher>Willan</publisher>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,73.25,480.88,322.80,9.21;32,89.19,492.84,306.87,9.21;32,89.19,504.80,306.83,9.21" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Cracking down on black drug offenders? Testing for interactions among offenders&apos; race, drug type, and sentencing strategy in federal drug sentences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paula</forename><surname>Kautt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cassia</forename><surname>Spohn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Justice Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1" to="35" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,73.25,524.72,322.78,9.21;32,89.19,536.67,207.82,9.21" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Social capital and the dynamics of trust in government</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luke</forename><forename type="middle">J</forename><surname>Keele</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="241" to="54" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,73.25,556.60,322.78,9.21;32,89.19,568.56,246.63,9.21" xml:id="b33">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><forename type="middle">M</forename><surname>Kellstedt</surname></persName>
+		</author>
+		<title level="m">The Mass Media and the Dynamics of American Racial Attitudes</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,71.51,78.39,322.76,9.21;33,87.44,90.35,208.38,9.21" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Measurement of partisan balance of state government</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carl</forename><forename type="middle">E</forename><surname>Klarner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">State Politics &amp; Policy Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="309" to="328" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,71.51,110.28,322.79,9.21;33,87.44,122.23,240.24,9.21" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Liberalism and fear as explanations of punitiveness</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">H</forename><surname>Langworthy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">T</forename><surname>Whitehead</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Criminology</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="575" to="91" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,71.51,142.15,322.79,9.21;33,87.45,154.11,306.84,9.21;33,87.45,166.07,34.85,9.21" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Polls, politics, and crime: The &quot;law and order&quot; issue of the 1960s</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dennis</forename><forename type="middle">D</forename><surname>Loo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ruth-Ellen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Grimes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Western Criminology Review</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="50" to="67" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,71.51,185.99,322.79,9.21;33,87.45,197.95,170.79,9.21" xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Unequal Justice: A Question of Color</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Coramae</forename><surname>Mann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Richey</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+			<publisher>Indiana University Press</publisher>
+			<pubPlace>Bloomington</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,71.51,217.87,270.93,9.21" xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Race to Incarcerate</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marc</forename><surname>Mauer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>New Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,71.51,237.80,322.78,9.21;33,87.45,249.75,110.72,9.21" xml:id="b39">
+	<monogr>
+		<title level="m" type="main">The Changing American Mind</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">G</forename><surname>Mayer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+			<publisher>University of Michigan Press</publisher>
+			<pubPlace>Ann Arbor</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,71.51,269.68,322.80,9.21;33,87.45,281.63,306.83,9.21;33,87.45,293.59,170.98,9.21" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Distrust of government, the vigilante tradition, and support for capital punishment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">F</forename><surname>Messner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Eric</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><surname>Baumer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Rosenfeld</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Law &amp; Society Review</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="559" to="90" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,71.51,313.52,322.79,9.21;33,87.45,325.47,97.70,9.21" xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Presidential Power and the Modern Presidents</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">E</forename><surname>Neustadt</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<publisher>Free Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,71.51,345.39,322.79,9.21;33,87.45,357.35,306.86,9.21;33,87.45,369.30,306.84,9.21;33,87.45,381.26,32.35,9.21" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Dynamic representation(s): Federal criminal justice policy and an alternative dimension of policy mood</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Nicholson-Crotty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">A M</forename><surname>Sean</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><forename type="middle">D</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ramirez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Behavior</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="629" to="55" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,71.51,401.19,322.78,9.21;33,87.45,413.14,183.76,9.21" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Black man&apos;s burden: Race and the death penalty in America</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><forename type="middle">J</forename><surname>Ogletree</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oregon Law Review</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="15" to="38" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,71.51,433.06,322.78,9.21;33,87.45,445.02,306.83,9.21;33,87.45,456.98,54.75,9.21" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Persuasion and resistance: Race and the death penalty in America</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Peffley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jon</forename><surname>Hurwitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="996" to="1012" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,71.51,476.90,322.79,9.21;33,87.45,488.86,279.22,9.21" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Issue ownership in presidential elections, with a 1980 case study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">R</forename><surname>Petrocik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="825" to="50" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,71.51,508.78,322.77,9.21;33,87.45,520.73,306.83,9.21;33,87.45,532.70,60.11,9.21" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Women and the state: Ideology, power, and the welfare state</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frances</forename><forename type="middle">F</forename><surname>Piven</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Gender and the Life Course</title>
+		<editor>Alice S. Rossi</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Aldine</publisher>
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,71.51,552.62,322.79,9.21;33,87.45,564.57,230.05,9.21" xml:id="b47">
+	<monogr>
+		<title level="m" type="main">Punishment and Civilization: Penal Tolerance and Intolerance in Modern Society</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Pratt</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>Sage</publisher>
+			<pubPlace>Thousand Oaks, CA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,73.25,78.39,322.77,9.21;34,89.19,90.35,251.01,9.21" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The dynamics of partisan conflict on congressional approval</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><forename type="middle">D</forename><surname>Ramirez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="681" to="94" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,73.25,110.28,322.77,9.21;34,89.19,122.23,306.84,9.21;34,89.19,134.18,306.86,9.21;34,89.19,146.14,206.74,9.21" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Youth is enmeshed in a highly dysfunctional family system: Exploring the relationship among dysfunctional families, parental incarceration, and juvenile court decision making</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nancy</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hilary</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marjorie</forename><forename type="middle">S</forename><surname>Zatz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Criminology</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="177" to="208" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,73.25,166.07,322.77,9.21;34,89.19,178.02,306.84,9.21;34,89.19,189.97,44.80,9.21" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Incarceration, social capital, and crime: Implications for social disorganization theory</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dina</forename><forename type="middle">R</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Todd</forename><forename type="middle">R</forename><surname>Clear</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Criminology</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="441" to="80" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,73.25,209.90,322.80,9.21;34,89.19,221.85,306.84,9.21;34,89.19,233.81,170.79,9.21" xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Color of Crime: Racial Hoaxes, White Fear, Black Protectionism, Police Harassment, and Other Macroaggressions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Katheryn</forename><forename type="middle">K</forename><surname>Russell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>New York University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,73.25,253.74,322.79,9.21;34,89.19,265.69,156.38,9.21" xml:id="b52">
+	<monogr>
+		<title level="m" type="main">The Politics of Law and Order: Street Crime and Public Policy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stuart</forename><forename type="middle">A</forename><surname>Scheingold</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984" />
+			<publisher>Longman</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,73.25,285.62,322.77,9.21;34,89.19,297.57,306.86,9.21;34,89.19,309.53,44.80,9.21" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Constructing the new political criminology: Power, authority, and the post-liberal state</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stuart</forename><forename type="middle">A</forename><surname>Scheingold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Law &amp; Social Inquiry</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="857" to="96" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,73.25,329.46,322.79,9.21;34,89.19,341.41,306.87,9.21;34,89.19,353.36,306.85,9.21;34,89.19,365.32,88.81,9.21" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Patterns of change in the use of imprisonment in the American states: An integration of path dependence, punctuated equilibrium and policy design approaches</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anne</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Larason</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Research Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="457" to="60" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,73.25,385.25,322.80,9.21;34,89.19,397.20,306.84,9.21;34,89.19,409.15,121.55,9.21" xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Questions and Answers in Attitude Surveys: Experiments on Question Form, Wording, and Content</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Howard</forename><surname>Schuman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stanley</forename><surname>Presser</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1981" />
+			<publisher>Academic Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,73.25,429.08,322.77,9.21;34,89.19,441.04,258.48,9.21" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Racial differences in attitudes toward crime control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><forename type="middle">E</forename><surname>Secret</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">B</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Criminal Justice</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="361" to="75" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,73.25,460.97,322.80,9.21;34,89.19,472.92,56.47,9.21" xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Governing Through Crime</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><surname>Simon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,73.25,492.84,322.80,9.21;34,89.19,504.80,306.85,9.21;34,89.19,516.75,306.84,9.21;34,89.19,528.71,245.81,9.21" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Introduction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ian</forename><surname>Haney López</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mary</forename><forename type="middle">Louise</forename><surname>Frampton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">After the War on Crime: Race, Democracy, and a New Reconstruction</title>
+		<editor>Mary Louise Frampton, Ian Haney López, and Jonathan Simon</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>New York University Press</publisher>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,73.26,548.63,322.78,9.21;34,89.19,560.59,306.84,9.21;34,89.19,572.54,44.80,9.21" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Crime and racial fears of white Americans</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wesley</forename><forename type="middle">G</forename><surname>Skogan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The ANNALS of the American Academy of Political and Social Science</title>
+		<imprint>
+			<biblScope unit="volume">539</biblScope>
+			<biblScope unit="page" from="59" to="71" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="35,71.51,78.39,322.79,9.21;35,87.44,90.35,306.84,9.21;35,87.44,102.30,37.33,9.21" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Why do white Americans support the death penalty</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joe</forename><surname>Soss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Laura</forename><surname>Langbein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alan</forename><forename type="middle">R</forename><surname>Metelko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Politics</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="397" to="421" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="35,71.51,122.23,322.79,9.21;35,87.44,134.18,187.37,9.21" xml:id="b61">
+	<monogr>
+		<title level="m" type="main">White Victims, Black Villains: Gender, Race, and Crime News in US Culture</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carol</forename><surname>Stabile</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Routledge</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="35,71.51,154.11,322.77,9.21;35,87.45,166.07,306.85,9.21;35,87.45,178.02,252.16,9.21" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Measuring attitudes toward sentencing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Loretta</forename><forename type="middle">J</forename><surname>Stalans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Changing Attitudes to Punishment: Public Opinion, Crime and Justice</title>
+		<editor>Julian V. Roberts and Mike Hough</editor>
+		<meeting><address><addrLine>Portland, OR</addrLine></address></meeting>
+		<imprint>
+			<publisher>Willan</publisher>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="35,71.51,197.95,322.77,9.21;35,87.45,209.90,199.57,9.21" xml:id="b63">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">A</forename><surname>Stimson</surname></persName>
+		</author>
+		<title level="m">Public Opinion in America: Moods, Cycles, and Swings</title>
+		<meeting><address><addrLine>Boulder, CO</addrLine></address></meeting>
+		<imprint>
+			<publisher>Westview Press</publisher>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note>2nd ed.</note>
+</biblStruct>
+
+<biblStruct coords="35,71.51,229.82,322.77,9.21;35,87.45,241.78,306.82,9.21;35,87.45,253.74,226.71,9.21" xml:id="b64">
+	<monogr>
+		<title level="m" type="main">Crime and Punishment: Changing American Attitudes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arthur</forename><surname>Stinchcombe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rebecca</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carol</forename><surname>Heimer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kim</forename><surname>Lane</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tom</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D. Garth</forename><surname>Taylor</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1980" />
+			<publisher>Jossey-Bass</publisher>
+			<pubPlace>San Francisco, CA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="35,71.51,273.66,322.76,9.21;35,87.45,285.62,306.84,9.21;35,87.45,297.57,191.04,9.21" xml:id="b65">
+	<monogr>
+		<title level="m" type="main">Crime prevention: The policy dilemmas-a personal account</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adam</forename><surname>Sutton</surname></persName>
+		</author>
+		<editor>Pat O&apos;Malley and Adam Sutton</editor>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>Federation Press</publisher>
+			<pubPlace>Sydney, Australia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="35,71.51,317.49,322.78,9.21;35,87.45,329.46,198.72,9.21" xml:id="b66">
+	<monogr>
+		<title level="m" type="main">Malign Neglect-Race, Crime and Punishment in America</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">H</forename><surname>Tonry</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="35,71.51,349.38,322.80,9.21;35,87.45,361.33,306.86,9.21;35,87.45,373.29,186.49,9.21" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Three strikes and you are out, but why? The psychology of public support for punishing rule breakers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tom</forename><forename type="middle">R</forename><surname>Tyler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">J</forename><surname>Boeckmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Law &amp; Society Review</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="237" to="65" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="35,71.51,393.21,322.81,9.21;35,87.45,405.17,306.84,9.21;35,87.45,417.13,61.68,9.21" xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Support for the death penalty; instrumental response to crime, or symbolic attitude?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tom</forename><forename type="middle">R</forename><surname>Tyler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Renee</forename><surname>Weber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Law &amp; Society Review</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="21" to="46" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="35,71.51,437.05,322.75,9.21;35,87.45,449.00,306.82,9.21;35,87.45,460.97,157.20,9.21" xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Executing the innocent and support for capital punishment: Implications for public policy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">D</forename><surname>Unnever</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francis</forename><forename type="middle">T</forename><surname>Cullen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Criminology &amp; Public Policy</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="3" to="38" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="35,71.51,480.88,322.76,9.21;35,87.45,492.84,306.85,9.21;35,87.45,504.80,62.79,9.21" xml:id="b70">
+	<analytic>
+		<title level="a" type="main">The social sources of Americans&apos; punitiveness: A test of three competing models</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">D</forename><surname>Unnever</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francis</forename><forename type="middle">T</forename><surname>Cullen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Criminology</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="99" to="129" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="35,71.51,524.72,322.78,9.21;35,87.45,536.67,135.60,9.21" xml:id="b71">
+	<monogr>
+		<title level="m" type="main">The Color of Justice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Samuel</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cassia</forename><surname>Spohn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mirian</forename><surname>Delone</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Wadsworth</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="35,71.51,556.60,322.75,9.21;35,87.45,568.56,201.75,9.21" xml:id="b72">
+	<analytic>
+		<title level="a" type="main">The polls-poll trends: Public opinion on crime and punishment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Warr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Public Opinion Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="296" to="310" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="36,206.30,51.87,56.66,10.13;36,73.25,78.39,322.79,9.21;36,89.19,90.35,109.88,9.21" xml:id="b73">
+	<monogr>
+		<title level="m" type="main">Punishment and Inequality in America</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ramirez Western</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bruce</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Russell Sage Foundation</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="36,73.25,110.28,308.90,9.21" xml:id="b74">
+	<monogr>
+		<title level="m" type="main">Thinking about Crime</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">Q</forename><surname>Wilson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1975" />
+			<publisher>Basic Books</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="36,73.25,130.19,322.77,9.21;36,89.19,142.15,183.24,9.21" xml:id="b75">
+	<monogr>
+		<title level="m" type="main">The Contradictions of American Capital Punishment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Franklin</forename><forename type="middle">E</forename><surname>Zimring</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="36,73.25,162.08,322.78,9.21;36,89.19,174.03,306.85,9.21;36,89.19,185.99,107.12,9.21" xml:id="b76">
+	<monogr>
+		<title level="m" type="main">Punishment and Democracy: Three Strikes and You&apos;re Out in California</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Franklin</forename><forename type="middle">E</forename><surname>Zimring</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gordon</forename><surname>Hawkins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sam</forename><surname>Kamin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

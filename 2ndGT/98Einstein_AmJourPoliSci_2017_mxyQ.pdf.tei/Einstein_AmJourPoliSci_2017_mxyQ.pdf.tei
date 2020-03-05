@@ -1,0 +1,1465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Does Race Affect Access to Government Services? An Experiment Exploring Street-Level Bureaucrats and Access to Public Housing</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Katherine</forename><forename type="middle">Levine</forename><surname>Einstein</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">M</forename><surname>Glick</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Boston University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Boston University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Political Science</orgName>
+								<orgName type="institution">Boston University</orgName>
+								<address>
+									<postCode>02215</postCode>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Political Science</orgName>
+								<orgName type="institution">Boston University</orgName>
+								<address>
+									<postCode>02215</postCode>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Does Race Affect Access to Government Services? An Experiment Exploring Street-Level Bureaucrats and Access to Public Housing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.7910/DVN</idno>
+					<note>Replication Materials: The data, code, and any additional materials required to replicate all analyses in this arti-cle are available on the American Journal of Political Science Dataverse within the Harvard Dataverse Network, at:</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T14:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>While experimental studies of local election officials have found evidence of racial discrimination, we know little about whether these biases manifest in bureaucracies that provide access to valuable government programs and are less tied to politics. We address these issues in the context of affordable housing programs using a randomized field experiment. We explore responsiveness to putative white, black, and Hispanic requests for aid in the housing application process. In contrast to prior findings, public housing officials respond at equal rates to black and white email requests. We do, however, find limited evidence of responsiveness discrimination toward Hispanics. Moreover, we observe substantial differences in email tone. Hispanic housing applicants were 20 percentage points less likely to be greeted by name than were their black and white counterparts. This disparity in tone is somewhat more muted in more diverse locations, but it does not depend on whether a housing official is Hispanic.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>suggests that, in the absence of clear rules designed to preclude discrimination, bureaucrats with discretion can act according to their own biases <ref type="bibr" coords="2,205.46,88.00,64.37,9.30" target="#b9">(Brodkin 1997;</ref><ref type="bibr" coords="2,273.40,88.00,22.48,9.30;2,59.76,100.95,49.07,9.30" target="#b26">Jones et al. 1977;</ref><ref type="bibr" coords="2,113.39,100.95,73.47,9.30" target="#b27">Katznelson 2005;</ref><ref type="bibr" coords="2,191.42,100.95,72.50,9.30" target="#b33">Lieberman 1998;</ref><ref type="bibr" coords="2,268.47,100.95,27.39,9.30;2,59.76,113.90,22.06,9.30" target="#b34">Lipsky 1980)</ref>.</p><p>We use the case of affordable housing and our own audit-style experiment of over 1,000 housing authorities to test whether street-level bureaucrats discriminate when citizens attempt to access substantive programs and services (see, e.g., Grose 2014 on using field experiments to study institutions, including a call for studies of bureaucrats). Public housing is scarce and in high demand. Roughly 1.2 million individuals currently reside in public housing managed by over 3,300 public housing authorities (Department of Housing and Urban Development [HUD] 2015a). Recipients represent a small fraction of the total population in need of such programs. For example, in October 2014, the city of Chicago opened its wait lists for the first time in 4 years. It received 80,000 applications in one day <ref type="bibr" coords="2,128.51,308.17,61.75,9.30" target="#b7">(Bowean 2014)</ref>. Street-level bureaucrats play an important role in helping public housing seekers navigate the at-times byzantine application process. Baltimore is illustrative: Applicants were only allowed to apply for a Section 8 voucher (which subsidizes private market rentals) October 22-30, 2014, and they were required to apply online.</p><p>Paralleling previous field experiments in political science and other fields, we e-mail public housing officials with putative constituent service requests using identifiably white, black, and Hispanic names. While it is certainly reasonable to ask whether an additional field experiment using this design can contribute substantively important findings, we believe our study offers several advantages. First and foremost, public housing officials constitute a more generalizable test of bureaucratic discrimination than do the election officials who were the subject of a recent, and impressive, audit study that concluded that bureaucrats discriminate <ref type="bibr" coords="2,225.35,541.30,70.56,9.30;2,59.76,554.26,68.00,9.30" target="#b58">(White, Nathan, and Faller 2015)</ref>. While voter registration is important, it is inherently political. Barring nefarious activity, it is also an abundant resource. Public housing is neither. Instead, housing agencies are precisely the sort of autonomous bureaucracies-featuring standardized federal procedures with many functions devolved to the local level-highlighted in theories of street-level bureaucrats' behavior. In addition, we believe that our outcome variables offer a useful mix of familiarity and novelty. While we measure responsiveness in familiar ways, we also include an additional dependent variable, tone, that has received much less attention. We argue that tone can affect the ultimate distribution of benefits in subtle but important and underappreciated ways.</p><p>Moreover, while finding more evidence of bias holds obvious interest, results that fail to show bias-as is the case with some of ours-are also important. Given the well-deserved prominence of recent experimental studies of racial discrimination, and the gravity of the subject and the results, findings that question the generalizability of existing cases are especially important (see <ref type="bibr" coords="2,505.63,139.81,44.26,9.30;2,313.80,152.76,65.91,9.30" target="#b1">Arceneaux and Butler 2016</ref> for more on the importance of reporting null results from well-designed experiments). Against an abundance of results documenting discrimination, findings of its absence are vital for suggesting pathways by which it might be curbed. Thus, any null results may both serve as an important brake on overgeneralization in the literature and provide valuable practical lessons for countering discriminatory tendencies.</p><p>Our results reveal a mix of striking patterns and nonpatterns. First, we do not find evidence of responsiveness discrimination in general. In fact, we find evidence contra other well-designed experiments' findings of discrimination against blacks. Second, when focusing on tone, we do observe meaningful differences. Ostensibly Hispanic e-mailers were about 20 percentage points less likely to be addressed by name at the beginning of responses than were their black and white counterparts. Further analysis focused on the demographics of officials and communities provides some tentative, but mixed, support for theories of representative bureaucracy, familiarity bias, and contact theory. We conclude by discussing possible explanations for the relative lack of racial bias in our study, including the racial demographics of public housing, fair housing legislation, and bureaucratic professionalism.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Racial Bias and Bureaucracy</head><p>We consider two potential types of harm that could emerge if bureaucrats discriminate in their responses. The first is straightforward and well trod in previous field experiments: the failure to provide relevant, factual information. By not responding, and thus not offering information about the complicated application process, a bureaucrat likely increases the challenges associated with applying for public housing and reduces one's likelihood of completing the process. The second is somewhat more subtle and less widely used. 2 A bureaucrat could respond, but her tone could be less friendly and encouraging to members of particular groups. Recipients of unfriendly communications might lose confidence in their chances of obtaining the resources they are pursuing or lower their trust in the organization. They might also make inferences about the effort an official will exert on their behalf over an inherently long process. All of these mechanisms could make applicants less likely to follow up with additional inquiries or diminish the likelihood they obtain the desired service for other reasons.</p><p>Both individual and institutional factors point to potential discrimination in social service provision. Sadly, a strong reason to foresee discrimination is the fact that human beings administer these programs. Previous research in political science and a variety of related fields suggests that we should observe fewer and less friendly responses to black and Hispanic constituents. Racial stereotypes remain widespread <ref type="bibr" coords="3,136.95,243.42,48.30,9.30" target="#b6">(Bobo 2001</ref>) and a powerful influence on American public opinion <ref type="bibr" coords="3,190.62,256.37,98.70,9.30" target="#b29">(Kinder and Kam 2009</ref>). These biases have manifested in a wide variety of settings. All else equal, blacks and Hispanics making queries about voting procedures are less likely to receive responses from state legislators and local election officials than whites <ref type="bibr" coords="3,62.05,321.12,124.88,9.30" target="#b10">(Butler and Broockman 2011;</ref><ref type="bibr" coords="3,189.55,321.12,108.62,9.30;3,62.05,334.07,22.04,9.30" target="#b58">White, Nathan, and Faller 2015)</ref>. Outside of political outcomes, blacks and Hispanics receive fewer callbacks for low-wage jobs <ref type="bibr" coords="3,269.33,347.02,28.82,9.30;3,62.05,359.97,146.17,9.30" target="#b43">(Pager, Western, and Bonikowski 2009)</ref> and fewer e-mails from faculty members concerning research opportunities <ref type="bibr" coords="3,80.10,385.87,164.43,9.30" target="#b40">(Milkman, Akinola, and Chugh 2014)</ref> than whites do. They are also told about and shown fewer available homes and apartments <ref type="bibr" coords="3,159.59,411.78,78.77,9.30" target="#b51">(Turner et al. 2013)</ref>, receive fewer e-mails and lower bids when selling goods online <ref type="bibr" coords="3,265.24,424.73,32.88,9.30;3,62.05,437.68,62.75,9.30" target="#b14">(Doleac and Stein 2013)</ref>, and told higher prices when buying used cars <ref type="bibr" coords="3,80.91,450.64,114.61,9.30" target="#b2">(Ayres and Siegelman 1995)</ref>. <ref type="bibr" coords="3,199.95,448.89,3.51,6.51">3</ref> Quite simply, one could predict bias by assuming that the tendencies and psychology that affect other government officials, professors, realtors, and online sellers also affect social service employees. Moreover, social resources, notably public housing, are generally scarce. Such scarcity may create especially strong incentives for discrimination. There is also some empirical evidence to support the intuition that discrimination manifests among social service bureaucrats <ref type="bibr" coords="3,201.91,567.21,96.24,9.30;3,62.05,580.16,41.54,9.30" target="#b13">(Davis, Livermore, and Lim 2011;</ref><ref type="bibr" coords="3,105.56,580.16,132.61,9.30" target="#b16">Ernst, Nguyen, and Taylor 2013;</ref><ref type="bibr" coords="3,240.15,580.16,58.02,9.30;3,62.05,593.12,73.98,9.30" target="#b17">Fording, Soss, and Schram 2007;</ref><ref type="bibr" coords="3,137.85,593.12,126.54,9.30" target="#b28">Keiser, Mueser, and Choi 2004;</ref><ref type="bibr" coords="3,266.22,593.12,31.95,9.30;3,62.05,606.07,44.30,9.30" target="#b46">Schram et al. 2009</ref>). Devolution of welfare policy has yielded significant variation in autonomous welfare offices' sanctions of participants. This variation includes more explicit sanctions and negative treatment for racial minorities <ref type="bibr" coords="3,78.88,657.87,139.36,9.30" target="#b16">(Ernst, Nguyen, and Taylor 2013;</ref><ref type="bibr" coords="3,220.93,657.87,77.24,9.30;3,62.05,670.83,55.91,9.30" target="#b17">Fording, Soss, and Schram 2007;</ref><ref type="bibr" coords="3,119.34,670.83,124.22,9.30" target="#b28">Keiser, Mueser, and Choi 2004)</ref>. On balance, this evidence provides strong reasons to expect at least as 3 The <ref type="bibr" coords="3,82.86,713.64,90.69,7.97" target="#b14">Doleac and Stein (2013)</ref> and <ref type="bibr" coords="3,194.04,713.64,104.10,7.97" target="#b2">Ayres and Siegelman (1995)</ref> studies focus exclusively on black-white discrimination. much discrimination in social welfare service provision as other scholars have found in other arenas. Similar institutional factors related to devolution and frontline officials' roles apply to some of the cases in the literature and to public housing. Taking these lines of thinking in concert brings us to the first hypothesis: H1: All else equal, bureaucrats will be less responsive and less friendly to blacks and Hispanics than they are to whites.</p><p>On the other hand, there are also reasons to expect mechanisms unique to bureaucratic social service provision to mitigate broad discriminatory tendencies. One prominent line of scholarship uses the racial classification model to explain discrimination specifically in the social welfare context <ref type="bibr" coords="3,407.83,256.38,83.31,9.30" target="#b46">(Schram et al. 2009;</ref><ref type="bibr" coords="3,493.64,256.38,58.58,9.30;3,316.09,269.33,75.41,9.30" target="#b49">Soss, Fording, and Schram 2008)</ref>; this research predicts that we should observe racially discriminatory sanctions when minority clients are perceived as less motivated or responsible. So Hypothesis 1's predictions may not hold up in the absence of cues signaling a lack of client reliability. However, because the primary interest of this research is in sanctioning and disciplinary action-rather than the responsiveness of central interest in our study and other audit-style analyses-it is unclear how relevant these theoretical predictions will be to our study.</p><p>In addition, the theory of representative bureaucracy also implies that we may observe differences in responsiveness to blacks and Hispanics, and that both groups may receive better service than postulated in Hypothesis 1. Scholars have long been concerned about whether bureaucracies, as unelected bodies tasked with critical aspects of policy implementation, pose a threat to democratic representation. One line of research in public administration argues that these fears may be overstated. Rather than acting as unrepresentative bodies of unelected officials guided by individual or institutional interests, bureaucracies can represent the interests of their constituents. These scholars argue that bureaucrats whose traits coincide with a population's demographic diversity are more apt to actively represent constituents' interests <ref type="bibr" coords="3,316.09,593.12,59.55,9.30" target="#b30">(Krislov 1974;</ref><ref type="bibr" coords="3,378.83,593.12,57.26,9.30" target="#b41">Mosher 1968)</ref>, particularly in the case of otherwise disadvantaged minority groups <ref type="bibr" coords="3,490.65,606.08,61.61,9.30;3,316.09,619.03,63.80,9.30" target="#b8">(Bradbury and Kellough 2011;</ref><ref type="bibr" coords="3,383.42,619.03,168.76,9.30" target="#b12">Coleman, Brudney, and Kellough 1998;</ref><ref type="bibr" coords="3,316.09,631.98,55.69,9.30" target="#b30">Krislov 1974;</ref><ref type="bibr" coords="3,375.00,631.98,50.27,9.30" target="#b38">Meier 1993;</ref><ref type="bibr" coords="3,428.49,631.98,123.74,9.30;3,316.09,644.93,22.60,9.30" target="#b39">Meier, Wrinkle, and Polinard 1999;</ref><ref type="bibr" coords="3,341.52,644.93,96.44,9.30" target="#b50">Sowa and Selden 2003;</ref><ref type="bibr" coords="3,440.80,644.93,111.42,9.30;3,316.09,657.88,67.25,9.30">though see Ernst, Nguyen, and Taylor 2013)</ref>. A similar, but related, literature finds favorable interactions when citizens and bureaucrats share race, ethnicity, or gender <ref type="bibr" coords="3,430.85,683.79,121.38,9.30;3,316.09,696.74,89.34,9.30" target="#b15">(Epp, Maynard-Moody, and Haider-Markel 2013;</ref><ref type="bibr" coords="3,409.80,696.74,142.41,9.30;3,316.09,709.69,22.06,9.30" target="#b45">Riccucci, Van Ryzin, and Lavena 2014)</ref>. This line of scholarship brings us to our second hypothesis:</p><p>H2: All else equal, bureaucrats will be more responsive and friendly to members of their own racial/ethnic groups.</p><p>While some of the representative bureaucracy scholarship <ref type="bibr" coords="4,87.71,121.57,149.83,9.30" target="#b39">(Meier, Wrinkle, and Polinard 1999)</ref> contends that demographic diversity among bureaucrats will lift the fortunes of all of a bureaucracy's constituents-not just coethnic constituents-for simplicity's sake, we focus on the most basic version of representative bureaucracy.</p><p>A third closely linked hypothesis stems from theories of intergroup contact <ref type="bibr" coords="4,185.41,199.28,61.99,9.30" target="#b0">(Allport 1954;</ref><ref type="bibr" coords="4,252.70,199.28,43.20,9.30;4,59.76,212.23,19.16,9.30" target="#b44">Pettrigrew 1998</ref>) and familiarity bias <ref type="bibr" coords="4,166.27,212.23,125.32,9.30" target="#b53">(Tversky and Kahneman 1972)</ref>. Putting aside bureaucrats' demographic characteristics, we might anticipate an inclination to aid members of groups with which they are most familiar. Contact may diminish discriminatory biases, or psychological mechanisms may prompt individuals to favor the familiar over the novel. Given the power differential between caseworkers and clients and the inherent community-based nature of housing, we suspect that the important contact will take place in the local community outside of a social service agency. This leads us to our third hypothesis:</p><p>H3: All else equal, bureaucrats exposed to more black and Hispanic constituents will be more responsive and friendlier to blacks and Hispanics, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The Case of Public Housing</head><p>To evaluate these predictions, we selected the case of public housing. We opted for it over other plausible candidates because it is a federal program that is heavily devolved to the local level. Common federal guidelines make local housing authorities simultaneously institutionally comparable and highly autonomous. We should not expect, for example, housing authorities in the South to be radically different (institutionally, at least) from those in the East, or for variations in state laws to affect outcomes. Indeed, all public housing authorities are administering the same federal programs: subsidized housing choice vouchers under the Section 8 program and/or conventional public housing. The former allow recipients to use subsidies to obtain market-rate private-sector apartments. The latter offers subsidized accommodations in governmentowned units. There is sufficient devolution to the local level, however, that, aligning with the definition of a "street-level bureaucrat" <ref type="bibr" coords="4,111.70,709.67,55.48,9.30" target="#b34">(Lipsky 1980)</ref>, local offices and officials have discretion over policies they did not themselves design. In order to encourage the creation of mixed-income housing developments, the federal government dramatically increased public housing authorities' discretion with the passage of the 1998 Quality Housing and Work Responsibility Act. This legislation permitted public housing officials far greater authority in setting the rules for selecting tenants and Section 8 voucher recipients so long as they abided by federal fair housing guidelines <ref type="bibr" coords="4,523.47,152.75,26.47,9.30;4,313.80,165.70,22.60,9.30" target="#b31">(Lazio 1998;</ref><ref type="bibr" coords="4,340.25,165.70,64.21,9.30" target="#b48">Schwartz 2010;</ref><ref type="bibr" coords="4,408.32,165.70,43.45,9.30" target="#b55">Vale 2000)</ref>. By allowing for local autonomy and the proliferation of varying selection criteria, devolution creates a more complicated informational environment. This environment increases the importance of public housing authority officials in helping people navigate the application process. Moreover, it offers street-level bureaucrats greater opportunities to exercise individual authority and discretion <ref type="bibr" coords="4,487.71,256.37,62.17,9.30;4,313.80,269.32,74.61,9.30" target="#b17">(Fording, Soss, and Schram 2007)</ref>.</p><p>While no one bureaucracy can possibly stand in as a representative for all, we believe that public housing officials represent a body of bureaucrats distinct from election officials who administer inherently political and less scarce programs. Indeed, as nonpolitical social service providers, public housing officials likely share important characteristics with many counterparts administering social programs in the Department of Health and Human Services (HHS), for example. While not necessarily indicative of local staffing, HUD and HHS have virtually identical agency prefere federal level <ref type="bibr" coords="4,468.75,411.77,81.15,9.30;4,313.80,424.72,22.05,9.30" target="#b11">(Clinton and Lewis 2008)</ref>. Thus, public housing bureaucrats permit us to test discrimination in a substantively different, and more broadly representative, context than those used in prior research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data and Methods</head><p>We e-mailed public housing authorities at their publicly available e-mail addresses (or online contact forms) using an audit study design. Each housing authority received an e-mail on one of two days in the same week during 2014. <ref type="bibr" coords="4,368.51,580.21,3.51,6.51">4</ref> We e-mailed all public housing authorities that could plausibly be matched with a core city in a metropolitan or micropolitan area (n = 1,017). This was to ensure that the public housing authorities we selected could easily be matched with census demographic data (many public housing authorities covered regions that would be difficult to match with census geocodes). Our sample comprises an enormous range of places. It includes communities with 10,000 residents alongside the largest cities in the country.</p><p>Each housing authority was randomly assigned (via random number generator) to receive an e-mail from one of six different accounts with putatively white, Hispanic, and black names ( <ref type="table" coords="5,144.24,126.86,44.14,9.30" target="#tab_1">Table SI1</ref> in the supporting information shows balance in the average demographics for the communities assigned to each treatment). For each racial/ethnic group, we chose one male and one female name to address any possible gender interactions emerging from the disproportionately female-headed household composition of public housing. 5 Using male and female names reduces the number of observations for each treatment. Nevertheless, we felt it was important to have both, given the prevalence of females in public housing and the preponderance of analyses that use only male names in the audit study literature. Below, we analyze the data with males and females separated and consolidated by race.</p><p>The six names were as follows: Brett Smith, Emily Smith (white); Tyrone Johnson, Shanice Johnson (black); and Santiago Martinez, Gabriela Martinez (Hispanic). For the white and black e-mailers, we chose names that were among the 20 most distinctively black and white names in <ref type="bibr" coords="5,104.95,372.93,109.68,9.30" target="#b32">Levitt and Dubner (2010)</ref>. In a similar audit study published in a leading economics journal, Brett and Tyrone predicted their respective races at a rate of greater than 90% <ref type="bibr" coords="5,106.41,411.78,145.46,9.30" target="#b5">(Bertrand and Mullainathan 2004)</ref>. Observational data from California similarly bolster our choices of female names: 97% of children named Shanice from 1989 to 2000 are black, and more than 98% of their counterparts named Emily are white <ref type="bibr" coords="5,195.56,463.59,95.19,9.30" target="#b18">(Fryer and Levitt 2004)</ref>.</p><p>Our selection of Hispanic names relied more heavily on the surname (Martinez) being distinctively Hispanic. While the black and white surnames we used are relatively common among both racial groups <ref type="bibr" coords="5,245.56,515.40,52.59,9.30;5,62.05,528.35,26.47,9.30;5,88.52,526.60,3.51,6.51">(Word et al. 2000), 6</ref> Martinez is strongly linked with Hispanic ethnicity. Nearly 92% of individuals with the surname Martinez are Hispanic <ref type="bibr" coords="5,121.00,554.26,80.39,9.30" target="#b59">(Word et al. 2000)</ref>. More generally, surname is reliably and widely used in both political science and other disciplines as a strong predictor of Hispanic ethnicity <ref type="bibr" coords="5,101.41,593.11,145.34,9.30" target="#b4">(Barreto, Segura, and Woods 2004;</ref><ref type="bibr" coords="5,249.19,593.11,49.03,9.30;5,62.05,606.07,111.05,9.30" target="#b23">Henderson, Sekhon, and Titiunik 2015;</ref><ref type="bibr" coords="5,174.67,606.07,55.73,9.30" target="#b57">Wei et al. 2006</ref>). The U.S. Census Bureau provides a list of Spanish surnames (including Martinez) that correctly identifies 93.6% of all Hispan-ics; just as importantly, fewer than 5% of those identified are false <ref type="bibr" coords="5,354.71,75.05,150.70,9.30" target="#b4">(Barreto, Segura, and Woods 2004;</ref><ref type="bibr" coords="5,509.17,75.05,43.02,9.30;5,316.09,88.00,55.12,9.30" target="#b60">Word and Perkins 1996)</ref>. Combining Martinez with two first names drawn from an online list of the 100 most popular Hispanic names (BabyCenter en Espanol 2011), these two names powerfully signal Hispanic ethnicity.</p><p>While we generally followed previous studies' practices in selecting names, we made a couple of important adjustments. We were, when possible, attentive to the age that names implied. One name prominently used in a recent audit study-Deshawn-came into use almost exclusively after 1970 according to data from the Social Security Administration. Thus, <ref type="bibr" coords="5,450.34,217.52,101.88,9.30;5,316.09,230.47,27.81,9.30" target="#b10">Butler and Broockman's (2011)</ref> comparison of responses to e-mails from Deshawn and Jake-a name that has been in use with varying prominence since the turn of the 20th century (Wattenberg 2005)-may actually be estimating the causal effect of being a young black male relative to being a white male of unclear age. This could inflate the amount of measured bias. The age distributions for Tyrone and Brett largely overlap, with peaks in the 1960s and 1970s. Similarly, Emily's and Shanice's distributions largely overlap, with peaks in the 1980s. <ref type="bibr" coords="5,436.88,345.27,3.51,6.51">7</ref> We were unable to match Hispanic names' age distributions with their black and white counterparts, however; virtually all distinctively Hispanic names-including the two we chose, Santiago and Gabriela-peak in the 1990s and 2000s in Social Security Administration data, likely due to recent trends in Hispanic migration.</p><p>Our e-mail text was the following:</p><p>Hello, My name is X and I'm trying to figure out how to apply for public housing. I believe I may be eligible.</p><p>Can you direct me to information about applying for public housing here? I also heard there might be a wait list for this program. How long is it? Thanks, X</p><p>We used a fairly generic request for "public housing"-rather than specifying a particular programfor several reasons. First, we wanted to ensure that our e-mail would be equally applicable and reasonable at all of the public housing authorities in our sample. Since there are significant variations in the scale and type of programs offered, we avoided incorporating particular programs in our query for help. Second, we eschewed referencing specific programs because we did not want to signal an overly sophisticated applicant. Doing so could affect bureaucratic responsiveness in a variety of unintended ways.</p><p>Finally, we note that e-mail is not the only, or perhaps even primary, way that many reach out to housing authorities-though the same could be said for elected representatives, election officials, and others who have been audited via e-mail. Nevertheless, our data suggest that many housing authorities are used to corresponding and connecting with potential residents online. Fifty-five percent of the housing authorities we contacted either provided easily accessible e-mail addresses or "contact us" web forms. In the other 45%, we could not easily find e-mail contact directly from the housing authority. In these instances, we used the e-mail contact information available via HUD's website. Importantly, these less web-friendly housing authorities were evenly distributed across the three racial/ethnic groups (43% (black), 45% (white), and 47% (Hispanic)). While these cases suggest that e-mailing a housing authority may not always be the best way to get information from it, even 49% of our emails to the harder-to-find addresses received responses. E-mailing even the less web-friendly housing authorities to seek information thus does not appear to be especially unusual. To further document the web-friendliness of housing authorities, we took a random sample of 50 (5% of our total sample) and visited their websites to look for information targeted at potential applicants. Sixtysix percent provided easily accessible information about things such as the application process, the status of waiting lists, eligibility criteria, or housing stock. In some other cases, housing authorities did not have a discernible web presence. In the statistical models below, we include a variable indicating whether we had to use the HUD website to find an e-mail address (the Hard Email variable).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethical Considerations</head><p>Our e-mail text more generally reflects important ethical considerations that are prominent and well discussed in similar field experiments (e.g., <ref type="bibr" coords="6,248.69,580.16,47.15,9.30;6,59.76,593.11,74.28,9.30" target="#b10">Butler and Broockman 2011)</ref>. First, we contacted government employees in their professional capacity. Second, our experimental treatments were not designed to alter their behavior but rather to measure it. Third, we were attentive to minimizing the amount of time workers devoted to requests for information from fictitious constituents. We were especially attuned to this issue since one of us actually worked in public housing prior to entering academia. The "can you direct me" portion of the e-mail was designed to encourage housing officials to either send a link to a webpage or to copy and paste standard direc-tions. The bulk of the e-mails we received do, in fact, feature these sorts of responses. The "how long is [the wait list]" query similarly elicited fast answers that required no more than a few words. Moreover, we did not engage with housing officials at all after the first e-mail, even if our putative request for assistance was met with a followup question. While some burden is necessary in order to gain insight into how bureaucrats allocate their finite time <ref type="bibr" coords="6,335.72,165.71,46.56,9.30" target="#b21">(Hall 1996)</ref>, we believe that our minimal intervention did not substantially distract housing officials from serving their constituents. Finally, we did use deception, consistent with all other prominent audit studies cited in this article. This deception is necessary to experimentally test whether bureaucrats exhibit racial biases in their responses to constituents. Without the random assignment of race and gender, we would be unable to measure this important quantity of interest. We, of course, took anonymity very seriously, and all of our analyses reflect comparisons across groups of housing officials.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Key Variables</head><p>We focus on two ways bias could manifest: (1) responsiveness and (2) friendliness. The former is directly analogous to the main dependent variable in existing racial bias research. We calculate responsiveness rates and assess the timeliness and completeness of the responses.</p><p>Friendliness is a less widely used variable, and quantifying it is somewhat more challenging. We use what we believe to be the most easily comparable (and least subjective) measure across e-mails: whether the e-mailer is addressed by proper name. We were lenient in coding "yes." A named salutation could be as casual as "Hi Brett" or as formal as "Dear Ms. Martinez." 8 An ample literature in psychology and public opinion suggests that named salutations are surprisingly important to recipients. In particular, they dramatically boost survey responses <ref type="bibr" coords="6,313.80,562.12,70.72,9.30" target="#b22">(Heerwegh 2005;</ref><ref type="bibr" coords="6,386.28,562.12,97.80,9.30" target="#b25">Joinson and Reips 2007)</ref>. Moreover, this effect (in some studies) is stronger when the sender is seen as powerful <ref type="bibr" coords="6,364.16,588.02,103.77,9.30" target="#b25">(Joinson and Reips 2007)</ref>, as may be the case for housing officials e-mailing public housing applicants. There are many potential mechanisms at play here. Perhaps most prominently, a wide array of psychological research reveals that individuals have a powerful affinity for their own name. This manifests in ways such as more carefully examining resumes and advertised brands with names similar to one's own <ref type="bibr" coords="7,184.02,88.00,109.74,9.30" target="#b24">(Howard and Kerin 2011)</ref>. We anticipate that named salutations, then, may lead an applicant to feel more warmly and better served. In addition, a named salutation might also signal the effort a caseworker will put forward in helping a client through the housing application process. Because we do not follow up on our initial e-mail correspondence, though, we cannot measure the ensuing interactions.</p><p>To evaluate Hypothesis 2, we need information about workers' demographics. Unfortunately, public housing authorities do not publish data on the racial and ethnic breakdowns of their staffs. Thus, we attempt to at least roughly assess Hypothesis 2 by incorporating, when possible, the ethnicity of the housing authority official who responds to the e-mail. We do so by coding Hispanic ethnicity based on the responding official's e-mail address name.</p><p>Note that we are only measuring whether the responding housing official is Hispanic or not. In an ideal world, we would use the responder's name to classify him or her as black or white in order to better correspond with our treatment groups. As above, while ethnically distinctive surnames are reliable and widely used predictors of Hispanic ethnicity, there are no census lists of black and white surnames that provide anywhere near the same accuracy that the Hispanic surname list does <ref type="bibr" coords="7,245.33,411.78,52.88,9.30;7,62.05,424.73,112.98,9.30" target="#b23">(Henderson, Sekhon, and Titiunik 2015)</ref>.</p><p>We are also only capturing the ethnicity of those individuals who actually respond to our e-mails. Information about those who received e-mail requests but did not reply is unfortunately unavailable due to the nature of housing authority e-mail addresses, which rarely feature an individual's name. Instead, they are typically a generic address like "citynamepublichousing@cityname.org." Responses then typically come from an individual's named account. Thus, we can evaluate Hypothesis 2 only for those observations for which we received e-mail responses. Since the treatments were randomly assigned, in expectation, our e-mails should have reached Hispanic officials at equal rates in each condition, allowing us to compare those that were returned. If a disproportionate number of Hispanic officials received the e-mails in the Hispanic conditions due to random chance, it would undermine these inferences. While we cannot know who the e-mails reached, we do know that the average Hispanic populations in the communities were similar across the three racial treatment groups (14.0% in the white group, 14.5% in the black group, and 13.8% in the Hispanic group). Lastly, we note that this issue applies to only part of our Hypothesis 2 analysis-the portion exploring bias in responsiveness-and not the rest of the results for Hypothesis 2 or our other hypotheses.</p><p>To evaluate Hypothesis 3-which postulated that bureaucrats in communities with more black and Hispanic residents would be more responsive to black and Hispanic constituents, respectively-we include community racial demographics. We obtain the proportion white, black, 9 and Hispanic at the "place" level from the American Community Survey's 2012 5-year estimates. In addition, we incorporate other relevant demographic controls from the census into our statistical models: city poverty rate and population. The poverty rate is likely related to the demand for housing and the overall number of inquiries to which a bureaucrat must respond. Similarly, larger cities may have more professional housing authorities or more resources along with different public housing applicant pools, for example.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>We begin by evaluating Hypothesis 1 and testing whether the race of the inquirer affects whether housing officials are more likely to respond and the speed and comprehensiveness of their responses. In <ref type="figure" coords="7,455.97,371.44,34.91,9.30">Figure 1</ref>, we report the raw and unmodeled data-the proportion of inquiries that received e-mail responses (with 95% confidence intervals). On the left, we separate out all six conditions (e.g., white male <ref type="bibr" coords="7,386.33,423.24,27.04,9.30">[Brett]</ref>). On the right, we consolidate by race. Overall, we do not find strong evidence of different responsiveness by race or gender ( 2 (5) = 5.92, pr = .31 for the six treatment category tabulation). The range across the six conditions is a mere 10 percentage points, from a low of 53% to a high of 63%.</p><p>Given the theoretical emphasis on discrimination against minorities, we primarily care about comparisons between whites and blacks and whites and Hispanics. The former comparison offers findings contrary to those in other studies. Our findings do not merely fail to find significant evidence of discrimination due to insufficient statistical power. To the extent we do get variation, it is in a direction counter to other findings of discrimination against blacks. Blacks actually received the highest response rates: 60.7% versus 57.5% for whites (p = .41). Even comparing the extreme ends of the white and black 95% confidence intervals yields a maximum plausible discrimination of only 8 percentage points.</p><p>The evidence concerning Hispanics is more mixed. It does not offer especially strong support for or against the discrimination hypothesis. The two Hispanic <ref type="bibr" coords="7,316.09,722.29,2.87,5.31">9</ref> We calculate the proportion non-Hispanic white and black. treatment conditions did receive the two lowest response rates. The difference between whites and Hispanics is 4.8 percentage points (p = .11). On the one hand, attributing systematic discrimination on the basis of this fairly small and borderline significant (with a one-tailed test) difference would constitute overly extrapolating from the given data. On the other hand, the Hispanic findings do not provide the evidence against the discrimination hypothesis that the black name results do. In fact, the substantively small magnitude we find is similar to the anti-Hispanic responsiveness difference uncovered in <ref type="bibr" coords="8,59.76,454.30,145.97,9.30" target="#b58">White, Nathan, and Faller (2015)</ref> with more observations (and thus smaller standard errors). This could be taken as evidence bolstering the conclusion of discrimination against Hispanics. It could also be taken as evidence that responsiveness bias against Hispanics is very small in magnitude and is only significant when the Ns are sufficiently large. Importantly, having all three racial groups in our study allows us to compare antiblack to anti-Hispanic discrimination. This comparison, as we discuss later, shows that the two types of antiminority discrimination are not the same and may derive from (or get reduced by) different mechanisms. The difference between blacks and Hispanics is about 8 percentage points (p = .02).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FIGURE 1 Proportion of Inquiries That Received a Response</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>By race/ethnicity crossed with sex</head><p>We utilize multiple logit model specifications to test for effects more rigorously. In <ref type="table" coords="8,194.88,648.57,34.30,9.30" target="#tab_1">Table 1</ref>, we depict the effects of race on our dependent variables of interest. Here, in accordance with our theoretical predictions, we consolidate the treatments by race/ethnicity (males and females together). These models include control variables that may be associated with responsiveness: percent black and percent Hispanic in the community, poverty rate (re-lated to the demand for housing and perhaps the number of inquiries), population (logged), and a variable that indicates that a housing authority's online contact address was difficult to obtain (Hard Email). Similar models that do not consolidate the treatments by race produce very similar results (see <ref type="table" coords="8,436.21,376.59,38.23,9.30">Table SI2</ref> in the supporting information).</p><p>The model in the first column reports the results using the responsiveness variable. Contrary to Hypothesis 1, it provides little to no evidence of racial discrimination. It does show less responsiveness in poorer areas (perhaps they have less housing available or bureaucratic capacity to respond). It also shows less responsiveness from housing authorities that did not provide easily accessible electronic contact information. While these variations are worthy of further exploration, the main implications concern race. Our failure to reject the null is not the same as demonstrating no effect. Nonetheless, we believe these results in conjunction with the next set of findings on response speed are strongly suggestive of an absence of racial discrimination. The likelihood ratio test comparing Model 1 to the same model without the race indicators is insignificant ( 2 = 4.49, p = .106). As with the summary statistics, this model provides some suggestive evidence of small anti-Hispanic bias, but none that reaches conventional significance levels. 10 10 We note that the main results of all three models in <ref type="table" coords="8,510.51,663.82,25.96,7.97" target="#tab_1">Table 1</ref> are unchanged (except for the Hard Email control variable becoming insignifiant in Model 3) when including the HUD assessment scores that we discuss below as a proxy for a housing authority's professionalism and capacity. (Because these scores are only available for about two-thirds of the housing authorities, we do not include them in the models we report). Finally, we address the possibility that aggregate balance is masking offsetting preferential treatment (an issue that becomes even more important in our discussion of representative bureaucracy below). <ref type="bibr" coords="9,251.91,502.46,46.20,9.30;9,62.05,515.41,81.15,9.30" target="#b10">Butler and Broockman (2011)</ref> find that among Democrats, black state legislators are more likely to reply to black constituent requests than to their white counterparts. One way to roughly estimate the underlying distribution of housing officials is to assume they are drawn from the populations in which the housing authorities are located. The average community in our sample is 66.5% white, 13.5% black, and 14.5% Hispanic. Thus, even if blacks (or Hispanics) are disproportionately represented in government jobs (about 19% of blacks, 14% of whites, and 10% of Hispanics work in the public sector; Department of Labor, 2012a, 2012b), it is very unlikely they are overrepresented enough to account for the overall balance we observe.</p><p>To supplement these findings, we considered two other indicators of responsiveness. First, we assessed speed by checking whether those who did respond did so within 24 hours (essentially by the end of the next working day, given the timing of our e-mails.) We conducted all of the same analyses as we did with the basic responsiveness dependent variable (see <ref type="figure" coords="9,487.91,100.96,44.37,9.30">Figure SI1</ref> and <ref type="table" coords="9,316.09,113.91,39.90,9.30">Table SI3</ref> in the supporting information and Model 2 in <ref type="table" coords="9,328.77,126.86,34.41,9.30" target="#tab_1">Table 1</ref>). These results largely mirror those above. In fact, they offer even less evidence of discrimination, mainly because the suggestive anti-Hispanic bias disappears. Brett, the white male, actually obtained the lowest 24-hour response percentage and had the highest median response time. Finally, responsiveness bias might manifest in the quality of information received. Only 48% of responses included wait list times-a query we included in the e-mails. Of Hispanics who obtained a response, 43% received information about wait list times, compared to 50% for blacks and 49% for whites. These results fall well short of conventional levels of statistical significance (p = .427, 2 test).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evidence of Discrimination: Tone</head><p>We also postulated that racial bias might manifest in officials' friendliness when they do respond. Using salutation by proper name as our measure of tone (see above), we report the proportion of responses that began with a personalized greeting in <ref type="figure" coords="9,405.80,398.84,37.27,9.30">Figure 2</ref> by the six treatments and three racial groups.</p><p>Here, we do see evidence of racial bias, but only against Hispanics. Sixty-one percent of the messages to the white e-mailers began with a named salutation. Only 41% to Hispanics did. This difference is highly significant (p = .000). Only 37% of responses to Santiago began with a named salutation, compared with over 60% for Tyrone, Brett, and Emily.</p><p>The model we report in the text, in the third column of <ref type="table" coords="9,327.96,528.36,32.76,9.30" target="#tab_1">Table 1</ref>, further demonstrates the negative impact a Hispanic name has on receiving a named greeting. The Hispanic name indicator variable is substantial, negative, and highly significant. Substantively, the change in the predicted probability of getting a named salutation as a function of changing from a white name to a Hispanic one (with other variables held at their means) is -20.0 percentage points, with 95% confidence interval <ref type="bibr" coords="9,316.09,630.93,62.05,10.46">[−30.5, −10.0]</ref>. Moreover, the percent Hispanic variable is positive and significant, suggesting that named greetings, perhaps especially for Hispanics, are more likely in areas with higher Hispanic populations. (Similar models that include all six treatments separately [ <ref type="table" coords="9,509.77,683.78,38.08,9.30">Table SI4</ref>] bolster these results.) These results differ from those in <ref type="bibr" coords="9,316.09,709.68,133.31,9.30" target="#b58">White, Nathan, and Faller (2015)</ref>, as they find discrimination in responsiveness but not tone. Part of this variation in results, though, may be attributable to slight differences in how friendliness in tone was coded. 11</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FIGURE 2 Proportion of Responses That Begin with a Personalized Greeting</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>By race/ethnicity crossed with sex</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Community and Officials' Demographics</head><p>Representative bureaucracy, contact theory, and familiarity bias may explain some of the variation between our results and findings of bias in other settings. We thus assess the interaction of the race of the putative constituent and (1) the demographics of public housing officials and (2) the traits of the community in which she is applying. Because we were only able to determine a housing official's ethnicity when he or she responded to our e-mails, we cannot observe the denominator. We can only estimate responsiveness by assuming that randomization balanced the odds of an e-mail arriving on the screen of a Hispanic official in the first place. Doing so suggests that responsiveness is not driven by officials favoring respondents of their own race. Of all of the responses for whites, blacks, and Hispanics, 6.2%, 6.1%, and 9.0% respectively came from ostensibly Hispanic officials (p = .453). Similarly, conditional on replying, Hispanic officials are not more likely to respond in 24 hours to Hispanic applicants (white: 81.8%, black: 83.2%, Hispanic: 88.2%; p = .88). Again, there is little evidence to support the conclusion that Hispanic e-mailers did appreciably better when interacting with Hispanic housing officials.</p><p>In <ref type="figure" coords="10,90.01,653.78,33.65,9.30">Figure 3</ref>, we show the proportion of friendly responses coming from Hispanic officials. We find that <ref type="bibr" coords="10,59.76,702.36,5.74,5.31">11</ref> As above, we also did this analysis coding all nonresponses as unfriendly responses to address the truncation problem. This does not affect the results. Hispanic officials were no more likely than their non-Hispanic counterparts to address Hispanic constituents by name. Forty-seven percent of responses from Hispanic housing officials addressed Hispanic constituent requests by name, compared with 40% from non-Hispanic housing officials-a difference that was not statistically significant in our sample. Furthermore, the lower rate at which Hispanics receive named greetings (displayed in <ref type="figure" coords="10,326.48,683.77,35.31,9.30">Figure 2</ref>) appears to hold even when we only look at responses from Hispanic housing officials. Though the results are no longer statistically significant due to large standard errors, Hispanics continue to receive the lowest share of named greetings, even when the housing official responding to their request is also Hispanic. 12 Thus, our admittedly crude efforts to test Hypothesis 2 (representative bureaucracy) suggest that it is an unlikely candidate to explain why we did not find the same responsiveness bias against minorities that other scholars have. These results come with important caveats though. The cell sizes are small. More importantly, we are unable to test for analogous effects for black and white housing officials.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FIGURE 3 Proportion of Responses from Hispanic Housing Officials That Begin with a Personalized Greeting</head><p>The effects of community traits do provide some support for Hypothesis 3. The first way we move beyond average effects is to create variables capturing whether each housing authority is in a community that is in the top, middle, or bottom third of the distribution for black population and for Hispanic population. Because these distributions are so skewed, the top thirds for black and Hispanic percentages start at around 12% black and Hispanic, respectively. Communities in the bottom thirds have essentially no black or Hispanic residents. We chose to convert continuous demographic variables into categorical ones both to reduce the impact of places with 80% or 90% black (or Hispanic) populations and because the theoretical questions are better thought of in terms of high or low populations rather than ones about the marginal effect of a one-unit increase in the population of a minority group.</p><p>We analyze the effects of these 1/3 variables by splitting our sample into the three racial/ethnic treatment groups and estimating separate models. We report the results of these logit models for the responsiveness and friendliness dependent variables in the supporting information <ref type="table" coords="11,95.05,476.56,79.40,9.30">(Tables SI5 and SI6</ref>). These models include controls for city population (logged), poverty rate, and our "hard email" indicator. The main effects of interest are the 1/3 variables. To focus on substantive effects, in <ref type="figure" coords="11,281.38,515.41,12.57,9.30;11,62.05,528.36,20.16,9.30">Figure 4</ref>, we plotted the predicted change in the probability of getting (1) a response and (2) a named greeting. Here, the point estimates capture the effects of moving from a lowest-third population (black/Hispanic) community to a top-third community, with all other variables held at their means. For example, the very first point depicts the extent to which e-mailing a housing authority in a highblack population community changes the probability of a white e-mailer obtaining a response relative to one in a low-black community.</p><p>The left panel in <ref type="figure" coords="11,402.87,62.10,35.65,9.30">Figure 4</ref> shows that the overall nonbias in responsiveness findings we reported earlier does not vary in important ways with community demographics. Whites' , blacks' , and Hispanics' likelihoods of receiving responses are always similar irrespective of whether they are e-mailing in a community in which they are a relatively large or small fraction of the population. This means that the aggregate results are not masking extremely high responsiveness in black communities and discrimination in others, for example. These null results are robust to using other population cut points (top versus bottom 1/4s and 1/5s instead of 1/3s).</p><p>The named salutation models (right panel) do offer some suggestive evidence that a community's population affects the likelihood that blacks and Hispanics receive friendlier responses. Black names may be less likely (just outside the p = .1 level) to receive a named greeting in a high-Hispanic area. Hispanic names, on the other hand, may be more likely (p = .08) to receive friendly responses in areas in the top third of the Hispanic population distribution compared to those in the lowest third. While we report the more conservative (and insignificant) results in which we split community racial demographics into thirds, the Hispanic results increase in magnitude and significance when comparing the top 1/4 to the bottom 1/4 (p = .06) and the top 1/5 to the bottom 1/5 (p = .01) of the percent Hispanic distributions.</p><p>To conclude our analysis, we zero in on substantively and theoretically interesting permutations of racial demographics. Now, we create variables to distinguish four special types of communities: "high white" (top 1/3 white, bottom 1/3 black, bottom 1/3 Hispanic), "high black" (top 1/3 black, bottom 1/3 white, bottom 1/3 Hispanic), "high Hispanic" (top 1/3 Hispanic, bottom 1/3 white, bottom 1/3 black), and "high black and Hispanic" (top 1/3 black, top 1/3 Hispanic, bottom 1/3 white). Focusing on these permutations directly speaks to questions of how responsiveness varies in communities that are dominated by one group, and whether racial minorities do better or worse depending on whether they are concentrated (alongside other nonwhites) in a community, or whether they are the primary minority group. All communities in the data that do not fit into one of these four categories are lumped together in the baseline. As before, we report the full model results (again splitting the sample by e-mailer race) in the supporting information <ref type="table" coords="11,371.41,657.88,83.62,9.30">(Tables SI7 and SI8</ref>). We plot substantive effects of interest in <ref type="figure" coords="11,402.54,670.83,36.52,9.30">Figure 5</ref>. Here, the point estimates capture the differences in the predicted probability of getting a response (or named greeting) as a consequence of moving from one community type to another. For white names, the main question of interest-as articulated in</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FIGURE 4 Change in Predicted Probability of Getting a Response and Getting a Named Greeting as a Function of Moving from a Community in the Lowest Third of Percent Black/Hispanic to Moving to One in the Highest Third</head><p>Note: Estimates based on models described in the text and reported in Tables SI5 and SI6 in the supporting information. Hypothesis 3-is responsiveness in very white areas compared to highly diverse ones. For blacks (and Hispanics), three comparisons are theoretically important: (1) the difference between a very white community and a very black (or Hispanic) one (one's own group is disproportionately represented), (2) the difference between a very white area and a very black and Hispanic one (minorities, including, but not exclusively, one's own group, are disproportionately represented), and (3) the difference between a very Hispanic and a very black area (one's own group versus a different minority group). This analysis again shows little variation in basic response rates. Consistent with Hypothesis 3, it provides some suggestive evidence, as above, that Hispanics obtain fewer unfriendly/formal responses in higher minority areas than they do elsewhere. Notably, the largest (and only significant effect at the .05 level) is the difference between mainly white and high minority (Hispanic and black) areas for named responses to the e-mails from Hispanics. This suggests that the underlying mechanism is more about day-to-day exposure to minorities in the community than to differential treatment by group. Hispanics do not do appreciably better in high Hispanic areas than they do in high black areas. As before, the effects are similarly signed and more significant (p &lt; .05) when substituting a 1/4 cut point that compares more extreme places to each other.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FIGURE 5 Change in Predicted Probability of Moving from a Town of Type X to a Town of Type Y</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Our findings offer a mixed and nuanced portrait of discrimination, and its absence, in bureaucratic responsiveness. We find some support for the bias against minorities hypothesis (Hypothesis 1) in the context of e-mail tone. Our further exploration of Hypotheses 2 and 3, however, suggests little support for Hypothesis 2. Hispanic housing officials did not provide more friendly responses to Hispanics' constituent service requests than they did to others' . We are cautious in extrapolating too much from these results, however, given our inability to test Hypothesis 2 for white and black bureaucrats. Finally, we do find modest and suggestive support for Hypothesis 3 in the context of Hispanic e-mail tone.</p><p>Perhaps the most striking feature of our analysis-in contrast with a wealth of audit studies-is the absence of antiblack discrimination. Below, we discuss several possible systematic explanations for this important main difference. Before delving into these more substantively interesting possibilities, we address whether the key results may actually be a consequence of class signaling in our design. Perhaps the polished (though informal) English in our e-mails suggested a high socioeconomic status applicant and muted potential discrimination. <ref type="bibr" coords="13,241.46,567.22,56.68,9.30;13,62.05,580.17,93.15,9.30" target="#b5">Bertrand and Mullainathan's (2004)</ref> seminal experimental study provides helpful evidence to counter this concern. They find that higher social class does not mitigate antiblack labor discrimination. Similarly, using a telephone audit to study housing discrimination, <ref type="bibr" coords="13,166.85,631.98,110.86,9.30" target="#b36">Massey and Lundy (2001)</ref> find that racial discrimination persists regardless of class cues, though lower-class status does exacerbate antiblack discrimination. On balance, prior scholarship suggests that sending a favorable class cue is unlikely to have induced a null black discrimination result.</p><p>Moreover, it is possible that these findings are largely a confirmation of the racial classification model <ref type="bibr" coords="13,262.32,722.65,35.82,9.30;13,316.09,62.12,45.92,9.30" target="#b46">(Schram et al. 2009;</ref><ref type="bibr" coords="13,364.98,62.12,137.80,9.30" target="#b49">Soss, Fording, and Schram 2008)</ref>. In the absence of discrediting information about minority clients, caseworkers may have been disinclined to engage in overt discrimination. The fact that we do find evidence of discrimination-in friendliness toward Hispanicsdespite the absence of discrediting information in that treatment condition makes this possibility less likely.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Blacks, Familiarity Bias, and Representative Bureaucracy</head><p>Demographic data from the National Low Income Housing Coalition (2012) and the American Community Survey (United States Census Bureau 2013) reveal that blacks are significantly overrepresented in America's public housing. While blacks compose just over 10% of the total population, and under 20% of total renters, they represent over 40% of public housing residents and voucher recipients. Whites, conversely, are significantly underrepresented, and Hispanics are proportionately represented. It could be, then, that the absence of discrimination against blacks is a consequence of housing authority officials' disproportionate familiarity with black constituents in the public housing context. Because we are sampling at the housing authority level, however, we suspect that this mechanism may contribute to, but not completely explain, our results. America's racial geography suggests that the overrepresentation of blacks in public housing is likely most stark in large cities. However, each large city is only one observation in our study. Consequently, the bottom third of our distribution of housing authorities comes from communities with essentially zero black residents. Thus, it is unlikely that the bulk of our housing authorities are disproportionately accustomed to black clients. Nevertheless, it is possible that these mechanisms affect bigger cities and help explain why the population variable often had a positive effect on responsiveness to blacks, even when controlling for overall black population rates (e.g., <ref type="table" coords="13,479.78,567.22,36.56,9.30">Table SI5</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Racial Coding of Poverty</head><p>A second, and related, potential explanation stems from research by <ref type="bibr" coords="13,395.48,644.92,57.33,9.30" target="#b19">Gilens (1999)</ref>. This line of scholarship contends that, courtesy of the disproportionate use of images of blacks in negative stories about poverty, Americans largely oppose redistributive welfare initiatives because they associate blacks with the undeserving poor. It could be that, as a consequence of their jobs, housing authority employees are more likely to have had personal encounters with poor blacks and whites alike. Therefore, they are not receiving biased information about the racial composition of the poor from the media. Instead, their views of race and the deserving or undeserving poor may be based on their direct experience. Applying Gilens's theory of mass attitudes about welfare to public housing officials offers a potential explanation for our findings. Experience working directly with the poor may diminish the racial coding of poverty, or lead to a different one, which could in turn curb the discriminatory impulses that manifest in other populations with different perceptions of the connections between race and poverty.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fair Housing Legislation</head><p>Finally, in their research on voting officials, <ref type="bibr" coords="14,267.87,256.38,28.00,9.30;14,59.76,269.33,111.38,9.30" target="#b58">White, Nathan, and Faller (2015)</ref> find lower levels of discrimination in locales that were covered by the Voting Rights Act (VRA). They cite research from <ref type="bibr" coords="14,211.93,295.23,83.94,9.30;14,59.76,308.18,27.83,9.30" target="#b42">Pager and Shepherd (2008)</ref> suggesting that organizational awareness, monitoring, and procedures can make potential discriminators cognizant of and reduce the risk of bias. Much of what public housing administrators do is governed extensively by the Fair Housing Act. Moreover, because of the Fair Housing Act, the Department of Housing and Urban Development makes an effort to regularly measure private market housing discrimination with frequent audit studies centered on residential steering and other forms of discriminatory behavior <ref type="bibr" coords="14,161.93,424.73,73.30,9.30" target="#b52">(Turner et al. 2002</ref><ref type="bibr" coords="14,241.40,424.73,17.64,9.30" target="#b51">(Turner et al. , 2013</ref>. Housing bureaucrats may therefore be highly knowledgeable about the potential for discrimination and about the procedures the federal government employs to mitigate it. This could make housing officials-like voting officials in VRA-regulated locales-less apt to discriminate. The Fair Housing Act emerged in 1968 in the context of national concern about black poverty and residential segregation. It may thus raise awareness about antiblack, but not anti-Hispanic, discrimination. As with the Voting Rights Act, the Fair Housing Act is not randomly assigned to particular bureaucracies or locations, so we cannot assess its causal impact. Nonetheless, the absence of discrimination against blacks in particular suggests at least some efficacy in addressing housing discrimination. It may even point, especially in conjunction with the Voting Rights Act findings, to more broadly applicable interventions for reducing discrimination in other areas and suggest why housing bureaucracies differ from other contexts in which we do observe discrimination.</p><p>It is also plausible that the prominence of the Fair Housing Act made respondents suspicious that they were being studied by academics or the government. While we cannot disprove this possibility, we believe that several pieces of evidence suggest that it is unlikely. First, while discrimination in the private housing market has been extensively studied (and audited), public housing authorities themselves have, to our knowledge, never been audited. Second, many of the responses we received seemed genuine and informal in nature-not the sorts of replies you would anticipate from a bureaucrat aware she was being audited. Here is a sampling of some of these replies: "How old are you?" "If you would like to contact my office, I would explain it to you better. My office number is [office phone number]" "[Housing authority website] has all the info u need." Third, the presence of an anti-Hispanic bias in friendliness further indicates that our experiment participants were unaware of our study; we should expect no bias to manifest if respondents were aware of the audit.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bureaucratic Professionalism</head><p>The discussion of the Fair Housing Act prompts a broader, related question: Does bureaucratic professionalism more generally mitigate discrimination? Variations in bureaucratic professionalism cannot explain our article's experimental nonresults on responsiveness; the randomization in design ensures that differences (or non differences) in responsiveness across places are not driven by jurisdictional characteristics. However, heterogeneity in discrimination by bureaucratic professionalism might point to interesting policy prescriptions for mitigating racial bias. Highly professional bureaucracies may be better at ensuring that they reply to outreach. They may also be more sensitive to issues of discrimination in housing in general and may be more likely to prevent differential treatment. To assess this possibility, we use the Public Housing Assessment Scores (PHAS) that the Department of Housing and Urban Development assigns to each housing authority. HUD calculates these scores based on four components: (1) physical inspection, (2) financial assessment, (3) management operations, and (4) use of the Capital Fund (a source of housing authority funding that can be used for a variety of operations). HUD collects the data that compose these ratings through self-reports and audits (Department of Housing and Urban Development 2015b).</p><p>We split the sample by HUD assessment scores. 13 The median assessment score in our sample was 89 out of 100. This actually corresponded to the cut point between "high performers" and others in the qualitative 13 Not all housing authorities had assessment scores available (n = 671 for all analyses). designations that accompany the numerical scores. The data suggest that professionalism is positively associated with responsiveness to both whites (19 percentage point difference between high performers and others, p = .01) and blacks (16 percentage point difference, p = .02), but not Hispanics (difference of less than 1 percentage point). In these housing authorities, the black response rates exceed those of Hispanics by a whopping 15 percentage points (p = .024). Conversely, whites, blacks, and Hispanics all obtain about the same response rates from the lower-performing housing authorities. While these general trends hold when we use different cut points, the stark black and Hispanic patterns soften. Thus, we cannot draw any strong conclusions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>By comparing bias toward blacks and Hispanics-a juxtaposition most studies eschew to preserve power (though see <ref type="bibr" coords="15,78.01,321.13,82.60,9.30" target="#b46">Schram et al. 2009</ref>)-we are able to uncover a previously unspecified type of bureaucratic bias that impacts one group (Hispanics) but not the other. Indeed, our findings suggest that Hispanics are marginally less likely to receive responses from housing bureaucrats, and, when they do receive responses, they are far less likely to be friendly ones. Furthermore, our results likely represent a lower bound on discrimination against Hispanic constituents. In our study, putative Hispanic constituents are sending e-mails with polished grammar, which may provide counter-stereotypical cues to caseworkers. This anti-Hispanic bias has important policy implications. In her in-depth exploration of local bureaucracies, <ref type="bibr" coords="15,264.39,476.55,33.74,9.30;15,62.05,489.50,27.83,9.30" target="#b35">Marrow (2011)</ref> found that these organizations-including schools and social service organizations-play a critical role in incorporating (or failing to incorporate) new Hispanic immigrants. Unfriendliness toward Hispanics seeking public housing, a low-income population that likely already feels stigmatized, has the potential to be quite alienating. These types of interactions with government agencies could harm prospects for broader political and social incorporation.</p><p>Moreover, our findings reveal that we may observe different discriminatory biases depending upon the political and economic arena. This does not necessarily mean that researchers and policy makers should take our article as evidence that discrimination is more limited than previously feared, but it should at least serve as a check against overgeneralizing from the excellent existing work that does find discrimination. At a minimum, our findings suggest that bureaucratic discrimination may be contingent on the demographics of the place in which a bu-reaucracy is situated. More generally, we suspect that the level of bias depends on the structure of the bureaucracy. A future research agenda that compares different bureaucracies, and bureaucratic oversight, might help scholars and policy makers identify policy solutions to the longthorny problem of racial discrimination in the public and private sectors.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting Information</head><p>Additional Supporting Information may be found in the online version of this article at the publisher's website:</p><p>These tables (some of which are referred to in the text) provide supplemental information about our data and models. <ref type="table" coords="17,316.09,353.01,39.16,9.30" target="#tab_1">Table SI1</ref>: Average community demographics by treatment <ref type="table" coords="17,316.09,378.91,38.27,9.30">Table SI2</ref>: Logit models for the dependent variable capturing whether housing officials re-sponded. All six treatments included separately <ref type="table" coords="17,316.09,417.77,38.27,9.30">Table SI3</ref>: Logit models for the dependent variable capturing whether housing officials responded in 24 hours if they responded. <ref type="table" coords="17,316.09,456.63,38.27,9.30">Table SI4</ref>: Logit models for the dependent variable capturing whether housing officials began responses with a named greeting if they responded. <ref type="table" coords="17,316.09,495.48,38.06,9.30">Table SI5</ref>: Split sample (by race of emailer) logit models for the email response dependent variable with cities broken into thirds based on the percent of the population that is black and the percent Hispanic <ref type="table" coords="17,316.09,547.29,38.06,9.30">Table SI6</ref>: Split sample (by race of emailer) logit models for the named greeting dependent variable with cities broken into thirds based on the percent of the population that is black and the percent Hispanic <ref type="table" coords="17,316.09,599.09,38.06,9.30">Table SI7</ref>: Split sample (by race of emailer) logit models for getting a response with indicator variables for special types of towns (e.g. mainly white or high Hispanic). <ref type="table" coords="17,316.09,637.95,38.82,9.30">Table SI8</ref>: Split sample (by race of emailer) logit models for getting a named greeting with indicator variables for special types of towns (e.g. mainly white or high Hispanic). <ref type="figure" coords="17,316.09,689.76,42.68,9.30">Figure SI1</ref>: Proportion of responses received in 24 hours (excluding non-responses)</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="9,62.05,62.11,236.14,371.96"><head>TABLE 1</head><label>1</label><figDesc></figDesc><table coords="9,62.05,62.11,236.14,371.96">Logit models for the three Dependent 
+Variables, with All Three Racial Groups 
+and Other Demographic Controls 
+Variables 
+
+(2) 
+(3) 
+(1) 
+Response in Proper Name 
+Response 24 Hours 
+Greeting 
+
+Black Name 
+0.13 
+0.29 
+−0.21 
+(0.17) 
+(0.26) 
+(0.22) 
+Hispanic Name 
+−0.21 
+0.10 
+−0.82  *  *  
+(0.16) 
+(0.25) 
+(0.22) 
+Percent Black 
+−0.31 
+−0.17 
+0.71 
+(0.52) 
+(0.87) 
+(0.74) 
+Percent Hispanic 
+−0.32 
+−0.92 
+1.33  *  
+(0.43) 
+(0.69) 
+(0.63) 
+Poverty Rate 
+−1.65 
+1.28 
+−.93 
+(1.21) 
+(2.00) 
+(1.71) 
+Log Population 
+0.13 
+−0.01 
+−0.04 
+(0.07) 
+(0.10) 
+(0.09) 
+Hard Email 
+−.46  *  *  
+−0.14 
+−0.42  *  
+(0.14) 
+(0.22) 
+(0.19) 
+Constant 
+−0.50 
+1.33 
+0.88 
+(0.75) 
+(1.16) 
+(0.99) 
+Observations 
+978 
+551 
+549 
+Log Likelihood 
+−650.7 
+−286.8 
+−367.5 
+
+Note: Standard errors in parentheses. Base category is white. De-
+mographic variables from 2012 American Community Survey. 
+ *  * p&lt;.01,  * p&lt;.05. 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2"><ref type="bibr" coords="2,317.17,703.68,122.85,7.97" target="#b58">White, Nathan, and Faller (2015)</ref> feature friendliness as one of their dependent variables, though it does not comprise a central component of their analysis.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">The e-mails were sent on two separate days as a consequence of Google Mail batching limits.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">Roughly three-quarters of families in virtually all forms of public housing are female-headed households (National Low Income Housing Coalition 2012).6  Although Johnson appears at a slightly higher than expected rate among blacks (33.5%), neither surname is meant to signal racial identity; instead, we used widely validated first names for this purpose.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">While we ideally wanted to use "older" female names, analogous to Tyrone and Brett, none of the distinctively black female names rose to prominence until after the 1970s.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8">This measure is somewhat analogous to that featured in<ref type="bibr" coords="6,525.94,663.82,23.99,7.97;6,313.80,673.79,90.56,7.97" target="#b58">White, Nathan, and Faller (2015)</ref>. They code friendliness using both salutation by proper name and the use of "explicitly friendly language" like "Let us know if you have any more questions." We viewed the "explicitly friendly language" as somewhat more challenging to accurately code, and thus limited ourselves to the more clear-cut proper name salutation.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12">This finding helps us to rule out the possibility that officials are not responding to Hispanics by name because of a lack of familiarity with Hispanic names. Indeed, were this the case, we would expect Hispanic officials to address putative Hispanic constituents by name at higher rates.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="15,316.09,206.21,236.11,8.41;15,328.04,216.68,63.50,8.41" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">The Nature of Prejudice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gordon</forename><forename type="middle">W</forename><surname>Allport</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1954" />
+			<publisher>Addison-Wesley</publisher>
+			<pubPlace>Reading, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,230.12,236.11,8.41;15,328.04,240.58,224.19,8.41;15,328.04,251.05,224.16,8.41;15,328.04,261.51,146.25,8.41" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">How Not to Increase Participation in Local Government: The Advantages of Experiments When Testing Policy Interventions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kevin</forename><surname>Arceneaux</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">M</forename><surname>Butler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Public Administration Review</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="131" to="139" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,274.95,236.10,8.41;15,328.04,285.42,224.17,8.41;15,328.04,295.88,107.97,8.41" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Race and Gender Discrimination in Bargaining for a New Car</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ian</forename><surname>Ayres</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Siegelman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="304" to="325" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,309.32,236.15,8.41;15,328.04,319.79,224.23,8.41;15,328.04,330.25,201.70,8.41" xml:id="b3">
+	<monogr>
+		<title level="m" type="main">100 Most Popular Hispanic Baby Names of 2011</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Espanol</forename><surname>Babycenter En</surname></persName>
+		</author>
+		<ptr target="http://www.babycenter.com/0_100-most-popular-hispanic-baby-names-of-2011_10363639.bc" />
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,343.69,236.11,8.41;15,328.04,354.16,224.18,8.41;15,328.04,364.62,224.18,8.41;15,328.04,375.08,25.19,8.41" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The Mobilizing Effect of Majority-Minority Districts on Latino Turnout</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><forename type="middle">A</forename><surname>Barreto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Gary</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nathan</forename><forename type="middle">D</forename><surname>Segura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Woods</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="65" to="75" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,388.53,236.10,8.41;15,328.04,398.99,224.19,8.41;15,328.04,409.45,224.13,8.41;15,328.04,419.92,191.80,8.41" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Are Emily and Greg More Employable Than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marianne</forename><surname>Bertrand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sendhil</forename><surname>Mullainathan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="991" to="1013" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,433.36,236.12,8.41;15,328.04,443.82,224.21,8.41;15,328.04,454.29,224.18,8.41;15,328.04,464.75,224.16,8.41;15,328.04,475.20,129.78,8.41" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Racial Attitudes and Relations at the Close of the Twentieth Century</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lawrence</forename><surname>Bobo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">America Becoming: Racial Trends and Their Consequences</title>
+		<editor>Neil J. Smelser, William Julius Wilson, and Faith Mitchell</editor>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>National Academy Press</publisher>
+			<date type="published" when="2001" />
+			<biblScope unit="page" from="264" to="301" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,488.66,236.12,8.41;15,328.04,499.12,224.18,8.41;15,328.04,509.58,213.50,8.41;15,328.04,520.04,80.99,8.41" xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Chicago Housing Authority Opens Wait Lists for Public Housing Vouchers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lolly</forename><surname>Bowean</surname></persName>
+		</author>
+		<ptr target="http://www.chicagotribune.com/news/ct-cha-waiting-list-met-1028-20141027-story.html" />
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,533.49,236.12,8.41;15,328.04,543.95,224.20,8.41;15,328.04,554.41,224.17,8.41;15,328.04,564.87,29.73,8.41" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Representative Bureaucracy: Assessing the Evidence on Active Representation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Bradbury</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">Edward</forename><surname>Kellough</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Review of Public Administration</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="157" to="67" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,578.32,236.10,8.41;15,328.04,588.78,224.16,8.41;15,328.04,599.24,125.94,8.41" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Inside the Welfare Contract: Discretion and Accountability in State Welfare Administration</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Evelyn</forename><forename type="middle">Z</forename><surname>Brodkin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Service Review</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="33" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,612.69,236.11,8.41;15,328.04,623.16,224.12,8.41;15,328.04,633.61,224.18,8.41;15,328.04,644.07,102.83,8.41" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Do Politicians Racially Discriminate Against Constituents? A Field Experiment on State Legislators</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">M</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">E</forename><surname>Broockman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="463" to="477" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,657.53,236.11,8.41;15,328.04,667.99,224.17,8.41;15,328.04,678.44,78.05,8.41" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Expert Opinion, Agency Characteristics, and Agency Preferences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><forename type="middle">D</forename><surname>Clinton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">E</forename><surname>Lewis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Analysis</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="20" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,691.90,236.13,8.41;15,328.04,702.36,224.19,8.41;15,328.04,712.81,224.18,8.41;15,328.04,723.28,224.18,8.41" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Bureaucracy as a Representative Institution: Toward a Reconciliation of Bureaucratic Government and Democratic Theory</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sally</forename><surname>Coleman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><forename type="middle">L</forename><surname>Brudney</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">Edward</forename><surname>Kellough</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="717" to="761" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.76,62.75,236.07,8.41;16,71.71,73.21,224.21,8.41;16,71.71,83.67,224.15,8.41;16,71.71,94.13,218.35,8.41;16,59.76,107.58,236.11,8.41;16,71.71,118.05,224.18,8.41;16,71.71,128.50,224.76,8.41;16,59.76,141.95,236.11,8.41;16,71.71,152.42,224.22,8.41;16,71.71,162.88,224.15,8.41;16,71.71,173.33,209.32,8.41;16,71.71,183.80,152.20,8.41;16,59.76,197.25,236.11,8.41;16,71.71,207.71,224.19,8.41;16,71.71,218.17,147.83,8.41;16,59.76,231.62,236.07,8.41;16,71.71,242.08,224.18,8.41;16,71.71,252.54,174.24,8.41" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The Extended Reach of Minority Political Power: The Interaction of Descriptive Representation, Managerial Networking, and Race</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Belinda</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michelle</forename><surname>Creel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Younghee</forename><surname>Livermore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lim</surname></persName>
+		</author>
+		<ptr target="http://www.dol.gov/_sec/media/reports/HispanicLaborForce/HispanicLaborForce.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Politics</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="494" to="507" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note>The Latino Labor Force at a Glance</note>
+</biblStruct>
+
+<biblStruct coords="16,59.76,265.99,236.13,8.41;16,71.71,276.45,224.16,8.41;16,71.71,286.91,71.16,8.41" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The Visible Hand: Race and Online Market Outcomes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><forename type="middle">L</forename><surname>Doleac</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luke</forename><forename type="middle">C D</forename><surname>Stein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economic Journal</title>
+		<imprint>
+			<biblScope unit="volume">2013</biblScope>
+			<biblScope unit="page" from="469" to="92" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.76,300.36,236.11,8.41;16,71.71,310.82,224.17,8.41;16,71.71,321.29,222.49,8.41" xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Pulled Over: How Police Stops Define Race and Citizenship</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><forename type="middle">R</forename><surname>Epp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><surname>Maynard-Moody</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><forename type="middle">P</forename><surname>Haider-Markel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<publisher>University of Chicago Press</publisher>
+			<pubPlace>Chicago</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.76,334.73,236.10,8.41;16,71.71,345.19,224.16,8.41;16,71.71,355.66,86.91,8.41" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Citizen Control: Race at the Welfare Office</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rose</forename><surname>Ernst</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Linda</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kamilah</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Science Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1283" to="1307" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.76,369.10,236.14,8.41;16,71.71,379.56,224.17,8.41;16,71.71,390.03,224.20,8.41;16,71.71,400.49,15.91,8.41" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Devolution, Discretion, and the Effect of Local Political Values on TANF Sanctioning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">C</forename><surname>Fording</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joe</forename><surname>Soss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sanford</forename><forename type="middle">F</forename><surname>Schram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Service Review</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="285" to="316" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.76,413.93,236.13,8.41;16,71.71,424.40,224.14,8.41;16,71.71,434.86,127.47,8.41" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The Causes and Consequences of Distinctively Black Names</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roland</forename><forename type="middle">G</forename><surname>Fryer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">D</forename><surname>Levitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="767" to="805" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.76,448.30,236.03,8.41;16,71.71,458.77,224.16,8.41;16,71.71,469.23,54.63,8.41" xml:id="b19">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Gilens</surname></persName>
+		</author>
+		<title level="m">Why Americans Hate Welfare: Race, Media, and the Politics of Anti-Poverty Policy</title>
+		<meeting><address><addrLine>Chicago</addrLine></address></meeting>
+		<imprint>
+			<publisher>University of Chicago Press</publisher>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.76,482.68,236.15,8.41;16,71.71,493.14,222.95,8.41" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Field Experimental Work on Political Institutions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christian</forename><forename type="middle">R</forename><surname>Grose</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="355" to="70" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.76,506.59,236.13,8.41;16,71.71,517.05,96.07,8.41" xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Participation in Congress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">L</forename><surname>Hall</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Yale University Press</publisher>
+			<pubPlace>New Haven, CT</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.76,530.50,236.18,8.41;16,71.71,540.96,224.16,8.41;16,71.71,551.42,88.50,8.41" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Effects of Personal Salutations in E-mail Invitations to Participate in a Web Survey</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dirk</forename><surname>Heerwegh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Public Opinion Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="588" to="98" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.76,564.87,236.15,8.41;16,71.71,575.33,224.16,8.41;16,71.71,585.79,224.15,8.41;16,71.71,596.26,224.16,8.41;16,71.71,606.71,220.36,8.41" xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Cause or Effect? Turnout in Hispanic Majority-Minority Districts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">A</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Jasjeet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rocio</forename><surname>Sekhon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Titiunik</surname></persName>
+		</author>
+		<ptr target="http://www-personal.umich.edu/titiunik/papers/HispanicTurnout.pdf" />
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+		<respStmt>
+			<orgName>University of California at Berkeley and University of Michigan</orgName>
+		</respStmt>
+	</monogr>
+	<note>Working paper</note>
+</biblStruct>
+
+<biblStruct coords="16,59.76,620.17,236.09,8.41;16,71.71,630.63,224.17,8.41;16,71.71,641.09,205.89,8.41" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The Effects of Name Similarity on Message Processing and Persuasion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">J</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roger</forename><forename type="middle">A</forename><surname>Kerin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="63" to="71" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.76,654.54,236.15,8.41;16,71.71,665.00,224.15,8.41;16,71.71,675.46,224.17,8.41;16,71.71,685.91,11.36,8.41" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Personalized Salutation, Power of Sender and Response Rates to Web-Based Surveys</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adam</forename><forename type="middle">N</forename><surname>Joinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ulf-Dietrich</forename><surname>Reips</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computers in Human Behavior</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1372" to="83" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.76,699.37,236.11,8.41;16,71.71,709.83,224.15,8.41;16,325.75,62.75,224.18,8.41;16,325.75,73.21,181.41,8.41" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Bureaucratic Response to Citizen-Initiated Contacts: Environmental Enforcement in Detroit</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bryan</forename><forename type="middle">D</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Saadia</forename><surname>Greenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Clifford</forename><surname>Kaufman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseph</forename><surname>Drew</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="148" to="65" />
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,86.67,236.12,8.41;16,325.75,97.13,77.34,8.41" xml:id="b27">
+	<monogr>
+		<title level="m" type="main">When Affirmative Action Was White</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ira</forename><surname>Katznelson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<publisher>W. W. Norton</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,110.58,236.16,8.41;16,325.75,121.04,224.18,8.41;16,325.75,131.50,224.17,8.41;16,325.75,141.96,29.73,8.41" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Race, Bureaucratic Discretion, and the Implementation of Welfare Reform</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lael</forename><forename type="middle">R</forename><surname>Keiser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Seung-Whan</forename><surname>Mueser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Choi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="314" to="341" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,155.41,236.12,8.41;16,325.75,165.87,224.20,8.41;16,325.75,176.33,105.48,8.41" xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Us Against Them: The Ethnocentric Foundations of American Opinion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><forename type="middle">R</forename><surname>Kinder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cindy</forename><forename type="middle">D</forename><surname>Kam</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>University of Chicago Press</publisher>
+			<pubPlace>Chicago</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,189.78,236.14,8.41;16,325.76,200.23,91.78,8.41" xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Representative Bureaucracy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Samuel</forename><surname>Krislov</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1974" />
+			<publisher>Prentice-Hall</publisher>
+			<pubPlace>Englewood Cliffs, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,213.69,236.12,8.41;16,325.76,224.15,224.17,8.41;16,325.76,234.60,224.17,8.41;16,325.76,245.06,96.99,8.41" xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Title V of the FY 99 VA/HUD Appropriations Conference Report: &apos;The Quality Housing and Work Responsibility Act of 1998</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rick</forename><surname>Lazio</surname></persName>
+		</author>
+		<ptr target="http://www.phada.org/qhwra98.html" />
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,258.52,236.11,8.41;16,325.76,268.98,109.86,8.41" xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">D</forename><surname>Levitt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><forename type="middle">J</forename><surname>Dubner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Freakonomics</title>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>Harper-Perennial</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,282.43,236.13,8.41;16,325.76,292.89,224.17,8.41;16,325.76,303.35,21.45,8.41" xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Shifting the Color Line: Race and the American Welfare State</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">C</forename><surname>Lieberman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>Harvard University Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,316.80,236.13,8.41;16,325.76,327.26,94.34,8.41" xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Street-Level Bureaucracy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Lipsky</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1980" />
+			<publisher>Russell Sage Foundation</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,340.71,236.11,8.41;16,325.76,351.17,224.17,8.41;16,325.76,361.63,134.59,8.41" xml:id="b35">
+	<monogr>
+		<title level="m" type="main">New Destination Dreaming: Immigration, Race, and Legal Status in the Rural American South</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Helen</forename><forename type="middle">B</forename><surname>Marrow</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<publisher>Stanford University Press</publisher>
+			<pubPlace>Palo Alto, CA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,375.08,236.11,8.41;16,325.76,385.54,224.12,8.41;16,325.76,396.00,224.17,8.41;16,325.76,406.46,29.73,8.41" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Use of Black English and Racial Discrimination in Urban Housing Markets: New Methods and Findings</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Douglas</forename><forename type="middle">S</forename><surname>Massey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Garvey</forename><surname>Lundy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Urban Affairs Review</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="452" to="69" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,419.92,236.14,8.41;16,325.76,430.37,224.17,8.41;16,325.76,440.83,224.14,8.41;16,325.76,451.30,165.35,8.41;16,325.76,461.76,222.28,8.41;16,325.76,472.22,153.42,8.41" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Race and Responsiveness: An Experiment with South African Politicians</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gwyneth</forename><forename type="middle">H</forename><surname>Mcclendon</surname></persName>
+		</author>
+		<ptr target="https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxnd3luZXRobWNjbGVuZG9ufGd4OjY4OGNlOWM5NTMyMzlkOGE" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Political Science. Forthcoming</title>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,485.67,236.13,8.41;16,325.76,496.13,224.14,8.41;16,325.76,506.59,224.17,8.41;16,325.76,517.05,34.27,8.41" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Latinos and Representative Bureaucracy: Testing the Thompson and Henderson Hypotheses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenneth</forename><forename type="middle">J</forename><surname>Meier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Administration Research and Theory</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="393" to="414" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,530.50,236.12,8.41;16,325.76,540.96,224.20,8.41;16,325.76,551.42,224.17,8.41;16,325.76,561.88,11.36,8.41" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Representative Bureaucracy and Distributional Equity: Addressing the Hard Question</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenneth</forename><forename type="middle">J</forename><surname>Meier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Robert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Wrinkle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Polinard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Politics</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1025" to="1064" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,575.33,236.17,8.41;16,325.76,585.79,224.17,8.41;16,325.76,596.25,224.11,8.41;16,325.76,606.71,224.12,8.41;16,325.76,617.17,224.20,8.41;16,325.76,627.64,34.09,8.41" xml:id="b40">
+	<monogr>
+		<title level="m" type="main">What Happens Before? A Field Experiment Exploring How Pay and Representation Differentially Shape Bias on the Pathway into Organizations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Katherine</forename><forename type="middle">L</forename><surname>Milkman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Modupe</forename><surname>Akinola</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dolly</forename><surname>Chugh</surname></persName>
+		</author>
+		<ptr target="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2063742" />
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note>Working paper</note>
+</biblStruct>
+
+<biblStruct coords="16,313.80,641.08,236.12,8.41;16,325.76,651.54,133.42,8.41;16,313.81,665.00,236.11,8.41;16,325.76,675.46,224.17,8.41;16,325.76,685.91,144.34,8.41" xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Who Lives in Federally Assisted Housing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frederick</forename><forename type="middle">C</forename><surname>Mosher</surname></persName>
+		</author>
+		<ptr target="http://nlihc.org/sites/default/files/HousingSpotlight2-2.pdf" />
+		<imprint>
+			<date type="published" when="1968" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>National Low Income Housing Coalition</note>
+</biblStruct>
+
+<biblStruct coords="16,313.81,699.37,236.14,8.41;16,325.76,709.83,224.15,8.41;17,74.00,62.75,224.15,8.41;17,74.00,73.21,92.91,8.41" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The Sociology of Discrimination: Racial Discrimination in Employment, Housing, Credit, and Consumer Markets</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Devah</forename><surname>Pager</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hana</forename><surname>Shepherd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="181" to="209" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,86.66,236.12,8.41;17,74.00,97.12,224.18,8.41;17,74.00,107.58,214.19,8.41" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Discrimination in a Low-Wage Labor Market: A Field Experiment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Devah</forename><surname>Pager</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bruce</forename><surname>Western</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bart</forename><surname>Bonikowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="777" to="99" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,121.03,236.12,8.41;17,74.00,131.49,136.56,8.41" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Intergroup Contact Theory</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><forename type="middle">F</forename><surname>Pettrigrew</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Psychology</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="65" to="85" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,144.95,236.14,8.41;17,74.00,155.41,224.14,8.41;17,74.00,165.86,224.16,8.41;17,74.00,176.32,99.92,8.41" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Representative Bureaucracy in Policing: Does It Increase Perceived Legitimacy?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Norma</forename><forename type="middle">M</forename><surname>Riccucci</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Gregg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cecilia</forename><forename type="middle">F</forename><surname>Van Ryzin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lavena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Administration Theory</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="537" to="51" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,189.78,236.12,8.41;17,74.00,200.23,224.18,8.41;17,74.00,210.69,224.18,8.41" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Deciding to Discipline: Race, Choice, and Punishment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sanford</forename><forename type="middle">F</forename><surname>Schram</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joe</forename><surname>Soss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><surname>Fording</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Linda</forename><surname>Houser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="398" to="422" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,224.15,236.12,8.41;17,74.00,234.61,224.21,8.41;17,74.00,245.06,224.16,8.41;17,74.00,255.53,224.17,8.41;17,74.00,265.99,224.17,8.41;17,74.00,276.45,224.17,8.41;17,74.00,286.91,83.68,8.41" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The Effect of Race and Sex on Physicians&apos; Recommendations for Cardiac Catheterization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kevin</forename><forename type="middle">A</forename><surname>Schulman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jesse</forename><forename type="middle">A</forename><surname>Berlin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><surname>Harless</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jon</forename><forename type="middle">F</forename><surname>Kerner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shyrl</forename><surname>Sistrunk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bernard</forename><forename type="middle">J</forename><surname>Gersh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><forename type="middle">K</forename><surname>Taleghani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ross</forename><surname>Dubé</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><forename type="middle">E</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sankey</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">M</forename><surname>Eisenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><surname>Ayers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">José</forename><forename type="middle">J</forename><surname>Escarce</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">New England Journal of Medicine</title>
+		<imprint>
+			<biblScope unit="volume">340</biblScope>
+			<biblScope unit="page" from="618" to="644" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,300.36,236.12,8.41;17,74.00,310.82,62.55,8.41" xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Housing Policy in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alex</forename><forename type="middle">F</forename><surname>Schwartz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>Routledge</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,324.27,236.12,8.41;17,74.00,334.73,224.18,8.41;17,74.00,345.19,224.18,8.41;17,74.00,355.66,124.09,8.41" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The Color of Devolution: The Politics of Local Punishment in an Era of Neoliberal Welfare Reform</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joe</forename><surname>Soss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">C</forename><surname>Fording</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sanford</forename><forename type="middle">F</forename><surname>Schram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="536" to="53" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,369.10,236.16,8.41;17,74.00,379.56,224.16,8.41;17,74.00,390.03,224.17,8.41;17,74.00,400.49,115.31,8.41" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Administrative Discretion and Active Representation: An Expansion of the Theory of Representative Bureaucracy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jessica</forename><forename type="middle">E</forename><surname>Sowa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sally</forename><forename type="middle">Coleman</forename><surname>Selden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Public Administration Review</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="700" to="710" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,413.93,236.11,8.41;17,74.00,424.40,224.15,8.41;17,74.00,434.86,224.14,8.41;17,74.00,445.32,224.15,8.41;17,74.00,455.78,219.03,8.41;17,74.00,466.24,20.49,8.41" xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Housing Discrimination Against Racial and Ethnic Minorities in 2012</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Margery</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Diane</forename><forename type="middle">K</forename><surname>Austin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Doug</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Claudia</forename><surname>Wissoker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rob</forename><surname>Aranda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rob</forename><surname>Pitingolo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Santos</surname></persName>
+		</author>
+		<ptr target="http://www.huduser.org/portal/publications/fairhsg/hsg_discrimination_2012.html" />
+		<imprint>
+			<date type="published" when="2013" />
+			<pubPlace>Urban Institute</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,479.69,236.11,8.41;17,74.00,490.15,224.18,8.41;17,74.00,500.61,224.16,8.41;17,74.00,511.07,224.18,8.41;17,74.00,521.54,143.31,8.41" xml:id="b52">
+	<monogr>
+		<title level="m" type="main">Discrimination in Metropolitan Housing Markets: National Results from Phase I HDS 2000</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Margery</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><forename type="middle">L</forename><surname>Austin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">George</forename><forename type="middle">C</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Galster</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Yinger</surname></persName>
+		</author>
+		<ptr target="http://www.huduser.org/portal/Publications/pdf/Phase1_Report.pdf" />
+		<imprint>
+			<date type="published" when="2002" />
+			<pubPlace>Urban Institute</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,534.98,236.17,8.41;17,74.00,545.44,224.16,8.41;17,74.00,555.91,91.88,8.41" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Availability: Heuristic for Judging Frequency and Probability</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amos</forename><surname>Tversky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Kahneman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="207" to="239" />
+			<date type="published" when="1972" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,569.35,236.19,8.41;17,74.00,579.81,224.18,8.41;17,74.00,590.28,218.75,8.41;17,74.00,599.79,12.58,9.46" xml:id="b54">
+	<monogr>
+		<title level="m" type="main">American Community Survey 5-Year Estimates</title>
+		<ptr target="http://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t" />
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note>United States Census Bureau</note>
+</biblStruct>
+
+<biblStruct coords="17,62.05,614.18,236.10,8.41;17,74.00,624.65,224.17,8.41;17,74.00,635.11,36.79,8.41" xml:id="b55">
+	<monogr>
+		<title level="m" type="main">From Puritans to the Projects: Public Housing and Public Neighbors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lawrence</forename><surname>Vale</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>Harvard University Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,648.56,236.15,8.41;17,74.00,659.02,224.16,8.41;17,74.00,669.48,224.17,8.41;17,74.00,679.94,166.96,8.41" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Baby Names, Visualization, and Social Data Analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Wattenberg</surname></persName>
+		</author>
+		<ptr target="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=1532122" />
+	</analytic>
+	<monogr>
+		<title level="m">Information Symposium on Information Visualization</title>
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,62.05,693.39,236.08,8.41;17,74.00,703.85,224.17,8.41;17,328.04,62.75,224.14,8.41;17,328.04,73.21,178.12,8.41" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Using a Spanish Surname Match to Improve Identification of Hispanic Women in Medicare Administrative Data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iris</forename><forename type="middle">I</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Beth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dolly</forename><forename type="middle">A</forename><surname>Virnig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert O&amp;apos;</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Morgan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health Services Research</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1469" to="81" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,86.67,236.18,8.41;17,328.04,97.13,224.22,8.41;17,328.04,107.58,224.18,8.41;17,328.04,118.05,87.79,8.41" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">What Do I Need to Vote? Bureaucratic Discretion and Discrimination by Local Election Officials</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ariel</forename><forename type="middle">R</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Noah</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julie</forename><forename type="middle">K</forename><surname>Nathan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Faller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="129" to="171" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,131.50,236.11,8.41;17,328.04,141.96,224.16,8.41;17,328.04,152.42,224.16,8.41;17,328.04,162.88,177.49,8.41" xml:id="b59">
+	<monogr>
+		<title level="m" type="main">Demographic Aspects of Surnames from Census</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">L</forename><surname>Word</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Charles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Coleman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Nunziata</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Kominski</surname></persName>
+		</author>
+		<ptr target="http://www2.census.gov/topics/genealogy/2000surnames/surnames.pdf" />
+		<imprint>
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,176.33,236.15,8.41;17,328.04,186.79,224.13,8.41;17,328.04,197.25,224.17,8.41;17,328.04,207.71,200.88,8.41" xml:id="b60">
+	<monogr>
+		<title level="m" type="main">Building a Spanish Surname List for the 1990&apos;s-A New Approach to an Old Problem</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">L</forename><surname>Word</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">Colby</forename><surname>Perkins</surname></persName>
+		</author>
+		<idno>No. 13</idno>
+		<ptr target="https://www.census.gov/population/documentation/twpno13.pdf" />
+		<imprint>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Working Paper</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

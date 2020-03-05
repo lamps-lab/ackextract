@@ -1,0 +1,3029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Corporate Social Responsibility and Shareholder Wealth: The Role of Marketing Capability</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Saurabh</forename><surname>Mishra</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Desautels Faculty of Management</orgName>
+								<orgName type="institution">McGill University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sachin</forename><forename type="middle">B</forename><surname>Modi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Desautels Faculty of Management</orgName>
+								<orgName type="institution">McGill University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Corporate Social Responsibility and Shareholder Wealth: The Role of Marketing Capability</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1509/jm.15.0013</idno>
+					<note>Online Supplement: http://dx.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:10+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>corporate social responsibility</term>
+					<term>marketing capability</term>
+					<term>stock returns</term>
+					<term>idiosyncratic risk</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Despite the positive societal implications of corporate social responsibility (CSR), there remains an extensive debate regarding its consequences for firm shareholders. This study posits that marketing capability plays a complementary role in the CSR-shareholder wealth relationship. It further argues that the influence of marketing capability will be higher for CSR types with verifiable benefits to firm stakeholders (i.e., consumers, employees, channel partners, and regulators). An analysis utilizing secondary information for a large sample of 1,725 firms for the years 2000-2009 indicates that the effects of overall CSR efforts on stock returns and idiosyncratic risk are not significant on their own but only become so in the presence of marketing capability. Furthermore, the results reveal that although marketing capability has positive interaction effects with verifiable CSR efforts-environment (e.g., using clean energy), products (e.g., providing to economically disadvantaged), diversity (e.g., pursuing diversity in top management), corporate governance (e.g., limiting board compensation), and employees (e.g., supporting unions)-on stock returns (and negative interaction effects with these CSR efforts on idiosyncratic risk), it has no significant interaction effect with community-based efforts (e.g., charitable giving).</p><p>1 Corporate social responsibility can include more types than those outlined here. However, because of data availability constraints, we are restricted to these six types in this study. For example, Kinder, Lydenberg, and Domini Research and Analytics Inc. (KLD) also provides ratings for Human Rights records of firms with operations in politically unstable countries (e.g., Myanmar). Similarly, ratings for firm efforts toward protecting labor rights (e.g., nonuse of child labor) are available. Investors and customers would likely be influenced by these CSR activities as well. However, these activities are not relevant for most firms in our sample and have very sparse data. As such, we do not consider them.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>C orporate social responsibility (CSR) represents firms' discretionary business practices that are intended to improve societal well-being <ref type="bibr" coords="1,195.87,391.50,98.17,8.77;1,54.94,402.96,71.56,8.77" target="#b43">(Korschun, Bhattacharya, and Swain 2014)</ref>. Responding to consumers' and other stakeholders <ref type="bibr" coords="1,100.18,414.41,193.86,8.77">' (e.g., employees, channel partners, regulators)</ref> increasing expectations that organizations should behave in socially responsible ways, many firms have embraced CSR as a key component of their overall strategy <ref type="bibr" coords="1,200.79,448.76,80.26,8.77">(Kotler and Lee 2005)</ref>. A large number of firms include CSR details in annual reports and on corporate websites, underscoring CSR's importance <ref type="bibr" coords="1,262.31,471.67,31.77,8.77;1,54.93,483.12,68.31,8.77" target="#b64">(Servaes and Tamayo 2013)</ref>. Although interest in CSR seems to be strong, an extensive body of research on the financial implications of CSR has produced mixed evidence (e.g., <ref type="bibr" coords="1,210.98,506.02,83.05,8.77;1,54.93,517.48,20.14,8.77" target="#b49">Luo and Bhattacharya 2009)</ref>, with a recent meta-analysis revealing an overall positive, but small, financial effect <ref type="bibr" coords="1,148.62,528.98,141.44,8.77" target="#b50">(Margolis, Elfenbein, and Walsh 2009)</ref>.</p><p>Consistent with the equivocal findings, extant literature has offered two opposing theoretical perspectives for understanding CSR. On the one hand, neoclassical economists have employed agency theory <ref type="bibr" coords="1,151.71,574.79,109.17,8.77" target="#b38">(Jensen and Meckling 1976)</ref> to argue that CSR represents an agency problem, in which managers divert scarce organizational resources toward social causes that do not have a direct link with firm performance and reduce shareholder wealth <ref type="bibr" coords="1,429.68,391.51,67.98,8.77" target="#b27">(Friedman 1970)</ref>. On the other hand, marketing scholars have called on stakeholder theory <ref type="bibr" coords="1,317.93,414.41,66.65,8.77" target="#b26">(Freeman 1984)</ref> to highlight that CSR generates positive associations among stakeholders (e.g., <ref type="bibr" coords="1,479.42,425.86,77.69,8.77;1,317.93,437.31,82.86,8.77" target="#b63">Sen, Bhattacharya, and Korschun 2006)</ref>, which can enhance prospective firm cash flows (e.g., <ref type="bibr" coords="1,387.42,448.77,115.87,8.77" target="#b49">Luo and Bhattacharya 2006)</ref>. Taking this view, investors are expected to react positively to CSR if they anticipate that the positive stakeholder associations resulting from CSR cause (1) firms to benefit from more customers buying their offerings, (2) existing customers to buy more from these firms, and/or (3) customers to pay premium prices for these firms' products and services in future years. Similarly, investors are likely to reward firms for CSR if they believe that employees and channel partners will be more willing and motivated to work toward helping firms meet their strategic objectives, and regulators will be more likely to hold a favorable view of the firms <ref type="bibr" coords="1,492.94,574.79,59.85,8.77" target="#b65">(Shankar 2012)</ref>.</p><p>The strong interest in CSR, combined with the uncertain outlook toward its shareholder implications, represents an interesting paradox, and continuing investigations into this puzzle provide important guidance to theory and practice. We contend that the conflicting findings on CSR may be attributed to three characteristics of prior research. First, much attention has been devoted to supporting an unambiguous direct link between CSR and financial value <ref type="bibr" coords="1,317.93,677.92,130.70,8.77" target="#b51">(McWilliams and Siegel 2000)</ref>. It may be that a more nuanced perspective is required that builds on the role of complementary factors in the CSR-shareholder wealth relationship <ref type="bibr" coords="2,104.59,586.36,110.53,8.77" target="#b49">(Luo and Bhattacharya 2009</ref>). Second, CSR is a multifaceted construct, with certain CSR types-such as environment-, product-, diversity-, corporate governance-, and employee-based socially responsible efforts-having a more verifiable effect on key stakeholders than communitybased philanthropic efforts. However, research has not placed much attention on distinguishing CSR types <ref type="bibr" coords="2,237.04,655.07,57.03,8.77;2,54.94,666.52,113.54,8.77" target="#b37">(Jayachandran, Kalaignanam, and Eilert 2013)</ref>. Third, the metrics used to assess CSR's financial value have been observed to influence findings <ref type="bibr" coords="2,54.94,689.48,139.73,8.77" target="#b50">(Margolis, Elfenbein, and Walsh 2009</ref>). Yet no study has taken a comprehensive view of shareholder wealth.</p><p>Given these considerations, in this research we build on stakeholder theory <ref type="bibr" coords="2,393.56,597.81,61.49,8.77" target="#b26">(Freeman 1984)</ref>, the resource-based view (RBV) of the firm (e.g., <ref type="bibr" coords="2,415.56,609.26,52.70,8.77" target="#b4">Barney 1991)</ref>, dynamic capabilities theory (e.g., <ref type="bibr" coords="2,371.17,620.71,131.28,8.77" target="#b69">Teece, Pisano, and Shuen 1997)</ref>, and agency theory <ref type="bibr" coords="2,345.83,632.17,112.82,8.77" target="#b38">(Jensen and Meckling 1976)</ref> to focus on three central inquiries. First, we investigate the complementary role of marketing capability-defined as the efficiency with which firms convert marketing resources into sales <ref type="bibr" coords="2,503.60,666.52,53.36,8.77;2,317.93,677.97,94.35,8.77" target="#b56">(Narasimhan, Dutta, and Rajiv 2006)</ref>-in leveraging CSR for shareholder wealth. The dynamic capabilities perspective states that firms need complementary capabilities to appropriate value from  <ref type="bibr" coords="2,54.94,95.89,116.28,8.41" target="#b49">Luo and Bhattacharya (2006)</ref> The mediating role of customer satisfaction in the relationship of CSR and firm financial value DVs: Tobin's q and stock returns (measures of firm value)</p><p>Customer satisfaction as a marketing resource partially mediates the relationship between CSR and firm value, and innovativeness and product quality positively moderate this relationship.</p><p>IVs: CSR, customer satisfaction, innovativeness and product quality <ref type="bibr" coords="2,54.94,171.58,116.28,8.41" target="#b49">Luo and Bhattacharya (2009)</ref> The relationship between firms' corporate social performance (CSP) and idiosyncratic risk and the role of advertising and R&amp;D as strategic levers DV: Idiosyncratic risk Corporate social performance lowers firms' idiosyncratic risk, with even greater reduction in risk in the presence of higher advertising resources. However, simultaneous increases in both advertising and R&amp;D resources in the presence of CSP lead to higher idiosyncratic risk.</p><p>IVs: CSP, advertising spending, R&amp;D intensity <ref type="bibr" coords="2,54.94,277.19,110.78,8.41" target="#b36">Hull and Rothenberg (2008)</ref> The relationship between CSP and financial performance, and whether this relationship is moderated by innovation and the level of differentiation in the industry DV: Return on assets Corporate social responsibility has a marginal direct effect on financial performance. The impact is higher in relatively undifferentiated industries. In addition, CSP benefits firms with low innovation.</p><p>IVs: CSR, average advertising spending in industry (as measure of industry differentiation), R&amp;D spending (as measure of innovation) <ref type="bibr" coords="2,54.94,372.83,113.84,8.41" target="#b64">Servaes and Tamayo (2013)</ref> The moderating role of customer awareness in the financial value of CSR DV: Tobin's q (firm value) Corporate social responsibility does not influence firm value on its own but does so only in the presence of high customer awareness (i.e., advertising resources).</p><p>IVs: CSR and advertising intensity (as a measure of customer awareness)</p><p>This study The moderating role of marketing capability in the CSR-shareholder wealth relationship, considering both overall CSR and CSR types DVs: Stock returns and idiosyncratic risk (measures of shareholder wealth)</p><p>Corporate social responsibility does not directly affect firms' shareholder wealth but does so in the presence of marketing capability. However, marketing capability also complements only CSR types with verifiable benefits to key firm stakeholders and does not influence relatively general community-based CSR.</p><p>IVs: CSR, six types of CSR, and marketing capability Notes: IV = independent variable; DV = dependent variable.</p><p>Corporate Social Responsibility and Shareholder Wealth / 27 resources <ref type="bibr" coords="3,98.78,36.38,48.72,8.77" target="#b19">(Day 1994;</ref><ref type="bibr" coords="3,151.73,36.38,142.34,8.77;3,54.94,47.83,22.63,8.77">Morgan, Slotegraaf, and Vorhies 2009)</ref>. Given marketing's pivotal role in firm relationships with stakeholders <ref type="bibr" coords="3,125.35,59.28,73.79,8.77" target="#b48">(Kumar et al. 2011)</ref>, marketing capability is likely to be a key explanatory factor in governing shareholder wealth from CSR. This is because investors are likely to assess a firm's ability to generate positive stakeholder-based associations toward the firm by examining its marketing capability. If the marketing capability is high, investors would expect the firm to be successful in translating the value of CSR to its stakeholders, resulting in higher magnitude of cash flows, accelerated cash flows, and/or less volatile cash flows for the firm. Second, we consider six CSR types: environment (e.g., recycling), products (e.g., ensuring quality), diversity (e.g., employing the disabled), corporate governance (e.g., enhancing transparency), employees (e.g., providing retirement benefits), and community (e.g., giving to charity). Given that these CSR types are expected to differ with respect to agency costs and verifiable stakeholder benefits, we assess whether marketing capability differentially complements them. Third, we focus on both stock returns and idiosyncratic risk in our analysis because these form two important components of shareholder wealth <ref type="bibr" coords="3,170.08,276.98,115.73,8.77" target="#b67">(Srinivasan and Hanssens 2009</ref>). Our empirical assessment, based on secondary information for a large sample of firms over ten years, confirms the complementary role of marketing capability. Specifically, we find that although unanticipated changes in overall CSR do not have significant direct effects on stock returns and idiosyncratic risk, these effects become significant in the presence of unanticipated changes in marketing capability. Furthermore, when we focus on CSR types, a mixed pattern of results emerges. An analysis reveals that unanticipated changes in CSR types with verifiable benefits to key stakeholders-environment, products, diversity, corporate governance, and employees-enhance shareholder wealth in the presence of unanticipated changes in marketing capability; however, unanticipated changes in communitybased initiatives do not.</p><p>Together, we provide new insights by investigating the joint effect of marketing capability and CSR on shareholder wealth. To the best of our knowledge, ours is the first study to consider firms' marketing capability, overall CSR, six CSR types, stock returns, and idiosyncratic risk in a common framework. Furthermore, by centering on marketing capability, we add to the limited body of research on marketing factors in the context of CSR and financial value using objective data. In particular, extant research has singularly focused on marketing resources such as customer satisfaction <ref type="bibr" coords="3,206.32,551.95,87.84,8.77;3,54.94,563.40,20.78,8.77" target="#b49">(Luo and Bhattacharya 2006)</ref>, customer awareness (Servaes and Tamayo 2013), advertising (e.g., <ref type="bibr" coords="3,120.82,574.91,103.05,8.77" target="#b36">Hull and Rothenberg 2008)</ref>, and research and development (R&amp;D; Luo and Bhattacharya 2009), overlooking marketing capability (see <ref type="table" coords="3,158.76,597.81,29.36,8.77" target="#tab_0">Table 1</ref>). Because capabilities are essential for leveraging resources, it becomes important to investigate marketing capability.</p><p>In addition, considering marketing capability's role in the shareholder value of CSR types enables us to take a step toward reconciling the CSR debate between neoclassical economists and marketing scholars. Our results show that, in line with the economists, when we take a narrow view of CSR as community-based charity, CSR does not benefit shareholders. However, in tune with marketing scholars, CSR types with verifiable benefits to stakeholders enhance shareholder wealth in the presence of marketing capability. Our study thus uncovers the net effect of competing theories to deliver a unique perspective on CSR, which would not be available with a singular focus on overall CSR. Finally, by showcasing the value of marketing capability in a hitherto uninvestigated context of CSR, we add to the marketing-finance interface literature, providing additional evidence to marketers to increase their legitimacy in the C-suite and maintain marketing's status in their firms. Our study is also aimed to motivate marketers to focus on CSR, which they often leave to other functions <ref type="bibr" coords="3,509.83,162.41,47.22,8.77;3,317.94,173.86,50.40,8.77" target="#b59">(Peloza and Shang 2011)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conceptual Development</head><p>Corporate social responsibility has been a subject of extensive investigation, and extant research has provided many definitions of the term <ref type="bibr" coords="3,410.85,246.60,99.70,8.77" target="#b59">(Peloza and Shang 2011)</ref>. We adopt the definition of CSR taken by the majority of marketing scholars, which states that CSR comprises discretionary firm activities aimed toward enhancing societal well-being <ref type="bibr" coords="3,317.93,292.46,174.44,8.77" target="#b43">(Korschun, Bhattacharya, and Swain 2014;</ref><ref type="bibr" coords="3,495.89,292.46,61.10,8.77;3,317.93,303.91,21.42,8.77">Kotler and Lee 2005)</ref>. This conceptualization draws from some of the original work on CSR, which frames it as an organizational commitment to maximizing stakeholder welfare <ref type="bibr" coords="3,525.99,326.82,30.97,8.77;3,317.93,338.27,21.42,8.77" target="#b16">(Carroll 1979)</ref>. Operationally, scholars have interpreted CSR as prosocial efforts across multiple domains such as environment, products, diversity, corporate governance, employees, and communities <ref type="bibr" coords="3,373.28,372.63,122.17,8.77" target="#b41">(Kashmiri and Mahajan 2014)</ref>. <ref type="bibr" coords="3,499.92,372.12,3.74,6.58">1</ref> Consistent with the many definitions of CSR, multiple theories have been utilized to understand its relationship with firm performance. Neoclassical economists have viewed CSR from an agency theory lens <ref type="bibr" coords="3,464.99,418.49,92.02,8.77;3,317.93,429.94,21.42,8.77" target="#b38">(Jensen and Meckling 1976)</ref>. Agency theory contends that managers as agents enjoy certain informational advantages over their principals (i.e., shareholders), which they can use for their own personal gains. This leads to goal conflict between managers and shareholders that must be minimized through effective contracts and monitoring <ref type="bibr" coords="3,419.30,487.20,133.43,8.77" target="#b6">(Bergen, Dutta, and Walker 1992)</ref>. Contract design and monitoring are costly for shareholders, and their effectiveness is not guaranteed. This places downward pressure on the level and certainty of future cash flows-two determinants of shareholder wealth <ref type="bibr" coords="3,512.16,533.01,44.89,8.77;3,317.93,544.52,76.57,8.77" target="#b67">(Srinivasan and Hanssens 2009)</ref>. Given the largely discretionary nature of CSR, neoclassical economists have argued that the potential costs of agency hazards from CSR are likely to be high and lead to lower shareholder wealth <ref type="bibr" coords="3,452.86,578.87,61.36,8.77" target="#b27">(Friedman 1970</ref>).</p><p>Contrary to this view, the majority of marketing scholars have followed stakeholder theory <ref type="bibr" coords="4,195.08,47.83,64.75,8.77" target="#b26">(Freeman 1984)</ref> and the RBV (e.g., <ref type="bibr" coords="4,101.37,59.28,54.73,8.77" target="#b4">Barney 1991)</ref> to study CSR. According to these theories, CSR is financially valuable for shareholders because of its positive effect on consumers and other key stakeholders <ref type="bibr" coords="4,54.94,93.70,121.82,8.77" target="#b49">(Luo and Bhattacharya 2006)</ref>. Stakeholder theory underscores the notion that firms should balance the needs and aspirations of all stakeholders, not just shareholders, to create competitive advantage. The key tenet here is that by catering to different stakeholders, firms improve their overall performance, which translates into higher shareholder wealth. Because CSR provides organizations with the means to address stakeholder expectations of social responsibility <ref type="bibr" coords="4,54.94,185.31,157.13,8.77" target="#b63">(Sen, Bhattacharya, and Korschun 2006)</ref>, research has shown that it generates favorable corporate images and associations among stakeholders <ref type="bibr" coords="4,143.72,208.27,124.42,8.77" target="#b9">(Bhattacharya and Sen 2003)</ref>. The positioning advantages thus created allow for valuable resources that are inimitable, nonsubstitutable, and heterogeneously distributed across firms <ref type="bibr" coords="4,197.12,242.63,96.92,8.77;4,54.94,254.08,61.72,8.77" target="#b63">(Sen, Bhattacharya, and Korschun 2006)</ref>. The RBV indicates that resources with these properties are a source of competitive advantage (e.g., <ref type="bibr" coords="4,277.11,265.53,16.89,8.77;4,54.94,276.98,18.51,8.77" target="#b32">Hall 1992</ref>) and lead to higher stock returns and lower stock risk <ref type="bibr" coords="4,54.94,288.44,164.33,8.77" target="#b68">(Srivastava, Shervani, and Fahey 1998)</ref>. This suggests a positive effect of CSR on shareholder wealth.</p><p>Combining the two opposing viewpoints, we can infer that CSR's relationship with shareholder wealth depends on the net effect of the agency costs incurred in monitoring managers' social activities and the value of the stakeholderbased resources generated from CSR. Moreover, it is likely that the agency costs would vary across CSR types, which in turn would affect stakeholders differently <ref type="bibr" coords="4,252.34,380.11,41.65,8.77;4,54.94,391.56,21.35,8.77" target="#b14">(Campbell 2007)</ref>. We posit that comparing CSR types that have verifiable benefits to key firm stakeholders (i.e., environment-, product-, diversity-, corporate governance-, and employeebased efforts) with community-based efforts, whose tangible effect on stakeholders may be difficult to ascertain <ref type="bibr" coords="4,264.64,437.37,29.35,8.77;4,54.94,448.88,73.79,8.77" target="#b71">(Wang, Choi, and Li 2008)</ref>, can be one framework through which to study CSR's shareholder implications. Indeed, we can expect CSR activities that are more verifiably directed toward firm stakeholders to influence these stakeholders to a greater degree and to have lower agency costs <ref type="bibr" coords="4,233.29,494.69,60.71,8.77" target="#b2">(Barnett 2007;</ref><ref type="bibr" coords="4,54.94,506.14,97.32,8.77" target="#b35">Hillman and Keim 2001)</ref>. Next, we argue the effects of CSR and its types on shareholder wealth.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CSR and Shareholder Wealth</head><p>As discussed previously, agency theory suggests that CSR involves high costs for shareholders. Viewed through this lens, managers are perceived as inefficient and incapable of enabling social change <ref type="bibr" coords="4,137.93,597.81,64.25,8.77" target="#b27">(Friedman 1970)</ref>, and CSR is argued to be a diversion of scarce firm resources by managers as agents toward unproductive activities. Furthermore, because CSR's outcomes can be potentially difficult for shareholders to verify and evaluate, CSR has been suggested to be prone to misuse by managers because of heightened information asymmetries between them and their principals (i.e., shareholders; <ref type="bibr" coords="4,265.66,666.52,28.45,8.77;4,54.94,677.97,21.05,8.77" target="#b2">Barnett 2007)</ref>. This affords managers opportunities to engage in philanthropic and charitable activities that may elevate their own personal status in communities rather than add to the firm's financial bottom line <ref type="bibr" coords="4,430.13,36.38,126.93,8.77;4,317.93,47.84,22.31,8.77" target="#b0">(Aupperle, Carroll, and Hatfield 1985;</ref><ref type="bibr" coords="4,341.86,47.84,115.06,8.77" target="#b51">McWilliams and Siegel 1997)</ref>. In addition, investments in CSR may also indicate that managers have slack resources at their disposal but are not able to find an economically productive use for them. This can also lower investor assessments of firms <ref type="bibr" coords="4,403.43,93.70,108.04,8.77" target="#b71">(Wang, Choi, and Li 2008)</ref>. Together, the agency arguments indicate a negative effect of CSR on prospective cash flows and firm variability, implying lower shareholder wealth.</p><p>However, viewed through stakeholder theory and RBV lenses, CSR is perceived to financially benefit shareholders through its positive impact on firm stakeholders (i.e., consumers, employees, channel partners, and regulators). In line with this notion, studies have shown that consumers identify more readily with firms with a good record of social responsibility <ref type="bibr" coords="4,376.46,208.27,110.86,8.77" target="#b9">(Bhattacharya and Sen 2003;</ref><ref type="bibr" coords="4,489.23,208.27,67.88,8.77;4,317.93,219.72,21.10,8.77" target="#b13">Brown and Dacin 1997)</ref>. Evidence has also indicated that consumers positively evaluate offerings of firms that are engaged in CSR <ref type="bibr" coords="4,522.90,231.18,34.14,8.77;4,317.93,242.63,138.94,8.77" target="#b5">(Berens, Van Riel, and Van Bruggen 2005;</ref><ref type="bibr" coords="4,459.52,242.63,97.49,8.77;4,317.93,254.08,23.70,8.77" target="#b31">Gurhan-Canli and Batra 2004)</ref> and derive greater satisfaction from them <ref type="bibr" coords="4,519.44,254.08,37.63,8.77;4,317.93,265.53,78.94,8.77" target="#b49">(Luo and Bhattacharya 2006)</ref>.</p><p>Similarly, research has shown that an employer's reputation of social fairness improves frontline employee behavior <ref type="bibr" coords="4,355.38,299.89,170.58,8.77" target="#b43">(Korschun, Bhattacharya, and Swain 2014)</ref>, which has positive consequences for customer service (e.g., <ref type="bibr" coords="4,532.21,311.34,24.87,8.77;4,317.93,322.85,18.73,8.77" target="#b10">Bitner 1990</ref>) and positions the firm for faster recovery from negative events <ref type="bibr" coords="4,370.07,334.30,131.89,8.77" target="#b53">(Modi, Wiles, and Mishra 2015)</ref>. In addition, CSR also potentially increases trust among channel members <ref type="bibr" coords="4,317.93,357.20,53.82,8.77" target="#b17">(Carter 2000)</ref>, enabling firms to work together with their partners toward long-term performance <ref type="bibr" coords="4,488.24,368.66,64.51,8.77" target="#b28">(Ganesan 1994)</ref>. Indeed, trust serves as an effective governance mechanism that can lower opportunistic behaviors in the value chain and reduce firms' performance variability <ref type="bibr" coords="4,468.00,403.01,51.80,8.77" target="#b17">(Carter 2000)</ref>. Finally, it is expected that "moral capital" generated by CSR invites lower regulatory penalties following egregious actions by firms and can ensure future cash flows for firms <ref type="bibr" coords="4,509.11,437.37,47.95,8.77;4,317.94,448.88,17.34,8.77" target="#b72">(Wiles et al. 2010</ref>). Together, these arguments indicate that CSR can elevate prospective cash flows level and reduce cash flow volatility, implying higher shareholder wealth.</p><p>In summary, theory has suggested both positive and negative effects of CSR on shareholder wealth. Furthermore, because extant empirical research has also indicated weak financial value of CSR <ref type="bibr" coords="4,405.70,517.59,147.25,8.77" target="#b50">(Margolis, Elfenbein, and Walsh 2009)</ref>, we approach this relationship as an empirical question.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CSR Types and Shareholder Wealth</head><p>Given the agency costs associated with CSR, the stakeholder benefits afforded by different CSR types provide a key to their potential effects on shareholder wealth. We focus on six CSR types in this research: environment (strengths in pollution prevention, recycling, clean energy practices, etc.), products (strengths in quality, R&amp;D innovation, provision of products to the economically disadvantaged, etc.), diversity (strengths in top management diversity, work/life benefits, provision of contracts to womenand minority-owned businesses, employment of the disabled, gay and lesbian-inclusive policies, etc.), corporate governance (strengths in compensation to top management and board members, transparent reporting, disclosure of political involvement, policy development, etc.), employees (strengths in union relationships, profit sharing, employee involvement, retirement benefits, health and safety records, etc.), and community (strengths in charitable giving, support for housing and education, volunteer programs, etc.).</p><p>In particular, environment-based CSR has the capacity to positively affect consumers, channel partners, and regulators. There is increasing evidence that these three stakeholder groups are placing pressure on firms to reduce their environmental footprints through pollution prevention, recycling, and adoption of clean energy <ref type="bibr" coords="5,178.75,162.41,53.50,8.77" target="#b46">(Kotler 2011)</ref>. In support of this notion, research has shown "green" attributes to elicit positive consumer brand attitudes <ref type="bibr" coords="5,198.88,185.31,95.16,8.77;5,54.93,196.82,75.15,8.77" target="#b58">(Olsen, Slotegraaf, and Chandukala 2014)</ref>. Similarly, environment-based efforts have been suggested to lead to positive associations for firms among channel partners (e.g., <ref type="bibr" coords="5,198.48,219.72,91.25,8.77">Schoenherr et al. 2015)</ref>. Moreover, regulators set many well-defined standards for measuring environmental performance, which are then available to stakeholders to verify the legitimacy of firms' pro-environmental claims <ref type="bibr" coords="5,158.17,265.53,127.29,8.77" target="#b7">(Berrone and Gomez-Mejia 2009</ref>). Environment-based CSR is thus likely to improve firm positioning with consumers, channel partners, and regulators and to lead to shareholder gains.</p><p>Similar to environment-based CSR, firms can cater to consumers by focusing on high-quality innovative products with "social" benefits. It has been suggested that consumers account for societal needs, in addition to their own, when determining their relationship with firms <ref type="bibr" coords="5,226.17,357.21,67.89,8.77;5,54.94,368.66,50.70,8.77" target="#b33">(Handelman and Arnold 1999)</ref>. By catering to the economically disadvantaged, "social" products offer firms better positioning with consumers <ref type="bibr" coords="5,54.94,391.56,129.90,8.77" target="#b21">(Du, Bhattacharya, and Sen 2007)</ref>. Furthermore, diagnosticity of products-based CSR is expected to be high, which can increase consumer confidence in product-based claims, elevating firm value <ref type="bibr" coords="5,129.35,425.92,164.72,8.77;5,54.94,437.37,21.83,8.77" target="#b37">(Jayachandran, Kalaignanam, and Eilert 2013)</ref>.</p><p>Firms may also indicate social responsibility by increasing diversity in their ranks and by improving corporate governance. Greater diversity in top management, board members, and employees, along with better corporate governance reflected in limited compensation to the C-suite and transparency in corporate affairs, are hot-button issues that invite high levels of employee and regulatory scrutiny <ref type="bibr" coords="5,54.94,529.04,191.67,8.77" target="#b39">(Johnson, Porter, and Shackell-Dowell 1997;</ref><ref type="bibr" coords="5,252.51,529.04,41.53,8.77;5,54.94,540.49,51.40,8.77" target="#b60">Perry and Zenner 2001)</ref>. Moreover, diversity and corporate governance efforts are verifiable because many firms report these on their corporate websites and in annual reports. Therefore, we also expect these two CSR types to increase firm shareholder value <ref type="bibr" coords="5,79.54,586.36,60.75,8.77" target="#b29">(Godfrey 2005)</ref>.</p><p>In addition, employee-based CSR, reflected in firm support to unions and recognition of employee needs, seems to be financially valuable when viewed through the lens of stakeholder theory <ref type="bibr" coords="5,132.12,632.17,102.21,8.77" target="#b35">(Hillman and Keim 2001)</ref>. For example, by signaling to employees that a firm intends to look after their welfare through better wages and retirement benefits, CSR can help attract talented workers and keep existing workers satisfied (e.g., <ref type="bibr" coords="5,145.19,677.98,107.11,8.77" target="#b70">Turban and Greening 1997)</ref>. Talented and satisfied employees allow for better productivity and help deliver superior customer service <ref type="bibr" coords="5,248.02,700.88,46.12,8.77;5,317.94,36.38,132.08,8.77" target="#b43">(Korschun, Bhattacharya, and Swain 2014)</ref>, elevating firm financial value <ref type="bibr" coords="5,343.56,47.83,61.94,8.77" target="#b24">(Edmans 2011)</ref>.</p><p>Finally, firms can exhibit social responsibility through community-based philanthropy, charitable giving, and support to volunteer programs. These initiatives can create a favorable image in the broader community to allow for better firm performance <ref type="bibr" coords="5,418.07,105.15,90.84,8.77" target="#b25">(File and Prince 1998)</ref>. Firms can also benefit from tax breaks that often accompany communitybased initiatives to elevate future cash flows <ref type="bibr" coords="5,502.13,128.05,54.89,8.77;5,317.93,139.50,52.36,8.77" target="#b71">(Wang, Choi, and Li 2008)</ref>. Furthermore, some investors have been observed to invest in firms that have strong philanthropic records <ref type="bibr" coords="5,351.71,162.41,117.54,8.77">(Barnett and Salomon 2006)</ref>. These observations suggest that shareholders can benefit from community-based CSR as well.</p><p>In summary, all CSR types are expected to create favorable associations among firm stakeholders <ref type="bibr" coords="5,536.16,208.27,20.92,8.77;5,317.94,219.72,141.13,8.77" target="#b63">(Sen, Bhattacharya, and Korschun 2006)</ref>, which can enable valuable stakeholder-based resources to have a positive effect on shareholder wealth <ref type="bibr" coords="5,409.99,242.63,36.74,8.77" target="#b49">(Luo and</ref><ref type="bibr" coords="5,449.58,242.63,98.76,8.77" target="#b49">Bhattacharya 2006, 2009</ref>). However, the overall financial effects of different CSR types are also contingent on the level of agency costs associated with them. Although we expect all CSR types to entail some agency-related costs, it is likely that community-based CSR may be relatively more prone to agency hazards for two reasons. First, although other CSR types seem to be directed toward specific stakeholder groups, community-based CSR in general is less focused. Second, we also expect diagnosticity of stakeholder benefits from community-based efforts to be lower because the benefits from philanthropy and charity remain relatively less verifiable <ref type="bibr" coords="5,527.15,368.66,29.89,8.77;5,317.94,380.11,73.07,8.77" target="#b71">(Wang, Choi, and Li 2008)</ref>. This renders community-based CSR at a higher risk of misuse by managers. Indeed, philanthropy has been the focus of much criticism from neoclassical economists, who tend to take a narrow view of CSR <ref type="bibr" coords="5,515.20,414.47,41.85,8.77;5,317.94,425.92,21.85,8.77" target="#b27">(Friedman 1970)</ref>. We expect all CSR types to have a positive effect on shareholder wealth but expect community-based CSR to have a weak effect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Complementary Role of Marketing Capability</head><p>In determining the role of marketing capability in the CSR-shareholder wealth relationship, the RBV again provides useful insights. Whereas the original RBV stressed the value of resource possession, recent extensions of the theory in the form of dynamic capabilities theory highlight the role of firm capabilities in unlocking the value residing in resources (e.g., <ref type="bibr" coords="5,394.02,563.40,158.73,8.77">Morgan, Slotegraaf, and Vorhies 2009)</ref>. Building on this notion, scholars have emphasized the complementary potential of marketing capability in firm performance <ref type="bibr" coords="5,370.32,597.81,125.95,8.77" target="#b54">(Moorman and Slotegraaf 1999)</ref>. Indeed, given the important role of marketing in an organization, many marketing activities and processes have the potential to serve as key competencies for firms <ref type="bibr" coords="5,442.15,632.17,44.44,8.77" target="#b19">(Day 1994)</ref>.</p><p>In support of the multifaceted role of marketing in firms, scholars have offered numerous conceptualizations of marketing capability. Some have focused on outlining specific aspects of marketing capability, including (but not limited to) communications, marketing information management, and marketing strategy implementation (e.g., <ref type="bibr" coords="5,478.43,700.88,78.55,8.77;6,54.94,36.38,79.01,8.77">Morgan, Slotegraaf, and Vorhies 2009)</ref>. Others have taken a broader view, conceptualizing marketing capability as an overarching firm ability to more efficiently convert available marketing resources into outputs, relative to the competition <ref type="bibr" coords="6,257.04,70.79,36.99,8.77;6,54.94,82.24,136.74,8.77" target="#b1">(Bahadir, Bharadwaj, and Srivastava 2008;</ref><ref type="bibr" coords="6,196.16,82.24,97.88,8.77;6,54.94,93.70,49.26,8.77" target="#b22">Dutta, Narasimhan, and Rajiv 1999;</ref><ref type="bibr" coords="6,109.42,93.70,153.91,8.77" target="#b56">Narasimhan, Dutta, and Rajiv 2006;</ref><ref type="bibr" coords="6,268.55,93.70,25.48,8.77;6,54.94,105.15,97.79,8.77" target="#b72">Wiles, Morgan, and Rego 2012;</ref><ref type="bibr" coords="6,154.72,105.15,109.34,8.77" target="#b73">Xiong and Bharadwaj 2013)</ref>. When working with objective information available from secondary sources, researchers often take the latter broader view of marketing capability because it enables them to overcome data availability constraints in measuring the construct at a more granular level. In this research, we follow the broader conceptualization of marketing capability to suggest its complementary role in the CSR-shareholder wealth link.</p><p>First, marketing capability embodies firms' ability to better manage communications because this translates into effective utilization of marketing resources in generating valuable outputs <ref type="bibr" coords="6,123.02,231.18,130.03,8.77" target="#b72">(Wiles, Morgan, and Rego 2012)</ref>. Superior communication can enable firms to generate greater awareness about their CSR efforts among consumers and other stakeholders <ref type="bibr" coords="6,108.17,265.53,124.49,8.77" target="#b51">(McWilliams and Siegel 2000)</ref>. Research has argued that stakeholders often remain unaware of CSR initiatives, which restricts CSR's potential to create stakeholderbased resources <ref type="bibr" coords="6,125.35,299.89,117.90,8.77" target="#b64">(Servaes and Tamayo 2013)</ref>. Marketing capability would therefore likely enhance the stakeholderbased benefits of CSR to improve shareholder wealth.</p><p>Second, marketing capability also reflects an organization's ability to better manage market information because it presupposes the efficient conversion of key marketing resources into outputs <ref type="bibr" coords="6,109.42,368.66,129.08,8.77" target="#b52">(Menon and Varadarajan 1992)</ref>. Indeed, the marketing function plays a critical role in enabling firms to sense and respond to markets and align organizational resources with stakeholder expectations <ref type="bibr" coords="6,211.30,403.01,82.85,8.77;6,54.93,414.47,80.93,8.77" target="#b1">(Bahadir, Bharadwaj, and Srivastava 2008;</ref><ref type="bibr" coords="6,138.39,414.47,39.54,8.77" target="#b19">Day 1994)</ref>. Superior market sensing can provide firms with marketing intelligence on stakeholders and competition <ref type="bibr" coords="6,104.48,437.37,157.98,8.77">(Morgan, Slotegraaf, and Vorhies 2009)</ref>, which can help in the design of CSR activities that are in line with the needs and aspirations of consumers and other stakeholders. This would enhance the ability of stakeholder-based advantages stemming from CSR to elevate stock returns. Furthermore, high marketing capability can enable firms to more effectively respond to potential competitive countermoves to their CSR efforts and reduce the volatility of prospective cash flows, lowering their stock market risk. This would serve as another mechanism through which marketing capability would complement CSR in elevating stock returns and reducing idiosyncratic risk.</p><p>Finally, marketing capability also represents better marketing strategy implementation by firms than competition <ref type="bibr" coords="6,54.93,597.81,104.75,8.77" target="#b57">(Noble and Mokwa 1999)</ref>. This would translate into more effective implementation of CSR activities by firms with superior marketing capability. As such, we would expect marketing capability to lower the resource-related costs associated with CSR and positively inform the returns from socially responsible investments. This again implies a complementary role of marketing capability in the CSRshareholder wealth relationship.</p><p>In summary, we expect marketing capability to positively inform the CSR-shareholder wealth relationship.</p><p>Indeed, investors are likely to reward the CSR efforts of firms that possess a greater ability to influence stakeholders. If a firm's marketing capability is high, investors would expect it to be more successful in leveraging the stakeholder-based value of CSR toward a higher magnitude of cash flows, accelerated cash flows, and/or less volatile cash flows for the firm. This would translate to gains in firm shareholder wealth <ref type="bibr" coords="6,398.37,116.61,61.46,8.77" target="#b65">(Shankar 2012)</ref>.</p><p>With respect to its role in specific CSR types, the effect of marketing capability should again be positive. However, we argued previously that community-based CSR would likely have a weak positive effect on shareholder wealth owing to higher agency costs. Ceteris paribus, this would indicate that marketing capability's joint effect with community-based CSR on shareholder wealth would be weak as well.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data and Variable Operationalization</head><p>Empirical examination of the relationships between CSR, marketing capability, and shareholder wealth requires us to collect data from multiple secondary sources. An advantage of relying on multiple sources is that it helps in avoiding issues related to common method bias <ref type="bibr" coords="6,470.31,286.79,86.74,8.77;6,317.93,298.24,48.76,8.77" target="#b20">(Dotzel, Shankar, and Berry 2013)</ref>. We first accessed the database provided by Kinder, Lydenberg, and Domini Research and Analytics Inc. (KLD) to obtain information on firm CSR activities (e.g., <ref type="bibr" coords="6,340.78,332.66,182.77,8.77" target="#b37">Jayachandran, Kalaignanam, and Eilert 2013;</ref><ref type="bibr" coords="6,525.79,332.66,31.27,8.77;6,317.94,344.11,77.80,8.77" target="#b64">Servaes and Tamayo 2013)</ref>. This CSR database has been widely used in prior research, given its long history of tracking and rating firms on their social responsibility (e.g., <ref type="bibr" coords="6,317.94,378.46,186.76,8.77" target="#b37">Jayachandran, Kalaignanam, and Eilert 2013;</ref><ref type="bibr" coords="6,507.96,378.46,49.05,8.77;6,317.94,389.92,57.57,8.77" target="#b64">Servaes and Tamayo 2013)</ref>. Second, we extracted information from the University of Chicago's Center for Research in Security Prices (CRSP) and Compustat databases to develop stock returns and idiosyncratic risk metrics and calculate other variables of interest. Overall, our criteria led to a sample of 1,725 firms for the years 2000-2009. Because information was not available for all firms across the databases for all years, we have an unbalanced panel of 8,017 observations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dependent Variables</head><p>Stock returns (StkRet it ). We use stock response modeling to assess unanticipated stock returns (e.g., <ref type="bibr" coords="6,496.80,517.81,60.24,8.77;6,317.93,529.27,61.35,8.77" target="#b67">Srinivasan and Hanssens 2009</ref>). Specifically, stock response modeling builds on the following four-factor model used in the finance literature <ref type="bibr" coords="6,356.49,552.17,57.46,8.77" target="#b15">(Carhart 1997)</ref>:</p><formula xml:id="formula_0" coords="6,317.93,569.58,203.49,23.83">SR im = a im + b iRM RF RM RF m + b iHML HML m + b iSMB SMB m + b iUMD UMD m + e im ,<label>(1)</label></formula><p>where SR im = Stock return in excess of the U.S. Treasury bill riskfree rate for firm i in month m; RM_RF m = Value-weighted return on all stocks listed in the New York Stock Exchange, NYSE MKT (formerly the American Stock Exchange), and NASDAQ minus the U.S. Treasury bill rate for month m, thus representing the excess market returns; HML m = Book-to-market-based risk premium factor (i.e., the return on the value-weighted portfolio of high book-to-market stocks minus the returns on a valueweighted portfolio of low book-to-market stocks in month m); SMB m = Size-based risk premium factor (i.e., the return on the value-weighted portfolio of small stocks minus the return on big stocks in month m); UMD m = Returns momentum factor (i.e., the average returns on the two prior high-returns portfolios minus the average returns on the two prior low-returns portfolios in month m); and e im = Residual for firm i in month m.</p><p>Using monthly data, this model helps establish the expected stock returns (ESR im ) of firm i in month m. As recommended by <ref type="bibr" coords="7,101.95,180.21,57.90,8.77" target="#b15">Carhart (1997)</ref>, we estimate this model for each firm for every year with information from the CRSP database. Following previous research (e.g., <ref type="bibr" coords="7,247.91,203.11,46.22,8.77;7,54.94,214.56,99.19,8.77" target="#b8">Bharadwaj, Tuli, and Bonfrer 2011;</ref><ref type="bibr" coords="7,157.78,214.56,112.37,8.77" target="#b49">Luo and Bhattacharya 2009</ref>), we use the compounded monthly unanticipated returns for the year in our stock response model. We calculate these as StkRet it = log∏ 12 m =1 (1 + r im ), where r im represents the monthly unanticipated returns (SR -ESR) im , and StkRet it represents the annualized unanticipated returns (SR -ESR) it of firm i in year t.</p><p>Idiosyncratic risk (IDRisk it ). In line with standard practice in the marketing literature, we use the standard deviation of the residual (e im ) estimated for each firm i in year t as a measure of its idiosyncratic risk (e.g., <ref type="bibr" coords="7,206.65,339.01,87.40,8.77;7,54.94,350.46,21.24,8.77" target="#b49">Luo and Bhattacharya 2009)</ref>. We calculate this measure as</p><formula xml:id="formula_1" coords="7,112.59,363.42,122.32,34.17">IDRisk it = 2 4 1 12 å 12 m =1 (e im -e im ) 2 3 5 1 2 .</formula><p>(2)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Independent Variables</head><p>Relative marketing capability (RelMktgCapb it ). We determine the marketing capability measure on the basis of the input-output stochastic frontier analysis (SFA) of annual data utilized in the marketing literature (e.g., <ref type="bibr" coords="7,54.94,485.50,147.41,8.77" target="#b22">Dutta, Narasimhan, and Rajiv 1999;</ref><ref type="bibr" coords="7,204.48,485.50,89.50,8.77;7,54.94,496.95,22.41,8.77" target="#b73">Xiong and Bharadwaj 2013)</ref>. This approach estimates a firm's marketing capability by measuring how close its realized sales are to the sales frontier given a certain level of input resources, and it has been used in research investigating marketing capability in the context of firm financial value (e.g., <ref type="bibr" coords="7,258.59,542.76,35.46,8.77;7,54.93,554.21,135.44,8.77" target="#b1">Bahadir, Bharadwaj, and Srivastava 2008)</ref>. We follow <ref type="bibr" coords="7,243.33,554.21,50.74,8.77;7,54.93,565.66,97.78,8.77" target="#b56">Narasimhan, Dutta, and Rajiv (2006)</ref> and <ref type="bibr" coords="7,174.16,565.66,119.87,8.77" target="#b73">Xiong and Bharadwaj (2013)</ref> by including input resources such as selling, general, and administrative expenses; accounts receivable; and technological know-how reflected in patent stock. Furthermore, we utilize the Koyck lag function on firm patent count to estimate patent stock. 2 Specifically, we estimate the following:</p><formula xml:id="formula_2" coords="7,54.93,638.05,166.31,11.15">Sales it = fðX it ,WÞe eit e -h it ,<label>(3)</label></formula><p>where X it represents the aforementioned resource inputs for firm i in year t, e it captures random shocks beyond the firm's control (e.g., luck), and h it represents the firm's inefficiency in converting the resource inputs into sales (for more details, see Web Appendix W.1). We derive the maximum likelihood estimates of the inefficiency term (h it ) and use its inverse to capture firm marketing capability (MktgCapb it ). We then normalize this measure using the average efficiency of firms in an industry to measure the relative marketing capability of firm i in industry j in year t as 3</p><formula xml:id="formula_3" coords="7,317.93,145.46,212.40,27.97">RelMktgCapb it = MktgCapb ijt - 1 N j å Nj i =1 MktgCapb ijt .<label>(4)</label></formula><p>CSR (CSR it ). We form an index for CSR using the KLD ratings (e.g., <ref type="bibr" coords="7,401.59,202.49,115.64,8.77" target="#b64">Servaes and Tamayo 2013)</ref>. Kinder, Lydenberg, and Domini Research and Analytics Inc. compiles annual ratings for CSR and is recognized as a leading authority in social research, providing information on multiple dimensions of CSR for institutional investors. In 1990, KLD created the first socially screened, valueweighted index of 400 common stocks (i.e., the Domini 400 SocialSM Index [DS 400 Index]). Over the years, KLD broadened the scope and increased the number of firms tracked for CSR to include firms in the Russell 3000 Index. As such, it provides one of the most comprehensive databases for CSR ratings <ref type="bibr" coords="7,435.57,328.52,121.52,8.77" target="#b36">(Hull and Rothenberg 2008;</ref><ref type="bibr" coords="7,317.94,339.97,187.63,8.77" target="#b37">Jayachandran, Kalaignanam, and Eilert 2013)</ref>. It includes ratings on six main criteria that reflect a firm's overall CSR activities. These ratings are widely used in academic research, and portfolio managers and institutional investors incorporate them when assessing firm social initiatives for their investment decisions <ref type="bibr" coords="7,427.90,397.23,124.78,8.77" target="#b51">(McWilliams and Siegel 2000)</ref>. The CSR measure used in our analysis is calculated as the aggregate mean score on six types of CSR strengths. Within each category, KLD provides a [0, 1] rating on multiple criteria. We first calculate an average score for each category for a firm and then develop an aggregate index of the averages across the six categories as an indicator of the firm's overall CSR. Our approach is in line with existing research that uses the KLD database (e.g., <ref type="bibr" coords="7,518.07,488.90,39.03,8.77;7,317.94,500.35,72.01,8.77" target="#b36">Hull and Rothenberg 2008;</ref><ref type="bibr" coords="7,391.79,500.35,106.10,8.77" target="#b64">Servaes and Tamayo 2013)</ref>. In addition to the overall indicator of CSR, we utilize the average score for each category to measure CSR types.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Control Variables</head><p>We account for multiple firm-level and industry-specific variables in our analysis. For stock returns (Equation 5a), we include levels in variables using annual data. Because idiosyncratic risk is likely to be affected by variations, we include volatility in controls as annual standard deviations based on quarterly data (Equation 5b). 4 In particular, we account for the following:</p><p>• Leverage (Leverage it ) and leverage volatility (LeverageVolt it ):</p><p>Financial leverage may negatively affect stock returns (see, e.g., <ref type="bibr" coords="8,118.67,95.83,171.36,7.89" target="#b37">Jayachandran, Kalaignanam, and Eilert 2013)</ref>. Similarly, leverage volatility may increase idiosyncratic risk.</p><p>• Earnings (Earnings it ) and earnings volatility (EarningsVolt it ):</p><p>Research has found earnings surprises to negatively influence current-period stock performance <ref type="bibr" coords="8,205.62,147.65,88.51,7.89;8,79.37,157.62,46.44,7.89" target="#b45">(Kothari, Lewellen, and Warner 2006)</ref>. In line with this finding, we expect earnings and earnings volatility to negatively affect current-period shareholder wealth.</p><p>• Cost of goods sold (COGS it ) and volatility of cost of goods sold (COGSVolt it ): Cost of goods sold and its volatility indicate higher cost structure, which implies reduced shareholder wealth <ref type="bibr" coords="8,159.82,219.36,134.27,7.89;8,79.37,229.34,20.17,7.89" target="#b68">(Srivastava, Shervani, and Fahey 1998)</ref>. We normalize cost of goods sold by using firms' total assets.</p><p>• Cash flow (CshFl it ): Stock prices are the discounted sum of investors' future cash flow expectations <ref type="bibr" coords="8,252.00,261.20,41.98,7.89;8,79.37,271.18,94.16,7.89" target="#b68">(Srivastava, Shervani, and Fahey 1998)</ref>, which are likely to be a function of current cash flow <ref type="bibr" coords="8,152.90,281.16,137.30,7.89" target="#b47">(Krasnikov, Mishra, and Orozco 2009)</ref>. We normalize cash by using total assets.</p><p>• Profit (Profit it ) and profit volatility (ProfitVolt it ): Profitable firms are likely to generate higher stock returns, and volatility in profits can increase risk <ref type="bibr" coords="8,176.37,323.00,109.99,7.89" target="#b67">(Srinivasan and Hanssens 2009</ref>). Furthermore, we expect profitable firms to have excess resources to divert toward CSR (Equation 5c; see also <ref type="bibr" coords="8,279.66,342.90,14.38,7.89;8,79.37,352.31,91.68,8.45">Luo and Bhattacharya 2009). 5</ref> • Fortune magazine Most Admired Company (MAC it ): The most admired companies are expected to display higher levels of CSR <ref type="bibr" coords="8,133.85,384.74,105.79,7.89" target="#b49">(Luo and Bhattacharya 2009)</ref>. We therefore include a dummy variable set to 1 for firms that were on the list of Fortune magazine's Most Admired Companies in estimating CSR (Equation 5c).</p><p>• Market share (MSr it ): Firms with larger market share are likely to experience economies of scale, which would influence how readily they are able to convert resources into sales compared with the competition <ref type="bibr" coords="8,215.26,456.51,78.74,7.89;8,79.37,466.43,63.15,7.89" target="#b68">(Srivastava, Shervani, and Fahey 1998)</ref>. As such, we include market share in estimating marketing capability (Equation 5d).</p><p>• Industry (I j ) and time (T t ) fixed effects: We include industry and time indicator variables for unobserved time-invariant industry effects (with industry defined at the two-digit Standard Industry Classification [SIC] level 6 ) and time fixed effects. <ref type="table" coords="8,196.48,528.23,28.99,7.89" target="#tab_1">Table 2</ref> provides a list of variables used in this study. We present the descriptives in <ref type="table" coords="8,79.37,548.12,28.40,7.89" target="#tab_2">Table 3</ref> and provide information on the six CSR types in <ref type="table" coords="8,79.37,558.10,27.88,7.89" target="#tab_3">Table 4</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model Formulation</head><p>Our conceptual framework calls for a system of equations with stock returns, idiosyncratic risk, CSR, and marketing capability being predicted together (e.g., <ref type="bibr" coords="8,503.97,98.57,53.02,8.77;8,317.93,110.02,44.74,8.77" target="#b55">Morgan and Rego 2009</ref>). In addition, it is critical to note that we integrate information from multiple data sources for our analysis. Whereas the CRSP and Compustat databases provide an almost complete sampling frame for public firms in the United States, the use of the KLD database restricts our sample. Such restrictions can lead to selection bias that we must account for in estimating the relationships of interest. We therefore rely on the twostage <ref type="bibr" coords="8,342.14,201.70,70.05,8.77" target="#b34">Heckman (1979)</ref> procedure to account for potential selection bias in our sample. The Heckman procedure estimates a probit model in the first stage utilizing a large sample of firms that does not suffer from selection issues. We use the resulting parameters to calculate the inverse Mills ratio (MillsLambda), which we include as an additional regressor in the second stage (Equations 5a-5d). The inclusion of the inverse Mills ratio accounts for potential selection bias in the restricted sample. In our analysis, a complete sample would comprise all firms in the same four-digit SIC industries (selection = 0) as the 1,725 firms represented in the selected sample (selection = 1). Web Appendix W.2 presents details of the first-stage estimation. Specifically, we model the following system of equations 7 : StkRet it = a 0 + a 1 UDCSR it + a 2 UDRelMktgCapb it + a 3 ðUDCSR it · UDRelMktgCapb it Þ + a 4 UDLeverage it + a 5 UDProfit it + a 6 UDEarnings it + a 7 UDCOGS it + a 8 UDCshFl it + a 9 MillsLambda it</p><formula xml:id="formula_4" coords="8,317.93,385.30,191.20,88.50">+ å j Ind =1 q StkRet Ind + å T t =1 q StkRet t + e it ,<label>(5a)</label></formula><p>UDIDRisk it = g 0 + g 1 UDCSR it + g 2 UDRelMktgCapb it + g 3 ðUDCSR it · UDRelMktgCapb it Þ + g 4 UDLeverageVolt it + g 5 UDProfitVolt it + g 6 UDEarningsVolt it + g 7 UDCOGSVolt it <ref type="bibr" coords="8,63.89,581.53,3.36,5.92">4</ref> We continue to use levels for our focal predictors of idiosyncratic risk in Equation 5b because quarterly data for these are not available. 5 Because we are missing cash flow data for a large proportion of our sample of firms at the quarterly level, we are not able to control for cash flow volatility. We also include both profits and earnings, along with their volatilities, as controls because these represent topline and bottom-line components of firm performance, respectively, which can influence stock price <ref type="bibr" coords="8,174.33,651.76,115.88,7.89" target="#b67">(Srinivasan and Hanssens 2009)</ref>. Moreover, our focal findings remain robust to the exclusion of profit and profit volatility as controls in the estimation. <ref type="bibr" coords="8,63.89,681.14,3.36,5.92">6</ref> We assign conglomerates to SIC code 99, following the Occupational Safety &amp; Health Administration (https://www.osha.gov/ pls/imis/sic_manual.html) and Compustat's classification.</p><formula xml:id="formula_5" coords="8,317.93,484.57,203.12,94.62">+ g 8 MillsLambda it + å j Ind =1 q IDRisk Ind + å T t =1 q IDRisk t + e it ,<label>(5b)</label></formula><formula xml:id="formula_6" coords="8,317.93,589.14,206.58,66.76">UDCSR it = d 0 + d 1 UDProfit it + d 2 UDProfitVolt it + d 3 MAC it + d 4 UDRelMktgCapb it + d 5 MillsLambda it + å j Ind =1 q CSR Ind + å T t =1 q CSR t + x it , and<label>(5c)</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(5d)</head><p>UDRelMktgCapb it = z 0 + z 1 UDCSR it + z 2 UDMSr it</p><formula xml:id="formula_7" coords="9,139.64,531.31,146.12,36.60">+ z 3 MillsLambda it + å j Ind =1 q RelMktgCapb Ind + å T t =1 q RelMktgCapb t + w it ,</formula><p>where a, g, d, and z represent the parameter estimates; e it , e it , x it , and w it represent the error components; and q Ind and q t represent dummy variables to account for industry and time fixed effects. As noted previously, in addition to our focal predictors, we expect leverage, earnings, cost of goods sold, cash flow, and profit to affect stock returns, so we include them in Equation 5a. Similarly, we anticipate volatility in leverage, earnings, cost of goods sold, and profit to affect idiosyncratic risk and thus specify them as controls in Equation 5b. Furthermore, because firms' profitability can affect CSR and because the most admired companies are known to have high CSR <ref type="bibr" coords="9,78.75,700.93,121.92,8.77" target="#b49">(Luo and Bhattacharya 2006)</ref>, we include these as predictors in Equation 5c. We also include marketing capability in Equation 5c. In addition, Equation 5d models market share as a predictor for firm marketing capability. Finally, we account for potential reciprocal effects of marketing capability and CSR by including them in Equations 5c and 5d, respectively. Because stock markets react only to unexpected information, in line with recent literature <ref type="bibr" coords="9,455.71,585.56,101.27,8.77;9,317.93,597.02,20.56,8.77" target="#b67">(Srinivasan and Hanssens 2009)</ref>, we utilize unanticipated changes in CSR, marketing capability, and control variables in Equations 5a-5d. We rely on a first-order autoregressive model with robust standard errors (Equation 6) and use the residuals as our measures of unanticipated changes (e.g., Bharadwaj, Tuli, and Bonfrer 2011): y it = g 0 + q 1 y iðt -1Þ + e it .</p><p>Furthermore, we mean-center the CSR and relative marketing capability measures in creating the interaction term  because the correlation between marketing capability and interaction term without mean centering is high (.5561). The variance inflation factors following this procedure are all less than 10, indicating that multicollinearity may not affect our results. Finally, in keeping with the risk-return modeling tradition in the finance literature, and following previous research and guidelines in marketing (e.g., Shankar 2012; Sorescu and Spanjol 2008), we specify stock returns and idiosyncratic risk as separate equations. 8</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model Estimation</head><p>An analysis of cross-correlations of error terms indicates that the errors across the stock returns and unanticipated idiosyncratic risk equations are significantly correlated with one another (-.90, p &lt; .01). Therefore, we analyze our system of equations using the seemingly unrelated regression (SUR) estimation <ref type="bibr" coords="11,99.95,553.98,56.90,8.77" target="#b74">(Zellner 1962)</ref>. Our use of the SUR estimation procedure allows for a statistically flexible, robust, yet easily interpretable methodological framework, which is recommended for analyses that are focused on firm financial performance (e.g., <ref type="bibr" coords="11,118.60,599.79,134.68,8.77" target="#b20">Dotzel, Shankar, and Berry 2013)</ref>. Furthermore, to mitigate concerns regarding endogeneity that may result from reverse causality, we rely on the residuals approach recommended by <ref type="bibr" coords="11,206.75,634.15,87.26,8.77;11,54.94,645.60,25.28,8.77" target="#b61">Roberts and Dowling (2002)</ref>. In line with <ref type="bibr" coords="11,134.76,645.60,33.04,8.77" target="#b49">Luo and</ref><ref type="bibr" coords="11,170.07,645.60,105.74,8.77" target="#b49">Bhattacharya (2009, 2006)</ref>, we regress the unanticipated measures of CSR, marketing capability, and their interaction on stock returns and unanticipated idiosyncratic risk and use the residuals as predictors in our estimations. These residuals represent the variance in the measures of CSR, marketing capability, and their interaction that remains unexplained by stock returns and unanticipated idiosyncratic risk.</p><p>We checked the correlations in error terms of the two focal dependent variable equations (stock returns <ref type="bibr" coords="11,487.70,431.98,48.45,8.77">[Equation 5a</ref>] and idiosyncratic risk [Equation 5b]) and the two main predictor variable equations (CSR <ref type="bibr" coords="11,411.20,454.89,47.21,8.77">[Equation 5c</ref>] and marketing capability <ref type="bibr" coords="11,317.93,466.34,48.47,8.77">[Equation 5d</ref>]), and we find these to be nonsignificant. This provides confidence that endogeneity does not affect our findings. 9 Finally, we conduct robustness checks utilizing different estimation and modeling approaches, evaluate models with systematic risk as an additional shareholder wealth metric, and consider whether other organizational capabilities also play a complementary role in the CSRshareholder wealth relationship. We provide details of these additional analyses in the "Robustness Checks" subsection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Main Results</head><p>We analyze two models to assess the predictive contribution of our focal variables. First, we estimate the system of equations with the main effects and controls and refer to this     as the "main-effects model." Second, we include the marketing capability · CSR interaction in the system and refer to this as the "full model." Overall, the models demonstrate good predictive power with significant chi-square values. Chi-square difference tests between the main-effects model and the full model indicate that the interaction effect in Equation 5a (Dc 2 d:f: = 1 = 29.35, p &lt; .01) and Equation 5b (Dc 2 d:f: =1 = 48.75, p &lt; .01) significantly improves explanatory power. We interpret the results from the main-effects and full models in discussing our findings.</p><p>With regard to firms' overall CSR initiatives (see <ref type="table" coords="14,54.93,574.90,29.41,8.77" target="#tab_4">Table 5</ref>), we find the direct effect of CSR on stock returns (main-effects model: a 1 = -.0003, p &gt; .1; full model: a 1 = .0014, p &gt; .1) and idiosyncratic risk (main-effects model: g 1 = .0029, p &gt; .1; full model: g 1 = -.0028, p &gt; .1) to be not significant. This finding aligns with a recent meta-analysis indicating an overall marginal effect of CSR on financial performance <ref type="bibr" coords="14,108.45,643.62,83.70,8.77" target="#b50">(Margolis et al. 2009</ref>). Our analysis indicates that marketing capability has a direct significant positive effect on stock returns (main-effects model: a 2 = 101.83, p &lt; .01; full model: a 2 = 98.81, p &lt; .01) and a direct significant negative effect on firms' idiosyncratic risk (main-effects model: g 2 = -140.72, p &lt; .01; full model: g 2 = -130.95, p &lt; .01). These results provide support to the notion that marketing capability is an important driver of shareholder wealth. More importantly, with respect to the complementary role of marketing capability and CSR, the results indicate a significant positive effect on stock returns (full model: a 3 = 71.07, p &lt; .01) and a significant negative effect on idiosyncratic risk (full model: g 3 = -233.45, p &lt; .01). Furthermore, we observe the results to be robust to any outliers <ref type="table" coords="14,352.30,540.49,34.08,8.77" target="#tab_8">(Table 8</ref>, Panel A). These results underscore the notion that marketing capability is a critical factor that helps firms leverage their CSR efforts. Indeed, within the limits of our sample, we observe that a one-standard-deviation improvement in CSR and marketing capability can provide shareholders gains of 3.54% in stock returns and a reduction in idiosyncratic risk of 4.45%, on average (see Web Appendix W.3). Given the average market capitalization of firms, this translates to a $242.34 million gain in stock value.</p><p>With respect to individual CSR types (see <ref type="table" coords="14,505.40,655.07,51.71,8.77;14,317.93,666.52,7.28,8.77" target="#tab_6">Tables 6 and  7)</ref>, we again observe that none of the CSR types directly affect stock returns and idiosyncratic risk. However, the results reveal that marketing capability positively complements the relationship between environment-based CSR Overall CSR + -A firm's marketing capability is likely to enhance CSR's potential for generating positive stakeholder associations with the firm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Environment-based CSR</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>+ -</head><p>A firm's marketing capability is likely to enhance environment-based CSR's potential for generating positive associations among consumers, channel partners, and regulators with the firm.</p><p>Product-based CSR n.s. (+ with 5% trim and Winsorized) n.s. (-with 5% trim and Winsorized)</p><p>A firm's marketing capability is likely to enhance product-based CSR's potential for generating positive associations among consumers with the firm.</p><p>Diversity-based CSR + -A firm's marketing capability is likely to enhance diversity-based CSR's potential for generating positive associations among employees and regulators with the firm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Corporate governance-based CSR</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>+ -</head><p>A firm's marketing capability is likely to enhance corporate governance-based CSR's potential for generating positive associations among employees and regulators with the firm.</p><p>Employee-based CSR + -A firm's marketing capability is likely to enhance employee-based CSR's potential for generating positive associations among employees with the firm.</p><p>Community-based CSR n.s. n.s. A firm's marketing capability is likely to enhance community-based CSR's potential for generating positive associations with the firms, but the expected gains are attenuated because of low diagnosticity and low verifiability of such efforts.</p><p>Notes: n.s. = not significant. and stock returns (a 3 = 147.80, p &lt; .01) and negatively affects the relationship between environment-based CSR and idiosyncratic risk (g 3 = -505.69, p &lt; .01). The results also indicate that the complementary effect of marketing capability on stock returns (a 3 = 45.36, p &gt; .1) and idiosyncratic risk (g 3 = -166.73, p &gt; .1) for product-based CSR is nonsignificant. However, after accounting for outliers, we find that the positive role of marketing capability for product-based CSR on stock returns (5% Winsorized in <ref type="table" coords="17,54.94,139.50,30.44,8.77" target="#tab_8">Table 8</ref>, Panel B: 79.14, p &lt; .1; 5% trimmed in <ref type="table" coords="17,259.82,139.50,30.44,8.77" target="#tab_8">Table 8</ref>, Panel C: 85.82, p &lt; .05) and idiosyncratic risk (5% Winsorized in <ref type="table" coords="17,95.62,162.41,28.57,8.77" target="#tab_8">Table 8</ref>, Panel B: -239.79, p &lt; .05; 5% trimmed in <ref type="table" coords="17,54.94,173.86,29.05,8.77" target="#tab_8">Table 8</ref>, Panel C: -323.03, p &lt; .01) is significant, providing partial support for this relationship. Similarly, marketing capability also positively affects the relationship between diversity-based CSR and stock returns (a 3 = 113.16, p &lt; .01) and negatively affects the relationship between diversitybased CSR and idiosyncratic risk (g 3 = -455.31, p &lt; .01).</p><p>With respect to corporate governance-based CSR, we find the moderating role of marketing capability on stock returns (a 3 = 92.39, p &lt; .05) and idiosyncratic risk (g 3 = -267.50, p &lt; .01) to be significant as well. For employee-based CSR, results again support the governing role of marketing capability for stock returns (a 3 = 83.57, p &lt; .01) and idiosyncratic risk (g 3 = -227.14, p &lt; .01). However, with respect to communitybased CSR, the interaction with marketing capability is nonsignificant for both stock returns (a 3 = 51.20, p &gt; .1) and idiosyncratic risk (g 3 = -35.37, p &gt; .1). This finding aligns with our expectation that the joint shareholder effect of marketing capability and community-based CSR is weak.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Robustness Checks</head><p>Sensitivity to outliers. To determine whether our results are sensitive to outliers, we assess the robustness of all models by Winsorizing and trimming our sample at -2.5%. As we illustrate in <ref type="table" coords="17,98.77,442.64,27.21,8.77" target="#tab_8">Table 8</ref>, Panels A-C, with the exception of productbased CSR, our conclusions do not change when outliers are removed from the data set for overall CSR and CSR types.</p><p>Different estimation approaches. We assess the robustness of our findings through four additional estimation and modeling approaches. First, although we minimized endogeneity concerns through the use of unanticipated changes in our variables and the use of <ref type="bibr" coords="17,242.19,529.04,51.89,8.77;17,54.94,540.49,73.56,8.77" target="#b61">Roberts and Dowling's (2002)</ref> procedure, we also evaluate our equations using the three-stage least squares method <ref type="bibr" coords="17,261.90,551.94,32.17,8.77;17,54.94,563.45,21.74,8.77" target="#b30">(Greene 2008)</ref>. Previous research has recommended the three-stage least squares procedure to account for endogeneity (e.g., <ref type="bibr" coords="17,54.94,586.36,151.84,8.77" target="#b8">Bharadwaj, Tuli, and Bonfrer 2011)</ref>. We observe results consistent with our findings. Second, as noted previously, we model contemporaneous relationships in Equations 5a-5d (e.g., <ref type="bibr" coords="17,77.27,620.71,95.15,8.77" target="#b55">Morgan and Rego 2009)</ref>. However, following previous research in marketing that has argued for contemporaneous effects for stock market-related dependent variables and lagged effects for other dependent variables in a system of equations (e.g., <ref type="bibr" coords="17,78.01,666.52,141.72,8.77" target="#b8">Bharadwaj, Tuli, and Bonfrer 2011)</ref>, we lag the independent variables in Equations 5c-5d by one time period and again observe consistent results. Third, as we report in footnote 9, after utilizing the Roberts and Dowling procedure, the error correlations between Equations 5a and 5b with Equations 5c and 5d become nonsignificant. As such, we also estimate SUR models with only Equations 5a and 5b (not including Equations 5c and 5d) as the system of equations. An analysis again reveals similar results. Finally, our results are also robust if we specify levels in controls, rather than volatility, for the idiosyncratic risk in Equation 5b (e.g., <ref type="bibr" coords="17,423.89,105.15,110.53,8.77" target="#b49">Luo and Bhattacharya 2009</ref>) and include cash flow as a control. Together, these checks give us greater confidence in our overall findings.</p><p>Systematic risk. Although we do not expect firm-specific CSR and marketing capability to affect systematic risk, we conduct an analysis to empirically assess this prediction. Following previous research (e.g., <ref type="bibr" coords="17,467.49,182.54,89.55,8.77;17,317.93,193.99,54.35,8.77" target="#b8">Bharadwaj, Tuli, and Bonfrer 2011)</ref>, we measure systematic risk using the beta for the market return factor in Equation 1. We re-estimate our system of equations by adding an equation for unanticipated systematic risk. The results indicate that the variables of interest did not influence systematic risk <ref type="table" coords="17,480.98,239.80,32.14,8.77" target="#tab_8">(Table 8</ref>, Panel A). Furthermore, including systematic risk in the system does not change our main findings.</p><p>Firm employee and operations capabilities. To determine whether firm capabilities other than marketing capability interact with CSR to influence shareholder wealth, we estimate a system of equations that include the main and interaction effects of employee capability and operations capability. <ref type="bibr" coords="17,359.32,336.57,7.47,6.58">10</ref> We calculate employee and operations capabilities using the input-output SFA approach, similar to the one we used to capture marketing capability. We do not find the interaction terms for these capabilities to be significant, further underscoring the positive role of marketing in CSR's effect on shareholder wealth (see Web Appendix WA.3).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Our results provide evidence that CSR is not likely to affect firm shareholder wealth directly but is more likely do so in the presence of marketing capability. In particular, we observe that when unanticipated changes in CSR are complemented with unanticipated changes in marketing capability, shareholders benefit from a significant increase in stock returns and a reduction in idiosyncratic risk. These results are in line with marketing theory, in which two opposing perspectives-one based on agency theory and the other on stakeholder theory and the RBV of the firm-indicate that both positive and negative forces influence the CSRshareholder wealth relationship. However, in line with the dynamic capabilities theory, our results also highlight the notion that the positive forces can potentially play a stronger role in realizing shareholder value from CSR if their efficacy is enhanced through superior marketing capability.</p><p>In addition, our findings also reveal that the complementary role of marketing capability is not guaranteed but rather depends on the CSR type. The results show that CSR types with verifiable benefits to key firm stakeholders financially reward shareholders in the presence of marketing capability (see <ref type="table" coords="18,115.37,36.38,28.96,8.77" target="#tab_7">Table 7</ref>). For example, diversity in top management, board members, and employees invites significant stakeholder attention. As such, stakeholder theory and the RBV indicate that firm efforts toward fostering diversity would allow for improved relationships with stakeholders, leading to higher shareholder wealth. However, ceteris paribus, if firms do not implement and communicate such efforts correctly, stakeholders can remain skeptical about these efforts and may suspect agency problems, which can diminish the financial potential of diversity-based CSR initiatives. In line with these opposing forces, we do not find a significant main effect of diversity-based CSR on shareholder wealth. However, because firms with superior marketing capability will be more aligned with stakeholders, they can potentially identify diversity-based initiatives that better appeal to stakeholders and then implement and communicate these initiatives effectively to alleviate some of the agency-related concerns. Consistent with this argument, our results reveal that when complemented with marketing capability, diversitybased CSR improves shareholder wealth.</p><p>We find similar effects for other stakeholder-based CSR efforts that offer verifiable benefits to key firm stakeholders, particularly those related to environment, products, corporate governance, and employees. Furthermore, consistent with the arguments raised by neoclassical economists (e.g., Friedman 1970), we also find that relatively broad and less verifiable community-based CSR efforts do not seem to benefit shareholders either directly or in combination with marketing capability.</p><p>Our findings are derived from information collected from multiple secondary sources for a relatively large set of firms across the years 2000-2009, and they account for endogeneity and selection bias. In addition, the results are largely robust to the effects of outliers and different modeling and estimation approaches. Together, this gives us confidence in the validity of our conclusions and enables us to offer several implications for theory and practice.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Theory Implications</head><p>This is the first study to articulate marketing capability as a complementary force in the CSR-shareholder wealth relationship and to establish it using objective, longitudinal information. In response to the debate on doing good (e.g., <ref type="bibr" coords="18,54.94,540.49,64.57,8.77" target="#b27">Friedman 1970;</ref><ref type="bibr" coords="18,123.65,540.49,111.89,8.77" target="#b36">Hull and Rothenberg 2008)</ref>, our research shows that marketing scholarship can provide novel insights into the issue. Indeed, whereas scholars in other fields have given attention to the shareholder value of CSR, marketing research, with the exception of a few notable studies <ref type="bibr" coords="18,258.64,586.36,35.41,8.77" target="#b49">(Luo and</ref><ref type="bibr" coords="18,54.94,597.81,101.74,8.77" target="#b49">Bhattacharya 2006, 2009)</ref>, has remained silent on the topic. This is surprising for two reasons. First, the growing consensus is that the relationship of CSR with shareholder wealth is contingent on firms' key stakeholders. Because marketing plays an important role in maintaining stakeholder relationships, marketing scholars have the potential to inform this area. Second, recent research has highlighted the role of marketing capability in leveraging firm resources (e.g., <ref type="bibr" coords="18,54.94,689.48,162.52,8.77">Morgan, Slotegraaf, and Vorhies 2009)</ref>. However, extant research focused on marketing factors in CSR has singularly examined marketing resources (see <ref type="table" coords="18,462.62,36.38,29.36,8.77" target="#tab_0">Table 1</ref>); the one study that does consider marketing capability in the context of CSR does not focus on shareholder wealth <ref type="bibr" coords="18,470.67,59.29,82.07,8.77" target="#b42">(Kemper et al. 2013)</ref>. We contribute to the literature by outlining the pathways through which marketing capability complements CSR in elevating shareholder wealth and by empirically evaluating the resulting effects.</p><p>Furthermore, we consider both overall CSR and six specific CSR types. In general, scholars offer a multifaceted conceptualization of CSR but then tend to consider only an overall measure of CSR (e.g., <ref type="bibr" coords="18,441.56,150.96,115.51,8.77" target="#b49">Luo and Bhattacharya 2009;</ref><ref type="bibr" coords="18,317.94,162.41,112.77,8.77" target="#b64">Servaes and Tamayo 2013)</ref>. The few studies that offer a more granular operationalization of the construct focus on only one or two types. For example, some have considered pro-environment and product-based efforts <ref type="bibr" coords="18,496.14,196.83,60.97,8.77;18,317.94,208.28,128.73,8.77" target="#b37">(Jayachandran, Kalaignanam, and Eilert 2013)</ref>, whereas others have investigated corporate governance (e.g., <ref type="bibr" coords="18,470.15,219.73,86.96,8.77;18,317.94,231.18,21.10,8.77" target="#b40">Johnson and Greening 1999)</ref>. Although these studies have provided many rich insights by taking a narrow focus, this has also been one of the potentially limiting factors driving the varied findings on the financial effects of CSR in extant literature <ref type="bibr" coords="18,516.59,265.54,40.57,8.77;18,317.94,276.99,106.48,8.77" target="#b50">(Margolis, Elfenbein, and Walsh 2009)</ref>. By taking a comprehensive view of CSR, as well as parceling out the effects of different CSR types, our results provide insight into the boundary conditions for the role of marketing capability. Indeed, this insight would not have been available if we had focused only on overall CSR.</p><p>Finally, by centering on shareholder wealth, our study adds to the area of marketing-finance interface (e.g., <ref type="bibr" coords="18,516.25,345.75,40.91,8.77;18,317.93,357.20,79.85,8.77" target="#b67">Srinivasan and Hanssens 2009;</ref><ref type="bibr" coords="18,401.10,357.20,151.84,8.77" target="#b68">Srivastava, Shervani, and Fahey 1998)</ref>. Specifically, it draws attention to the role of marketing capability in elevating stock returns and reducing idiosyncratic risk through CSR. Research relating marketing capability to shareholder wealth is still in a nascent stage, with much attention directed toward the role of marketing capability in brands' financial value <ref type="bibr" coords="18,411.71,425.92,145.45,8.77;18,317.93,437.37,22.31,8.77" target="#b1">(Bahadir, Bharadwaj, and Srivastava 2008;</ref><ref type="bibr" coords="18,342.48,437.37,123.10,8.77" target="#b72">Wiles, Morgan, and Rego 2012)</ref>. Our study takes a step toward extending this body of work and highlights the positive influence of marketing capability in elevating other stakeholder-based advantages of firms, particularly those related to CSR. Furthermore, by documenting significant main and complementary effects of marketing capability on shareholder wealth, and by identifying CSR types for which marketing capability may help, our results affirm that investors should account for marketing capability when forming their evaluations. This should also provide additional evidence in support of elevating marketing's position in organizations' functional hierarchies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Practice Implications</head><p>Our research provides a fresh perspective on CSR to C-level executives, corporate boards, and marketing managers. First, despite firms' increasing interest in CSR, there remain significant doubts among C-level executives regarding the financial returns of socially responsible investments <ref type="bibr" coords="18,534.16,655.07,22.86,8.77;18,317.93,666.52,76.12,8.77">(Blair and Chernev 2012)</ref>. Indeed, in one global survey of senior executives, the majority of the respondents considered CSR to be important and expected social investments by their firms to increase in the future (The Economist 2008), whereas a Corporate Social Responsibility and Shareholder Wealth / 43 survey conducted by McKinsey &amp; Company indicated that close to half of the chief financial officers surveyed expressed skepticism about the shareholder value of CSR <ref type="bibr" coords="19,261.30,59.28,32.76,8.77;19,54.94,70.79,104.52,8.77" target="#b12">(Bonini, Brun, and Rosenthal 2009)</ref>. Our findings provide support for some of this skepticism because we do not find a significant main effect of CSR and its different types on stock returns and idiosyncratic risk. However, we also show that the situation is not downright grim: rather, stakeholder-based CSR efforts do have the potential to positively inform shareholder wealth when they are complemented with marketing capability. This should give confidence to senior executives to support CSR initiatives in their organizations.</p><p>Second, by documenting the complementary relationship between CSR and marketing capability, our research highlights the need for greater involvement by marketing managers in their firms' CSR activities. In particular, our findings are in line with the global senior executives' survey findings underscoring marketing as significant for CSR (The Economist 2008). However, CSR is often considered outside the domain of marketing in many firms and receives limited attention from marketing managers <ref type="bibr" coords="19,244.06,265.53,50.02,8.77;19,54.94,276.98,49.92,8.77" target="#b59">(Peloza and Shang 2011)</ref>. This misplaced view can lead to CSR efforts that are not well aligned with the firms' marketing capability and thus can result in suboptimal shareholder outcomes.</p><p>Third, our findings also provide specific guidance to C-level executives and marketing managers regarding the relative value of different CSR types. Within the limits of our sample, we observe that firms are best able to benefit their shareholders through environment-based CSR efforts in the presence of high marketing capability. Following this, we find that improvements in diversity-, corporate governance-, and employee-based CSR efforts benefit shareholders of firms with high marketing capability. Finally, publicly owned firms that are relatively moderate performers in terms of shareholder wealth can also potentially provide value to their owners through productbased CSR efforts in conjunction with superior marketing capability. In an era of shrinking marketing budgets, in which so many firms are facing challenging financial situations, chief financial officers and marketing managers should take note of these results and direct attention toward CSR initiatives that have greater potential to positively inform shareholder wealth.</p><p>Finally, our findings show that only CSR efforts that have clear and verifiable benefits to key firm stakeholders positively influence shareholder value, whereas investments in corporate philanthropy and other forms of community-based efforts have no significant effect. This finding is aligned with the concern among neoclassical economists that communitybased CSR can be prone to elevated agency problems, in which managers divert scarce organizational resources toward their personally favored initiatives and not toward efforts that benefit their shareholders. Corporate boards can use this insight to design appropriate compensation schemes and contracts that incentivize managers to focus on CSR efforts with verifiable benefits to key stakeholders and restrict managers from investing too much in community-based charity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limitations and Further Research</head><p>Our study suffers from some limitations that suggest avenues for further research. First, owing to data limitations, we focused on firms based in the United States. Although we controlled for selection bias in our study, this accounted for only potential sample selection issues relative to U.S.-based firms. It is possible that stakeholders in the United States are more sensitive to social responsibility issues. Further research might expand the sample to other countries, particularly developing countries where social conditions require serious and immediate attention. Second, we found that our results relating to product-based CSR were sensitive to outliers. It may be that other factors govern the financial value of these CSR efforts. In-depth case studies could potentially reveal such factors. Third, in documenting the importance of marketing capability, we were restricted to an aggregate measure of the construct. Further research could focus on evaluating different aspects of marketing capability in the context of CSR through surveys to add to the capabilities-based literature in marketing. Fourth, firms skilled in public relations might be able to misrepresent their CSR efforts. Given that firms typically do not disclose their public relations spending publicly, it was not possible for us to control for this factor. Further research could account for this through primary data collection methods. Finally, we were restricted to analyzing the short-term effects of CSR and marketing capability on shareholder wealth. Corporate social responsibility efforts are likely to have long-term effects on firm stakeholders. Similarly, we also expect marketing capability to have long-term direct and indirect consequences for firm financial performance. Further research could utilize techniques such as the calendar time portfolio analysis (e.g., <ref type="bibr" coords="19,378.84,551.95,166.68,8.77" target="#b66">Sorescu, Shankar, and Kushwaha 2007)</ref> to uncover the long-term shareholder implications of CSR and marketing capability.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>WEB APPENDIX</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CORPORATE SOCIAL RESPONSIBILITY AND SHAREHOLDER WEALTH: THE</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ROLE OF MARKETING CAPABILITY</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Saurabh Mishra &amp; Sachin B. Modi</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>W.1: Estimation of Marketing Capability (Adapted from Xiong and Bharadwaj 2013)</head><p>We follow <ref type="bibr" coords="22,162.00,311.72,140.20,10.80" target="#b73">Xiong and Bharadwaj (2013)</ref> to estimate marketing capability. In line with <ref type="bibr" coords="22,72.00,339.32,178.00,10.80" target="#b22">Dutta, Narasimhan, and Rajiv (1999)</ref> and <ref type="bibr" coords="22,273.24,339.32,176.07,10.80" target="#b56">Narasimhan, Dutta, and Rajiv (2006)</ref>, stochastic frontier analysis (SFA) is used for estimating the inefficiency term, the inverse of which is utilized to capture firm marketing capability (MktgCapb it ) <ref type="bibr" coords="22,350.88,394.52,138.12,10.80" target="#b73">(Xiong and Bharadwaj 2013)</ref>.</p><p>Substituting the input variables and taking natural logarithms on both sides of equation 3 in the paper, we estimate the following equation:  Following <ref type="bibr" coords="23,124.32,157.40,121.01,10.80">Battese and Coelli (1992)</ref>, a consistent estimate for the inefficiency term η it can be derived under the assumption that the error components are distributed independently of the inputs, ε i ~ N(0, σ 2 ), η it~ N(μ, σ 2 ) with μ&gt;0, E[ε it η it ] = 0, and based on the maximum likelihood estimates (MLE) of the parameters μ (mean of η it ), σ ε (variance of ε it ), and σ η (variance of η it ). As we note in the paper, we also conduct robustness checks to see if employee and operations capabilities affect CSR's relationship with stock returns and idiosyncratic risk. For calculating employee capability, we use sales as outputs and number of employees as inputs in the stochastic frontier. For calculating operations capability, we use a cost frontier model in estimating the stochastic frontier and specified Cost of Goods Sold as output and inventories and gross plant, property &amp; equipment (PPE) as inputs.</p><p>Additional References in W.1:</p><p>Battese, G.E. and T.J. <ref type="bibr" coords="23,215.64,681.20,62.33,10.80">Coelli (1992)</ref>, "Frontier Production Functions, Technical Efficiency and Panel Data," Journal of Productivity Analysis, 3 (1/2), 153-69.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="22,91.20,478.00,14.94,11.00;22,141.72,477.52,17.12,11.48;22,170.16,482.72,4.93,8.66;22,178.20,478.00,8.96,11.00;22,197.52,482.72,4.93,8.66;22,202.92,478.00,14.94,11.00;22,246.84,478.00,16.64,11.00;22,274.08,482.72,4.93,8.66;22,279.48,478.00,14.94,11.00;22,323.52,478.00,16.64,11.00;22,350.76,482.72,4.93,8.66;22,356.16,478.00,14.94,11.00;22,410.88,478.00,16.52,11.00;22,438.00,482.72,4.93,8.66;22,468.48,478.00,8.96,11.00;22,495.48,478.00,8.96,12.20;22,72.00,505.40,63.23,10.80;22,135.84,509.67,4.52,7.24;22,144.00,505.40,171.98,10.80;22,316.56,509.67,4.52,7.24;22,324.72,505.40,190.28,10.80;22,515.64,509.67,4.52,7.24;22,523.80,505.40,6.77,10.80;22,72.00,533.00,223.68,10.80;22,296.28,537.27,4.52,7.24;22,304.44,533.00,178.16,10.80;22,483.24,537.27,2.24,7.24;22,489.12,533.00,49.80,10.80;22,72.00,560.60,465.12,10.80;22,72.00,589.16,208.78,10.80;22,319.92,588.88,20.74,12.20;22,372.96,587.24,6.20,8.66;22,346.08,594.44,11.17,8.66;22,387.00,589.36,4.98,11.00"><head></head><label></label><figDesc>Where, Sales it = Revenues of firm i in year t; SGA it = SG&amp;A stock for firm i in year t; REC it = Receivable stock of firm i in year t; and PTStk it = Patent stock of firm i in year t; MC i = Industry and market conditions (dummy variables based on the two-digit SIC code of firm i). Patent stock is calculated using a Koyck lag function as:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="2,54.94,36.39,493.66,47.93"><head>TABLE 1 Representative</head><label>1</label><figDesc>Research on CSR, Financial Performance, and Marketing Factors Using Objective Data</figDesc><table coords="2,54.94,66.02,458.34,18.30">Research Article 
+
+Central Research 
+Issue 
+
+Independent and Dependent 
+Variables 
+Results 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="9,54.93,36.39,498.94,443.29"><head>TABLE 2</head><label>2</label><figDesc>Variables, Measures, and Data SourcesNotes: Volatility is calculated as the standard deviation of quarterly values of the respective measure in a given year.</figDesc><table coords="9,54.93,66.02,498.94,396.92">Variable 
+Notation 
+Operational Measure 
+Data Source 
+
+Stock returns 
+StkRet 
+Firm excess returns after market-
+wide factors based on Carhart (1997) 
+are accounted for 
+
+CRSP 
+
+Idiosyncratic risk 
+IDRisk 
+Standard deviation of the residuals of 
+the Carhart (1997) four-factor model 
+for firms 
+
+CRSP 
+
+Relative marketing 
+capability 
+
+RelMktgCapb 
+Marketing capability for firms 
+calculated using SFA 
+
+Compustat/ National Bureau of 
+Economic Research/U.S. Patent 
+and Trademark Office 
+
+Corporate social 
+responsibility 
+
+CSR 
+Aggregate score on six dimensions 
+of CSR strengths (environment, 
+product, diversity, corporate 
+governance, employee relations, and 
+community) for firms 
+
+KLD database 
+
+Leverage and leverage 
+volatility 
+
+Leverage and LeverageVolt Ratio of long-term debt of firms to 
+book value of equity 
+
+Compustat 
+
+Earnings and earnings 
+volatility 
+
+Earnings and EarningsVolt Net income before extraordinary 
+items (in $ millions) for firms 
+
+Compustat 
+
+Cost of goods sold and 
+cost of goods sold 
+volatility 
+
+COGS and COGSVolt 
+Cost of goods sold, normalized by 
+total assets of firms 
+
+Compustat 
+
+Cash flow 
+CshFl 
+Cash flow from operations (in $ 
+million), normalized by total assets 
+for firms 
+
+Compustat 
+
+Profit and profit volatility Profit and ProfitVolt 
+Gross profit calculated as the 
+difference between sales and cost of 
+goods sold of firms 
+
+Compustat 
+
+Most admired company MAC 
+Dummy variable set to 1 for firms 
+listed in the Fortune Most Admired 
+Company ranking; 0 otherwise 
+
+Fortune magazine 
+
+Market share 
+MSr 
+Calculated as firm sales/industry 
+sales 
+
+Compustat 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="10,169.96,36.37,387.10,722.92"><head>TABLE 3</head><label>3</label><figDesc>Correlations in italics are not significant. All other correlations are significant at p &lt; .05.</figDesc><table coords="10,181.41,36.37,375.65,722.92">Descriptive Statistics 
+
+Mean 
+
+Median 
+
+SD 
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+6 
+
+7 
+
+8 
+
+9 
+
+10 
+
+11 
+
+12 
+
+13 
+
+14 
+
+15 
+
+1. StkRet 
+
+-.0423976 
+
+-.0244817 
+
+.0601348 1 
+
+2. UDIDRisk 
+
+-.00028 
+
+-.0320744 
+
+.1571245 
+-.9120 1 
+
+3. UDCSR 
+
+-.0004204 
+
+-.0166625 
+
+.1229465 
+.0187 -.0213 1 
+
+4. UDRelMktgCapb 
+
+-.00000003 
+
+-.0000016 
+
+.000034 
+
+.0535 
+
+-.0402 
+
+.0098 1 
+
+5. UDLeverage 
+
+-.0970174 
+
+-.6516415 
+
+22.7589 
+
+-.0033 
+.0093 -.0005 
+
+.0080 1 
+
+6. UDEarnings 
+
+-.7978664 
+
+-47.02049 
+
+1014.109 
+
+.038 
+
+-.0499 
+
+.0017 
+
+.0110 
+
+.0063 1 
+
+7. UDCOGS 
+
+.0000721 
+
+-.0255924 
+
+.2352297 
+
+.0200 
+
+.0010 
+
+.006 
+
+.1695 
+-.0067 -.0303 1 
+
+8. UDCshFl 
+
+.0000269 
+
+-.0134945 
+
+.0740358 
+
+-.0930 
+
+.0910 
+.0007 -.0249 -.0009 
+
+.0061 -.0507 1 
+
+9. UDProfit 
+
+-.6145466 
+
+-20.03371 
+
+1017.279 
+
+.0440 
+-.0452 -.0061 
+
+.0078 
+
+.0059 
+
+.4239 
+
+.0267 
+-.0123 1 
+
+10. UDLeverageVolt 
+
+-.3840473 
+
+-1.905011 
+
+22.91662 
+
+-.0627 
+
+.0471 
+
+.0037 
+
+.0106 
+
+.3993 
+.0019 -.0023 
+.0042 -.0019 1 
+
+11. UDEarningsVolt 
+
+-.310266 
+
+-42.66108 
+
+345.4594 
+
+-.0126 
+
+.0211 
+
+.0335 
+
+.0282 
+-.0041 -.5803 
+
+.0448 
+-.0047 -.0207 
+
+.002 
+
+1 
+
+12. UDCOGSVolt 
+
+-.0000131 
+
+-.0052071 
+
+.0266165 
+
+-.0400 
+
+.0515 
+
+-.0004 
+.0101 -.0062 -.0544 
+
+.2022 
+-.0142 -.0392 -.0029 
+
+.0623 1 
+
+13. UDProfitVolt 
+
+-.2257329 
+
+-41.89038 
+
+412.267 
+
+.0288 
+
+-.0252 
+
+.0245 
+.0204 -.0022 
+
+.035 
+
+.0223 
+
+-.0118 
+
+.0370 
+
+-.0009 
+
+.1889 
+
+.2205 1 
+
+14. MAC 
+
+.0377947 
+
+.000000 
+
+.1907113 
+
+.0804 
+
+-.0839 
+
+.1164 
+
+.0225 
+
+-.0030 
+
+.1531 
+-.0086 -.0137 
+
+.0675 
+
+-.0062 
+
+.1415 
+
+-.0144 
+.1948 1 
+
+15. UDMSr 
+
+.0000672 
+
+-.0013124 
+
+.0245721 
+
+.0291 
+
+-.0287 
+.0038 -.0438 
+
+.0094 
+
+.0248 
+
+.0515 
+
+-.0238 
+
+.1119 
+-.0043 -.0103 
+.0038 -.0135 -.0009 1 
+
+Notes: N 
+= 8,017. Corporate Social Responsibility and Shareholder Wealth / 35 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="11,54.93,36.39,502.14,306.99"><head>TABLE 4 CSR</head><label>4</label><figDesc>Types: Descriptive Statistics</figDesc><table coords="11,54.93,66.02,502.14,277.36">CSR Type 
+Definition 
+Mean 
+Median 
+SD 
+
+UDEnvironment 
+Organizational efforts toward managing the firm's 
+environmental impact through pollution 
+prevention, recycling, clean energy, etc. 
+
+-.00005 
+-.00371 
+.04126 
+
+UDProduct 
+Organizational efforts toward maintaining quality, 
+R&amp;D innovation, providing products to the 
+economically disadvantaged, etc. 
+
+.00008 
+-.00203 
+.03015 
+
+UDDiversity 
+Organizational efforts toward improving diversity 
+of top management (chief executive officer and 
+the board of directors), work/life benefits, women 
+and minority contracting, employment of the 
+disabled, gay and lesbian-inclusive policies, etc. 
+
+-.00008 
+-.00866 
+.04929 
+
+UDCorpGov 
+Organizational efforts toward limiting 
+compensation to top management and board 
+members, transparent reporting, disclosure of 
+political involvement, leadership in policy 
+development, etc. 
+
+-.00004 
+-.01097 
+.06312 
+
+UDEmployee 
+Organizational efforts toward improving union 
+relationships, profit sharing, generating employee 
+involvement, providing retirement benefits, 
+improving health and safety records, etc. 
+
+-.00014 
+-.00786 
+.05412 
+
+UDCommunity 
+Organizational efforts toward charitable giving, 
+support for housing and education, volunteer 
+programs, etc. 
+
+-.00006 
+-.00167 
+.02970 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="12,158.96,36.38,112.81,671.15"><head>TABLE 5</head><label>5</label><figDesc>SUR Estimation Results</figDesc><table coords="12,188.59,415.56,8.38,80.96">Main Effects Model 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="12,314.82,38.82,242.24,720.46"><head></head><label></label><figDesc>Industry and time fixed effects are included in all equations and suppressed in the table for brevity.</figDesc><table coords="12,314.82,38.82,242.24,720.46">-.000026*** 
+
+R 2 
+
+.1596 
+
+.1810 
+
+.0244 
+
+.1815 
+
+.1622 
+
+.1850 
+
+.0244 
+
+.1815 
+
+c 2 
+
+1,522.26*** 
+
+1,771.42*** 
+
+200.18*** 
+
+1,777.93*** 
+
+1,551.61*** 
+
+1,820.17*** 
+
+200.18*** 
+
+1,777.93*** 
+
+d.f. 
+
+315 
+
+317 
+
+*p 
+&lt; .1. 
+**p 
+&lt; .05. 
+***p 
+&lt; .01. 
+Notes: N 
+= 8,017. Corporate Social Responsibility and Shareholder Wealth / 37 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="13,166.44,36.37,280.92,671.17"><head>TABLE 6</head><label>6</label><figDesc>SUR Estimation Results for Individual CSR TypesWe estimate all models with the system of Equations 5a-5d using SUR. The table does not show results for Equations 5c and 5d. All control variables, industry, and time fixed effects are included in all equations and not shown in the table for brevity.</figDesc><table coords="13,196.07,36.37,242.32,671.16">Environment Dimension 
+
+Product Dimension 
+
+Diversity Dimension 
+
+StkRet 
+
+UDIDRisk 
+
+StkRet 
+
+UDIDRisk 
+
+StkRet 
+
+UDIDRisk 
+
+UDEnvironment 
+
+.001791 
+
+-.023957 
+
+UDProduct 
+
+.001606 
+
+-.010078 
+
+UDDiversity 
+
+-.006261 
+
+.026739 
+
+UDRelMktgCapb 
+
+100.2515*** 
+
+-135.4252*** 
+
+UDRelMktgCapb 
+
+101.7241*** 
+
+-140.3015*** 
+
+UDRelMktgCapb 
+
+99.45696*** 
+
+-131.1366** 
+
+UDEnvironment 
+
+· 
+UDRelMktgCapb 
+
+147.8088*** 
+
+-505.6945*** 
+
+UDProduct 
+
+· 
+UDRelMktgCapb 
+
+45.36275 
+
+-166.7378 
+
+UDDiversity 
+
+· 
+UDRelMktgCapb 
+
+113.1672*** 
+
+-455.3105*** 
+
+R 2 
+
+.1608 
+
+.1830 
+
+R 2 
+
+.1597 
+
+.1811 
+
+R 2 
+
+.1608 
+
+.1839 
+
+c 2 
+
+1,535.65*** 
+
+1,796.29*** 
+
+c 2 
+
+1,523.09*** 
+
+1,773.15*** 
+
+c 2 
+
+1,536.43*** 
+
+1,806.87*** 
+
+d.f. 
+
+317 
+
+d.f. 
+
+317 
+
+d.f. 
+
+317 
+
+Corporate Governance Dimension 
+
+Employee Dimension 
+
+Community Dimension 
+
+StkRet 
+
+UDIDRisk 
+
+StkRet 
+
+UDIDRisk 
+
+StkRet 
+
+UDIDRisk 
+
+UDCorpGov 
+
+.003848 
+
+-.005269 
+
+UDEmployee 
+
+-.001681 
+
+-.007772 
+
+UDCommunity 
+
+.021065 
+
+-.035913 
+
+UDRelMktgCapb 
+
+101.5521*** 
+
+-139.2892*** 
+
+UDRelMktgCapb 
+
+101.1142*** 
+
+-138.896*** 
+
+UDRelMktgCapb 
+
+101.8457*** 
+
+-140.8183*** 
+
+UDCorpGov x 
+UDRelMktgCapb 
+
+92.39399** 
+
+-267.5056*** 
+
+UDEmployee 
+
+· 
+UDRelMktgCapb 
+
+83.57168*** 
+
+-227.1448*** 
+
+UDCommunity 
+
+· 
+UDRelMktgCapb 
+
+51.20512 
+
+-35.37748 
+
+R 2 
+
+.1602 
+
+.1817 
+
+R 2 
+
+.1603 
+
+.1818 
+
+R 2 
+
+.1598 
+
+.1810 
+
+c 2 
+
+1,529.34*** 
+
+1,780.67*** 
+
+c 2 
+
+1,530.93*** 
+
+1,781.55*** 
+
+c 2 
+
+1,524.44 
+
+1,771.95 
+
+d.f. 
+
+317 
+
+d.f. 
+
+317 
+
+d.f. 
+
+317 
+
+**p 
+&lt; .05. 
+***p 
+&lt; .01. 
+Notes: N 
+= 8,017. </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" coords="14,54.94,36.39,437.88,38.01"><head>TABLE 7 Moderating</head><label>7</label><figDesc>Effects of Marketing Capability on Shareholder Wealth</figDesc><table coords="14,54.94,66.02,437.88,8.38">CSR Dimension 
+Stock Returns 
+Idiosyncratic Risk 
+Brief Rationale 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8" coords="15,113.60,36.31,379.22,671.16"><head>TABLE 8</head><label>8</label><figDesc></figDesc><table coords="15,125.06,36.31,367.76,671.16">Robustness Checks 
+
+A: Results for 5% Winsorized, Trimmed, and Systematic Risk Models 
+
+5% Winsorized 
+
+5% Trimmed 
+
+Systematic Risk Included 
+
+StkRet 
+
+UDIDRisk 
+
+StkRet 
+
+UDIDRisk 
+
+StkRet 
+
+UDIDRisk 
+
+UDSysRisk 
+
+UDCSR 
+
+.001176 
+-.004493 UDCSR 
+
+.001720 
+-.000613 UDCSR 
+
+.001439 
+
+-.002893 
+
+.255793 
+
+UDRelMktgCapb 
+
+92.10465*** 
+-119.4935*** UDRelMktgCapb 
+
+76.22965*** 
+-101.8551*** UDRelMktgCapb 
+
+98.81838*** 
+-130.9543** -275.9764 
+
+UDCSR 
+
+· 
+UDRelMktgCapb 
+
+66.93355*** 
+-195.7609*** UDCSR 
+
+· 
+UDRelMktgCapb 
+
+48.04903*** 
+-180.7404*** UDCSR 
+
+· 
+UDRelMktgCapb 
+
+71.07756*** 
+-233.4545*** -311.2905 
+
+R 2 
+
+.1909 
+
+.2170 
+
+R 2 
+
+.1620 
+
+.1804 
+
+R 2 
+
+.1622 
+
+.1850 
+
+.0324 
+
+c 2 
+
+1,891.53*** 
+
+2,222.21*** 
+
+c 2 
+
+1,484.16*** 
+
+1,689.83*** 
+
+c 2 
+
+1,551.61*** 
+
+1,820.17*** 
+
+268.76*** 
+
+d.f. 
+
+317 
+
+d.f. 
+
+317 
+
+d.f. 
+
+398 
+
+B: Results for 5% Winsorized Models for Individual CSR Types (N 
+
+5 8,017) 
+
+Environment Dimension 
+
+Product Dimension 
+
+Diversity Dimension 
+
+StkRet 
+
+UDIDRisk 
+
+StkRet 
+
+UDIDRisk 
+
+StkRet 
+
+UDIDRisk 
+
+UDEnvironment 
+
+.004648 
+
+-.032803 
+
+UDProduct 
+
+-.002383 
+
+-.002328 
+
+UDDiversity 
+
+-.002232 
+
+.012902 
+
+UDRelMktgCapb 
+
+93.5051*** 
+
+-123.5032*** 
+
+UDRelMktgCapb 
+
+94.73344*** 
+
+-127.0088*** 
+
+UDRelMktgCapb 
+
+92.49487*** 
+
+-118.9194*** 
+
+UDEnvironment 
+
+· 
+UDRelMktgCapb 
+
+130.3529*** 
+
+-376.1645*** 
+
+UDProduct 
+
+· 
+UDRelMktgCapb 
+
+79.14677* 
+
+-239.7919** 
+
+UDDiversity 
+
+· 
+UDRelMktgCapb 
+
+117.6238*** 
+
+-419.6291*** 
+
+R 2 
+
+.1889 
+
+.2144 
+
+R 2 
+
+.1879 
+
+.2129 
+
+R 2 
+
+.1895 
+
+.2164 
+
+c 2 
+
+1,867.61*** 
+
+2,187.99*** 
+
+c 2 
+
+1,854.94*** 
+
+2,168.69*** 
+
+c 2 
+
+1,874.03*** 
+
+2,213.44*** 
+
+d.f. 
+
+317 
+
+d.f. 
+
+317 
+
+d.f. 
+
+317 
+
+Corporate Governance Dimension 
+
+Employee Dimension 
+
+Community Dimension 
+
+StkRet 
+
+UDIDRisk 
+
+StkRet 
+
+UDIDRisk 
+
+StkRet 
+
+UDIDRisk 
+
+UDCorpGov 
+
+.000812 
+
+-.000968 
+
+UDEmployee 
+
+-.002440 
+
+-.004888 
+
+UDCommunity 
+
+.020031 
+
+-.036297 
+
+UDRelMktgCapb 
+
+94.62172*** 
+
+-126.4909*** 
+
+UDRelMktgCapb 
+
+94.36212*** 
+
+-126.3558*** 
+
+UDRelMktgCapb 
+
+94.9580*** 
+
+-127.7699*** 
+
+UDCorpGov 
+
+· 
+UDRelMktgCapb 
+
+83.19529*** 
+
+-213.9098*** 
+
+UDEmployee 
+
+· 
+UDRelMktgCapb 
+
+68.3217*** 
+
+-165.8602*** 
+
+UDCommunity 
+
+· 
+UDRelMktgCapb 
+
+35.34465 
+
+-2.400427 
+
+R 2 
+
+.1883 
+
+.2133 
+
+R 2 
+
+.1883 
+
+.2132 
+
+R 2 
+
+.1878 
+
+.2125 
+
+c 2 
+
+1,860.26*** 
+
+2,173.10*** 
+
+c 2 
+
+1,860.13*** 
+
+2,171.99*** 
+
+c 2 
+
+1,853.54*** 
+
+2,163.54*** 
+
+d.f. 
+
+317 
+
+d.f. 
+
+317 
+
+d.f. 
+
+317 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9" coords="22,72.00,589.16,460.00,121.92"><head>) .</head><label>)</label><figDesc>Where represents the weight attached to past values of innovation output. Consistent with existing research<ref type="bibr" coords="22,114.84,644.84,78.33,10.80" target="#b75">(Griliches 1984;</ref><ref type="bibr" coords="22,196.32,644.84,171.84,10.80" target="#b56">Narasimhan, Dutta, and Rajiv 2006)</ref>, we use a value of .4 for in our estimation of patent stock. Patent information was obtained from the NBER database(https://sites.google.com/site/patentdataproject/Home; Hall, Jaffe, and Trajtenberg 2001) and 2 supplemented with data from USPTO's patent database. The firms in our sample have an average patent count of 22.89, with a standard deviation of 152.81. This translates to an average patent stock of 41.26, with a standard deviation of 260.42 for our sample.</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10" coords="23,72.00,297.56,391.08,160.00"><head>Table W .</head><label>W</label><figDesc>1 below provides the parameter estimates for the input variables. *** p&lt;.01, ** p&lt;.05, * p&lt;.1 Note: two-digit SIC dummy variables are included but suppressed for conciseness.</figDesc><table coords="23,76.68,328.40,157.92,105.00">Estimate 
+
+Intercept 
+5.5927*** 
+
+Ln(SGA it ) 
+.8028*** 
+
+Ln(REC it ) 
+.1518*** 
+
+Ln(PTStk it ) 
+.0013 
+Chi-square 
+21269.47*** 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">Note that because a Koyck lag function is utilized to measure patent stock, the SFA model is not strictly a current-period model.<ref type="bibr" coords="7,326.95,621.38,3.36,5.92" target="#b81">3</ref> We performed a<ref type="bibr" coords="7,390.61,621.88,47.46,7.89" target="#b18">Chow (1960)</ref> test of slope homogeneity across the industries in our SFA and observe that a few industries had differential slope coefficients. We conducted a robustness check by introducing interaction variables for industries with differential slopes with the relevant variables in our SFA and then use the marketing capability measure derived from this estimation as the predictor in Equations 5a-5d. We observe consistent results, which gives us confidence that our assumption of slope homogeneity across industries in the SFA does not bias our findings.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">We checked the order and rank conditions and observe the model to be identified.Corporate Social Responsibility and Shareholder Wealth / 33</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8">We thank the area editor for providing us with useful guidance toward our model formulation.9  Correlations of residuals for Equation 5a with Equations 5c (-.0035, p &gt; .1) and 5d (-.0001, p &gt; .1) are not significant. Similarly, correlations of residuals for Equation 5b with Equations 5c (.0039, p &gt; .1) and 5d (-.0004, p &gt; .1) are also not significant.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10">We thank an anonymous reviewer and the area editor for suggesting this robustness check.42 / Journal of Marketing, January 2016</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="46">/ Journal of Marketing, January 2016</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="19,54.94,625.85,239.13,7.89;19,66.90,635.95,227.11,8.97;19,66.90,647.62,227.16,7.89;19,66.90,658.51,138.60,7.89" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">An Empirical Examination of the Relationship Between Corporate Social Responsibility and Profitability</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenneth</forename><forename type="middle">E</forename><surname>Aupperle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Archie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">D</forename><surname>Carroll</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hatfield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Academy of Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="446" to="63" />
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,54.94,668.94,239.07,7.89;19,66.90,679.03,227.12,8.97;19,66.90,690.71,227.14,7.89;19,66.90,701.59,84.91,7.89" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Financial Value of Brands in Mergers and Acquisitions: Is Value in the Eye of the Beholder?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Bahadir</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cem</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Sundar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rajendra</forename><forename type="middle">K</forename><surname>Bharadwaj</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Srivastava</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="49" to="64" />
+			<date type="published" when="2008-11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,317.94,625.06,239.15,8.97;19,329.90,636.74,227.16,7.89;19,329.90,647.62,227.15,7.89;19,329.90,658.51,34.95,7.89;19,317.94,668.15,239.11,8.97;19,329.90,679.82,227.18,7.89;19,329.90,690.71,227.14,7.89;19,329.90,701.59,65.35,7.89" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Stakeholder Influence Capacity and the Variability of Financial Returns to Corporate Social Responsibility</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">L</forename><surname>Barnett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Academy of Management Review</title>
+		<editor>Robert M. Salomon</editor>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1101" to="1123" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note>Strategic Management Journal</note>
+</biblStruct>
+
+<biblStruct coords="19,67.29,749.98,146.38,9.31" xml:id="b3">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<date type="published" when="2016-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.94,35.63,239.09,8.97;20,66.90,47.24,195.97,7.89" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Firm Resources and Sustained Competitive Advantage</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jay</forename><surname>Barney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Management</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="771" to="92" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.94,57.67,239.14,7.89;20,66.90,67.77,227.16,8.97;20,66.90,79.39,227.11,7.89;20,66.90,90.22,184.06,7.89" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Corporate Associations and Consumer Product Responses: The Moderating Role of Corporate Brand Dominance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Berens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Guido</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">M</forename><surname>Cees</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerrit</forename><forename type="middle">H</forename><surname>Van Riel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Van Bruggen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="35" to="48" />
+			<date type="published" when="2005-07" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.93,100.70,239.11,7.89;20,66.90,110.74,227.11,8.97;20,66.90,122.42,227.12,7.89;20,66.90,133.25,140.24,7.89" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Agency Relationships in Marketing: A Review of the Implications and Applications of Agency and Related Theories</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Bergen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shantanu</forename><surname>Dutta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Orville</forename><forename type="middle">C</forename><surname>Walker</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="1" to="24" />
+			<date type="published" when="1992-07" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.93,142.89,239.07,8.97;20,66.90,154.56,227.19,7.89;20,66.90,165.39,227.15,7.89;20,66.90,176.22,92.61,7.89" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Environmental Performance and Executive Compensation: An Integrated Agency-Institutional Perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luis</forename><forename type="middle">R</forename><surname>Berrone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gomez-Mejia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Academy of Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="103" to="129" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.93,186.71,239.11,7.89;20,66.89,196.75,227.11,8.97;20,66.89,208.42,141.66,7.89" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The Impact of Brand Quality on Shareholder Wealth</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bharadwaj</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Sundar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Kapil</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andre</forename><surname>Tuli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bonfrer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="88" to="104" />
+			<date type="published" when="2011-09" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.93,218.06,239.14,8.97;20,66.89,229.68,227.16,7.89;20,66.89,240.57,227.14,7.89" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Consumer-Company Identification: A Framework for Understanding Consumers&apos; Relationships with Companies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">B</forename><surname>Bhattacharya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sankar</forename><surname>Sen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="76" to="88" />
+			<date type="published" when="2003-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.93,250.21,239.08,8.97;20,66.90,261.88,227.16,7.89;20,66.90,272.71,108.15,7.89" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Evaluating Service Encounters: The Effects of Physical Surroundings and Employee Responses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mary</forename><forename type="middle">J</forename><surname>Bitner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="69" to="82" />
+			<date type="published" when="1990-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.93,282.36,239.10,8.97;20,66.89,294.03,227.10,7.89;20,66.89,304.86,201.08,7.89" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Doing Well by Doing Good: The Benevolent Halo of Social Goodwill</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sean</forename><surname>Blair</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexanderchernev</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science Institute Working Paper Series</title>
+		<imprint>
+			<biblScope unit="page" from="12" to="103" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Report</note>
+</biblStruct>
+
+<biblStruct coords="20,54.93,315.35,239.10,7.89;20,66.90,325.39,227.14,8.97;20,66.90,337.00,227.18,7.89;20,66.90,347.89,227.15,7.89;20,66.90,358.72,226.83,7.89;20,66.89,369.55,187.45,7.89" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Valuing Corporate Social Responsibility: McKinsey Global Survey Results</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sheila</forename><surname>Bonini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Noëmie</forename><surname>Brun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michelle</forename><surname>Rosenthal</surname></persName>
+		</author>
+		<ptr target="http://www.mckinsey.com/insights/corporate_finance/valuing_corporate_social_responsibility_mckinsey_global_survey_results" />
+	</analytic>
+	<monogr>
+		<title level="j">McKinsey &amp; Company</title>
+		<imprint>
+			<date type="published" when="2009-02" />
+		</imprint>
+	</monogr>
+	<note type="report_type">research report</note>
+</biblStruct>
+
+<biblStruct coords="20,54.93,379.24,239.14,8.97;20,66.89,390.86,227.15,7.89;20,66.89,401.69,212.40,7.89" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The Company and the Product: Corporate Associations and Consumer Product Responses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tom</forename><forename type="middle">J</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Dacin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="page" from="68" to="84" />
+			<date type="published" when="1997-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.93,411.39,239.11,8.97;20,66.90,423.00,227.12,7.89;20,66.90,433.89,227.14,7.89;20,66.90,444.72,56.34,7.89" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Why Would Corporations Behave in Socially Responsible Ways? An Institutional Theory of Corporate Social Responsibility</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">L</forename><surname>Campbell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Academy of Management Review</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="946" to="67" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.93,454.36,239.09,8.97;20,66.90,466.03,168.98,7.89" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">On Persistence of Mutual Fund Performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><forename type="middle">M</forename><surname>Carhart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Finance</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="57" to="82" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.93,475.68,239.09,8.97;20,66.90,487.35,227.11,7.89;20,66.90,498.18,87.07,7.89" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A Three-Dimensional Conceptual Model of Corporate Performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Archie</forename><forename type="middle">B</forename><surname>Carroll</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Academy of Management Review</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="497" to="505" />
+			<date type="published" when="1979" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.94,507.88,239.14,8.97;20,66.90,519.50,227.16,7.89;20,66.90,530.32,155.38,7.89" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Ethical Issues in International Buyer-Supplier Relationships: A Dyadic Examination</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Craig</forename><forename type="middle">R</forename><surname>Carter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Operations Management</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="191" to="208" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.94,540.02,239.17,8.97;20,66.90,550.85,227.14,8.97" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Tests of Equality Between Sets of Coefficients in Two Linear Regressions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gregory</forename><forename type="middle">C</forename><surname>Chow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Econometrica</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="591" to="605" />
+			<date type="published" when="1960" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.94,561.34,239.03,8.97;20,66.90,572.96,217.23,7.89" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The Capabilities of Market-Driven Organizations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">George</forename><forename type="middle">S</forename><surname>Day</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="37" to="52" />
+			<date type="published" when="1994-10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.94,583.39,239.11,7.89;20,66.90,593.48,227.10,8.97;20,66.90,605.10,108.72,7.89" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Service Innovativeness and Firm Value</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><surname>Dotzel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Venkatesh</forename><surname>Shankar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leonard</forename><forename type="middle">L</forename><surname>Berry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="259" to="76" />
+			<date type="published" when="2013-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.94,614.80,239.10,8.97;20,66.90,626.42,227.15,7.89;20,66.90,637.25,227.15,7.89;20,66.90,648.13,144.15,7.89" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Reaping Relational Rewards from Corporate Social Responsibility: The Role of Competitive Positioning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">B</forename><surname>Shuili</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sankar</forename><surname>Bhattacharya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Research in Marketing</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="224" to="265" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.94,658.56,239.11,7.89;20,66.90,668.60,227.08,8.97;20,66.90,680.28,165.53,7.89" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Success in High-Technology Markets: Is Marketing Capability Critical</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shantanu</forename><surname>Dutta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Om</forename><surname>Narasimhan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Surendra</forename><surname>Rajiv</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="547" to="68" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.94,689.92,239.10,8.97;20,66.90,701.59,227.13,7.89;20,329.90,36.41,227.12,7.89;20,329.90,47.01,154.17,7.89" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Global Business Barometer: A Survey Conducted by the Economist Intelligence Unit</title>
+	</analytic>
+	<monogr>
+		<title level="j">The Economist</title>
+		<imprint>
+			<date type="published" when="2008-10-26" />
+		</imprint>
+	</monogr>
+	<note type="report_type">research report</note>
+	<note>available at: www.economist. com/media/pdf/20080116CSRResults.pdf</note>
+</biblStruct>
+
+<biblStruct coords="20,317.94,56.66,239.10,8.97;20,329.90,68.05,227.17,7.89;20,329.90,78.65,152.20,7.89" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Does the Stock Market Fully Value Intangibles? Employee Satisfaction and Equity Prices</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alex</forename><surname>Edmans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Financial Economics</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="621" to="661" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,88.35,239.13,8.97;20,329.90,99.74,227.18,7.89;20,329.90,110.34,163.59,7.89" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Cause Related Marketing and Corporate Philanthropy in the Privately Held Enterprise</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Karen</forename><forename type="middle">M</forename><surname>File</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Russ</forename><forename type="middle">A</forename><surname>Prince</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Ethics</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="1529" to="1568" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,120.77,239.07,7.89;20,329.90,131.38,101.91,7.89" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Strategic Management: A Stakeholder Perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Edward</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984" />
+			<publisher>Piman</publisher>
+			<pubPlace>Boston</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,141.07,239.14,8.97;20,329.90,152.47,227.14,7.89;20,329.90,163.07,86.94,7.89" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The Social Responsibility of Business Is to Increase Its Profits</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Milton</forename><surname>Friedman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The New York Times Magazine</title>
+		<imprint>
+			<date type="published" when="1970-09" />
+			<biblScope unit="page" from="32" to="33" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,172.71,239.13,8.97;20,329.90,184.16,227.14,7.89" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Determinants of Long-Term Orientation in Buyer-Seller Relationships</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shankar</forename><surname>Ganesan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="1994-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,193.80,239.09,8.97;20,329.90,205.19,227.11,7.89;20,329.90,215.79,227.15,7.89" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The Relationship Between Corporate Philanthropy and Shareholder Wealth: A Risk Management Perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><forename type="middle">C</forename><surname>Godfrey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Academy of Management Review</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="777" to="98" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,226.28,239.12,7.89;20,329.90,236.88,69.28,7.89" xml:id="b30">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">H</forename><surname>Greene</surname></persName>
+		</author>
+		<title level="m">Econometric Analysis</title>
+		<meeting><address><addrLine>Boston</addrLine></address></meeting>
+		<imprint>
+			<publisher>Pearson Education</publisher>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>6th ed</note>
+</biblStruct>
+
+<biblStruct coords="20,317.93,246.52,239.09,8.97;20,329.90,257.91,227.16,7.89;20,329.90,268.52,227.14,7.89;20,329.90,279.12,33.66,7.89" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">When Corporate Image Affects Product Evaluations: The Moderating Role of Perceived Risk</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zeynep</forename><surname>Gurhan-Canli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rajeev</forename><surname>Batra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="197" to="205" />
+			<date type="published" when="2004-05" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,288.82,239.10,8.97;20,329.90,300.21,219.05,7.89" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The Strategic Analysis of Intangible Resources</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><surname>Hall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strategic Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="135" to="179" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,309.85,239.13,8.97;20,329.90,321.24,227.16,7.89;20,329.90,331.84,227.12,7.89;20,329.90,342.44,24.64,7.89" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The Role of Marketing Actions with a Social Dimension: Appeals to the Institutional Environment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jay</forename><forename type="middle">M</forename><surname>Handelman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Stephen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="33" to="48" />
+			<date type="published" when="1999-07" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,352.14,239.13,8.97;20,329.90,363.53,163.49,7.89" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Sample Selection Bias as a Specification Error</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">J</forename><surname>Heckman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Econometrica</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="153" to="61" />
+			<date type="published" when="1979" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.94,373.23,239.13,8.97;20,329.90,384.62,227.15,7.89;20,329.90,395.22,200.45,7.89" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Shareholder Value, Stakeholder Management, and Social Issues: What&apos;s the Bottom Line?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amy</forename><forename type="middle">J</forename><surname>Hillman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerald</forename><forename type="middle">D</forename><surname>Keim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strategic Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="125" to="164" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,404.87,239.08,8.97;20,329.90,416.26,227.17,7.89;20,329.90,426.86,227.16,7.89;20,329.90,437.46,89.22,7.89" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Firm Performance: The Interactions of Corporate Social Performance with Innovation and Industry Differentiation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Clyde</forename><forename type="middle">E</forename><surname>Hull</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sandra</forename><surname>Rothenberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strategic Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="781" to="89" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,447.95,239.11,7.89;20,329.90,457.76,227.12,8.97;20,329.90,469.15,227.14,7.89;20,329.90,479.75,33.66,7.89" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Product and Environmental Social Performance: Varying Effect on Firm Performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Satish</forename><surname>Jayachandran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kartik</forename><surname>Kalaignanam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Meike</forename><surname>Eilert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strategic Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1255" to="64" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,489.40,239.12,8.97;20,329.90,500.79,227.11,7.89;20,329.90,511.45,215.25,7.89" xml:id="b38">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">H</forename><surname>Meckling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Theory of the Firm: Managerial Behavior, Agency Costs, &amp; Ownership Structure</title>
+		<imprint>
+			<date type="published" when="1976" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="305" to="60" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,521.88,239.11,7.89;20,329.89,531.69,227.15,8.97;20,329.89,543.08,227.19,7.89;20,329.89,553.68,227.11,7.89;20,329.89,564.28,95.61,7.89" xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Stakeholder Pressure and the Structure of Executive Compensation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marilyn</forename><forename type="middle">F</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Susan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Margaret</forename><forename type="middle">B</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Shackell-Dowell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997-10-26" />
+		</imprint>
+	</monogr>
+	<note>available at http://papers.ssrn.com/sol3/papers. cfm?abstract_id=41780</note>
+</biblStruct>
+
+<biblStruct coords="20,317.93,573.98,239.09,8.97;20,329.89,585.37,227.17,7.89;20,329.89,595.98,227.16,7.89;20,329.89,606.58,89.22,7.89" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The Effects of Corporate Governance and Institutional Ownership Types on Corporate Social Performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">W</forename><surname>Greening</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Academy of Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="564" to="76" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,616.22,239.14,8.97;20,329.89,627.61,227.17,7.89;20,329.89,638.21,227.18,7.89;20,329.89,648.81,225.22,7.89" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Beating the Recession Blues: Exploring the Link Between Family Ownership, Strategic Marketing Behavior and Firm Performance During Recessions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Saim</forename><surname>Kashmiri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vijay</forename><surname>Mahajan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Research in Marketing</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="78" to="93" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,659.30,239.14,7.89;20,329.89,669.11,227.17,8.97;20,329.90,680.51,220.63,7.89" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Competition-Motivated Corporate Social Responsibility</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jan</forename><surname>Kemper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Oliver</forename><surname>Schilke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Reimann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xuyi</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Malte</forename><surname>Brettel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Research</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="1954" to="63" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,690.99,239.11,7.89;20,329.90,700.81,227.16,8.97;20,314.82,749.98,242.24,9.31" xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Corporate Social Responsibility, Customer Orientation, and the Corporate Social Responsibility and Shareholder Wealth</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Korschun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">B</forename><surname>Bhattacharya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Scott</forename><forename type="middle">D</forename><surname>Swain</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page">45</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,66.90,36.41,227.10,7.89;21,66.90,46.85,80.26,7.89" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Job Performance of Frontline Employees</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="20" to="37" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,54.94,57.33,239.11,7.89;21,66.90,66.98,227.12,8.97;21,66.90,78.25,215.42,7.89" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Stock Returns, Aggregate Earnings Surprises, and Behavioral Finance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">P</forename><surname>Kothari</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><surname>Lewellen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jerold</forename><forename type="middle">B</forename><surname>Warner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Financial Economics</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="537" to="68" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,54.94,87.90,239.15,8.97;21,66.90,99.17,225.67,7.89;21,54.94,108.81,239.03,8.97;21,66.90,120.09,227.13,7.89;21,66.90,130.52,97.28,7.89" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Corporate Social Responsibility: Doing the Most Good for Your Company and Your Cause</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><surname>Kotler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="132" to="167" />
+			<date type="published" when="2005" />
+			<publisher>John Wiley &amp; Sons</publisher>
+		</imprint>
+	</monogr>
+	<note>Reinventing Marketing to Manage the Environmental Imperative</note>
+</biblStruct>
+
+<biblStruct coords="21,54.94,141.01,239.11,7.89;21,66.90,150.65,227.17,8.97;21,66.90,161.93,227.15,7.89;21,66.90,172.36,146.64,7.89" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Evaluating the Financial Impact of Branding Using Trademarks: A Framework and Empirical Evidence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexander</forename><surname>Krasnikov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Saurabh</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Orozco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="154" to="66" />
+			<date type="published" when="2009-11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,54.94,182.85,239.12,7.89;21,66.90,192.49,227.11,8.97;21,66.90,203.77,227.11,7.89;21,66.90,214.20,126.92,7.89" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Is Market Orientation a Source of Sustainable Competitive Advantage or Simply the Cost of Competing?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eli</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rajkumar</forename><surname>Venkatesan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">P</forename><surname>Leone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="16" to="30" />
+			<date type="published" when="2011-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,54.93,223.90,239.07,8.97;21,66.90,235.12,227.12,7.89;21,66.90,245.61,153.96,7.89;21,54.94,255.25,239.11,8.97;21,66.90,266.53,227.10,7.89;21,66.90,276.96,227.14,7.89" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The Debate over Doing Good: Corporate Social Performance, Strategic Marketing Levers, and Firm-Idiosyncratic Risk</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xueming</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">B</forename><surname>Bhattacharya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="198" to="213" />
+			<date type="published" when="2006-10" />
+		</imprint>
+	</monogr>
+	<note>Journal of Marketing</note>
+</biblStruct>
+
+<biblStruct coords="21,54.94,287.45,239.07,7.89;21,66.90,297.09,227.10,8.97;21,66.90,308.37,227.12,7.89;21,66.90,318.80,227.09,7.89;21,66.90,329.28,133.51,7.89" xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Does It Pay to Be Good … and Does It Matter? A Meta-Analysis of the Relationship Between Corporate Social and Financial Performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><forename type="middle">D</forename><surname>Margolis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hillary</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">P</forename><surname>Elfenbein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Walsh</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009-10-26" />
+		</imprint>
+	</monogr>
+	<note>available at http://ssrn.com/abstract=1866371</note>
+</biblStruct>
+
+<biblStruct coords="21,54.94,338.98,239.12,8.97;21,66.90,350.20,227.12,7.89;21,66.90,360.69,183.84,7.89;21,54.94,370.33,239.08,8.97;21,66.90,381.62,227.15,7.89;21,66.90,392.05,158.61,7.89" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Corporate Social Responsibility and Financial Performance: Correlation or Misspecification?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Abagail</forename><surname>Mcwilliams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><surname>Siegel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Academy of Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="603" to="612" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note>Strategic Management Journal</note>
+</biblStruct>
+
+<biblStruct coords="21,54.94,401.75,239.13,8.97;21,66.90,412.97,227.10,7.89;21,66.90,423.46,92.45,7.89" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">A Model of Marketing Knowledge Use Within Firms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anil</forename><surname>Menon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P. Rajan</forename><surname>Varadarajan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="53" to="71" />
+			<date type="published" when="1992-10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,54.93,433.89,239.11,7.89;21,66.90,443.59,227.10,8.97;21,66.90,454.81,227.11,7.89;21,66.90,465.29,143.08,7.89" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Shareholder Value Implications of Service Failures in Triads: The Case of Customer Information Security Breaches</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sachin</forename><forename type="middle">B</forename><surname>Modi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Michael</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Saurabh</forename><surname>Wiles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mishra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Operations Management</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="21" to="39" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,54.93,474.94,239.13,8.97;21,66.90,486.21,227.13,7.89;21,66.90,496.65,227.14,7.89" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">The Contingency Value of Complementary Capabilities in Product Development</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christine</forename><surname>Moorman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rebecca</forename><forename type="middle">J</forename><surname>Slotegraaf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="239" to="57" />
+			<date type="published" when="1999-05" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,54.93,506.34,239.10,8.97;21,66.90,517.56,227.14,7.89;21,66.90,528.05,75.04,7.89;21,54.93,537.69,239.11,8.97;21,66.90,548.18,227.10,8.97;21,66.90,559.40,208.16,7.89" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Linking Marketing Capabilities with Profit Growth</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Neil</forename><forename type="middle">A</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Lopo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Rego</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Research in Marketing</title>
+		<editor>Rebecca J. Slotegraaf, and Douglas W. Vorhies</editor>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="284" to="93" />
+			<date type="published" when="2009-01" />
+		</imprint>
+	</monogr>
+	<note>Journal of Marketing</note>
+</biblStruct>
+
+<biblStruct coords="21,54.94,569.89,239.11,7.89;21,66.90,579.53,227.13,8.97;21,66.90,590.81,227.14,7.89;21,66.90,601.24,56.34,7.89" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Absorptive Capacity of Firms in High-Technology Markets: The Competitive Advantage of the Haves</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Om</forename><surname>Narasimhan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shantanu</forename><surname>Dutta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Surendra</forename><surname>Rajiv</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="510" to="534" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,54.93,610.94,239.08,8.97;21,66.90,622.16,227.10,7.89;21,66.90,632.65,193.14,7.89" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Implementing Marketing Strategies: Developing and Testing a Managerial Theory</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><forename type="middle">H</forename><surname>Noble</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Michael</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mokwa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="57" to="73" />
+			<date type="published" when="1999-10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,54.93,643.08,239.08,7.89;21,66.89,652.78,227.19,8.97;21,66.89,664.00,227.15,7.89;21,66.89,674.49,149.98,7.89" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Green Claims and Message Frames: How Green New Products Change Brand Attitude</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mitchell</forename><forename type="middle">C</forename><surname>Olsen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rebecca</forename><forename type="middle">J</forename><surname>Slotegraaf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sandeep</forename><forename type="middle">R</forename><surname>Chandukala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="119" to="156" />
+			<date type="published" when="2014-09" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,54.93,684.19,239.07,8.97;21,66.89,695.41,227.14,7.89;21,329.89,36.41,227.15,7.89;21,329.90,47.30,88.54,7.89" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">How Can Corporate Social Responsibility Activities Create Value for Stakeholders? A Systematic Review</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Peloza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jingzhi</forename><surname>Shang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Academy of Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="117" to="152" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,317.93,57.00,239.11,8.97;21,329.90,68.73,227.11,7.89;21,329.90,79.67,221.31,7.89" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Pay for Performance? Government Regulation and the Structure of Compensation Contracts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tod</forename><surname>Perry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marc</forename><surname>Zenner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Financial Economics</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="453" to="88" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,317.93,89.31,239.13,8.97;21,329.90,101.04,227.16,7.89;21,329.90,111.99,133.71,7.89" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Corporate Reputation and Sustained Financial Performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Grahame</forename><surname>Dowling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strategic Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1077" to="93" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,317.93,122.47,239.09,7.89;21,329.90,132.63,227.16,8.97;21,329.90,144.30,227.16,7.89;21,329.90,155.24,227.17,7.89;21,329.90,166.18,137.24,7.89" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Antecedents and Performance Outcomes of Strategic Environmental Sourcing: An Investigation of Resource-Based Process &amp; Contingency Effects</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Schoenherr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sachin</forename><forename type="middle">B</forename><surname>Tobias</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Srinivas</forename><surname>Modi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Talluri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">M</forename><surname>Tomas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hult</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Logistics</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="172" to="90" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,317.93,175.88,239.12,8.97;21,329.90,187.61,227.11,7.89;21,329.90,198.56,227.18,7.89;21,329.90,209.44,227.15,7.89" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">The Role of Corporate Social Responsibility in Strengthening Multiple Stakeholder Relationships: A Field Experiment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">B</forename><surname>Sankar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Bhattacharya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Korschun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Academy of Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="158" to="66" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,317.93,219.14,239.09,8.97;21,329.90,230.87,227.10,7.89;21,329.90,241.81,177.26,7.89" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">The Impact of Corporate Social Responsibility on Firm Value: The Role of Customer Awareness</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Henri</forename><surname>Servaes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ane</forename><surname>Tamayo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Management Science</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="1045" to="61" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,317.93,251.45,239.14,8.97;21,329.90,263.18,227.18,7.89;21,329.90,274.13,217.69,7.89" xml:id="b65">
+	<monogr>
+		<title level="m" type="main">Marketing Strategy and Firm Value</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Venkatesh</forename><surname>Shankar</surname></persName>
+		</author>
+		<editor>Handbook of Marketing Strategy, Venkatesh Shankar and Gregory S. Carpenter</editor>
+		<imprint>
+			<date type="published" when="2012" />
+			<publisher>Edward Elgar</publisher>
+			<pubPlace>Cheltenham, UK</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,317.93,284.61,239.11,7.89;21,329.90,294.71,227.15,8.97;21,329.90,306.44,227.15,7.89;21,329.90,317.38,115.81,7.89;21,317.94,327.08,239.11,8.97;21,329.90,338.81,227.18,7.89;21,329.90,349.75,157.53,7.89" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">New Product Preannouncements and Shareholder Value: Don&apos;t Make Promises You Can&apos;t Keep</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alina</forename><surname>Sorescu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Venkatesh</forename><surname>Shankar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tarun</forename><surname>Kushwaha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="114" to="146" />
+			<date type="published" when="2007-08" />
+		</imprint>
+	</monogr>
+	<note>Journal of Marketing</note>
+</biblStruct>
+
+<biblStruct coords="21,317.94,359.40,239.13,8.97;21,329.90,371.13,227.22,7.89;21,329.90,382.07,213.03,7.89" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Marketing and Firm Value: Metrics, Methods, Findings, and Future Directions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shuba</forename><surname>Srinivasan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dominique</forename><forename type="middle">M</forename><surname>Hanssens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="293" to="312" />
+			<date type="published" when="2009-06" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,317.94,392.50,239.18,7.89;21,329.90,402.65,227.11,8.97;21,329.90,414.38,215.63,7.90" xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Market-Based Assets and Shareholder Value: A Framework of Analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rajendra</forename><forename type="middle">K</forename><surname>Srivastava</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Tasadduq</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Liam</forename><surname>Shervani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Fahey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="2" to="18" />
+			<date type="published" when="1998-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,317.93,424.09,239.10,8.97;21,329.90,435.82,227.16,7.89;21,329.90,446.76,89.22,7.89" xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Dynamic Capabilities and Strategic Management</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">J</forename><surname>Teece</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><surname>Pisano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amy</forename><surname>Shuen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strategic Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="509" to="542" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,317.93,456.40,239.09,8.97;21,329.90,468.13,227.12,7.89;21,329.90,479.07,227.14,7.89;21,329.90,490.01,29.18,7.89" xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Corporate Social Performance and Organizational Attractiveness to Prospective Employees</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">B</forename><surname>Turban</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">W</forename><surname>Greening</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Academy of Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="658" to="72" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,317.93,499.66,239.11,8.97;21,329.90,511.39,227.16,7.89;21,329.90,522.33,227.16,7.89;21,329.90,533.27,77.71,7.89" xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Too Little or Too Much? Untangling the Relationship Between Corporate Philanthropy and Firm Financial Performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Heli</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jaepil</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jiatao</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Organization Science</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="143" to="59" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,317.93,543.70,239.08,7.89;21,329.90,553.85,227.11,8.97;21,329.90,565.58,227.14,7.89;21,329.90,576.53,227.15,7.89;21,317.93,586.22,239.13,8.97;21,329.90,597.96,227.16,7.89;21,329.90,608.90,117.11,7.89" xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Stock Market Response to Regulatory Reports of Deceptive Advertising: The Moderating Effect of Omission Bias and Firm Reputation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">A</forename><surname>Wiles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Shailendra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Saurabh</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">;</forename><surname>Lindsey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Neil</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lopo</forename><forename type="middle">L</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Rego</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="38" to="58" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note>Marketing Science</note>
+</biblStruct>
+
+<biblStruct coords="21,317.94,618.54,239.14,8.97;21,329.90,630.27,227.15,7.89;21,329.90,641.21,227.16,7.89;21,329.90,652.15,166.32,7.89" xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Asymmetric Roles of Advertising and Marketing Capability in Financial Returns to News: Turning Bad into Good and Good into Great</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guiyang</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sundar</forename><surname>Bharadwaj</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="706" to="730" />
+			<date type="published" when="2013-12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,317.94,661.80,239.09,8.97;21,329.90,673.53,227.16,7.89;21,329.90,684.47,227.13,7.89;21,329.90,695.41,95.11,7.89" xml:id="b74">
+	<analytic>
+		<title level="a" type="main">An Efficient Method of Estimating Seemingly Unrelated Regression Equations and Tests for Aggregation Bias</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arnold</forename><surname>Zellner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Statistical Association</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">298</biblScope>
+			<biblScope unit="page" from="348" to="68" />
+			<date type="published" when="1962" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,108.00,88.40,427.20,10.80;24,72.00,102.20,60.24,10.80" xml:id="b75">
+	<monogr>
+		<title level="m" type="main">R&amp;D, Patents, and Productivity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Griliches</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984" />
+			<publisher>University of Chicago Press</publisher>
+			<pubPlace>Chicago, IL</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,108.00,129.80,409.78,10.80;24,72.00,143.60,464.56,10.80;24,72.00,157.40,98.52,10.80" xml:id="b76">
+	<analytic>
+		<title level="a" type="main">The NBER Patent Citation Data File: Lessons, Insights and Methodological Tools. No. w8498</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bronwyn</forename><forename type="middle">H</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Adam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Manuel</forename><surname>Jaffe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Trajtenberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">National Bureau of Economic Research</title>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,189.60,199.16,232.79,10.80;24,72.00,224.66,136.45,9.94;24,72.00,249.32,128.32,10.80;24,200.88,253.59,4.52,7.24;24,208.08,249.58,34.79,11.63;24,243.48,253.59,4.02,7.24;24,248.16,249.32,64.13,10.80;24,312.84,253.59,4.64,7.24;24,318.12,249.32,22.67,11.88;24,341.40,253.59,4.02,7.24;24,346.20,249.32,63.59,10.80;24,410.40,253.59,4.52,7.24;24,415.56,249.32,22.79,11.88;24,438.96,253.59,4.02,7.24;24,443.64,249.32,44.28,10.80;24,488.52,253.59,4.52,7.24;24,493.68,249.32,13.61,10.80" xml:id="b77">
+	<monogr>
+		<title level="m" type="main">Heckman Selection Equation and Results Heckman Selection Equation (Final sample firm vs. not) it = α + β 1 (UΔLeverage it ) + β 2 (UΔEarnings it ) + β 3</title>
+		<imprint/>
+	</monogr>
+	<note>UΔCash it</note>
+</biblStruct>
+
+<biblStruct coords="24,72.00,506.20,111.90,8.96" xml:id="b78">
+	<monogr>
+		<title level="m" type="main">01, ** p&lt;.05, * p&lt;</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">***</forename><surname>P&amp;lt;</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,74.52,517.72,285.80,8.96;24,360.36,515.53,3.24,5.83" xml:id="b79">
+	<monogr>
+		<title level="m" type="main">Note: Estimates for earnings, COGS and Leverage are multiplied by 10 4</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,117.24,74.84,377.45,10.80;25,108.00,102.20,419.28,10.80;25,72.00,129.80,463.55,10.80;25,72.00,157.40,461.16,10.80;25,72.00,185.00,451.68,10.80;25,72.00,212.60,446.33,10.80;25,72.00,240.20,460.85,10.80;25,72.00,267.80,458.76,10.80;25,72.00,295.40,432.58,10.80;25,72.00,323.00,458.14,10.80;25,72.00,350.60,463.68,10.80" xml:id="b80">
+	<analytic>
+		<title level="a" type="main">0601 and .1571 respectively) and parameter estimates from the full model, we calculate shareholder gains as follows: For the main effect of marketing capability, one std dev (.00003) change in relative marketing capability changes firm value by .00296 (98.81 x .00003) and idiosyncratic risk</title>
+		<idno>by -.00392 (-130.95 x .00003</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Calculation of Shareholder Gains from CSR and Marketing Capability Using the sample statistics (standard deviations (std dev) of marketing capability, stock returns, and idiosyncratic risk are .00003</title>
+		<imprint/>
+	</monogr>
+	<note>1571) changes respectively. With respect to the complementary effect, one std dev change in marketing capability will amplify the effect of CSR on stock returns by. 00213 (71.077 x .00003) and attenuate the effect on idiosyncratic risk by -.00700 (-233.454 x .00003). These represent changes of approximately</note>
+</biblStruct>
+
+<biblStruct coords="25,84.40,378.20,439.09,10.80;25,72.00,405.80,452.40,10.80;25,179.88,461.00,359.56,10.80;25,72.00,488.60,325.80,10.80" xml:id="b81">
+	<monogr>
+		<title level="m" type="main">00700 /.1571) respectively. As such, based on the average market capitalization in our sample, one std dev change in marketing capability will lead to an of marketing capability</title>
+		<idno>54% (.00213 /.0601) and 4.45%</idno>
+		<imprint/>
+	</monogr>
+	<note>which is in excess of the change of 336.81 (4.92% of 6845.798) due to the main (direct) effect of marketing capability</note>
+</biblStruct>
+
+<biblStruct coords="26,70.87,73.87,448.88,10.80;26,70.87,87.67,423.23,10.80;26,70.87,101.47,447.01,10.80;26,70.87,115.27,125.28,10.80" xml:id="b82">
+	<monogr>
+		<title level="m" type="main">Copyright of Journal of Marketing is the property of American Marketing Association and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder&apos;s express written permission. However, users may print, download, or email articles for individual use</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Searching for a Mate: The Rise of the Internet as a Social Intermediary</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Rosenfeld</surname></persName>
+							<email>mrosenfe@stanford.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Sociology</orgName>
+								<orgName type="institution">Stanford University</orgName>
+								<address>
+									<addrLine>450 Serra Mall</addrLine>
+									<postCode>94305</postCode>
+									<settlement>Stanford</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Rosenfeld</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Sociology</orgName>
+								<orgName type="institution">Stanford University</orgName>
+								<address>
+									<addrLine>450 Serra Mall</addrLine>
+									<postCode>94305</postCode>
+									<settlement>Stanford</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Reuben</forename><forename type="middle">J</forename><surname>Thomas</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Sociology</orgName>
+								<orgName type="institution">Stanford University</orgName>
+								<address>
+									<addrLine>450 Serra Mall</addrLine>
+									<postCode>94305</postCode>
+									<settlement>Stanford</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Searching for a Mate: The Rise of the Internet as a Social Intermediary</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">American Sociological Review</title>
+						<imprint>
+							<biblScope unit="volume">77</biblScope>
+							<biblScope unit="issue">4</biblScope>
+							<biblScope unit="page" from="523" to="547"/>
+						</imprint>
+					</monogr>
+					<note>Corresponding Author:</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:15+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>couples</term>
+					<term>dating</term>
+					<term>Internet</term>
+					<term>search</term>
+					<term>thin markets</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This article explores how the efficiency of Internet search is changing the way Americans find romantic partners. We use a new data source, the How Couples Meet and Stay Together survey. Results show that for 60 years, family and grade school have been steadily declining in their influence over the dating market. In the past 15 years, the rise of the Internet has partly displaced not only family and school, but also neighborhood, friends, and the workplace as venues for meeting partners. The Internet increasingly allows Americans to meet and form relationships with perfect strangers, that is, people with whom they had no previous social tie. Individuals who face a thin market for potential partners, such as gays, lesbians, and middle-aged heterosexuals, are especially likely to meet partners online. One result of the increasing importance of the Internet in meeting partners is that adults with Internet access at home are substantially more likely to have partners, even after controlling for other factors. Partnership rate has increased during the Internet era (consistent with Internet efficiency of search) for same-sex couples, but the heterosexual partnership rate has been flat.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>One underappreciated problem in the scholarly understanding of mate selection is the problem of search. Simply, how do people actually find mates and romantic partners? Many millions of adults in the United States are single, and presumably seeking a romantic partner. Of these millions of single adults, any one adult can only ever personally know some small number, a tiny fraction of the pool of available single persons. Even in a local neighborhood, most potential mates would be unknown to any individual unless the population density of the neighborhood was very low.</p><p>In the classic economic and game theoretic models of partner matching and mate selection <ref type="bibr" coords="1,70.58,645.13,57.95,8.78" target="#b4">(Becker 1991;</ref><ref type="bibr" coords="1,132.06,645.13,97.64,8.78" target="#b26">Gale and Shapley 1962)</ref>, the relative value of every potential mate is assumed to be already known or can easily be determined <ref type="bibr" coords="1,302.97,477.13,102.65,8.78" target="#b60">(Todd and Miller 1999)</ref>. <ref type="bibr" coords="1,409.92,474.95,3.25,5.71">1</ref> The actual way Americans search for and find romantic partners has been shrouded in mystery because of a lack of appropriate data. Recent studies on how couples meet have been done in France and Holland <ref type="bibr" coords="1,387.99,537.13,46.55,8.78;1,252.00,549.13,52.49,8.78" target="#b8">(Bozon and Heran 1989;</ref><ref type="bibr" coords="1,309.77,549.13,102.37,8.78" target="#b33">Kalmijn and Flap 2001)</ref>, but these studies use data that predates the Internet era. U.S. scholarship on how couples meet has been dormant since midcentury studies using marriage records found that a high percentage of urban marriage licenses were given to couples who lived in the same neighborhood of a city <ref type="bibr" coords="2,130.59,139.32,62.83,8.78" target="#b6">(Bossard 1932;</ref><ref type="bibr" coords="2,197.92,139.32,36.10,8.78;2,51.49,151.32,21.53,8.78" target="#b38">Kennedy 1943)</ref>.</p><p>In this article, we exploit unique features of a new nationally representative dataset to analyze not only how Americans meet their romantic partners (which has been studied in the past), but also how patterns of meeting have changed over time, which has not been previously studied. The first wave How Couples Meet and Stay Together survey fielded in 2009 (HCMST, see <ref type="bibr" coords="2,137.69,259.32,96.29,8.78;2,51.49,271.32,23.33,8.78" target="#b55">Rosenfeld and Thomas 2010)</ref> has a longitudinal component and replicates the wording of relevant questions from the 1992 National Health and Social Life Survey (see <ref type="bibr" coords="2,104.86,307.32,89.65,8.78">Laumann et al. 1994)</ref>. We use forward and backward comparisons to supplement a retrospective history of how Americans met their partners. HCMST included open-and closed-ended questions about how respondents met their current partner, which together allow a more accurate picture of how couples met than has previously been available. Because HCMST postdated the Internet revolution by more than a decade, the data offer a unique opportunity to assess the Internet's impact on the way Americans meet their romantic partners.</p><p>The fact that Americans use the Internet to meet romantic partners has been documented before <ref type="bibr" coords="2,81.45,487.32,117.68,8.78" target="#b47">(Madden and Lenhart 2006;</ref><ref type="bibr" coords="2,203.55,487.32,30.43,8.78;2,51.49,499.32,108.00,8.78" target="#b57">Sautter, Tippett, and Morgan 2010)</ref> and is not in itself surprising. The Internet has become almost ubiquitous for most Americans. We go beyond previous analyses to explain which subgroups of Americans are more likely to meet their partners online, and why. Specifically, we show that gays, lesbians, and middle-aged heterosexuals-three groups who inhabit thin markets for romantic partners-are particularly likely to find their partners online. Individuals are in a thin market for potential partners when the cost of identifying multiple potential partners who meet minimum criteria may be large enough to present a barrier to relationship formation. We propose that for single adults in thin dating markets, improvements in the efficiency of Internet search may be especially useful and important. Conversely, single people (e.g., college students) who are fortunate enough to inhabit an environment full of eligible potential partners may not need to actively search for partners.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SoCIAl IMpACT of The InTeRneT</head><p>The Internet as we know it today originated in a U.S. Defense Department initiative called ARPANET in the 1970s <ref type="bibr" coords="2,349.42,247.32,58.65,8.78" target="#b11">(Castells 2000)</ref>. Over time, people have adapted the Internet to social uses, in much the same way that people adapted the telephone. Telephone companies initially intended the telephone to be a tool for business; early on, companies tried to discourage longer social telephone calls because they were causing congestion in the telephone network <ref type="bibr" coords="2,327.89,343.32,57.67,8.78" target="#b22">(Fischer 1994;</ref><ref type="bibr" coords="2,387.68,343.32,38.22,8.78" target="#b34">Katz 1997</ref>). <ref type="bibr" coords="2,252.00,355.32,66.65,8.78" target="#b22">Fischer's (1994)</ref> study of the telephone suggests that land-line telephone users primarily call people they already know, which is to say that the telephone helps individuals stay in touch with their preexisting social networks, but the telephone does not, of its own accord, help people expand their social networks. Building on the scholarship about the social impact of the telephone, some influential scholars have suggested that computer mediated communication (CMC) will primarily reinforce already existing social patterns <ref type="bibr" coords="2,252.00,499.32,60.53,8.78" target="#b11">(Castells 2000;</ref><ref type="bibr" coords="2,315.28,499.32,54.83,8.78" target="#b50">Putnam 2000)</ref>.</p><p>While it is true that the Internet has made communications within existing social networks more efficient (as did the telephone), the Internet also has dramatically improved the efficiency of searching for and finding new people outside of one's preexisting social network, which the telephone never did. One could think of the phone book as a search tool associated with the telephone. If one were looking for a local plumber, the Yellow Pages were helpful. If one were looking for a business or person who did not fit the phone book's predefined categories, then the phone book was no help at all. The problem of rigid preselected categories was a limitation of all searches in the pre-Internet era <ref type="bibr" coords="3,191.78,103.32,42.21,8.78;3,51.49,115.32,21.53,8.78" target="#b1">(Anderson 2006)</ref>. Modern Internet search accesses data that can be sorted and searched by userdefined rather than predefined categories, making search for anything uncommon dramatically more efficient.</p><p>When Netscape and Internet Explorer browsers were introduced in late 1994 and early 1995, respectively, hardly any U.S. households had Internet access. By 2009, about 67 percent of U.S. households had Internet access (U.S. National Telecommunications and Information Administration 2010). Rapid adoption of Internet technologies has led to much debate about the new technologies' social impact. Because Internet technologies are so varied, and social uses of the Internet are still evolving, it is too early to say what all the social impacts of the Internet will be <ref type="bibr" coords="3,87.35,331.32,92.80,8.78" target="#b35">(Katz and Rice 2002)</ref>. The social impacts of even specific and narrow technologies are notoriously difficult to identify <ref type="bibr" coords="3,215.10,355.32,15.11,8.78;3,51.49,367.32,40.21,8.78" target="#b21">(Fischer 1985)</ref>. It is difficult to find any technology that has not been alleged to have had substantial social impacts. Much has been made of the social impacts of not only the light bulb <ref type="bibr" coords="3,51.49,415.32,117.08,8.78" target="#b66">(Yzer and Southwell 2008)</ref> but also more prosaic technologies such as the washing machine <ref type="bibr" coords="3,89.22,439.32,93.78,8.78" target="#b46">(Lynd and Lynd 1929)</ref> and the fax machine <ref type="bibr" coords="3,88.12,451.32,49.28,8.78" target="#b45">(Light 2006)</ref>.</p><p>Some early studies of Internet use suggested that time spent online reduces face-toface social interactions <ref type="bibr" coords="3,155.65,487.32,78.34,8.78;3,51.49,499.32,23.33,8.78" target="#b48">(Nie and Hillygus 2002)</ref> or increases rates of depression and isolation <ref type="bibr" coords="3,88.23,511.32,67.13,8.78" target="#b40">(Kraut et al. 1998</ref>). These early findings of negative social impacts have been either overturned <ref type="bibr" coords="3,131.48,535.32,87.22,8.78" target="#b39">(Kraut et al. 2002)</ref> or broadly challenged <ref type="bibr" coords="3,137.72,547.32,96.30,8.78" target="#b35">(Katz and Rice 2002;</ref><ref type="bibr" coords="3,51.49,559.32,102.98,8.78" target="#b63">Wang and Wellman 2010)</ref>.</p><p>Scholarly debate about the Internet's social impacts has been hampered by a lack of nationally representative data on how (or whether) people use the Internet to meet new friends or partners. In this context, we mean friends or partners whose relationships exist in the physical rather than solely the virtual world. While we acknowledge <ref type="bibr" coords="3,397.27,79.32,37.23,8.78;3,252.00,91.32,26.66,8.78" target="#b50">Putnam's (2000)</ref> argument that face-to-face relationships have important advantages over virtual relationships, we demonstrate that relationships can start in the virtual world and move to the real, or face-to-face, world, a phenomenon that scholars have previously demonstrated primarily with convenience samples of individuals who are active online <ref type="bibr" coords="3,399.53,175.32,34.99,8.78;3,252.00,187.32,22.78,8.78" target="#b36">(Kendall 2002;</ref><ref type="bibr" coords="3,278.71,187.32,97.78,8.78" target="#b49">Parks and Roberts 1998</ref>; but see also <ref type="bibr" coords="3,252.00,199.32,108.08,8.78" target="#b47">Madden and Lenhart 2006)</ref>.</p><p>In studying whether Internet access helped unemployed Americans find jobs, <ref type="bibr" coords="3,398.97,223.32,35.56,8.78;3,252.00,235.32,26.66,8.78" target="#b23">Fountain (2005)</ref> found that Internet access was only an advantage in the early Internet era, before 2000 (see also <ref type="bibr" coords="3,320.05,259.32,110.13,8.78" target="#b41">Kuhn and Skuterud 2004)</ref>. Fountain explained her negative findings for the benefits of Internet search by arguing that Internet job listings produced too many applications from unknown applicants for companies to properly screen, so that the supposed efficiency of Internet search was largely wasted. Fountain argued that the process of finding a job in the Internet era was similar to the way the job search process worked before the Internet: people found jobs through personal connections <ref type="bibr" coords="3,326.38,391.32,75.37,8.78" target="#b29">(Granovetter 1974)</ref>.</p><p>If the Internet has failed to transform the market for matching jobs to job applicants, that would be consistent with the broader consensus that the Internet complements, rather than displaces, existing behavior patterns <ref type="bibr" coords="3,252.00,463.32,87.90,8.78" target="#b19">(DiMaggio et al. 2001</ref>). Our analysis of how Americans meet their partners is based on more detailed data on the matching process (coded first-person stories combined with closed-ended questions) than has previously been available. The more detailed data allow us to document how the Internet appears to be displacing, to a certain extent, the more traditional ways of meeting partners, such as through friends, through family, in school, or in the neighborhood. Furthermore, the types of relationships formed online differ somewhat from relationships formed offline, meaning that the rise of the Internet may have some effect on the pattern of who mates with whom.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The InTeRneT, neIghboRhood, And RACe</head><p>Observers of Internet trends have long noted how the Internet transcends some of the limitations of physical space <ref type="bibr" coords="4,163.63,127.32,70.39,8.78" target="#b1">(Anderson 2006;</ref><ref type="bibr" coords="4,51.49,139.32,57.20,8.78" target="#b64">Wellman 2001</ref>). 2 Geographic proximity still matters in online dating, to the extent that a face-to-face relationship is the goal, but online searches for local romantic partners generally have a greater geographic radius than the small radius of walkability that defines a neighborhood. In the United States before World War II, mate selection was dominated by family and the pool of potential mates available in the neighborhood, the church, and the primary or secondary school (see <ref type="figure" coords="4,71.10,271.32,33.24,8.78">Figure 1</ref>). Some scholars argue that the dominant influence of family and neighborhood over mate selection in the past is one reason there were so few interracial and same-sex unions <ref type="bibr" coords="4,124.04,319.32,69.75,8.78" target="#b53">(Rosenfeld 2007)</ref>, but this earlier scholarship was limited to indirect measures of family influence. We measure family's direct influence over mate selection outcomes in the United States for the first time.</p><p>The rise of individual search and choice in Internet dating does not imply that all forms of segregation (previously promoted by family and neighborhood geography) in mating markets will disappear. The Internet has its own forms of racial segregation <ref type="bibr" coords="4,51.48,463.32,64.36,8.78" target="#b30">(Hargittai 2008)</ref>, and the literature on online dating shows that preferences exist for mates and partners who share a respondent's race and religion <ref type="bibr" coords="4,109.07,499.32,124.91,8.78;4,51.48,511.32,23.18,8.78" target="#b32">(Hitch, Hortaçsu, and Ariely 2010;</ref><ref type="bibr" coords="4,77.69,511.32,115.66,8.78" target="#b52">Robnett and Feliciano 2011)</ref>. Furthermore, the great variety of political vantage points and cultures available online allows people to find voices that closely mimic their own <ref type="bibr" coords="4,93.01,559.32,109.06,8.78" target="#b0">(Adamic and Glance 2005)</ref>, which can reinforce biases and create cyberbalkanization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>hypoTheSeS</head><p>We begin with an observation about a fundamental aspect of the Internet: Axiom: Internet search for romantic partners is potentially more efficient than pre-Internet search.</p><p>Searching personal advertisements in the pre-Internet era meant thumbing through the newspaper classified section by hand. Print advertisements could only be examined one issue at a time. Perhaps that is why only 4 out of 3,009 couples in the dataset reported meeting through newspaper classifieds (even though a majority of the sample met before the Internet era). In contrast to the inefficiencies of searching paper documents, online search makes the archive of old issues just as accessible as the current issue. Online, it is as easy to search across a million records as to search across a hundred.</p><p>The rise of the Internet and its potential efficiency for partner search should lead to a rise in Americans meeting their partners online:</p><p>Hypothesis 1: In the Internet era (i.e., post-1995), a steadily increasing percentage of Americans will meet their partners online.</p><p>If more and more Americans are meeting online, then fewer and fewer Americans might be meeting in traditional ways (through family, friends, church, or in the neighborhood), but the rise of the Internet need not necessarily be associated with the decline of traditional ways of meeting. The Internet could be a complement to traditional ways of meeting; friends can and do meet their friends' friends through Facebook, for instance. If, on the other hand, the Internet partly displaces traditional ways of meeting, we would expect all traditional ways of meeting to decline during the Internet era:</p><p>Hypothesis 2: In the Internet era, all traditional ways of meeting romantic partners will decline because of displacement by the Internet.</p><p>The Internet's displacement of traditional ways of meeting can only occur to the extent that the Internet reduces the necessity or the primacy of third-person intermediation in the dating market. This leads to a corollary: Corollary 2: In the Internet era, more Americans will meet their partners without the active brokerage of third persons.</p><p>If the way Americans meet their romantic partners is changing, it is important to establish how different meeting venues might affect outcomes of the mate selection process. Prior scholarship on the relationship between couples and their families of origin argues that the family as an institution promotes heterosexual marriage with partners of the same race, religion, and social class:</p><p>Hypothesis 3: Respondents who meet their partners through family are more likely to be heterosexual couples and more likely to have the same race, religion, and social class as their partner.</p><p>Conversely, scholars of the Internet who take a positive or even utopian view of the Internet's social influence argue that the Internet will make ascriptive personal characteristics such as race, and family background characteristics such as religion and social class, less important <ref type="bibr" coords="5,135.57,379.32,57.28,8.78" target="#b3">(Barlow 1996)</ref>:</p><p>Hypothesis 4: Respondents who meet their partners online are more likely to have partners of different race, religion, or social class origin.</p><p>If search efficiency is the main advantage of finding partners online, then individuals looking for a type of partner that is harder to find should be most likely to find that partner online:</p><p>Hypothesis 5: Efficiencies of Internet search for romantic partners should be especially important to individuals who are in a thin market for romantic partners.</p><p>An analogy to Hypothesis 5 is what <ref type="bibr" coords="5,196.52,583.32,37.48,8.78;5,51.49,595.32,26.66,8.78" target="#b1">Anderson (2006)</ref> refers to as the long tail of Internet marketing. Brick and mortar stores only have room for the most popular items, so esoteric items were difficult to find in the pre-Internet era. In the Internet era, it became as easy to find information about low-selling esoteric items as about popular items, leading esoteric and niche items to more readily find their markets.</p><p>If Internet search has indeed increased the efficiency for romantic partner search, then Americans with Internet access at home should be more likely to have a romantic partner:</p><p>Hypothesis 6: The partnership rate will be higher for individuals who have Internet access at home, all else being equal.</p><p>Finally, as Internet access becomes more prevalent in U.S. households, the partnership rate for Americans should increase. That is, Internet access should lead to greater overall efficiency in the dating market, and greater efficiency in the dating market should lead to more matches being made and fewer people remaining single:</p><p>Hypothesis 7: The Internet era will increase partnership rates and reduce the unmatched proportion of the adult population.</p><p>Hypothesis 7 is necessarily a speculative hypothesis, because the adult partnership rate is a function of many social, cultural, and demographic factors besides Internet search efficiency. Even though changes in the societal partnership rate cannot be causally linked to the Internet, it is worth examining whether the partnership rate has changed during the Internet era in the way Hypothesis 7 predicts. dATA This article uses data from waves I and II of the How Couples Meet and Stay Together (HCMST) survey <ref type="bibr" coords="5,331.97,547.32,102.56,8.78;5,252.00,559.32,21.53,8.78" target="#b55">(Rosenfeld and Thomas 2010)</ref>. HCMST is a nationally representative longitudinal survey of 4,002 English literate adults, of whom 3,009 had a spouse or romantic partner. Data, codebooks, frequencies, and documentation are publicly available at http://data.stanford.edu/hcmst. HCMST has new and better data on how Americans met their romantic partners, and it also replicates relevant questions from the 1992 National Health and Social Life Survey <ref type="bibr" coords="6,51.49,91.32,87.82,8.78">(Laumann et al. 1994)</ref>.</p><p>The HCMST survey is an Internet survey, implemented by Knowledge Networks (KN). Unlike most Internet surveys whose participants are composed of a self-selected or optin sample of volunteers, KN panel participants were initially recruited into the panel through a nationally representative random digit dialing (RDD) telephone survey, so the KN sample is nationally representative. Respondents with Internet access at home used their own computer to answer the surveys. Respondents who did not have Internet access at home were offered Internet access and a WebTV in exchange for participating regularly in surveys. Research has found that the quality of data derived from representative Internet surveys such as the KN panel is equal to or exceeds the quality of data derived from the previous industry standard RDD surveys <ref type="bibr" coords="6,51.49,331.32,95.00,8.78">(Baker et al. 2010:743;</ref><ref type="bibr" coords="6,149.92,331.32,84.07,8.78;6,51.49,343.32,22.78,8.78" target="#b13">Chang and Krosnick 2009;</ref><ref type="bibr" coords="6,77.02,343.32,75.60,8.78" target="#b24">Fricker et al. 2005)</ref>.</p><p>Among KN panelists contacted for the HCMST survey, 71 percent consented to participate. Including the initial RDD phone contact and agreement to join the panel (participation rate 32.6 percent), and respondents' completion of the initial demographic survey (56.8 percent completion), the composite overall response rate is a much lower .326 x .568 x .71 = 13 percent <ref type="bibr" coords="6,148.00,451.32,81.24,8.78;6,51.49,463.32,37.18,8.78" target="#b10">(Callegaro and DiSogra 2008)</ref>. The very substantial issue of attrition bias can be controlled, however, because KN gathers information from subjects at each survey stage <ref type="bibr" coords="6,102.88,499.32,56.38,8.78" target="#b17">(Couper 2000)</ref>. Among the 3,009 partnered respondents who participated in HCMST wave I, 2,520 (84 percent) completed the first follow-up survey one year later. The follow-up survey was brief and was mainly used to ascertain whether the couples identified in wave I were still together.</p><p>Respondents who previously had answered "yes" to the question, "Are you yourself gay, lesbian, or bisexual?" were oversampled for the HCMST survey. Of the 3,009 partnered adults in the survey, 474 had a same-sex partner.</p><p>"How did you meet" is a simple sounding question that turns out to be quite difficult because of the ambiguity of "how" with respect to where, when, and with whom. In in-depth interviews that preceded the main survey, we discovered that people have stories-usually well rehearsed and oftrepeated-about how they met their spouse or partner, but they may not be able to pigeonhole those stories into predefined categories. In addition, the number of possible venues where couples meet, and the types of different intermediaries, are too numerous for a closedended question to effectively cover all the possibilities. For this reason, HCMST gathered respondents' stories of how they met their spouse or partner in an open-ended text box (average response length was 342 characters), as well as respondent answers to closedended questions. Data from different kinds of overlapping questions allow for inconsistent responses to be corrected in the analysis. <ref type="table" coords="6,252.00,343.32,31.49,8.78" target="#tab_0">Table 1</ref> shows weighted summary statistics for the HCMST survey wave I, by couple type. Compared to the American Community Survey (ACS) of 2008 <ref type="bibr" coords="6,346.69,379.32,83.51,8.78" target="#b56">(Ruggles et al. 2010)</ref>, the HCMST has higher rates of interraciality (7.2 percent for married heterosexuals, compared to 3.6 percent in the ACS). The higher rate of interraciality in HCMST is mainly due to the fact that the HCMST survey was offered only in English, whereas the ACS was offered in a variety of languages. Asians and Hispanics are the two groups that contribute most to racial and ethnic intermarriage in the United States <ref type="bibr" coords="6,318.79,499.32,111.27,8.78" target="#b51">(Qian and Lichter 2007)</ref>. Among Asians and Hispanics in the United States, English speakers have higher rates of intermarriage with non-Hispanic whites. 3 <ref type="figure" coords="6,252.00,583.32,40.56,8.78">Figure 1</ref> shows the changing pattern, smoothed by local lowess regressions <ref type="bibr" coords="6,252.00,607.32,69.85,8.78" target="#b15">(Cleveland 1979)</ref>, of how heterosexual and same-sex couples have met over time in the United States. Data in <ref type="figure" coords="6,346.59,631.32,34.69,8.78">Figure 1</ref> are relationships that were in place during the 2009 HCMST survey, which could be subject to a variety of biases. We document below the potential biases we can measure and their seemingly modest effects. HCSMT recorded information only about each respondent's current relationship in 2009, because in-depth interviews that supplemented HCMST demonstrated that much more reliable information could be obtained about current relationships than about past relationships.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ReSulTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>How Heterosexual Couples Meet</head><p>Because heterosexual couples (we code all male-female couples as heterosexual couples regardless of individual sexual preferences) make up 98 percent of all couples in the United States (and an even higher percentage in the past), we begin our discussion with the heterosexuals. For most of the late-twentieth century, meeting through friends was the most common way heterosexual respondents met their partners. The percentage of heterosexual couples whose first meeting was brokered by friends rose from about 21 percent in 1940 to almost 40 percent in 1990, before going into decline and dipping below 30 percent for the most recently formed couples. The pattern of heterosexual couples meeting through or as co-workers is similar to the Note: N = 2,462 for heterosexual couples, N = 462 for same-sex couples. Because of smaller sample size, the figure for same-sex couples does not extend as far into the past. Respondents are age 19 years and older. Data smoothed with lowess regression, bandwidth = .8, except for "met online" category, which is smoothed with a less aggressive and more faithful five-year moving average, because "met online" applies only to the most recent years couples met, which is the more data-rich part of the dataset. Friends, family, and co-workers can belong to either respondent or partner. Percentages do not add to 100 percent because more than one category can apply.</p><p>pattern of meeting through friends (although co-workers have always been less influential than friends), with a steady rise from 1940 and a peak around 1990 (at about 20 percent), followed by a steep decline after 1990. According to <ref type="figure" coords="9,118.56,127.32,32.22,8.78">Figure 1</ref>, several of the most traditional ways of meeting heterosexual partners had monotonic declines from 1940 to 2009. Meeting through family was actually the most common way that elderly respondents, who met almost 70 years prior to the survey in 2009, recalled meeting (although the sample size of couples who met prior to 1950 is only 66). By the early 1940s, friends had already overtaken family as the primary way malefemale couples met. The steady decline of family as a broker in relationship formation in the United States continued over the next seven decades, declining from 25 percent of all heterosexual couples who met in 1940 to less than 10 percent of heterosexual couples who first met in 2007 to 2009. The decline of family of origin as a relationship broker in the late-twentieth-century United States is consistent with the reported decline of parental control over young adults for the same historical period <ref type="bibr" coords="9,51.49,379.32,64.71,8.78" target="#b53">(Rosenfeld 2007)</ref>. Along with the steady decline of family of origin as a relationship broker, primary and secondary school declined monotonically as a first meeting place for couples who eventually become romantically involved, from 21 percent of relationships around 1940 to less than 5 percent most recently.</p><p>As family and grade school have become less influential in the mate selection process of U.S. heterosexuals, so too have residential neighborhoods and the church declined in their influence over the market for romantic partners. Declines of neighborhood and church are not as monotonic as declines for family and grade school. From about 1960 to 1990, <ref type="figure" coords="9,77.14,559.32,34.26,8.78">Figure 1</ref> shows that neighborhood and church had a roughly steady influence over how heterosexual couples met, with about 10 percent of heterosexual couples meeting as neighbors and about 7 percent meeting in or through houses of worship. After 2000, neighborhood and church went into steep decline, along with most of the other traditional ways of meeting romantic partners. The post-1995 declines seen in <ref type="figure" coords="9,325.77,67.32,36.26,8.78">Figure 1</ref> for heterosexual couples in meeting through friends, co-workers, family, school, the neighborhood, and church are all statistically significant declines.</p><p>Meeting in college was rare in 1940, because few Americans went to college. From 1940 to 2000, the percentage of heterosexual couples who met in college rose steadily from 5 percent to about 11 percent. As the influence of primary and secondary school declined precipitously for heterosexuals during the entire period, college (the college category in <ref type="figure" coords="9,324.55,211.32,35.75,8.78">Figure 1</ref> includes college, graduate school, and professional school) crossed paths with and overtook primary and secondary school in the early 1990s. Given reports of rising educational endogamy <ref type="bibr" coords="9,252.00,271.32,115.56,8.78" target="#b58">(Schwartz and Mare 2005</ref>; but see also <ref type="bibr" coords="9,252.00,283.32,66.54,8.78" target="#b54">Rosenfeld 2008)</ref>, one might expect the percentage of Americans who meet in college to rise monotonically, but even the influence of college flattens out and appears to decline slightly after 2000.</p><p>The Internet is the one social arena that is unambiguously gaining in importance over time as a place heterosexual couples meet. <ref type="bibr" coords="9,431.26,365.13,3.25,5.71">4</ref> For couples who met in 1990 or before, the percentage who met online was essentially zero. 5 Between 1995 and 2005, there was exponential growth in the proportion of respondents who met their partners online, reaching what appears to be a plateau at approximately 22 percent. For heterosexual couples who met in 2009, the Internet was the third most likely way of meeting, 6 after the intermediation of friends, and approximately tied with bars, restaurants, and other public places. 7 With the rise of the Internet as a way couples meet in the past few years, and the concomitant decline in the central role of friends, it is possible that the Internet could eventually eclipse friends as the most influential way Americans meet their romantic partners. Hypothesis 1 predicted a sharp rise in the percentage of couples who meet online, and Hypothesis 2 predicted an Internet-era decline in the traditional ways of meeting; both predictions find support in <ref type="figure" coords="9,381.86,631.32,32.61,8.78">Figure 1</ref>.</p><p>It is important to note that the categories in <ref type="figure" coords="9,252.00,655.32,35.54,8.78">Figure 1</ref> are not mutually exclusive. Every relevant category was coded from respondents' stories. If the Internet were merely reinforcing existing ways of finding partners, we would expect the Internet to rise but other previously stable ways of meeting (through friends, in college, or in the workplace) to remain unchanged. The fact that nearly all other ways of meeting have been in decline during the Internet era suggests the Internet is displacing rather than simply complementing the traditional ways of meeting a partner.</p><p>Of the couples in HCMST, 96 percent are either married or are unmarried couples with intimate physical relationships. The relationships, in other words, are not virtual or onlineonly relationships. By meeting online, or meeting through the Internet, we mean that a couple's relationship began with an online interaction and then developed into a personal and physical relationship. We coded couples as having met online only if the online interaction was crucial to their having met, regardless of how the couple communicated once they had met. Online meetings include meeting through web dating sites, through Internet classifieds, through online chat, while playing Internet games, and through social networking websites. If the couple first met decades earlier, fell out of touch, and then rediscovered each other through Facebook, that would be "meeting online" for our purposes. Many couples who first meet and develop their relationship offline also communicate online, but we do not count these couples as meeting through the Internet. For instance, if a friend provides the respondent with a potential partner's e-mail address, that would be "meeting through a friend" but not "meeting online," because the partner was not first found online (and the friend could just as easily have provided a phone number). If the friend was searching a dating website, discovered the partner's profile, and then e-mailed the profile to the respondent, the respondent and partner would be coded as "meeting through a friend" and "meeting online," because the friend first located the partner online. Some online meetings are brokered by friends, but most couples who meet online, as we show below, are the result of one-to-one interactions without the active brokerage of any third person.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>How Same-Sex Couples Meet</head><p>The right-hand panel in <ref type="figure" coords="10,354.37,91.32,34.99,8.78">Figure 1</ref> shows the changing way same-sex couples have met in the United States, from 1985 to the present. Whereas the left-hand panel of <ref type="figure" coords="10,381.79,127.32,34.37,8.78">Figure 1</ref> (for heterosexual couples) extends back to 1940, the figure for same-sex couples extends only to 1985 because there are only one-fifth as many same-sex couples as heterosexual couples in the dataset. We therefore know less about how same-sex couples met in the past. If we extended the figure for same-sex couples further into the past, where the data is admittedly sparse, we would find that bars and restaurants seemed to be the leading way same-sex couples met in the early 1970s and before. Meeting in bars, restaurants, and other public places was always significantly more common for gay men than for lesbians; 26.7 percent of gay men in HCMST met their partner at a bar or restaurant, compared to only 11.4 percent of lesbians. Because the gender gap is small and insignificant for most ways of meeting, we combine respondents by gender in <ref type="figure" coords="10,263.12,367.32,34.25,8.78">Figure 1</ref> and report the few gender differences in <ref type="table" coords="10,286.86,379.32,35.03,8.78" target="#tab_0">Table S1</ref> of the online supplement.</p><p>The most striking difference between the way same-sex versus heterosexual couples meet is the dominance of the Internet among same-sex couples who met after 2000, with over 60 percent of same-sex couples meeting online in 2008 and 2009. Meeting online has not only become the predominant way that same-sex couples meet in the United States, but meeting online is now dramatically more common among same-sex couples than any way of meeting has ever been for heterosexual or same-sex couples in the past. To an even greater extent than for heterosexual couples, the Internet seems to be displacing all other ways of meeting for same-sex couples.</p><p>The rise of the Internet as a virtual community with its own rules <ref type="bibr" coords="10,344.25,583.32,54.91,8.78" target="#b16">(Correll 1995)</ref>, outside of traditional family supervision and the historical constraints of geographic propinquity <ref type="bibr" coords="10,252.00,619.32,63.23,8.78" target="#b64">(Wellman 2001)</ref>, constitutes a special benefit for certain individuals. Efficiencies of Internet search are especially important for individuals searching for something uncommon. Same-sex couples make up less than 2 percent of all couples in the United States, and outside big cities the percentage is substantially lower <ref type="bibr" coords="11,208.42,394.88,25.60,8.78;11,51.49,406.88,57.47,8.78" target="#b28">(Gates and Ost 2004)</ref>; gays and lesbians are nearly always in thin dating markets. The especially high rate at which same-sex couples meet online supports Hypothesis 5, that people in thin dating markets should be especially likely to meet online.</p><p>In addition to being dramatically more likely to meet online, same-sex couples have always been dramatically less likely than heterosexual couples to meet through family or to find their partners in primary or secondary school. The number of same-sex couples who meet through family or primary or secondary school has never been as high as 5 percent, whereas 17 percent of heterosexual couples met through family in 1985, and as many as 25 percent of heterosexual couples met through family in the 1940s. Social and geographic distance from the family of origin has long been theorized as one of the fundamental factors in same-sex couple formation <ref type="bibr" coords="11,92.18,646.88,55.94,8.78" target="#b5">(Bérubé 1990;</ref><ref type="bibr" coords="11,150.39,646.88,52.35,8.78" target="#b65">Weston 1991)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Assessing the Possibility of Couple Dissolution Bias</head><p>Couple dissolution bias is one potential alternative explanation for some of the patterns in <ref type="figure" coords="11,252.00,430.88,32.74,8.78">Figure 1</ref>. If couples who met through family connections remain coupled longer, it would imply that couples who met in other ways are more likely to break up and drop out of the dataset of existing couples. Couple dissolution bias could explain why existing heterosexual couples who met in the past are more likely to report having met through family. The couple dissolution bias explanation of <ref type="figure" coords="11,370.16,526.88,32.10,8.78">Figure 1</ref> patterns only works if couple longevity is strongly associated with how couples met. In this section we look at the evidence of a correlation between couple longevity and how couples met.</p><p>One way to assess whether couples who meet in traditional ways are likely to have longer couple longevity is to examine whether respondents' reported relationship quality varies by how they met their partners. <ref type="table" coords="11,405.05,634.88,29.48,8.78" target="#tab_1">Table 2</ref> shows that the weighted relationship quality for all couples does not seem to depend much on how couples met. The average relationship quality (on a scale of 1 to 5 with 5 being "excellent" and 1 being "very poor") is 4.47 for all couples (with a standard deviation of .75). Couples who met through family connections have a slightly lower than average reported mean relationship quality of 4.40.</p><p>Couples who met online have a mean relationship quality of 4.48, which is indistinguishable from the overall average of 4.47.</p><p>Couples who met in primary or secondary school or in church are the only groups whose relationship quality is significantly higher than average after regressions control for couples' demographic profiles. The last column of <ref type="table" coords="12,153.16,259.32,32.59,8.78" target="#tab_1">Table 2</ref> shows the effect of each way of meeting on relationship quality, while controlling for relationship duration, race, coresidence, and parental approval via a series of multivariate regressions. With or without controls, there is only a modest correlation between self-reported relationship quality and how couples met, which is evidence against a dissolution bias explanation of <ref type="figure" coords="12,111.98,367.32,32.61,8.78">Figure 1</ref>. <ref type="table" coords="12,63.49,379.32,29.66,8.78" target="#tab_2">Table 3</ref> shows that weighted breakup rates (i.e., whether a couple identified in wave I was still together at wave II, a year later) are not strongly influenced by how couples met. Consistent with their slightly above average relationship quality described in <ref type="table" coords="12,185.77,439.32,29.08,8.78" target="#tab_1">Table 2</ref>, the one-year breakup rate for couples who met online was slightly below average, compared to other couples who met during the 2000 to 2009 period. Couples who had been together longer, especially couples who were married and coresident, were much less likely to break up in the one-year interval between wave I and wave II; the couple breakup rate for couples who met in 2000 to 2009 is thus substantially higher than the rate for couples who had been together longer. In <ref type="table" coords="12,184.67,571.32,28.23,8.78" target="#tab_2">Table 3</ref>, raw odds ratios are a function of the weighted breakup rates directly, and adjusted odds ratios are derived from separate logistic regressions controlling for marital status at wave I, coresidence at wave I, respondent race, respondent religion, the presence of children in the respondent's household at wave I, and length of respondent's relationship with their partner.</p><p>According to <ref type="table" coords="12,323.07,91.32,30.45,8.78" target="#tab_2">Table 3</ref>, couples who met through friends had slightly higher than average breakup rates (9.6 percent broken up after one year, compared to 8.1 percent for couples who did not meet through friends). The greater breakup rate of couples who met through friends becomes statistically significant when potential confounding factors are controlled for.</p><p>As was the case with relationship quality, most differences in couple dissolution rates described in <ref type="table" coords="12,303.23,211.32,29.80,8.78" target="#tab_2">Table 3</ref> are not consistent with a couple dissolution bias explanation of changing ways Americans meet their partners shown in <ref type="figure" coords="12,262.34,247.32,31.75,8.78">Figure 1</ref>. Only the last two categories-met in primary or secondary school and met in church-have substantially lower couple dissolution rates that could partly explain their greater prevalence among heterosexual couples who met further in the past in <ref type="figure" coords="12,395.68,307.32,35.17,8.78">Figure 1</ref>. Although differences in one-year breakup rates are mostly small and insignificant, even a small difference in the annual breakup rate could create substantial differences over decades. <ref type="table" coords="12,264.00,367.32,30.61,8.78" target="#tab_3">Table 4</ref> presents a further effort to assess whether the way couples meet has changed over time. <ref type="table" coords="12,294.63,391.32,29.45,8.78" target="#tab_3">Table 4</ref> compares weighted nationally representative data from question 33 of wave I of the 2009 HCMST to results from an identically worded question (also weighted and nationally representative) from the 1992 National Health and Social Life Survey (NHSLS) <ref type="bibr" coords="12,294.18,463.32,91.12,8.78">(Laumann et al. 1994)</ref>. Column 1 presents NHSLS data on how respondents met their current or most recent cohabiting partner as of 1992, and column 2 presents HCMST data for couples living together in 1992 (i.e., living together for at least 17 years prior to the 2009 HCMST survey). Subjects in the 1992 NHSLS were 18 to 59 years old, so column 2 includes only subjects from the 2009 HCMST who were ages 18 to 59 in 1992. Except for the "met through friends" category (33.1 percent among long-term HCMST cohabiters, compared to 40.3 percent in the NHSLS), columns 1 and 2 are reasonably close to each other, which is what we would expect if couple longevity is not much affected by how couples meet. The similarity of columns 1 and 2 (despite the additional 17 years of couple duration in HCMST), and the increasing gap between the NHSLS in column 1 and the more recently formed couples in HCMST columns 3 and 4 (especially the decline in meeting through family or classmates and the rise in selfintroduction), reinforces the period explanation we offered for <ref type="figure" coords="13,330.57,629.38,32.61,8.78">Figure 1</ref>. <ref type="table" coords="13,264.00,641.38,30.74,8.78" target="#tab_2">Table 3</ref> suggested that couples who meet through friends have an especially high breakup rate, which is consistent with Table 4's  <ref type="bibr" coords="13,293.10,497.60,107.79,7.55" target="#b55">(Rosenfeld and Thomas 2010)</ref>. Note: N = 2,520 for individuals who responded to the one-year follow-up survey. Excluding respondents whose partners were already deceased or who did not have a physical or sexual relationship with their partners at wave I yields an N of 2,429. Among these, 775 met within 10 years prior to wave I. Means weighted by weight2. Family, friends, neighbors, and co-workers may belong to either respondent or partner. Each of the odds ratios is computed via separate logistic regressions. Raw odds ratios take no other factors into account. Adjusted odds ratios control for respondent's marital status at wave I, coresidence with partner at wave I, the presence of children in the respondent's household at wave I, respondent race, respondent religion, and relationship duration. * p &lt; .05; ** p &lt; .01; *** p &lt; .001 (two-tailed tests).</p><p>finding that HCMST underestimates the percentage of couples who met through friends in the past. If HCMST does underestimate "meeting through friends" in the past, then the real decline over time in the role of friends in the dating market may be even steeper than the decline shown in <ref type="figure" coords="14,120.81,460.67,31.86,8.78">Figure 1</ref>. The rise in self-introduction, from 31.7 percent in the 1992 NHSLS, to 36 percent in the 2009 HCMST, to 43.1 percent for HCMST couples who met after 1999 is consistent with a decline in the intermediation of others (e.g., family) and the rise of the Internet, which favors self-introduction. Corollary 2 predicted that the Internet era would be accompanied by an increase in the percentage of Americans who meet without the active brokerage of third persons; <ref type="table" coords="14,86.49,592.67,29.22,8.78" target="#tab_3">Table 4</ref> supports this corollary.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The Association between Meeting Venue and Mate Selection Outcomes</head><p>The literature on mate selection has always assumed, without direct evidence, that the context of how couples meet is an important determinant of what kinds of couples will exist. Hypothesis 3, based on prior literature, predicted that families' intermediation would be associated with more traditional types of couples. <ref type="figure" coords="14,289.06,448.67,35.12,8.78">Figure 1</ref> already demonstrated that same-sex couples were substantially less likely to meet through family intermediation. <ref type="table" coords="14,252.00,484.67,29.80,8.78" target="#tab_4">Table 5</ref> shows that 18.2 percent of all heterosexual couples in the United States met at least in part through the intermediation of some member of the respondent's family or their partner's family, compared to only 3.5 percent of same-sex couples. The odds ratio for the difference in meeting through family is .16, meaning the odds of having met through family were about one-sixth as high for same-sex couples as for heterosexual couples, and the odds ratio remains significantly less than one after respondent age and couple longevity are controlled for.</p><p>As the literature and Hypothesis 3 predicted, interracial and interreligious couples were also less likely to have met through family intermediation, although family suppresses interracial and interreligious unions less dramatically than it suppresses same-sex unions. For interracial couples, the odds of having met through family were .56 times as high as for same-race couples; for interreligious couples (most of whom are unions of persons raised as Protestants with partners raised as Catholics), the odds of meeting through family were .77 times as high as for couples in which both partners were raised in the same religion. Family's negative effect on interreligious and interracial couple formation remains significant after respondent age and couple longevity are controlled for. Meeting through family connections is associated with a particularly traditional type of couple formation-heterosexual couples and couples that are uniform by race and religionbut <ref type="table" coords="16,66.46,79.32,29.04,8.78" target="#tab_4">Table 5</ref> shows that meeting through family is not significantly associated with class homophily for romantic couples. Neither the couple's nor their mothers' educational gap, nor the age gap between partners, is significantly lower for couples who met through family. Whereas the family is an institution that promotes the formation of traditional types of unions, couples who met online tended to be less traditional in several important respects. First, as we have already shown, meeting online was much more common among samesex couples than among heterosexual couples, and <ref type="table" coords="16,89.14,235.32,29.46,8.78" target="#tab_4">Table 5</ref> shows that the higher rate of online meeting for same-sex couples (41 percent of same-sex couples formed in the past 10 years met online, compared to 17 percent of heterosexual couples) remains significant after controlling for Internet access at home, respondent age, and couple longevity. Interreligious couples were more likely to have met online (22 percent compared to 15 percent of same-religion couples), and the odds ratio for this comparison remained greater than one even after background variables were controlled for, supporting Hypothesis 4 (that the Internet would be associated with the formation of more nontraditional couples).</p><p>According to <ref type="table" coords="16,121.62,415.32,29.98,8.78" target="#tab_4">Table 5</ref>, interracial couples were slightly less likely than same-race couples to have met online (16 versus 19 percent), but the difference is not statistically significant. The fact that online meeting was not more common for interracial couples is somewhat surprising and is contrary to Hypothesis 4. Early, more utopian scholarship on effects of the Internet argued that online participation might undermine the importance of race or other ascriptive characteristics <ref type="bibr" coords="16,175.95,535.32,58.06,8.78" target="#b3">(Barlow 1996;</ref><ref type="bibr" coords="16,51.49,547.32,87.88,8.78" target="#b35">Katz and Rice 2002)</ref> because early Internet social networking was text rather than browser based <ref type="bibr" coords="16,76.00,571.32,56.82,8.78" target="#b36">(Kendall 2002)</ref>. In text-only interactions, interlocutors' race, gender, and background characteristics are difficult to discern, but in a web dating environment, users are expected to post photographs of themselves, so race and gender (although not necessarily religion) are highly visible. Of the 280 HCMST respondents who met their partners online, only 18 met their partner through online gaming, where participants' race is obscured. The majority of HCMST couples who met online met through online dating websites, where participants' race is either stated or can be inferred from their portrait photograph.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Age and Meeting Online for Heterosexuals</head><p>Hypothesis 5 predicted that individuals in thin dating markets would find the greater efficiency of Internet search to be especially important. Single heterosexuals in their 30s and 40s face a thin dating market, because most people in their 30s and 40s are already partnered. <ref type="figure" coords="16,295.23,259.32,34.08,8.78" target="#fig_0">Figure 2</ref> shows that for heterosexual men and women, the partnership rate peaks for respondents in their late 30s. For heterosexuals in their late 30s, the partnership rate is over 80 percent, meaning that fewer than 20 percent of individuals are single.</p><p>Even though we might expect comfort with technology to be greatest among the most recent birth cohorts, the youngest respondents were not the most likely to meet their partners online. For heterosexual men, the shape of the age dependency of meeting online was similar to the shape of the age dependency of women's partnership rate (see the left side of <ref type="figure" coords="16,417.98,415.32,12.39,8.78;16,252.00,427.32,12.67,8.78">Figure</ref> 2), with a somewhat later peak.</p><p>The heterosexual male partnership rate also peaked for men in their late 30s, but unlike the female partnership rate, the male partnership rate remained high (around 80 percent) as men aged (see the upper-right quadrant of <ref type="figure" coords="16,408.63,487.32,25.86,8.78;16,252.00,499.32,3.58,8.78" target="#fig_0">Figure  2</ref>). The rate of Internet use for meeting partners peaked for women in their early 40s and then declined. Women's rate of using the Internet to meet men roughly paralleled men's partnership rate up to about age 50, when women's use of the Internet to meet men declined, but the men's partnership rate remained high. One reason older women were less likely to meet partners online is that older women were much less likely than older men to have Internet access at home. In HCMST, 37 percent of men in their 60s had Internet access at home compared to 21 percent of women, and 40 percent of men in their 70s had Internet access at home compared to 21 percent of women. Among older Americans, the digital divide has a strong gender component <ref type="bibr" coords="17,51.49,461.38,98.82,8.78">(Katz and Rice 2002:63)</ref>, which may be one constraint on the ability of older women (who are in a thin dating market) to find partners.</p><p>To what extent is the partnership rate of heterosexual women of a certain age a reasonable measure of the lack of availability of partners for single men of the same age group (and vice versa)? Despite the existence of age discrepant couples, age homophily is the dominant pattern among couples. Among heterosexual couples in the United States (according to weighted data from HCMST), the median absolute value age gap is three years, the 75th percentile age gap is six years, and the 90th percentile age gap is ten years. Most couples are similar in age, and most individuals prefer a potential partner to be similar in age <ref type="bibr" coords="17,314.19,425.38,76.76,8.78" target="#b32">(Hitch et al. 2010)</ref>, although research shows men's preference for women younger than themselves increases for men who marry later in life <ref type="bibr" coords="17,344.53,461.38,85.17,8.78;17,252.00,473.38,43.37,8.78" target="#b20">(England and McClintock 2009)</ref>. Furthermore, meeting online is not associated with more age discrepancy between partners (see <ref type="table" coords="17,341.70,497.38,28.43,8.78" target="#tab_4">Table 5</ref>).</p><p>The way the age-specific Internet meeting rate parallels the age-specific partnership rate for heterosexuals (with the exception of older women's Internet use) supports Hypothesis 5, which predicted that the Internet's search efficiency would be especially useful to individuals in thin dating markets. Heterosexual men were significantly more likely to have met their partner online when women in the same age group were especially unavailable (regression results available in <ref type="table" coords="17,374.88,629.38,34.79,8.78" target="#tab_6">Table S8</ref> of the online supplement), and the same was true for women meeting men online as a function of men's relative unavailability, even after controlling for couple longevity, Internet access at home, race, and education. Other subgroups who can be presumed to be in thin dating markets (e.g., religious minorities such as Jews or sexual minorities such as gays and lesbians in the South or in rural areas) are not present in the HCMST in sufficient numbers to allow for additional tests of Hypothesis 5.</p><p>The age-specific Internet meeting pattern for same-sex couples was quite different (not shown in <ref type="figure" coords="18,92.26,199.32,33.72,8.78" target="#fig_0">Figure 2</ref>) from the pattern for heterosexual couples, in part because gays and lesbians are always in a thin dating market, regardless of age. Previous literature shows that online dating is especially common among gays, lesbians, and middle-aged heterosexuals <ref type="bibr" coords="18,96.45,271.32,69.06,8.78" target="#b44">(Lever et al. 2008</ref>). 8</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Meeting Online and Prior Social Connections</head><p>One of the key questions relating to the Internet as a social intermediary is whether the Internet fosters new social connections between people who otherwise would have been strangers, or whether the Internet is simply a medium for more efficient communication between individuals who already know each other <ref type="bibr" coords="18,98.66,415.32,100.79,8.78" target="#b7">(boyd and Ellison 2008;</ref><ref type="bibr" coords="18,203.95,415.32,30.06,8.78;18,51.49,427.32,21.11,8.78" target="#b50">Putnam 2000)</ref>. HCMST data are especially well suited to analysis of this question because the HCMST main survey included not only multiple-choice questions about how and when respondents met their partner, but also extended text answers from each respondent telling the story of how they met their spouse or partner.</p><p>Among respondents in HCMST who met their partner online, <ref type="table" coords="18,130.42,523.32,28.99,8.78" target="#tab_5">Table 6</ref> shows that 74 percent of the partnerships were between perfect strangers (to be nationally representative, results are weighted). Typical stories from this group include respondents who posted or answered online personal classified ads, respondents who posted or answered profiles on matchmaking websites, respondents who had partners recommended to them by matchmaking websites, respondents who met through online chat, respondents who met their partners while gaming online, and respondents who met through interest-or church-based online communities. Only 14.1 percent of respondents who met their partners online had these meetings mediated in any way by friends, family, or others with whom they already had a personal relationship. Typical stories of mediated Internet meetings include friends forwarding links to promising online profiles, or respondents whose friends sat them down in front of a computer with a chat window already opened. Slightly less than 10 percent of all couples who met online first knew each other, or knew of each other, in a different context and then reconnected, usually through social networking websites such as Facebook or Classmates.com.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Internet Use as a Predictor for Having a Partner</head><p>Because the Internet is an important facilitator of new romantic relationships in the United States, Hypothesis 6 predicted that individuals with Internet access at home would be more likely to be partnered and less likely to be single. <ref type="table" coords="18,332.05,583.32,30.53,8.78">Table 7</ref> excludes respondents who met their partner before 1995; this captures only respondents who could have met their partners online. With pre-Internet couples excluded, the partnership rate is 35.9 percent for individuals who did not have their own Internet access prior to joining the KN panel, and 71.8 percent for respondents who did have their own Internet access at home prior to joining the KN panel. After we control for respondent age, gender, education, GLB status, race, and religion via logistic regression, the adjusted odds ratio for having a partner is still 1.78 times higher (and significantly greater than one) for respondents who had Internet access before joining the KN panel. We obtain similar results when the dependent variable is coresident or married partners, with or without multivariate controls. Having Internet access at home is strongly associated with having a partner. Because of KN's provision of Internet access to non-Internet households, non-Internet households in this comparison have more access to the Internet than those in the general population. The comparison of Internet to non-Internet households in the HCMST dataset probably understates differences between Internet and non-Internet households in the general population. On the other hand, the timing of when respondents obtained Internet access at home is not clear, so there is the possibility of reverse causality, which we control somewhat by excluding couples who met before the Internet era. Regardless of the controls or the dependent variable, Internet access at home is a powerful and significant predictor of having a romantic partner, confirming our prediction in Hypothesis 6.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Partnership Rate</head><p>Although the association between Internet access at home and having a romantic partner is a strong and statistically significant association, several important caveats apply. First, as we mentioned earlier, there could be reverse causality: partnered adults might be more likely to have Internet access at home as a result of being partnered. The second caveat has to do with the implications of the Internet's effect on romantic partnerships in the United States. If the Internet fundamentally increases efficiency for partner search, following Hypothesis 7 we should expect an increase during the Internet era in the romantic partnership rate for adults, particularly for same-sex couples (who are most likely to have met online) but also for middle-aged heterosexuals. <ref type="table" coords="20,264.00,283.32,30.11,8.78" target="#tab_6">Table 8</ref> shows an apparent increase in the number of same-sex couples in the United States, with especially strong growth between 1990 and 2000 <ref type="bibr" coords="20,274.96,319.32,93.30,8.78" target="#b59">(Smith and Gates 2001)</ref>. Comparison of same-sex couples from the U.S. Census and American Community Survey (ACS) are bedeviled by changes in the way the Census deals with people who report being married to someone of the same gender <ref type="bibr" coords="20,316.95,379.32,43.73,8.78" target="#b27">(Gates 2009</ref>). We report samesex couple data in the most comparable way, with marital status recodes excluded. It is impossible to know how much of the apparent increase in the number of same-sex couples is due to an increase in the partnering rate of gays and lesbians. One factor that certainly contributes to the increasing number of same-sex couples registered in the Census is a changing social climate that leads previously existing couples to be increasingly willing to "out" themselves to the Census Bureau.</p><p>Unlike the partnership rate of gays and lesbians, overall adult partnership appears not to have changed during the Internet era. We examined data from the Current Population Survey (CPS) 1995 to 2009 and the National Survey of Family Growth (NSFG) 1982 to 2008, and we found no sign of a change in the overall partnership rate (see <ref type="table" coords="20,371.31,607.32,63.22,8.78;20,252.00,619.32,15.56,8.78" target="#tab_3">Tables S4a and  S4b</ref> in the online supplement). CPS data show partnership rates stable between 72 and 73 percent (including married respondents </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>dISCuSSIon</head><p>The efficiency benefit of Internet search has had some interesting effects on the market for romantic partners in the United States. As a more efficient market, the Internet tends to displace other markets for partners. Since 1995, the percentage of Americans meeting their partners online has risen dramatically, and the percentage meeting through almost all of the traditional ways has fallen. Family of origin and primary and secondary school (the traditional institutions based around place of origin) had already declined in importance as institutions that brought heterosexual couples together, long before the arrival of the Internet, but the Internet's arrival accelerated these origin-based traditional institutions' declining influence. Friends and the workplace, two social institutions associated with later life stages, grew in influence during the second half of the twentieth century, and these institutions, too, have become less common as places Americans meet their romantic partners in the Internet era. No one denies the Internet's efficiency benefits, but argument remains over the social costs of the new efficiencies. If one believes that society's health depends on the strength of local traditional institutions of family, church, primary school, and neighborhood (see, e.g., <ref type="bibr" coords="21,94.50,631.32,55.83,8.78" target="#b50">Putnam 2000)</ref>, then one might be reasonably concerned about the Internet's partial displacement of these traditional institutions. Connecting young people with potential opposite-sex, same-race, and same-religion partners has always been one of the core functions of the family. The rise in recent decades in the number of same-sex and interracial couples in the United States undoubtedly owes something to the declining influence of family over the mate selection process.</p><p>Some critics of the new technologies' social impacts claim that the efficiency of Internet communication leads to superficial relationships that cannot compare with the richness of face-to-face relationships <ref type="bibr" coords="21,400.63,223.32,33.89,8.78;21,252.00,235.32,18.22,8.78" target="#b50">(Putnam 2000</ref>; see also the comment on Putnam in Wellman 2001). As the relationships in the HCMST data are almost entirely face-to-face, we cannot comment on the relative merits of purely online relationships. We did, however, test whether face-to-face relationships that were originally formed online were of lower quality or more fragile than relationships formed in more traditional ways. We found no differences: romantic relationships originally formed online were no different in quality than any other relationships, and relationships originally formed online were no more fragile than relationships formed offline during a similar period.</p><p>In large part because of the Internet, the proportion of American couples who introduce themselves to each other, that is, who meet without the active brokerage of any third person, has risen sharply. Among couples who met online, 74 percent had previously been perfect strangers. The Internet flattens the social world <ref type="bibr" coords="21,350.16,499.32,67.45,8.78" target="#b25">(Friedman 2005)</ref> and allows people to search for, to find each other, and to meet entirely without the intervention of friends, family, neighbors, or co-workers.</p><p>Although the Internet seems to be crowding out other social intermediaries to a certain extent, traditional social institutions will never disappear as intermediaries in the dating market. Young heterosexual adults, who are presumably among the most technologically savvy people in society, are among the least likely to meet partners online. Young adults have single others all around them, which renders the Internet's search advantages mostly irrelevant. In environments rich with potential partners, old fashioned face-to-face socializing still trumps online search. Furthermore, even when one meets a partner online, one still needs friends and family to integrate that new partner into one's social life.</p><p>The power of Internet search is especially important in identifying potential partners for individuals who face a thin dating market. Gays, lesbians, and middle-aged heterosexuals all face thin dating markets, and these are the groups most likely to rely on the Internet to find their partners. Additionally, traditional relationship brokerage institutions of family, the church, and the workplace were never remotely as useful to gays and lesbians as they were to heterosexuals.</p><p>In in-depth interviews conducted to supplement the HCMST survey, interviewees explained how the Internet became important in their search for partners. One lesbian woman living in the South knew of no way to find other gay women nearby. She had tried the one gay bar and the one gay church that she knew of, with disappointing results. When she discovered America Online and realized she could search personal ads in her own zip code, she was able to identify a new pool of potential partners she would not otherwise have met. The gay bar plays a large role in the social history of lesbians and gays in the United States <ref type="bibr" coords="22,116.36,451.32,72.98,8.78" target="#b14">(Chauncey 1994;</ref><ref type="bibr" coords="22,196.22,451.32,37.78,8.78;22,51.49,463.32,22.78,8.78" target="#b18">D'Emilio 1998;</ref><ref type="bibr" coords="22,76.58,463.32,102.33,8.78" target="#b37">Kennedy and Davis 1993)</ref>, but gay bars have not always been safe or pleasant, and bars inevitably reach only a small percentage of the local gay and lesbian communities. Compared to the gay bar, the Internet provides a substantially safer, potentially more discreet, and more anonymous way to meet people <ref type="bibr" coords="22,80.90,547.32,143.62,8.78" target="#b9">(Brown, Maycock, and Burns 2005)</ref>.</p><p>Finally, because the Internet is such an important social intermediary for romantic couple formation, individuals with Internet access at home are substantially more likely to have a romantic partner. We hypothesized that efficiencies of Internet search for romantic partners should lead to a higher partnership rate in the United States, but aside from same-sex couples, the data show no change in the partnership rate of U.S. adults. We suspect one reason the partnership rate in the United States has not risen is that older heterosexual women, who number in the millions and face a decidedly thin dating market, are constrained by a lack of Internet access. As more technologically savvy generations of women age into late adulthood, Americans' overall partnership rate, which seems to have been flat for some time, may rise.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>funding</head><p>This project was generously supported by the National Science Foundation, grant SES-0751977, M. Rosenfeld P.I., with additional funding from Stanford's Institute for Research in the Social Sciences and Stanford's UPS endowment.</p><p>married to white women, and 187,000 (five unweighted) black women were married to white men. 4. Might the KN survey, because it is an online survey, overestimate the Internet's role in finding a partner?</p><p>The answer is possibly yes, but probably not by very much. We estimate a lower bound for the percentage of Americans who met their partners online by assuming that individuals without Internet access at home when they joined the KN panel would not have used the Internet to meet their partner. These values (see <ref type="table" coords="23,63.49,166.64,55.12,7.02" target="#tab_1">Tables S2 and S3</ref> in the online supplement [http://asr. sagepub.com/supplemental]) are lower, but only modestly lower, because individuals who had their own Internet access were much more likely to find partners online. For instance, for respondents who met their partner in the past two years, the percentage who met online is reduced from 21.5 to 17.3 percent for heterosexual couples, and from 61 to 54 percent for same-sex couples. 5. <ref type="figure" coords="23,63.49,256.64,26.56,7.02">Figure 1</ref> shows a small bump in the percentage of heterosexual couples who met online in the early 1980s. This bump corresponds to two respondents. These two respondents first met their partners in the 1980s without the assistance of the Internet and then used the Internet to reconnect later. 6. Match.com's study <ref type="bibr" coords="23,128.45,316.64,105.55,7.02" target="#b12">(Chadwick Martin Bailey 2010)</ref> estimates that 17 percent of U.S. couples married in the past three years met through an online dating website. eHarmony's study, by Harris Interactive <ref type="formula" coords="23,210.69,346.64,20.00,7.02">(2009)</ref>, estimates that 18.52 percent of new marriages in 2008 to 2009 met online. 7. Most of the increase in bars and restaurants and other public entertainment places is secondary to the growth of the Internet: couples who first meet online need a safe place to have a first face-to-face meeting. 8. Sautter and colleagues (2010:568, especially their <ref type="table" coords="23,63.49,426.64,23.69,7.02" target="#tab_2">Table 3</ref>, Model 1) found that the main predictor of Internet dating was current divorced status. Divorce is most common among middle-aged heterosexuals.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="17,51.49,343.71,299.13,8.50;17,51.49,353.90,228.34,7.58;17,51.49,363.40,365.34,7.58;17,51.49,372.89,381.75,7.55;17,51.49,382.39,243.58,7.55"><head>figure 2 .</head><label>2</label><figDesc>Relationship between Partner Availability and Meeting OnlineSource: HCMST survey, Wave I (Rosenfeld and Thomas 2010). Note: Graphs smoothed by Lowess local regressions, bandwidth .5. Proportion partnered is graphed against current age. Proportion meeting online is graphed against respondent's age when the respondent first met the partner, for couples who met between 2000 and 2009.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="7,51.49,66.01,383.02,415.98"><head>Table 1 .</head><label>1</label><figDesc>Individual and Couple Characteristics by Couple TypeSource: How Couples Meet, Wave I<ref type="bibr" coords="7,182.61,426.95,107.79,7.55" target="#b55">(Rosenfeld and Thomas 2010)</ref>. Note: Respondents are age 19 years and older, weighted with weight2. Averages are weighted. Interracial couples differ among the five racial categories (white, black, American Indian/Native American, Asian, and Other) with Hispanics spread across the five categories, Hispanics of "other" race coded as white, and multiracial respondents forced to pick one category, see ACS variable RACESING. Interreligious couples differ among the five religious categories (Protestant, Catholic, Jewish, other, and non-religious).Year Couple MetPercentage Who Met This Way</figDesc><table coords="7,51.49,86.52,378.74,330.26">Men and 
+Women in 
+Heterosexual 
+Marriages 
+
+Men and 
+Women in 
+Unmarried 
+Heterosexual 
+Partnerships 
+
+Men 
+Partnered 
+with Men 
+
+Women 
+Partnered 
+with Women 
+
+Individual Attributes 
+Respondents' age 
+48.4 
+39.7 
+42.6 
+40.6 
+Percent respondents with college 
+degree 
+
+28.8 
+23.6 
+42.4 
+47.1 
+
+Couple or Household Attributes 
+Respondents' mean household 
+income ($2008) 
+
+65,700 
+53,100 
+69,200 
+63,000 
+
+Percent interracial 
+7.2 
+14.9 
+17.3 
+15.0 
+Percent interreligious 
+38.0 
+47.9 
+47.2 
+44.6 
+Percent respondents' parents (one 
+or both) approve of union 
+
+89.6 
+65.0 
+56.8 
+59.2 
+
+Percent of couples that are 
+coresident 
+
+94.4 
+37.5 
+63.8 
+79.7 
+
+Mean number of children in 
+respondents' households 
+
+.62 
+.34 
+.11 
+.25 
+
+Mean how long ago first met 
+(years) 
+
+24.6 
+9.1 
+11.5 
+10.4 
+
+Mean how long in relationship 
+(years) 
+
+23.3 
+6.7 
+10.6 
+9.4 
+
+Weighted number of individuals in 
+the U.S. 
+
+119,950,000 
+46,700,000 
+1,900,000 
+1,450,000 
+
+Unweighted N 
+1,832 
+703 
+242 
+232 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="11,51.97,66.50,377.32,271.25"><head>Table 2 .</head><label>2</label><figDesc>Relationship Satisfaction Only Marginally Related to How Couples Met to either respondent or partner. Weighted OLS regressions with robust standard errors control for relationship duration, respondent race, respondent's coresidence with partner, and parental approval. N = 1,975 for the regressions, because parental approval was only asked of respondents who had at least one living parent. * p &lt; .05; ** p &lt; .01; *** p &lt; .001 (two-tailed tests, comparing each group to all others).</figDesc><table coords="11,51.97,87.01,377.14,212.23">Mean Relationship 
+Quality (1 to 5 scale, 
+5 is best) 
+
+OLS Coefficient for Each 
+Way of Meeting's Effect on 
+Relationship Quality (with 
+controls) 
+
+Met through family 
+4.40 * 
+-.12 
+Met through friends 
+4.47 
+-.09 
+Met in a bar, restaurant, or other 
+public entertainment space 
+
+4.47 
+-.07 
+
+Met through or as neighbors 
+4.48 
+-.03 
+Met online 
+4.51 
+.09 
+Met through or as co-workers 
+4.51 
+.05 
+Met in college or university 
+4.57 * 
+.08 
+Met in primary or secondary school 
+4.59 ** 
+.15 * 
+Met in church 
+4.67 *** 
+.13 * 
+All couples 
+4.47 (SD = .75) 
+
+Note: N = 2,865 for all couples, excludes 28 respondents whose partners were already deceased, and 
+excludes 108 respondents who did not have a physical or sexual relationship with their partners. N 
+varies for the other categories. Means weighted by weight2. Family, friends, neighbors, and co-workers 
+may belong </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="13,51.34,66.41,376.08,438.74"><head>Table 3 .</head><label>3</label><figDesc>Breakup Rates Not Much Influenced by How Couples Meet Source: How Couples Meet, Waves I and II, met via Internet indicated either on open-text q24 or itemized list q32, merged in the variable either_internet_adjusted</figDesc><table coords="13,51.36,86.91,376.07,390.99">One Year Breakup 
+Rate (percent) 
+Raw Odds Ratio 
+
+Adjusted Odds 
+Ratio 
+
+Met Online (met within past 10 years) 
+15.6 
+.86 
+.69 
+Met Offline (met within past 10 years) 
+17.8 
+
+Met through Family 
+Yes 
+8.7 
+1.01 
+1.25 
+No 
+8.7 
+
+Met through Friends 
+Yes 
+9.6 
+1.20 
+1.41 * 
+No 
+8.1 
+
+Met in a Bar/Restaurant 
+Yes 
+7.3 
+.81 
+.96 
+No 
+9.0 
+
+Met through or as Neighbors 
+Yes 
+7.6 
+.86 
+.94 
+No 
+8.8 
+
+Met through or as Co-workers 
+Yes 
+6.3 
+.66 
+.66 
+No 
+9.2 
+
+Met in College or University 
+Yes 
+6.5 
+.72 
+.90 
+No 
+8.9 
+
+Met in Primary or Secondary School 
+Yes 
+5.2 
+.55 * 
+.58 
+No 
+9.2 
+
+Met in Church 
+Yes 
+1.4 
+.14 ** 
+.27 
+No 
+9.2 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="14,51.31,67.80,381.23,301.25"><head>Table 4 .</head><label>4</label><figDesc>Comparing 2009 How Couples Meet to 1992 National Health and Social Life SurveyNote: Statistical tests compare columns 2, 3, and 4 (HCMST) with column 1 (NHSLS). Tests are two sample t-tests with unequal variance, standard deviations assume Bernoulli distribution. NHSLS data weighted by RWEIGHT, HCMST data weighted by weight2. For NHSLS, questions are SPINTA1-SPINTG1, referring to respondent's most recent spouse or unmarried cohabiting partner. For HCMST, questions are q33_1 to q33_7, with sample limited to partners who were coresident in 1992</figDesc><table coords="14,51.31,88.30,379.38,280.75">Q: Who Introduced You to 
+Partner_Name? Choose All That 
+Apply 
+
+1992 NHSLS 
+(percent) 
+
+2009 HCMST 
+(who were 
+cohabiting 
+in 1992) 
+(percent) 
+
+2009 HCMST 
+(all) (percent) 
+
+2009 HCMST 
+(met after 
+1999) 
+(percent) 
+
+Family 
+15.6 
+15.0 
+11.7 ** 
+9.5 *** 
+Friends 
+40.3 
+33.1 *** 
+34.6 *** 
+30.7 *** 
+Co-workers 
+5.8 
+8.0 * 
+8.3 * 
+6.9 
+Classmates 
+7.3 
+5.7 
+4.9 * 
+1.4 *** 
+Neighbors 
+.7 
+1.4 
+1.6 * 
+1.4 
+Introduced self or partner introduced 
+self 
+
+31.7 
+32.0 
+36.0 * 
+43.1 *** 
+
+Subjects had age range 18 to 59 in 
+what year 
+
+1992 
+1992 
+2009 
+2009 
+
+Cohabiting in what year 
+1992 
+1992 
+2009 
+2009 
+
+N 
+1,367 
+968 
+1,848 
+593 
+
+(column 2) 
+or 2009 (columns 3 and 4). 
+* p &lt; .05; ** p &lt; .01; *** p &lt; .001 (two-tailed tests). 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="15,51.43,67.80,380.85,458.48"><head>Table 5 .</head><label>5</label><figDesc>Family and the Internet's Influence on Couple Type: Comparisons with ControlsSource: How Couples Meet, Wave I, met via Internet indicated either on open-text q24 or itemized list q32, merged in the variable either_internet_adjusted<ref type="bibr" coords="15,245.21,423.24,107.79,7.55" target="#b55">(Rosenfeld and Thomas 2010)</ref>. Note: Respondents are age 19 years and older. Averages are weighted. Years ago (when met) refers to time before the How Couples Meet survey, Wave I; survey was conducted in winter, 2009. Interracial couples differ among the five racial categories (white, black, American Indian/Native American, Asian, and Other). Interreligious couples differ among the five religious categories (Protestant, Catholic, Jewish, other, and non-religious). Odds ratios and adjusted odds ratios derived from separate logistic regressions. For met online, adjusted odds ratios are adjusted for the following: whether the respondent had Internet access at home before joining the KN panel, respondent age, and how long ago (within 10 years) the couple first met. For met through family, adjusted odds ratios are adjusted for the following: respondent age and when the couple met. * p &lt; .05; ** p &lt; .01; *** p &lt; .001 (two-tailed tests).</figDesc><table coords="15,51.44,88.30,380.84,315.24">Met through Family 
+Met Online 
+
+Percent 
+Met 
+through 
+Either 
+Family 
+
+Odds 
+Ratio 
+
+Adjusted 
+Odds 
+Ratio 
+
+Percent 
+Met Online 
+(met within 
+past 10 
+years) 
+
+Odds 
+Ratio 
+
+Adjusted 
+Odds Ratio 
+
+Heterosexual couples 
+18.2 
+17 
+Same-sex couples 
+3.5 
+.16 ** 
+.19 ** 
+41 
+3.34 *** 
+2.93 ** 
+
+Same race couples 
+18.7 
+19 
+Interracial couples 
+11.4 
+.56 ** 
+.61 * 
+16 
+.85 
+.82 
+
+Same religion couples 
+19.5 
+15 
+Interreligious couples 
+15.8 
+.77 * 
+.81 * 
+22 
+1.62 ** 
+1.43 * 
+
+Mothers' educations differ by 
+&lt; 4 years 
+
+18.3 
+19 
+
+Mothers' educations differ 
+by ≥ 4 years 
+
+16.4 
+.88 
+.87 
+18 
+.94 
+1.01 
+
+Respondent/partner education 
+gap &lt; 4 years 
+
+17.8 
+18 
+
+Respondent/partner education 
+gap ≥ 4 years 
+
+18.7 
+1.06 
+1.04 
+22 
+1.27 
+.98 
+
+Respondent/partner age 
+gap &lt; 10 years 
+
+17.8 
+19 
+
+Respondent/partner age 
+gap ≥ 10 years 
+
+19.0 
+1.08 
+1.31 
+14 
+.70 
+.67 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="18,251.49,68.09,181.90,197.26"><head>Table 6 .</head><label>6</label><figDesc>Relatively Few Prior Social Connections for Couples Who Meet Online</figDesc><table coords="18,396.75,99.09,31.00,8.50">Percent 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="20,251.49,67.74,182.05,137.74"><head>Table 8 .</head><label>8</label><figDesc>Apparent Growth in the Number of Same-Sex Couples in the United States Year Official Census Count of Same-Sex Unmarried Partners (excluding marital status recodes)and respondents with unmarried coresident partners) for adults ages 30 to 49 years from 1995 to 2009. NSFG data show that the percentage of women age 30 to 44 years who had a husband or boyfriend (whether coresident or not) was stable between 87 and 89 percent from 1982 to 2008. Whereas the increasing number of same-sex couples could be construed as being consistent with the hypothesis of increasing partnership rates for same-sex couples since the advent of the Internet era, there appears to be no such evidence for Americans in general, even in the age group in which heterosexuals are most likely to meet partners online.</figDesc><table coords="20,251.49,137.68,173.35,67.80">1990 
+145,130 
+2000 
+341,014 
+2005 
+384,629 
+2008 
+414,787 
+
+Source: Smith and Gates (2001); U.S. Bureau of 
+the Census (2009). 
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="448050">448050A SRXXX10.1177/0003122412448050Rose nfeld and ThomasAmerican Sociological Review 2012 a Stanford University b The City College of New York</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>We are grateful to Sara Bloch and Ron Nakao for their help and collaboration, and to the helpful suggestions of anonymous reviewers. Kristen Harknett and Rachel Lindenberg provided helpful comments. Prior versions of this article were presented at the Population Association of America meetings in Dallas in 2010, the Center for the Study of Demography and Ecology at the University of Washington in 2010, and the 2010 American Sociological Association meetings in Atlanta, Georgia.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>notes 1. <ref type="bibr" coords="22,264.00,435.15,84.03,7.02" target="#b26">Gale and Shapley (1962)</ref> originally imagined mate search as analogous to applying to college. The weakness of the analogy is that the set of U.S. colleges is relatively small and stable, and information about most colleges was fairly easy to find even in the days before the Internet. Unlike the set of colleges, the set of potential mates is large, membership in the set is regularly changing, and information about the great majority of potential mates cannot easily be gathered. 2. <ref type="bibr" coords="22,264.00,525.15,50.36,7.02" target="#b11">Castells (2000)</ref>  </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="23,51.49,486.48,182.53,7.02;23,63.49,496.48,170.50,7.02;23,63.49,506.47,170.53,7.03;23,63.49,516.47,128.36,7.03" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The Political Blogosphere and the</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lada</forename><forename type="middle">A</forename><surname>Adamic</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Natalie</forename><surname>Glance</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Third International Workshop on Link Discovery</title>
+		<meeting>the Third International Workshop on Link Discovery<address><addrLine>U.S</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2004" />
+			<biblScope unit="page" from="36" to="43" />
+		</imprint>
+	</monogr>
+	<note>Election: Divided They Blog</note>
+</biblStruct>
+
+<biblStruct coords="23,51.49,526.47,182.54,7.03;23,63.49,536.47,170.49,7.03" xml:id="b1">
+	<monogr>
+		<title level="m" type="main">The Long Tail: Why the Future of Business is Selling Less of More</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chris</forename><surname>Anderson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Hyperion</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.49,546.48,182.49,7.02;23,63.49,556.48,170.51,7.02;23,63.49,566.48,170.50,7.02;23,63.49,576.48,170.52,7.02;23,63.49,586.48,170.49,7.02;23,63.49,596.48,170.52,7.02;23,63.49,606.48,170.51,7.02;23,63.49,616.47,170.53,7.03" xml:id="b2">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Reg</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><forename type="middle">J</forename><surname>Blumberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">Michael</forename><surname>Brick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mick</forename><forename type="middle">P</forename><surname>Couper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Melanie</forename><surname>Courtright</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Dennis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Don</forename><surname>Dillman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><forename type="middle">R</forename><surname>Frankel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><surname>Garland</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">M</forename><surname>Groves</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Courtney</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jon</forename><surname>Krosnick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><forename type="middle">J</forename><surname>Lavrakas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sunghee</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Link</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Linda</forename><surname>Piekarski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kumar</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Randall</forename><forename type="middle">K</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dan</forename><surname>Zahs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Research Synthesis: AAPOR Report on Online Panels</title>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="711" to="81" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.49,626.48,182.50,7.02;23,63.49,636.48,170.51,7.02;23,63.49,646.48,170.38,7.02" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A Declaration of the Independence of Cyberspace</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Barlow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Perry</surname></persName>
+		</author>
+		<ptr target="https://projects.eff.org/~barlow/Declaration-Final.html" />
+	</analytic>
+	<monogr>
+		<title level="j">Retreived Sseptember</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,252.00,66.64,182.51,7.03;23,264.00,76.64,124.42,7.02" xml:id="b4">
+	<monogr>
+		<title level="m" type="main">A Treatise on the Family</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><forename type="middle">S</forename><surname>Becker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+			<publisher>Harvard University Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,252.00,86.64,182.50,7.03;23,264.00,96.64,170.50,7.03;23,264.00,106.64,69.26,7.02" xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Coming Out Under Fire: The History of Gay Men and Women in World War Two</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Allan</forename><surname>Bérubé</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<publisher>The Free Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,252.00,116.64,182.53,7.02;23,264.00,126.64,170.52,7.03;23,264.00,136.64,69.78,7.03" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Residential Propinquity as a Factor in Marriage Selection</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">H S</forename><surname>Bossard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="219" to="243" />
+			<date type="published" when="1932" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,252.00,146.64,182.53,7.02;23,264.00,156.64,170.51,7.03;23,264.00,166.64,170.52,7.03" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Social Network Sites: Definition, History, and Scholarship</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Danah</forename><forename type="middle">M</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicole</forename><forename type="middle">B</forename><surname>Ellison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Computer-Mediated Communication</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="210" to="230" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,252.00,176.64,182.52,7.02;23,264.00,186.64,170.52,7.02;23,264.00,196.64,73.78,7.03" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Finding a Spouse: A Survey of How French Couples Meet</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michel</forename><surname>Bozon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francois</forename><surname>Heran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Population</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="91" to="212" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,252.00,206.64,182.51,7.02;23,264.00,216.64,170.53,7.02;23,264.00,226.64,170.50,7.03;23,264.00,236.64,63.70,7.03" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Your Picture Is Your Bait: Use and Meaning of Cyberspace among Gay Men</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Graham</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bruce</forename><surname>Maycock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sharyn</forename><surname>Burns</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sex Research</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="63" to="73" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,252.00,246.64,182.53,7.02;23,264.00,256.64,170.50,7.03;23,264.00,266.64,110.00,7.03" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Computing Response Metrics for Online Panels</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mario</forename><surname>Callegaro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><surname>Disogra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Public Opinion Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1008" to="1032" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,252.00,276.64,182.54,7.03;23,264.00,286.64,102.87,7.02" xml:id="b11">
+	<monogr>
+		<title level="m" type="main">The Rise of the Network Society</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Manuel</forename><surname>Castells</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>Blackwell</publisher>
+			<pubPlace>Oxford, UK</pubPlace>
+		</imprint>
+	</monogr>
+	<note>2nd ed</note>
+</biblStruct>
+
+<biblStruct coords="23,252.00,296.64,182.51,7.02;23,264.00,306.64,170.51,7.02;23,264.00,316.64,112.82,7.02" xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Recent Trends: Online Dating</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chadwick Martin</forename><surname>Bailey</surname></persName>
+		</author>
+		<ptr target="http://cp.match.com/cppp/media/CMB_Study.pdf" />
+		<imprint>
+			<date type="published" when="2010-08-27" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,252.00,326.64,182.52,7.02;23,264.00,336.64,170.52,7.02;23,264.00,346.64,170.50,7.02;23,264.00,356.64,170.50,7.03" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">National Surveys via RDD Telephone Interviewing versus the Internet: Comparing Sample Representativeness and Response Quality</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Linchiat</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jon</forename><forename type="middle">A</forename><surname>Krosnick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Public Opinion Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="661" to="74" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,252.00,366.64,182.52,7.03;23,264.00,376.64,170.49,7.03;23,264.00,386.64,118.90,7.03" xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Gay New York: Gender, Urban Culture and the Making of the Gay Male World</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">George</forename><surname>Chauncey</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>Basic Books</publisher>
+			<biblScope unit="page" from="1890" to="1940" />
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,252.00,396.64,182.53,7.02;23,264.00,406.64,170.50,7.03;23,264.00,416.64,154.16,7.03" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Robust Locally Weighted Regression and Smoothing Scatterplots</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">S</forename><surname>Cleveland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Statistical Association</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="829" to="865" />
+			<date type="published" when="1979" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,252.00,426.64,182.50,7.02;23,264.00,436.64,170.52,7.03;23,264.00,446.64,80.00,7.03" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The Ethnography of an Electronic Bar: The Lesbian Cafe</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shelly</forename><surname>Correll</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Contemporary Ethnography</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="270" to="96" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,252.00,456.64,182.53,7.02;23,264.00,466.64,170.52,7.03" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Web Surveys: A Review of Issues and Approaches</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mick</forename><forename type="middle">P</forename><surname>Couper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Public Opinion Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="464" to="94" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,252.00,476.64,182.52,7.03;23,264.00,486.64,170.50,7.03;23,264.00,496.64,170.51,7.03;23,264.00,506.64,69.78,7.02" xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Sexual Politics, Sexual Communities: The Making of a Homosexual Minority in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>D&amp;apos;emilio</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1940" />
+			<publisher>University of Chicago Press</publisher>
+			<pubPlace>Chicago</pubPlace>
+		</imprint>
+	</monogr>
+	<note>2nd ed</note>
+</biblStruct>
+
+<biblStruct coords="23,252.00,516.64,182.51,7.02;23,264.00,526.64,170.50,7.02;23,264.00,536.64,170.52,7.03" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Social Implications of the Internet</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><surname>Dimaggio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eszter</forename><surname>Hargittai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">Russell</forename><surname>Neuman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">P</forename><surname>Robinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="307" to="336" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,252.00,546.64,182.53,7.02;23,264.00,556.64,170.50,7.02;23,264.00,566.64,170.50,7.03;23,264.00,576.64,65.33,7.03" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The Gendered Double Standard of Aging in U.S. Marriage Markets</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paula</forename><surname>England</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elizabeth</forename><forename type="middle">Aura</forename><surname>Mcclintock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Population and Development Review</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="797" to="816" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,252.00,586.64,182.51,7.02;23,264.00,596.64,170.51,7.03;23,264.00,606.64,170.51,7.03;23,264.00,616.64,59.11,7.02" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Studying Technology and Social Life</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Claude</forename><forename type="middle">S</forename><surname>Fischer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">in High Technology, Space, and Society</title>
+		<editor>M. Castells</editor>
+		<meeting><address><addrLine>Beverly Hills, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Sage Publications</publisher>
+			<date type="published" when="1985" />
+			<biblScope unit="page" from="284" to="300" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,252.00,626.64,182.51,7.03;23,264.00,636.64,170.52,7.03;23,264.00,646.64,61.99,7.02" xml:id="b22">
+	<monogr>
+		<title level="m" type="main">America Calling: A Social History of the Telephone to 1940</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Claude</forename><forename type="middle">S</forename><surname>Fischer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>University of California Press</publisher>
+			<pubPlace>Berkeley</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,66.64,182.53,7.02;24,63.49,76.63,107.02,7.03" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Finding a Job in the Internet Age</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christine</forename><surname>Fountain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Forces</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="1235" to="62" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,86.64,182.52,7.02;24,63.49,96.64,170.54,7.02;24,63.49,106.63,170.51,7.03;24,63.49,116.63,52.89,7.03" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">An Experimental Comparison of Web and Telephone Surveys</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Scott</forename><surname>Fricker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mirta</forename><surname>Galesic</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roger</forename><surname>Tourangeau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ting</forename><surname>Yan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Public Opinion Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="370" to="92" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,126.63,182.52,7.03;24,63.49,136.63,170.51,7.03;24,63.49,146.64,72.78,7.02" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The World is Flat: A Brief History of the Twenty-First Century</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><forename type="middle">L</forename><surname>Friedman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Farrar</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Straus and Giroux</publisher>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,156.64,182.52,7.02;24,63.49,166.63,170.51,7.03;24,63.49,176.63,103.33,7.03" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">College Admissions and the Stability of Marriage</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Gale</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lloyd</forename><forename type="middle">S</forename><surname>Shapley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Mathematical Monthly</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="9" to="15" />
+			<date type="published" when="1962" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,186.64,182.53,7.02;24,63.49,196.64,170.50,7.02;24,63.49,206.64,132.50,7.02" xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Same-Sex Spouses and Unmarried Partners in the American Community Survey</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><forename type="middle">J</forename><surname>Gates</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>The Williams Institute</publisher>
+			<pubPlace>Los Angeles, CA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,216.63,182.50,7.03;24,63.49,226.63,146.77,7.03" xml:id="b28">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><forename type="middle">J</forename><surname>Gates</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jason</forename><surname>Ost</surname></persName>
+		</author>
+		<title level="m">The Gay and Lesbian Atlas</title>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>Urban Institute Press</publisher>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,236.63,182.50,7.03;24,63.49,246.63,170.52,7.03;24,63.49,256.64,54.66,7.02" xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Getting a Job: A Study of Contacts and Careers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><forename type="middle">S</forename><surname>Granovetter</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1974" />
+			<publisher>Harvard University Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,266.64,182.53,7.02;24,63.49,276.64,170.52,7.02;24,63.49,286.63,170.53,7.03;24,63.49,296.63,50.67,7.03" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Whose Space? Difference Among Users and Non-Users of Social Network Sites</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eszter</forename><surname>Hargittai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Computer-Mediated Communication</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="276" to="97" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,306.64,182.52,7.02;24,63.49,316.64,170.50,7.02;24,63.49,326.64,170.42,7.02" xml:id="b31">
+	<monogr>
+		<title level="m" type="main">eHarmony Marriage Metrics Study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Harris</forename><surname>Interactive</surname></persName>
+		</author>
+		<ptr target="http://download.eharmony.com/pdf/Harris-09-Executive-Summary.pdf" />
+		<imprint>
+			<date type="published" when="2009-08-27" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,336.64,182.50,7.02;24,63.49,346.63,170.50,7.03;24,63.49,356.63,99.32,7.03" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Matching and Sorting in Online Dating</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Günter</forename><forename type="middle">J</forename><surname>Hitch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ali</forename><surname>Hortaçsu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dan</forename><forename type="middle">Ariely</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="130" to="63" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,366.64,182.52,7.02;24,63.49,376.64,170.52,7.02;24,63.49,386.63,170.50,7.03;24,63.49,396.63,72.14,7.03" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Assortative Meeting and Mating: Unintended Consequences of Organized Settings for Partner Choices</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthijs</forename><surname>Kalmijn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Henk</forename><surname>Flap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Forces</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="1289" to="1312" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,406.64,182.50,7.02;24,63.49,416.63,99.10,7.03" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The Social Side of Information Networking</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">E</forename><surname>Katz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Society</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="9" to="12" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,426.63,182.51,7.03;24,63.49,436.63,170.50,7.03" xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Social Consequences of Internet Use</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">E</forename><surname>Katz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Ronald</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Rice</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,446.63,182.51,7.03;24,63.49,456.63,170.51,7.03;24,63.49,466.64,97.77,7.02" xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Hanging Out in the Virtual Pub: Masculinities and Relationships Online</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lori</forename><surname>Kendall</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>University of California Press</publisher>
+			<pubPlace>Berkeley</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,476.64,182.50,7.02;24,63.49,486.63,170.54,7.03;24,63.49,496.63,154.01,7.03" xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Boots of Leather, Slippers of Gold: The History of a Lesbian Community</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elizabeth</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Madeline</forename><forename type="middle">D</forename><surname>Lapovsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Davis</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+			<publisher>Routledge</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,506.64,182.50,7.02;24,63.49,516.63,170.51,7.03;24,63.49,526.63,90.22,7.03" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Premarital Residential Propinquity and Ethnic Endogamy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ruby</forename><forename type="middle">Jo</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Reeves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="580" to="84" />
+			<date type="published" when="1943" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,536.64,182.53,7.02;24,63.49,546.64,170.50,7.02;24,63.49,556.63,170.53,7.03;24,63.49,566.63,53.78,7.03" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Internet Paradox Revisited</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Kraut</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sara</forename><surname>Kiesler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bonka</forename><surname>Boneva</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathon</forename><surname>Cummings</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vicki</forename><surname>Helgeson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anne</forename><surname>Crawford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Social Issues</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="49" to="74" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,576.64,182.50,7.02;24,63.49,586.64,170.50,7.02;24,63.49,596.64,170.52,7.02;24,63.49,606.64,170.50,7.02;24,63.49,616.63,152.43,7.03" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Internet Paradox: A Social Technology That Reduces Social Involvement and Psychological Well-Being?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Kraut</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Patterson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vicki</forename><surname>Lundmark</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sara</forename><surname>Kiesler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tridas</forename><surname>Mukopadhyay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><surname>Scherlis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Psychologist</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="1017" to="1031" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,51.49,626.64,182.53,7.02;24,63.49,636.63,170.50,7.03;24,63.49,646.63,95.32,7.03" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Internet Job Search and Unemployment Durations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Kuhn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mikal</forename><surname>Skuterud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="218" to="250" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,252.00,66.64,182.54,7.02" xml:id="b42">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edward</forename><forename type="middle">O</forename><surname>Laumann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gagnon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Robert</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,264.00,76.63,170.50,7.03;24,264.00,86.63,170.50,7.03;24,264.00,96.63,169.77,7.03" xml:id="b43">
+	<monogr>
+		<title level="m" type="main">The Social Organization of Sexuality: Sexual Practices in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stuart</forename><surname>Michael</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Michaels</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>University of Chicago Press</publisher>
+			<pubPlace>Chicago</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,252.00,106.64,182.52,7.02;24,264.00,116.64,170.50,7.02;24,264.00,126.64,170.51,7.02;24,264.00,136.63,170.51,7.03;24,264.00,146.63,118.44,7.03" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Searching for Love in all the &apos;Write&apos; Places: Exploring Internet Personals Use by Sexual Orientation, Gender, and Age</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Janet</forename><surname>Lever</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christian</forename><surname>Grov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tracy</forename><surname>Royce</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brian</forename><forename type="middle">Joseph</forename><surname>Gillespie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sexual Health</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="233" to="279" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,252.00,156.64,182.53,7.02;24,264.00,166.63,170.50,7.03;24,264.00,176.63,43.55,7.03" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Facsimile: A Forgotten &apos;New Medium&apos; from the 20th Century</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><forename type="middle">S</forename><surname>Light</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">New Media &amp; Society</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="355" to="78" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,252.00,186.64,182.53,7.02;24,264.00,196.63,170.53,7.03;24,264.00,206.63,152.50,7.03" xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Middletown, a Study in Contemporary American Culture</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Lynd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Helen</forename><surname>Staughton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Merrell Lynd</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1929" />
+			<publisher>Harcourt, Brace and Company</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,252.00,216.64,182.53,7.02;24,264.00,226.64,170.50,7.02;24,264.00,236.64,170.52,7.02;24,264.00,246.64,170.51,7.02;24,264.00,256.64,170.50,7.02;24,264.00,266.64,73.54,7.02" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Online Dating: Americans Who Are Seeking Romance Use the Internet to Help Them in their Search, but there is still Widespread Public Concern about the Safety of Online Dating</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mary</forename><surname>Madden</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amanda</forename><surname>Lenhart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Pew Internet &amp; American Life Project</title>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,252.00,276.64,182.50,7.02;24,264.00,286.64,170.52,7.02;24,264.00,296.63,102.08,7.03" xml:id="b48">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Norman</forename><surname>Nie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D. Sunshine</forename><surname>Hillygus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Impact of Internet Use on Sociability: Time-Diary Findings</title>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="20" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,252.00,306.64,182.51,7.02;24,264.00,316.64,170.50,7.02;24,264.00,326.64,170.52,7.02;24,264.00,336.63,170.51,7.03;24,264.00,346.63,67.12,7.03" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Making Moosic&apos;: The Development of Personal Relationships On Line and a Comparison to their Off-Line Counterparts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Malcolm</forename><forename type="middle">R</forename><surname>Parks</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Lynne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Roberts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Social and Personal Relationships</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="517" to="554" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,252.00,356.63,182.52,7.03;24,264.00,366.63,170.50,7.03;24,264.00,376.64,65.56,7.02" xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Bowling Alone: The Collapse and Revival of American Community</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">D</forename><surname>Putnam</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>Simon and Schuster</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,252.00,386.64,182.51,7.02;24,264.00,396.64,170.52,7.02;24,264.00,406.63,170.51,7.03;24,264.00,416.63,112.88,7.03" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Social Boundaries and Marital Assimilation: Interpreting Trends in Racial and Ethnic Intermarriage</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhenchao</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">T</forename><surname>Lichter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="68" to="94" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,252.00,426.64,182.52,7.02;24,264.00,436.64,170.53,7.02;24,264.00,446.63,86.14,7.03" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Patterns of Racial-Ethnic Exclusion by Internet Daters</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Belinda</forename><surname>Robnett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cynthia</forename><surname>Feliciano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Forces</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="807" to="828" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,252.00,456.63,182.50,7.03;24,264.00,466.63,170.52,7.03;24,264.00,476.63,170.51,7.03;24,264.00,486.64,70.88,7.02" xml:id="b53">
+	<monogr>
+		<title level="m" type="main">The Age of Independence: Interracial Unions, Same-Sex Unions, and the Changing American Family</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Rosenfeld</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<publisher>Harvard University Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,252.00,496.64,182.50,7.02;24,264.00,506.64,170.51,7.02;24,264.00,516.63,107.91,7.03" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Racial, Educational, and Religious Endogamy in Comparative Historical Perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Rosenfeld</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Forces</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="1" to="32" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,252.00,526.64,182.53,7.02;24,264.00,536.64,170.54,7.02;24,264.00,546.64,170.50,7.02;24,264.00,556.64,163.18,7.02" xml:id="b55">
+	<monogr>
+		<title level="m" type="main">How Couples Meet and Stay Together, Wave 2 version 2.04</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Rosenfeld</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Reuben</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Thomas</surname></persName>
+		</author>
+		<ptr target="http://data.stanford.edu/hcmst" />
+		<imprint>
+			<date type="published" when="2010" />
+			<pubPlace>Stanford, CA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Stanford University Libraries</orgName>
+		</respStmt>
+	</monogr>
+	<note>Machine Readable Data File</note>
+</biblStruct>
+
+<biblStruct coords="24,252.00,566.64,182.50,7.02;24,264.00,576.64,170.53,7.02;24,264.00,586.63,170.51,7.03;24,264.00,596.63,170.51,7.03;24,264.00,606.64,127.34,7.02" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Integrated Public Use Microdata Series: Version 5.0 [machine-readable database</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><surname>Ruggles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">Trent</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Katie</forename><surname>Genadek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ronald</forename><surname>Goeken</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><forename type="middle">B</forename><surname>Schroeder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><surname>Sobek</surname></persName>
+		</author>
+		<ptr target="http://www.ipums.org" />
+	</analytic>
+	<monogr>
+		<title level="m">Minneapolis: University of Minnesota</title>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,252.00,616.64,182.50,7.02;24,264.00,626.64,170.52,7.02;24,264.00,636.63,170.51,7.03;24,264.00,646.63,52.89,7.03" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">The Social Demography of Internet Dating in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jessica</forename><forename type="middle">M</forename><surname>Sautter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rebecca</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Tippett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Philip Morgan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Science Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="554" to="75" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.49,66.64,182.49,7.02;25,63.49,76.64,170.50,7.02;25,63.49,86.63,129.77,7.03" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Trends in Educational Assortative Marriage From</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christine</forename><forename type="middle">R</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">D</forename><surname>Mare</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Demography</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="621" to="667" />
+			<date type="published" when="1940" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.49,96.64,182.50,7.02;25,63.49,106.64,170.51,7.02;25,63.49,116.64,170.52,7.02;25,63.49,126.64,170.52,7.02;25,63.49,136.64,142.44,7.02" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Gay and Lesbian Families in the United States: Same-Sex Unmarried Partner Households</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><forename type="middle">J</forename><surname>Gates</surname></persName>
+		</author>
+		<ptr target="http://www.urban.org/publications/1000491.html" />
+	</analytic>
+	<monogr>
+		<title level="j">Human Rights Campaign</title>
+		<imprint>
+			<date type="published" when="2001-03-26" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.49,146.64,182.51,7.02;25,63.49,156.64,170.50,7.02;25,63.49,166.63,170.53,7.03;25,63.49,176.63,170.49,7.03;25,63.49,186.64,164.36,7.02" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">From Pride and Prejudice to Persuasion: Satisficing in Mate Search</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><forename type="middle">M</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoffrey</forename><forename type="middle">F</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">; G</forename><surname>Gigerenzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">M</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Abc Research</forename><surname>Group</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Simple Heuristics that Make Us Smart</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="287" to="308" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.49,196.64,182.49,7.02;25,63.49,206.64,170.50,7.02;25,63.49,216.64,170.51,7.02;25,63.49,226.64,170.52,7.02;25,63.49,236.64,170.51,7.02;25,63.49,246.64,170.57,7.02;25,63.49,256.64,127.08,7.02" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Changes to the American Community Survey between 2007 and 2008 and Their Potential Effect on the Estimates of Same-Sex Couple Households</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><forename type="middle">S</forename></persName>
+		</author>
+		<ptr target="http://www.census.gov/population/www/socdemo/files/changes-to-acs-2007-to-2008.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">Bureau of the Census</title>
+		<imprint>
+			<date type="published" when="2009-03-22" />
+		</imprint>
+	</monogr>
+	<note>Bureau of the Census</note>
+</biblStruct>
+
+<biblStruct coords="25,51.49,266.64,182.51,7.02;25,63.49,276.64,170.51,7.02;25,63.49,286.64,170.50,7.02;25,63.49,296.64,170.52,7.02;25,63.49,306.64,170.52,7.02;25,63.49,316.64,169.30,7.02" xml:id="b62">
+	<monogr>
+		<title level="m" type="main">Digital Nation: 21st Century America&apos;s Progress Toward Universal Broadband Internet Access</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><forename type="middle">S</forename></persName>
+		</author>
+		<ptr target="http://www.ntia.doc.gov/reports/2010/NTIA_internet_use_report_Feb2010.pdf" />
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="volume">15</biblScope>
+			<pubPlace>Washington, DC: U.S. Department of Commerce</pubPlace>
+		</imprint>
+	</monogr>
+	<note>National Telecommunications and Information Administration. Retrieved March</note>
+</biblStruct>
+
+<biblStruct coords="25,51.49,326.64,182.52,7.02;25,63.49,336.64,170.50,7.02;25,63.49,346.63,170.51,7.03;25,63.49,356.63,59.26,7.03" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Social Connectivity in America: Changes in Adult Friendship Network Size from</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hua</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Barry</forename><surname>Wellman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Behavioral Scientist</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="1148" to="69" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,252.49,66.64,182.51,7.02;25,264.49,76.63,170.51,7.03;25,264.49,86.63,170.51,7.03;25,264.49,96.64,26.00,7.02" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Physical Place and Cyberplace: The Rise of Personalized Networking</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Barry</forename><surname>Wellman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Urban and Regional Research</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="227" to="52" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,252.49,106.63,182.54,7.03;25,264.49,116.63,170.50,7.03" xml:id="b65">
+	<monogr>
+		<title level="m" type="main">Families We Choose: Lesbians</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kath</forename><surname>Weston</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+			<publisher>Columbia University Press</publisher>
+			<pubPlace>Gays, Kinship. New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,252.49,126.64,182.51,7.02;25,264.49,136.64,170.52,7.02;25,264.49,146.63,127.99,7.03" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">New Communication Technologies, Old Questions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marco</forename><forename type="middle">C</forename><surname>Yzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brian</forename><forename type="middle">G</forename><surname>Southwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Behavioral Scientist</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="8" to="20" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
