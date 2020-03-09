@@ -5,7 +5,7 @@ from stanfordcorenlp import StanfordCoreNLP
 import requests
 from time import sleep
 
-def grobid(pdfname):    #input PDFfilename output XMLfilename
+def grobid(pdfname):    #input PDF file path output XML file path
     url = 'http://localhost:8070/api/processFulltextDocument'
     params=dict(input=open(pdfname,'rb'))
     tei = requests.post(url,files=params,timeout=300)
@@ -14,57 +14,47 @@ def grobid(pdfname):    #input PDFfilename output XMLfilename
     fh.write(tei.text)
     fh.close()
     return teiname
-# def pdf2txt(pdfname):
 
-def pdfAckNer(pdfname):
+#input PDF file; output list of tuple of name entities tuples(both person and organization) inside acknowledgement ,e.g.([(Jack Spuiral, PER),(Jane Austin,PER)],[(National Science Foundation,ORG)]) inside acknowledgement
+def pdfAckNer(pdfname): 
     return xmlAckNer(grobid(pdfname))
-def pdfAckPer(pdfname):
+
+def pdfAckPer(pdfname): #input PDF file output person entities tuples to be thanked inside acknowledgement , e.g.(Jack Spuiral, PER)
     return xmlAckPer(grobid(pdfname))
-def pdfAckOrg(pdfname):
+def pdfAckOrg(pdfname): #input PDF file output organization entities tuples to be thanked inside acknowledgement, e.g.(National Science Foundation,ORG)
     return xmlAckOrg(grobid(pdfname))
-def pdfAckPerPure(pdfname):
+    
+def pdfAckPerPure(pdfname): #input PDF file output person entities to be thanked inside acknowledgement , e.g.Jack Spuiral 
     return xmlAckPerPure(grobid(pdfname))
-def pdfAckOrgPure(pdfname):
+def pdfAckOrgPure(pdfname):#input PDF file output organization entities inside acknowledgement, e.g. National Science Foundation  
     return xmlAckOrgPure(grobid(pdfname))
-def pdfAuthor(pdfname):
+    
+def pdfAuthor(pdfname): #input PDF file output author name of paper
     return xmlAuthorName(grobid(pdfname))
 
 
-
-def xmlAckNer(pfname):
+#input XML file; output list of tuple of name entities tuples(both person and organization) inside acknowledgement ,e.g.([(Jack Spuiral, PER),(Jane Austin,PER)],[(National Science Foundation,ORG)]) inside acknowledgement
+def xmlAckNer(pfname): 
       
     return xmlAckPer(pfname),xmlAckOrg(pfname)
     
       
-def xmlAckPer(pfname):
+def xmlAckPer(pfname): #input XML file output person entities tuples to be thanked inside acknowledgement , e.g.(Jack Spuiral, PER)
     a = perNER(XML2ack(pfname))
     b = xmlAuthorName(pfname)
     return [item for item in a if item[0] not in b]
-
-
-def xmlAckOrg(pfname):
+def xmlAckOrg(pfname): #input XML file output organization entities tuples to be thanked inside acknowledgement, e.g.(National Science Foundation,ORG)
     
     return orgNER(XML2ack(pfname))
     
-
-def xmlAckPerPure(pfname):
+def xmlAckPerPure(pfname): #input XML file output person entities to be thanked inside acknowledgement , e.g.Jack Spuiral
     a = perNERString(XML2ack(pfname))
     b = xmlAuthorName(pfname)
     return [item for item in a if item not in b]
-
-
-def xmlAckOrgPure(pfname):
-    
+def xmlAckOrgPure(pfname):  #input XML file output organization entities inside acknowledgement, e.g. National Science Foundation 
     return orgNERString(XML2ack(pfname))
 
-
-def txtAckPerPure(txt):
-    return perNERString(tokenize(txt))
-
-def txtAckOrgPure(txt):
-    return orgNERString(tokenize(txt))
-
-def xmlAuthorName(pfname):
+def xmlAuthorName(pfname):  #input XML file output author name of paper
     def allChildren(node):
         content = ''
         nodelist = node.childNodes
@@ -96,8 +86,14 @@ def xmlAuthorName(pfname):
     authorname = list(dict.fromkeys(authorname))
     return(authorname)
     
+def txtAckPerPure(txt): #input TXT file output person entities to be thanked inside acknowledgement , e.g.Jack Spuiral
+    return perNERString(tokenize(txt))
 
-def XML2ack(pfname):
+def txtAckOrgPure(txt): #input TXT file output organization entities inside acknowledgement, e.g. National Science Foundation
+    return orgNERString(tokenize(txt))
+    
+    
+def XML2ack(pfname): #input XML file, output acknowledgement related sentencelist
     pattern1 = re.compile('acknowledg|funding|beneﬁt', re.IGNORECASE)
     pattern2 = re.compile('thank[s]? |grateful|gratitude|funded', re.IGNORECASE) #not recommend 'fund','acknowledgement'and'benifit'
     temp_list = []
@@ -201,12 +197,12 @@ def XML2ack(pfname):
 
 
 
-def tokenize(text):
+def tokenize(text): #input raw text output tokenize sentencelist
     seg = pysbd.Segmenter(language="en", clean=False)
     return seg.segment(text)
 
 
-def perNER(sentencelist):
+def perNER(sentencelist): #input sentencelist output person entities tuples
     nlp = StanfordCoreNLP('http://localhost', port=9000, timeout=30000)
     PER=[]
     Pres=[]
@@ -230,7 +226,7 @@ def perNER(sentencelist):
     
     return Pres
     
-def orgNER(sentencelist):
+def orgNER(sentencelist):#input sentencelist output organization entities tuples
     nlp = StanfordCoreNLP('http://localhost', port=9000, timeout=30000)
     ORG=[]
           
