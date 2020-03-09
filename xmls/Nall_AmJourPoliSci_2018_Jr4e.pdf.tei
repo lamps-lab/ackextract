@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Paths of Recruitment: Rational Social Prospecting in Petition Canvassing</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Clayton</forename><surname>Nall</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Benjamin</forename><surname>Schneer</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Carpenter</surname></persName>
+							<email>dcarpenter@gov.harvard.edu.</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Broockman</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><surname>Friedman</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Heaney</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Herron</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eitan</forename><surname>Hersh</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Josh</forename><surname>Kalla</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dean</forename><surname>Lacy</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maggie</forename><surname>Mckinley</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Melissa</forename><surname>Sands</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Florida State University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Harvard University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Political Science</orgName>
+								<orgName type="institution">Stanford University</orgName>
+								<address>
+									<addrLine>616 Serra Street, Stanford</addrLine>
+									<postCode>94305</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Government</orgName>
+								<orgName type="department" key="dep2">Center for Government and International Studies</orgName>
+								<orgName type="institution">Harvard University</orgName>
+								<address>
+									<addrLine>1737 Cambridge Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Paths of Recruitment: Rational Social Prospecting in Petition Canvassing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.7910/DVN</idno>
+					<note>Replication Materials: The data, code, and any additional materials required to replicate all analyses in this arti-cle are available on the American Journal of Political Science Dataverse within the Harvard Dataverse Network, at: (nall@stanford.edu). Benjamin Schneer is Assistant Professor, Department of Political Science, Florida State University, 113 Colle-giate Loop, 531 Bellamy, Tallahassee, FL 32306 (bschneer@fsu.edu). Daniel Carpenter is Freed Professor of Government,</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:11+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Petition canvassers are political recruiters. Building upon the rational prospector model, we theorize that rational recruiting strategies are dynamic (Bayesian and time-conscious), spatial (constrained by geography), and social (conditioned on relations between canvasser and prospect). Our theory predicts that canvassers will exhibit homophily in their canvassing preferences and will alternate between "door-to-door" and "attractor" (working in a central location) strategies based upon systematic geographical variation. They will adjust their strategies midstream (mid-petition) based upon experience. Introducing methods to analyze canvassing data, we test these hypotheses on geocoded signatory lists from two petition drives-a 2005-6 anti-Iraq War initiative in Wisconsin and an 1839 antislavery campaign in New York City. Canvassers in these campaigns exhibited homophily to the point of following geographically and politically "inefficient" paths. In the aggregate, these patterns may exacerbate political inequality, limiting political involvement of the poorer and less educated.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>P olitical campaigns and movements try their best to attract new supporters, a process that challenges campaigns and their workers. Whether in petitioning or in fundraising, identifying and recruiting supporters requires a situated rationality that operates in social and geographical space. It requires thinking about where, geographically and in social networks, friends of a campaign are likely to be found. A recruiter must not only act on existing knowledge of groups being targeted for recruitment, but must also revisit her strategies and judgments in light of experience. A recruiter learns, adapts, and strategizes anew in a world where information is scarce and failure is more common than success.</p><p>For at least a decade, the dominant model of prospecting has reflected some of these realities but not others. In a now classic article, <ref type="bibr" coords="1,219.11,569.44,79.07,9.30;1,62.05,582.39,77.19,9.30" target="#b5">Brady, Schlozman, and Verba (1999)</ref>  prospector model" of political recruitment. The core insight is that "like bank robbers going where the money is," recruiters seek support among those whose participation potential is high <ref type="bibr" coords="1,421.88,414.02,130.34,9.30;1,316.09,426.97,43.33,9.30">(Brady, Schlozman, and Verba 1999, 154)</ref>. The recruiter first uses information to find prospects and then "gets to yes" by offering inducements, including information and material benefits. These inducements capitalize on leverage, "the relationship to a particular recruiter that gives the prospect a special incentive to assent" <ref type="bibr" coords="1,376.78,491.73,171.16,9.30">(Brady, Schlozman, and Verba 1999, 155)</ref>. Drawing on survey evidence, they find that individuals who have high civic skills and resources are more likely to be recruited. Organizational recruiting may hence induce adverse selection by selecting those already predisposed to participate <ref type="bibr" coords="1,374.31,556.49,137.68,9.30" target="#b9">(Enos, Fowler, and Vavreck 2014)</ref>. The rational prospector model helpfully warns of the potential political inequality arising from recruitment activities. The model fails, however, to capture three important factors animating political recruitment. First, rational prospecting strategies are dynamic and often change in light of experience. The Brady-Schlozman-Verba prospecting model does not account for this adaptation, nor can it easily be captured in static, cross-sectional survey data such as theirs. Second, the rational prospecting model does not consider that rational prospecting occurs under the constraints of geography. Sometimes canvassers position themselves where many potential recruits are, but sometimes they might walk or drive door-to-door in a form of "grid search." Third, although <ref type="bibr" coords="2,101.22,217.52,158.53,9.30" target="#b5">Brady, Schlozman, and Verba (1999)</ref> identify social closeness as a factor in prospecting, they frame it in terms of personal familiarity and social leverage. Recruiters often do not know their targets ahead of time, however. They have to search for them. The concept of social closeness needs broadening, to include those who share common attributes and socioeconomic backgrounds. <ref type="bibr" coords="2,96.88,306.42,3.51,6.51">1</ref> In this article, we develop an alternative theory of recruiting that takes theoretical and empirical lessons from petition canvassing. In our theory (fully formalized in the supporting information), canvassers choose canvassing locations and select between two canvassing methods: going door-to-door or adopting an "attractor" method, in which the canvasser positions herself at a location with a flow of potential petition signers (e.g., setting up a table at a busy mall or farmers' market populated by supporters).</p><p>We examine multiple implications of this model using several original databases of geocoded signatures collected from archives. Our primary data source is a sample of petition signatory addresses from 22 local anti-Iraq War initiative campaigns conducted by antiwar activists in predominantly Democratic towns and cities in Wisconsin, mostly during spring 2006. <ref type="bibr" coords="2,194.61,513.65,3.51,6.51">2</ref> We also examine how one Wisconsin congressional campaign capitalized on homophily-driven "friends and neighbors" politics to satisfy its nominating paper requirements. Finally, we draw on a database of signatories and geocoded addresses from two 1839 antislavery petitions circulated in New York City. By geocoding and plotting the sequential tracks of 1 Homophily's role is consistent with <ref type="bibr" coords="2,191.23,627.96,104.67,7.97;2,59.76,637.92,23.83,7.97" target="#b5">Brady, Schlozman, and Verba (1999)</ref> and has recently received attention in the voter mobilization literature (e.g., <ref type="bibr" coords="2,114.54,647.88,77.96,7.97" target="#b10">Enos and Hersh 2015)</ref>.</p><p>2 Large campaigns often use low-wage canvassers in petition campaigns. The canvassers in these grassroots initiatives were unlike many paid canvassers: older (mean age: 53 years) and extremely regular voters. Interviews with campaign canvassers confirm that they were older Democratic and antiwar activists. Canvasser characteristics drawn from the state voter file appear in the supporting information.</p><p>signatures collected, we observe how campaign canvassers weigh the costs and benefits of alternative strategies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>How Petitioning Teaches Us about Recruitment in General</head><p>Petition canvassing surely differs from the recruitment of organizational participants as described by <ref type="bibr" coords="2,523.37,160.61,26.55,9.30;2,313.80,173.56,124.81,9.30" target="#b5">Brady, Schlozman, and Verba (1999)</ref>. While political scientists and sociologists have studied recruitment to activist or civic organizations <ref type="bibr" coords="2,398.00,199.47,109.10,9.30" target="#b15">(Heaney and Rojas 2007;</ref><ref type="bibr" coords="2,511.24,199.47,38.61,9.30;2,313.80,212.42,19.14,9.30" target="#b19">McAdam 1986</ref>) and voter mobilization <ref type="bibr" coords="2,442.36,212.42,107.49,9.30" target="#b12">(Gerber and Green 2000;</ref><ref type="bibr" coords="2,313.80,225.37,129.16,9.30" target="#b23">Rosenstone and Hansen 1993)</ref>, petition canvassing lies somewhere in between. Like recruiters for high-risk activist groups or political organizations, a petition canvasser must persuade potential signers to engage in a public and potentially hazardous act. 3 Unlike voter mobilization, which entails passive receipt of a message, followed by a decision whether to engage in the public (and published) act of voting, a canvasser must persuade an individual to sign on the spot. However, like voter mobilization canvassers, petition canvassers are typically under pressure to contact (and convert) large numbers of individuals quickly. When canvassing for petitions, a recruiter primarily seeks to gather a set number of signatures, whereas in recruiting activists, the recruiter may seek additional contributions, including time, energy, and money. <ref type="bibr" coords="2,344.54,417.88,3.51,6.51">4</ref> In short, petitioning shares at least three theoretically relevant elements with political recruitment more generally:</p><p>r The role of the recruiter: Encouragement and solicitation are central to the petitioning process and induce participation <ref type="bibr" coords="2,452.19,503.82,97.78,9.30;2,349.07,516.77,49.10,9.30" target="#b5">(Brady, Schlozman, and Verba 1999;</ref><ref type="bibr" coords="2,400.58,516.77,38.18,9.30" target="#b14">Han 2016</ref>).</p><p>r Sequential search: As with voter mobilization canvassers or fundraisers, likely supporters cannot be known with certainty, and the population cannot be searched all at once. r Persuasion and inducements: Communication with targets is integral to the recruiting act, and the canvasser must offer incentives in the form of persuasion or tangible benefits.</p><p>While petitioning differs slightly from other forms of participation, highly granular petition data offer rich lessons for the study of political recruitment. Petition signatory lists, abundant in government archives, can be used to measure effectiveness (Carpenter and Moore 2014) across canvassing efforts. Yet, as valuable as the data across petitions are, the data within petitions are just as valuable and, to date, have been almost entirely ignored. Every petition contains a prayer (a complaint or request) and a signatory list. Combined with information about the signatories and the milieu in which they were canvassed, the signature sequence provides rich information about the strategies used by recruiters and their organizations.</p><p>We theorize the choice of strategy based upon a multiarmed bandit model of a canvasser who alternates, with dynamic rationality and Bayesian learning, among locales and canvassing method. The theory embeds the canvasser in an environment where the spatial distance between signatories and the social distance between canvasser and prospects (akin to the "closeness" concept of Brady, Schlozman, and Verba 1999) matter greatly.</p><p>Aspects of canvassers' dynamic search strategies can either exacerbate or ameliorate inequality. When engaged activists canvass among similar citizens, the disengaged are less likely to hear political appeals and will lose an opportunity to exercise their political voice. Furthermore, when canvassers abandon a canvassing locale due to canvassing failure (perhaps due to low average engagement levels), residents of that neighborhood will not be mobilized. As elsewhere in politics, individual rational action can aggregate to undesirable social outcomes. However, our theory of canvassers as dynamic social optimizers does suggest countervailing tendencies that may reduce inequality. First, homophily may produce redundant search strategies, such that canvassers repeatedly visit high-propensity neighborhoods, to the point of diminishing returns. Canvassers will then, according to our theory, abandon those locales. Homophily, in short, can yield diminishing returns, leading canvassers into less familiar areas. Second, following the logic of option values, our theory indicates that, all else held equal, canvassers will visit locales where the prospects of success are uncertain but where higher variance can lead to higher payoffs. To the extent that citizens with low participation propensity frequent such locales, such exploratory canvassing has the potential to reduce inequality.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Petitioning and Rational Social Prospecting</head><p>Rational petition canvassing occurs in a spatial and dynamic context. Our theory-developed verbally here, with the formal model in the supporting information-substantively amends the Brady-Schlozman-Verba prospecting model in two important ways. First, our theory and our empirics account for canvassers' operation in a spatial setting, and we incorporate spatial costs (those associated with search across geographic space) into the theory. Second, our theory accounts for dynamic rationality in two ways: learning and the valuation of the future. We examine the behavior of a canvasser facing a population of individuals, sequentially encountered depending on the canvassing method chosen, with uncertainty over the targeted population's propensity to support the canvasser's cause. The canvasser seeks to maximize the number of signatures at a given cost.</p><p>Costs depend upon the method chosen and the social milieu in which it is carried out. Canvassers continually update their beliefs based on the success or failure of each signature attempt. Each attempt generates information about the population canvassed; the canvasser then turns to the next potential signatory with information updated based on her last solicitation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Strategies: Where to Go? What to Do? How Long to Stay and Stick?</head><p>Our theory imagines the canvasser as an experimenter of sorts, faced with three things to choose: (1) a set of locales from which signatures could be gathered, (2) one of two methods of prospecting, and (3) once a combination of locale and method (i.e., a strategy) has been chosen, how long to stay with that combination. The canvasser faces a set of locales in which to collect signatures. Each locale has two characteristics. The first is the throughput rate, the probability that a potential signatory will arrive at the petitioning locale in a given time period. 5 The throughput rate pertains only to the attractor method; canvassers using door-to-door methods are assumed to be unaffected by it. The second is the signature rate, the probability that a person in a given locale would sign the petition if asked to do so. Initially, the canvasser knows only the expected signature rate and learns about the actual rate only though costly experience, by attempting to collect signatures.</p><p>The canvasser can alternate between two different methods. The first, called the attractor method, places the canvasser at a single spot in a locale (perhaps a crossroads or meeting place) where she seeks signatures from passersby. The second, called the door-to-door method, has the canvasser traverse geographic space within a locale, usually visiting potential signatories' households.</p><p>The conduct of the petitioning campaign unfolds in discrete time. The canvasser computes the value of each strategy in each period. She then updates the relative value of her strategy choices based on the outcome from the last period. The canvasser may choose a quitting strategy with no costs expended and no signatures gathered. (This accounts for the value of the canvasser's time when not canvassing, and it is necessary to pin down the theory.)</p><p>The Choice of Method. The value of the attractor method depends upon the characteristics of the social milieu in which the petition is displayed, as well as the sequential success or failure of the solicitations for signatures. The expected value of visiting a locale under the attractor method can be understood as the product of the per-period throughput rate and the expected signature rate, with each period having a fixed and known cost.</p><p>The door-to-door method requires the sequential transportation of the petition to a series of addresses in a selected locale. The total cost of approaching the next potential signatory depends on two factors: the geographical distance between the location of the previous solicitation and the next one, and the social distance between the canvasser's self-perceived social position and the canvasser's perception of the social position of the next address. Determining the costs due to geographical distance is straightforward; all else equal, traveling greater distances is more costly than traveling shorter distances. We thus expect canvassers to minimize distance between signature attempts. Ex post, given a set of signatures, doorto-door canvassers will appear to have selected a route that minimizes distance traveled <ref type="bibr" coords="4,178.02,593.11,92.07,9.30" target="#b1">(Applegate et al. 2011)</ref>.</p><p>When a canvasser approaches a house or building whose residents differ more from her in age, race, income, or other (partially) observable characteristics, we presume that the social distance between canvasser and potential signatory is larger. Because this may make the canvasser less comfortable or contribute to difficulties in interpersonal communication, she will internalize this distance as a cost. The cost of solicitation in the doorto-door method thus differs from the cost of solicitation under the attractor method. It varies by period, as each new address is unlikely to have the same geographic distance and social distance as the last one.</p><p>As with the attractor method, commencing the doorto-door method is simple. The canvasser selects from among the same set of locales as could be chosen under the attractor method, and she begins door-to-door canvassing in the neighborhood with the highest expected canvassing value.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Learning about Locations and Optimizing Among Strategies</head><p>The key to our theory is that canvassers know a lot about locales-their throughput rate, the cultural and geographic distances they must navigate-but they lack information about signature rates. Uncertainty about signature rates can only be reduced through costly experience (asking for signatures), thus rendering signature rates an experience good. Put differently, we assume that from period to period, the canvasser updates over signature probabilities according to whether her solicitations are met with success or failure, but that other parameters such as throughput are fixed and geographic, and that social distances to the next address under the door-to-door method are known throughout. Learning from experience requires a rule defining how the canvasser substitutes new information for old. We assume that the canvasser uses Bayes' rule-which specifies the marginal rate of substitution for new information, conditioned on the information one already has. We understand the prior as a beta distribution, which is updated in a series of Bernoulli trials (canvassing attempts). Assuming that upon each solicitation, every success (signature) counts for 1 point and every failure counts for 0, the Bayesian canvasser would update as follows. Suppose that going into a given locale, the canvasser has a prior belief that one-fourth of the people she asks will sign. A beta distribution represents this "prior" as if it were based on a previous experiment of four asks, one of which succeeded. 6 Upon a successful canvassing attempt, the Bayesian canvasser would update the posterior to two successes in five asks, whereas a failure would lead the canvasser to update the posterior to one success in five asks. Thus, the canvasser updates expectations over future success based upon past experience.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Optimal Sequential Canvassing as a Multiarmed Bandit Problem.</head><p>Our formal framework is a special case of bandit learning developed in statistical decision theory <ref type="bibr" coords="5,62.05,100.96,116.32,9.30" target="#b2">(Banks and Sundaram 1992;</ref><ref type="bibr" coords="5,180.15,100.96,59.12,9.30" target="#b3">Bellman 1957;</ref><ref type="bibr" coords="5,241.04,100.96,52.70,9.30" target="#b13">Gittins 1989)</ref>. A bandit model conceives of the canvasser as an experimenter, trying different locales or strategies as a gambler would try pulling different arms in a row of slot machines (the "bandit"). Unknown signature rates lead to uncertainty over the returns to canvassing in each locale. After soliciting a signature, the canvasser updates her beliefs about the value of the locale. The canvasser grows more certain, but never perfectly informed, about each locale's signature rate as she solicits there. (Only the "quitting and sitting" strategy has a value that is known and both timeand location-invariant.)</p><p>The canvasser maximizes a utility function that represents the summation of the expected value gained from signatures in future periods, minus the cost of canvassing for those signatures, where each period's value of realization is discounted at a constant rate. Because the canvasser forms expectations over the returns to solicitation in each locale, she rank-orders method-locale pairs from the very start by their expected signature rate and, taking into account canvassing costs, their expected value. She starts in Period 1 with the method-locale pairing that offers the highest expected value. In Period 2, having observed a success or failure, she decides whether to continue with that pairing or choose the next best option. This choice over whether to continue or to switch defines the canvasser's dynamic search problem.</p><p>Given this dynamic search problem, the canvasser's knowledge, and her updated value of the current methodlocale pairing, her optimal strategy is to choose between continuation and switching according to an "index" policy developed by <ref type="bibr" coords="5,186.83,515.41,58.45,9.30" target="#b13">Gittins (1989)</ref>. Intuitively, every method-locale pairing with an uncertain return has a minimum certain reward that an agent would prefer instead, given everything that the agent knows about the uncertain pairing. The Gittins Index thus defines a certainty equivalent for each method-locale pairing, and the optimal policy is always to choose that pairing with the highest index value. The canvasser's optimal policy can be stated as follows:</p><p>The Canvasser's Optimal Policy. The canvasser adopts the pairing of method and locale that maximizes the dynamic allocation index <ref type="bibr" coords="5,193.03,657.88,100.96,9.30">(DAI, or Gittins Index)</ref>, where the DAI for each method-locale pairing is the sum of the expected current-period canvassing value (expected signature rate minus geographic and social canvassing costs) and the continuation value (the value of the canvassing problem from the next period ever after, assuming optimality in the future). The DAI for each locale-method pairing is strictly increasing in the locale's signature rate and strictly decreasing in the period's associated costs of canvassing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparative Statics and Hypotheses</head><p>Using the general optimization rule defined by the Gittins Index (see Equation A-17 in the supporting information) and generating rules for "switching conditions" among different method-locale pairings, we derive the following hypotheses.</p><p>1. Cost-Driven Canvassing: A canvasser will be more likely to terminate door-to-door canvassing in a given locale following jumps in the geographic and social costs of soliciting the next address. An increase in the total cost of soliciting a signature for the current method-locale pair will, holding all else constant, lower its relative position in the ranked list of method-locale strategy options. As a result, the probability that some other methodlocale pair will have a higher index value (and will therefore be the optimal choice) increases. This hypothesis yields two testable implications: (1a) the signatory list of petitions canvassed door-to-door will be more likely to end or to limit out in the presence of a natural or constructed geographic barrier (e.g., a river, the end of a street, a highway); (1b) the signatory list of a petition canvassed door-to-door will be more likely to end or limit out in the presence of increased social distance between the canvasser and the next solicited address. 2. Homophily: A canvasser will be more likely to choose a door-to-door method as her social distance to the next potential signatory decreases. By construction, the distance costs for any doorto-door method-locale pair surpass the distance costs for any attractor method-locale pair. In any rank ordering of method-locale index values, a decrease in social distance will only have the effect of increasing the relative ranking of door-todoor method-locale pairs. As a result, the odds that a door-to-door method is the optimal choice must be weakly increasing. 3. Dynamic Locale Switching: A canvasser will be more likely to terminate canvassing in a methodlocale pair as the signature rate in a locale declines, and more likely to continue in a method-locale pair as the signature rate is maintained or rises. The signature rate directly enters into the optimization problem through the application of Bayes' rule by the canvasser. An increasing signature rate leads the canvasser to have higher expectations over future successes in the current methodlocale pair. Holding all else equal, this will lead the method-locale pair to maintain its position in the rank ordering of all method-locale pairs according to the Gittins Index. This hypothesis has an observable implication: For those petitions that are canvassed door-todoor, increasing intersignatory distance within any sequence of signatures on the same petition will precede the petition's termination. 7 4. Uncertainty: For a given method-locale pair, a canvasser is as likely or more likely to continue canvassing as locale-specific uncertainty increases, all else held equal. A canvasser's uncertainty is higher in a locale when the effective number of observations that compose her prior is lower. <ref type="bibr" coords="6,263.77,306.42,3.51,6.51">8</ref> In the supporting information, we prove the hypothesis and also provide an example to demonstrate its logic.</p><p>Due to space constraints and the difficulty of precise measurement of locale-specific uncertainty, we do not directly test Hypothesis 4 in this article. We state it nonetheless, since if true it implies behavior that may, at the margin, reduce or moderate participatory inequality. It also provides a perspective on why certain highmobility locales about which recruiters know less-such as New York City in the 1830s-will be targeted.</p><p>We acknowledge here that Hypothesis 2 relies upon the assumption that the social distance parameter appears in the cost function of the door-to-door method but not the attractor method. We recognize that "attractor canvassing" entails social distance costs. However, our assumption is premised upon the relative effect of social distance in these two strategies. Door-to-door canvassing is more likely to require intrusion into another person's property or social milieu. Our hypothesis requires only that, within any given locale, the social distance contribution to canvassing costs is higher in a door-to-door method than for the attractor strategy. 7 While this may seem intuitive, only a theory that embeds withinpetition learning (especially from failure) can generate it. Particular conditions on the distribution of signatures and addresses are also required for the hypothesis to hold; consult Lemma 1 in the supporting information. <ref type="bibr" coords="6,59.76,722.29,2.87,5.31">8</ref> We thank an anonymous reviewer for this point.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data and Methods</head><p>We present empirical evidence of canvasser strategies consistent with our hypotheses in a set of statistical case studies, using petitions obtained through archival research and public records requests. We introduce new methodological tools to discern canvassers' choice between the door-to-door and attractor method, based on statistics that can easily be generated from petition documents. We describe the data, demonstrate this method, and then present evidence from several petition canvasses consistent with several of our hypotheses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data</head><p>Our first case study relies on a database of ballot access petitions collected in Wisconsin between 2005 and 2008, drawn from antiwar groups' efforts to place anti-Iraq War "sense of the city" resolutions on ballots in numerous municipalities across Wisconsin, in addition to candidate ballot access petitions collected for Representative Gwen Moore of Wisconsin's 4th Congressional District. The second study is based on antislavery petitions collected in New York City and sent to Congress in 1839.</p><p>The data sources, though very different, share a common structure. Each petition consists of a list of signatures and corresponding home addresses, revealing both the sequence and geographic location of the signatories. Furthermore, each petition is made up of many subpetitions-pages on which canvassers identified themselves and gathered signatures, which were then combined into a single longer document or complete submission. These differences allow us to study changes in behavior within each canvasser petitioning effort. Petitions can therefore be encoded as two-mode network data, that is, data mapping the relationships between two populations: canvassers and signatories. Moreover, most of the petitions in these two case studies include canvasser and signatory street addresses, enabling us to encode canvassers' geographic path and attach, to each signatory, tract-and precinct-level demographic data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Methods to Detect Canvasser Strategies</head><p>To discern canvassers' petition patterns, we rely on the sequence of signatures on the petitions. For any set of consecutive signatures, a travel path is implied by the route between addresses. The distance between any two consecutive signatories on a petition page is intersignatory distance (ISD). We calculate intersignatory distance using the straight-line distance between addresses. Straightline distance tends to underreport distances traveled on a street grid (i.e., Manhattan distance) but correlates highly with other distance measures. <ref type="bibr" coords="7,185.95,112.15,3.51,6.51">9</ref> Our key insight is that, for any fixed group of petition signatories, door-to-door canvassing will tend to generate shorter ISDs than will an attractor method. Under an attractor method, there should be no meaningful geographic dependence in the sequence of recorded signatures. This difference between geographically consecutive signatures and those seemingly drawn at random from geographic space can be exploited to classify petitions as being walked (the door-to-door method) or placed at a central location (the attractor method). A canvasser collecting signatures at a single attractor point will, all else equal, have higher average ISD values.</p><p>As our first measure, we adopt the average intersignatory distance per canvasser. Some values of this measure will preclude a door-to-door method, especially if we know whether the petitions were gathered in the same day, whereas short distances per signature could result from door-to-door canvassing or simply from an attractor method that reaches a very limited geographic area.</p><p>To distinguish canvasser method further, we turn to an additional metric that combines intersignatory distance with data on the sequence of signatures to examine whether a particular path minimizes total ISD. Reverse engineering the traveling salesman problem (TSP) from observed petition paths allows us to discern the strategies employed by the canvassers. The TSP is a classic optimization problem in which an individual who must visit multiple predetermined locations (in the classic example, stops on a sales route) must decide on the order of visits to minimize travel distance (or time) and visit each stop only once.</p><p>A petition sheet containing signatures collected doorto-door will tend to resemble visits made under an optimal solution to the TSP applied to signatories' addresses. Under the attractor method, the sequence of signature locations will not resemble an optimal solution. If no geographic dependence between signatories exists, we typically will not reject the null hypothesis that the signatures were collected from addresses at random. <ref type="figure" coords="7,79.97,644.92,35.58,9.30">Figure 1</ref> displays examples of canvasses conducted under a door-to-door and an attractor canvassing method. The first map illustrates the route taken by a <ref type="bibr" coords="7,62.05,692.40,2.87,5.31">9</ref> We also used the Google Maps API to calculate driving distances that would have been accumulated in the course of canvassing. These were highly correlated (r = .85 or better) with straight-line distance. canvasser for a local antiwar initiative campaign who walked door-to-door in Stoughton, Wisconsin. The distance between signatures is low, and the route taken is the shortest available. The second map displays the sequence of signatures from a page of a New York City 1839 antislavery petition, which appears to have followed an attractor method. The distance between signatures is substantial-suggesting either a high degree of difficulty convincing prospective signatories to sign or that the canvasser found a desirable location and attempted to attract signers. The route traveled does not minimize distance. Taken together, these characteristics suggest the canvasser laid out the petition.</p><p>We employ similar logic to distinguish formally between a door-to-door and an attractor method. For each sequence of signatures, we estimate a solution to the TSP based on a greedy nearest-neighbor algorithm, in which the agent goes to the next nearest location. This route serves as a benchmark. 10 The ratio of distances for the actual route compared to the TSP route provides a rough measure to assess signature sequences. It illustrates the extent to which the route taken is nonoptimal.</p><p>To perform hypothesis testing, we compare the distance on this route to the set (or a sampled distribution) of all possible routes and then, applying principles of randomization inference, we calculate its quantile in the null distribution. A smaller quantile indicates that the route in question is much shorter than would be expected only due to chance ordering of petition signatories. For a route with distance d, we evaluate the cumulative distribution function F (d) = r , where "route score" r is constrained such that 0 ≤ r ≤ 1. For cases with k &lt; 10, we perform this calculation by generating the full distribution and determining the share of possible routes greater than the route taken. For signature sequences with k ≥ 10, for which a brute force computation is infeasible, we instead take a random sample (with replacement) of all possible route distances. Since the sample distribution converges in the limit to the full distribution, we use a sample-based estimate of the cumulative distribution function to generate an estimated route score,F (d). Smaller values of the route score denote routes substantially shorter than those that would appear by the typically random placing of names on a petition collected under the attractor method.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Case Study: Homophily in Wisconsin Antiwar Initiative Petitions, 2005-8</head><p>Our primary data source is a series of initiative petitions from campaigns conducted by antiwar activists in Wisconsin from 2005 to 2007. During this period, Iraq War opponents, operating through an array of left activist groups, adopted a statewide strategy to gain attention for the antiwar cause, launching a series of petition drives for municipal advisory referenda calling for withdrawal of troops from Iraq. Under Wisconsin statutes, members of the public may petition for local legislation using a process known as the advisory referendum. Campaigns hoping to place a measure on the ballot must collect signatures from a municipality's "qualified electors" equal to 15% of the total number of voters in the most recent gubernatorial election (Wisconsin Legislative Reference Bureau 2012).</p><p>Wisconsin was not the only state in which the antiwar movement petitioned for advisory referenda on the war question, but it is the state with the best available data on how these campaigns were conducted. By the fullest available accounting of these efforts, some 209 advisory referenda were conducted across the United States during President George W. Bush's second term. Forty-three such efforts were launched in Wisconsin, including in Milwaukee, Madison, Racine, La Crosse, and an array of smaller cities and villages. Similar initiative petition drives occurred in Illinois and Massachusetts. <ref type="bibr" coords="8,476.30,254.62,7.03,6.51">11</ref> The Wisconsin antiwar initiative petitions featured nearly identical format and language. <ref type="figure" coords="8,478.82,282.28,34.28,9.30">Figure 2</ref>, for example, shows one of the 89 petition forms submitted to the city of Baraboo to qualify the initiative. Each of the 10 lines of the petition (this was standard across all Wisconsin petitions) features preformatted space for the petitioner's signature, street address, municipality, and date of signing. The canvasser affixed her signature and address, attesting to the signatories' electoral qualifications.</p><p>For each of the 22 municipality-level petition drives, we assembled a database containing all information necessary to assemble a two-mode network database. We sampled a set of petition pages and then geocoded the addresses on each petition page. In our analyses, we define the primary unit of interest (the paths of petitioners on any identifiably distinct canvassing effort) as the petition page-date. In attempting to capture canvassing behavior, using the petition page alone may mislead because the petitions collected on separate days may represent two different data-generating processes. Use of page-date ensures that sequences of petitions analyzed on each page represent a contiguous canvassing effort.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>To test our hypotheses, we adopt methods that first classify canvasser strategies and then predict those strategies based on the geographic and social characteristics of the FIGURE 2 Example of an Antiwar Ballot Access Petition from Baraboo, Wisconsin petition signers. We employ a classification procedure based upon the two key elements we have discussed thus far for reverse engineering the canvasser choice problem. For each petition page-date, we calculate the distance per signature and the "route score" (the share of possible canvasser signature sequences whose total intersignature distance is longer than the route taken). We plot this route score against the average intersignatory distance and define cutting lines that classify as doorto-door any petition where either (1) the distance between signatures is shorter than 80% of all possible routes or (2) the average intersignatory distance is less than 0.25 kilometers. 12 <ref type="figure" coords="9,79.97,646.24,34.54,9.30">Figure 3</ref> illustrates the classification procedure for a set of petitions from the Milwaukee suburb of Wauwatosa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FIGURE 3 Distinguishing Door-to-Door from Attractor Method</head><p>Note: This figure displays the relationship between two criteriaroute score and distance per signature-jointly used to determine canvassing methods used in Wauwatosa, Wisconsin. Points that fall within the shaded region are classified as walked. A cluster of petitions have very short distances per signature. At the same time, several evidently door-to-door petitions required more travel per signature but involved extremely efficient routes. We classify all petitions in the gray shaded area as door-to-door. After recovering the method taken by each canvasser for each signature, we test the geographic and homophilyrelated predictions of our formal model using a linear probability model. In our model, the outcome is represented as a binary variable coded 1 when a door-todoor method was employed. We include as explanatory covariates the urban share, the median household income, the nonwhite share, and the Democratic presidential vote share. <ref type="bibr" coords="10,121.45,510.00,7.03,6.51">13</ref> In accordance with the homophily hypothesis (Hypothesis 2), we anticipate that canvassers will be more likely to choose a door-to-door method as social distance to the next potential signatory decreases. To test this hypothesis, we estimate the model on its own, with canvasser fixed effects, and with town fixed effects. <ref type="table" coords="10,59.76,649.24,28.67,9.30" target="#tab_1">Table 1</ref> presents the results from the model, which support key aspects of our hypotheses regarding social and geographic distance. In the first column of results, we observe a strong negative association between a precinct's minority population share and the predominantly white canvassers' tendency to go door-to-door. White canvassers apparently bear higher social distance costs in nonwhite neighborhoods, prompting them to abandon door-todoor strategies. Net other considerations, an area's median household income has a negative effect on the probability of going door-to-door. The effect of Democratic vote share, which might have led liberal canvassers to adopt a door-to-door method, cannot be distinguished from zero under the baseline model, though this result arises only after controlling for the other precinct-level characteristics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>The model with canvasser fixed effects illustrates how varying location characteristics predict different choices within each canvasser's effort. After accounting for the predictive value of the other factors in the regression, we find a negative association between both minority population share and median household income and doorto-door canvassing. In this specification, the effect of urban population share reverses. Overall, we find that canvassers' strategy depends on their beliefs about local support for the petition, as proxied by Democratic vote share-a result consistent with the core predictions of our model. The canvasser is sensitive to social distance costs and rationally targets neighborhoods with higher shares of prospective supporters using door-to-door canvassing.</p><p>Our last specification analyzes differences across canvassers within each town. Again, we find evidence for social distance effects. Democratic vote share is strongly associated with door-to-door petitioning, whereas nonwhite population share is negatively correlated.</p><p>Together, these estimates again suggest that canvassers go door-to-door in the locations where they expect to find the strongest support for their issue ex ante, and that canvassers refrain from going door-to-door when they face higher social distance costs.</p><p>These results hold up for a range of robustness checks. In <ref type="table" coords="10,326.67,580.17,31.16,9.30">Table A</ref>-1 in the supporting information, we reestimate the model using only the route score, and the results remain unchanged. The same is true when we use a lower threshold for the route score <ref type="table" coords="10,472.53,619.02,33.86,9.30">(Table A</ref>-2); when we remove outlier signatures to account for cases with incorrect addresses or signers who give a residential address <ref type="table" coords="10,338.63,657.88,47.67,9.30" target="#tab_3">(Table A-3)</ref>; when we use the route score, which is a continuous variable on the interval [0, 1] capturing the share of routes shorter than the actual route taken <ref type="table" coords="10,313.80,696.73,45.49,9.30">(Table A-4)</ref>; and, finally, when we use an alternate method for determining the location of petitions gathered using an attractor method (Table A-5).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Case Study: Social and Geographic Distance in Candidate Nominating Papers</head><p>As a supplement to the antiwar petitions, we examine canvasser behavior in ballot access petition drives conducted by U.S. Representative Gwen Moore. Unlike the antiwar initiatives, which are centered on a cause, a candidate's petitions are more likely to be geographically focused on that candidate's "friends and neighbors" constituency <ref type="bibr" coords="11,62.05,200.64,66.97,9.30" target="#b20">(Meredith 2013)</ref>.</p><p>Rep. Moore's case is instructive because her constituency expanded shortly before the period we are studying. As a state senator representing predominantly African American Northwest Milwaukee and several adjacent suburbs, Moore won the Democratic primary and was easily elected to the House of Representatives in 2004, and she has been reelected since. While nearly all of her district is majority Democratic, most of her support comes from her previous constituency, in the overwhelmingly landslide Democratic African American areas. Democrats, including Moore, enjoy more marginal support in the other, predominantly white areas of the district, including the traditionally white ethnic (mostly Polish) working-class suburbs of Cudahy and South Milwaukee. While these neighborhoods regularly elect Democrats to the state legislature, the area has historically been opposed to racial integration. (George Wallace, for example, considered the area one of his strongest bases and visited the area several times during his presidential bids; <ref type="bibr" coords="11,241.69,446.73,56.47,9.30" target="#b7">Carter 1996.)</ref> We geocoded the full set of nominating paper signatures (N = 2, 260) that Moore collected during June 2008 and submitted to the Wisconsin Government Accountability Board. 14 Friends-and-neighbors politics means that canvassers based among the core constituency would have been more likely to collect signatures from their immediate neighborhoods and their core constituencies (an instance of the social distance hypothesis). They face both higher travel costs and variable per-signature costs if they attempt to canvass in a distant, unfamiliar neighborhood. Canvassers should therefore collect signatures in geographically close and politically and socially friendly neighborhoods.</p><p>We present a map that clearly demonstrates the geographically and socially bounded search conducted by the Moore canvassers. <ref type="figure" coords="11,173.65,666.90,35.43,9.30">Figure 4</ref> displays Wisconsin's 4th Congressional District. Zip codes are color-coded <ref type="bibr" coords="11,62.05,712.32,5.74,5.31">14</ref> To facilitate rapid coding of the entire set of Moore petitions, we used signatories' self-reported zip code to identify their address. according to Obama's share of the two-party presidential vote in 2008. <ref type="bibr" coords="11,386.67,351.28,7.03,6.51">15</ref> We use dot plots to visualize the distribution of black and white residents within each block group, with each dot representing 100 individuals. Finally, we display the number of signatures by zip code using a random dot plot within each zip code, each dot representing 10 signatures. This graph starkly reveals the Moore canvassing effort's limited geographic bounds, which was confined almost entirely to her old state senate district. Regressing the weekly petition signature count each week on demographic <ref type="bibr" coords="11,408.30,469.61,101.68,9.30" target="#b11">(Fitch and Ruggles 2003)</ref> and political (Ansolabehere and Rodden 2012) variables, we show that canvassers concentrated their efforts on Moore's core constituency and did almost zero canvassing in the district's more marginal zip codes. In <ref type="table" coords="11,467.26,521.41,29.44,9.30" target="#tab_2">Table 2</ref>, we demonstrate the importance of neighborhood political support on canvasser targeting. Model 1 shows that for every 10 additional points in the Obama share of the two-party vote in 2008, Moore picked up about 10 additional signatures in the zip code in any given week. More importantly, canvassers modified their behavior over time, adopting a strategy that generated more signatures from core areas as the campaign progressed. In Week 1, a 90% Democratic zip code would have been expected to get only 10 more signatures than a 70% zip code. By Week 4, such zip codes were expected to get 27 more signatures. Over time, the core areas became more important to the canvass, consistent with the updating described in our model</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FIGURE 4 Moore Nominating Paper Signatures in WI-4, Race, and Partisanship</head><p>Note: This figure displays the high concentration of Moore signers in the predominantly black, and extremely Democratic, neighborhoods of Northwest Milwaukee. and supporting Hypothesis 3. A broad social implication of our model and evidence, then, is that the pursuit of efficient campaign strategies will result in petition canvassers neglecting more geographically and socially distant areas within districts.</p><p>Stepping back, it would appear that the implications of the Moore campaign's homophily in canvassing led to forfeited opportunities for mobilization. If the plausible evidence linking petition signing to later participation <ref type="bibr" coords="12,313.80,668.55,185.90,9.30" target="#b8">(Cruickshank, Edelmann, and Smith 2010;</ref><ref type="bibr" coords="12,504.01,668.55,45.93,9.30;12,313.80,681.50,22.60,9.30" target="#b17">John et al. 2013;</ref><ref type="bibr" coords="12,341.60,681.50,92.78,9.30" target="#b18">Lee and Hsieh 2013;</ref><ref type="bibr" coords="12,439.57,681.50,110.37,9.30;12,313.80,694.46,23.97,9.30" target="#b22">Parry, Smith, and Henry 2012)</ref> is to be believed, Rep. Moore's campaign lost "spillover mobilizing opportunities." Rep. Moore cleared her signature threshold but did not expand beyond her core constituency. Her campaign thus plausibly left on the table both signatures and associated district outreach opportunities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Case Study: Within-Petition Updating in NYC Antebellum</head><p>Antislavery Petitions, 1839</p><p>Petitions provided antebellum antislavery activists with a legitimated instrument for advancing their cause, with audiences ranging from the communities where petitions were signed to the legislatures and courts that received them. Canvassers in New York City traversed neighborhoods, attended meetings, and laid out petitions while searching for support, but when and how they chose to employ these strategies is less well known.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data and Methods</head><p>The source for this case study originates in the winter of 1839, when the House received and tabled a petition from 603 "voters" of New York City pleading for the abolition of slavery in the District of Columbia, in the Florida territory, and in trade among the states. 16 <ref type="figure" coords="13,62.05,398.10,36.71,9.30">Figure 5</ref> displays the petition's prayer, as well as the first few lines of signatures, with addresses. The second petition, also from the same locales and time period, prayed for congressional recognition of Haiti (another abolitionist cause). The abolitionists' decision to canvass in New York City highlights how canvassers must balance petition yield against local risks. As <ref type="bibr" coords="13,157.25,488.76,52.19,9.30" target="#b16">Jentz (1981)</ref> notes, a major antiabolitionist riot, lasting a week, had broken out in 1834, and the city was subject to unpredictable politics and high mobility. Yet our uncertainty hypothesis (Hypothesis 4) may suggest one reason why canvassers spent the time and energy they did in gathering signatures. Compared to known antislavery "hot spots" like western New York and Massachusetts where evangelical constituencies could be targeted <ref type="bibr" coords="13,113.79,592.38,124.25,9.30" target="#b6">(Carpenter and Moore 2014)</ref>, the value of learning in New York was higher, as less was known about the location of antislavery sympathizers. And, by virtue of the city's density, large numbers of signatures could be collected at low cost.</p><p>The construction of the signatory list marks a key characteristic of the antislavery petitions. Rather than collecting all signatures at once, groups of canvassers used different sheets of paper at different times, which were then glued together into one long, rolled document. Hence, similarly to the individual Wisconsin petition page-dates, this New York antislavery petition can be understood as a collection of smaller canvassing exercises. We therefore can use each petition page to classify the method used in groups of signatures that were gathered contiguously. As with the contemporary petitions, we can then estimate the incidence of door-to-door versus attractor strategies for individual petition pages and for the petitions as a whole. Some signatures were gathered by going door-todoor, as the American Antislavery Society recommended to its membership in 1837 <ref type="bibr" coords="13,436.95,243.42,73.27,9.30">(Jentz 1981, 103)</ref>, whereas other historical evidence points to the use of public meetings. For example, The Emancipator, an antislavery newspaper, reported a meeting held February 2, 1839, attended by famed abolitionist Lewis Tappan, who, among many others, signed a petition at the Chatham Street Chapel. Other Emancipator articles list similar meetings in Lower Manhattan around this time. <ref type="figure" coords="13,518.17,334.08,34.03,9.30" target="#fig_2">Figure 6</ref> displays a map of all signatures from the first petition in lower Manhattan. The plot confirms that signatures came from multiple neighborhoods, but they also came from households that were relatively close (easy walking distance) to the meeting sites.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Figure 7(a) shows the distribution of intersignatory distances (ISD) for each page of the antislavery petitions. The median distance per signature is almost 1 kilometer, which is a quite large distance considering that much traffic in Manhattan was on foot. One possible, albeit unlikely, explanation is that canvassers traveled door-to-door over long distances, meeting with failure so frequently that ISD values were large. More likely, canvassers employed the attractor method for most pages. The second plot in <ref type="figure" coords="13,327.88,580.16,34.32,9.30">Figure 7</ref>(a) displays the ratio of actual distance traveled to the shortest possible distance (according to the solution to the TSP). Because these petitions were effectively circulated in the same geographic locale, longer distances are more likely to indicate door-to-door canvassing. For the petitions we examine here, the median distance is roughly 1.75 times longer than the optimal route, reaching as high as four times greater than the optimal route.</p><p>By obtaining the distribution of distances of all possible routes, we may identify whether a route is short in relation to all other possible routes. <ref type="figure" coords="13,466.49,722.64,33.72,9.30">Figure 7</ref>(b) provides an example of the approach. The first plot displays information gathered from the ninth page (subpetition) of the 1839 antislavery petition. The canvasser collected signatures from 13 citizens, who listed 12 unique addresses. The sequence of distances between each location was 20.81kilometers-almost three times greater than the optimal path according to the TSP nearest-neighbor algorithm. Furthermore, the actual route between points is longer than 93% of all possible routes, strongly suggesting that the attractor method was adopted. The second plot, drawn from the 14th page of the petition, suggests a different story. This page contained nine signatures, each listing a unique address. The distance between these points if the canvasser traveled according to the solution to the TSP is 5 kilometers; the distance traveled for the actual route taken is just over 7 kilometers. To help assess, in relative terms, the route distance, we also compare the route taken to the full distribution of distances for possible routes. In this case, the route taken is shorter than 96.12% of all possible routes. Our classification method indicates that the canvasser walked this petition page.</p><p>We repeat this procedure for each page of the petitions and apply the same rule as before for classifying  Note: This figure displays our approach to determining whether a petition page was circulated door-to-door or according to an attractor method. Panel (a) displays the distribution of distance traveled per signature for each page of the two antislavery petitions, as well as the ratio of distance actually traveled to distance traveled under the nearest-neighbor TSP solution. Panels (b) and (c) display the relationship between the solution to the TSP, the distance of the route taken, and the distribution of all possible distances for two different pages from an 1839 antislavery petition canvassed in Lower Manhattan. Panel (d) exhibits the relationship between two of our criteria for determining canvassing method. Points that fall within the area of the shaded region are classified as walked.</p><p>the strategy taken for each page. <ref type="figure" coords="15,205.04,511.16,34.83,9.30">Figure 7</ref>(d) displays a plot of these two criteria for our first antislavery petition. We classify the petition pages that fall within the shaded gray area as following a door-to-door method.</p><p>Restricting the data to only petition pages canvassed door-to-door allows us to test additional predictions from the formal model. We evaluate Hypothesis 3-that termination of canvassing grows more likely as the signature rate in a locale declines (i.e., as ISD increases). In this empirical setup, each signature on a petition page is an observation. The last signature on a petition page marks the point at which the canvasser quit. <ref type="bibr" coords="15,226.35,651.86,7.03,6.51">17</ref> We estimate a fixed effects logit model in which the odds of quitting after gathering a given signature depend on lagged measures 17 Note that petition pages were long pieces of paper that could contain many signatures, and so we do not treat space on a page as a constraint. of intersignature distance. The model includes petitionpage fixed effects, so that the estimates result from variation within distinct petition-pages. Put simply, the model predicts when a canvasser will quit based on her recent experiences searching for signatories. <ref type="table" coords="15,334.03,575.91,29.81,9.30" target="#tab_3">Table 3</ref> presents odds ratios estimated using this approach. <ref type="bibr" coords="15,347.72,587.10,7.03,6.51">18</ref> In Specification 1, we estimate the relationship between the quitting indicator variable and lagged ISD, and we find that an increase of 1 kilometer in distance traveled to gather an additional signature is associated with increasing the odds of a canvasser quitting by more than one and a half times. We find an association of similar magnitude when examining the relationship between termination of canvassing and the distance between the signature from one period and the signature from two periods ago (in Specification 2). Specification 3, which considers the distance between the signature from two periods ago and three periods ago, does not illustrate the same relationship and instead results in a null effect. The period-to-period behavior of canvassers seems to depend primarily on their experience in the previous two periods. According to Specification 4, taking the moving average over the last two intersignatory distances produces a similar, but even larger, relationship. Finally, when we pool the data across all petition pages (both walked and laid out) and estimate heterogeneous effects, the relationship between lagged distance traveled and quitting holds only for the walked petitions, consistent with our predictions from the model. Intersignatory distance for an attractor method should have no bearing on quitting because the canvasser is not the one bearing the cost of traveling. <ref type="bibr" coords="16,279.29,583.23,7.03,6.51">19</ref> The empirical results presented in <ref type="table" coords="16,217.63,597.94,28.85,9.30" target="#tab_3">Table 3</ref> support the dynamic locale switching hypothesis (Hypothesis 3) from our theoretical model. Failed attempts to get signatures lead to diminished expectations about the next period and higher odds of quitting.</p><p>capturing the social milieus in which organizational recruiting, canvassing, and voter mobilization occur.</p><p>Our purpose in this article is not to suggest the final word on the subject, and our findings suggest additional research opportunities. For instance, consider the hypothesis of social distance influencing canvassing. One could imagine an experiment in which a white neighborhood is canvassed by different political activists, with canvassers of different social groups randomly assigned to starting locations of different types. Their dynamic canvassing behavior could be directly observed, and the hypothesized source of variation in canvasser behavior-social distance-would be randomly assigned. The implications of our model would appear not just in petition data, but could also be measured by tracking canvasser activity.</p><p>Indeed, further research should attempt to clarify how recruiters learn and adapt. For now, the evidence in support of Hypothesis 3 comes in the form of a two-period moving average of intersignatory distance. Depending on the locale, this function may take quite different forms. So too, observational and experimental tests of our uncertainty-variance hypothesis (Hypothesis 4) should be undertaken to identify the extent to which recruiters incorporate the "option value" of their next solicitation.</p><p>To be sure, not all forms of petitioning or mobilization fit our model, and online mobilization presents one challenge to our way of describing the canvass. In electronic recruiting, a canvasser will find it easy to generate multiple solicitations at a time, as when an electronic message is sent to dozens or hundreds of people simultaneously by including them in the carbon copy line, or when a message is posted on a website or a social media platform. At the same time, electronic recruiting typically has a very low yield. Even in these cases, our analyses suggest that it may be possible to observe the sequence of signatures, which may tell us something about the order in which recruiters win the assent of particular types of supporters. With other available data on electronic social networks, it may be possible to trace the electronic diffusion of a petition through online media, where the "canvassing" strategy and its efficacy will depend as much upon whom the next prospect knows as on what the canvasser does.</p><p>Person-to-person petitions signed with ink will undoubtedly remain an important part of plebiscitary and representative politics for years to come. Understanding canvassing as dynamic social prospecting, and focusing analytic attention upon the sequences revealed in observed signatory lists, provides insights into the everevolving process by which the frontline workers of political campaigns elicit support.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="7,346.64,61.47,123.41,10.63"><head></head><label></label><figDesc>The top panel in this figure displays a representative door-to-door route from Stoughton, Wisconsin, gathered in 2005; the bottom panel displays an example of probable attractor canvassing from New York City in 1839.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="14,111.04,62.11,248.04,10.63"><head></head><label></label><figDesc>This figure displays the prayer from the 1839 antislavery petition canvassed in Lower Manhattan.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="14,333.06,441.79,163.86,10.63;14,380.41,453.76,145.91,10.63"><head>FIGURE 6</head><label>6</label><figDesc>Geographic Location of Signatures, Lower ManhattanNote: This figure displays the locations of all signatures with addresses in Lower Manhattan. It also displays the location (large plus signs) of local meeting places where we believe petitions were laid out.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="15,84.82,62.11,287.07,10.63"><head></head><label></label><figDesc>FIGURE 7 Assessing Walked vs. Attractor Strategies in NYC</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="1,62.05,582.39,490.20,119.29"><head></head><label></label><figDesc>articulated and tested the "rational Clayton Nall is Assistant Professor, Department of Political Science, Stanford University, 616 Serra Street, Stanford, CA 94305 (nall@stanford.edu). Benjamin Schneer is Assistant Professor, Department of Political Science, Florida State University, 113 Collegiate Loop, 531 Bellamy, Tallahassee, FL 32306 (bschneer@fsu.edu). Daniel Carpenter is Freed Professor of Government, Department of Government, Harvard University, Center for Government and International Studies, 1737 Cambridge Street, Cambridge, MA 02138 (dcarpenter@gov.harvard.edu). We thank David Broockman, Jeffrey Friedman, Michael Heaney, Michael Herron, Eitan Hersh, Josh Kalla, Dean Lacy, Maggie McKinley, Melissa Sands, Sidney Verba, and discussants and audiences at the Dartmouth American Politics Workshop (2015) and the PolNet conference (2016). For research support, we acknowledge the Center for American Political Studies and the Radcliffe Institute for Advanced Study at Harvard University.</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="10,59.75,62.11,236.10,260.62"><head>TABLE 1</head><label>1</label><figDesc>Note: Standard errors are in parentheses. Observations are weighted with inverse probability weights to account for sampling scheme.</figDesc><table coords="10,59.75,62.11,236.09,232.56">Effect of Precinct Characteristics 
+on Pr(Walked) 
+
+Model 1 Model 2 Model 3 
+
+Constant 
+3.672 
+3.110 
+4.024 
+(1.118) 
+(1.850) 
+(1.907) 
+Urban Pop. Pct. 
+0.170 
+−0.236 
+−0.542 
+(0.094) 
+(0.150) 
+(0.571) 
+Nonwhite Pct. 
+−3.180 
+−3.129 
+−2.550 
+(0.509) 
+(0.899) 
+(0.700) 
+log(Median HH Inc.) 
+−0.272 
+−0.257 
+−0.452 
+(0.104) 
+(0.174) 
+(0.162) 
+Obama Vote Share 2008 −0.118 
+1.889 
+3.462 
+(0.307) 
+(1.082) 
+(0.780) 
+Fixed Effects 
+Canvasser 
+Town 
+N 
+492 
+470 
+492 
+Log Likelihood 
+−489.566 −302.872 −419.207 
+AIC 
+989.132 
+835.744 
+888.414 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="11,316.09,62.11,236.11,259.63"><head>TABLE 2</head><label>2</label><figDesc></figDesc><table coords="11,316.09,62.11,236.11,259.63">Predictors of Moore (WI-4) 
+Nominating Paper Signatures, by Zip 
+Code 
+
+Model 1 
+Model 2 
+
+Constant 
+−54.856 
+−8.874 
+(8.902) 
+(17.490) 
+Obama Two-Party Share, 2008 
+95.191 
+24.782 
+(15.382) 
+(27.662) 
+Canvass Week (1-4) 
+4.114 
+−14.279 
+(1.740) 
+(6.311) 
+Pop. per Sq. Mile, 2010 
+−0.001 
+−0.001 
+(0.001) 
+(0.001) 
+Obama Share × Week 
+28.164 
+(9.309) 
+N 
+144 
+144 
+R-squared 
+0.338 
+0.379 
+Adj. R-squared 
+0.324 
+0.361 
+
+Note: Standard errors are in parentheses. Observations are weighted 
+with inverse probability weights to account for sampling scheme. 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="16,59.76,62.11,490.22,295.02"><head>TABLE 3</head><label>3</label><figDesc>Odds Ratios: Effect of Intersignatory Distance on Pr(Quitting) Note: Standard errors are in parentheses. Models 1-4 are estimated using walked petitions only. Model 5 includes all petitions. Model 5 includes only interactions since the base terms are subsumed in the petition-page fixed effects. Null value for odds ratio estimates is one.</figDesc><table coords="16,59.76,87.45,490.16,241.63">Walked Petitions Only 
+Both 
+
+Model 1 
+Model 2 
+Model 3 
+Model 4 
+Model 5 
+
+ISD t−1 
+1.657 
+(0.228) 
+ISD t−2 
+1.995 
+(0.292) 
+ISD t−3 
+0.940 
+(0.546) 
+
+ISD t−1 +ISD t−2 
+2 
+
+2.555 
+
+(0.523) 
+
+WALK × ISD t−1 +ISD t−2 
+
+2 
+
+2.555 
+
+(0.523) 
+
+ATTRACT × ISD t−1 +ISD t−2 
+
+2 
+
+0.939 
+
+(0.445) 
+Number of Petition Pages 
+24 
+24 
+24 
+24 
+48 
+N 
+309 
+286 
+264 
+286 
+573 
+R-squared 
+0.021 
+0.031 
+0.0001 
+0.037 
+0.019 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">For example, black parents who petitioned for school desegregation in the American South faced economic coercion, including employment blacklists(Mickey 2015, 200-201).4  In addition, there is growing evidence that signing a petition is associated with subsequent participation. Recent evidence suggests that signing an electronic petition is a gateway to participation<ref type="bibr" coords="2,313.80,683.75,148.95,7.97" target="#b8">(Cruickshank, Edelmann, and Smith 2010)</ref>, and some experimental evidence testing the "foot in the door" persuasion method<ref type="bibr" coords="2,529.20,693.71,20.74,7.97;2,313.80,703.68,37.85,7.97" target="#b17">(John et al. 2013;</ref><ref type="bibr" coords="2,353.48,703.68,72.74,7.97" target="#b18">Lee and Hsieh 2013)</ref> supports our predictions. A recent observational study suggests that petition signers are more likely than nonsigners to vote later on<ref type="bibr" coords="2,429.54,723.60,111.68,7.97" target="#b22">(Parry, Smith, and Henry 2012)</ref>.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">This flow is memoryless (an arrival now neither increases nor decreases the chance of an arrival in the next period), and it is assumed that no more than one potential signatory can arrive in a given period.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6">The prior would be more "precise" if, for instance, it were based upon two successes in eight asks, more so if it were based upon five successes and 20 asks, and so on. A beta distribution with mean 1 4 would thus be a "mean-preserving spread" of one with mean 5 20 . We exploit the possibility of mean-preserving spreads in the formulation of Hypothesis 4.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10">While this algorithm does not always yield the exact solution to the TSP, it is accurate enough to be used as a benchmark for our purposes.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="11">As of fall 2008, when data for this project were first collected, most local governments in Wisconsin had retained copies of the original signature sheets submitted to qualify measures for the ballot and were required, under Wisconsin's Open Public Records Act, to provide these records on public request. We obtained and geocoded a sample of the petition data for 22 municipalities.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12">In the supporting information, we show the robustness of our results to various classification rules, including only using the route score, lowering the threshold for classifying a petition as walked, and removing outlier signatures.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="13">We use the Obama 2008 share of the two-party vote, which was measured after the petition campaign but correlates highly with Democratic vote share from earlier elections.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="15">We merged precinct-level data from<ref type="bibr" coords="11,456.39,713.64,95.81,7.97;11,316.09,723.60,23.84,7.97" target="#b0">Ansolabehere and Rodden (2012)</ref> with zip code tabulation area (ZCTA) data from 2008.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="16">Unlike the many petitions from New York that have received attention in the academic literature, this was a petition signed by men. Petition of Voters of New York City, tabled February 18, 1839; HR25A-H1.8, Folder 36 of 38; RG 233, NA.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="18">We present the logit coefficients inTable A-7 of the supporting information.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="19">In the supporting information, Tables A-8 through A-10 illustrate the results are robust to changes such as classifying petitions as walked using only the route score, lowering the route score cutoff threshold for a walked petition, and omitting outlier signatures.ConclusionAnalysis of petitions can contribute both theoretical rigor and empirical granularity to the study of political recruitment. Recruiters always perform their prospecting work sequentially, as not every prospect can be solicited at once. Petitions provide an archive of the sequences in which a recruiter's successes were experienced and recorded. In cases where other data are available on the signatories-for instance, in the associated address data examined in our empirical cases-the analyst can learn much about the "revealed" strategies adopted by the canvasser in recruiting signatories to her cause.20   We find that prospecting is indeed rational, but in ways that earlier models did not specify and that empirical analyses, because they lacked data on sequential behavior and learning, did not observe. Critically, we show that prospectors exhibit homophily, learn over time, and adjust within locales, adapting their strategies at each step of an arduous recruitment process. The recruiter in our dynamic prospecting model is embedded in a geographic and social space. This point about recruiters has rarely appeared in existing, survey-based approaches since national cross-sectional survey data are poorly suited to 20 See, for example, the rich social status data developed by<ref type="bibr" coords="16,522.49,703.68,27.39,7.97;16,313.80,713.64,23.84,7.97" target="#b25">Tulchin (2010)</ref> in his study of petitioning and the emergence of Protestantism in sixteenth-century France.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting Information</head><p>Additional Supporting Information may be found in the online version of this article at the publisher's website:</p><p>Supporting Information S1: Supporting Information includes the formal model and all proofs, as well as robustness checks with alternative models estimated upon the data.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="17,316.09,91.45,236.14,8.41;17,328.04,101.92,224.14,8.41;17,328.04,112.38,74.08,8.41" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Harvard Election Data Archive</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><surname>Ansolabehere</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><surname>Rodden</surname></persName>
+		</author>
+		<ptr target="http://projects.iq.harvard.edu/eda" />
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,125.82,236.05,8.41;17,328.04,136.29,224.17,8.41;17,328.04,146.75,224.20,8.41;17,328.04,157.21,21.45,8.41" xml:id="b1">
+	<monogr>
+		<title level="m" type="main">The Traveling Salesman Problem: A Computational Study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">L</forename><surname>Applegate</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Robert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vasek</forename><surname>Bixby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">J</forename><surname>Chvatal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cook</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Princeton, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,170.66,236.12,8.41;17,328.04,181.12,224.16,8.41;17,328.04,191.58,148.38,8.41" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Denumerable-Armed Bandits</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><forename type="middle">S</forename><surname>Banks</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rangarajan</forename><forename type="middle">K</forename><surname>Sundaram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Econometrica: Journal of the Econometric Society</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1071" to="96" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,205.03,236.12,8.41;17,328.04,215.49,101.76,8.41" xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Dynamic Programming</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><surname>Bellman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1957" />
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Princeton, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,228.94,236.16,8.41;17,328.04,239.40,224.15,8.41;17,328.04,249.86,66.39,8.41" xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Stochastic Optimal Control: The Discrete Time Case</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dimitri</forename><forename type="middle">P</forename><surname>Bertsekas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">Eugene</forename><surname>Shreve</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Athena Scientific</publisher>
+			<pubPlace>Belmont, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,263.31,236.13,8.41;17,328.04,273.77,224.16,8.41;17,328.04,284.23,224.17,8.41;17,328.04,294.69,124.16,8.41" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Prospecting for Participants: Rational Expectations and the Recruitment of Political Activists</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Henry</forename><forename type="middle">E</forename><surname>Brady</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sidney</forename><surname>Kay Lehman Schlozman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Verba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="153" to="68" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,308.14,236.14,8.41;17,328.04,318.60,224.14,8.41;17,328.04,329.06,224.16,8.41;17,328.04,339.53,139.07,8.41" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">When Canvassers Became Activists: Antislavery Petitioning and the Political Mobilization of American Women</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Colin</forename><forename type="middle">D</forename><surname>Moore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="479" to="98" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,352.97,236.12,8.41;17,328.04,363.43,224.17,8.41;17,328.04,373.90,75.18,8.41" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Legacy of Rage: George Wallace and the Transformation of American Politics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">T</forename><surname>Carter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Southern History</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="26" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,387.35,236.17,8.41;17,328.04,397.80,224.17,8.41;17,328.04,408.27,224.18,8.41;17,328.04,418.73,224.16,8.41;17,328.04,429.19,29.73,8.41" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Signing an E-Petition as a Transition from Lurking to Participation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Cruickshank</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Noella</forename><surname>Edelmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Colin</forename><forename type="middle">F</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Electronic Government and Electronic Participation</title>
+		<editor>J. Chappellet, et al.</editor>
+		<meeting><address><addrLine>Linz, Austria</addrLine></address></meeting>
+		<imprint>
+			<publisher>Trauner</publisher>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="275" to="82" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,442.64,236.10,8.41;17,328.04,453.10,224.14,8.41;17,328.04,463.56,224.17,8.41;17,328.04,474.03,29.73,8.41" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Increasing Inequality: The Effect of GOTV Mobilization on the Composition of the Electorate</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ryan</forename><surname>Enos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><surname>Fowler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lynn</forename><surname>Vavreck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Politics</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="273" to="88" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,487.47,236.15,8.41;17,328.04,497.93,224.18,8.41;17,328.04,508.40,224.18,8.41" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Party Activists as Campaign Advertisers: The Ground Game as a Principal-Agent Problem</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ryan</forename><surname>Enos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Eitan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hersh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="252" to="78" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,521.84,236.11,8.41;17,328.04,532.30,224.18,8.41;17,328.04,542.77,109.45,8.41" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Building the National Historical Geographic Information System</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine</forename><forename type="middle">A</forename><surname>Fitch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><surname>Ruggles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Historical Methods</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="41" to="51" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,556.21,236.12,8.41;17,328.04,566.67,224.12,8.41;17,328.04,577.14,224.18,8.41;17,328.04,587.60,83.25,8.41" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The Effects of Canvassing, Telephone Calls, and Direct Mail on Voter Turnout: A Field Experiment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alan</forename><forename type="middle">S</forename><surname>Gerber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><forename type="middle">P</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="653" to="63" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,601.04,236.09,8.41;17,328.04,611.51,224.23,8.41;17,328.04,621.97,24.06,8.41" xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Multi-armed Bandit Allocation Indices. Wiley-Interscience Series in Systems and Optimization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Gittins</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+			<publisher>Chichester: Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,635.42,236.11,8.41;17,328.04,645.88,224.22,8.41;17,328.04,656.34,190.50,8.41" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The Organizational Roots of Political Activism: Field Experiments on Creating a Relational Context</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hahrie</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="296" to="307" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,669.79,236.13,8.41;17,328.04,680.25,224.27,8.41;17,328.04,690.71,154.81,8.41" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Partisans, Nonpartisans, and the Antiwar Movement in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">T</forename><surname>Heaney</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fabio</forename><surname>Rojas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Politics Research</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="431" to="64" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,316.09,704.16,236.12,8.41;17,328.04,714.62,204.67,8.41" xml:id="b16">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">B</forename><surname>Jentz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Antislavery Constituency in Jacksonian</title>
+		<meeting><address><addrLine>New York City</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1981" />
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="101" to="123" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,62.75,236.10,8.41;18,71.71,73.21,224.18,8.41;18,71.71,83.67,224.19,8.41;18,71.71,94.13,224.17,8.41;18,71.71,104.59,88.34,8.41" xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Nudge, Nudge, Think, Think: Experimenting with Ways to Change Civic Behaviour</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sarah</forename><surname>Cotterill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Liz</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alice</forename><surname>Moseley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerry</forename><surname>Stoker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Graham</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Corinne</forename><surname>Wales</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hanhua</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hisako</forename><surname>Nomura</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<publisher>Bloomsbury Academic</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,118.05,236.13,8.41;18,71.71,128.50,224.21,8.41;18,71.71,138.96,224.16,8.41;18,71.71,149.43,224.21,8.41;18,71.71,159.89,29.73,8.41" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Does Slacktivism Hurt Activism? The Effects of Moral Balancing and Consistency in Online Activism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yu-Hao</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><surname>Hsieh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+		<meeting>the SIGCHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="811" to="831" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,173.33,236.10,8.41;18,71.71,183.80,224.19,8.41;18,71.71,194.26,64.99,8.41" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Recruitment to High-Risk Activism: The Case of Freedom Summer</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Douglas</forename><surname>Mcadam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="64" to="90" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,207.71,236.14,8.41;18,71.71,218.17,224.15,8.41;18,71.71,228.63,59.35,8.41" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Exploiting &apos;Friends and Neighbors&apos; to Estimate Coattail Effects</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marc</forename><surname>Meredith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="742" to="65" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,242.08,236.14,8.41;18,71.71,252.54,224.15,8.41;18,71.71,263.00,157.90,8.41" xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Paths out of Dixie: The Democratization of Authoritarian Enclaves in America&apos;s Deep South</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Mickey</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<publisher>Princeton University Press</publisher>
+			<biblScope unit="page" from="1944" to="1972" />
+			<pubPlace>Princeton, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,276.45,236.10,8.41;18,71.71,286.91,224.17,8.41;18,71.71,297.37,89.86,8.41" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The Impact of Petition Signing on Voter Turnout</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Janine</forename><forename type="middle">A</forename><surname>Parry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Daniel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shayne</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Henry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Behavior</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="117" to="153" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,62.75,236.11,8.41;18,325.75,73.21,224.17,8.41;18,325.75,83.68,43.11,8.41" xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Mobilization, Participation and Democracy in America</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><surname>Rosenstone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">M</forename><surname>Hansen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+			<publisher>Macmillan</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,97.12,236.12,8.41;18,325.76,107.58,224.17,8.41;18,325.76,118.05,151.38,8.41" xml:id="b24">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Wisconsin Legislative Reference Bureau. 2012. Initiative, Referendum, and Recall in Wisconsin. Brief</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,131.49,236.12,8.41;18,325.76,141.95,224.17,8.41;18,325.76,152.42,92.12,8.41" xml:id="b25">
+	<monogr>
+		<title level="m" type="main">That Men Would Praise the Lord: The Triumph of Protestantism in Nîmes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Allan</forename><surname>Tulchin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>Oxford University Press</publisher>
+			<biblScope unit="page" from="1530" to="1570" />
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

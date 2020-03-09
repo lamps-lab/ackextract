@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Breaking the Glass Ceiling: Local Gender-Based Earnings Inequality and Women&apos;s Belief in the American Dream</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Benjamin</forename><forename type="middle">J</forename><surname>Newman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Connecticut</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Political Science</orgName>
+								<orgName type="institution">University of Connecticut</orgName>
+								<address>
+									<addrLine>365 Fairfield Way, U-1024</addrLine>
+									<settlement>Storrs</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Breaking the Glass Ceiling: Local Gender-Based Earnings Inequality and Women&apos;s Belief in the American Dream</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:11+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This article ties together research on gender, income inequality, and political ideology, by exploring the effect of gender-based earnings inequality on women's belief in a fundamental tenet of the "American Dream"-meritocracy. Focusing on genderbased earnings inequality in women's local residential context, and drawing upon relative deprivation theory, this article argues that variation across local areas in the relative economic status of women should influence the ideological outlook of resident women. In contrast to relative deprivation theory, but consistent with rising expectations theory, I argue that ideological disillusionment should peak in contexts in which women's earnings fall closely behind men, and that ideological optimism should rebound in contexts in which women's earnings have achieved parity with that of men. Utilizing pooled survey data, I find strong evidence that individual women's belief in the American Dream varies according to whether local women's relative earnings indicate confrontation with or breaking of the "glass ceiling." CT 06269, (203)  251-9528 (benj.newman@uconn.edu). Data and replication materials are available at the AJPS Dataverse (http://thedata.harvard.edu/dvn/dv/ajps), doi:10.7910/DVN/29505. I would like to thank Jennifer Lawless for her encouragement of this research, Yamil R. Velez for his assistance in using QGIS, and the AJPS reviewers for helpful feedback and suggestions on prior versions of the article. on voter turnout (Galbraith and Hale 2008; Solt 2008) to the vital question of whether economic inequality leads to inequality in political representation and policymaking (Bartels 2008; Flavin 2012; Gilens 2012; Hayes 2013; Hacker and Pierson 2011).</p><p>What has yet to be addressed by scholars in the field is the persisting inequality in earnings that exists between men and women throughout the nation, and the possible effect of gender-based earnings inequality on the political attitudes and behavior of American women. Indeed, extant work offers myriad theories and hypotheses concerning the impact that income inequality should have on the attitudes of citizens (e.g., Kelly and Enns 2010), and a sizeable body of research explores the effects of race-based economic inequality on the attitudes of African Americans (e.g., Gay 2006;<ref type="bibr" coords="1,504.58,519.61,47.64,9.30;1,316.09,532.56,22.57,9.30" target="#b32">Hochschild 1996;</ref> Kinders and Winter 2001). At present, however, no comparable theory or analyses exists for what we should expect, if anything, for the political reaction of women to gender gaps in earnings.</p><p>One possible reason for this omission is that woman in the United States have made considerable absolute and relative gains in employment and earnings since the late</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Over the course of her career, a working woman with a college degree will earn, on average, hundreds of thousands of dollars less than a man who does the same work . . . .. That's wrong . . . . To anyone who says "Seventy-seven cents on the dollar sounds pretty close to equal," I say "Your math is bad . . . . You wouldn't like it if your vote only counted in three out of four elections . . . . You wouldn't like it if you were forced to work every fourth day without pay" . . . . Men would be complaining about that! They wouldn't think that was equal or fair. This is the twenty-first century, it's time to close that gap.</p><p>-President Barak Obama. Remarks by the President, June 10, 2013 R esearch in American politics has seen a resurgence of interest in the topic of income inequality and in the exploration of its relationship to public opinion and policymaking. This literature has explored issues ranging from public awareness of rising inequality <ref type="bibr" coords="1,62.05,609.41,57.38,9.30">(Bartels 2008;</ref><ref type="bibr" coords="1,121.72,609.41,56.38,9.30" target="#b46">McCall 2013)</ref> and the impact of inequality 1970s <ref type="bibr" coords="2,85.39,62.10,55.41,9.30">(O'Neil 2003)</ref>. For example, the female-to-male ratio of median annual earnings was .60 in 1980 and rose to .76 by the turn of the century. While falling short of parity with men, this growth in relative earnings represents an advance for women, and has been accompanied by advances in the political arena as women began voting in presidential elections at greater rates than men during this period and saw significant increases in the entry of women into elected office, such as an increase from 3.6% of seats in Congress in 1975 to 18.5% in 2013. While worthy of note, celebration of these gains is tempered by the fact that the median American woman at present earns only 72 cents for each dollar earned by the median man, 1 and that gender gaps persist in forms of participation beyond voting <ref type="bibr" coords="2,112.33,243.42,79.88,9.30" target="#b54">(Paxton et al. 2007)</ref>, in political interest and knowledge <ref type="bibr" coords="2,107.97,256.37,110.80,9.30">(Carpini and Keeter 2005;</ref><ref type="bibr" coords="2,222.03,256.37,73.85,9.30" target="#b68">Verba et al. 1997;</ref><ref type="bibr" coords="2,59.76,269.33,135.67,9.30">cf. Mondak and Anderson 2004)</ref> and in the political ambition and representation of women <ref type="bibr" coords="2,221.27,282.28,74.57,9.30;2,59.76,295.23,22.06,9.30" target="#b20">(Fox and Lawless 2010)</ref>.</p><p>In surveying the terrain of potential political consequences for gender-based earnings inequality, one starting point is to look for effects on the ideological beliefs of women, as these attitudinal orientations serve as important precursors to latter political phenomenon for which gender gaps abound, such as partisanship and policy preferences <ref type="bibr" coords="2,94.30,385.88,132.22,9.30" target="#b12">(Box-Steffensmeier et al. 2004;</ref><ref type="bibr" coords="2,230.50,385.88,65.37,9.30">Kaufman 2006;</ref><ref type="bibr" coords="2,59.76,398.83,115.91,9.30" target="#b60">Shapiro and Mahajan 1986)</ref>. Of the range of ideological beliefs susceptible to influence by gender inequality in pay, one frontrunner of importance is belief in the "American Dream" <ref type="bibr" coords="2,95.90,437.68,76.79,9.30" target="#b32">(Hochschild 1996;</ref><ref type="bibr" coords="2,175.38,437.68,116.09,9.30">Schlozman and Verba 1979)</ref>, and more specifically, adherence to the notion that economic success can be achieved through individual hard work and initiative-otherwise known as "meritocracy." Belief in meritocratic ideology has been shown to be politically important because it serves as a powerful antecedent of support for social welfare spending and government redistribution <ref type="bibr" coords="2,120.47,528.35,126.96,9.30">(Alesina and La Ferrarra 2005;</ref><ref type="bibr" coords="2,249.83,528.35,46.04,9.30" target="#b19">Fong 2001;</ref><ref type="bibr" coords="2,59.76,541.30,52.88,9.30" target="#b26">Gilens 1999;</ref><ref type="bibr" coords="2,116.33,541.30,125.06,9.30" target="#b30">Hasenfeld and Rafferty 1989;</ref><ref type="bibr" coords="2,245.09,541.30,50.79,9.30;2,59.76,554.25,50.12,9.30" target="#b40">Kluegel and Smith 1986;</ref><ref type="bibr" coords="2,112.31,554.25,52.20,9.30" target="#b42">Larsen 2008)</ref>. Moreover, mass belief in meritocratic ideology is particularly important in the case of the United States as scholars have long offered Americans' accentuated belief in meritocracy as a key factor explaining the low level of mass support for redistribution and high level of economic inequality in the United States relative to most European nations <ref type="bibr" coords="2,191.16,631.96,80.29,9.30" target="#b1">(Alesina et al. 2001)</ref>. One research question of interest that lies at the intersection of the study of gender and politics, income inequality, and political ideology is whether women's belief in mer-itocracy is influenced by the existence and magnitude of gender inequality in income.</p><p>Within the United States, significant spatial variation exists across local labor markets in earnings ratios between men and women, with many women residing in places where women's earnings lag far behind those of men or in contexts in which women have achieved (or surpassed) parity in income with men. While extant scholarship has analyzed the impact of spatial variation in subnational income inequality on citizens' perceptions of overall economic inequality (Author 2014; <ref type="bibr" coords="2,517.46,191.62,32.43,9.30;2,313.80,204.57,58.06,9.30" target="#b70">Xu and Garand 2010)</ref>, at present, no known scholarship analyzes the effect of spatial variation in local gender-based earnings inequality on the political attitudes of women. Synthesizing research on gender and political resources, context and empowerment, and relative deprivation theory, this article develops a theory of ideological belief among women that focuses on the relative economic resources held by the women surrounding a woman as a contextual factor influencing her belief in meritocratic ideology. In contrast to an orthodox relative deprivation approach, however, in which theory would predict greater discontent among women in contexts in which resource discrepancies between women and men are largest, I draw upon rising expectations theory <ref type="bibr" coords="2,449.64,372.93,81.95,9.30" target="#b25">(Geshwender 1964)</ref> and organizational research on "glass ceiling" effects <ref type="bibr" coords="2,509.87,385.88,40.09,9.30;2,313.80,398.83,48.28,9.30" target="#b10">(Blau and Kahn 2003;</ref><ref type="bibr" coords="2,365.29,398.83,52.28,9.30" target="#b69">Wirth 2001)</ref> to argue that women's discontent with the economic system, and thus, disillusionment with meritocracy, will be maximized in contexts in which women's earnings fall more closely behind those of men. Such contexts are characterized by advances in the relative economic resources and status of women, but also by a "topping-out" of women's resources and status close to but still below men.</p><p>Drawing upon a large sample of women from pooled national survey data, I demonstrate that individual women's belief in meritocratic ideology varies in a nonlinear fashion as a function of local earnings inequality between women and men. Women's disillusionment with meritocracy significantly increases when moving from contexts in which women's earnings lag far behind those of men to contexts in which female earnings lag more closely behind those of men. When moving from these latter contexts to those in which women's income have achieved or surpassed parity with men, I observe a significant restoration of belief in meritocracy among women. Validity tests uncover that these findings are endemic to women, as men's belief in meritocracy is entirely insensitive to local variation in gender pay inequality. Additional analyses intended to corroborate the theoretical mechanism underlying these findings for women reveal that the peaking in rejection of meritocracy in contexts in which women's incomes lag closely behind men's is underscored by a parallel peaking in women's perception of discrimination in the workplace, attribution of positive traits to women and negative traits to men, and demand for social change in pursuit of equal rights. Last, I demonstrate that the effect of local earnings inequality on women's political attitudes is conditional upon levels of political discussion, suggesting the importance of women's social networks in effectuating a relationship between local gender pay inequality and political attitudes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mass Belief in Meritocracy: Gender, Resources, and Empowerment</head><p>The notion that the achievement of economic success is based upon individual agency (i.e., hard work, initiative, ability) versus external factors (i.e., luck, inherited wealth, connections) constitutes the essence of meritocratic ideology <ref type="bibr" coords="3,87.37,322.13,98.96,9.30" target="#b43">(Ledgerwood et al. 2011</ref>) and stands as a core tenet of the "American Dream" <ref type="bibr" coords="3,168.23,335.08,75.17,9.30" target="#b32">(Hochschild 1996)</ref>. Of the work measuring public belief in meritocracy, the majority is focused on drawing cross-national comparisons in mass belief about the causes of poverty and wealth <ref type="bibr" coords="3,244.38,373.94,53.82,9.30" target="#b41">(Kreidl 2000;</ref><ref type="bibr" coords="3,62.05,386.89,123.16,9.30" target="#b53">Oorschot and Halman 2000)</ref> or on analyzing the effect of meritocratic beliefs on support for government social welfare provision <ref type="bibr" coords="3,158.45,412.79,51.66,9.30" target="#b19">(Fong 2001;</ref><ref type="bibr" coords="3,214.25,412.79,79.42,9.30;3,62.05,425.74,44.90,9.30" target="#b30">Hasenfeld and Rafferty 1989;</ref><ref type="bibr" coords="3,109.73,425.74,52.58,9.30" target="#b42">Larsen 2008)</ref>. In the small body of work that focuses on analyzing the sources of mass belief in meritocracy, scholarship finds a distinct gender gap, where women are significantly less likely to believe in meritocracy than men <ref type="bibr" coords="3,129.60,477.55,115.59,9.30" target="#b17">(Fisman and O'Neill 2009;</ref><ref type="bibr" coords="3,249.26,477.55,48.90,9.30" target="#b33">Hunt 1996;</ref><ref type="bibr" coords="3,62.05,490.50,99.57,9.30" target="#b40">Kluegel and Smith 1986</ref>). Knowledge about the sources of this gender gap is very limited, with little known beyond the facts that race <ref type="bibr" coords="3,167.54,516.40,106.35,9.30" target="#b40">(Kluegel and Smith 1986</ref>) and belief in traditional family structure <ref type="bibr" coords="3,213.04,529.36,85.18,9.30;3,62.05,542.32,19.16,9.30" target="#b17">(Fisman and O'Neill 2009</ref>) are significant factors predicting women's acceptance versus rejection of meritocratic ideology. In short, despite the centrality of meritocracy to American political ideology and its importance in shaping mass policy preferences, our current level of understanding of the causes of this particular gender gap as well as the sources of variation in belief in meritocracy among women is distinctly lacking.</p><p>What is noticeably absent from the literature is an attempt to link women's belief in meritocratic ideology to objective indicators of the economic status of women as a group. While scholars have offered women's historical experience of subjugation and discrimination <ref type="bibr" coords="3,255.05,697.73,43.13,9.30;3,62.05,710.68,78.16,9.30" target="#b21">(Furnham and Procter 1989)</ref> and persisting gender differences in labor market outcomes <ref type="bibr" coords="3,413.99,62.11,88.57,9.30">(Fisman and O'Neill)</ref> as potential explanations for gender differences in meritocratic belief, little scholarly effort has been invested in uncovering a systematic relationship between variation over time or across space in gender gaps in pay and promotions and women's belief in meritocratic ideology. This omission is noteworthy given the presence of research emphasizing the personal acquisition of socioeconomic resources <ref type="bibr" coords="3,398.87,165.72,79.56,9.30" target="#b54">Paxton et al. 2007;</ref><ref type="bibr" coords="3,481.90,165.72,70.32,9.30;3,316.09,178.68,19.17,9.30" target="#b59">Schlozman et al. 1994</ref>) as well as political context and descriptive representation <ref type="bibr" coords="3,366.89,191.63,120.90,9.30" target="#b6">(Atkeson and Carrillo 2007;</ref><ref type="bibr" coords="3,491.76,191.63,60.46,9.30" target="#b5">Atkeson 2003;</ref><ref type="bibr" coords="3,316.09,204.58,57.58,9.30" target="#b29">Hansen 1997;</ref><ref type="bibr" coords="3,376.74,204.58,114.88,9.30" target="#b57">Reingold and Harrell 2010;</ref><ref type="bibr" coords="3,494.69,204.58,57.51,9.30;3,316.09,217.53,22.60,9.30" target="#b58">Sanbonmatsu 2003;</ref><ref type="bibr" coords="3,341.12,217.53,49.59,9.30" target="#b66">Ulbig 2007)</ref> in shaping the political empowerment and engagement of women. The evolution of women in politics is thus not only a story of the elimination of the institutional barriers to the participation of women, but also of the structural changes in society and in the economy that led to the entrance of women into the workforce and to the substantial increases in women's acquisition of socioeconomic resources <ref type="bibr" coords="3,489.78,308.18,62.49,9.30;3,316.09,321.13,56.66,9.30" target="#b35">(Inglehart and Norris 2000;</ref><ref type="bibr" coords="3,379.60,321.13,136.61,9.30" target="#b36">Iversen and Rosenbluth 2006;</ref><ref type="bibr" coords="3,523.06,321.13,29.17,9.30;3,316.09,334.08,44.25,9.30" target="#b54">Paxton et al. 2007)</ref>.</p><p>Of particular importance within this developmental process is the acquisition of economic resources, as historians, anthropologists, and social theorists alike have long contended that command over economic resources serves as an important source of social power <ref type="bibr" coords="3,502.63,398.84,49.55,9.30" target="#b15">(Earle 1997;</ref><ref type="bibr" coords="3,316.09,411.79,45.75,9.30" target="#b45">Mann 1986</ref>). This insight has been translated by gender scholars into the expectation that women's entry into the labor force and increasing importance as income earners should empower them relative to men in household settings, which in turn, should spill over into broader social and political life <ref type="bibr" coords="3,502.66,476.56,49.57,9.30;3,316.09,489.51,74.62,9.30" target="#b36">Iversen and Rosenbluth 2006;</ref><ref type="bibr" coords="3,421.45,489.51,115.77,9.30" target="#b35">Inglehart and Norris 2000)</ref>. If the personal acquisition of economic resources, as well as residence in contexts in which women are politically powerful, is individually empowering to a woman, it stands to reason that residing in context in which women as a group possess empowering economic resources could have an empowering effect on resident women. Indeed, prior research demonstrates that women are more prevalent in elected office in cities and states where women have higher levels of labor force participation, high-status jobs, business ownership, and income <ref type="bibr" coords="3,455.66,619.02,73.50,9.30" target="#b3">(Arceneaux 2001;</ref><ref type="bibr" coords="3,531.99,619.02,15.18,9.30;3,316.09,631.97,104.29,9.30" target="#b51">Norrander and Wilcox 1998;</ref><ref type="bibr" coords="3,423.30,631.97,68.88,9.30" target="#b62">Smith et al. 2012</ref>). These findings strongly suggest the operation of an empowerment effect for women rooted in the collective socioeconomic resources of women. Such an empowerment effect, in addition to influencing the political ambition and electoral success of women, may exert an observable influence on women's ideological outlook.</p><p>Such an effect could be effectuated by "substantive" and "symbolic" processes. 2 Substantively, the collective resources of women could influence individual women via context-bound socialization experiences (i.e., the presence of high-status women and role models during childhood development) and contemporaneous network effects (i.e., present-time interpersonal contact with higherstatus women). If the acquisition of socioeconomic resources translate into political knowledge, interest, efficacy, and participation among individual women, then residing in a context in which women collectively have more resources should translate into growing up around, and recurrently coming into contact with, women who are more politically empowered and engaged. Symbolically, the collective resources of women could influence individual women through the psychological benefit experienced by members of marginalized groups from seeing members of their group socioeconomically thriving and in positions of power and authority. Such observations, according to theories developed in the Black empowerment literature (e.g., <ref type="bibr" coords="4,152.87,321.13,130.73,9.30" target="#b64">Spence and McClerking 2010)</ref> as well as in the gender and descriptive representation literature, involves the availability of positive role models <ref type="bibr" coords="4,59.76,359.98,135.34,9.30">(Campbell and Wolbrecht 2006)</ref>, an erosion of the perceived hegemonic control of positions of power by the dominant group, and increases in the collective efficacy and self-esteem of group members.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Local Earnings Inequality and Women's Belief in Meritocracy</head><p>While the earning, and amount, of income are important resources for the empowerment of women, a potentially more powerful indicator is the earnings of women relative to men. This assertion is consistent with research on "family power" that indicates that women's authority within their household expands as their earnings match or surpass that of men <ref type="bibr" coords="4,154.93,566.82,97.27,9.30" target="#b9">(Baxter and Kane 1995;</ref><ref type="bibr" coords="4,254.47,566.82,41.34,9.30;4,59.76,579.77,80.88,9.30" target="#b11">Blumberg and Coleman 1989;</ref><ref type="bibr" coords="4,142.81,579.77,69.09,9.30" target="#b48">McDonald 1980)</ref>; it is also consistent with research on interracial relations, which indicates that members of minority groups react less to the absolute resources held by their group than to the resources held by their group relative to a salient comparison groups <ref type="bibr" coords="4,275.60,631.58,20.27,9.30;4,59.76,644.53,22.05,9.30" target="#b23">(Gay 2006)</ref>. Thus, while having high incomes provides women with an important empowerment resource, having more income than men could have an even more powerful "treatment effect." This logic suggests the importance of the ratio of earnings between men and women in a local area as a contextual variable of potential importance in the generation of local female empowerment. Indeed, a dominant measure of the economic status of women relative to men is the ratio of median earnings of women to men, often referred to as the "wage gap" or "earnings inequality" <ref type="bibr" coords="4,313.80,152.76,59.33,9.30" target="#b52">(O'Neill 2003)</ref>. As more women in a particular area acquire economic resources matching or surpassing those of local men, there could, in theory, occur an accruing of the empowering benefits of the improved relative economic position of women that translates into an empowerment effect for all resident women. Such an empowering effect may, in turn, influence women's beliefs about the fairness of the economic system and extent to which the system is believed to contain gender biases that undermine the operation of putative processes like meritocracy.</p><p>In conceptualizing an empowering context for women that focuses on the earnings of women relative to men, a key theoretical issue to address pertains to the functional form of the potential effect of gender-based earnings inequality on the empowerment of women. More specifically, what guidance does existing literature provide in the development of hypotheses concerning the effect of local variation in pay inequality on women's belief in the fairness of the economic system and degree of reward for hard work?</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Relative Deprivation, Rising Expectations, and Glass Ceiling Effects</head><p>Relative deprivation theory (RDT) argues that intergroup conflict stems from perceptions of inequity and feelings of deprivation and frustration due to one's group holding fewer resources than a relevant comparison group (Walker and Pettigrew 1984). One highly intuitive hypothesis stemming from RDT would be that residing in a context in which women earn far less than men would be disempowering for women and enhance their feelings of relative deprivation, which in turn, should augment their sense of the unfairness of the economic system and concomitant rejection of meritocratic ideology. According to RDT, inter-group conflict can be attenuated with the installment of parity between conflicting groups on the relevant dimension(s) of comparison. By this logic, we would expect women residing in contexts in which women earn incomes equal to or surpassing those of men to perceive the economic system as operating more equitably, and thus, more likely to uphold the existence of meritocracy.</p><p>While the relative deprivation literature directs our attention toward evaluating relative resource shares, it also provides a source of theoretical caution against the expectation of a positive linear relationship between earnings equalization and belief in meritocracy among women. Rising expectations theory (RET) <ref type="bibr" coords="5,203.55,126.85,90.59,9.30;5,62.05,139.80,50.83,9.30" target="#b16">(Feierabend and Feierabend 1966;</ref><ref type="bibr" coords="5,115.56,139.80,76.83,9.30" target="#b25">Geshwender 1964;</ref><ref type="bibr" coords="5,195.07,139.80,50.90,9.30" target="#b65">Taylor 1982)</ref>, which theorists position as a subcategory of RDT, argues that improvements in one's material situation will be accompanied by the exponential growth in the expectation of, and aspiration for, more gains, which in turn, can lead to acute political discontent when gone unrealized. When applied to inter-group relations, this theory suggests that intergroup conflict, rather than being most pronounced when relative differences between groups are largest, may be more intensive following the achievement of a significant advance in material conditions and status of a subordinate group that ultimately fails to achieve the end result of parity with a dominant group. According to RET, this is due to the achievement of a gain stimulating the desire for more and larger gains, which when coupled with the persistence of subordinate status to a dominant comparison group, generates an acute form of relative deprivation. When translated to a theory of the effect of gender-based earnings inequality on women's belief in meritocracy, this theory suggests maximal disillusionment with the economic system in contexts in which women have made gains in earnings relative to men, but find themselves persisting in being behind men in earnings and status. In other words, the theory suggests a nonlinear effect of earnings inequality on feelings of relative deprivation among women. This suggestion is reinforced by gender and organizational scholarship on "glass ceilings" <ref type="bibr" coords="5,230.09,489.49,68.08,9.30;5,62.05,502.44,22.60,9.30" target="#b50">(Morrison et al. 1994;</ref><ref type="bibr" coords="5,87.62,502.44,118.96,9.30" target="#b55">Powell and Butterfield 1994)</ref>. Glass ceilings can be defined as the actual and/or perceived barrier in place within occupational or organizational settings that limits the upward mobility of women with respect to pay and promotions. One expectation flowing from the glass ceiling concept is that the perception of inequity and feelings of discontent should be maximal among women when actually and/or perceptually confronting a glass ceiling <ref type="bibr" coords="5,62.05,606.05,127.88,9.30" target="#b44">(Lyness and Thompson 1997)</ref>. In practice, this means that female discontent, rather than being maximal when situated at the bottom of a hierarchy, is instead maximized at some "topping-out" point involving ascension from the bottom, but halting at some mid-range location just below the highest level locations monopolized by men. Indeed, studies on gender inequality within organizations finds that women's experience of discrimination increases as they rise the workplace hierarchy <ref type="bibr" coords="5,275.33,709.67,22.84,9.30;5,62.05,722.63,64.60,9.30" target="#b10">(Blau and Kahn 2003;</ref><ref type="bibr" coords="5,128.51,722.63,49.04,9.30">Wirth 2000)</ref>, and that wage discrepancies between men and women intensify at the upper end of the wage distribution <ref type="bibr" coords="5,405.19,75.05,84.08,9.30" target="#b0">(Albrecht et al. 2003)</ref>. The glass ceiling concept is thus highly compatible with RET in that both suggest a nonlinear effect of the relative status of women to men, where female dissatisfaction is expected to be maximal in situations in which women find themselves advanced beyond the bottom and occupying some intermediate point in male dominated hierarchies. In theory, discontent should be maximal at this point because women have ascended from the bottom (i.e., achieved gains) and entered into a subsequent higher level of resource competition with men involving the emergence of expectations and aspirations of a greater order of magnitude than that presumably present prior to ascent from the bottom of a hierarchy. Thus, rather than focusing on the total distance between men and women in the possession of resources as the point where deprivation is maximized, RET and work on the glass ceiling direct attention to locations proximate to, but just below, men, and to a theoretical inflection point or threshold along this distance continuum, where deprivation is maximized and then subsides as parity is reached.</p><p>When translating glass ceiling effects to a theory of the effect of local gender pay inequality on women's views toward the fairness of the economic system, the resulting expectation is that female empowerment will follow a nonlinear development trajectory as women's earnings increase relative to men's earnings. To be sure, women's sense of empowerment may be diminished when confronting a glass ceiling, and thus, empowerment might suffer as women approach a topping-out point in relative economic earnings, and then subside as women achieve and potentially surpass parity with men. In terms of dissatisfaction with the economic system and disillusionment with meritocratic ideology, women should be maximally disillusioned when residing in a context in which women's incomes are close to, but just an arm's length behind, the incomes of men. In such contexts, the presence of a glass ceiling should be more salient to women as their position and earnings have advanced from the lowest relative earnings level, but are now lagging closely behind those of men. This expectation will be called the Glass Ceiling Hypothesis. In terms of mechanisms, women should be more likely to reject meritocracy in these contexts because they induce a greater level of gender consciousness, which involves awareness of gender discrimination and an intensified desire for procuring gender equality. In theory, the inducing of gender consciousness should stem from the experiences of individual women confronting glass ceilings disseminated to other women through their social networks across myriad domains (e.g., family, neighborhood, work, etc.). Notes: All Pew surveys are nationally representative samples of the adult American population in the continental United States. All interviews were conducted by telephone using RDD. N * is the available sample used for the analysis, or "effective sample" after accounting for missing data due to variation in questionnaire formats used in the 2011 Typology Survey. The 2011 Typology survey contained 2 randomly assigned questionnaire formats (Typology A and Typology B questionnaires), with key covariates (e.g., employment status) only available in questionnaire B, thus restricting the analysis to the N = 1,525 respondents randomly assigned to questionnaire B.</p><p>In contexts in which woman's incomes have achieved or surpassed parity with men's incomes, and thus, their local frame of reference offers a signal of equality with or success over men, we should expect a strong empowerment effect, with the result being that women are more likely to view the economic system as fair and to uphold it as meritocratic. According to relative deprivation theory, such satisfaction with the economic system is not obtained because women are doing well in an absolute sense, but because they are doing well relative to men who serve as a comparison group. This expectation is labeled the Parity Hypothesis. Combined, the Glass Ceiling and Parity hypotheses stipulate a nonlinear, concave quadratic effect of local gender-based earnings inequality on women's likelihood of rejecting meritocratic ideology: As women's incomes increase from the bottom and approach those of men, the theoretical expectation is increasing awareness of the glass ceiling and disillusionment with meritocracy; as women's incomes converge upon those of men's and surpass them, such that women are now the dominant "read winners," the theoretical expectation is empowerment, and thus, a significant decline in the salience of the glass ceiling and concomitant decline in skepticism toward the returns for individual hard work and initiative.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data and Methods</head><p>To test these hypotheses, I draw upon a dataset constructed by pooling together five nationally representative surveys of the adult American population conducted by the Pew Research Center over the 2008-12 period. These surveys are listed in <ref type="table" coords="6,441.53,324.09,31.80,9.30" target="#tab_0">Table 1</ref>, which provides information about collection dates and sample sizes. The principal characteristics leading to the selection of these 5 surveys were their common possession of (1) questions measuring belief in meritocracy as well as necessary control variables, and (2) inclusion of geocodes for each respondents' county of residence. By pooling this data, my analysis draws upon the survey responses of more than 6,000 women, which offers the benefits of higher-powered statistical tests and greater precision in parameter estimation.</p><p>To measure gender-based earnings inequality, I utilized data from the 2008-12 American Community Survey (ACS) of the U.S. Census Bureau on median annual earnings at the county level for men and women who are employed full-time and work year-round. Using this data, a variable was created for each county, labeled Earnings Inequality, which is the ratio of median earnings for women to men. This ratio is the standard measure of the gender pay gap in the economics literature <ref type="bibr" coords="6,460.15,570.17,89.80,9.30">(Blau and Kahn 1992;</ref><ref type="bibr" coords="6,313.80,583.12,57.85,9.30" target="#b52">O'Neill 2003)</ref> and is used to track gender pay inequality by the Organisation for Economic Co-operation and Development (OECD). In the nation as a whole, county Earnings Inequality ranges from .19 to 1.73, with a mean of .67 and a standard deviation of .10. The interpretation of these values is straightforward; for example, a value of .67 for a county would indicate that on average, for every dollar earned by men in the county, women earned roughly 67 cents. Thus, values below 1.0 indicate that women earn less than men on average; a value of 1.0 indicates that women's earnings are on average equal to men's;</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FIGURE 1 County-Level Map of Earnings Inequality in the United States</head><p>Source: Data from the American Community Survey 2008-12 5-year file. and a value above 1.0 indicates that women's earnings on average surpass those of men's. Given the hypothesizing of nonlinear effects for this variable, a quadratic term was created from this variable, labeled Earnings Inequality. 3 <ref type="figure" coords="7,79.97,377.13,34.23,9.30">Figure 1</ref> presents a map of county-level Earnings Inequality throughout the nation. As can be seen, areas where women's earnings lag far behind men tend to be concentrated in the mountain states, Midwest, and deep South, though earnings-unequal counties (i.e., white in color) do appear in nearly every state. Conversely, more earnings-equal counties tend to be concentrated in the West, Mid Atlantic, and Northeast; though again, such counties appear in nearly all states. Within my merged Pew data, and for female respondents, Earnings Inequality ranges from .348 to 1.14, with a mean of .71 and standard deviation of .08. 3 Tables B1 and B2 in the Supplemental Appendix provide correlations between Earnings Inequality and other county-level variables nationally <ref type="table" coords="7,254.54,545.50,43.58,9.30" target="#tab_0">(Table B1)</ref> and among the counties within my merged Pew data (Table B2). Within the Pew data, there are moderate positive relationships between Earnings Inequality and county total population (r = .35), population density (r = .32), and black population (r = .40), suggesting modest evidence for the potential intuition that urban contexts are 3 Given the large variance and relatively low standard deviation of this variable, one possible concern is the presence of influential outliers. Post-estimation analysis of the main results presented in <ref type="table" coords="7,62.05,687.73,25.71,7.97" target="#tab_1">Table 2</ref> uncovered few highly influential cases, and the key results for female respondents presented in <ref type="table" coords="7,193.41,697.69,25.62,7.97" target="#tab_1">Table 2</ref> hold when the model is re-estimated excluding these cases. For more information, see <ref type="figure" coords="7,62.05,717.62,35.14,7.97">Figure C1</ref> and <ref type="table" coords="7,114.85,717.62,31.32,7.97" target="#tab_0">Table C1</ref> in Supplemental Appendix C. more gender-equitable. Earnings Inequality is weakly correlated to overall income inequality (Gini) across counties nationally (r = .23) and moderately correlated across counties in the Pew data (r = .46), and is negatively correlated to median household income nationally (r = -.16) and within my data (r = -.15). The strongest relationship to appear in the Pew data was between Earnings Inequality and political context (r = -.57), indicating the tendency for women's earnings to improve relative to men's in politically left-leaning contexts.</p><p>The central construct I seek to explain is individual belief in meritocracy, which centers upon the idea that the economic system rewards individuals based upon their hard work and ability, and that one can achieve economic success through such means. The rejection of meritocratic ideology should therefore involve belief in the opposing idea that the achievement of wealth and success, rather than being due to hard work alone, is determined by external forces outside of individual control, such as good luck, inherited privileges and resources, political connections, and other forms of structural advantage. To measure the extent to which respondent's reject meritocratic ideology, I rely upon their level of agreement with the following 2 statements presented to them in the Pew surveys:</p><p>(1) "Success in life is pretty much determined by forces outside our control," and (2) "Hard work and determination are no guarantee of success for most people." Use of these items is consistent with the measurement of meritocratic ideology in prior research <ref type="bibr" coords="7,462.43,687.97,49.86,9.30" target="#b19">(Fong 2001;</ref><ref type="bibr" coords="7,514.59,687.97,37.61,9.30;7,316.09,700.93,22.61,9.30">Jost et al. 2003;</ref><ref type="bibr" coords="7,341.15,700.93,102.23,9.30" target="#b40">Kluegel and Smith 1986;</ref><ref type="bibr" coords="7,445.84,700.93,72.17,9.30">Hochschild 1995)</ref>. Across the 5 Pew surveys merged in my analysis, respondents were asked to report their level of agreement or disagreement with one (2008 Middle Class, 2012 Middle Class) or both <ref type="bibr" coords="8,81.88,88.00,23.97,9.30" target="#b8">(2009</ref><ref type="bibr" coords="8,108.36,88.00,51.96,9.30">Values, 2011</ref><ref type="bibr" coords="8,162.83,88.00,99.81,9.30">Political Typology, 2012</ref> Values) of these statements. Across the 5 surveys, a dichotomous item was constructed, labeled Meritocracy, which is coded "1" for respondents who agreed with the statement presented to them, or with both statements when presented with both. <ref type="bibr" coords="8,103.15,151.01,3.51,6.51">4</ref> The frequency of rejection of Meritocracy for each survey is presented in <ref type="table" coords="8,173.01,165.71,28.34,9.30" target="#tab_0">Table 1</ref>. As can be seen, rejection of meritocratic ideology is quite stable across these 5 surveys, and is relatively stable for both men and women, though women tend to reject meritocracy at a slightly higher rate than men.</p><p>My analysis includes several controls. At the county level, controls were included for median earnings and median earnings squared; the inclusion of both of these controls ensures that the estimated effects of Earnings Inequality and Earnings Inequality 2 are capturing the (nonlinear) effects of contextual differences in the relative earnings of men and women rather than differences in earnings and wealth in general. All analyses control for the Gini Coefficient in a respondent's county, as the inclusion of this variable ensures that the effects of genderbased Earnings Inequality are estimated holding constant variation in general income inequality. To ensure that variation in Earnings Inequality is not tapping contextual variation in other indicators of the socioeconomic resources of women, all analyses control for the percent of all firms within a county that are owned by women (labeled Female-Owned Business) and the percent of women 25 years or older within each county who have a bachelor, degree or higher (labeled Educated Women). Interestingly, these 2 variables are only weakly correlated with Earnings Inequality and with one another within my data: r = .27 for Female Business Owners and Educated Women, r = .35 for Earnings Inequality and Female-owned Business, and r = .18 for Earnings Inequality and Educated Women.</p><p>Additionally, the analysis includes contextual controls for unemployment as well as population density and total population size-which ensure that the estimated effects of Earnings Inequality are not picking up the effects of urbanicity. Next, prior research finds that gender wage gaps are lower among workers in the public sector <ref type="bibr" coords="8,271.96,606.07,19.14,9.30;8,59.76,619.02,83.86,9.30">(Arulampalum et al. 2007</ref>; Baron and Cobb-Clark 2010); thus, controlling for the percent of workers in the county employed in the public sector (labeled Public Sector Size) is essential to avoid omitted variable bias as it is possible it predicts both gender pay inequality and perceptions of the economic system. Importantly, I include a countylevel control for political climate, measured as the percent of voters within each county voting for the Republican presidential candidate in the 2008 election. This control ensures that any effects observed for Earnings Inequality are not tapping into contextual variation in political culture and partisan leanings, which may exert strong effects on resident women's views toward meritocracy. Last of the contextual controls is a dummy variable for Female Governor and a measure of the percent of seats in state legislatures held by women (labeled Female Legislators) 5 as prior research has firmly established that descriptive representation has an empowering effect on women, and thus, may influence their attitudes toward meritocracy.</p><p>At the individual level, my analysis includes standard demographic (education, income, age, race, employment status, marital status) and political controls (partisanship, ideological self-identification, and religious attendance). Finally, my analysis also includes survey-year dummies (i.e., fixed-effects) to account for average differences in belief in meritocracy across the Pew surveys. These dummies thus introduce controls for variation across time and samples in my pooled data. For more information about variable measurement, descriptive statistics, and sources of contextual data, see Supplemental Appendices A and B.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Given the hierarchical structure of the data, where respondents are embedded within counties, I utilized random intercept logistic regression models. <ref type="bibr" coords="8,461.57,483.11,3.51,6.51">6</ref> The results for these models are presented in <ref type="table" coords="8,416.58,497.82,28.70,9.30" target="#tab_1">Table 2</ref>. I estimated a model for women and men in order to assess whether the hypothesized effects of empowerment for women are endemic to women or are observed for both women and men. In this way, the results for men can be thought of as serving as a "validity test," in that I expect processes of relative deprivation and empowerment deriving from variation 5 These data were obtained from the "Historical Fact Sheet-Women in Statewide Elective Executive Office 2002-2012" and "Historical Fact Sheet-Women in State Legislature 1975-2013" provided by the Center for American Women in Politics, Eagleton Institute, Rutgers University. <ref type="bibr" coords="8,313.80,652.54,2.87,5.31">6</ref> This model, otherwise known as a "random effects" model, treats group-level (i.e., county) intercepts as a random variable, uses partial pooling to estimate cluster means (i.e., county-level intercepts), and is desirable in the present case because it controls for the biasing effect of correlations in regression errors by county (i.e., unobserved heterogeneity) <ref type="bibr" coords="8,413.13,703.68,86.28,7.97">(Gelman and Hill 2007)</ref>. It should be noted that when the models in <ref type="table" coords="8,425.35,713.64,37.40,7.97" target="#tab_1">Tables 2-4</ref> were re-estimated using simple logit or ordered logit models, all key results remain intact. in Earnings Inequality to operate for women only. Indeed, if men's attitudes follow the same pattern as women's, it would indicate that women's attitudes toward meritocracy, rather than being driven by variation in relative deprivation and empowerment, are instead being driven by an un-theorized and un-modeled process that is affecting women and men alike. The results in <ref type="table" coords="9,240.11,716.69,30.43,9.30" target="#tab_1">Table 2</ref> reveal that this is not the case. As can be seen, women's belief in meritocracy is significantly influenced by local variation in the gender pay gap, but men's attitudes are not. For women, as hypothesized, the pay gap exerts nonlinear effects, as the coefficient for Earnings Inequality is positive and significant, and that for the quadratic term is negative and significant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FIGURE 2 The Effect of Local Earnings Inequality on Belief in Meritocracy among Women</head><p>To illustrate these effects as well as their magnitude, <ref type="figure" coords="10,59.76,383.74,34.75,9.30">Figure 2</ref> displays the predicted probability of the rejecting meritocratic ideology among women across values of Earnings Inequality using the "observed-value" approach <ref type="bibr" coords="10,59.76,422.61,115.67,9.30" target="#b28">(Hanmer and Kalkan 2013)</ref>. This figure reveals striking nonlinearity in the effect of pay inequality. In contexts in which women's earnings are extremely low relative to men's, rejection of meritocratic ideology is very low. Consistent with the Glass Ceiling Hypothesis, women are most likely to see the economic system as unfair and to reject meritocracy when they reside in contexts in which women's incomes, on average, are competitive with men's but fall just behind. Indeed, the tipping point is .75, which indicates that American women are most likely to evince disillusionment with the "American Dream" when they reside in contexts in which women on average earn 75 cents for every dollar earned by men. The figure reveals, however, that as women's average earnings move closer to parity with men's, there is a steep decline in the probability of rejection of meritocracy. To be sure, in contexts in which women's earnings on average surpass those of their local male counterparts, individual women in such contexts are significantly more likely to view the system as fair and as rewarding individual effort with economic success. 7 Tables E1 and E2 in Supplemental Appendix E demonstrate that, with respect to the effects of Earnings Inequality, the significant results for women as well as the null results for men hold when using zip code, rather than county, as the measure of respondents' local context.</p><p>These findings constitute unprecedented evidence that (1) women's attitudes systematically vary with the local gender gap in earnings, and (2) women's discontent with the "system" is most pronounced in contexts in which the average woman finds her earnings in the running with men, but finishing the race behind them. As a point of reiteration, alongside these results for women, it was uncovered that the attitudes of American men were completely unaffected by local variation in gender-based pay inequality. Indeed, in addition to having a statistically insignificant effect, Earnings Inequality had a negligible effect for men <ref type="bibr" coords="10,395.32,565.07,56.56,9.30" target="#b56">(Rainey 2014)</ref>, as changes in Earnings Inequality are associated with miniscule changes in the probability of rejecting meritocracy. 8 Interestingly, while men's belief in meritocracy was not responsive to gender pay inequality, they were more responsive than women's (p&lt;.01), and the Pr (Y = Reject Meritocracy) as Earnings Inequality moves from .75 to 1.1 is -.123 (p&lt;.05).</p><p>beliefs to the presence of female-owned business and state legislators. These effects, however, do not consistently emerge in other analyses (i.e., Tables 4, D1, E2), and are countered by the finding in <ref type="table" coords="11,178.43,100.95,37.31,9.30" target="#tab_0">Table D1</ref> (Supplemental Appendix D) that, unlike women, men's support for social change to achieve equal rights significantly declines with increases in Female Legislators. Together, these findings suggest that while men's optimism toward meritocracy is responsive to specific symbols of female power, observation of these forms of female power among men at the same time has the countervailing effect of eroding support for societal efforts to further empower women relative to men. Such findings are reminiscent of the "double-edged sword" effect of black empowerment on white racial attitudes uncovered by <ref type="bibr" coords="11,145.20,243.42,117.64,9.30" target="#b67">Valentino and Brader (2011)</ref>.</p><p>Turning to the controls, <ref type="table" coords="11,183.64,256.37,30.13,9.30" target="#tab_1">Table 2</ref> reveals that women who reside in contexts in which more of their gender is highly educated evince more optimism about the returns for hard work and fidelity to meritocratic ideology. Similar to the effects for Earnings Inequality, this effect is not observed for men. Turning to the individual-level controls, I find some expected patterns of effects. Among both women and men, education, income, and identifying with the political right decrease rejection of meritocracy, while being unemployed increases ideological disillusionment. Thus, we see intimations of self-interest in ideological outlook among men and women as a function of personal economic position, where lower income and unemployed men and women are each more likely to reject the "system" as un-meritocratic. Some interesting effects also emerged at the intersection of gender and race, as non-white men were consistently more likely to reject meritocracy, and black and Asian women's attitudes do not differ from their white counterparts. Interestingly, among Latinas/os, we see diverging effects for gender, where Latino men are significantly more likely to reject meritocracy than white men and Latina women are significantly more likely to believe in meritocracy than white women. These diverging results at the intersection of race and gender reinforce the importance of incorporating gendered racial identity in analyses of public opinion and political behavior (see <ref type="bibr" coords="11,156.31,593.11,53.67,9.30" target="#b61">Simien 2007)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evidence in Support of the Theorized Mechanisms</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Glass Ceiling Salience and Female Gender Consciousness</head><p>Explanation of the results presented up to this point rely heavily on the theoretical presumption that residing in contexts in which women's incomes lag closely behind those of men heightens the salience of the glass ceiling for women, and results in a general activation of female gender consciousness. While the results presented thus far for meritocratic attitudes are suggestive of this presumed effect, they do not provide a direct demonstration of it. In the absence of such a demonstration, one could remain skeptical about the results, suspicious of omitted variables, and doubtful concerning whether women's beliefs about glass ceilings and gender discrimination systematically vary with county-level variation in actual earnings inequality. To provide such evidence, I turn to the 2008 Pew Research Center Poll on Gender (N = 2,250), a rare and invaluable nationally representative survey rich in questions about discrimination against women and the status of gender equality in American society.</p><p>To corroborate the theorized mechanisms underlying the findings for women's belief in meritocracy, I draw upon items in this Pew survey asking about: (1) beliefs concerning barriers to women's professional advancement, focusing on a) discrimination against women in business, and b) the existence of "old-boy" networks holding women down; (2) positive and negative trait attribution for men and women, which serve as measures of in-group favoritism and out-group derogation; and (3) whether the United States has achieved equal rights for men and women or whether more changes are needed to give women equal rights with men. For information about question wordings and variable measurement, see Supplemental Appendix A. The results from analysis of these items are presented in <ref type="table" coords="11,409.30,437.69,28.21,9.30" target="#tab_3">Table 3</ref>, and the effects of Earnings Inequality on these variables are displayed graphically in <ref type="figure" coords="11,316.09,463.60,32.88,9.30">Figure 3</ref>, Panels A through E.</p><p>The results in <ref type="table" coords="11,393.76,476.55,29.87,9.30" target="#tab_3">Table 3</ref> strongly corroborate the Glass Ceiling and Parity hypotheses as women are most likely to perceive gender discrimination (column 1) and maledominated networks (column 2) holding women down professionally when they reside in local areas where women's incomes, rather than being far below or equal to those of men, place them just a few rungs below men on the income ladder. Interestingly, Panels A and B of <ref type="figure" coords="11,535.46,567.21,12.57,9.30;11,316.09,580.16,20.37,9.30">Figure 3</ref> reveal that the tipping point for the effect of Earnings Inequality on these variables is nearly the same as the one observed for meritocratic attitudes-roughly .75. Turning to trait attributions, the results in <ref type="table" coords="11,478.82,619.02,73.42,9.30;12,58.63,701.56,10.63,27.87;12,58.63,693.31,10.63,5.86" target="#tab_3">Table 3 (columns TABLE 3</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Contextual Controls</head><p>Median Earnings   women's incomes lag closely behind men's. Thus, beyond bolstering the perceived existence of a glass ceiling holding women down professionally, residing in such contexts activates other indicators of female gender consciousness, such as in-group favoritism and out-group derogation when it comes to trait attribution for men and women. Last, when it comes to appraisal of the achievement of equal rights in America, women residing in contexts in which their earnings trail closely behind men's are significantly more likely than women in other contexts to believe that more changes are still needed in order for women to have equal rights to men.</p><p>What is striking about these results as a whole is their consistency and magnitude. Indeed, Panels A through E of <ref type="figure" coords="13,326.82,243.42,33.96,9.30">Figure 3</ref> reveal that the spike in predicted probabilities of the variables under analysis in moving from minimum Earnings Inequality to values hovering at the .75 mark is at minimum .25, and the subsequent drop in predicted probabilities in moving from the .75 mark to parity is .10 or more. Moreover, the first differences in the predicted probability of each dependent when Earnings Inequality moves from minimum to roughly .75 are statistically significant, as are the first differences when Earnings Inequality moves from .75 to 1. <ref type="table" coords="13,443.56,359.98,36.18,9.30" target="#tab_0">Table E1</ref> in Supplemental Appendix E demonstrates that key results from this analysis hold when using zip code, rather than county, as the measure of respondents' local context. On a final note, when re-estimating the models presented in <ref type="table" coords="13,506.21,411.79,30.43,9.30" target="#tab_3">Table 3</ref> for men only (presented in <ref type="table" coords="13,420.67,424.74,38.50,9.30" target="#tab_0">Table D1</ref> in Supplemental Appendix D), no significant effects were observed for Earnings Inequality, illustrating again the unique sensitivity of women alone to contextual variation in the collective and relative socioeconomic resources of women.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Social Networks and Political Discussion</head><p>The results from the previous section demonstrate that residing in a context in which women's earnings lag closely behind men's is systematically related to women's perception of glass ceilings in the workplace and several key indicators of female group identity and consciousness. What has yet to be subjected to empirical analysis is the theoretical presumption that "glass ceiling" context effects are effectuated by the transmission of information and experiences among women within their residential contexts. As theorized above, residing in a context in which women's earnings lag closely behind men's should influence the attitudes of resident women via contact and discussion with co-resident women confronting glass ceilings. In other words, grievances over confronting glass ceilings as well as over the objective local reality of the</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FIGURE 3 The Effect of Local Earnings Inequality on "Glass Ceiling" Perceptions, Trait Attributions, and the Perceived Status of Gender Equality in the Nation (Female Respondents)</head><p>"freezing" of women's economic status just below that of men should be transmitted among women through political discussion with the co-resident friends and acquaintances. Thus, to the extent that residing in a just below earnings-equal context generates perceived gender discrimination at work or demand for equal rights among women, such an effect ought to be conditional upon the degree of political discussion in their social networks. Subjecting this theorized process to empirical testing places a tall order on extant survey data. However, the 2005 Citizenship, Involvement, Democracy (CID) Survey 10 is one of the few extant surveys useful for testing this theoretical presumption as it provides (1) a measure of respondents' reported degree of political discussion with people in their community, (2) reported beliefs about the importance of gender representation in politics, and (3) geocodes to merge the survey data with contextual data from the Census. Of the N = 1,001 respondents in the CID, N = 563 are women. The independent variable for this analysis is Earnings Inequality in respondents' county of residence, based upon incomeby-sex data from the 2000 Decennial Census. The moderating variable for this analysis is network Political Discussion, measured with an item asking: "When you talk to your neighbors, how often do you discuss political issues?" This item is coded to range from (1)-"Never," (2)-"Rarely," (3)-"Sometimes," and (4)-"Usually," and was recoded to range from "0" to "1." The dependent variable in this analysis taps female gender consciousness via the demand for female Political Representation; respondents were asked to report their agreement with the statement: "It is important for government officials to represent my gender." The variable constructed from this item is dichotomous, and coded "1" for those in agreement with the statement, and "0" for those expressing disagreement or uncertainty.</p><p>In the 2005 CID, respondents were sampled across 98 counties, and the range of Earnings Inequality is from .26 to .72, which covers only a limited range of the variable's total range, and does not include respondents in any counties where women's average earnings achieve or surpass parity with men. However, this range includes counties labeled by the present theory as "glass ceiling" contexts. Indeed, the high value of Earnings Inequality in the CID is close to the tipping point value (ß.75) revealed in prior analyses (i.e., <ref type="figure" coords="15,187.79,657.87,70.38,9.30">Figures 1 and 2)</ref> at which <ref type="bibr" coords="15,62.05,682.43,5.74,5.31">10</ref> The 2005 CID was conducted by the Center for Democracy and Civil Society at Georgetown University. The CID is a nationally representative sample of N = 1,001 adult Americans, relying upon face-to-face interviews. For more information, see: http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/4607. point the substantive effect of Earnings Inequality on meritocratic attitudes and perceived discrimination and other variables was maximal, and after which the effect drastically declined. Thus, the CID affords the opportunity to explore the effect of Earnings Inequality on the demand for Political Representation across a range of values of Earnings Inequality that my theory predicts, and presented empirical results suggest, will be linear and positive. <ref type="table" coords="15,334.03,178.67,30.62,9.30" target="#tab_4">Table 4</ref> presents the results from multilevel models with random intercepts and coefficients, 11 where Political Representation is regressed upon Earnings Inequality, Political Discussion, the interaction of these 2 variables, and the same set of controls included in prior analyses. <ref type="bibr" coords="15,544.71,228.72,7.03,6.51">12</ref> The results are presented for women and men separately. Focusing on the results for women, the interaction term between Earnings Inequality and Political Discussion is positive and statistically significant, indicating that while the marginal effect of Earnings Inequality among women who "never" discuss politics is negative but insignificant (B = 1.89, SE = 1.42, ns), this effect undergoes a significant reversal as political discussion increases. Indeed, among women who "usually" discuss politics, the estimated coefficient for the effect of Earnings Inequality on Political Representation is positive and significant (B = 6.82, SE = 3.57, p = .056). These results demonstrate that in the absence of political discussion among women with their neighbors, residing in a context in which women's earnings lag closely behind men's has no effect on the importance placed upon women's political representation. However, when political discussion is routine, and thus, transmission of political information, experiences, and attitudes is presumably high, residing in such a context is associated with a significant and substantively large 13 increase in support for female political representation. In looking to the column of results for male respondents, <ref type="bibr" coords="15,316.09,540.96,5.74,5.31">11</ref> For this analysis, a random coefficient model was used because I wish to assess a cross-level interaction between county Earnings Inequality and individual-level Political Discussion. A random coefficient model is an appropriate model to use when assessing whether a relationship between lower-level X and Y units (Political Discussion and Political Representation) varies across higher-level (county) units, otherwise known as "causal heterogeneity." 12 All contextual controls are based upon data obtained from the 2000 Decennial Census. Female Governor is a dummy variable coded "1" for states with Female Governors in 2005. Female Legislators is the percent of seats in state legislatures in 2005 held by women. Republican Vote is the percent of votes in each county earned by George W. Bush in the 2004 Presidential Election. <ref type="bibr" coords="15,316.09,682.43,5.74,5.31">13</ref> Post-estimation analysis of predicted probabilities reveals that moving from 5th to 95th percentile values of Earnings Inequality (when Political Discussion is highest) was associated with a .53 increase in the probability of agreeing that female political representation is important. which provides a useful validity test, the results reveal null effects for Earnings Inequality and Political Discussion. These findings corroborate a key piece of the theorized causal process underlying the Glass Ceiling Hypothesis. That is, they are suggestive of the importance of context-bound social networks and interpersonal political communication in facilitating the translation of the objective condition of the "topping-out" of local women's relative earnings into a contextual effect manifest on resident women's political attitudes. Again, it is important to reiterate that the validity test in <ref type="table" coords="16,462.44,673.78,30.35,9.30" target="#tab_4">Table 4</ref> revealed that such effects were not observed among men, indicating the unique responsiveness of women to local gender-based economic inequality as well as the unique role of social networks in arousing women's responsiveness to such inequality. 14</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>On April 8, 2014, President Barack Obama issued an Executive Order that required federal contractors to make publicly available compensation data by race and gender. This directive, among others contained in the order, were done with the explicit intention of addressing outstanding gender inequality in the nation, and the Executive Order itself was introduced with the intention of mobilizing support among American women for a forthcoming bill in Congress-the Paycheck Fairness Act-that would make it easier to bring suit against companies for gender discrimination in pay and promotions. These measures are being introduced against the backdrop of national earnings data providing hard evidence that the pay of American women still lags behind that of American men. Despite the importance of pay inequality as a political issue as well as its status as a paramount litmus test for the advance of women and achievement of gender equality, political science has yet to investigate variation in gender pay inequality in local labor markets throughout the nation or to empirically analyze the consequences of this variation on women's political attitudes and behavior.</p><p>This article makes an important contribution whose location lies at the intersection of research on gender and politics, income inequality, and political ideology. First, this article builds upon prior work on female empowerment by offering theory and empirical evidence of the importance of the collective resources held by women relative to men as a contextual source of empowerment for women. To be sure, while prior work demonstrates the importance of the absolute level of collective resources held by women in shaping female empowerment <ref type="bibr" coords="17,87.00,539.77,81.46,9.30" target="#b54">(Paxton et al. 2007)</ref>, the theory and evidence presented here highlight the importance of the relative collective resources of women in shaping women's fidelity to the American Dream and desire for social change. Second, this article contributes to the burgeoning body of work on income inequality by extending this literature's <ref type="bibr" coords="17,62.05,630.63,5.74,5.31">14</ref> The pattern of results presented in <ref type="table" coords="17,195.98,631.95,25.89,7.97" target="#tab_4">Table 4</ref> hold when using zip code-level instead of county-level contextual data (see <ref type="table" coords="17,266.39,641.90,31.79,7.97" target="#tab_3">Table E3</ref> in Supplemental Appendix E), though the interaction between Earnings Inequality and Political Discussion does slightly weaken in significance (B = 5.83, SE = 3.34, p = .08). The retention of the hypothesized effects at this substantially smaller level of geographic aggregation confers additional confidence toward social network communication as a key mechanism underlying the Glass Ceiling Hypothesis.</p><p>focus through analysis of the effects of income inequality between men and women. A core feature of the inequality literature is analysis of the factors influencing beliefs about economic fairness and meritocracy, as such beliefs strongly influence support for liberal economic policy <ref type="bibr" coords="17,316.09,126.85,50.81,9.30" target="#b19">(Fong 2001;</ref><ref type="bibr" coords="17,370.17,126.85,99.87,9.30">Kluegal and Smith 1986</ref>). This article contributes to this literature by demonstrating the contextual sources of women's belief in meritocracy as well as heterogeneity across the sexes in the effects of such contextual predictors. Last, this article contributes to the study of political ideology by offering a set of nuanced and robust findings for the effect of women's economic context on their belief in a core tenet of the American Dream. Thus, rather than being driven purely by symbolic orientations, group identity, or personal economic position, the findings reveal that women's belief in meritocracy is heavily driven by tangible group-level economic outcomes. The findings presented here reveal that not only are women's beliefs in the American Dream responsive to local variation in the economic resources of women, they are highly responsive to the resources of women relative to men.</p><p>This article represents an important step in what could potentially be a fruitful new vein of research on the political consequences of the gender pay gap. A natural follow-up question for future research is whether the effects reported here for earnings inequality extend from political attitudes to behaviors, such as voting and political activism. For example, given that residence in a context in which women's earnings lag closely behind men's was found to be linked to perceptions of discrimination, ideological disillusionment, and demand for equal rights, this might, in turn, motivate concrete behaviors intended to remedy gender inequality, such as liberal voting, voting for female candidates, contribution to female candidates, and greater levels of involvement in women's organizations. Indeed, as grievances with "the system" have long been theorized as a source of political activism and protest <ref type="bibr" coords="17,316.09,554.25,50.05,9.30">(Gurr 1970;</ref><ref type="bibr" coords="17,369.12,554.25,81.22,9.30">Klandermans 2003)</ref>, one implication of the results presented here is that gender pay gaps in local labor markets may serve as a diffuse "bottom-up" catalyst for political activism among women. Similarly, given the solid vein of research on political ambition among women <ref type="bibr" coords="17,316.09,619.01,101.24,9.30" target="#b20">(Fox and Lawless 2010)</ref>, future work could determine whether local earnings inequality, and the demonstrated dissatisfaction it generates among women, factors into the development of political ambition among women. Future research could also assess the theory and findings from the present research within a comparative context, and assess whether cross-national differences in gender pay inequality influence mean differences in women's attitudes and behavior across nations as well as whether women in other countries are as responsive as American women to local gender gaps in pay.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="12,58.63,668.19,10.63,19.15;12,58.63,630.58,10.63,35.23;12,58.63,618.11,10.63,10.09;12,58.63,571.09,10.63,44.63;12,58.63,517.58,10.63,51.12;12,58.63,502.19,10.63,13.01;12,58.63,449.08,10.63,50.72;12,58.63,395.87,10.63,50.84;12,58.63,347.57,10.63,45.92;12,58.63,305.70,10.63,39.47;12,58.63,235.46,10.63,67.85;12,83.32,514.50,8.86,34.07;12,83.32,504.04,8.86,8.46;12,83.32,464.08,8.86,37.97;12,83.32,111.86,8.86,30.61;12,83.32,75.18,8.86,34.69;12,96.27,510.05,8.86,51.11;12,96.27,451.53,8.86,56.54;12,96.27,311.34,8.86,23.87;12,96.27,300.96,8.86,8.38;12,96.27,280.48,8.86,18.49;12,96.27,262.86,8.86,15.63;12,96.27,228.84,8.86,32.03;12,96.27,119.90,8.86,8.49;12,96.27,89.28,8.86,28.64;12,124.17,528.32,8.86,63.15;12,124.17,454.28,8.86,34.21;12,124.17,413.52,8.86,38.56;12,124.17,334.82,8.86,37.04;12,124.17,307.56,8.86,25.25;12,124.17,262.00,8.86,3.49;12,124.17,219.86,8.86,42.15;12,124.17,183.04,8.86,34.62;12,124.17,132.59,8.86,21.29;12,124.17,95.93,8.86,34.47;12,124.17,63.76,8.86,29.97;12,152.06,587.42,8.86,6.14;12,152.06,521.74,8.86,10.47;12,152.06,476.80,8.86,6.14;12,152.06,414.60,8.86,10.47;12,152.06,369.66,8.86,6.14;12,152.06,301.57,8.86,10.47;12,152.06,254.21,8.86,6.14;12,152.06,186.12,8.86,10.47;12,152.06,138.76,8.86,6.14;12,152.06,70.67,8.86,10.47;12,169.90,695.14,8.86,34.29;12,169.90,653.54,8.86,39.31;12,169.90,575.22,8.86,21.96;12,167.53,568.23,6.97,6.99;12,169.90,514.96,8.86,24.04;12,169.90,464.61,8.86,21.96;12,167.53,457.62,6.97,6.99;12,169.90,407.83,8.86,24.04;12,169.90,357.47,8.86,21.96;12,167.53,350.49,6.97,6.98;12,169.90,292.36,8.86,28.92;12,169.90,242.02,8.86,21.96;12,169.90,176.91,8.86,28.92;12,169.90,126.57,8.86,21.96;12,167.53,123.08,6.97,3.49;12,169.90,61.46,8.86,28.92;12,182.85,695.13,8.86,34.29;12,182.85,653.53,8.86,39.31;12,181.17,647.90,6.20,3.35;12,181.85,575.22,9.96,29.73;12,180.48,568.23,6.97,6.99;12,182.85,514.97,8.86,24.04;12,181.85,464.60,9.96,29.73;12,180.48,457.62,6.97,6.99;12,182.85,407.83,8.86,24.04;12,181.85,357.46,9.96,29.73;12,180.48,350.49,6.97,6.98;12,182.85,292.36,8.86,28.92;12,181.85,242.02,9.96,29.73;12,182.85,179.35,8.86,24.04;12,181.85,126.56,9.96,29.74;12,180.48,123.08,6.97,3.49;12,182.85,63.90,8.86,24.04"><head></head><label></label><figDesc>The Impact of Earnings Inequality on Theorized Mediating Variables (Female Respondents)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="6,59.76,62.11,490.14,169.93"><head>TABLE 1</head><label>1</label><figDesc>Pew Surveys Included in Pooled Dataset</figDesc><table coords="6,448.58,86.80,76.34,8.86">Reject Meritocracy 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="9,62.05,62.11,490.18,556.23"><head>TABLE 2</head><label>2</label><figDesc>Local Earnings Inequality and Rejection of MeritocracyNotes: Entries are unstandardized regression coefficients from random intercept logistic regression models estimated using xtlogit in the software package Stata R . * p &lt; .05, * * p &lt; .01, * * * p &lt; .001. Reported significance levels are based upon 2-tailed hypothesis tests.</figDesc><table coords="9,290.48,86.80,208.80,8.86">Women 
+Men 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="13,60.61,56.31,236.43,673.12"><head>TABLE 3 Continued</head><label>3</label><figDesc></figDesc><table coords="13,85.30,488.31,8.86,84.51">Barriers to Women's 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="16,59.76,62.11,490.18,542.22"><head>TABLE 4 The</head><label>4</label><figDesc>Role of Network Political Discussion in Moderating the Effect of Earnings Inequality on the Perceived Importance of Gender RepresentationNotes: Entries are unstandardized regression coefficients from random intercept and coefficient logistic regression models estimated using xtmelogit in the software package Stata R . * p &lt; .05, * * p &lt; .01, * * * p &lt; .001. Reported significance levels are based upon 2-tailed hypothesis tests.Source: 2005 Citizenship, Involvement, Democracy Survey.</figDesc><table coords="16,322.96,98.75,183.57,8.86">Women 
+Men 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">Based upon earnings data obtained from the 2012 American Community Survey.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">For a discussion of these concepts within the minority empowerment literature, see<ref type="bibr" coords="4,130.52,723.60,109.58,7.97" target="#b64">Spence and McClerking (2010)</ref>.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">For the surveys in which respondents were asked both questions, responses are highly correlated. The tetrachoric correlation between dichotomous indicators of agreement with both items(i.e.,  2009 Values, 2011 Political Typology, and 2012 Values surveys) is:= .54, SE = .01, p&lt; .000.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">Summarized in terms of first differences, the Pr (Y = Reject Meritocracy) as Earnings Inequality moves from .37 to .75 is .146</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8">For example, the maximum effect of an increase (e.g., 5th to 95th percentile change) in Earnings Inequality for men was a .07 increase in the probability of rejecting meritocracy. Additionally, the decrease in the probability of rejecting meritocracy induced by a comparable change in the quadratic term for Earnings Inequality was .04.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">and 4) reveal that women are most likely to view men as more arrogant than women, and women as more intelligent than men, 9 when residing in contexts in which 9 This latter effect (i.e., on Intelligent), while conforming to the hypothesized pattern and exerting a substantively large impact, falls short of conventional levels of statistical significance, with the estimated effect of Earnings Inequality attaining a p-value of .08, and the estimated effect of Earnings Inequality 2 attaining a p-value of .07.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting Information</head><p>Additional Supporting Information may be found in the online version of this article at the publisher's website: </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="18,59.76,168.85,236.14,8.41;18,71.71,179.32,224.14,8.41;18,71.71,189.78,82.64,8.41" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Is There a Glass Ceiling in Sweden?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><surname>Albrecht</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anders</forename><surname>Björklund</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Susan</forename><surname>Vroman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Labor Economics</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="145" to="77" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,203.22,236.13,8.41;18,71.71,213.69,224.18,8.41;18,71.71,224.15,189.36,8.41" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Why Doesn&apos;t the U.S. Have a European-Style Welfare System?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alberto</forename><surname>Alesina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Glaeser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Sacerdote</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">National Bureau of Economic Research</title>
+		<imprint>
+			<biblScope unit="issue">w8524</biblScope>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,237.59,236.14,8.41;18,71.71,248.06,224.17,8.41;18,71.71,258.52,134.28,8.41" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Preferences for Redistribution in the Land of Opportunities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alberto</forename><surname>Alesina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eliana</forename><forename type="middle">La</forename><surname>Ferrara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Economics</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">5-6</biblScope>
+			<biblScope unit="page" from="897" to="931" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,271.96,236.15,8.41;18,71.71,282.43,224.16,8.41;18,71.71,292.89,158.96,8.41" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The &quot;Gender Gap&quot; in State Legislative Representation: New Data to Tackle an Old Question</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kevin</forename><surname>Arceneaux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Research Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="143" to="60" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,306.34,236.11,8.41;18,71.71,316.80,224.18,8.41;18,71.71,327.26,224.15,8.41;18,71.71,337.72,119.22,8.41" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Is There a Glass Ceiling over Europe? Exploring the Gender Pay Gap across the Wage Distribution</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Arulampalam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alison</forename><forename type="middle">L</forename><surname>Wiji</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><forename type="middle">L</forename><surname>Booth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bryan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Industrial and Labor Relations Review</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="163" to="86" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,351.17,236.09,8.41;18,71.71,361.63,224.21,8.41;18,71.71,372.09,224.17,8.41;18,71.71,382.56,34.27,8.41" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Not All Cues Are Created Equal: The Conditional Impact of Female Candidates on Political Engagement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lonna</forename><forename type="middle">Rae</forename><surname>Atkeson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Politics</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1040" to="61" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,396.00,236.08,8.41;18,71.71,406.46,224.18,8.41;18,71.71,416.93,224.16,8.41;18,71.71,427.39,29.73,8.41" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">More Is Better: The Influence of Collective Female Descriptive Representation on External Efficacy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lonna</forename><surname>Atkeson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nancy</forename><surname>Rae</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Carrillo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Politics &amp; Gender</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="79" to="101" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,440.83,236.11,8.41;18,71.71,451.30,224.19,8.41;18,71.71,461.76,224.20,8.41;18,71.71,472.22,120.18,8.41" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Occupational Segregation and the Gender Wage Gap in Private-and Public-Sector Employment: A Distributional Analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juan</forename><forename type="middle">D</forename><surname>Barón</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Deborah</forename><forename type="middle">A</forename><surname>Cobb-Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economic Record</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">273</biblScope>
+			<biblScope unit="page" from="227" to="246" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,485.67,236.11,8.41;18,71.71,496.13,224.20,8.41;18,71.71,506.59,36.79,8.41" xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Unequal Democracy: The Political Economy of the New Gilded Age</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Larry</forename><forename type="middle">M</forename><surname>Bartels</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Princeton, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,520.04,236.09,8.41;18,71.71,530.50,224.19,8.41;18,71.71,540.96,210.83,8.41" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Dependence and Independence: A Cross-National Analysis of Gender Inequality and Gender Attitudes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Janeen</forename><surname>Baxter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Emily</forename><forename type="middle">W</forename><surname>Kane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gender &amp; Society</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="193" to="215" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,554.41,236.11,8.41;18,71.71,564.87,224.17,8.41;18,71.71,575.33,105.43,8.41" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Understanding International Differences in the Gender Pay Gap</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francine</forename><surname>Blau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lawrence</forename><surname>Kahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Labor Economics</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="106" to="150" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,588.78,236.14,8.41;18,71.71,599.24,224.17,8.41;18,71.71,609.70,219.02,8.41" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A Theoretical Look at the Gender Balance of Power in the American Couple</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rae</forename><surname>Blumberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marion Tolbert</forename><surname>Lesser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Coleman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Family Issues</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="225" to="50" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,623.16,236.14,8.41;18,71.71,633.61,224.14,8.41;18,71.71,644.07,181.41,8.41" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The Dynamics of the Partisan Gender Gap</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Janet</forename><forename type="middle">M</forename><surname>Box-Steffensmeier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tse-Min</forename><surname>Suzanna De Boef</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="515" to="543" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,657.53,236.19,8.41;18,71.71,667.99,224.16,8.41;18,71.71,678.44,224.20,8.41;18,71.71,688.91,54.82,8.41" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The Public Consequences of Private Inequality: Family Life and Citizen Participation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nancy</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kay</forename><surname>Lehman Schlozman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sidney</forename><surname>Verba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="373" to="89" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,59.76,702.36,236.10,8.41;18,71.71,712.82,224.16,8.41;18,71.71,723.28,224.17,8.41;18,325.75,62.75,224.18,8.41;18,325.75,73.21,104.42,8.41" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Gender and Political Knowledge</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">X</forename><surname>Carpini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Scottkeeter</forename><surname>Delli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Gender and American Politics: Women, Men, and the Political Process</title>
+		<editor>Ed. Sue Tolleson-Rinehart and Jyl J. Josephson, M. E. Sharpe</editor>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="page" from="21" to="44" />
+		</imprint>
+	</monogr>
+	<note>Routledge</note>
+</biblStruct>
+
+<biblStruct coords="18,313.80,86.67,236.15,8.41;18,325.75,97.12,224.17,8.41;18,325.75,107.58,14.61,8.41" xml:id="b15">
+	<monogr>
+		<title level="m" type="main">How Chiefs Come to Power: The Political Economy in Prehistory</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Timothy</forename><forename type="middle">K</forename><surname>Earle</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>Stanford University Press</publisher>
+			<pubPlace>Stanford, CA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,121.04,236.13,8.41;18,325.75,131.50,224.18,8.41;18,325.75,141.95,195.19,8.41" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Aggressive Behaviors within Polities, 1948-1962: A Cross-national Study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ivo</forename><forename type="middle">K</forename><surname>Feierabend</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rosalind</forename><forename type="middle">L</forename><surname>Feierabend</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Conflict Resolution</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="249" to="71" />
+			<date type="published" when="1966" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,155.41,236.12,8.41;18,325.75,165.87,224.17,8.41;18,325.75,176.33,224.17,8.41;18,325.75,186.79,29.73,8.41" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Gender Differences in Beliefs on the Returns to Effort Evidence from the World Values Survey</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Raymond</forename><surname>Fisman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maura O&amp;apos;</forename><surname>Neill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Human Resources</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="858" to="70" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,200.24,236.11,8.41;18,325.75,210.70,224.16,8.41;18,325.75,221.16,50.26,8.41" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Income Inequality and Policy Representation in the American States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patrick</forename><surname>Flavin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Politics Research</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="29" to="59" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,234.61,236.12,8.41;18,325.75,245.07,224.16,8.41;18,325.75,255.53,54.82,8.41" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Social Preferences, Self-interest, and the Demand for Redistribution</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christina</forename><surname>Fong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Economics</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="225" to="271" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,268.98,236.15,8.41;18,325.75,279.43,224.17,8.42;18,325.76,289.90,91.87,8.41" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">If Only They&apos;d Ask: Gender, Recruitment, and Political Ambition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">L</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><forename type="middle">L</forename><surname>Lawless</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Politics</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="310" to="336" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,303.35,236.08,8.41;18,325.75,313.80,224.17,8.41;18,325.75,324.27,224.17,8.41;18,325.75,334.73,11.36,8.41" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Belief in a Just World: Review and Critique of the Individual Difference Literature</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adrian</forename><surname>Furnham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edward</forename><surname>Procter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="365" to="84" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,348.18,236.11,8.41;18,325.75,358.64,224.14,8.41;18,325.75,369.10,150.00,8.41" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">State Income Inequality and Presidential Election Turnout and Outcomes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">K</forename><surname>Galbraith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">Travis</forename><surname>Hale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Science Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="887" to="901" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,382.56,236.13,8.41;18,325.75,393.01,224.17,8.41;18,325.75,403.47,171.11,8.41" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Seeing Difference: The Effect of Economic Disparity on Black Attitudes toward Latinos</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Claudine</forename><surname>Gay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="982" to="97" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,416.93,236.13,8.41;18,325.75,427.39,224.19,8.41;18,325.75,437.84,62.48,8.41" xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Data Analysis Using Regression and Multilevel/Hierarchical Models</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Gelman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><surname>Hill</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Cambridge University Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,451.30,236.12,8.41;18,325.75,461.76,224.17,8.41;18,325.75,472.22,29.73,8.41" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Social Structure and the Negro Revolt: An Examination of Some Hypotheses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Geshwender</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Forces</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="248" to="56" />
+			<date type="published" when="1964" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,485.67,236.12,8.41;18,325.75,496.13,105.48,8.41;18,313.80,509.57,236.07,8.41;18,325.75,520.04,224.20,8.41;18,325.75,530.50,36.79,8.41" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Affluence and Influence: Economic Inequality and Political Power in America</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Gilens</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Chicago, IL; Princeton, NJ</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Why Americans Hate Welfare</note>
+</biblStruct>
+
+<biblStruct coords="18,313.80,543.95,236.13,8.41;18,325.75,554.41,224.18,8.41;18,325.75,564.87,215.11,8.41" xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Winner-Take-All Politics: How Washington Made the Rich Richer-and Turned Its Back on the Middle Class</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jacob</forename><forename type="middle">S</forename><surname>Hacker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><surname>Pierson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<publisher>Simon and Schuster</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,578.32,236.14,8.41;18,325.75,588.78,224.23,8.41;18,325.75,599.24,224.16,8.41;18,325.75,609.70,224.20,8.41;18,325.75,620.17,29.73,8.41" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Behind the Curve: Clarifying the Best Approach to Calculating Predicted Probabilities and Marginal Effects from Limited Dependent Variable Models</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Hanmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Kerem Ozan Kalkan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="263" to="77" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,633.61,236.10,8.41;18,325.75,644.07,224.17,8.41;18,325.75,654.54,71.53,8.41" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Talking about Politics: Gender and Contextual Effects on Political Proselytizing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Susan</forename><forename type="middle">B</forename><surname>Hansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Politics</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="73" to="103" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,667.98,236.15,8.41;18,325.75,678.44,224.17,8.41;18,325.75,688.91,83.77,8.41" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The Determinants of Public Attitudes toward the Welfare State</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yeheskel</forename><surname>Hasenfeld</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jane</forename><forename type="middle">A</forename><surname>Rafferty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Forces</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1027" to="1075" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,313.80,702.36,236.12,8.41;18,325.75,712.81,224.16,8.41;18,325.75,723.28,59.55,8.41" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Responsiveness in an Era of Inequality The Case of the U.S. Senate</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><forename type="middle">J</forename><surname>Hayes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Research Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="585" to="99" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,62.05,62.75,236.10,8.41;19,74.00,73.21,224.19,8.41;19,74.00,83.67,77.52,8.41" xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Facing Up to the American Dream: Race, Class, and the Soul of the Nation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><forename type="middle">L</forename><surname>Hochschild</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Princeton, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,62.05,97.12,236.12,8.41;19,74.00,107.58,224.13,8.41;19,74.00,118.05,224.17,8.41;19,74.00,128.50,34.27,8.41" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The Individual, Society, or Both? A Comparison of Black, Latino, and White Beliefs about the Causes of Poverty</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><forename type="middle">O</forename><surname>Hunt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Forces</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="293" to="322" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,62.05,141.95,236.14,8.41;19,74.00,152.42,212.22,8.41" xml:id="b34">
+	<monogr>
+		<title level="m" type="main">American Politics: The Promise of Disharmony</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Samuel</forename><forename type="middle">P</forename><surname>Huntington</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1981" />
+			<publisher>Harvard University Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,62.05,165.86,236.23,8.41;19,74.00,176.32,224.15,8.41;19,74.00,186.79,224.17,8.41;19,74.00,197.25,83.25,8.41" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The Developmental Theory of the Gender Gap: Women&apos;s and Men&apos;s Voting Behavior in Global Perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ronald</forename><surname>Inglehart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pippa</forename><surname>Norris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="441" to="63" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,62.05,210.69,236.18,8.41;19,74.00,221.16,224.26,8.41;19,74.00,231.62,224.09,8.41;19,74.00,242.08,182.24,8.41" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The Political Economy of Gender: Explaining Cross-National Variation in the Gender Division of Labor and the Gender Voting Gap</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Torben</forename><surname>Iversen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frances</forename><surname>Rosenbluth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,62.05,255.53,236.12,8.41;19,74.00,265.99,120.74,8.41" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The Gender Gap</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Karen</forename><forename type="middle">M</forename><surname>Kaufmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PS: Political Science &amp; Politics</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="447" to="53" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,62.05,279.44,236.13,8.41;19,74.00,289.90,224.16,8.41;19,74.00,300.36,224.16,8.41;19,74.00,310.82,168.55,8.41" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Inequality and the Dynamics of Public Opinion: The Self-Reinforcing Link between Economic Inequality and Mass Preferences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nathan</forename><forename type="middle">J</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Enns</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="855" to="70" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,62.05,324.27,236.12,8.41;19,74.00,334.73,224.19,8.41;19,74.00,345.19,210.00,8.41" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Exploring the Racial Divide: Blacks, Whites, and Opinion on National Policy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><forename type="middle">R</forename><surname>Kinder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicholas</forename><surname>Winter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="439" to="56" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,62.05,358.64,236.12,8.41;19,74.00,369.10,224.10,8.41;19,74.00,379.56,70.47,8.41" xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Beliefs about Inequality: Americans&apos; Views of What Is and What Ought to Be</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Kluegel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elliot</forename><forename type="middle">R</forename><surname>Smith</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1986" />
+			<publisher>Aldine de Gruyter</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,62.05,393.02,236.07,8.41;19,74.00,403.47,224.15,8.41;19,74.00,413.93,79.65,8.41" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Perceptions of Poverty and Wealth in Western and Post-Communist Countries</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Kreidl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Justice Research</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="151" to="76" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,62.05,427.39,236.13,8.41;19,74.00,437.85,224.20,8.41;19,74.00,448.30,164.77,8.41" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The Institutional Logic of Welfare Attitudes How Welfare Regimes Influence Public Support</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christian</forename><forename type="middle">A</forename><surname>Larsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comparative Political Studies</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="145" to="68" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,62.04,461.76,236.11,8.41;19,74.00,472.22,224.16,8.41;19,74.00,482.68,224.21,8.41;19,74.00,493.14,11.36,8.41" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Working for the System: Motivated Defense of Meritocratic Beliefs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alison</forename><surname>Ledgerwood</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anesu</forename><forename type="middle">N</forename><surname>Mandisodza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">T</forename><surname>Jost</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michelle</forename><forename type="middle">J</forename><surname>Pohl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Cognition</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="322" to="362" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,62.04,506.59,236.13,8.41;19,74.00,517.05,224.15,8.41;19,74.00,527.51,224.17,8.41;19,74.00,537.97,15.91,8.41" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Above the Glass Ceiling? A Comparison of Matched Samples of Female and Male Executives</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Karen</forename><forename type="middle">S</forename><surname>Lyness</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donna</forename><forename type="middle">E</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Psychology</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">359</biblScope>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,62.04,551.42,236.08,8.41;19,74.00,561.88,224.17,8.41;19,74.00,572.34,106.99,8.41" xml:id="b45">
+	<monogr>
+		<title level="m" type="main">A History of Power from the Beginning to AD 1760</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Mann</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1986" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>The Sources of Social Power, Volume I</note>
+</biblStruct>
+
+<biblStruct coords="19,62.04,585.79,236.13,8.41;19,74.00,596.26,224.17,8.41;19,74.00,606.71,106.99,8.41" xml:id="b46">
+	<monogr>
+		<title level="m" type="main">The Undeserving Rich: American Beliefs about Inequality, Opportunity, and Redistribution</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leslie</forename><surname>Mccall</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,62.04,620.17,236.11,8.41;19,74.00,630.63,87.94,8.41" xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Herbert</forename><surname>Mccloskey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">R</forename><surname>Zaller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The American Ethos</title>
+		<imprint>
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,62.04,644.07,236.08,8.41;19,74.00,654.54,224.17,8.41;19,74.00,665.00,148.46,8.41" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Family Power: The Assessment of a Decade of Theory and Research, 1970-1979</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerald</forename><forename type="middle">W</forename><surname>Mcdonald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marriage and the Family</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="841" to="54" />
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,62.04,678.44,236.13,8.41;19,73.99,688.91,224.16,8.41;19,73.99,699.37,209.30,8.41" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The Knowledge Gap: A Reexamination of Gender-based Differences in Political Knowledge</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffery</forename><forename type="middle">J</forename><surname>Mondak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mary</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Politics</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="492" to="512" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,316.09,62.75,236.11,8.41;19,328.04,73.21,224.17,8.41;19,328.04,83.68,224.18,8.41;19,328.04,94.14,100.20,8.41" xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Breaking the Glass Ceiling: Can Women Reach the Top of America&apos;s Largest Corporations? MA</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ann</forename><forename type="middle">M</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Randall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ellen</forename><forename type="middle">Van</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Velsor</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>Perseus Publishing</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,316.09,107.58,236.09,8.41;19,328.04,118.05,224.19,8.41;19,328.04,128.51,224.17,8.41;19,328.04,138.97,224.21,8.41;19,328.04,149.43,53.36,8.41" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Change and Continuity in the Geography of Women State Legislators</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Barbara</forename><surname>Norrander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Clyde</forename><surname>Wilcox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Women and Elective Office: Past, Present, and Future</title>
+		<editor>Ed. Sue Thomas and Clyde Wilcox</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="103" to="120" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,316.09,162.88,236.12,8.41;19,328.04,173.33,135.85,8.42" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">The Gender Gap in Wages</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>O&amp;apos;neill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="page" from="309" to="323" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,316.09,186.79,236.14,8.41;19,328.04,197.25,224.14,8.41;19,328.04,207.70,224.17,8.41;19,328.04,218.17,20.64,8.41" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Blame or Fate, Individual or Social? An International Comparison of Popular Explanations for Poverty</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Van</forename><surname>Oorschot</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Loek</forename><surname>Wim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Halman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Societies</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="28" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,316.09,231.62,236.20,8.41;19,328.04,242.08,224.17,8.41;19,328.04,252.54,11.36,8.41" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Gender in Politics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pamela</forename><surname>Paxton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sheri</forename><surname>Kunovich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Melanie</forename><forename type="middle">M</forename><surname>Hughes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Sociology</title>
+		<imprint>
+			<biblScope unit="issue">33</biblScope>
+			<biblScope unit="page" from="263" to="84" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,316.09,265.99,236.10,8.41;19,328.04,276.45,224.18,8.41;19,328.04,286.91,224.16,8.41;19,328.04,297.37,112.82,8.41" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Investigating the &apos;Glass ceiling&apos; Phenomenon: An Empirical Study of Actual Promotions to Top Management</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><forename type="middle">N</forename><surname>Powell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">Anthony</forename><surname>Butterfield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Academy of Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="68" to="86" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,316.09,310.82,236.12,8.41;19,328.04,321.28,184.74,8.41" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Arguing for a Negligible Effect</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carlisle</forename><surname>Rainey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1083" to="1091" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,316.09,334.73,236.14,8.41;19,328.04,345.19,224.20,8.41;19,328.04,355.66,224.17,8.41;19,328.04,366.11,11.36,8.41" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">The Impact of Descriptive Representation on Women&apos;s Political Engagement: Does Party Matter?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Beth</forename><surname>Reingold</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jessica</forename><surname>Harrell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Research Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="280" to="94" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,316.09,379.56,236.12,8.41;19,328.04,390.03,224.18,8.41;19,328.04,400.49,80.61,8.41" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Gender-related Political Knowledge and the Descriptive Representation of Women</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kira</forename><surname>Sanbonmatsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Behavior</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="367" to="88" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,316.09,413.93,236.11,8.41;19,328.04,424.40,224.20,8.41;19,328.04,434.86,224.17,8.41;19,328.04,445.31,29.73,8.41" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Gender and the Pathways to Participation: The Role of Resources</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kay</forename><surname>Schlozman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nancy</forename><surname>Lehman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sidney</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Verba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Politics</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="963" to="90" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,316.09,458.77,236.13,8.41;19,328.04,469.23,224.17,8.41;19,328.04,479.69,224.17,8.41;19,328.04,490.15,25.19,8.41" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Gender Differences in Policy Preferences: A Summary of Trends from the 1960s to the 1980s</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">Y</forename><surname>Shapiro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Harpreet</forename><surname>Mahajan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Public Opinion Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="42" to="61" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,316.09,503.60,236.13,8.41;19,328.04,514.06,224.17,8.41;19,328.04,524.52,79.24,8.41" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Doing Intersectionality Research: From Conceptual Issues to Practical Examples</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Evelyn</forename><forename type="middle">M</forename><surname>Simien</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Politics &amp; Gender</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="264" to="71" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,316.09,537.97,236.13,8.41;19,328.04,548.43,224.18,8.41;19,328.04,558.90,224.17,8.41;19,328.04,569.35,29.73,8.41" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The Political Determinants of Women&apos;s Descriptive Representation in Cities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adrienne</forename><forename type="middle">R</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Beth</forename><surname>Reingold</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">L</forename><surname>Owens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Research Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="315" to="344" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,316.09,582.80,236.14,8.41;19,328.04,593.27,224.19,8.41;19,328.04,603.72,50.26,8.41" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Economic Inequality and Democratic Political Engagement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frederick</forename><surname>Solt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="48" to="60" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,316.09,617.17,236.12,8.41;19,328.04,627.64,224.15,8.41;19,328.04,638.10,224.17,8.41;19,328.04,648.55,29.73,8.41" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Context, Black Empowerment, and African American Political Participation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lester</forename><forename type="middle">K</forename><surname>Spence</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Harwood</forename><surname>Mcclerking</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Politics Research</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="909" to="939" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,316.09,662.01,236.15,8.41;19,328.04,672.47,224.16,8.41;19,328.04,682.93,224.14,8.41;19,328.04,693.39,50.26,8.41" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Improved Conditions, Rising Expectations, and Dissatisfaction: A Test of the Past/Present Relative Deprivation Hypothesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marylee</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Psychology Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="24" to="33" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,59.76,62.75,236.11,8.41;20,71.71,73.21,224.15,8.41;20,71.71,83.67,224.17,8.41;20,71.71,94.13,34.27,8.41" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Gendering Municipal Government: Female Descriptive Representation and Feelings of Political Trust</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stacy</forename><forename type="middle">G</forename><surname>Ulbig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Science Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1106" to="1129" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,59.76,107.58,236.11,8.41;20,71.71,118.05,224.20,8.41;20,71.71,128.50,224.15,8.41;20,71.71,138.96,11.36,8.41" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">The Sword&apos;s Other Edge: Perceptions of Discrimination and Racial Policy Opinion after Obama</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicholas</forename><forename type="middle">A</forename><surname>Valentino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ted</forename><surname>Brader</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Public Opinion Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="201" to="227" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,59.76,152.42,236.19,8.41;20,71.71,162.88,224.15,8.41;20,71.71,173.33,181.39,8.41" xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Knowing and Caring about Politics: Gender and Political Engagement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sidney</forename><surname>Verba</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nancy</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kay</forename><surname>Lehman Schlozman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Politics</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1051" to="72" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,59.76,186.79,236.11,8.41;20,71.71,197.25,224.17,8.41;20,71.71,207.71,52.51,8.41" xml:id="b69">
+	<monogr>
+		<title level="m" type="main">Breaking through the Glass Ceiling: Women in Management. Geneva: International Labour Organization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Linda</forename><surname>Wirth</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,59.76,221.16,236.13,8.41;20,71.71,231.62,224.20,8.41;20,71.71,242.08,97.60,8.41" xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Economic Context and Americans&apos; Perceptions of Income Inequality</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ping</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">C</forename><surname>Garand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Science Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1220" to="1261" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

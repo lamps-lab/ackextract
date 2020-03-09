@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fooled by the brain: Re-examining the influence of neuroimages</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2013-09-14">Available online 14 September 2013</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Schweitzer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Baker</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Evan</forename><forename type="middle">F</forename><surname>Risko</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Waterloo</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fooled by the brain: Re-examining the influence of neuroimages</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2013-09-14">Available online 14 September 2013</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.cognition.2013.08.009</idno>
+					<note type="submission">Article history: Received 5 November 2012 Revised 29 July 2013 Accepted 6 August 2013</note>
+					<note>a r t i c l e i n f o</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Neuroimages Bias Judgment Persuasion</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>a b s t r a c t</head><p>A series of highly-cited experiments published in 2008 demonstrated a biasing effect of neuroimages on lay perceptions of scientific research. More recent work, however, has questioned this bias, particularly within legal contexts in which neuroscientific evidence is proffered by one of the parties. The present research moves away from the legal framework and describes five experiments that re-examine this effect. Experiments 1 through 4 present conceptual and direct replications of some of the original 2008 experiments, and find no evidence of a neuroimage bias. A fifth experiment is reported that confirms that, when laypeople are allowed multiple points of reference (e.g., when directly comparing neuroimagery to other graphical depictions of neurological data), a neuroimage bias can be observed. Together these results suggest that, under the right conditions, a neuroimage might be able to bias judgments of scientific information, but the scope of this effect may be limited to certain contexts.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The judgments individuals' make can be influenced by a number of factors ostensibly unrelated to that judgment <ref type="bibr" coords="1,36.85,482.15,107.99,7.53" target="#b23">(Tversky &amp; Kahneman, 1974)</ref>. Understanding these factors provide clues regarding how individuals make judgments and decisions and can have wide-reaching societal implications, for example, by allowing policy makers to institute policies that minimize the negative impact of these biases (e.g., in legal, medical, and economic contexts). A salient example of such research, published in Cognition, emerged recently with the demonstration that the presence of neuroimages altered individuals' judgments of scientific credibility <ref type="bibr" coords="1,63.33,576.32,95.76,7.53" target="#b15">(McCabe &amp; Castel, 2008)</ref>. This finding has had a striking impact in cognitive science and beyond as evidenced, for example, by research in the legal domain where ''neuroevidence'' has the potential to bias legal deci-sion makers <ref type="bibr" coords="1,331.71,440.32,73.34,7.53" target="#b0">(Appelbaum, 2009;</ref><ref type="bibr" coords="1,408.30,440.32,61.49,7.53" target="#b6">Compton, 2010;</ref><ref type="bibr" coords="1,473.04,440.32,30.06,7.53;1,281.93,450.80,109.99,7.53" target="#b19">Roskies, Schweitzer, and Saks, 2013;</ref><ref type="bibr" coords="1,395.94,450.80,54.87,7.53" target="#b24">Vincent, 2011)</ref>. This subsequent research, however, has largely failed to corroborate the original findings. In the present investigation, we return to the original context (rather than a legal context) in order to explore this discrepancy further. <ref type="bibr" coords="1,293.61,540.78,98.26,7.53" target="#b15">McCabe and Castel (2008)</ref> presented three experiments demonstrating that neuroscientific information has the potential to unduly influence decision-making. Their participants were given brief articles that summarized a fictitious neuroscience study. The articles were manipulated to contain a neuroimage, a non-neuroimage graphical representation of the experimental data (e.g., a bar graph or a topographical map of the brain), or no image at all. In each experiment the authors reported findings that suggested the articles accompanied by the brain image were judged more favorably than the control articles. The authors concluded, ''. . .there is, indeed, something special about the 0010-0277/$ -see front matter Ó 2013 Elsevier B.V. All rights reserved. http://dx.doi.org/10.1016/j.cognition.2013.08.009 brain images with respect to influencing judgments of scientific credibility' <ref type="bibr" coords="2,105.93,65.18,32.36,7.53">' (p. 350)</ref>. This result was corroborated by <ref type="bibr" coords="2,41.16,75.61,201.44,7.53" target="#b25">Weisberg, Keil, Goodstein, Rawson, and Gray (2008)</ref> who presented neuroscience students and laypeople with descriptions of psychological phenomena. When these descriptions included neuroscientific language both groups were more satisfied with the description of the phenomena, even though the neuroscientific language was designed to be irrelevant. Further corroboration comes from a recent study by <ref type="bibr" coords="2,112.20,148.86,150.16,7.53" target="#b14">Keehner, Mayberry, and Fischer (2011)</ref> who presented their participants with neurological information in several graphical formats (e.g., a topographical map of the brain, a 3-D color representation of the brain) and found that certain highly-realistic depictions of the brain made the accompanying passages more convincing relative to the less-realistic images. Most recently, <ref type="bibr" coords="2,240.04,211.61,22.31,7.53;2,41.16,222.10,187.36,7.53">Ikeda, Kitagami, Takahashi, Hattori, and Ito (in press)</ref> demonstrated both an effect of neuroimages on credibility judgments and on metacomprehension judgments. That is, individuals felt like they understood a text passage better when an image of the brain was included compared to no image or a bar graph.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1.">The impact of neuroimages</head><p>If neuroimages hold the sort of persuasive power suggested by <ref type="bibr" coords="2,86.68,295.30,107.01,7.53" target="#b15">McCabe and Castel (2008)</ref>, <ref type="bibr" coords="2,203.35,295.30,58.97,7.53;2,41.16,305.78,25.05,7.53" target="#b14">Keehner et al. (2011)</ref> and <ref type="bibr" coords="2,86.23,305.78,80.11,7.53">Ikeda et al. (in press)</ref>, then this would raise a number of potential concerns about the use of such information in decision-making contexts. This concern is particularly salient in legal contexts where presenting such neuroimages may very well be considered prejudicial if admitted into a trial. Indeed, in response to such findings, legal scholars' existing concerns over neuroimaging <ref type="bibr" coords="2,41.16,378.97,138.76,7.53" target="#b2">(Baskin, Edersheim, &amp; Price, 2007;</ref><ref type="bibr" coords="2,184.76,378.97,52.60,7.53" target="#b7">Dumit, 1999;</ref><ref type="bibr" coords="2,242.13,378.97,20.19,7.53;2,41.16,389.46,21.81,7.53" target="#b17">Pratt, 2005;</ref><ref type="bibr" coords="2,66.50,389.46,44.71,7.53" target="#b18">Rose, 2000)</ref> began to intensify <ref type="bibr" coords="2,188.73,389.46,73.62,7.53" target="#b0">(Appelbaum, 2009;</ref><ref type="bibr" coords="2,41.16,399.89,94.20,7.53" target="#b4">Brown &amp; Murphy, 2010;</ref><ref type="bibr" coords="2,138.61,399.89,61.49,7.53" target="#b6">Compton, 2010;</ref><ref type="bibr" coords="2,203.35,399.89,58.99,7.53" target="#b8">Erickson, 2010;</ref><ref type="bibr" coords="2,41.16,410.38,54.13,7.53" target="#b24">Vincent, 2011)</ref>. These concerns appeared to be well supported. For example, <ref type="bibr" coords="2,122.34,420.81,100.19,7.53" target="#b11">Gurley and Marcus (2008)</ref> examined the impact of neuroimaging on mock jurors' willingness to find a criminal defendant Not Guilty by Reason of Insanity (NGRI). When their participants were given a written piece of expert testimony that included a structural neuroimage, a greater number of participants rendered NGRI verdicts-based on their belief in the findings of the neurological evidence-compared to the same expert testimony that lacked neuroimage evidence.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2.">Reexamining the impact of neuroimages</head><p>Provided both the theoretical and practical significance of these findings, a number of subsequent experiments assessed the impact of neuroimages on judgment in legal contexts and elsewhere. Interestingly, almost no evidence emerged that supported the notion that brain images have any impact on judgment in these contexts. For example,  used a large nationally-representative sample to assess the impact of neuroimage evidence when offered in support of a mens rea defense in a criminal trial. Across four different experiments varying the severity of the charged crime, the type of neuroimage used, and the visual impact (''glitziness'') of the image, evidence that contained neuroimages was in no way more persuasive than similar evidence that did not contain neuroimages (see also <ref type="bibr" coords="2,286.24,54.69,85.05,7.53" target="#b9">Greene &amp; Cahill, 2011;</ref> for similar results in a legal context). It is important to note that, while these experiments focused on legal decisions, mediating variables that measured the credibility of the specific scientific evidence associated with the neuroimage (more akin to measures used in the original studies) were also collected, and were also unaffected by the presence of neuroimagery. In addition, these failures to replicate do not seem limited to the legal context. For example, <ref type="bibr" coords="2,422.19,138.37,85.25,7.53;2,286.24,148.86,25.05,7.53" target="#b10">Gruber and Dickerson (2012)</ref> paired popular media science articles with neuroimages, sci-fi images, and fantasy-like artistic renderings. In line with the legal work on neuroimages, no persuasive impact of neuroimages were found. Similarly, <ref type="bibr" coords="2,475.60,180.26,31.87,7.53;2,286.24,190.69,180.66,7.53" target="#b16">Michael, Newman, Vuorre, Cumming, and Garry (2013)</ref>   <ref type="bibr" coords="2,487.56,263.94,19.86,7.53;2,286.24,274.37,64.53,7.53" target="#b12">Hook and Farah (2013)</ref>, examined neuroimagery's influence on judgments of research summaries, again finding no persuasive impact, and no relation between neuroimage effects and a person's belief in mind-brain dualism.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">The present experiments</head><p>The conflicting findings within this body of literature are puzzling. Looking specifically at the methodology of the earlier studies that purportedly support a neuroimage bias explains only part of the discrepancy. For example, <ref type="bibr" coords="2,286.24,395.58,86.35,7.53" target="#b25">Weisberg et al. (2008)</ref> focused on neuroscience language generally without specifically testing the impact of neuroimagery. <ref type="bibr" coords="2,329.16,416.50,98.88,7.53" target="#b11">Gurley and Marcus (2008)</ref> confounded the presentation of neuroimages with additional expert evidence, making it impossible to parse the contribution of the neuroimage. Lastly, <ref type="bibr" coords="2,351.38,447.85,84.86,7.53" target="#b14">Keehner et al. (2011)</ref> presented neuroimages in a repeated-measures design, opening the door to contrast effects in which neuroimages may be persuasive only when other points of reference are given. Making a similar claim with respect to <ref type="bibr" coords="2,406.04,489.69,97.54,7.53" target="#b15">McCabe and Castel (2008)</ref>, however, is more difficult and thus the potential reason for the incongruity is not as clear. It could be the specific task used in the studies, that the dependent construct was not properly operationalized, or that the effects found were simply idiosyncratic or spurious. In five experiments, we endeavored to understand this remaining discrepancy by attempting to re-examine the neuroimage bias by conceptually and directly replicating <ref type="bibr" coords="2,425.03,573.37,82.39,7.53;2,286.24,583.86,24.96,7.53" target="#b15">McCabe and Castel's (2008)</ref> findings and then attempting to identify the conditions most likely to elicit a neuroimage effect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Experiment 1</head><p>In Experiment 1 we conducted a conceptual replication of McCabe and Castel (2008) -hereafter noted as ''M&amp;C''using a web-based experiment that presented participants with one of three different scenarios describing a purported link between a particular mental condition and a resulting behavior. The three scenarios were chosen to create a spectrum of potential situations in which a neuroimage might be used as supporting evidence. The first described an idiopathic brain defect that would cause a woman to behave erratically; the second suggested that exposure to a neurotoxin would cause a brain abnormality that causes an individual to behave erratically; and the third indicated that brain damage caused by past drug use would lead to reduced functionality in a person's brain; all scenarios are included as Appendix A. In support of these assertions, each scenario was accompanied by either a graph or a neuroimage, illustrated in Appendix B.</p><p>Participants (N = 175; obtained online via Amazon Mechanical Turk) were randomly assigned to one of the six conditions in this 3 Â 2 design and were then presented with a series of questions designed to index the extent to which the participants were convinced by the evidence (listed in <ref type="table" coords="3,71.83,232.54,25.51,7.53" target="#tab_1">Table 1</ref>). 1 These items were adapted from  in which they were found to predict judgments of guilt in a criminal case. These items-for example, ''To what extent do you believe the neurotoxin can cause a brain defect?''-were measured on a seven-point scale, from ''not at all'' to ''completely''.</p><p>The four DV items were averaged into a single composite measure of believability (Cronbach's a = .63), and a 2 (Image) Â 3 (Scenario) between-subjects analysis of variance was conducted on this DV. While there was a main effect of the Scenario, F(2, 169) = 24.66, p &lt; .001, g 2 p ¼ :23, the interaction was not significant, F(2, 169) = 1.15, p = .61, g 2 p ¼ :006, and, critically, there was no effect of the image, F(1, 169) = 1.15, p = .28, g 2 p ¼ :007. These results are illustrated in <ref type="figure" coords="3,72.34,378.97,19.06,7.53" target="#fig_0">Fig. 1</ref>. <ref type="bibr" coords="3,94.73,377.41,3.48,5.02">2</ref> To further explore the data, individual univariate ANO-VAs compared individual DV items between the graph and neuroimage version of each of the three scenarios. None of the individual DV items significantly differed between the two image conditions (see <ref type="table" coords="3,137.25,431.30,25.63,7.53" target="#tab_1">Table 1</ref>). In sum, the presence of a neuroimage did not make any scenario more or less believable than when a graph containing similar information was presented.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Experiment 2</head><p>After finding no evidence of a neuroimage effect in our first experiment, we undertook a second conceptual replication that more closely resembled the original M&amp;C procedures. We created two brief (fictitious) news articles that described the findings of a recent piece of brain research: the first described a purported relation between retinal damage and brain function, and the second described a link between brain abnormalities in childhood and subsequent criminal behavior (similar to M&amp;C's original materials; summaries listed in Appendix A). As with the first experiment, the articles were accompanied with either a graph or a neuroimage as supporting evidence; however, in this case we used the original color images (bar graph and brain image) that appeared in <ref type="figure" coords="3,375.02,117.45,24.44,7.53" target="#fig_0">Fig. 1a</ref> of M&amp;C.</p><p>A sample of participants (N = 222; obtained online via Amazon Mechanical Turk) were randomly assigned to one of the conditions and were asked a series of six questions designed to measure the persuasiveness of the research. The dependent items were adapted from earlier work <ref type="bibr" coords="3,304.50,180.26,100.21,7.53" target="#b21">(Schweitzer &amp; Saks, 2012)</ref> in which the items were found to predict judgments of guilt within a court case that revolved around the veracity of a piece of scientific evidence. As with Experiment 1, the items (listed in <ref type="table" coords="3,472.25,211.62,26.97,7.53" target="#tab_1">Table 1</ref>) asked participants the extent to which they agreed with various statements, with responses falling on a sevenpoint scale ranging from ''not at all'' to ''completely''. A 2 (Article Topic) Â 2 (Image) ANOVA was conducted on the composite of our six DVs (Cronbach's a = .87), finding that while our ''retinal damage'' article was seen as more persuasive than the ''criminal'' article, F(1, 218) = 12.09, p &lt; .001, g 2 p ¼ :053, there was no main effect of the image manipulation F(1, 218) = .12, p = .72, g 2 p ¼ :001, nor any interaction F(1, 218) = 1.47, p = .23, g 2 p ¼ :007. These results are illustrated in <ref type="figure" coords="3,349.29,326.70,19.46,7.53" target="#fig_4">Fig. 2</ref>. <ref type="bibr" coords="3,372.08,325.08,3.48,5.02">3</ref> In addition, the image manipulation did not influence any of the individual DVs (ps range from .28 to .93; individual tests listed in <ref type="table" coords="3,447.14,347.62,27.07,7.53" target="#tab_1">Table 1</ref>). Once again, we failed to find any difference in the reported persuasive impact of scientific research as a function of the presence of neuroimagery.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Experiment 3</head><p>In Experiment 3 we attempted a close conceptual replication of M&amp;C's third experiment. First, we obtained the original BBC News article used in M&amp;C Experiment 3 <ref type="bibr" coords="3,281.93,459.19,67.30,7.53" target="#b3">(BBC News, 2005)</ref>. This article, entitled ''Can Brain Scans Detect Criminals'', summarizes an experiment in which fMRI techniques were used to predict when participants were lying vs. telling the truth. Further, we again used the graph and brain image presented in <ref type="figure" coords="3,440.22,501.03,25.29,7.53" target="#fig_0">Fig. 1a</ref> of M&amp;C's original manuscript. A sample of 300 participants, obtained via Amazon Mechanical Turk, 4 (56.6% male; mean age 1 In this and subsequent experiments, we utilized multiple dependent measure items to assess the extent to which participants judged our scenarios. To simplify and facilitate visualizing these data we created a single composite measure made from averaging these items. Following the composite tests, and to ensure a thorough analysis, each item is also tested separately.</p><p>2 As a guard against inattention, participants who took &lt;45 s (as based on pilot testing of a reasonably minimal length for completion) were not included in the analysis, although this cutoff did not substantively affect the results. For example, using the full set of participants, the significance level of Image on the Composite DV changes from p = .28 to p = .39. The mean time for completion was 83 s (SD = 47 s).  <ref type="bibr" coords="5,57.43,620.48,109.88,7.53" target="#b5">(Cacioppo, Petty, &amp; Kao, 1984)</ref>. This would, in part, allow us to identify if the neuroimage effects found by earlier researchers were present in a subset of the sample (as would be indicated by interactions between our IV and the demographic/NFC measures).</p><p>Looking first at the two DVs used in the original M&amp;C experiment, we found no significant difference between the two conditions on the extent to which participants felt the title of the article was a good summary of the results F(1, 266) = .56, p = .45, g 2 p ¼ :002, nor on the extent to which the participants agreed with the conclusion of the article, F(1, 266) = 2.02, p = .16, g 2 p ¼ :008. Next, as with Experiment 2, an ANOVA comparing the conditions the composite score created from our six persuasiveness items (but not the M&amp;C items; Cronbach's a = .85) produced a nonsignificant result, F(1, 265) = .832, p = .36, g 2 p ¼ :003. These results are illustrated in <ref type="figure" coords="5,404.73,630.97,19.91,7.53" target="#fig_5">Fig. 3</ref>. Further, individual univariate tests indicated no significant differences on any of the individual DVs (all ps &gt; .30; results listed in <ref type="table" coords="5,281.93,662.38,28.06,7.53" target="#tab_1">Table 1</ref>). In addition, none of the individual difference </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Experiment 4</head><p>In our third experiment we used the original McCabe and Castel materials comparing neuroimages to a graphical representation of the same information. However, in the M&amp;C Experiment 3, neuroimages were compared to a noimage control condition, and so in this fourth experiment we added a condition containing no graphical information, resulting in an exact replication of M&amp;C. We further made our replication authentic by including a ''Criticism'' IV as in M&amp;C, in which we created two versions of the news article: one containing commentary from an expert who was critical of the research findings (which is present in the actual BBC article) and another version that excluded this criticism.</p><p>Participants (N = 210, 59% male, mean age = 28.5) obtained through Amazon Mechanical Turk were randomly assigned to conditions within a 3 (Image: Brain, Graph, or No Image) Â 2 (Criticism: Present or Absent) between-subjects design. Participants read the BBC news article which was once again followed by the same two DV items posed by M&amp;C, along with a five-item quiz about the article they had read. <ref type="bibr" coords="6,76.48,317.20,3.48,5.02">5</ref> A 3 Â 2 between-subjects ANOVA was conducted on the first M&amp;C item-the extent to which the participants agreed that the title was a good summary of the results. Consistent with M&amp;C, we found no significant effect of the image manipulation F(2, 204) = .640, p = .53, g 2 p ¼ :006, nor an interaction, F(2, 204) = .784, p = .42, g 2 p &lt; :008; however, we further found no main effect of criticism, F(1, 204) = 1.77, p = .18, g 2 p ¼ :009. Critically, using uncorrected (LSD) paired comparison tests (to minimize the chance of a type II error) we found no significant difference between the Brain and Text Only Image conditions (p = .64). Turning to the second M&amp;C item, another 3 Â 2 betweensubjects ANOVA indicated a marginal effect of image, F(2, 204) = 2.39, p = .09, g 2 p ¼ :023. Uncorrected paired comparison tests, however, showed that the brain did not significantly differ from the No Image condition used by M&amp;C (p = .38); rather, the Brain condition yielded marginally more positive judgments than the Graph (p = .06). Consistent with M&amp;C, we found a main effect of the criticism manipulation in which the article version containing criticism (M = 2.47) yielded significantly lower ratings than did the version containing no criticism (M = 2.70),  <ref type="table" coords="6,286.24,96.53,27.73,7.53" target="#tab_1">Table 1</ref> and illustrated in <ref type="figure" coords="6,384.83,96.53,18.94,7.53" target="#fig_6">Fig. 4</ref>). 6</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Experiment 5</head><p>Across our first four experiments, we did not identify any evidence of a neuroimage bias. Then why do these neuroimage effects intermittently appear? One possibility may lie in the format of the neuroimages used within the experiments: <ref type="bibr" coords="6,340.44,185.71,84.80,7.53" target="#b14">Keehner et al. (2011)</ref> describe the ''ideal'' neuroimage as a highly-realistic, 3-D, color image. While the experiments that demonstrate non-effects used various formats, none quite reached the maximum level of ''glitziness'' described by <ref type="bibr" coords="6,381.71,227.55,51.77,7.53">Keehner et al.</ref> Another possibility lies in the design of the experiments themselves: Several previous commentators <ref type="bibr" coords="6,477.47,248.47,29.99,7.53;6,286.24,258.90,53.61,7.53">Michael et al., in press)</ref> have speculated that the repeated-measures design used in experiments such as <ref type="bibr" coords="6,423.38,269.38,84.03,7.53" target="#b25">Weisberg et al. (2008)</ref> and <ref type="bibr" coords="6,302.51,279.87,79.07,7.53" target="#b14">Keehner et al. (2011)</ref> may facilitate neuroscience/neuroimage effects by giving participants a basis for comparison (which, by virtue of counterbalancing, are averaged into a single effect). The experiments finding non-effects have been between-subjects designs. Neuroimage effects may also depend on the quality of the information that the images accompany. For example, <ref type="bibr" coords="6,444.41,342.63,63.00,7.53;6,286.24,353.06,24.96,7.53" target="#b25">Weisberg et al. (2008)</ref> found that neuroscience information was particularly persuasive when it accompanied relatively weak or faulty arguments. Finally, it may be the case that the mere mention or framing of a scientific finding in neuroscientific terms may produce somewhat of a ceiling effect, preventing any additional influence by an accompanying neuroimage.</p><p>While our previous experiments have not produced evidence of bias, it remains an open question whether or not certain contexts exist in which a neuroimage could indeed bias judgment. The various contextual variables outlined above reflect potential avenues to pursue in moving toward a more nuanced understanding of the potential influence of a neuroimage. To begin this effort, in our final experiment, we combined a repeated measures design, passages containing weak arguments and no neuroscience language, and a realistic 3-D color neuroimage (compared to a text only control). Together these conditions produce seemingly the ideal environment to find a neuroimage effect. The lack of a neuroimage effect under the se conditions would make it difficult to sustain the notion that neuroimages can bias judgment in any meaningful fashion. However, finding a neuroimage effect under these conditions would at least suggest that contexts exist where such an effect would emerge thus laying open the effort to identify those contexts and the mechanisms supporting neuroimage effects in those contexts.</p><p>Participants obtained from Amazon Mechanical Turk (N = 161, 63% male, mean age = 30) completed this experiment. We utilized two brief summaries describing a piece of scientific research: The first summary was taken directly from <ref type="bibr" coords="7,58.73,452.16,87.71,7.53" target="#b25">Weisberg et al. (2008)</ref> (hereafter, the ''knowledge'' summary) and the second summary described a flawed experiment showing a link between a new drug and headaches used in <ref type="bibr" coords="7,94.68,483.51,108.91,7.53" target="#b21">Schweitzer and Saks (2012;</ref><ref type="bibr" coords=""></ref> hereafter the ''headache'' summary). Both summaries used faulty reasoning and had no neuroscience. Both summaries are included as Appendix A. Paired with each summary was either a color representation of a 3-dimensional fMRI image (similar to <ref type="bibr" coords="7,93.77,535.84,84.91,7.53">Keehner et al.'s (2011)</ref> most persuasive image; see Appendix B) or no image. Participants viewed and judged both summaries. The image-summary pairing was randomized, as was the order of presentation. Following each scenario, participants were given a set of six items measuring the extent to which the participant believed or was persuaded by the research described in the summary, rated on a 1-7 scale.</p><p>If the repeated measure format is indeed a driver of the effects found in <ref type="bibr" coords="7,99.67,630.01,85.39,7.53" target="#b25">Weisberg et al. (2008)</ref> and <ref type="bibr" coords="7,204.95,630.01,53.07,7.53;7,36.85,640.44,25.05,7.53" target="#b14">Keehner et al. (2011)</ref> we expect that any neuroimage effects would be found only in the second block (i.e., the second of the two ''trials'' and after being exposed to a passage) and not the first (i.e., the first of the two ''trials'' and before being exposed to any other passage). Looking only at the data from the first block, we conducted a 2 (Image: Brain or No Image) Â 2 (Summary: Headache or Knowledge) between-subjects ANOVA on our composite measure of perceived credibility (Cronbach's a = .89). Despite the use of weak research scenarios, high-impact images, and no neuroscience language, the image manipulation did not yield a  <ref type="table" coords="7,281.93,420.53,26.83,7.53" target="#tab_1">Table 1</ref>) produced a nearly identical pattern.</p><p>Turning to the second block (Cronbach's a = .90), we again found that the Knowledge summary (M = 3.75) was perceived to be significantly more credible that the Headache summary (M = 3.38), F(1, 155) = 6.46, p = .01, g 2 p ¼ :040. Critically, however, we found an effect of the Image manipulation with the scenario containing the brain image (M = 3.78), rated as significantly more credible than the summary containing No Image (M = 3.34),  <ref type="table" coords="7,385.06,535.62,25.53,7.53" target="#tab_1">Table 1</ref>) produced a nearly identical pattern. These results are illustrated in <ref type="figure" coords="7,446.80,546.05,46.82,7.53;7,493.57,544.49,3.48,5.02" target="#fig_7">Fig. 5 below. 7</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Meta-analysis</head><p>Finally, to maximize statistical power in an effort to uncover any neuroimage effects that might be present in our data, we combined the data from Experiments 1, 2, 3, and 4 to allow for a Brain vs. Graph comparison on our Compos-  ite DV of persuasiveness items (which was present in each of those experiments). Across 882 participants, a 2 (Brain vs. Graph) Â 4 (Experiment) ANOVA revealed no significant difference between the Brain (M = 4.85) and Graph (M = 4.82) conditions, F(1, 874) = .797, p = .37, g 2 p ¼ :001. Additionally, we combined the data from Experiment 4 and Block 1 of Experiment 5 (N = 301) and conducted a 2 (Experiment) Â 2 (Brain vs. Text Only) ANOVA on our composite item. Consistent with our earlier findings, no effect of image was found (M brain = 3.74; M control = 3.76) F(1, 297) = .087, p = .77, g 2 p ¼ :001.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>Across five experiments with over 1000 demographically-diverse participants, we were generally unable to find any influence of neuroimages on judgment across a range of scenarios. This included scenarios and dependent variables that were conceptually similar and identical to those used by <ref type="bibr" coords="8,54.37,640.50,101.29,7.53" target="#b15">McCabe and Castel (2008)</ref>. These results corroborate the numerous demonstrations of a lack of a biasing influence of neuroimages in legal and other domains <ref type="bibr" coords="8,232.43,661.42,29.90,7.53;8,41.16,671.90,57.44,7.53" target="#b9">(Greene &amp; Cahill, 2011;</ref><ref type="bibr" coords="8,101.82,671.90,103.02,7.53" target="#b10">Gruber &amp; Dickerson, 2012;</ref><ref type="bibr" coords="8,208.06,671.90,54.27,7.53;8,41.16,682.39,21.90,7.53" target="#b16">Michael et al., 2013;</ref>.</p><p>More importantly, the experiments reported here suggest that neuroimage effects are likely not present in a variety of different situations. For example, our first experiment revolved around medical and epidemiological decision-making and used three different scenarios that proposed a link between physiological, environmental, and toxicological causes and a specific neuro-behavioral defect. Across our second, third, and fourth experiments, we used a task that mirrors how the lay public often encounters science in the form of three different general-media ''news articles'' that described some new scientific finding. Our final experiment used two research abstracts as they might appear if read directly from a journal article. 8 While some of these tasks are similar or identical to the M&amp;C task, combined with the previous findings using legal decision-making tasks, it is becoming clear that neuroimages do not hold the sort of broad persuasive power as once suggested.</p><p>Although we were unable to replicate McCabe and Castel's (2008) findings either conceptually or directly, this does not necessarily indicate that the original study was flawed; however, it does suggest that the biasing impact of neuroimagery is far less than was originally thought and, in fact, may be negligible. One potential explanation for these failures to replicate is that, as people have become more exposed to neuroscience over the past 5 years, the persuasive punch of neuroimagery has dulled, and what might have been legitimate effects in 2008 simply no longer exist. Unfortunately, testing this hypothesis would be quite difficult. In particular, it would be necessary to separate the effect of the novelty of neuroimagery from its substantive meaning-while pictures of brain function may no longer have the ''wow'' factor that they once had, as we learn more about the biological basis of human behavior, that single picture may take on additional meaning. In addition, both the <ref type="bibr" coords="8,407.96,587.09,82.13,7.53" target="#b14">Keehner et al. (2011)</ref> and <ref type="bibr" coords="8,286.24,597.52,83.45,7.53">Ikeda et al. (in press)</ref> have found effects of neuroimages and are, of course, more recent. Another possible factor in our lack inability to find a neuroimage effect involves our choice of sample and the modality of our experimental paradigm. While much of the work on the neuroscience  bias utilized college-student samples and paper-and-pencil materials, the work described in this paper uses online community samples with the materials presented via computer. While these methodological differences certainly exist, it is unclear how they would account for the differences in results. In addition, other recent research on the neuroimage bias (e.g., <ref type="bibr" coords="9,121.78,271.82,136.33,7.53;9,36.85,282.31,26.42,7.53">Baker, Schweitzer, Risko, &amp; Ware, in preess;</ref><ref type="bibr" coords="9,66.78,282.31,79.17,7.53" target="#b16">Michael et al., 2013)</ref> has used various participant groups (including college samples) and presentation methods (including computer presentation combined with paper and pencil response), while still finding no evidence of bias.</p><p>While the emerging skepticism about the persuasiveness of neuroimages is well justified, the present results also demonstrate that a neuroimage effect (akin to the original) does exist in at least some contexts. Namely, we were able to find a neuroimage effect when we used stimuli that combined the non-neuroscience language, weak arguments, and high-impact images described in <ref type="bibr" coords="9,222.41,386.91,35.69,7.53;9,36.85,397.40,47.12,7.53" target="#b25">Weisberg et al. (2008)</ref> and <ref type="bibr" coords="9,104.20,397.40,79.57,7.53" target="#b14">Keehner et al. (2011)</ref>. However, even in this putatively optimal set of circumstances, the neuroimage effect occurred only after participants had multiple points of reference in a repeated measures design. Thus, the critical contextual variable appears to be the opportunity to (explicitly or implicitly) compare passages with and without an image of the brain in order for the brain image to exert any influence. In other words, a neuroimage bias might depend on the task involving a relative versus absolute judgment. Importantly, this discovery is not without practical consequences. For example, in legal contexts a jury is quite likely to be exposed to multiple sources of information and the situation would thus be more akin to a relative judgment task than to an absolute one.</p><p>Together the present results clearly define the limiting conditions on the influence neuroimagery on judgment across a variety of contexts. Critically, the present results also point in a new direction, ripe for future research, aimed at understanding what contexts within the identified limits might be sensitive to the biasing impact of neuroimages.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A</head><p>A.1. Research summaries used in Experiment 1 A.1.1. Idiopathic</p><p>Doctors have been examining the case of a woman who suddenly developed severe behavioral problems. Though she had lived an otherwise normal and healthy life, shortly after her 34th birthday, the woman's behavior became erratic and aggressive. The woman would easily become upset and enraged, and would often yell at family members, friends, and strangers. The woman's problems grew increasingly worse until 1 day she was arrested after assaulting a stranger who had happened to bump into her on the sidewalk. After being examined by a team of doctors and psychologists, including undergoing an MRI scan of the woman's brain, the doctors concluded that she had a major defect in the left frontal lobe of her brain. A large portion of the brain tissue had essentially died, and was no longer functioning.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A.1.2. Neurotoxin</head><p>Scientists have recently been examining the effects of certain neurotoxins (poisons that target the brain and ner-  vous system) on human behavior. One such neruotoxin is know to cause sudden behavioral changes, making people become erratic and highly aggressive. One potential reason for these behaviors would be that the neurotoxin damages the left frontal lobe of the brain, which is responsible for planning and self-control. One individual who was recently exposed to this neurotoxin was given an MRI scan of the brain, and it was found that the left frontal lobe was damaged and had highly reduced function.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A.1.3. Past drugs</head><p>A recent study of the long-term effects of certain types of drug abuse involved conducting brain scans of drug abusers to assess the function of the left frontal lobe of their brains. The study found that many of the very worst of the long-term abusers suffered from damage and reduced functionality of their brains.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A.2. Research summaries used in Experiment 2</head><p>A.2.1. Brain abnormalities in childhood and subsequent criminal behavior Many researchers believe that violent tendencies have a biological basis and that tests and brain imaging can pick them up. Prof Adam Blaine, a neurologist with substantial experience in diagnosing brain injuries, argues that abnormal physical brain make-up could be a cause of criminality. His studies have shown that psychopaths and criminals have significant brain abnormalities in the prefrontal cortex, which regulates and controls emotion and social behavior. He also investigated whether these abnormalities could be detected and treated in early childhood. Blaine conducted a study using magnetic resonance imaging (MRI) scan to examine the brains of more than 100 convicted criminals who had psychopathic tendencies or other anti-social behaviors that lead to criminal activities. He also used data from more than 9000 twins from the Twins Early Development Study, a survey of twins born in England and Wales between 1994 and 1996. Assessments of callous unemotional traits and conduct problems were based on teacher questionnaires when the children were seven, nine and 12. Information was taken from parents when the children were as young as four. Blaine found there was a correlation between risk factors at a young age (seven) and bad behavior at an older age (twelve). The brain scans of these children also indicated a change in brain structure for those at higher risk for bad behavior that was consistent with the criminals. He acknowledged the ethical implications of treating children before they had done anything wrong, but argued that ''biological'' causes of crime could not be ignored.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A.2.2. Retinal damage and brain function</head><p>Looking at the back of the eye may offer insight into the health of someone's brain, according to the US researchers. A study, published in the journal Neurology, linked damage to the retina with declining brain function. Researchers believe issues with the blood supply may be damaging both the eye and the brain. The eye condition the researchers were looking at was retinopathy, which is common in patients with Type 2 diabetes or high blood pressure. Damage to the retina can eventually lead to blindness. Scientists followed 511 women, who were 65 or older, for a decade. Nine were diagnosed with retinopathy. Those with the eye condition tended to have low scores in tests of brain function, including memory and abstract reasoning exams. Dr. Simon Riley, Alzheimer's Research US, used magnetic resonance imaging (MRI) scans that revealed more areas of damaged brain tissue, ischemic lesions, in those with retinopathy. While there was no suggestion of dementia in the patients, brain decline can be an early sign of the disease. Riley points out that this could be very useful if simple eye screening could give an early indication that people might be at risk of problems with their brain health and functioning. The study adds to evidence linking vascular health to cognitive decline.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A.3. Research abstracts used in Experiment 5</head><p>A.3.1. ''Knowledge'' summary (taken directly from <ref type="bibr" coords="10,469.58,494.06,33.31,7.53;10,286.24,504.55,44.73,7.53" target="#b25">Weisberg et al. (2008)</ref> -No neuroscience language, weak conclusion)</p><p>Researchers created a list of facts that about 50% of people knew. Subjects in this experiment read the list of facts and had to say which ones they knew. They then had to judge what percentage of other people would know those facts. Researchers found that the subjects responded differently about other people's knowledge of a fact when the subjects themselves knew that fact. If the subjects did know a fact, they said that an inaccurately large percentage of others would know it, too. For example, if a subject already knew that Hartford was the capital of Connecticut, that subject might say that 80% of people would know this, even though the correct answer is 50%. The researchers call this finding ''the curse of knowledge''. The researchers claim that this ''curse'' happens because subjects make more mistakes when they have to judge the knowledge of others. People are much better at judging what they themselves know. A.3.2. ''Headache'' summary (Pilot materials used in <ref type="bibr" coords="11,36.85,65.18,91.89,7.53" target="#b21">Schweitzer &amp; Saks, 2012)</ref> A study was conducted in order to determine whether a new drug causes people to get headaches. In order to test this, researchers handed out samples of the drug to 100 people. The researchers asked the people to record how often they took the drug, and also how many headaches they had. After 30 days, the researchers discovered that the more often people took the drug, the more headaches they had. The researchers concluded that the new drug causes people to get headaches.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="6,41.16,558.53,97.55,8.69;6,135.61,563.69,2.94,4.90;6,141.51,559.37,120.84,7.84;6,41.16,569.02,110.76,8.69;6,148.82,574.12,2.94,4.90;6,154.72,570.00,26.86,7.70;6,52.84,580.29,209.46,7.53;6,41.16,590.31,221.20,8.29;6,286.24,53.85,95.57,8.69;6,378.71,58.95,2.94,4.90;6,384.61,54.69,122.79,7.84;6,286.24,64.34,42.96,8.69;6,326.10,69.44,2.94,4.90;6,331.99,65.18,175.43,7.84;6,286.24,74.77,79.30,8.69;6,362.44,79.87,2.94,4.90;6,368.33,75.61,139.04,7.84;6,286.24,86.10,221.14,7.53"><head>F( 1 ,</head><label>1</label><figDesc>204) = 6.16, p = .01, g 2 p ¼ :029. No interaction was present, F(2, 204) = .47, p = .63, g 2 p ¼ :005. Looking at the composite measure of our persuasiveness items (Cronbach's a = .76), no main effect of image,</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="7,281.93,294.17,161.90,8.69;7,440.73,299.27,2.94,4.90;7,446.57,295.01,56.56,7.84;7,281.93,305.44,221.22,7.53;7,281.93,315.93,221.21,7.53;7,281.93,326.36,221.17,7.53;7,281.94,336.01,41.25,8.69;7,320.09,341.11,2.94,4.90;7,325.98,336.85,177.12,7.84;7,281.93,346.44,107.42,8.69;7,386.25,351.54,2.94,4.90;7,392.09,347.28,111.03,7.84;7,281.93,357.77,221.21,7.53;7,281.93,367.36,191.55,8.69;7,470.38,372.46,2.94,4.90;7,476.22,368.35,26.87,7.70;7,281.93,378.69,221.14,7.53;7,281.93,389.12,221.19,7.53;7,281.93,399.61,221.16,7.53;7,281.93,409.20,38.25,8.69;7,317.08,414.30,2.94,4.90;7,322.98,410.04,180.15,7.84"><head></head><label></label><figDesc>significant effect, F(1, 155) = .19, p = .66, g 2 p ¼ :001. A main effect of summary was found in that the Knowledge summary (M = 3.92) was rated as significantly more credible that the Headache summary (M = 3.40), F(1, 155) = 14.78, p &lt; .001, g 2 p ¼ :087. In addition, an interaction was present, F(1, 155) = 4.84, p = .03, g 2 p ¼ :030. Looking within this interaction we find no significant effect of image within the Knowledge summary F(1, 81) = .62, p = .16, g 2 p ¼ :024, but a marginal effect within the Headache summary in which the brain image produces lower ratings (M = 3.22) than the No Image condition (M = 3.58), F(1, 74) = 2.74, p = .10, g 2 p ¼ :036. Tests on the individual DVs (listed in</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="7,281.93,513.80,100.27,8.75;7,379.11,518.96,2.94,4.90;7,385.00,514.70,118.12,7.84;7,281.94,524.29,114.56,8.69;7,393.39,529.39,2.94,4.90;7,399.23,525.13,103.88,7.84;7,281.93,535.62,101.86,7.53"><head>F( 1 ,</head><label>1</label><figDesc>155) = 9.41, p = .003, g 2 p ¼ :056. No interaction was present, F(1, 155) = .480, p = .49, g 2 p ¼ :003. Once again, tests on the individual DVs (listed in</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="7,147.06,204.85,245.82,6.03"><head>Fig. 1 .</head><label>1</label><figDesc>Mean believability (±1 1SE) ratings by scenario and image, Experiment 1.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="7,36.85,369.54,221.18,6.03;7,36.85,378.10,64.63,6.03"><head>Fig. 2 .</head><label>2</label><figDesc>Mean composite believability score (±1 1SE) by scenario and image, Experiment 2. 7 Once again, using various timing cutoffs did not substantively change the results. For example, a cutoff of 150 s excluded the quickest 20% of the participants and changed the significance of the image effect in Block 1 from p = .66 to p = .58, and in Block 2 the significance remained constant at p = .003. Mean completion time = 242 s (SD = 133 s).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="8,41.16,201.17,466.22,6.03;8,41.16,209.73,77.42,6.03"><head>Fig. 3 .</head><label>3</label><figDesc>Mean ratings by DV and image (±1 1SE). ''Title'' and ''Conclusion'' are original items used in<ref type="bibr" coords="8,337.15,201.17,76.56,6.03" target="#b15">McCabe and Castel (2008)</ref>. ''Composite'' is the composite measure of our six items.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="8,41.16,391.14,221.18,6.03;8,41.16,399.76,221.14,6.03;8,41.16,408.32,170.06,6.03"><head>Fig. 4 .</head><label>4</label><figDesc>Mean ratings by DV and image (±1 1SE), Experiment 4. ''Title'' and ''Conclusion'' are original items used in McCabe and Castel (2008). ''Composite'' is the composite measure of our six items.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7" coords="9,140.20,190.22,259.59,6.03"><head>Fig. 5 .</head><label>5</label><figDesc>Mean ratings (±1 1SE) of the Composite DV across scenario, image, and block.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8" coords="9,281.93,674.95,221.18,6.03;9,281.93,683.51,34.71,6.03"><head>Fig. B1 .</head><label>B1</label><figDesc>Images used in Experiment 1 (presented to participants in black and white).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9" coords="10,70.41,271.86,162.65,6.03"><head>Fig. B2 .</head><label>B2</label><figDesc>Color 3-D neuroimage used in Experiment 5.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="2,286.24,190.69,221.21,80.78"><head></head><label></label><figDesc>sought to replicate the McCabe and Castel (2008) findings. Across multiple attempts with various samples and presentation modalities, Michael et al. were unable to replicate the findings reported in McCabe and Castel's third experiment, finding that perceptions of a newspaper-type article describing a scientific finding were not influenced by the inclusion of an accompanying neuroimage. Finally,</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="4,41.16,54.73,451.54,573.29"><head>Table 1</head><label>1</label><figDesc>List of means (standard deviations) and effect sizes for DVs across all experiments. . . .the [subject's] problems are caused by a brain defect? 4.16 (1.67) 3.65 (1.30) .340 [À.056, .736] . . .the [subject] might be a danger to herself or others? 5.34 (1.29) 5.35 (1.19) À.008 [À.332, .316] . . .the [subject] will be in control of her actions? To what extent do you feel you understand this study? 4.95 (1.28) 5.04 (1.43) À.067 [À.244, .111] . . .feel the researcher did a ''good'' job? 4.98 (1.19) 4.99 (1.38) À.008 [À.177, .161] . . .feel the scientific reasoning in the article made sense? [À.322, .191] . . .feel the researcher did a ''good'' job? 5.27 (1.01) 5.09 (1.32) .155 [À.063, .372] . . .feel the scientific reasoning in the article made sense? To what degree do you agree or disagree that the title ''Brain Scans Can Detect Criminals'' is a good summary of the results?33.0 years; representing 45 US states; 45.7% of the sample holding a bachelor's degree or higher) were randomly assigned to view the BBC News article accompanied by either a neuroimage or a graph. Following the article, the participants answered the same two DV items posed by M&amp;C, along with the same six additional measures of persuasive-</figDesc><table coords="4,49.66,77.58,443.03,550.45">Brain 
+Graph 
+Control 
+Cohen's 
+d [95% CI] 
+
+Experiment 1 (overall) 
+N = 81 
+N = 94 
+To what extent do you believe the [subject] has a brain 
+defect? 
+
+5.75 (1.39) 
+5.89 (1.23) 
+À.108 [À.300, .085] 
+
+. . .the [subject's] problems are caused by a brain defect? 
+5.27 (1.61) 
+5.32 (1.46) 
+À.033 [À.258, .193] 
+. . .the [subject] might be a danger to herself or others? 
+5.59 (1.18) 
+5.62 (1.15) 
+À.026 [À.197, .146] 
+. . .the [subject] will be in control of her actions? 
+3.22 (1.25) 
+3.46 (1.28) 
+À.191 [À.377, À.004] 
+Composite DV 
+5.32 (1.05) 
+5.34 (0.87) 
+À.021 [À.162, .120] 
+
+Experiment 1 (idiopathic) 
+N = 22 
+N = 39 
+To what extent do you believe the [subject] has a brain 
+defect? 
+
+6.55 (0.80) 
+6.44 (0.72) 
+.149 [À.036, .334] 
+
+. . .the [subject's] problems are caused by a brain defect? 
+5.95 (1.25) 
+6.05 (1.00) 
+À.093 [À.363, .178] 
+. . .the [subject] might be a danger to herself or others? 
+6.05 (1.00) 
+5.95 (1.07) 
+.097 [À.161, .355] 
+. . .the [subject] will be in control of her actions? 
+2.68 (0.99) 
+2.90 (1.19) 
+À.199 [À.476, .078] 
+Composite DV 
+5.97 (0.72) 
+5.88 (0.69) 
+.131 [À.042, .304] 
+
+Experiment 1 (neurotoxin) 
+N = 27 
+N = 32 
+To what extent do you believe the [subject] has a brain 
+defect? 
+
+5.33 (1.49) 
+5.00 (1.39) 
+.234 [À.127 .594] 
+
+. . .the [subject's] problems are caused by a brain defect? 
+6.04 (0.94) 
+5.63 (1.07) 
+.412 [.158, .666] 
+. . .the [subject] might be a danger to herself or others? 
+5.52 (1.12) 
+5.41 (1.13) 
+.099 [À.183, .382] 
+. . .the [subject] will be in control of her actions? 
+3.30 (1.30) 
+3.72 (1.37) 
+À.319 [À.655, .016] 
+Composite DV 
+5.40 (0.79) 
+5.08 (0.83) 
+.401 [.197, .615] 
+
+Experiment 1 (drug use) 
+N = 32 
+N = 23 
+To what extent do you believe the [subject] has a brain 
+defect? 
+
+5.56 (1.44) 
+6.21 (1.00) 
+À.519 [À.850, À.188] 
+
+3.53 (1.29) 
+4.04 (0.93) 
+À.450 [À.750, À.151] 
+Composite DV 
+4.81 (1.19) 
+4.79 (0.69) 
+.020 [À.243, .283] 
+
+Experiment 2 (overall) 
+N = 109 
+N = 113 
+5.08 (1.34) 
+4.91 (1.50) 
+.120 [À.066, .306] 
+. . .believe the study's findings? 
+4.63 (1.36) 
+4.58 (1.48) 
+.035 [À.151, .222] 
+. . .believe this is a ''scientific'' study? 
+5.17 (1.48) 
+5.14 (1.56) 
+.020 [À.179, .219] 
+. . .feel this article was well written? 
+5.35 (1.21) 
+5.16 (1.33) 
+.150 [À.017, .317] 
+Composite DV 
+5.03 (1.00) 
+4.97 (1.17) 
+.055 [À.087, .198] 
+
+Experiment 2 (retina) 
+N = 55 
+N = 55 
+To what extent do you feel you understand this study? 
+5.00 (1.39) 
+5.09 (1.38) 
+À.066 5.44 (1.12) 
+5.22 (1.45) 
+.171 [À.069, .411] 
+. . .believe the study's findings? 
+5.18 (1.16) 
+4.89 (1.33) 
+.235 [.003, .466] 
+. . .believe this is a ''scientific'' study? 
+5.67 (1.39) 
+5.33 (1.35) 
+.250 [À.003, .504] 
+. . .feel this article was well written? 
+5.60 (1.03) 
+5.20 (1.19) 
+.363 [.157, .569] 
+Composite DV 
+5.36 (0.83) 
+5.14 (1.05) 
+.235 [.059, .410] 
+
+Experiment 2 (criminal) 
+N = 54 
+N = 58 
+To what extent do you feel you understand this study? 
+4.91 (1.19) 
+4.98 (1.49) 
+À.052 [À.301, .196] 
+. . .feel the researcher did a ''good'' job? 
+4.69 (1.29) 
+4.90 (1.45) 
+À.154 [À.406, .098] 
+. . .feel the scientific reasoning in the article made sense? 
+4.72 (1.46) 
+4.62 (1.51) 
+.068 [À.205, .341] 
+. . .believe the study's findings? 
+4.07 (1.33) 
+4.29 (1.57) 
+À.152 [À.420, .116] 
+. . .believe this is a ''scientific'' study? 
+4.67 (1.40) 
+4.97 (1.74) 
+À.191 [À.482, .100] 
+. . .feel this article was well written? 
+5.09 (1.34) 
+5.12 (1.45) 
+À.022 [À.278, .235] 
+Composite DV 
+4.69 (1.05) 
+4.81 (1.27) 
+À.104 [À.318, .111] 
+
+Experiment 3 
+N = 133 
+N = 134 
+3.27 (1.55) 
+3.13 (1.61) 
+.089 [À.100, .278] 
+
+. . .with the conclusion that brain imaging can be used as a 
+lie detector? 
+
+4.02 (1.52) 
+3.78 (1.47) 
+.131 [À.018, .340] 
+
+To what extent do you feel the researcher did a ''good'' job? 4.89 (1.23) 
+4.78 (1.44) 
+.082 [À.078, .242] 
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">N.J.Schweitzer et al. / Cognition 129 (2013) 501-511   </note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">As in Experiment 1, participants who completed their ratings in fewer than 45 s were excluded, although, once again, this cutoff did not substantively affect the significance of any of the tests. For example, using the full set of responses, the significance level of the Image manipulation on the Composite DV changes from p = .72 to p = .64. Mean completion time = 120 s (SD = 92 s).4  To be particularly thorough in guarding against Type II errors, we excluded 32 participants who failed the manipulation check (answering fewer than 75% of the items correctly) and/or completed the experiment in fewer than 200 s (as based on pilot testing of a reasonably minimal length for completion), leaving a final sample of 268. Mean completion time was 351 s (SD = 173 s). As with previous experiments, we re-analyzed these data using different cutoffs for attention, finding no substantive differences. For example, using the full set of participants changes the Conclusion DV (which was the closest to significance) from p = .16 to p = .20. Using a more stringent cutoff of only participants who scored 100% on the recall quiz resulted in a significance of p = .19.N.J.Schweitzer et al. / Cognition 129 (2013) 501-511  </note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">86.7% of participants scored at least four out of five correct answers on the quiz. Interestingly, recall scores differed as a function of the Image manipulation, with recall scores on the Graph condition being significantly lower than those on the Brain and Text Only conditions. As such, we did not exclude any participants on the basis of recall scores so as not to bias the results of our primary analysis. Mean completion time = 293 s (SD = 130 s). In addition, gender, age, and education were initially entered as factors or covariates in our models and did not substantively influence our findings, so these demographic measures are ignored for this experiment.6  As with previous experiments, no substantive differences were produced when using different cutoffs for participant attention. For example, using our same cutoff from Experiment 3 (75%) changed the significance of the Image manipulation on the Conclusion DV (the strongest effect) from p = .09 to p = .22.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8">Though we are certain that academic researchers would be highly unlikely to evaluate a journal article by simply reading the abstract and glancing at the images.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix B</head><p>See Figs. B1 and B2.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="11,36.91,243.06,221.08,6.03;11,48.81,251.00,209.21,6.03;11,48.81,258.99,159.28,6.03" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Through the glass darkly: Functional neuroimaging evidence enters the courtroom</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">S</forename><surname>Appelbaum</surname></persName>
+		</author>
+		<idno type="DOI">10.1176/appi.ps.60.1.21</idno>
+		<ptr target="http://dx.doi.org/10.1176/appi.ps.60.1.21" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychiatric Services</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="21" to="23" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,36.91,266.99,221.11,6.03;11,48.81,274.92,138.53,6.03" xml:id="b1">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Schweitzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">F</forename><surname>Risko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ware</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Visual attention and the neuroimage bias</title>
+		<imprint/>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct coords="11,36.91,282.92,221.11,6.03;11,48.81,290.85,209.21,6.03;11,48.81,298.85,106.28,6.03" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Is a picture worth a thousand words? Neuroimaging in the courtroom</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Baskin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">G</forename><surname>Edersheim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">H</forename><surname>Price</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Law &amp; Medicine</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<biblScope unit="page" from="239" to="269" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,36.91,306.84,221.08,6.03;11,48.81,314.78,136.37,6.03" xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Can Brain Scans Detect Criminals?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bbc News</surname></persName>
+		</author>
+		<ptr target="&lt;http://news.bbc.co.uk/2/hi/uk_news/4268260.stm&gt;" />
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,36.91,322.77,221.14,6.03;11,48.81,330.71,209.18,6.03;11,48.81,338.70,111.44,6.03" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Through a scanner darkly: Functional neuroimaging as evidence of criminal defendant&apos;s past mental states</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Murphy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Stanford Law Review</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="1119" to="1208" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,36.91,346.64,221.13,6.03;11,48.81,354.63,207.93,6.03" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The efficient assessment of need for cognition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Cacioppo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Petty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">F</forename><surname>Kao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality Assessment</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="306" to="307" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,36.91,362.63,221.09,6.03;11,48.81,370.56,209.24,6.03;11,48.81,378.56,209.24,6.03;11,48.81,386.49,39.15,6.03" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Note: Not guilty by reason of neuroimaging: The need for cautionary jury instructions for neuroscience evidence in criminal trials</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">E</forename><surname>Compton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vanderbilt Journal of Entertainment and Technology Law</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="333" to="354" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,36.91,394.49,221.13,6.03;11,48.81,402.48,60.47,6.03" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Objective Brains, Prejudicial Images</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Dumit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science in Context</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="173" to="201" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,36.91,410.42,221.10,6.03;11,48.81,418.41,74.70,6.03" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Blaming the brain</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Erickson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Minnesota Journal of Law</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="27" to="77" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note>Science &amp; Technology</note>
+</biblStruct>
+
+<biblStruct coords="11,36.91,426.35,221.14,6.03;11,48.81,434.34,209.20,6.03;11,48.81,442.28,119.32,6.03" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Effects of neuroimaging evidence on mock juror decision making</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Greene</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">S</forename><surname>Cahill</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/bsl</idno>
+		<ptr target="http://dx.doi.org/10.1002/bsl" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral Sciences &amp; the Law</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="280" to="296" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,36.91,450.27,221.10,6.03;11,48.81,458.27,209.21,6.03;11,48.81,466.21,209.15,6.03;11,48.81,474.20,20.56,6.03" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Persuasive images in popular science: Testing judgments of scientific reasoning and credibility</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Gruber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Dickerson</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0963662512454072</idno>
+		<ptr target="http://dx.doi.org/10.1177/0963662512454072" />
+	</analytic>
+	<monogr>
+		<title level="j">Public Understanding of Science</title>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,281.99,54.73,221.10,6.03;11,293.90,62.66,209.20,6.03;11,293.90,70.66,124.76,6.03" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The effects of neuroimaging and brain injury on insanity defenses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Gurley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">K</forename><surname>Marcus</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/bsl.797</idno>
+		<ptr target="http://dx.doi.org/10.1002/bsl.797" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral Sciences &amp; the Law</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="85" to="97" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,281.99,78.60,221.12,6.03;11,293.90,86.59,209.21,6.03;11,293.90,94.58,209.18,6.03;11,293.90,102.52,43.12,6.03" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Look Again: Effects of Brain Images and Mind-Brain Dualism on Lay Evaluations of Research</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Hook</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Farah</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/jocn_a_00407</idno>
+		<ptr target="http://dx.doi.org/10.1162/jocn_a_00407" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cognitive Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1397" to="1405" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,281.99,110.51,221.07,6.03;11,293.90,118.45,209.22,6.03;11,293.90,126.44,209.17,6.03;11,293.90,134.44,209.18,6.03;11,293.90,142.37,61.94,6.03" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Neuroscientific information bias in metacomprehension: The effect of brain images on metacomprehension judgment of neuroscience research</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Ikeda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kitagami</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Hattori</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Ito</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/s13423-013-0457-5</idno>
+		<ptr target="http://dx.doi.org/10.3758/s13423-013-0457-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychonomic Bulletin &amp; Review</title>
+		<imprint/>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct coords="11,281.99,150.37,221.12,6.03;11,293.90,158.31,209.22,6.03;11,293.90,166.30,209.19,6.03;11,293.90,174.24,140.63,6.03" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Different clues from different views: the role of image format in public perceptions of neuroimaging results</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Keehner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Mayberry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">H</forename><surname>Fischer</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/s13423-010-0048-7</idno>
+		<ptr target="http://dx.doi.org/10.3758/s13423-010-0048-7" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychonomic Bulletin &amp; Review</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="422" to="428" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,281.99,182.23,221.10,6.03;11,293.90,190.22,209.20,6.03;11,293.90,198.16,181.39,6.03" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Seeing is believing: The effect of brain images on judgments of scientific reasoning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Mccabe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Castel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cognition.2007.07.017</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.cognition.2007.07.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="343" to="352" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,281.99,206.16,221.11,6.03;11,293.90,214.09,209.21,6.03;11,293.90,222.09,209.17,6.03;11,293.90,230.08,23.22,6.03" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">On the (non)persuasive power of a brain image</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">B</forename><surname>Michael</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Newman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Vuorre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Cumming</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Garry</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/s13423-013-0391-6</idno>
+		<ptr target="http://dx.doi.org/10.3758/s13423-013-0391-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychonomic Bulletin &amp; Review</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="720" to="725" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,281.99,238.02,221.12,6.03;11,293.90,246.01,209.19,6.03;11,293.90,253.95,20.27,6.03" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Soft&apos;&apos; science in the courtroom?: The effects of admitting neuroimaging evidence into legal proceedings</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Pratt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Penn Bioethics Journal</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="3" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,281.99,261.94,221.12,6.03;11,293.90,269.88,209.19,6.03;11,293.90,277.87,154.41,6.03" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The biology of culpability: Pathological identity and crime control in a biological culture</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Rose</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1362480600004001001</idno>
+		<ptr target="http://dx.doi.org/10.1177/1362480600004001001" />
+	</analytic>
+	<monogr>
+		<title level="j">Theoretical Criminology</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="5" to="34" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,281.99,285.87,221.11,6.03;11,293.90,293.80,209.23,6.03;11,293.90,301.80,113.42,6.03" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Neuroimages in court: less biasing than feared</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Roskies</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Schweitzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Saks</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tics.2013.01.008</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.tics.2013.01.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cognitive Sciences</title>
+		<imprint>
+			<biblScope unit="issue">2-4</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,281.99,309.73,221.11,6.03;11,293.90,317.73,209.18,6.03;11,293.90,325.72,88.93,6.03" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Neuroimage evidence and the insanity defense</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Schweitzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Saks</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/bsl</idno>
+		<ptr target="http://dx.doi.org/10.1002/bsl" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral Sciences &amp; the Law</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="592" to="607" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,281.99,333.66,221.13,6.03;11,293.90,341.65,209.22,6.03;11,293.90,349.59,28.27,6.03" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Jurors and scientific causation: What don&apos;t they know, and what can be done about it?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Schweitzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Saks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Jurimetrics</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="433" to="455" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,281.99,357.58,221.10,6.03;11,293.90,365.52,209.20,6.03;11,293.90,373.51,209.20,6.03;11,293.90,381.51,140.69,6.03" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Neuroimages as evidence in a mens rea defense: No impact</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Schweitzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Saks</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">R</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Roskies</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Sinnott-Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Gaudet</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0023581</idno>
+		<ptr target="http://dx.doi.org/10.1037/a0023581" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology, Public Policy, and Law</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="357" to="393" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,281.99,389.44,221.09,6.03;11,293.90,397.44,142.96,6.03" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Judgment under uncertainty: Heuristics and biases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Tversky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Kahneman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">185</biblScope>
+			<biblScope unit="page" from="1124" to="1131" />
+			<date type="published" when="1974" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,281.99,405.37,221.11,6.03;11,293.90,413.37,208.21,6.03" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Neuroimaging and responsibility assessments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">A</forename><surname>Vincent</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12152-008-9030-8</idno>
+		<ptr target="http://dx.doi.org/10.1007/s12152-008-9030-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuroethics</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="35" to="49" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,281.99,421.36,221.09,6.03;11,293.90,429.30,209.17,6.03;11,293.90,437.29,209.17,6.03;11,293.90,445.23,20.44,6.03" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The seductive allure of neuroscience explanations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">S</forename><surname>Weisberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">C</forename><surname>Keil</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Goodstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Rawson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Gray</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/jocn.2008.20040</idno>
+		<ptr target="http://dx.doi.org/10.1162/jocn.2008" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cognitive Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="470" to="477" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

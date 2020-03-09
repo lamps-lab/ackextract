@@ -1,0 +1,1914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Helmke and Levitsky</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Butler and Stokes</publisher>
+				<availability status="unknown"><p>Copyright Butler and Stokes</p>
+				</availability>
+				<date type="published" when="2004">2004. 2011. May, 1864. 1986. 1969. 2004. 1991. 1987. 1983</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><forename type="middle">C</forename><surname>Eggers</surname></persName>
+							<email>andrew.eggers@nuffield.ox.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Politics and International Relations</orgName>
+								<orgName type="institution">University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arthur</forename><surname>Spirling</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Politics and International Relations</orgName>
+								<orgName type="institution">University of Oxford</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Helmke and Levitsky</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<publisher>Butler and Stokes</publisher>
+							<biblScope unit="volume">727</biblScope>
+							<biblScope unit="page">1873</biblScope>
+							<date type="published" when="2004">2004. 2011. May, 1864. 1986. 1969. 2004. 1991. 1987. 1983</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1017/S0007123416000016</idno>
+					<note>Department of Politics, New York University (email: arthur.spirling@nyu.edu). Audiences at the American Political Science Association, Midwest Political Science Association, the Princeton Political Methodology seminar, New York University and Nuffield College, Oxford provided helpful feedback. Comments from Karen Jusko and JF Godbout are greatly appreciated. Data replication sets and online appendices are available at http://dx.doi.org/</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T14:57+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This article considers the emergence of an informal institution vital to the functioning of Westminster polities: that the Shadow Cabinet is a 'government in waiting'. It compares the evidence for two theoretical accounts of its timing: a 'procedural' theory wherein the Shadow Cabinet is a solution to internal organizational issues in the House of Commons prior to widespread working-class voting, and a 'competition' theory that predicts that suffrage extension acts as a key stimulus for Shadow Cabinet organization. Gathering a dataset of almost a million utterances in parliament between the First and Fourth Reform Acts, the study provides a novel method of identifying Shadow Cabinet members using the surges in term use from their speeches. It finds that the 'competition' hypothesis is the most plausible version of events, and that the opposition responded to the new 'party-orientated electorate' by strategically reorganizing in a way that mimicked the cabinet's structure.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Informal institutions are 'socially shared rules, usually unwritten, that are created, communicated, and enforced outside of officially sanctioned channels'. 1 Our interest here is in the evolution of one particular informal institution, the study of which yields general methodological lessons for scholars of comparative politics: the rule that in Westminster systems, the 'Shadow Cabinet'the group of frontbench spokespersons from the official oppositionforms the executive when the party currently in opposition next enters government. This relationship is at the core of Westminster democracy for reasons that are obvious from any textbook account of those systems. 2 Yet it has never been part of statute law, and was not always the case in practice: in the eighteenth and early nineteenth centuries, leaders of governments (prime ministers) were implicitly or explicitly selected directly by the crown, 3 and later by some decision-making process within the majority party. 4 Prior to modern times, the presence of competing formal and informal institutions meant that conflicts over exactly which set of rules and actors had precedence were common. <ref type="bibr" coords="1,268.78,442.57,3.74,5.84">5</ref> In modern Westminster systems, where partisan voting is the norm 6 and majoritarian electoral systems deliver disproportionate government numerical superiority in parliament, 7 along with evidence in line with a procedural theory. In stark contrast, if its emergence is clearly post-Second Reform Act (and to boot, relatively shortly after), we are on firmer ground with a competition story. Of course, the reality of historical change stretched out over a 100-year period of reform means that the researcher is rarely in a position to speak in absolutes: that one account is correct while the other is wrong. A more sensible strategy is thus to weigh the relative heft that might be given to the differing accounts.</p><p>With such an approach in mind, an immediate problem is that executing any large-n studies of informal institutions is extremely difficult, 21 not least because (almost by definition) they leave less of a paper trail of official documentation. In the specific case of the Shadow Cabinet, only in very recent times have its membership or activities been recorded for outside observers. <ref type="bibr" coords="3,91.39,175.60,7.47,5.84">22</ref> The result is that researchers must make more uncertain inferences about who, exactly, constitutes the body itself and what it is doing. This problem is compounded in Westminster systems by the fact that the opposition per se is procedurally weak and hard to observe in action: the usual metrics for examining the strength of opposition organizationlike roll rates 23 or the strategic use of committee control 24 in the US Congressare either very consistently zero or simply non-existent. Put more succinctly, since oppositions almost always lose against governmentsin terms of what gets onto the legislative agenda and what becomes lawthere is seemingly little variation in legislative output to explain or explore over time. <ref type="bibr" coords="3,70.98,271.24,7.47,5.84">25</ref> Consequently, studying the opposition and its role in informal institutions is extremely challenging.</p><p>Here we attempt to improve matters by describing informal institutions in a way that is familiar to political methodologists in comparative politics: by using a latent variable representation in which an observed variable for a given unit (speech contents) may be used to make inferences about an unobserved one (Shadow Cabinet management) and its relationship with an outcome of interest (Cabinet membership). <ref type="bibr" coords="3,258.86,342.96,7.47,5.84">26</ref> As suggested by this strategy, a second contribution below is to provide a text-as-data measurement strategy 27 using the almost one million utterances between the approximate dates of the First and Fourth Reform Acts  in which the relevant informal institution first emerged and then evolved. We model these speeches using a measure that considers the 'burstiness' 28 of different (government and opposition) actors over time: specifically, we introduce a validated method for scoring individuals via their spoken contributions to debate in the House of Commons. This metric relies on the relative spike in activity around particular terms that MPs use, in order to measure members' latent agenda-setting abilities. By comparing the estimated abilities of opposition members, we can infer when and how the Shadow Cabinet emerged and thus contribute to the debate about its origins sketched above.</p><p>We find that, while the First Reform Act made the Cabinet, the Second Reform Act made the Shadow Cabinet. More subtly, we provide theory and evidence to suggest that the 1867 Second 21 Although see, e.g., <ref type="bibr" coords="3,136.52,521.52,57.09,7.45" target="#b29">Desposato 2006;</ref><ref type="bibr" coords="3,196.44,521.52,44.28,7.45;3,58.79,529.57,6.35,4.97">Stokes 2006. 22</ref> Indeed, even the leader of the 'official opposition' was not recognized formally by Erskine Maythe parliamentary procedure guide used in <ref type="bibr" coords="3,185.72,541.42,66.50,7.45">Britainuntil 1937</ref>. <ref type="bibr" coords="3,58.79,549.53,6.35,4.97">23</ref>  <ref type="bibr" coords="3,69.17,551.40,93.15,7.45;3,58.79,559.45,6.35,4.97">Cox and McCubbins 2005. 24</ref> E.g., <ref type="bibr" coords="3,87.65,561.38,51.20,7.45;3,58.79,569.43,6.35,4.97">Krehbiel 1992. 25</ref> Of course, oppositions are doing other things that are important but do not manifest themselves so obviously, and it is this more latent data that we use below. <ref type="bibr" coords="3,58.79,589.33,6.35,4.97">26</ref> See, e.g., <ref type="bibr" coords="3,103.52,591.26,91.64,7.45" target="#b48">Jackman and Treier (2008)</ref>, <ref type="bibr" coords="3,201.66,591.26,132.97,7.45" target="#b67">Pemstein, Meserve, and Melton (2010)</ref>, <ref type="bibr" coords="3,341.07,591.26,47.33,7.45" target="#b83">Svolik (2014)</ref> for applications of this type of approach. <ref type="bibr" coords="3,58.79,609.28,6.35,4.97">27</ref> See, e.g., <ref type="bibr" coords="3,103.29,611.16,95.98,7.45" target="#b41">Grimmer and Stewart 2013;</ref><ref type="bibr" coords="3,202.11,611.16,62.87,7.45" target="#b73">Quinn et al. 2010;</ref><ref type="bibr" coords="3,267.81,611.16,84.41,7.45" target="#b81">Slapin and Proksch 2008</ref>. <ref type="bibr" coords="3,58.79,619.26,6.35,4.97">28</ref>  <ref type="bibr" coords="3,69.17,621.13,55.39,7.45" target="#b57">Kleinberg 2002.</ref> Reform Act, and its associated introduction of a 'party-orientated electorate' (in the sense of Cox 29 ) was crucial for the establishment of a hierarchical opposition leadership, with small numbers of senior individuals increasingly dominating exchanges from the 1870s and 1880s onwards. We show that after the 1870s, (a) the opposition as a whole was able to wrestle back some noticeable control of the agenda from the Cabinet, (b) a small group of opposition individuals emerged who, relative to their co-partisan colleagues, increasingly dominated debates and (c) the relationship between being one of these individuals and taking a role in the next Cabinet controlled by their party was increasingly strong. In explaining these findings, we expend some effort to validate our measure and demonstrate its strength over potentially misleading alternatives. These steps help more evenly balance the literature on British political developmentincluding the work on the export of its governance arrangements 30by appropriately focusing on both government and its alternative.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SHADOW CABINET: LITERATURE AND ORIENTATION</head><p>Students of British political development typically focus on the period of profound transformation between the First (1832) and Fourth (1918) Reform Acts, and our study does the same. Discussion of changes in Parliament during this time can be found in many sources, 31 but several key developments are as follows: first, as per Cox, 32 the cabinet as the agenda setter emerged in the 1830s as an attempt to solve a common resource problemtoo many MPs were taking up too much time with self-promoting minutiaein the aftermath of the Great Reform Act. Secondly, as the century progressed, parties showed increasing cohesion in their division voting; 33 the period of the Corn Laws 34 and their immediate aftermath was one of unusual disunity and party realignment. Executive dominance was arguably complete in its modern sense with the coming of the 'Railway Timetable', introduced by Prime Minister Balfour in 1902, 35 which gave governments clear precedence to introduce (and pass) their legislation with little opportunity for the opposition to overturn such plans on the floor or division lobbies in the House of Commons. Not least because it plays a larger role in policy making, and has done for a longer period, the Cabinet has attracted much more scholarly attention than its opposition counterpart. As noted, the Cox 36 account dominates and suggests that the emergence of the Cabinet as an organizational force, whatever its later expanded role in public policy, occurred as a solution to a procedural problem. A puzzle that arises from this accepted assertion is the timing and precise form of the Shadow Cabinet's emergence as a de facto organization. On the one hand, we might expect it to (begin to) arise fairly soon after this, motivated perhaps by the sudden threat of institutional dominance by a powerful executive or, more charitably, stimulated by some other potential efficiency gain. This might include the requirement to provide swift and acceptable transitions of power after elections, 37 or to safeguard backbencher rights in general. <ref type="bibr" coords="4,70.13,529.57,6.35,4.97">29</ref>  <ref type="bibr" coords="4,80.45,531.45,36.00,7.45;4,70.13,539.55,6.35,4.97;4,80.45,541.42,87.62,7.45">Cox 1987. 30 E.g., Rhodes, Wanna and</ref><ref type="bibr" coords="4,170.93,541.42,44.68,7.45" target="#b76">Weller 2009;</ref><ref type="bibr" coords="4,261.57,541.42,44.56,7.45;4,70.13,549.53,6.35,4.97;4,80.45,551.40,54.71,7.45">Weller 2005. 31 E.g., Cox 1987;</ref><ref type="bibr" coords="4,137.99,551.40,42.86,7.45" target="#b38">Fraser 1960;</ref><ref type="bibr" coords="4,183.68,551.40,48.19,7.45" target="#b75">Redlich 1908;</ref><ref type="bibr" coords="4,234.70,551.40,35.42,7.45">Rush 2001</ref><ref type="bibr" coords="4,270.13,551.40,3.81,7.45;4,70.13,559.45,6.35,4.97;4,80.45,561.38,32.19,7.45">. 32 Cox 1987</ref><ref type="bibr" coords="4,112.64,561.38,3.81,7.45;4,70.13,569.43,6.35,4.97;4,80.45,571.30,51.32,7.45">. 33 Aydelotte 1963</ref><ref type="bibr" coords="4,138.44,571.30,58.40,7.45" target="#b10">Berrington 1968;</ref><ref type="bibr" coords="4,199.67,571.30,41.77,7.45" target="#b61">Lowell 1902</ref><ref type="bibr" coords="4,241.44,571.30,3.81,7.45;4,70.13,579.41,6.35,4.97;4,80.45,581.28,46.22,7.45">. 34 McLean 2001</ref><ref type="bibr" coords="4,133.34,581.28,80.95,7.45" target="#b79">Schonhardt-Bailey 2003</ref>. <ref type="bibr" coords="4,70.13,589.33,6.35,4.97">35</ref>  <ref type="bibr" coords="4,80.45,591.26,47.90,7.45" target="#b78">Richards 1988</ref><ref type="bibr" coords="4,128.34,591.26,21.46,7.45;4,70.13,599.31,6.35,4.97;4,80.45,601.24,32.19,7.45">, 145. 36 Cox 1987</ref> Readers might reasonably wonder what happened in the absence of a Shadow Cabinet when a general election returned a new party to majority power. In practice, even as late as 1880, the precise links between Certainly, scholars of other Westminster institutional developmentslike the advent of (aggressive) parliamentary questionshave made the case that they arose relatively quickly from non-Cabinet members' need to keep the executive in check. <ref type="bibr" coords="5,344.69,79.96,7.47,5.84">38</ref> Similarly, certain institutional behaviors, such as cohesive division voting against the government's legislation and the commensurate use of government whipping to make executive bills into parliamentary acts, 39 started not long after the rationalization noted by <ref type="bibr" coords="5,281.59,118.02,19.09,8.77;5,300.70,115.79,7.47,5.84">Cox. 40</ref> On the other hand, historians suggest that the notion of the informal institution of government in waiting did not emerge until much later: after the Second Reform Act (1867). This suffrage expansion and the 'triumph of partisan politics' 41 it induced was commensurate with a decline in personalized, patronage appeals. 42 An alternative argument, then, is that the Shadow Cabinet emerged as a collection of opposition leaders with specific designs on governmental roles, putting forth a more unified policy-based appeal than had been previously used in elections. Here, analysts have pointed to early campaigning efforts by Liberal leader William Gladstone in the late 1870s as the start of this process. <ref type="bibr" coords="5,213.45,211.43,7.47,5.84">43</ref> The observational implication of this position is that we should not see the evolution of an opposition leadership until after suffrage expanded.</p><p>While qualitative scholars have documented changes in how opposition leaders acted and, more broadly, how they strategized, they have not provided a systematic assessment of such claims. In particular, they have been unablemostly due to data limitationsto link parliamentary activity to both opposition organization and subsequent government formation. Though we will shortly discuss our data-driven attempt to resolve this debate, two points of circumspection are worth making here. First, our 'testing' of the procedural vs. competition theory relies on relative timing after 1832. This is justifiable insofar as the most well-cited and widely accepted accountthat of Cox 44portrays the Great Reform Act as the key impetus for the formation of the Cabinet, and that all other sources we have seen claim this institution predated the Shadow Cabinet. 45 A second, related, issue is that we assume that changes in the legislative and electoral environment take at least a little time to take effect on MP behavior. Naturally, such caveats mean that sharp inference is difficult, a position that we believe is philosophically in line with our comments above about the importance of a measured approach to weighing the evidence for the theories.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A Methodological Problem</head><p>As with much of Westminster constitution making, formal de jure recognition of entities with political power and importance has traditionally come much later (if at all) than their de facto <ref type="bibr" coords="5,51.02,473.06,46.50,5.73">(F'note continued)</ref> opposition and government roles were not yet set in stone, and some post-election discussion took place before the key personnel were selected to serve in the Cabinet. That year in particular, although the Liberals won a majority under their Commons leader Lord Hartingdon, he refused the premiership (as did Granville, the Lords leader) and it was ultimately assumed by Gladstone. Meanwhile, Hartingdon became secretary of state for India, and then secretary of state for War in Gladstone's Cabinet. <ref type="bibr" coords="5,58.79,529.57,6.35,4.97">38</ref> See <ref type="bibr" coords="5,84.02,531.45,40.63,7.45" target="#b20">Chester and</ref><ref type="bibr" coords="5,127.44,531.45,51.37,7.45;5,58.79,539.55,6.35,4.97;5,69.17,541.42,32.14,7.45">Bowring 1962. 39 Cox 1992</ref>. <ref type="bibr" coords="5,58.79,549.53,6.35,4.97;5,69.17,551.40,32.14,7.45">40 Cox 1987</ref><ref type="bibr" coords="5,101.30,551.40,3.81,7.45;5,58.79,559.45,6.35,4.97;5,69.17,561.38,43.25,7.45">. 41 Jenkins 1996</ref><ref type="bibr" coords="5,112.41,561.38,3.81,7.45;5,58.79,569.43,6.35,4.97;5,69.17,571.30,102.66,7.45">. 42 Camp, Dixit, and Stokes 2014</ref><ref type="bibr" coords="5,171.83,571.30,3.81,7.45;5,58.79,579.41,6.35,4.97;5,69.17,581.28,55.40,7.45">. 43 See Kelley 1960</ref><ref type="bibr" coords="5,131.24,581.28,47.90,7.45" target="#b64">Matthew 1997</ref>. <ref type="bibr" coords="5,58.79,589.33,6.35,4.97;5,69.17,591.26,35.95,7.45;5,58.79,599.31,6.35,4.97">44 Cox 1987. 45</ref> Furthermore, we do not have high-quality information on parliamentary procedures and MPs prior to the Great Reform Act, not least because party membershipand thus government or opposition statusis much less well defined for that period. existence as a force. Thus the informal practice by which a parliamentary opposition critiques the government has a long history: it was well underway by the 1720s, with the present-day term of the 'His Majesty's loyal Opposition' first appearing in debate in 1826. <ref type="bibr" coords="6,387.44,79.96,7.47,5.84">46</ref> Turning to statute to characterize the hierarchical structure of the opposition is of little helpindeed, as with many other informal institutions at Westminster, it is only with respect to salary commitments that the leader of the opposition is mentioned in law. <ref type="bibr" coords="6,328.08,115.79,7.47,5.84">47</ref> The term Shadow Cabinet was used as early as the 1880s, though not with any legal basis, and it initially referred to a set of ex-ministers, now out of office as their party was no longer in government. 48 Initial meetings of the Shadow Cabinet were more informal than modern practice (and records of them are scant), but in the post-Second World War period in Britain, opposition parties gave chosen senior MPs specific policy responsibilities and titles with the expectation that they would fulfill a similar ministerial role should their party win a subsequent general election. 49 All told, there are few official records of opposition that we can call upon to answer our question of interest.</p><p>This problem is made harder still because, as alluded to above, oppositionsand Shadow Cabinetsare weak in procedural terms: Westminster governments are typically single party, 50 and face few serious institutional impediments to imposing their will. 51 A consequence is that the opposition rarely achieves legislative victories, and thus one cannot usefully measure outcomes that would be seen in other parliaments, such as roll rates, successful legislation sponsoring 52 or negative agenda control. 53 Since these measures take a value of (near) zero at Westminster, they cannot tell us much about who is organizing opposition to the government. Yet this is a key element of exploring the particular informal institution of interest here. What we do have is speeches, and we return to their use below.</p><p>Thinking in a more general way, informal institutions are difficult to analyze because they are rules that connote probabilistic statistical relationships between inputs (X) and outcomes (Y), but for which X and/or Y are not directly observable. 54 Typically, when faced with a latent variable that is an important part of a data-generating process (as X is here), political methodologists in comparative politics attempt to infer its values from other, observed variables. <ref type="bibr" coords="6,395.21,366.89,7.47,5.84">55</ref> To keep matters simple, suppose that there is one such observed variable, denoted Z, and that for the units in the study, their (latent) value of X probabilistically determines their (observed) value of Z, but that Z has no direct relationship with Y itself. In what follows, we will take precisely the route implied by our comments about X, Y and Z. For us, Y is the status of an MP as part of the Cabinet in a particular time period. This is observable. Meanwhile, X is his/her status (or not) as a member of the Shadow Cabinet in the prior parliament, which occurs prior to Y. For our period, this is latent, and cannot be directly observed. Below, Z will be an MP's agenda-setting ability, derived from observational data on his/her speeches via a particular metric that we will <ref type="bibr" coords="6,70.13,489.72,6.35,4.97;6,80.45,491.65,79.98,7.45;6,70.13,499.70,6.35,4.97">46 Johnson 1997, 488-90. 47</ref> The 1937 Ministers of the Crown Act is the earliest example. 48 <ref type="bibr" coords="6,80.45,511.55,57.53,7.45">See Brazier 1997</ref><ref type="bibr" coords="6,137.98,511.55,25.69,7.45;6,70.13,519.60,6.35,4.97;6,80.45,521.52,54.26,7.45">, Ch 3. 49 See Crisp (1983</ref> and <ref type="bibr" coords="6,155.97,521.52,54.87,7.45" target="#b6">Bateman (2009)</ref> for similar discussion of the Australian case, and <ref type="bibr" coords="6,383.36,521.52,46.48,7.45" target="#b71">Power (1966)</ref> for Canada. <ref type="bibr" coords="6,70.13,539.55,6.35,4.97">50</ref> Lijphart 1999. <ref type="bibr" coords="6,70.13,549.53,6.35,4.97">51</ref> Powell 2000. <ref type="bibr" coords="6,70.13,559.45,6.35,4.97">52</ref> Volden, Wiseman, and Wittmer 2013. 53 E.g., <ref type="bibr" coords="6,98.98,571.30,93.32,7.45" target="#b27">Cox and McCubbins 2005;</ref><ref type="bibr" coords="6,195.19,571.30,95.93,7.45;6,70.13,579.41,6.35,4.97">Wawro and Schickler 2006. 54</ref> Pushing further, there may be utility in simply redefining formal institutions as ones in which the relationship between X and Y is deterministic, while informal institutions are ones in which the relationship is probabilistic (which includes deterministic ones as a sub-category), but this is not required for our current presentation. <ref type="bibr" coords="6,70.13,619.26,6.35,4.97">55</ref> See, e.g., <ref type="bibr" coords="6,114.63,621.13,89.52,7.45" target="#b48">Jackman and Treier 2008;</ref><ref type="bibr" coords="6,206.98,621.13,130.73,7.45" target="#b67">Pemstein, Meserve, and Melton 2010;</ref><ref type="bibr" coords="6,340.55,621.13,43.83,7.45" target="#b83">Svolik 2014.</ref> define in some detail. Thus an MP's speeches will help us infer whether he/she was a member of the Shadow Cabinet (along with other details on the Shadow Cabinet's evolution), and we will then study the relationship between this shadow status and promotion to the Cabinet once his/ her party is in power. In this way, we can assess the changing nature of an informal institution that is vital to the functioning of Westminster democracy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA</head><p>The data we use are described in Eggers and Spirling, 56 but the essence is this: we have access to 856,405 House of Commons speeches recorded by Hansard between 1832 and 1915. <ref type="bibr" coords="7,401.05,165.63,7.47,5.84">57</ref> Each speaker has been identified, which in turn has been matched to a unique MP identity. Other information pertaining to these MPs includes their party affiliation in any given parliament, along with their ministerial service record. The speech records are machine readable, and can be processed using software tools discussed below. For our purposes, the speeches are organized by parliamentary session, a period with a mean length of around 200 days. The period between two general elections (usually comprising several sessions, each starting about a year apart) is referred to as a parliament. We obtained dates for the sessions from the usual sources for the period: Cook and Keith and <ref type="bibr" coords="7,388.18,263.49,42.66,8.77;7,51.02,275.45,27.15,8.77;7,78.18,273.23,7.47,5.84">Butler and Butler. 58</ref> Thus for any given day, we know the identity of the government and opposition parties, and thus any contemporary MPs. In what follows, we will limit our analysis to MPs running in general elections under either a Conservative or Liberal label (as originally demarcated by <ref type="bibr" coords="7,111.52,311.28,98.68,8.77">Craig, Craig and Walker)</ref>, 59 the two parties that held ministerial positions during this time, and thus for whom the concept Shadow Cabinet makes the most sense. <ref type="bibr" coords="7,381.71,321.02,7.47,5.84">60</ref> As a quick overview of the general trends in our data, consider Figures 1 and 2. <ref type="figure" coords="7,396.45,335.21,34.40,8.77" target="#fig_1">Figure 1</ref> reports the number of government (top panel) and opposition (bottom panel) MPs in our data over time (note that the total membership of the Commons is essentially constant: around 650-70 MPs). The solid line in both plots reports (on the right y-axis) the total number of speeches given by the government and opposition. It can be seen that the number of government MPs is approximately constant over time (at around 350), while the total number of opposition MPs falls slightly (in part owing to otherthat is, non-Conservative, non-Liberalopposition parties entering the fray). Meanwhile, the total number of speeches by government MPs rises after around 1880, reaching a peak toward the end of the data of around 16,000 speeches for the session. The total number of opposition speeches also increases very slightly over time, similarly peaking at the turn of the twentieth century. <ref type="figure" coords="7,60.77,466.73,33.55,8.77" target="#fig_0">Figure 2</ref> reports (on the left axis) the mean number of words per speech over time, while the right y-axis gives the mean number of speeches per MP during the period under study. We see a secular fall in the average length of speeches from a high of around 600 words to around 200. By contrast, the number of speeches given per MP rises both in mean and variance terms, and reaches a peak at the end of the data.</p><p>The patterns seen in the plots are evidence of a general tightening of executive control over proceedings in the House of Commons, and the expectation that more speeches would <ref type="bibr" coords="7,58.79,559.45,6.35,4.97">56</ref> Eggers and Spirling 2014. <ref type="bibr" coords="7,58.79,569.43,6.35,4.97">57</ref> We note that, prior to 1909, the Hansard record was not the almost verbatim report it is today. Nonetheless, we feel coverage is sufficiently dense to make progress on our problem here. <ref type="bibr" coords="7,58.79,589.33,6.35,4.97">58</ref>  <ref type="bibr" coords="7,69.17,591.26,81.64,7.45" target="#b17">Butler and Butler 1994;</ref><ref type="bibr" coords="7,153.64,591.26,72.84,7.45" target="#b24">Cook and Keith 1975</ref><ref type="bibr" coords="7,226.48,591.26,3.81,7.45;7,58.79,599.31,6.35,4.97;7,69.17,601.24,36.67,7.45">. 59 Craig 1974</ref><ref type="bibr" coords="7,105.84,601.24,22.02,7.45" target="#b28">, 1989</ref><ref type="bibr" coords="7,134.53,601.24,46.49,7.45;7,58.79,609.28,6.35,4.97">Walker 1978. 60</ref> Including other opposition parties makes very little difference to the thrust of the substantive findings below. be questions or answers to those questions. 61 This trend of focusing on government business was joined by powers given to the House in the 1880s (in the face of Irish obstructionism) allowing it to 'close' debate, and speaker rulings that gave that officer a new ability to control overly long or irrelevant statements in the House. In the face of these changing control structures and totals, our approach below avoids absolute measures of opposition <ref type="bibr" coords="8,366.47,459.65,38.40,16.58">1900_1 1900_2 1900_3 1900_4 1900_5 1900_6 1906_1 1906_2 1906_3 1906_4 1910A_1</ref>   <ref type="bibr" coords="8,359.16,118.19,37.52,16.81">1900_1 1900_2 1900_3 1900_4 1900_5 1900_6 1906_1 1906_2 1906_3 1906_4 1910A_1</ref> 150 250 350 450 0 5,000 15,000</p><formula xml:id="formula_0" coords="8,67.11,363.27,299.79,110.22">Words/speech 1832_1 1832_2 1835_1 1835_2 1835_3 1837_1 1837_2 1837_3 1837_4 1841_1 1841_2 1841_3 1841_4 1841_5 1841_6 1841_7 1847_1 1847_2 1847_3 1847_4 1847_5 1852_1 1852_2 1852_3 1852_4 1852_5 1857_1 1857_2 1857_3 1859_1 1859_2 1859_3 1859_4 1859_5 1859_6 1859_7 1865_1 1865_2 1865_3 1868_1 1868_2 1868_3 1868_4 1868_5 1874_1 1874_2 1874_3 1874_4 1874_5 1874_6 1874_7 1880_1 1880_2 1880_3 1880_4 1880_5 1880_6 1885_1 1886_1 1886_2 1886_3 1886_4 1886_5 1886_6 1886_7 1892_1 1892_2 1892_3 1892_4 1895_1 1895_2 1895_3 1895_4 1895_5 1895_6 1895_7</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Govt MPs</head><formula xml:id="formula_1" coords="8,103.53,118.19,256.15,14.01">1832_1 1832_2 1835_1 1835_2 1835_3 1837_1 1837_2 1837_3 1837_4 1841_1 1841_2 1841_3 1841_4 1841_5 1841_6 1841_7 1847_1 1847_2 1847_3 1847_4 1847_5 1852_1 1852_2 1852_3 1852_4 1852_5 1857_1 1857_2 1857_3 1859_1 1859_2 1859_3 1859_4 1859_5 1859_6 1859_7 1865_1 1865_2 1865_3 1868_1 1868_2 1868_3 1868_4 1868_5 1874_1 1874_2 1874_3 1874_4 1874_5 1874_6 1874_7 1880_1 1880_2 1880_3 1880_4 1880_5 1880_6 1885_1 1886_1 1886_2 1886_3 1886_4 1886_5 1886_6 1886_7 1892_1 1892_2 1892_3 1892_4 1895_1 1895_2 1895_3 1895_4 1895_5 1895_6 1895_7</formula><p>Gov speeches <ref type="bibr" coords="8,359.16,203.70,37.52,16.81">1900_1 1900_2 1900_3 1900_4 1900_5 1900_6 1906_1 1906_2 1906_3 1906_4 1910A_1</ref> Oppn speeches performance, instead comparing within oppositions and then in relative terms with respect to governments. 62</p><formula xml:id="formula_2" coords="8,67.08,156.54,292.60,61.18">Oppn MPs 1832_1 1832_2 1835_1 1835_2 1835_3 1837_1 1837_2 1837_3 1837_4 1841_1 1841_2 1841_3 1841_4 1841_5 1841_6 1841_7 1847_1 1847_2 1847_3 1847_4 1847_5 1852_1 1852_2 1852_3 1852_4 1852_5 1857_1 1857_2 1857_3 1859_1 1859_2 1859_3 1859_4 1859_5 1859_6 1859_7 1865_1 1865_2 1865_3 1868_1 1868_2 1868_3 1868_4 1868_5 1874_1 1874_2 1874_3 1874_4 1874_5 1874_6 1874_7 1880_1 1880_2 1880_3 1880_4 1880_5 1880_6 1885_1 1886_1 1886_2 1886_3 1886_4 1886_5 1886_6 1886_7 1892_1 1892_2 1892_3 1892_4 1895_1 1895_2 1895_3 1895_4 1895_5 1895_6 1895_7</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>While our X, membership of the Shadow Cabinet, is latent, we can observe members making speeches that can inform us about X via our observed variable Z. Each MP also has an observable set of covariates pertaining to their current role in the government (that is, Y) if they are part of the governing party. Our central concern is understanding which MPs 'lead' debate in parliament. Our strategy trades on the idea that influential individuals will raise concerns, terms, topics and issues that MPs will subsequently talk about in that and subsequent debates. 63</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Concept and Measurement</head><p>One way to approach this measurement problem is to see speeches in the House of Commons as analogous to a stream of arriving data, the contents of which require modeling. In computer science, a popular way to examine such streams is to consider their 'burstiness', in the sense of <ref type="bibr" coords="9,51.02,257.48,41.97,8.77;9,93.03,255.26,7.47,5.84">Kleinberg. 64</ref> The idea is to model the arrival times at which certain wordsconsidered as a type of eventappear. Words that surge in use suddenly are said to 'burst' or to be 'bursty', which in practice means that they experience periods in which the typical gaps between occurrences become much shorter than is usual for that word. Depending on the nature of the stream process, there are different statistical models that may be fit to the data to determine burstiness. When data arrive as a continuous processrather than as, say, batches every year -Kleinberg 65 suggests an 'infinite-state model' in which bursts are state transitions in a hidden Markov process. For a given term, we begin with a 'base rate' calculated as n T , where n is the number of speeches that uses a particular word and T is the total number of speeches in the session. Thus if there were 100 mentions of the term 'boundary' and 10,000 speeches, the base rate is α 0 = 100 10;000 = 0:01, corresponding to a mean wait time of 1 0:01 = 100 speeches. <ref type="bibr" coords="9,385.51,374.82,7.47,5.84">66</ref> With the base rate in mind, we ask how the gaps between occurrences of the relevant term are changing as the session unfolds. In particular, the Markov process assumes that when in state i, gap times, x, are exponentially distributed with pdf f ðxÞ = α i e Àα i x where α i is the rate, such that larger values of α imply smaller expected values for the wait time ( 1 α ) until the next event occurs. Setting up the estimation problem continues by making α i = n T s i , meaning that the rate is proportional to a quantity s i . In keeping with the original Kleinberg 67 presentation, s will be fixed at 2 for our purposes but i will be estimated as an integer greater than or equal to 1, and will be different at different times for the same word (depending on the state of the system). Put very crudely, the idea is to observe the series of gaps between uses of a term, and then to find values of i that (when plugged into the previous formula) will fit the data, with respect to the (exponentially distributed) wait times that were seen in practice. To see how this might work, <ref type="bibr" coords="9,58.79,529.57,6.35,4.97">62</ref> This feature of our approach also goes some way toward mitigating the changing (mostly lessening) role of the House of Lords as a producer of governance over this period. <ref type="bibr" coords="9,58.79,549.53,6.35,4.97">63</ref> An article similar to this one in methodological spirit is that of <ref type="bibr" coords="9,301.77,551.40,101.17,7.45" target="#b21">Clark and Lauderdale (2010)</ref>, which considers the use of judicial citations, though for a very different substantive purpose (the scaling of justices) than our application. <ref type="bibr" coords="9,58.79,579.41,6.35,4.97">64</ref>  <ref type="bibr" coords="9,69.17,581.28,51.58,7.45" target="#b57">Kleinberg 2002</ref>. <ref type="bibr" coords="9,58.79,589.33,6.35,4.97">65</ref>  <ref type="bibr" coords="9,69.17,591.26,51.58,7.45" target="#b57">Kleinberg 2002</ref>. <ref type="bibr" coords="9,58.79,599.31,6.35,4.97">66</ref> We are deliberately simplifying matters here for exposition. As we clarify below, a 'mention' of a word is binary and occurs (or does not) only once per document, even if a speech uses the term multiple times. <ref type="bibr" coords="9,58.79,619.26,6.35,4.97">67</ref>  <ref type="bibr" coords="9,69.17,621.13,55.39,7.45" target="#b57">Kleinberg 2002.</ref> and remembering that s is fixed, suppose we saw wait times of 20,20,10,5,10…. We can see that the third wait time <ref type="formula" coords="10,140.03,70.22,16.38,8.77">(10)</ref> is half of the second <ref type="formula" coords="10,244.97,70.22,15.10,8.77">(20)</ref>, implying an increased value of i. Similarly, the fourth wait time <ref type="formula" coords="10,143.77,82.19,11.40,8.77">(5)</ref> is half the previous one, implying that i has increased even further. The fifth wait time <ref type="formula" coords="10,126.14,94.15,16.38,8.77">(10)</ref> suggests that i has declined, since the wait time has doubled. We will ultimately have a series of 'states' that describes our data, which is simply the vector of i values that we estimated.</p><p>To reiterate, i is the exponent of s: for a fixed s = 2, an increasing i means that a geometric decrease must have been seen in wait times: that is, to go from our base rate model to s 1 to s 2 to s 3 requires at least a halving of the gap (and more than a halving if s were chosen to be larger than 2). Clearly, there will be a great many terms that never exhibit any bursts (they are 'not bursty') because their arrival rate is simply too uniform. Thus if the term 'bill' occurs exactly every 100 speeches, then the gaps between observations are not changing. As a result, the term exhibits no bursts in use. This logic potentially extends to any word, no matter how common. For example, the word 'the' might be used uniformly in every speech, and thus will demonstrate no bursts. In this case, the base rate, which is very high, will be a perfectly adequate model for the data.</p><p>This process has a second component: a cost term, denoted as γ, which essentially imposes a penalty when the system seems to move 'up' in intensity in terms of the underlying rateno cost is imposed for the system to move down in intensity. 68 A larger γ is associated with relatively few upward transitions. Meanwhile, the exponential component (determined by s) encourages fitting a model to the data that reflects the actual sequence of gaps observed. The resulting minimization problem takes both parts into account, and thus attempts to fit the data with as few transitions as possible. Note that the bursts in this model are nested: that is, bursts of higher intensity occur within periods of lower-intensity activity. As per the original presentation, γ is set to 1 for our work here. <ref type="bibr" coords="10,241.68,331.00,7.47,5.84">69</ref> Conceived in the usual way, burstiness is a property of streams of events. One example is words in speeches (or MPs in debates, as explained below). We can, for example, examine the burst pertaining to the word 'Ireland' or 'boundary', and in <ref type="figure" coords="10,310.11,369.11,34.46,8.77" target="#fig_2">Figure 3</ref> we picture the latter of these terms for the 1884 session in which the Redistribution of Seats Actwhich dealt with the redrawing of districtswas discussed: note the levels (literally, the states of the Markov processthe exponential distributions delivering the gap timeswhere 0 is the base rate) of the bursts that the word went through, and the varying lengths of those bursty episodes. In principle, we can do this for every term and every session.</p><p>Our innovation is now to use these burstiness estimates to compare MPs with each other. To do that, we need a metric that allows us to compute a score for each member, taking into account the relative burstiness of their contributions. For us, this is a weighted sum. For each MP, a burst that begins with a speech made by him or her is scored as the length of that burst (literally, the number of speeches that occur while at the particular value of i) multiplied by its intensity. All such bursts are then summed into a total score. For example, consider an MP who made 100 speeches. Suppose that a word from one of these speeches launches a burst of 68 More formally, in the original set-up, the optimization problem requires finding a sequences of states q = ðq i1 ;</p><p>; q in Þ such that the expression cðq j xÞ = ½ P τði; jÞ + ½ P À ln f it ðx t Þ is minimized where τði; jÞ = ðjÀiÞγln n if j&gt; i; 0 if j &lt; i: ; and f it ðx t Þ is simply the density functionexponential in our casedescribing the sequence of gaps. <ref type="bibr" coords="10,70.13,589.33,6.35,4.97">69</ref> In principle, both s and γ could be estimated from the data. Note that a larger value of s implies that changes in gap times will have to be larger in magnitude in order for a 'burst' to be said to have occurred. Meanwhile, a larger value of γ implies that the burst needs to be sustained for a longer period in order to 'count'. <ref type="bibr" coords="10,394.87,611.16,47.33,7.45" target="#b11">Binder (2012)</ref> implements the relevant model in R (R Core Team 2013), and we use his package in some of what follows. intensity level 2 for a time period of 30, and a different word from the same speech launches a burst of intensity level 3 for a time period of 4. Meanwhile, a word from another speech launches a burst of intensity level 3 for a time period of 5. The overall burstiness is thus calculated as ð2 30Þ + ð3 4Þ + ð3 5Þ = 87. Note that bursts are hierarchical: a burst of level n can only occur within a burst of level m, where m &lt; n. A consequence is that MPs cannot be given 'credit' for decreasing the intensity with which a particular word is used relative to the current period in which they are speaking. Note further that, if one MP boosts a term's use to level 2, while a second MP boosts it further to level 3, the first MP receives 'credit' only for the level 2 burst, while the second receives credit only for the level 3 burst. This is simply a measurement strategy that accords with our notion of MPs building on the points of others; our metric thus rewards MPs who introduce terms, topics or ideas that subsequent speakers take up.</p><p>In terms of preprocessing, we do nothing to our texts except remove punctuation and convert everything to lowercase. We do not remove stop words, since their use, if they are indeed stop words in the typical sense, should remain relatively uniform over time and will not be bursty. Nor do we stem the terms, since we wish to observe particular uses of terms rather than generic concepts that can be spoken in several ways. In Appendix A, we give some pseudo-code to clarify the algorithm we used.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Validation</head><p>We claim that our burstiness metric captures some notion of 'agenda setting' by MPs and 'agenda content' in terms of the words that come up in debate. We now validate our approach by demonstrating that: (a) during given periods, the 'right' words are bursty, (b) for given words, the 'right' sessions show them to be bursty at that time and (c) the 'right' individual MPs are bursty at the 'right' times. By 'right', we mean 'in ways that are congruent with our expectations and knowledge of the period'. Beginning with our first validation exercise, consider <ref type="table" coords="11,87.09,536.47,28.79,8.77">Table 1</ref>. We report three particular sessionsin 1846, 1866 and 1885and terms that appeared near the top of the burstiness rank order for those periods. We see immediately from the first column that MPs were discussing (in a bursty way) 'wheat' (ranked 3) and 'grain' (ranked 5) during a period when the Corn Laws were under serious discussion. Similarly, just prior to the Second Reform Act of 1867, they raised issues pertaining to the franchise and the earlier 1832 Great Reform Act. In 1885, the time of the controversial Government of Ireland Bill that would have delivered home rule to Ireland, we see surges of terms like 'Irishmen' and their leader '[P]arnell' along with other terms specific to the discussion. It is worth contrasting the exercise that produced <ref type="table" coords="12,274.39,237.58,30.78,8.77">Table 1</ref> with the use of 'topic models' in political science. 70 In our approach, terms are rewarded if they suddenly appear with relative intensity; in this way, a specific term used consistently in every session, such as 'budget' or 'trade' or 'education', would not necessarily be bursty. By contrast, a topic model would almost certainly have a topic allocated to, or defined by, such concepts. That is, topic models do a good job of summarizing 'what' was discussed in some general way, while burstiness captures which terms dominate the agenda for spurts of time. <ref type="bibr" coords="12,247.64,307.07,7.47,5.84">71</ref> Moving on with our validation, we want to see that certain terms are bursty when we expect them to be. Consider <ref type="figure" coords="12,147.45,333.22,31.74,8.77">Figure 4</ref>, which reports four terms with distinct burstiness 'signatures' over time. In each case, the y-axis is the burstiness of the word, calculated as its levels multiplied by the durations of those levels. 72 This is then rescaled, or standardized, between 0 and 1 within a given session. Thus as terms approach a burstiness value of 1, they are the most bursty term that session; the second-most bursty term would typically have a score just shy of 1 (for example, 0.98), the third-most bursty term just below that and so on. The x-axis labels correspond to the beginnings of the various parliaments (largely following general elections) over the period. The dots are the transformed scores per session, and the solid lines are lowess curves. In the first panel, we consider the term 'tariff', which was used repeatedly and intensively in two different periods: first, during the Corn Laws debates of the 1840s, and then at the start of the twentieth century, when Joseph Chamberlain in particular argued for a system of 'imperial preference' for Empire goods. <ref type="bibr" coords="12,416.35,450.56,7.31,5.84">73</ref> The term 'zulu' appears high on the parliamentary agenda in the early and mid-1880swhen the British were at war with this groupand then disappears. The word 'Ireland' is bursty throughout the entire Victorian era, which seems entirely reasonable given that the 'Irish Question', and Irish MPs, were a constant concern during this time. Finally, in the last panel, we note that the word 'gentlemen' is similarly constantly on the agenda though its burstiness is very lowimplying that its use is not especially intense. This makes sense for a generally procedural word that is used fairly consistently over time.  <ref type="formula" coords="12,183.34,138.64,10.83,8.33">(3)</ref> Franchise <ref type="formula" coords="12,304.27,138.64,10.83,8.33;12,380.75,138.64,18.93,8.33">(5)  1782</ref> (3) Grain <ref type="formula" coords="12,180.23,148.56,10.83,8.33">(5)</ref> 1832 <ref type="formula" coords="12,286.81,148.56,10.83,8.33">(7)</ref> Kingharmon (6) Farmer <ref type="formula" coords="12,185.84,158.54,10.83,8.33">(6)</ref> Redistribution <ref type="formula" coords="12,321.51,158.54,15.56,8.33">(10)</ref> Parnell (15) Prices <ref type="formula" coords="12,181.70,168.52,10.83,8.33">(7)</ref> Seats <ref type="formula" coords="12,287.60,168.52,15.56,8.33">(11)</ref> Tenant <ref type="formula" coords="12,409.89,168.52,15.56,8.33">(18)</ref> Note: the columns refer to the periods pertaining to the Corn Laws, the Second Reform Act and the Government of Ireland Bill, respectively. <ref type="bibr" coords="12,70.13,559.45,6.35,4.97">70</ref>  <ref type="bibr" coords="12,80.45,561.38,95.98,7.45" target="#b41">Grimmer and Stewart 2013;</ref><ref type="bibr" coords="12,179.26,561.38,62.76,7.45;12,70.13,569.43,6.35,4.97">Quinn et al. 2010. 71</ref> There are methods that use speaker 'centrality' to detect influence <ref type="bibr" coords="12,303.70,571.30,56.87,7.45" target="#b36">(Fader et al. 2007</ref>). Again, a difference is that we focus on, and up-weight, legislators who are associated with surges in the use of certain terms. <ref type="bibr" coords="12,70.13,589.33,6.35,4.97">72</ref> Thus a word that has a burstiness of 1 for 2 periods, and then a burstiness of 2 for 6 periods would have a burstiness of ð1 2Þ + ð2 6Þ=14. Note that this is literally the 'area under the curve' for the term-specific equivalent of <ref type="figure" coords="12,109.93,611.16,27.89,7.45" target="#fig_2">Figure 3</ref>. <ref type="bibr" coords="12,70.13,619.26,6.35,4.97">73</ref> See, e.g., Howe (1998) for discussion.</p><p>As the third part of our validation exercise, we considered MPs' burstiness (results reported in <ref type="figure" coords="13,51.02,500.58,32.87,8.77">Figure 5</ref>). William Gladstone and Benjamin Disraeli are both bursty during periods that they dominated the Commons (including as prime minister). The Irish parliamentary leader and strategist Charles Parnell appears especially bursty during the 1880s, as expected. Finally, Samuel Plimsoll (MP for Derby) has a small but marked impact after the 1868 election, when he was responsible for pressuring the then government to introduce legislation to mandate waterlines on merchant ships.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Alternative Measures: 'Speechiness'</head><p>One concern readers may have is that burstiness is simply a stand-in (that is, a proxy) for 'speechiness': that is, our metric measures nothing more than the varying ability or willingness  <ref type="figure" coords="13,51.02,425.79,19.79,7.27">Fig. 4</ref>. The burstiness profile of different terms over time. Note: the y-axis of the plots is the 'standardized' burstiness of the term, a rescaled metric where a value of 1 corresponds to the most bursty term that session, while a value of 0 refers to the least bursty term. The x-axis labels correspond to the beginnings of the various parliaments during the period. The dots are the actual standardized scores, and the solid lines are lowess curves.</p><p>of MPs to make speeches. This is not the case: the correlation between the burstiness of opposition MPs and the number of speeches they make varies between 0.19 (1892) and 0.90 (1847) over the sessions as a whole, with a mean of 0.63. These variables are not measuring the same thing: while it is true that an MP may be non-bursty because he makes no speeches, making lots of speeches is no guarantee of being bursty. In particular, an MP who makes (perhaps thousands of) speeches that are simple responses, or contain terms that are not picked up by others, will not be bursty. <ref type="bibr" coords="14,193.44,546.21,7.47,5.84">74</ref> More philosophically, another reason to eschew speechiness as a measure is that it overrewards procedural responsibility and opportunity relative to actual agenda-setting ability. To see this, consider the speakers of the House of Commons. With power over recognition and organization of debates in the chamber, speakers make many speeches. Yet since they are non-partisan figures without incentives or opportunities to introduce or discuss policy proposals, we would not expect them to be more bursty than leaders of the government and opposition. <ref type="bibr" coords="15,423.38,271.24,7.47,5.84">75</ref> To see the problems that insufficient attention to such a distinction can produce, consider <ref type="figure" coords="15,51.02,297.34,32.71,8.77">Figure 6</ref>, which compares the speechiness and burstiness of the seven speakers in our data, in chronological order. On the y-axis we report the quantile position of the speaker's mean scoresin terms of the number of speeches he made, and his burstinessrelative to all other MPs serving in the same sessions who made at least one speech. We see immediately (top line and points) that every speaker is close to the maximum of the empirical cumulative distribution function (CDF) in terms of speeches, occupying somewhere around the 97th percentile on this measure. By contrast, the burstiness metric (bottom line and points) has the speaker rightfully downplayed in terms of scorearound the 80th percentile, on average. Clearly then, relative to speechiness, burstiness avoids directly reproducing procedural power in favor of a more genuine measure of policy agenda setting. It is thus a better measurement strategy for our current work, especially for opposition members who have few de jure powers. Before moving to our results, we underline an assumption that is obviously present in our work: that, in fact, the existence of the Shadow Cabinet can be discerned from an inspection of speech records in the House of Commons. One concern might be that perhaps, prior to more widespread democratization, the Shadow Cabinet made its presence felt in other waysfor example, via electioneering in the constituencies. We acknowledge this, but would claim that at the very least, our study is of the Shadow Cabinet in a sense similar to that as in the modern periodthat is, as a legislative force. <ref type="bibr" coords="15,51.02,536.13,36.95,6.58">RESULTS</ref> We have established a metric for measuring MPs' individual agenda-setting abilities. Ultimately, we want to use it to explore the ways in which the informal institution of interestthat is, that Shadow Cabinet members become Cabinet membersevolved over time. This requires three interrelated steps. First, we need to show how and when the opposition as a  <ref type="figure" coords="15,51.02,192.27,19.79,7.27">Fig. 6</ref>. Speakers: number of speeches (speechiness) vs. burstiness scores. Note: the x-axis names the speakers in chronological order. The y-axis is the position in the CDF of all speeches and burstinesss scores (among those MPs who made a speech) of the (mean) speakers' speechiness and burstiness for the sessions in which he served. <ref type="bibr" coords="15,58.79,609.28,6.35,4.97">75</ref> Although given their agenda-setting role in debate and its closure, we would certainly expect them to rank well above the median in burstiness terms. whole organized, and collectively paid more attention to agenda control. Secondly, within that opposition, we need to explore how agenda-setting power became concentrated in a leadership group. That is, we need to assess whether and when a Shadow Cabinet could have been said to emerge. Thirdly, given that we have established that the opposition organized, and that they did so under a Shadow Cabinet, we need to show that the latter became ministers at the exchange of power and that this relationship was non-constant over time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Opposition Burstiness Over Time</head><p>We begin by considering the agenda-setting ability of the opposition, and how this changes over time. Of course, our metric above is absolute: it calculates a raw number pertaining to individuals, or groups of individuals, and their ability to raise issues that draw attention in Parliament. In practice, this means that burstiness may be generally higher under two conditions: (1) when (exogenously) there are more things to be bursty aboutfor example, a war, famine or some other event of note occurs or (2) when there are more opportunities to talk, since this lengthens the period (in speech terms) when bursts may appear. Given these facts, we consider the burstiness of the opposition relative to the Cabinet. In particular, we begin this section by taking the ratio of mean opposition burstiness to mean Cabinet burstiness for every session in our data.</p><p>In the upper panel of <ref type="figure" coords="16,160.04,500.58,33.89,8.77">Figure 7</ref> we plot that quantity: it appears as the jagged line that peaks and troughs, moving left to right, reaching its zenith around 1857 (when the Cabinet was about 40 times more bursty), and its nadir around 1885 (when the Cabinet was about 5 times more bursty). Note that for clarity, we demarcate the x-axis using general election dates for the period.</p><p>The first observation from the upper panel of <ref type="figure" coords="16,258.24,548.43,33.95,8.77">Figure 7</ref> is that the Cabinet was always more bursty than the opposition, on average: notice that the line is never below 1. Given the dominance of the Cabinet over procedure from the 1830s onwards, this is not per se surprising: ministers have more opportunities to be bursty, and presumably by the very nature of their jobs have more ready access to information that can become bursty (for example, reports of officials figures or policies). However, moving left to right, we see a generally decreasing ratio: the smooth lowess line makes the point very clear. Put otherwise, the opposition becomes more  <ref type="figure" coords="16,62.36,236.38,19.79,7.27">Fig. 7</ref>. Ratio of (mean) burstiness: cabinet to opposition, cabinet to (government party) backbenchers. Note: one change point was found in the opposition ratio time series, marked on the plot with the broken line and the mean of ratio given on the either side.</p><p>than the Cabinet, with the key change apparently happening between about 1870 and 1885. To place this result on a more sound statistical footing, we conducted structural break tests (in the sense of Bai and Perron). <ref type="bibr" coords="17,148.71,79.96,7.47,5.84">76</ref> We found one break in the ratio data, dating to the third session of the parliament beginning after the 1880 general election: in the figure, we present this point as a broken line and note that the mean ratio dropped by over 50 per cent, from 16.91 to 7.25 after the change point. Though we will give a more detailed analysis below, note that this aggregate realignment of agenda-setting power is commensurate with our claim that a set of opposition leadersthat is, a Shadow Cabinetis emerging and making its influence known after suffrage extension. An obvious concern on seeing such a result is that there is nothing 'special' about the opposition: perhaps the Cabinet's agenda-setting ability was in secular decline from the 1870s onwards? We can go some way toward refuting this suggestion by studying the lower panel of <ref type="figure" coords="17,51.02,189.79,33.90,8.77">Figure 7</ref>, where we consider the (mean) ratio of the Cabinet to government backbenchers. Notice that both the underlying ratio and the smoothed lowess are essentially constant. We find no breakpoints here using the usual formal tests. Ultimately then, we can conclude that the change in the ratio for the opposition is specific to that side of the House of Commons, and not a general artifact of changing Cabinet roles or priorities at the time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Opposition Outliers as a 'Front Bench'</head><p>Having established that the opposition was increasingly aggressive in its agenda setting just after the Second Reform Act, we next seek the precise mechanics of that change. That is, we wish to understand exactly how the opposition asserted its control. Recall that one possibility is that it increasingly mimicked the government party's authority structure by establishing an 'executive' core of frontbenchers to set policy and rebuff the cabinet, with a pliant majority of opposition backbenchers formed up behind them. In <ref type="figure" coords="17,217.47,347.17,33.50,8.77" target="#fig_3">Figure 8</ref> we examine the evidence for such a claim.</p><p>In the upper portion of <ref type="figure" coords="17,157.72,359.13,32.99,8.77" target="#fig_3">Figure 8</ref>, we report boxplots of the burstiness of opposition parties (specifically, the Conservatives and Liberals) over time. The points (circles and squares) denote outliers, defined in the usual way as points above (and below) 1.5 times the interquartile range of the given session. Note immediately that, in practice, all outliers are in the right tails of their distributions: that is, the median opposition member has a very low burstiness for the entire period (and, indeed, it is close to 0 on this measure). Secondly, we see a surge in the magnitude of the outliers around 1880: indeed, some of the largest burstiness scores are recorded between 1880 and 1892. Formal time-series tests on the means of each session show that there is one break point, demarcated by a broken line during the third session of the parliament meeting in 1880. The standard deviation of the burstiness yields an almost identical finding, although the change point corresponds to the second session of 1880. Finally, we report the changing means and standard deviations themselves: prior to the break, we have a mean of 211,688.28, while the standard deviation is around 7 million. By contrast, the latter part of the time series has a mean and standard deviation an order of magnitude higher. We conclude that the 'average' burstiness of the opposition was increasing, while simultaneously showing more variance. Given that the floor value of the metric is zero, the implication of the top panel is that some individuals are increasingly pulling away from average members.</p><p>To make this point clearer, consider the middle panel, where we have standardized the measure by session, meaning all MPs fall between 0 and a burstiness of 1. There, the flat dashes at the bottom of the figure are the medians, while the points are the positions of the 90th percentile members of the opposition (which typically represents an MP ranked around the <ref type="bibr" coords="17,58.79,619.26,6.35,4.97">76</ref>  <ref type="bibr" coords="17,69.17,621.13,73.82,7.45" target="#b5">Bai and Perron 2003;</ref><ref type="bibr" coords="17,145.81,621.13,81.12,7.45">see Zeileis et al. (2002)</ref> for implementation. 20th most bursty in his party). The solid line represents a lowess-smoothed curve through those points, and it can be readily seen that its slope increases in magnitude around the time of the Second Reform Act. Notice that while there is some noise, the slope is clearly upwards, and by the turn of the century the 90th percentile has pulled away from the medians (on average) substantially.</p><p>To test our intuitions more precisely, the bottom panel of <ref type="figure" coords="18,322.81,404.94,35.48,8.77" target="#fig_3">Figure 8</ref> reports the number of opposition outliers over time. Clearly, there is a downward trend: beginning with around 70 outliers, the opposition has around 50 outliers by the 1870s, and fewer than 20 by the end of the period. Again, we use a formal structural break test which in this case revealed two breaks: one in the last session of the 1865 parliament, and the second in the first session of the parliament meeting after the 1886 election. In both cases, the mean is reduced. Importantly for our purposes, the average number of outliers is reduced to the approximate sizebelow 20that we would expect for a Shadow Cabinet of spokesmen on various issues of governance. To reiterate: here we find that the date of the Second Reform Act (1867) was a crucial transition point for the emergence of a small(er) set of bursty individuals on the opposition benches, congruent with the existence of a cadre of senior MPs in leadership roles.</p><p>On seeing these plots, readers may be skeptical about our claims regarding the importance of the Second Reform Act, given that subsequent sessionsfor example, 1880 and 1902 in the top panel, and the mid-1880s in the bottom panelare also associated with surges and changes to the opposition's relative burstiness. 77 Two comments are in order: first and foremost, these  Note: the top panel shows the changing distribution of burstiness for the opposition; the middle panel shows the changing median and 90th percentile but using standardized data, by session; the lower panel shows the (declining) number of outliers over timeconsistent with the emergence of a 'Shadow Cabinet'. <ref type="bibr" coords="18,70.13,599.31,6.35,4.97">77</ref> One possible trigger for the surge in opposition burstiness around 1881 is the introduction of closure of debate in the House of Commons, which would tend to provide more opportunities for the major opposition party to speak while hindering the (then) Irish obstructionists. dates obviously occur after the Second Reform Act and are thus consistent with notions that 1867 was crucial to altering the data-generating process in a large and general way. Secondly, we would reiterate our comments about the cautious interpretation of timing: the claim is not of a binary 'switch' in behavior (and thus an outright repudiation of any other plausible causal agent), but rather a continuous change process that receives a fillip after suffrage expansion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Burstiness and Future Cabinet Status</head><p>One way to verify our presumptionthat the outliers from <ref type="figure" coords="19,286.41,416.90,33.33,8.77" target="#fig_3">Figure 8</ref> are a 'Cabinet in waiting'is to show that, in fact, they went on to fill Cabinet roles when their party found itself next in government. To examine this possibility, we considered the 14 times that power switched, in the sense that a new party previously in opposition now formed the government, during the period. For the opposition members in each switching session, we pooled the data and regressed their (binary) status as a Cabinet member in the next session on their (binary) status as an outlier in the previous period, along with a time indicator, and burstiness as a robustness check. Because we have some repeated observations of MPs, we cluster standard errors at the MP level. We make no claims that this causally identifies the effect of Shadow Cabinet membership on subsequent office holding: even if outlier status were a perfect measure of Shadow Cabinet membership, members of the Shadow Cabinet undoubtedly differ from other MPs in many ways that would be important to prospects for promotion. However, such an analysis can establish whether the evidence is broadly consistent with our claims.</p><p>The relevant part of our results can be seen in <ref type="table" coords="19,246.78,572.35,29.02,8.77">Table 2</ref>. In Model 1, we use outlier status and 'session number' since the Great Reform Actliterally, the number of sessions of parliament that have occurred since 1832 (thus the first session in our data is given the value 1, the second is 2 and so on). We see a positive association for both variables: that is, being an outlier helps an MP be promoted the next time his party is in office, and, in fact, as time passes he is Note: standard errors clustered on MP. Significant at †p &lt; 0.10, *p &lt; 0.05, **p &lt; 0.01; ***p &lt; 0.001.</p><p>unconditionally more likely to be promoted. This latter finding is sensible, because ministers were increasingly drawn from the Commons rather than the Lords. In Model 2, we try an alternate measure of 'leadership-ness'the number of speeches given by the MP. As we see from the higher Akaike information criterion (AIC), this model does not fit the data as well as the previous one, which implies that using the burstiness outlier metric provides useful extra leverage over more traditional alternatives. In Model 3 we add our key interaction term between time and outlier status. As expected and consistent with our claims, the coefficient on being an outlier remains positive and significant. The coefficient on session number is similarly positive and significant, and is larger in this specification. Importantly, the interaction effect is significant, and smaller than the combined effect of being an outlier and the session number. 78 Thus the net effect of being an outlier is that one was more likely to be promoted to office as time passed. 79 Notice that this model has a smaller AIC than the previous effort, suggesting it is a better fit to the data. Moreover, a likelihood ratio test favors the model with the interaction. Finally, in Model 4, we add a variable measuring whether or not (1 or 0) the member had previously served in the Cabinet. As expected, the coefficient is positive, butcruciallybeing an outlier still matters (our coefficient is statistically significant). All told, our burstiness outlier metric is sound and helpful: it genuinely measures some notion of being in the Shadow Cabinet that is not simply captured by the number of speeches given, or having been previously selected as a Cabinet minister. <ref type="bibr" coords="20,434.61,271.24,7.47,5.84">80</ref> The fact that the probability of advancing to Cabinet as a product of being a bursty outlier increases as time goes on does not per se rule out either theory as a possibility. But nor do we intend it to alone. Rather, we consider it part of a series of evidential pieces that add up to a story in which something other than the immediate aftermath of the Great Reform Act matters: there is no plateau here, and with every passing session the relationship between burstiness and Cabinet office becomes stronger. This serves in part to imply that we have successfully identified a good measure of Shadow Cabinet membership. 81</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Summary</head><p>We have three interrelated results:</p><p>1. Though the Cabinet was always more bursty than the opposition, the latter became relatively more assertive in agenda-control terms around the time of the Second Reform Act (1867). 2. Within the opposition, outliers (extremely bursty individuals) became fewer in number over time, with marked shifts downwards at the time of the Second Reform Act, and in the mid-1880s. By the turn of the twentieth century, a group of individuals approximately the size of a Shadow Cabinet had emerged. 3. The key informal institution of interestthe purported relationship between being in the Shadow Cabinet and being in the Cabinet when the party in question took powerwas 78 That is, when we consider Prðy = 1Þ = 1 1 + expðÀβXÞ , we see that it is increasing as years pass for an outlier: the predicted probability for the first switching session is around 0.12, while for the last switch (in 1910) the predicted probability is around 0.20. For non-outliers the predicted probability increases from around 0.003 to around 0.047. The implied difference in differences in probability is thus around 0.04. <ref type="bibr" coords="20,70.13,569.43,6.35,4.97">79</ref> Note that this is true for our entire sample, since the upper bound of the 'session' variable is 87. <ref type="bibr" coords="20,70.13,579.41,6.35,4.97">80</ref> In Appendix C, we verify that our outlier findings are robust to including raw burstiness as an additional control and as an alternate measure of Shadow Cabinet membership. <ref type="bibr" coords="20,70.13,599.31,6.35,4.97">81</ref> We note, in passing, that somewhere between 10 and 44 per cent of all bursty individuals in our sample is promoted to Cabinet when their party takes power, though this probably understates the true effect on promotion since we do not include the non-Cabinet hierarchy of offices in our analysis. present for the entire period, and became increasingly strong over time (an outlier in later sessions was more likely to be promoted to Cabinet office than an outlier in earlier sessions).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Informal institutions form the core of practical politics in Westminster systems, where statute law is often silent: this includes the role of parties (there is none, constitutionally speaking), the role of whipping (never officially acknowledged) and the role of the prime minister (which has never been formally defined). This means that scholars of these polities, and comparative politics more generally, have a particularly pressing interest in understanding how inferences may be made about these norms and rules, if they are to plot their emergence and evolution over time. In this article, we considered the role of the Shadow Cabinet as a government in waiting, a vital organization that ensures citizens an alternative to the present government at election timeeven if this does not ultimately mean that the people's will is implemented as policy. <ref type="bibr" coords="21,423.38,217.44,7.47,5.84">82</ref> We showed that informal institutions are helpfully modeled using latent variables. Our solution here was to apply new text-as-data methods to almost a million speeches by MPs between the First and Fourth Reform Acts. Using a burstiness metric, we showed that after the 1870s, an increasingly small group of opposition leaders closed the gap in terms of agenda setting in their partisan competition with the Cabinet. Intriguingly, though the Cabinet began its characteristic dominance of procedure in the 1830s, 83 it appears that it was the broadening of suffrage that accelerated the emergence of the Shadow Cabinet as an institutional force. Our work joins a large literature on the effects of suffrage expansion on political behavior and policy making at Westminster, 84 and by moving the focus to the opposition it also contributes to the study of comparative parliamentary politics. <ref type="bibr" coords="21,229.04,336.95,7.47,5.84">85</ref> Our work has several broader implications. First, we demonstrated an important case in which an (informal) institution arose organically as a counterpoint to a pre-existing organizationthe Cabinetwhen an external stimulus was presented (in our case, a partyorientated electorate). Our work thus joins a literature that deals with institutionalism, 86 and the specific mechanisms by which institutions evolve. 87 Again, we think our measurement strategy is a way to proceed when faced with the task of charting the development of such organizations over time. Secondly, we took an explicitly agenda-setting approacha topic of very general interest to political scientists. 88 Typically, measuring the extent to which bodies or individuals have the power to set the agenda is difficultespecially in parliamentary systems where, in dayto-day operations, oppositions lose and governments win. We have partially resolved that issue.</p><p>This article raises several interesting questions that we have left unanswered. First, we have not looked at the screening and selection mechanisms by which MPs joined the Shadow Cabinet; a specific career path focus for the Victorian period, in line with more modern work, 89 is called for. Secondly, our technique allows for helpful (weighted) word-based summaries of debates. Our focus here was on the relative burstiness of sets of individuals, but it would <ref type="bibr" coords="21,58.79,539.55,6.35,4.97;21,69.17,541.42,58.10,7.45">82 Schumpeter 1942</ref>. <ref type="bibr" coords="21,58.79,549.53,6.35,4.97">83</ref>  <ref type="bibr" coords="21,69.17,551.40,32.14,7.45" target="#b26">Cox 1987</ref><ref type="bibr" coords="21,101.30,551.40,3.81,7.45;21,58.79,559.45,6.35,4.97;21,69.17,561.38,68.61,7.45">. 84 E.g., Adelman 1997</ref><ref type="bibr" coords="21,145.02,561.38,111.74,7.45" target="#b1">Aidt, Daunton, and Dutta 2010;</ref><ref type="bibr" coords="21,260.16,561.38,96.04,7.45" target="#b8">Berlinski and Dewan 2011;</ref><ref type="bibr" coords="21,359.59,561.38,39.91,7.45" target="#b39">Gash 1952;</ref><ref type="bibr" coords="21,402.90,561.38,27.95,7.45;21,51.02,571.30,19.22,7.45" target="#b65">McLean 2001;</ref><ref type="bibr" coords="21,73.08,571.30,35.42,7.45">Rush 2001</ref><ref type="bibr" coords="21,108.50,571.30,3.81,7.45;21,58.79,579.41,6.35,4.97;21,69.17,581.28,60.50,7.45">. 85 E.g., Doring 1995</ref><ref type="bibr" coords="21,136.34,581.28,60.55,7.45;21,58.79,589.33,6.35,4.97">Holzhacker 2005. 86</ref> See <ref type="bibr" coords="21,84.02,591.26,76.42,7.45;21,58.79,599.31,6.35,4.97">Hall and Taylor 1996. 87</ref> See Mahoney and Thelen 2010. 88 E.g., <ref type="bibr" coords="21,87.65,611.16,98.14,7.45" target="#b23">Cobb, Ross, and Ross 1976;</ref><ref type="bibr" coords="21,188.61,611.16,93.32,7.45" target="#b27">Cox and McCubbins 2005;</ref><ref type="bibr" coords="21,284.76,611.16,51.31,7.45" target="#b58">Krehbiel 1998;</ref><ref type="bibr" coords="21,338.90,611.16,43.25,7.45" target="#b68">Pollack 1997</ref>. 89 E.g., <ref type="bibr" coords="21,87.65,621.13,86.57,7.45" target="#b7">Benedetto and Hix 2007;</ref><ref type="bibr" coords="21,177.05,621.13,38.16,7.45" target="#b53">Kam 2009.</ref> presumably be beneficial to those interested in ideological changes in Westminster legislatures over time <ref type="bibr" coords="22,100.69,68.00,7.47,5.84" target="#b15">90</ref> to use a metric like ours to get a sense of exactly howthat is, on what issues -MPs became divided or unified as their parties evolved. Related to this endeavor, integrating burstiness with debate sequencingthat is, who speaks after whom and what it signals about strengthening informal relationships across the floor over timeis a task worthy of attention. Thirdly, while it is well known that democratization in Britain included moves away from staffing top party and governance roles with members of the House of Lords, unfortunately we did not have peers' speech records available for similar analysis to that above. It would certainly be intriguing to document any potential shifting burstiness from one chamber to another over time, especially if such changes affected how government and opposition interacted in both places. Finally, with the speech records of other legislaturessuch as the US Congress 91increasingly available online, it would be intriguing to analyze the burstiness of terms in a comparative context, to see how different systems converge or diverge in term use over time.</p><p>We leave such efforts for future work.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="8,62.36,484.64,379.81,7.27;8,62.36,494.62,148.09,7.27;8,62.36,504.52,360.60,7.45"><head>Fig. 2 .</head><label>2</label><figDesc>Summary of data: points are number of words per speech in the House of Commons (left axis); line is number of speeches per MP (right axis). Note: round points connote Conservatives in government; square points connote Liberals in government.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="8,62.36,228.95,379.82,7.27;8,62.36,238.87,272.75,7.27;8,62.36,248.78,379.79,7.45;8,62.36,258.75,379.76,7.45;8,62.36,268.73,336.45,7.45"><head>Fig. 1 .</head><label>1</label><figDesc>Summary of data: number of government party MPs and the number of speeches they made (top panel) and number of opposition MPs and speeches they made (bottom panel). Note: points refer to the left y-axis and are MP numbers; the solid line(s) are numbers of speeches for which the y-axis is to the right of the plots. In the top (bottom) plot, square points connote the Liberals (Conservatives) in government; round points connote the Conservatives (Liberals) in government.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="11,51.02,186.18,379.83,8.47;11,51.02,196.90,231.71,7.45"><head>Fig. 3 .</head><label>3</label><figDesc>Burst levels and burst durations for the word 'boundary' in the final session of the 1880 parliament (1884). Note: burst levels indicate the state of the Markov process at that point.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="18,62.36,287.12,259.84,7.27;18,62.36,296.96,379.81,7.45;18,62.36,306.94,379.79,7.45;18,62.36,316.18,334.39,8.47"><head>Fig. 8 .</head><label>8</label><figDesc>Concentration of agenda-setting power in the opposition over time.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="14,62.36,57.87,379.82,570.72"><head></head><label></label><figDesc>Fig. 5. Burstiness profile of MPs over time. Note: the y-axis of the plots is the 'standardized' burstiness of the term, a rescaled metric where a value of 1 corresponds to the most bursty MP that session, while a value of 0 refers to the least bursty MP. The x-axis labels correspond to the beginnings of the various parliaments during the period.</figDesc><table coords="14,65.46,57.87,373.52,570.72">1832 
+1835 
+1837 
+1841 
+1847 
+1852 
+1857 
+1859 
+1865 
+1868 
+1874 
+1880 
+1885 
+1886 
+1892 
+1895 
+1900 
+1906 
+1910 
+
+0.2 
+
+0.4 
+
+0.6 
+
+0.8 
+
+1.0 
+
+Benjamin Disraeli 
+
+1832 
+1835 
+1837 
+1841 
+1847 
+1852 
+1857 
+1859 
+1865 
+1868 
+1874 
+1880 
+1885 
+1886 
+1892 
+1895 
+1900 
+1906 
+1910 
+
+0.2 
+
+0.4 
+
+0.6 
+
+0.8 
+
+1.0 
+
+William Ewart Gladstone 
+
+1832 
+1835 
+1837 
+1841 
+1847 
+1852 
+1857 
+1859 
+1865 
+1868 
+1874 
+1880 
+1885 
+1886 
+1892 
+1895 
+1900 
+1906 
+1910 
+
+0.2 
+
+0.4 
+
+0.6 
+
+0.8 
+
+1.0 
+
+Charles Stewart Parnell 
+
+1832 
+1835 
+1837 
+1841 
+1847 
+1852 
+1857 
+1859 
+1865 
+1868 
+1874 
+1880 
+1885 
+1886 
+1892 
+1895 
+1900 
+1906 
+1910 
+
+0.2 
+
+0.4 
+
+0.6 
+
+0.8 
+
+1.0 
+
+Samuel Plimsoll 
+
+74 See Appendix B for more detailed information. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="19,51.02,58.26,379.87,208.52"><head></head><label></label><figDesc>T A B L E 2Coefficients for Logistic Regression of Cabinet Membership on Outlier Status, Burstiness, Years Since Great Reform Act and Interaction Terms</figDesc><table coords="19,51.02,91.30,379.87,175.47">Model 1 
+Model 2 
+Model 3 
+Model 4 
+
+(Intercept) 
+−5.0724*** 
+−3.7663*** 
+−6.0391*** 
+−6.5841*** 
+(0.2780) 
+(0.2521) 
+(0.5269) 
+(0.5493) 
+Outlier 
+2.6113*** 
+3.9262*** 
+3.4753*** 
+(0.2139) 
+(0.5811) 
+(0.6575) 
+Session number 
+0.0179** 
+0.0038 
+0.0370*** 
+0.0390*** 
+(0.0055) 
+(0.0059) 
+(0.0091) 
+(0.0099) 
+Speeches 
+0.0253*** 
+(0.0039) 
+Outlier x session number 
+−0.0281** 
+−0.0330* 
+(0.0108) 
+(0.0134) 
+Prior service 
+4.4446*** 
+(0.3354) 
+N 
+3,076 
+3,076 
+3,076 
+3,076 
+AIC 
+871.6884 
+922.2606 
+866.3145 
+575.8072 
+BIC 
+944.0651 
+994.6373 
+962.8167 
+696.4349 
+log L 
+−423.8442 
+−449.1303 
+−417.1573 
+−267.9036 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="61"><ref type="bibr" coords="8,80.45,621.13,94.79,7.45" target="#b20">Chester and Bowring 1962.</ref> </note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="22,62.36,265.11,343.18,7.89" xml:id="b0">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><surname>Adelman</surname></persName>
+		</author>
+		<title level="m">Gladstone, Disraeli and Later Victorian Politics</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Longman</publisher>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,62.36,276.11,379.85,7.89;22,86.00,287.05,309.25,7.89" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The Retrenchment Hypothesis and the Extension of the Franchise in England and Wales</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Toke</forename><surname>Aidt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Daunton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jayasri</forename><surname>Dutta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Economic Journal</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="issue">547</biblScope>
+			<biblScope unit="page" from="990" to="1020" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,62.36,298.00,379.85,7.89;22,86.00,308.99,334.99,7.89" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Continuity, Turnover and Experience in the British Cabinet, 1868-1970</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><surname>Alt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Cabinet Studies: A Reader</title>
+		<editor>Valentine Herman and James Alt</editor>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Macmillan</publisher>
+			<date type="published" when="1975" />
+			<biblScope unit="page" from="33" to="54" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,62.36,319.93,379.83,7.89;22,86.00,330.88,162.46,7.89" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Voting Patterns in the British House of Commons in the 1840s</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">O</forename><surname>Aydelotte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comparative Studies in Society and History</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="134" to="63" />
+			<date type="published" when="1963" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,62.36,341.87,379.85,7.89;22,86.00,352.82,355.99,7.89;22,86.00,363.76,80.95,7.89" xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Boston: Little, Brown and Company</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Walter</forename><surname>Bagehot</surname></persName>
+		</author>
+		<ptr target="http://socserv.mcmaster.ca/econ/ugcm/3ll3/bagehot/constitution.pdf" />
+		<imprint>
+			<date type="published" when="1873" />
+		</imprint>
+	</monogr>
+	<note>The English Constitution</note>
+</biblStruct>
+
+<biblStruct coords="22,62.36,374.76,379.79,7.89;22,86.00,385.70,154.64,7.89" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Computation and Analysis of Multiple Structural Change Models</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jushan</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pierre</forename><surname>Perron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Econometrics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1" to="22" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,62.36,396.64,379.84,7.89;22,86.00,407.58,177.54,7.89" xml:id="b6">
+	<monogr>
+		<title level="m" type="main">In the Shadows: The Shadow Cabinet in Australia. Canberra: Parliament of Australia, Department of Parliamentary Services</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joel</forename><surname>Bateman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,62.36,418.58,379.84,7.89;22,86.00,429.52,356.18,7.89;22,86.00,440.46,53.78,7.89" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The Rejected, the Ejected and the Dejected: Explaining Government Rebels in the 2001-5 British House of Commons</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Giacomo</forename><surname>Benedetto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Simon</forename><surname>Hix</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comparative Political Studies</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="755" to="81" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,62.36,451.46,379.82,7.89;22,86.00,462.40,307.20,7.89" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The Political Consequences of Franchise Extension: Evidence from the Second Reform Act</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Samuel</forename><surname>Berlinski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Torun</forename><surname>Dewan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">34</biblScope>
+			<biblScope unit="page" from="329" to="76" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,62.36,473.34,379.82,7.89;22,86.00,484.34,287.70,7.89" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The Length of Ministerial Tenure in the United Kingdom</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Samuel</forename><surname>Berlinski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Torun</forename><surname>Dewan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Keith</forename><surname>Dowding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="245" to="62" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,62.36,495.28,379.81,7.89;22,86.00,506.22,129.24,7.89" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Partisanship and Dissidence in the Nineteenth Century House of Commons</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hugh</forename><surname>Berrington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Parliamentary Affairs</title>
+		<imprint>
+			<biblScope unit="volume">XXI</biblScope>
+			<biblScope unit="page" from="338" to="74" />
+			<date type="published" when="1968" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,62.36,517.17,358.42,7.89;22,62.36,528.16,379.81,7.89;22,86.00,539.11,236.95,7.89" xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Bursts: Markov Model for Bursty Behavior in Streams. R package version 1.0. Bogdanor, Vernon, and David Butler. 1983. Democracy and Elections: Electoral Systems and their Political Consequences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeff</forename><surname>Binder</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,62.36,550.05,262.58,7.89" xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Ministers of the Crown</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julian</forename><surname>Brazier</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>Clarendon Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,62.36,561.05,379.81,7.89;22,86.00,571.99,90.01,7.89" xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Constitutional Practice: The Foundations of British Government</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rodney</forename><surname>Brazier</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,62.36,582.93,329.88,7.89" xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><surname>Stokes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Change in Britain</title>
+		<imprint>
+			<date type="published" when="1969" />
+			<publisher>Macmillan</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,80.45,611.16,204.60,7.45" xml:id="b15">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">G</forename><surname>Godbout</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hoyland</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Schonhardt-Bailey</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,80.45,621.13,64.07,7.45" xml:id="b16">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Jensen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,58.92,379.82,7.89;23,74.66,69.86,63.31,7.89" xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Twentieth Century British Historical Facts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gareth</forename><surname>Butler</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>MacMillan Press</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note>8th Edition</note>
+</biblStruct>
+
+<biblStruct coords="23,51.02,80.80,379.85,7.89;23,74.66,91.80,228.85,7.89" xml:id="b18">
+	<monogr>
+		<title level="m" type="main">The Personal Vote: Constituency Service and Electoral Independence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bruce</forename><surname>Cain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Ferejohn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Morris</forename><surname>Fiorina</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<publisher>Harvard University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,102.74,379.83,7.89;23,74.66,113.69,356.19,7.89" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Catalyst or Cause? Legislation and the Demise of Machine Politics in Britain and the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edwin</forename><surname>Camp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Avinash</forename><surname>Dixit</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Susan</forename><surname>Stokes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Legislative Studies Quarterly XXXIX</title>
+		<imprint>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="559" to="92" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,124.68,350.17,7.89" xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Questions in Parliament</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Norman</forename><surname>Chester</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nona</forename><surname>Bowring</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1962" />
+			<publisher>Clarendon Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,135.63,379.85,7.89;23,74.66,146.57,182.19,7.89" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Locating Supreme Court Opinions in Doctrine Space</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tom</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Benjamin</forename><surname>Lauderdale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="871" to="90" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,157.57,379.87,7.89;23,74.66,168.51,121.07,7.89" xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Harold</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marianne</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><surname>Whiteley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Choice in Britain</title>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>Oxford University Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,179.45,379.78,7.89;23,74.66,190.45,248.13,7.89" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Agenda Building as a Comparative Political Process</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roger</forename><surname>Cobb</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennie-Keith</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marc</forename><forename type="middle">Howard</forename><surname>Ross</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="126" to="164" />
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,201.39,379.80,7.89;23,74.66,212.33,41.61,7.89" xml:id="b24">
+	<monogr>
+		<title level="m" type="main">British Historical Facts 1830-1900</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brendan</forename><surname>Keith</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1975" />
+			<publisher>Palgrave-MacMillan</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,223.27,194.22,7.89" xml:id="b25">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><surname>Cowley</surname></persName>
+		</author>
+		<title level="m">The Rebels. London: Politicos</title>
+		<imprint>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,234.27,379.83,7.89;23,74.66,245.21,184.23,7.89;23,51.02,255.36,379.88,8.97" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The Efficient Secret: The Cabinet and the Development of Political Parties in Victorian England</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><surname>Cox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Parliamentary History</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="278" to="85" />
+			<date type="published" when="1987" />
+			<publisher>Cambridge University Press</publisher>
+		</imprint>
+	</monogr>
+	<note>The Origin of Whip Votes in the House of Commons</note>
+</biblStruct>
+
+<biblStruct coords="23,51.02,267.15,379.82,7.89;23,74.66,278.09,245.74,7.89" xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Setting the Agenda: Responsible Party Government in the US House of Representatives</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mathew</forename><surname>Mccubbins</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,289.03,374.55,7.89;23,51.02,299.24,332.60,8.97;23,51.02,310.97,279.23,7.89" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">British Parliamentary Election Results</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frederick</forename><surname>Craig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">British Parliamentary Election Results</title>
+		<meeting><address><addrLine>London; London; Crisp, Leslie; Melbourne</addrLine></address></meeting>
+		<imprint>
+			<publisher>Longman</publisher>
+			<date type="published" when="1974" />
+			<biblScope unit="page" from="1832" to="1885" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,321.92,379.83,7.89;23,74.66,332.91,356.22,7.89;23,74.66,343.86,273.97,7.89" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">How Informal Electoral Institutions Shape the Brazilian Legislative Agenda</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Scott</forename><surname>Desposato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Informal Institutions and Democracy: Lessons from Latin America</title>
+		<editor>Gretchen Helmke and Steven Levitsky</editor>
+		<meeting><address><addrLine>Baltimore, MD</addrLine></address></meeting>
+		<imprint>
+			<publisher>Johns Hopkins University Press</publisher>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="125" to="167" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,354.80,379.83,7.89;23,74.66,365.74,117.28,7.89" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The Declining Talent Pool of Government</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Torun</forename><surname>Dewan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Myatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="267" to="86" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,376.74,379.78,7.89;23,74.66,387.68,239.34,7.89" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Strategic Opposition and Government Cohesion in Westminster Democracies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Torun</forename><surname>Dewan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arthur</forename><surname>Spirling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="337" to="58" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,398.62,379.85,7.89;23,74.66,409.62,352.44,7.89" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Institutions and Policies: Why We Need Cross National Analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Herbert</forename><surname>Doring</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Parliaments and Majority Rule in Western Europe</title>
+		<editor>Herbert Doring</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>St Martin&apos;s Press</publisher>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="27" to="50" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,420.56,379.78,7.89;23,74.67,431.50,356.17,7.89;23,74.66,442.50,124.94,7.89" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Electoral Security as a Determinant of Legislator Activity, 1832-1918: New Data and Methods for Analyzing British Political Development</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Eggers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arthur</forename><surname>Spirling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Legislative Studies Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="593" to="620" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,452.66,379.82,8.97;23,74.66,464.39,222.32,7.89" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Forthcoming. Party Cohesion in Westminster Systems: Inducements, Replacement and Discipline in the House of Commons</title>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Political Science</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,475.33,379.83,7.89;23,74.66,486.33,175.79,7.89" xml:id="b35">
+	<monogr>
+		<title level="m" type="main">1864/1986. The Constitutional History of England Since the Accession of George Third</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Erskine</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Thomas</surname></persName>
+		</author>
+		<editor>F.B. Rothman</editor>
+		<imprint>
+			<biblScope unit="page" from="1760" to="1860" />
+			<pubPlace>Littleton, CO</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,497.27,379.80,7.89;23,74.66,508.21,356.18,7.89;23,74.66,519.29,356.18,7.70;23,74.66,530.15,105.77,7.89" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">MavenRank: Identifying Influential Members of the US Senate Using Lexical Centrality</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><surname>Fader</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dragomir</forename><surname>Radev</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Burt</forename><forename type="middle">L</forename><surname>Monroe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kevin</forename><forename type="middle">M</forename><surname>Quinn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning</title>
+		<meeting>the 2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning</meeting>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="page" from="658" to="66" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,541.09,379.85,7.89;23,74.66,552.09,254.42,7.89" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Questions and Members</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Franklin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><surname>Norton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Parliamentary Questions</title>
+		<editor>Mark Franklin and Philip Norton</editor>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Clarendon Press</publisher>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="104" to="222" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,563.03,379.81,7.89;23,74.66,573.97,160.42,7.89" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The Growth of Ministerial Control in the Nineteenth-Century House of Commons</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Fraser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">English Historical Review</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">296</biblScope>
+			<biblScope unit="page" from="444" to="63" />
+			<date type="published" when="1960" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,584.97,379.81,7.89;23,74.66,595.91,236.18,7.89" xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Politics in the Age of Peel: A Study in the Technique of Parliamentary Representation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Norman</forename><surname>Gash</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1952" />
+			<publisher>Longmans, Green, and Co</publisher>
+			<biblScope unit="page" from="1830" to="1850" />
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.02,606.85,379.87,7.89;23,74.66,617.80,131.15,7.89" xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Parties and Voting in Parliament</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jean-Francois</forename><surname>Godbout</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bjorn</forename><surname>Hoyland</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<publisher>Princeton University</publisher>
+			<pubPlace>Princeton, NJ</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Working Paper</note>
+</biblStruct>
+
+<biblStruct coords="24,62.36,58.92,379.84,7.89;24,86.00,69.86,259.13,7.89" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Justin</forename><surname>Grimmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brandon</forename><surname>Stewart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Analysis</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="267" to="97" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,80.80,379.79,7.89;24,86.00,91.80,115.86,7.89" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Political Science and the Three New Institutionalisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rosemary</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Studies</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="936" to="57" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,102.74,342.52,7.89" xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Elections and Party Management</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Harold</forename><surname>Hanham</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1978" />
+			<publisher>Harvester Press</publisher>
+			<pubPlace>Hassocks, Sussex</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,113.69,379.82,7.89;24,86.00,124.68,306.93,7.89" xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Understanding Political Change: The British Voter</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><surname>Heath</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Curtice</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roger</forename><surname>Jowell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoffrey</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Field</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sharon</forename><surname>Witherspoon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1964" />
+			<publisher>Pergamon</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,135.63,379.77,7.89;24,86.00,146.57,216.83,7.89" xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gretchen</forename><surname>Helmke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><surname>Levitsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Informal Institutions and Comparative Politics: A Research Agenda. Perspectives on Politics</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="725" to="765" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,157.57,379.80,7.89;24,86.00,168.51,190.19,7.89" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The Power of Opposition Parliamentary Party Groups in European Scrutiny</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ronald</forename><surname>Holzhacker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Legislative Studies</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="428" to="473" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,179.45,377.89,7.89" xml:id="b47">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><surname>Howe</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>Oxford University Press</publisher>
+			<biblScope unit="page" from="1846" to="1946" />
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Free Trade and Liberal England</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,190.45,379.80,7.89;24,86.00,201.39,83.83,7.89" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Democracy as a Latent Variable</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Simon</forename><surname>Jackman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shawn</forename><surname>Treier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="201" to="218" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,212.33,379.79,7.89;24,86.00,223.27,61.32,7.89" xml:id="b49">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Terence</forename><surname>Jenkins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Victorian</forename><surname>Britain</surname></persName>
+		</author>
+		<title level="m">Parliament, Party and Politics</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Manchester University Press</publisher>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,234.27,379.81,7.89;24,86.00,245.21,65.53,7.89" xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Parliamentary England: The Evolution of the Cabinet System</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edward</forename><surname>Jenks</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1903" />
+			<publisher>G Putnam&apos;s Sons</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,256.15,379.85,7.89;24,86.00,267.15,356.17,7.89;24,86.00,278.09,150.73,7.89" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Political Polarization and the Dynamics of Political Language: Evidence from 130 Years of Partisan Speech</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jacob</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ethan</forename><surname>Kaplan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Suresh</forename><surname>Naidu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Laurence</forename><surname>Wilse-Samson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brookings Papers on Economic Activity (Fall</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="60" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,289.03,379.82,7.89;24,86.01,300.03,33.61,7.89" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Opposition in the British Political System</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nevil</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Government and Opposition</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="487" to="510" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,310.97,379.83,7.89;24,86.01,321.92,20.90,7.89" xml:id="b53">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><forename type="middle">J</forename><surname>Kam</surname></persName>
+		</author>
+		<title level="m">Party Discipline and Parliamentary Politics</title>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,332.91,379.79,7.89;24,86.01,343.86,260.03,7.89" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">The Timing of Cabinet Reshuffles in Five Westminster Parliamentary Systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><surname>Kam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Indridi</forename><surname>Indridason</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Legislative Studies Quarterly XXX</title>
+		<imprint>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="327" to="63" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,354.80,353.30,7.89" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Midlothian: A Study in Politics and Ideas</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Kelley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Victorian Studies</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="119" to="159" />
+			<date type="published" when="1960" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.37,365.74,379.81,7.89;24,86.01,376.74,356.15,7.89;24,86.01,387.68,61.32,7.89" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Ministerial Autonomy in Britain</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Cabinet Ministers and Parliamentary Government</title>
+		<editor>Michael Laver and Kenneth Shepsle</editor>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="203" to="228" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.37,398.62,379.83,7.89;24,86.01,409.62,356.21,7.89;24,86.01,420.56,61.44,7.89" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Bursty and Hierarchical Structure in Streams</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jon</forename><surname>Kleinberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Eighth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</title>
+		<meeting>the Eighth ACM SIGKDD International Conference on Knowledge Discovery and Data Mining<address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="91" to="101" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.37,431.50,379.83,7.89;24,86.01,442.50,20.90,7.89;24,62.36,452.66,368.09,8.97;24,62.36,464.39,351.48,7.89" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Pivotal Politics: A Theory of US Lawmaking</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Keith</forename><surname>Krehbiel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Informal Institutions and Democracy. Democratization</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="21" to="50" />
+			<date type="published" when="1992" />
+			<publisher>University of Chicago Press</publisher>
+		</imprint>
+	</monogr>
+	<note>Information and Legislative Organization</note>
+</biblStruct>
+
+<biblStruct coords="24,62.36,475.33,379.81,7.89;24,86.00,486.33,186.44,7.89" xml:id="b59">
+	<monogr>
+		<title level="m" type="main">Patterns of Democracy: Government Forms and Performance in Thirty-Six Countries</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arend</forename><surname>Lijphart</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<publisher>Yale University Press</publisher>
+			<pubPlace>New Haven, CT</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,497.27,276.25,7.89" xml:id="b60">
+	<monogr>
+		<title level="m" type="main">The Government of England</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Abbott</forename><surname>Lowell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1908" />
+			<publisher>Macmillan</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,508.21,379.82,7.89;24,86.00,519.21,238.50,7.89" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">The Influence of Party on Legislation in England and America</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><surname>Lowell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Annual Report for the American Historical Association for the Year</title>
+		<imprint>
+			<date type="published" when="1901" />
+			<biblScope unit="page" from="319" to="542" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,530.15,379.85,7.89;24,86.00,541.09,356.17,7.89;24,86.00,552.09,201.75,7.89" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">A Theory of Gradual Institutional Change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><surname>Mahoney</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kathleen</forename><surname>Thelen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Explaining Institutional Change: Ambiguity, Agency and Power</title>
+		<editor>James Mahoney and Kathleen Thelen</editor>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="1" to="37" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,563.03,379.83,7.89;24,86.00,573.97,20.90,7.89" xml:id="b63">
+	<monogr>
+		<title level="m" type="main">English Political Institutions: An Introductory Study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Marriott</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1925" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,584.97,308.16,7.89" xml:id="b64">
+	<monogr>
+		<title level="m" type="main">Gladstone 1809-1898</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Henry</forename><forename type="middle">Colin</forename><surname>Matthew</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gray</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>Clarendon Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,595.91,335.60,7.89" xml:id="b65">
+	<monogr>
+		<title level="m" type="main">Rational Choice and British Politics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iain</forename><surname>Mclean</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,62.36,606.86,379.83,7.89;24,86.00,617.80,54.82,7.89" xml:id="b66">
+	<monogr>
+		<title level="m" type="main">Democracy and the Organization of Political Parties</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Moisei</forename><surname>Ostrogorski</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1902" />
+			<publisher>Anchor Books</publisher>
+			<pubPlace>Garden City, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,58.92,379.79,7.89;25,74.67,69.86,316.44,7.89" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Democratic Compromise: A Latent Variable Analysis of Ten Measures of Regime Type</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Pemstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><forename type="middle">A</forename><surname>Daniel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><surname>Meserve</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Melton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Analysis</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="426" to="475" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,80.80,379.80,7.89;25,74.67,91.80,104.30,7.89" xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Delegation, Agency, and Agenda Setting in the European Community</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Pollack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Organization</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="99" to="134" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,101.96,379.83,8.97;25,74.67,113.69,307.65,7.89" xml:id="b69">
+	<monogr>
+		<title level="m" type="main">Great Britain: Opposition with a Capital &apos;O&apos;. In Political Oppositions in Western Democracies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Allan</forename><surname>Potter</surname></persName>
+		</author>
+		<editor>Robert Dahl</editor>
+		<imprint>
+			<date type="published" when="1965" />
+			<publisher>Yale University Press</publisher>
+			<biblScope unit="page" from="3" to="33" />
+			<pubPlace>New Haven, CT</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,124.68,379.87,7.89;25,74.66,135.63,146.13,7.89" xml:id="b70">
+	<monogr>
+		<title level="m" type="main">Elections as Instruments of Democracy: Majoritarian and Proportional Visions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bingham</forename><surname>Powell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>Yale University Press</publisher>
+			<pubPlace>New Haven, CT</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,146.57,379.86,7.89" xml:id="b71">
+	<monogr>
+		<title level="m" type="main">A Party Politician: The Memoirs of Chubby Power</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><surname>Power</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1966" />
+			<publisher>Macmillan of Canada</publisher>
+			<pubPlace>Toronto</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,157.57,379.82,7.89;25,74.66,168.51,273.84,7.89" xml:id="b72">
+	<monogr>
+		<title level="m" type="main">Front-Bench Opposition: The Role of the Leader of the Opposition, the Shadow Cabinet, and Shadow Government in British Politics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Punnett</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1973" />
+			<publisher>Heinemann</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,179.45,379.82,7.89;25,74.67,190.45,356.16,7.89;25,74.67,201.39,70.56,7.89" xml:id="b73">
+	<analytic>
+		<title level="a" type="main">How to Analyze Political Attention with Minimal Assumptions and Costs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kevin</forename><surname>Quinn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Burt</forename><surname>Monroe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Colaresi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">H</forename><surname>Crespin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dragomir</forename><surname>Radev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="209" to="237" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,212.33,378.70,7.89;25,51.02,223.27,379.82,7.89;25,74.66,234.27,145.95,7.89" xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Electing and Ejecting Party Leaders in Britain</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><surname>Quinn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Palgrave Macmillan. R Core Team. 2013. R: A Language and Environment for Statistical Computing</title>
+		<meeting><address><addrLine>New York; Vienna, Austria</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>: R Foundation for Statistical Computing</note>
+</biblStruct>
+
+<biblStruct coords="25,51.02,245.21,379.87,7.89;25,74.66,256.15,94.39,7.89" xml:id="b75">
+	<monogr>
+		<title level="m" type="main">The Procedure of the House of Commons: A Study of its History and Present Form</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Josef</forename><surname>Redlich</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1908" />
+			<publisher>Constable &amp; Co</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,267.15,379.83,7.89;25,74.66,278.09,20.90,7.89" xml:id="b76">
+	<monogr>
+		<title level="m" type="main">Comparing Westminster</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rod</forename><surname>Rhodes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Wanna</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patrick</forename><surname>Weller</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,289.03,379.84,7.89;25,74.66,300.03,356.21,7.89;25,74.66,310.97,356.20,7.89;25,74.66,321.92,89.61,7.89" xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Westminster Transplanted and Westminster Implanted: Exploring Political Change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rod</forename><surname>Rhodes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patrick</forename><surname>Weller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Westminster Legacies: Democracy and Responsible Government in Asia and the Pacific</title>
+		<editor>Haig Patapan, John Wanna and Patrick Weller</editor>
+		<meeting><address><addrLine>Sydney</addrLine></address></meeting>
+		<imprint>
+			<publisher>University of New South Wales Press</publisher>
+			<date type="published" when="2005" />
+			<biblScope unit="page" from="1" to="12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,332.91,363.05,7.89;25,51.02,343.86,379.87,7.89;25,74.66,354.80,121.07,7.89" xml:id="b78">
+	<monogr>
+		<title level="m" type="main">Mackintosh&apos;s the Government and Politics of Britain. London: Routledge. Rush, Michael. 2001. The Role of the Member of Parliament Since 1868: From Gentlemen to Players</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><forename type="middle">G</forename><surname>Richards</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,365.74,379.84,7.89;25,74.66,376.74,176.19,7.89" xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Ideology, Party and Interests in the British Parliament of 1841-1847</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cheryl</forename><surname>Schonhardt-Bailey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="581" to="605" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,387.68,315.06,7.89" xml:id="b80">
+	<monogr>
+		<title level="m" type="main">Capitalism, Socialism and Democracy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseph</forename><surname>Schumpeter</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1942" />
+			<publisher>Harper</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,398.62,379.84,7.89;25,74.66,409.62,276.13,7.89" xml:id="b81">
+	<analytic>
+		<title level="a" type="main">A Scaling Model for Estimating Time Series Party Positions from Texts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><surname>Slapin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sven-Oliver</forename><surname>Proksch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="705" to="727" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,420.56,379.82,7.89;25,74.66,431.50,356.21,7.89;25,74.66,442.50,356.18,7.89" xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Do Informal Rules Make Democracy Work? Accounting for Accountability in Argentina</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Susan</forename><surname>Stokes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Informal Institutions and Democracy: Lessons from Latin America</title>
+		<editor>Gretchen Helmke and Steven Levitsky</editor>
+		<meeting><address><addrLine>Baltimore, MD</addrLine></address></meeting>
+		<imprint>
+			<publisher>Johns Hopkins University Press</publisher>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="125" to="167" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,453.44,379.83,7.89;25,74.66,464.38,284.41,7.89" xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Which Democracies Will Last? Coups, Incumbent Takeovers, and the Dynamic of Democratic Consolidation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Milan</forename><surname>Svolik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="735" to="773" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,475.33,315.88,7.89" xml:id="b84">
+	<monogr>
+		<title level="m" type="main">The Shadow Cabinet in British Politics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Duncan</forename><surname>Turner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1969" />
+			<pubPlace>New York: Routledge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,486.33,379.78,7.89;25,74.66,497.27,239.96,7.89" xml:id="b85">
+	<analytic>
+		<title level="a" type="main">When are Women More Effective Lawmakers Than Men?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Craig</forename><surname>Volden</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alan</forename><surname>Wiseman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dana</forename><surname>Wittmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="326" to="367" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,508.21,366.88,7.89" xml:id="b86">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brian</forename><surname>Walker</surname></persName>
+		</author>
+		<title level="m">Parliamentary Elections in Ireland</title>
+		<meeting><address><addrLine>Dublin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Royal Irish Academy</publisher>
+			<date type="published" when="1978" />
+			<biblScope unit="page" from="1801" to="1922" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,519.21,379.87,7.89;25,74.66,530.15,152.82,7.89" xml:id="b87">
+	<monogr>
+		<title level="m" type="main">Filibuster: Obstruction and Lawmaking in the US Senate</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gregory</forename><surname>Wawro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><surname>Schickler</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Princeton, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,51.02,541.09,379.83,7.89;25,74.66,552.09,356.20,7.89;25,74.66,563.03,40.35,7.89" xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Strucchange: An R Package for Testing for Structural Change in Linear Regression Models</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Achim</forename><surname>Zeileis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Friedrich</forename><surname>Leisch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kurt</forename><surname>Hornik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christian</forename><surname>Kleiber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Statistical Software</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1" to="38" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

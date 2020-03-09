@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Encouraging Small Donor Contributions: A Field Experiment Testing the Effects of Nonpartisan Messages</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2015">2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><forename type="middle">P</forename><surname>Green</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><forename type="middle">S</forename><surname>Krasno</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Costas</forename><surname>Panagopoulos</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Benjamin</forename><surname>Farrer</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Schwam-Baird</surname></persName>
+						</author>
+						<title level="a" type="main">Encouraging Small Donor Contributions: A Field Experiment Testing the Effects of Nonpartisan Messages</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of Experimental Political Science</title>
+						<imprint>
+							<biblScope unit="volume">2</biblScope>
+							<biblScope unit="page" from="183" to="191"/>
+							<date type="published" when="2015">2015</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1017/XPS.2015.1</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:01+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Campaign finance</term>
+					<term>political participation</term>
+					<term>field experiments</term>
+					<term>donations</term>
+					<term>electoral politics</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We report the results of a field experiment conducted in New York City during the 2013 election cycle, examining the impact of nonpartisan messages on donations from small contributors. Using information from voter registration and campaign finance records, we built a forecasting model to identify voters with an above-average probability of donating. A random sample of these voters received one of four messages asking them to donate to a candidate of their choice. Half of these treatments reminded voters that New York City's campaign finance program matches small donations with public funds. Candidates' financial disclosures to the city's Campaign Finance Board reveal that only the message mentioning policy (in generic terms) increased donations. Surprisingly, reminding voters that matching funds multiplied the value of their contribution had no effect. Our experiment sheds light on the motivations of donors and represents the first attempt to assess nonpartisan appeals to contribute.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Individual donors constitute the financial backbone of political campaigns <ref type="bibr" coords="1,364.23,402.89,31.88,9.09;1,49.38,414.85,23.23,9.09" target="#b12">(Sorauf 1994)</ref> but comprise a small and unrepresentative segment of the electorate. Less than 5% of eligible voters gave money to any political campaign in 2008 <ref type="bibr" coords="1,354.13,426.80,41.94,9.09;2,35.06,56.99,113.88,9.09" target="#b7">(Magleby, Goodliffe, and Olsen 2014)</ref>. Political donors are wealthier and more ideologically extreme than non-donors <ref type="bibr" coords="2,151.07,68.94,145.17,9.09" target="#b6">(Lipsitz and Panagopoulos 2011;</ref><ref type="bibr" coords="2,300.94,68.94,80.81,9.09;2,35.06,80.90,55.53,9.09" target="#b10">Panagopoulos and Bergan 2006)</ref>. Political donations are said to contribute to the disproportionate political influence of wealthy Americans <ref type="bibr" coords="2,206.34,92.85,58.09,9.09" target="#b0">(Bartels 2010;</ref><ref type="bibr" coords="2,266.94,92.85,51.40,9.09" target="#b4">Gilens 2012)</ref>.</p><p>Advocates contend that expanding the donor pool would bring the political views of donors closer to the electorate's preferences. But how might one expand the relatively small share of Americans who give to campaigns? Using an experimental design, we explore whether nonpartisan appeals increase both the number of donors and the size of their donations.</p><p>For reformers, the importance of attracting new donors is especially timely in the wake of the Supreme Court's decisions in Citizens United v. <ref type="bibr" coords="2,295.93,192.48,44.22,9.09">FEC (2010</ref><ref type="bibr" coords="2,340.14,192.48,41.62,9.09;2,35.06,204.44,121.66,9.09">), FEC v. Wisconsin Right to Life (2007</ref> and <ref type="bibr" coords="2,181.77,204.44,111.40,9.09">McCutcheon v. FEC (2014)</ref>, which allow donors to make large contributions to political campaigns. Given the restrictions that the Court has placed on campaign finance regulation, policy options are limited. One approach is to dilute the impact of large players with more money from smaller donors. The reform community has long sought to encourage more people to participate financially in campaigns. The matching funds provision for presidential primaries is designed to encourage candidates to raise money from a large number of individuals. Several states and localities have instituted public financing programs that encourage small, individual donations <ref type="bibr" coords="2,217.23,300.08,87.55,9.09" target="#b9">(Panagopoulos 2011)</ref>. This paper reports the results of a large-scale field experiment in New York City that identified potential donors and tested the effectiveness of different nonpartisan fundraising appeals, including messages that call attention to incentives offered by the city's matching fund system. We begin by briefly discussing our predictive model of campaign contributions, which we used to identify the subject pool of potential donors. Next, we discuss the experimental design and the theoretical rationale behind the different fundraising messages. We then use New York City's comprehensive data on municipal campaign donations to measure outcomes. <ref type="bibr" coords="2,377.78,402.15,3.49,6.36">1</ref> The results suggest that one type of nonpartisan message represents a promising fundraising appeal: encouraging subjects to contribute in order to keep elected officials focused on policy issues of importance to the potential donor. Surprisingly, appeals that stressed matching funds proved ineffective. We conclude by suggesting directions for future research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IDENTIFYING POTENTIAL DONORS</head><p>In order to identify likely contributors, we first obtained New York City's public voter file, which included information on voter turnout history, gender, party registration, and age, as well as contribution data from the New York City Campaign Finance Board. The city requires that all contributions, regardless of size, be reported by campaigns. Logistic regression predicted donations to city campaigns during the 2009 election cycle or the 2013 election cycle through late spring of 2013. Independent variables included age, age-squared, gender, party registration, the proportion of donors in a zip code, and the voter's turnout history. Regression estimates were used to generate each voter's predicted probability of making a campaign contribution. Consistent with previous studies of contributions, we find that the distribution of predicted probabilities spikes near zero and then declines gradually with a long right tail. The average predicted probability of making a donation was 1.9%, which is close to the actual proportion of donations in our dataset. As shown in the supplemental appendix to this paper (see Tables A4 and A5), the fitted probabilities from our model proved to be predictive of post-treatment donations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EXPERIMENTAL DESIGN</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Setting</head><p>In fall of 2013, elections for mayor, city advocate, and city comptroller were open races that garnered significant attention, although the high-profile mayoral election was not expected to be close. Including elections for borough president, a total of 347 candidates contested 59 offices.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Treatments</head><p>We mailed 4 by 6 postcards encouraging randomly selected recipients to make contributions to candidates of their choice. The postcards were mailed on October 10, 2013. We tested four messages that emphasized (1) making one's voice heard, (2) leveling the playing field with special interests, (3) doing one's civic duty, and (4) influencing public policy. Four additional postcards augmented these messages with information about the city's campaign finance matching program. The wording of each postcard is shown in <ref type="figure" coords="3,159.71,444.32,34.22,9.09" target="#fig_0">Figure 1</ref>. <ref type="bibr" coords="3,197.77,442.79,3.49,6.36">2</ref> The postcards address four distinct, potential motivations for contributing to candidates in elections. The first message ("Voice") reminds subjects that few Americans donate to political candidates and appealed to voters to contribute so that politicians would hear a broader range of voices. This appeal is designed to address the perception that politicians pay greater attention to the views of donors than non-donors. The second message ("Special Interests") addresses a related theme, the concern that special interests, via their financial contributions to candidates, exert disproportionate political influence. This message calls on recipients to "level the playing field" by becoming contributors. The "Civic Duty" postcard declares that democracy is expensive and that candidates require resources to wage electoral battles. The goal was to inspire subjects to regard contributing as a civic duty, akin to voting. The final message ("Policy") reminds recipients that public officials make consequential decisions every day and that donations help shape policy outcomes.</p><p>Beyond these four appeals, we called attention to New York City's public financing incentives by describing them in half of our experimental postcards. The system was established in 1988 to encourage small donors; by 2013 it provided a 6-to-1 match for donations up to $175. Half of recipients were reminded of the match and urged that it "really increases the value of your contribution!" Overall, the experiment features a 4 × 2 design that crosses each of the message treatments with a reminder about the matching fund program.</p><p>Reformers have long advocated public financing as a way of encouraging political contributions, especially from small donors <ref type="bibr" coords="5,230.51,136.69,86.90,9.09" target="#b9">(Panagopoulos 2011)</ref>. Existing evidence on its effects is inconclusive, however. Similar approaches have been investigated experimentally in other domains-in particular, charitable contributions-but evidence is mixed. Lab studies find matching and subsidies increase charitable contributions <ref type="bibr" coords="5,109.28,184.51,117.89,9.09" target="#b1">(Eckel and Grossman 2003;</ref><ref type="bibr" coords="5,230.24,184.51,49.79,9.09" target="#b8">Meier 2007)</ref>, but field experiments find limited effects <ref type="bibr" coords="5,112.52,196.46,99.03,9.09" target="#b5">(Karlan and List 2006;</ref><ref type="bibr" coords="5,215.11,196.46,105.56,9.09" target="#b11">Rondeau and List, 2008)</ref>. Our experiment extends this line of inquiry to the domain of political contributions.</p><p>Campaign finance and tax laws impose restrictions on what nonprofit entities may do in the realm of campaign fundraising. Legal experts advised us that our postcards could not mention any candidate by name even if every candidate were mentioned. As a result, each of our nonpartisan treatments urges subjects to support a candidate of their choice. To make it easier for subjects to find candidates to support, we created a website (www.donatenyc.net) that allowed users to search for candidates listed on their local ballot by office or party and linked to candidate websites. All postcards included this web address.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Random Assignment Procedures</head><p>Experimental groups were formed using block random assignment. The subject pool consisted of registered voters whose predicted probability ranged from 2 to 22%. Because many Council seats are un-or barely contested, we divided these subjects into two geographic groups: those who lived in one of seven "Target" districts deemed competitive <ref type="bibr" coords="5,135.48,420.13,192.94,9.09">(council districts 19, 30, 32, 43, 48, 50, and 51)</ref>, and those who lived in the remaining districts at large. Within each, complete random assignment of voters into treatment and control groups was performed within blocks based on one-percentage point ranges of predicted probabilities of donating (e.g., 0.02-0.03), as described in the Appendix. Since there were more subjects at lower values of predicted probabilities, lower blocks were larger than higher blocks. Each block was randomly assigned the same number of subjects in each treatment condition, which means that the probability of treatment varied by block, as shown in Tables A6 and A7.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Outcome Measures</head><p>We used data from the New York City Campaign Finance Board to count the frequency and size of donations made in the post-treatment period. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Model</head><p>The results presented below focus on two dependent variables. The first is the amount that each subject donated; the second is a binary outcome indicating whether a subject donated. The estimand in the first case is the average treatment effect associated with each mailing: how many dollars on average were donated as a result of the experimental intervention? In the second case, we are interested in how each mailing affected the rate of donation. Both quantities can be estimated by comparing average outcomes in treatment and control groups within each block. In order to summarize these results across all blocks while taking into account the fact that the probability of treatment assignment varied by block, we use inverse-probability weights <ref type="bibr" coords="6,187.66,355.20,141.67,9.09">(Gerber and Green 2012, 71-77)</ref>. We report heteroskedasticity-robust standard errors, as we expect the treatment to change the disturbance variance in the experimental groups. Finally, we calculate p-values for our estimates using randomization inference because approximations based on the normal distribution are likely to be misleading given the skewness of the dependent variable. We simulate 10,000 randomly generated treatment assignments and obtain a distribution of treatment effect estimates from these assignments under the sharp null hypothesis of no treatment effect <ref type="bibr" coords="6,240.37,438.90,136.96,9.09">(Gerber and Green 2012, 64-66)</ref>.</p><p>The proportion of simulated estimates that are larger in absolute value than the observed estimate provides a two-tailed p-value.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STATISTICAL RESULTS</head><p>For brevity, we pooled the results for all subjects when describing the results. The first part of <ref type="table" coords="6,87.22,540.17,30.36,9.09" target="#tab_0">Table 1</ref> reports estimates from a regression of total donation amount on treatment assignment. The intercept represents the average donation size in the control group. Each of the independent variables is an indicator variable, scored 1 if a subject received a postcard of a given type (with or without matching information) and 0 otherwise. The only postcard that generated a positive and  <ref type="table" coords="7,59.35,292.78,30.36,9.09" target="#tab_1">Table 2</ref> shows the results from regressions of total donation amount and donating on receiving any postcard with information about the matching program. These regressions include only subjects who received a postcard, so the effective control group is those subjects who received a message that did not mention the matching program. The estimated effect of matching fund information on total donation amount was slightly negative, though not statistically significant. The coefficient for the effect of the information treatment on the probability of donating is essentially zero (0.0006) with a small standard error (0.001). Matching systems may encourage campaigns to pursue small donors whose contributions can be augmented, but our finding suggests that offering information about matching systems does not encourage individuals themselves to donate or to donate more.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSION</head><p>Our study provides new evidence about responsiveness to nonpartisan fundraising appeals. First, we find that a nonpartisan appeal can increase donations. Despite the variety of theories about why donors may give, only the Policy treatment increased average donations. Second, we had less success growing the number of donors than increasing the size of the average donation, perhaps explaining why political campaigns typically focus their fundraising efforts narrowly on individuals who have previously given to other candidates or organizations. Third, providing information about matching public funds did not spur additional donations. Our findings suggest that if matching programs are effective, they probably work because of how they alter campaigns' incentives rather than individual motivations.</p><p>We are interested in why our experiment failed to expand the donor pool. Part of the problem, we suspect, lies in the limited nature of our treatments. First, our messages were strictly nonpartisan. Given that the average citizen is only hazily aware of the candidates or issues in an approaching contest, the nonspecific language of our nonpartisan appeals may limit the effectiveness of our treatments. Second, our intervention consisted of a single postcard. Donors are regularly bombarded with an array of solicitations from a single campaign, and this repetition suggests that fundraisers believe that individuals must be asked many times to give.</p><p>Nonetheless, the fact that we observe changes in behavior despite these constraints is heartening. The findings suggest several paths for future research on nonpartisan and partisan campaign fundraising. One is to work directly with a campaign or other organizations to develop a broader list of potential donors and target them with more naturalistic, partisan appeals. Second, the next round of nonpartisan experiments should feature repeated communications with potential donors. The bottom line, we believe, is that our project shows that there is much to be learned using field experiments about how campaigns raise the money they need to function.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPLEMENTARY MATERIALS</head><p>For supplementary material for this article, please visit Cambridge Journals Online. http://dx.doi.org/10.1017/XPS.2015.1.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="4,192.96,456.46,30.90,8.01;4,171.38,467.32,74.05,8.18"><head>Figure 1</head><label>1</label><figDesc>Treatment Mailings</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="6,34.06,57.44,347.18,146.25"><head>Table 1</head><label>1</label><figDesc>NYC Pooled Sample -Weighted Least Squares Regressions of Donating and Total Donation Amount on Message Treatment Assignment with Randomization Inference p-values</figDesc><table coords="6,34.06,96.78,347.18,106.91">Treatments 
+
+DV: total 
+donation 
+amount 
+
+Std. 
+error 
+
+p-value 
+(2-tailed) 
+
+DV: 
+donating 
+
+Std. 
+error 
+
+p-value 
+(2-tailed) 
+
+(Intercept) 
+1.01 
+0.051 
+0.0026 
+0.000052 
+Voice 
+− 0.87 
+0.066 
+0.1585 
+− 0.00056 
+0.0011 
+0.7281 
+Special Interest 
+− 0.89 
+0.060 
+0.1381 
+− 0.0016 
+0.00027 
+0.2166 
+Civic Duty 
+− 0.32 
+0.37 
+0.7941 
+− 0.00012 
+0.0011 
+0.9488 
+Policy 
+3.67  *  
+3.79 
+0.0309 
+0.00082 
+0.0018 
+0.5869 
+
+Note: Heteroskedasticity-robust standard errors are reported. Data are weighted by inverse probability of assignment. 
+ *  p &lt; 0.05 using a two-tailed test based on randomization inference with 10,000 simulations; N = 996,355. 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="7,48.38,57.44,347.72,224.50"><head>Table 2</head><label>2</label><figDesc>NYC Pooled Sample -Weighted Least Squares Regressions of Donating and Total Donation Amount on NYC Matching Program Information Treatment Assignment with RandomizationInference p-values</figDesc><table coords="7,48.38,107.74,347.72,174.20">Treatments 
+
+DV: total 
+donation 
+amount 
+
+Std. 
+error 
+
+p-value 
+(2-tailed) 
+
+DV: 
+donating 
+
+Std. 
+error 
+
+p-value 
+(2-tailed) 
+
+(Intercept) 
+2.01 
+0.72 
+0.0048 
+0.00069 
+Matching Info 
+-1.01 
+0.76 
+0.2017 
+0.00060 
+0.0010 
+0.5572 
+
+Note: Heteroskedasticity-robust standard errors are reported. Data are weighted by inverse probability of assignment. 
+ *  p &lt; 0.05 using a two-tailed test based on randomization inference with 10,000 simulations; N = 20,000. 
+
+statistically significant estimate is the Policy message. The estimate of 3.67 implies 
+that receiving this postcard increases average donations by $3.67 over the control 
+group. Table 1 also shows the results from a regression of donating on treatment 
+assignment. Although some of the regression estimates suggest a slightly negative 
+effect on donating, none of the randomization inference-based p-values approaches 
+significance. 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">We also conducted similar experiments in Virginia and New Jersey, where we used post-election surveys to measure the extent of donating. We did not use administrative data in Virginia and New Jersey because each state has a relatively high threshold for requiring campaigns to report individual donations ($100 in VA, $300 in NJ). Low response rates to our post-election survey prevent us from drawing useful inferences from these states.Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1017/XPS.2015.1 Downloaded from https://www.cambridge.org/core. University of Melbourne Library, on 24 Apr 2019 at 20:13:28, subject to the Cambridge</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">The wording of the mailings described inFigure 1was approved by the institutional review boards at Fordham, Columbia, and Binghamton.Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1017/XPS.2015.1 Downloaded from https://www.cambridge.org/core. University of Melbourne Library, on 24 Apr 2019 at 20:13:28, subject to the Cambridge</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Core terms of use, available at https://www.cambridge.org/core/terms. https://doi.org/10.1017/XPS.2015.1 Downloaded from https://www.cambridge.org/core. University of Melbourne Library, on 24 Apr 2019 at 20:13:28, subject to the Cambridge</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="8,35.06,402.39,346.71,8.18;8,47.02,413.35,160.85,8.18;8,35.06,424.31,166.13,8.18" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Unequal Democracy: The Political Economy of the New Gilded Age</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Larry</forename><forename type="middle">M</forename><surname>Bartels</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Citizens United v. FEC. 558 U.S</title>
+		<imprint>
+			<biblScope unit="page">310</biblScope>
+			<date type="published" when="2010" />
+			<publisher>Princeton University Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,35.06,435.27,346.70,8.18;8,47.02,446.22,334.75,8.18;8,47.02,457.19,33.81,8.18" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Rebate versus Matching: Does How We Subsidize Charitable Contributions Matter?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine</forename><forename type="middle">C</forename><surname>Eckel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Phillip</forename><forename type="middle">J</forename><surname>Grossman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Economics</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="681" to="701" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,35.05,468.15,212.57,8.18" xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Wisconsin Right to Life</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Fec V</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="page">449</biblScope>
+			<pubPlace>Inc. 551 U.S</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,35.05,479.10,346.71,8.18;8,47.02,490.06,202.66,8.18" xml:id="b3">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alan</forename><forename type="middle">S</forename><surname>Gerber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><forename type="middle">P</forename><surname>Green</surname></persName>
+		</author>
+		<title level="m">Field Experiments: Design, Analysis, and Interpretation</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>W. W. Norton &amp; Company</publisher>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,35.06,501.03,346.70,8.18;8,47.02,511.98,197.09,8.18" xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Affluence and Influence: Economic Inequality and Political Power in America</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Gilens</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Princeton, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,35.06,522.94,346.70,8.18;8,47.02,533.90,288.27,8.18" xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Does Price Matter in Charitable Giving? Evidence from a Large-Scale Natural Field Experiment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dean</forename><surname>Karlan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">A</forename><surname>List</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note>NBER working paper 12338</note>
+</biblStruct>
+
+<biblStruct coords="8,35.06,544.86,346.74,8.18;8,47.02,555.82,329.47,8.18" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Filled Coffers: Campaign Contributions and Contributors in the 2008 Elections</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Keena</forename><surname>Lipsitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Costas</forename><surname>Panagopoulos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Political Marketing</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="43" to="57" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="8,35.06,566.77,346.70,8.18;8,47.02,577.74,96.50,8.18" xml:id="b7">
+	<monogr>
+		<title level="m" type="main">What Motivates Donors to Contribute? Unpublished manuscript</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Magleby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jay</forename><surname>Goodliffe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joe</forename><surname>Olsen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,49.38,57.68,346.71,8.18;9,61.34,68.64,334.75,8.18;9,61.34,79.60,33.81,8.18" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Do Subsidies Increase Charitable Giving in the Long Run? Matching Donations in a Field Experiment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Meier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the European Economic Association</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1203" to="1225" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,49.38,90.56,346.71,8.18;9,61.34,101.52,94.15,8.18" xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Public Financing in American Elections</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Costas</forename><surname>Panagopoulos</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<publisher>Temple University Press</publisher>
+			<pubPlace>Philadelphia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,49.38,112.48,346.73,8.18;9,61.34,123.44,300.99,8.18" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Contributions and Contributors in the 2004 Presidential Election Cycle</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Costas</forename><surname>Panagopoulos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Bergan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Presidential Studies Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="155" to="72" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,49.38,134.39,346.75,8.18;9,61.34,145.36,334.75,8.18;9,61.34,156.32,53.42,8.18" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Matching and Challenge Gifts to Charity: Evidence from Laboratory and Natural Field Experiments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Rondeau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">A</forename><surname>List</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Economics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="253" to="67" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,49.38,167.27,346.71,8.18;9,61.34,178.23,63.99,8.18" xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Inside Campaign Finance: Myths and Realities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frank</forename><forename type="middle">J</forename><surname>Sorauf</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>Yale University Press</publisher>
+			<pubPlace>New Haven, CT</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

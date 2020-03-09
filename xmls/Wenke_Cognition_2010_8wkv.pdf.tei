@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Subliminal priming of actions influences sense of control over effects of action</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dorit</forename><surname>Wenke</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Max Planck Institute for Human Cognitive and Brain Sciences</orgName>
+								<address>
+									<settlement>Leipzig</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><forename type="middle">M</forename><surname>Fleming</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Wellcome Trust Centre for Neuroimaging</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patrick</forename><surname>Haggard</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Cognitive Neuroscience</orgName>
+								<orgName type="institution">University College London</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Subliminal priming of actions influences sense of control over effects of action</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.cognition.2009.10.016</idno>
+					<note type="submission">Article history: Received 21 February 2009 Revised 30 October 2009 Accepted 31 October 2009</note>
+					<note>a r t i c l e i n f o</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:20+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Subliminal priming Metacontrast masking Response conflict Sense of control Fluency Free choice</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>a b s t r a c t</head><p>The experience of controlling one's own actions, and through them events in the outside world, is a pervasive feature of human mental life. Two experiments investigated the relation between this sense of control and the internal processes involved in action selection and cognitive control. Action selection was manipulated by subliminally priming left or right keypress actions in response to a supraliminal visual target. The action caused the display of one of several colours as an action effect. The specific colour shown depended on whether the participant's action was compatible or incompatible with the preceding subliminal prime, and not on the prime identity alone. Unlike previous studies, therefore, the primes did not predict the to-be-expected action effects. Participants rated how much control they experienced over the different colours. Replicating previous results, compatible primes facilitated responding, whereas incompatible primes interfered with response selection. Crucially, priming also modulated the sense of control over action effects: participants experienced more control over colours produced by actions that were compatible with the preceding prime than over colours associated with prime-incompatible actions. Experiment 2 showed that this effect was not solely due to priming modulating action-effect contingencies. These results suggest that sense of control is linked to processes of selection between alternative actions, being strongest when selection is smooth and uncontested.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The sense of control (or ''sense of agency", cf. <ref type="bibr" coords="1,222.97,509.14,39.38,7.53;1,41.16,519.63,51.10,7.53" target="#b26">Haggard &amp; Tsakiris, 2009</ref>) is a central aspect of our experience of action. We usually feel that our intentions cause our actions, and that we thus control our actions and the effects they produce. Previous research shows that the sense of control strongly depends on the predictability of the effects of actions (e.g., <ref type="bibr" coords="1,86.74,571.91,128.90,7.53" target="#b0">Aarts, Custers, &amp; Wegner, 2005;</ref><ref type="bibr" coords="1,220.31,571.91,41.99,7.53;1,41.16,582.40,90.24,7.53" target="#b5">Blakemore, Wolpert, &amp; Frith, 1998;</ref><ref type="bibr" coords="1,134.64,582.40,72.09,7.53" target="#b20">Farrer et al., 2008;</ref><ref type="bibr" coords="1,209.98,582.40,48.01,7.53;1,41.16,592.83,44.94,7.53" target="#b30">Linser &amp; Goschke, 2007;</ref><ref type="bibr" coords="1,89.69,592.83,96.41,7.53" target="#b32">Moore &amp; Haggard, 2008;</ref><ref type="bibr" coords="1,189.69,592.83,43.52,7.53" target="#b39">Sato, 2009;</ref><ref type="bibr" coords="1,236.80,592.83,25.49,7.53;1,286.24,488.23,52.81,7.53" target="#b40">Sato &amp; Yasuda, 2005;</ref><ref type="bibr" coords="1,341.29,488.23,143.41,7.53" target="#b47">Wegner, Sparrow, &amp; Winerman, 2004;</ref><ref type="bibr" coords="1,486.87,488.23,15.40,7.53;1,286.24,498.72,83.71,7.53" target="#b48">Wegner &amp; Wheatley, 1999)</ref>. Thus, the sense of control is stronger when a consistent ''prior thought" <ref type="bibr" coords="1,446.21,509.15,61.17,7.53" target="#b47">(Wegner, 2002)</ref> precedes the action or its effect. Some studies indicate that people infer agency by retrospectively integrating quite general information about their own actions and other environmental events <ref type="bibr" coords="1,373.15,550.99,134.25,7.53;1,286.24,561.48,21.81,7.53" target="#b33">(Moore, Lagnado, Deal, &amp; Haggard, 2009;</ref><ref type="bibr" coords="1,310.73,561.48,54.15,7.53" target="#b47">Wegner, 2002)</ref>. For example, showing the effects of an action as a prime before the action itself is performed robustly strengthens feelings of control, even when primes and effects are unrelated to the action itself and when the prime is subliminal <ref type="bibr" coords="1,364.26,603.33,71.79,7.53" target="#b0">(Aarts et al., 2005;</ref><ref type="bibr" coords="1,439.19,603.33,68.26,7.53;1,286.24,613.76,21.81,7.53" target="#b30">Linser &amp; Goschke, 2007;</ref><ref type="bibr" coords="1,313.74,613.76,43.66,7.53" target="#b39">Sato, 2009)</ref>. Such effect-priming may work by increasing the predictive representation of the effect. Other evidence shows that agency also depends on internal efferent processing within the motor system <ref type="bibr" coords="1,436.87,645.17,70.59,7.53;1,286.24,655.60,21.81,7.53" target="#b32">(Moore &amp; Haggard, 2008;</ref><ref type="bibr" coords="1,309.94,655.60,35.89,7.53" target="#b39">Sato, 2009</ref>). These studies suggest that predictions of 0010-0277/$ -see front matter Ó 2009 Elsevier B.V. All rights reserved. doi:10.1016/j.cognition.2009.10.016 action consequences made by the motor system while preparing an action <ref type="bibr" coords="2,102.10,65.18,89.44,7.53" target="#b4">(Bays &amp; Wolpert, 2007;</ref><ref type="bibr" coords="2,194.34,65.18,63.68,7.53;2,36.85,75.61,22.03,7.53" target="#b50">Wolpert &amp; Miall, 1996)</ref> prospectively inform agency judgements. In summary, predictability of action effects strongly influences sense of control.</p><p>In contrast, much less is known about whether, and how, internal processes involved in the selection of actions might contribute to the subjective sense of control, over and above any anticipation of the effects of the selected action (but see <ref type="bibr" coords="2,89.17,148.87,94.43,7.53" target="#b43">Sebanz &amp; Lackner, 2007;</ref><ref type="bibr" coords="2,186.67,148.87,71.35,7.53;2,36.84,159.30,52.78,7.53" target="#b49">Wenke, Waszak, &amp; Haggard, 2009</ref>). This neglect seems surprising given that action selection is a key component of action control <ref type="bibr" coords="2,235.14,169.79,22.91,7.53;2,36.84,180.28,69.94,7.53" target="#b10">(Brass &amp; Haggard, 2008;</ref><ref type="bibr" coords="2,111.22,180.28,51.68,7.53" target="#b12">Bunge, 2004)</ref> and executive function (e.g., <ref type="bibr" coords="2,59.92,190.71,198.10,7.53" target="#b8">Botvinick, Braver, Carter, Barch, &amp; Cohen, 2001;</ref><ref type="bibr" coords="2,36.84,201.20,51.12,7.53" target="#b11">Brown, 2009;</ref><ref type="bibr" coords="2,90.59,201.20,133.29,7.53" target="#b15">Coulthard, Nachev, &amp; Husain, 2008)</ref>.</p><p>Here we directly investigated the impact of action selection on sense of control over external events, in a design that minimised effect anticipation. We manipulated the ''ease" of action selection in a visual reaction-time task by showing subliminal response primes that facilitated one of two alternative actions. Prime stimuli consisted of leftor right-pointing arrows. These were followed by metacontrast masks (cf. <ref type="bibr" coords="2,95.12,284.89,158.82,7.53;2,36.84,295.32,58.25,7.53" target="#b46">Vorberg, Mattler, Heinecke, Schmidt, &amp; Schwarzbach, 2003</ref>) after a short delay (see <ref type="figure" coords="2,190.70,295.32,18.65,7.53">Fig. 1</ref>). The masks were also arrows, and served as targets for left and right keypress responses. Previous studies show that primes activate the associated response. Therefore, if they are followed by a compatible target, responses to the target are facilitated. In contrast, when the prime specifies one response and the target then requires selecting the other, responding is delayed. In the latter case, response competition between the incorrect response activated by the prime and the correct response signalled by the target has to be resolved before the correct response can be executed (e.g., <ref type="bibr" coords="2,325.35,65.21,110.14,7.53" target="#b17">Eimer &amp; Schlaghecken, 1998;</ref><ref type="bibr" coords="2,437.88,65.21,65.22,7.53;2,281.93,75.64,21.99,7.53" target="#b29">Leuthold &amp; Kopp, 1998;</ref><ref type="bibr" coords="2,306.53,75.64,93.93,7.53" target="#b37">Neumann &amp; Klotz, 1994;</ref><ref type="bibr" coords="2,403.08,75.64,75.82,7.53" target="#b46">Vorberg et al., 2003)</ref>.</p><p>In our experiments, left and right keypress actions caused the display of one of several colours as an action effect. Crucially, the specific colour shown did not depend on the primes or the actions themselves. Consequently, the identity of the effect could not be predicted on the basis of the prime, the target, or the action alone. Instead, the effect colours were linked to the prime's compatibility with the action that the participant subsequently made in response to the target (see <ref type="figure" coords="2,378.93,169.82,20.47,7.53">Fig. 1</ref> and <ref type="table" coords="2,418.84,169.82,26.25,7.53" target="#tab_0">Table 1</ref>). For example, if a subliminal prime suggesting a left keypress were indeed followed by the participant producing a left keypress action (i.e., priming was action-compatible), then the effect produced by the action might be red. Conversely, if a right prime was followed by a left action (i.e., priming was action-incompatible), then the effect might be yellow (see <ref type="figure" coords="2,281.94,243.07,18.77,7.53">Fig. 1</ref>). We reasoned that action-compatible primes would facilitate processes of action selection, relative to actionincompatible primes. Therefore, by comparing the sense of control over action effects for these two cases, we investigated the role of action selection in perceived control, while keeping the predictability of the action effects constant across priming conditions.</p><p>If sense of control depends only on a match between predicted and actual effects (e.g., <ref type="bibr" coords="2,391.01,326.76,76.51,7.53" target="#b40">Sato &amp; Yasuda, 2005)</ref> then perceived control should not systematically differ across colours. On the other hand, if perceived control over effects is also influenced by prime-induced differences in the ease of action selection, this would strongly suggest that the cognitive-motor processes that generate and select between action alternatives also contribute to the sense of control. <ref type="figure" coords="2,36.85,649.27,15.40,6.03">Fig. 1</ref>. Schematic of trial procedure and stimuli. Three example trials from the possible combinations of the factors choice type (cued: left and middle panel; free: right panel) and prime-action compatibility (compatible: left panel; incompatible: middle and right panel) in Experiment 1. In each example, the participant responds with the left hand. Participants were instructed to respond to the mask stimuli, and were not informed of the presence of the arrow primes. Primes and masks could appear randomly above or below fixation on each trial. The appearance of the effect was randomly jittered 150, 300 or 450 ms after the keypress to avoid ceiling effects in perceived control. Experiment 2 only contained cued-choice trials.</p><p>Because our effect colours reflected prime-action compatibility, we could test two alternative hypotheses about the relation between action selection and sense of control. First, participants may feel more in control when action selection is smooth and easy <ref type="bibr" coords="3,116.78,368.55,61.38,7.53" target="#b38">(Pacherie, 2008;</ref><ref type="bibr" coords="3,180.74,368.55,81.55,7.53;3,41.16,379.04,49.55,7.53" target="#b45">Synofzik, Vosgerau, &amp; Newen, 2008)</ref>. This view predicts stronger perceived control for compatibly primed actions. Alternatively, they could feel more control when they overcome the ''urge" to perform the primed action. In this case they should perceive more control for incompatibly primed actions. On this view, the sense of control would reflect successful ''acts of will" under conditions of conflict <ref type="bibr" coords="3,110.89,441.80,38.69,7.53" target="#b1">(Ach, 1905</ref><ref type="bibr" coords="3,156.58,441.80,17.52,7.53" target="#b2">(Ach, , 1910</ref><ref type="bibr" coords="3,181.24,441.80,81.08,7.53;3,41.16,452.23,94.11,7.53" target="#b36">Nachev, Rees, Parton, Kennard, &amp; Husain, 2005)</ref>. Either result would shed important light on how action-selection processes relate to the experience of control.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experiment 1</head><p>The design of Experiment 1 included both free-and cued-choice actions. On cued-choice trials, participants pressed the left and right keys in response to left-and right-pointing arrow masks. On free-choice trials they saw a double-pointing arrow mask, and were instructed to choose as they wished between action alternatives (see <ref type="figure" coords="3,59.24,577.76,19.25,7.53">Fig. 1</ref>, right panel, and <ref type="table" coords="3,148.25,577.76,26.42,7.53" target="#tab_0">Table 1</ref>). Recent studies show that subliminal primes not only influence cued-choice responses to targets, but also bias action selection when participants freely choose between different action alternatives <ref type="bibr" coords="3,89.46,619.61,76.91,7.53" target="#b27">(Kiesel et al., 2006;</ref><ref type="bibr" coords="3,170.24,619.61,92.09,7.53" target="#b28">Klapp &amp; Hinkley, 2002;</ref><ref type="bibr" coords="3,41.16,630.10,107.27,7.53" target="#b41">Schlaghecken &amp; Eimer, 2004)</ref>. Participants typically choose the prime-compatible response about 10% more often than the prime-incompatible response. In addition, reaction times and the onset of lateralized readiness potentials are delayed when participants choose the prime-incompatible action alternative (e.g., <ref type="bibr" coords="3,159.42,682.43,68.04,7.53" target="#b27">Kiesel et al., 2006)</ref>.</p><p>Including both free-and cued-choice actions in our design allowed us to investigate whether action priming would similarly influence sense of control for both types of action, and whether the two choice types would generally differ as regards sense of control. We predicted stronger sense of control over freely chosen as opposed to cued actions, because of the strong link between internal generation of action and the sense of control <ref type="bibr" coords="3,438.44,399.99,68.99,7.53;3,286.24,410.42,61.97,7.53" target="#b25">(Haggard, Clark, &amp; Kalogeras, 2002)</ref>. Free-and cued-choice trials were randomly intermixed within blocks, but one trial type was more frequent in a given block. We decided against pure blocking of the free-choice and cued-choice conditions, since action priming was reported to be minimal in pure blocks of free choice <ref type="bibr" coords="3,370.03,462.75,114.24,7.53" target="#b41">(Schlaghecken &amp; Eimer, 2004)</ref>. This may be because participants pre-select actions before trial (and prime) onset when they know that the identity of the target (mask) is always irrelevant.</p><p>Action effects consisted of colour patches that followed participants' actions. There were six different colours (three for each hand) in Exp. 1. Colours were mapped to responses such that each colour reflected a particular compatibility relationship between the subliminal prime and the response. These mappings remained constant for both free and cued trials (see <ref type="table" coords="3,325.59,567.36,26.08,7.53" target="#tab_0">Table 1</ref>). Compatible effect colours were consistently shown when a prime was followed by the compatible, suggested action (e.g., a left arrow prime followed by a left keypress action would produce a red effect, <ref type="table" coords="3,447.36,598.72,25.11,7.53" target="#tab_0">Table 1</ref>). Incompatible effect-colours consistently followed prime-incompatible responses (e.g., left arrow prime followed by right keypress). Additional neutral effect colours followed prime-compatible and -incompatible actions randomly and equiprobably. Importantly, the identity of the effect could not be predicted on the basis of the prime, the target, or the action alone. After each block, participants indicated how much control they had over each colour. 2.1. Methods</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.1.">Participants</head><p>Twenty-one paid subjects (mean age 21.4 years, SD = 3.4; 14 female) with normal or corrected-to-normal vision participated in the experiment with local ethics committee approval.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.2.">Apparatus and materials</head><p>Participants sat in a quiet room in front of a 19 0 CRT monitor running at a refresh rate of 75 Hz. The experiment was programmed using Cogent 2000 (www.vislab.ucl.ac.uk/cogent.php). Primes consisted of grey left or rightpointing arrows that were followed and superimposed by metacontrast masks of the same luminance (see <ref type="figure" coords="4,231.47,201.19,20.07,7.53">Fig. 1</ref>). The metacontrast masks also consisted of arrows that either pointed to the left or the right (in cued-choice trials), or in both directions simultaneously (in free-choice trials). Participants responded to the masks with keypress actions. Prime and mask stimuli could appear randomly above or below fixation to enhance the masking effect <ref type="bibr" coords="4,224.83,263.96,33.22,7.53;4,36.85,274.39,45.02,7.53" target="#b46">(Vorberg et al., 2003)</ref>. Effects were circular colour patches of red, green, blue, orange, purple or yellow. All stimuli subtended approximately 3.8°of visual angle at a viewing distance of 60 cm, and appeared on a black background.</p><p>Participants made left or right keypress actions on each trial using the index fingers of their left and right hands. Response keys for left and right responses were the ''d" and the ''l" keys of a standard keyboard.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.3.">Design and procedure</head><p>The experiment involved two successive tests: the action-effect experiment that aimed to manipulate sense of control, followed by a prime visibility test that assessed participants' awareness of the primes.</p><p>2.1.3.1. Action-effect experiment. During the action-effect experiment, the participants' task was to find out, by pressing the left or right keys, how much control they had over colour-effect stimuli that followed their keypress actions. The test consisted of six blocks of 72 trials each. Each block contained both free-and cued-choice trials. The metacontrast masks that served as targets on cued-choice trials consisted of arrows that unambiguously pointed to the left or to the right. Participants were required to press the key that corresponded to the direction of the mask, using the index finger of their left or right hand. Ambiguous masks that pointed in both directions signalled free-choice trials. On these trials, participants were asked to choose themselves whether to press the left or the right key. They were encouraged to perform each action roughly equally often and to refrain from adopting a fixed response schedule (e.g., alternating between responses). Examples of each mask stimulus were presented during experimental instruction so that participants would become acquainted with the target stimuli. No reference was made to the existence or appearance of the primes.</p><p>Half of the blocks contained 75% free-choice trials, and 25% cued-choice trials (75/25 free/cued ratio). On the remaining blocks this ratio was reversed (25/75 free/cued ratio). The order of blocks was random. Half of the cued-choice trials in each block were prime-response compatible and half were prime-response incompatible. On prime-response compatible trials the direction of the prime corresponded to the direction of the mask, and hence signalled the same response. On incompatible trials, primes and masks pointed in different directions. On free-choice trials, prime-response compatibility was defined online after the subject had responded, because the mask did not unambiguously signal a ''correct" response. Responses were classified as prime-compatible when participants ''freely" chose the response suggested by the prime, and otherwise as incompatible.</p><p>Action effects consisted of coloured circles that appeared on the screen 150, 300 or 450 ms after the response. This jitter was introduced in order to avoid potential ceiling effects in perceived control resulting from high temporal predictability <ref type="bibr" coords="4,308.29,222.17,79.67,7.53" target="#b25">(Haggard et al., 2002)</ref>. The distribution of jitter was the same for all conditions, and thus orthogonal to the manipulation of prime-response compatibility.</p><p>There were six different colours, three for each hand. Colours were mapped to responses such that they reflected the compatibility relationship between the prime and the response. We distinguished between three different effect compatibility conditions (see <ref type="table" coords="4,394.36,295.37,26.99,7.53" target="#tab_0">Table 1</ref>). In each block, two colours (one for each hand) were assigned to prime-compatible responses, another two colours to prime-incompatible responses, and the remaining two colours were reserved for the neutral effect condition. Compatible effect-colours consistently followed prime-compatible responses (e.g., the colour red followed left keypress actions that were preceded by left-pointing arrow primes). Incompatible effect-colours were consistently mapped to responses that did not correspond to the direction of the prime (e.g., the colour purple appeared after right key presses following left primes). Finally, there were two neutral effect-colours in each block. The neutral effect-colours followed prime-compatible and prime-incompatible responses equally often, and hence did not signal prime-response compatibility.</p><p>Colours were rotated through compatibility conditions via a Latin square such that, across all six blocks, each colour appeared in each compatibility condition for each hand. Participants were informed before each block that the colour assignment had changed, and that they would have to find out anew how much they could control each colour.</p><p>Primes were presented for 13.3 ms, followed by the mask after an SOA of 26.6 ms. Mask (target) duration was 250 ms. The response window was set to 1500 ms. If participants failed to respond within this time window, they saw a grey X instead of a coloured circle. They also saw a grey X instead of a coloured circle when they pressed the wrong key on cued-choice trials. Effects remained on the screen for 300 ms. The inter-trial interval (from effect offset to presentation of the next prime) was set to 1500 ms.</p><p>The main dependent variables were those reflecting participants' sense of control. Sense of control was measured via a combined ranking and rating procedure that assessed perceived control separately for each colour. First, participants sorted tokens (coloured circles mounted on black carton board) representing the six different colours into a rank order on a vertical '' scale" ranging from ''most control" to ''least control". Participants were asked to decide on a specific control rank for each colour even if they were unsure. Second, for each (ranked) colour token, participants rated how much control they had on a scale ranging from 0 to 100, starting with the colour occupying the highest rank (indicating most control). The values 0, 50, and 100 were labelled ''no control", ''intermediate control", and ''complete control", respectively. This two-step procedure (ranking, then rating) was adopted in order to reduce the working memory demands associated with rating six different colours on each block.</p><p>After participants had judged how much control they had over each colour, they were then asked to indicate how confident they were regarding their control judgements as a whole. To this end they picked one number (reflecting their overall confidence in their control judgements) on another scale ranging from 0 (not sure at all) to 100 (entirely sure). They were also asked to label each colour token with the hand they believed produced it in the previous block in order to test knowledge of hand-effect contingencies. Participants did not receive feedback regarding their performance at this sorting task.</p><p>Finally, after the last block only, participants additionally sorted the colour tokens according to perceived frequency (most frequent-least frequent) in the previous (final) block. This measure was designed to test for awareness of potential frequency differences induced by the bias to select the compatible action more often on free-choice trials. Only then were participants encouraged to provide a verbal report on how they had determined the extent of control during the experiment.</p><p>Reaction times and error rates (on cued-choice trials) as well as bias (% prime-compatible responses on free-choice trials) served as measures of action bias. Reaction times were measured from target (mask) onset.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.3.2.">Prime visibility test.</head><p>Following the action-effect experiment, each participant additionally performed a direct assessment of prime visibility. Defining criteria for non-conscious perception is fraught with debate <ref type="bibr" coords="5,230.90,462.75,31.44,7.53;5,41.16,473.18,19.84,7.53" target="#b19">(Erdelyi, 2004)</ref>. Criteria can be either subjective (based on self-report) or objective (based on cued-choice performance). As our aim in this investigation was to ensure the unconscious nature of our prime stimuli, we selected the more conservative, objective criterion of awareness. Furthermore, to ensure that the prime visibility test was a valid measure of prime perception during the action-effect experiment, we matched the task designs in as many ways as possible <ref type="bibr" coords="5,41.16,556.87,98.59,7.53" target="#b42">(Schmidt &amp; Vorberg, 2006)</ref>. Participants were explicitly informed of the presence of the prime, and asked to identify its direction on each trial (left or right) using a left or right keypress. Other elements of the trial sequence remained identical to the action-effect experiment <ref type="figure" coords="5,204.42,598.71,26.15,7.53">(Fig. 1)</ref>, except that the effect itself was not presented. However, these stimuli were irrelevant to the prime detection task. To ensure that conscious judgement of the prime direction was not contaminated by the unconscious activation of the compatible response, participants were only permitted to report 600 ms after the mask had appeared <ref type="bibr" coords="5,229.14,661.48,33.22,7.53;5,41.16,671.97,44.85,7.53" target="#b46">(Vorberg et al., 2003)</ref>. The start of the reporting interval was signalled by a 600 Hz tone played for 150 ms.</p><p>The prime visibility test consisted of four blocks of 72 trials each. The free-cued choice mask ratios were maintained during this test despite the status of the mask being irrelevant for the prime detection task. Thus half of the blocks contained a majority of free-choice masks, and half had a majority of cued-choice masks. Responses to the primes were categorised using the framework of signal detection theory <ref type="bibr" coords="5,312.26,128.00,81.44,7.53" target="#b22">(Green &amp; Swets, 1966)</ref> allowing us to compute a measure of prime discriminability (d 0 ) for each subject.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Results and discussion</head><p>Five subjects were excluded from the analyses either because they reported seeing the primes during or after the indirect test, or because their d 0 in the prime visibility test was sufficiently high to suggest conscious perception (greater than one standard deviation above the mean). This left 16 (mean age 21.6 years, SD = 3.6; 11 female) remaining subjects' data for analysis. All the remaining subjects were unaware of the direction of the prime stimuli, with mean d 0 not significantly different from zero (mean d 0 = À0.016 ± 0.10; one-sample t-test, t(15) = 0.64, p = 0.53). To ensure that subtle differences in response criteria to different mask types did not obscure above-zero discriminability (cf. <ref type="bibr" coords="5,352.75,305.79,77.14,7.53" target="#b46">Vorberg et al., 2003)</ref>, we also computed d 0 separately for each mask and averaged these values. In our remaining sample of 16 subjects this more conservative measure performed similarly, with d 0 again non-significantly different from zero (mean d 0 = 0.015 ± 0.12; onesample t-test, t(15) = 0.49, p = 0.63).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1.">Action priming</head><p>Participants failed to respond during the 1500 ms response window on 0.5% of the trials (0.6% of the freechoice trials and 0.4% of the cued-choice trials). These trials were excluded from the analyses, along with trials in which participants' reaction times were more than three standard deviations away from their individual mean correct RT by condition (0.7% and 0.9% for free-and cuedchoice trials, respectively).</p><p>For the remaining data, mean reaction times (RT) for correct trials were determined as a function of ratio of free vs. cued trials within a block, choice type (free, cued) of an action on a given trial, and prime-response compatibility. The group means are shown in <ref type="table" coords="5,404.95,515.00,25.98,7.53" target="#tab_1">Table 2</ref>. <ref type="table" coords="5,436.57,515.00,27.39,7.53" target="#tab_1">Table 2</ref> also shows the percentage of response errors on cued-choice trials, and the prime-induced selection bias on free-choice trials. Selection bias is defined as the percentage of trials in which participants' chose the prime-compatible as opposed to the prime-incompatible response.</p><p>2.2.1.1. Cued-choice responses. Cued-choice reaction times were submitted to a 2 Â 2 within-subject ANOVA with free/cued ratio (75/25, 25/75) and compatibility (prime-response compatible vs. incompatible) as factors. This analysis yielded a significant main effect of compatibility, F(1, 15) = 15.12, p &lt; .01, MSE = 452.57, indicating that responses to arrow masks were faster following compatible compared to incompatible primes, as predicted. Although responses were slightly slower in blocks that primarily consisted of cued-choice trials (i.e., when the free/cued ratio was 25/75), the main effect of ratio did not reach significance, F(1, 15) = 4.26, p &gt; .05, MSE = 3952.1. Finally, the interaction between ratio and compatibility was not significant, F(1, 15) = 1.33, p &gt; .26, suggesting that the influence of prime compatibility did not depend on the frequency of cued-choice trials within a block.</p><p>The corresponding ANOVA of error rates revealed a significant main effect of free/cued ratio, F(1, 15) = 5.1, p &lt; .05, MSE = 19.73, indicating that participants committed more cued-choice errors on blocks that contained predominantly free-choice cues. The tendency to make more errors in the prime-incompatible condition (3.05%) than in the primecompatible condition (2.35%) did not reach significance, F(1, 15) = 1.41, p &gt; .25, MSE = 6.88, and compatibility did not interact with free/cued ratio, F(1, 15) &lt; 1, MSE = 5.88.</p><p>2.2.1.2. Free-choice actions. The corresponding ANOVA of RTs for freely chosen actions showed that prime-compatible choices were faster than prime-incompatible choices, F(1, 15) = 7.99, p &lt; .05, MSE = 894.48, as expected. The main effect of free/cued ratio was also significant, F(1, 15) = 53.02, p &lt; .01, MSE = 4752.74, indicating that reaction times were slower when free-choice actions were rare (i.e., in the 25/75 condition). The interaction between ratio and compatibility was not significant, F(1, 15) &lt; 1, MSE = 880.8, again implying that the impact of prime compatibility was independent of free/cued ratio.</p><p>An additional omnibus 2 Â 2 Â 2 ANOVA with choice type (free, instructed), prime-response compatibility and free/cued ratio directly compared reaction times of cuedchoice and free-choice actions. The results show that prime-action compatibility had a similar effect for the two choice modes: The main effect of prime compatibility, F(1, 15) = 27.65, p &lt; .01, MSE = 506.18 was significant, whereas the two-way interactions between compatibility and choice type and compatibility and ratio, as well as the three-way interaction between compatibility, choice type, and ratio were not (all F 0 s &lt; 1).</p><p>Importantly, on free-choice trials masked primes not only influenced response speed, but also systematically biased which action participants chose (see <ref type="table" coords="6,199.22,640.50,25.51,7.53" target="#tab_1">Table 2</ref>). Participants selected the prime-compatible response significantly more often (54.9%) than would be expected by chance, t(15) = 4.88, p &lt; .01. This bias was comparable for the two ratios, t(15) = 1.37, p &gt; .19.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2.">Sense of control</head><p>For each participant, median control ranks and mean control ratings for each colour were computed as a function of free/cued ratio (75/25 vs. 25/75) and prime-response compatibility (compatible, neutral, incompatible). Control judgements were collapsed across blocks with the same ratio, and across colours that signalled the same prime-action compatibility relationship for the two hands. Numerically higher ranks and ratings indicate more perceived control. The results are summarized in <ref type="figure" coords="6,454.39,316.23,18.38,7.53" target="#fig_0">Fig. 2</ref>. Participants felt more control over colours that were associated with prime-compatible actions than over colours associated with prime-incompatible actions. Perceived control over ''neutral" colours that followed prime-compatible and prime-incompatible equally often lay in between colours that were consistently associated with compatible or incompatible trials. The results from the control ratings furthermore indicate that participants felt more in control when the proportion of free-choice trials was high (75/25 ratio) than low (25/75 ratio).</p><p>These initial observations were subjected to separate statistical tests on both the median control ranks and the mean control ratings. Median Control Ranks were submitted to two separate Friedman-tests analyzing the differences between (a) the three effect compatibility conditions (averaged across free/cued ratio), and (b) the two ratios (averaged across compatibility conditions). The first analysis showed that perceived control over effect colours depended on prime-action compatibility, v 2 (2) = 13.21, p &lt; .01, with more perceived control over colours following prime-compatible actions (4.33) than over neutral colours (3.83) and colours assigned to prime-incompatible actions (3.29). The second test showed that control ranks did not differ between the 25/75 ratio (Mean Md = 3.75) and the 75/25 ratio (3.89), v 2 (1) = .69, p &gt; .4.</p><p>Mean control ratings were submitted to a 2 Â 3 withinsubjects ANOVA with factors ratio and effect-compatibility. The main effect of free/cued ratio, F(1, 15) = 6.45, p &lt; .05, MSE = 77.38, was significant, indicating that participants felt more in control of the colours when they could often choose their actions themselves. This effect is likely not due to better knowledge of the assignment of colours to hands when actively exploring action-effect contingencies in blocks with many free-choice trials: The number of colours correctly assigned to hands in the post-block hand sorting task did not differ between blocks containing a high proportion of free-choice trials (mean number of correct assignments: 15.4 out of 18) and a low proportion of free-choice trials (15.8/18), as confirmed by a Wilcoxontest, z = À.55, p &gt; .58. That is, we found no indication for superior knowledge of colour-hand-assignments in blocks with many free-choice trials. Importantly, the main effect of compatibility was also significant in the analysis of control ratings, F(2, 30) = 5.95, p &lt; .01, MSE = 35.16, whereas the interaction between compatibility and ratio was not, F(2, 30) &lt; 1, MSE = 43.9, suggesting that sense of control on free-and cued-choice trials was similarly affected by prime-action compatibility. Separate two-tailed t-tests that tested the compatibility main effect further showed that perceived control for compatible colours (M = 57.72) was significantly higher than for incompatible colours (M = 52.61), t(15) = 5.03, p &lt; .001. Although the neutral colour condition (M = 55.29) lay in between the compatible and incompatible conditions, consistent with the predicted trend, it did not reliably differ from either (both p &gt; .12).</p><p>Taken together, these results confirm that subliminal action priming influences action selection. This was shown by faster responses in the prime-compatible than the prime-incompatible condition, and also by a prime-induced bias to select the compatible response on freechoice trials. In addition, action priming influenced how much control participants felt over action effects: participants judged to have more control over colours that followed prime-compatible actions than over colours that followed prime-incompatible actions. Importantly, primes did not predict the action effect. Therefore we infer that the compatibility effect in the judgements of subjective control reflects the impact of internal selection processes on sense of control. Action selection was required on each trial, whereas sense of control was assessed after a complete block of trials. Participants may have monitored sense of control on each trial, and accumulated -possibly imperfectly -their experience over the entire block to produce a metacognitive judgement of control (also see Metcalfe &amp; Greene, 2007). This would be in line with <ref type="bibr" coords="7,286.25,263.98,90.95,7.53">Synofzik et al.'s (2008)</ref> claim that the feeling of agency can inform retrospective judgements of agency.</p><p>However, participants in Exp. 1 in fact experienced some colours more frequently than others because our subliminal primes were successful in biasing action selection in two ways. First, prime-induced bias to choose the compatible action on free-choice trials led to compatible colours occurring more frequently than incompatible colours. Second, participants tended to make fewer errors on compatible cuedchoice trials than on incompatible cued-choice trials. Because errors did not produce a colour effect (but a grey X), this again favoured occurrence of compatible colours. As a consequence we cannot be sure whether the compatibility effect in perceived control reflects a direct influence of the ease of selection, or an indirect influence of biased action selection mediated by differential exposure to colour effects. Therefore we conducted additional analyses that aimed at clarifying the role of actual colour frequency.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.3.">Additional analyses</head><p>In additional analyses we tested (a) whether participants had explicit knowledge of overall colour frequency and based their control judgements on this knowledge, and (b) whether participants' control judgements relied on knowledge of differential action-effect contingencies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.3.1.">Explicit</head><p>knowledge of overall colour frequency. Regression analyses were carried out in order to test whether participants became aware of actual frequency differences among colours, and whether actual and perceived colour frequencies could predict sense of control.</p><p>The frequency ranks assigned to each colour during the final frequency sorting task (see Section 2.1.3.1) served as a measure for explicit memory of perceived frequency of the different effect types. Higher ranks signalled higher perceived frequency. Because the frequency sorting task only referred to the final experimental block, the regression analyses were restricted to this block. The mean bias to choose the prime-compatible action on the final block was 53.9%, implying that participants saw the prime-action compatible effect colours slightly more often than the neutral and the incompatible colours. Therefore it is conceivable that the compatibility effect in control ratings was due to observed differences in overall colour frequencies rather than to prime-induced selection bias per se. We tested this possibility in multiple regression analyses. For each participant, the control ratings for all six colours were regressed on actual frequency and subjectively ranked frequency of each colour in the final block.</p><p>T-tests of the standardized regression coefficients (partial correlations) that reflect the independent contribution of each predictor revealed that only perceived, but not actual, colour frequency could predict sense of control: A pairedsample t-test comparing the beta coefficients (partial correlations with control ratings) for actual and perceived colour frequencies showed that perceived colour frequency was the better predictor for sense of control than actual colour frequency, t(15) = À4.91, p &lt; .01, two-tailed. Interestingly, actual and perceived colour frequencies were uncorrelated: A one-sample t-test of the individual correlation coefficients revealed that they did not significantly differ from zero, t(15) = 1.2, p = .24. Together, these results indicate that participants indeed experienced more control over those colours they perceived as appearing more frequently. However, we found little evidence that perceived control was an artefact of explicit knowledge of actual stimulus frequency.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.3.2.">Action-effect contingencies.</head><p>Although the analysis above suggests that participants were not aware of overall actual colour frequencies, they nevertheless might have based their judgements on action-effect contingencies. That is, because selection bias and errors lead to compatible colours being more frequently experienced, participants may predict compatible colours when choosing a particular action, and these effect predictions may contribute to their stronger sense of control.</p><p>In order to investigate this possibility, we computed the conditional probabilities of encountering a particular colour, given a left vs. right keypress action. Mean conditional probabilities of seeing compatible, neutral, and incompatible colours were 0.32, 0.33 and 0.34 in the 25% free/75% cued condition, and 0.31, 0.33 and 0.35 in the 75/25 condition, respectively. Although the numerical differences between compatibility conditions were small, a 2 Â 3 ANOVA with ratio and compatibility as within subjects factors revealed that they were significant, F(2, 30) = 11.7, p &lt; .01. The interaction between compatibility and ratio was also significant, F(2, 30) = 8.72, p &lt; .01, indicating that the differences between compatibility conditions were more pronounced in 75% free-choice/25% cued-choice blocks.</p><p>This analysis suggests that participants could have based their control judgements on either ease of selection, or on colour effect prediction, or both. To investigate the contribution of each process, we took reaction time as a proxy for ease of selection, and conditional colour probability (see previous paragraph) as a proxy for effect prediction. We then used multiple regression to estimate the relation between each participant's compatibility effects in control judgements from the compatibility effects in RTs and in conditional colour probability. This analysis showed that the independent contribution conditional colour probability to sense of control was negligible: The mean partial correlation was M b(colour) = 0.08, and did not differ significantly from zero, t(15) = 0.72, p &gt; .3. However, the compatibility effect in RTs did not significantly predict the compatibility effect in control ratings either -M b(RT) = 0.1, t(15) = 1.26, p &gt; .2. These null results may reflect the low statistical power of the regressions (12 observations per subject, given six blocks and two hands), and therefore cannot clearly identify to what extent the impact of action priming on perceived control reflects ease of action selection, over and above an impact of action priming on effect-prediction.</p><p>We therefore conducted Experiment 2 that kept colour frequency completely constant across selection conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Experiment 2</head><p>In Exp. 2 we kept colour frequency and action-effect contingency completely constant in order to isolate the pure, direct influence of compatibility-related ease of selection on sense of control. Two changes ensured that the identity of the effect could not be predicted at all on the basis of the prime, the target, or the action alone. First, only cued-choice trials were used in which the target unambiguously signalled which action to perform (see <ref type="figure" coords="8,281.92,525.49,20.10,7.53">Fig. 1</ref>, left and middle panel, and <ref type="table" coords="8,417.53,525.49,27.32,7.53" target="#tab_2">Table 3</ref>). Thus primes could only influence the ease of selecting the correct response, and did not bias which action was ''freely" chosen as in Exp. 1. Second, when participants made errors in responding to the target, and therefore saw a grey X instead of the appropriate colour for that trial, the trials were adaptively repeated until participants responded correctly. Therefore all colours appeared equally often.</p><p>Four different colours (two for each hand) served as action effects in Exp. 2 (see <ref type="table" coords="8,385.72,619.61,27.04,7.53" target="#tab_2">Table 3</ref>). As in Exp. 1, colours were mapped to responses such that a particular colour reflected the compatibility relationship between the subliminal prime and the response: Compatible and incompatible effect-colours consistently followed prime-compatible and -incompatible responses, respectively. The neutral colour condition was omitted. 3.1. Methods</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.1.">Participants</head><p>Thirty-four paid subjects from the city of Leipzig (mean age 23.1 years, SD = 2.8; 19 female) with normal or corrected-to-normal vision participated in the experiment with local ethics committee approval.</p><p>3.1.2. Apparatus and procedure 3.1.2.1. Action-effect experiment. The apparatus, design, and procedure of the action-effect test of Exp. 2 resembled Exp. 1, with the following exceptions. First, all 288 trials were cuedchoice trials on which left-or right-pointing arrow primes were masked by left-or right-pointing arrow targets (see <ref type="figure" coords="9,41.16,202.62,99.63,7.53">Fig. 1, left and middle panel)</ref>. The direction of the target arrow indicated the correct response. Second, only four colours served as action effects. The different colours were linked to compatible and incompatible left and right hand responses (see <ref type="table" coords="9,57.26,244.46,24.34,7.53" target="#tab_2">Table 3</ref>). The neutral colour condition was omitted. Third, trials in which participants either responded too late or pressed the wrong key, and hence saw a grey X instead of a coloured circle, were repeated at the end of each block until participants had responded correctly. This adaptive procedure ensured that each trial-type (defined by colour and jitter) was presented equally often in each of the 12 blocks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.2.2.">Prime visibility test. The only difference between</head><p>Exp. 2 and Exp. 1 concerned the double-pointing arrow targets. All double-pointing arrows that had masked the primes in free-choice trials of Exp. 1 were replaced with the left-vs. right-pointing masks that served as cued-choice targets in the action-effect test of both experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Results and discussion</head><p>A greater number of subjects in Exp. 2 exhibited high d 0 compared to Exp. 1. This difference necessitated a change in exclusion criteria: here, an iterative procedure was used to exclude the participant with the highest d 0 until a t-test against zero reached non-significance (see <ref type="bibr" coords="9,197.63,467.02,64.71,7.53;9,41.16,477.51,61.34,7.53" target="#b23">Grinband, Hirsch, &amp; Ferrara, 2006)</ref>. On this basis, 12 participants were excluded from the analyses due to awareness of the primes 1 . This left 22 (mean age 23.5 years, SD = 3.1, 10 female) participants' data for analyses. All the remaining subjects were unaware of the direction of the prime stimuli (mean d 0 = 0.097 ± 0.24; one-sample t-test, t(15) = 1.90, p = 0.07).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1.">Action priming</head><p>Participants failed to respond during the 1500 ms response window on 1.4% of the trials. These trials were excluded from the analyses, along with trials in which participants' reaction times were more than three standard deviations away from their individual mean correct RT by condition (0.2%). For the remaining data, mean RT for correct trials and percentage of errors for the two compatibility conditions were analyzed using two-tailed paired ttests.</p><p>The t-test on RT showed that incompatibly primed responses (M = 472.1 ms) were significantly slower than prime-compatible responses (M = 422.2 ms), t(21) = 12.7, p &lt; .01. Participants also committed more errors on incompatible (3%) than on compatible trials (0.6%), t(21) = 6.77, p &lt; .01. <ref type="figure" coords="9,297.87,452.24,21.67,7.53">Fig. 3</ref> reveals a compatibility effect in control judgements: Participants again felt more control over colours reflecting prime-compatible actions than prime-incompatible actions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.">Sense of control</head><p>The compatibility effect was significant in control ratings, as indicated by a paired-sample t-test, t(21) = 2.85, p &lt; .05 (two-tailed). Although the effect in control ranks was in the same direction, the Wilcoxon-test of median control ranks missed significance (p &gt; .2), presumably because of the reduced set of colours that were rank-ordered in Exp. 2.</p><p>We additionally compared the compatibility effects in Exp. 1 and Exp. 2. This should give us an estimate of the relative contributions of ease of selection, on the one hand, and other factors influencing the effect in Exp. 1, such as contingency-related colour predictability, on the other hand. To this end, we averaged the control ratings of the compatible and incompatible condition of Exp. 1 across free-choice/cued-choice ratios and conducted a 2 (Experiment) Â 2 (compatibility) ANOVA. The main effect of compatibility was highly significant, F(1, 36) = 33.47, p &lt; .01, MSE = 7.65. The interaction between experiment and compatibility was also significant, F(1, 36) = 5.13, p &lt; .05, <ref type="figure" coords="9,286.24,173.39,16.03,6.03">Fig. 3</ref>. Mean control ratings (left ordinate, error bars represent standard errors of the means) and median control ranks (hatched bars, right ordinate) as a function of compatibility condition in Experiment 2.</p><p>1 More participants were excluded on grounds of high prime visibility in Exp. 2 than in Exp. 1. Exp. 2 took place in a darker environment, increasing the contrast between stimuli and background, and presumably favouring prime visibility. In order to test whether participants with high d' were also influenced by priming, we performed a pooled analysis of the control ratings from the 5 participants excluded from Exp. 1 and the 12 participants excluded from Exp. 2. Data for participants from Exp. 1 was collapsed across cued/free ratios, and we omitted the neutral colour condition. Control ratings for compatible and incompatible effect colours were then compared using a paired t-test. Interestingly, excluded participants experienced more control in the incompatible condition (M = 53.4) than in the compatible condition (M = 50.6), t(16) = À2.2, p &lt; .05 (2-tailed). That is, participants who were (partly) aware of the primes might have an enhanced sense of control when they successfully overcome the ''urge" to perform the primed action. It seems intriguing that prime visibility might strongly alter the impact of action priming on sense of control. One should be careful in interpreting these results from our excluded participants, however, because their d' was low relative to the criteria used in other studies to ensure clear prime visibility (all excluded participants had d' 6 1.3). Future experiments might profitably investigate the impact of different levels of prime visibility on sense of control.</p><p>indicating that the compatibility effect was more pronounced in Exp. 1 (À5.17) than in Exp. 2 (À2.27). Although control ratings were overall lower numerically in Exp. 2 than in Exp. 1, the main effect of experiment did not reach significance, F(1, 36) = 3.34, p &gt; .07, MSE = 211.6.</p><p>Finally, we again tested whether control ratings and perceived colour frequency (frequency ranks) in the last block would be correlated, despite the complete lack of differences between actual colour frequencies in Exp. 2. The mean of the individual correlations was 0.68, t(21) = 8.86, p &lt; .01, indicating an influence of perceived, but not actual, frequency on control.</p><p>We will discuss the implications of these findings in more detail in the Section 4.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">General discussion</head><p>By manipulating action-selection processes and collecting control judgements, we were able to ask whether, and how, differences in the ease of action selection affected sense of control. In two experiments we found that subliminal arrow primes primed action selection for both freechoice and cued-choice actions: Prime-compatible responses were faster than prime-incompatible responses on both cued-choice trials and free-choice trials. Primecompatible responses were also chosen more frequently than prime-incompatible responses when participants could freely choose between action alternatives in Exp. 1. These results suggest that arrow primes led to sub-threshold activation of the responses they afforded. Priming of the correct or intended response facilitates action selection. Conversely, when one action is primed, but the participant selects the other action, there is a conflict between the primed and actual response (see <ref type="bibr" coords="10,173.41,410.42,84.59,7.53;10,36.84,420.91,16.77,7.53" target="#b17">Eimer &amp; Schlaghecken, 1998</ref><ref type="bibr" coords="10,84.18,420.91,92.85,7.53" target="#b37">Neumann &amp; Klotz, 1994;</ref><ref type="bibr" coords="10,179.31,420.91,74.72,7.53" target="#b46">Vorberg et al., 2003)</ref>.</p><p>More interestingly, action priming modulated the sense of control over subsequent action consequences. Participants felt more control over colours that followed primecompatible actions than over colours that followed prime-incompatible actions. Our pattern of results supports the hypothesis that when action selection is smooth and easy, the sense of control is heightened <ref type="bibr" coords="10,221.09,494.10,36.97,7.53;10,36.84,504.59,19.84,7.53" target="#b38">(Pacherie, 2008)</ref>. The impact of action priming on sense of control was more pronounced in Exp. 1 than in Exp. 2. This may reflect an additional factor of effect-prediction that could have been present in Exp. 1. Specifically, prime-induced bias in 'free' action selection, and rates of prime-induced errors in cued action selection meant effect colours were, at least in principle, partly predictable. However, in Exp. 2 the contingencies between actions and effects were tightly controlled to be exactly equal and independent of prime-action compatibility. Nevertheless, prime compatibility still influenced sense of control, though to a numerically lesser extent. The effect in Exp. 2 may reflect the dissected influence of ease of selection, whereas the stronger effect in Exp. 1 reflects the combined influence of ease of selection and information about effect probability.</p><p>Finally, participants in Exp. l felt more in control when they could freely choose between action alternatives on the majority of trials compared to blocks in which they predominantly responded to external cues. In the following, we discuss the implications of each of these findings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Internal selection and sense of control</head><p>Participants judged themselves to have more control over colours when they could freely choose which action to perform on the majority of trials, as reflected by the significant main effect of free/cued ratio (see <ref type="bibr" coords="10,445.37,138.49,53.73,7.53;10,281.93,148.92,36.05,7.53" target="#b43">Sebanz &amp; Lackner, 2007</ref>, for similar findings). The stronger sense of control associated with more free-choice trials could be a consequence of increased opportunity to actively explore the action-effect relationships. However, participants' actual knowledge about control, as measured by their reports of colour-hand-assignments, was as good on blocks with fewer free-choice trials. Therefore, the influence of freechoice ratio on perceived control probably reflects ''authorship attribution". Participants experience more involvement with effects that follow self-generated actions, as opposed to feeling detached from the task during cuedchoice trials. This could be due to action-selection processes in the voluntary motor system (cf. <ref type="bibr" coords="10,444.63,274.45,58.48,7.53" target="#b24">Haggard, 2008)</ref> that enhance the feeling of agency <ref type="bibr" coords="10,414.14,284.94,80.85,7.53" target="#b45">(Synofzik et al., 2008)</ref>.</p><p>Alternatively, or in addition, participants' judgements of control in the two ratio conditions could also reflect implicit theories or beliefs regarding intentional control <ref type="bibr" coords="10,479.50,316.22,18.88,7.53;10,281.93,326.71,36.97,7.53" target="#b47">(Wegner, 2002)</ref>. When people respond to an external stimulus, they may therefore attribute the effects of their action to the instructional stimulus, rather than the action itself. According to <ref type="bibr" coords="10,333.41,358.06,80.08,7.53" target="#b45">Synofzik et al. (2008)</ref>, feelings of agency result from weighting and integrating sensorimotor information into some sort of perceptual representation. Judgements of agency, on the other hand, consist of higher-level conceptual representations that are informed by feelings of agency, and are therefore partly 'metacognitive'. These judgements are also influenced by beliefs and contextual cues, however, that can even overwrite 1st person feelings of agency.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Action priming and sense of control</head><p>Sense of control was systematically affected by changes in action selection processing induced by subliminally presented primes. Participants judged themselves to have more control over colours that consistently followed prime-compatible actions than over colours that were associated with prime-incompatible actions. In Exp. 1, the influence of prime-action-compatibility was independent of free/cued ratio, suggesting that priming affected the experience of cued and free-choice actions in a similar manner.</p><p>In many previous priming studies (e.g., <ref type="bibr" coords="10,456.49,588.26,46.61,7.53;10,281.93,598.69,21.81,7.53" target="#b0">Aarts et al., 2005;</ref><ref type="bibr" coords="10,308.75,598.69,98.96,7.53" target="#b30">Linser &amp; Goschke, 2007;</ref><ref type="bibr" coords="10,412.72,598.69,44.88,7.53" target="#b39">Sato, 2009;</ref><ref type="bibr" coords="10,462.66,598.69,40.46,7.53;10,281.93,609.18,62.40,7.53" target="#b48">Wegner &amp; Wheatley, 1999)</ref> the primes were designed to afford a preview of the effect of a subsequent action. These studies showed that the match between primed and actual action outcome strongly influenced sense of control. In our study, in contrast, the primes were not designed to predict the effects of action. Therefore, our participants could not retrospectively base their control judgements on match between primes and effects alone.</p><p>What other factors could therefore contribute to the sense of control? For example, could participants have based their judgements on reaction time differences between conditions? Corallo and colleagues <ref type="bibr" coords="11,201.13,86.10,61.23,7.53;11,41.16,96.53,100.04,7.53" target="#b14">(Corallo, Sackur, Dehaene, &amp; Sigman, 2008)</ref> demonstrated that participants can provide quite accurate trial-by-trial estimates of their reaction times. Our participants might retrospectively infer more control for faster reaction times, such as reactions compatible with a prime. We think this is unlikely for several reasons. First, our task required attention to the effects of action, rather than to motor responses. Second, mixing free-and cued-choice trials within experimental blocks of Exp. 1 introduced considerable variability in RT (see <ref type="table" coords="11,250.13,180.28,8.12,7.53;11,41.16,190.71,17.01,7.53" target="#tab_1">Table 2</ref>). In order to infer sense of control from compatibility related differences in RT, participants would need to mentally ''subtract" the RT differences due to choice type.</p><p>Instead, our data indicate that action-selection processes contribute to the sense of control. We suggest that the larger compatibility effect in Exp. 1 reflects the combined effect of the direct impact of ease of selection and a more indirect effect of action priming that is mediated by priming-induced changes in behaviour, and therefore colour frequency. In Exp. 2 action-effect contingency was the same for prime-compatible and prime-incompatible actions, so that effect predictability did not differ between compatibility conditions. This manipulation removed the indirect effect of action priming on sense of control mediated by selection-related changes in colour frequency. A significant, though reduced, compatibility effect on sense of control remained. Hence the compatibility effect in Exp. 2 seems to capture a ''pure" direct effect of action selection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.1.">Ease of action selection</head><p>When participants act compatibly with a prime, their action selection is more efficient than when they act contrary to a prime. In particular, the competition and conflict between programmes for selected and alternative action <ref type="bibr" coords="11,41.16,462.75,50.44,7.53" target="#b13">(Cisek, 2007;</ref><ref type="bibr" coords="11,95.41,462.75,166.93,7.53" target="#b21">Fleming, Mars, Gladwin, &amp; Haggard, 2009;</ref><ref type="bibr" coords="11,41.16,473.18,75.03,7.53" target="#b36">Nachev et al., 2005)</ref> should be reduced for action-compatible relative to action-incompatible primes. Thus, primes that support the correct or intended response facilitate action-selection processes by differentiating between action alternatives, and thereby render the selection process ''smooth". Our key finding is that this smoothness produces a heightened sense of control. This is in keeping with the notion that during a well-learned, skilled task such as playing the piano, people often report mastery of what they are doing, and a feeling of ''flow" <ref type="bibr" coords="11,193.13,567.36,69.18,7.53;11,41.16,577.79,19.75,7.53" target="#b16">(Csikszentmihalyi, 2000)</ref>.</p><p>Our results also indicate that the experience of control is quite different from the sense of effort when overcoming conflict. On incompatible prime-response processing, the action selection process is more effortful and less efficient. We found that sense of control is reduced under these circumstances. Thus, sense of control is unlikely to be related to successful conflict resolution. Others have also noted that response conflict increases sense of effort <ref type="bibr" coords="11,225.39,661.48,36.97,7.53;11,41.16,671.97,19.77,7.53" target="#b38">(Pacherie, 2008)</ref>, subjective difficulty, and the subjective ''urge to err" (Morsella, Wilson, Berger, Honhongva, Gazzaley, &amp; Bargh, in press), while also reducing sense of subjective control <ref type="bibr" coords="11,286.24,65.23,94.23,7.53">(Morsella et al., in press;</ref><ref type="bibr" coords="11,383.13,65.23,91.22,7.53" target="#b43">Sebanz &amp; Lackner, 2007)</ref>.</p><p>Unlike these former studies however, participants in our experiments were not aware of the conflicting influences on their action. In fact, on debriefing, none of our participants reported having based their control judgements on either conflict or on processing fluency. Instead, they readily attributed differences in sense of control to perceived differences in colour frequencies, even though the actual differences in colour frequency went unobserved. The attribution process could have been triggered by the frequency sorting task itself. Alternatively, perceived frequency differences could be an illusion produced by differences in sense of control <ref type="bibr" coords="11,428.98,190.77,78.50,7.53;11,286.24,201.25,19.99,7.53" target="#b3">(Alloy &amp; Abramson, 1979)</ref>.</p><p>This lack of insight into prime-induced conflict has two important implications. First, participants' sense of control could not be based on (conscious) beliefs about how primes might influence action selection. Instead, action priming itself presumably directly influenced the subjective sense of control. This result appears to be at odds with <ref type="bibr" coords="11,286.24,274.45,66.49,7.53" target="#b34">Morsella's (2005;</ref><ref type="bibr" coords="11,356.09,274.45,94.25,7.53">Morsella et al., in press)</ref> claim that response conflict is intrinsically linked to conscious awareness. It does, however, support a recent proposal by Pacherie (2008; see also <ref type="bibr" coords="11,379.05,305.78,74.07,7.53" target="#b45">Synofzik et al., 2008</ref>) that sensorimotor conflict elicits the feeling ''that something is wrong" (p. 45), without (necessarily) leading to knowledge about what is wrong. Future research should systematically vary prime visibility in order to investigate whether conflict affects sense of control in a similar manner when participants can consciously identify the prime.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.2.">Probabilistic inference</head><p>Participants in Exp. 1 showed a bias to select the primecompatible action on free-choice trials. <ref type="bibr" coords="11,443.34,420.88,64.07,7.53" target="#b6">Botvinick (2007)</ref> recently suggested that conflict may register as a cost when evaluating action alternatives during choice and decision making. This may explain why conflict in primeincompatible trials in our Exp. 1 not only slowed down motor responses, but also induced a bias against choosing the prime-incompatible action on free choice (also see <ref type="bibr" coords="11,484.61,483.65,19.03,7.53;11,286.24,494.08,73.64,7.53" target="#b9">Botvinick &amp; Rosen, 2009)</ref>.</p><p>The prime-induced selection bias altered action-effect contingencies such that compatible colours appeared slightly more often than neutral and incompatible colours in Exp. 1. This might have increased participants' expectancy to encounter a compatible colour <ref type="bibr" coords="11,440.90,546.41,39.92,7.53" target="#b39">(Sato, 2009</ref>). This expectancy could influence sense of control indirectly, through either or both of two possible routes. First, expectancy could influence motor prediction while preparing an action <ref type="bibr" coords="11,311.76,588.26,87.68,7.53" target="#b4">(Bays &amp; Wolpert, 2007;</ref><ref type="bibr" coords="11,401.67,588.26,84.71,7.53" target="#b50">Wolpert &amp; Miall, 1996)</ref>, so a participant preparing a left keypress, say, might predict a red effect rather than another colour. Second, if a red colour is expected, and then actually occurs, a retrospective inference based on the match between the expected and encountered colour might produce a sense of control (e.g., <ref type="bibr" coords="11,307.16,651.02,54.83,7.53" target="#b47">Wegner, 2002)</ref>. These mechanisms could have contributed to control judgements in Exp. 1, in addition to the ''smoothness" experienced during selection. However, Exp. 2 suggested that the indirect effects mediated by colour frequency cannot completely account for the contribution of action-selection processes to the sense of control.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.3.">Conclusion</head><p>In sum, we found systematic effects of subliminal action-selection primes on control judgements. This remained the case even when controlling for potential confounds due to subtle alterations in effect probabilities. We argue that perceived control is intimately linked to processes of selection between alternative actions. Perceived control increases with fluency action selection. Moreover, as Hamlet observed, perceived control decreases as selection conflict, and hence mental effort, increases <ref type="bibr" coords="12,36.85,191.04,70.98,7.53" target="#b44">(Shakespeare, 1603</ref><ref type="bibr" coords="12,111.99,191.04,16.62,7.53">(Shakespeare, /2005</ref>.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="7,41.16,235.92,466.21,6.03;7,41.16,244.48,293.38,6.03"><head>Fig. 2 .</head><label>2</label><figDesc>Mean control ratings (left ordinate, error bars represent standard errors of the means) and median control ranks (hatched bars, right ordinate) according to ratio of free-choice/cued-choice trials and compatibility condition in Experiment 1.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="3,41.16,54.73,401.55,236.41"><head>Table 1</head><label>1</label><figDesc>Schematic examples of different conditions and trial types in a prototypical block of Experiment 1.</figDesc><table coords="3,49.66,77.58,393.04,213.56">Choice Type 
+Prime 
+Target (mask) 
+Response 
+Effect 
+
+Cued 
+j h 
+Left-compatible (red): 
+
+Cued 
+j h 
+Left-neutral (green): 
+
+Cued 
+? 
+j h 
+Left-neutral (green): 
+
+Cued 
+? 
+j h 
+Left-incompatible (yellow): 
+
+Cued 
+? 
+? 
+h j 
+Right-compatible (blue): 
+
+Cued 
+? 
+? 
+h j 
+Right-neutral (orange): 
+
+Cued 
+? 
+h j 
+Right-neutral (orange): 
+
+Cued 
+? 
+h j 
+Right-incompatible (purple): 
+
+Free 
+M 
+j h 
+Left-compatible (red): 
+
+Free 
+M 
+j h 
+Left-neutral (green): 
+
+Free 
+? 
+M 
+j h 
+Left-neutral (green): 
+
+Free 
+? 
+M 
+j h 
+Left-incompatible (yellow): 
+
+Free 
+? 
+M 
+h j 
+Right-compatible (blue): 
+
+Free 
+? 
+M 
+h j 
+Right-neutral (orange): 
+
+Free 
+M 
+h j 
+Right-neutral (orange): 
+
+Free 
+M 
+h j 
+Right-incompatible (purple): 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="6,36.85,54.73,457.75,145.09"><head>Table 2</head><label>2</label><figDesc>Reaction times and percentage of errors as a function of free/cued ratio, choice type, and prime-(mask)-action compatibility.</figDesc><table coords="6,36.86,77.58,457.74,122.24">Prime-action relationship 
+Ratio 75/25 
+Ratio 25/75 
+Overall 
+
+RT 
+% errors 
+RT 
+% errors 
+RT 
+% errors 
+
+Choice type: cued choice 
+Compatible 
+475.1 (18.5) 
+3.7 
+502.7 (23.4) 
+1.0 
+488.9 (14.9) 
+2.35 
+Incompatible 
+490.9 (17.7) 
+4.2 
+528.2 (22.3) 
+1.9 
+509.6 (14.3) 
+3.05 
+D 
+15.9 
+0.5 
+25.5 
+0.9 
+20.7 
+0.7 
+
+Choice type: free choice 
+RT 
+% Responses 
+RT 
+% Responses 
+RT 
+% Responses 
+
+Compatible 
+481.8 (24.1) 
+56.1 
+602.6 (34.1) 
+53.7 
+542.2 (23.2) 
+54.9 
+Incompatible 
+498.3 (23.1) 
+43.9 
+628.4 (29.5) 
+46.3 
+563.4 (21.8) 
+45.1 
+D 
+16.5 
+12.2 
+25.8 
+7.4 
+21.2 
+9.8 
+
+Note: numbers in parentheses show standard errors of the means across participants. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="8,36.85,54.73,400.79,80.52"><head>Table 3</head><label>3</label><figDesc>Schematic examples of different conditions and trial types in a prototypical block of Experiment 2.</figDesc><table coords="8,45.35,77.58,392.29,57.67">Choice type 
+Prime 
+Target (mask) 
+Response 
+Effect 
+
+Cued 
+j h 
+Left-compatible (red): 
+
+Cued 
+? 
+j h 
+Left-incompatible (yellow): 
+
+Cued 
+? 
+? 
+h j 
+Right-compatible (blue): 
+
+Cued 
+? 
+h j 
+Right-incompatible (green): 
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">D.Wenke et al. / Cognition 115 (2010) 26-38   </note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head><p>This work was supported by ESRC grant RES-000-23-1571, and by Research Fellowships from The Royal Society and The Leverhulme Trust to Patrick Haggard, and by MRC funding within the UCL 4 Year PhD in Neuroscience to Stephen M. Fleming. We thank Barbara Franke and Tobias Altmann for their help with data collection.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="12,36.85,326.06,221.15,6.03;12,48.81,334.06,209.18,6.03;12,48.81,341.99,165.60,6.03" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">On the inference of personal authorship: Enhancing experienced agency by priming effect information</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Aarts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Custers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Wegner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Consciousness and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="439" to="458" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,36.86,349.99,221.16,6.03;12,48.81,357.99,78.64,6.03" xml:id="b1">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Ach</surname></persName>
+		</author>
+		<title level="m">Über die Willenstätigkeit und das Denken. Göttingen: Vandenhoeck &amp; Ruprecht</title>
+		<imprint>
+			<date type="published" when="1905" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,36.85,365.92,221.17,6.03;12,48.81,373.92,204.24,6.03" xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Über den willensakt und das temperament. Eine experimentelle untersuchung</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Ach</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1910" />
+			<publisher>Verlag von Quelle und Meyer</publisher>
+			<pubPlace>Leipzig</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,36.85,381.86,221.20,6.03;12,48.81,389.85,209.20,6.03;12,48.81,397.85,128.20,6.03" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Judgment of contingency in depressed and nondepressed students: Sadder but wiser</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">B</forename><surname>Alloy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">Y</forename><surname>Abramson</surname></persName>
+		</author>
+		<idno>S.441-S.485</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<date type="published" when="1979" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,36.85,405.79,221.17,6.03;12,48.81,413.78,209.20,6.03;12,48.81,421.72,107.49,6.03" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Computational principles of sensorimotor control that minimize uncertainty and variability</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">M</forename><surname>Bays</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Wolpert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physiology</title>
+		<imprint>
+			<biblScope unit="volume">578</biblScope>
+			<biblScope unit="page" from="387" to="396" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,36.85,429.72,221.19,6.03;12,48.81,437.65,193.81,6.03" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Central cancellation of self-produced tickle sensation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S.-J</forename><surname>Blakemore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Wolpert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Frith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="635" to="640" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,36.85,445.65,221.15,6.03;12,48.81,453.64,209.18,6.03" xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Conflict monitoring and decision making: Reconciling two perspectives on anterior cingulate function</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">M</forename><surname>Botvinick</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,48.81,461.58,175.74,6.03" xml:id="b7">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive, Affective, &amp; Behavioral Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="356" to="366" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,36.85,469.58,221.19,6.03;12,48.81,477.52,209.16,6.03;12,48.81,485.51,66.95,6.03" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Conflict monitoring and cognitive control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">M</forename><surname>Botvinick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">S</forename><surname>Braver</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">S</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Barch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="624" to="652" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,36.86,493.51,221.16,6.03;12,48.82,501.45,184.08,6.03" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Anticipation of cognitive demand during decision making</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">M</forename><surname>Botvinick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><forename type="middle">B</forename><surname>Rosen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Research</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="835" to="842" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,36.86,509.44,221.18,6.03;12,48.82,517.38,161.68,6.03" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The what, when, whether (WWW) model of intentional action</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Brass</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Haggard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Neuroscientist</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="319" to="325" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,36.86,525.37,221.19,6.03;12,48.82,533.31,148.00,6.03" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Multiple cognitive control effects of error likelihood and conflict</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Research</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="744" to="750" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,36.86,541.31,221.17,6.03;12,48.82,549.30,209.18,6.03;12,48.82,557.24,77.04,6.03" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">How we use rules to select actions: A review of evidence from cognitive neuroscience</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Bunge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Affective Behavioural Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="564" to="579" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,36.86,565.24,221.13,6.03;12,48.82,573.18,209.22,6.03;12,48.82,581.17,57.75,6.03" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Cortical mechanisms of action selection: The affordance competition hypothesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Cisek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Transactions of the Royal Society B</title>
+		<imprint>
+			<biblScope unit="volume">362</biblScope>
+			<biblScope unit="page" from="1585" to="1599" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,36.86,589.17,221.20,6.03;12,48.82,597.10,209.19,6.03;12,48.82,605.10,147.30,6.03" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Limits on introspection: Distorted subjective time during the dual-task bottleneck</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Corallo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Sackur</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dehaene</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Sigman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1110" to="1117" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,36.86,613.04,221.18,6.03;12,48.82,621.03,209.19,6.03;12,48.82,628.97,64.00,6.03" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Control over conflict during movement preparation: Role of posterior parietal cortex</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Coulthard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Nachev</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Husain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="144" to="157" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,36.86,636.97,221.17,6.03;12,48.82,644.96,135.08,6.03" xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Beyond boredom and anxiety (25th Anniversary ed.)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Csikszentmihalyi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>Jossey-Bass</publisher>
+			<pubPlace>San Francisco</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,36.86,652.90,221.15,6.03;12,48.82,660.90,209.21,6.03;12,48.82,668.83,209.16,6.03;12,48.82,676.83,35.92,6.03" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Effects of masked stimuli on motor activation: Behavioral and electrophysiological evidence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Eimer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Schlaghecken</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Human Perception &amp; Performance</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1737" to="1747" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.94,54.79,221.18,6.03;12,293.91,62.73,162.76,6.03" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Response facilitation and inhibition in subliminal priming</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Eimer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Schlaghecken</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biological Psychology</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="7" to="26" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.94,70.73,221.13,6.03;12,293.91,78.66,209.22,6.03;12,293.91,86.66,20.65,6.03" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Subliminal perception and its cognates: Theory, indeterminacy, and time</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Erdelyi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Consciousness and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="73" to="91" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.94,94.66,221.13,6.03;12,293.91,102.59,209.19,6.03;12,293.91,110.59,138.21,6.03" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The angular gyrus computes action awareness representations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Farrer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">H</forename><surname>Frey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Van Horn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Tunik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Turk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Inati</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cerebral Cortex</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="254" to="261" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.94,118.53,221.17,6.03;12,293.90,126.52,209.21,6.03;12,293.90,134.52,147.98,6.03" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">When the brain changes its mind: Flexibility of action selection in instructed and free choices</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Fleming</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">B</forename><surname>Mars</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">E</forename><surname>Gladwin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Haggard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cerebral Cortex</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="2352" to="2360" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.94,142.46,221.17,6.03;12,293.89,150.45,97.99,6.03" xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Signal detection theory and psychophysics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Swets</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1966" />
+			<publisher>Wiley</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.93,158.39,221.17,6.03;12,293.89,166.39,209.22,6.04;12,293.90,174.34,13.02,6.03" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A neural representation of categorization uncertainty in the human brain</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Grinband</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Hirsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">P</forename><surname>Ferrara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="757" to="763" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.94,182.23,221.15,6.12;12,293.90,190.23,124.38,6.03" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Human volition: Towards a neuroscience of will</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Haggard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="934" to="946" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.93,198.17,221.12,6.03;12,293.90,206.16,165.94,6.03" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Voluntary action and conscious awareness</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Haggard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kalogeras</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="382" to="385" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.94,214.10,221.17,6.03;12,293.90,222.10,209.16,6.03;12,293.90,230.09,63.66,6.03" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The experience of agency: Feelings, judgements, and responsibility</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Haggard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Tsakiris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Current Directions in Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="242" to="246" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.94,238.03,221.15,6.03;12,293.90,246.03,209.17,6.03;12,293.90,253.96,125.78,6.03" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Unconscious manipulation of free choice in humans</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kiesel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Wagener</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Kunde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Fallgatter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Stöcker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Consciousness and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="397" to="408" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.94,261.96,221.13,6.03;12,293.90,269.90,209.16,6.03;12,293.90,277.89,209.23,6.03;12,293.90,285.89,15.40,6.03" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The negative compatibility effect: Unconscious inhibition influences reaction times and response selection</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">T</forename><surname>Klapp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">B</forename><surname>Hinkley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: General</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="255" to="269" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.93,293.83,221.16,6.03;12,293.90,301.82,209.16,6.03;12,293.90,309.76,60.09,6.03" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Mechanisms of priming by masked stimuli: Inferences from event-related brain potentials</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Leuthold</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Kopp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="263" to="269" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.93,317.76,221.17,6.03;12,293.90,325.75,142.13,6.03" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Unconscious modulation of the conscious experience of control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Linser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Goschke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="459" to="475" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.94,333.69,221.17,6.03;12,293.90,341.68,144.56,6.03" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Metacognition of agency</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Metcalfe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">G</forename><surname>Greene</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: General</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="184" to="199" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.94,349.62,221.17,6.03;12,293.90,357.62,160.61,6.03" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Awareness of action: Inference and prediction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Haggard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Consciousness and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="136" to="144" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.95,365.56,221.14,6.03;12,293.91,373.55,209.22,6.03;12,293.91,381.55,28.29,6.03" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Feelings of control: Contingency determines experience of action</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Lagnado</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Deal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Haggard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="279" to="283" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.95,389.49,221.13,6.03;12,293.91,397.48,173.40,6.03" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The function of phenomenal states: Supramodal interaction theory</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Morsella</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="1000" to="1021" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.95,405.42,221.18,6.03;12,293.91,413.41,209.20,6.03;12,293.91,421.41,209.16,6.03;12,293.91,429.35,146.18,6.03" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Subjective aspects of cognitive control at different stages of processing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Morsella</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">E</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">C</forename><surname>Berger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Honhongva</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gazzaley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Bargh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Conscious conflict and double blindness. Attention, Perception, &amp; Psychophysics</title>
+		<imprint/>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct coords="12,281.95,437.34,221.18,6.03;12,293.92,445.28,209.22,6.03;12,293.92,453.28,28.29,6.03" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Volition and conflict in human medial frontal cortex</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Nachev</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Rees</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Parton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Kennard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Husain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Current Biology</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="122" to="128" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.95,461.22,221.14,6.03;12,293.92,469.21,209.22,6.03;12,293.92,477.21,209.23,6.03;12,293.92,485.14,209.18,6.03;12,293.92,493.14,82.36,6.03" xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Motor responses to nonreportable, masked stimuli: Where is the limit of direct parameter specification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Neumann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Klotz</surname></persName>
+		</author>
+		<editor>C. Umiltà &amp; M. Moscovitch</editor>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>MIT Press</publisher>
+			<biblScope unit="page" from="123" to="150" />
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Attention and performance XV: Conscious and nonconscious information processing</note>
+</biblStruct>
+
+<biblStruct coords="12,281.95,501.08,221.15,6.03;12,293.92,509.07,110.89,6.03" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The phenomenology of action: A conceptual framework</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Pacherie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="179" to="217" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.96,517.07,221.17,6.03;12,293.92,525.01,209.20,6.03;12,293.92,533.00,99.01,6.03" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Both motor prediction and conceptual congruency between preview and action-effect contribute to explicit judgement of agency</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Sato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="74" to="83" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.97,540.94,221.17,6.03;12,293.93,548.94,209.20,6.03;12,293.93,556.93,209.18,6.03;12,293.93,564.87,70.30,6.03" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Illusion of sense of self-agency: Discrepancy between the predicted and actual consequences of actions modulates the sense of self-agency, but not the sense of self-ownership</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Yasuda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="241" to="255" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.97,572.87,221.15,6.03;12,293.94,580.80,209.19,6.03;12,293.94,588.80,63.32,6.03" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Masked prime stimuli can bias &apos;&apos;free&quot; choices between response alternatives</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Schlaghecken</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Eimer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychonomic Bulletin &amp; Review</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="463" to="468" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.97,596.74,221.17,6.03;12,293.94,604.73,209.22,6.03;12,293.94,612.73,28.22,6.03" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Criteria for unconscious cognition: Three types of dissociations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Vorberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Perception and Psychophysics</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="489" to="504" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.97,620.67,221.13,6.03;12,293.94,628.66,209.22,6.03;12,293.94,636.60,28.29,6.03" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Who&apos;s calling the shots? Intentional content and feelings of control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Sebanz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Lackner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Consciousness and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="859" to="876" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,281.97,644.60,221.13,6.03;12,293.94,652.59,66.90,6.03" xml:id="b44">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Shakespeare</surname></persName>
+		</author>
+		<title level="m">/2005). Hamlet</title>
+		<meeting><address><addrLine>Cambridge, UK</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="1603" />
+		</imprint>
+	</monogr>
+	<note>2nd ed.</note>
+</biblStruct>
+
+<biblStruct coords="12,281.97,660.53,221.16,6.03;12,293.94,668.52,209.19,6.03;12,293.94,676.37,83.23,6.12" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Beyond the comparator model: A multifactorial two-step account of agency</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Synofzik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Vosgerau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Newen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Consciousness and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="219" to="239" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,41.16,54.73,221.13,6.03;13,53.12,62.67,209.16,6.03;13,53.12,70.66,96.96,6.03" xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Different time courses for visual perception and action priming</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Vorberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Mattler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Heinecke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Schwarzbach</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>PNAS</publisher>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="6275" to="6280" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,41.16,78.60,221.24,6.03;13,41.16,86.60,221.17,6.03;13,53.12,94.59,209.20,6.03;13,53.12,102.53,140.31,6.03" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Vicarious agency: Experiencing control over the movements of others</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Wegner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Wegner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Sparrow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Winerman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="838" to="848" />
+			<date type="published" when="2002" />
+			<publisher>MIT Press</publisher>
+		</imprint>
+	</monogr>
+	<note>The illusion of conscious will</note>
+</biblStruct>
+
+<biblStruct coords="13,286.24,54.73,221.14,6.03;13,298.21,62.67,209.22,6.03;13,298.21,70.67,28.22,6.03" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Apparent mental causation: Sources of the experience of will</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Wegner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">P</forename><surname>Wheatley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Psychologist</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="480" to="492" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,286.24,78.61,221.17,6.03;13,298.21,86.60,143.93,6.03" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Action selection and action awareness</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Wenke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Waszak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Haggard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Research</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="602" to="612" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="13,286.24,94.60,221.14,6.03;13,298.21,102.54,141.48,6.03" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Forward models for physiological motor control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Wolpert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Miall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Networks</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1265" to="1279" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">New Evidence about Brown v. Board of Education: The Complex Effects of School Racial Composition on Achievement</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2009">2009</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><forename type="middle">A</forename><surname>Hanushek</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">National Bureau of Economic Research</orgName>
+								<orgName type="institution" key="instit1">Stanford University</orgName>
+								<orgName type="institution" key="instit2">University of Texas at Dallas</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">F</forename><surname>Kain</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Texas at Dallas</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">G</forename><surname>Rivkin</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Amherst College, University of Texas at Dallas, and National Bureau of Economic Research</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">New Evidence about Brown v. Board of Education: The Complex Effects of School Racial Composition on Achievement</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of Labor Economics</title>
+						<imprint>
+							<biblScope unit="volume">27</biblScope>
+							<biblScope unit="issue">3</biblScope>
+							<date type="published" when="2009">2009</date>
+						</imprint>
+					</monogr>
+					<note>349 Kain fully participated in this research, but sadly he died before its publication. An early version of this article was presented at the Brookings Con-ference on Empirics of Social Interactions (January 2000). Our thanks to con-ference participants, David Armor, Phil Cook, Jonah Gelbach, Caroline Hoxby, and Jens Ludwig for helpful comments. Support for this work has been provided by the Spencer Foundation, the Mellon Foundation, the Smith Richardson Foun-dation, and the Packard Humanities Institute. Contact the corresponding author, Eric A. Hanushek, at hanushek@stanford.edu. This content downloaded from</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:02+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Uncovering the effect of school racial composition is difficult because racial mixing is not accidental but instead an outcome of government and family choices. Using rich panel data on the achievement of Texas students, we disentangle racial composition effects from other aspects of school quality and from differences in abilities and family background. The estimates strongly indicate that a higher percentage of black schoolmates reduces achievement for blacks, while it implies a much smaller and generally insignificant effect on whites. These re-John F.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>sults suggest that existing levels of segregation in Texas explain a small but meaningful portion of the racial achievement gap.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. Introduction</head><p>Five decades after the landmark 1954 school desegregation case of Brown v. Board of Education, a surprising amount of uncertainty still exists about the ultimate effects of school desegregation on academic, social, and labor market outcomes for both minority and white students. <ref type="bibr" coords="2,457.59,244.77,2.99,5.31">1</ref> The ruling in Brown held that separate but equal was unconstitutional in the case of education and led to dramatic changes in schools throughout the country. This article investigates one fundamental underlying presumption of that historic legal decision-that school racial composition directly affects student outcomes and thus the black-white achievement gap.</p><p>Legal forces and the residential location decisions of households have combined to shape the racial composition of schools. The seminal work of <ref type="bibr" coords="2,162.09,355.90,101.98,9.66" target="#b61">Welch and Light (1987)</ref> documented both the desegregation of many school districts following Brown and subsequent Supreme Court decisions and the countervailing white exodus from many cities and towns that dampened the impact of school desegregation on interracial contact. There was considerable variation across the United States in the intensity of desegregation efforts and the extent of white flight, both of which contribute to the substantial differences across jurisdictions in school attendance patterns today. <ref type="bibr" coords="2,240.86,440.83,2.99,5.31">2</ref> Over the past decade, despite declining school and residential segregation in most parts of the country, demographic changes have led to a decline in the average share of blacks' schoolmates who are white. <ref type="bibr" coords="2,437.67,477.59,2.99,5.31">3</ref> The recent retreat of the U.S. Supreme Court from issues related to affirmative action and racial assignment policies may amplify this trend. Through all of this, however, we have had very little understanding of how racial composition of schools-the focal point of Brown-affects the learning of African Americans or the racial achievement gap. 4 as for whites. The pattern of results strongly suggests that racial composition is not serving as a proxy for school quality and that peer academic preparation accounts for only a small portion of the racial composition effect, leaving the precise causal linkages that underlie the relationship between achievement and racial composition uncertain. Finally, the key component of racial composition is the black enrollment share, with concentrations of other minority groups, notably Hispanics, exerting a much smaller effect that is not significantly different from zero in most specifications.</p><p>The magnitudes of our estimates suggest that the elimination of all differences in the black enrollment share in Texas public schools for just grades 5-7 (corresponding to our observation period) would close over 10% of the seventh-grade black-white test score gap (i.e., moving from 0.7 to 0.6 standard deviations). 8 However, the reduction of a 30 percentage point difference in school proportion black is a sizable change that would likely involve involuntary student movements and might well alter the relationship between achievement and proportion black estimated from the existing distributions of blacks and whites. Moreover, as noted, a majority of the uneven distributions of blacks and whites in the schools comes from racial differences in the pattern of residencies among districts and not from attendance patterns within districts-thus limiting the scope of policy actions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. Prior Research on Racial Peer Effects</head><p>The only social science evidence of harm from school segregation cited by the U.S. Supreme Court in Brown involved psychological studies of black children that related low self-esteem to segregated schooling. <ref type="bibr" coords="4,195.18,467.13,2.99,5.31">9</ref> Most early (post-Brown) analyses focused on short-run effects of purposefully moving students, including the effects of desegregation on achievement, self-esteem, and racial attitudes <ref type="bibr" coords="4,412.25,492.28,48.39,9.66;4,149.75,504.44,59.93,9.66" target="#b21">(Crain and Mahard 1978;</ref><ref type="bibr" coords="4,213.12,504.44,50.90,9.66" target="#b19">Cook 1984;</ref><ref type="bibr" coords="4,267.40,504.44,54.96,9.66" target="#b3">Armor 1995)</ref>. More recently, <ref type="bibr" coords="4,396.76,504.44,63.88,9.66" target="#b30">Guryan (2004)</ref> examined the impact of school desegregation on the probability of dropping out of high school.</p><p>The research most directly related to our work focuses on whether peer racial composition, as opposed to desegregation actions per se, affects achievement of blacks as well as that of other demographic groups. The landmark legislatively mandated civil rights report Equality of Educational Opportunity <ref type="bibr" coords="4,205.64,589.52,86.22,9.66">(Coleman et al. 1966</ref>) and its offshoot (U.S. Commission on <ref type="bibr" coords="4,158.72,611.41,2.69,4.74">8</ref> If the impacts of racial composition held for all earlier grades, the comparable closing of the gap for an even distribution of blacks from grade 1 through grade 7 would be even larger. <ref type="bibr" coords="4,158.72,641.30,2.69,4.74">9</ref> Note 11 of Brown refers to the doll studies of Kenneth Clark and Mamie Clark <ref type="bibr" coords="4,175.81,651.98,89.92,8.70" target="#b11">(Clark and Clark 1939</ref>) that found that blacks in the segregated South tended to identify with white dolls and not black dolls.</p><p>Civil Rights 1967) provided early empirical evidence that racial isolation harms academic achievement, although <ref type="bibr" coords="5,326.77,159.24,60.69,9.66" target="#b3">Armor (1972)</ref> raises questions about the findings. Subsequent work by <ref type="bibr" coords="5,325.46,171.30,52.27,9.66" target="#b20">Crain (1970)</ref>, <ref type="bibr" coords="5,384.92,171.30,71.59,9.66" target="#b31">Hanushek (1972)</ref>, <ref type="bibr" coords="5,149.75,183.35,154.39,9.66" target="#b8">Boozer, Krueger, and Wolkon (1992)</ref>, <ref type="bibr" coords="5,310.83,183.35,63.35,9.66" target="#b29">Grogger (1996)</ref>, <ref type="bibr" coords="5,380.83,183.35,57.74,9.66" target="#b37">Hoxby (2000)</ref>, and <ref type="bibr" coords="5,149.75,195.40,136.51,9.66" target="#b35">Hanushek and Raymond (2005)</ref> also finds that school racial composition affects academic, social, and economic outcomes.</p><p>On the other side, <ref type="bibr" coords="5,245.25,219.51,59.37,9.66" target="#b49">Rivkin (2000)</ref> finds no evidence that exposure to whites increases academic attainment or earnings for black men or women in the high school class of 1982, <ref type="bibr" coords="5,299.71,243.62,118.44,9.66" target="#b10">Card and Rothstein (2007)</ref> find that neighborhood but not school racial composition affects achievement, and <ref type="bibr" coords="5,149.75,267.73,102.64,9.66" target="#b17">Cook and Evans (2000)</ref> indicate that little of the black-white difference in National Assessment of Educational Progress scores can be attributed to racial concentration. Both the Rivkin and the Card and Rothstein papers focus on the test results of high school seniors, a very different age group that is subject to far more nonrandom selection in terms of high school continuation and inclusion in the sample. This is particularly true in the Card and Rothstein paper, in which only those who chose to take college entry examinations are included. A comprehensive review finds the evidence on achievement and psychological differences to be very mixed <ref type="bibr" coords="5,201.49,376.92,67.48,9.66" target="#b54">(Schofield 1995)</ref>. As highlighted in the next section, the difficulty of isolating exogenous variation in racial composition likely contributes to the disparate findings.</p><p>Finally, a recent investigation of racial peer influences by <ref type="bibr" coords="5,409.80,413.38,50.82,9.66;5,149.75,425.53,50.73,9.66" target="#b1">Angrist and Lang (2004)</ref> exploits the potential impacts of the Massachusetts voluntary interdistrict integration program (Metco) on students in the receiving districts. They find little evidence that white students in the receiving district are affected by added blacks entering through the Metco program, although blacks in the receiving district appear more sensitive to the influx of lower-achieving black students.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. Methodology</head><p>Detecting the causal effect of school racial composition on achievement is difficult primarily because racial mixing in the schools is not an accident but rather an outcome of both government and family choices. Some families have the opportunity and desire to live in racially mixed neighborhoods, and others do not; some participate in voluntary or involuntary desegregation programs, and others do not; some districts and communities pursue aggressive desegregation efforts, and others actively resist such programs. These and other factors entering into residential location decisions impede efforts to isolate exogenous variation in racial composition that can be used to identify its causal effect on student outcomes.</p><p>Extensive prior work into the effects of class size, teacher characteristics, peer turnover, and other school and peer variables indicates that typically available variables provide inadequate controls for confounding influences related to both the outcome and causal factor of interest. Since numerous actors and institutions combine to determine the allocation of students among schools by race, the deficiency of simple models that use only observed characteristics to control for potentially confounding factorswhile large for peer effects in general-is likely to be even larger in the study of racial composition. Consequently, alternative methods are required to isolate exogenous variation in racial composition. Our approach takes advantage of the stacked panel data from the Texas Schools Project to estimate a series of models that incorporate an array of fixed effects to account for systematic factors related to choices by schools and parents that threaten the identification of the effects of racial composition. Because the quality of education may vary systematically by race within schools, we pursue extensive sensitivity analyses including separate regressions by race where the fixed effects for schools and grades are not constrained to be equal for blacks and whites.</p><p>A. Empirical Model of the Impact of Racial Composition Equation (1) highlights the key identification issues that must be addressed in the absence of random assignment. Here achievement (A) for black (white) student i in grade G and year y is modeled as a function of student, family, school, and peer factors: where b is racial composition in grade G; X and S are vectors of flows of contemporaneous family background and school inputs during grade G; a is an individual intercept specific to grade G in year y, which captures the cumulative effects on each student of prior family, neighborhood, and school experiences and ability; and e is a stochastic term capturing other unmeasured influences. 10 If b were uncorrelated with e and a, ordinary least squares (OLS) would yield an unbiased estimate of l. But, as noted above, the complications inherent in the determination of the distribution of peer racial composition in combination with existing evidence on peer, teacher, and school effects on achievement strongly suggest that typically available variables contained in X and S will not account adequately for potentially confounding factors, thereby introducing bias into OLS estimates of l. Our basic approach for the estimation of l is to use panel data methods to control for race-specific student, family, school, and community factors that could potentially bias the estimated racial composition effects. We begin by expanding the error term e from equation <ref type="formula" coords="7,380.04,159.34,11.60,9.66" target="#formula_0">(1)</ref> into a series of components in order to highlight both the types of school and neighborhood factors accounted for directly by the panel data methods and those factors that remain unaccounted for: where the first three terms are fixed school ( ), grade ( ), and year ( ) q y w effects, the next three terms ) are second-level interactions among (r, p, J these three components, the seventh term ( ) is the third-level interaction, t and the final term ( ) is a random error.</p><formula xml:id="formula_0" coords="6,215.26,430.63,245.58,10.15">A p a ϩ bX ϩ dS ϩ lb ϩ e ,<label>( 1 )</label></formula><formula xml:id="formula_1" coords="7,199.02,225.80,261.62,10.15">e p q ϩ y ϩ w ϩ r ϩ p ϩ J ϩ t ϩ ,<label>(2)</label></formula><p>The school fixed effect ( ) captures time-invariant differences in neighq borhoods and schools, many of which are likely related to both achievement and school racial composition. These include school facilities, public services, community type, and working conditions that influence teacher supply. The grade, year, and year-by-grade fixed effects ( ) account y, w, r for statewide trends in racial composition and achievement by grade and year and other factors, including changes in test difficulty.</p><p>Because school quality may vary over time and by grade for each school, equation (2) also includes interactions between school and both grade and year. The school-by-grade component ( ) captures any systematic difp ferences across grades in a school that are common to all years, and the school-by-year ( ) term accounts for systematic year-to-year differences J that are common to all grades in a school. The school-by-grade fixed effects account not only for school-or district-specific influences, such as the curriculum, but also for such possibilities as achievement and racial composition varying systematically with age, as would be the case if white exit from schools rises at the same age as achievement of blacks declines (say, because of peer or community influences).</p><p>The school-by-year fixed effects remove, in a very general way, not only school-specific performance trends but also idiosyncratic variation over time in school administration and in neighborhood and local economic conditions that likely affect mobility patterns, including such things as the introduction of new race-related school policies or the myriad changes documented to occur in "transitional neighborhoods." For example, an economic shock that reduces neighborhood employment and income is absorbed and will not bias the estimates, nor will a shock to local school finances or the quality of the local school board, because each of these would affect all grades in a school.</p><p>The seventh term, t, is the full three-way interaction between school, grade, and year; it cannot be included in our estimation because there would be no variation left in racial composition across time or grades. 11 Ignoring this three-way interaction means that grade-specific variation over time in school average teacher quality or other achievement determinants could potentially bias the estimates if also correlated with racial composition. Yet, because of the nontrivial costs of switching schools and the fact that teacher assignments and other relevant aspects of school decisions are typically not known until immediately prior to the beginning of a school year, we do not expect changes over time in school and teacher quality for specific grades to be systematically linked with yearly changes in racial composition through parental behavioral responses. <ref type="bibr" coords="8,409.07,253.94,5.98,5.31">12</ref> We do include information on teacher experience and class size, because these variables (which have been shown to be significant determinants of achievement) might be incidentally linked to racial composition. The sensitivity of the racial composition estimates to these controls provides information about the likely effects of both observed and unobserved changes in school and teacher quality not accounted for by the included fixed effects.</p><p>The variation used to identify the parameter estimates for racial composition can be illustrated by considering a single school. (In a more general case with multiple schools, the coefficients would reflect the average of these within school relationships across the sample). With multiple years of data for one grade, we could use cohort differences in achievement and racial composition to identify the racial composition effect entirely within a grade of the school. However, unobserved changes over time could bias the estimates produced by this "school-by-grade fixed effects" model that removes any variation across schools and grades within the school. Alternatively, with multiple grades of data for a single year, we could use grade differences in achievement and racial composition <ref type="bibr" coords="8,158.72,481.90,5.38,4.74">11</ref> We restrict attention to variations in racial composition at the grade rather than classroom level. We believe there are conceptual reasons for doing this, but we also have no alternative because our data do not support classroom-specific analysis. The complication of any classroom analysis comes from selective placement of students into classrooms, which responds to the choices of school administrators and the preferences of parents and which is likely to reflect some influence of racial composition and parental bargaining skills. The estimator employing grade-level aggregation is closely related to the use of grade average percent black as an instrument for classroom percent black. <ref type="bibr" coords="8,380.98,562.32,79.66,8.70;8,149.75,572.28,53.65,8.70" target="#b13">Clotfelter, Ladd, and Vigdor (2003)</ref> find significant variations in the racial composition of classrooms by district, school, classroom, and academic track in middle school but much less so in primary school. Their descriptive analysis does not address implications for student performance, but, given our inclusion of school-by-year and school-bygrade fixed effects in regressions estimated separately by race, any such variation likely has a negligible effect on the estimates in this article.</p><p>12 Among other things, transactions costs and the presence of multiple children in the majority of families would tend to limit family mobility in response to concerns about school quality for a single grade even if relevant teacher and classroom assignments were known in a timely manner.</p><p>within the school to identify the racial composition effect. However, systematic differences by cohort or grade could bias the estimates produced by this school-by-year fixed effects model.</p><p>The availability of data for multiple years and grades actually permits the simultaneous inclusion of both school-by-grade and school-by-year fixed effects. In this case the racial composition effect is identified by deviations from a school's average racial composition for each grade and year. Although this eliminates primary sources of bias, unobserved differences by grade and year, including test difficulty and grade-specific policy changes at the district or state level, could still contaminate the estimates. But the availability of data for a number of schools enables us to control for average grade-by-year effects across all schools.</p><p>In this framework, the remaining variation in racial composition comes both from students switching schools and from persistent cohortto-cohort differences reflecting natural demographic variations in cohort composition within schools. An identifying assumption in a number of studies that make use of cohort differences is that either raw cohort differences or differences remaining following the removal of school-specific trends over time are not correlated with confounding factors. This approach, which builds on the intuition that students close in age in the same school have many similar experiences, has been used in a variety of circumstances (e.g., <ref type="bibr" coords="9,233.27,398.24,119.76,9.66" target="#b23">Ehrenberg and Brewer 1995;</ref><ref type="bibr" coords="9,355.02,398.24,105.59,9.66" target="#b25">Ferguson and Ladd 1996;</ref><ref type="bibr" coords=""></ref> and more recently by Hoxby 2000 in a study of racial composition effects). A potential problem with this approach is that some differences across even adjacent cohorts may be systematically related to both racial composition and achievement, and this would lead to biased estimates. Consequently, we go to great lengths to account for the effects of mobility, changes in teacher and school characteristics, and school and neighborhood shocks that could introduce bias.</p><p>Mobility-induced racial composition changes present potentially serious problems, and the aforementioned studies do not control for mobility. <ref type="bibr" coords="9,149.75,517.79,161.44,9.66" target="#b34">Hanushek, Kain, and Rivkin (2004a)</ref> show that blacks are much more likely to move than whites and thus are likely to contribute disproportionately to year-to-year changes in school racial composition. Moving to a new school tends to affect adversely both the movers and nonmovers, particularly if the move occurs during the academic year. 13 Moreover, the evidence shows that movers tend to have lower prior achievement, indicating that determinants of learning in prior periods were less conducive <ref type="bibr" coords="9,158.72,611.41,5.38,4.74">13</ref>  <ref type="bibr" coords="9,166.34,612.13,88.56,8.70" target="#b34">Hanushek et al. (2004a)</ref> show that moving students tend to suffer academically in the year of a move and that higher aggregate turnover in a school has a negative impact on all students. Moreover, black students have higher mobility rates and attend schools with significantly higher student turnover than whites. <ref type="bibr" coords="9,419.13,642.02,41.50,8.70;9,149.75,651.98,98.30,8.70" target="#b34">Hanushek, Kain, and Rivkin (2004b)</ref> also find that year-to-year differences in student racial composition and student demographic variables affect teacher transitions as well. to achievement. Consequently, the effects of mobility and unobserved student differences would tend to lower average achievement for blacks in schools that experience increases in the black enrollment share, thereby biasing estimates of the impact of proportion black. Finally, high inmigration to a school may raise class size, introducing another avenue for spurious correlation between achievement and proportion black.</p><p>In order to purge these contaminating influences, we control directly for the effects of moving on school changers with a vector of mobility variables that allow for different effects by timing, number, and type of move (elements of X); 14 for the external effects of peer turnover with measures of both the proportion of students new to the school at the start of the year and the proportion who enter during the school year; and for teacher/organizational factors with measures of teacher experience and class size (elements of S).</p><p>The key remaining issue is the appropriate method of controlling for student heterogeneity, a in equation <ref type="formula" coords="10,314.90,326.51,10.58,9.66" target="#formula_0">(1)</ref>. Equation <ref type="formula" coords="10,377.23,326.51,11.62,9.66">(3)</ref> specifies a as a function of prior school and family variables, racial composition in previous grades, and unobserved "ability" g: 15</p><formula xml:id="formula_2" coords="10,216.95,369.00,243.69,59.11">GϪ1 GϪ1 GϪg G Ϫg a p b v X ϩ d v S iGy igy igy gp1 gp1 GϪ1 GϪ1 GϪg G Ϫg ϩ l v b ϩ g ϩ v g . (3) ( ) igy i i gp1 gp1</formula><p>This formulation captures the notion that the families, communities, and schools exert cumulative effects that establish the knowledge base at the start of grade G and therefore affect achievement at the end of grade G. <ref type="bibr" coords="10,454.60,462.15,5.98,5.31">16</ref> The effects of prior period variables are assumed to decline exponentially as a function of time from the present at a constant rate where (1 Ϫ v), . This formulation subsumes most commonly estimated spec-0 ≤ v ≤ 1 14 Indicator variables differentiate both among those moving during the summer, during the school year, or at least twice in the same year and among withindistrict changes, district changes within geographic region, and moves across regions. <ref type="bibr" coords="10,158.72,561.60,5.38,4.74">15</ref>  <ref type="bibr" coords="10,166.34,562.32,122.24,8.70" target="#b7">Boardman and Murnane (1979)</ref> and <ref type="bibr" coords="10,308.96,562.32,95.97,8.70" target="#b58">Todd and Wolpin (2003)</ref> also highlight the importance of unobserved ability and the cumulative nature of learning. <ref type="bibr" coords="10,158.72,581.52,5.38,4.74">16</ref> This representation makes clear the interpretation of the various inputs (X, S, and b). These represent the flow of these inputs in each grade, while the cumulative input flows in eq. (3), appropriately weighted, capture the total effect of each input up to grade G. At times the flows are measured by the level of specific inputs that do not change frequently, such as the educational attainment of parents, but the conceptual idea is that parents with different educational attainment provide differing flows of inputs to their child's learning. Moreover, with separation and new family relationships, these inputs can themselves vary over time.</p><p>ifications of achievement models. 17 At the extreme of past inputs v p 0, are not relevant for current achievement; that is, having a good fourthgrade teacher does not have any implications for math achievement at the end of the fifth grade. On the other hand, implies no depreciation v p 1 of the influence of past inputs, that is, that the impact of a good fourthgrade teacher on fourth-grade achievement equals her impact on fifthgrade achievement and achievement in all future grades.</p><p>The term g is a fixed annual element added to reflect the panoply of early childhood influences, prenatal care, heredity, and other factorsfactors often jointly referred to simply as innate ability-that have a continuing influence on learning. Notice that our formulation is learningbased in that the value of g affects the quantity of skills and knowledge acquired at each grade, and these increments to achievement are subject to depreciation. This explicitly permits the affects of ability on achievement to increase with age. The exact formulation and interpretation depends, however, on the measurement of achievement. If measured with vertically scaled tests, differences in g would contribute to a widening of the skill distribution over time as long as v were not equal to zero. 18 However, if skills were measured by location in the distribution (as we do here with standardized scores), the complicated final term in parentheses could be replaced with g i because ability-induced differences in relative achievement would remain constant over time. <ref type="bibr" coords="11,385.51,407.36,5.98,5.31">19</ref> Equation <ref type="formula" coords="11,203.87,420.16,3.87,9.66">(</ref>3) includes a mixture of time-invariant and time-varying differences that could potentially bias estimates of racial composition effects if not incorporated directly into the estimation. The inclusion of a student-by-year fixed effect would account for both fixed and time-varying influences in a very general way but would preclude the estimation of any school or peer effects. A plausible alternative is the inclusion of prior test score as an additional regressor. As can be readily seen by writing equations <ref type="formula" coords="12,193.70,220.11,11.61,9.66" target="#formula_0">(1)</ref> and <ref type="formula" coords="12,226.89,220.11,11.61,9.66">(3)</ref> for grade this would capture much if not all G Ϫ 1, of the student heterogeneity that might be systematically related to racial composition without imposing an assumption about the value of v; only the effect of contemporaneous ability is not directly accounted for by g lagged achievement.</p><p>A key identifying assumption of the generalized fixed effects value-added model developed here is that any variation in g not correlated with the prior test score is orthogonal to the variation in teacher and school characteristics that remains following the inclusion of the multiple levels of school fixed effects. We have little reason to believe that, conditional on prior score, schools or parents act to alter grade average teacher or peer characteristics in ways that are related systematically to this unobserved ability. Nonetheless, as a specification check, we also provide estimates of lagged achievement models with student fixed effects that account directly for any such individual heterogeneity.</p><p>There does remain some ambiguity and disagreement over the most appropriate method for accounting for unobserved heterogeneity, and therefore we estimate a series of common specifications including models that use achievement score as the dependent variable and do not control for unobserved heterogeneity with lagged achievement and models that use test score gain (current minus prior year score) as a dependent variable. Importantly, these alternatives impose strong assumptions on the value of v that would yield biased estimates of the grade-specific effect of peer proportion black if violated. 20 The levels model imposes the assumption that the prior influences identified in equation <ref type="formula" coords="12,335.07,513.50,11.42,9.66">(3)</ref> do not persist at all (v p while the gains model imposes the assumption that they do not depreciate 0), at all 21 A comparison of results for the various models permits an (v p 1). assessment of the assumptions underlying the respective specifications. 22 20 <ref type="bibr" coords="12,166.34,572.28,53.00,8.70" target="#b49">Rivkin (2005)</ref> describes potential specification biases related to assumptions regarding knowledge depreciation, and this discussion draws from that work. <ref type="bibr" coords="12,158.72,591.48,5.38,4.74">21</ref> In preliminary work, we estimated levels and gains models with student fixed effects. The assumptions regarding v remain important following the addition of the student fixed effects, though these fixed effects alter the direction of the bias introduced by the violation of these assumptions (see <ref type="bibr" coords="12,360.60,622.09,48.12,8.70" target="#b49">Rivkin 2005)</ref>. The pattern of results (not reported) strongly suggest that specification errors lead to clear biases in the estimates produced by these student fixed effect specifications. <ref type="bibr" coords="12,158.72,651.26,5.38,4.74">22</ref> A final consideration is the possibility that the linear model in lagged achievement may fail to capture the full complexity of the relationship between prior</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Additional Estimation Issues</head><p>Under some circumstances, fixed effects estimators tend to exacerbate measurement error and introduce attenuation bias (see <ref type="bibr" coords="13,401.30,175.08,59.33,9.66;13,149.75,187.04,66.68,9.66" target="#b28">Griliches and Hausman 1986;</ref><ref type="bibr" coords="13,219.72,187.04,93.67,9.66" target="#b62">and Wooldridge 2002)</ref>. The introduction of fixed effects can reduce the bias from unobserved heterogeneity, but it can also reduce the signal-to-noise ratio in the presence of measurement error. 23 Because racial composition is measured at a single point in the school year and because there may be some uncertainty or error in student race classification, there is almost certainly some noise in the racial composition variable. Moreover, the structure of the data potentially amplifies the problem because many schools contribute only a single grade (either fifth or seventh) in some or all years of the sample. In such cases, the inclusion of school-by-year fixed effects essentially drops these observations from the regressions, substantially reducing the effective sample size used to identify the racial composition parameter.</p><p>In order to mitigate the reduction in effective sample size caused by the inclusion of school-by-year fixed effects, we construct an alternative control for time-varying factors. Rather than treating each school as a separate entity, we associate each middle school with its elementary school feeders to create an attendance zone that spans the grades in the sample. A far smaller number of attendance zones have only a single grade-school combination in a given sample year. The attendance zone-by-year fixed effects, denoted by , replace and account for neighborhood shocks, f J ay sy</p><p>year-to-year changes experienced by school attendance zones, and any changes at the district level. Although they miss idiosyncratic schoolspecific shocks, these are less likely to be systematically related to school racial composition. The introduction of student fixed effects also exacerbates the potential for attenuation bias. In models that include school-by-grade and schoolby-year or attendance zone-by-year fixed effects, within-school differences inputs and achievement. This could happen if, e.g., the rate at which current learning builds upon past knowledge varies across the skill distribution or the structure of the available tests leads to systematically higher gains in classrooms that focus on material emphasized on tests (see <ref type="bibr" coords="13,329.76,552.36,47.43,8.70" target="#b57">Tobias 2004;</ref><ref type="bibr" coords="13,149.75,562.32,114.82,8.70" target="#b5">and Bacolod and Tobias 2006)</ref>. To examine the effects of any such nonlinearities, our preliminary analyses divided prior-grade test scores into 20 equal-sized intervals and included an indicator variable for each group but one in the specification. But this more flexible functional form left the estimated racial composition effects virtually unchanged, leading us to maintain the linearity assumption for prior achievement throughout the empirical analysis presented below. <ref type="bibr" coords="13,158.72,621.37,5.38,4.74">23</ref> A similar concern holds for any omitted factors that are correlated with racial composition and thus would bias the coefficient estimates. Because the variation in proportion black remaining after removal of the fixed effects is considerably reduced, any correlations for remaining omitted variables can lead to substantial bias in the estimated parameters. between and within cohorts identify racial composition effects. However, in models with student fixed effects, only within-cohort variation is used to identify the effects of racial composition. We document changes in the proportion black residual variance following the introduction of the respective fixed effects to provide information on the likely importance of bias induced by measurement error or related omitted variables.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. UTD Texas Schools Data</head><p>The cornerstone of the analysis of racial composition effects on achievement is a unique stacked panel data set of school operations constructed by the UTD Texas Schools Project, a project conceived of by John Kain. The data we employ track the universe of three successive cohorts of Texas public elementary students as they progress through school. For each cohort, there are more than 200,000 students in over 3,000 public schools. Unlike many data sets that sample only small numbers from each school, these data enable us to create quite accurate measures of racial composition and peer group characteristics. We use data for grades 4-6 for the last cohort and grades 4-7 for two earlier cohorts. The most recent cohort attended fifth grade in 1996, while the earliest cohort attended fifth grade in 1994. Only black and white students with valid test scores for all relevant grades are included in the achievement analysis, although all students are used in the calculations of peer characteristics. In addition, as noted above, we exclude the small number of students retained in grade because tests are not vertically scaled across grades. <ref type="bibr" coords="14,371.66,423.30,5.98,5.31">24</ref> The student data contain a limited number of student, family, and program characteristics, including race, ethnicity, gender, and eligibility for a free or reduced price lunch (the measure of economic disadvantage). However, the panel feature of the data is exploited to account implicitly for a more extensive set of background characteristics.</p><p>Importantly, students who switch schools can be followed as long as they remain in a Texas public school. This ability to follow students permits accurate assessment of mobility effects and detailed investigation of the sensitivity of racial composition to the cause of its change (mobility, structural moves from elementary to middle school, or changed peers in the same school).</p><p>Students who leave Texas public schools-for private schools, for home schooling, or for schools in a different state-cannot be followed. The losses to private schools could be problematic if the choice depended in part on variations in the racial composition of the public school, though <ref type="bibr" coords="14,158.72,631.33,5.38,4.74">24</ref> The highest rate of grade retention occurs in seventh grade for black boys, where it reaches 3.1% in Texas (1.6% for white boys). In addition to being quantitatively small, the estimation removes school-by-grade fixed effects so that only time-varying retention rates could have any effect on the estimation. the various fixed effects and controls for student heterogeneity make it unlikely that even purposeful selection would introduce bias. The possibility that the racial composition effects differ for such students certainly exists and would not be captured in our estimation. However, low private school enrollment in Texas (less than 6% overall and far lower for lowerincome minority students) and the fact that the proportion exiting our sample declines with age indicates that our estimates are based on the overwhelming majority of students in the state.</p><p>Beginning in 1993, the Texas Assessment of Academic Skills (TAAS) was administered each spring to eligible students enrolled in grades 3-8.</p><p>The tests, labeled criteria-referenced tests, evaluate student mastery of grade-specific subject matter. This article presents results for mathematics, although the results are qualitatively quite similar for reading.</p><p>Each math test contains approximately 50 questions. Because the number of questions and average percent right varies across time and grades, we transform all test results into standardized scores with a mean of zero and variance equal to one. In the empirical analysis, an additional gradeby-year fixed effect ( ) is introduced to capture grade-by-year differ-r Gy ences in the statewide testing regime. The regression results are robust to a number of transformations, including the raw percentage correct. In order to avoid complications associated with classification as limited English proficient (LEP) or disabled, all LEP and special education students are dropped from the achievement analysis, although again these students are included in the peer racial composition calculations. <ref type="bibr" coords="15,390.05,423.90,5.98,5.31">25</ref> Importantly, the student database can be merged with detailed information on teachers and classrooms, including grade and subject taught, class size, years of experience, highest degree earned, and population served. Although individual student-teacher matches are not possible, students and teachers can be uniquely related to a grade on each campus. Each student is assigned the average class size and the distribution of teacher experience for teachers in regular classrooms for the appropriate grade, school, and year.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. Empirical Results</head><p>This section reports the results of a series of regressions on the effects of school racial composition on mathematics achievement. Specifications differ by included fixed effects, by included school and teacher characteristics, and by the approach used to control for unobserved student <ref type="bibr" coords="15,158.72,621.37,5.38,4.74">25</ref> The peer achievement calculations will underrepresent LEP and special education students because they take the TAAS tests less frequently than regular education students <ref type="bibr" coords="15,225.97,642.02,142.34,8.70" target="#b34">(Hanushek, Kain, and Rivkin 2002a)</ref>. It is unclear how this might affect our peer achievement estimates, but clearly they remain a relatively small proportion of the student population, heterogeneity. <ref type="bibr" coords="16,209.43,146.34,5.98,5.31">26</ref> The inclusion of prior peer achievement in some specifications provides information about the potential source of any racial composition effects. 27 All specifications include indicators for subsidized lunch eligibility and for various types of student moves, transitions to middle school, and the proportion of students who are Hispanic, all fully interacted with race. 28 Robust standard errors clustered by school account for both the level at which peer composition is measured and any serial correlation in errors within schools.</p><p>In addition to the estimates of the average effects of racial composition on achievement based on a sample that combines blacks and whites, we conduct a number of sensitivity tests. These include separate estimation by race that permits the school fixed effects, and thus school quality, to vary by race; specifications that permit the proportion black effects to vary by student mobility; falsification tests that examine the effects of future proportion black and proportion black for other cohorts; and specifications that include student fixed effects to account for remaining student heterogeneity.</p><p>For computational considerations, all but the student fixed effect regressions use aggregate data weighted by the number of students in the cell. Data for the basic regressions are aggregated by race, school, grade, and year, while data for the regressions that permit effects to vary by mobility status are aggregated by mobility status, race, school, grade, and year. Not surprisingly, given the linear structure of the model, preliminary 26 A number of included variables, reported in the tables, are based on prior findings about specific factors affecting achievement growth in Texas <ref type="bibr" coords="16,418.43,452.73,42.25,8.70;16,149.75,462.70,41.99,8.70" target="#b34">(Hanushek et al. 2004a</ref><ref type="bibr" coords="16,222.17,462.70,133.70,8.70" target="#b50">Rivkin, Hanushek, and Kain 2005)</ref>. <ref type="bibr" coords="16,158.72,471.94,5.38,4.74">27</ref> We use the average achievement of current schoolmates 2 years prior to measure differences in cognitive achievement. This captures stable cognitive ability differences but does not include any contemporaneous innovations in achievement that might reflect interactive behavior. Inclusion of current achievement raises the essentially insoluble reflection problem described by <ref type="bibr" coords="16,311.28,512.51,52.74,8.70" target="#b43">Manski (1993)</ref>. Our approach takes the "characteristics" view of ability as opposed to the "behavioral" view, as described in and extended by <ref type="bibr" coords="16,222.20,532.43,94.14,8.70" target="#b9">Brock and Durlauf (2001)</ref>. See also <ref type="bibr" coords="16,352.41,532.43,52.54,8.70" target="#b45">Moffitt (2001)</ref> and <ref type="bibr" coords="16,422.04,532.43,38.62,8.70;16,149.75,542.40,43.41,8.70" target="#b32">Hanushek et al. (2003)</ref>. Nonetheless, empirically we find the pattern of changes in the racial composition coefficients is virtually identical regardless of whether lagged or current average achievement is used to capture peer achievement. <ref type="bibr" coords="16,158.72,571.56,5.28,4.74">28</ref> The indicators for different types of school-to-school moves are defined by during or end of year moves, by multiple moves in a year, and by moves to same district, other district, or out of sample. Specifications that do not remove student fixed effects contain dummy variables for the race, gender, and ethnicity of each student and a full set of grade-by-year indicators. Measured teacher and school characteristics include the proportion of students who are new to the school each year, the proportion of teachers with zero years of experience, and class size (all calculated by grade). Preliminary specifications also included a measure of teacher turnover (proportion of teachers new in grade G), but it was found to have no significant effect, and its exclusion had virtually no impact on the other coefficients. Note.-observations. Huber-White adjusted standard errors clustered by school in paren-N p 801,749 theses. All specifications estimated on combined samples of blacks and whites and include proportion Hispanic; indicators for within-district, between-district, and between-region school changes other than transitions to middle school; indicators for school changes during the school year and multiple changes in 1 year; an indicator for a middle school transition; and indicators for subsidized lunch eligibility and female. results show that these student-weighted aggregate regressions produce virtually identical estimates for the coefficients on proportion black and for robust standard errors as estimates from student-level regressions of comparable specifications.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Baseline Results and Model Comparisons</head><p>We present estimates of the effect of racial composition on achievement that come from a series of alternative specifications. These use different approaches to account for confounding factors and make different assumptions about the rate of knowledge depreciation and about the experiences of blacks and whites in the same schools. <ref type="table" coords="17,159.71,577.56,31.40,9.66" target="#tab_6">Table 1</ref> presents coefficients for proportion black ( ), estimated sepa-l rately by race, for a series of different specifications. The different rows provide direct comparisons of the three basic models that differ by maintained hypotheses about the depreciation parameter, v, in equation <ref type="formula" coords="17,446.55,613.43,10.55,9.66">(3)</ref>. Estimates in panel 1 do not control for prior achievement (i.e., maintain that ); estimates in panel 2 control for prior achievement by using v p 0 test score gain as the dependent variable (i.e., maintain that ); those v p 1 in panel 3 include prior achievement as a regressor to control more flexibly for student heterogeneity (i.e., do not constrain v). The columns employ varying fixed effects to deal with the underlying school and student heterogeneity that might contaminate the estimated effects of proportion black. Column 1 includes only grade-by-year fixed effects to account for test differences over time; column 2 adds school-by-grade fixed effects (which subsume school fixed effects); column 3 introduces fixed effects for school-by-year, while the final column substitutes attendance zoneby-year fixed effects for the school-by-year fixed effects. As noted earlier, because of the grade structure of schools, the inclusion of school-by-year fixed effects removes a substantial proportion of students from the identification of the racial composition effects, while inclusion of the attendance zone-by-year fixed effects removes far fewer.</p><p>The point estimates throughout the table indicate that a higher concentration of black students is associated with lower achievement for blacks and whites, though estimates for blacks are uniformly larger and more significant than those for whites. It is also important to note that the estimates are insensitive to the inclusion of proportion Hispanic in the regression (not shown), indicating that it is the black concentration and not the minority concentration in a school that matters.</p><p>Comparisons across the three panels reveal that the coefficients for blacks and whites are consistent with expectations regarding the impact of incorrect assumptions about the rate at which knowledge depreciates over time, that is, about v <ref type="bibr" coords="18,267.71,410.19,57.43,9.66" target="#b49">(Rivkin 2005)</ref>. Specifically, although the differences across specifications are likely not to be statistically significant, the magnitude of the proportion black effect is largest in the model estimated in level form, followed by the value-added model with lagged achievement, and then by the simple gains model where v is assumed to be 1.</p><p>Comparisons across columns illustrate the importance of controlling for unobserved grade and time-varying differences among schools. The inclusion of school-by-grade fixed effects increases the estimated impact of proportion black students (regardless of the basic specification of the relationship), a likely reflection of the grade pattern of effects. 29 Preliminary work showed that blacks in high proportion black elementary schools typically experienced both a decline in proportion black and a substantial achievement decline following the transition to middle school. In specifications that do not include school-by-grade fixed effects, and thus do not remove between-school and between-grade variation in proportion black, the difficult middle school transition for many blacks attending elementary schools with a high proportion black will tend to dampen the estimated relationship between achievement and proportion black. Other factors, such as schools differing in the emphasis placed on standardized tests, could also affect cross-sectional estimates of the school proportion black effects.</p><p>The addition of either school-by-year or attendance zone-by-year fixed effects slightly reduces the magnitudes and precision of the estimates (except in the test score levels models in the top panel). In the preferred lagged achievement specification, the inclusion of either school-by-year or attendance zone-by-year fixed effects reduces the proportion black coefficient for blacks by roughly 20%, but it remains significant at the 1% level with the attendance zone-by-year fixed effects and at the 5% level with the school fixed effects. The larger standard errors in the model with school-by-year fixed effects come as no surprise given the fact that this model uses far fewer observations and much less of the variation in proportion black to identify the coefficients. Moreover, the fact that the two alternative models produce almost identical point estimates for the proportion black coefficients provides compelling evidence in favor of the validity of these estimates as the results are not sensitive to the precise method used to account for school and neighborhood changes over time. <ref type="bibr" coords="19,454.60,349.58,5.98,5.31">30</ref> A remaining potential threat to the identification of the racial composition effect is that systematic, time-varying school factors might be correlated with racial composition. Consider a school that experiences an influx of black students in a single grade. This entry would be expected to increase the black enrollment share, raise class size, increase the share of students new to the school, and reduce the average academic preparation of blacks since movers tend to be drawn from the lower part of the achievement distribution. The failure to account for the changes in class size, teacher assignments, peer turnover, and academic preparation could consequently introduce bias into the estimates of racial composition effects. Therefore we include class size, peer turnover, and the shares of teachers with little or no experience in some specifications; the valueadded models account explicitly for academic preparation of each student. <ref type="bibr" coords="19,158.72,531.71,5.28,4.74">30</ref> Appendix table A2 reports that the standard deviation of proportion black is 29 percentage points for blacks and 11 percentage points for whites (bottom row), but most of this comes from differences across schools-variation that will incorporate parental residential and school choices and a variety of other things that are difficult to consider explicitly. Eliminating this variation between schools (by including school-by-grade fixed effects and the vector of other variables) reduces the relevant standard deviation to 2.6 percentage points for blacks and 1.9 percentage points for whites (second row). The addition of school-by-year fixed effects further reduces the residual variation to 1.1 and 0.9 percentage points for blacks and whites, respectively (third row), while the addition of attendance zone-by-year fixed effects reduces the residual variation to 2.1 and 1.5 percentage points for blacks and whites, respectively (fourth row). Thus the substitution of attendance zone-by-year in place of school-by-year fixed effects substantially increases the remaining variation in proportion black used to identify the coefficients.  Note.-observations. Huber-White adjusted standard errors clustered by school in paren-N p 801,749 theses. All specifications estimated on combined samples of blacks and whites and include proportion Hispanic; indicators for within district, between district, and between region school changes other than transitions to middle school; indicators for school changes during the school year and multiple changes in one year; an indicator for a middle school transition; and indicators for subsidized lunch eligibility and female. Specifications with school and teacher characteristics also include the proportion of teachers in their first year, class size interacted with grade, the proportion of students who move to the school prior to the start of the school year, and the proportion who move to the school during the year. Peer achievement is measured by twice-lagged math score averaged over current students in the school and grade. <ref type="table" coords="20,149.75,499.86,30.61,9.66" target="#tab_9">Table 2</ref> also reports coefficients for specifications that include the average twice-lagged achievement for current peers in order to understand better the contribution of differences in academic preparation to the racial composition effects.</p><p>As seen in table 2 (which includes cols. 2 and 4 of table 1 for comparison purposes) the inclusion of measured teacher and school characteristicsclass size, proportion of teachers in their first year of experience, and school mobility rates-has virtually no effect on any of the estimates despite the fact that class size and proportion of teachers with no prior experience are significant determinants of achievement in most specifications. 31 By comparison, the coefficients for whites are much smaller and 31 Specifications with attendance zone-by-year and school-by-year fixed effects produce very similar estimates, and we focus on attendance zone-by-year fixed effects models because the estimates are more precise. less precisely estimated and become insignificant and smaller once attendance zone-by-year fixed effects are included. The hypothesis that the proportion black effect does not differ by race is rejected at the 0.001 significance level in models including attendance zone-by-year fixed effects.</p><p>The only substantial effect comes from adding lagged peer achievement, a variable that is correlated with proportion black by virtue of the lower average achievement of black students. Our preferred value-added model with lagged achievement (i.e., unconstrained v) and attendance zone-byyear fixed effects produces proportion black coefficients for blacks equal to Ϫ0.20 in the model without peer achievement and Ϫ0.17 in the model that adds lagged peer achievement, with all estimates of racial concentration being highly significant. This suggests that differences in academic preparation account for roughly 15% of the proportion black effect for blacks.</p><p>Notice also that the inclusion of lagged peer achievement leads to an increase rather than the expected decline in the magnitude of the proportion black coefficients in the simple gains specification and a steep decline in the magnitude of the proportion black coefficient in the levels specifications. This suggests that these models are misspecified and, in the case of the levels model with no control for own prior achievement, the lagged peer achievement variable captures unaccounted for student differences in academic preparation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Sensitivity Analysis</head><p>The stability and significance of the proportion black coefficient in the lagged achievement models provides support for the belief that proportion black exerts a causal effect on achievement for blacks, but there remains the possibility that the various fixed effects, explanatory variables, and lagged achievement do not fully account for all confounding factors. Therefore we conduct a series of sensitivity tests focused on different potential problems. The first separates the sample by race and estimates the same specifications reported in table 2 separately by race. This allows the school-by-grade and attendance zone-by-year fixed effects to vary by race, effectively permitting within-school variation in school quality-by-race. The second test interacts mobility with proportion black to examine the extent that movers, the group most likely to experience timevarying shocks, could bias the estimates. Specifically, we divide students into three categories: (1) students who remain in the same school, (2) students who move from elementary to middle school within the same attendance zone (structural move), and (3) students who switch attendance zones (family move). We would expect that those who remain in the same school might be less sensitive to changes in the student body given the  N p 655,498 by school in parentheses. All specifications estimated on separated samples of blacks and whites and include proportion Hispanic; indicators for within district, between district, and between region school changes other than transitions to middle school; indicators for school changes during the school year and multiple changes in one year; an indicator for a middle school transition; and indicators for subsidized lunch eligibility, female, and black. Specifications with school and teacher characteristics also include the proportion of teachers in their first year, class size interacted with grade, the proportion of students who move to the school prior to the start of the school year, and the proportion who move to the school during the year. Peer achievement is measured by twice-lagged math score averaged over current students in the school and grade. relative stability of their existing network of friends. The third and fourth sensitivity checks use clearly inappropriate specifications to conduct falsification checks. Finally, the fifth check adds student fixed effects to the school-by-grade fixed effect specification in order to provide additional controls for unobserved heterogeneity.</p><p>The results in table 3, which divides the sample by race, provide little evidence that within-school differences in school quality inflate the estimated effects of proportion black in specifications that restrict school quality to be identical for blacks and whites. In fact, for the lagged achievement model, the proportion black coefficients for blacks of Ϫ0.31, Ϫ0.32, and Ϫ0.25 in the first three columns are slightly larger than the corresponding estimates in table 2. Note that these estimates come from specifications that do not include attendance zone-by-year fixed effects, and once these are included the magnitudes of the estimates fall slightly below Note.-Estimates from lagged achievement models with v unconstrained for combined black and white student sample. Huber-White adjusted standard errors clustered by school in parentheses. All specifications include lagged achievement; proportion Hispanic; schoolby-grade and attendance zone-by-year fixed effects; indicators for within-district, betweendistrict, and between-region school changes other than transitions to middle school; indicators for school changes during the school year and multiple changes in 1 year; an indicator for a middle school transition; indicators for subsidized lunch eligibility and female, along with the proportion of teachers in their first year; class size interacted with grade; and the proportion of students who move to the school prior to the start of the school year and the proportion who move to the school during the year. the corresponding estimates in table 2. However, these latter estimates are also noticeably less precise than those in table 2. The separate estimation by race almost certainly contributes to the lowered precision by producing noisy estimates of the various school fixed effects in schools in which black or white enrollment is quite small. Because the schoolby-grade fixed effects alone already permit school quality to vary systematically by race, there is little reason to believe that within-school differences in school quality contaminate the estimates from specifications that constrain school quality to be identical for all students. <ref type="table" coords="23,159.71,452.04,32.51,9.66" target="#tab_11">Table 4</ref> presents the estimates that permit the effects of proportion black to vary by both race and mobility status for a lagged achievement specification with school-by-grade and attendance zone-by-year fixed effects and teacher and school characteristics (the specification reported in table 2, col. 5). The results illustrate that school switchers do not drive the relationship between proportion achievement and proportion black, as the coefficients on proportion black interacted with school mover are much smaller and less significant than the coefficients on proportion black interacted with the indicators for nonmover or structural mover. In fact the coefficients on proportion black interacted either with nonmover or structural mover are roughly twice as large in magnitude for both blacks and whites, and they are significant at the 1% level for blacks.</p><p>An alternative approach to investigating the potential for omitted variables bias is to estimate models that are similar in design but clearly inappropriate. 32 First, we add values of proportion black in the subsequent Note.-Huber-White adjusted standard errors clustered by school in parentheses. Models correspond to models for lagged achievement estimation in cols. 2 and 5 of table 2 using the combined black and white student sample. Models include year-by-grade ( ), school-by-grade ( ), and teacher and school charac-r p grade to the fixed effect lagged achievement models. Because of persistent cohort differences, racial composition in the subsequent grade is likely to be related to current achievement. However, conditional on the current proportion black, the proportion black in the following grade should have no relationship with current achievement if the model is correct. On the other hand, if nonrandom selection in and out of schools is driving the results, subsequent grade racial composition may add explanatory power. The first four columns of table 5 report estimates of models that alternatively include or exclude future proportion black over a common sample, and they reveal little or no evidence of a significant relationship between achievement and future proportion black. Regardless of whether attendance zone-by-year fixed effects are excluded (cols. 1 and 2) or included (cols. 3 and 4), the coefficients on proportion black in the subsequent grade are small and insignificant, while the coefficients on current proportion black are largely unchanged by the inclusion of subsequent grade proportion black. Thus these results reveal little reason to doubt the validity of the general specifications employed here.</p><p>Column 5 of table 5 reports results from a regression in which the value of proportion black is exchanged across cohorts in the same school and grade. 33 If our basic estimates simply reflected systematic biases arising <ref type="bibr" coords="24,158.72,651.26,5.28,4.74">33</ref> The values of proportion black across cohorts for each school and grade are exchanged for those of a different cohort in the same grade and school. Note.-observations. Standard errors are in parentheses. The lagged N p 469,741 achievement specifications are estimated in first differences by student to remove student fixed effects. All models include proportion Hispanic; a full set of grade-byyear dummies; indicators for within-district, between-district, and between-region school changes other than transitions to middle school; indicators for school changes during the school year and multiple changes in 1 year; an indicator for a middle school transition; indicators for subsidized lunch eligibility; the proportion of teachers in their first year; class size interacted with grade; the proportion of students who move to the school prior to the start of the school year and the proportion who move to the school during the year; and school-by-grade fixed effects. All variables other than lagged achievement are fully interacted by race. from omitted variables across the levels or patterns of racial composition by grade and school, these models would likely show significant effects despite the erroneous cohort-specific racial compositions. Yet the proportion black coefficient approaches zero, again providing little reason to doubt the validity of the estimates.</p><p>The final sensitivity check controls directly for unobserved ability by adding student fixed effects, but it does so, again, at the cost of potentially exacerbating the impact of measurement error. 34 <ref type="table" coords="25,356.02,456.02,30.52,9.66" target="#tab_14">Table 6</ref> reports OLS and IV estimates from lagged achievement specifications with teacher and school characteristics and school-by-grade fixed effects that account for student fixed effects by first differencing. Because the inclusion of a lagged dependent variable in a student fixed effects model produces inconsistent estimates, we use twice-lagged scores as an instrument for the difference in lagged achievement in the second specification. <ref type="bibr" coords="25,364.14,526.91,5.98,5.31">35</ref> The instrumental variable estimate of the racial composition effect for blacks is significant and only slightly smaller than the corresponding estimate in table 1 (0.18 vs. 0.25), while the coefficient for whites remains smaller and similar in magnitude to that reported in table 1. Whether the small decline in the coefficient for blacks reflects sampling error, the amplification of errors in variables induced bias, or the mitigation of omitted <ref type="bibr" coords="25,158.72,621.37,5.28,4.74">34</ref> In earlier versions of this analysis, we had a computational error in the fixed effects models, and we thank David Armor for pointing this problem out to us. <ref type="bibr" coords="25,158.72,641.30,5.28,4.74">35</ref> Because the estimates are not sensitive to the inclusion of an interaction term between race and lagged achievement, the first difference models do not include such a term. For the basic estimation approach, see <ref type="bibr" coords="25,347.34,661.94,68.90,8.70" target="#b62">Wooldridge (2002)</ref>. variables bias is uncertain, and the absence of attendance zone-by-year fixed effects does raise some concerns about the specification given the sensitivity to these controls in the previous tables. In any case, the addition of the student fixed effects does not markedly alter the overall picture of the effects of proportion black.</p><p>To this point the specifications permit variation in the effect of proportion black by race and move status but not other dimensions. The possibility remains that racial composition and peer achievement effects differ along a number of dimensions, including the level of racial concentration and gender.</p><p>Racial composition effects could vary nonlinearly with school proportion black in that a given increase in the black enrollment share in a school with a low black enrollment share might produce a very different effect from an identical increase in a school with higher black enrollment. As shown in figure 1, there are a number of districts in which black enrollment is quite low and a smaller set of districts with far higher black enrollment shares. However, polynomial specifications up to quartics in proportion black produce little or no evidence in support of effect variation by racial composition (not shown). None of the higher order polynomial terms are significant at conventional levels.</p><p>Finally, some authors have suggested that the peer influences on black boys differ from those on black girls <ref type="bibr" coords="26,312.52,577.56,59.48,9.66" target="#b37">(Hoxby 2000;</ref><ref type="bibr" coords="26,375.23,577.56,60.20,9.66" target="#b24">Ferguson 2001</ref>). We find no significant gender differences in the effect of proportion black on achievement (not shown).</p><p>Taken together, the findings provide strong support for the belief that higher black concentrations reduce black achievement. The effects appear to be substantially larger for blacks than whites, and we cannot reject the hypothesis that proportion black has no impact on whites at conventional levels in most models. Although the inclusion of lagged peer achievement appears to account for a small portion of the proportion black effect, most is not explained by this variable. Finally, the inclusion of proportion eligible for a subsidized lunch has virtually no effect on the proportion black coefficients (not shown), and we find little or no evidence that any systematic teacher movements across grades and cohorts within schools influence the results. Specifically, in specifications that include school-bygrade fixed effects, student proportion black is not significantly different for schools whose teachers switch grades than for schools whose teachers remain in the same grade (not shown).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI. Conclusions, Interpretations, and Policy Implications</head><p>The difficulties of isolating school and peer group effects have been well documented, and the interrelated decisions of families, teachers, and school officials that determine the distribution of students among schools certainly complicate the identification of any effects of racial composition. However, by using a framework that accounts for the cumulative effects of observed and unobserved determinants of learning, we overcome many of the methodological problems that impede the estimation of these effects.</p><p>Five components of the analysis give us confidence that we have isolated the causal effect of school racial composition. First, we incorporate general measures of systematic differences in schools, grades, and years through fixed effects that absorb both stable and time-varying effects of neighborhood, curriculum, school leadership, peers, teachers, and school-specific patterns of achievement change across grades, regardless of whether we can identify and measure the specific factors. Second, allowing the school-by-grade fixed effects to differ by race does not reduce the magnitude of the estimates, indicating that within-school differences in school quality by race do not inflate the estimated effect of proportion black. Third, the estimates are insensitive to the inclusion of time-varying factors that may be related to changes in racial composition: teacher experience, class size, school mobility rates, and school switches brought about by family economic changes or other shocks. Fourth, the pattern of estimates by student mobility and the falsification checks provide additional evidence that unobserved factors do not contaminate the estimates. Fifth, the results of our preferred models are consistent with general models of knowledge acquisition and achievement.</p><p>The pattern of estimates provides strong evidence that school proportion black negatively affects mathematics achievement of blacks. These effects are much larger and more precisely estimated for blacks than the corresponding estimated impacts on whites, which are generally not significantly different from zero at conventional levels. By comparison, Hispanic enrollment share appears to exert a far smaller effect, indicating that it is proportion black rather than proportion minority that is the key aspect of peer race/ethnic composition in terms of achievement for blacks and whites.</p><p>Our data do not enable the identification of the mechanisms underlying the racial composition effects, and the pattern of results is generally consistent with a variety of existing behavioral hypotheses. In particular, a number of researchers, commentators, and community leaders emphasize that some blacks discourage others from excelling academically, but this view remains controversial. The various discussions, drawing on numerous perspectives and empirical approaches and reaching different conclusions, can be found in <ref type="bibr" coords="28,253.30,266.74,117.37,9.66" target="#b26">Fordham and Ogbu (1986)</ref>, <ref type="bibr" coords="28,379.06,266.74,81.59,9.66;28,149.75,278.69,24.90,9.66" target="#b18">Cook and Ludwig (1997)</ref>, Ainsworth-Darnell and Downey (1998), <ref type="bibr" coords="28,358.71,278.69,68.85,9.66" target="#b24">Ferguson (1998a</ref><ref type="bibr" coords="28,434.91,278.69,17.16,9.66" target="#b24">Ferguson ( , 2001</ref>, <ref type="bibr" coords="28,149.75,290.64,43.21,9.66" target="#b55">Steele and</ref><ref type="bibr" coords="28,196.40,290.64,151.98,9.66">Aronson (1998), McWhorter (2000)</ref>, <ref type="bibr" coords="28,355.87,290.64,81.92,9.66" target="#b6">Bishop et al. (2001)</ref>, and <ref type="bibr" coords="28,149.75,302.60,122.77,9.66" target="#b36">Hanushek and Rivkin (2009)</ref>. One set of recent analyses focuses on cultural issues, including economic models that determine cultural behavior <ref type="bibr" coords="28,149.75,326.51,131.04,9.66" target="#b4">(Austen-Smith and Fryer 2003;</ref><ref type="bibr" coords="28,283.09,326.51,93.78,9.66" target="#b27">Fryer and Levitt 2003;</ref><ref type="bibr" coords="28,379.06,326.51,49.49,9.66" target="#b46">Ogbu 2003;</ref><ref type="bibr" coords="28,430.70,326.51,24.90,9.66;28,149.75,338.46,123.11,9.66" target="#b56">Thernstrom and Thernstrom 2003)</ref>. Others suggest that teachers lower expectations for black students or that schools might adjust placement in academic tracks as the black concentration increases (see <ref type="bibr" coords="28,386.72,362.37,69.48,9.66" target="#b24">Ferguson 1998b)</ref>, though the mechanism would have to be more complicated than simple race differences in expectations given the methods used here. Unfortunately, our administrative data do not enable us to isolate the underlying behavioral mechanism, though the fact that specifications use withinschool variation to identify the coefficients rules out the explanation that school proportion black simply serves as a proxy for school quality.</p><p>The magnitudes of the black composition effects are educationally significant. On average the black share of school enrollment in Texas is almost 30 percentage points higher for black students than for white students. Elimination of this gap would reduce the proportion black from roughly 0.39 to 0.16 for black students and raise the proportion black from 0.09 to 0.16 for whites. Using the coefficient for blacks of Ϫ0.20 and the coefficient for whites of Ϫ0.10, such a redistribution of students would reduce the racial achievement gap by 0.050 standard deviations in a single year. The cumulative effect of such a reduction for grades 5-7 (the sample period) depends upon the rate at which knowledge depreciates over time. If the rate of depreciation were equal to one minus the coefficient on lagged achievement (roughly 0.4 for blacks and whites), the 3-year cumulative effect of racial composition equalization would reduce the race achievement gap by roughly 14%, moving it from 0.70 to 0.60 standard deviations. 36</p><p>These estimates represent extremes in the possible changes in racial compositions because they would require significant changes in residences across districts and regions for blacks. More modest, and perhaps more achievable, changes still imply substantial closing in the test score gap. For example, a reduction in the percentage of black classmates for black students of 10 percentage points coupled with no change for whites would still close the black-white gap by slightly more than 7% over grades 1-7 if our estimated effects (and depreciation rates) hold for early grades.</p><p>The policy implications of these findings are, nonetheless, unclear, largely because of the imbalance in the distribution of students across jurisdictions. The Brown decision and refinements through subsequent Supreme Court cases sharply restrict the circumstances in which interdistrict remedies are permissible <ref type="bibr" coords="29,286.98,293.04,101.78,9.66" target="#b51">(Rivkin and Welch 2006)</ref>, a key limitation given housing patterns in Texas. 37 Increasing the number of charter schools provides one possible approach, because they can draw students from across district boundaries. However, the experience to date in Texas suggests that charters do not expand interracial contact but instead on average lead to increased racial segregation.</p><p>A related issue concerns possible variation in the racial composition effect to the intensity of desegregation efforts. Our sample covers a period without much in the way of new, far-reaching desegregation activity, and the relationship between achievement and racial composition might depend upon both programmatic and historical factors that determine school attendance patterns in a given district. Consequently, active initiatives designed to increase black exposure to whites might produce a somewhat different relationship between achievement and racial composition than that estimated here.</p><p>An alternative supported by a range of prior investigations would emphasize a change in focus to housing policy. Four decades ago, <ref type="bibr" coords="29,421.75,487.50,38.86,9.66;29,149.75,499.65,78.54,9.66">Kain and Persky (1969, 76)</ref> suggested: "De facto school segregation is another widely recognized limitation of Negro opportunities resulting from housing market segregation. A large body of evidence indicates that students in ghetto schools receive an education that is much inferior to that offered elsewhere." This led them to argue for more aggressive policies promoting housing desegregation as opposed to expensive compensatory strategies that left ghettos unaffected. More recently, the outcomes of the Gautreaux Program <ref type="bibr" coords="29,190.39,584.93,80.46,9.66" target="#b52">(Rosenbaum 1995)</ref> have reinforced the possibility of favorable outcomes from housing dispersal programs, though other recent analyses of the Moving to Opportunity experiment suggest caution about what <ref type="bibr" coords="29,158.72,631.33,5.28,4.74">37</ref> The recent decisions on intradistrict assignment of students in the Seattle and Louisville cases are also relevant. In a 5 to 4 decision in June 2007, the court held that race-based assignment of pupils within districts was not permissible under the Fourteenth Amendment of the U.S. Constitution.</p><p>can be expected <ref type="bibr" coords="30,219.89,147.19,138.37,9.66" target="#b40">(Kling, Liebman, and Katz 2007)</ref>. <ref type="bibr" coords="30,362.55,146.34,5.98,5.31">38</ref> Nonetheless, policies that support the continued suburbanization of black Americans and the slow but steady decline in black-white segregation that has marked the last two decades <ref type="bibr" coords="30,221.53,183.05,144.54,9.66" target="#b22">(Cutler, Glaeser, and Vigdor 1999;</ref><ref type="bibr" coords="30,368.66,183.05,92.05,9.66;30,149.75,195.01,23.22,9.66" target="#b38">Iceland and Weinberg 2002)</ref> would, by the results of this article, lead to improved schooling outcomes and a slight decline in the racial achievement gap.  Note.-Residuals are obtained from regressions of proportion black on the same variables as table 2 (col. 2) and the specified fixed effects.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="21,199.11,770.54,253.78,7.20;21,144.13,786.00,363.74,1.00"><head></head><label></label><figDesc>content downloaded from 128.250.144.144 on July 02, 2019 13:02:09 PM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="26,193.74,303.00,222.88,7.73"><head>Fig. 1 .</head><label>1</label><figDesc>-Distribution of black students by percent black in school</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="5,144.13,770.54,363.74,16.46"><head></head><label></label><figDesc>All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</figDesc><table coords="5,199.11,770.54,253.78,7.20">This content downloaded from 128.250.144.144 on July 02, 2019 13:02:09 PM 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="9,144.13,770.54,363.74,16.46"><head></head><label></label><figDesc>This content downloaded from 128.250.144.144 on July 02, 2019 13:02:09 PM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="13,144.13,770.54,363.74,16.46"><head></head><label></label><figDesc>This content downloaded from 128.250.144.144 on July 02, 2019 13:02:09 PM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="15,144.13,770.54,363.74,16.46"><head></head><label></label><figDesc>This content downloaded from 128.250.144.144 on July 02, 2019 13:02:09 PM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="17,149.75,145.39,310.81,231.82"><head>Table 1</head><label>1</label><figDesc>Estimated Effects of Proportion Black on Mathematics Achievement ( ) l</figDesc><table coords="17,149.75,173.59,310.81,203.62">Year-by-Grade ( ) Fixed Effects 
+r Gy 
+
+School-by-Grade ( ) Fixed Effects 
+p sG 
+
+School-by-Year ( ) 
+J sy 
+Fixed Effects 
+
+Attendance Zone-
+by-Year ( ) 
+f ay 
+Fixed Effects 
+(1) 
+(2) 
+(3) 
+(4) 
+
+1. Levels model 
+: 
+(v p 0) 
+Blacks 
+Ϫ.15 
+Ϫ.38 
+Ϫ.43 
+Ϫ.38 
+(.04) 
+(.08) 
+(.13) 
+.08) 
+Whites 
+.00 
+Ϫ.15 
+Ϫ.17 
+Ϫ.14 
+(.03) 
+(.08) 
+(.13) 
+(.08) 
+2. Gains model 
+: 
+(v p 1) 
+Blacks 
+Ϫ.10 
+Ϫ.17 
+Ϫ.12 
+Ϫ.11 
+(.03) 
+(.07) 
+(.12) 
+(.07) 
+Whites 
+.00 
+Ϫ.12 
+Ϫ.07 
+Ϫ.07 
+(.02) 
+(.07) 
+(.11) 
+(.07) 
+3. Gains model 
+(v not set p 1): 
+Blacks 
+Ϫ.11 
+Ϫ.25 
+Ϫ.20 
+Ϫ.20 
+(.03) 
+(.06) 
+(.10) 
+(.07) 
+Whites 
+.00 
+Ϫ.13 
+Ϫ.10 
+Ϫ.10 
+(.02) 
+(.06) 
+(.10) 
+(.06) 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" coords="17,144.13,770.54,363.74,16.46"><head></head><label></label><figDesc>This content downloaded from 128.250.144.144 on July 02, 2019 13:02:09 PM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8" coords="19,144.13,770.54,363.74,16.46"><head></head><label></label><figDesc>This content downloaded from 128.250.144.144 on July 02, 2019 13:02:09 PM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9" coords="20,149.75,145.39,310.95,263.20"><head>Table 2</head><label>2</label><figDesc>Effect of Teacher and School Characteristics and of Peer Achievement on Estimated Effects of Proportion Black on Mathematics Achievement ( ) l</figDesc><table coords="20,149.75,183.06,310.95,225.54">Year-by-Grade ( ) and School-by-Grade ( ) Fixed Effects 
+r 
+p 
+
+Gy 
+sG 
+
+Attendance Zone-by-Year ( ) 
+f ay 
+Fixed Effects 
+
+Teacher and School 
+Characteristics 
+
+Teacher and School 
+Characteristics 
+
+Peer 
+Achievement 
+
+Peer 
+Achievement 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+
+1. Levels model 
+: 
+(v p 0) 
+Blacks 
+Ϫ.38 
+Ϫ.40 
+Ϫ.20 
+Ϫ.38 
+Ϫ.40 
+Ϫ.21 
+(.08) 
+(.08) 
+(.08) 
+(.08) 
+(.08) 
+(.08) 
+Whites 
+Ϫ.15 
+Ϫ.15 
+.03 
+Ϫ.14 
+Ϫ.13 
+.03 
+(.08) 
+(.08) 
+(.07) 
+(.08) 
+(.08) 
+(.07) 
+2. Gains model 
+: 
+(v p 1) 
+Blacks 
+Ϫ.17 
+Ϫ.17 
+Ϫ.22 
+Ϫ.11 
+Ϫ.10 
+Ϫ.13 
+(.07) 
+(.07) 
+(.07) 
+(.07) 
+(.07) 
+(.08) 
+Whites 
+Ϫ.12 
+Ϫ.12 
+Ϫ.18 
+Ϫ.07 
+Ϫ.06 
+Ϫ.09 
+(.07) 
+(.07) 
+(.07) 
+(.07) 
+(.07) 
+(.07) 
+3. Gains model 
+(v not set p 1): 
+Blacks 
+Ϫ.25 
+Ϫ.25 
+Ϫ.23 
+Ϫ.20 
+Ϫ.20 
+Ϫ.17 
+(.06) 
+(.06) 
+(.06) 
+(.07) 
+(.07) 
+(.07) 
+Whites 
+Ϫ.13 
+Ϫ.14 
+Ϫ.07 
+Ϫ.10 
+Ϫ.09 
+Ϫ.03 
+(.06) 
+(.06) 
+(.06) 
+(.06) 
+(.06) 
+(.06) 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10" coords="22,149.75,145.39,310.97,275.65"><head>Table 3 Estimated</head><label>3</label><figDesc>Effects of Proportion Black on Mathematics Achievement ( ) for l Separate Black and White Samples</figDesc><table coords="22,149.75,183.06,310.97,237.99">Year-by-Grade ( ) and School-by-Grade ( ) Fixed Effects 
+r 
+p 
+
+Gy 
+sG 
+
+Attendance Zone-by-Year ( ) 
+f ay 
+Fixed Effects 
+
+(1) 
+
+Teacher and School 
+Characteristics 
+
+Teacher and School 
+Characteristics 
+
+Peer 
+Achievement 
+
+Peer 
+Achievement 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+
+1. Levels model 
+: 
+(v p 0) 
+Blacks 
+Ϫ.37 
+Ϫ.39 
+Ϫ.20 
+Ϫ.25 
+Ϫ.27 
+Ϫ.10 
+(.13) 
+(.13) 
+(.13) 
+(.14) 
+(.14) 
+(.13) 
+Whites 
+Ϫ.14 
+Ϫ.14 
+.05 
+Ϫ.16 
+Ϫ.16 
+.02 
+(.08) 
+(.08) 
+(.08) 
+(.08) 
+(.08) 
+(.07) 
+2. Gains model 
+: 
+(v p 1) 
+Blacks 
+Ϫ.27 
+Ϫ.28 
+Ϫ.29 
+Ϫ.11 
+Ϫ.11 
+Ϫ.10 
+(.10) 
+(.10) 
+(.11) 
+(.13) 
+(.13) 
+(.13) 
+Whites 
+Ϫ.06 
+Ϫ.06 
+Ϫ.13 
+Ϫ.06 
+Ϫ.05 
+Ϫ.08 
+(.07) 
+(.07) 
+(.07) 
+(.07) 
+(.07) 
+(.07) 
+3. Lagged achievement model 
+(v not set p 1): 
+Blacks 
+Ϫ.31 
+Ϫ.32 
+Ϫ.25 
+Ϫ.16 
+Ϫ.16 
+Ϫ.09 
+(.10) 
+(.10) 
+(.10) 
+(.11) 
+(.11) 
+(.11) 
+Whites 
+Ϫ.10 
+Ϫ.10 
+Ϫ.03 
+Ϫ.11 
+Ϫ.10 
+Ϫ.03 
+(.06) 
+(.06) 
+(.06) 
+(.06) 
+(.06) 
+(.06) 
+
+Note.-
+for blacks; 
+for whites. Huber-White adjusted standard errors clustered 
+N p 146,251 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11" coords="23,173.56,145.39,263.15,110.54"><head>Table 4</head><label>4</label><figDesc>Estimates from the Unconstrained Gains Model of the Effects of Proportion Black on Mathematics Achievement ( ) l by Source of Variation</figDesc><table coords="23,173.56,191.92,263.15,64.02">Students Experiencing: 
+
+No Move 
+Structural Move 
+Family Move 
+
+Blacks 
+Ϫ.20 
+Ϫ.25 
+Ϫ.12 
+(.07) 
+(.07) 
+(.07) 
+Whites 
+Ϫ.10 
+Ϫ.14 
+Ϫ.05 
+(.06) 
+(.07) 
+(.07) 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12" coords="24,149.75,145.39,310.88,202.43"><head>Table 5</head><label>5</label><figDesc>Specification Checks for Value-Added Estimation of Effects of Proportion Black on Mathematics Achievement ( ) l</figDesc><table coords="24,149.75,183.06,310.88,164.77">Year-by-Grade ( ) and School-by-Grade ( ) 
+r 
+p 
+
+Gy 
+sG 
+
+Fixed Effects plus Teacher and School Characteristics 
+
+Attendance Zone-
+by-Year ( ) 
+f ay 
+Fixed Effects 
+
+Cohort Exchange 
+of 
+Proportion Black 
+Values 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+
+Blacks: 
+Current year (g) 
+Ϫ.25 
+Ϫ.24 
+Ϫ.23 
+Ϫ.23 
+.00 
+(.06) 
+(.07) 
+(.07) 
+(.08) 
+(.07) 
+Subsequent year (g ϩ 1) 
+Ϫ.04 
+Ϫ.02 
+(.06) 
+(.06) 
+Whites: 
+Current year (g) 
+Ϫ.14 
+Ϫ.10 
+Ϫ.11 
+Ϫ.09 
+.09 
+(.06) 
+(.07) 
+(.06) 
+(.07) 
+(.07) 
+Subsequent year (g ϩ 1) 
+Ϫ.08 
+Ϫ.05 
+(.06) 
+(.06) 
+N 
+789,278 
+789,278 
+789,278 
+789,278 
+642,811 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13" coords="24,149.75,372.08,214.44,10.61"><head></head><label></label><figDesc>teristics, along with the variables identified in the note of table 2.</figDesc><table coords="24,292.02,372.08,72.18,3.67">Gy 
+sG 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14" coords="25,183.72,145.39,242.96,122.50"><head>Table 6</head><label>6</label><figDesc>OLS and IV Student and School-by-Grade Fixed Effect Estimates of the Effects of Proportion Black on Mathematics</figDesc><table coords="25,183.72,173.66,242.96,94.23">Achievement ( ) 
+l 
+
+OLS 
+IV 
+
+Blacks 
+Ϫ.13 
+Ϫ.18 
+(.07) 
+(.07) 
+Whites 
+Ϫ.08 
+Ϫ.14 
+(.06) 
+(.06) 
+First-stage coefficient on twice-lagged 
+test score in IV model 
+Ϫ.289 
+(.002) 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_15" coords="30,149.75,254.58,310.82,92.61"><head>Table A1</head><label>A1</label><figDesc>Distributions of Blacks and Whites by Quartile of State Math Test Score DistributionQuartile of Distribution of Third-Grade State Scores</figDesc><table coords="30,149.75,296.63,310.82,50.57">Placement in 
+Achievement 
+Distribution 
+
+All 
+
+Bottom 
+Quartile 
+
+Second 
+Quartile 
+
+Third 
+Quartile 
+
+Top 
+Quartile 
+
+Black students 
+41.4 
+30.0 
+19.1 
+9.5 
+100 
+White students 
+14.7 
+21.6 
+28.5 
+35.2 
+100 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_16" coords="30,149.75,373.93,310.87,104.57"><head>Table A2 Residual</head><label>A2</label><figDesc>Standard Deviation of Peer Proportion Black, by Race and SpecificationSchool-by-grade and school-by-year fixed effects regression .011 .009 School-by-grade and attendance zone-by-year fixed effects regression .021 .015 School-by-grade and student fixed effects regression</figDesc><table coords="30,149.75,410.99,310.87,67.50">Specification 
+Blacks Whites 
+
+School fixed effects regression 
+.029 
+.020 
+School-by-grade fixed effects regression 
+.026 
+.019 
+.021 
+.012 
+Unadjusted standard deviation 
+.287 
+.112 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10">We exclude the small number of students retained in grade in order to avoid problems introduced by the noncomparability of test results across grades and years.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">This content downloaded from 128.250.144.144 on July 02, 2019 13:02:09 PM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="17">This formulation does constrain the dynamics of the educational process by assuming that the impact of past inputs comes entirely through the effects on educational outcomes. Thus, e.g., the inspirational fourth-grade teacher has her effects on sixth-grade performance come entirely through her impact on (discounted) fourth-grade achievement and not through changing future learning patterns and implicitly the impact of future inputs. The alternative model would have varying dynamic impacts of different past inputs, but such a model would be extraordinarily difficult to estimate given our strategy of dealing with unmeasured inputs through various fixed effects.18  In testing terms this implies having vertically scaled scores that indicate skills and knowledge over time and not just measurement relative to a grade-specific norm for learning. With a vertically scaled test, the expected score for a given student taking tests designed for two different grades, say fourth grade and fifth grade, should be the same. In practice it is difficult to design such tests, particularly ones that span multiple grade levels.19  Note that, more generally, this holds for all time-invariant factors. Consequently, if the distributions of school quality and family and community environments were fixed through grade G, current characteristics would fully describe schooling, family, and community histories. Of course this would rule out the use of panel estimators and make it virtually impossible to identify the causal effects of specific factors. Moreover, the notion of constant school and teacher quality contradicts evidence of substantial student mobility and within-school variation over time in the quality of education.This content downloaded from 128.250.144.144 on July 02, 2019 13:02:09 PM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="29">This finding also holds if just school fixed effects, as opposed to school-bygrade fixed effects, are used.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="32">These tests are similar in spirit to those of<ref type="bibr" coords="23,336.16,642.02,62.00,8.70" target="#b53">Rothstein (2008)</ref>, who considers models of teacher value-added for future teachers where the future teachers could not influence the current student achievement gains.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">This content downloaded from 128.250.144.144 on July 02, 2019 13:02:09 PM</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="36">If the racial composition factors were similar for earlier grades, this change in racial composition throughout grades 1-7 would imply closing the seventh-grade achievement gap by 21%.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="30,149.75,533.73,310.87,9.66;30,159.71,545.68,300.98,9.66;30,159.71,557.64,274.42,9.66" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Assessing the oppositional culture explanation for racial/ethnic differences in school performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">W</forename><surname>Ainsworth-Darnell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Douglas</forename><forename type="middle">B</forename><surname>Downey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="536" to="53" />
+			<date type="published" when="1998-08" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,149.75,569.59,310.91,9.66;30,158.72,591.48,5.28,4.74;30,166.14,592.21,294.53,8.70;30,149.75,602.17,310.93,8.70;30,149.75,612.13,310.86,8.70;30,149.75,622.09,310.85,8.70;30,149.75,632.06,310.89,8.70;30,149.75,642.02,310.85,8.70;30,149.75,651.98,310.87,8.70;30,149.75,661.94,73.84,8.70" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">indicated that moves to low-poverty areas lead to significant increases in student achievement, but these effects were subsequently found to be small or nonexistent. Kling et al. (2007) show that the changes in school characteristics were small, even when the neighborhood differences from the MTO experiment were large, thus opening questions about how to interpret the results from a policy perspective. Other analyses of neighborhood effects also suggest some caution on the results that</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><forename type="middle">D</forename><surname>Angrist</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kevin</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">;</forename><surname>Ludwig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ladd</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Duncan</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Does school integration gen-38 Early results by</title>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note>might accrue. See, e.g., Oreopoulos</note>
+</biblStruct>
+
+<biblStruct coords="31,159.71,147.19,300.87,9.66;31,159.71,159.14,186.70,9.66" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">erate peer effects? Evidence from Boston&apos;s Metco Program</title>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="1613" to="1647" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,149.75,171.10,310.94,9.66;31,159.71,183.05,58.38,9.66;31,149.75,195.01,310.85,9.66;31,159.71,206.96,108.58,9.66" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Forced justice: School desegregation and the law</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">J</forename><surname>Armor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Public Interest</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="90" to="126" />
+			<date type="published" when="1972" />
+			<publisher>Oxford University Press</publisher>
+		</imprint>
+	</monogr>
+	<note>The evidence on busing</note>
+</biblStruct>
+
+<biblStruct coords="31,149.75,218.92,310.90,9.66;31,159.71,230.87,300.94,9.66;31,159.71,242.83,116.89,9.66" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The economics of &quot;acting white</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Austen-Smith</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roland</forename><forename type="middle">G</forename><surname>Fryer</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">National Bureau of Economic Research</title>
+		<imprint>
+			<biblScope unit="issue">9904</biblScope>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Working Paper</note>
+</biblStruct>
+
+<biblStruct coords="31,149.75,254.78,310.88,9.66;31,159.71,266.74,300.88,9.66;31,159.71,278.69,183.98,9.66" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Schools, school quality, and achievement growth: Evidence from the Philippines</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marigee</forename><forename type="middle">P</forename><surname>Bacolod</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Justin</forename><forename type="middle">L</forename><surname>Tobias</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economics of Education Review</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="619" to="651" />
+			<date type="published" when="2006-12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,149.75,290.64,310.84,9.66;31,159.71,302.60,300.92,9.66;31,159.71,314.55,300.86,9.66;31,159.71,326.51,300.98,9.66;31,159.71,338.46,24.53,9.66" xml:id="b6">
+	<monogr>
+		<title level="m" type="main">The role of end-of-course exams and minimal competency exams in standards-based reforms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">H</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ferran</forename><surname>Mane</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joan</forename><surname>Moriarty</surname></persName>
+		</author>
+		<editor>Diane Ravitch</editor>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Brookings Institution Press</publisher>
+			<biblScope unit="page" from="267" to="345" />
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+	<note>In Brookings papers on education policy</note>
+</biblStruct>
+
+<biblStruct coords="31,149.75,350.42,310.91,9.66;31,159.71,362.37,300.94,9.66;31,159.71,374.33,182.14,9.66" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Using panel data to improve estimates of the determinants of educational achievement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><forename type="middle">E</forename><surname>Boardman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">J</forename><surname>Murnane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sociology of Education</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="113" to="134" />
+			<date type="published" when="1979-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,149.75,386.28,310.89,9.66;31,159.71,398.24,300.85,9.66;31,159.71,410.19,300.91,9.66;31,159.71,422.15,199.32,9.66" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Race and school quality since Brown v. Board of Education</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">A</forename><surname>Boozer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alan</forename><forename type="middle">B</forename><surname>Krueger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shari</forename><surname>Wolkon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Brooking papers: Microeconomics</title>
+		<editor>Martin Neil Baily and Clifford Winston</editor>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>Brookings Institution Press</publisher>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="269" to="338" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,149.75,434.10,310.96,9.66;31,159.71,446.06,300.96,9.66;31,159.71,458.01,224.50,9.66" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Interactions-based models</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">A</forename><surname>Brock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">N</forename><surname>Durlauf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of econometrics</title>
+		<editor>James J. Heckman and Edward E. Leamer</editor>
+		<meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<publisher>North Holland</publisher>
+			<date type="published" when="2001" />
+			<biblScope unit="page" from="3297" to="3380" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,149.75,469.97,310.88,9.66;31,159.71,481.92,300.92,9.66;31,159.71,493.88,38.26,9.66" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Racial segregation and the blackwhite test score gap</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Card</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jesse</forename><surname>Rothstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Economics</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="2158" to="84" />
+			<date type="published" when="2007-12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,149.75,505.83,310.97,9.66;31,159.71,517.79,300.90,9.66;31,159.71,529.74,228.59,9.66" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The development of consciousness of self and the emergence of racial identity in Negro children</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenneth</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mamie</forename><surname>Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="591" to="99" />
+			<date type="published" when="1939-11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,149.75,541.70,310.98,9.66;31,159.71,553.65,293.73,9.66;31,149.75,565.61,310.83,9.66;31,159.71,577.56,183.59,9.66" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">School desegregation, &quot;tipping,&quot; and private school enrollment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><forename type="middle">T</forename><surname>Clotfelter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Human Resources</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="29" to="50" />
+			<date type="published" when="1976" />
+			<publisher>Princeton University Press</publisher>
+		</imprint>
+	</monogr>
+	<note>After Brown: The rise and retreat of school desegregation</note>
+</biblStruct>
+
+<biblStruct coords="31,149.75,589.52,310.94,9.66;31,159.71,601.47,300.96,9.66;31,159.71,613.43,216.45,9.66" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Segregation and resegregation in North Carolina&apos;s public school classrooms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><forename type="middle">T</forename><surname>Clotfelter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Helen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jacob</forename><forename type="middle">L</forename><surname>Ladd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Vigdor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">North Carolina Law Review</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="1463" to="511" />
+			<date type="published" when="2003-05" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,149.75,625.38,310.95,9.66;31,159.71,637.34,300.94,9.66" xml:id="b14">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">S</forename><surname>Coleman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Ernest</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carol</forename><forename type="middle">J</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><surname>Hobson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexander</forename><forename type="middle">M</forename><surname>Mc-Partland</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frederic</forename><forename type="middle">D</forename><surname>Mood</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">L</forename><surname>Weinfeld</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,159.71,649.29,300.87,9.66;31,159.71,661.25,125.18,9.66" xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Equality of educational opportunity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>York</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1966" />
+			<publisher>Government Printing Office</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,149.75,147.19,310.92,9.66;32,159.71,159.34,300.98,9.66;32,159.71,171.50,135.80,9.66" xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Trends in school integration</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">S</forename><surname>Coleman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Sara</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">A</forename><surname>Kelley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Moore</surname></persName>
+		</author>
+		<idno>no. 722-03-01</idno>
+		<imprint>
+			<date type="published" when="1975" />
+			<biblScope unit="page" from="1968" to="73" />
+			<pubPlace>Urban Institute, Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Urban Institute Paper</note>
+</biblStruct>
+
+<biblStruct coords="32,149.75,183.85,310.93,9.66;32,159.71,196.00,300.91,9.66;32,159.71,208.16,218.01,9.66" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Families or schools? Explaining the convergence in white and black academic performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">D</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">N</forename><surname>Evans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Labor Economics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="729" to="54" />
+			<date type="published" when="2000-10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,149.75,220.51,310.88,9.66;32,159.71,232.66,300.95,9.66;32,159.71,244.82,260.44,9.66" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Weighing the burden of &quot;acting white</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><forename type="middle">J</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jens</forename><surname>Ludwig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Are there race differences in attitudes toward education? Journal of Policy Analysis and Management</title>
+		<meeting><address><addrLine>Spring</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="256" to="78" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,149.75,257.17,310.91,9.66;32,159.71,269.33,300.95,9.66;32,159.71,281.48,300.89,9.66;32,159.71,293.63,300.92,9.66;32,159.71,305.79,160.48,9.66" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">What have black children gained academically from school integration? Examination of the meta-analytic evidence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><forename type="middle">D ; T</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Crain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Stephan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Walberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Wortman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">School desegregation and black achievement</title>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1984" />
+			<biblScope unit="page" from="6" to="42" />
+		</imprint>
+		<respStmt>
+			<orgName>National Institute of Education</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,149.75,318.14,310.88,9.66;32,159.71,330.29,272.80,9.66" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">School integration and occupational achievement of Negroes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Crain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="593" to="606" />
+			<date type="published" when="1970-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,149.75,342.65,310.92,9.66;32,159.71,354.80,300.94,9.66;32,159.71,366.96,62.22,9.66" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Desegregation and black achievement: A review of the research</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">L</forename><surname>Crain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rita</forename><forename type="middle">E</forename><surname>Mahard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Law and Contemporary Problems</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="17" to="53" />
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,149.75,379.31,310.95,9.66;32,159.71,391.46,300.86,9.66;32,159.71,403.62,70.07,9.66" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The rise and decline of the American ghetto</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">M</forename><surname>Cutler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Edward</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jacob</forename><forename type="middle">L</forename><surname>Glaeser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Vigdor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Political Economy</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="455" to="506" />
+			<date type="published" when="1999-06" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,149.75,415.97,310.94,9.66;32,159.71,428.13,300.91,9.66;32,159.71,440.28,158.06,9.66" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Did teachers&apos; verbal ability and race matter in the 1960s? Coleman revisited</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ronald</forename><forename type="middle">G</forename><surname>Ehrenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dominic</forename><forename type="middle">J</forename><surname>Brewer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economics of Education Review</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1" to="21" />
+			<date type="published" when="1995-03" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,149.75,452.63,310.90,9.66;32,159.71,464.79,300.98,9.66;32,159.71,476.94,235.37,9.66;32,149.75,489.29,310.97,9.66;32,159.71,501.45,300.92,9.66;32,159.71,513.60,301.00,9.66;32,159.71,525.76,45.06,9.66;32,149.75,538.11,310.93,9.66;32,159.71,550.27,300.86,9.66;32,159.71,562.42,300.95,9.66" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Teachers&apos; perceptions and expectations and the black-white test score gap</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ronald</forename><forename type="middle">F</forename><surname>Ferguson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The black-white test score gap</title>
+		<editor>Diane Ravitch</editor>
+		<meeting><address><addrLine>Washington, DC; Washington, DC; Ohio; Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>Brookings Institution Press</publisher>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="347" to="414" />
+		</imprint>
+	</monogr>
+	<note>A diagnostic analysis of black-white GPA disparities in Shaker Height</note>
+</biblStruct>
+
+<biblStruct coords="32,149.75,574.87,310.94,9.66;32,159.71,587.13,300.97,9.66;32,159.71,599.38,300.87,9.66;32,159.71,611.63,235.37,9.66" xml:id="b25">
+	<monogr>
+		<title level="m" type="main">How and why money matters: An analysis of Alabama schools. In Holding schools accountable: Performance-based reform in education</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ronald</forename><forename type="middle">F</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Helen</forename><forename type="middle">F</forename><surname>Ladd</surname></persName>
+		</author>
+		<editor>Helen F. Ladd</editor>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Brookings Institution Press</publisher>
+			<biblScope unit="page" from="265" to="98" />
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,149.75,624.19,310.87,9.66;32,159.71,636.44,300.83,9.66;32,159.71,648.69,37.56,9.66" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Black students&apos; school success: Coping with the burden of &quot;acting white</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Signithia</forename><surname>Fordham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Ogbu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Urban Review</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="176" to="206" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="32,149.75,661.25,310.92,9.66;33,159.71,147.19,300.98,9.66;33,159.71,159.14,237.07,9.66" xml:id="b27">
+	<monogr>
+		<title level="m" type="main">The causes and consequences of distinctively black names</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roland</forename><forename type="middle">G</forename><surname>Fryer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">D</forename><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Levitt</surname></persName>
+		</author>
+		<idno>no. 9938</idno>
+		<imprint>
+			<date type="published" when="2003" />
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>National Bureau of Economic Research</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Working Paper</note>
+</biblStruct>
+
+<biblStruct coords="33,149.75,171.10,310.92,9.66;33,159.71,183.05,226.98,9.66" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Errors in variables in panel data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zvi</forename><surname>Griliches</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jerry</forename><forename type="middle">A</forename><surname>Hausman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Econometrics</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="93" to="118" />
+			<date type="published" when="1986-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,149.75,195.01,310.89,9.66;33,159.71,206.96,287.38,9.66" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Does school quality explain the recent black/ white wage trend?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><forename type="middle">T</forename><surname>Grogger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Labor Economics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="231" to="53" />
+			<date type="published" when="1996-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,149.75,218.92,310.83,9.66;33,159.71,230.87,182.90,9.66" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Desegregation and black dropout rates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><surname>Guryan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="919" to="962" />
+			<date type="published" when="2004-09" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,149.75,242.83,310.91,9.66;33,159.71,254.78,266.51,9.66" xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Education and race: An analysis of the educational production process</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><forename type="middle">A</forename><surname>Hanushek</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1972" />
+			<publisher>Health-Lexington</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,149.75,266.74,310.91,9.66;33,159.71,278.69,300.91,9.66;33,159.71,290.64,260.41,9.66" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Does peer ability affect student achievement?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><forename type="middle">A</forename><surname>Hanushek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jacob</forename><forename type="middle">M</forename><surname>Kain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">G</forename><surname>Markman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Rivkin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Econometrics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="527" to="571" />
+			<date type="published" when="2003-09" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,149.75,302.60,310.88,9.66;33,159.71,314.55,300.98,9.66;33,159.71,326.51,237.07,9.66" xml:id="b33">
+	<monogr>
+		<title level="m" type="main">The market for teacher quality</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><forename type="middle">A</forename><surname>Hanushek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">M</forename><surname>Kain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steve</forename><forename type="middle">G</forename><surname>O&amp;apos;brien</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Rivkin</surname></persName>
+		</author>
+		<idno>no. 11154</idno>
+		<imprint>
+			<date type="published" when="2005" />
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>National Bureau of Economic Research</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Working Paper</note>
+</biblStruct>
+
+<biblStruct coords="33,149.75,338.46,310.88,9.66;33,159.71,350.42,300.93,9.66;33,159.71,362.37,300.90,9.66;33,159.71,374.33,143.55,9.66;33,149.75,386.28,310.85,9.66;33,159.71,398.24,300.95,9.66;33,159.71,410.19,301.02,9.66;33,159.71,422.15,19.65,9.66;33,149.75,434.10,310.89,9.66;33,159.71,446.06,300.87,9.66;33,159.71,458.01,37.56,9.66;33,149.75,469.97,310.89,9.66;33,159.71,481.92,105.63,9.66" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Inferring program effects for specialized populations: Does special education raise achievement for students with disabilities?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><forename type="middle">A</forename><surname>Hanushek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steve</forename><forename type="middle">G</forename><surname>Kain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Rivkin</surname></persName>
+		</author>
+		<idno>no. 8741</idno>
+	</analytic>
+	<monogr>
+		<title level="j">National Bureau of Economic Research</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="326" to="54" />
+			<date type="published" when="2002-11" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Working Paper</note>
+	<note>Journal of Human Resources</note>
+</biblStruct>
+
+<biblStruct coords="33,149.75,493.88,310.96,9.66;33,159.71,505.83,300.95,9.66;33,159.71,517.79,208.08,9.66" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Does school accountability lead to improved student performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><forename type="middle">A</forename><surname>Hanushek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Margaret</forename><forename type="middle">E</forename><surname>Raymond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Policy Analysis and Management</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="297" to="327" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,149.75,529.74,310.87,9.66;33,159.71,541.70,300.94,9.66;33,159.71,553.65,190.36,9.66" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Harming the best: How schools affect the black-white achievement gap</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><forename type="middle">A</forename><surname>Hanushek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steve</forename><forename type="middle">G</forename><surname>Rivkin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Policy Analysis and Management</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="366" to="93" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,149.75,565.61,310.85,9.66;33,159.71,577.56,300.97,9.66;33,159.71,589.52,209.39,9.66" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Peer effects in the classroom: Learning from gender and race variation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Caroline</forename><surname>Hoxby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Minter</surname></persName>
+		</author>
+		<idno>no. 7867</idno>
+	</analytic>
+	<monogr>
+		<title level="j">National Bureau of Economic Research</title>
+		<imprint>
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Working Paper</note>
+</biblStruct>
+
+<biblStruct coords="33,149.75,601.47,310.84,9.66;33,159.71,613.43,300.92,9.66;33,159.71,625.38,224.44,9.66" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Racial and ethnic residential segregation in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Iceland</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">H</forename><surname>Weinberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Special Reports</title>
+		<imprint>
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+	<note>Census. . Bureau of the Census</note>
+</biblStruct>
+
+<biblStruct coords="33,149.75,637.34,310.87,9.66;33,159.71,649.29,148.77,9.66" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Alternatives to the gilded ghetto</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">F</forename><surname>Kain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseph</forename><forename type="middle">J</forename><surname>Persky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Public Interest</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="74" to="87" />
+			<date type="published" when="1969" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="33,149.75,661.25,310.83,9.66;33,199.11,770.54,253.78,7.20;33,144.13,786.00,363.74,1.00;34,159.71,147.19,300.94,9.66;34,159.71,159.14,32.58,9.66" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Ex-This content downloaded from 128.250.144.144 on</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><forename type="middle">R</forename><surname>Kling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Jeffrey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lawrence</forename><forename type="middle">F</forename><surname>Liebman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Katz</surname></persName>
+		</author>
+		<idno>13:02:09</idno>
+		<ptr target="http://www.journals.uchicago.edu/t-and-c" />
+	</analytic>
+	<monogr>
+		<title level="m">PM All use subject to University of Chicago Press Terms and Conditions</title>
+		<imprint>
+			<date type="published" when="2007-07-02" />
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="83" to="119" />
+		</imprint>
+	</monogr>
+	<note>). perimental analysis of neighborhood effects</note>
+</biblStruct>
+
+<biblStruct coords="34,149.75,171.10,310.85,9.66;34,159.71,183.05,300.96,9.66;34,159.71,195.01,276.00,9.66" xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Race-conscious policies for assigning students to schools: Social science research and the Supreme Court cases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">L</forename><surname>Linn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kevin</forename><forename type="middle">G</forename><surname>Welner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>National Academy of Education</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,149.75,206.96,310.88,9.66;34,159.71,218.92,300.85,9.66;34,159.71,230.87,300.87,9.66;34,159.71,242.83,245.53,9.66" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Urban poverty and educational outcomes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jens</forename><surname>Ludwig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Helen</forename><forename type="middle">F</forename><surname>Ladd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Greg</forename><forename type="middle">J</forename><surname>Duncan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Brookings-Wharton papers on urban affairs</title>
+		<editor>William G. Gale and Janet Rothenberg Pack</editor>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>Brookings Institution Press</publisher>
+			<date type="published" when="2001" />
+			<biblScope unit="page" from="147" to="88" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,149.75,254.78,310.89,9.66;34,159.71,266.74,286.15,9.66" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Identification of endogenous social effects: The reflection problem</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><forename type="middle">F</forename><surname>Manski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Economic Studies</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="531" to="573" />
+			<date type="published" when="1993-07" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,149.75,278.69,310.91,9.66;34,159.71,290.64,115.92,9.66" xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Losing the race: Self-sabotage in black America</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">H</forename><surname>Mcwhorter</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>Free Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,149.75,302.60,310.87,9.66;34,159.71,314.55,300.89,9.66;34,159.71,326.51,207.23,9.66" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Policy interventions, low-level equilibria, and social interactions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">A</forename><surname>Moffitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">In Social dynamics</title>
+		<editor>Steven Durlauf and H. Peyton Young</editor>
+		<imprint>
+			<biblScope unit="page" from="45" to="82" />
+			<date type="published" when="2001" />
+			<publisher>MIT Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,149.75,338.46,310.84,9.66;34,159.71,350.42,248.90,9.66" xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Black American students in an affluent suburb: A study of academic disengagement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">U</forename><surname>Ogbu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Erlbaum</publisher>
+			<pubPlace>Mahwah, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,149.75,362.37,310.88,9.66;34,159.71,374.33,300.97,9.66;34,159.71,386.28,38.26,9.66" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The long-run consequences of living in a poor neighborhood</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><surname>Oreopoulos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="1533" to="75" />
+			<date type="published" when="2003-11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,149.75,398.24,310.99,9.66;34,159.71,410.19,300.86,9.66;34,159.71,422.15,221.35,9.66" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Court-ordered desegregation: Successes and failures integrating American schools since Brown versus Board of Education</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sarah</forename><forename type="middle">J</forename><surname>Reber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Human Resources</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="559" to="90" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,149.75,434.10,310.87,9.66;34,159.71,446.06,195.30,9.66;34,149.75,458.01,310.93,9.66;34,159.71,469.97,213.67,9.66;34,149.75,481.92,310.89,9.66;34,159.71,493.88,300.97,9.66;34,159.71,505.83,35.06,9.66" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Cumulative nature of learning and specification bias in education research. Photocopy, Department of Economics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">G</forename><surname>Rivkin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Human Resources</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="333" to="379" />
+			<date type="published" when="1994-10" />
+		</imprint>
+	</monogr>
+	<note>School desegregation, academic attainment, and earnings</note>
+</biblStruct>
+
+<biblStruct coords="34,149.75,517.79,310.90,9.66;34,159.71,529.74,300.92,9.66" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Teachers, schools, and academic achievement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">G</forename><surname>Rivkin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Eric</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">F</forename><surname>Hanushek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Kain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Econometrica</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="417" to="58" />
+			<date type="published" when="2005-03" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,149.75,541.70,310.94,9.66;34,159.71,553.65,300.92,9.66;34,159.71,565.61,300.92,9.66" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Neighborhood segregation and school integration</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">G</forename><surname>Rivkin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Finis</forename><surname>Welch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of the economics of education</title>
+		<editor>Eric A. Hanushek and Finis Welch</editor>
+		<meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<publisher>North Holland</publisher>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="1019" to="1068" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,149.75,577.56,310.90,9.66;34,159.71,589.52,300.92,9.66;34,159.71,601.47,170.53,9.66" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Changing the geography of opportunity by expanding residential choice: Lessons from the Gautreaux Program</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">E</forename><surname>Rosenbaum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Housing Policy Debate</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="231" to="69" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="34,149.75,613.43,310.95,9.66;34,159.71,625.38,300.97,9.66;34,159.71,637.34,237.07,9.66" xml:id="b53">
+	<monogr>
+		<title level="m" type="main">Teacher quality in educational production: Tracking, decay, and student achievement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jesse</forename><surname>Rothstein</surname></persName>
+		</author>
+		<idno>no. 14442</idno>
+		<imprint>
+			<date type="published" when="2008" />
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>National Bureau of Economic Research</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Working Paper</note>
+</biblStruct>
+
+<biblStruct coords="34,149.75,649.29,311.03,9.66;34,159.71,661.25,300.93,9.66;35,159.71,147.19,300.86,9.66;35,159.71,159.14,206.00,9.66" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Review of research on school desegregation&apos;s impact on elementary and secondary school students</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Janet</forename><surname>Schofield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of research on multicultural education</title>
+		<editor>James A. Banks and Cherry A. McGee Banks</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Macmillan</publisher>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="597" to="616" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="35,149.75,171.10,310.91,9.66;35,159.71,183.05,300.88,9.66;35,159.71,195.01,300.98,9.66;35,159.71,206.96,235.37,9.66" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Stereotype threat and the test performance of academically successful African Americans</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Claude</forename><forename type="middle">M</forename><surname>Steele</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><surname>Aronson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The black-white test score gap</title>
+		<editor>Christopher Jencks and Meredith Phillips</editor>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>Brookings Institution Press</publisher>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="401" to="428" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="35,149.75,218.92,310.81,9.66;35,159.71,230.87,245.78,9.66" xml:id="b56">
+	<monogr>
+		<title level="m" type="main">No excuses: Closing the racial gap in learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephan</forename><surname>Thernstrom</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Abigail</forename><surname>Thernstrom</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Simon &amp; Schuster</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="35,149.75,242.83,310.89,9.66;35,159.71,254.78,243.10,9.66" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Assessing assessments of school performance: The case of California</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Justin</forename><forename type="middle">L</forename><surname>Tobias</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Statistician</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="55" to="63" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="35,149.75,266.74,310.93,9.66;35,159.71,278.69,301.04,9.66;35,159.71,290.64,191.88,9.66" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">On the specification and estimation of the production function for cognitive achievement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Petra</forename><forename type="middle">E</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenneth</forename><forename type="middle">I</forename><surname>Wolpin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economic Journal</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="3" to="33" />
+			<date type="published" when="2003-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="35,149.75,302.60,310.91,9.66;35,159.71,314.55,238.30,9.66" xml:id="b59">
+	<monogr>
+		<title level="m" type="main">Racial isolation in the public schools</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><forename type="middle">S</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1967" />
+			<publisher>Government Printing Office</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Commission on Civil Rights</note>
+</biblStruct>
+
+<biblStruct coords="35,158.88,326.51,301.79,9.66;35,159.71,338.46,300.88,9.66;35,159.71,350.42,231.56,9.66;35,149.75,362.37,310.91,9.66;35,159.71,374.33,231.51,9.66" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">NAEP 1996 mathematics: Crossstate data compendium for the grade 4 and grade 8 assessment. Washington, DC: National Center for Education Statistics</title>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. ed. Washington</title>
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+		<respStmt>
+			<orgName>DC: National Center for Education Statistics</orgName>
+		</respStmt>
+	</monogr>
+	<note>NAEP 1996 trends in academic progress</note>
+</biblStruct>
+
+<biblStruct coords="35,149.75,386.28,310.94,9.66;35,159.71,398.24,259.34,9.66" xml:id="b61">
+	<monogr>
+		<title level="m" type="main">New evidence on school desegregation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Finis</forename><surname>Welch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Audrey</forename><surname>Light</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<pubPlace>Washington, DC: U.S. Commission on Civil Rights</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="35,149.75,410.19,310.85,9.66;35,159.71,422.15,175.07,9.66" xml:id="b62">
+	<monogr>
+		<title level="m" type="main">Econometric analysis of cross section and panel data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><forename type="middle">M</forename><surname>Wooldridge</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

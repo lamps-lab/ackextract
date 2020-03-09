@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Learning and innovation: Exploitation and exploration trade-offs ☆</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2011-08-03">Available online 3 August 2011</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Changsu</forename><surname>Kim</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Sogang Business School</orgName>
+								<orgName type="institution">Sogang University</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jaeyong</forename><surname>Song</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">SNU Business School</orgName>
+								<orgName type="institution">Seoul National University</orgName>
+								<address>
+									<settlement>Seoul</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Atul</forename><surname>Nerkar</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Kenan-Flagler Business School</orgName>
+								<orgName type="institution">University of North Carolina at Chapel Hill</orgName>
+								<address>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Learning and innovation: Exploitation and exploration trade-offs ☆</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2011-08-03">Available online 3 August 2011</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.jbusres.2011.07.006</idno>
+					<note type="submission">Article history: Received 1 June 2010 Received in revised form 1 February 2011 Accepted 1 July 2011</note>
+					<note>a r t i c l e i n f o</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:05+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Exploitation Exploration Innovation rates Innovation impact</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>a b s t r a c t</head><p>This paper examines the relationship between learning and innovation outcomes, focusing on the trade-off between exploitation and exploration in learning and innovation. The study identifies two types of learning and two outcomes of innovation. Exploitation and exploration in learning are inversely associated with innovation rates and impact. While exploitative, localized learning is positively associated with innovation rates, but negatively associated with impact, exploratory learning-by-experimentation shows the opposite relationship. The study examines panel data of 103 companies in the global pharmaceutical industry over a 7-year period in an empirical test of our hypotheses. Results support the existence of the exploitation and exploration trade-off.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Innovation is one of the most important organizational processes and outcomes for value creation <ref type="bibr" coords="1,161.51,419.23,128.15,7.54" target="#b9">(Deeds, DeCarolis, &amp; Coombs, 2000)</ref>. Innovation is a central mechanism for strategic change and growth whereby organizations exploit, explore, and reposition themselves in changing internal and external conditions <ref type="bibr" coords="1,194.34,450.58,95.33,7.54" target="#b10">(Dittrich &amp; Duysters, 2007)</ref>. Both exploitative and exploratory learning govern innovation <ref type="bibr" coords="1,264.97,461.06,28.64,7.54;1,42.52,471.50,19.59,7.54" target="#b27">(March, 1991)</ref>. Exploitation increases the efficiency of existing technologies, while exploration is required to produce new technologies of high quality and impact <ref type="bibr" coords="1,117.86,492.42,68.45,7.54" target="#b20">(Henderson, 1993)</ref>. Thus, there is an inherent tension between exploitation and exploration in organizational learning in terms of outcomes of innovative activities <ref type="bibr" coords="1,247.91,513.33,45.68,7.54;1,42.52,523.82,45.72,7.54" target="#b35">(Sorensen &amp; Stuart, 2000)</ref>.</p><p>A few empirical studies differentiate impact from innovation rates as innovation outcomes (see <ref type="bibr" coords="1,150.63,544.74,94.16,7.54" target="#b14">Gittelman &amp; Kogut, 2003;</ref><ref type="bibr" coords="1,247.46,544.74,46.12,7.54;1,42.52,555.17,50.79,7.54" target="#b33">Rosenkopf &amp; Nerkar, 2001;</ref><ref type="bibr" coords="1,96.43,555.17,91.48,7.54" target="#b35">Sorensen &amp; Stuart, 2000)</ref>. Key to a firm's technology strategy is to strike the right balance between the two major types of learning-exploitative vs. exploratory-depending on what innovation outcomes-rates vs. impact of innovation-the firm is targeting.</p><p>The study here asks: How do types of organizational learning shape innovation outcomes? Existing literature suggests that exploitative "localized learning" improves immediate innovation rates, but it often simultaneously reduces incentives for and competence with high-impact innovation <ref type="bibr" coords="1,217.17,638.91,76.39,7.54;1,310.51,408.73,19.99,7.54" target="#b1">(Ahuja &amp; Lampert, 2001)</ref>. Thus, firms must combine exploitative "localized learning" with exploratory "learning-by-experimentation" if they also want to enhance the impact of innovation.</p><p>Although exploitation and exploration and their effects on innovation have been intensively examined (such as in <ref type="bibr" coords="1,530.48,450.57,31.10,7.54;1,310.51,461.06,53.32,7.54" target="#b1">Ahuja &amp; Lampert, 2001)</ref>, few empirical studies investigate the actual trade-offs between the two. Exceptions include <ref type="bibr" coords="1,445.21,471.49,84.35,7.54" target="#b3">Atuahene-Gima (2005)</ref> and <ref type="bibr" coords="1,546.80,471.49,14.77,7.54;1,310.51,481.98,75.91,7.54" target="#b4">Auh and Menguc (2005)</ref> in marketing literature. Unlike those studies, which used questionnaire methods, however, this paper employs longitudinal patent data to test empirically the trade-off between exploitation and exploration. Moreover, joint consideration of innovation rates and impact in this study with the inverse relationship between exploitation and exploration enables us to examine the discriminating effects of exploitation and exploration on outcomes of innovation that have not been tested before.</p><p>A cursory look at our database in the global pharmaceutical industry shows an interesting pattern: science-intensive firms such as Genentech and Immunex, which focus on exploratory learning, appear to outperform others in terms of innovation impact (refer to <ref type="table" coords="1,310.51,607.50,25.67,7.54" target="#tab_1">Table 2</ref>). On the other hand, the most prolific firms in terms of the number of patents, such as Bayer and E. I. DuPont, are among the few that focus on exploitative learning based on strong technological competence. This interesting pattern is consistent with the inherent trade-offs between exploitation and exploration in organizational learning and innovation outcomes that we address in this paper. To provide more rigorous empirical findings, we constructed panel data of 103 companies in the global pharmaceutical industry over a 7-year period and then tested our hypotheses on relationships between types of learning and innovation outcomes. Results support the existence of the exploitation and exploration trade-off.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Model and hypotheses</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1.">Theoretical model: Learning and innovation</head><p>The literature on organizational learning <ref type="bibr" coords="2,191.85,99.65,93.01,7.54" target="#b8">(Cohen &amp; Levinthal, 1990;</ref><ref type="bibr" coords="2,33.73,110.08,84.99,7.54" target="#b26">Levitt &amp; March, 1988;</ref><ref type="bibr" coords="2,123.48,110.08,50.71,7.54" target="#b27">March, 1991)</ref> and evolutionary economics <ref type="bibr" coords="2,33.73,120.57,97.50,7.54" target="#b28">(Nelson &amp; Winter, 1982;</ref><ref type="bibr" coords="2,136.23,120.57,95.61,7.54" target="#b38">Stuart &amp; Podolny, 1996)</ref> distinguishes exploitation from exploration. Both exploitative "localized learning" and exploratory "learning-by-experimentation" shape innovation.</p><p>Innovation occurs in the context of a community, one that is evolving as a whole <ref type="bibr" coords="2,74.32,162.41,93.39,7.54" target="#b14">(Gittelman &amp; Kogut, 2003)</ref>. Hence, firm-level technological trajectories influence, and are influenced by, trajectories of other firms and the evolution of an industry as a whole. At a technology community level, innovations that serve as sources of many subsequent innovations by other firms can be regarded as high-impact <ref type="bibr" coords="2,206.93,204.25,77.85,7.54;2,33.73,214.73,19.26,7.54" target="#b33">(Rosenkopf &amp; Nerkar, 2001)</ref>. Exploitative "localized learning" helps a firm to produce more innovations, but hinders high-impact innovation. On the other hand, exploratory "learning-by-experimentation" enables a firm to develop high-impact innovations, but impedes innovation productivity. The trade-off is inevitable because the two types of learning require substantially different orientations, strategies, capabilities, and structures <ref type="bibr" coords="2,53.86,277.49,55.06,7.54" target="#b2">(Argyres, 1996;</ref><ref type="bibr" coords="2,111.00,277.49,75.67,7.54" target="#b4">Auh &amp; Menguc, 2005)</ref>. <ref type="figure" coords="2,45.69,287.92,21.34,7.54" target="#fig_0">Fig. 1</ref> summarizes the theoretical model in this study, which examines the effect of exploitation and exploration on innovation rates and impact. The term "impact" denotes that a technology has been retained and built upon by other members of the technological community. In comparison, the term "innovation rates" refers to the frequency or quantity of new technologies produced.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2.">Technological competence and innovation</head><p>The skills and expertise required for the generation and application of technology become embodied in a set of routines within a firm <ref type="bibr" coords="2,33.73,403.01,92.05,7.54" target="#b28">(Nelson &amp; Winter, 1982)</ref>. Experience with a given set of routines enhances organizational competence, in part by improving the reliability of the routines <ref type="bibr" coords="2,127.32,423.98,50.11,7.54" target="#b27">(March, 1991)</ref>. Organizational routines and competencies are often configured around a firm's core technology <ref type="bibr" coords="2,33.73,444.90,81.22,7.54" target="#b25">(Leonard-Barton, 1992)</ref>. Firm-level variation in competence is a result of the tacit nature and path-dependent development of technology <ref type="bibr" coords="2,258.23,455.33,26.55,7.54;2,33.73,465.82,19.26,7.54" target="#b19">(Helfat, 1994)</ref>. A firm's core competence is formed by such path-dependent exploitation of technological knowledge <ref type="bibr" coords="2,185.21,476.25,95.80,7.54" target="#b31">(Prahalad &amp; Hamel, 1990)</ref>. Technological (core) competence refers to the level of efficiency to which a firm carries out its technological routines internally.</p><p>The path-dependent accumulation of new knowledge leading to technological development reflects the areas of a firm's core competence <ref type="bibr" coords="2,81.80,528.59,85.75,7.54" target="#b25">(Leonard-Barton, 1992)</ref>, in which it has conducted a substantial amount of in-house R&amp;D. To some extent, each firm is influenced by the trajectory of its technological development in the past, in that the development of new technology requires the internally accumulated technology for firm to have an absorptive capacity <ref type="bibr" coords="2,66.21,580.86,95.05,7.54" target="#b8">(Cohen &amp; Levinthal, 1990)</ref>. As such, internally accumulated technological routines and competencies are positively related to a firm's ability to generate new technology along existing technological trajectories <ref type="bibr" coords="2,345.09,78.72,98.22,7.54" target="#b32">(Ritter &amp; Gemünden, 2004)</ref>.</p><p>However, because the behavior is routine-based, technological competence is prone to inertial pressures <ref type="bibr" coords="2,451.78,99.64,82.63,7.54" target="#b28">(Nelson &amp; Winter, 1982</ref>). As organizations experience success, their routines and competencies become more standardized and specialized, and integrating superior technologies and practices developed elsewhere may become more difficult and costly for them <ref type="bibr" coords="2,415.78,141.48,72.15,7.54" target="#b5">(Christensen, 1997)</ref>. Because of the uncertainty that occurs in innovation efforts, the results of past searches become the natural starting points for new searches, and firms thus continue to build on their own established knowledge <ref type="bibr" coords="2,301.72,183.32,43.84,7.54" target="#b11">(Dosi, 1982)</ref>. Such inertia is especially problematic in fast-changing environments where core capabilities often become core rigidities <ref type="bibr" coords="2,301.72,204.24,84.05,7.54" target="#b25">(Leonard-Barton, 1992)</ref>.</p><p>With respect to innovation, technological competence is always both enabling and constraining <ref type="bibr" coords="2,424.79,225.16,70.15,7.54" target="#b34">(Song et al., 2003)</ref>. Technological competencies enable firms to exploit innovations more efficiently, but this can substantially constrain the effectiveness of more exploratory innovation <ref type="bibr" coords="2,345.31,256.57,94.88,7.54" target="#b1">(Ahuja &amp; Lampert, 2001)</ref>. In other words, firms with competence in a particular technology area tend to highly value knowledge that is close to existing successful technological areas, and devalue more distant knowledge that is available outside of the firm. <ref type="bibr" coords="2,301.72,298.41,90.36,7.54" target="#b26">Levitt and March (1988)</ref> describe such a situation as a "competency trap."</p><p>In their study of the relationship between firm aging and innovation, <ref type="bibr" coords="2,301.72,329.76,96.17,7.54" target="#b35">Sorensen and Stuart (2000)</ref> indicate that greater levels of reliance on the firm's own prior developments leads to more innovation, but that this innovation is less relevant, and is therefore a hallmark of obsolescence. In the optical disk industry, <ref type="bibr" coords="2,408.36,361.16,110.37,7.54" target="#b33">Rosenkopf and Nerkar (2001)</ref> examine technological impact and find that technology searching within firm boundaries has a negative effect on technological impact. Therefore, we can hypothesize that exploitation of core competence will have a positive effect on innovation rates, but a negative effect on innovation impact due to competency traps.</p><p>H1. The technological competence of a firm associates positively with its innovation rates but relates negatively with its innovation impact.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3.">Science intensity and innovation</head><p>Innovation builds on knowledge gleaned from scientific studies <ref type="bibr" coords="2,301.72,507.67,93.63,7.54" target="#b14">(Gittelman &amp; Kogut, 2003)</ref>. In particular, the pharmaceutical industry, which is our research setting, is dependent on a complex and alwaysevolving scientific research base, largely because of an increasing reliance on biotechnology for its R&amp;D activities <ref type="bibr" coords="2,498.10,539.02,54.63,7.54;2,301.72,549.51,57.86,7.54" target="#b21">(Henderson &amp; Cockburn, 1994)</ref>. As a result, the pharmaceutical industry has become one of the most science-intensive sectors in the economy <ref type="bibr" coords="2,523.78,559.94,29.04,7.54;2,301.72,570.42,19.59,7.54" target="#b30">(Pisano, 2006)</ref>. The ability to take advantage of scientific advances developed elsewhere has become increasingly important to R&amp;D in pharmaceutical firms, and is a major source of competitive advantage <ref type="bibr" coords="2,301.72,601.78,75.88,7.54" target="#b13">(Gambardella, 1992)</ref>. Although the pharmaceutical industry as a whole is science driven, we still expect to find firm-level variations in terms of science intensity, and for some firms in the industry to conduct more science-driven R&amp;D than others <ref type="bibr" coords="2,469.46,633.18,83.34,7.54;2,301.72,643.61,50.87,7.54" target="#b6">(Cockburn, Henderson, &amp; Stern, 2000)</ref>.</p><p>The term "science intensity" refers to the degree to which a firm builds upon or relies on scientific knowledge for its technology development. Science intensity reflects the tendency for firms to engage in exploratory research <ref type="bibr" coords="2,392.48,685.45,72.66,7.54" target="#b23">(Kim &amp; Park, 2010)</ref>. Science-based R&amp;D is uncertain and costly, but the payoffs can be high when it is successful, which is a typical pattern for exploratory search (Atuahene- <ref type="bibr" coords="2,532.36,706.37,20.39,7.54;2,301.72,716.86,19.26,7.54" target="#b3">Gima, 2005)</ref>. When a firm is more science driven in its R&amp;D, it is more likely to appreciate the value of exploration and, consequently, be more willing to engage in exploration in R&amp;D.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Technological competence</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Self-citation ratio</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Innovation rates</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Number of patents</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Innovation impact</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Citations per patent</head><p>Note: Solid (dotted) lines indicate positive (negative) effect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>H2 Science intensity</head><p>Average citations in science journals H1 <ref type="figure" coords="2,33.73,738.96,8.01,6.03">Fig</ref> However, science-based research efforts take many years to come to fruition and often do not lead to a patent <ref type="bibr" coords="3,217.64,68.24,75.94,7.54;3,42.52,78.73,19.59,7.54" target="#b14">(Gittelman &amp; Kogut, 2003)</ref>. Therefore, firms face the dilemma that although such efforts may be most effective in terms of high-impact innovation, more focused, intensive exploitation efforts are necessary to be productive in the short term <ref type="bibr" coords="3,106.30,110.08,50.26,7.54" target="#b27">(March, 1991)</ref>. Striking a practical balance between the two is difficult because, besides having limited resources, firms need different types of organizational orientations and strategies for each type of innovation <ref type="bibr" coords="3,131.13,141.49,81.43,7.54" target="#b4">(Auh &amp; Menguc, 2005)</ref>.</p><p>Consequently, firms that focus on science-based innovation may incur the costs of exploration without generating immediate output, but, in the long run, may produce valuable technologies which are instrumental to many other subsequent innovations <ref type="bibr" coords="3,257.43,183.33,36.15,7.54;3,42.52,193.81,54.57,7.54" target="#b1">(Ahuja &amp; Lampert, 2001)</ref>. Therefore, an intensive science focus is more likely to lead to high-impact innovations, even though it may curtail a firm's opportunity to produce more innovations (measured in terms of innovation rates in this paper).</p><p>H2. The science intensity of a firm associates positively with its innovation impact but relates negatively with its innovation rates.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Research design</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Sample and data</head><p>This study examines learning and innovation in the global pharmaceutical industry, in which technologies are complex and geographically dispersed. In this sector, it is imperative for firms to develop medicines for a global market and exploit economies of scale and scope at the global level <ref type="bibr" coords="3,164.52,361.17,53.55,7.54" target="#b30">(Pisano, 2006)</ref>. This study traces longitudinal panel data of patents, patent citations and science journal citations for over 100 companies in the pharmaceutical industry over a <ref type="bibr" coords="3,49.83,392.58,102.98,7.54">13-year interval, 1988-2000</ref>. This study also traces panel data of R&amp;D alliances and R&amp;D expenditure, as prior studies have identified both internal and external R&amp;D efforts as important drivers of innovation <ref type="bibr" coords="3,85.21,423.98,98.70,7.54" target="#b7">(Cohen &amp; Levinthal, 1989;</ref><ref type="bibr" coords="3,187.31,423.98,106.26,7.54;3,42.52,434.41,19.59,7.54" target="#b40">Wuyts, Dutta, &amp; Stremersch, 2004)</ref>.</p><p>The R&amp;D alliance sample in this study was drawn from the Securities Data Company (SDC) database. The patent data was obtained from CHI Research Inc., a research organization specializing in the development and analysis of patent indicators. As a rule of thumb, CHI Research compiles data for companies whose patenting activity is above a certain thresholdgenerally, 10 or more patents registered in at least one year during the 1990s. The CHI database covers 1,025 companies across manufacturing sectors (460 U.S. and 565 non-U.S. companies). Of the 1,025 companies, 315 belong to Standard Industrial Classification (SIC) code 28. All CHI data (for SIC 28) were then combined with SDC data. Because it was necessary to have panel data on both R&amp;D alliances and patents, the selection was restricted to the R&amp;D alliance pairs that belonged to the CHI database; hence the number of firms was reduced to 103 from 315 firms. Thus identified, the 103 principal firms were based in three regions-36 firms in the U.S., 42 in Japan and 25 in Europe.</p><p>Although the source patent data were available for the years 1988 to 2000, the sample included only up to 1995 to allow for the calculation of the impact index (i.e., number of citations received per patent), with a five-year "forward" window. In comparing citations per patent, one must be very careful to do the comparisons in a specific year, because citations accumulate over time. For example, within the 13-year interval from 1988 to 2000, a patent issued in 1988 will have 12 years of citation from subsequent patents, whereas a patent issued in 1998 will only have citations from two subsequent years of patents. We chose the five-year time frame based on the observation that citations decline rapidly after five years <ref type="bibr" coords="3,246.50,716.86,47.09,7.54;3,42.52,727.29,46.14,7.54" target="#b14">(Gittelman &amp; Kogut, 2003;</ref><ref type="bibr" coords="3,90.42,727.29,135.30,7.54" target="#b22">Jaffe, Trajtenberg, &amp; Henderson, 1993)</ref>. Thus, with a oneyear lag between independent and dependent variables, only seven years are usable. Because we are interested in firm-level variation in learning patterns and outcomes, patent and citation data were aggregated at the firm level. As a result, 721 observations involving 103 firms over seven years were identified for the empirical test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Measurement</head><p>When filing patents, companies tend to cite, in their patent applications, their own as well as other companies' prior work. Patent citations are indicators of technological sources and antecedents. The citation measure shares some of the limitations of other patent indicators. For example, the propensity to patent varies across technologies, firms and industries. Patents represent codified knowledge. Patent examiners are involved in generating citation lists. Despite these usual limitations, it is nevertheless generally accepted that patents and citations provide a useful metric, especially in patent-intensive sectors <ref type="bibr" coords="3,310.51,225.16,60.15,7.54" target="#b22">(Jaffe et al., 1993)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Dependent variables</head><p>Innovation rate is computed as the number of patents in the industry that were produced by a firm in each year. If one firm produces more patents than another, this suggests ceteris paribus that the firm is better able to develop new products, processes, or services based on this technology <ref type="bibr" coords="3,409.26,308.90,60.58,7.54" target="#b16">(Griliches, 1990)</ref>. In their studies of the relationship between alliances and innovation, <ref type="bibr" coords="3,492.38,319.33,51.42,7.54" target="#b37">Stuart (2000)</ref> and <ref type="bibr" coords="3,310.50,329.82,48.87,7.54" target="#b0">Ahuja (2000)</ref> used the same measure.</p><p>Innovation impact is the ratio of citations received by a firm's patents from five subsequent years of other patents divided by the firm's patents. This measure excludes self-citation, i.e., citations that a firm makes to its own, previously issued patents. We measured the innovation impact of firm i in year t by the average number of citations cited by the patents of the other firms in our sample over the subsequent five years (i.e., year t + 1 to year t + 5). For example, Genentech issued 22 patents in 1994, and the 102 other firms in the sample cited those 22 patents 69 times during the next five years (i.e., 1995-1999); thus, we measured the innovation impact of Genentech in 1994 as 3.1364 (i.e., 69/22). Citations per patent indicate the impact of a firm's patents. This does not guarantee that every highly cited patent is of significance. It does argue, however, that a firm with a portfolio of highly cited patents is more likely to generate technology of significant impact than one whose patents are cited less frequently.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Independent variables</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.1.">Technological competence</head><p>Self-citations provide one indication of a patent's value to the firm. They represent areas of technology that are particularly important to the firm, areas where it has conducted a substantial amount of R&amp;D and built up an accumulation of core technological competence. If it has not been self-cited, or at least not for a long time, the patent may no longer be important to the firm's core domain. <ref type="bibr" coords="3,506.38,591.34,55.16,7.54;3,310.51,601.78,51.24,7.54" target="#b33">Rosenkopf and Nerkar (2001)</ref>, <ref type="bibr" coords="3,368.73,601.78,65.64,7.54" target="#b34">Song et al. (2003)</ref>, and <ref type="bibr" coords="3,458.13,601.78,103.46,7.54" target="#b35">Sorensen and Stuart (2000)</ref> used self-citations in a similar way to evaluate the extent of exploitative learning or competence. Thus, we calculated patent self-citations as the ratio of the number of self-citations to the total number of citations made by the firm. For example, Genentech made a total of 117 citations in 1994, 32 of which were self-citations (i.e., citations from a firm's own later patents); thus, we measured the selfcitation ratio of Genentech in 1994 as 0.2735 (i.e., 32/117).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.2.">Science intensity of a firm's patents</head><p>Citations include both prior patents and other publications, which can include any non-patent material such as brochures, books, etc. Counting the subset of specific references to scientific articles reveals how closely linked a patent is to cutting-edge scientific research. We measured the science intensity of firm i in year t using the average number of science references on the front pages of the firm's patents in that year. In our sample, the average is 2.2 per patent, with 21.8 per patent as the highest among Genentech's patents. High science intensity indicates that a firm builds its technology based on advances in science. This measure is particularly important in the pharmaceutical industry because many cutting-edge and important findings in the industry are reported in scientific journals <ref type="bibr" coords="4,200.58,131.06,80.30,7.54" target="#b6">(Cockburn et al., 2000)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Control variables</head><p>This study includes controls for regional and firm-level variances. R&amp;D intensity (i.e., R&amp;D expense/sales) was included as a control for unobserved heterogeneity in terms of ability to innovate. There were missing observations regarding R&amp;D intensity. We filled in missing values by mean substitution. This study controls external R&amp;D efforts by capturing the frequency of R&amp;D alliances. This study did a count of R&amp;D alliances among firms in the sample for the five years prior to the focal event (i.e., patent filing). Following the classification of the SDC database, this study broadly defines R&amp;D alliances as any alliances involving research and development activities. This study used a fiveyear moving window based on previous research, which suggests that the lifespan for alliances is usually no more than five years <ref type="bibr" coords="4,257.55,292.74,27.23,7.54;4,33.73,303.23,19.59,7.54" target="#b17">(Gulati, 1995)</ref>.</p><p>This study also controls for regional origins. Since the sample consists of 36 U.S., 42 Japanese, and 25 European firms, the use of U.S. patent data (patents granted by the U.S. patent office) may raise possible biases. Thus, the analyses introduced Japanese and European dummies, with the U.S. as a default. Lastly, the firm-type dummy was included to see if innovation patterns differ across firm types. CHI Research (where patent data were obtained) counts patent totals for particular firms and then groups them based on the firm's primary activity. The sample consists of two firm types-specialized pharmaceutical firms and diversified firms-in SIC 28. The firm-type dummy was coded as 1 for specialized pharmaceutical firms and 0 for diversified firms.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Methods</head><p>Two separate analyses were run for two different kinds of dependent variables. In the analyses, two problems were addressed. First, innovation rates were represented as a count of patents in each year that takes only discrete, non-negative integer values. Under these conditions, Poisson or negative binomial models are appropriate. Unlike the Poisson model, the negative binomial model does not assume the mean-variance equality of the count-dependent variable. The statistics indicated an over-dispersion problem. This study thus employed the negative binomial model.</p><p>Our second dependent variable is a ratio of citations to patents (i.e., citations per patent). There is an estimation problem inherent in panel data. A methodological concern is that measurements on the same subjects at different times are a source of autocorrelation in panel data. Similarly, panel data are also vulnerable to a problem of heteroscedasticity (i.e., non-constant error variances). To correct for this bias, we used a "generalized linear regression model" using Limdep 7.0 <ref type="bibr" coords="4,343.50,110.08,52.87,7.54" target="#b15">(Greene, 1995)</ref>. The Hausman statistic supports our use of the random effects model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>A Pearson correlation analysis between variables was first performed as a preliminary test. The correlation matrix in <ref type="table" coords="4,525.26,182.53,27.52,7.54" target="#tab_0">Table 1</ref> indicates a potential multicollinearity problem. Thus, for Models 2 and 4 in <ref type="table" coords="4,320.60,203.45,26.23,7.54" target="#tab_2">Table 3</ref>, we checked VIF, or Variance Inflation Factors, which turned out to show acceptably low values ranging from 1.07 to 1.67 <ref type="bibr" coords="4,301.72,224.37,179.06,7.54" target="#b29">(Neter, Kutner, Nachtsheim, &amp; Wasserman, 1996)</ref>.</p><p>The two dependent variables-innovation rates and impact-are not correlated with each other, verifying that the two are distinct constructs. Overall, correlation statistics between the dependent and independent variables are consistent with predictions. Technological competence is positively correlated with innovation rates, but negatively correlated with innovation impact. By contrast, science intensity is negatively correlated with innovation rates, but positively correlated with innovation impact. R&amp;D alliances are positively correlated with both innovation rates and impact. The statistics also reveal the differences across firm types and across regions. The U.S. firm dummy is positively correlated with innovation rates, impact, competence, science intensity, R&amp;D alliances, and R&amp;D intensity. By contrast, the Japanese firm dummy is negatively correlated with all those variables. The European firm dummy is positively correlated only with innovation rates. The firm-type difference is also apparent: specialized pharmaceutical firms are less prominent in terms of innovation rates, but more prominent in terms of innovation impact, science intensity, R&amp;D alliances, and R&amp;D intensity, as opposed to diversified firms. <ref type="table" coords="4,313.68,433.56,26.67,7.54" target="#tab_1">Table 2</ref> presents the top 10 companies in the sample in terms of innovation rates and impact, technological competence, and science intensity. Our 103 sample firms consist of 36 U.S., 42 Japanese, and 25 European firms. As shown in <ref type="table" coords="4,412.61,464.97,25.74,7.54" target="#tab_1">Table 2</ref>, however, the top 10 lists are mainly occupied by U.S. and European firms. Japanese firms are under-represented in the lists. Noticeably, U.S. firms are leading in both science intensity and innovation impact, though they lag behind European firms in innovation rates. <ref type="table" coords="4,435.11,506.81,26.78,7.54" target="#tab_1">Table 2</ref> shows that the patterns appear to corroborate the correlation results in <ref type="table" coords="4,476.05,517.24,25.07,7.54" target="#tab_0">Table 1</ref>. <ref type="table" coords="4,313.68,527.74,28.37,7.54" target="#tab_2">Table 3</ref> presents the two models from the negative binomial regression in the first and second columns, and the two other models from generalized linear regression analysis in the third and fourth columns. As a baseline, Models 1 and 3 load only the control variables. The coefficient of the R&amp;D intensity variable is negative and significant for innovation rates. The negative coefficient of the variable is not so surprising, given that R&amp;D intensity is normalized by sales, which is highly (=0.79) correlated with innovation rates. The estimated coefficients for the R&amp;D alliance variable are statistically significant in Model 1, but not in Model 3. This result implies that the effect of R&amp;D alliances is significant for innovation rates, but not for innovation impact. The Japanese dummy is negatively associated with both innovation rates and impact. The European dummy is insignificant.</p><p>The firm-type dummy is positively associated with innovation impact. These results for dummy variables are largely consistent with the correlation patterns. Explanatory variables were added to Models 2 and 4 for the hypothesis testing. The significant improvement of the log-likelihood functions from −3489.42 to − 3439.52 in Models 1 and 2 (χ 2 = 99.8, p b 0.001) suggests that a better-fitting model emerges as the explanatory variables are introduced. Also, the significant improvement of R 2 in Models 3 and 4 (ΔR 2 = 0.052, ΔF = 1.047, p b 0.001) suggests that adding the technological competence and science intensity variables results in a better-fitting model. H1 predicts a positive effect of technological competence on innovation rates, but a negative effect on innovation impact. In H2, the opposite pattern is predicted for science intensity. The results from Models 2 and 4 support both H1 and H2, suggesting that a firm's technological competence leads to more innovation but less impact, whereas the science intensity of its technology development leads to greater innovation impact, but less innovation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions and discussion</head><p>This study advances the evolving research on innovation by considering the duality of any innovation process in terms of two outcomes: rates and impact. <ref type="bibr" coords="5,420.21,350.74,51.87,7.54" target="#b27">March (1991)</ref> highlights the inherent tension between exploitation and exploration in organizational learning and innovation processes. This tension is the constant focus of subsequent studies in innovation, management, and marketing literature. Indeed, there is a rich tradition in marketing of studying diverse aspects of innovation and new product development <ref type="bibr" coords="5,534.32,403.01,27.24,7.54;5,310.51,413.50,42.48,7.54" target="#b40">(Wuyts et al., 2004)</ref>. Notwithstanding the merits of this tradition, however, marketing literature tends to rely on the questionnaire method via survey, which suffers from self-report bias in measuring learning and innovation <ref type="bibr" coords="5,354.78,444.90,135.40,7.54" target="#b36">(Sorescu, Chandy, &amp; Prabhu, 2003)</ref>. The longitudinal investigation here of patent data extends this line of research by providing additional hard evidence on the trade-off between exploitation and exploration.</p><p>This finding implies that if a firm wants to improve its innovative capabilities and output in terms of frequency and impact, then it should strike a balance between exploitative, localized learning and exploratory learning-by-experimentation. This idea is, in essence, the popular "ambidexterity" premise <ref type="bibr" coords="5,433.53,528.58,99.19,7.54" target="#b39">(Tushman &amp; O'Reilly, 1996)</ref>, which says that firms must undergo the paradoxical strategic process of balancing between exploitative and exploratory innovation strategies <ref type="bibr" coords="5,310.51,559.93,73.55,7.54" target="#b18">(He &amp; Wong, 2004)</ref>. Indeed, seeking ambidexterity by conducting both types of innovation is a reality in the fast-evolving technological and market conditions of today. At any given time, firms may have to emphasize either exploration or exploitation, yet over time, a balance should be maintained. Incidentally, this remains a fruitful area for further research.</p><p>The result for the R&amp;D alliances variable deserves some explanations. By controlling for R&amp;D alliances, we emphasize that technology learning occurs not only within a firm boundary, but also across firm boundaries. Results imply that R&amp;D alliances contribute to innovation rates, but not to innovation impact. If we combine this finding with findings regarding technological competence and science intensity, we could suggest that exploration in the form of strengthening the external linkage to cutting-edge scientific knowledge and technology may be the only way to enhance innovation impact or improve the chances of impactful innovation. By juxtaposing internal and external R&amp;D exploitation-exploration, firms may be able to overcome tradeoffs in learning and innovation <ref type="bibr" coords="5,425.87,737.78,94.53,7.54" target="#b24">(Lavie &amp; Rosenkopf, 2006)</ref>. However, Note: Innovation rates is measured by number of patents per year; innovation impact by citations per patent; technological competence by self-citation ratio; and science intensity by average number of citations in science journals. our data constraints prevented us from distinguishing between exploitation and exploration within the domain of R&amp;D alliances. Even if the measure of the intent is elusive, this remains an area for further research, perhaps using more detailed survey-type alliance data.</p><p>Relatedly, due to data constraints, this study could not examine specific environmental circumstances where either exploitation or exploration would be more effective in improving innovation rates and/or impact.</p><p>In general, we predict that exploration efforts may become more value-adding when a firm faces greater complexity and uncertainty in its innovation. Indeed, <ref type="bibr" coords="6,124.78,172.89,116.10,7.54" target="#b12">Fleming and Sorenson (2004)</ref> show that science-guided search associates closely with high-impact innovations, especially for the highly complex innovations in pharmaceuticals. Future research along this line may enrich our understanding of how a firm manages innovation in a turbulent technological and market environment. Although the findings may be generally applicable to other technology-intensive industries where patenting innovative outputs is important, such a claim is an empirical question. Thus, conducting future research is necessary in other industrial settings to corroborate the findings in this study.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="2,33.73,738.96,251.48,6.03"><head>. 1 .</head><label>1</label><figDesc>Theoretical model. Note: solid (dotted) lines indicate positive (negative) effect.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="4,33.73,611.68,513.05,132.46"><head>Table 1</head><label>1</label><figDesc>Descriptive statistics and correlation matrix.</figDesc><table coords="4,33.73,634.92,513.05,109.21">Mean 
+S.D. 
+Min. 
+Max. 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+(7) 
+(8) 
+(9) 
+
+(1) Innovation rates 
+60.94 
+85.37 
+1 
+505 
+1.00 
+(2) Innovation impact 
+0.81 
+0.59 
+0 
+4.0 
+− 0.02 
+1.00 
+(3) Technological competence 
+0.36 
+0.15 
+0 
+0.88 
+0.27* 
+− 0.11* 
+1.00 
+(4) Science intensity 
+2.19 
+3.58 
+0 
+37.5 
+− 0.11* 
+0.35* 
+− 0.13* 
+1.00 
+(5) R&amp;D intensity 
+0.13 
+0.34 
+0.0001 
+6.12 
+− 0.08 
+0.15* 
+− 0.07 
+0.45* 
+1.00 
+(6) R&amp;D alliances 
+0.76 
+1.41 
+0 
+12 
+0.22* 
+0.14* 
+0.03 
+0.27* 
+0.04 
+1.00 
+(7) U.S. firm dummy 
+0.35 
+0.47 
+0 
+1 
+0.09* 
+0.25* 
+0.12* 
+0.31* 
+0.19* 
+0.12* 
+1.00 
+(8) Japanese firm dummy 
+0.41 
+0.49 
+0 
+1 
+− 0.29* 
+− 0.29* 
+− 0.13* 
+− 0.30* 
+− 0.15* 
+− 0.17* 
+− 0.61* 
+1.00 
+(9) European firm dummy 
+0.24 
+0.42 
+0 
+1 
+0.23* 
+0.07 
+0.02 
+0.00 
+− 0.04 
+0.05 
+− 0.42* 
+− 0.47* 
+1.00 
+(10) Firm-type dummy 
+0.54 
+0.49 
+0 
+1 
+− 0.24* 
+0.28* 
+− 0.06 
+0.37* 
+0.19* 
+0.15* 
+0.30* 
+− 0.39* 
+0.11* 
+
+* Correlation is significant at the 0.05 level (two-tailed). All independent variables are lagged by one year. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="5,42.52,58.07,513.08,132.46"><head>Table 2</head><label>2</label><figDesc>Top 10 lists of companies in main variables.</figDesc><table coords="5,48.47,81.32,507.13,109.21">Rank Innovation rates 
+Innovation impact 
+Technological competence 
+Science intensity 
+
+Company 
+Value Company 
+Value Company 
+Value Company 
+Value 
+
+1 
+Bayer AG (Germany) 
+461 
+Genentech Inc. (US) 
+2.66 
+Alza Corp (US) 
+0.83 
+Genentech Inc. (US) 
+21.81 
+2 
+E. I. DuPont (US) 
+402 
+Immunex Corp (US) 
+2.13 
+Perkin-Elmer Corp (US) 
+0.62 
+Enzon Inc. (US) 
+14.07 
+3 
+BASF (Germany) 
+361 
+G D Searle (US) 
+1.84 
+Kureha Chemical (Japan) 
+0.61 
+Immunex Corp (US) 
+13.17 
+4 
+Hoechst AG (Germany) 
+345 
+Monsanto Co (US) 
+1.75 
+Chisso Corporation (Japan) 
+0.60 
+Chiron Corp (US) 
+7.82 
+5 
+Ciba-Geigy AG (Switzerland) 304 
+Marion Merrell Dow (US) 
+1.66 
+Wellcome PLC (UK) 
+0.57 
+Neorx Corp (US) 
+7.31 
+6 
+Dow Chemical (US) 
+293 
+Roussel UCLAF (France) 
+1.64 
+E. I. DuPont (US) 
+0.56 
+Research Corp (US) 
+7.18 
+7 
+Merck (US) 
+170 
+Boehringer Mannheim (Germany) 1.56 
+Degussa AG (Germany) 
+0.55 
+Chugai Co (Japan) 
+7.17 
+8 
+Johnson &amp; Johnson (US) 
+159 
+SmithKline Beecham (UK) 
+1.53 
+Bayer AG (Germany) 
+0.54 
+Institut Merieux SA (France) 
+5.65 
+9 
+Rhone Poulenc SA (France) 
+133 
+Warner-Lambert (US) 
+1.47 
+Mitsubishi Chemical (Japan) 0.53 
+Novo Nordisk A/S (Denmark) 5.61 
+10 
+Bristol-Myers Squibb (US) 
+130 
+Wellcome PLC (UK) 
+1.44 
+Beckman Instruments (US) 
+0.52 
+Upjohn Inc. (US) 
+5.50 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="5,42.52,469.95,248.60,274.26"><head>Table 3</head><label>3</label><figDesc>Estimates of innovation rates and impact. *p b 0.05, **p b 0.01, ***p b 0.001. Standard errors in parentheses. Not applicable (n.a.).</figDesc><table coords="5,48.47,493.13,239.59,237.79">Negative binomial 
+estimates of innovation 
+rates 
+
+GLS estimates of 
+innovation impact 
+
+Model 1 
+Model 2 
+Model 3 
+Model 4 
+
+Explanatory variables 
+Technological competence 
+1.79*** 
+− 0.34* 
+(0.24) 
+(0.15) 
+Science intensity 
+− 0.06*** 
+0.03*** 
+(0.01) 
+(0.01) 
+Control variables 
+R&amp;D intensity 
+− 0.59*** 
+− 0.29** 
+− 0.06 
+− 0.11 
+(0.09) 
+(0.11) 
+(0.07) 
+(0.07) 
+R&amp;D alliances 
+0.17*** 
+0.21*** 
+0.02 
+0.01 
+(0.02) 
+(0.02) 
+(0.02) 
+(0.01) 
+Japanese dummy 
+− 1.20*** 
+− 1.10*** 
+− 0.32*** 
+− 0.29*** 
+(0.07) 
+(0.08) 
+(0.09) 
+(0.08) 
+European dummy 
+0.02 
+0.05 
+− 0.11 
+− 0.09 
+(0.08) 
+(0.08) 
+(0.09) 
+(0.09) 
+Firm-type dummy 
+− 0.92*** 
+− 0.74*** 
+0.22** 
+0.16* 
+(0.06) 
+(0.06) 
+(0.08) 
+(0.07) 
+Constant 
+4.79*** 
+4.02*** 
+0.84*** 
+0.94*** 
+(0.07) 
+(0.13) 
+(0.08) 
+(0.10) 
+N 
+721 
+721 
+721 
+721 
+Over-dispersion parameters 
+0.69*** 
+0.61*** 
+n.a. 
+n.a. 
+Log likelihood 
+− 3489.42 
+− 3439.52 
+n.a. 
+n.a. 
+R-squared 
+n.a. 
+n.a. 
+0.136 
+0.187 
+Adjusted R-squared 
+n.a. 
+n.a. 
+0.130 
+0.179 
+
+</table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,33.73,303.55,251.05,6.03;6,45.69,311.55,81.95,6.03" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Collaboration networks, structural holes, and innovation: a longitudinal study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Ahuja</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adm Sci Q</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="425" to="55" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,33.73,319.48,251.05,6.03;6,45.70,327.38,235.43,6.38" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Entrepreneurship in the large corporation: a longitudinal study of how established firms create breakthrough inventions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Ahuja</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Lampert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strateg Manage J</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="521" to="564" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,33.73,335.32,251.01,6.38;6,45.70,343.41,100.99,6.03" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Evidence on the role of firm capabilities in vertical integration decisions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Argyres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strateg Manage J</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="129" to="50" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,33.73,351.40,251.02,6.03;6,45.70,359.34,82.06,6.03" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Resolving the capability-rigidity paradox in new product innovation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Atuahene-Gima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mark</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="61" to="83" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,33.73,367.33,251.01,6.03;6,45.70,375.27,147.03,6.03" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Balancing exploration and exploitation: the moderating role of competitive intensity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Auh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Menguc</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bus Res</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="1652" to="61" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,33.73,383.26,251.03,6.03" xml:id="b5">
+	<monogr>
+		<title level="m" type="main">The innovator&apos;s dilemma</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Christensen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>Harvard Business School Press</publisher>
+			<pubPlace>Boston, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,33.73,391.26,251.02,6.03;6,45.70,399.19,104.68,6.03" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Untangling the origins of competitive advantage</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">M</forename><surname>Cockburn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Stern</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strateg Manage J</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1123" to="1168" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,33.73,407.19,251.04,6.03;6,45.70,415.12,49.69,6.03" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Innovation and learning: the 2 faces of R-and-D</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">M</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Levinthal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Econ J</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="569" to="96" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,33.73,423.12,251.04,6.03;6,45.70,431.05,116.81,6.03" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Absorptive capacity: a new perspective on learning and innovation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">M</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Levinthal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adm Sci Q</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="128" to="52" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,33.73,439.05,251.05,6.03;6,45.70,446.95,239.07,6.38;6,45.70,454.98,93.11,6.03" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Dynamic capabilities and new product development in high technology ventures: an empirical analysis of new biotechnology firms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Deeds</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Decarolis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Coombs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bus Venturing</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="211" to="240" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,33.73,462.97,251.00,6.03;6,45.70,470.91,208.37,6.03" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Networking as a means to strategy change: the case of open innovation in mobile telephony</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Dittrich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Duysters</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Prod Innov Manage</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="510" to="531" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,33.73,478.90,251.04,6.03;6,45.70,486.90,235.62,6.03" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Technological paradigms and technological trajectories: a suggested interpretation of the determinants and directions of technical change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Dosi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res Policy</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="147" to="62" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,33.73,494.83,251.04,6.03;6,45.70,502.83,49.69,6.03" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Science as a map in technological search</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Fleming</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Sorenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strateg Manage J</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="909" to="937" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,56.48,251.00,6.03;6,313.68,64.47,216.89,6.03" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Competitive advantages from in-house scientific research: the United States pharmaceutical industry in the 1980s</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gambardella</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res Policy</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="391" to="407" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,72.41,250.95,6.03;6,313.68,80.31,239.04,6.38" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Does good science lead to valuable knowledge? Biotechnology firms and the evolutionary logic of citation patterns</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Gittelman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Kogut</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Manage Sci</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="366" to="82" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,88.34,169.46,6.03" xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Econometric Software Inc</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">H</forename><surname>Greene</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Limdep</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,96.33,250.99,6.03;6,313.68,104.27,30.66,6.03" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Patent statistics as economic indicators: a survey</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Griliches</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Econ Lit</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1661" to="707" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,112.27,251.02,6.03;6,313.68,120.26,66.18,6.03" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Social structure and alliance formation patterns: a longitudinal analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Gulati</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adm Sci Q</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="619" to="52" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,128.20,250.95,6.03;6,313.68,136.19,114.37,6.03" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Exploration vs. exploitation: an empirical test of the ambidexterity hypothesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J-L</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P-K</forename><surname>Wong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Organ Sci</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="481" to="94" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,144.03,251.03,6.38;6,313.68,152.12,88.41,6.03" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Evolutionary trajectories in petroleum firm research and development</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Helfat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Manage Sci</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="1720" to="1767" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,160.11,251.01,6.03;6,313.68,168.05,239.08,6.03;6,313.68,176.04,49.69,6.03" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Underinvestment and incompetence as responses to radical innovation: evidence from the photolithographic alignment equipment industry</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Henderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rand J Econ</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="248" to="70" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,183.89,251.02,6.38;6,313.68,191.97,149.75,6.03" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Measuring competence: exploring firm effects in pharmaceutical research</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Cockburn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strateg Manage J</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="63" to="84" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,199.97,251.01,6.03;6,313.68,207.90,177.13,6.03" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Geographic localization of knowledge spillovers as evidenced by patent citations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">B</forename><surname>Jaffe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Trajtenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Henderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Q J Econ</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="577" to="98" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,215.91,251.05,6.03;6,313.68,223.84,111.94,6.03" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The global research-and-development network and its effect on innovation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J-H</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Int Mark</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="43" to="57" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,231.84,251.01,6.03;6,313.68,239.77,82.14,6.03" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Balancing exploration and exploitation in alliance formation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Lavie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Rosenkopf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acad Manage J</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="797" to="818" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,247.77,251.01,6.03;6,313.68,255.76,167.61,6.03" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Core capabilities and core rigidities: a paradox in managing new product development</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Leonard-Barton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strateg Manage J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="111" to="136" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,263.70,226.80,6.03" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Organizational learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Levitt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">G</forename><surname>March</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Sociol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="319" to="359" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,271.69,250.98,6.03;6,313.68,279.63,19.70,6.03" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Exploration and exploitation in organizational learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">G</forename><surname>March</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Organ Sci</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="71" to="87" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,287.62,251.02,6.03;6,313.68,295.62,142.59,6.03" xml:id="b28">
+	<monogr>
+		<title level="m" type="main">An evolutionary theory of economic change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">R</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">G</forename><surname>Winter</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1982" />
+			<publisher>Belknap Press of Harvard University Press</publisher>
+			<pubPlace>Cambridge, Mass</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,303.55,250.99,6.03;6,313.68,311.55,82.27,6.03" xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Applied linear statistical models</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Neter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kutner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Nachtsheim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Wasserman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<pubPlace>Homewood, IL: Irwin</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,319.48,235.06,6.03" xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Science business</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">P</forename><surname>Pisano</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Harvard Business School Press</publisher>
+			<pubPlace>Boston, Mass</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,327.48,250.99,6.03;6,313.68,335.41,19.70,6.03" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The core competence of the corporation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">K</forename><surname>Prahalad</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Hamel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Harv Bus Rev</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="79" to="91" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,343.41,251.05,6.03;6,313.68,351.40,239.05,6.03;6,313.68,359.34,61.65,6.03" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The impact of a company&apos;s business strategy on its technological competence, network competence and innovation success</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Ritter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">G</forename><surname>Gemünden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bus Res</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="548" to="56" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,367.33,251.04,6.03;6,313.68,375.27,208.96,6.03" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Beyond local search: boundary-spanning, exploration, and impact in the optical disk industry</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Rosenkopf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Nerkar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strateg Manage J</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="287" to="306" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,383.26,250.99,6.03;6,313.68,391.25,175.15,6.03" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Learning-by-hiring: when is mobility more likely to facilitate interfirm knowledge transfer?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Almeida</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Manage Sci</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="351" to="65" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,399.19,251.02,6.03;6,313.68,407.19,49.65,6.03" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Aging, obsolescence, and organizational innovation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Sorensen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">E</forename><surname>Stuart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adm Sci Q</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="81" to="112" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,415.03,250.99,6.38;6,313.68,423.12,198.19,6.03" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Sources and financial consequences of radical innovation: insights from pharmaceuticals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">B</forename><surname>Sorescu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">K</forename><surname>Chandy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Prabhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mark</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="82" to="102" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,430.96,251.02,6.38;6,313.68,439.05,239.03,6.03;6,313.68,447.04,27.03,6.03" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Interorganizational alliances and the performance of firms: a study of growth and innovation rates in a high-technology industry</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">E</forename><surname>Stuart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strateg Manage J</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="791" to="811" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,454.98,250.96,6.03;6,313.68,462.97,97.36,6.03" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Local search and the evolution of technological capabilities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">E</forename><surname>Stuart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Podolny</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strateg Manage J</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="21" to="38" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,470.91,251.04,6.03;6,313.68,478.90,160.24,6.03" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Ambidextrous organizations: managing evolutionary and revolutionary change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Tushman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>O&amp;apos;reilly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Calif Manage Rev</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="8" to="30" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,301.72,486.89,251.00,6.03;6,313.68,494.83,239.03,6.03;6,313.68,502.82,23.34,6.03" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Portfolios of interfirm agreements in technologyintensive markets: consequences for innovation and profitability</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Wuyts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dutta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Stremersch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mark</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="88" to="100" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

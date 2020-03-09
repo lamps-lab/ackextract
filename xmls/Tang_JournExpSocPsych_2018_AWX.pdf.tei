@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">CEOs imbue organizations with feelings, increasing punishment satisfaction and apology effectiveness</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Simone</forename><surname>Tang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<country>United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kurt</forename><surname>Gray</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">University of North Carolina-Chapel Hill</orgName>
+								<address>
+									<country>United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">CEOs imbue organizations with feelings, increasing punishment satisfaction and apology effectiveness</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.jesp.2018.06.002</idno>
+					<note>Contents lists available at ScienceDirect Journal of Experimental Social Psychology A R T I C L E I N F O Handling editor: Aarti Iyer</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:19+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Organization Retributive punishment Social justice Mind perception Experience Apologies</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A B S T R A C T</head><p>Organizations are easy to blame for wrongdoing because they seem capable of intention and planning (i.e., they possess perceived agency). However, punishing organizations for wrongdoing is often unsatisfying, perhaps because organizations seem incapable of feeling pain (i.e., they lack perceived experience). Without the ability to suffer, corporations and organizations cannot slake people's thirst for retribution, even with large fines and other penalties. CEOs may provide a potential solution to this "organization experience deficiency." As feeling humans who embody the organizations they lead, CEOs provide a possible source of suffering and therefore organizational redemption. Across five experiments and one pre-registered experiment, we found that CEOs imbue their organizations with the ability to feel (Experiments 1-4b) and ability to suffer (Experiments 2a, 2b, and 3), which makes organizational punishments more satisfying (Experiments 2a, 2b, and 3), and apologies more effective (Experiments 4a and 4b). Implications for justice and mind perception in organizations are discussed.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>In 2014, car manufacturer Toyota was fined $1.2 billion for knowingly selling cars with defective accelerators. Despite the size of the fine-the largest at the time-people seemed dissatisfied and demanded tougher sanctions <ref type="bibr" coords="1,139.12,468.61,100.23,7.17" target="#b13">(Douglas &amp; Fletcher, 2014)</ref>. Conversely, when the pharmaceutical company Valeant was fined the equivalent of $143.1 million for price gouging desperate patients-about 10% of the Toyota fine-people appeared more satisfied <ref type="bibr" coords="1,212.37,499.96,76.27,7.17;1,37.59,510.45,19.32,7.17" target="#b43">(Rapoport &amp; Lublin, 2016)</ref>. Why the differences in reaction? Although reactions to any legal case are multiply determined <ref type="bibr" coords="1,146.44,520.88,142.22,7.17;1,37.59,531.37,20.20,7.17" target="#b12">(Demleitner, Berman, Miller, &amp; Wright, 2015;</ref><ref type="bibr" coords="1,60.66,531.37,75.81,7.17" target="#b15">Erez &amp; Rogers, 1999;</ref><ref type="bibr" coords="1,139.35,531.37,82.02,7.17" target="#b36">Myers &amp; Greene, 2004)</ref>, Valeant's punishment might have been more satisfying because its CEO was fired, providing a tangible source of suffering.</p><p>When wrongdoing occurs, people thirst for retribution, demanding an eye for an eye <ref type="bibr" coords="1,98.42,573.21,49.65,7.17" target="#b10">(Darley, 2009)</ref>. Given that most immoral deeds end up harming a victim (even if only in perception; <ref type="bibr" coords="1,207.56,583.64,52.17,7.17" target="#b27">Haslam, 2016;</ref><ref type="bibr" coords="1,263.17,583.64,25.48,7.17;1,37.59,594.13,90.48,7.17" target="#b45">Schein, Goranson, &amp; Gray, 2015)</ref>, people often want the perpetrator of misdeeds to suffer in kind. As most individuals possess the capacity for pain, this thirst for suffering is easily slaked when wrongdoers are punished, whether through prison time, social censure, or personal financial loss.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1.">Organizations are deficient in experience</head><p>In contrast to individuals, organized group agents like corporations seem to lack the ability to suffer. Research in mind perception reveals that while organizations are seen as equally capable of agency (e.g., planning and acting) compared to individuals, they are seen as much less capable of experience (e.g., feeling and sensing, <ref type="bibr" coords="1,501.57,479.04,56.04,7.17;1,306.60,489.53,20.20,7.17" target="#b32">Knobe &amp; Prinz, 2008;</ref><ref type="bibr" coords="1,329.05,489.53,80.72,7.17" target="#b42">Rai &amp; Diermeier, 2015)</ref>. This mind perception profile means that organizations are seen as moral agents (morally capable of perpetrating and being responsible for wrongdoing), but not moral experiencers (or "moral patients," deserving of moral rights; <ref type="bibr" coords="1,473.33,520.88,84.31,7.17" target="#b25">Gray &amp; Wegner, 2009;</ref><ref type="bibr" coords="1,306.60,531.37,51.59,7.17" target="#b38">Opotow, 1990)</ref>. In other words, companies are seen as capable of being villains perpetrating harm, but not as victims experiencing harm <ref type="bibr" coords="1,537.73,541.80,19.92,7.17;1,306.60,552.29,62.20,7.17" target="#b26">(Gray &amp; Wegner, 2011;</ref><ref type="bibr" coords="1,372.42,552.29,84.63,7.17" target="#b42">Rai &amp; Diermeier, 2015)</ref>. Consistent with this idea, society is often willing to paint corporations as evil masterminds rather than as deserving of compassion <ref type="bibr" coords="1,424.80,573.21,55.90,7.17" target="#b34">(Litowitz, 2003)</ref>.</p><p>This lack of perceived experience may be especially problematic for organizations after they perpetrate harm because people are retributivists <ref type="bibr" coords="1,347.47,604.56,50.57,7.17" target="#b10">(Darley, 2009)</ref>, and punishments are most satisfying when they cause the wrongdoer clear suffering (e.g., <ref type="bibr" coords="1,486.82,615.05,70.79,7.17;1,306.60,625.54,19.32,7.17" target="#b19">Fitness &amp; Peterson, 2008)</ref>. Of course, not all transgressions result in punishment-sometimes they are addressed through apologies to preempt punishment <ref type="bibr" coords="1,350.93,646.46,127.05,7.17" target="#b37">(Ohbuchi, Kameda, &amp; Agarie, 1989)</ref>. Even here, however, successful apologies require sincere expressions of remorse and concern https://doi.org/10.1016/j.jesp.2018.06.002 Received 3 November 2017; Received in revised form 5 June 2018; Accepted 5 June 2018 <ref type="bibr" coords="2,37.59,59.80,74.96,7.17" target="#b11">(Davis &amp; Gold, 2011;</ref><ref type="bibr" coords="2,115.14,59.80,78.35,7.17" target="#b17">Fehr &amp; Gelfand, 2010)</ref>. As organizations seem to lack the capacity to feel remorse and suffer, their apologies may be perceived as less sincere or heartfelt. Despite these apparent deficits of mind, there may be one way to overcome them: through their CEO.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2.">The benefits of a CEO</head><p>Although an organization may be represented by its logo, a spokesperson, or even its iconic headquarters, the CEO is often seen as the human embodiment of the entire organization <ref type="bibr" coords="2,233.85,157.43,54.79,7.17" target="#b20">(Forrest, 2011;</ref><ref type="bibr" coords="2,37.59,167.86,48.54,7.17" target="#b55">Woods, 2011;</ref><ref type="bibr" coords="2,88.44,167.86,68.93,7.17">Yale Insights, 2014)</ref>, such as Bill Gates for Microsoft and Mark Zuckerberg for Facebook. CEOs not only provide a human face for an often opaque organizational structure, but may also provide human feelings and emotions. Although organizations are generally seen to lack feelings, CEOs-as human beings-possess both agency and experience, and may be able to confer (at least perceptually) feeling to the organizations they personify.</p><p>More specifically, after an organization commits a moral transgression, people may use the CEO's ability to feel as a proxy for the organization's perceived ability to feel. Although experience is a relatively broad construct <ref type="bibr" coords="2,119.45,272.45,107.54,7.17" target="#b24">(Gray, Gray, &amp; Wegner, 2007)</ref>, we suggest one specific capacity within experience will be of special importance-the capacity to suffer. Feeling pain is essential to retribution <ref type="bibr" coords="2,235.16,293.37,49.66,7.17" target="#b10">(Darley, 2009)</ref>, and so we suggest that the benefits of CEO-conferred-experience will hinge upon increased perceptions of suffering in organizations. Of course, there may be other reasons beyond perceived experience as to why punishments are more satisfying and apologies are more effective when CEOs are emphasized. People often hold leaders responsible for organizational transgressions <ref type="bibr" coords="2,145.93,356.13,119.96,7.17" target="#b56">(Zemba, Young, &amp; Morris, 2006)</ref>, firm performance <ref type="bibr" coords="2,85.61,366.62,92.92,7.17" target="#b9">(Crossland &amp; Chen, 2013)</ref>, and new initiatives <ref type="bibr" coords="2,259.20,366.62,29.40,7.17;2,37.59,377.11,107.99,7.17" target="#b35">(Menon, Sim, Fu, Chiu, &amp; Hong, 2010)</ref>, but we suggest that another possible, though overlooked, reason for increased punishment satisfaction is the CEO's ability to imbue the organization with perceived experience, especially the ability to suffer.</p><p>Here we explore whether CEOs are not only Chief Executive Officers, but also Chief Experiencing Officers, imbuing their organizations with the capacity to feel and providing their organizations potential benefits after organizational malfeasance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3.">The current research</head><p>Six experiments investigate whether CEOs confer experience to organizations. We first test whether an organization represented by its CEO is ascribed relatively more experience than one that is not (Experiment 1). We then examine whether such imbued experience-especially the ability to suffer-makes punishments more satisfying (Experiments 2a, 2b, and 3) and apologies more effective (Experiments 4a and 4b). In our experiments, we report all measures, manipulations, and exclusions. All data were analyzed after all data collection was complete, except for preregistered Experiment 2 (because of an issue by the Qualtrics platform that led some participants in the initial sample to experience error messages during the study), and Experiment 4b (because the effect size was smaller than expected, leaving us with insufficient power from our initial sample).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experiment 1: CEOs imbue companies with experience</head><p>In the first experiment, we investigated whether an organization represented by a CEO (vs. its headquarters) is imbued with more experience. To ensure that people were not mistakenly rating the CEO himself when the organization was represented by the CEO, we also asked participants to rate the CEO himself. We predicted that the CEO himself would be perceived to possess the highest experience, then the organization represented by the CEO, and lastly the organization represented by its physical structure-its headquarters.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.1.">Participants</head><p>Past research examining mind perception of organizations like corporations (e.g., <ref type="bibr" coords="2,376.50,227.15,80.40,7.17" target="#b32">Knobe &amp; Prinz, 2008;</ref><ref type="bibr" coords="2,460.86,227.15,87.29,7.17" target="#b42">Rai &amp; Diermeier, 2015)</ref> is characterized by medium effect sizes. A power analysis using the program G*Power <ref type="bibr" coords="2,362.66,248.07,143.82,7.17" target="#b16">(Faul, Erdfelder, Buchner, &amp; Lang, 2009</ref>) showed that with a medium effect size of d = 0.64 (or f = 0.32) and power of B = 0.80 in a three-cell design, 99 participants in total were needed to detect an effect. However, because our manipulation is subtle, and because of calls for increasing power (e.g., <ref type="bibr" coords="2,460.69,289.91,56.23,7.17" target="#b49">Simmons, 2014)</ref>, we aimed to recruit 100 participants per cell. In total, 302 participants (42% female, age M = 33.84, SD = 10.26) completed the experiment. No participants were excluded.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.2.">Procedure</head><p>Participants read about a company called DenComp, "a manufacturing company that makes and sells metal-based products." They were then randomly assigned to either the Headquarters or the CEO condition, each accompanied by a picture <ref type="figure" coords="2,456.66,384.08,21.74,7.17">(Fig. 1</ref>). In the Headquarters condition, participants read, "the headquarters is located in this building outside the city of Dearborn." In the CEO condition, participants read, "its CEO is Will Umbach" (please see Supplemental Online Materials for complete materials).</p><p>2.1.2.1. Rating experience and agency. Participants then rated DenComp's mind by rating the extent to which it is capable of six capacities (three experience, three agency) on a scale from 1 (not at all) to 7 (extremely). The experience items were "experiencing emotions," "feeling" and "having desires" (α = 0.94). The agency items were "carrying out actions," "planning" and "thinking" (α = 0.89).</p><p>Although participants were told to rate the mind of the company, one concern in the CEO condition is that they will rate the mind of Will Umbach, instead of DenComp, because the CEO's picture is present. We predict that the CEO will confer experience to their company, and not simply because people are confused about which target to rate. The experiment therefore contained two CEO condition variants: one in which participants rated the company and one in which they rated the mind of the CEO with the questions above (e.g., "To what extent do you think Will Umbach is capable of experiencing emotions").</p><p>We predicted that ratings of DenComp represented by the CEO would have more experience than DenComp represented by its headquarters, but less experience than the CEO himself. We had no predictions regarding agency, as organizations are typically ascribed substantial amounts of agency <ref type="bibr" coords="2,404.84,645.55,84.86,7.17" target="#b42">(Rai &amp; Diermeier, 2015)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1.">Experience</head><p>A one-way analysis of variance (ANOVA) revealed a main effect of condition on ratings of experience, F(2, 299) = 36.93, p &lt; .001, η p 2 = 0.20. Pairwise contrast tests revealed that, as predicted, DenComp had higher ratings of experience when represented by the CEO (M = 4.11, SD = 1.80) versus the headquarters (M = 3.58, <ref type="figure" coords="2,306.60,146.62,18.04,6.46">Fig. 1</ref>. The organization was either represented by its headquarters (left) or its CEO (right). SD = 1.83), t(299) = 2.29, p = .023, d = 0.29. Importantly, participants did distinguish the company from the CEO himself, as they rated Will Umbach (M = 5.52, SD = 1.24) as having more experience than DenComp when represented by its headquarters, t(299) = 8.34, p &lt; .001, d = 1.24, and even when represented by the CEO, t (299) = 6.01, p &lt; .001, d = 0.70.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2.">Agency</head><p>A one-way ANOVA revealed a marginal main effect of condition on ratings of agency, F(2,299) = 2.96, p = .054, η p 2 = 0.02. Pairwise contrast tests revealed that the company did not differ in ratings of agency when represented by the CEO (M = 5.16, SD = 1.30) versus the headquarters (M = 5.26, SD = 1.53), t(299) = 0.55, p = .586. Again, participants distinguished between the company and the CEO himself, as they rated him as being more agentic (M = 5.60, SD = 1.19) than both the company when it was represented by its headquarters, t (299) = 1.80, p = .072, d = 0.26, and when it was represented by the CEO, t(299) = 2.23, p = .021, d = 0.35.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Discussion</head><p>In our first experiment, we found support for the idea that an organization represented by its CEO (vs. its organizational headquarters) is ascribed more ability to feel. As participants also directly rated the mind of the CEO, it is unlikely that these increased ascriptions of experience were due to confusion about which target to rate. In the next set of experiments, we sought to test an outcome of increased experiencepunishment satisfaction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Experiment 2a: Experience increases punishment satisfaction</head><p>Experiment 2a aimed to replicate and extend the findings from Experiment 1 by testing whether the experience conferred from a CEO to their organization can make punishment more satisfying. We suggest that the capacity to suffer will be an especially important experiencerelated capacity for punishment satisfaction. As perceiving that the perpetrator has suffered after wrongdoing is a key component of satisfying punishments <ref type="bibr" coords="3,114.18,446.84,50.57,7.17" target="#b10">(Darley, 2009)</ref>, an organization that seems more capable of feeling-via its CEO-should increase perceived suffering, and subsequently make punishment more satisfying. We test that idea here, and also generalized our findings by using a picture of a different CEO and a different industry. We predicted that an organization represented by its CEO would be perceived as more capable of experience compared to one represented by its headquarters-even if it is the heart of its operations-which would in turn increase perceived suffering and increase punishment satisfaction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.1.">Participants</head><p>Using an effect size of d = 0.70 (or f = 0.35) from Experiment 1 and power of B = 0.80 in a two-cell design, a power analysis showed that 68 participants in total were needed to detect an effect. However, we again aimed for 100 participants per cell. In total, 200 Amazon Mechanical Turk workers participated (37% female, age M = 33.93, SD = 10.75). No participants were excluded.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.2.">Procedure</head><p>Participants read about a company called Wired Up, "a 10-person firm that sells electronic and technological services." They were then randomly assigned to read additional information about the organization's headquarters or its CEO. In the headquarters condition, participants read that "the company is located in this building outside the city of Cupertino [picture of building below]." In the CEO condition, participants read that "its CEO is Wendy Umbach [picture of CEO below] (please see Supplemental Online Materials for complete materials).</p><p>3.1.2.1. Experience and agency. Next, we measured perceived capability of experience and agency using the same items from Experiment 1 (α = 0.94 and α = 0.87, respectively).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.2.2.">Wrongdoing and punishment. Participants then read that Wired</head><p>Up was discovered to have been using child labor to increase profits, and that although technically legal, people were furious with the revelations. Participants then read that, in an attempt to punish Wired Up, people insulted the company on social media and sent threats, such as an envelope containing a picture of either the headquarters or the CEO crossed out (in the headquarters and CEO conditions, respectively, <ref type="figure" coords="3,395.10,289.91,19.05,7.17" target="#fig_0">Fig. 2</ref>).</p><p>3.1.2.3. Suffering. Next, participants rated the extent to which they thought the threats caused "suffering," "pain" and "fear" on a 1 (not at all) to 7 (extremely) scale (α = 0.90).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.2.4.">Punishment satisfaction.</head><p>Participants then rated how satisfied they were with the company's punishment (i.e., social media insults and threats) by indicating the extent to which they "think Wired Up learned its lesson," "think Wired Up paid for its transgression," "are satisfied with Wired Up's punishment," "think that justice has been served," and "think that Wired Up got what it deserved" on a 1 (not at all) to 7 (extremely) scale (α = 0.88).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1.">Experience</head><p>Replicating the results of Experiment 1, the company was rated as more experiential in the CEO condition (M = 4.83, SD = 1.77) than in the headquarters condition (M = 4.25, SD = 1.94), F(1,199) = 4.81, p = .029, d = 0.31.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.">Agency</head><p>There was no significant difference in the company's perceived agency between the CEO condition (M = 5.42, SD = 1.21) and the headquarters condition (M = 5.47, SD = 1.23), F(1,199) = 0.30, p = .582.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.3.">Suffering</head><p>Supporting our hypothesis, the threats were perceived to cause more suffering in the CEO condition (M = 4.85, SD = 1.29) than in the headquarters condition (M = 3.84, SD = 1.85), F(1,199) = 19.97, p &lt; .001, d = 0.64.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.4.">Punishment satisfaction</head><p>As predicted, participants were more satisfied with the punishment in the CEO condition (M = 3.27, SD = 1.36) than in the headquarters condition (M = 2.79, SD = 1.43), F(1,199) = 5.89, p = .016, d = 0.35.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.5.">Mediation</head><p>To test whether perceived experience increases suffering, and hence punishment satisfaction, we employed a serial mediation model using the bootstrap method (SPSS macro from Hayes, 2013, Model 6) with 5000 samples. We entered condition as the independent variable, experience as the first mediator, perceived suffering as the subsequent mediator and punishment satisfaction as the dependent variable <ref type="figure" coords="4,37.59,220.18,24.83,7.17">(Fig. 3)</ref>. As expected, we found a significant pathway from condition to experience to suffering to punishment satisfaction 95% CI = [0.0006, 0.0182].</p><p>Replacing perceived experience with perceived agency did not mediate punishment satisfaction, 95% CI = [−0.1056, 0.0318].</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Discussion</head><p>As in Experiment 1, an organization represented by its CEO was ascribed more experience and a greater capacity for suffering, which made punishment more satisfying. Perceptions of suffering was significantly correlated with perceptions of experience, r = 0.25, p &lt; .001, but the effect size of condition for suffering was twice as large as that for experience. This may be because the "suffering" questions-unlike the mind perception questions-did not explicitly ask about the company. It may also be that the capacity for pain (vs. general feelings and desires) is more obviously a phenomenological experience <ref type="bibr" coords="4,78.80,398.48,51.09,7.17" target="#b44">(Scarry, 1985;</ref><ref type="bibr" coords="4,133.17,398.48,45.46,7.17" target="#b50">Smith, 2010)</ref>, which is especially withheld from organizations like corporations <ref type="bibr" coords="4,169.79,408.91,78.69,7.17" target="#b32">(Knobe &amp; Prinz, 2008)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.1.">Replication</head><p>To increase the confidence in our results, we ran a preregistered experiment 1 to replicate the results of Experiment 2a with an even larger sample (final N = 668). The full details are reported in the Supplementary Online Materials, but the same effects were revealed: people ascribed more experience and suffering in the CEO condition, which mediated increased satisfaction with punishment.</p><p>4. Experiment 2b: Threatening many versus one-the CEO One possible concern in Experiment 2a is that participants may have believed that threats towards the CEO would have more impact (e.g., more likely to be read) than threats towards the headquarters. In Experiment 2b, we modified Experiment 2a so that threats towards the headquarters were equally likely to be read. Additionally, to create a more conservative test, the threats towards the headquarters had a larger audience and were read by more people than those towards the CEO. To further generalize our results, we also used a different CEO picture, and a different threatening image.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Participants</head><p>Using the average effect size of d = 0.43 (or f = 0.22) from Experiment 2a and power of B = 0.80 in a two-cell design, a power analysis showed that 166 participants in total were needed to detect an effect. However, we again aimed to recruit at least 100 participants per cell. In total, 300 Amazon Mechanical Turk workers participated (53% female, age M = 37.92, SD = 11.78). No participants were excluded.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Procedure</head><p>As in Experiment 2a, participants read about Wired Up, and were randomly assigned to read additional information about the organization's headquarters or its CEO (please see Online Supplemental Materials for complete materials).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.1.">Experience and agency</head><p>Next, we measured perceived capability of experience and agency using the same items from Experiments 1 and 2a (α = 0.94. and α = 0.87, respectively).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.2.">Wrongdoing and punishment</head><p>Participants then read that Wired Up was discovered to have been using child labor to increase profits, and that although technically legal, people were furious with the revelations. Participants subsequently read that, in an attempt to punish Wired Up, people insulted the company on social media and sent threatening images to either all managers and employees working at the headquarters through the company email (headquarters condition), or to the CEO through his email (CEO condition, <ref type="figure" coords="4,388.52,331.75,19.16,7.17">Fig. 4</ref>). In both conditions, the threats were reported to the police.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.3.">Suffering and punishment satisfaction</head><p>Next, participants responded to the same suffering (α = 0.88) and punishment satisfaction items (α = 0.89) as Experiment 2a.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.1.">Experience</head><p>Replicating the results of Experiment 2a, the company was rated as more experiential in the CEO condition (M = 4.36, SD = 1.64) than in the headquarters condition (M = 3.72, SD = 1.69), F(1, 303) = 10.91, p = .001, d = 0.38.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.2.">Agency</head><p>There was no significant difference in the company's perceived agency between the CEO condition (M = 5.24, SD = 1.22) and the headquarters condition (M = 5.45, SD = 1.13), F(1, 304) = 2.39, p = .124.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.3.">Suffering</head><p>Supporting our hypothesis, the threats were perceived to cause more suffering in the CEO condition (M = 4.63, SD = 1.66) than in the headquarters condition (M = 4.07, SD = 1.58), F(1,199) = 9.10, p = .003, d = 0.35.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.4.">Punishment satisfaction</head><p>Again, participants were more satisfied with the punishment in the CEO condition (M = 3.13, SD = 1.55) than in the headquarters condition (M = 2.73, SD = 1.32), F(1, 304) = 6.03, p = .015, d = 0.28.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.5.">Mediation</head><p>To test whether perceived experience increases suffering, and hence punishment satisfaction, we employed a serial mediation model using the bootstrap method (SPSS macro from Hayes, 2013, Model 6) with 5000 samples. We entered condition as the independent variable, experience as the first mediator, perceived suffering as the subsequent mediator, and punishment satisfaction as the dependent variable <ref type="figure" coords="4,306.60,739.72,24.83,7.17" target="#fig_1">(Fig. 5)</ref>. As expected, we found a significant pathway from condition to </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Discussion</head><p>As in Experiments 1 and 2a, an organization represented by its CEO was ascribed more experience and a greater capacity for suffering, which made punishment more satisfying. Importantly, this experiment addressed one of the concerns of Experiment 2a-namely that it may have been unclear if the threats to headquarters were less likely to be read. In this experiment, the greater satisfaction in the CEO condition held when there was an equal likelihood of the threats being read, and-strikingly-when even more people in the headquarters condition were threatened (all employees and managers, rather than just the CEO). Across Experiments 2a and 2b, experience-and then suffering in particular-mediated the relationship between the CEO condition and punishment satisfaction, although we note this was a partial mediation, suggesting other factors are involved in the link between emphasizing the CEO and punishment satisfaction, which we will discuss in the General Discussion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Experiment 3: Directly manipulating CEO experience</head><p>Experiments 1 to 2b revealed that CEOs confer their organizations with experience, which increases perceived suffering and punishment satisfaction. Of course, not all CEOs will confer equal amounts of experience; although all CEOs are human and therefore have some amount of experience, some may seem more or less capable of feeling. Here, we manipulate directly the experience of CEOs and investigate whether organizational punishments are most satisfying with a highexperience CEO and least satisfying with a low-experience CEO. By doing so, this experiment also tests whether this manipulation of experience impacts perceptions of organizational suffering, which we suggest should mediate punishment satisfaction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.1.">Participants</head><p>Using the average effect size of d = 0.43 (or f = 0.22) from Experiment 2a and power of B = 0.80, a power analysis showed that 166 participants in total were needed to detect an effect. However, we again aimed to recruit at least 100 participants per cell. In total, 301 participants (55% female, age M = 36.05, SD = 11.02) from Mechanical Turk completed the experiment. No participants were excluded.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.2.">Procedure</head><p>Participants were randomly assigned to read about one of three CEOs of Wired Up. In the control condition, participants read, "Wired Up is a firm that sells electronic and technological services. Its CEO is John Olson." His picture was then pictured below <ref type="figure" coords="5,485.46,176.92,25.06,7.17" target="#fig_2">(Fig. 6)</ref>. In the highexperience CEO condition, participants read, in addition to the information above, that the CEO has a "depth of emotions" and a "rich inner life". In the low-experience CEO condition, participants instead read that the CEO has a "shallowness of emotions" and is "an empty human shell without an inner life" (please see Online Supplemental Materials for full text of all manipulations).</p><p>5.1.2.1. Experience and agency. Next, we measured the organization's perceived capacity for experience and agency using the same items from Experiments 1 to 2b (α = 0.95 and α = 0.93, respectively).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.2.2.">Suffering and punishment satisfaction.</head><p>As in the CEO condition in Experiment 2b, participants then read that Wired Up had used child labor and people punished the company by insulting it on social media and sending threats to the CEO's email, which were reported to the police. Participants then saw the image of the CEO threat from Experiment 2b. Next, they rated how much suffering they perceived (α = 0.89) and how satisfied they were with the punishment (α = 0.84) using the items from Experiments 2a and 2b.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.1.">Experience</head><p>There was a main effect of condition on perceived organization experience, F(2,298) = 104.69, p &lt; .001, η p 2 = 0.41. Pairwise contrast tests revealed that the organization was rated as most experiential in the high-experience CEO condition (M = 5.91, SD = 1.25) compared to the control condition (M = 3.90, SD = 1.63), t(298) = 10.19, p &lt; .001, d = 1.17, and to the low-experience CEO condition (M = 3.15, SD = 1.28), t(298) = 14.00, p &lt; .001, d = 1.61. The organization was also rated as more experiential in the control condition compared to the low-experience CEO condition, t(298) = 3.77, p &lt; .001, d = 0.43.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.2.">Agency</head><p>There was a main effect of condition on perceptions that the organization was agentic, F(2,298) = 4.27, p = .015, η p 2 = 0.03. Pairwise contrast tests revealed that the organization was rated as most agentic in the high-experience CEO condition (M = 5.60, SD = 0.97) compared to the control condition (M = 5.24, SD = 1.24), t(298) = 2.09, p = .037, d = 0.24 and the low-experience CEO condition (M = 5.12, SD = 1.38), t(298) = 2.82, p = .005, d = 0.33. There was no significant difference between the control condition and the low-experience CEO condition, t(298) = 0.72, p = .474. <ref type="figure" coords="5,37.59,122.13,18.89,6.46">Fig. 4</ref>. People either attempted to punish Wired Up by emailing threatening images to its managers and employees in its headquarters or to its CEO, which were reported to the police.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.4.">Punishment satisfaction</head><p>There was a main effect of condition on punishment satisfaction, F (2,298) = 4.94, p = .008, η p 2 = 0.03. Pairwise contrast tests revealed that satisfaction was highest in the high-experience CEO condition (M = 2.94, SD = 1.20) compared to the control condition (M = 2.55, SD = 1.12), t(298) = 2.39, p = .017, d = 0.28 and significantly more so compared to the low-experience CEO condition (M = 2.46, SD = 1.12), t(298) = 2.97, p = .003, d = 0.34. There was no significant difference in satisfaction between the control condition and the lowexperience CEO, t(298) = 0.57, p = .573.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.5.">Mediation</head><p>To test whether perceived organizational experience (as influenced by the CEO's experience) increases suffering, and hence punishment satisfaction, we employed a serial mediation model using the bootstrap method (SPSS macro from Hayes, 2013, Model 6) with 5000 samples. We dummy coded the conditions into high and low experience, such that the high-experience CEO condition was coded as 1, and the lowexperience CEO and control conditions were coded as 0. We subsequently entered the dummy conditions as the independent variable, perceived organization experience as the first mediator, perceived suffering as the subsequent mediator and punishment satisfaction as the dependent variable <ref type="figure" coords="6,113.39,576.04,27.78,7.17">(Fig. 7)</ref>. As expected, we found a significant pathway from condition to experience to suffering to punishment satisfaction 95% CI = [0.0365, 0.1514].</p><p>Perceived agency did not mediate the pathway, 95% CI = [−0.0063, 0.0260].</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3.">Discussion</head><p>Consistent with previous experiments, these results reveal that not all CEOs are equal in providing their organizations with benefits after transgressions. More experiential CEOs confer more experience to their organizations, which in turn increases perceived suffering and punishment satisfaction. In the next set of experiments, we turn to responses to organizational reactions to wrongdoing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Experiment 4a: Experience increases positive evaluations of an apology</head><p>After wrongdoing, organizations may seek to preempt punishment through apologies, which are important in reestablishing a trusting relationship after wrongdoing <ref type="bibr" coords="6,418.73,251.76,135.04,7.17" target="#b31">(Kim, Ferrin, Cooper, &amp; Dirks, 2004)</ref>. Because apologies are supposed to signal contrition, the ability to feel remorse and empathize is perceived to be an important component of an effective apology <ref type="bibr" coords="6,381.77,283.16,75.76,7.17" target="#b11">(Davis &amp; Gold, 2011;</ref><ref type="bibr" coords="6,460.41,283.16,79.19,7.17" target="#b17">Fehr &amp; Gelfand, 2010)</ref>. We therefore predicted that an apology issued by a CEO would be viewed especially positively, being seen as more sincere, eliciting more forgiveness, and making the organization seem more trustworthy <ref type="bibr" coords="6,540.39,314.58,17.29,7.17;6,306.60,325.01,42.59,7.17" target="#b31">(Kim et al., 2004;</ref><ref type="bibr" coords="6,351.61,325.01,61.70,7.17" target="#b47">Schumann, 2012;</ref><ref type="bibr" coords="6,415.73,325.01,138.04,7.17" target="#b48">Schweitzer, Hershey, &amp; Bradlow, 2006)</ref>. To provide even more generalizability, we used a different organization and industry than in Experiments 1 to 3. Furthermore, instead of the organization's headquarters, we used something else that frequently represents the organization-its logo. Logos often serve to identify an organization, and people often recognize an organization through its logo. However, because logos, unlike human CEOs, do not inherently have any capacity to feel, it should not confer experience to the organization.</p><p>One question is whether the CEO-as the embodiment of an organization-is especially able to confer experience, or whether any person, such as an employee, will do. In addition to the CEO and logo conditions, we therefore also included in a third condition, in which an employee issued the apology. We predicted that an organization represented by its official leader-the CEO-would be most effective at imbuing the company with experience and would therefore issue the most effective apology.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.">Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.1.">Participants</head><p>Using the average effect size of d = 0.43 (or f = 0.22) from Experiment 2a, a power analysis of B = 0.80 showed that at least 204 participants in total were needed to detect an effect in a 3-cell design. To be conservative, we again aimed to recruit 100 participants per cell. In total, we recruited 322 participants from Amazon Mechanical Turk (49% female, age M = 34.91, SD = 11.17). No participants were excluded.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.2.">Procedure</head><p>Experiment 4a had a similar procedure as previous experiments. Participants first read about a restaurant, Bon Vivant, which "focuses on healthy eating, sourcing food locally and preparing all its food on site." Next, they were randomly assigned to one of three conditions: the logo condition, the CEO condition or the employee condition. In the logo condition, participants read that Bon Vivant "is located outside Austin, TX [picture of company logo below]." In the CEO condition, they read that Bon Vivant's "CEO is Wendy Umbach [picture of <ref type="bibr" coords="6,499.29,708.36,40.95,7.17">CEO below]</ref>." In the employee condition, they read that "one of Bon Vivant's servers is Wendy Umbach [picture of employee below]." Importantly, the pictures of the CEO and employee were the same (please see Supplemental .11** <ref type="figure" coords="6,37.59,166.29,19.06,6.46">Fig. 7</ref>. Organization experience, from manipulated CEO experience, increases perceptions of suffering and thus how satisfied people are with the attempts at punishment. *p &lt; .05, **p &lt; .001.</p><p>Online Materials for complete materials).</p><p>6.1.2.1. Experience and agency. Next, we measured the organization's perceived abilities of experience (α = 0.98) and agency (α = 0.95) using the same items from Experiments 1 to 3.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.2.2.">Wrongdoing and apology.</head><p>Participants then read that one day, over 30 customers contracted salmonella food poisoning from the restaurant. The organization then apologized on social media, either through the organization's Twitter handle, the CEO's Twitter handle, or the employee's Twitter handle <ref type="figure" coords="7,147.63,164.40,25.29,7.17" target="#fig_4">(Fig. 8)</ref>.</p><p>6.1.2.3. Attitudes towards apology. Participants rated how sincere they thought the apology was, the extent to which they would forgive the restaurant, and how trustworthy the restaurant was, using a 1 (not at all) to 7 (extremely) scale. To measure sincerity, participants answered the extent to which they thought the company's apology was "sincere," "genuine" and "heartfelt" (α = 0.97). To measure forgiveness, participants rated the extent to which they would "forgive," "pardon", "give another chance to" and "excuse" the restaurant (α = 0.95). To measure trustworthiness, participants rated the extent to which they think the restaurant is "trustworthy," "honest" and "has its customers' best interests at heart" (α = 0.94).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.1.">Experience</head><p>There was a main effect of condition on the organization's perceived ability to experience, F(2,319) = 3.62, p = .028, η p 2 = 0.02 <ref type="figure" coords="7,259.14,352.68,23.04,7.17">(Fig. 9</ref>).</p><p>Pairwise contrast tests revealed that the organization was perceived as having more experience when it was represented by its CEO (M = 4.73, SD = 1.90) than when it was represented by its logo (M = 4.10, SD = 2.06), t(319) = 2.23, p = .026, d = 0.32, or by an employee (M = 4.08, SD = 2.06), t(319) = 2.42, p = .016, d = 0.33. There was no difference in perceptions of experience between the organization and employee, t(319) = 0.08, p = .935.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.2.">Agency</head><p>There was no main effect of condition on the organization's perceived ability for agency (M CEO = 4.99, SD = 1.78, M Logo = 4.90, SD = 1.72, M Employee = 4.91, SD = 1.83), F(2,319) = 0.08, p = .925.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.3.">Sincerity of apology</head><p>There was a main effect of condition on how sincere the apology appeared, F(2,319) = 3.03, p = .050, η p 2 = 0.02 <ref type="figure" coords="7,210.95,520.03,21.56,7.17">(Fig. 9</ref>). Contrast tests revealed that when the CEO represented the organization (M = 4.80, SD = 1.71), people perceived the apology to be more sincere in its apology than when either its logo (M = 4.24, SD = 1.69) or an employee (M = 4.33, SD = 1.85) represented it, t(319) = 2.26, p = .024, d = 0.33 and t(319) = 1.98, p = .049, d = 0.26, respectively. There was no difference in perceived sincerity between the logo and the employee, t(319) = 0.38, p = .702.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.4.">Forgiveness</head><p>There was a main effect of condition on how willing people were to forgive the organization, F(2,319) = 3.26, p = .040, η p 2 = 0.02 ( <ref type="figure" coords="7,40.81,645.55,19.92,7.17">Fig. 9</ref>). Contrast tests revealed that when the CEO represented the organization (M = 4.25, SD = 1.51), people were more willing to forgive it than when either its logo (M = 3.73, SD = 1.53) or an employee (M = 3.82, SD = 1.71) represented it, t(319) = 2.37, p = .019, d = 0.35 and t(319) = 2.02, p = .045, d = 0.27, respectively. There was no difference in forgiveness between the logo and the employee, t (319) = 0.46, p = .650.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.5.">Trustworthiness</head><p>There was a main effect of condition on how trustworthy the organization appeared, F(2,319) = 3.95, p = .020, η p 2 = 0.02 <ref type="figure" coords="7,529.11,652.19,22.05,7.17">(Fig. 9</ref>).</p><p>Contrast tests revealed that when the CEO (M = 4.63, SD = 1.47) represented the organization, people perceived it as more trustworthy than when either its logo (M = 4.05, SD = 1.47) or an employee (M = 4.19, SD = 1.63) represented it, t(319) = 2.52, p = .012, d = 0.39 and t(319) = 1.96, p = .051, d = 0.28, respectively. There was no difference in perceived trustworthiness between the logo and the employee, t(319) = 0.66, p = .511.  <ref type="figure" coords="7,306.60,618.99,18.83,6.46">Fig. 9</ref>. The CEO imbues their organization with the most experience and increases apology sincerity, forgiveness, and trustworthiness. Error bars ± 1 SE.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.6.">Mediations</head><p>Because there was no difference in experience between the logo and employee conditions for perceptions of experience, we collapsed the two conditions and compared them to the CEO condition. We used the SPSS macro <ref type="bibr" coords="8,81.07,101.64,49.65,7.17" target="#b28">(Hayes, 2013)</ref> with 5000 samples. We entered condition as the independent variable, experience as the mediator, and sincerity, forgiveness, and trustworthiness (in three separate mediation analyses) as the dependent variables. Results revealed that perceived experience significantly mediated sincerity, 95% CI = [0.0056, 0.1877], trustworthiness, 95% CI = [0.0184, 0.2085], and marginally for forgiveness, 95% CI = [−0.0083, 0.1434]. Perceived agency did not mediate them, however, 95% CI = [−0.0349, 0.0945], 95% CI = [−0.0204, 0718], and 95% CI = [−0.0485, 0.1089] respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.3.">Discussion</head><p>As predicted, participants' attitudes towards the organization's apology were most positive, and the apology appeared to be most effective, when the organization was imbued with an experiential mind via the CEO. In the final experiment, we built upon this experiment by generalizing the findings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Experiment 4b: Generalizing experience increasing apology effectiveness</head><p>One concern about the previous study is that people may believe that an apology coming from an organization should be more formal compared to one coming from an individual (e.g., the CEO). Although this possibility is argued against by the fact that the employee condition did not differ in perceived experience or positive attitudes towards the apology compared to the logo condition, this experiment explicitly tested the idea of formal apologies by comparing the effectiveness of a CEO versus the organization (via its logo) issuing a more formal apology. To generalize our results, we also used a different social medium of apology that companies and CEOs often use -Instagram.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.1.">Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.1.1.">Participants</head><p>Using the average effect size of d = 0.43 (or f = 0.22) from Experiment 2a and power of B = 0.80, a power analysis showed that 166 participants in total were needed to detect an effect. In total, 601 workers (47% female, age M = 36.87, SD = 11.89) from Mechanical Turk participated. No participants were excluded. 2</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.1.2.">Procedure</head><p>The procedure was the same as Experiment 4a, except we focused on the two conditions of CEO and logo. Participants read about Bon Vivant the restaurant, and were shown a picture of the CEO or the logo. Next, they rated the extent to which they perceived the organization as experiential (α = 0.98) and agentic (α = 0.92) using the items from Experiment 4a. They then read about the food poisoning as in Experiment 4a before viewing either an apology from the CEO's Instagram account (with her face) or the organization's Instagram account (with its logo), stating that "Bon Vivant publicly apologizes" and that "a detailed investigation is underway" to investigate the incident (see <ref type="figure" coords="8,54.65,655.70,25.17,7.17">Fig. 10</ref> for all text). The structure of this statement followed the general structure of corporate apologies, in which the problem is acknowledged, words pertaining to "apology" are delivered, high standards are acknowledged to be the supposed norm, and future actions would be taken.</p><p>Participants subsequently rated the sincerity of the apology (α = 0.95), forgiveness (α = 0.93), and trust (α = 0.93) using the questions from Experiment 4a.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.2.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.2.1.">Experience</head><p>There was a main effect of condition on the organization's perceived ability to experience, in which the organization was rated as more experiential in the CEO condition (M = 4.29, SD = 2.09) compared to the logo condition (M = 3.89, SD = 2.04), F(1,599) = 5.50, p = .019, d = 0.19 <ref type="figure" coords="8,340.27,185.31,29.44,7.17">(Fig. 11)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.2.2.">Agency</head><p>There was a main effect of condition on the organization's perceived ability for agency, in which the organization was rated as more agentic in the CEO condition (M = 5.04, SD = 1.69) compared to the logo condition (M = 4.77, SD = 1.70), F(1,599) = 3.91, p = .049, d = 0.16.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.2.3.">Sincerity of apology</head><p>There was a main effect of condition on how sincere the apology appeared, in which the apology in the CEO condition (M = 5.01, SD = 1.53) was more sincere than in the logo condition (M = 4.65, SD = 1.59), F(1,599) = 8.30, p = .004, d = 0.24 <ref type="figure" coords="8,482.06,310.84,29.45,7.17">(Fig. 11)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.2.4.">Forgiveness</head><p>There was a main effect of condition on how willing participants would be to forgive the restaurant, in which they were more forgiving in the CEO condition (M = 4.20, SD = 1.44) than in the logo condition (M = 3.78, SD = 1.55), F(1,599) = 12.05, p = .001, d = 0.28 <ref type="figure" coords="8,525.26,373.60,28.83,7.17">(Fig. 11)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.2.5.">Trustworthiness</head><p>There was a main effect of condition on trustworthiness, in which the restaurant in the CEO condition (M = 4.63, SD = 1.42) was more trustworthy than in the logo condition (M = 4.28, SD = 1.53), F (1,599) = 8.89, p = .003, d = 0.24 <ref type="figure" coords="8,433.76,436.35,29.45,7.17">(Fig. 11)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.2.6.">Mediations</head><p>As in Experiment 4a, we entered condition as the independent variable, experience as the mediator, and sincerity, forgiveness, and trustworthiness (in three separate mediation analyses) as the dependent variables, using the SPSS macro <ref type="bibr" coords="8,423.66,499.11,50.22,7.17" target="#b28">(Hayes, 2013)</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.3.">Discussion</head><p>The results were consistent with Experiment 4a. An apology issued through the CEO (using her picture) led to more positive attitudes towards the organization, and was overall more effective, than one issued by the organization (using its logo). Interestingly, in this experiment, perceived agency helped to mediate the pathway from condition to sincerity, forgiveness and trustworthiness as well-perhaps because the more formal apology outlined specific plans and actions, which are elements of agency. Nonetheless, perceptions of experience once again consistently predicted CEO-related positive outcomes for the organization after an apology.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">General discussion</head><p>Across six experiments and one preregistered replication, we found that an organization's CEO can imbue it with experience (Experiments 1-4b), which makes punishments more satisfying (Experiments 2a, 2b, and 3) and apologies more effective <ref type="figure" coords="9,164.69,661.71,84.96,7.17">(Experiments 4a and 4b)</ref>. The more capable the CEO is seen of experience, the more effectively they imbue their organization with experience (Experiment 3). Experiment 3 also revealed that, despite the general importance of imbued experience, the perceived ability to suffer is especially important in generating positive organizational outcomes-likely because of the strong motivation for just deserts <ref type="bibr" coords="9,80.16,724.47,135.43,7.17" target="#b5">(Carlsmith, Darley, &amp; Robinson, 2002)</ref>.</p><p>These findings are important because they highlight a way for organizations to regain the approval of consumers after wrongdoing. Trust in big businesses is at an all-time low-only 6% of Americans report having a "great deal" of confidence in them <ref type="bibr" coords="9,485.07,80.72,49.26,7.17" target="#b22">(Gallup, 2016</ref>)-and such trust is essential for a functioning society <ref type="bibr" coords="9,471.85,91.15,54.90,7.17" target="#b40">(Putnam, 2000;</ref><ref type="bibr" coords="9,529.06,91.15,28.57,7.17;9,306.60,101.64,62.86,7.17" target="#b51">Sullivan &amp; Transue, 1999)</ref>. Our set of studies suggests one path towards rebuilding trust-the apparent suffering or remorse of CEOs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.1.">Caveats</head><p>We note that the role of CEOs is not limited to imbuing experience, as CEOs are generally viewed as the source of an organization's behaviors <ref type="bibr" coords="9,325.87,174.83,89.25,7.17" target="#b9">(Crossland &amp; Chen, 2013;</ref><ref type="bibr" coords="9,417.15,174.83,67.99,7.17" target="#b35">Menon et al., 2010;</ref><ref type="bibr" coords="9,487.17,174.83,66.61,7.17" target="#b56">Zemba et al., 2006)</ref>. We further note that the presence or absence of an experiential CEO is not the only-or perhaps even most important-determinant of reactions to corporate malfeasance. Researchers have examined the factors that affect attributions of responsibility and blame across crises, including accidents and malfeasance. Consistent with current models of moral judgment <ref type="bibr" coords="9,368.05,237.58,81.29,7.17" target="#b46">(Schein &amp; Gray, 2018)</ref>, people assign less blame to harmful agents when the harm is seen as unintentional <ref type="bibr" coords="9,504.67,248.07,49.10,7.17" target="#b0">(Alicke, 2000)</ref>, when they lack clear victims <ref type="bibr" coords="9,412.55,258.50,80.11,7.17" target="#b1">(Alicke &amp; Davis, 1989)</ref>, when the causation of harm is unclear <ref type="bibr" coords="9,390.90,268.99,162.87,7.17" target="#b39">(Paharia, Kassam, Greene, &amp; Bazerman, 2009)</ref>, and when they involve gradual degradation rather than abrupt drops in ethical conduct <ref type="bibr" coords="9,363.68,289.91,91.29,7.17" target="#b18">(Fincham &amp; Shultz, 1981;</ref><ref type="bibr" coords="9,457.68,289.91,86.78,7.17" target="#b23">Gino &amp; Bazerman, 2009)</ref>.</p><p>We also acknowledge that the results may be different if people are the victims of the wrongdoing, rather than when making third-party judgments (as examined here). We suggest that the effects could be even stronger, as wrongdoing is more relevant for and more impactful on victims compared to observers, and related past research on motivated cognition suggests that motivated attitudes and behaviors are stronger when the event is increasingly relevant to the self <ref type="bibr" coords="9,539.08,363.10,18.53,7.17;9,306.59,373.59,81.31,7.17" target="#b30">(Kay, Jimenez, &amp; Jost, 2002;</ref><ref type="bibr" coords="9,390.61,373.60,111.57,7.17" target="#b33">Laurin, Shepherd, &amp; Kay, 2010)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.2.">Implications</head><p>More broadly, our experiments replicate past work on mind perception revealing that people ascribe more experience to humans than to organizations <ref type="bibr" coords="9,366.86,436.35,85.38,7.17" target="#b42">(Rai &amp; Diermeier, 2015)</ref>. However, they also provide an important qualification: when an organization is represented by its CEO, the organization's experience is increased. This effect is not only practically important for organizations seeking to manage their impressions, but also has theoretical implications for how we understand groups in general and organizations in particular.</p><p>Groups are often seen as the combined collection of their individual members, but this work highlights how they are also identified via their leader, who lends his or her characteristics to the collective. Just as the King or Queen of England is the human symbol of the English Commonwealth-and has the capacity to redirect resentment away from the government to him or herself <ref type="bibr" coords="9,446.74,551.44,48.67,7.17" target="#b2">(Ayling, 1972</ref>)-the CEO is the human incarnation of the organization. This helps us understand why some organizations, like Apple (prominently represented by former Steve Jobs), appear to be more capable of experience than other organizations, like Chevron (whose CEO is not as prominent)-and why (among other reasons) organizations do not want a CEO who seems like an unfeeling psychopath. A feeling CEO translates to a feeling organization, as Experiment 3 demonstrates.</p><p>However, there could be a dark side to the satisfaction that people feel from the CEO's suffering. Although punishing an organization through its CEO may be more satisfying, it is often less effective and more costly than implementing systemic change, such as changes to legal policies <ref type="bibr" coords="9,358.81,676.96,51.14,7.17" target="#b7">(Cohen, 2015)</ref>. That is, people's satisfaction from retribution may come at the expense of more important change, such as changing the underlying system to prevent future wrongdoing <ref type="bibr" coords="9,526.22,697.87,31.42,7.17;9,306.60,708.36,19.32,7.17" target="#b54">(Tufekci, 2018)</ref>. This may explain why the government, the news media, and the public relish in seeing CEOs lambasted in court (e.g., The New York Times Editorial Board, 2016) and are often unwilling to let corporations off the hook until senior executives leave in disgrace <ref type="bibr" coords="9,508.30,739.71,49.34,7.17;9,37.59,421.64,21.97,6.46">(Thompson &amp; Fig. 10</ref>. Apology in the CEO condition (top) and apology in the logo condition (bottom).  <ref type="figure" coords="9,37.59,608.50,22.09,6.46">Fig. 11</ref>. The CEO (relative to the logo) imbues the organization with the most experience and increases apology sincerity, forgiveness, and trustworthiness. Error bars ± 1 SE.</p><p>Liakos, 2015). Given people's desire to satisfy short-term desires over long-term goals (e.g., <ref type="bibr" coords="10,119.23,70.23,66.37,7.17" target="#b3">Baumeister, 2002)</ref> and that people punish for retributive reasons <ref type="bibr" coords="10,105.67,80.72,80.50,7.17" target="#b5">(Carlsmith et al., 2002)</ref>, they may end up extracting suffering from a series of CEOs at the expense of dedicating the limited amount of resources to fixing the underlying problem. An important implication of our findings for scholars and practitioners is the significance of perceiving minds in organizations when it comes to justice and punishment. People care not just about ways to rectify wrongdoing and punish, but also about whether they can make a mind suffer in the process-and in organizations, this is often the mind of the CEO. An interesting twist, as we have shown, is that if the CEO is perceived as incapable of feeling or experience, they are less able to confer the benefits of punishment satisfaction (and presumably apology effectiveness). The inability of both the CEO and organization to experience may even lead to less punishment satisfaction and apology effectiveness than only an organization that does not experience.</p><p>Finally, although speculative, this research hints at a new understanding of extreme pay packages of CEOs. CEOs receive substantially more compensation than other employees, often making millions more than the next closest executive. Explanations for this pay gap include their background <ref type="bibr" coords="10,100.92,268.99,141.96,7.17" target="#b6">(Carpenter, Sanders, &amp; Gregersen, 2001)</ref>, their talent <ref type="bibr" coords="10,37.59,279.43,87.01,7.17" target="#b21">(Gabaix &amp; Landier, 2006)</ref>, their managerial skills <ref type="bibr" coords="10,209.82,279.43,75.00,7.17" target="#b8">(Combs &amp; Skill, 2003)</ref>, their willingness to weather business volatility <ref type="bibr" coords="10,205.45,289.91,79.37,7.17" target="#b14">(Dow &amp; Raposo, 2005)</ref>, and their power to influence compensation packages <ref type="bibr" coords="10,223.26,300.35,65.39,7.17;10,37.59,310.83,50.00,7.17" target="#b4">(Bebchuk, Fried, &amp; Walker, 2002)</ref>, but our results suggest that such a disparity can also inadvertently serve a purposeful function. After wrongdoing, CEOs who make much more money have further to fall, and so sanctions and terminations seem to cause them more suffering. Being high above the rest of the company also draws more attention to them, allowing them to act as a lightning rod to protect the rest of the company. CEOs may therefore be understood not only as powerful leaders, but also as sacrificial lambs, whose disgrace and termination after wrongdoing allows the broader organization to achieve redemption.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Open practices</head><p>Data analyses of Preregistered Experiment 2a and materials used for all experiments are available as Online Supplementary Materials. Pregistration, data, and materials will be available at https://osf.io/ jd4d2/. We have retained raw data from the research (e.g., completed questionnaires, original computer response files, behavioral recordings) and agree to retain it for confirmation purposes for a minimum of 5 years after publication.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="3,306.60,143.73,251.06,6.46;3,306.60,153.31,78.67,6.45"><head>Fig. 2 .</head><label>2</label><figDesc>People either attempted to punish Wired Up through hate mail of its headquarters or its CEO.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="5,37.59,717.86,251.08,6.46;5,37.59,727.44,251.02,6.45;5,37.59,735.45,33.78,8.02"><head>Fig. 5 .</head><label>5</label><figDesc>An organization imbued with experience increases perceptions of suffering and thus how satisfied people are with the attempts at punishment. R 2 = 0.16.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="5,348.04,724.27,168.15,6.46"><head>Fig. 6 .</head><label>6</label><figDesc>Picture of John Olson, the CEO of Wired Up. There was a main effect of condition on perceptions of suffering, F (2,298) = 8.79, p &lt; .001, η p 2 = 0.06. Pairwise contrast tests revealed that there was marginally more perceived organizational suffering in the high-experience CEO condition (M = 5.04, SD = 1.56) compared to the control condition (M = 4.64, SD = 1.44), t(298) = 1.82, p = .070, d = 0.21 and significantly more so compared to the low-experience CEO condition (M = 4.13, SD = 1.62), t(298) = 4.18, p &lt; .001, d = 0.48. There was also more perceived organizational suffering in the control condition compared to the low-experience CEO, t(298) = 2.36, p = .019, d = 0.27.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="7,306.60,441.59,251.04,6.46;7,306.60,451.12,124.30,6.45"><head>Fig. 8 .</head><label>8</label><figDesc>Bon Vivant apologized through its CEO (top), an employee (middle) or its restaurant (bottom) Twitter handle.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="4,37.59,61.21,251.11,684.99"><head></head><label></label><figDesc>Fig. 3. An organization imbued with experience increases perceptions of suffering and thus how satisfied people are with the attempts at punishment. R 2 = 0.12. Preregistered with Osf.io at https://osf.io/jd4d2/. A power analysis originally determined a conservative sample size of 330; however, participants had trouble with the survey platform Qualtrics for one of the days we ran our study. Participants reported that they received a message during the survey from Qualtrics that, "This survey is temporarily unavailable. Please try again later. Service call failed." To be conservative, we doubled the sample size. The results remain the same substantively if the data is only analyzed with the first set of participants who experienced the Qualtrics error.</figDesc><table coords="4,43.99,61.21,229.98,630.12">Experience 
+
+Condition 
+1 = CEO 
+0 = Headquarters 
+
+Punishment 
+satisfaction 
+
+.28* 
+
+.16* (.10) 
+
+Suffering 
+
+.25* 
+
+.07* 
+
+.78* 
+.08* 
+
+1 experience to suffering to punishment satisfaction 95% CI = [0.0015, 
+0.2671]. 
+Perceived agency did not mediate punishment satisfaction, 95% 
+CI = [−0.0256, 0.0039]. 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="8,306.60,499.11,251.06,59.49"><head></head><label></label><figDesc>Perceived agency also mediated the pathways for sincerity, 95% CI = [0.0025, 0.1154], forgiveness, 95% CI = [0027, 0.0932], and trustworthiness, 95% CI = [0.0026, 0.0887].</figDesc><table coords="8,306.60,499.11,251.06,38.57">with 5000 samples. As 
+predicted, experience mediated sincerity, 95% CI = [0.0110, 0.1252], 
+forgiveness, 95% CI = [0.0054, 0.0882], and trustworthiness, 95% 
+CI = [0.0076, 0.0969]. </table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">We originally aimed to recruit 100 participants per cell; however, although the link from perceptions of experience to the three measures of attitudes towards apology were significant, the link from condition to perceptions of experience was not. We therefore increased our sample size to 600, similar to the preregistered study of 2a.</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Supplementary data</head><p>Supplementary data to this article can be found online at https:// doi.org/10.1016/j.jesp.2018.06.002.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="10,37.59,615.27,251.05,5.73;10,49.55,623.21,35.51,5.73" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Culpable control and the psychology of blame</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Alicke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">556</biblScope>
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,37.59,631.20,234.47,5.73;10,49.55,639.19,234.08,5.73;10,49.55,647.13,26.50,5.73" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The role of a posteriori victim information in judgments of blame and sanction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Alicke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="362" to="377" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,37.59,655.12,146.06,5.73" xml:id="b2">
+	<monogr>
+		<title level="m" type="main">George the third</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ayling</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1972" />
+			<pubPlace>London: Collins</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,37.59,663.06,240.25,5.73;10,49.55,671.05,227.98,5.73" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Yielding to temptation: Self-control failure, impulsive purchasing, and consumer behavior</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">F</forename><surname>Baumeister</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="670" to="676" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,37.59,678.99,251.06,5.73;10,49.55,686.98,201.54,5.73;10,49.55,694.98,47.19,5.73" xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Managerial power and rent extraction in the design of executive compensation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Bebchuk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Fried</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">I</forename><surname>Walker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="751" to="846" />
+		</imprint>
+		<respStmt>
+			<orgName>The University of Chicago Law</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,37.59,702.91,251.08,5.73;10,49.55,710.91,215.69,5.73;10,49.55,718.85,65.22,5.73" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Why do we punish?: Deterrence and just deserts as motives for punishment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Carlsmith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Darley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">H</forename><surname>Robinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">284</biblScope>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,37.59,726.84,251.09,5.73;10,49.55,734.83,221.09,5.73;10,318.56,60.35,239.07,6.38;10,318.56,68.80,26.50,5.73" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Bundling human capital with organizational context: The impact of international assignment experience on multinational firm performance and CEO pay</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">G</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">B</forename><surname>Gregersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Academy of Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="493" to="511" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.60,76.28,242.27,6.38;10,318.56,84.73,215.83,5.73;10,318.56,92.72,155.19,5.73" xml:id="b7">
+	<monogr>
+		<title level="m" type="main">When company is fined, taxpayers often share bill</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Cohen</surname></persName>
+		</author>
+		<ptr target="https://www.nytimes.com/2015/02/04/business/when-a-company-is-fined-taxpayers-often-share-the-punishment.html?mcubz=0" />
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,100.66,251.08,5.73;10,318.56,108.65,239.06,5.73;10,318.56,116.65,38.69,5.73" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Managerialist and human capital explanations for key executive pay premiums: A contingency perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">G</forename><surname>Combs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Skill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Academy of Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="63" to="73" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,124.59,251.08,5.73;10,318.56,132.07,227.19,6.38;10,318.56,140.52,80.69,5.73" xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Executive accountability around the world: Sources of cross-national variation in firm performance-CEO dismissal sensitivity. Strategic Organization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Crossland</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Chen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="78" to="109" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,148.51,250.66,5.73;10,318.55,156.50,227.08,5.73" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Morality in the law: The psychological foundations of citizens&apos; desires to punish transgressions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Darley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Law and Social Science</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1" to="23" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,164.44,251.09,5.73;10,318.55,172.43,233.18,5.73;10,318.55,180.37,108.02,5.73" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">An examination of emotional empathy, attributions of stability, and the link between perceived remorse and forgiveness</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">J</forename><surname>Gold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Personality and Individual Differences</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="392" to="397" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,188.36,241.17,5.73;10,318.55,196.30,196.07,5.73" xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Sentencing law and policy: Cases, statutes, and guidelines</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Demleitner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Berman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">F</forename><surname>Wright</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<publisher>Wolters Kluwer Law &amp; Business</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,204.29,251.07,5.73;10,318.55,212.29,215.58,5.74;10,318.56,220.23,223.80,5.73;10,318.56,228.23,190.11,5.73" xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Toyota reaches $1.2 billion settlement to end probe of accelerator problems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Douglas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Fletcher</surname></persName>
+		</author>
+		<ptr target="https://www.washingtonpost.com/business/economy/toyota-reaches-12-billion-settlement-to-end-criminal-probe/2014/03/19/5738a3c4-af69-11e3-9627-c65021d6d572_story.html" />
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.60,236.16,251.06,5.73;10,318.56,244.16,107.46,5.73" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">CEO compensation, change, and corporate strategy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Dow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">C</forename><surname>Raposo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Finance</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2701" to="2727" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.60,252.15,244.13,5.73;10,318.56,260.09,226.56,5.73;10,318.56,268.08,45.89,5.73" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Victim impact statements and sentencing outcomes and processes. The perspectives of legal professionals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Erez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Rogers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Criminology</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="216" to="239" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.60,276.02,251.05,5.73;10,318.56,284.01,222.21,5.73;10,318.56,291.95,79.45,5.73" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Statistical power analyses using G* power 3.1: Tests for correlation and regression analyses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Faul</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Erdfelder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Buchner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">G</forename><surname>Lang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behavior Research Methods</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1149" to="1160" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.60,299.94,246.10,5.73;10,318.56,307.94,239.08,5.73;10,318.56,315.87,116.81,5.73" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">When apologies work: How matching apology components to victims&apos; self-construals facilitates forgiveness</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Fehr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Gelfand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Organizational Behavior and Human Decision Processes</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="37" to="50" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,323.87,246.56,5.73;10,318.56,331.80,210.07,5.73" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Intervening causation and the mitigation of responsibility for harm</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">D</forename><surname>Fincham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">R</forename><surname>Shultz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="113" to="120" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,339.80,250.50,5.73;10,318.56,347.79,239.09,5.73;10,318.56,355.73,126.96,5.73" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Punishment and forgiveness in close relationships: An evolutionary, social-psychological perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Fitness</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Peterson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Social relationships: Cognitive, affective, and motivational perspectives</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="255" to="269" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,363.72,249.72,5.73;10,318.56,371.66,188.19,5.73" xml:id="b20">
+	<monogr>
+		<title level="m" type="main">CEOs are ambassadors for their brands</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Forrest</surname></persName>
+		</author>
+		<ptr target="http://www.businessinsider.com/ceos-are-ambassadors-for-their-brand-2011-8" />
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,379.65,242.25,5.73;10,318.56,387.64,112.84,5.73" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Why has CEO pay increased so much? (no. w12365)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Gabaix</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Landier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">National Bureau of Economic Research</title>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,395.58,250.09,5.73;10,318.56,403.57,97.87,5.73" xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Confidence in institutions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gallup</surname></persName>
+		</author>
+		<ptr target="http://www.gallup.com/poll/1597/confidence-institutions.aspx" />
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,411.51,251.01,5.73;10,318.56,419.51,222.38,5.73;10,318.56,427.44,79.16,5.73" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">When misconduct goes unnoticed: The acceptability of gradual erosion in others&apos; unethical behavior</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Gino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">H</forename><surname>Bazerman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="708" to="719" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,435.44,251.02,5.73;10,318.56,443.43,59.04,5.73" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Dimensions of mind perception</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Wegner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="issue">5812</biblScope>
+			<biblScope unit="page" from="619" to="619" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,451.37,243.62,5.73;10,318.56,459.36,234.67,5.73" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Moral typecasting: Divergent perceptions of moral agents and moral patients</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Wegner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">505</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,466.79,251.05,6.38;10,318.56,475.29,133.42,5.73" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">To escape blame, don&apos;t be a hero -Be a victim</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Wegner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="516" to="519" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,483.28,242.31,5.73;10,318.55,491.22,121.46,5.73" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Concept creep: Psychology&apos;s expanding concepts of harm and pathology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Haslam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Inquiry</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.60,499.22,251.02,5.73;10,318.56,507.16,122.02,5.73" xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Introduction to mediation, moderation, and conditional process analysis: A regression-based approach</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">F</forename><surname>Hayes</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<publisher>Guilford Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.60,515.15,237.99,5.73;10,318.56,523.09,70.72,5.73" xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Are CEOs brands?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Insights</surname></persName>
+		</author>
+		<ptr target="http://insights.som.yale.edu/insights/are-ceos-brands" />
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,531.08,239.24,5.73;10,318.56,539.07,222.78,5.73;10,318.56,547.01,77.35,5.73" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Sour grapes, sweet lemons, and the anticipatory rationalization of the status quo</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Kay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Jimenez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Jost</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Personality and Social Psychology Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1300" to="1312" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,555.00,248.70,5.73;10,318.56,562.94,235.54,5.73;10,318.56,570.93,202.76,5.73" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Removing the shadow of suspicion: The effects of apology versus denial for repairing competence-versus integrity-based trust violations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Ferrin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">T</forename><surname>Dirks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Psychology</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">104</biblScope>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,578.93,236.99,5.73;10,318.56,586.86,153.43,5.73" xml:id="b32">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Knobe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Prinz</surname></persName>
+		</author>
+		<title level="m">Intuitions about consciousness: Experimental studies. Phenomenology and the Cognitive Sciences</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="67" to="83" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,594.86,241.10,5.73;10,318.56,602.79,234.76,5.73;10,318.56,610.79,168.46,5.73" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Restricted emigration, system inescapability, and defense of the status quo: System-justifying consequences of restricted exit opportunities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Laurin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Shepherd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Kay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1075" to="1082" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,618.73,190.00,5.73" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Are corporations evil</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Litowitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">U. Miami L. Rev</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,626.72,251.02,5.73;10,318.56,634.71,232.59,5.73;10,318.56,642.65,154.68,5.73" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Blazing the trail versus trailing the group: Culture and perceptions of the leader&apos;s position</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Menon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Sim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H Y</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">Y</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Hong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Organizational Behavior and Human Decision Processes</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="51" to="61" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,650.64,238.04,5.73;10,318.55,658.58,237.71,5.73;10,318.55,666.57,12.55,5.73" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The prejudicial nature of victim impact statements: Implications for capital sentencing policy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Greene</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychology, Public Policy, and Law</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">492</biblScope>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,674.57,251.09,5.73;10,318.55,682.50,221.35,5.73;10,318.55,690.50,79.16,5.73" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Apology as aggression control: Its role in mediating appraisal of and response to harm</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K.-I</forename><surname>Ohbuchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kameda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Agarie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="219" to="227" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,698.43,251.06,5.73;10,318.55,706.43,35.12,5.73" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Moral exclusion and injustice: An introduction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Opotow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Social Issues</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="20" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,714.36,247.90,5.73;10,318.55,722.36,239.07,5.73;10,318.55,730.35,102.24,5.73" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Dirty work, clean hands: The moral psychology of indirect agency</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Paharia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">S</forename><surname>Kassam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Greene</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">H</forename><surname>Bazerman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Organizational Behavior and Human Decision Processes</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="134" to="141" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.59,738.29,239.76,5.73;10,37.58,37.67,45.74,5.73;10,386.90,37.67,170.75,7.71" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Bowling alone: America&apos;s declining social capital</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Putnam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Culture and S. Tang, K. Gray Journal of Experimental Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="115" to="125" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,49.55,60.87,133.19,5.73" xml:id="b41">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">politics</title>
+		<imprint>
+			<biblScope unit="page" from="223" to="234" />
+			<publisher>Palgrave Macmillan US</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,37.59,68.81,248.48,5.73;11,49.55,76.80,237.26,5.73;11,49.55,84.74,108.48,5.73" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Corporations are cyborgs: Organizations elicit anger but not sympathy when they can think but cannot feel</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">S</forename><surname>Rai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Diermeier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Organizational Behavior and Human Decision Processes</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="18" to="26" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,37.59,92.73,251.04,5.73;11,49.55,100.67,238.99,5.73;11,49.55,108.66,219.59,5.73" xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Valeant CEO Pearson&apos;s compensation relies heavily on now-underwater stock</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rapoport</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Lublin</surname></persName>
+		</author>
+		<ptr target="http://www.wsj.com/articles/valeant-ceo-pearsons-compensation-relies-heavily-on-now-underwater-stock-1461968375" />
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,37.59,116.65,248.22,5.73;11,49.55,124.59,47.42,5.73" xml:id="b44">
+	<monogr>
+		<title level="m" type="main">The body in pain: The making and unmaking of the world</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Scarry</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1985" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,37.59,132.58,247.26,5.73;11,49.55,140.52,73.61,5.73" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The uncensored truth about morality</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Schein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Goranson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Gray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Psychologist</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="982" to="985" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,37.59,148.51,246.10,5.73;11,49.55,156.51,232.58,5.73" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The theory of dyadic morality: Reinventing moral judgments by redefining harm</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Schein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Gray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Personality and Social Psychology Review</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="32" to="70" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,37.59,164.45,243.40,5.73;11,49.55,172.44,225.34,5.73;11,49.55,180.38,173.45,5.73" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Does love mean never having to say you&apos;re sorry? Associations between relationship satisfaction, perceived apology sincerity, and forgiveness</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Schumann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Social and Personal Relationships</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="997" to="1010" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,37.58,188.37,249.77,5.73;11,49.55,196.31,234.56,5.73" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Promises and lies: Restoring violated trust</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Schweitzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Hershey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">T</forename><surname>Bradlow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Organizational Behavior and Human Decision Processes</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,37.58,204.30,251.06,5.73;11,318.56,60.87,73.44,5.73" xml:id="b49">
+	<monogr>
+		<title level="m" type="main">MTurk vs. The Lab: Either way we need big samples</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Simmons</surname></persName>
+		</author>
+		<ptr target="http://datacolada.org/18" />
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.59,68.80,163.81,5.73" xml:id="b50">
+	<monogr>
+		<title level="m" type="main">The theory of moral sentiments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Smith</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note>Penguin</note>
+</biblStruct>
+
+<biblStruct coords="11,306.59,76.80,251.08,5.73;11,318.56,84.73,230.32,5.73;11,318.56,92.73,129.56,5.73" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">The psychological underpinnings of democracy: A selective review of research on political tolerance, interpersonal trust, and social capital</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Sullivan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Transue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Psychology</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page">625</biblScope>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.59,100.66,246.21,5.73;11,318.56,108.66,238.93,5.73" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">The Wells Fargo spillover effect</title>
+		<ptr target="https://www.nytimes.com/2016/09/23/opinion/the-wells-fargo-spillover-effect.html?_r=0" />
+	</analytic>
+	<monogr>
+		<title level="m">The New York Times</title>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.59,116.14,251.04,6.38;11,318.56,124.59,235.35,5.73;11,318.56,132.58,19.30,5.73" xml:id="b53">
+	<monogr>
+		<title level="m" type="main">Volkswagen CEO quits over &quot;grave crisis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Liakos</surname></persName>
+		</author>
+		<ptr target="http://money.cnn.com/2015/09/23/news/companies/volkswagen-emissions-crisis/" />
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.59,140.52,251.05,5.73;11,318.56,148.51,234.40,5.73;11,318.56,156.51,14.93,5.73" xml:id="b54">
+	<monogr>
+		<title level="m" type="main">We already know how to protect ourselves from Facebook</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Tufekci</surname></persName>
+		</author>
+		<ptr target="https://www.nytimes.com/2018/04/09/opinion/zuckerberg-testify-congress.html" />
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.59,164.44,250.95,5.73;11,318.56,172.44,157.29,5.73" xml:id="b55">
+	<monogr>
+		<title level="m" type="main">7 CEOs who are their brands</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Woods</surname></persName>
+		</author>
+		<ptr target="http://investorplace.com/2011/01/7-ceos-who-are-their-brands/#.V9nYjk0rKUk" />
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.59,180.37,242.55,5.73;11,318.56,188.37,239.00,5.73;11,318.56,196.30,154.68,5.73" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Blaming leaders for organizational accidents: Proxy logic in collective-versus individual-agency cultures</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Zemba</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">W</forename><surname>Morris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Organizational Behavior and Human Decision Processes</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="36" to="51" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

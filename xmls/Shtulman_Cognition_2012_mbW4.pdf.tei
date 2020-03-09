@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Scientific knowledge suppresses but does not supplant earlier intuitions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2012-05-16">Available online 16 May 2012</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Shtulman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">Occidental College</orgName>
+								<address>
+									<addrLine>1600 Campus Road</addrLine>
+									<postCode>90041</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><surname>Valcarcel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">Occidental College</orgName>
+								<address>
+									<addrLine>1600 Campus Road</addrLine>
+									<postCode>90041</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Scientific knowledge suppresses but does not supplant earlier intuitions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2012-05-16">Available online 16 May 2012</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.cognition.2012.04.005</idno>
+					<note type="submission">Article history: Received 4 August 2011 Revised 16 April 2012 Accepted 19 April 2012</note>
+					<note>a r t i c l e i n f o</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Naive theories Knowledge representation Conceptual change Science education</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>a b s t r a c t</head><p>When students learn scientific theories that conflict with their earlier, naïve theories, what happens to the earlier theories? Are they overwritten or merely suppressed? We investigated this question by devising and implementing a novel speeded-reasoning task. Adults with many years of science education verified two types of statements as quickly as possible: statements whose truth value was the same across both naïve and scientific theories of a particular phenomenon (e.g., ''The moon revolves around the Earth'') and statements involving the same conceptual relations but whose truth value differed across those theories (e.g., ''The Earth revolves around the sun''). Participants verified the latter significantly more slowly and less accurately than the former across 10 domains of knowledge (astronomy, evolution, fractions, genetics, germs, matter, mechanics, physiology, thermodynamics, and waves), suggesting that naïve theories survive the acquisition of a mutually incompatible scientific theory, coexisting with that theory for many years to follow.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Decades of research in cognitive psychology, developmental psychology, and science education have dispelled the myth that students enter the science classroom as ''empty vessels'' ready to be filled with knowledge. Rather, they enter with rich, pre-instructional theories of the domain-relevant phenomena that often interfere with learning <ref type="bibr" coords="1,53.40,495.65,52.67,7.53" target="#b2">(Carey, 2000;</ref><ref type="bibr" coords="1,110.78,495.65,42.98,7.53" target="#b14">Keil, 2011;</ref><ref type="bibr" coords="1,158.45,495.65,66.36,7.53" target="#b38">Vosniadou, 1994)</ref>. In the domain of mechanics, for instance, students hold theories of motion predicated on the belief that forces are transferred from one object to another upon contact and must dissipate before objects can come to a rest <ref type="bibr" coords="1,221.61,537.49,36.47,7.53;1,36.85,547.92,21.99,7.53" target="#b5">(Clement, 1982;</ref><ref type="bibr" coords="1,61.62,547.92,65.23,7.53" target="#b20">McCloskey, 1983)</ref>. In the domain of thermodynamics, students hold theories of heat predicated on the belief that heat is a kind of substance that flows in and out of objects and can ultimately be trapped or contained <ref type="bibr" coords="1,228.81,579.32,29.22,7.53;1,36.85,589.81,107.38,7.53" target="#b25">(Reiner, Slotta, Chi, &amp; Resnick, 2000;</ref><ref type="bibr" coords="1,147.12,589.81,78.58,7.53" target="#b41">Wiser &amp; Amin, 2001)</ref>. And in the domain of evolution, students hold theories of adaptation predicated on the belief that all members of a species evolve together, with each organism producing offspring better adapted to the environment than it was at birth <ref type="bibr" coords="1,281.93,432.89,65.80,7.53" target="#b26">(Shtulman, 2006;</ref><ref type="bibr" coords="1,350.36,432.89,96.38,7.53" target="#b27">Shtulman &amp; Schulz, 2008)</ref>.</p><p>Science educators are thus charged with two tasks: not only must they help students learn the correct, scientific theory at hand, but they must also help students unlearn their earlier, less accurate theories. Psychologists who have studied this process -typically termed ''conceptual change'' -have characterized the transition from naïve theories to scientific theories in several ways. Some have emphasized the role of category knowledge, characterizing conceptual change as a series of conceptual differentiations, in which new category boundaries are established, and conceptual coalescences, in which old category boundaries are collapsed <ref type="bibr" coords="1,355.12,558.40,50.66,7.53" target="#b3">(Carey, 2009;</ref><ref type="bibr" coords="1,408.47,558.40,46.72,7.53" target="#b31">Smith, 2007)</ref>. Some have emphasized the role of ontological hierarchies, characterizing conceptual change as the reassignment of a key concept, or system of concepts, from one branch of an ontological hierarchy to another <ref type="bibr" coords="1,408.86,600.24,94.28,7.53;1,281.93,610.73,21.99,7.53" target="#b4">(Chi, Slotta, &amp; de Leeuw, 1994;</ref><ref type="bibr" coords="1,306.08,610.73,54.68,7.53" target="#b36">Thagard, 1992)</ref>. And some have emphasized the role of causal expectations, characterizing conceptual change as a revision of the core presuppositions of a causal model or causal theory <ref type="bibr" coords="1,341.80,642.08,72.50,7.53" target="#b38">(Vosniadou, 1994;</ref><ref type="bibr" coords="1,420.09,642.08,83.06,7.53;1,281.93,652.57,19.99,7.53" target="#b40">Wellman &amp; Gelman, 1992)</ref>. Common to all characterizations is a commitment 0010-0277/$ -see front matter Ó 2012 Elsevier B.V. All rights reserved. http://dx.doi.org/10.1016/j.cognition.2012.04.005 to knowledge restructuring, or the conversion of one conceptual system into another by radically altering the structure (and not just the content) of that system. Implicit in the idea of knowledge restructuring is the idea that early modes of thought, once restructured, should no longer be accessible, for the basic constituents of the earlier system are no longer represented. A number of recent findings have challenged this idea, however, by showing that early modes of thought do sometimes reemerge later in life. Alzheimer's patients, for instance, have been shown to endorse teleological explanations for natural phenomena that typically only children endorse <ref type="bibr" coords="2,41.16,180.26,143.94,7.53" target="#b18">(Lombrozo, Kelemen, &amp; Zaitchik, 2007)</ref>. While adults without Alzheimer's disease do not typically endorse these explanations, they can be induced to do so under speeded conditions <ref type="bibr" coords="2,85.32,211.61,97.80,7.53" target="#b15">(Kelemen &amp; Rosset, 2009</ref>). Adults have also been shown to be slower and less accurate at categorizing plants as alive than at categorizing animals as alive <ref type="bibr" coords="2,41.16,243.02,131.08,7.53" target="#b11">(Goldberg &amp; Thompson-Schill, 2009</ref>), reminiscent of young children's belief that animate entities are alive but inanimate entities are not <ref type="bibr" coords="2,125.23,263.94,51.06,7.53" target="#b24">(Piaget, 1929)</ref>. Even biology professors were found to be slower and less accurate at classifying plants as alive than at classifying animals as alive, implying that years of professional experience had not erased an erroneous distinction first drawn in childhood <ref type="bibr" coords="2,62.76,316.21,132.49,7.53" target="#b11">(Goldberg &amp; Thompson-Schill, 2009</ref>).</p><p>These findings, among others <ref type="bibr" coords="2,174.89,326.70,87.40,7.53;2,41.16,337.13,45.73,7.53" target="#b8">(Dunbar, Fugelsang, &amp; Stein, 2007;</ref><ref type="bibr" coords="2,89.91,337.13,92.44,7.53" target="#b16">Legare &amp; Gelman, 2008;</ref><ref type="bibr" coords="2,185.38,337.13,77.00,7.53;2,41.16,347.62,16.63,7.53" target="#b42">Zaitchik &amp; Solomon, 2008</ref>, suggest that scientific knowledge serves to mask, rather than replace, one's initial intuitions. They are consistent with the views of many science education researchers, who see the purpose of instruction as reanalyzing, rather than replacing, pre-instructional ideas (e.g., <ref type="bibr" coords="2,41.16,399.89,100.67,7.53" target="#b1">Caravita &amp; Hallden, 1994;</ref><ref type="bibr" coords="2,145.41,399.89,56.95,7.53" target="#b6">Clement, 1993)</ref>. They are also consistent with models of theory change that emphasize the inferential competition between theories rather than the replacement of one theory by another (e.g., <ref type="bibr" coords="2,230.34,431.30,32.03,7.53;2,41.16,441.73,21.81,7.53" target="#b23">Ohlsson, 2009;</ref><ref type="bibr" coords="2,67.63,441.73,190.70,7.53" target="#b35">Tenenbaum, Kemp, Griffiths, &amp; Goodman, 2011)</ref>. Nevertheless, current evidence for the persistence of early intuitions is limited to studies that tap a single conceptual distinction, like the distinction between living and nonliving things <ref type="bibr" coords="2,80.28,483.57,101.46,7.53" target="#b42">(Zaitchik &amp; Solomon, 2008)</ref> or the distinction between teleological and nonteleological processes <ref type="bibr" coords="2,226.25,494.05,36.12,7.53;2,41.16,504.49,51.59,7.53" target="#b15">(Kelemen &amp; Rosset, 2009</ref>). While these distinctions play a central role in folkbiology, it's unclear whether the effect extends to other concepts within the same domain or to concepts from other domains altogether. Documenting the exact scope of this phenomenon is critical to understanding its origin. While, on the one hand, the resilience of early intuitions may have implications for conceptual change as a whole, it may, on the other hand, have implications for only a particular kind of knowledge or a particular kind of learning.</p><p>Here, we provide evidence that the resilience of early intuitions is, in fact, a domain-general phenomenon by introducing a new method for probing those intuitions that can be applied to potentially any concept in any domain. Specifically, we compare the speed and accuracy with which adults verify two types of statements: statements whose truth-value is known to remain constant across conceptual change (e.g., ''The moon revolves around the Earth,'' which is true on both naïve and scientific theories of astronomical phenomena) and syntactically analogous statements whose truth-value is known to reverse across that same change (e.g., ''The Earth revolves around the sun,'' which is true on a scientific theory but not a naïve theory). We hypothesized that, if naïve theories survive the acquisition of a mutually incompatible scientific theory, then statements whose truth-value reverse across conceptual change should cause greater cognitive conflict than statements whose truth-value remain constant, resulting in slower and less accurate verifications for those statements. If, on the other hand, naïve theories are generally overwritten by scientific theories, then statements whose truth-value reverse across conceptual change should cause no more conflict than statements whose truth-value remain constant, since the naïve theories should no longer be present to cause such conflict.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Participants</head><p>The participants were 150 college undergraduates recruited from introductory psychology courses. They reported having taken an average of 3.1 college-level math and science courses prior to the study (SD = 3.3), but this variable did not predict any of the effects reported below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Materials</head><p>Participants verified, as quickly as possible, 200 statements about natural phenomena: 20 statements in each of 10 domains of knowledge, with each statement exemplifying one of five concepts within that domain (see <ref type="table" coords="2,475.37,417.81,25.57,7.53" target="#tab_0">Table 1</ref>). A quarter of the statements were true on both naïve and scientific theories of the domain (''steal is denser than foam''), a quarter were false on both naïve and scientific theories (''foam is denser than brick''), a quarter were true on naïve theories but false on scientific theories (''ice is denser than water''), and a quarter were true on scientific Light, color, sound, propagation, reflection theories but false on naïve theories (''cold pennies are denser than hot pennies''). Sample statements are shown in <ref type="table" coords="3,176.66,326.70,26.60,7.53">Table 2</ref>. All materials were derived from prior research in cognitive development and science education on the particular form of restructuring that occurs in each domain. For the domain of astronomy, the statements were designed to assess the transition from a geocentric model of the solar system to a heliocentric model <ref type="bibr" coords="3,121.04,389.46,137.06,7.53;3,36.85,399.95,21.81,7.53" target="#b28">(Siegal, Butterworth, &amp; Newcombe, 2004;</ref><ref type="bibr" coords="3,61.23,399.95,102.92,7.53" target="#b39">Vosniadou &amp; Brewer, 1994)</ref>; for evolution, the transition from an essentialist theory of species adaptation to a selection-based theory <ref type="bibr" coords="3,133.22,420.87,69.66,7.53" target="#b26">(Shtulman, 2006;</ref><ref type="bibr" coords="3,209.36,420.87,48.62,7.53;3,36.85,431.30,50.85,7.53" target="#b27">Shtulman &amp; Schulz, 2008)</ref>; for fractions, the transition from an integer-based model of rational number to a division-based model <ref type="bibr" coords="3,64.86,452.22,106.85,7.53" target="#b12">(Hartnett &amp; Gelman, 1998;</ref><ref type="bibr" coords="3,175.97,452.22,77.92,7.53" target="#b21">Moss &amp; Case, 1999)</ref>; for genetics, the transition from a trait-based theory of inheritance to a chromosomal theory <ref type="bibr" coords="3,187.42,473.14,70.57,7.53;3,36.85,483.63,52.42,7.53" target="#b10">(Duncan, Rogat, &amp; Yarden, 2009;</ref><ref type="bibr" coords="3,91.39,483.63,80.98,7.53" target="#b34">Springer &amp; Keil, 1989)</ref>; for germs, the transition from a behavioral theory of illness to a microbial theory <ref type="bibr" coords="3,53.69,504.55,66.20,7.53" target="#b0">(Au et al., 2008;</ref><ref type="bibr" coords="3,124.27,504.55,114.54,7.53" target="#b33">Solomon &amp; Cassimatis, 1999)</ref>; for matter, the transition from a tactile theory of material substances to a particulate theory <ref type="bibr" coords="3,152.78,525.47,105.24,7.53;3,36.85,535.90,63.08,7.53" target="#b22">(Nakhleh, Samarapungavan, &amp; Saglam, 2005;</ref><ref type="bibr" coords="3,103.18,535.90,48.06,7.53" target="#b31">Smith, 2007)</ref>; for mechanics, the transition from an impetus theory of motion to an inertial theory <ref type="bibr" coords="3,36.85,556.82,63.37,7.53" target="#b5">(Clement, 1982;</ref><ref type="bibr" coords="3,105.11,556.82,68.11,7.53" target="#b20">McCloskey, 1983)</ref>; for physiology, the transition from a psychological theory of bodily functions to a vitalist theory <ref type="bibr" coords="3,114.01,577.74,95.06,7.53" target="#b13">(Johnson &amp; Carey, 1998;</ref><ref type="bibr" coords="3,212.71,577.74,45.28,7.53;3,36.85,588.22,47.84,7.53" target="#b29">Slaughter &amp; Lyons, 2003)</ref>; for thermodynamics, the transition from a substance-based theory of heat to a kinetic theory <ref type="bibr" coords="3,233.23,598.65,24.79,7.53;3,36.85,609.14,45.96,7.53" target="#b30">(Slotta &amp; Chi, 2006;</ref><ref type="bibr" coords="3,84.92,609.14,77.10,7.53" target="#b41">Wiser &amp; Amin, 2001)</ref>; and for waves, the transition from a substance-based theory of light and sound to an frequency-based theory <ref type="bibr" coords="3,157.32,630.06,100.73,7.53" target="#b17">(Linder &amp; Erickson, 1989;</ref><ref type="bibr" coords="3,36.85,640.49,95.12,7.53" target="#b19">Mazens &amp; Lautrey, 2003)</ref>. The full list of 200 statements can be found online in the Supplemental materials.</p><p>The materials were counterbalanced in three respects: (1) there were an equal number of objectively true and objectively false statements per domain, discouraging the adoption of a response bias; (2) the complexity of each conceptual relation was balanced across statement type (consistent vs. inconsistent) and response type (true vs. false) so that simple relations (e.g., ''[entity] evolves over time'') were represented as often as complex relations (e.g., ''[species 1 ] is descended from [species 2 ]'') within each stimulus category; and (3) the average number of words per statement was held constant across statement type, response type, and domain.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Procedure</head><p>Stimuli were presented to participants with MediaLab v1.21 software, which recorded the speed and accuracy of their judgments. The mean response time across items and across subjects was 3971 ms, and all response times that fell more than two standard deviations beyond this mean were eliminated from the dataset. Statements from the same domain (n = 20) were presented as a block (prefaced by the domain name), in order to minimize abrupt changes in content, but their ordering was randomized within that block, and the ordering of the domains was randomized as well.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>Participants' accuracy at verifying statements whose truth value was consistent across both naïve and scientific theories (''consistent statements'') and statements whose truth value differed across those theories (''inconsistent statements'') is displayed in <ref type="figure" coords="3,391.64,640.50,23.99,7.53" target="#fig_0">Fig. 1A</ref>. A repeated-measures analysis of variance (ANOVA) confirmed that participants were significantly more accurate at verifying the former than the latter (F(1, 149) = 1582.49, p &lt; .001), and simple effects tests confirmed that this difference was robust <ref type="table" coords="3,36.85,54.73,22.48,6.03">Table 2</ref> Sample items involving the same conceptual relation. Consistent items were true on both the naïve theory (T1) and the scientific theory (T2) or false on both theories; inconsistent items (marked with an asterisk) were true on one theory but false on the other. The speed at which participants made their verifications is displayed in <ref type="figure" coords="4,120.98,483.63,23.59,7.53" target="#fig_0">Fig. 1B</ref>. Only correct verifications are included in <ref type="figure" coords="4,88.84,494.06,24.56,7.53" target="#fig_0">Fig. 1B</ref>, though the results do not change if incorrect verifications are included as well. As predicted, participants were significantly slower at verifying inconsistent statements than at verifying consistent ones, both across domains (F(1, 149) = 349.98, p &lt; .001) and withindomains (t(149) &gt; 3.0, p &lt; .01 for all within-domain comparisons). This pattern was robust across individual concepts as well; the average response latency for inconsistent statements was greater than that for consistent statements for 43 of the 50 concepts (see <ref type="table" coords="4,201.77,588.23,26.19,7.53" target="#tab_2">Table 3</ref>).</p><p>To determine whether the effect varied by response type (''true'' vs. ''false''), we collapsed the latency data across domains and analyzed them for effects of response type and statement type with a repeated-measures ANO-VA. Not surprisingly, participants verified true statements significantly faster than they verified false statements (M = 3698 ms vs. M = 3466 ms, F(1, 149) = 71.04, p &lt; .001; see <ref type="figure" coords="4,55.27,671.90,18.17,7.53">Fig. 2</ref>), but there was no interaction between statement type and response type, indicating that participants correctly verified consistent statements faster than inconsistent ones regardless of whether those statements were true on scientific theories but false on naïve theories or true on naïve theories but false on scientific theories. Indeed, the mean difference in response latency between consistent and inconsistent statements for the false items (415 ms) was virtually the same as that for the true items (428 ms).</p><p>Lastly, we compared response latency to response accuracy. Overall, participants were more accurate for domains in which conceptual change tends to occur within the first decade of life (e.g., fractions, physiology) than for domains in which conceptual change tends to occur in the second decade of life (e.g., evolution, mechanics), if at all. Accompanying this difference in accuracy was a difference in speed: participants verified consistent statements an average of 562 ms faster than inconsistent statements in domains for which overall accuracy was 80% or greater (fractions, germs, physiology), 388 ms faster in domains for which overall accuracy was between 70% and 80% (astronomy, genetics, thermodynamics, matter), and 334 ms faster in domains for which overall accuracy was 70% or below (mechanics, evolution, waves). A contrast analysis confirmed that speed varied linearly with accuracy (F(1, 149) = 23.40, p &lt; .001), indicating that participants were slower to verify inconsistent statements in domains where they were more likely to verify those statements correctly.</p><p>This effect was observed at the level of the participant as well. Although all participants exhibited above-chance levels of accuracy (t(199) &gt; 2.5, p &lt; .05 for all comparisons to chance), individual participants ranged from 59% correct to 89% correct. <ref type="figure" coords="4,343.95,588.22,20.14,7.53">Fig. 3</ref> displays the mean response times for participants in each quartile of the accuracy distribution. Response times for the consistent statements did not vary by quartile, but response times for the inconsistent statements did (F(3, 146) = 2.69, p &lt; .05), with participants in the fourth quartile responding an average of 465 ms slower than participants in the first quartile. Indeed, the difference in response times between inconsistent and consistent statements was significantly correlated with accuracy scores in six of the 10 domains (fractions: r = .27; genetics:  18; all p's &lt; .05), suggesting that participants with greater domain expertise exhibited more cognitive conflict on the inconsistent items than did participants with less expertise. Although this finding needs to be explored further, it indicates, at the very least, that the effect was not an artifact of confusion or carelessness.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>When students learn scientific theories that conflicts with earlier, naïve theories, what happens to the earlier theories? Our findings suggest that naïve theories are suppressed by scientific theories but not supplanted by them. Across 10 domains, participants were significantly slower and less accurate at verifying statements whose truthvalue reversed across a conceptual change (e.g., ''1/13 is greater than 1/30'') than at verifying structurally analogous statements whose truth-value remained constant across that change (e.g., ''12/13 is greater than 1/13''). This effect was observed not only in domains where participants were introduced to the correct, scientific concepts in late adolescence but also in domains where they were introduced to those concepts in early childhood. Indeed, the latency data suggest that participants exhibited more cognitive conflict in the latter than in the former, possibly because naïve theories in the latter domains emerge earlier and are thus more deeply entrenched.</p><p>Might the observed differences between consistent and inconsistent statements reflect something other than the ''tug'' of a previously discarded theory? One possibility is that the inconsistent statements were syntactically more difficult to process than the consistent ones, yet this possibility is unlikely given how the two types of statements were constructed. Consistent and inconsistent statements did not differ, after all, in the complexity of their linguistic form (e.g., ''[entity] has heat'') but in the objects or properties to which a particular linguistic expression was applied (e.g., ''the sun has heat'' vs. ''ice has heat''). Clearly, the inconsistent statements were more counterintuitive than the consistent statements but that difference constituted the manipulation of interest. Moreover, the sense in which the inconsistent statements were counterintuitive was not random or capricious but was rather constrained by decades of research in the relevant domains. For instance, in the domain of fractions, the relation ''is greater than'' was verified more quickly and more accurately when applied to the numbers 12/13 and 1/13 than when applied to the numbers 1/13 and 1/30. The reason for this difference presumably stems from the fact that our initial understanding of number, acquired in the context of counting, lacks the properties of divisibility and infinite density needed to represent non-integral quantities and must therefore be restructured before the concept of a denominator can be grasped <ref type="bibr" coords="5,396.05,326.69,79.53,7.53" target="#b21">(Moss &amp; Case, 1999;</ref><ref type="bibr" coords="5,478.94,326.69,24.20,7.53;5,281.93,337.13,104.80,7.53" target="#b32">Smith, Solomon, &amp; Carey, 2005;</ref><ref type="bibr" coords="5,393.16,337.13,109.97,7.53;5,281.93,347.61,19.85,7.53" target="#b37">Vamvakoussi &amp; Vosniadou, 2004)</ref>. While there may be something intrinsically more difficult about comparing numerators than comparing denominators, a more feasible explanation, in light of the math education literature, is that this difference is a historical byproduct of the conceptual trajectory from an understanding of whole number to that of rational number.</p><p>Another possibility is that the inconsistent statements represented information that was simply less familiar than that represented by the consistent statements, with the less familiar information proving more difficult to retrieve than the more familiar information. The problem with this explanation is that what constitutes ''familiar'' and ''unfamiliar'' should vary by when learning has occurred, yet the effect of interest was observed for all 10 domains, as well as the vast majority of concepts within those domains. While it is true that the effect was stronger in some domains (e.g., fractions, germs) than in others (e.g., mechanics, waves), this difference was actually in the opposite direction of that predicted by a familiarity account in that participants were slowest to verify inconsistent statements in the familiar domains, not the unfamiliar ones. Moreover, there were no consistent differences in how participants treated statements that were true on naive theories but false on scientific theories (i.e., positive misconceptions) and statements that were true on scientific theories but false of naive theories (i.e., negative misconceptions). These two types of misconceptions ostensibly vary in their familiarity by domain; positive misconceptions are ostensibly less familiar in early-developing domains (e.g., ''the sun is alive'') than in late-developing domains (e.g., ''the earth's distance from the sun causes the season'') owing to the amount of time that has passed since the relevant intuitions were first challenged, and negative misconceptions are ostensibly less familiar in late-developing domains (e.g., ''the earth's tilt causes the seasons'') than in early-developing domains (e.g., ''coral is alive'') owing to the amount of time that has passed since the relevant scientific information was first introduced. However, a statistical comparison of the response lag between consistent and inconsistent statements associated with positive misconceptions and that associated with negative misconceptions revealed no interaction between type of misconception (positive vs. negative) and domain (F(9, 1341) &lt; 1, ns).</p><p>Our findings are thus inconsistent with either alternative. They are, however, consistent with previous findings regarding the re-emergence of teleological thought and animistic thought under cognitive impairment <ref type="bibr" coords="6,221.61,201.18,40.79,7.53;6,41.16,211.61,46.41,7.53" target="#b18">(Lombrozo et al., 2007;</ref><ref type="bibr" coords="6,90.88,211.61,102.76,7.53" target="#b42">Zaitchik &amp; Solomon, 2008)</ref> or cognitive load <ref type="bibr" coords="6,41.16,222.10,143.41,7.53" target="#b11">(Goldberg &amp; Thompson-Schill, 2009;</ref><ref type="bibr" coords="6,188.84,222.10,73.48,7.53;6,41.16,232.53,15.88,7.53" target="#b15">Kelemen &amp; Rosset, 2009</ref>). And they do not merely replicate those findings; they extend them across multiple domains of knowledge -from the life sciences to the physical sciences to mathematics -and across multiple concepts within those domains. Indeed, the consistency of the effect within and across domains suggests that it is not merely the byproduct of a few particularly resilient intuitions but is rather a domain-general consequence of conceptual restructuring. Consequently, these findings present a strong challenge to standard models of conceptual change, like coalescence-and-differentiation models <ref type="bibr" coords="6,197.17,337.13,52.65,7.53" target="#b3">(Carey, 2009)</ref> or ontological-reassignment models <ref type="bibr" coords="6,168.99,347.62,60.06,7.53" target="#b4">(Chi et al., 1994)</ref>, as they demonstrate the continued influence of intuitions that should have been rendered obsolete by the kinds of radical restructuring these models entail. While such models could be amended to account for the data at hand, doing so would require a specification of how a single concept, like heat or force, could hold different meanings for the same individual across different contexts or different tasks.</p><p>One possible modification would be to stipulate that naïve theories and scientific theories take different forms of representation. Naïve theories might take a more contextual or more phenomenological representation, whereas scientific theories might take a more abstract or more propositional representation (see <ref type="bibr" coords="6,157.66,483.57,54.85,7.53" target="#b7">DiSessa, 1993)</ref>. While this view seems plausible for domains in which naïve theories are constructed from firsthand sensory data (e.g., mechanics, thermodynamics), it seems less plausible for domains in which the relevant phenomena must be learned through testimony and inference (e.g., astronomy, evolution). Another possibility is that naïve theories and scientific theories occupy different levels of representation. On this view, beliefs about an entire ontology (e.g., matter) may be represented at a different level of abstraction than beliefs about a particular instance of that ontology (e.g., ice), giving rise to potentially many undetected inconsistencies (e.g., ''all matter has heat'' vs. ''ice has no heat''). Preliminary support for this view comes from studies showing that conceptual change is perhaps best facilitated by instructional approaches that emphasize the integration of knowledge across multiple levels of representation <ref type="bibr" coords="6,212.82,650.98,49.50,7.53;6,41.16,661.41,21.81,7.53" target="#b30">(Slotta &amp; Chi, 2006;</ref><ref type="bibr" coords="6,65.82,661.41,78.52,7.53" target="#b41">Wiser &amp; Amin, 2001)</ref>. Further research, however, is needed to determine whether successful instruction ever truly eliminates early, erroneous intuitions or whether such intuitions persist regardless of the comprehensiveness or systematicity of the newly acquired theory.</p><p>Further research is also needed to determine why early intuitions conflict with scientific knowledge to different degrees in different domains. One possibility is that intuitive theories in early developing domains hold more sway over reasoning than those in later developing domains because they are more deeply entrenched. In other words, intuitive theories in domains like physiology and germs are constructed earlier than those in domains like evolution and waves and may thus have influenced the encoding and organization of domain-specific information to a greater extent. Another possibility is that the intuitive theories in early developing domains hold no more sway than those in later developing domains but the scientific theories do. On this account, participants experienced greater cognitive conflict in early developing domains not because their pre-scientific intuitions in those domains were any more potent or resilient but because their newfound scientific beliefs posed a more formidable challenge to those intuitions. This explanation would account not only for differences in average response latencies across domains but also for differences between individual participants within the same domain. After all, participants who exhibited greater expertise in a particular domain (as indexed by response accuracy) also exhibited greater cognitive conflict in that domain (as indexed by response latency).</p><p>One way to disentangle these two possibilities would be to compare performance in the present task with performance on independent measures of conceptual understanding -measures that could probe understanding in more depth and more detail (e.g., structured interviews, inferential reasoning tasks, think-aloud protocols). While the ''differential entrenchment'' account predicts that differences in performance in the present task should be unrelated to differences in the quality or consistency of one's scientific knowledge (beyond some particular threshold), the ''differential learning'' account predicts that the two measures should be strongly related. Indeed, the differential learning account makes the counterintuitive prediction that the response lag between consistent and inconsistent statements should actually increase with expertise. While the present study provides some preliminary support for this hypothesis, stronger support would come from studies that directly compared the response profiles of novices and experts or the response profiles of novices before and after instruction. Critically, the effect should be domain-specific, such that instruction in physics should affect performance on the mechanics items but not the evolution items and instruction in biology should affect performance on the evolution items but not the mechanics items. Such findings, in combination with the present findings, promise to shed additional light not only on the relation between naïve theories and scientific theories but also on the nature of conceptual representation and conceptual change more generally.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="4,41.16,415.07,221.17,6.03;4,41.16,423.63,221.16,6.03;4,41.16,432.19,139.95,6.03"><head>Fig. 1 .</head><label>1</label><figDesc>(A) Mean proportion of consistent and inconsistent statements correctly verified in each domain (all SE &lt; .02). (B) Mean response times (in seconds) for correct responses (all SE &lt; .1).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="5,36.85,212.56,221.20,6.03;5,36.85,221.12,181.97,6.03"><head>Fig. 2 .Fig. 3 .</head><label>23</label><figDesc>Mean response times (in seconds) as a function of statement type (consistent vs. inconsistent) and truth-value (true vs. false). Mean response times (in seconds) as a function of statement type (consistent vs. inconsistent) and overall accuracy (by quartile).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="2,286.24,511.96,212.65,170.03"><head>Table 1</head><label>1</label><figDesc>The five concepts covered in each domain.</figDesc><table coords="2,294.75,534.80,204.14,147.19">Domain 
+Concept 
+
+Astronomy 
+Planet, star, solar system, lunar phase, season 
+Evolution 
+Common ancestry, phylogeny, variation, 
+selection, adaptation 
+Fractions 
+Addition, division, conversion, ordering, infinite 
+density 
+Genetics 
+Heritability, chromosome, dominance, 
+expression, mutation 
+Germs 
+Contagion, contamination, infection, 
+sterilization, microbe 
+Matter 
+Mass, weight, density, divisibility, atom 
+Mechanics 
+Force, velocity, acceleration, momentum, 
+gravity 
+Physiology 
+Life, death, reproduction, metabolism, kinship 
+Thermodynamics Heat, heat source, heat transfer, temperature, 
+thermal expansion 
+Waves 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="4,286.24,54.73,221.16,177.92"><head>Table 3</head><label>3</label><figDesc>Distribution of conceptual relations in each domain (n = 5) as a function of the difference in response times between consistent and inconsistent statements; positive differences are indicative of a conceptual relation in which participants were faster to respond to consistent versions than to inconsistent versions.</figDesc><table coords="4,294.75,111.87,204.14,120.77">Domain 
+Mean difference in response time 
+
+&lt;0 ms 0-500 ms 500-1000 ms &gt;1000 ms 
+
+Astronomy 
+2 
+1 
+1 
+1 
+Evolution 
+0 
+4 
+1 
+0 
+Fractions 
+1 
+0 
+1 
+3 
+Genetics 
+2 
+1 
+2 
+0 
+Germs 
+1 
+3 
+1 
+0 
+Matter 
+0 
+3 
+1 
+1 
+Mechanics 
+0 
+3 
+1 
+1 
+Physiology 
+0 
+3 
+0 
+2 
+Thermodynamics 0 
+1 
+3 
+1 
+Waves 
+1 
+1 
+3 
+0 
+
+Total 
+7 
+20 
+14 
+9 
+</table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgment</head><p>This research was supported by National Science Foundation Grant DRL-0953384 awarded to Andrew Shtulman.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Supplementary material</head><p>Supplementary data associated with this article can be found, in the online version, at http://dx.doi.org/10.1016/ j.cognition.2012.04.005.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="7,36.85,150.48,221.18,6.03;7,48.81,158.48,209.19,6.03;7,48.81,166.41,164.41,6.03" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Folkbiology meets microbiology: A study of conceptual and behavioral change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">K F</forename><surname>Au</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">K K</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">K</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">W L</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">Y S</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">W M</forename><surname>Ip</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,174.41,221.16,6.03;7,48.81,182.34,131.90,6.03" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Reframing the problem of conceptual change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Caravita</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Hallden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Learning and Instruction</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="89" to="111" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,190.34,221.17,6.03;7,48.81,198.27,135.85,6.03" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Science education as conceptual change</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Carey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Developmental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="13" to="19" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,206.27,221.14,6.03" xml:id="b3">
+	<monogr>
+		<title level="m" type="main">The origin of concepts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Carey</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,214.26,221.13,6.03;7,48.81,222.20,209.20,6.03;7,48.81,230.19,75.81,6.03" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">From things to processes: A theory of conceptual change for learning science concepts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">T H</forename><surname>Chi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Slotta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>De Leeuw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Learning and Instruction</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="27" to="43" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,238.13,221.19,6.03;7,48.81,246.12,115.71,6.03" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Students&apos; preconceptions in introductory mechanics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Clement</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Physics</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="66" to="70" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,254.12,221.18,6.03;7,48.81,262.05,209.23,6.03;7,48.81,270.05,99.02,6.03" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Using bridging analogies and anchoring intuitions to deal with students&apos; preconceptions in physics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Clement</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Research in Science Teaching</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1241" to="1257" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,277.98,221.17,6.03;7,48.81,285.98,74.02,6.03" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Toward an epistemology of physics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">A</forename><surname>Disessa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition and Instruction</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="105" to="225" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,293.91,221.18,6.03;7,48.81,301.91,209.22,6.03" xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Do naive theories ever go away? Using brain and behavior to understand changes in concepts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Dunbar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Fugelsang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Stein</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,48.81,309.90,209.20,6.03;7,48.81,317.84,109.75,6.03" xml:id="b9">
+	<monogr>
+				<title level="m">Thinking with data</title>
+		<editor>M. Lovett &amp; P. Shah</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Lawrence Erlbaum Associates</publisher>
+			<biblScope unit="page" from="193" to="206" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,325.83,221.18,6.03;7,48.81,333.77,209.21,6.03;7,48.81,341.76,209.19,6.03" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A learning progression for deepening students&apos; understandings of modern genetics across the 5th-10th grades</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">G</forename><surname>Duncan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Rogat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Yarden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Research in Science Teaching</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="655" to="674" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,349.75,221.20,6.03;7,48.81,357.69,196.20,6.03" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Developmental &apos;&apos;roots&apos;&apos; in mature biological knowledge</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">F</forename><surname>Goldberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Thompson-Schill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="480" to="487" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,365.69,221.14,6.03;7,48.81,373.62,209.21,6.03;7,48.81,381.62,70.52,6.03" xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Early understandings of numbers: Paths or barriers to the construction of new understandings? Learning and Instruction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Hartnett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Gelman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="341" to="374" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,389.55,221.16,6.03;7,48.81,397.55,209.17,6.03;7,48.81,405.54,74.29,6.03" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Knowledge enrichment and conceptual change in folkbiology: Evidence from Williams syndrome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Carey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="156" to="200" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,413.48,190.72,6.03" xml:id="b14">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">C</forename><surname>Keil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Science starts early</title>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="volume">331</biblScope>
+			<biblScope unit="page" from="1022" to="1023" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,421.47,221.18,6.03;7,48.81,429.41,176.48,6.03" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The human function compunction: Teleological explanation in adults</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Kelemen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Rosset</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="138" to="143" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,437.40,221.17,6.03;7,48.81,445.39,209.22,6.03;7,48.81,453.33,135.99,6.03" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Bewitchment, biology, or both: The coexistence of natural and supernatural explanatory frameworks across development</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Legare</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">H</forename><surname>Gelman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Science</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="607" to="642" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,461.32,221.18,6.03;7,48.81,469.26,209.17,6.03;7,48.81,477.26,39.04,6.03" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">A study of tertiary physics students&apos; conceptualizations of sound</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Linder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">L</forename><surname>Erickson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Science Education</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="491" to="501" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,485.19,221.17,6.03;7,48.81,493.19,209.17,6.03;7,48.81,501.18,187.13,6.03" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Inferring design: Evidence of a preference for teleological explanations for patients with Alzheimer&apos;s disease</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Lombrozo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Kelemen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Zaitchik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="999" to="1006" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,509.12,221.14,6.03;7,48.81,517.11,207.55,6.03" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Conceptual change in physics: Children&apos;s naïve representations of sound</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mazens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lautrey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Development</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="159" to="176" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,36.85,525.05,221.18,6.03;7,48.81,533.04,205.83,6.03" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Naïve theories of motion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mccloskey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mental models</title>
+		<editor>D. Gentner &amp; A. L. Stevens</editor>
+		<meeting><address><addrLine>Hillsdale, NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>Erlbaum</publisher>
+			<date type="published" when="1983" />
+			<biblScope unit="page" from="299" to="324" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,54.72,221.17,6.03;7,293.89,62.66,209.21,6.03;7,293.89,70.65,162.88,6.03" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Developing children&apos;s understanding of the rational numbers: A new model and an experimental curriculum</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Moss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Case</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal for Research in Science Education</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="122" to="147" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,78.59,221.19,6.03;7,293.89,86.58,209.20,6.03;7,293.89,94.57,39.12,6.03" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Middle school students&apos; beliefs about matter</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">B</forename><surname>Nakhleh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Samarapungavan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Saglam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Research in Science Teaching</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="581" to="612" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,102.51,221.16,6.03;7,293.89,110.50,189.79,6.03" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Resubsumption: A possible mechanism for conceptual change and belief revision</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ohlsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Educational Psychologist</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="20" to="40" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,118.44,221.19,6.04;7,293.90,126.44,31.89,6.03" xml:id="b24">
+	<monogr>
+		<title level="m" type="main">The child&apos;s conception of physical causality</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Piaget</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1929" />
+			<pubPlace>London: Routledge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.94,134.44,221.18,6.03;7,293.90,142.38,209.20,6.03;7,293.90,150.37,62.64,6.03" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Naïve physics: A commitment to substance-based conceptions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Reiner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Slotta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">T H</forename><surname>Chi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">B</forename><surname>Resnick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition and Instruction</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1" to="34" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.94,158.31,221.18,6.03;7,293.90,166.30,170.29,6.03" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Qualitative differences between naïve and scientific theories of evolution</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Shtulman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="170" to="194" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.94,174.24,221.18,6.03;7,293.90,182.23,187.20,6.03" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The relation between essentialist beliefs and evolutionary reasoning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Shtulman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Schulz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Science</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1049" to="1062" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,190.22,221.18,6.03;7,293.90,198.16,172.84,6.03" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Culture and children&apos;s cosmology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Siegal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Butterworth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">A</forename><surname>Newcombe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Developmental Science</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="308" to="324" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,206.15,221.14,6.03;7,293.90,214.09,125.73,6.03" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Learning about life and death in early childhood</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Slaughter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lyons</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="1" to="30" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,222.08,221.17,6.03;7,293.90,230.08,209.17,6.03;7,293.90,238.01,87.08,6.03" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Helping students understand challenging topics in science through ontology training</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Slotta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">T H</forename><surname>Chi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition and Instruction</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="261" to="289" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,246.01,221.18,6.03;7,293.90,253.94,209.22,6.03;7,293.90,261.94,28.29,6.03" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Bootstrapping processes in the development of students&apos; commonsense matter theories</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition and Instruction</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="337" to="398" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,269.88,221.19,6.03;7,293.90,277.87,209.22,6.03;7,293.90,285.86,174.81,6.03" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Never getting to zero: Elementary school students&apos; understanding of the infinite divisibility of number and matter</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E A</forename><surname>Solomon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Carey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="101" to="140" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,293.80,221.16,6.03;7,293.90,301.79,209.22,6.03;7,293.90,309.73,187.42,6.03" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">On facts and conceptual systems: Young children&apos;s integration of their understandings of germs and contagion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E A</forename><surname>Solomon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">L</forename><surname>Cassimatis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Developmental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="113" to="126" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,317.72,221.17,6.03;7,293.90,325.72,209.16,6.03;7,293.90,333.65,28.29,6.03" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">On the development of biologically specific beliefs: The case of inheritance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Springer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">C</forename><surname>Keil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Child Development</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="637" to="648" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,341.65,221.17,6.03;7,293.90,349.58,209.22,6.03;7,293.90,357.58,35.92,6.03" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">How to grow a mind: Structure, statistics, and abstraction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Kemp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">D</forename><surname>Goodman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">331</biblScope>
+			<biblScope unit="page" from="1279" to="1285" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,365.51,221.15,6.03;7,293.90,373.51,50.50,6.03" xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Conceptual revolutions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Thagard</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Princeton, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,381.50,221.18,6.03;7,293.90,389.44,209.20,6.03;7,293.90,397.43,87.08,6.03" xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Understanding the structure of the set of rational numbers: A conceptual change approach. Learning and Instruction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Vamvakoussi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Vosniadou</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="453" to="467" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,405.37,221.16,6.03;7,293.90,413.36,128.09,6.03" xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Capturing and modeling the process of conceptual change. Learning and Instruction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Vosniadou</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="45" to="69" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,421.36,221.19,6.03;7,293.90,429.29,111.63,6.03" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Mental models of the day/night cycle</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Vosniadou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">F</forename><surname>Brewer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Science</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="123" to="183" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,437.29,221.13,6.03;7,293.90,445.22,209.21,6.03;7,293.90,453.22,39.12,6.03" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Cognitive development: Foundational theories of core domains</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Wellman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Gelman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Psychology</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="337" to="375" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,461.15,221.17,6.03;7,293.90,469.15,209.20,6.03;7,293.90,477.14,153.63,6.03" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Is heat hot? Inducing conceptual change by integrating everyday and scientific perspectives on thermal phenomena</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Wiser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Amin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Learning and Instruction</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="331" to="355" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,485.08,221.16,6.03;7,293.90,493.07,209.16,6.03;7,293.90,501.01,31.48,6.03" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Animist thinking in the elderly and in patients with Alzheimer&apos;s disease</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Zaitchik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E A</forename><surname>Solomon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Neuropsychology</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="27" to="37" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,281.93,509.00,221.14,6.03;7,293.90,517.00,209.21,6.03;7,293.90,524.93,209.22,6.03;7,293.90,532.93,28.29,6.03" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Conservation of species, volume, and belief in patients with Alzheimer&apos;s disease: The issue of domain specificity and conceptual impairment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Zaitchik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E A</forename><surname>Solomon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Neuropsychology</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="511" to="526" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

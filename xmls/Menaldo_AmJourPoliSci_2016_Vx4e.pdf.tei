@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Fiscal Roots of Financial Underdevelopment</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Victor</forename><surname>Menaldo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Washington</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<address>
+									<addrLine>101 Gowen Hall Box 353530. Seattle</addrLine>
+									<postCode>98195</postCode>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Fiscal Roots of Financial Underdevelopment</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.7910/DVN</idno>
+					<note>Replication Materials: The data, code, and any additional materials required to replicate all analyses in this arti-cle are available on the American Journal of Political Science Dataverse within the Harvard Dataverse Network, at:</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:10+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Why do some countries indulge in financial repression, harming economic development in the process, whereas others promote financial development? Three main explanations have been put forth. Market failures, due to information asymmetries, mean that credit is rationed even when lenders could potentially benefit from making loans readily available. Political failures, due to state capture, mean that credit will be rationed as a way of generating rents for politically powerful financial incumbents. The state might, however, have its own fiscal reasons for politicizing the supply and price of credit, since financial repression provides easy-to-collect revenues. I draw on the third approach to argue that the state's fiscal imperative is usually the primary reason behind financial repression, and even when private actors benefit, they are subordinate to this concern. A dynamic panel analysis that exploits instrumental variables and a case study of Mexico adduce strong empirical support for my fiscal transaction cost theory.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>A ready supply of capital that matches its demand and flows to its most productive uses culminates in consistent economic growth <ref type="bibr" coords="1,141.44,365.20,98.28,9.30" target="#b19">King and Levine 2004;</ref><ref type="bibr" coords="1,243.76,365.20,54.42,9.30" target="#b21">Levine 1997;</ref><ref type="bibr" coords="1,62.05,378.16,137.04,9.30" target="#b22">Levine, Loayza, and Beck 2000)</ref>. 1 A large and sophisticated financial sector has been empirically linked to long-run development through several mechanisms, including factor accumulation and increased productivity. 2 Financial development also expands the economic opportunities of disadvantaged groups and reduces persistent inequality (Demirgüç-Kunt and Levine 2009). By financing innovation and supply chains, access to low-cost capital allows entrepreneurs to enter markets they have been shut out of <ref type="bibr" coords="1,174.14,494.71,86.59,9.30" target="#b2">(Banerjee et al. 2013)</ref>.</p><p>What explains financial underdevelopment? Given its welfare implications, this is an important question. Researchers have proposed four possible answers. The first is market failures. The second is political failures. The third is the state's fiscal needs. The fourth is a hybrid approach that combines elements of the first three.</p><p>Victor Menaldo is Associate Professor of Political Science, University of Washington, 101 Gowen Hall Box 353530. Seattle, WA 98195 (vmenaldo@u.washington.edu).</p><p>I would like to thank Stephen Haber for his entire body of work on the link between institutions and finance; it has profoundly shaped this article. I take full responsibility for any mistakes, however. I would also like to thank Jennifer Noveck for invaluable research assistance.</p><p>Perhaps the most popular explanation for financial underdevelopment is market failures. Economists have argued that informational asymmetries lead to the underprovision of credit that is inefficiently allocated. While <ref type="bibr" coords="1,316.09,378.16,105.84,9.30" target="#b30">Stiglitz and Weiss (1981)</ref> demonstrate that problems of adverse selection induce lenders to ration credit, even when interest rates are fully liberalized, <ref type="bibr" coords="1,491.73,404.06,60.45,9.30;1,316.09,417.01,86.02,9.30" target="#b1">Aney, Ghatak, and Morelli (2013)</ref> aver that the unobservability of entrepreneurial talent leads to the screening of creditworthiness based on wealth instead of talent and productivity.</p><p>Yet many governments throughout the world have only made matters worse. Especially in developing countries, where capital is most needed, the state rations credit deliberately. <ref type="bibr" coords="1,370.97,494.71,77.82,9.30" target="#b24">McKinnon (1973)</ref> and <ref type="bibr" coords="1,473.74,494.71,54.39,9.30" target="#b27">Shaw (1973)</ref> were the first to show how governments can distort financial prices by administratively fixing nominal interest rates to depress real rates. Policies that induce financial repression include ceilings on the interest rates that banks levy on loans; ceilings on the interest rates that savers earn on their deposits; quantitative restrictions on the amount of credit allocated; high reserve requirements that force banks to place a large proportion of their deposits in the central bank, and are tantamount to 0% interest rate loans; restrictions on the entry of new competitors in the banking sector; and mandatory investments that occur via loans directed by the state, loan guarantees, and rediscounting that subsidizes risky borrowing.</p><p>These policies have deleterious effects on efficiency. First, they reduce the real rate of return on savings. In turn, this reduces the demand for real money, total deposits-as asset holders looking for higher returns exit the financial system-and loanable funds. The supply of credit therefore falls below its demand, creating deadweight losses and eroding consumer surplus. Ultimately, the overall level of investment is depressed, and the efficiency of the investments that are made suffers. Finally, financial repression encourages moral hazard, as bank bondholders and depositors tend not to incur the costs of risky loans that become nonperforming.</p><p>The big puzzle, therefore, is why many governments in the developing world have ignored prescriptions made by McKinnon, Shaw, and like-minded economists who have produced vast empirical support for these insights. Instead of adopting financial liberalization that raises the real rate of return to savings, deepens the financial sector, and promotes greater investment efficiency through market mechanisms, countries as varied as Venezuela, Argentina, Russia, China, and India continue to indulge in financial repression that rations and wastes capital.</p><p>Diverging from the view that market failures are chiefly responsible for financial underdevelopment, political economists have argued that because financial repression creates clear winners and losers, the banking system is particularly susceptible to political failures. While politically connected firms can obtain rationed credit at negative real interest rates, nonfavored borrowers have to turn to expensive, unstable, and sometimes informal credit markets. On the one hand, governments can manipulate the regulation of financial markets and monetary policy to ration credit in ways that generate abnormally high profits for politically connected financiers <ref type="bibr" coords="2,147.58,593.11,143.90,9.30">(Haber, North, and Weingast 2008)</ref>. On the other hand, they can subsidize credit for poor borrowers, relax foreclosures and similar seizures of collateral in the case of loan nonrepayment, or forgive debts entirely <ref type="bibr" coords="2,121.10,644.92,120.43,9.30" target="#b7">(Calomiris and Haber 2014)</ref>. Ultimately, governments fail to implement surplus-maximizing financial policies because the losers from reform are reluctant to abandon the rents associated with specific market distortions, despite associated inefficiencies.</p><p>A third school of thought points to the state's fiscal motivation for financial repression. Countless works demonstrate that manipulating interest rates and credit allows governments to finance themselves on the cheap (see <ref type="bibr" coords="2,334.99,88.01,214.92,9.30;2,313.80,100.96,26.99,9.30">Becerra, Cavallo, and Scartascini 2012 for major works)</ref>. Indeed, the revenues produced can be quite large (see <ref type="bibr" coords="2,357.91,113.91,131.76,9.30" target="#b13">Giovannini and de Melo 1993)</ref>. More recent work identifies numerous examples of governments that have turned to financial repression throughout history to mitigate economic crises and smooth subsequent recoveries <ref type="bibr" coords="2,357.68,165.71,116.78,9.30" target="#b7">(Calomiris and Haber 2014;</ref><ref type="bibr" coords="2,476.86,165.71,60.97,9.30" target="#b28">Reinhart 2012)</ref>.</p><p>Increasingly, scholars have blurred the lines between the market failure, political failure, and fiscal imperative approaches. Some researchers aver that financial underdevelopment is the outgrowth of the interaction between revenue-starved states and interest groups that benefit from financial repression. <ref type="bibr" coords="2,459.39,243.42,90.51,9.30;2,313.80,256.38,76.95,9.30" target="#b4">Becerra, Cavallo, and Scartascini (2012)</ref> provide a formal theory that builds on <ref type="bibr" coords="2,329.99,269.33,156.21,9.30">Haber, North, and Weingast (2008)</ref>. Relaxing the assumption that all economic interest groups gain equally from financial repression, they posit that although some firms share in the rents created by credit rationing, many capital-intensive firms suffer. Yet, as argued above, the state itself has an incentive to turn to financial repression when it cannot raise regular revenues. The authors thus argue that financial underdevelopment is the result of the conjunction of both a weak state and the presence of interest groups that benefit from blocking financial deregulation.</p><p>Other scholars point to the fact that state-sanctioned financial repression may itself be a solution to market failures. <ref type="bibr" coords="2,348.95,437.69,175.61,9.30" target="#b31">Stiglitz, Jaramillo-Vallejo, and Park (1993)</ref> argue that governments ably directed credit to high-valueadded, export-based industries in East Asia to stimulate development. <ref type="bibr" coords="2,372.77,476.55,74.89,9.30" target="#b9">Chari et al. (2014)</ref> build on a vast literature that endogenizes financial market frictions as agency problems between borrowers and lenders to argue that regulations that force banks to hold government debt above its opportunity costs can be an optimal fiscal strategy under certain conditions, namely, when the government cannot credibly commit to pay back its loans and is a residual claimant on future economic output.</p><p>While this article builds upon these insights, it departs from the extant literature on financial repression in several ways. First and foremost, I argue that in weak states, a ruler's fiscal imperative drives the political and market failures that have been putatively fingered as independent causes of financial underdevelopment. Without enough revenues, the rulers who take power in developing countries cannot survive; these revenues are needed not only to govern, but also to distribute to support coalitions that will resort to outside options if they are dissatisfied with their share of the rents, even if their sedition implies a military coup or revolution. 3 Yet sufficient revenues to survive in power are usually hard to come by in many developing countries: The informal economy is huge, compliance with taxation is low, and fiscal bureaucracies are underfunded, incompetent, or corrupt. Because of the existential importance for incumbents of generating revenues in short order, it is often the case that the special interest groups who benefit from financial repression are themselves created deliberately by politicians.</p><p>Econometric results strongly support the theory's implications. First, there is a negative relationship between state capacity and credit directed to the government and state-owned enterprises (SOEs) in a dynamic panel data context-130 countries observed from 1984 to 2011. This effect holds after controlling for the overall size of the private credit market (percent GDP), which proxies for the potential rents that private actors, such as incumbent commercial banks, may derive from financial repression. Second, when the dependent variable is total taxation, there is a negative sign on the interaction of state capacity and directed credit. While strong states do not treat their SOEs as piggy banks-they eschew taxing their profits and may even subsidize them for political reasons unrelated to fiscal needs-weak states that funnel credit to SOEs tax them heavily.</p><p>Furthermore, these results appear to be causal. Across the Generalized Method of Moments (GMM) models, the independent variables are instrumented with their lags in levels and differences. Confidence in the validity of these instruments is buttressed by the fact that estimations satisfy the normal diagnostics. They are robust to second-order serial correlation; Hansen tests of the overidentifying restrictions cannot reject the hypothesis that the instruments are orthogonal to the error term.</p><p>Finally, in a case study of Mexico, I look at the fine-grained relationship between weak state capacity induced by the Mexican Revolution of 1910 and financial repression under the ensuing single-party dictatorship, which ruled over the better part of the 20th century. I show how the regime increasingly relied upon and taxed directed credit to SOEs to raise revenues.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A Hybrid Theory of Financial Repression</head><p>Assessing and collecting taxes on consumption, property, income, and investments calls on the fiscal authorities to 3 For evidence, see note 6 and the supporting information it cites. undertake invasive activities. These include identifying potential tax bases, assessing tax liabilities, collecting taxes, and deterring evasion. For states in the developing world, the costs of undertaking these activities are often prohibitive. Many find it difficult to penetrate the hinterlands, establish a monopoly on the use of force, and govern effectively. They are unable to erect professional bureaucracies and impartial judiciaries or to enforce property rights. They face a dearth of firms, salaried employees, and literate and numerate self-employed workers operating in the formal sector that can be taxed. They cannot credibly threaten to punish tax evasion-which, in any event, often goes undetected. The underprovision of public goods feeds mistrust in the state's willingness to reciprocate tax revenues with the infrastructure and education demanded by citizens, which reduces compliance.</p><p>States that face steep fiscal transaction costs may seek to raise revenues outside of normal taxation channels. This includes the banking sector. First, they may use laws and regulations to generate a concentrated financial sector that generates abnormal profits. Second, they may compel bankers to kick a portion of these rents back in order to finance the government.</p><p>There are several ways in which the state can wring revenues from the financial system. 4 State-owned banks can earn income by discounting bills of exchange generated through trade. Banks can allow states to obtain an equity stake in them purchased with a loan that is subsequently repaid with the state's portion of the profits. Governments can also tax financial transactions to raise revenues. Finally, there are strategies associated with financial repression.</p><p>The creation of a purposely small and uncompetitive financial sector is the linchpin. Governments might first sell banking charters to financial firms for a steep price in exchange for monopoly rights. The state then guarantees these rents by heavily restricting the number of subsequent charters, circumscribing their branches, and restricting the level of credit below the market demand for it. 5 Moreover, states may also help bankers generate rents by allowing them to increase their leverage-for example, by allowing them to reduce their reserves. Finally, the government may also allow bankers to increase their lending portfolio's riskiness by allowing them to maintain a low rate of equity to deposits loaned out. <ref type="bibr" coords="4,277.50,73.29,3.51,6.51">6</ref> Once a concentrated financial system emerges, governments can swoop in and generate revenues from it. Demanding excessive reserve requirements and paying negative real interest rates on these borrowed funds is perhaps the most popular method. Others include taxing the profits earned by investment banks-inflated by barriers to entry-or owning their stock. At the extreme, the state may expropriate the banks altogether and commandeer their loan portfolios.</p><p>As this article will demonstrate empirically, credit programs directed to politically favored firms, the government, or government-owned firms are also an effective strategy for raising public revenues via financial repression. Bank lending at subsidized rates to these entities can be made by state-run development banks and the central bank, or forced upon commercial banks.</p><p>Stimulating industries through subsidized loans that can then be taxed or owned is the key. Curtailing the supply of credit may eliminate small and medium-sized firms that are starved for credit from the market, or deter them from entering it in the first place, thus giving an advantage to larger firms that do gain access to capital. By creating economies of scale, financial repression may exacerbate the "productivity gap" between large and small firms-inflating their profits and the salaries of politically privileged managers and other skilled, white-collar employees <ref type="bibr" coords="4,160.68,450.66,135.17,9.30;4,59.76,463.61,22.06,9.30" target="#b25">(Mueller, Ouimet, and Simintzi 2015)</ref>.</p><p>Big, politically connected or public firms are beholden to the state's financially repressive policies. They can be easily monitored, and their profits can be taxed in exchange for the barriers to entry that they depend upon. If they are private, they may pay taxes in the form of their corporate profits or the interest that is earned by their shareholders. If they are public, they may pay taxes on their revenues, transfer payments, and profits, or pay the state dividends. <ref type="bibr" coords="4,59.76,622.66,2.87,5.31">6</ref> In light of the serious efficiency costs entailed by financial repression-see the introduction-readers might wonder if the rulers of weak states are oblivious to the fact that these policies reduce future state revenue by shrinking the size of the pie over the long run and perhaps even raising fiscal transaction costs. In the supporting information, I cast doubt on this conjecture. I argue and demonstrate that incumbents who rule weak states simply discount the future heavily. They face a much higher rate of being displaced from power in a violent fashion. Moreover, they are more likely to face harsh punishments, including death, as a result.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Why Financial Repression Is Attractive When Fiscal Transaction Costs Are High</head><p>While banking regulations give banks the right to issue money that materializes into claims on real goods and services, they have a lot of discretion regarding whom they lend this money to. Although creditworthiness is certainly an important consideration, it is not the only one; sometimes it is not even the most important criterion. 7 As long as consumption is somehow suppressed, resources can be channeled toward investments that may or may not generate future returns.</p><p>Second, rents are generated and taxed, and the costs are imposed on unorganized savers and borrowers who are not politically connected, in the form of reduced interest rates on the former and higher interest rates on the latter. These unorganized segments of the market are usually held captive. According to <ref type="bibr" coords="4,487.76,278.98,62.15,9.30;4,313.80,291.93,69.69,9.30">Calomiris and Haber (2014, 46)</ref>: "After all, firms have to maintain bank balances to cover payrolls and accounts receivable, and some households must maintain minimal bank balances in order to execute certain payments. The transaction costs and legal constraints of avoiding the deposit market are prohibitive for some purposes."</p><p>Third, these rents are created and shared with private actors in a fairly opaque manner. The structure of the market itself is what determines their form and magnitude. Rents are created through financial repression by the state when it rigs the bank chartering and bank branching process to erect barriers to entry; this rations the supply of credit and increases the margins earned by banks in financial services. They are then shared with private actors by appearing as abnormal profits on their balance sheets; the losses created by nonperforming loans can also be subsidized by the state ex post. Financial repression is attractive to banks because it is consumers who ultimately bear the costs of the credit rationing that forms the backbone of this system in the form of lost consumer surplus and deadweight losses. That means that even if banks face abnormally high reserve requirements in order to finance budget deficits, abnormally high profits make up for these foregone lending opportunities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>How This Hybrid Theory Differs from Others</head><p>While there is strong feedback between market failures, political failures, and the fiscal benefits of financial repression for states, it is the fiscal imperative that ultimately drives both political failures and the irresolution of market failures. States will take the lead role in creating the coalition that feeds off of financial repression. They will use their coercive and legal authority to create or sustain a concentrated financial system. While relatively weak states that lack orthodox sources of taxation may be bereft of traditional sources of power, they can create, handpick, or destroy privatesector actors. They do not have to wait for preexisting interest groups to lobby them to secure policy favors. Specifically, weak states can preemptively regulate the financial sector to erect banks from scratch or snuff others out. Even when the state is weak, big and profitable banks depend on the government's chartering and branching regulations, as well as its last-resort lending. Therefore, banks are ultimately beholden to the state.</p><p>Indeed, across weak states, all manner of political failures, in which special interests seem to "capture" economic policy, are often derivative. They are the by-product of rulers' fiscal imperatives. Unlike previous work on financial repression, this article argues that fiscal transaction costs shape the structure and even the size of the economy itself. The structure of markets, and the particular banks and firms that emerge from them, are symptoms of fiscal transaction costs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Research Strategy</head><p>In testing my hybrid theory of financial repression, I face several challenges. I need to adjudicate between the market failure, political failure, and fiscal imperative views in a way that supports the contention that the private actors that benefit from politicized finance are endogenous and subordinate to the fiscal needs of the state. This is difficult because many of the predictions made by each approach are observationally equivalent. First, each theory predicts that the financial system will be underdeveloped when the state is weak. Second, each predicts that commercial banks will secure large profits through financial repression.</p><p>There is also the issue of joint determination and feedback effects. One would expect market failures to be more prevalent in weak states. This is because weaker states may have a more difficult time regulating markets to align private gains with socially optimal outcomes. Specifically, a weak state may be unable to solve the basic information and agency problems that bedevil financial markets, as doing so often requires the provision of public goods that allow reputation and collateral markets to flourish, including a capable bureaucracy and a strong and impartial legal system to enforce contracts, therefore reducing the risks faced by lenders. And one should expect weaker states to be more prone to elite capture and, thus, political failures. Yet it is often hard to identify, a priori, whether a state is first captured by financial rentiers, and then does their bidding, or whether a weak state creates a set of private interests that help finance the state because they derive politically enforced benefits from a system of financial repression.</p><p>Finally, political failures may exacerbate market failures. Elites may capture policymaking for their own ends. On the one hand, they might uphold artificial barriers to entry to protect their rents. On the other, they might divert political capital and public revenues away from mitigating information asymmetries. And political liberalization does not mean financial liberalization. Elites may block reform after democratization <ref type="bibr" coords="5,513.67,282.29,38.53,9.30;5,316.09,295.24,78.35,9.30" target="#b8">(Campos and Coricelli 2012)</ref>.</p><p>I therefore test two empirical implications from my theory that allow it to stand apart from typical political failure and market failure views. Private agents who benefit from political capture do not usually derive benefits from the state directing credit to itself or SOEs, as this reduces their profits. I therefore evaluate the hypothesis that as state capacity deteriorates, this type of directed credit should increase, even after controlling for the overall size of the private credit market. On the one hand, controlling for private credit (percent GDP) operationalizes the potential rents that private actors earn from credit rationing and helps neutralize the political capture motivation for financial repression. <ref type="bibr" coords="5,548.22,461.84,3.51,6.51">8</ref> On the other, in a weak state, the demand for credit may be reduced due to market failures, and a handful of banks may arise to serve a few large conglomerates by developing long-term financial relationships built on reputation.</p><p>I also test the hypothesis that, as state capacity weakens, directed credit to the government and SOEs should be translated into tax revenues at a greater rate. The marginal effect of increases in said directed credit on overall tax collection should rise as state capacity deteriorates. This is because at lower levels of state capacity, the purpose of propping up SOEs with subsidized credit is so that they generate revenues that can be taxed.</p><p>While I have argued above that weak state capacity makes politicized finance more likely because it is an expedient fiscal strategy in the face of high fiscal transaction costs, it is also likely that chronic financial repression erodes state capacity. Rulers who manage to survive in countries with weak states by indulging in politicized finance will not tend to also indulge in investments that will enhance state capacity. Instead, they will continue to double down on financial repression, both to consolidate political power and finance the government. The consequence is that the tax base will remain perpetually small and quite hard to tax. Thus, in the econometric analyses, I address the possibility of reverse causation via instrumental variables.</p><p>Also, to do justice to the complexities of financial repression, I exploit a dynamic panel framework. A country's level of financial development may be subject to strong inertia, due to the fact that the behavior of financial institutions may be quite sticky-especially their screening processes, risk assessment techniques, and lending relationships. Therefore, any measure of directed credit should be strongly autoregressive and quite resistant to facile reforms or even invasive interventions. Moreover, when the financial system does change due to shocks or other trends, it may take several periods to fully adjust. If state capacity deteriorates over time, a snapshot may not capture the process implied by my theoretical framework-it may fail to detect an increase in politicized finance that begins with a lag and is spread out over several periods.</p><p>Finally, to provide further support for the mechanism outlined above, I provide two case studies of Mexico. The first explores the advent and consolidation of politicized finance over the greater part of the 20th century, documenting a sequence of events implied by the theory. As state capacity worsened in the wake of a vicious revolution, financial repression obtained. The second, included in the supporting information, rules out alternative explanations for financial repression. 9 It shows that the economic elites who benefited from financial repression at the close of the 20th century were fully subordinate to the state and ultimately destroyed by it. <ref type="bibr" coords="6,59.76,712.32,2.87,5.31">9</ref> A longer version of the first case study, with many more facts, figures, and citations, is also available in the supporting information.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Econometrics</head><p>While summary statistics for each of the variables used in the regressions that follow are reported in <ref type="table" coords="6,515.90,104.57,30.25,9.30" target="#tab_0">Table 1</ref>, along with their sources, here I briefly describe the main variables of interest. The first dependent variable is Credit to <ref type="bibr" coords="6,325.17,143.43,158.68,9.30">Government and SOEs (percent GDP)</ref>. This captures directed credit to the government and its entities that can be potentially taxed. When estimating those regressions, I also control for Private Credit (percent GDP). The second dependent variable is Tax Revenues (percent GDP). These revenues include taxes from income, profits, and capital gains; property taxes; taxes on consumption; and import and export taxes.</p><p>Finally, the chief independent variable, state capacity, is the Indicator Quality Government (IQG) index. This is the average of the International Country Risk Guide (ICRG) Corruption, Law and Order, and Bureaucracy indexes, which are each based on investors' perceptions about the prevalence of corruption in the public sector, how professional the bureaucracy is, and respect for the rule of law. While each of these components is measured on a 6-point scale, the IQG is normalized to run from 0 to 1, with 1 denoting the most competent states. I note that several other researchers have employed this variable to measure state capacity. They include <ref type="bibr" coords="6,476.98,389.51,72.93,9.30;6,313.80,402.46,27.82,9.30" target="#b20">Knack and Keefer (1995)</ref> and <ref type="bibr" coords="6,362.23,402.46,55.66,9.30" target="#b26">Norris (2012)</ref>.</p><p>When testing the two hypotheses posited above, I estimated a series of system GMM regressions. These are dynamic panel models that help to address for timeinvariant omitted variable bias by first-differencing the variables. To further address endogeneity bias, the system GMM approach performs additional operations. The lagged dependent variable (LDV) is instrumented with available lags in levels to ensure that it is rendered uncorrelated with the error term. Other potentially endogenous independent variables are also instrumented with some of their lags, also in levels. 10 Finally, the original, undifferenced equation is added to the system of equations so that the versions of the potentially endogenous variables in levels are also instrumented with lags of their first differences.</p><p>There are three further advantages to estimating system GMM models. 11 First, they are ideally suited for slowmoving variables, and the two dependent variables out- lined above are of that sort. 12 Second, because the instrumental variables equation is overidentified, I can perform tests of the overidentifying restrictions. Third, because they are dynamic, they allow me to estimate the total effect made by changes in state capacity: how a permanent change in this variable affects the long-run levels of directed credit to the state and to taxation, respectively. 13 <ref type="table" coords="8,77.69,153.75,28.86,9.30" target="#tab_1">Table 2</ref> reports the results of some basic specifications in which Credit to Government and SOEs is the dependent variable and the three independent variables are the LDV, Private Credit, and the IQG index. Since system GMM estimations may suffer from the "too many instruments" problem, which introduces bias, the regressions across this table experiment with different strategies for reducing the instrument count, as prescribed by <ref type="bibr" coords="8,221.75,244.42,69.79,9.30" target="#b29">Roodman (2009)</ref>. In column 1, I "collapse" the instruments by creating one for each variable and lag distance, instead of one for each time period, variable, and lag distance. In columns 2, 3, 4, and 5, the number of instruments is restricted to the following lag lengths: (1, 2), (2, 3), (3, 4), and (4, 5), respectively. In column 6, I avail a principal components strategy in which the instruments are reduced using their eigenvalues. In column 7, I return to using the collapse approach to reduce the instrument count and adjust the standard errors with Windmeijer's finite sample correction.</p><p>The results of these experiments ratify the hypothesis that, after controlling for the profit potential implied by financial repression, as states grow weaker they increase the amount of credit directed to the government and SOEs. The coefficient on state capacity is negative and highly significant across the models reported in <ref type="table" coords="8,263.24,451.65,28.87,9.30" target="#tab_1">Table 2</ref>, in both a substantive and statistical sense. While the table reports short-run effects, let us consider the long-run include a pooled model that exploits both the data's within-and between-variation in an unstructured way, a regular fixed effects model, and a fixed effects model that includes country-specific time trends. I also estimate some static panel models in two stages to exploit a potential source of exogenous variation in state capacity. These instrumental variables regressions include both pooled models and models with region fixed effects and region-specific time trends. 12 Augmented Dickey-Fuller tests designed for panel data reject the hypothesis that either of these variables is nonstationary in levelswhether a linear trend is included, whether the series are allowed to drift, and irrespective of the lag length. Yet regressions in which the data are demeaned by country and an LDV is introduced return coefficients near 1. Because the introduction of a linear trend attenuates said coefficients, the system GMM regressions are estimated with a time trend. To ensure that the estimated coefficients are robust to heteroskedasticity and autocorrelation, I estimate the regressions via the two-step approach. <ref type="bibr" coords="8,59.76,692.40,5.74,5.31">13</ref> To estimate the long-run effect, I perform the following calculation: (IQG␤)/(1-), where is the coefficient on the LDV. I compute the standard error via the Delta Method. effect of state capacity. Focusing on column 1, the total long-run effect of permanently increasing the IQG by .1 is to decrease directed credit by 6 percentage points (p-value &lt; .001).</p><p>While there are good reasons to believe that the exclusion restriction is satisfied-Hansen tests of the overidentifying restrictions reject the hypothesis that the instruments are invalid; Arellano-Bond tests of AR(2) reject the hypothesis that the differenced data suffer from second-order serial correlation-I now subject this assumption to further scrutiny. <ref type="table" coords="8,356.38,204.57,34.14,9.30" target="#tab_2">Table 3</ref> reports the results of regressions in which, via stepwise inclusion, I introduce control variables whose omission might confound the results. 14 Column 1 adds Oil Rents; increased oil may mean a state-owned oil company that sucks up capital. Column 2 adds Economic Growth; higher growth may drive more lending to SOEs. Column 3 adds Government Debt; both strong and weak states may direct credit to themselves to pay down debt. Column 4 adds Foreign Direct Investment (FDI); inflows from abroad may mean less leeway to repress interest rates. Column 5 adds Inflation; the inflation tax may be a substitute for directed credit. Column 6 adds Federalism; federal countries may have weaker central governments that are unable to monopolize credit. Column 7 adds Regime Type; democracies may eschew financial repression.</p><p>The main result is largely unaffected by these stress tests. Consider Column 7, the fully unrestricted model. While the substantive effect of the IQG is muted-the total long-run effect of moving from the lowest to highest level of state capacity is to reduce directed credit by 11 percentage points-its statistical significance remains just as high. And across the regressions, neither the Hansen nor AR(2) tests reject the hypothesis that the instruments are valid. <ref type="table" coords="8,331.74,528.36,29.65,9.30" target="#tab_3">Table 4</ref> reports the results of regressions that test the theory's second empirical implication. At lower levels of state capacity, increases in directed credit to the state and its enterprises should translate into greater tax revenues. At higher levels of state capacity, the relationship should be negative. Therefore, the dependent variable is now Taxation.</p><p>Column 1 is a simple specification in which the independent variables are the LDV, the IQG index, Credit to Government and SOEs, and the interaction of the latter two variables. The results strongly support the hypothesis. The interaction term is negative and highly statistically significant. Some predictions help make this multiplicative effect intuitive.</p><p>First, consider country-years at the lowest level of state capacity (IQG = 0). While at the 25th percentile of directed credit (3.34% of GDP) these states collect taxes that are 17% of GDP, at the 99th percentile (64.13% of GDP) these states collect taxes that are 22% of GDP.</p><p>Second, consider a simulation based on Haiti in 1986. That year, with an IQG of .06, it has one of the weakest states in the world. Directed credit is also low, equal to only .27 of GDP. Had it instead had directed credit equal to 12.5% of GDP (the 75th percentile), Haiti would have increased tax revenues from 10% of GDP to 13% of GDP. Had it had directed credit equal to 64.13% of GDP (the 99th percentile), Haiti would have taxed 16% of its GDP.</p><p>Finally, consider that at the 99th percentile of directed credit, states at the lowest levels of state capacity actually obtain larger tax revenues than states at the highest level of state capacity-22% of GDP versus 20% of GDP, respectively. Two examples are illustrative: 1985 Guyana and 1996 Japan are both in this percentile, yet it was Guyana, the much weaker state, that managed to tax 42% of its economy; Japan only taxed 26% of its economy.</p><p>The rest of <ref type="table" coords="9,379.18,577.40,29.02,9.30" target="#tab_3">Table 4</ref> ensures that the instrumental variables are valid. Proceeding by stepwise inclusion, I add a host of variables usually correlated with both state capacity and tax revenues. Column 2 adds Oil Rents, column 3 Economic Growth, column 4 Foreign Direct Investment (FDI), column 5 Inflation, column 6 Trade Openness, and column 7 Manufacturing. Across these models, the interaction term remains negative and highly statistically significant. Hansen tests and AR(2) tests always fail to reject the hypothesis that the instruments are exogenous. Note: Dynamic panel regressions are estimated via two-step system GMM; standard errors are in parentheses. All independent variables are lagged by one period and instrumented with relevant lags (see text). Instruments are collapsed across regressions. Constant always estimated but not reported.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>State Weakness and Politicized Finance in Mexico</head><p>Mexico began its life as an independent state in 1821 as a very weak one. It inherited absolutism, mercantilism, and a virulent caste system from the Spanish Empire. During the middle of the 19th century, the United States took half of Mexico's territory and the French then occupied it. During the latter part of that century, Mexico enjoyed its first real taste of political stability and economic development under the dictatorship of Porfirio Díaz.</p><p>The Porfiriato created very few winners and a whole lot of losers, however. On the one hand, a handful of rich hacienda owners came to control over half the country's arable land. The majority of these landholdings were the result of lands confiscated from the church, smallholders, and Indian communities. On the other hand, ownership of both land and other assets, including railroads, mines, and ports, was increasingly concentrated in the hands of foreign investors, especially Americans. By 1911, foreigners owned half of the total wealth of the country, including one-quarter of its agricultural land.</p><p>The Díaz regime eventually alienated large segments of the population. The vast inequalities created under the Porfiriato created widespread grievances among popular sectors. Millions of peasants had been displaced by land grabs. They were then forced to labor under debt peonage on large haciendas. Countless workers toiled in mines and factories for little pay and under terrible conditions. Complaints and strikes were brutally repressed. Moreover, as the Díaz regime dragged on, it intensified a campaign to centralize power in Mexico City. This benefited a tiny cabal of cronies who carved out a concentrated banking and industrial sector for themselves at the expense of firms and politicians located in the northern states. Francisco Madero, a northern landowner who espoused liberal views and had presidential aspirations, became the focal point of the opposition. He secured the loyalty of Francisco Villa and Pascual Orozco, two northern warlords who commanded a large army capable of taking on federal troops. In the southern part of the country, Emiliano Zapata, who headed a militia composed of landless peasants of indigenous descent who fought the central government under the banner of land reform and social justice, also pledged his allegiance.</p><p>The first phase of the Mexican Revolution was short-lived but chaotic. Armed conflict was ignited in November 1910. Díaz fled to Paris in 1911. A weak Maderian presidency followed. Hoped-for political reforms were not forthcoming, no land was redistributed to radicalized peasants, and the economic elite under the Porfiriato maintained their privileged position. Less than 2 years after replacing Díaz, Madero was toppled by one of his own generals, Victoriano Huerta.</p><p>A power vacuum ensued, fanning the mobilization of factions headed by a bevy of regional warlords who jostled for control of the central government. Two main factions emerged. The former governor of Coahuila state, Venustiano Carranza, who relied on an army commanded by GeneralÁlvaro Obregón, headed the moderate Constitutionalists. They opposed a radical alliance between Villa and Zapata, who called for aggressive land reform. Although Carranza was able to seize power with the support of the United States and the Catholic Church, he was assassinated in 1920 after a revolt instigated by Obregón. While Villa and Zapata did not lay down their arms, they were killed years later by federal troops in separate ambushes. Armed skirmishes and revolts continued.</p><p>Eventually, the political situation stabilized. Obregón cobbled together a new coalition to help him consolidate power. It included three important sectors that had been mobilized since the start of the revolution: military generals who had taken up arms against Díaz and then his successors, landless peasants, and organized labor. His handpicked successor, Plutarco Elías Calles, followed his lead when he took power in 1924. Calles then tried to rig the 1928 presidential election to return Obregón to power-who was assassinated by a Catholic fanatic before he could retake office.</p><p>Calles responded shrewdly. Instead of openly protracting his own term and unleashing the specter of the Díaz dictatorship, he handpicked one of his supporters, Emilio Portes Gil, to serve as interim president until 1930. This ushered in a de facto extension of the Calles dictatorship known as the Maximato: For the following 4 years, he manipulated Mexican politics by controlling three "elected" presidents-Gil, Rubio, and Rodríguez.</p><p>In 1929, Calles institutionalized the ruling coalition by founding a national party, which would eventually be named the PRI (Institutionalized Revolutionary Party). The party immediately became Mexico's hegemonic political organization; its main function was to distribute patronage to influential generals, regional elites, agrarian bosses, and labor bosses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>State Weakness in the Aftermath of the Mexican Revolution</head><p>The revolution was a crushing blow to an already fragile state. It destroyed vast stocks of capital, both human and physical, and enervated state capacity, retarding the modest political and economic progress that had been achieved under the Porfiriato. The enormous destruction of lives and property, combined with mass strikes and protests by miners, railroad workers, and industrial laborers, contributed to the rapid depletion of state coffers.</p><p>In the immediate aftermath of the revolution, already worrisome trends worsened. Capital flight sped up, catalyzing a strong, negative shock to investment and economic growth that was then supercharged by the Great Depression. To add insult to injury, Mexico was forced to make a host of very expensive reparations to the United States and Britain after landholdings and the oil industry were expropriated during the revolution and its wake.</p><p>Yet the country had run out of conventional sources of petroleum, drying up a huge source of government revenue despite the nationalization of the oil industry in 1938 . Mexico's level of oil income per capita in 1930 was only 13% of what it had been in 1921. 15 By 1933, oil income per capita was only 6% of what it had been in 1920, the year that Mexico fist reached peak oil production. Indeed, Mexico only regained its 1921 production level in the late 1970s, during its second oil boom, after the discovery of an offshore supergiant oil field in 1976. This meant that the government's fiscal take from oil as a percent of total state revenues collapsed from a high of <ref type="bibr" coords="12,354.87,385.89,119.77,9.30">31.4, in 1922, to 5.4, in 1931</ref>. The state would only obtain this level of oil reliance again in 1983.</p><p>This precipitated a steep decline in the Bank of Mexico's foreign reserves, catalyzing a steep devaluation of the peso, which lost nearly 40% of its value. In turn, this triggered a steep rise in inflation. Additionally, decades of capital flight and the severe decline in public revenues took their toll on investment and economic growth.</p><p>A battery of figures put flesh on these claims. First, consider capital flight. Two years after oil nationalization, FDI had dropped to $2.5 billion, a 26% decline vis-à-vis the $3.4 billion in <ref type="bibr" coords="12,399.11,528.36,102.26,9.30;12,501.35,526.60,7.03,6.51">FDI registered in 1936. 16</ref> In 1943, FDI was only $1.64 billion; by 1950, it was a meager $1.6 billion-only 52% of Mexico's 1936 level. Second, consider the ratio of gross fixed domestic investment to GDP. 17 After reaching 18.4% of GDP on the eve of the revolution, domestic investment plummeted and did not return to this level until 1957. By 1926, the investment ratio had fallen to 9.86%. Unsurprisingly, the Great Depression did not help matters; between 1930 and Calles's last year of rule, 1933, the average investment ratio was only 6.6%. Accordingly, during his tenure, the economy collapsed. The average growth of real per capita income was -2.3%; it took until 1941 for Mexico to regain its 1924 level.</p><p>How would the elaborate political machine that Calles fashioned to consolidate his rule manage to channel resources to its supporters? A fragile Mexican state had to find a way to build up both its administrative and surveillance capacity and its revenue base.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The Solution to State Weakness: Politicized Finance</head><p>In the wake of the economic and fiscal catastrophe Mexico found itself in, Calles turned to politicized finance and directed credit, in particular, to rehabilitate the financial system, stimulate economic growth, raise taxes, and consolidate political power. Successive PRI governments then continued this strategy. This was no small task, however: The armed factions that tore Mexico apart during the revolution had preyed upon the banking system to finance their military campaigns; when hostilities ceased, the financial system was in tatters. In a series of books, Stephen Haber and others have documented the state's multipronged strategy. <ref type="bibr" coords="13,290.65,366.11,7.03,6.51">18</ref> First, the state erected barriers to entry that undergirded a concentrated financial sector in which credit was supplied below the market demand for it; this produced large profits for private bankers that compensated them for the political risks they faced in a context of insecure property rights. According to <ref type="bibr" coords="13,186.23,445.58,91.75,9.30">Haber et al. (2008, 50)</ref>:</p><p>These institutional arrangements were laid down in 1925 at a convention that the government organized with the country's private bankers. The banking law that emerged . . . was essentially written by the bankers themselves. Not surprisingly, the law they created severely limited competition by keeping foreign banks out of retail banking and by giving the National Banking Commission, on which they had strong representation, the right to regulate the number of charters granted to new banks.</p><p>Second, the state created a financial ecosystem that nourished financial repression. The Banco de México, a government-owned commercial bank founded in 1925, became the central bank in 1932, leveraging its lender-oflast-resort status to pick winners and losers and force the winners to play by its rules. By 1936, private commercial banks were forced to lend a substantial part of their deposit base to this bank. Also around this time, several development banks were created by the state. Nafin, which was tasked with financing Mexican manufacturing, quickly became the engine of directed credit.</p><p>Often contravening its charter, Nafin allocated capital to politically connected firms. This was accomplished via medium-and long-term loans collateralized by firm shares, as well as by the provision of equity capital. The state also forced private commercial banks to lend a large share of their deposit base to industrial conglomerates. Eventually, the central bank, the development banks, and the private banks got into the business of financing state-run enterprises.</p><p>Before long, therefore, the state was directly or indirectly sustaining Mexico's economy. Besides subsidized credit, manufacturers were awarded steep tariffs and quotas on competing imports, barriers to entry that allowed them to capture the domestic market, including restrictions on foreign ownership, and favorable labor laws. Over time, the state increasingly took over many of these companies; by 1982, it owned over 1,000 firms.</p><p>The underlying logic that drove these events was the urgent need to raise revenues in a climate where fiscal transaction costs were prohibitive. Successive PRI governments therefore helped create, and eventually took over, large firms with big profits that could be effectively monitored and taxed. This was all made possible by politicized finance. Financial repression centered on directed credit generated revenues directly, by providing the central government with subsidized loans, and indirectly, by allowing it to prop up and tax firms. <ref type="figure" coords="13,334.03,476.55,35.20,9.30">Figure 1</ref> aims to provide empirical support for the claims made above. It graphs two important data series over time between 1933 and 1974. The first variable, Directed Credit-lagged by 1 year-records the value of loans made by government-owned and government-run development banks as percent of GDP. This is a lower bound estimate of this concept in that it excludes subsidized loans made by the central bank to private and public firms. The second variable, Direct Taxes, records the value of taxes on income, profits, and capital gains collected by the central government as percent of GDP. <ref type="bibr" coords="13,338.05,617.25,7.03,6.51">19</ref> The latter variable proxies for the ability of the government to raise taxes on the corporate profits of the firms created and sustained through its directed credit strategy; it is also a lower bound estimate, the generous dividends that the government earned from its ownership stake in these enterprises are not captured by Direct Taxes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FIGURE 1 Directed Credit and Direct Taxation in Mexico,</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1933-74</head><p>The evidence strongly supports the hypothesis that, starting with Calles, successive PRI governments increasingly relied on directed credit. This variable increases steadily and exponentially after the state initiated this strategy in 1933. By 1950, directed credit was almost 10% of GDP. By 1970, it reached 15%. <ref type="figure" coords="14,77.69,415.54,34.77,9.30">Figure 1</ref> also buttresses the contention that this development helped the central government to collect taxes from both private and public firms. The state's reliance on direct taxation also increases gradually and exponentially. Moreover, the changes over time evinced by this data series seem to parallel those revealed by the one on directed credit. While President Calles only introduced taxes on income, profits, and capital gains in 1924, by the mid-1930s the level of direct taxes reached 1% of GDP and almost 2% a decade later. By 1974, it reached 4%. This is all the more remarkable given the very low levels of oil production in Mexico during this time period-Mexico had become a net oil importer after the end of its first oil boom and had rescinded all direct taxes levied on oil after the 1938 nationalization. And, as explained above, it would not experience another oil boom until the late 1970s.</p><p>In short, the patterns adduced above support the notion that the PRI was able to generate the fiscal resources it needed to consolidate its authority and raise revenues. This was despite the fact that Mexico suffered through a very destructive revolutionary war and faced an extremely challenging road to recovery after widespread instability and chaos were unleashed. Mexico saw its economy crater and revenue dry up in the aftermath of the 1910 revolution. This was followed by the total depletion of its known oil reserves. It is thus not surprising that, over the better part of the 20th century, the country's financial policies were dictated by fiscal exigency.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>Politicians seeking to survive in countries with low state capacity where it is difficult to tax the economy have an incentive to manipulate markets in a way that confers rents onto a narrow group of insiders. A portion of these rents can then be kicked back to incumbents and used to finance the state. Incumbents in weak states have often accomplished this feat by manipulating financial markets in ways that ration the supply of capital and raise its price. They have therefore devoured consumer surplus, generated deadweight losses, and depressed growth.</p><p>This article builds on a nascent literature that explores the nexus between the state's fiscal imperative and the ability of private actors to capture banking to line their pockets. Its originality lies in arguing that it is usually the government that is in the driver's seat when finance is politicized in weak states, not lobbyists. Thus, financial firms are beholden, if not subservient, to the government. Of course, this is not to say that in some weak states interest groups that predate concerted efforts by the state might not exist, or interest groups that are relatively autonomous may not outlast today's political incumbents. It is to say, however, that given the context and the stakes, it is likely that the politicians who head a weak state will be more strategic, proactive, and aggressive in bringing a rent-sharing coalition centered on financial repression to fruition.</p><p>This article corroborates these claims empirically. Weak state capacity is strongly associated with financial repression. These results are obtained in a panel setting by availing an internal instrument matrix to address endogeneity. A Mexican case study also corroborates them.</p><p>These conclusions are sobering. If financial underdevelopment is chiefly a problem of market failures, then overcoming this problem calls on governments to reduce information asymmetries between creditors and lenders or to subsidize the allocation of credit to encourage more socially desirable lending. If financial underdevelopment is the by-product of political failures, one way to reverse it is to promote greater voice for those constituents who stand to benefit from bigger and more sophisticated banking systems, such as the middle class, and to make the government less susceptible to capture by special interests. This article finds that state weakness is largely to blame for financial underdevelopment, and argues that it is itself the underlying source of the dynamics fingered by the political and market failure approaches, suggesting that this is a far more intractable problem than may be believed.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="7,62.05,62.11,490.17,617.93"><head>TABLE 1</head><label>1</label><figDesc>Explanation and Descriptive Statistics of Variables Used in Econometric Analyses Credit by domestic money banks to govt. and state-owned ent. Beck, Demirgüç-Kunt, and Levine (2013) Total direct and indirect taxes collected by central govt. Government Finance Statistics; primary and secondary sources Total domestic and foreign stock of central govt. liabilities World Bank Development Indicators Note: Coverage for all variables circumbscribed by coverage for IQG/directed credit, 1984-2011. Domestic money banks are commercial financial institutions that take transferable deposits. Summary statistics calculated on regression sample with greatest number of observations for a particular variable.</figDesc><table coords="7,62.05,86.80,490.17,554.72">Variable, Units, Definition, and Sources 
+Obs. 
+Mean 
+Std. Dev. 
+Min. 
+Max. 
+
+Directed Credit to Govt. and SOEs (% GDP) 
+2,682 
+10.43 
+10.95 
+0 
+74.05 
+Taxation (% GDP) 
+2,000 
+20.63 
+11.28 
+0.23 
+52.68 
+Indicator Quality Government (Index) 
+2,682 
+0.57 
+0.22 
+0.06 
+1 
+Avg. of Corruption, Law and Order, and Bureaucracy indexes 
+Political Risk Services 
+
+Private Credit (% GDP) 
+2,682 
+41.51 
+38.88 
+0.46 
+272.81 
+Credit provided to private sector by domestic money banks 
+Beck, Demirgüç-Kunt, and Levine (2013) 
+
+Oil Rents (% GDP) 
+2,372 
+5.53 
+12.08 
+0 
+75.71 
+Value of crude oil production (world prices) -production costs 
+World Bank Development Indicators 
+
+Economic Growth (in %) 
+2,352 
+3.82 
+4.2 
+-17.15 
+34.5 
+Growth rate of GDP in 2005 dollars 
+World Bank Development Indicators 
+
+Government Debt (% GDP) 
+724 
+56.16 
+37.37 
+0.21 
+277.53 
+FDI (% GDP) 
+718 
+4.63 
+7.3 
+-55.07 
+74.71 
+Net inflows of foreign direct investment 
+World Bank Development Indicators 
+
+Inflation (Index, 2005 = 100) 
+718 
+88.06 
+29.66 
+0.36 
+195.36 
+Average consumer price inflation 
+Beck, Demirgüç-Kunt, and Levine (2013) 
+
+Federalism (Binary) 
+718 
+0.12 
+0.33 
+0 
+1 
+Independent subfederal units with fiscal power 
+Henisz (2014) 
+
+Regime Type (Ordinal Scale) 
+696 
+6.09 
+5.43 
+-9 
+10 
+Combination of democracy and autocracy Scores 
+Marshall and Jaggers (2008) 
+
+Trade Openness (% GDP) 
+1,714 
+60.18 
+40.59 
+8.9 
+350.54 
+Merchandise exports + imports 
+World Bank Development Indicators 
+
+Manufacturing (% GDP) 
+1,520 
+18.26 
+6.1 
+2.27 
+37.16 
+Value added in manufacturing 
+World Bank Development Indicators 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="9,62.05,62.11,490.17,379.17"><head>TABLE 2</head><label>2</label><figDesc>Relationship between State Capacity and Directed Credit to State-Owned EnterprisesNote: Dynamic panel regressions are estimated via two-step system GMM; standard errors are in parentheses. All independent variables are lagged by one period and instrumented with relevant lags (see text). GMM = generalized method of moments; PC = principal components; WC = Windmeijer's finite sample correction.</figDesc><table coords="9,62.05,86.80,490.17,315.86">(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+(7) 
+
+Adjustments 
+Made 
+
+Instruments 
+Collapsed 
+
+Instruments 
+at Lag 
+Length 
+(1, 2) 
+
+Instruments 
+at Lag 
+Length 
+(2, 3) 
+
+Instruments 
+at Lag 
+Length 
+(3, 4) 
+
+Instruments 
+at Lag 
+Length 
+(4, 5) 
+
+Instruments 
+reduced 
+by PC 
+
+Instruments 
+collapsed, 
+WC 
+
+Directed Credit t-1 
+0.855 
+0.875 
+0.845 
+0.821 
+0.902 
+0.854 
+0.855 
+(0.003) 
+(0.001) 
+(0.001) 
+(0.000) 
+(0.000) 
+(0.001) 
+(0.050) 
+State Capacity 
+(IQG) 
+
+-8.118 
+-2.42 
+-3.578 
+-3.221 
+-2.479 
+-7.052 
+-8.118 
+(0.531) 
+(0.089) 
+(0.026) 
+(0.052) 
+(0.023) 
+(0.050) 
+(2.969) 
+Private Credit 
+0.03 
+0.016 
+0.025 
+0.025 
+0.023 
+0.035 
+0.03 
+(0.001) 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.009) 
+Time Trend 
+-0.023 
+-0.005 
+-0.014 
+-0.015 
+-0.009 
+-0.03 
+-0.023 
+(0.005) 
+(0.001) 
+(0.001) 
+(0.001) 
+(0.001) 
+(0.001) 
+(0.021) 
+Constant 
+50.29 
+11.54 
+31.493 
+32.993 
+19.841 
+63.266 
+50.29 
+(9.405) 
+(1.585) 
+(1.394) 
+(1.072) 
+(2.297) 
+(1.325) 
+(43.532) 
+
+Observations 
+2,682 
+2,682 
+2,682 
+2,682 
+2,682 
+2682 
+2682 
+# of Instruments 
+110 
+237 
+234 
+231 
+228 
+178 
+110 
+AR(2) Arellano 
+Bond z-score 
+
+0.81 
+0.82 
+0.82 
+0.83 
+0.8 
+0.81 
+0.81 
+
+p-value 
+0.42 
+0.42 
+0.41 
+0.41 
+0.42 
+0.42 
+0.42 
+Hansen test 
+chi-square 
+
+94.66 
+125.81 
+126.96 
+124.93 
+124.92 
+125 
+94.66 
+
+p-value 
+0.76 
+0.99 
+0.99 
+0.99 
+0.99 
+0.99 
+0.76 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="10,59.76,62.11,490.16,428.97"><head>TABLE 3</head><label>3</label><figDesc>Relationship between State Capacity and Directed Credit to State-Owned Enterprises, with Controls</figDesc><table coords="10,59.76,98.75,490.16,392.33">(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+(7) 
+
+Directed Credit t-1 
+0.816 
+0.803 
+0.762 
+0.764 
+0.792 
+0.781 
+0.769 
+(0.001) 
+(0.003) 
+(0.006) 
+(0.005) 
+(0.003) 
+(0.004) 
+(0.007) 
+State Capacity (IQG) 
+-9.117 
+-6.545 
+-8.188 
+-7.432 
+-2.49 
+-4.253 
+-2.424 
+(0.154) 
+(0.159) 
+(0.208) 
+(0.216) 
+(0.340) 
+(0.248) 
+(0.286) 
+Private Credit 
+0.025 
+0.015 
+0.011 
+0.01 
+0.012 
+0.013 
+0.013 
+(0.000) 
+(0.001) 
+(0.001) 
+(0.001) 
+(0.001) 
+(0.001) 
+(0.001) 
+Oil Rents 
+-0.041 
+-0.022 
+-0.091 
+-0.119 
+-0.083 
+-0.062 
+-0.091 
+(0.000) 
+(0.001) 
+(0.015) 
+(0.009) 
+(0.024) 
+(0.014) 
+(0.010) 
+Economic Growth 
+-0.124 
+-0.137 
+-0.124 
+-0.111 
+-0.114 
+-0.116 
+(0.003) 
+(0.003) 
+(0.002) 
+(0.004) 
+(0.004) 
+(0.004) 
+Government Debt 
+-0.012 
+-0.007 
+0.013 
+0.011 
+0.009 
+(0.002) 
+(0.001) 
+(0.001) 
+(0.002) 
+(0.004) 
+FDI 
+0.009 
+0.001 
+0.003 
+0.01 
+(0.002) 
+(0.001) 
+(0.003) 
+(0.003) 
+Inflation 
+-0.006 
+0.003 
+-0.009 
+(0.002) 
+(0.003) 
+(0.004) 
+Federalism 
+3.429 
+3.303 
+(0.525) 
+(0.167) 
+Regime Type 
+-0.189 
+(0.023) 
+Time Trend 
+-0.031 
+-0.018 
+0.09 
+0.108 
+0.125 
+0.069 
+0.138 
+(0.001) 
+(0.002) 
+(0.007) 
+(0.006) 
+(0.009) 
+(0.014) 
+(0.011) 
+
+Observations 
+2,372 
+2,352 
+724 
+718 
+718 
+718 
+696 
+# of Instruments 
+151 
+201 
+222 
+263 
+314 
+355 
+420 
+AR(2) Arellano Bond 
+z-score 
+
+0.78 
+1.14 
+0.26 
+0.32 
+0.28 
+0.3 
+-0.56 
+
+p-value 
+0.43 
+0.25 
+0.79 
+0.75 
+0.78 
+0.77 
+0.57 
+Hansen test chi-square 
+108.57 
+106.33 
+70.62 
+68.03 
+70.99 
+68.44 
+62.1 
+p-value 
+0.99 
+0.99 
+0.99 
+0.99 
+0.99 
+0.99 
+0.99 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="11,62.05,62.11,490.18,469.49"><head>TABLE 4</head><label>4</label><figDesc>Note: Dynamic panel regressions are estimated via two-step system GMM; standard errors are in parentheses. All independent variables are lagged by one period and instrumented with relevant lags (see text). Instruments are collapsed across regressions. Constant always estimated but not reported.</figDesc><table coords="11,62.05,62.11,490.16,430.95">Relationship between State Capacity and Directed Credit to State-Owned Enterprises on 
+Taxation 
+
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+(7) 
+
+Taxation 
+0.619 
+0.571 
+0.592 
+0.663 
+0.741 
+0.721 
+0.797 
+t-1 
+(0.002) 
+(0.007) 
+(0.010) 
+(0.012) 
+(0.013) 
+(0.017) 
+(0.016) 
+State Capacity (IQG) 
+6.747 
+7.548 
+6.906 
+7.231 
+11.316 
+11.141 
+9.01 
+(0.172) 
+(0.345) 
+(0.406) 
+(0.855) 
+(1.252) 
+(0.789) 
+(1.077) 
+Directed Credit to 
+Govt. and SOEs 
+
+0.134 
+0.134 
+0.14 
+0.15 
+0.253 
+0.259 
+0.288 
+(0.006) 
+(0.006) 
+(0.008) 
+(0.018) 
+(0.041) 
+(0.032) 
+(0.027) 
+State Capacity × 
+Directed Credit 
+
+-0.137 
+-0.172 
+-0.191 
+-0.162 
+-0.305 
+-0.299 
+-0.324 
+(0.006) 
+(0.011) 
+(0.011) 
+(0.027) 
+(0.059) 
+(0.048) 
+(0.041) 
+Oil Rents 
+0.066 
+0.048 
+0.042 
+0.019 
+0.022 
+0.017 
+(0.004) 
+(0.006) 
+(0.005) 
+(0.009) 
+(0.007) 
+(0.006) 
+Economic Growth 
+0.029 
+0.035 
+0.059 
+0.049 
+0.053 
+(0.003) 
+(0.004) 
+(0.005) 
+(0.005) 
+(0.004) 
+FDI 
+0.038 
+0.02 
+0.018 
+0.029 
+(0.004) 
+(0.008) 
+(0.008) 
+(0.007) 
+Inflation 
+0.015 
+0.016 
+0.004 
+(0.002) 
+(0.003) 
+(0.004) 
+Trade Openness 
+0.006 
+-0.003 
+(0.003) 
+(0.003) 
+Manufacturing 
+0.021 
+(0.023) 
+Time Trend 
+0 
+0 
+-0.003 
+-0.001 
+-0.067 
+-0.079 
+-0.019 
+(0.002) 
+(0.002) 
+(0.003) 
+(0.003) 
+(0.012) 
+(0.011) 
+(0.013) 
+
+Observations 
+2,000 
+1,861 
+1,852 
+1,815 
+1,714 
+1,714 
+1,520 
+# of Instruments 
+118 
+157 
+205 
+244 
+293 
+342 
+391 
+AR(2) Arellano Bond 
+z-score 
+
+1.09 
+1.28 
+1.25 
+1.13 
+1.34 
+1.37 
+1.04 
+
+p-value 
+0.28 
+0.2 
+0.21 
+0.26 
+0.18 
+0.17 
+0.3 
+Hansen test chi-square 
+109.86 
+97.56 
+92.9 
+96.79 
+88.66 
+91.95 
+87.9 
+p-value 
+0.54 
+0.99 
+0.99 
+0.99 
+0.99 
+0.99 
+0.99 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">While some scholars qualify this contention, others reject it entirely. On the first point, see<ref type="bibr" coords="1,394.40,659.84,113.93,7.97" target="#b10">Cecchetti and Kharroubi (2012)</ref>, who argue that increases in financial development at the highest levels of financial depth actually reduce growth.<ref type="bibr" coords="1,422.85,669.80,49.51,7.97" target="#b21">Levine (1997)</ref> reviews the dissenting literature.2  <ref type="bibr" coords="1,65.41,695.70,142.20,7.97" target="#b4">Becerra, Cavallo, and Scartascini (2012)</ref> and<ref type="bibr" coords="1,225.28,695.70,101.22,7.97" target="#b7">Calomiris and Haber (2014)</ref> provide references.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">This section builds on<ref type="bibr" coords="3,397.52,677.77,114.21,7.97" target="#b3">Barth, Caprio, and Levine (2006)</ref>,<ref type="bibr" coords="3,516.79,677.77,35.40,7.97;3,316.09,687.73,62.27,7.97" target="#b7">Calomiris and Haber (2014)</ref>,and Haber, North, and Weingast (2008).5  Ultimately, banks are able to earn rents through the spread between the interest rates they pay on savings deposits and what they charge for business and consumer loans.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">This paragraph is based on<ref type="bibr" coords="4,421.11,713.64,128.78,7.97;4,313.80,723.60,22.29,7.97" target="#b31">Stiglitz, Jaramillo-Vallejo, and Park (1993)</ref>.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8">In the supporting information, I report and discuss the results of regressions that test other empirical implications of the theory, however. These hypotheses are that weak state capacity should be associated with greater bank profits, lower liquidity in the financial system, a reduction in private credit availability, and increased barriers to entry that translate into greater market power for banks. Indeed, I show that weak states exhibit higher net interest margins, a greater return on bank assets, and higher overhead costs. They also exhibit less liquidity and a reduced supply of private credit. Finally, the marginal effect of increases in barriers to entry in financial services on the market power of banks intensifies as state capacity deteriorates.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10">I take a conservative tack-assume that each independent variable introduced in the regressions that follow, including the controls, is potentially endogenous; each is instrumented accordingly. 11 Notwithstanding these advantages, I also report and discuss the results of alternative specifications in the supporting information. There, I focus attention on the relationship between state capacity and credit directed to the government and SOEs. First, I estimate a series of dynamic panel models via ordinary least squares. These</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14">Going forward, I exclusively "collapse" the instruments because this is the most effective way of reducing the instrument count. The results are not sensitive to this strategy, however.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="15">For sources, see the supporting information.16  FDI figures are measured in 1983 dollars. For sources, see the supporting information.17  For sources, see the supporting information.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="18">This section therefore draws heavily onHaber, Razo, and Maurer  (2003, chap. 4);Haber et al. (2008, 49-51); andCalomiris and  Haber (2014, chap. 10).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="19">Sources for the data on directed credit and taxation are listed in the supporting information.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting Information</head><p>Additional Supporting Information may be found in the online version of this article at the publisher's website:</p><p>• Demonstrating that Political Incumbents in Weak States face greater and more dangerous risks • Tests of Additional Empirical Implications • Submitting the main model to robustness tests • Mexico Case Study 1 • Mexico Case Study 2</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="15,62.05,471.21,236.12,8.41;15,74.00,481.68,224.15,8.41;15,74.00,492.14,95.19,8.41" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">A New Database of Financial Reforms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Abdul</forename><surname>Abiad</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Enrica</forename><surname>Detragiache</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thierry</forename><surname>Tressel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>International Monetary Fund</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.05,505.59,236.13,8.41;15,74.00,516.05,224.16,8.41;15,74.00,526.51,224.15,8.41;15,74.00,536.97,224.20,8.41;15,74.00,547.44,112.32,8.41" xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Credit Market Frictions and Political Failure: Median Voter&apos;s Inefficient Preference for Banking Reforms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Madhav</forename><surname>Aney</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maitreesh</forename><surname>Ghatak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Massimo</forename><surname>Morelli</surname></persName>
+		</author>
+		<ptr target="http://www.mysmu.edu/faculty/madhavsa/research/AGM_June2011.pdf" />
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note>Working paper</note>
+</biblStruct>
+
+<biblStruct coords="15,62.05,560.88,236.20,8.41;15,74.00,571.34,224.17,8.41;15,74.00,581.81,224.18,8.41;15,74.00,592.27,221.47,8.41;15,74.00,602.72,75.79,8.41" xml:id="b2">
+	<monogr>
+		<title level="m" type="main">The Miracle of Microfinance? Evidence from a Randomized Evaluation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Abhijit</forename><surname>Banerjee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Esther</forename><surname>Duflo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rachel</forename><surname>Glennerster</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cynthia</forename><surname>Kinnan</surname></persName>
+		</author>
+		<ptr target="http://dspace.mit.edu/bitstream/handle/1721.1/79070/BanerjeeDuflo13-09.pdf?sequence=1" />
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note>Working paper</note>
+</biblStruct>
+
+<biblStruct coords="15,62.05,616.18,236.11,8.41;15,74.00,626.64,224.20,8.41;15,74.00,637.10,106.99,8.41" xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Rethinking Bank Regulation: Till Angels Govern</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><surname>Barth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerard</forename><surname>Caprio</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ross</forename><surname>Levine</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.05,650.55,236.10,8.41;15,74.00,661.01,224.15,8.41;15,74.00,671.47,224.16,8.41;15,74.00,681.93,95.11,8.41" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The Politics of Financial Development: The Role of Interest Groups and Government Capabilities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Oscar</forename><surname>Becerra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eduardo</forename><surname>Cavallo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carlos</forename><surname>Scartascini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Banking &amp; Finance</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="626" to="669" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,62.05,695.38,236.12,8.41;15,74.00,705.84,224.18,8.41;15,74.00,716.30,205.46,8.41" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The Updated Financial Development and Structure Database</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thorsten</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aslı</forename><surname>Demirgüç-Kunt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ross</forename><surname>Levine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World Bank Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="77" to="92" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,62.75,236.12,8.41;15,328.04,73.21,224.17,8.41;15,328.04,83.68,87.19,8.41" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Finance and the Sources of Growth</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thorsten</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ross</forename><surname>Levine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Norman</forename><surname>Loayza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Financial Economics</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="261" to="300" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,97.12,236.12,8.41;15,328.04,107.58,224.17,8.41;15,328.04,118.05,157.90,8.41" xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Fragile by Design: The Political Origins of Banking Crises and Scarce Credit</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><surname>Calomiris</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><surname>Haber</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Princeton, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,131.49,236.10,8.41;15,328.04,141.95,224.17,8.41;15,328.04,152.42,154.45,8.41" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Financial Liberalization and Reversals: Political and Economic Determinants</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nauro</forename><surname>Campos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fabrizio</forename><surname>Coricelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economic Policy</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">71</biblScope>
+			<biblScope unit="page" from="483" to="513" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,165.86,236.13,8.41;15,328.04,176.32,224.15,8.41;15,328.04,186.79,224.15,8.41;15,328.04,197.25,177.16,8.41" xml:id="b9">
+	<monogr>
+		<title level="m" type="main">On the Optimality of Financial Repression</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">V</forename><surname>Chari</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alessandro</forename><surname>Dovis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Kehoe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alberto</forename></persName>
+		</author>
+		<ptr target="http://www.econ.upf.edu/˜martin/discussion%20of%20cdk.pdf" />
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Minnesota</orgName>
+		</respStmt>
+	</monogr>
+	<note>Working paper</note>
+</biblStruct>
+
+<biblStruct coords="15,316.09,210.69,236.12,8.41;15,328.04,221.16,224.12,8.41" xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Reassessing the Impact of Finance on Growth</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><surname>Cecchetti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Enisse</forename><surname>Kharroubi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>Working paper</note>
+</biblStruct>
+
+<biblStruct coords="15,328.04,231.62,224.13,8.41;15,328.04,242.08,224.18,8.41;15,328.04,252.54,219.48,8.41;15,328.04,263.00,62.56,8.41" xml:id="b11">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Switzerland</forename><surname>Basel</surname></persName>
+		</author>
+		<ptr target="http://www.boi.gov.il/he/Research/ConferencesAndSeminars/Documents/neum432h0.pdf" />
+		<title level="m">Bank for International Settlements, Monetary and Economic Department</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,276.45,236.12,8.41;15,328.04,286.92,224.14,8.41;15,328.04,297.37,224.18,8.41;15,328.04,307.83,46.46,8.41" xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Finance and Inequality: Theory and Evidence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Asli</forename><surname>Demirgüç-Kunt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ross</forename><surname>Levine</surname></persName>
+		</author>
+		<ptr target="http://www.nber.org/papers/w15275.pdf" />
+		<imprint>
+			<date type="published" when="2009" />
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>NBER working paper</note>
+</biblStruct>
+
+<biblStruct coords="15,316.09,321.29,236.07,8.41;15,328.04,331.74,224.15,8.41;15,328.04,342.20,83.25,8.41" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Government Revenue from Financial Repression</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alberto</forename><surname>Giovannini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martha</forename><surname>De Melo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="953" to="63" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,355.66,236.19,8.41;15,328.04,366.12,224.15,8.41;15,328.04,376.57,224.17,8.41;15,328.04,387.04,20.64,8.41" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">When the Law Does Not Matter: The Rise and Decline of the Mexican Oil Industry</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><surname>Haber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Noel</forename><surname>Maurer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Armando</forename><surname>Razo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Economic History</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="32" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,400.49,236.12,8.41;15,328.04,410.95,224.16,8.41;15,328.04,421.41,224.13,8.41;15,328.04,431.87,135.63,8.41" xml:id="b15">
+	<monogr>
+		<title level="m" type="main">The Politics of Property Rights: Political Instability, Credible Commitments, and Economic Growth in Mexico</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><surname>Haber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Armando</forename><surname>Razo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Noel</forename><surname>Maurer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Cambridge University Press</publisher>
+			<biblScope unit="page" from="1876" to="1929" />
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,445.32,236.14,8.41;15,328.04,455.78,224.20,8.41;15,328.04,466.24,62.48,8.41" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Noel Maurer, and Kevin Middlebrook</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><surname>Haber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Herb</forename><surname>Kline</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mexico since 1980</title>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,479.69,236.20,8.41;15,328.04,490.15,224.17,8.41;15,328.04,500.61,114.18,8.41" xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Political Institutions and Financial Development</title>
+		<editor>Haber, Stephen, Douglass North, and Barry Weingast</editor>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>Stanford University Press</publisher>
+			<pubPlace>Stanford, CA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,514.06,236.09,8.41;15,328.04,524.53,224.18,8.41;15,328.04,534.98,224.20,8.41;15,328.04,545.44,150.86,8.41" xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Political Constraint Index (POL-CON)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Witold</forename><surname>Henisz</surname></persName>
+		</author>
+		<ptr target="http://mgmt5.wharton.upenn.edu/henisz/POLCON/ContactInfo.html" />
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+		<respStmt>
+			<orgName>Wharton School of the University of Pennsylvania</orgName>
+		</respStmt>
+	</monogr>
+	<note>Unpublished manuscript</note>
+</biblStruct>
+
+<biblStruct coords="15,316.09,558.90,236.10,8.41;15,328.04,569.36,224.17,8.41;15,328.04,579.81,21.78,8.41" xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Finance and Growth: Schumpeter Might Be Right</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ross</forename><surname>Levine</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>World Bank</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,593.27,236.13,8.41;15,328.04,603.73,224.15,8.41;15,328.04,614.19,224.17,8.41;15,328.04,624.65,29.73,8.41" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Institutions and Economic Performance: Cross-Country Tests Using Alternative Institutional Measures</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><surname>Knack</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><surname>Keefer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economics &amp; Politics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="207" to="234" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,638.09,236.18,8.41;15,328.04,648.55,224.19,8.41;15,328.04,659.02,71.89,8.41" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Financial Development and Economic Growth: Views and Agenda</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ross</forename><surname>Levine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Economic Literature</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="688" to="726" />
+			<date type="published" when="1997-06" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,672.46,236.13,8.41;15,328.04,682.92,224.13,8.41;15,328.04,693.39,167.55,8.41" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Financial Intermediation and Growth: Causality and Causes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ross</forename><surname>Levine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Norman</forename><surname>Loayza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thorsten</forename><surname>Beck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Monetary Economics</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="31" to="77" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,316.09,706.84,236.11,8.41;15,328.04,717.29,224.15,8.41;16,71.71,62.75,224.14,8.41;16,71.71,73.21,206.74,8.41" xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Polity IV Project: Political Regime Characteristics and Transitions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Monty</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Keith</forename><surname>Jaggers</surname></persName>
+		</author>
+		<ptr target="http://www.systemicpeace.org/polityproject.html" />
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="1800" to="2006" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Maryland</orgName>
+		</respStmt>
+	</monogr>
+	<note>Unpublished manuscript</note>
+</biblStruct>
+
+<biblStruct coords="16,59.76,86.66,236.11,8.41;16,71.71,97.12,214.83,8.41" xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Money and Capital in Economic Development</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ronald</forename><surname>Mckinnon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1973" />
+			<publisher>Brookings Institution Press</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.76,110.58,236.14,8.41;16,71.71,121.03,224.15,8.41;16,71.71,131.49,226.35,8.41" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Wage Inequality and Firm Growth</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Holger</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paige</forename><surname>Ouimet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elena</forename><surname>Simintzi</surname></persName>
+		</author>
+		<ptr target="http://people.stern.nyu.edu/hmueller/papers/inequality.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">LIS Working Paper</title>
+		<imprint>
+			<biblScope unit="volume">632</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.76,144.95,236.11,8.41;16,71.71,155.41,224.17,8.41;16,71.71,165.86,106.99,8.41" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Making Democratic Governance Work: How Regimes Shape Prosperity, Welfare, and Peace</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pippa</forename><surname>Norris</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.76,179.32,236.11,8.41;16,71.71,189.78,186.21,8.41" xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Financial Deepening in Economic Development</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edward</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Stone</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1973" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.76,203.22,236.11,8.41;16,71.71,213.69,224.17,8.41;16,71.71,224.15,225.89,8.41;16,71.71,234.61,205.45,8.41;16,71.71,245.06,26.41,8.41" xml:id="b28">
+	<monogr>
+		<title level="m" type="main">The Return of Financial Repression</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carmen</forename><surname>Reinhart</surname></persName>
+		</author>
+		<ptr target="https://www.banque-france.fr/fileadmin/user_upload/banque_de_france/publications/Revue_de_la_stabilite_financiere/2012/rsf-avril-2012/FSR16-article-04.pdf" />
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>Working paper</note>
+</biblStruct>
+
+<biblStruct coords="16,59.76,258.52,236.15,8.41;16,71.71,268.98,224.16,8.41;16,71.71,279.44,50.26,8.41" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">How to Do xtabond2: An Introduction to &apos;Difference&apos; and &apos;System&apos; GMM in Stata</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Roodman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Stata Journal</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="86" to="136" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,62.75,236.11,8.41;16,325.75,73.21,224.15,8.41;16,325.75,83.68,87.79,8.41" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Credit Rationing in Markets with Imperfect Information</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseph</forename><surname>Stiglitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Weiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="393" to="410" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,313.80,97.12,236.13,8.41;16,325.75,107.58,224.17,8.41;16,325.75,118.05,136.32,8.41" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The Role of the State in Financial Markets</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseph</forename><surname>Stiglitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jaime</forename><surname>Jaramillo-Vallejo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yung Chal</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">World Bank Research Observer</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="19" to="61" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

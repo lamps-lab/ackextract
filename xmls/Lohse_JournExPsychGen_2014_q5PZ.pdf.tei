@@ -1,0 +1,2346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Role of Attention in Motor Control</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Keith</forename><forename type="middle">R</forename><surname>Lohse</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matt</forename><surname>Jones</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alice</forename><forename type="middle">F</forename><surname>Healy</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">E</forename><surname>Sherwood</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Colorado</orgName>
+								<address>
+									<settlement>Boulder</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of British Columbia</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Colorado</orgName>
+								<address>
+									<settlement>Boulder</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Psychology and Neuroscience</orgName>
+								<orgName type="department" key="dep2">School of Kinesiology</orgName>
+								<orgName type="institution">Univer-sity of Colorado</orgName>
+								<address>
+									<settlement>Boulder</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Psychology and Neuroscience</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<addrLine>Canada; Matt Jones and Alice F. Healy</addrLine>
+									<settlement>Vancouver</settlement>
+									<region>British Columbia</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="institution">University of Colo</orgName>
+								<address>
+									<settlement>Boulder</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Integrative Physiology</orgName>
+								<orgName type="institution">University of Colorado</orgName>
+								<address>
+									<settlement>Boulder</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department">School of Kinesiology</orgName>
+								<orgName type="institution">University of British Columbia</orgName>
+								<address>
+									<postCode>V6T 1Z1</postCode>
+									<settlement>Vancouver</settlement>
+									<region>BC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Role of Attention in Motor Control</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1037/a0032817</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:07+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>attention</term>
+					<term>motor control</term>
+					<term>motor learning</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Research on the focus of attention (FOA) in motor control has found a consistent advantage for focusing externally (on the effects of one's actions) compared to focusing internally (on one's body mechanics). However, most of this work has concentrated on movement outcomes, leaving open the question of how external attention changes the movement itself. Somewhat paradoxically, recent research has found that external attention also increases trial-by-trial movement variability. To explain these findings, we propose a theory of attention in motor control, grounded in optimal control theory, wherein variability is minimized along attended aspects of the movement. Internal attention thus reduces variability in individual bodily dimensions (positions and velocities of effectors), whereas external attention minimizes variability in the task outcome. Because the goal of a task defines a dimension in the movement space that is generally oblique to bodily dimensions, external attention should increase correlations among bodily dimensions while allowing their individual variances to grow. The current experiment tests these predictions in a dart-throwing task. External FOA led to more accurate performance and increased variability in the motion of the throwing arm, concomitant with stronger correlations among bodily dimensions (shoulder, elbow, and wrist positions and velocities) in a manner consistent with the task kinematics. These findings indicate a shift in the control policy of the motor system, consistent with the proposed theory. These results suggest an important role of attention as a control parameter in the regulation of the motor system, and more broadly illustrate the importance of cognitive mechanisms in motor behavior.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>One of the most important features of human movement is variability. Variability is important because it allows for move-ment patterns to be effectively adapted to the environment, to the specific requirements of a task, or to endogenous variables (like motivation and fatigue), while the goal of the task remains invariant <ref type="bibr" coords="1,319.13,447.95,62.38,7.91" target="#b4">(Bernstein, 1967;</ref><ref type="bibr" coords="1,383.64,447.95,121.14,7.91" target="#b6">Davids, Bennett, &amp; Newell, 2006)</ref>. However, variability can be both promising and problematic. From a motor control perspective, humans have many more degrees of freedom than are needed to accomplish any single task. Thus, the same movement outcome can be achieved in many different ways <ref type="bibr" coords="1,306.00,503.64,60.73,7.91" target="#b60">(Todorov, 2004)</ref>. Recently, optimal control theories of motor learning and control have quantified and modeled how the nervous system takes advantage of these redundancies to optimize performance <ref type="bibr" coords="1,334.12,537.05,133.76,7.91" target="#b26">(Latash, Scholz, &amp; Schöner, 2002;</ref><ref type="bibr" coords="1,472.52,537.05,73.51,7.91;1,306.00,548.17,19.37,7.91" target="#b61">Todorov &amp; Jordan, 2002)</ref>. These theories account not only for measures of performance on average, but also trial-by-trial variability in performance <ref type="bibr" coords="1,306.00,570.42,112.42,7.91" target="#b30">(Loeb, Brown, &amp; Cheng, 1999)</ref>, which has received less emphasis in previous theories of motor control.</p><p>The current study investigates the role of movement variability in mediating the effects of attention on motor performance. Previous research on attention in motor learning and control has found that when subjects are instructed to focus externally on the goal of a task, they reliably perform better than when instructed to focus internally on their own body mechanics <ref type="bibr" coords="1,455.87,648.29,85.84,7.91;1,306.00,659.42,46.18,7.91" target="#b35">(Lohse, Wulf, &amp; Lewthwaite, 2012;</ref><ref type="bibr" coords="1,356.11,659.42,44.05,7.91" target="#b70">Wulf, 2012)</ref>. The benefits of an external focus of attention (FOA) with respect to the outcome of movement have been demonstrated in a variety of dynamic and isometric tasks, including golf <ref type="bibr" coords="1,359.36,692.79,77.53,7.91" target="#b3">(Bell &amp; Hardy, 2009;</ref><ref type="bibr" coords="1,439.31,692.79,63.91,7.91" target="#b75">Wulf &amp; Su, 2007)</ref>, basketball free-throw shooting <ref type="bibr" coords="1,378.95,703.92,147.24,7.91" target="#b76">(Zachry, Wulf, Mercer, &amp; Bezodis, 2005)</ref>, dart throwing <ref type="bibr" coords="1,340.51,715.04,124.13,7.91" target="#b33">(Lohse, Sherwood, &amp; Healy, 2010)</ref>, volleyball serves and soccer kicks <ref type="bibr" coords="2,96.95,77.04,170.75,7.91" target="#b73">(Wulf, McConnel, Gärtner, &amp; Schwarz, 2002)</ref>, and force production <ref type="bibr" coords="2,111.69,88.24,100.55,7.91" target="#b32">(Lohse &amp; Sherwood, 2012;</ref><ref type="bibr" coords="2,215.35,88.24,72.69,7.91;2,48.00,99.43,39.04,7.91" target="#b37">Marchant, Greig, &amp; Scott, 2009</ref>). However, only recently have studies begun examining how attention affects properties of the movement itself, such as muscle recruitment <ref type="bibr" coords="2,119.45,121.82,97.93,7.91" target="#b32">(Lohse &amp; Sherwood, 2012;</ref><ref type="bibr" coords="2,219.61,121.82,64.84,7.91;2,48.00,133.01,113.97,7.91" target="#b64">Vance, Wulf, Töllner, McNevin, &amp; Mercer, 2004;</ref><ref type="bibr" coords="2,164.03,133.01,68.54,7.91" target="#b76">Zachry et al., 2005)</ref>, energetic cost <ref type="bibr" coords="2,48.00,144.20,178.50,7.91" target="#b56">(Schücker, Hagemann, Strauss, &amp; Völker, 2009)</ref>, and movement kinematics <ref type="bibr" coords="2,89.70,155.40,69.97,7.91" target="#b33">(Lohse et al., 2010)</ref>. We suggest that analyzing movement variability is critical to understanding the effects of attention, because it provides insights into what aspects of the movement are being controlled <ref type="bibr" coords="2,110.48,188.98,114.58,7.91" target="#b67">(Wolpert &amp; Ghahramani, 2000)</ref>.</p><p>One finding from recent research on attention and motor variability is that external FOA actually increases variability of the movement pattern across trials, even though it reduces error in the movement outcome <ref type="bibr" coords="2,125.07,233.75,73.97,7.91" target="#b33">(Lohse et al., 2010)</ref>. Although this finding may seem paradoxical, it is consistent with findings of functional variability in research on expertise effects in motor control, whereby experts often exhibit greater movement variability than novices, concomitant with better performance. Functional variability can be explained within optimal control theory as a consequence of coordination among effectors, whereby effectors compensate for perturbations in each other's dynamics to reduce overall error <ref type="bibr" coords="2,95.95,323.30,94.81,7.91" target="#b61">(Todorov &amp; Jordan, 2002)</ref>. Thus, there is a trade-off between minimizing variability of the outcome and the dynamics of individual effectors. When the goal of the motor system is to control some external outcome variable (e.g., the landing position of a dart), the optimal control strategy produces increased correlations among effectors, at the expense of increasing their individual variances.</p><p>These findings lead to the present proposal that attention regulates motor control by helping to determine the control strategy of the motor system. In internal FOA conditions, we hypothesize that bodily dimensions such as muscle activations or joint angles are directly controlled, minimizing their individual variabilities. Under external FOA, we hypothesize that the target of control is the outcome itself. This control strategy leads to improved performance, by allowing individual effectors to compensate for each other in order to reduce variability in the outcome. As a by-product of this coordination, the variabilities of individual effectors increase, as do their intercorrelations. Thus, the present theory makes predictions for how FOA affects variability in the movement outcome (i.e., traditional measures of performance), variability across trials of individual bodily dimensions (e.g., joint coordinates, angles, or velocities), and the correlation structure among bodily dimensions.</p><p>This theory of attention in motor control is grounded in optimal control theory and is consistent with models of attention in other domains, including learning and perception. After reviewing these connections, as well as previous research on FOA in motor control, we report an experiment testing the theory in a dart-throwing task. This experiment shows that more external FOAs produce improved performance as well as increased variability in the angles and angular velocities of the joints of the throwing arm (shoulder, elbow, and wrist). Critically, external FOA also strengthens the correlation structure among joints during the movement in a manner consistent with the kinematics of the task, indicating that their increased individual variabilities are consequences of coordination. These results support the proposal that attention alters the control structure of the motor system, and more broadly, they argue for a central role of cognitive variables in motor control.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The Effects of Focus of Attention on Motor Control</head><p>Research on FOA suggests that instructions or feedback directing subjects' attention externally (to the effect of an action on the environment) significantly improves performance relative to focusing internally (to the mechanics of the body itself). For instance, when shooting a basketball, subjects do better when mentally focused externally on the back of the rim compared to internally on the motion of the wrist, even though visual attention (i.e., gaze direction) is the same in both conditions <ref type="bibr" coords="2,494.56,213.52,51.49,7.91;2,306.00,224.66,19.37,7.91" target="#b76">(Zachry et al., 2005)</ref>. Furthermore, previous studies have shown focusing externally improves performance relative to control conditions where no attentional instructions are given (see <ref type="bibr" coords="2,463.02,246.96,40.70,7.91" target="#b69">Wulf, 2007</ref><ref type="bibr" coords="2,511.53,246.96,16.20,7.91" target="#b70">Wulf, , 2012</ref>, for reviews). The advantage of focusing externally also holds in clinical studies of motor performance following stroke <ref type="bibr" coords="2,493.27,269.25,48.18,7.91;2,306.00,280.40,149.50,7.91" target="#b10">(Fasoli, Trombly, Tickle-Degnen, &amp; Verfaellie, 2002)</ref>, in Parkinson's disease patients <ref type="bibr" coords="2,338.19,291.55,182.92,7.91" target="#b25">(Landers, Wulf, Wallman, &amp; Guadagnoli, 2005;</ref><ref type="bibr" coords="2,525.30,291.55,20.75,7.91;2,306.00,302.70,144.57,7.91" target="#b72">Wulf, Landers, Lewthwaite, &amp; Töllner, 2009)</ref>, and following musculoskeletal injury <ref type="bibr" coords="2,359.03,313.84,182.69,7.91;2,306.00,324.99,40.61,7.91" target="#b28">(Laufer, Rotem-Lehrer, Ronen, Khayutin, &amp; Rozenberg, 2007)</ref>.</p><p>Currently, the dominant explanation in the literature of impaired performance resulting from an internal FOA is the constrained action hypothesis <ref type="bibr" coords="2,370.90,358.43,42.14,7.91" target="#b69">(Wulf, 2007</ref><ref type="bibr" coords="2,419.29,358.43,15.50,7.91" target="#b70">(Wulf, , 2012</ref>, which posits that an internal FOA increases explicit monitoring of otherwise implicit motor behaviors, slowing processing and hurting performance (see also <ref type="bibr" coords="2,306.00,391.88,78.81,7.91" target="#b1">Beilock &amp; Carr, 2001)</ref>. The constrained action hypothesis has been criticized, however, for not being integrated with larger theories of motor control <ref type="bibr" coords="2,359.33,414.17,138.89,7.91" target="#b47">(Oudejans, Koedijker, &amp; Beek, 2007)</ref> and because the precise mechanisms that constrain action need to be better specified in order to make the hypothesis testable <ref type="bibr" coords="2,495.61,436.47,46.56,7.91" target="#b49">(Raab, 2007)</ref>. For instance, in its current form, the constrained action hypothesis does not make predictions about the details of movement under internal versus external focus conditions. One reason the constrained action hypothesis does not address movement details is that the majority of studies on FOA have been limited to the effects of attention on motor outcomes (e.g., accuracy, balance, speed), and less work has been done to explore the effects of attention on the kinematic and dynamic properties of movement itself.</p><p>One recent study on dart throwing that did examine movement kinematics <ref type="bibr" coords="2,348.45,547.94,73.85,7.91" target="#b33">(Lohse et al., 2010)</ref> found that accuracy was significantly improved by directing subjects' attention to the flight of the dart (external focus) compared to the motion of the arm (internal focus). Biomechanical analysis of trial-by-trial variability in the shoulder angle of the throwing arm at the moment of release showed greater variability with external FOA. These changes in movement variability likely play an important role in mediating the influence of attention on performance, but they lie outside the scope of current theories. Thus, the aim of the current study was to develop a more mechanistic theory of attention in complex motor tasks, integrating research on FOA with optimal control theories of motor control and learning. We propose that attention regulates motor control by changing which aspects of the movement are controlled-goal-relevant dimensions with an external focus or bodily dimensions with an internal focus. To motivate how such shifts of the control policy can affect both performance and pat-This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>terns of movement variability, we next review research on the role of movement variability in skilled and optimal performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Variability in Expertise and Optimal Control</head><p>Paradoxically, experts can show increased trial-by-trial variation in movement patterns while simultaneously showing superior performance in the movement outcome. This phenomenon has been referred to as functional variability, to capture the idea that variability is somehow enabling improved performance <ref type="bibr" coords="3,249.12,176.04,38.93,7.91;3,48.00,187.04,52.44,7.91" target="#b43">(Müller &amp; Loosch, 1999)</ref>. For instance, <ref type="bibr" coords="3,161.53,187.04,126.52,7.91;3,48.00,198.04,23.99,7.91" target="#b55">Schorer, Baker, Fath, and Jaitner (2007)</ref> found that novice and intermediate handball players had only two stable movement patterns, which principally differed in the direction of the throw (viz. one stereotyped pattern for a shot to the high left and another to the low right). In contrast, experts' throwing motions clustered into roughly four patterns, none of which could be assigned to a specific throwing direction. This absence of correspondence between throwing direction and movement pattern suggests that experts use varying movement patterns to produce similar flight trajectories.</p><p>One explanation of these findings is that experts control variation in only goal-relevant aspects of the movement, while allowing redundant dimensions (i.e., aspects that do not directly affect the outcome) to vary. Evidence for this type of selective control is seen in anisotropic patterns of variability, wherein redundant dimensions show greater trial-by-trial variation than goal-relevant dimensions. A classic example in the motor control literature comes from motion analysis of expert hammer swings <ref type="bibr" coords="3,222.50,374.04,61.68,7.91" target="#b4">(Bernstein, 1967)</ref>, in which the contact point of the hammer on the target is very consistent, but the motion paths of the shoulder and elbow are variable. Such patterns have been observed in a wide range of other tasks, including reaching <ref type="bibr" coords="3,168.06,418.04,119.98,7.91;3,48.00,429.04,19.37,7.91" target="#b17">(Haggard, Hutchinson, &amp; Stein, 1995)</ref>, grasping <ref type="bibr" coords="3,107.42,429.04,75.38,7.91" target="#b5">(Cole &amp; Abbs, 1986)</ref>, pointing <ref type="bibr" coords="3,221.86,429.04,66.17,7.91;3,48.00,440.04,53.12,7.91" target="#b62">(Tseng, Scholz, &amp; Schöner, 2002)</ref>, writing <ref type="bibr" coords="3,135.02,440.04,52.12,7.91" target="#b68">(Wright, 1990)</ref>, postural control <ref type="bibr" coords="3,251.53,440.04,36.50,7.91;3,48.00,451.04,53.44,7.91" target="#b53">(Scholz &amp; Schöner, 1999)</ref>, and even skiing <ref type="bibr" coords="3,166.60,451.04,117.24,7.91;3,48.00,462.04,76.45,7.91" target="#b65">(Vereijken, van Emmerick, Whiting, &amp; Newell, 1992)</ref>. Importantly, anisotropic variability is more pronounced in the movement of experts than novices <ref type="bibr" coords="3,247.49,473.04,40.54,7.91;3,48.00,484.04,33.75,7.91" target="#b55">(Schorer et al., 2007;</ref><ref type="bibr" coords="3,84.01,484.04,80.25,7.91" target="#b65">Vereijken et al., 1992;</ref><ref type="bibr" coords="3,166.52,484.04,121.52,7.91;3,48.00,495.04,59.61,7.91" target="#b66">Wilson, Simpson, van Emmerick, &amp; Hamill, 2008)</ref>. <ref type="bibr" coords="3,57.00,506.04,104.52,7.91" target="#b53">Scholz and Schöner (1999)</ref> offered a formal framework for addressing the relationship between anisotropic variability and motor control strategies. They defined the uncontrolled manifold as the subspace, within the space of all possible movements, within which the movement is uncontrolled and hence allowed to vary. When the control strategy of the motor system is to optimize the task outcome, the uncontrolled manifold comprises the subspace of movements that are consistent with the goal <ref type="bibr" coords="3,220.55,583.03,67.49,7.91;3,48.00,594.03,106.51,7.91" target="#b23">(Kang, Shinohara, Zatsiorsky, &amp; Latash, 2004;</ref><ref type="bibr" coords="3,158.69,594.03,95.13,7.91" target="#b53">Scholz &amp; Schöner, 1999)</ref>. On the basis of this definition, Scholz and Schöner proposed that trial-bytrial movement variability should be greater parallel than perpendicular to the uncontrolled manifold (see also <ref type="bibr" coords="3,217.10,627.03,70.96,7.91;3,48.00,638.03,48.61,7.91" target="#b54">Scholz, Schöner, &amp; Latash, 2000)</ref>.</p><p>Building on this framework, we define a goal-relevant dimension as any dimension within movement space that affects the task outcome and a redundant dimension as any dimension that does not. Variability on goal-relevant dimensions is detrimental, whereas variability on redundant dimensions contributes no error. To be clear, by dimension we mean not a spatial direction, but a dimension within the abstract multidimensional space of possible movements (e.g., shoulder angle or elbow angle), analogous to a perceptual dimension within an abstract stimulus space (e.g., size or brightness). Importantly, because the outcome of most motor tasks depends on the combined actions of many effectors, a goalrelevant dimension will tend to lie at some oblique angle in the movement space defined by individual bodily dimensions (e.g., positions and velocities of individual joints).</p><p>Decomposing the movement space into goal-relevant and redundant dimensions enables contact with optimal control theory, which offers a rational and quantitative basis for the prediction that movement variability should be greater along redundant dimensions than along goal-relevant dimensions. Optimal control theory casts motor behavior in terms of statistically optimal control (for reviews, see <ref type="bibr" coords="3,352.55,220.03,69.22,7.91" target="#b26">Latash et al., 2002;</ref><ref type="bibr" coords="3,424.18,220.03,121.87,7.91" target="#b27">Latash, Scholz, &amp; Schöner, 2007;</ref><ref type="bibr" coords="3,306.00,231.03,56.26,7.91" target="#b60">Todorov, 2004)</ref>. According to this perspective, a control rule is defined by a movement variable to be either maximized or minimized (e.g., the goal in a vertical jump is to maximize center of mass displacement, whereas the goal of a balance task is to minimize sway). Lower levels of control (e.g., the activities of individual muscles or joints) then interact to implement the optimal solution to the control rule.</p><p>Central to optimal control theory is the assumption that motor dynamics are inherently noisy, so that exact movement patterns are not reproducible <ref type="bibr" coords="3,368.20,330.03,113.41,7.91" target="#b67">(Wolpert &amp; Ghahramani, 2000)</ref>. Thus, the motor system works to minimize expected error in the face of this noise. In cases of closed-loop control (as opposed to ballistic movement), the brain can adapt control signals in response to perturbations that arise during the course of the movement, thus reducing final error. However, because motor noise is positively dependent on muscle activation <ref type="bibr" coords="3,344.30,396.03,93.13,7.91" target="#b18">(Harris &amp; Wolpert, 1998;</ref><ref type="bibr" coords="3,440.22,396.03,105.84,7.91;3,306.00,407.03,82.83,7.91" target="#b52">Schmidt, Zelaznik, Hawkins, Frank, &amp; Quinn, 1979;</ref><ref type="bibr" coords="3,391.27,407.03,55.06,7.91" target="#b60">Todorov, 2004)</ref>, optimal control conserves the corrective signals it generates, correcting only those perturbations that affect attainment of the task goal. This conservation strategy is referred to as the minimal intervention principle <ref type="bibr" coords="3,521.06,440.03,20.83,7.91;3,306.00,451.03,78.15,7.91" target="#b61">(Todorov &amp; Jordan, 2002)</ref>. Because there are generally many more degrees of freedom in the space of possible movements than in the constraints defining the task goal, variability in certain directions in movement space will be irrelevant to the goal. Optimal control allows these irrelevant perturbations to accumulate, rather than correct them at the cost of increasing motor noise. Consequently, optimal control theory predicts greater variability in task-irrelevant than in task-relevant aspects of the movement.</p><p>An example of this prediction from optimal control theory is shown in <ref type="figure" coords="3,340.93,550.02,66.13,7.91">Figures 1A and 1B</ref>. These figures depict the action space of a hypothetical task in which the goal is to produce a certain total force (say, 50 N) with two fingers (see <ref type="bibr" coords="3,452.73,572.02,93.31,7.91" target="#b61">Todorov &amp; Jordan, 2002,</ref> for an isomorphic task). The individual contributions of the fingers can vary (e.g., one finger can produce 10 N and the other 40 N), provided that variation in each finger is accommodated by an adjustment in the other. Thus, the goal-relevant dimension is the sum of the two forces, corresponding to the positive diagonal in movement space, whereas the difference between the forces (the negative diagonal) is a redundant dimension. Optimal control theory predicts any perturbation in one finger to be corrected by both fingers, to bring the system back to the nearest point on the uncontrolled manifold, in line with the minimal intervention principle (see <ref type="bibr" coords="3,345.64,693.02,65.76,7.91" target="#b7">Diedrichsen, 2007</ref>, for empirical confirmation of this prediction in a bimanual movement task). For example, the response to a deviation of ϩ20 N in one finger would be corrections This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>of Ϫ10 N in both fingers, as shown in <ref type="figure" coords="4,186.06,682.03,34.48,7.91">Figure 1A</ref>. The result of this control strategy is that the joint distribution of the two forces across trials will exhibit less variability along the goal-relevant than the redundant dimension, as illustrated by the filled circles in <ref type="figure" coords="4,306.00,77.04,34.15,7.91">Figure 1B</ref>. An alternative strategy to control each finger separately (e.g., trying to make each finger produce 25 N every time; see open circles in <ref type="figure" coords="4,341.83,99.04,35.16,7.91">Figure 1B</ref>) would decrease their individual variabilities, but it would increase variability on the goal-relevant dimension, leading to poorer performance. In summary, optimal, goal-oriented control predicts anisotropic error distributions, with selectively reduced variability on the goal-relevant dimension. This reduction is achieved by a strategy of compensatory coordination among bodily dimensions, correcting for perturbations in each other's dynamics. This coordination also increases the intercorrelations among bodily dimensions as well as their individual variances. Thus this mechanism can explain the phenomenon of functional variability, because it is variability on the goal-relevant dimension, not the separate bodily dimensions, that determines task accuracy. As we argue next, the same mechanism can explain the effects of FOA on performance and movement variability.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The Role of Attention in Motor Control</head><p>The principles of optimal control theory reviewed above, together with the findings on effects of FOA, lead to a natural proposal regarding the role of attention in motor control. Specifically, we propose that attention contributes to determining the control rule implemented by the motor system. This control rule does not necessarily correspond to the nominal, objective goal of the task. Instead, attention intervenes to determine the subjective goal of the actor. From the perspective of the uncontrolled manifold hypothesis <ref type="bibr" coords="4,363.24,385.04,91.97,7.91" target="#b53">(Scholz &amp; Schöner, 1999)</ref>, attention can be viewed as helping to determine which aspects of the movement the motor system treats as task relevant and which it treats as redundant.</p><p>Thus, when attention is focused externally, the motor system works to optimize the objective task goal. Variation along goalrelevant dimensions of the movement is minimized, while bodily dimensions vary more freely to implement the necessary coordination. In a case of two bodily dimensions, their joint distribution might be similar to the dashed oval in <ref type="figure" coords="4,450.95,473.04,35.12,7.91">Figure 1C</ref>. This predicted pattern of variability is consistent with the predictions of optimal control theory, under the assumption that the control rule aligns with the nominal task goal. When attention is focused internally, on aspects of the movement such as joint angles or velocities, the motor system treats those bodily dimensions as the goal, and it minimizes their variability even at a cost to objective performance (e.g., solid circle in <ref type="figure" coords="4,380.71,550.04,34.37,7.91">Figure 1C</ref>).</p><p>Under this theory, attention can be viewed as acting to allocate precision among competing dimensions of the movement. At a computational level, this proposal is quite similar to theories of attention in other domains. For example, <ref type="bibr" coords="4,455.29,594.04,67.37,7.91" target="#b12">Goldstone (1994a)</ref> found evidence that increased attention to a perceptual stimulus dimension (e.g., brightness) selectively improves discrimination along that dimension. <ref type="bibr" coords="4,363.27,627.04,93.02,7.91" target="#b36">Maddox and Dodd (2003)</ref> observed similar effects, which they successfully modeled using general recognition theory <ref type="bibr" coords="4,306.00,649.04,102.60,7.91" target="#b0">(Ashby &amp; Townsend, 1986)</ref> under the assumption that perceptual noise is greater on unattended than attended dimensions. Thus, attention appears to regulate the precision of perceptual representations on different stimulus dimensions.</p><p>Similar ideas have been prominent in research on attention in learning. Classic research on animal discrimination learning found that attention to different stimulus dimensions controls <ref type="figure" coords="4,48.00,368.89,28.69,6.86">Figure 1</ref>. (A) Illustration of compensatory coordination between two bodily dimensions, as predicted by an optimal control framework. The task goal is to produce a given total force with two fingers. Thus the goalrelevant dimension is the sum of the two forces (positive diagonal). The difference between forces (negative diagonal) is a redundant dimension, meaning it has no impact on accuracy. The axis for the redundant dimension (light gray line) is also the subspace of possible actions that exactly achieve the goal. If the force of one finger is randomly perturbed, by motor noise or some external event (dashed arrow), optimal control responds with the minimal necessary correction, returning to the nearest point in movement space that satisfies the goal. Because the goal-relevant dimension is oblique to the bodily dimensions, this correction involves compensation by both bodily dimensions (solid arrow). (B) Hypothetical data points showing results of two alternative control strategies for this task. Filled circles correspond to optimal (goal-oriented or externally focused) control, based on the compensatory coordination shown in <ref type="figure" coords="4,203.26,518.82,32.91,7.03">Figure 1A</ref>. This strategy selectively reduces variability in the goal-relevant dimension, and it increases the correlation and individual variances of the bodily dimensions. Open circles correspond to an internally focused control strategy that aims to minimize variability on each bodily dimension separately. (C) An abstract illustration of the predictions for the current experiment, restricted to two bodily dimensions (e.g., shoulder angle and elbow angle). The correlation between bodily dimensions was predicted to be stronger with external attention (dashed oval) than internal attention (solid circle). Here we show a negative correlation, but a positive correlation is equally possible, depending on the bodily dimensions in question and the kinematics of the task. Additionally, variability in individual dimensions was predicted to be greater with external attention (dashed bracket) than with internal attention (solid bracket). This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>how broadly animals will generalize learned associations along those dimensions <ref type="bibr" coords="5,117.67,88.39,128.44,7.91" target="#b59">(Sutherland &amp; Mackintosh, 1971)</ref>. Research on human category learning has supported the same conclusion, that category knowledge about one stimulus will be generalized to other stimuli differing greatly on unattended dimensions, but only to stimuli with small differences on attended dimensions <ref type="bibr" coords="5,48.00,145.16,122.89,7.91" target="#b22">(Jones, Maddox, &amp; Love, 2005;</ref><ref type="bibr" coords="5,174.28,145.16,61.69,7.91" target="#b44">Nosofsky, 1986)</ref>. Modern approaches from statistics and machine learning (e.g., <ref type="bibr" coords="5,266.42,156.51,21.64,7.91;5,48.00,167.86,114.74,7.91" target="#b19">Jäkel, Schölkopf, &amp; Wichmann, 2007</ref> show that these effects of attention can be modeled using Gaussian similarity kernels (which determine pairwise similarity or generalization between stimuli), with greater dispersion along unattended than attended dimensions. The findings and models in perceptual discrimination, conditioning, and categorization all fit with theories of similarity in which attention acts to weight different stimulus dimensions in determining overall similarity <ref type="bibr" coords="5,162.53,258.68,71.08,7.91" target="#b13">(Goldstone, 1994b;</ref><ref type="bibr" coords="5,237.46,258.68,46.39,7.91;5,48.00,270.04,88.67,7.91" target="#b42">Medin, Goldstone, &amp; Gentner, 1993;</ref><ref type="bibr" coords="5,139.57,270.04,59.01,7.91" target="#b44">Nosofsky, 1986)</ref>, with similarity seen as reflecting discriminability or tendency for generalization (or both). The present proposal regarding attention in motor control is consistent with this framework as well, under the assumption that deviations between actual and target movement trajectories are used to determine the need for correcting the movement. In this case, we suggest that deviations on different dimensions are weighted according to their level of attention, so that deviations on attended dimensions are corrected more strongly or consistently. Specifically, we propose that corrective signals are primarily driven by deviations in bodily dimensions in conditions of internal FOA and by deviations along goal-relevant dimensions in conditions of external FOA. Thus, whereas previous work suggests that attention serves to modulate the precision of stimulus representations along alternative dimensions, the present proposal suggests attention plays a complementary role in motor control, modulating the precision of movement along alternative dimensions. Although goal-relevant and bodily dimensions are not orthogonal and hence not in perfect competition, the prediction holds that variability in goal-relevant dimensions should be less with external than internal FOA, and vice versa for bodily dimensions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment</head><p>The main hypothesis of the current experiment was that attention influences the control structure of human movement, with internal FOA minimizing variability on individual bodily dimensions and external FOA minimizing variability on an oblique goal-relevant dimension. This hypothesis was tested with a dartthrowing paradigm with novice participants. Each subject performed the task under four FOAs, ranging from purely internal (throwing arm) to purely external (dartboard), as well as a freefocus condition. We tested the effects of attention on movement variability by recording 10 biomechanical variables (joint positions, angles, and velocities) at the moment of release on each trial. Our specific predictions, illustrated in <ref type="figure" coords="5,190.29,669.66,35.01,7.91">Figure 1C</ref>, were that more external foci would be associated with (a) increased trial-by-trial variability in the bodily dimensions and (b) stronger correlations among the bodily dimensions, leading to (c) improved performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head><p>Participants. Data were collected from 15 subjects, 13 of whom were right-handed, as identified by the Edinburgh Handedness Inventory <ref type="bibr" coords="5,362.90,117.86,57.82,7.91" target="#b45">(Oldfield, 1971)</ref>. Nine of the subjects were male. Subjects were recruited through introductory psychology classes and participated in the experiment to fulfill course credit requirements. Subjects were naive to the hypotheses of the experiment.</p><p>Apparatus and measurements. A commercially available competition bristle dartboard was set to a regulation height (1.73 m off the ground) and distance (2.37 m from the throwing line). Subjects threw regulation steel-tip darts weighing 22 g. Performance was defined as absolute error (AE) on each trial, measured as the linear distance from the center of the dartboard ("bull'seye") to the dart with a hand-held tape measure.</p><p>A Canon Z950 MiniDV camera (60 frames per second capture rate) was placed perpendicular to the line of the throw, on the side of the subject's throwing arm, to capture movement in the sagittal plane. Reflective anatomical markers were placed on the throwing arm at the acromion process at the top of the shoulder, the lateral epicondyle at the outside of the elbow, the ulnar styloid process at the lateral side of the wrist, and the first knuckle of the index finger (see <ref type="figure" coords="5,323.13,320.77,29.39,7.91" target="#fig_0">Figure 2</ref>). From these anatomical locations, five biomechanical variables were derived for characterizing the subject's throwing motion. These variables, displayed in <ref type="figure" coords="5,472.52,343.31,31.80,7.91" target="#fig_0">Figure 2</ref>, were the horizontal and vertical coordinates of the shoulder marker, SX and SY (A); the angle of the shoulder, SA (B), defined as the angle between the vertical axis, shoulder marker, and elbow marker; the angle of the elbow, EA (C), defined as the angle between the shoulder, elbow, and wrist markers; and the wrist angle, WA (D), defined as the angle between the elbow, wrist, and knuckle markers. The horizontal and vertical coordinates of the knuckle marker, KX and KY (E), and the horizontal and vertical coordinates of the dart, DX and DY (F), were used in interpolation of the release point, as explained below.</p><p>Design. The experiment was divided into four sessions occurring on separate days, with two sessions in the 1st week and two sessions in the 2nd week. Sessions were on different days each week based on subjects' availability. Each session consisted of a testing phase and one to two free practice phases. In Session 1, testing was conducted first to establish a measure of baseline performance, with practice after the testing session. Sessions 2 and 3 consisted of practice (to eliminate warm-up effects), then testing followed by more practice. Session 4 consisted of practice and then the final testing session. During free practice, subjects were allowed to throw darts at the board at their own pace with no accuracy measurements, no collection of video data, and no instructions from the experimenter. During each testing phase, subjects completed 75 throws, 15 for each of five attentional foci, in a blocked ordering. The order of attentional foci was counterbalanced with a Latin square across subjects, and a given subject always completed the foci in the same order within every session.</p><p>Procedure. Subjects were instructed and shown through experimenter demonstration to limit their throwing as much as possible to flexion and extension of the shoulder, elbow, and wrist in the sagittal plane (i.e., no "side-arming" the throw). For all five FOA conditions, subjects were instructed to try to be as accurate as possible, and the target was always the bull's-eye. Subjects were This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>required to maintain their gaze on the dartboard in all conditions, removing any confound of overt visual attention. All practice and testing phases reported here were performed with the dominant arm. At the beginning of Session 1, subjects were allowed six practice throws to familiarize themselves with the experiment setup. They then immediately began the first testing phase. Following testing, subjects were allowed 10 min of free practice. In Sessions 2 and 3, subjects completed 10 min of free practice, then a testing phase, and then another 10 min of free practice. In Session 4, subjects completed 10 min of free practice prior to a testing phase. At the end of Session 4, anatomical markers were placed on the subject's nondominant arm, and the subject performed six practice throws followed by a testing phase with that arm. Because of space considerations, results for the nondominant arm are not reported here.</p><p>For each FOA condition within each session, the subject completed five blocks of three throws (trials) each. On each block, the subject was handed three darts to throw in succession. This procedure was chosen partially because it is standard in competitive darts, but also because it should minimize disruption to the subject's posture within each block and hence enable more accurate estimation of movement variability between successive throws. Three darts were judged to be a reasonable number for the subject to hold at one time. Between blocks, subjects were allowed to relax their posture and move their feet while the experimenter made accuracy measurements. At the end of every FOA condition (i.e., after every 15 throws), subjects were given a brief rest period during which they were allowed to sit.</p><p>In each FOA condition, subjects' mental attention was directed, through verbal instruction, to a different aspect of the throw: the motion of the arm, the release of the dart, the trajectory of the dart, or the board itself. The attentional foci thus ranged from the more internal and proximal to the more external and distal. In a fifth focus condition, subjects were allowed to direct their attention freely.</p><p>For the arm condition, subjects' attention was directed to the motion of the throwing arm. At the beginning of this condition in each testing phase, subjects were told, "Focus on the motion of your arm. When you make a mistake, or when you are off target, try to fix it by correcting the motion of your arm." In each subsequent block in this condition, subjects were reminded, "Be as accurate as possible, mentally focused on the movement of your arm."</p><p>The release condition directed subjects' attention to the release of the dart. In this condition, subjects were told, "Focus on the dart leaving your hand. When you make a mistake, or when you are off target, try to fix it by correcting the release of the dart." In each subsequent block in this condition, subjects were reminded, "Be as accurate as possible, mentally focused on the dart leaving your hand."</p><p>The trajectory condition directed subjects' attention to the flight of the dart. In this condition, subjects were told, "Focus on the flight of the dart into the board. When you make a mistake, or when you are off target, try to fix it by correcting the flight of the dart." In each subsequent block in this condition, subjects were reminded, "Be as accurate as possible, mentally focused on the flight of the dart."</p><p>The board condition directed subjects' attention to the target on the board. In this condition, subjects were told, "Focus on the bull's-eye. When you make a mistake or when you are off target, try to fix it by refocusing on the next trial." In each subsequent block in this condition, subjects were reminded, "Be as accurate as possible, mentally focused on the bull's-eye."</p><p>The uninstructed free-focus condition served as a control condition, and subjects were simply encouraged to "be as accurate as possible." If subjects asked how they should focus, the instructions were repeated, and subjects were encouraged to focus on whatever they felt would yield the best performance.</p><p>In the rest period following the free-focus condition in each testing phase, subjects were asked, "What, if anything, were you focused on during the last set of throws when we did not give you explicit instructions on how to focus?" Their verbal responses were coded as indicating focus on the arm, release, trajectory, or dartboard, based on subjects' references to these areas. This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis</head><p>Three groups of dependent variables were defined: instantaneous joint coordinates and angles at the moment of release, joint velocities and angular velocities at release, and the accuracy of the outcome. Accuracy was assessed by AE, the distance from the dart to the bull's-eye. Mean AE was calculated for each combination of subject, session, and focus by averaging over the 15 trials. The biomechanical variables measured were the shoulder coordinates SX and SY; the joint angles SA, EA, and WA; and their respective velocities, ⌬SX, ⌬SY, ⌬SA, ⌬EA, and ⌬WA. The analysis focused on the standard deviation of each variable as well as the structure of correlations among the variables. Analysis of mean biomechanical variables revealed no significant differences across sessions or focus conditions and is therefore omitted from the results. The following subsections detail the estimation of these biomechanical variables at the moment of release, calculation of their standard deviations and correlation structure, and assessment of changes in correlation structure across conditions and sessions.</p><p>Estimating biomechanical variables at release. Videos of the test sessions were analyzed to determine the joint positions and velocities at the time the dart left the hand on each throw. Video data were processed with Dartfish ConnectPro motion-analysis software (http://dartfish.com). For each trial, we identified the first frame of the video on which the dart had clearly left the hand, referred to here as frame n. Joint positions and angles were then recorded for frames n Ϫ 1, n, and n ϩ 1. These measurements included SX, SY, SA, EA, WA, KX, KY, DX, and DY. The coder used a computer mouse to click on each of the anatomical markers and the tail of the dart, and the software used this input to record coordinates and angles. Horizontal coordinates were coded in the direction from the subject to the target, so that forward motion of the subject was positive. Vertical coordinates were coded from top to bottom, so that upward motion was negative.</p><p>Velocity variables (⌬SX, ⌬SY, ⌬SA, ⌬EA, and ⌬WA) were estimated by subtraction between frames n Ϫ 1 and n. This difference was then multiplied by the frame rate, 60 Hz, to obtain values in centimeters per second or degrees per second.</p><p>Estimation of instantaneous variables (SX, SY, SA, EA, and WA) was done by linear interpolation between frames n Ϫ 1 and n. Define t as the exact moment when the dart left the hand, with n Ϫ 1 Յ t Ͻ n (note that t is in units of frame count, not seconds or milliseconds). Linear interpolation yields the following estimate of each variable V:</p><formula xml:id="formula_0" coords="7,93.02,564.78,150.01,9.92">V t ϭ V n ϫ (t Ϫ (n Ϫ 1)) ϩ V nϪ1 ϫ (n Ϫ t).</formula><p>(1)</p><p>Here V represents SX, SY, SA, EA, or WA, and subscripts indicate the time for which V was observed or inferred. The time of release, t, was estimated by comparing the trajectories of the knuckle and dart across trials n Ϫ 1 through n ϩ 1. <ref type="figure" coords="7,48.00,627.04,32.59,7.91">Figure 3</ref> illustrates the logic of the estimation procedure. We assume the knuckle follows an approximately linear path in the 17 ms between frames n Ϫ 1 and n. The dart's trajectory is more complicated, but as a simple approximation we assume a piecewise linear path. Before release (from n Ϫ 1 to t), the dart's motion is controlled by the hand, and thus its trajectory is parallel to that of the knuckle. After release (from t to n ϩ 1), the dart changes speed and direction to follow a new path, which is taken as approximately linear over this 17-to 33-ms period. Inspection of the videos supports this as a reasonable approximation of the dart's path, in that the effect of air resistance on the dart's tail and consequent reorientation of the dart occur very rapidly, in less than one frame interval. This simple dynamic model is by no means exact, but it enables much more precise estimation of the arm configuration at release than would directly with the measurements from frame n Ϫ 1 or n.</p><p>Under these assumptions, the release time can be directly solved as a function of the observed knuckle and dart positions:</p><formula xml:id="formula_1" coords="7,351.86,418.01,194.17,58.29">t ϭ n Ϫ DX n Ϫ DX nϪ1 Ϫ ͑KXn Ϫ KX nϪ1͒ DX nϩ1 Ϫ DX n Ϫ ͑KXn Ϫ KX nϪ1͒ (2a) t ϭ n Ϫ DY n Ϫ DY nϪ1 Ϫ ͑KYn Ϫ KY nϪ1͒ DY nϩ1 Ϫ DY n Ϫ ͑KYn Ϫ KY nϪ1͒ .<label>(2b)</label></formula><p>Equations 2a and 2b embody the same calculations, based on horizontal and vertical coordinates, respectively. If all coordinate measurements are exact, then (according to the piecewise linear model) both equations should yield identical results. However, there is noise in the coordinate measurements because of perceptual or motor error when the coder clicked on each marker in the video. Therefore we used a Bayesian approach to estimate t in the face of this measurement error. The Bayesian approach is described fully in the Appendix and summarized here. We assume independent Gaussian error in KX, KY, DX, and DY on each frame. This assumption implies Gaussian distributions for both the numerator and the denominator of Equation 2a or 2b. The distribution of their ratio can be evaluated analytically with mathematical results from <ref type="bibr" coords="7,481.26,627.04,60.92,7.91" target="#b38">Marsaglia (1965</ref><ref type="bibr" coords="7,306.00,638.04,16.80,7.91" target="#b39">Marsaglia ( , 2006</ref> concerning the distribution of the ratio of two correlated Gaussian variables. This method yields a posterior distribution for t, meaning the probability distribution over when the release occurred conditioned on the data (i.e., on the observed coordinates of the dart and knuckle on frames n Ϫ 1 through n ϩ 1). The one free parameter in this procedure is the variance of the measurement error, which was estimated empirically as described in the Appendix. <ref type="figure" coords="7,306.00,213.55,27.42,6.86">Figure 3</ref>. Illustration of interpolation of release time, t, between frames n Ϫ 1 and n. The hand is assumed to follow a linear trajectory between these frames. The dart is assumed to parallel this trajectory before release (from n Ϫ 1 to t) and to follow a new linear path after release (from t to n ϩ 1). These assumptions, together with the observed positions of the knuckle on frames n Ϫ 1 and n and of the dart on frames n Ϫ 1, n, and n ϩ 1, enable inference of t (see <ref type="table" coords="7,416.37,273.48,34.44,7.03" target="#tab_1">Equation 2</ref>). This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>The mean of the posterior distribution for t was then used in Equation 1 to obtain interpolated values of joint positions and angles. Note that because of the linearity of Equation 1, using the posterior mean gives the same result as integrating over the full posterior distribution.</p><p>In summary, the interpolation procedure assumes each measurement of knuckle or dart position includes independent Gaussian error, and it assumes the knuckle and dart follow linear and piecewise-linear trajectories in the 17-33 ms around the time of release, as shown in <ref type="figure" coords="8,125.07,176.04,29.83,7.91">Figure 3</ref>. Bayesian inference with respect to these assumptions yields an estimate for the exact release time (see Appendix), which is then used to obtain interpolated values for the joint positions and angles at the moment of release (Equation 1).</p><p>Estimating variance and correlations among variables. Variances and covariances among the 10 biomechanical variables of interest were computed for each combination of subject, session, and focus as follows. First, the variance-covariance matrix among all 10 variables was computed separately for each block of three trials. Second, these matrices were averaged across the five blocks. This approach yields an estimate of variance and covariance across all 15 trials, but allowing for the variables to have different means in the different blocks. Because subjects held and threw three darts at a time, we assumed within-block (co)variance represents intrinsic variability in the movement, whereas betweenblock (co)variance could reflect additional processes such as shifts in stance between blocks. The present approach captures only the former type of variability.</p><p>The resulting covariance matrix for each combination of subject, session, and focus was then converted to standard deviations for all variables and a correlation matrix among variables. Standard deviations were obtained as square roots of the diagonal entries (i.e., of the variances). The correlation matrix was obtained by dividing each row and each column of the covariance matrix by the corresponding standard deviation. The approach of averaging variances and covariances across blocks before converting to standard deviations and correlations was used because sample variance and covariance are unbiased estimators (whereas sample standard deviation and correlation are not), meaning that the average of several estimates yields an unbiased estimate.</p><p>Analysis of coordination among biomechanical variables. The present theory predicts that, under external FOA, the joint distribution of biomechanical variables will be compressed along some oblique goal-relevant dimension that determines the task outcome (i.e., landing location of the dart). This compression would produce a correlation structure among the variables, reflecting their increased coordination induced by the goal-based control strategy (see <ref type="figure" coords="8,96.60,583.03,29.56,7.91">Figure 1</ref>). In contrast, internal FOA should induce a body-based control strategy that produces a weaker correlation structure. To test this prediction, we devised an analytic method for assessing the extent to which a multidimensional distribution is compressed along an unknown, oblique dimension.</p><p>The method generalizes the concept of Pearson correlation for two variables. In the case of two variables with a bivariate Gaussian distribution, Pearson correlation can be viewed as measuring how compressed their joint distribution is relative to an independent distribution. More precisely, if one considers the area taken up by the joint distribution (e.g., within 1 standard deviation in every direction) and compares it to an alternative distribution in which the variables are independent but their individual standard deviations are unchanged, the ratio of squared areas can be shown to equal 1 Ϫ r 2 , where r is the Pearson correlation. <ref type="figure" coords="8,513.71,88.04,32.34,7.91">Figure 4</ref> illustrates this relationship for a case of r ϭ .8. Intuitively, 1 Ϫ r 2 is the fraction of the total variance that remains once the dependence between the variables is taken into account.</p><p>This approach generalizes to higher dimensional distributions as follows. First, we consider the volume effectively taken up by any n-dimensional Gaussian distribution, represented by an ellipsoid spanning 1 standard deviation in every direction. Then we compare the empirical distribution to an alternative distribution in which the variables are all independent but their individual standard deviations are unchanged. The ratio of squared volumes of these two distributions can be shown to equal the determinant of the empirical correlation matrix, which we denote by D. That is, D measures the fraction of the squared volume taken up by the distribution relative to what it would be if the variables were all independent.</p><p>In the case of n ϭ 2, the correlation matrix equals [1 r; r 1], and its determinant is 1 Ϫ r 2 . With n Ͼ 2, D depends on all the pairwise correlations, but it serves the same purpose of indicating how strongly the distribution is collapsed to some arbitrary hyperplane. Mathematically, D must always lie between 0 and 1. If the joint distribution of biomechanical variables has low variance on some oblique goal-relevant dimension, meaning variability is largely constrained to the hyperplane defined by the redundant dimensions (as predicted for external FOA), then D will be closer to 0. If the biomechanical variables are more independent (as predicted for internal FOA), D will be closer to 1. D thus measures the degree to which the motor system selectively limits variability <ref type="figure" coords="8,306.00,605.78,26.88,6.86">Figure 4</ref>. Illustration of the relationship between correlation and the area spanned by a bivariate distribution. The black ellipse represents a Gaussian distribution with a correlation of .8 between x and y. The ellipse indicates 1 standard deviation in every direction (i.e., projecting it along any dimension gives twice the standard deviation for that dimension). The gray circle represents a new distribution in which the standard deviations SD(x) and SD(y) are unchanged, but the correlation is 0. The ratio of squared areas between the ellipse and circle is 1 Ϫ r 2 , or 36%. This value can be thought of as the proportion of the joint variance of the variables that remains once their correlation is taken into account. It is also equal to the determinant of the correlation matrix, [1 r; r 1], a relationship that generalizes to higher dimensions. This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>on some oblique dimension, as opposed to independently controlling individual bodily dimensions. <ref type="bibr" coords="9,173.74,86.61,3.50,4.83">1</ref> The power of this analytic approach lies in that it does not require a priori knowledge of the goal-relevant dimension (i.e., of the complex kinematic relationship between bodily dimensions and task outcome) and that it is insensitive to scaling differences in the variances of individual bodily dimensions, instead depending only on their correlations. A counterpoint to the first strength is that finding a smaller determinant only indicates compression along some oblique dimension, not necessarily corresponding to the task goal. However, such a finding in conjunction with improved performance (as both predicted for external FOA) would provide strong converging evidence that the compressed oblique dimension corresponds to the goal-that is, support for our primary hypothesis that external FOA acts by shifting control to the goal-relevant dimension. Moreover, we demonstrate in the Results and Discussion section, through basic considerations of the task dynamics, that the specific patterns found in the correlation structure are indeed in qualitative agreement with what should be the goal-relevant dimension for this task.</p><p>Statistical tests. The statistical questions of interest concern how mean AE, the standard deviation of each biomechanical variable, and the determinant of the correlation matrix varied across sessions and attentional foci. To answer these questions we subjected each of the dependent measures just listed to a Session ϫ Focus repeated-measures analysis of variance (ANOVA). Greenhouse-Geisser (GG) corrections for deviations from sphericity were applied to all F statistics. Correlation determinants based on theoretically motivated subsets of the variables, as described in the Results and Discussion section, were analyzed in the same way. In addition to the ANOVA tests of focus, a linear contrast was defined over the four directed foci (i.e., excluding free), with values of Ϫ1.5 for arm, Ϫ.5 for release, .5 for trajectory, and 1.5 for board. This contrast was tested with single-sample t tests, to determine whether each of the dependent measures shows a systematic change from internal to external FOA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>The results of all statistical tests regarding accuracy and biomechanical variability are summarized in <ref type="table" coords="9,190.10,517.04,82.35,7.91" target="#tab_0">Table 1 (focus effects)</ref> and <ref type="table" coords="9,48.00,528.04,27.59,7.91" target="#tab_1">Table 2</ref> (session effects). There were almost no significant focussession interactions, so these results are only briefly mentioned in the text. The following subsections describe the results for accuracy, then variability of individual bodily dimensions, and then correlations among dimensions.</p><p>Initial inspection of mean values of the biomechanical variables (not their standard deviations) showed that shoulder velocity was negligible, averaging 23.3 cm/s for ⌬SX and Ϫ2.2 cm/s for ⌬SY (18.9 cm/s for |⌬SY|). For comparison, mean dart velocity was 384.4 cm/s for ⌬DX and Ϫ120.0 cm/s for ⌬DY. Therefore shoulder velocity was omitted from the analysis, as it was not expected to play a significant role in movement control. Instantaneous shoulder coordinates (SX and SY) were retained, because the height of the shoulder and the horizontal distance from the target should be expected to interact with joint angles. Mean joint velocities were all large: 239.2°/s for ⌬SA, 836.0°/s for ⌬EA, and 644.6°/s for ⌬WA. Thus the biomechanical variables analyzed were SX, SY, SA, EA, WA, ⌬SA, ⌬EA, and ⌬WA.</p><p>Before reporting the primary results, we briefly summarize subjects' self-reports of their attentional focus during the free condition. Of the 60 self-reports (15 subjects in four sessions), 5 identified the arm, 5 the release of the dart, 7 the trajectory of the dart, and 42 the dartboard (one report was uncodable). Therefore it was expected that the free-focus condition would exhibit patterns of performance and movement variability closest to the board condition.</p><p>Accuracy. The distance from the dart to the target (AE) shows a strong effect of FOA (p Ͻ .01; see <ref type="table" coords="9,442.34,177.37,26.37,7.91" target="#tab_0">Table 1</ref>). The linear contrast also shows a reliable effect (p Ͻ .05), with better performance for more external focus. <ref type="figure" coords="9,383.98,199.66,37.42,7.91" target="#fig_1">Figure 5A</ref> displays the relationship between FOA and AE. There is a large (15.3%) drop in error from the arm to the trajectory condition, and a slight rise for the board condition. The effect of session is not significant (p ϭ .32; see <ref type="table" coords="9,498.56,233.10,26.36,7.91" target="#tab_1">Table 2</ref>), nor is the session-focus interaction (p ϭ .33, 2 ϭ .08). In summary, the accuracy data support the hypothesis that performance is better with external FOA.</p><p>Variability of bodily dimensions. The primary prediction regarding variability of individual biomechanical variables was that their standard deviations would be greater with external FOA. The starting point for this analysis was an estimate of the standard deviation for each variable, for each combination of subject, session, and focus (see Analysis section).</p><p>Because all eight variables provide somewhat redundant tests of the primary prediction, we first sought a single omnibus test combining information from all of them. The simplest approach would be to average the standard deviations of the eight variables, but their values are on quite different scales (see means columns in <ref type="table" coords="9,306.00,400.32,27.21,7.91" target="#tab_0">Table 1</ref> or 2). Therefore we first put all the variables on a common scale by calculating z scores, separately for each variable and within each subject. For example, for Subject 1 there are 20 estimates of the standard deviation of SX, one for each sessionfocus combination. That set of 20 estimates was converted to z scores. After all scores had been calculated, the z scores for the eight variables were averaged, for each combination of subject, session, and focus, to produce an aggregate measure of the variability of the individual dimensions. <ref type="figure" coords="9,315.00,500.58,37.51,7.91" target="#fig_1">Figure 5B</ref> shows the relationship between the aggregate variability measure and FOA. Statistical tests showed a highly reliable focus effect, p Ͻ .01 for the ANOVA and p Ͻ .001 for the linear contrast, with greater variability for external FOA (see <ref type="table" coords="9,512.58,533.99,26.98,7.91" target="#tab_0">Table 1</ref>). The ANOVA showed no significant effect of session (p ϭ .26; see <ref type="table" coords="9,306.00,556.27,27.02,7.91" target="#tab_1">Table 2</ref>) or session-focus interaction (p ϭ .41, 2 ϭ .07). Therefore there is strong support for the prediction of greater variability of individual dimensions with external FOA. <ref type="bibr" coords="9,314.00,606.44,3.00,4.40">1</ref> The determinant method is closely related to principal component analysis but is more efficient for present purposes. Principal component analysis applied to a correlation matrix yields a list of variances of the principal components (after the original variables have been standardized), equal to the eigenvalues of the matrix. The present theory predicts the eigenvalues to be more heterogeneous under external FOA, corresponding to a strategic shift of variability from goal-relevant dimensions to redundant dimensions. The determinant is the product of the eigenvalues and hence gives a single aggregate measure of this prediction. Because the eigenvalues of a correlation matrix must have a mean of 1, the determinant will be closer to 0 when the eigenvalues are heterogeneous (some much smaller than 1, others greater), and it will be closer to 1 when the eigenvalues are homogeneous (all near 1). This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>The analysis of individual biomechanical variables shows the same pattern, albeit weaker. <ref type="figure" coords="10,160.27,407.04,32.58,7.91">Figure 6</ref> displays each variable's average standard deviation as a function of FOA. As <ref type="table" coords="10,258.65,418.04,29.38,7.91" target="#tab_0">Table 1</ref> shows, the ANOVAs revealed a significant focus effect for EA (p Ͻ .05) and marginal effects for SA and ⌬EA (ps Ͻ .1). The linear contrasts showed significant effects for SA (p Ͻ .05), ⌬SA (p Ͻ .05), and ⌬EA (p Ͻ .01) and a marginal effect for EA (p Ͻ .1), all in the direction of greater variability with external FOA. The effect of session did not approach significance except for EA and ⌬EA (ps Ͻ .05; see <ref type="table" coords="10,80.83,495.04,27.15,7.91" target="#tab_1">Table 2</ref>). There was no evidence for any focus-session interactions (all ps Ͼ .25, 2 s Ͼ .09).</p><p>Coordination of bodily dimensions. The results presented thus far show that external FOA produces greater accuracy but also greater variability of individual bodily dimensions. The present theory hypothesizes that the improved accuracy is due to compensatory coordination among bodily dimensions, which increases their individual variability but reduces the variability of an oblique goal-relevant dimension in the movement space. This hypothesis was tested with the determinant method described in the Analysis section, which uses the correlation matrix among a set of variables to quantify their compression along one or more oblique dimensions. Smaller values of the determinant imply more compression or coordination, and thus the primary prediction was a smaller determinant for more external focus conditions.</p><p>As a starting point, we applied this method to the full set of eight biomechanical variables. For each combination of subject, session, and focus, we calculated the determinant of the estimated correlation matrix among all eight variables, which we denote D8. Because of the large number of variables involved, and hence the large number of potential interdependencies, D8 was quite small, with median value .0004 and a heavily right-skewed distribution. Therefore a logarithmic transformation was applied for statistical testing, which produced an approximately normal distribution. <ref type="figure" coords="10,306.00,430.23,38.35,7.91" target="#fig_2">Figure 7A</ref> shows untransformed means (i.e., e mean(log(D8)) ) as a function of focus. As shown in <ref type="table" coords="10,422.78,441.63,26.71,7.91" target="#tab_0">Table 1</ref>, there was a strong effect of FOA (p Ͻ .01), with mean log(D8) being smaller for the external foci. The linear contrast was marginally significant (p ϭ .07). There was no indication of an effect of session (p ϭ .60; see <ref type="table" coords="10,306.00,487.22,25.73,7.91" target="#tab_1">Table 2</ref>), although there was marginal evidence for a session-focus interaction, F(4.79, 67.12) ϭ 2.03, GG ε ϭ .40, p ϭ .09, 2 ϭ .13. Inspection of the data for separate sessions indicates strong effects of focus for Sessions 1, 2, and 4 and no effect in Session 3. The next step was to investigate whether the stronger pattern of correlations found with external FOA is consistent with the dynamics of the task. <ref type="table" coords="10,379.48,555.61,28.18,7.91" target="#tab_2">Table 3</ref> presents the mean correlation matrix among all eight biomechanical variables, averaged over all subjects, sessions, and foci. <ref type="table" coords="10,395.08,578.41,27.33,7.91" target="#tab_3">Table 4</ref> presents the linear contrast across the four directed foci (averaged over subjects and sessions), with positive values indicating greater (i.e., more positive) correlations with external FOA. (Full data for individual foci and sessions are available on request from either of the first two authors.) From these tables, it appears that the strongest correlations, as well as the strongest dependencies on focus, involve the instantaneous angles, the angular velocities, and the intercorrelations between these two sets. First, SA, EA, and WA are all positively correlated, and these correlations grow with external FOA. Second, ⌬SA is positively correlated with ⌬EA and ⌬WA, and the correlations among all three increase with external focus. Third, the instantaneous angles are all negatively correlated with the angular velocities, a pattern Note. GG ε is epsilon statistic for Greenhouse-Geisser correction. Linear contrast is over the first four foci (excluding free). D8 is determinant of all eight biomechanical variables; D5 is determinant of all five instantaneous variables; D3 is determinant of all three instantaneous angles; D3⌬ is determinant of all three angular velocities. D8 was transformed to log scale for statistical tests (columns 7-14) but was transformed back for means by focus; that is, columns 2-6 show exp(mean(log(D8))). PCi and PCv are the first principal components of the three instantaneous angles and the three angular velocities, respectively. Degrees of freedom are ε·4 and ε·56 for all F tests and 14 for all t tests. ANOVA ϭ analysis of variance.</p><formula xml:id="formula_2" coords="10,49.50,359.00,167.45,9.00">† p Ͻ .10. ‫ء‬ p Ͻ .05. ‫ءء‬ p Ͻ .01. ‫ءءء‬ p Ͻ .001.</formula><p>This document is copyrighted by the American Psychological Association or one of its allied publishers. This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>that again strengthens with external focus (as shown by the negative coefficients for the linear contrast in <ref type="table" coords="11,205.92,407.04,26.74,7.91" target="#tab_3">Table 4</ref>). These patterns are all consistent with basic considerations of the task dynamics. We illustrate with the example of the shoulder and elbow angles. As shown in <ref type="figure" coords="11,150.54,440.04,35.29,7.91">Figure 8A</ref>, the kinematics of the task create a trade-off between these two joints, both in their velocities and in their positions at release. Larger shoulder velocities contribute to more rise in the dart, whereas larger elbow velocities contribute to more drop in the dart. Therefore ⌬SA and ⌬EA compensate for each other, and goal-based control should produce a positive correlation, just as was observed. The same considerations apply to the instantaneous angles at release, SA and EA: These also compensate for each other's effect on the loft of the dart, so again we would predict a positive correlation that grows with external focus. Assuming the forearm is about half the length of the whole arm, it takes roughly twice as much change in the elbow to compensate for a change in the shoulder. <ref type="figure" coords="11,57.00,583.04,37.40,7.91">Figure 8B</ref> illustrates how the bivariate distribution of SA and EA changes across focus conditions. For each focus excluding free, we computed the average across subjects and sessions of M(SA), M(EA), SD(SA), SD(EA), and correlation(SA,EA). The ellipse shown for each focus represents a bivariate Gaussian distribution with those averaged values (indicating 1 standard deviation in every direction, as in <ref type="figure" coords="11,157.88,649.04,29.44,7.91">Figure 4</ref>). As FOA progresses from internal to external, the variability of each bodily dimension increases, but so does the correlation. Consequently there is a decrease in variability along an oblique dimension seen here as the negative diagonal. <ref type="figure" coords="11,120.12,693.04,38.19,7.91">Figure 8C</ref> highlights this effect, by plotting only the arm and board conditions and centering each distribution. Critically, the oblique dimension showing reduced variability with external focus agrees qualitatively with the goal-derived dimension implied by the kinematic trade-off described above. That is, because SA and EA counteract each other, the goal-derived dimension should be related to the difference between these two bodily dimensions. In fact even the quantitative agreement is good: The oblique dimension indicated by the arrow in <ref type="figure" coords="11,484.34,451.04,36.36,7.91">Figure 8C</ref> equals 2EA Ϫ SA, which is consistent with the roughly 2:1 trade-off suggested above.</p><p>Similar considerations to the simple kinematic analysis above suggest a positive trade-off between shoulder angle and wrist angle, in terms of instantaneous position at release as well as velocity. The elbow-wrist relationship is complicated by the relationship of both to the shoulder. Nevertheless it is clear that there should be strong dependencies among all three joint angles in their effect on the outcome, and hence we should expect a strong pattern of compensation-induced correlation among them, especially with external FOA. To test this hypothesis, we defined D3 as the determinant for SA, EA, and WA, and we defined D3⌬ as the determinant for ⌬SA, ⌬EA, and ⌬WA. As shown in <ref type="figure" coords="11,506.43,594.03,35.35,7.91" target="#fig_2">Figure 7B</ref>, both of these measures decrease with external FOA. For D3, the ANOVA across all five foci was significant at p Ͻ .01, and the linear contrast was significant at p Ͻ .001 (see <ref type="table" coords="11,474.55,627.03,25.83,7.91" target="#tab_0">Table 1</ref>). There was no evidence of an effect of session (p ϭ .82; see <ref type="table" coords="11,495.98,638.03,27.77,7.91" target="#tab_1">Table 2</ref>) or a session-focus interaction (p ϭ .69, 2 ϭ .05). For D3⌬, the ANOVA across all five foci and the linear contrast were both significant at p Ͻ .05. There was no evidence of an effect of session (p ϭ .33), although there was a session-focus interaction, F(6.39, 89.40) ϭ 2.58, GG ε ϭ .53, p Ͻ .05, 2 ϭ .16, which was seen to arise from an absent focus effect in Session 3 (consistent with the finding for D8). In summary, there is strong evidence that Note. GG ε is epsilon statistic for Greenhouse-Geisser correction. D8 is determinant of all eight biomechanical variables; D5 is determinant of all five instantaneous variables; D3 is determinant of all three instantaneous angles; D3⌬ is determinant of all three angular velocities. D8 was transformed to log scale for statistical tests (columns 6 -10) but was transformed back for means by session; that is, columns 2-5 show exp(mean(log(D8))). PCi and PCv are the first principal components of the three instantaneous angles and the three angular velocities, respectively. Degrees of freedom are ε·3 and ε·42 for all F tests. ANOVA ϭ analysis of variance.</p><formula xml:id="formula_3" coords="11,48.00,359.00,83.98,9.00">‫ء‬ p Ͻ .05. ‫ءءء‬ p Ͻ .001.</formula><p>This document is copyrighted by the American Psychological Association or one of its allied publishers. This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>the correlation structures among both the instantaneous angles and the angle velocities became stronger with external FOA, and in a way consistent with basic considerations of the task dynamics. Also of interest are the relationships between these two groups, that is, between {SA, EA, WA} and {⌬SA, ⌬EA, ⌬WA}. <ref type="table" coords="12,264.04,451.04,23.99,7.91;12,48.00,462.04,27.51,7.91" target="#tab_2">Tables  3 and 4</ref> show negative correlations that grow stronger with external FOA. This pattern also fits the kinematics of the task: If the movement is too advanced (SA, EA, and WA too large), then accuracy will be improved by slowing before release. A new method was required to test the reliability of this effect, because the determinant approach only applies to the relationships among a single set of variables.</p><p>For each subject, we used his or her covariance matrix (averaged over sessions and foci) to determine the first principal component (PC) for SA, EA, and WA, which we denote PCi for instantaneous PC. We similarly determined each subject's first PC for ⌬SA, ⌬EA, and ⌬WA, which we denote PCv for velocity PC. Because the previous analyses found that the variables in each group covary, PCi and PCv give unidimensional measures of the combined variation of each group. We then calculated the values of PCi and PCv on all trials, and estimated their correlation for each combination of subject, session, and focus following the same procedure as before (i.e., computing their variances and covariance within each block, averaging over the five blocks, and then converting to a correlation). <ref type="figure" coords="12,77.70,682.03,37.78,7.91" target="#fig_2">Figure 7C</ref> shows the mean correlation between PCi and PCv as a function of focus condition. This correlation is significantly more negative for the external foci, as shown by the ANOVA and the linear contrast (both ps Ͻ .05; see <ref type="table" coords="12,253.26,715.03,28.05,7.91" target="#tab_0">Table 1</ref>).</p><p>There was also a significant effect of session (p Ͻ .001), with stronger negative correlations (averaged across foci) in Sessions 1 and 4 than in Sessions 2 and 3 (see <ref type="table" coords="12,472.39,99.04,27.48,7.91" target="#tab_1">Table 2</ref>). However, there was no indication of a focus-session interaction (p ϭ .51, 2 ϭ .06), so the focus effect appears to be present in every session. In summary, these results support the conclusion that the correlations between the instantaneous joint angles and the angular velocities become more negative with external FOA.</p><p>Finally, we analyzed the correlation determinant for all five instantaneous variables (SX, SY, SA, EA, WA), denoted D5, as a complement to D3⌬, which comprised all velocity variables. <ref type="figure" coords="12,531.04,187.04,11.25,7.91;12,306.00,198.04,24.96,7.91" target="#fig_2">Figure 7B</ref> shows a monotonic decrease in D5 as a function of focus condition. This effect is significant at p Ͻ .01 for the ANOVA on all five conditions and at p Ͻ .001 for the linear contrast (see <ref type="table" coords="12,525.55,220.04,20.49,7.91;12,306.00,231.04,3.25,7.91" target="#tab_0">Table  1</ref>). There was no indication of an effect of session (p ϭ .39; see <ref type="table" coords="12,306.00,242.04,27.24,7.91" target="#tab_1">Table 2</ref>) or a focus-session interaction (p ϭ .81, 2 ϭ .03).  <ref type="bibr" coords="12,95.15,375.77,80.63,7.03" target="#b31">(Loftus &amp; Masson, 1994)</ref>. Rels ϭ release; traj ϭ trajectory. <ref type="figure" coords="12,306.00,665.71,27.64,6.86">Figure 6</ref>. Mean standard deviations of end-point kinematics for instantaneous coordinates (A), instantaneous joint angles (B), and angular velocities (C), as a function of attentional focus. S ϭ shoulder; E ϭ elbow; W ϭ wrist; X ϭ horizontal coordinate; Y ϭ vertical coordinate; A ϭ angle; ⌬ ϭ velocity; rels ϭ release; traj ϭ trajectory. Error bars show within-subject standard error <ref type="bibr" coords="12,402.41,715.64,81.87,7.03" target="#b31">(Loftus &amp; Masson, 1994)</ref>. This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>In conclusion, the findings of improved performance and increased variability of individual bodily dimensions with external FOA are well explained as a consequence of coordination among dimensions to reduce goal-relevant variability. The correlation determinant analysis, as applied to the full set of biomechanical variables as well as to various subsets, shows that external FOA induced increased compression along oblique dimensions in the abstract movement space. Moreover, the specific patterns of correlations found, and their dependence on FOA, agree with the patterns of compensation expected from basic considerations of the task dynamics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General Discussion</head><p>The results of the current study support the hypothesis that the FOA plays a significant role in determining the control structure of human motor behavior. When attention was directed externally, subjects exhibited improved performance, greater trial-by-trial variability in individual bodily dimensions (i.e., joint angles and velocities), and stronger correlations among those bodily dimensions. This pattern is consistent with the predictions of optimal control theory <ref type="bibr" coords="13,359.73,172.68,94.46,7.91" target="#b61">(Todorov &amp; Jordan, 2002)</ref>, assuming a control rule operating directly on the outcome of the task (i.e., the flight or landing point of the dart). Conversely, when attention was directed internally, subjects exhibited worse accuracy, reduced variability of individual bodily dimensions, and weaker correlations among those bodily dimensions, consistent with a control rule operating on the arm's movement rather than on the movement outcome. Results for the free-focus condition were closest to the external focus conditions, consistent with subjects' self-reports of predominantly adopting a board focus in that condition.</p><p>The accuracy results replicate numerous previous findings of external FOA improving motor performance (e.g., <ref type="bibr" coords="13,493.40,294.45,52.64,7.91;13,306.00,305.52,20.50,7.91" target="#b3">Bell &amp; Hardy, 2009;</ref><ref type="bibr" coords="13,328.81,305.52,66.91,7.91" target="#b33">Lohse et al., 2010;</ref><ref type="bibr" coords="13,398.03,305.52,39.25,7.91" target="#b69">Wulf, 2007</ref><ref type="bibr" coords="13,443.63,305.52,15.50,7.91" target="#b70">Wulf, , 2012</ref>. However, the present study goes beyond previous research by elucidating the strategic and kinematic mechanisms that underlie the attentionperformance relationship. Specifically, we propose that internal and external FOA create different goals for the motor system, leading to different control strategies. With external FOA, motor control acts to optimize the objective task goal (e.g., to minimize distance from the target), whereas with internal FOA it acts to control the movement itself. The former control strategy produces better performance, because it allows bodily dimensions to coordinate with each other and to compensate for noise or error in each other's dynamics. This compensatory coordination selectively minimizes variability on the goal-relevant dimensions within the abstract space of possible movements, while allowing variability in redundant dimensions to accumulate, in line with the minimal intervention principle of optimal control theory <ref type="bibr" coords="13,484.55,471.55,58.01,7.91;13,306.00,482.61,39.77,7.91" target="#b61">(Todorov &amp; Jordan, 2002)</ref>. Because the goal-relevant dimension is generally oblique to the individual bodily dimensions (i.e., multiple bodily dimensions affect the outcome), selective control of the goalrelevant dimension manifests as a pattern of correlations among the bodily dimensions.</p><p>The prediction that external FOA selectively reduces variability on the goal-relevant dimension was tested with a novel analytical approach based on the determinant of the correlation matrix among the bodily dimensions. The correlation determinant gives a single measure of the strength of the correlation structure among a set of variables, in terms of how compressed their joint distribution is along some oblique dimension, with a smaller determinant indicating more compression. An advantage of this method is that it does not require a priori knowledge of how the goal-relevant dimension is oriented with respect to the bodily dimensions, which enables the prediction to be tested without relying on complex kinematic modeling to estimate the true goal-relevant dimension. A disadvantage is that when a stronger correlation structure (i.e., smaller determinant) is observed, one cannot directly verify that the compression is aligned with the goal-relevant dimension and not with some arbitrary other dimension. Nevertheless, basic considerations of the task dynamics suggest that the pattern of corre- , as a function of attentional focus. SX ϭ shoulder horizontal; SY ϭ shoulder vertical; SA ϭ shoulder angle; EA ϭ elbow angle; WA ϭ wrist angle; ⌬ ϭ velocity; rels ϭ release; traj ϭ trajectory. Error bars show withinsubject standard error <ref type="bibr" coords="13,124.96,568.99,85.39,7.03" target="#b31">(Loftus &amp; Masson, 1994)</ref>. This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>lations found in this study with external FOA indeed agrees with the goal-relevant dimension. Specifically, the kinematics of the arm's throwing motion imply a positive trade-off between the shoulder angle and the angles of the elbow and wrist, in agreement with the observed positive correlations among SA, EA, and WA and among ⌬SA, ⌬EA, and ⌬WA, which were stronger with external FOA. Also, the negative trade-off between joint angles and angular velocities agrees with the observed negative correlations between {SA, EA, WA} and {⌬SA, ⌬EA, ⌬WA}, which again were stronger with external FOA. A limitation of the correlation-based approach is that it assumes the task goal corresponds to a linear function of the bodily dimensions. More realistic is that this function is nonlinear, and hence the redundant "dimensions" constitute a curved manifold embedded in the movement space <ref type="bibr" coords="14,148.27,397.04,92.38,7.91" target="#b53">(Scholz &amp; Schöner, 1999)</ref>. We assume that this manifold is locally linear around the average movement pattern for each subject, but even when nonlinearities become important, our core theory still applies. That is, even in cases where the goal-relevant dimension is nonlinear, selectively reducing variability of this dimension would still entail increasing the statistical relationships among bodily dimensions while allowing their individual variances to increase. Thus, if relationships are nonlinear (even locally), the problem becomes computationally more complex but conceptually the same.</p><p>One goal for future research is to connect the present findings regarding movement variability to effects of FOA on other aspects of movement. Previous research by <ref type="bibr" coords="14,183.00,529.04,105.05,7.91" target="#b32">Lohse and Sherwood (2012;</ref><ref type="bibr" coords="14,48.00,540.04,123.66,7.91" target="#b34">Lohse, Sherwood, &amp; Healy, 2011)</ref> has shown that an internal FOA can increase cocontraction during isometric force production, meaning that the muscle working against the desired force (the antagonist muscle) is active along with the muscle producing the force (the agonist muscle). Likewise, numerous studies have shown increased muscle activation with internal FOA during dynamic tasks <ref type="bibr" coords="14,350.02,298.04,69.01,7.91" target="#b33">(Lohse et al., 2010;</ref><ref type="bibr" coords="14,421.04,298.04,78.51,7.91" target="#b37">Marchant et al., 2009;</ref><ref type="bibr" coords="14,501.55,298.04,44.50,7.91;14,306.00,309.04,20.50,7.91" target="#b64">Vance et al., 2004;</ref><ref type="bibr" coords="14,330.68,309.04,159.85,7.91" target="#b71">Wulf, Dufek, Lozano, &amp; Pettigrew, 2010;</ref><ref type="bibr" coords="14,494.71,309.04,51.34,7.91;14,306.00,320.04,19.37,7.91" target="#b76">Zachry et al., 2005)</ref>. One potential explanation that integrates muscle recruitment and movement variability is that increasing cocontraction between agonist-antagonist muscle pairs increases joint stiffness <ref type="bibr" coords="14,306.00,353.04,156.39,7.91" target="#b15">(Gribble, Mullin, Cothros, &amp; Mattar, 2003;</ref><ref type="bibr" coords="14,464.88,353.04,58.81,7.91" target="#b46">Osu et al., 2002)</ref>. This increase in joint stiffness could lead to the reduction in variability of individual joint angles observed here with internal FOA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Connections to Other Theories of Motor Control and Attention</head><p>An important contribution of the present work is that it helps to tie cognitive variables such as attention to theories of motor control founded on rational analysis and optimal control theory <ref type="bibr" coords="14,306.00,463.04,140.26,7.91" target="#b8">(Diedrichsen, Shadmehr, &amp; Ivry, 2010;</ref><ref type="bibr" coords="14,448.27,463.04,55.75,7.91" target="#b60">Todorov, 2004;</ref><ref type="bibr" coords="14,506.03,463.04,40.01,7.91;14,306.00,474.04,48.44,7.91" target="#b61">Todorov &amp; Jordan, 2002)</ref>. These rational statistical models provide a computational justification for the prediction that movement variability should be greater along redundant than goal-relevant dimensions. However, the present theory goes beyond purely rational models in positing that the appearance of this optimal pattern depends on the cognitive state of the subject. In particular, the control rule implemented by the motor system appears to depend on attention, which  This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>helps to determine which variables are controlled. When attention is focused internally, on the movement itself, the motor system no longer works to directly control the task outcome. Instead, a control policy is adopted that limits error in bodily dimensions, presumably based on a predetermined plan or expectation for what effector patterns will produce good performance. This control policy is (potentially) optimal with respect to the covert goal of minimizing deviation in the movement, but the shift in the effective goal of the motor system leads to reduced accuracy on the objective goal, as well as a qualitatively different pattern of vari- <ref type="figure" coords="15,117.00,527.24,26.95,6.86">Figure 8</ref>. Trade-off between shoulder angle (SA) and elbow angle (EA), as inherent in task dynamics (A) and as reflected in subjects' throwing motions (B, C). (A) Effects of SA and EA on outcome. Increase in SA or in SA velocity (⌬SA) contributes to a rising trajectory (left). Increase in EA or in ⌬EA contributes to a falling trajectory (middle). Thus the two joints can compensate for each other to maintain the dart's vertical motion (right). (B) Empirical distribution of SA and EA as a function of attentional focus. The ellipse for each focus represents a bivariate Gaussian distribution, with means of both dimensions, standard deviations of both dimensions, and the correlation between dimensions obtained by averaging the respective estimates across subjects and sessions. (C) The distributions for the most extreme foci (arm and board), centered to highlight the effects of focus of attention. The board focus shows greater variability along each bodily dimension, but because of the increased correlation, there is also less variability along an oblique dimension, indicated by the arrow. This oblique dimension qualitatively agrees with the goal-derived dimension implied by <ref type="figure" coords="15,389.30,627.17,31.17,7.03">Figure 8A</ref>. Rels ϭ release; Traj ϭ trajectory. This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>ability. This explanation of the interaction between attention and optimal control illustrates the power of combining mechanistic cognitive theories with computational-level rational analysis <ref type="bibr" coords="16,48.00,110.04,79.10,7.91" target="#b21">(Jones &amp; Love, 2011)</ref>. Viewing the impact of attention in terms of kinematics and control strategies also offers a richer alternative to previous accounts of the effects of FOA on motor performance. For example, explicit monitoring theory posits that explicitly attending to movement disrupts motion by unnecessarily engaging cognitive control <ref type="bibr" coords="16,48.00,176.04,89.98,7.91" target="#b1">(Beilock &amp; Carr, 2001;</ref><ref type="bibr" coords="16,142.40,176.04,145.64,7.91;16,48.00,187.04,20.50,7.91" target="#b2">Beilock, Carr, MacMahon, &amp; Starkes, 2002;</ref><ref type="bibr" coords="16,72.51,187.04,101.13,7.91" target="#b40">Masters &amp; Maxwell, 2008)</ref>. This hypothesis implies that well-learned, proceduralized skills are best performed in the absence of cognitive control. In contrast, our theory posits that cognitive control is always involved in the execution of a motor skill, to specify either the target movement (internal FOA) or the target outcome (external FOA). Rather than interfere with the motor system's operation, an internal FOA alters its effective goal, so that the motor system adopts a control strategy that prioritizes the movement over the outcome. This position is closer to the constrained action hypothesis of <ref type="bibr" coords="16,172.65,286.04,44.78,7.91" target="#b69">Wulf (2007)</ref>, which states that internal FOA limits the degrees of freedom in a movement, preventing fluidity and coordination (see also <ref type="bibr" coords="16,219.25,308.04,68.79,7.91" target="#b9">Ehrlenspiel, 2001;</ref><ref type="bibr" coords="16,48.00,319.04,57.97,7.91" target="#b57">Southard, 2011)</ref>. However, the present theory goes beyond this idea to specify what those limitations are, from a kinematic standpoint, and the computational reasons that they arise.</p><p>An encouraging aspect of this theory of attention in motor control is that, at a computational level, it agrees closely with theories of attention in perception and learning <ref type="bibr" coords="16,220.73,374.04,67.31,7.91;16,48.00,385.04,20.50,7.91" target="#b36">(Maddox &amp; Dodd, 2003;</ref><ref type="bibr" coords="16,72.92,385.04,60.54,7.91" target="#b44">Nosofsky, 1986)</ref>. In all three domains, attention can be viewed as increasing the precision or sensitivity of information processing. This interpretation in turn fits well with formal theories of similarity that weight different dimensions according to their salience <ref type="bibr" coords="16,81.87,429.04,79.14,7.91" target="#b42">(Medin et al., 1993;</ref><ref type="bibr" coords="16,165.90,429.04,56.00,7.91" target="#b63">Tversky, 1977)</ref>. Although these abstract connections are promising, more work is needed to flesh out potential connections between notions of attention in these different domains at a more concrete psychological level.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Implications for Learning and Expertise</head><p>One important question in research on attention and motor performance is the role of expertise. Research comparing expert and novice performance suggests that experts benefit from a more external FOA <ref type="bibr" coords="16,100.46,539.04,74.74,7.91" target="#b3">(Bell &amp; Hardy, 2009</ref>) and tend to adopt this sort of focus spontaneously <ref type="bibr" coords="16,129.16,550.04,87.86,7.91" target="#b58">(Stoate &amp; Wulf, 2011)</ref>, whereas novices benefit from a relatively more proximal FOA <ref type="bibr" coords="16,224.26,561.04,63.80,7.91;16,48.00,572.04,160.35,7.91">(Wulf, McNevin, Fuchs, Ritter, &amp; Toole, 2000, Experiment 2)</ref>. Suggestive evidence for these conclusions was also found in the present study, in that our novice subjects showed slightly worse performance with the board focus than with the more proximal trajectory focus. Thus, although motor performance is generally better with more external FOA, there appears to be a limit beyond which performance decreases, and this limit appears to be more external for experts than for novices.</p><p>The present theory relating attention to the structure of motor control can potentially explain these findings, through differences between novices and experts in procedural knowledge of task dynamics. The action concepts of experts are richer and more detailed than those of novices <ref type="bibr" coords="16,156.86,704.04,53.91,7.91" target="#b50">(Schack, 2004;</ref><ref type="bibr" coords="16,212.95,704.04,75.08,7.91;16,48.00,715.04,19.37,7.91" target="#b51">Schack &amp; Mechsner, 2006)</ref>, making it possible for experts to direct their focus further down the chain of kinetic events in the task and potentially control more distal effects of their actions. If novices have not fully learned the causal dynamics connecting movements to distal outcome variables, it will be difficult for them to identify and control the aspects of the movement that determine those variables. This proposal is consistent with findings regarding attention in perceptual tasks, which show that attention cannot operate on arbitrary dimensions in psychological space <ref type="bibr" coords="16,447.05,154.04,56.49,7.91" target="#b11">(Garner, 1974;</ref><ref type="bibr" coords="16,509.30,154.04,36.74,7.91;16,306.00,165.04,19.37,7.91" target="#b24">Kruschke, 1993)</ref>, but that once new perceptual dimensions are learned, they can be attended to <ref type="bibr" coords="16,384.65,176.04,114.74,7.91" target="#b14">(Goldstone &amp; Steyvers, 2001)</ref>. Therefore, although the present theory does not address how task dynamics and goal-relevant dimensions are learned, it ascribes an important role to this process in the transition to expertise.</p><p>This perspective on learning goal-relevant dimensions of a movement can potentially be extended to explain the benefits of analogy use in motor performance <ref type="bibr" coords="16,433.18,242.04,112.87,7.91;16,306.00,253.04,19.37,7.91" target="#b48">(Poolton, Masters, &amp; Maxwell, 2007)</ref>. Research has shown that using analogies to teach novices a complex motor skill results in improved performance and retention <ref type="bibr" coords="16,306.00,275.03,83.65,7.91" target="#b29">(Liao &amp; Masters, 2001)</ref>. Effective analogies thus may have effects similar to those of external FOA, in that they help the learner to identify and focus on the goal-relevant dimensions of a task. In contrast to literal, body-focused instruction, which requires learners to progress through a stage of internal attention, learning through analogy may help learners identify the desired control rule more rapidly.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>This study illustrates the importance of studying cognitive effects on the details and quality of human movement, beyond behavioral outcomes, because the way in which the motor system coordinates complex movements helps to explain why behavioral effects arise. The biomechanical data show that an internal FOA leads to reduced variability in individual effectors at a cost of reduced coordination. Attention thus appears to change the control structure that guides action, such that the motor system shifts between minimizing error in an abstract goal dimension and bodily dimensions of the movement. These findings contribute an important step toward integrating the effects of attention with broader theories of motor control, and they build on more descriptive theories of FOA by suggesting specific kinematic and control-theoretic principles by which attention constrains action. The theory offered here leads to the straightforward prediction that attention acts to increase the precision of attended movement dimensions, consistent with theories of attention in other domains. We hope further research along these lines can open the door for more integrated theories of cognition and motor control, bringing together both mechanistic and rational principles.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="6,117.00,265.89,360.01,8.00;6,117.00,275.89,360.02,8.00;6,117.00,285.89,202.12,8.00"><head>Figure 2 .</head><label>2</label><figDesc>Biomechanical variables captured from the video data. A ϭ coordinates of the shoulder marker, SX and SY; B ϭ shoulder angle, SA; C ϭ elbow angle, EA; D ϭ wrist angle, WA; E ϭ knuckle coordinates, KX and KY; F ϭ coordinates of the tail of the dart, DX and DY.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="12,48.00,345.77,240.02,7.03;12,48.00,355.77,240.02,7.03;12,48.00,365.77,240.02,7.03;12,48.00,375.07,240.03,8.00"><head>Figure 5 .</head><label>5</label><figDesc>Absolute error (A) and aggregate variability (B) as a function of attentional focus. Aggregate variability was calculated by averaging z scores over all eight bodily dimensions. Error bars show within-subject standard error</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="13,48.00,448.99,240.01,7.03;13,48.00,458.29,240.04,8.00;13,48.00,468.29,240.03,8.00;13,48.00,478.99,240.04,7.03;13,48.00,488.99,240.04,7.03;13,48.00,498.29,240.02,8.00;13,48.00,508.99,240.03,7.03;13,48.00,518.99,240.04,7.03;13,48.00,528.29,240.03,8.00;13,48.00,538.29,240.01,8.00;13,48.00,548.29,240.01,8.00;13,48.00,558.29,240.02,8.00;13,48.00,568.99,165.93,7.03;13,7.70,556.60,7.03,14.22;13,7.70,522.39,7.03,31.55;13,7.70,514.39,7.03,5.34;13,7.70,473.51,7.03,38.22;13,7.70,462.85,7.03,8.00;13,7.70,450.41,7.03,9.78;13,7.70,416.21,7.03,31.54;13,7.70,368.66,7.03,44.89;13,7.70,328.22,7.03,37.78;13,7.70,318.89,7.03,6.66;13,7.70,304.68,7.03,11.55;13,7.70,295.35,7.03,6.66;13,7.70,285.13,7.03,7.56;13,7.70,264.70,7.03,17.78;13,7.70,227.15,7.03,34.89;13,17.70,567.25,7.03,14.22;13,17.70,544.60,7.03,19.99;13,17.70,536.60,7.03,5.34;13,17.70,506.39,7.03,27.55;13,17.70,484.62,7.03,19.11;13,17.70,472.63,7.03,9.33;13,17.70,460.19,7.03,9.78;13,17.70,430.42,7.03,27.10;13,17.70,417.10,7.03,10.66;13,17.70,407.77,7.03,6.66;13,17.70,395.33,7.03,9.78;13,17.70,360.22,7.03,32.45;13,17.70,344.23,7.03,13.33;13,17.70,330.02,7.03,11.55;13,17.70,322.02,7.03,5.34;13,17.70,309.14,7.03,10.22;13,17.70,300.25,7.03,6.22;13,17.70,290.04,7.03,7.55;13,17.70,245.60,7.03,41.78;13,17.70,216.50,7.03,26.44"><head>Figure 7 .</head><label>7</label><figDesc>(A) The determinant of the correlation matrix among all eight biomechanical variables (SX, SY, SA, EA, WA, ⌬SA, ⌬EA, ⌬WA) as a function of attentional focus. (B) Determinants based on the five instantaneous variables (D5: SX, SY, SA, EA, WA), three instantaneous angles (D3: SA, EA, WA), and three angular velocities (D3⌬: ⌬SA, ⌬EA, ⌬WA), as a function of attentional focus. (C) Correlation between PCi, the first principle component of the three instantaneous joint angles (SA, EA, WA), and PCv, the first principle component of the three angular velocities (⌬SA, ⌬EA, ⌬WA)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="10,48.00,77.04,497.50,230.96"><head>Table 1</head><label>1</label><figDesc>Effects of Focus of Attention on Accuracy and Biomechanical Variability</figDesc><table coords="10,48.00,107.70,497.50,200.30">Measure 
+
+Means by focus 
+ANOVA 
+Linear contrast 
+
+Arm 
+Release Trajectory 
+Board 
+Free 
+MS 
+F 
+2 GG ε 
+p 
+M 
+t 
+p 
+
+Accuracy (absolute error) 
+9.09 
+8.96 
+7.70 
+8.07 
+8.24 
+1.01 5.24 0.27 .75 .004 ‫ءء‬ Ϫ2.16 Ϫ2.93 .011 ‫ء‬ 
+Aggregate SD (mean z score) Ϫ0.16 
+Ϫ0.16 
+0.08 
+0.17 
+0.08 
+0.06 5.53 0.28 .83 .002 ‫ءء‬ 
+0.61 4.14 Ͻ.001 ‫ءءء‬ 
+Instantaneous coordinate SD 
+Shoulder X (SX) 
+1.89 
+1.58 
+1.85 
+1.65 
+1.73 
+0.43 0.57 0.04 .57 .596 
+Ϫ0.21 Ϫ0.44 .665 
+Shoulder Y (SY) 
+0.93 
+0.71 
+0.75 
+0.73 
+0.71 
+0.09 1.38 0.09 .36 .268 
+Ϫ0.28 Ϫ1.04 .314 
+Instantaneous angle SD 
+Shoulder angle (SA) 
+2.79 
+2.59 
+3.10 
+3.30 
+2.84 
+0.41 2.85 0.17 .56 .067  † 
+1.02 2.18 .047 ‫ء‬ 
+Elbow angle (EA) 
+6.87 
+6.57 
+7.30 
+7.69 
+8.02 
+1.45 3.61 0.20 .77 .020 ‫ء‬ 
+1.60 2.07 .057  † 
+Wrist angle (WA) 
+7.45 
+6.95 
+7.90 
+7.61 
+7.58 
+1.54 1.17 0.08 .65 .331 
+0.72 0.79 .441 
+Angular velocity SD 
+SA velocity (⌬SA) 
+82.65 
+87.55 
+96.21 
+105.49 
+100.72 
+712.32 1.85 0.12 .67 .160 
+38.59 2.46 .027 ‫ء‬ 
+EA velocity (⌬EA) 
+183.69 
+199.27 
+211.81 
+261.99 
+257.52 
+6158.22 3.01 0.18 .60 .054  † 123.72 3.51 .003 ‫ءء‬ 
+WA velocity (⌬WA) 
+373.38 
+356.23 
+396.28 
+431.00 
+374.87 
+9855.91 1.26 0.08 .43 .298 106.47 1.26 .228 
+Determinants 
+D8 
+0.00051 
+0.00065 
+0.00032 
+0.00026 
+0.00015 
+1.15 4.32 0.24 .78 .009 ‫ءء‬ Ϫ1.36 Ϫ1.98 .067  † 
+D5 
+0.14 
+0.10 
+0.08 
+0.07 
+0.08 
+0.00 6.23 0.31 .67 .002 ‫ءء‬ Ϫ0.11 Ϫ4.96 Ͻ.001 ‫ءءء‬ 
+D3 
+0.38 
+0.32 
+0.30 
+0.24 
+0.23 
+0.01 6.33 0.31 .70 .002 ‫ءء‬ Ϫ0.21 Ϫ4.56 Ͻ.001 ‫ءءء‬ 
+D3⌬ 
+0.44 
+0.37 
+0.29 
+0.34 
+0.29 
+0.01 3.89 0.22 .80 .013 ‫ء‬ Ϫ0.19 Ϫ2.77 .015 ‫ء‬ 
+Correlation (PCi, PCv) 
+Ϫ0.08 
+Ϫ0.05 
+Ϫ0.19 
+Ϫ0.19 
+Ϫ0.14 
+0.02 2.90 0.17 .92 .034 ‫ء‬ Ϫ0.24 Ϫ2.95 .011 ‫ء‬ 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="11,48.00,77.04,497.50,230.96"><head>Table 2</head><label>2</label><figDesc>Effects of Session on Accuracy and Biomechanical Variability</figDesc><table coords="11,48.00,107.70,497.50,200.30">Measure 
+
+Means by session 
+ANOVA 
+
+1 
+2 
+3 
+4 
+MS 
+F 
+2 
+GG ε 
+p 
+
+Accuracy (absolute error) 
+8.45 
+9.15 
+8.31 
+7.73 
+4.43 
+1.16 
+0.08 
+0.49 
+.318 
+Aggregate SD (mean z score) 
+Ϫ0.13 
+Ϫ0.15 
+Ϫ0.04 
+0.06 
+0.15 
+1.41 
+0.09 
+0.81 
+.258 
+Instantaneous coordinate SD 
+Shoulder X (SX) 
+2.08 
+1.72 
+1.58 
+1.58 
+0.82 
+1.04 
+0.07 
+0.54 
+.355 
+Shoulder Y (SY) 
+0.64 
+0.82 
+0.95 
+0.64 
+0.21 
+1.67 
+0.11 
+0.55 
+.212 
+Instantaneous angle SD 
+Shoulder angle (SA) 
+2.86 
+2.81 
+3.06 
+2.97 
+0.49 
+0.37 
+0.03 
+0.77 
+.721 
+Elbow angle (EA) 
+7.78 
+6.39 
+7.54 
+7.45 
+1.74 
+3.26 
+0.19 
+0.79 
+.044 ‫ء‬ 
+Wrist angle (WA) 
+8.01 
+7.04 
+7.29 
+7.66 
+2.95 
+0.92 
+0.06 
+0.67 
+.410 
+Angular velocity SD 
+SA velocity (⌬SA) 
+98.95 
+89.41 
+89.80 
+99.92 
+487.74 
+1.00 
+0.07 
+0.72 
+.387 
+EA velocity (⌬EA) 
+264.32 
+179.25 
+193.70 
+254.15 
+5169.12 
+5.27 
+0.27 
+0.61 
+.014 ‫ء‬ 
+WA velocity (⌬WA) 
+388.64 
+386.88 
+365.93 
+403.96 
+5622.18 
+0.65 
+0.04 
+0.63 
+.521 
+Determinants 
+D8 
+0.00034 
+0.00045 
+0.00030 
+0.00027 
+1.25 
+0.59 
+0.04 
+0.85 
+.600 
+D5 
+0.09 
+0.11 
+0.08 
+0.09 
+0.00 
+1.02 
+0.07 
+0.89 
+.388 
+D3 
+0.30 
+0.31 
+0.28 
+0.28 
+0.01 
+0.24 
+0.02 
+0.80 
+.825 
+D3⌬ 
+0.34 
+0.38 
+0.34 
+0.32 
+0.01 
+1.17 
+0.08 
+0.82 
+.329 
+Correlation (PCi, PCv) 
+Ϫ0.28 
+Ϫ0.04 
+0.07 
+Ϫ0.27 
+0.05 
+8.06 
+0.37 
+0.84 
+Ͻ.001 ‫ءءء‬ 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="14,48.00,77.04,498.06,141.46"><head>Table 3</head><label>3</label><figDesc>Correlations Among Biomechanical VariablesNote. Values are averaged over the estimates for all subjects, sessions, and all five foci. SX ϭ shoulder horizontal position; SY ϭ shoulder vertical position; SA ϭ shoulder angle; EA ϭ elbow angle; WA ϭ wrist angle; ⌬ ϭ angular velocity.</figDesc><table coords="14,48.50,107.00,497.00,87.50">Variable 
+SX 
+SY 
+SA 
+EA 
+WA 
+⌬SA 
+⌬EA 
+⌬WA 
+
+SX 
+-
+Ϫ.026 
+Ϫ.040 
+.013 
+.035 
+.011 
+Ϫ.015 
+.008 
+SY 
+Ϫ.026 
+-
+Ϫ.182 
+Ϫ.127 
+Ϫ.050 
+Ϫ.029 
+Ϫ.018 
+Ϫ.044 
+SA 
+Ϫ.040 
+Ϫ.182 
+-
+.714 
+.353 
+Ϫ.273 
+Ϫ.218 
+Ϫ.014 
+EA 
+.013 
+Ϫ.127 
+.714 
+-
+.414 
+Ϫ.129 
+Ϫ.238 
+.031 
+WA 
+.035 
+Ϫ.050 
+.353 
+.414 
+-
+Ϫ.113 
+Ϫ.105 
+Ϫ.272 
+⌬SA 
+.011 
+Ϫ.029 
+Ϫ.273 
+Ϫ.129 
+Ϫ.113 
+-
+.647 
+.181 
+⌬EA 
+Ϫ.015 
+Ϫ.018 
+Ϫ.218 
+Ϫ.238 
+Ϫ.105 
+.647 
+-
+.000 
+⌬WA 
+.008 
+Ϫ.044 
+Ϫ.014 
+.031 
+Ϫ.272 
+.181 
+.000 
+-
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="14,7.70,227.15,538.35,495.86"><head>Table 4</head><label>4</label><figDesc>Linear Contrast Over Foci, for Correlations Among Biomechanical VariablesNote. Linear contrast is over the four instructed foci, excluding free. Positive values indicate greater (more positive) correlations with external focus of attention. Values are averaged across subjects and sessions. SX ϭ shoulder horizontal position; SY ϭ shoulder vertical position; SA ϭ shoulder angle; EA ϭ elbow angle; WA ϭ wrist angle; ⌬ ϭ angular velocity. This document is copyrighted by the American Psychological Association or one of its allied publishers.</figDesc><table coords="14,48.50,602.50,497.00,87.50">Variable 
+SX 
+SY 
+SA 
+EA 
+WA 
+⌬SA 
+⌬EA 
+⌬WA 
+
+SX 
+-
+Ϫ.065 
+.004 
+Ϫ.012 
+Ϫ.150 
+Ϫ.129 
+Ϫ.172 
+.096 
+SY 
+Ϫ.065 
+-
+.014 
+.069 
+.021 
+.094 
+Ϫ.065 
+Ϫ.076 
+SA 
+.004 
+.014 
+-
+.189 
+.167 
+Ϫ.076 
+Ϫ.094 
+Ϫ.191 
+EA 
+Ϫ.012 
+.069 
+.189 
+-
+.170 
+Ϫ.250 
+Ϫ.183 
+Ϫ.223 
+WA 
+Ϫ.150 
+.021 
+.167 
+.170 
+-
+Ϫ.163 
+Ϫ.117 
+Ϫ.176 
+⌬SA 
+Ϫ.129 
+.094 
+Ϫ.076 
+Ϫ.250 
+Ϫ.163 
+-
+.177 
+.289 
+⌬EA 
+Ϫ.172 
+Ϫ.065 
+Ϫ.094 
+Ϫ.183 
+Ϫ.117 
+.177 
+-
+.291 
+⌬WA 
+.096 
+Ϫ.076 
+Ϫ.191 
+Ϫ.223 
+Ϫ.176 
+.289 
+.291 
+-
+
+</table></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix Bayesian Inference of Release Time</head><p>Define kx, ky, dx, and dy as the true knuckle and dart coordinates, and define zx ϭ dx n Ϫ dx nϪ1 Ϫ kx n ϩ kn nϪ1 wx ϭ dx nϩ1 Ϫ dx n Ϫ kx n ϩ kn nϪ1 <ref type="bibr" coords="19,271.05,153.80,16.99,7.91">(A1)</ref> so that the release time is equal to</p><p>Assume the measured coordinates deviate from the true values due to Gaussian error that is independent across coordinates and frames. Consider first the horizontal measurements, which are thus distributed according to a multivariate Gaussian centered on the true values:</p><p>Here 2 is the error variance of each measurement and I 5 is the 5 ϫ 5 identity matrix.</p><p>Assume an (improper) uniform prior on (kx nϪ1 , kx n , dx nϪ1 , dx n , dx nϩ1 ), restricted to the region 0 Ͻ zx/wx Յ 1, which is equivalent to n Ϫ 1 Յ t Ͻ n. Then the posterior distribution for the true coordinates is given by a multivariate Gaussian centered on the observed values: ͑kxnϪ1, kx n , dx nϪ1 , dx n , dx nϩ1͒Խ͑ KX nϪ1 , KX n , DX nϪ1 , DX n , DX nϩ1͒ ϳ N͑͑KX nϪ1 , KX n , DX nϪ1 , DX n , DX nϩ1͒ , 2 I 5͒ , (A4) restricted and renormalized to the region 0 Ͻ zx/wx Յ 1. Because zx and wx are linear combinations of kx nϪ1 , kx n , dx nϪ1 , dx n , and dx nϩ1 , their posterior joint distribution is also Gaussian, with mean and covariance easily seen to be as follows:</p><p>again restricted and renormalized to the region 0 Ͻ zx/wx Յ 1. The posterior for t, p(t | KX nϪ1 , KX n , DX nϪ1 , DX n , DX nϩ1 ), can then be obtained from Equations A2 and A5, using results from <ref type="bibr" coords="19,327.80,152.94,61.31,7.91" target="#b38">Marsaglia (1965</ref><ref type="bibr" coords="19,396.91,152.94,17.37,7.91" target="#b39">Marsaglia ( , 2006</ref> that provide an analytic expression for the distribution of the ratio of correlated Gaussian random variables (zx and wx). That zx and wx have joint distribution restricted to the region 0 Ͻ zx/wx Յ 1 means that the posterior for t is truncated and renormalized to the region n Ϫ 1 Յ t Ͻ n.</p><p>Finally, because the horizontal and vertical measurements provide independent information about t (and because the prior on t is uniform), the final posterior is given by</p><p>where the posterior conditioned on the vertical coordinates, p(t | KY nϪ1 , KY n , DY nϪ1 , DY n , DY nϩ1 ), is determined by the same methods as described above for p(t | KX nϪ1 , KX n , DX nϪ1 , DX n , DX nϩ1 ).</p><p>The one free parameter in this procedure is the variance of the measurement error, 2 , in recording the knuckle and joint positions on each frame. This parameter was estimated empirically, by comparing 23 videos (each comprising a single combination of subject, session, and focus) that one research assistant coded twice, several months apart. For every measurement in these videos (i.e., KX, KY, DX, and DY on all three frames in all 15 trials), we took half the squared difference between the two recorded values, and then averaged over all 4 ϫ 3 ϫ 15 ϫ 23 ϭ 4,140 measurements. This procedure yields an unbiased estimate of 2 , which translates to an estimate for of .37 cm (equivalent to 1.5 pixels on the monitor used for extracting coordinates from the videos).</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="16,306.00,635.70,240.03,7.03;16,314.00,645.70,232.01,7.03;16,314.00,655.70,20.00,7.03" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Varieties of perceptual independence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">G</forename><surname>Ashby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Townsend</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-295X.93.2.154</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="154" to="179" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,306.00,665.70,240.03,7.03;16,314.00,675.70,232.02,7.03;16,314.00,685.70,231.74,7.03" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">On the fragility of skilled performance: What governs choking under pressure</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Beilock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">H</forename><surname>Carr</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0096-3445.130.4.701</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: General</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="701" to="725" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,306.00,695.70,240.03,7.03;16,314.00,705.70,232.01,7.03;16,314.00,715.70,232.01,7.03;16,7.70,556.60,7.03,14.22;16,7.70,522.39,7.03,31.55;16,7.70,514.39,7.03,5.34;16,7.70,473.51,7.03,38.22;16,7.70,462.85,7.03,8.00;16,7.70,450.41,7.03,9.78;16,7.70,416.21,7.03,31.54;16,7.70,368.66,7.03,44.89;16,7.70,328.22,7.03,37.78;16,7.70,318.89,7.03,6.66;16,7.70,304.68,7.03,11.55;16,7.70,295.35,7.03,6.66;16,7.70,285.13,7.03,7.56;16,7.70,264.70,7.03,17.78;16,7.70,227.15,7.03,34.89;16,17.70,567.25,7.03,14.22;16,17.70,544.60,7.03,19.99;16,17.70,536.60,7.03,5.34;16,17.70,506.39,7.03,27.55;16,17.70,484.62,7.03,19.11;16,17.70,472.63,7.03,9.33;16,17.70,460.19,7.03,9.78;16,17.70,430.42,7.03,27.10;16,17.70,417.10,7.03,10.66;16,17.70,407.77,7.03,6.66;16,17.70,395.33,7.03,9.78;16,17.70,360.22,7.03,32.45;16,17.70,344.23,7.03,13.33;16,17.70,330.02,7.03,11.55;16,17.70,322.02,7.03,5.34;16,17.70,309.14,7.03,10.22;16,17.70,300.25,7.03,6.22;16,17.70,290.04,7.03,7.55;16,17.70,245.60,7.03,41.78;16,17.70,216.50,7.03,26.44;17,56.00,77.20,232.01,7.03;17,56.00,87.68,18.00,7.03" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Journal This document is copyrighted by the American Psychological Association or one of its allied publishers. This article is intended solely for the personal use of the individual user and is not to be disseminated broadly</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Beilock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">H</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Macmahon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Starkes</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/1076-898X.8.1.6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Psychology: Applied</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="6" to="16" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note>When paying attention becomes counterproductive: Impact of divided attention on novice and experienced performance of sensorimotor skills</note>
+</biblStruct>
+
+<biblStruct coords="17,48.00,98.16,240.00,7.03;17,56.00,108.64,232.01,7.03;17,56.00,119.11,108.67,7.03" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Effects of attentional focus on skilled performance in golf</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Hardy</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10413200902795323</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Sport Psychology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="163" to="177" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,48.00,129.59,240.01,7.03;17,56.00,140.07,125.31,7.03" xml:id="b4">
+	<monogr>
+		<title level="m" type="main">The co-ordination and regulation of movements</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">A</forename><surname>Bernstein</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1967" />
+			<publisher>Pergamon Press</publisher>
+			<pubPlace>Edinburgh, Scotland</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,48.00,150.55,240.00,7.03;17,56.00,161.01,232.01,7.03;17,56.00,171.48,38.00,7.03" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Coordination of three-joint digit movements for rapid finger-thumb grasp</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">J</forename><surname>Cole</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Abbs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Neurophysiology</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="1407" to="1423" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,48.00,181.94,240.03,7.03;17,56.00,192.41,136.64,7.03" xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Movement system variability</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Davids</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Bennett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Newell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Human Kinetics</publisher>
+			<pubPlace>Chicago, IL</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,48.00,202.88,240.02,7.03;17,56.00,213.34,232.00,7.03;17,56.00,223.81,86.00,7.03" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Optimal task-dependent changes in bimanual feedback control and adaptation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Diedrichsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cub.2007.08.051</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Current Biology</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1675" to="1679" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,48.00,234.27,240.01,7.03;17,56.00,244.74,232.01,7.03;17,56.00,255.20,167.54,7.03" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The coordination of movement: Optimal feedback control and beyond</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Diedrichsen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Shadmehr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">B</forename><surname>Ivry</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tics.2009.11.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cognitive Sciences</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="31" to="39" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,48.00,265.67,240.03,7.03;17,56.00,276.13,231.99,7.03;17,56.00,286.60,223.52,7.03" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Paralysis by analysis? A functional framework for the effects of attentional focus on the control of motor skills</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Ehrlenspiel</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17461390100071505</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Sport Science</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,48.00,297.07,240.04,7.03;17,56.00,307.53,232.01,7.03;17,56.00,318.00,232.03,7.03;17,56.00,328.46,160.28,7.03" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Effect of instructions on functional reach in persons with and without cerebrovascular accident</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">E</forename><surname>Fasoli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Trombly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Tickle-Degnen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">H</forename><surname>Verfaellie</surname></persName>
+		</author>
+		<idno type="DOI">10.5014/ajot.56.4.380</idno>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Occupational Therapy</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="380" to="390" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,48.00,338.93,240.02,7.03;17,56.00,349.39,232.00,7.03;17,56.00,359.86,232.02,7.03;17,56.00,370.33,231.97,7.03;17,56.00,380.79,59.33,7.03" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Attention: The processing of multiple sources of information</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">R</forename><surname>Garner</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/B978-0-12-161902-2.50009-2</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of perception</title>
+		<editor>E. C. Carterette &amp; M. P. Friedman</editor>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1974" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="23" to="59" />
+		</imprint>
+	</monogr>
+	<note>Psychophysical judgment and measurement</note>
+</biblStruct>
+
+<biblStruct coords="17,48.00,391.26,240.03,7.03;17,56.00,401.72,232.02,7.03;17,56.00,412.19,109.34,7.03" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Influences of categorization on perceptual discrimination</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Goldstone</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0096-3445.123.2.178</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: General</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="178" to="200" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,48.00,422.65,240.00,7.03;17,56.00,433.12,232.01,7.03;17,56.00,443.58,55.99,7.03" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The role of similarity in categorization: Providing a groundwork</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Goldstone</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0010-0277%2894%2990065-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">94</biblScope>
+			<biblScope unit="page" from="90065" to="90070" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,48.00,454.05,240.02,7.03;17,56.00,464.52,232.01,7.03;17,56.00,474.98,232.01,7.03" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The sensitization and differentiation of dimensions during category learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Goldstone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Steyvers</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0096-3445.130.1.116</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: General</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="116" to="139" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,48.00,485.45,240.02,7.03;17,56.00,495.91,232.00,7.03;17,56.00,506.38,141.18,7.03" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Role of cocontraction in arm movement accuracy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">L</forename><surname>Gribble</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">I</forename><surname>Mullin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Cothros</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Mattar</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jn.01020.2002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Neurophysiology</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="2396" to="2405" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,48.00,516.84,240.03,7.03;17,56.00,527.31,231.85,7.03;17,56.00,537.77,171.52,7.03" xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Shaky Lincecum battered by Reds</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Haft</surname></persName>
+		</author>
+		<ptr target="http://mlb.mlb.com/mlb/gameday/index.jsp?gidϭ2011_06_11_cinmlb_sfnmlb_1&amp;modeϭrecap&amp;c_idϭsf&amp;partnerIdϭrss_sf" />
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,48.00,548.24,240.03,7.03;17,56.00,558.71,232.01,7.03;17,56.00,569.17,82.46,7.03" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Patterns of coordinated multi-joint movement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Haggard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Hutchinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Stein</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00230046</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Brain Research</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="254" to="266" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,48.00,579.64,240.02,7.03;17,56.00,590.10,214.05,7.03" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Signal-dependent noise determines motor planning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Wolpert</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/29528</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">394</biblScope>
+			<biblScope unit="page" from="780" to="784" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,48.00,600.57,240.00,7.03;17,56.00,611.03,232.01,7.03;17,56.00,621.50,132.01,7.03" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A tutorial on kernel methods for categorization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Jäkel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Schölkopf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">A</forename><surname>Wichmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmp.2007.06.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mathematical Psychology</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="343" to="358" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,48.00,631.97,240.02,7.03;17,56.00,642.43,232.02,7.03;17,56.00,652.90,232.01,7.03;17,56.00,663.36,45.12,7.03" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Generalization and similarity in exemplar models of categorization: Insights from machine learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Jäkel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Schölkopf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">A</forename><surname>Wichmann</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/PBR.15.2.256</idno>
+		<idno>doi:10.3758/ PBR.15.2.256</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychonomic Bulletin &amp; Review</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="256" to="271" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,48.00,673.83,240.01,7.03;17,56.00,684.29,232.03,7.03;17,56.00,694.76,232.01,7.03;17,56.00,705.22,110.90,7.03" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Bayesian Fundamentalism or Enlightenment? On the explanatory status and theoretical contributions of Bayesian models of cognition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">C</forename><surname>Love</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0140525X10003134</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral and Brain Sciences</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="169" to="188" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,48.00,715.69,240.00,7.03;17,314.00,77.19,232.00,7.03;17,314.00,87.67,232.01,7.03;17,314.00,98.14,188.45,7.03" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Stimulus generalization in category learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">T</forename><surname>Maddox</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">C</forename><surname>Love</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 27th Annual Conference of the Cognitive Science Society</title>
+		<editor>B. G. Bara, L. W. Barsalou, &amp; M. Bucciarelli</editor>
+		<meeting>the 27th Annual Conference of the Cognitive Science Society<address><addrLine>Mahwah, NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>Erlbaum</publisher>
+			<date type="published" when="2005" />
+			<biblScope unit="page" from="1066" to="1071" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,306.00,108.62,240.01,7.03;17,314.00,119.10,232.02,7.03;17,314.00,129.58,232.02,7.03;17,314.00,140.06,22.66,7.03" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Learning multi-finger synergies: An uncontrolled manifold analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Shinohara</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Zatsiorsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Latash</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00221-004-1850-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Brain Research</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page" from="336" to="350" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,306.00,150.53,240.02,7.03;17,314.00,161.00,231.91,7.03;17,314.00,171.46,68.00,7.03" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Human category learning: Implications for backpropagation models</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">K</forename><surname>Kruschke</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/09540099308915683</idno>
+		<idno>doi:10.1080/ 09540099308915683</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Connection Science</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="3" to="36" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,306.00,181.93,240.03,7.03;17,314.00,192.40,232.03,7.03;17,314.00,202.86,232.00,7.03" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">An external focus of attention attenuates balance impairment in Parkinson&apos;s disease</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Landers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Wulf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Wallman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Guadagnoli</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physio.2004.11.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physiotherapy</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="152" to="158" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,306.00,213.33,240.03,7.03;17,314.00,223.79,232.02,7.03;17,314.00,234.26,203.16,7.03" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Motor control strategies revealed in the structure of motor variability</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Latash</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Scholz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Schöner</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/00003677-200201000-00006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Exercise &amp; Sport Sciences Reviews</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="26" to="31" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,306.00,244.72,240.02,7.03;17,314.00,255.19,161.82,7.03" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Toward a new theory of motor synergies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Latash</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Scholz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Schöner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Motor Control</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="276" to="308" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,306.00,265.65,240.04,7.03;17,314.00,276.12,232.02,7.03;17,314.00,286.59,232.01,7.03;17,314.00,297.05,199.11,7.03" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Effect of attention focus on acquisition and retention of postural control following ankle sprain</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Laufer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Rotem-Lehrer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Ronen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Khayutin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Rozenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apmr.2006.10.028</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Archives of Physical Medicine and Rehabilitation</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="105" to="108" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,306.00,307.52,240.01,7.03;17,314.00,317.98,232.01,7.03;17,314.00,328.45,96.22,7.03" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Analogy learning: A means to implicit motor learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C.-M</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640410152006081</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="307" to="319" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,306.00,338.91,240.04,7.03;17,314.00,349.38,232.03,7.03;17,314.00,359.85,112.45,7.03" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A hierarchical foundation for models of sensorimotor control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Loeb</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Cheng</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s002210050712</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Brain Research</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,306.00,370.31,240.00,7.03;17,314.00,380.78,232.02,7.03;17,314.00,391.24,82.46,7.03" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Using confidence intervals in within-subject designs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">R</forename><surname>Loftus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E J</forename><surname>Masson</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/BF03210951</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychonomic Bulletin &amp; Review</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="476" to="490" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,306.00,401.71,240.03,7.03;17,314.00,412.17,232.02,7.03;17,314.00,422.64,205.38,7.03" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Thinking about muscles: The neuromuscular effects of attentional focus on accuracy and fatigue</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">R</forename><surname>Lohse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">E</forename><surname>Sherwood</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actpsy.2012.05.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Psychologica</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="236" to="245" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,306.00,433.10,240.03,7.03;17,314.00,443.57,232.03,7.03;17,314.00,454.04,232.00,7.03;17,314.00,464.50,96.67,7.03" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">How changing the focus of attention affects performance, kinematics, and electromyography in dart throwing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">R</forename><surname>Lohse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">E</forename><surname>Sherwood</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">F</forename><surname>Healy</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.humov.2010.05.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Human Movement Science</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="542" to="555" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,306.00,474.97,240.03,7.03;17,314.00,485.43,232.00,7.03;17,314.00,495.90,231.99,7.03;17,314.00,506.36,44.00,7.03" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Neuromuscular effects of shifting the focus of attention in a simple force production task</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">R</forename><surname>Lohse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">E</forename><surname>Sherwood</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">F</forename><surname>Healy</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00222895.2011.555436</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Motor Behavior</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="173" to="184" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,306.00,516.83,240.03,7.03;17,314.00,527.29,232.00,7.03;17,314.00,537.76,232.02,7.03;17,314.00,548.23,90.19,7.03" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Attentional focus affects movement efficiency</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">R</forename><surname>Lohse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Wulf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Lewthwaite</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Skill acquisition in sport: Research, theory and practice</title>
+		<editor>N. J. Hodges &amp; M. A. Williams</editor>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2012" />
+			<biblScope unit="page" from="40" to="58" />
+		</imprint>
+	</monogr>
+	<note>2nd ed.</note>
+</biblStruct>
+
+<biblStruct coords="17,306.00,558.69,240.02,7.03;17,314.00,569.16,232.01,7.03;17,314.00,579.62,231.96,7.03;17,314.00,590.09,232.01,7.03" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Separating perceptual and decisional attention processes in the identification and categorization of integraldimension stimuli</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">T</forename><surname>Maddox</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Dodd</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0278-7393.29.3.467</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="467" to="480" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,306.00,600.55,240.01,7.03;17,314.00,611.02,232.01,7.03;17,314.00,621.49,232.00,7.03;17,314.00,631.95,160.29,7.03" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Attentional focus instructions influence force production and muscular activity during isokinetic elbow flexions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Marchant</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Greig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Scott</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0b013e3181b8d1e5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Strength and Conditioning Research</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="2358" to="2366" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,306.00,642.42,240.01,7.03;17,314.00,652.88,232.01,7.03;17,314.00,663.35,157.33,7.03" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Ratios of normal variables and ratios of sums of uniform variables</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Marsaglia</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01621459.1965.10480783</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Statistical Association</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="193" to="204" />
+			<date type="published" when="1965" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,306.00,673.81,240.01,7.03;17,314.00,684.28,63.77,7.03" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Ratios of normal variables</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Marsaglia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Statistical Software</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,306.00,694.74,240.01,7.03;17,314.00,705.21,232.02,7.03;17,314.00,715.68,108.67,7.03" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The theory of reinvestment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Maxwell</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17509840802287218</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Review of Sport and Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="160" to="183" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="17,7.70,556.60,7.03,14.22;17,7.70,522.39,7.03,31.55;17,7.70,514.39,7.03,5.34;17,7.70,473.51,7.03,38.22;17,7.70,462.85,7.03,8.00;17,7.70,450.41,7.03,9.78;17,7.70,416.21,7.03,31.54;17,7.70,368.66,7.03,44.89;17,7.70,328.22,7.03,37.78;17,7.70,318.89,7.03,6.66;17,7.70,304.68,7.03,11.55;17,7.70,295.35,7.03,6.66;17,7.70,285.13,7.03,7.56;17,7.70,264.70,7.03,17.78;17,7.70,227.15,7.03,34.89;17,17.70,567.25,7.03,14.22;17,17.70,544.60,7.03,19.99;17,17.70,536.60,7.03,5.34;17,17.70,506.39,7.03,27.55;17,17.70,484.62,7.03,19.11;17,17.70,472.63,7.03,9.33;17,17.70,460.19,7.03,9.78;17,17.70,430.42,7.03,27.10;17,17.70,417.10,7.03,10.66;17,17.70,407.77,7.03,6.66;17,17.70,395.33,7.03,9.78;17,17.70,360.22,7.03,32.45;17,17.70,344.23,7.03,13.33;17,17.70,330.02,7.03,11.55;17,17.70,322.02,7.03,5.34;17,17.70,309.14,7.03,10.22;17,17.70,300.25,7.03,6.22;17,17.70,290.04,7.03,7.55;17,17.70,245.60,7.03,41.78;17,17.70,216.50,7.03,26.44" xml:id="b41">
+	<monogr>
+		<title level="m" type="main">This document is copyrighted by the American Psychological Association or one of its allied publishers. This article is intended solely for the personal use of the individual user and is not to be disseminated broadly</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,48.00,77.20,240.03,7.03;18,56.00,87.20,232.01,7.03;18,56.00,97.20,51.78,7.03" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Respects for similarity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Medin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Goldstone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Gentner</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-295X.100.2.254</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="254" to="278" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,48.00,107.20,240.00,7.03;18,56.00,117.20,232.01,7.03;18,56.00,127.20,88.65,7.03" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Functional variability and an equifinal path of movement during targeted throwing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Loosch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Human Movement Studies</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="103" to="126" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,48.00,137.20,240.02,7.03;18,56.00,147.20,232.03,7.03;18,56.00,157.20,165.17,7.03" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Attention, similarity, and the identificationcategorization relationship</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Nosofsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0096-3445.115.1.39</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: General</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="39" to="57" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,48.00,167.20,240.02,7.03;18,56.00,177.20,232.00,7.03;18,56.00,187.20,55.99,7.03" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The assessment and analysis of handedness: The Edinburgh Inventory</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Oldfield</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0028-3932%2871%2990067-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychologia</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="90067" to="90071" />
+			<date type="published" when="1971" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,48.00,197.20,240.02,7.03;18,56.00,207.20,232.01,7.03;18,56.00,217.20,232.03,7.03;18,56.00,227.20,114.87,7.03" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Short-and long-term changes in joint co-contraction associated with motor learning as revealed from surface EMG</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Osu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Franklin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Gomi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Domen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Yoshioka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kawato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Neurophysiology</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="991" to="1004" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,48.00,237.20,240.04,7.03;18,56.00,247.20,231.93,7.03;18,56.00,257.20,64.29,7.03" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">An outside view on Wulf&apos;s external focus: Three recommendations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Oudejans</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Koedijker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Beek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bewegung und Training</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="41" to="42" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,48.00,267.20,240.01,7.03;18,56.00,277.20,232.00,7.03;18,56.00,287.20,175.53,7.03" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The development of a culturally appropriate analogy for implicit motor learning in a Chinese population</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Poolton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Maxwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sport Psychologist</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="375" to="382" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,48.00,297.20,240.03,7.03;18,56.00,307.20,143.37,7.03" xml:id="b49">
+	<monogr>
+		<title level="m" type="main">On the value of the external focus concept: Elaborate and specify! Bewegung und Training</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Raab</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="45" to="46" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,48.00,317.20,240.00,7.03;18,56.00,327.20,232.00,7.03;18,56.00,337.20,81.78,7.03" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The cognitive architecture of movement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Schack</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/1612197X.2004.9671753</idno>
+		<idno>doi:10.1080/ 1612197X.2004.9671753</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sport and Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="403" to="438" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,48.00,347.20,240.02,7.03;18,56.00,357.20,231.86,7.03;18,56.00,367.20,94.00,7.03" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Representation of motor skills in human long-term memory</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Schack</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Mechsner</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neulet.2005.10.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience Letters</title>
+		<imprint>
+			<biblScope unit="volume">391</biblScope>
+			<biblScope unit="page" from="77" to="81" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,48.00,377.20,240.03,7.03;18,56.00,387.20,232.02,7.03;18,56.00,397.20,231.95,7.03;18,56.00,407.20,47.78,7.03" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Motor-output variability: A theory for the accuracy of rapid motor acts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Zelaznik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Hawkins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Quinn</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-295X.86.5.415</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="415" to="451" />
+			<date type="published" when="1979" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,48.00,417.20,240.02,7.03;18,56.00,427.20,232.02,7.03;18,56.00,437.20,176.49,7.03" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">The uncontrolled manifold concept: Identifying control variables for a functional task</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Scholz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Schöner</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s002210050738</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Brain Research</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="289" to="306" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,48.00,447.20,240.02,7.03;18,56.00,457.20,232.00,7.03;18,56.00,467.20,197.38,7.03" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Identifying the control structure of multijoint coordination during pistol shooting</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Scholz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Schöner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Latash</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s002210000540</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Brain Research</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="382" to="404" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,48.00,477.20,240.01,7.03;18,56.00,487.20,232.00,7.03;18,56.00,497.20,232.00,7.03;18,56.00,507.20,106.23,7.03" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Identification of interindividual and intraindividual movement patterns in handball players of varying expertise levels</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Schorer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Fath</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Jaitner</surname></persName>
+		</author>
+		<idno type="DOI">10.3200/JMBR.39.5.409-422</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Motor Behavior</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="409" to="421" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,48.00,517.20,240.04,7.03;18,56.00,527.20,232.01,7.03;18,56.00,537.20,149.33,7.03" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">The effect of attentional focus on running economy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Schücker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Hagemann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Strauss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Völker</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640410903150467</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1241" to="1248" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,48.00,547.20,240.02,7.03;18,56.00,557.20,232.03,7.03;18,56.00,567.20,192.95,7.03" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Attentional focus and control parameter: Effect on throwing pattern and performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Southard</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02701367.2011.10599802</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Research Quarterly in Exercise and Sport</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="652" to="666" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,48.00,577.20,240.02,7.03;18,56.00,587.20,232.02,7.03;18,56.00,597.20,213.15,7.03" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Does the attentional focus adopted by swimmers affect their performance?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Stoate</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Wulf</surname></persName>
+		</author>
+		<idno type="DOI">10.1260/1747-9541.6.1.99</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sports Science and Coaching</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="99" to="108" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,306.00,77.20,240.02,7.03;18,314.00,87.20,190.39,7.03" xml:id="b59">
+	<monogr>
+		<title level="m" type="main">Mechanisms of animal discrimination learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">S</forename><surname>Sutherland</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Mackintosh</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1971" />
+			<publisher>Academic Press</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,306.00,97.20,240.01,7.03;18,314.00,107.20,154.20,7.03" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Optimality principles in sensorimotor control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Todorov</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nn1309</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="907" to="915" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,306.00,117.20,240.00,7.03;18,314.00,127.20,231.98,7.03;18,314.00,137.20,48.22,7.03" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Optimal feedback control as a theory of motor coordination</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Todorov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">I</forename><surname>Jordan</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nn963</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1226" to="1235" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,306.00,147.20,240.02,7.03;18,314.00,157.20,232.00,7.03;18,314.00,167.20,68.22,7.03" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Goal-equivalent joint coordination in pointing: Affect of vision and arm dominance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Tseng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Scholz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Schöner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Motor Control</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="183" to="207" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,306.00,177.20,240.03,7.03;18,314.00,187.20,139.77,7.03" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Features of similarity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Tversky</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-295X.84.4.327</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="327" to="352" />
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,306.00,197.20,240.01,7.03;18,314.00,207.20,232.02,7.03;18,314.00,217.20,219.01,7.03" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">EMG activity as a function of the performers&apos; focus of attention</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Vance</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Wulf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Töllner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">H</forename><surname>Mcnevin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Mercer</surname></persName>
+		</author>
+		<idno type="DOI">10.3200/JMBR.36.4.450-459</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Motor Behavior</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="450" to="459" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,306.00,227.20,240.02,7.03;18,314.00,237.20,232.02,7.03;18,314.00,247.20,222.65,7.03" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Freezing degrees of freedom in skill acquisition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Vereijken</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E A</forename><surname>Van Emmerick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">T A</forename><surname>Whiting</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Newell</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00222895.1992.9941608</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Motor Behavior</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="133" to="142" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,306.00,257.20,239.99,7.03;18,314.00,267.20,232.01,7.03;18,314.00,277.20,206.65,7.03" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Coordination variability and skill development in elite triple jumpers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">E</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E A</forename><surname>Van Emmerick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Hamill</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14763140701682983</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="2" to="9" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,306.00,287.20,240.01,7.03;18,314.00,297.20,232.01,7.03;18,314.00,307.20,48.22,7.03" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Computational principles of movement neuroscience</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Wolpert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Ghahramani</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/81497</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1212" to="1217" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,306.00,317.20,240.03,7.03;18,314.00,327.20,232.03,7.03;18,314.00,337.20,232.03,7.03;18,314.00,347.20,43.33,7.03" xml:id="b68">
+	<monogr>
+		<title level="m" type="main">Generalized motor programs: Reevaluating claims of effector independence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Wright</surname></persName>
+		</author>
+		<editor>M. Jeannerod</editor>
+		<imprint>
+			<date type="published" when="1990" />
+			<publisher>Erlbaum</publisher>
+			<biblScope unit="page" from="294" to="320" />
+			<pubPlace>Hillsdale, NJ</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Attention and Performance XIII: Motor representation and control</note>
+</biblStruct>
+
+<biblStruct coords="18,306.00,357.20,240.03,7.03;18,314.00,367.20,171.12,7.03" xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Attentional focus and motor skill learning: A review of 10 years of research</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Wulf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bewegung und Training</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="4" to="14" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,306.00,377.20,240.03,7.03;18,314.00,387.20,232.01,7.03;18,314.00,397.20,118.45,7.03" xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Attentional focus and motor learning: A review of 15 years</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Wulf</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/1750984X.2012.723728</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Review of Sports and Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="28" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,306.00,407.20,240.02,7.03;18,314.00,417.20,232.03,7.03;18,314.00,427.20,203.67,7.03" xml:id="b71">
+	<monogr>
+		<title level="m" type="main">Increased jump height and reduced EMG activity with an external focus. Human Movement Science</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Wulf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Dufek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Lozano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Pettigrew</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.humov.2009.11.008</idno>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="440" to="448" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,306.00,437.20,240.01,7.03;18,314.00,447.20,232.01,7.03;18,314.00,457.20,231.52,7.03" xml:id="b72">
+	<analytic>
+		<title level="a" type="main">External focus instructions reduce postural instability in individuals with Parkinson disease</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Wulf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Landers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Lewthwaite</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Töllner</surname></persName>
+		</author>
+		<idno type="DOI">10.2522/ptj.20080045</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Therapy</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="162" to="168" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,306.00,467.20,240.04,7.03;18,314.00,477.20,232.01,7.03;18,314.00,487.20,210.65,7.03" xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Enhancing the learning of sport skills through external-focus feedback</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Wulf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Mcconnel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Gärtner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Schwarz</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00222890209601939</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Motor Behavior</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="171" to="182" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,306.00,497.20,240.02,7.03;18,314.00,507.20,232.01,7.03;18,314.00,517.20,232.01,7.03;18,314.00,527.20,34.00,7.03" xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Attentional focus in complex motor skill learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Wulf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">H</forename><surname>Mcnevin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Ritter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Toole</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02701367.2000.10608903</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Research Quarterly for Exercise and Sport</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="229" to="239" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,306.00,537.20,240.01,7.03;18,314.00,547.20,232.01,7.03;18,314.00,557.20,192.95,7.03" xml:id="b75">
+	<analytic>
+		<title level="a" type="main">An external focus of attention enhances golf shot accuracy in beginners and experts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Wulf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Su</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02701367.2007.10599436</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Research Quarterly for Exercise and Sport</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="384" to="389" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,306.00,567.20,240.04,7.03;18,314.00,577.20,232.00,7.03;18,314.00,587.20,232.00,7.03;18,314.00,597.20,125.11,7.03" xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Increased movement accuracy and reduced EMG activity as a result of adopting an external focus of attention</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Zachry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Wulf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Mercer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Bezodis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.brainresbull.2005.06.035</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Research Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="304" to="309" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="18,7.70,556.60,7.03,14.22;18,7.70,522.39,7.03,31.55;18,7.70,514.39,7.03,5.34;18,7.70,473.51,7.03,38.22;18,7.70,462.85,7.03,8.00;18,7.70,450.41,7.03,9.78;18,7.70,416.21,7.03,31.54;18,7.70,368.66,7.03,44.89;18,7.70,328.22,7.03,37.78;18,7.70,318.89,7.03,6.66;18,7.70,304.68,7.03,11.55;18,7.70,295.35,7.03,6.66;18,7.70,285.13,7.03,7.56;18,7.70,264.70,7.03,17.78;18,7.70,227.15,7.03,34.89;18,17.70,567.25,7.03,14.22;18,17.70,544.60,7.03,19.99;18,17.70,536.60,7.03,5.34;18,17.70,506.39,7.03,27.55;18,17.70,484.62,7.03,19.11;18,17.70,472.63,7.03,9.33;18,17.70,460.19,7.03,9.78;18,17.70,430.42,7.03,27.10;18,17.70,417.10,7.03,10.66;18,17.70,407.77,7.03,6.66;18,17.70,395.33,7.03,9.78;18,17.70,360.22,7.03,32.45;18,17.70,344.23,7.03,13.33;18,17.70,330.02,7.03,11.55;18,17.70,322.02,7.03,5.34;18,17.70,309.14,7.03,10.22;18,17.70,300.25,7.03,6.22;18,17.70,290.04,7.03,7.55;18,17.70,245.60,7.03,41.78;18,17.70,216.50,7.03,26.44" xml:id="b77">
+	<monogr>
+		<title level="m" type="main">This document is copyrighted by the American Psychological Association or one of its allied publishers. This article is intended solely for the personal use of the individual user and is not to be disseminated broadly</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

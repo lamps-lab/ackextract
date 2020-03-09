@@ -1,0 +1,2713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Regional knowledge production and entrepreneurial firm creation: Spatial Dynamic Analyses ☆</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2013-03-05">Available online 5 March 2013</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">In</forename><forename type="middle">Hyeock</forename><surname>Lee</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Loyola University Chicago</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eunsuk</forename><surname>Hong</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">SOAS</orgName>
+								<orgName type="institution" key="instit2">University of London</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><roleName>⁎⁎</roleName><forename type="first">Laixiang</forename><surname>Sun</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">SOAS</orgName>
+								<orgName type="institution" key="instit2">University of London</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Regional knowledge production and entrepreneurial firm creation: Spatial Dynamic Analyses ☆</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2013-03-05">Available online 5 March 2013</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.jbusres.2013.02.037</idno>
+					<note type="submission">Article history: Received 1 September 2012 Received in revised form 1 December 2012 Accepted 1 January 2013</note>
+					<note>a b s t r a c t a r t i c l e i n f o</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:07+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Regional innovation capacity Entrepreneurship Firm creation Knowledge spillovers System GMM</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This study assesses whether and to what extent new knowledge available in a region and its surrounding regions induces and facilitates new firm creation, an important topic that is largely left untested in the literature. Using a full population firm-level dataset of 44,434 newly created entrepreneurial firms in the manufacturing sector in 234 regions of South Korea between 2000 and 2004, its econometric estimations indicate a positive externality effect of new knowledge production on activities of new firm creation within and across the regional boundaries, with the intra-regional effect being stronger than the inter-regional one. The estimations also show that both the intra-and inter-regional effects are stronger in high-tech industries than in low-tech industries.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The creation of new firms is fundamentally important for economic development at both the regional and national levels. New entrepreneurial firms play pivotal roles in generating new jobs and fostering economic growth through the continuous introduction of new products and the cultivation of new markets <ref type="bibr" coords="1,227.85,481.99,53.03,7.54" target="#b53">(Knight, 2001)</ref>. For example, the <ref type="bibr" coords="1,97.85,492.42,48.35,7.54" target="#b68">OECD (1997)</ref> reports that newly created small and medium-sized enterprises (SMEs) generate over 50% of new jobs on average across all member countries. On the other hand, previous literature recognizes that prospective entrepreneurs are subject to resource disadvantages compared to established companies <ref type="bibr" coords="1,247.46,534.27,37.35,7.54;1,33.74,544.76,41.86,7.54" target="#b29">(Cooper &amp; Folta, 2000)</ref>. Therefore, a better understanding of new firm creation activities by prospective entrepreneurs is of both academic and policy importance.</p><p>A large body of studies exists in the entrepreneurship literature exploring factors that stimulate new firm creation. For individual entrepreneurs, many acknowledge that the level of expertise and technological knowledge they possess is positively associated with their ability to exploit opportunities <ref type="bibr" coords="1,378.03,482.00,94.53,7.54" target="#b26">(Casson &amp; Wadeson, 2007;</ref><ref type="bibr" coords="1,474.23,482.00,74.75,7.54" target="#b90">Venkataraman, 1997)</ref>. Previous experience in the targeted sector is the best source of entrepreneurial knowledge for creating a new firm <ref type="bibr" coords="1,469.13,502.92,54.09,7.54" target="#b2">(Aldrich, 2003;</ref><ref type="bibr" coords="1,525.70,502.92,27.11,7.54;1,301.71,513.35,20.59,7.54" target="#b28">Cooper, 1986;</ref><ref type="bibr" coords="1,325.02,513.35,48.10,7.54" target="#b91">Vesper, 1996)</ref>. The existence of a successful role model nearby can also facilitate entrepreneurial activities through imitation and learning processes <ref type="bibr" coords="1,373.03,534.28,100.86,7.54" target="#b3">(Aldrich &amp; Martinez, 2001;</ref><ref type="bibr" coords="1,477.85,534.28,74.97,7.54;1,301.71,544.76,106.98,7.54" target="#b19">Bonzo, Valadares de Oliveira, &amp; McCormarck, 2012;</ref><ref type="bibr" coords="1,410.16,544.76,46.98,7.54" target="#b91">Vesper, 1996)</ref>. The organization and network perspective recognizes that entrepreneurs and their new firms need to rely on other organizations to overcome resource constraints <ref type="bibr" coords="1,301.71,576.12,80.31,7.54" target="#b29">(Cooper &amp; Folta, 2000)</ref>. New relationships with outside resource suppliers and existing networks across organizations provide entrepreneurs with the knowledge and experience needed for seizing new opportunities as well as access to critical resources, all of which is indispensable for overcoming business obstacles in the process of new firm creation <ref type="bibr" coords="1,334.08,628.45,102.98,7.54" target="#b31">(Floyd &amp; Wooldridge, 1999;</ref><ref type="bibr" coords="1,440.45,628.45,112.41,7.54" target="#b45">Hills, Lumpkin, &amp; Singh, 1997;</ref><ref type="bibr" coords="1,301.72,638.94,219.24,7.54" target="#b48">Johannisson, Alexanderson, Nowicki, &amp; Senneseth, 1994;</ref><ref type="bibr" coords="1,526.60,638.94,26.11,7.54;1,301.72,649.37,63.29,7.54" target="#b61">Low &amp; MacMillan, 1988;</ref><ref type="bibr" coords="1,368.27,649.37,135.98,7.54" target="#b79">Sapienza, Manigart, &amp; Vermeir, 1996)</ref>. In terms of business environment, a favorable environment (i.e., a good pool of resources) is critical for new firm creation <ref type="bibr" coords="1,446.52,670.30,88.80,7.54" target="#b70">(Pfeffer &amp; Salancik, 1978)</ref>. For example, a dense concentration of similar firms in a locality enriches the pool of prospective entrepreneurs and increases the success rate of start-ups <ref type="bibr" coords="1,343.76,701.71,51.81,7.54" target="#b21">(Brooks, 2011;</ref><ref type="bibr" coords="1,397.06,701.71,84.79,7.54" target="#b81">Sorenson &amp; Audia, 2000)</ref>. This concentration provides prospective entrepreneurs with more opportunities to imitate indicate that both intra-and inter-regional spillovers of innovation and knowledge production influence entrepreneurs' decisions to situate new firms in a given region. The effects of knowledge spillover on new firm creation tend to be geographically bounded and decay rapidly across geographic space. Furthermore, firm creation activities in high-tech industries associate more closely with the outcomes of regional knowledge production than in low-tech industries.</p><p>This research contributes to the literature in several ways. The research is among the first to make a testable distinction between intra-regional and inter-regional spillover effects of knowledge production that may affect the activity level of new firm creation in a locality and to show that the former effects are greater than the latter. The work also highlights the high-tech versus low-tech sector difference in terms of the link between the output of regional knowledge production and the activity level of new firm creation and shows that the activities of new firm creation are more sensitive to the output of regional knowledge production in high-tech sectors than in low-tech sectors.</p><p>The paper is organized as follows. Section 2 develops hypotheses. Section 3 describes the data, variables, and the specifications of the econometric model used for hypothesis testing. Section 4 reports the empirical results and Section 5 discusses practical and policy implications.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Hypothesis development</head><p>A standard cost-benefit consideration for creating a new entrepreneurial firm is that the expected present value of profits generated from the new firm in the future is greater than the expected present value of the prospective entrepreneur's wage income from her/his own existing and/or prospective employment in the same time horizon. Such a consideration is entitled the occupation choice theory of entrepreneurship. This theory indicates that when prospective entrepreneurs consider creating their own firms to exploit their new business ideas in the market, they deliberately compare the two occupational choices available; that is, entrepreneurial entry into the market with their own firms versus continuing to work for an incumbent company where they are currently working, and choose the best option that generates the highest expected present value of remuneration <ref type="bibr" coords="2,393.47,444.89,58.89,7.54" target="#b9">(Audretsch, 1998</ref><ref type="bibr" coords="2,459.36,444.89,16.10,7.54" target="#b10">(Audretsch, , 1999</ref><ref type="bibr" coords="2,482.65,444.89,78.90,7.54;2,310.47,455.33,20.10,7.54" target="#b12">Audretsch &amp; Feldman, 2004;</ref><ref type="bibr" coords="2,332.54,455.33,125.68,7.54" target="#b65">Moura-Leite, Padgett, &amp; Galan, 2012)</ref>.</p><p>While the expected present value of wage income can be regarded as the opportunity cost of entrepreneurial firm creation, the expected benefits from new firm creation would be closely associated with the availability of new knowledge as argued by the theory of knowledge spillover entrepreneurship. In other words, the new firm creation by prospective entrepreneurs is an endogenous response to the availability of new knowledge or output level of new knowledge production in the targeted area <ref type="bibr" coords="2,409.09,539.02,65.65,7.54" target="#b1">(Acs et al., 2009;</ref><ref type="bibr" coords="2,478.54,539.02,83.03,7.54;2,310.51,549.45,20.97,7.54" target="#b13">Audretsch &amp; Keilbach, 2007;</ref>. The larger the output of knowledge production in a certain region and its surrounding regions, the higher the expected profit is from the new firm and, therefore, the higher the level of new firm creation activities in the region. This is because new knowledge available in a region and its neighboring regions creates new opportunities that local prospective entrepreneurs can exploit profitably, resulting in their proactive founding activities <ref type="bibr" coords="2,310.50,622.71,73.23,7.54" target="#b1">(Acs et al., 2009;</ref><ref type="bibr" coords="2,389.73,622.71,116.46,7.54" target="#b13">Audretsch &amp; Keilbach, 2007;</ref><ref type="bibr" coords="2,374.85,633.14,85.32,7.54" target="#b52">Keen &amp; Etemad, 2012;</ref><ref type="bibr" coords="2,463.45,633.14,94.07,7.54" target="#b84">Stuart &amp; Sorenson, 2003)</ref>. The above discussion indicates that the level of new firm creation activities is a function of the difference between expected profit, which is a function of knowledge production level and other determinants, and the opportunity cost of establishing a new firm, which is a function of the prospective entrepreneur's current wage income. This leads to Eq. (1) and H1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Level of Firm Creation Activities</head><formula xml:id="formula_0" coords="2,416.41,723.07,145.60,20.12">¼ f π Knowledge; other variables ð Þ -c Wage ð Þ f g<label>ð1Þ</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>H1.</head><p>A positive relationship exists between the level of firm creation activities and the output of knowledge production in a given (home) region.</p><p>Despite new knowledge production possessing localized characteristics, these characteristics will not confine new knowledge to the interior of each fine-grained administrative region. New knowledge produced in a given region may spill over to entrepreneurs and firms in neighboring regions across geographic and administrative boundaries <ref type="bibr" coords="3,55.06,150.96,66.46,7.54" target="#b1">(Acs et al., 2009;</ref><ref type="bibr" coords="3,125.99,150.96,108.18,7.54" target="#b12">Audretsch &amp; Feldman, 2004;</ref><ref type="bibr" coords="3,238.63,150.96,46.12,7.54;3,33.75,161.40,54.92,7.54" target="#b13">Audretsch &amp; Keilbach, 2007;</ref><ref type="bibr" coords="3,90.67,161.40,54.22,7.54" target="#b58">Lin &amp; Lu, 2012)</ref> and exert an impact on new firm creation in those neighboring regions. This is because, for example, prospective entrepreneurs living in a given region can still have face-to-face meetings and/or informal contacts with knowledge providers located in its neighboring regions for the transfer of the new knowledge across regional boundaries. This argument indicates that Eq. (1) can be extended by adding the spatially weighted average of the knowledge production outputs in the neighboring regions, denoted as "W · Knowledge". Here the authors adopt the notion of contiguity to account for spatial dependence, which means that neighboring regions should display a higher degree of spatial dependence than regions located far apart. The authors will present the detailed specification of the contiguity spatial weight matrix (W) in Section 3. Thus Eq. (2) and H2 emerge.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Level of Firm Creation Activities</head><formula xml:id="formula_1" coords="3,45.08,336.19,239.71,16.08">¼ f fπ Knowledge; W : Knowledge; other variables ð Þ -c Wage ð Þ g<label>ð2Þ</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>H2.</head><p>A positive relationship exists between the level of firm creation activities in a given (home) region and the (spatially-weighted average) output of knowledge production in the neighboring regions.</p><p>The theory of knowledge spillover entrepreneurship acknowledges that new knowledge conducive to successful commercialization is usually tacit and embodied and thus has a strong tendency to be locally mediated and available in close geographic proximity. As a consequence, when the activities of creating new entrepreneurial firms can explore the new knowledge profitably, the geographic distance between the sources of new knowledge and prospective entrepreneurs becomes an important factor that affects entrepreneurs' founding activities. In other words, being located closer to the knowledge source, for example in the same region, may enhance new firm formation in the region owing to more efficient and effective transfer of tacit and embodied knowledge from one party to another in comparison with those in the neighboring regions. Put in cost-management terms, the costs of transferring knowledge and technologies are likely to rise with the increase of geographic distance <ref type="bibr" coords="3,115.91,565.48,88.43,7.54" target="#b4">(Almeida &amp; Kogut, 1997;</ref><ref type="bibr" coords="3,206.40,565.48,78.40,7.54;3,33.76,575.91,19.31,7.54" target="#b11">Audretsch &amp; Feldman, 1996)</ref>, so do the costs for identifying business network partners <ref type="bibr" coords="3,33.76,586.36,84.77,7.59" target="#b29">(Cooper &amp; Folta, 2000;</ref><ref type="bibr" coords="3,122.06,586.36,111.72,7.54" target="#b46">Huarng, Mas-Tur, &amp; Yu, 2012;</ref><ref type="bibr" coords="3,237.26,586.36,47.52,7.54;3,33.73,596.79,107.69,7.54">Lutz, Bender, Achleitner, &amp; Kaserer, in press)</ref> and for making non-market transactions through informal contacts.</p><p>H3. The effects of knowledge spillover on new firm creation are stronger in the focal (home) region than in the neighboring regions.</p><p>The word stronger means that (a) the spatial weight matrix W is constructed in such a way as to make the weights decrease rapidly with the growth of distance between the focal region and its surrounding regions, and (b) the coefficient on output of knowledge production in the home region is greater (in magnitude) than that on spatially-weighted average output of knowledge production in the neighboring regions.</p><p>Heterogeneous effects may exist across industries with regard to the relationship between the outputs of regional knowledge production and the level of firm creation activities. The absorptive capacity perspective argues that organizations need basic knowledge in order to acquire additional new knowledge <ref type="bibr" coords="3,449.51,78.74,99.48,7.54" target="#b27">(Cohen &amp; Levinthal, 1990)</ref>. Technology-based prospective entrepreneurs operating in high-tech industries would have a stronger need for easy access to new knowledge than their counterparts in low-tech industries <ref type="bibr" coords="3,301.72,120.59,105.35,7.54" target="#b32">Folta, Cooper, &amp; Baik, 2006;</ref><ref type="bibr" coords="3,411.14,120.59,106.61,7.54" target="#b41">Hackling &amp; Wallnöfer, 2012;</ref><ref type="bibr" coords="3,521.74,120.59,31.04,7.54;3,301.72,131.08,57.02,7.54" target="#b84">Stuart &amp; Sorenson, 2003)</ref>. In addition, prospective entrepreneurs operating in high-tech industries possess more basic knowledge than their counterparts in low-tech industries which enable them to absorb new knowledge and information available in the same geographic location <ref type="bibr" coords="3,301.72,172.92,99.50,7.54" target="#b27">(Cohen &amp; Levinthal, 1990;</ref><ref type="bibr" coords="3,405.52,172.92,147.22,7.54" target="#b38">Gilbert, McDougall, &amp; Audretsch, 2008;</ref><ref type="bibr" coords="3,301.72,183.35,99.24,7.54" target="#b43">Hawkins &amp; Rezazade, 2012;</ref><ref type="bibr" coords="3,403.24,183.35,103.84,7.54" target="#b77">Rothaermel &amp; Thursby, 2005)</ref>. As a result, knowledge-intensive high-tech industries are more productive in mobilizing available new knowledge for successful commercialization than low-tech industries would be. This discussion leads to the final hypothesis.</p><p>H4. The effects of knowledge spillover on new firm creation are stronger for firms operating in high-tech industries than for those firms operating in low-tech industries.</p><p>The term stronger means that the coefficients on output of knowledge production in the home region and spatially-weighted average output of knowledge production in the neighboring regions are greater (in magnitude) in the high-tech regression equation than in the low-tech regression equation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Research design</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Why Korea?</head><p>After the financial crisis that devastated most Asian countries in the late 1990s, Korea has made a major policy shift to recover the health of its national economic system. Korea formulated and implemented strong incentive packages to help prospective entrepreneurs create small but knowledge-intensive and innovative new ventures with the aim of shifting the nation's growth engines from large-sized Korean conglomerates called chaebols to small and medium-sized enterprises (SMEs) and thus to overcome the economic crisis. As a result of the combined efforts of both governments and entrepreneurs, Korea rapidly emerged as one of the most entrepreneurial societies in the world <ref type="bibr" coords="3,301.74,494.51,86.60,7.54" target="#b73">(Reynolds et al., 2002)</ref>. The Global Competitive Report <ref type="bibr" coords="3,519.94,494.51,32.84,7.54;3,301.74,504.94,21.34,7.54" target="#b80">(Schwab, 2009)</ref> indicates that Korea is among the top 20 most competitive economies in the world. In addition, the Global Entrepreneurship Monitor assesses that Korea has the third highest entrepreneurial activity with only the United States and Iceland scoring higher <ref type="bibr" coords="3,479.40,536.35,69.61,7.54" target="#b20">(Bosma et al., 2009)</ref>. New Korean ventures are aggressively attempting to transform into more innovative and knowledge-based businesses to take advantage of changing markets and to improve performance <ref type="bibr" coords="3,483.30,567.71,69.43,7.54;3,301.74,578.20,35.92,7.54" target="#b39">(Gregory, Harvie, &amp; Lee, 2002)</ref>. Korean governments have provided locational support to new firms at both central and regional levels by establishing industrial complexes under zoning policies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Dependent variable</head><p>The level of domestic entrepreneurial activities in region i and year t is measured as the total number of newly created entrepreneurial firms in the manufacturing sector in region i and year t. The key dependent variable is defined as the logarithm of one plus the total number of newly created entrepreneurial firms in the manufacturing sector in region i and year t, denoted as ln(Ent All ) i,t . Here adding one to the count variable aims to keep observations with zero number of new firms after taking logarithm. Such an approach is popular in the literature (e.g., <ref type="bibr" coords="3,449.69,727.30,103.13,7.54;3,301.72,737.79,20.97,7.54" target="#b30">Crozet, Mayer, &amp; Mucchielli, 2004;</ref><ref type="bibr" coords="3,327.18,737.79,116.15,7.54" target="#b44">Head, Ries, &amp; Swenson, 1995;</ref><ref type="bibr" coords="3,447.82,737.79,104.91,7.54;4,42.52,57.81,19.59,7.54" target="#b63">Maitland, Rose, &amp; Nicholas, 2005)</ref>. Please also note that the definition of the dependent variable at this moment does not directly address the issue of relative regional size. This size issue will be addressed in two ways: (a) employing a control variable on land size available for building factories in region i and year t; and (b) running a robustness test with a size-adjusted dependent variable. The data come from the Factory Establishment and Management Information System (FEMIS) database of manufacturing industries (http://www.femis.go.kr/), compiled and managed by the Korean Ministry of Knowledge Economy (http://www.mke.go.kr) since 2000. Because the law requires all new manufacturing firms to register with their local government, the database provides a complete and reliable population of newly created manufacturing firms in Korea. From 2000 to 2004 the registry contains 58,564 such new firms. To focus on entrepreneurial firms, this study follows the existing entrepreneurship literature and takes those with number of employees equal to or less than 200 <ref type="bibr" coords="4,104.82,214.75,102.82,7.54" target="#b22">(Brush &amp; Vanderwerf, 1992;</ref><ref type="bibr" coords="4,210.49,214.75,83.14,7.54" target="#b82">St-Jean &amp; Audet, 2012;</ref><ref type="bibr" coords="4,42.53,225.18,95.68,7.54" target="#b94">Zahra, Ireland, &amp; Hitt, 2000)</ref>. This cut-off leads to a sample of 44,434 entrepreneurial firms.</p><p>For the purpose of testing H4, this study separates firms in high-tech industries from those in low-tech industries. The authors follow the five-digit Korean SIC codes, which is in line with the guidelines of the OECD STI Committee, to do the separation and define two new dependent variables ln(Ent High−Tech ) i,t and ln(Ent Low−Tech ) i,t . The former is the logarithm of one plus the total number of newly created firms in high-tech industries in region i and year t, and the latter is the logarithm of one plus the total number of newly created firms in low-tech industries in region i and year t. The high-tech industries include: biotechnology; the environment; alternative energy; semi-conductor equipment and electronic components; audio and video; telecommunication equipment, computers and auxiliary devices; medical equipment; precise mechanics; optical; and sophisticated parts and materials. The low-tech industries include all the remaining industries. Because Korea has 234 administrative county-and city-level regions and the variables are measured at the regional level, this research obtains a total number of 1170 region-year observations (234 sub-national regions×5 years) for all three dependent variables. The research has to exclude 4 observations with missing values for some control variables. The final dataset consists of an unbalanced panel with 1166 observations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Independent variables</head><p>The key independent variable is the output of knowledge production. The most preferred proxy for this variable in the knowledge spillover literature is the number of patents registered in the region in a given year (e.g., <ref type="bibr" coords="4,63.10,518.12,56.65,7.54" target="#b40">Griliches, 1990;</ref><ref type="bibr" coords="4,123.54,518.12,100.78,7.54" target="#b42">Hagedoorn &amp; Cloodt, 2003;</ref><ref type="bibr" coords="4,228.16,518.12,65.45,7.54;4,42.52,528.61,21.11,7.54" target="#b76">Rothaermel &amp; Ku, 2008)</ref> and this research uses the same proxy. According to the literature, the number of patents registered possesses multiple desirable attributes as a preferred proxy for the output of regional knowledge production. First, as legal statements granted on a novel usage of new knowledge and ideas, patents provide empirical researchers with objective data on outcomes of knowledge production and flows <ref type="bibr" coords="4,234.19,580.89,59.40,7.54;4,42.52,591.37,54.55,7.54" target="#b23">(Buesa, Heijs, &amp; Baumert, 2010;</ref><ref type="bibr" coords="4,99.34,591.37,132.85,7.54" target="#b47">Jaffe, Trajtenberg, &amp; Henderson, 1993)</ref>. Second, patents represent the upstream phase of a knowledge production process in contrast to other measures such as the number of commercial innovations and/or new products introduced in the market <ref type="bibr" coords="4,219.61,622.73,70.16,7.54" target="#b23">(Buesa et al., 2010)</ref>. Third, patents also maintain a high correlation with input resources for new knowledge production, such as R&amp;D expenses and human capital <ref type="bibr" coords="4,42.51,654.14,106.69,7.54" target="#b0">(Acs, Anselin, &amp; Varga, 2002;</ref><ref type="bibr" coords="4,152.65,654.14,44.20,7.54" target="#b69">OECD, 2004)</ref>. Fourth, although patents are typically regarded as codified knowledge, tacit knowledge is arguably the most important input in the production of patents. As a consequence, a statistically significant relationship between the number of patents registered and the activity level of firm creation would reflect a significant relationship between the production of both codified and tacit knowledge and the activity level of firm creation.</p><p>The regional registered patents data are available from the Korean National Statistics Office (http://kosis.nso.go.kr/). The current research first considers a time-lag of one year between the registrations of patents and their materialized impact on the birth of new firms. In robustness tests, the research adds additional time-lags of two and three years. The adoption of such time-lags is a natural adjustment for the fact that knowledge spillovers take time to have an effect just as the spillover impact takes time to materialize. Such an introduction of time-lags for independent variables is also popular in the literature (e.g., <ref type="bibr" coords="4,391.29,131.10,78.97,7.54" target="#b34">Fritsch &amp; Falck, 2007;</ref><ref type="bibr" coords="4,472.82,131.10,88.72,7.54" target="#b35">Fritsch &amp; Mueller, 2007;</ref><ref type="bibr" coords="4,310.50,141.54,90.59,7.54" target="#b49">Johnson &amp; Parker, 1996;</ref><ref type="bibr" coords="4,404.27,141.54,57.54,7.54" target="#b71">Prevezer, 1997;</ref><ref type="bibr" coords="4,464.99,141.54,59.07,7.54" target="#b72">Reynolds, 1994;</ref><ref type="bibr" coords="4,527.24,141.54,34.33,7.54;4,310.50,152.03,78.57,7.54" target="#b78">Santarelli &amp; Piergiovanni, 1995;</ref><ref type="bibr" coords="4,391.40,152.03,79.29,7.54" target="#b85">Sutaria &amp; Hicks, 2004)</ref>.</p><p>In the empirical estimations, the authors use the logarithm of one plus the total number of registered patents per 1000 population in region i and year t over 1999-2003, denoted as ln Patent i,t−1 , for assessing the intra-regional effect. For assessing the inter-regional effect, they use the spatially weighted average of ln Patent j,t−1 in the neighboring regions of region i, denoted as (W⋅ ln Patent) i,t−1 , where W is a 234 × 234 row-standardized contiguity spatial weight matrix. To assess sensitivity of the results to the alternative contiguity spatial weight matrix, the authors consider both the first and second order contiguity matrices, W 1 and W 2 . The cell (i, j) in the first order contiguity matrix W 1 has value 1 if regions i and j are next-door neighbors, and value zero otherwise. The cell (i, j) in the second order contiguity matrix W 2 has value 1 if regions i and j are either next-door or next-door-but-one neighbors, and value zero otherwise. By convention, zeros are placed on the main diagonal of the W matrix. Because this research works with 234 sub-national regions in Korea, both W 1 and W 2 are 234 × 234 matrices. The standardization of the W matrix means a row-normalization so that the row-sums add to unity. As a result, (W 1 ⋅ ln Patent) i,t − 1 refers to a contiguity-weighted average of the regional knowledge production output in neighboring regions that share some common borders with the region i. (W 2 ⋅ ln Patent) i,t−1 refers to a contiguity-weighted average of the regional knowledge production output in neighboring regions which are either next-door or next-door-but-one neighbors of region i.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Control variables</head><p>The authors incorporate a comprehensive set of control variables to capture other influential factors which underpin the level of firm creation activities. The control variables include local market size, local wage level, agglomeration, land size for building factories, land price, and two sets of dummy variables. The authors note the existence of a large body of literature testing the relationship between unemployment and new firm formation, which indicates mixed results or no evidence of relationship <ref type="bibr" coords="4,364.06,518.11,49.15,7.54" target="#b83">(Storey, 1991)</ref>, because unemployment may create two countervailing influences on new firm formation in a locality <ref type="bibr" coords="4,532.60,528.60,28.95,7.54;4,310.50,539.03,20.48,7.54" target="#b33">(Fritsch, 1992;</ref><ref type="bibr" coords="4,335.79,539.03,83.74,7.54" target="#b34">Fritsch &amp; Falck, 2007;</ref><ref type="bibr" coords="4,424.28,539.03,55.31,7.54" target="#b36">Garofoli, 1994;</ref><ref type="bibr" coords="4,484.27,539.03,77.26,7.54;4,310.50,549.52,19.21,7.54" target="#b87">Tajeddini &amp; Mueller, 2012)</ref>. The authors report here that the Korean unemployment rates at the regional level show surprisingly low variation across the 234 regions over the period of 1999-2003; and furthermore, the introduction of unemployment rates in the subsequent regressions as a control variable does not provide meaningful explanatory power and does not alter the reported results herewith. The authors use governmental statistics on regional economies from the Korean National Statistics Office (http://kosis.nso.go.kr/) for constructing the measurements of the above control variables. The study takes a one-year lag and the natural logarithm of all of the above control variables except for the dummy variables. The adoption of the one-year lag is to accommodate for the time taken between assessing available information, making the decision to establish a new firm and the firm becoming materially established.</p><p>The size of the local market is measured by the gross regional product per capita (in million KRW, US$1 = 1160 KRW) from manufacturing firms in region i and year t and takes the form of ln GRPPC i,t −1 . The authors expect a positive effect of local market size on new firm start-ups <ref type="bibr" coords="4,310.50,727.30,85.87,7.54" target="#b51">(Keeble &amp; Walker, 1994)</ref>. The local wage level is measured by monthly average wage per employee (in million KRW) in region i and year t and takes the form of ln Wage i,t −1 <ref type="bibr" coords="5,140.71,57.81,53.42,7.54" target="#b24">(Carlton, 1983;</ref><ref type="bibr" coords="5,195.76,57.81,74.87,7.54" target="#b34">Fritsch &amp; Falck, 2007;</ref><ref type="bibr" coords="5,272.24,57.81,12.65,7.54;5,33.74,68.24,19.31,7.54" target="#b57">Lin, 2012)</ref>. Because increased wage rates increase the opportunity costs of self-employment and the cost of hiring workers, and cheap labor forces are key resources needed in the manufacturing sector, local wage rates would be negatively correlated to the level of firm creation activities <ref type="bibr" coords="5,33.73,110.09,114.51,7.54" target="#b8">(Ashcroft, Love, &amp; Malloy, 1991;</ref><ref type="bibr" coords="5,150.49,110.09,100.42,7.54" target="#b17">Audretsch &amp; Vivarelli, 1996;</ref><ref type="bibr" coords="5,253.08,110.09,31.66,7.54;5,33.73,120.57,42.54,7.54" target="#b34">Fritsch &amp; Falck, 2007;</ref><ref type="bibr" coords="5,78.41,120.57,89.88,7.54" target="#b37">Gerlach &amp; Wagner, 1994;</ref><ref type="bibr" coords="5,170.35,120.57,114.43,7.54;5,33.73,131.06,45.55,7.54" target="#b67">Mukherjee, Lahiri, Mukherjee, &amp; Billing, 2012)</ref>. On the other hand, a positive relationship might be possible between the local wage rate and the level of firm creation activities in high-tech industries, because a high wage rate in a region may be an indication of the high quality of human capital <ref type="bibr" coords="5,198.19,162.42,51.38,7.54" target="#b33">(Fritsch, 1992;</ref><ref type="bibr" coords="5,251.31,162.42,33.44,7.54;5,33.73,172.91,76.43,7.54" target="#b78">Santarelli &amp; Piergiovanni, 1995;</ref><ref type="bibr" coords="5,112.24,172.91,66.30,7.54" target="#b95">Zucker et al., 1998)</ref>.</p><p>The level of agglomeration is measured by the total number of firms operating across all manufacturing and service industries in region i and year t and takes the form ln Agglomeration i,t−1 <ref type="bibr" coords="5,200.69,204.25,53.13,7.54" target="#b24">(Carlton, 1983;</ref><ref type="bibr" coords="5,255.97,204.25,28.83,7.54;5,33.73,214.74,57.69,7.54" target="#b84">Stuart &amp; Sorenson, 2003;</ref><ref type="bibr" coords="5,94.58,214.74,73.70,7.54" target="#b86">Swaminathan, 2001;</ref><ref type="bibr" coords="5,171.45,214.74,63.46,7.54" target="#b93">Woodward, 1992)</ref>. The authors expect a positive impact of agglomeration economies on new firm creation because the presence of a larger number of firms in a region generates positive agglomeration effects through the availability of closer spatial and inter-industry linkages, the accumulation of production factors, availability of information, and knowledge/technology spillovers. On the other hand, a negative agglomeration effect might be possible under certain circumstances. For example, if too many firms crowd into the same region and same industries, local prospective entrepreneurs must compete with them in securing financial resources, hiring workers, accessing network partners, sharing common infrastructure, and/or locating affordable land for their new firms <ref type="bibr" coords="5,184.42,329.78,80.65,7.54" target="#b29">(Cooper &amp; Folta, 2000;</ref><ref type="bibr" coords="5,267.61,329.78,17.12,7.54;5,33.73,340.27,39.45,7.54" target="#b32">Folta et al., 2006)</ref>, increasing the level of congestion that they face.</p><p>The land size available for building factories might be the most intuitive and meaningful variable for controlling the regional size effect for the following two reasons. First, the most important precondition for building a factory for a manufacturing firm is the availability of land, which, in the case of Korea, is subject to strict urban development zoning policy. Second, employing this variable to control for the size effect has the advantage of capturing the zoning-induced phenomenon that new entrepreneurs may operate their own firms in geographic regions that are different from their home regions to overcome the constraints of land unavailability. The variable is measured as the size of land (in km 2 ) available for building factories in region i and year t and takes the form of ln LandSize i,t −1 . <ref type="bibr" coords="5,131.76,465.77,66.41,7.54" target="#b93">Woodward (1992)</ref> finds a significantly positive relationship between the land size available for building factories in U.S. counties and the likelihood of new Japanese plant start-ups in the U.S. counties. The authors also expect a positive effect of this variable on new firm start-ups because increased land size for building factories may lead to an increase in potential sites for new firm creation.</p><p>The measurement of land price variable is the average amount of rent collected per m 2 (in million KRW) in region i and year t and takes the form of ln LandPrice i,t−1 . The authors expect a negative impact of land price on new firm creation because, constrained by small firms' initial resource disadvantages in comparison to large established firms, prospective entrepreneurs consider the cost of establishing a new firm as a key factor in making their location choices. Finally, the authors include an industrial complex dummy variable and four yearly dummy variables to control for the different industrial policies initiated by local governments <ref type="bibr" coords="5,115.28,622.70,74.74,7.54" target="#b85">Sutaria &amp; Hicks, 2004</ref>) and year-specific characteristics, respectively. <ref type="table" coords="5,111.23,633.14,25.71,7.54">Table 1</ref> summarizes the descriptive statistics and a correlation matrix of the variables introduced in this section.</p><p>3.5. Econometric model, endogeneity issues, and system GMM The econometric model for testing H1-H4 is specified as follows.</p><p>ln Ent ð Þ i;t ¼ β 0 þ β 1 ln Patent i;t−1 þ β 2 W⋅ ln Patent i;t−1 þ β 3 ln GRPPC i;t−1 þ β 4 ln Wage i;t−1 þ β 5 ln Agglomeration i;t−1 þ β 6 ln LandSize i;t−1</p><formula xml:id="formula_2" coords="5,72.00,722.19,212.77,20.89">þ β 7 ln Land Price i;t−1 þ ComplexDummy i;t þ u i þ ν t þ ε it :<label>ð3Þ</label></formula><p>The model will be run first for all sample firms, and then separately for firms in the high-tech and the low-tech industries. W will be W 1 in the main runs and W 2 in some robustness tests as mentioned later on. The variables u i and ν t capture region-and year-specific effects respectively, and ε it is an error term.</p><p>Although the theoretical discussion in Section 2 suggests a direction of causality from regional output of knowledge production to the level of firm creation activities, unbiased and consistent estimations of the signs and scales of the spillover effects can be obtained only after controlling for the possible endogeneity problem between regional knowledge production and activities of new firm creation. For example, certain geographic regions that are attractive and conducive to both patent and new firm creations may draw the attention of both types of activities. In addition to this, a high birth rate of entrepreneurial firms in a given region may attract R&amp;D laboratories and other innovative activities to the region. As such, a lack of control of potential endogeneity issues may generate biased and inconsistent empirical results.</p><p>As well summarized in Lee, Hong, and Sun (in press), the traditional way to address the potential endogeneity problem is to identify good instrumental variables (IVs) that are highly correlated with the endogenous variables but not correlated with the error term, and then run IV regressions. In most cases, however, finding the instruments with such ideal properties is not easy. The difference GMM method overcomes this difficulty by using the level of the lagged terms of endogenous variables as instrument variables after first differencing, because these lagged variables are very unlikely to be correlated with the error term after the first-difference <ref type="bibr" coords="5,510.14,340.28,42.61,7.54;5,301.73,350.71,43.05,7.54" target="#b6">(Arellano &amp; Bond, 1991)</ref>. Nevertheless, the difference GMM may still be subject to the problem of weak instruments <ref type="bibr" coords="5,433.36,361.20,84.80,7.54" target="#b18">(Blundell &amp; Bond, 1998)</ref>, because the differences of a persistent time series (near a unit root) are close to innovations and thus difficult to instrument. The system GMM method suggested in <ref type="bibr" coords="5,379.46,392.55,93.71,7.54" target="#b18">Blundell and Bond (1998)</ref> handles this weak instrument problem by building up a system of two equations, the level equation and the above difference equation. As a result, the system GMM method uses the level of lagged variables as instruments to estimate first-differenced endogenous variables for the difference equation as in the difference GMM method, and the lags of the potential endogenous variables are first differenced and then used directly as IVs in the original level equation without differencing, because differenced lagged variables are very unlikely to be correlated with the error term of the level equation. In short, the system GMM uses lagged differences to estimate levels and uses lagged levels to estimate differences within the system.</p><p>To guarantee that the selected set of lagged level and firstdifferenced values of the explanatory variables are valid and relevant instruments in the regression, the authors conduct and report three validity tests: (1) Hansen's J test of over-identifying restrictions to test for the overall validity of the IVs; (2) Difference-in-Hansen tests with the number of instruments reported <ref type="bibr" coords="5,466.43,570.42,60.49,7.54" target="#b75">(Roodman, 2009</ref>); and (3) first-order AR(1) and second-order AR(2) serial correlation tests in the first-differenced residuals. If the original error terms are not serially correlated, AR(1) should be significant and AR(2) should be insignificant. In addition, the authors conduct a finite-sample correction to the two-step covariance matrix <ref type="bibr" coords="5,428.50,622.75,71.02,7.54" target="#b92">(Windmeijer, 2005)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Empirical results</head><p>Table 2 reports the empirical results from the system GMM estimation. The table presents three model specifications. Model 1 is a partial version of Eq. (3) which focuses on the intra-regional spillover effect of knowledge production and Model 2 is a partial version of Eq. (3) which focuses on the inter-regional spillover effect of knowledge production. Model 3 adopts the full specification of Eq. (3) and intends to capture both intra-and inter-regional spillover effects of knowledge production. Each model is estimated for the full sample, the high-tech subsample and the low-tech subsample, respectively. As shown in the bottom four lines of <ref type="table" coords="6,455.25,68.24,26.05,7.54" target="#tab_1">Table 2</ref>, all nine estimations pass the specification tests of Hansen's J, Difference-in-Hansen, AR(1) and AR(2). These consistent test results indicate that each selected set of instrument variables in each regression is statistically valid and, as a result of this validity, each regression of <ref type="table" coords="6,512.51,110.09,26.32,7.54" target="#tab_1">Table 2</ref> properly addresses the potential endogeneity problem of regional knowledge production as well as the problem of measurement errors.</p><p>The results of Model 1 show that the coefficients for ln Patent i,t − 1 are all positive and statistically significant across the three regressions, suggesting the existence of positive intra-regional externalities of knowledge production to new firm creation in the manufacturing industry and the two sub-industrial levels. This finding provides partial support to H1. For the control variables, most of them are statistically significant and have the expected signs. For example, market size and agglomeration show positive associations with new firm start-ups, whereas wage rates display negative associations with the start-ups. Although the coefficients on land size and land price have expected signs, they are statistically insignificant in some cases.</p><p>The results of Model 2 show that the estimated coefficients for (W 1 ⋅ ln Patent) i,t − 1 all have the expected positive signs and are statistically significant, suggesting the presence of positive inter-regional externalities of knowledge production to new firm creation in the manufacturing industry and the two sub-industrial levels. These results provide partial support to H2. With respect to the control variables, a larger size of the local market, a higher level of agglomeration economies, and a larger land area for building factories all contribute to an increase in the number of new firm start-ups, whereas a higher local wage level reduces local entrepreneurial activities. The coefficients on land price are statistically insignificant in all three regressions.</p><p>Model 3 is the preferred full model with the most comprehensive specification. The estimation results of Model 3 show that the coefficients for both ln Patent i,t−1 and (W 1 ⋅ ln Patent) i, t−1 are positive and statistically significant, indicating the presence of both intra-and inter-regional spillover effects of knowledge production. These results provide full support to H1 and H2. A comparison of the magnitudes of coefficients for ln Patent i,t −1 and (W 1 ⋅ ln Patent) i, t−1 indicate that the intra-regional effects are always stronger than the inter-regional ones and the difference is significant for the high-tech subsample. This set of evidence supports H3.</p><p>With regard to the performance of control variables in Model 3, all perform well in the regression for the high-tech subsample, having the expected signs for all coefficients and being statistically significant except for land prices. For the low-tech subsample, the coefficient for the land price variable becomes statistically significant. Nevertheless, the coefficient for local market size becomes statistically insignificant for the low-tech subsample, and the coefficients for local wage level become statistically insignificant for the full sample and the low-tech subsample.</p><p>It is worth highlighting that the estimation results across the three models in <ref type="table" coords="6,350.96,580.87,27.46,7.54" target="#tab_1">Table 2</ref> all indicate that the spillover effects of regional knowledge production on the level of firm creation activities are stronger in the high-tech sector than in the low-tech sector. Numerically speaking, the results of Model 1 present elasticity of 1.455 for the high-tech subsample and 0.945 for the low-tech subsample. The results of Model 2 show elasticity of 1.202 for the high-tech subsample and 0.611 for the low-tech subsample. In terms of Model 3, the contrast of elasticity values is 1.052 versus 0.503 for the intraregional effects and 0.571 versus 0.377 for the inter-regional effects. These findings support H4.</p><p>Two key issues for the robustness check exist. The first is the role of patents registered in the year t − 2 and the year t − 3. They may play more important roles than those registered in the year t − 1 if prospective entrepreneurs take longer than one year to collect and assess available information, conduct feasibility studies, make the decision to establish a new firm, and materially establish the new firm. <ref type="table" coords="6,88.01,727.32,6.03,16.32;6,88.01,721.74,6.03,3.65">Table 1</ref> Descriptive statistics and correlation matrix. a,b,c Mean S.D.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Min.</head><p>Max.</p><p>(1)</p><p>(2)</p><p>(3)  test regressions only. The authors are also aware that the correlations between explanatory variables have limited impact on the unbiasedness of estimates but may affect their variances in GMM type of regressions, and the unbiasedness of the coefficient estimates is the key concern of the robustness tests. <ref type="table" coords="7,33.73,371.60,26.56,7.54" target="#tab_3">Table 3</ref> reports the robustness test by adding ln Patent i,t − 2 and (W 1 ⋅ ln Patent) i,t − 2 to Eq. (3). <ref type="table" coords="7,151.43,382.09,26.21,7.54" target="#tab_3">Table 3</ref> shows that the strong effects of ln Patent i,t−1 remain both in terms of coefficients' signs and significance, although the magnitudes of coefficients become smaller. The effects of ln Patent i,t−2 are positive everywhere but significant only in one regression of the high-tech subsample of Model 1*. The effects of (W 1 ⋅ ln Patent) i, t−1 change to being insignificant in the full sample and the low-tech subsample regressions but maintain their significance in the high-tech subsample regressions of Models 2* and 3*. Similar to the effects of ln Patent i,t−2 , the effects of (W 1 ⋅ ln Patent) i,t−2 are positive everywhere but significant only in one regression of the high-tech subsample of Model 2*. Because the effects of ln Patent i,t−3 and (W 1 ⋅ ln Patent) i,t−3 are insignificant, the authors omit the results. All these results suggest a close time association between the output of new knowledge production and entrepreneurial firm creation activities and do not alter the support established for H1-H4. The second robustness issue is the effectiveness of controlling the regional size effect by ln LandSize i,t−1 . To check this effect, the authors construct the size-adjusted variable ln(Ent _Ratio) i,t which is the logarithm of (the number of newly created entrepreneurial firms) / (the land size available for building factories) in region i and year t, as the dependent variable. <ref type="table" coords="7,123.47,591.29,26.84,7.54" target="#tab_2">Table 4</ref> reports the regression results based on this size-adjusted dependent variable. It shows qualitatively equivalent results to those reported in the right panels of Tables 2 and 3. The authors conduct another set of robustness tests by employing an alternative spatial weighting matrix W 2 (as discussed in Section 3) for all regressions reported in Tables 2-4. All regression results with W 2 remain qualitatively unchanged.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Discussion and conclusions</head><p>The process of new firm creation deserves great research attention and this recognition has stimulated the emergence of a large body of publications in the entrepreneurship literature. Nevertheless, what remains untested in the field is whether regional externalities of new knowledge production to entrepreneurial activities exist. Building on the recent development of the theory of knowledge spillover entrepreneurship <ref type="bibr" coords="7,348.95,382.10,62.77,7.54" target="#b1">(Acs et al., 2009;</ref><ref type="bibr" coords="7,414.55,382.10,104.98,7.54" target="#b13">Audretsch &amp; Keilbach, 2007;</ref><ref type="bibr" coords="7,522.43,382.10,30.30,7.54;7,301.73,392.53,57.29,7.54" target="#b84">Stuart &amp; Sorenson, 2003)</ref>, this study introduces both intra-and inter-regional externalities of knowledge production as an important driving force for entrepreneurial activities. The authors posit that the firm creation activities of prospective entrepreneurs are highly responsive to the existence of new knowledge within their reach, and therefore the geographic distance between prospective entrepreneurs and knowledge providers plays an influential role in the process of new firm creation. An additional point worth noting is that knowledge-intensive hightech industries should be more proactive and productive in mobilizing available new knowledge for successful commercialization than low-tech industries.</p><p>The testing of the hypotheses employs the population data on patent registrations and new firm start-ups in manufacturing industries in 234 regions of Korea between 2000 and 2004. The employment of the system GMM estimator addresses the potential endogeneity problem associated with the key independent variables and other control variables. For robustness checks, the authors introduce additional year-lags for the key independent variables, size-adjusted dependent variable, and alternative spatial-weighted matrix. The empirical estimations lead to several important findings. First, the output of regional knowledge production generates both positive intra-and inter-regional externalities to the activities of new firm creation, indicating the significance of knowledge spillover in the new firm creation process. Second, the intra-regional spillover effects of knowledge production are stronger than the inter-regional ones. This finding is consistent with the existing literature, which shows that the cost of knowledge spillovers is an increasing function of the geographic distance between the providers and recipients of new knowledge <ref type="bibr" coords="7,301.75,685.49,102.30,7.54" target="#b5">(Anselin, Acs, &amp; Varga, 1997;</ref><ref type="bibr" coords="7,406.05,685.49,100.92,7.54" target="#b12">Audretsch &amp; Feldman, 2004;</ref><ref type="bibr" coords="7,445.00,695.93,104.01,7.54" target="#b77">Rothaermel &amp; Thursby, 2005)</ref>. Finally, the spillover effects of regional knowledge production are stronger for new firm creation in high-tech industries than in low-tech industries. This finding is in line with the absorptive capacity argument of the entrepreneurship literature that prospective entrepreneurs  Intra-and inter-regional effects (Model 3 of <ref type="table" coords="8,177.22,476.92,24.33,6.03" target="#tab_1">Table 2)</ref> Intra-and inter-regional effects (Model 3* of  operating in high-tech industries typically possess a greater amount of basic knowledge than their counterparts in low-tech industries, which enhances the absorptive ability of the entrepreneurs <ref type="bibr" coords="9,247.48,78.73,37.33,7.54;9,33.73,89.16,57.30,7.54" target="#b27">(Cohen &amp; Levinthal, 1990;</ref><ref type="bibr" coords="9,92.97,89.16,68.01,7.54" target="#b38">Gilbert et al., 2008;</ref><ref type="bibr" coords="9,162.99,89.16,102.93,7.54" target="#b77">Rothaermel &amp; Thursby, 2005)</ref>. This research is among the first to make a testable distinction between intra-regional and inter-regional spillover effects of knowledge production that may affect the activity level of new firm creation in a locality where the effects of the former are greater than those of the latter. The empirical estimations recorded here provide strong evidence to support the argument that both types of knowledge spillover effects enhance the firm creation activities of prospective entrepreneurs, but the geographic coincidence between the providers and recipients of new knowledge may bring in substantial benefits to the firm founding activities of the recipients. As a result, prospective entrepreneurs should exploit the full benefits of potential knowledge spillovers by being located in those regions where knowledge production activities are prevalent and fruitful, when they consider entering a new market by establishing new firms.</p><p>This study highlights the sector difference in terms of the link between the output of regional knowledge production and the activity level of new firm creation. The activities of new firm creation are shown to be more sensitive to the output of regional knowledge production in the high-tech sectors than in the low-tech sectors, and, therefore, the geographic proximity to the source of new knowledge should be more relevant to prospective entrepreneurs operating in the high-tech sectors. Nevertheless, one noteworthy point is that prospective entrepreneurs in the low-tech sectors can still reap more benefits of regional knowledge spillovers by being in the same region with the new knowledge providers, because the intra-regional externality of knowledge production is still greater than the inter-regional one even to entrepreneurs who plan to create their own firms in the low-tech sectors.</p><p>The policy implication of these findings suggests due attention to the geographic connection between the providers and recipients of new knowledge in relation to the activities of new firm creation. Extra care is necessary in designing entrepreneurial policies for boosting the economy of less-developed regions, because those regions usually suffer from a shortage of substantial knowledge creators within their jurisdiction. Given the conduciveness of intra-and inter-regional knowledge availability to the activities of new firm creation, public policy measures intending to support the entrepreneurial firm founding activities in the less-developed regions should pay more attention to fostering network opportunities with outside resource providers and developing common infrastructure, in addition to the traditional emphasis on providing affordable location sites and financial resources.</p><p>The authors acknowledge several limitations of this research. First, despite the advantage of the case of the Korean manufacturing sector for this research, as discussed in the Introduction, generalizing the empirical findings of this research to the services sector and to the contexts of other countries is not straightforward. Second, the authors use the number of patents registered in each region and each year as a proxy for the output of the knowledge production process. A complementary test may need to pay attention to the input side of the knowledge production process. More generally, an employment of multiple measures of the regional knowledge production process would enhance the robustness of the empirical findings of this research. Third, the time-series dimension of this research is only for five years <ref type="bibr" coords="9,103.37,654.11,21.15,7.54">(2000)</ref><ref type="bibr" coords="9,124.52,654.11,4.23,7.54">(2001)</ref><ref type="bibr" coords="9,124.52,654.11,4.23,7.54">(2002)</ref><ref type="bibr" coords="9,124.52,654.11,4.23,7.54">(2003)</ref><ref type="bibr" coords="9,128.75,654.11,21.15,7.54">(2004)</ref>; therefore, the interpretation of the empirical findings needs to be made with caution. Future studies employing much longer-term longitudinal data should be able to bring additional insight to the understanding of the dynamic interaction between knowledge production and new firm creation. Fourth, although the contiguity-weighted average is an informative first-order proximity to the economic and entrepreneurial connectivity across geographic space, its limitation is worth mentioning because the geographic contiguity may not guarantee that bordering territories are also economically or entrepreneurially connected. In summary, much can still be done at the cross-section of regional knowledge production, the firm creation activities of prospective entrepreneurs, and the geographic connection between these two factors. The authors hope that more research works can be done in this attractive field.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="6,143.99,683.78,4.02,8.61;6,143.93,668.83,4.25,14.49;6,141.41,666.02,6.03,2.79;6,143.99,661.89,4.02,4.08;6,141.41,615.59,6.03,12.40;6,141.41,588.60,6.03,12.40;6,141.41,560.11,6.03,3.65;6,141.41,517.68,6.03,12.40;6,141.41,482.79,6.03,20.36;6,141.41,441.17,6.03,20.36;6,141.41,414.21,6.03,12.40;6,149.97,728.40,6.03,9.28;6,149.97,704.49,6.03,5.71;6,149.97,684.47,6.03,17.85;6,152.56,672.26,4.02,12.20;6,149.97,615.59,6.03,12.40;6,149.97,588.60,6.03,12.40;6,149.97,560.11,6.03,3.65;6,149.97,517.68,6.03,12.40;6,149.97,482.79,6.03,20.36;6,149.97,441.17,6.03,20.36;6,149.97,406.25,6.03,20.36;6,149.97,372.59,6.03,12.40;6,158.54,728.40,6.03,9.28;6,158.54,704.49,6.03,5.71;6,158.54,684.47,6.03,17.85;6,161.17,672.26,4.02,12.20;6,158.53,615.59,6.03,12.40;6,158.53,588.60,6.03,12.40;6,158.53,560.11,6.03,3.65;6,158.53,517.68,6.03,12.40;6,158.53,482.79,6.03,20.36;6,158.53,441.17,6.03,20.36;6,158.53,406.25,6.03,20.36;6,158.53,364.63,6.03,20.36;6,158.53,330.97,6.03,12.40;6,167.10,728.40,6.03,9.28;6,167.10,700.73,6.03,9.47;6,169.73,697.99,4.02,2.74;6,167.00,694.81,6.38,2.52;6,167.09,688.44,6.03,5.71;6,167.09,665.62,6.03,20.70;6,169.73,653.43,4.02,12.20;6,167.09,615.59,6.03,12.40;6,167.09,588.60,6.03,12.40;6,167.09,551.36,6.03,12.40;6,167.09,517.68,6.03,12.40;6,167.09,482.79,6.03,20.36;6,167.09,441.17,6.03,20.36;6,167.09,406.25,6.03,20.36;6,167.09,364.63,6.03,20.36;6,167.09,323.02,6.03,20.36;6,167.09,289.36,6.03,12.40;6,175.66,728.40,6.03,9.28;6,175.66,700.73,6.03,9.47;6,178.29,697.99,4.02,2.74;6,175.56,694.81,6.38,2.52;6,175.65,688.44,6.03,5.71;6,175.65,665.62,6.03,20.70;6,178.29,653.43,4.02,12.20;6,175.65,615.59,6.03,12.40;6,175.65,588.60,6.03,12.40;6,175.65,551.36,6.03,12.40;6,175.65,517.68,6.03,12.40;6,175.65,482.79,6.03,20.36;6,175.65,441.17,6.03,20.36;6,175.65,406.25,6.03,20.36;6,175.65,364.63,6.03,20.36;6,175.65,323.02,6.03,20.36;6,175.65,281.40,6.03,20.36;6,175.65,247.74,6.03,12.40;6,184.22,728.40,6.03,9.28;6,184.22,704.49,6.03,5.71;6,184.22,683.99,6.03,18.32;6,186.85,671.80,4.02,12.20;6,184.21,615.59,6.03,12.40;6,184.21,588.60,6.03,12.40;6,184.12,551.36,6.38,19.03;6,184.21,517.68,6.03,12.40;6,184.21,482.79,6.03,20.36;6,184.21,441.17,6.03,20.36;6,184.21,406.25,6.03,20.36;6,184.21,364.63,6.03,20.36;6,184.21,323.02,6.03,20.36;6,184.21,281.40,6.03,20.36;6,184.21,239.79,6.03,20.36;6,184.21,212.82,6.03,12.40;6,192.78,728.41,6.03,9.28;6,192.78,704.49,6.03,5.71;6,192.78,686.39,6.03,15.93;6,195.42,674.18,4.02,12.20;6,192.78,615.59,6.03,12.40;6,192.78,588.60,6.03,12.40;6,192.68,551.36,6.38,19.03;6,192.78,517.68,6.03,12.40;6,192.78,482.79,6.03,20.36;6,192.78,441.17,6.03,20.36;6,192.78,406.25,6.03,20.36;6,192.78,364.63,6.03,20.36;6,192.78,323.02,6.03,20.36;6,192.78,281.40,6.03,20.36;6,192.78,239.79,6.03,20.36;6,192.78,204.86,6.03,20.36;6,192.78,177.90,6.03,12.40;6,201.34,724.76,6.03,12.93;6,201.34,704.49,6.03,5.71;6,201.34,661.44,6.03,40.88;6,203.98,649.18,4.02,12.20;6,201.34,615.59,6.03,12.40;6,201.34,588.60,6.03,12.40;6,201.34,551.36,6.03,12.40;6,201.34,517.72,6.03,16.05;6,201.34,482.79,6.03,20.36;6,201.34,441.17,6.03,20.36;6,201.34,406.25,6.03,20.36;6,201.34,364.63,6.03,20.36;6,201.34,323.02,6.03,20.36;6,201.34,281.40,6.03,20.36;6,201.34,239.79,6.03,20.36;6,201.34,204.86,6.03,20.36;6,201.34,169.94,6.03,20.36;6,201.34,136.28,6.03,12.40;6,209.95,724.76,6.03,12.93;6,209.95,704.49,6.03,5.71;6,209.95,677.96,6.03,24.35;6,212.54,665.73,4.02,12.20;6,209.95,615.59,6.03,12.40;6,209.95,588.60,6.03,12.40;6,209.86,551.36,6.38,19.03;6,209.95,517.68,6.03,12.40;6,209.95,482.79,6.03,20.36;6,209.86,441.18,6.38,27.05;6,209.95,406.26,6.03,20.36;6,209.86,364.65,6.38,27.05;6,209.86,323.04,6.38,27.05;6,209.86,281.43,6.38,27.05;6,209.86,239.82,6.38,27.05;6,209.95,204.90,6.03,20.36;6,209.95,172.63,6.03,17.71;6,209.86,128.36,6.38,27.05;6,209.95,94.70,6.03,12.40;6,218.52,724.77,6.03,12.93;6,218.52,704.50,6.03,5.71;6,218.52,674.90,6.03,27.42;6,221.10,662.67,4.02,12.20;6,218.42,615.59,6.38,19.09;6,218.51,588.60,6.03,12.40;6,218.42,551.34,6.38,22.74;6,218.42,517.68,6.38,19.09;6,218.51,482.80,6.03,20.36;6,218.51,441.18,6.03,20.36;6,218.51,406.26,6.03,20.36;6,218.51,364.64,6.03,20.36;6,218.51,323.03,6.03,20.36;6,218.51,281.41,6.03,20.36;6,218.51,239.79,6.03,20.36;6,218.51,212.83,6.03,12.40;6,218.51,169.95,6.03,20.36;6,218.51,128.33,6.03,20.36;6,218.42,86.74,6.38,27.05;6,218.51,59.78,6.03,12.40;6,231.55,725.54,6.03,18.11;6,230.28,721.19,4.02,2.44;6,231.55,716.54,6.03,4.65;6,231.55,709.48,6.03,6.38;6,231.55,692.78,6.03,16.05;6,230.28,688.13,4.02,2.74;6,231.55,653.44,6.03,34.64;6,231.55,632.87,6.03,18.76;6,231.55,624.81,6.03,6.18;6,231.46,620.55,6.38,3.58;6,231.55,606.02,6.03,13.86;6,231.55,595.32,6.03,8.85;6,231.46,591.07,6.38,3.58;6,231.55,576.53,6.03,13.86;6,231.55,563.23,6.03,11.46;6,231.46,558.97,6.38,3.58;6,231.55,544.44,6.03,13.86;6,230.28,540.31,4.02,2.24;6,231.55,513.41,6.03,26.87;6,231.55,502.05,6.03,9.49;6,231.55,488.79,6.03,11.48;6,231.55,481.30,6.03,5.64;6,231.55,473.74,6.03,5.71;6,231.55,453.78,6.03,17.85;6,234.19,449.70,4.02,4.07;6,234.13,441.57,4.25,7.67;6,231.55,428.83,6.03,10.88;6,231.55,421.30,6.03,5.71;6,231.55,401.34,6.03,17.85;6,234.19,389.07,4.02,12.20;6,231.55,376.39,6.03,10.88;6,231.55,362.82,6.03,11.74;6,231.55,355.33,6.03,5.64;6,231.55,344.07,6.03,9.46;6,234.19,341.33,4.02,2.74;6,231.46,338.15,6.38,2.52;6,231.55,331.79,6.03,5.71;6,231.55,308.97,6.03,20.65;6,234.19,296.78,4.02,12.20;6,231.55,284.03,6.03,10.88;6,231.55,272.81,6.03,9.40;6,234.19,270.07,4.02,2.74;6,231.46,266.89,6.38,2.52;6,231.55,260.47,6.03,5.71;6,231.55,237.70,6.03,20.65;6,234.19,233.64,4.02,4.07;6,234.13,225.51,4.25,7.67;6,231.55,207.99,6.03,15.67;6,231.55,202.94,6.03,3.25;6,231.55,188.08,6.03,13.01;6,231.55,172.44,6.03,13.79;6,231.55,165.01,6.03,5.64;6,231.55,129.92,6.03,33.24;6,231.55,115.13,6.03,12.94;6,231.55,97.87,6.03,15.39;6,231.55,86.54,6.03,9.49;6,231.55,53.25,6.03,31.45"><head></head><label></label><figDesc>a high level of correlation, they enter the robustness</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="7,33.70,58.07,519.07,291.19"><head>Table 2</head><label>2</label><figDesc>System GMM regression results of Eq. (3). a,b,c</figDesc><table coords="7,33.70,81.32,519.07,267.95">Intra-regional effects 
+(Model 1) 
+
+Inter-regional effects 
+(Model 2) 
+
+Intra-and inter-regional effects 
+(Model 3) 
+
+Aggregate 
+industry 
+
+High-tech 
+industry 
+
+Low-tech 
+industry 
+
+Aggregate 
+industry 
+
+High-tech 
+industry 
+
+Low-tech 
+industry 
+
+Aggregate 
+industry 
+
+High-tech 
+industry 
+
+Low-tech 
+industry 
+
+Hypothesized variables 
+ln Patent i,t−1 
+1.338* 
+1.455** 
+0.945* 
+0.626** 
+1.052* 
+0.503* 
+[0.739] 
+[0.629] 
+[0.573] 
+[0.295] 
+[0.607] 
+[0.268] 
+(W 1 ⋅ ln Patent) i,t−1 
+0.722** 
+1.202*** 
+0.611* 
+0.428** 
+0.571** 
+0.377* 
+[0.332] 
+[0.240] 
+[0.321] 
+[0.205] 
+[0.270] 
+[0.206] 
+
+Control variables 
+ln GRPPC i,t−1 
+0.445*** 
+0.274*** 
+0.441*** 
+0.480*** 
+0.338*** 
+0.453*** 
+0.281* 
+0.286*** 
+0.134 
+[0.081] 
+[0.060] 
+[0.063] 
+[0.056] 
+[0.051] 
+[0.053] 
+[0.165] 
+[0.057] 
+[0.180] 
+ln Wage i,t−1 
+−0.736* 
+−0.679*** 
+−0.749** 
+−0.560** 
+−0.509*** 
+−0.528** 
+−0.201 
+−0.528** 
+0.137 
+[0.381] 
+[0.296] 
+[0.335] 
+[0.264] 
+[0.191] 
+[0.260] 
+[0.489] 
+[0.224] 
+[0.531] 
+ln Agglomeration i,t−1 
+0.580*** 
+0.425*** 
+0.586*** 
+0.762*** 
+0.649*** 
+0.702*** 
+0.681*** 
+0.494*** 
+0.604*** 
+[0.134] 
+[0.127] 
+[0.122] 
+[0.078] 
+[0.069] 
+[0.075] 
+[0.095] 
+[0.107] 
+[0.135] 
+ln LandSize i,t−1 
+0.115* 
+0.088 
+0.129** 
+0.153*** 
+0.137*** 
+0.167*** 
+0.213*** 
+0.153*** 
+0.226** 
+[0.066] 
+[0.060] 
+[0.052] 
+[0.053] 
+[0.048] 
+[0.051] 
+[0.066] 
+[0.054] 
+[0.098] 
+ln LandPrice i,t−1 
+−0.059 
+−0.018 
+−0.058 
+−0.029 
+−0.027 
+−0.037 
+−0.028 
+−0.028 
+−0.0004** 
+[0.067] 
+[0.078] 
+[0.065] 
+[0.051] 
+[0.043] 
+[0.051] 
+[0.048] 
+[0.040] 
+[0.058] 
+Constant 
+−4.374*** 
+−3.935*** 
+−4.464*** 
+−5.824*** 
+−6.072*** 
+−5.344*** 
+−5.047*** 
+−5.689*** 
+−4.165*** 
+[1.036] 
+[0.977] 
+[1.058] 
+[0.808] 
+[0.751] 
+[0.795] 
+[0.940] 
+[0.914] 
+[1.372] 
+Number of instruments 
+20 
+20 
+20 
+20 
+20 
+20 
+24 
+24 
+25 
+Hansen's J test 
+(0.391) 
+(0.262) 
+(0.290) 
+(0.298) 
+(0.524) 
+(0.344) 
+(0.484) 
+(0.106) 
+(0.133) 
+Difference-in-Hansen test 
+(0.350) 
+(0.130) 
+(0.114) 
+(0.312) 
+(0.344) 
+(0.348) 
+(0.340) 
+(0.456) 
+(0.141) 
+AR(1) test in differences 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+AR(2) test in differences 
+(0.969) 
+(0.923) 
+(0.895) 
+(0.664) 
+(0.586) 
+(0.877) 
+(0.830) 
+(0.790) 
+(0.894) 
+
+Notes. a N = 1166. b Significance levels: *p b 0.10, **p b 0.05, ***p b 0.01. c Numbers in [ ] and ( ) are standardized errors and p-values, respectively. Industrial complex dummy and year 
+dummy are not reported. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="8,42.52,445.17,215.57,15.16"><head>Table 4</head><label>4</label><figDesc></figDesc><table coords="8,42.52,452.46,215.57,7.88">Robustness tests with alternative dependent variables (ln Ent_Ratio i,t ). a,b,c 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="8,42.51,476.92,519.05,267.95"><head>Table 3 )</head><label>3</label><figDesc>Note: a N = 1166. b Significance levels: *p b 0.10, **p b 0.05, ***p b 0.01. c Numbers in [ ] and ( ) are standardized errors and p-values, respectively. Industrial complex dummy and year dummy are not reported.</figDesc><table coords="8,48.46,489.96,507.11,233.32">Aggregate industry 
+High-tech industry 
+Low-tech industry 
+Aggregate industry 
+High-tech industry 
+Low-tech industry 
+
+Hypothesized variables 
+ln Patent i,t−1 
+0.924* 
+1.133* 
+0.772** 
+0.585** 
+0.683* 
+0.522* 
+[0.505] 
+[0.678] 
+[0.371] 
+[0.294] 
+[0.393] 
+[0.314] 
+ln Patent i,t−2 
+0.049 
+0.543 
+0.104 
+[0.154] 
+[0.440] 
+[0.183] 
+(W 1 ⋅ ln Patent) i,t−1 
+0.858** 
+0.941*** 
+0.668*** 
+0.392 
+0.538 
+0.332 
+[0.427] 
+[0.339] 
+[0.250] 
+[0.370] 
+[0.458] 
+[0.411] 
+(W 1 ⋅ ln Patent) i, t−2 
+0.626 
+0.487 
+0.589 
+[0.402] 
+[0.428] 
+[0.405] 
+
+Control variables 
+ln GRPPC i,t−1 
+0.104 
+−0.065 
+0.167 
+0.278*** 
+0.167** 
+0.315*** 
+[0.214] 
+[0.174] 
+[0.164] 
+[0.070] 
+[0.079] 
+[0.073] 
+ln Wage i,t−1 
+0.105 
+0.243 
+−0.230 
+−0.401 
+−0.494* 
+−0.514* 
+[0.704] 
+[0.614] 
+[0.496] 
+[0.301] 
+[0.261] 
+[0.292] 
+ln Agglomeration i,t−1 
+0.716* 
+0.530*** 
+0.800*** 
+0.833*** 
+0.434*** 
+0.807*** 
+[0.376] 
+[0.143] 
+[0.124] 
+[0.122] 
+[0.159] 
+[0.123] 
+ln LandPrice i,t−1 
+0.097 
+0.082 
+0.076 
+0.125 
+0.132 
+0.086 
+[0.095] 
+[0.083] 
+[0.093] 
+[0.109] 
+[0.176] 
+[0.102] 
+Constant 
+−4.743 
+−4.196*** 
+−5.562*** 
+−5.685*** 
+−3.331 
+−5.677*** 
+[3.331] 
+[1.409] 
+[1.410] 
+[1.491] 
+[2.028] 
+[1.455] 
+Number of instruments 
+23 
+23 
+23 
+35 
+35 
+35 
+Hansen's J test 
+(0.645) 
+(0.256) 
+(0.161) 
+(0.523) 
+(0.190) 
+(0.627) 
+Difference-in-Hansen test 
+(0.611) 
+(0.253) 
+(0.178) 
+(0.858) 
+(0.151) 
+(0.248) 
+AR(1) test in differences 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+AR(2) test in differences 
+(0.757) 
+(0.171) 
+(0.754) 
+(0.658) 
+(0.137) 
+(0.875) 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="8,42.47,58.07,519.09,325.44"><head>Table 3</head><label>3</label><figDesc>Robustness tests with two-year lag for the hypothesized variables. a,b,c Note: a N = 1166. b Significance levels: * p b 0.10, ** p b 0.05, *** pb 0.01. c Numbers in [ ] and ( ) are standardized errors and p-values, respectively. Industrial complex dummy and year dummy are not reported.</figDesc><table coords="8,48.43,81.32,507.10,280.61">Intra-regional effects 
+(Model 1*) 
+
+Inter-regional effects 
+(Model 2*) 
+
+Intra-and inter-regional effects 
+(Model 3*) 
+
+Aggregate 
+industry 
+
+High-tech 
+industry 
+
+Low-tech 
+industry 
+
+Aggregate 
+industry 
+
+High-tech 
+industry 
+
+Low-tech 
+industry 
+
+Aggregate 
+industry 
+
+High-tech 
+industry 
+
+Low-tech 
+industry 
+
+Hypothesized variables 
+ln Patent i,t−1 
+0.595** 
+0.734*** 
+0.464* 
+0.477** 
+0.500*** 
+0.421* 
+[0.259] 
+[0.246] 
+[0.277] 
+[0.228] 
+[0.150] 
+[0.231] 
+ln Patent i,t−2 
+0.157 
+0.411* 
+0.022 
+0.074 
+0.057 
+0.006 
+[0.211] 
+[0.233] 
+[0.215] 
+[0.172] 
+[0.144] 
+[0.191] 
+(W 1 ⋅ ln Patent) i,t−1 
+0.434 
+0.527** 
+0.406 
+0.302 
+0.454* 
+0.411 
+[0.322] 
+[0.224] 
+[0.327] 
+[0.327] 
+[0.265] 
+[0.367] 
+(W 1 ⋅ ln Patent) i, t−2 
+0.499 
+0.536* 
+0.371 
+0.232 
+0.415 
+0.032 
+[0.448] 
+[0.323] 
+[0.465] 
+[0.337] 
+[0.264] 
+[0.347] 
+
+Control variables 
+ln GRPPC i,t−1 
+0.434*** 
+0.303*** 
+0.435*** 
+−0.214 
+−0.015 
+−0.241 
+0.477*** 
+0.327*** 
+0.474*** 
+[0.068] 
+[0.058] 
+[0.069] 
+[0.447] 
+[0.256] 
+[0.509] 
+[0.075] 
+[0.055] 
+[0.060] 
+ln Wage i,t−1 
+−0.550* 
+−0.660*** 
+−0.552* 
+0.571 
+0.579 
+0.444 
+−0.644* 
+−0.592** 
+−0.685** 
+[0.322] 
+[0.250] 
+[0.319] 
+[0.555] 
+[0.919] 
+[0.967] 
+[0.348] 
+[0.232] 
+[0.347] 
+ln Agglomeration i,t−1 
+0.644*** 
+0.505*** 
+0.633*** 
+0.862*** 
+0.630*** 
+0.801*** 
+0.666*** 
+0.576*** 
+0.634*** 
+[0.104] 
+[0.092] 
+[0.104] 
+[0.179] 
+[0.175] 
+[0.162] 
+[0.096] 
+[0.073] 
+[0.090] 
+ln LandSize i,t−1 
+0.127** 
+0.107* 
+0.136** 
+0.349** 
+0.216* 
+0.362** 
+0.159*** 
+0.154*** 
+0.150*** 
+[0.062] 
+[0.059] 
+[0.060] 
+[0.158] 
+[0.125] 
+[0.164] 
+[0.055] 
+[0.057] 
+[0.054] 
+ln LandPrice i,t−1 
+−0.010 
+0.009 
+−0.009 
+−0.004 
+0.033 
+0.003 
+−0.036 
+−0.018 
+−0.045 
+[0.060] 
+[0.074] 
+[0.055] 
+[0.056] 
+[0.067] 
+[0.053] 
+[0.050] 
+[0.051] 
+[0.044] 
+Constant 
+−4.644*** 
+−4.530*** 
+−4.574*** 
+−6.108*** 
+−5.225*** 
+−5.591*** 
+−5.068*** 
+−5.398*** 
+−4.879*** 
+[1.018] 
+[0.867] 
+[1.021] 
+[1.583] 
+[1.711] 
+[1.367] 
+[0.977] 
+[0.765] 
+[0.913] 
+Number of instruments 
+28 
+28 
+28 
+28 
+28 
+28 
+36 
+36 
+36 
+Hansen's J test 
+(0.375) 
+(0.132) 
+(0.235) 
+(0.310) 
+(0.184) 
+(0.211) 
+(0.285) 
+(0.153) 
+(0.306) 
+Difference-in-Hansen test 
+(0.924) 
+(0.640) 
+(0.654) 
+(0.456) 
+(0.816) 
+(0.421) 
+(0.131) 
+(0.609) 
+(0.193) 
+AR(1) test in differences 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+(0.000) 
+AR(2) test in differences 
+(0.761) 
+(0.507) 
+(0.966) 
+(0.770) 
+(0.210) 
+(0.794) 
+(0.767) 
+(0.588) 
+(0.962) 
+
+</table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="9,301.72,148.16,251.02,6.03;9,313.68,156.10,208.70,6.03" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Patents and innovation counts as measures of regional production of new knowledge</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><forename type="middle">J</forename><surname>Acs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Anselin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Varga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Research Policy</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1069" to="1085" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.73,164.09,251.02,6.03;9,313.69,172.03,203.55,6.03" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The knowledge spillover theory of entrepreneurship</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><forename type="middle">J</forename><surname>Acs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Braunerhjelm</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">B</forename><surname>Audretsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Carlsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Business Economics</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="15" to="30" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.73,180.03,251.00,6.03;9,313.69,188.02,142.94,6.03" xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Handbook of economic sociology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">E</forename><surname>Aldrich</surname></persName>
+		</author>
+		<editor>N. Smelser, &amp; R. Swedberg</editor>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Princeton University Press</publisher>
+		</imprint>
+	</monogr>
+	<note>Entrepreneurship</note>
+</biblStruct>
+
+<biblStruct coords="9,301.73,195.96,251.01,6.03;9,313.69,203.95,239.08,6.03;9,313.69,211.89,64.88,6.03" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Many are called but few are chosen: An evolutionary perspective for the study of entrepreneurship</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">E</forename><surname>Aldrich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Martinez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entrepreneurship Theory and Practice</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="41" to="56" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.73,219.89,250.98,6.03;9,313.69,227.88,203.66,6.03" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The exploration of technological diversity and the geographic localization of innovation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Almeida</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Kogut</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Business Economics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="21" to="31" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.72,235.82,251.02,6.03;9,313.68,243.82,231.09,6.03" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Local geographic spillovers between university research and high technology innovations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Anselin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><forename type="middle">J</forename><surname>Acs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Varga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Urban Economics</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="422" to="448" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.72,251.76,251.01,6.03;9,313.68,259.75,239.00,6.03;9,313.68,267.69,60.76,6.03" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Some tests of specification for panel data: Monte Carlo evidence and an application to employment equations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Arellano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Bond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Review of Economic Studies</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="277" to="297" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.72,275.59,251.02,6.38;9,313.68,283.68,121.00,6.03" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The determinants of regional variation in new firm formation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Armington</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><forename type="middle">J</forename><surname>Acs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Regional Studies</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="33" to="45" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.71,291.52,251.01,6.38;9,313.67,299.61,198.58,6.03" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">New firm formation in the British counties with special reference to Scotland</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Ashcroft</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Love</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Malloy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Regional Studies</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="395" to="409" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.71,307.55,250.98,6.03;9,313.67,315.55,107.74,6.03" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Agglomeration and the location of innovative activity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">B</forename><surname>Audretsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oxford Review of Economic Policy</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="18" to="29" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.71,323.54,250.97,6.03;9,313.67,331.48,193.99,6.03" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The economic role of small-and medium-sized enterprises: The United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">B</forename><surname>Audretsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">World Bank Workshop on SMEs</title>
+		<meeting><address><addrLine>Washington D.C</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.71,339.48,251.02,6.03;9,313.67,347.41,201.02,6.03" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">R&amp;D spillovers and the geography of innovation and production</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">B</forename><surname>Audretsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">P</forename><surname>Feldman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="253" to="273" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.71,355.41,251.01,6.03;9,313.67,363.35,239.06,6.03;9,313.67,371.30,239.08,6.08;9,313.68,379.30,37.03,6.03" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Knowledge spillovers and the geography of innovation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">B</forename><surname>Audretsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">P</forename><surname>Feldman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">cities and geography</title>
+		<editor>V. Henderson, &amp; J. -F. Thisse</editor>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="2713" to="2739" />
+			<date type="published" when="2004" />
+			<publisher>Elsevier</publisher>
+		</imprint>
+	</monogr>
+	<note>Handbook of regional and urban economics</note>
+</biblStruct>
+
+<biblStruct coords="9,301.72,387.24,250.97,6.03;9,313.68,395.23,174.50,6.03" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The theory of knowledge spillover entrepreneurship</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">B</forename><surname>Audretsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Keilbach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Management Studies</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1242" to="1254" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.72,403.17,251.00,6.03;9,313.68,411.16,198.20,6.03" xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Does the knowledge spillover theory of entrepreneurship hold for regions? Research Policy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">B</forename><surname>Audretsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">E</forename><surname>Lehmann</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1191" to="1202" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.72,419.16,251.00,6.03;9,313.68,427.00,141.56,6.38" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">University spillovers and new firm location</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">B</forename><surname>Audretsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">E</forename><surname>Lehmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Warning</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Research Policy</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1113" to="1122" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.71,435.09,251.01,6.03;9,313.67,443.03,183.90,6.03" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Company-scientist locational links: The case of biotechnology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">B</forename><surname>Audretsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">E</forename><surname>Stephan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="641" to="652" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.72,451.03,251.01,6.03;9,313.67,459.02,61.90,6.03" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Determinants of new-firm startups in Italy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">B</forename><surname>Audretsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Vivarelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Empirica</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="91" to="105" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.71,466.96,250.99,6.03;9,313.67,474.96,173.64,6.03" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Initial conditions and moment restrictions in dynamic panel data models</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Blundell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Bond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Econometrics</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="115" to="143" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.72,482.89,251.07,6.03;9,313.68,490.89,233.56,6.03" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Planning, capabilities, and performance: An integrated value approach</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Bonzo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Valadares De Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mccormarck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Management Decision</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1001" to="1021" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.72,498.83,250.97,6.03;9,313.68,506.82,189.35,6.03" xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Global Entrepreneurship Monitor</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Bosma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Aces</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Autio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Coduras</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Levie</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>Babson College</publisher>
+			<pubPlace>Babson Park, MA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Report</note>
+</biblStruct>
+
+<biblStruct coords="9,301.72,514.82,248.92,6.03" xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Management indecision. Management Decision</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Brooks</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="683" to="693" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.72,522.76,250.99,6.03;9,313.68,530.75,239.06,6.03;9,313.68,538.69,27.03,6.03" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A comparison of methods and sources for obtaining estimates of new venture performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">G</forename><surname>Brush</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">A</forename><surname>Vanderwerf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Venturing</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="157" to="170" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.72,546.69,251.02,6.03;9,313.68,554.68,239.04,6.03;9,313.68,562.62,114.45,6.03" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The determinants of regional innovation in Europe: A combined factorial and regression knowledge production function approach</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Buesa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Heijs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Baumert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Research Policy</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="722" to="735" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.72,570.52,250.98,6.38;9,313.68,578.55,239.04,6.03;9,313.68,586.55,118.59,6.03" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The location and employment choices of new firms: An econometric model with discrete and continuous endogenous variables</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Carlton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Review of Economics and Statistics</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="440" to="449" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.72,594.45,250.97,6.08;9,313.68,602.44,236.42,6.03" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Firm size and geographical aggregation: An empirical appraisal in industrial location</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M A</forename><surname>Carod</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C M</forename><surname>Antolín</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Business Economics</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="299" to="312" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.72,610.44,251.04,6.03;9,313.68,618.38,224.43,6.03" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The discovery of opportunities: Extending the economic theory of the entrepreneur</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Casson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Wadeson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Business Economics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="285" to="300" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.72,626.37,250.99,6.03;9,313.68,634.31,206.46,6.03" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Absorptive capacity: A new perspective on learning and innovation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">M</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Levinthal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Administrative Science Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="128" to="152" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.72,642.30,251.03,6.03;9,313.68,650.30,239.08,6.03;9,313.68,658.24,41.44,6.03" xml:id="b28">
+	<monogr>
+		<title level="m" type="main">The art and science of entrepreneurship</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Cooper</surname></persName>
+		</author>
+		<editor>D. L. Sexton, &amp; R. W. Smilor</editor>
+		<imprint>
+			<date type="published" when="1986" />
+			<publisher>Ballinger</publisher>
+			<biblScope unit="page" from="153" to="168" />
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Entrepreneurship and high technology</note>
+</biblStruct>
+
+<biblStruct coords="9,301.72,666.23,251.06,6.03;9,313.68,674.17,239.06,6.03;9,313.68,682.17,115.11,6.03" xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Entrepreneurship and high-technology clusters</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Folta</surname></persName>
+		</author>
+		<editor>D. L. Sexton, &amp; H. Lanstrom</editor>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>Blackwell</publisher>
+			<biblScope unit="page" from="348" to="367" />
+			<pubPlace>Oxford, UK</pubPlace>
+		</imprint>
+	</monogr>
+	<note>The Blackwell handbook of entrepreneurship</note>
+</biblStruct>
+
+<biblStruct coords="9,301.72,690.01,251.02,6.38;9,313.68,698.10,173.05,6.03" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">How do firms agglomerate? A study of FDI in France</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Crozet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Mucchielli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Regional Science and Urban Economics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="27" to="54" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.72,706.10,251.07,6.03;9,313.68,714.03,239.08,6.03;9,313.68,722.03,102.27,6.03" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Knowledge creation and social networks in corporate entrepreneurship: The renewal of organizational capability</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">W</forename><surname>Floyd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Wooldridge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entrepreneurship Theory and Practice</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="123" to="143" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.71,729.87,250.99,6.38;9,313.68,737.96,123.25,6.03" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Geographic cluster size and firm performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Folta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Baik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Venturing</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="217" to="242" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.52,56.39,251.01,6.38;10,54.48,64.48,126.12,6.03" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Regional differences in new firm formation: Evidence form West Germany</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fritsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Regional Studies</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="233" to="241" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.51,72.42,251.04,6.03;10,54.47,80.41,199.49,6.03" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">New business formation by industry over space and time: A multidimensional analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fritsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Falck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Regional Studies</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="157" to="172" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.51,88.35,250.98,6.03;10,54.47,96.25,239.06,6.38;10,54.47,104.29,114.97,6.03" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The persistence of regional new business formationactivity over time -Assessing the potential of policy promotion programs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Fritsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Mueller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Evolutionary Economics</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="299" to="315" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.51,112.19,250.99,6.38;10,54.47,120.28,95.97,6.03" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">New firm formation and regional development: The Italian case</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Garofoli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Regional Studies</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="381" to="393" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.51,128.12,251.04,6.38;10,54.47,136.21,239.06,6.03;10,54.47,144.15,19.34,6.03" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Regional differences in small firm entry in manufacturing industries: Lower Saxony, 1979-1991</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Gerlach</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wagner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entrepreneurship and Regional Development</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="30" to="80" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.50,152.15,251.01,6.03;10,54.46,160.14,239.04,6.03;10,54.46,168.08,68.48,6.03" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Clusters, knowledge spillovers and new venture performance: An empirical examination</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">A</forename><surname>Gilbert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">P</forename><surname>Mcdougall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">B</forename><surname>Audretsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Venturing</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="405" to="422" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.51,176.07,250.98,6.03;10,54.47,184.01,238.48,6.03" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Korean SMEs in the 21st Century: Strategies, constraints and performance in a global economy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Gregory</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Harvie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economic Papers</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="64" to="79" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.51,191.91,251.01,6.38;10,54.47,200.00,104.21,6.03" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Patent statistics as economic indicators -A survey</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Griliches</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Economic Literature</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1661" to="1707" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.51,207.94,251.04,6.03;10,54.47,215.94,236.79,6.03" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The business model in the practice of strategic decision making: Insights from a case study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Hackling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Wallnöfer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Management Decision</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="166" to="188" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.51,223.88,251.03,6.03;10,54.47,231.87,202.17,6.03" xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Measuring innovative performance: Is there an advantage in using multiple indicators? Research Policy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Hagedoorn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Cloodt</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1365" to="1379" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.51,239.81,251.03,6.03;10,54.47,247.80,237.01,6.03" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Knowledge boundary spanning process: Synthesizing four spanning mechanisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Hawkins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rezazade</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Management Decision</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1800" to="1815" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.51,255.76,251.03,6.07;10,54.48,263.70,239.03,6.03;10,54.48,271.70,133.84,6.03" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Agglomeration benefits and location choice: Evidence from Japanese manufacturing investment in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Head</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ries</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Swenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of International Economics</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">3/4</biblScope>
+			<biblScope unit="page" from="223" to="247" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.51,279.64,250.99,6.03;10,54.47,287.63,239.12,6.03;10,54.47,295.63,239.06,6.03;10,54.47,303.56,88.67,6.03" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Opportunity recognition: Perceptions and behaviors of entrepreneurs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Hills</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">T</forename><surname>Lumpkin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">P</forename><surname>Singh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Frontiers in entrepreneurship research</title>
+		<editor>P. D. Reynolds, P. W. D. Carter, P. Davidsson, W. B. Gartner, &amp; P. McDougall</editor>
+		<meeting><address><addrLine>Wellesley, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Babson College</publisher>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="330" to="344" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.51,311.56,251.00,6.03;10,54.47,319.50,236.35,6.03" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Factors affecting the success of women entrepreneurs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">H</forename><surname>Huarng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Mas-Tur</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">H K</forename><surname>Yu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Entrepreneurship and Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="487" to="497" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.49,327.49,251.02,6.03;10,54.46,335.43,239.05,6.03;10,54.46,343.43,27.03,6.03" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Geographic localization of knowledge spillovers as evidenced by patent citations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Jaffe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Trajtenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Henderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="577" to="598" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.49,351.42,251.02,6.03;10,54.46,359.36,239.03,6.03;10,54.46,367.36,109.23,6.03" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Beyond anarchy and organization: Entrepreneurs in contextual networks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Johannisson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Alexanderson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Nowicki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Senneseth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entrepreneurship and Regional Development</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="329" to="356" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.49,375.29,251.00,6.03;10,54.45,383.19,164.73,6.38" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Spatial variations in the determinants and effects of firm births and deaths</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Parker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Regional Studies</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="679" to="688" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.48,391.29,251.00,6.03;10,54.44,399.22,214.06,6.03" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Resource-seeking agglomeration: A study of market entry in the lodging industry</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kalnins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Chung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strategic Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="689" to="699" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.48,407.12,250.98,6.38;10,54.44,415.16,220.35,6.03" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">New firms, small firms and dead firms: Spatial patterns and determinants in the United Kingdom</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Keeble</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Regional Studies</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="411" to="427" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.47,423.15,251.05,6.03;10,54.43,431.09,210.77,6.03" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Rapid growth and rapid internationalization: The case of smaller enterprises from Canada</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Keen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Etemad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Management Decision</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="569" to="590" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.47,439.09,251.06,6.03;10,54.43,447.08,121.76,6.03" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Entrepreneurship and strategy in the international SME</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">A</forename><surname>Knight</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of International Management</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="155" to="171" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.46,455.02,250.98,6.03;10,54.42,462.92,189.73,6.38" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Creativity and entrepreneurship: A regional analysis of new firm formation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Florida</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><forename type="middle">J</forename><surname>Acs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Regional Studies</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="879" to="891" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.46,470.91,251.12,6.08;10,54.48,478.81,239.05,6.38;10,54.48,486.90,157.25,6.03" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Inward foreign direct investment and domestic entrepreneurship: A regional analysis of new firm creation in Korea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00343404.2012.690067</idno>
+		<ptr target="http://dx.doi.org/10.1080/00343404.2012.690067" />
+	</analytic>
+	<monogr>
+		<title level="j">Regional Studies</title>
+		<imprint/>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct coords="10,42.51,494.75,251.01,6.38;10,54.48,502.84,119.63,6.03" xml:id="b56">
+	<monogr>
+		<title level="m" type="main">Return on marketing investment -Pizza Hut Korea&apos;s Case. Management Decision</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Yoo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="1661" to="1685" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.52,510.78,251.00,6.03;10,54.48,518.77,119.63,6.03" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Knowledge brokering for transference to the pilot&apos;s safety behavior</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">H</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Management Decision</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1326" to="1338" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.52,526.77,251.10,6.03;10,54.48,534.70,239.13,6.03" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Characterizing disagreement and inconsistency in experts&apos; judgments in the analytic hierarchy process</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">W</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">T</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Management Decision</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1252" to="1265" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.51,542.60,251.02,6.38;10,54.47,550.54,239.07,6.38;10,54.48,558.63,46.76,6.03" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Science part location and new technology-based firms in Sweden -Implications for strategy and performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Lindelöf</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Löfsten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Business Economics</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="245" to="258" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.52,566.57,251.10,6.03;10,54.48,574.57,227.39,6.03" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">The population ecology of organizational founding: Location dependence and unobserved heterogeneity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Lomi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Administrative Science Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="111" to="144" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.51,582.56,251.00,6.03;10,54.48,590.50,138.15,6.03" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Entrepreneurship: Past research and future challenges</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">B</forename><surname>Low</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">C</forename><surname>Macmillan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Management</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="139" to="161" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.51,598.50,251.02,6.03;10,54.48,606.43,239.13,6.03;10,54.48,614.43,156.46,6.03" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Importance of spatial proximity between venture capital investors and investees in Germany</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bender</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A.-K</forename><surname>Achleitner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Kaserer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbusres.2012.04.016</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.jbusres.2012.04.016" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Research</title>
+		<imprint/>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct coords="10,42.51,622.33,250.99,6.38;10,54.47,630.36,239.06,6.03" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">How firms grow: Clustering as a dynamic model of internationalization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Maitland</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">L</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Nicholas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of International Business Studies</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="435" to="451" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.51,638.36,251.02,6.03;10,54.47,646.30,230.98,6.03" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Population level learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">S</forename><surname>Miner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">R</forename><surname>Haunschild</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Research in organizational behavior</title>
+		<editor>B. M. Staw, &amp; L. L. Cummings</editor>
+		<meeting><address><addrLine>Greenwich, CT</addrLine></address></meeting>
+		<imprint>
+			<publisher>JAI Press</publisher>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.49,56.52,251.06,6.03;10,322.45,64.42,217.47,6.38" xml:id="b65">
+	<monogr>
+		<title level="m" type="main">Is social responsibility driven by industry or firm-specific factors? Management Decision</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Moura-Leite</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Padgett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Galan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="1200" to="1221" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.48,72.45,251.04,6.03;10,322.45,80.45,148.07,6.03" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Founder effectiveness in leveraging entrepreneurial orientation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">T</forename><surname>Mousa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Wales</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Management Decision</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="305" to="324" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.48,88.39,251.02,6.03;10,322.45,96.34,239.08,6.07;10,322.47,104.28,46.76,6.03" xml:id="b67">
+	<monogr>
+		<title level="m" type="main">Leading virtual teams: How do social, cognitive, and behavioral capabilities matter? Management Decision</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lahiri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Billing</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="273" to="290" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.51,112.28,251.01,6.03;10,322.48,120.27,179.35,6.03" xml:id="b68">
+	<monogr>
+		<title level="m" type="main">Globalization and small &amp; medium enterprises (SMEs)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Oecd</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>Organization for Economic Cooperation and Development</publisher>
+			<pubPlace>Paris, France</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.51,128.21,251.01,6.03;10,322.48,136.21,90.90,6.03" xml:id="b69">
+	<monogr>
+		<title level="m" type="main">Compendium of patent statistics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Oecd</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>Organization for Economic Cooperation and Development</publisher>
+			<pubPlace>Paris, France</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.52,144.14,250.96,6.03;10,322.48,152.14,145.54,6.03" xml:id="b70">
+	<monogr>
+		<title level="m" type="main">The external control of organizations: A resource dependence perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Pfeffer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">R</forename><surname>Salancik</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1978" />
+			<publisher>Harper &amp; Row</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.52,160.13,251.11,6.03;10,322.48,168.07,64.68,6.03" xml:id="b71">
+	<analytic>
+		<title level="a" type="main">The dynamics of industrial clustering in biotechnology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Prevezer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Business Economics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="255" to="271" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.51,175.97,251.01,6.38;10,322.48,184.01,152.95,6.03" xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Autonomous firm dynamics and economic growth in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Reynolds</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Regional Studies</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="429" to="442" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.52,192.00,251.00,6.03;10,322.48,200.00,188.16,6.03" xml:id="b73">
+	<monogr>
+		<title level="m" type="main">Global entrepreneurship Monitor 2002 summary report</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">D</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">D</forename><surname>Bygrave</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Autio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hay</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>Babson College</publisher>
+			<pubPlace>Babson Park, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.51,207.94,251.01,6.03;10,322.48,215.84,199.60,6.38" xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Cross-national comparisons of the variation in new firm formation rates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Storey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Westhead</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Regional Studies</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="443" to="456" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.51,223.87,251.00,6.03;10,322.48,231.86,118.59,6.03" xml:id="b75">
+	<analytic>
+		<title level="a" type="main">A note on the theme of too many instruments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Roodman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oxford Bulletin of Economics and Statistics</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="135" to="158" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.52,239.80,251.02,6.03;10,322.48,247.80,234.85,6.03" xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Intercluster innovation differentials: The role of research universities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">T</forename><surname>Rothaermel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">N</forename><surname>Ku</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Engineering Management</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="9" to="22" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.52,255.70,250.97,6.38;10,322.48,263.64,239.05,6.38;10,322.48,271.73,27.03,6.03" xml:id="b77">
+	<analytic>
+		<title level="a" type="main">University-incubator firm knowledge flows: Assessing their impact on incubator firm performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">T</forename><surname>Rothaermel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Thursby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Research Policy</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="305" to="320" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.51,279.57,251.02,6.38;10,322.47,287.66,184.57,6.03" xml:id="b78">
+	<analytic>
+		<title level="a" type="main">The determinants of firm start-up and entry in Italian producer services</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Santarelli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Piergiovanni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Business Economics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="221" to="230" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.50,295.66,251.04,6.03;10,322.46,303.59,222.06,6.03" xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Venture capitalists governance and value added in four countries</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J</forename><surname>Sapienza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Manigart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Vermeir</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Venturing</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="439" to="469" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.50,311.55,251.01,6.08;10,322.47,319.49,50.66,6.03" xml:id="b80">
+	<monogr>
+		<title level="m" type="main">The competitiveness report</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Schwab</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>World Economic Forum</publisher>
+			<pubPlace>Geneva, Switzerland</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.51,327.48,251.12,6.03;10,322.47,335.42,239.05,6.03;10,322.47,343.42,135.44,6.03" xml:id="b81">
+	<analytic>
+		<title level="a" type="main">The social structure of entrepreneurial activity: Geographic concentration of footwear production in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Sorenson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">G</forename><surname>Audia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="424" to="462" />
+			<date type="published" when="1940" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.50,351.41,251.01,6.03;10,322.46,359.35,239.04,6.03;10,322.46,367.35,27.03,6.03" xml:id="b82">
+	<analytic>
+		<title level="a" type="main">The role of mentoring in the learning development of the novice entrepreneur</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>St-Jean</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Audet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Entrepreneurship and Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="119" to="140" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.50,375.19,251.00,6.38;10,322.45,383.28,159.51,6.03" xml:id="b83">
+	<analytic>
+		<title level="a" type="main">The birth of new firms -Does unemployment matter? A review of the evidence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Storey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Business Economics</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="167" to="178" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.48,391.27,250.98,6.03;10,322.45,399.12,239.06,6.38;10,322.44,407.21,27.03,6.03" xml:id="b84">
+	<analytic>
+		<title level="a" type="main">The geography of opportunity: Spatial heterogeneity in founding rates and the performance of biotechnology firms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Stuart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Sorenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Research Policy</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="229" to="253" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.48,415.05,250.99,6.38;10,322.44,423.14,126.87,6.03" xml:id="b85">
+	<analytic>
+		<title level="a" type="main">New firm formation: Dynamics and determinants</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Sutaria</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Hicks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Annals of Regional Science</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="241" to="262" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.48,431.08,251.08,6.03;10,322.45,439.08,239.16,6.03;10,322.45,447.07,112.75,6.03" xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Resource partitioning and the evolution of specialist organizations: The role of location and identity in the U.S. wine industry</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Swaminathan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Academy of Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1169" to="1185" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.48,455.01,250.96,6.03;10,322.45,463.00,239.06,6.03;10,322.45,470.94,111.28,6.03" xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Corporate entrepreneurship in Switzerland: Evidence from a case study of Swiss watch manufacturers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Tajeddini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Mueller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Entrepreneurship and Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="355" to="372" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.48,478.94,250.98,6.03;10,322.45,486.93,203.35,6.03" xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Regional differences in structural characteristics of start-ups</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Tödtling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Wanzenböck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entrepreneurship and Regional Development</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="351" to="370" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.49,494.87,251.00,6.03;10,322.45,502.77,239.04,6.38;10,322.45,510.81,87.13,6.03" xml:id="b89">
+	<analytic>
+		<title level="a" type="main">On the conceptualization of agglomeration economies: The case of new firm formation in the Dutch ICT sector</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">G</forename><surname>Vanoort</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><forename type="middle">A L C</forename><surname>Atzema</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Annals of Regional Science</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="263" to="290" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.49,518.80,251.02,6.03;10,322.45,526.80,238.99,6.03;10,322.45,534.64,227.78,6.38" xml:id="b90">
+	<monogr>
+		<title level="m" type="main">The distinctive domain of entrepreneurship research: An editor&apos;s perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Venkataraman</surname></persName>
+		</author>
+		<editor>J. Katz, &amp; R. Brockhaus</editor>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>JAI Press</publisher>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="119" to="138" />
+			<pubPlace>Greenwich, CT</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Advances in entrepreneurship, firm emergence, and growth</note>
+</biblStruct>
+
+<biblStruct coords="10,310.50,542.69,203.03,6.03" xml:id="b91">
+	<monogr>
+		<title level="m" type="main">New venture experience</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Vesper</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Vector Books</publisher>
+			<pubPlace>Seattle, WA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.51,550.53,251.02,6.38;10,322.47,558.62,193.13,6.03" xml:id="b92">
+	<analytic>
+		<title level="a" type="main">A finite sample correction for the variance of linear efficient two-step GMM estimators</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Windmeijer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Econometrics</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="25" to="51" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.52,566.56,251.00,6.03;10,322.48,574.55,185.15,6.03" xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Locational determinants of Japanese manufacturing start-ups in the United Sates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">P</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Southern Economic Journal</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="690" to="708" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.52,582.45,251.00,6.38;10,322.47,590.49,239.05,6.03;10,322.47,598.48,156.86,6.03" xml:id="b94">
+	<analytic>
+		<title level="a" type="main">International expansion by new venture firms: International diversity, mode of market entry, technological learning, and performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Zahra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Ireland</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Academy of Management Journal</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="925" to="950" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,310.52,606.42,251.02,6.03;10,322.48,614.42,230.68,6.03" xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Intellectual human capital and the birth of U.S. biotechnology enterprises</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">G</forename><surname>Zucker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Darby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">B</forename><surname>Brewer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="290" to="306" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

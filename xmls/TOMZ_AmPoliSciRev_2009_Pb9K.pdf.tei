@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Electoral Implications of Candidate Ambiguity</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2009-02">February 2009</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Tomz</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">P</forename><surname>Van Houweling</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Stanford University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of California at Berkeley</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Political Sci-ence</orgName>
+								<orgName type="institution">Stanford University</orgName>
+								<address>
+									<addrLine>Encina Hall West, Room 100, Stanford</addrLine>
+									<postCode>94305-6044</postCode>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Political Science</orgName>
+								<orgName type="institution">University of California at Berkeley</orgName>
+								<address>
+									<addrLine>210 Barrows Hall</addrLine>
+									<postCode>94720</postCode>
+									<settlement>Berkeley</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Electoral Implications of Candidate Ambiguity</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">American Political Science Review</title>
+						<imprint>
+							<biblScope unit="volume">103</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2009-02">February 2009</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1017/S0003055409090066</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>C andidates often make ambiguous statements about the policies they intend to pursue. In theory, ambiguity affects how voters make choices and who wins elections. In practice, measurement and endogeneity problems have impeded empirical research about the consequences of ambiguity. We conducted survey experiments that overcame these obstacles by manipulating a common form of ambiguity: the imprecision of candidate positions. Our data show that, on average, ambiguity does not repel and may, in fact, attract voters. In nonpartisan settings, voters who have neutral or positive attitudes toward risk, or who feel uncertain about their own policy preferences, tend to embrace ambiguity. In partisan settings, voters respond even more positively to ambiguity; they optimistically perceive the locations of ambiguous candidates from their own party without pessimistically perceiving the locations of vague candidates from the opposition. We further find, through analysis of two additional new data sets, that candidates often take--and voters frequently perceive--ambiguous positions like the ones in our experiments. The pervasive use of ambiguity in campaigns fits with our experimental finding that ambiguity can be a winning strategy, especially in partisan elections.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>1990; <ref type="bibr" coords="1,325.59,278.06,124.16,9.21" target="#b5">Aragones and Neeman 2000;</ref><ref type="bibr" coords="1,452.11,278.06,77.22,9.21;1,300.83,289.03,41.09,9.21" target="#b11">Callander and Wilson 2008;</ref><ref type="bibr" coords="1,345.66,289.03,70.39,9.21" target="#b18">Meirowitz 2005;</ref><ref type="bibr" coords="1,419.79,289.03,47.17,9.21" target="#b22">Page 1976;</ref><ref type="bibr" coords="1,470.71,289.03,58.86,9.21" target="#b24">Shepsle 1972)</ref>. Empirical research has not proceeded apace, though, due to problems of measurement and endogeneity.</p><p>Previous research has been hampered by inadequate measures of the ambiguity of candidate positions. Recognizing this problem, some analysts have resorted to indirect estimation of uncertainty <ref type="bibr" coords="1,445.17,354.78,59.18,9.21" target="#b6">(Bartels 1986;</ref><ref type="bibr" coords="1,506.27,354.78,23.06,9.21;1,300.83,365.73,82.84,9.21" target="#b9">Berinsky and Lewis 2007;</ref><ref type="bibr" coords="1,385.18,365.73,65.98,9.21" target="#b12">Campbell 1983;</ref><ref type="bibr" coords="1,452.68,365.73,40.02,9.21" target="#b15">Gill 2005)</ref>, and others have incorporated direct measures of uncertainty into specialized surveys <ref type="bibr" coords="1,408.81,387.65,125.10,9.21" target="#b4">(Alvarez and Franklin 1994;</ref><ref type="bibr" coords="1,300.83,398.61,135.69,9.21" target="#b10">Brady and Ansolabehere 1989)</ref>. Unfortunately, these studies reach contradictory conclusions, and they do not distinguish ambiguity from other sources of uncertainty. <ref type="bibr" coords="1,327.30,429.93,3.49,6.44">2</ref> Previous research has also been limited by fundamental problems of endogeneity. Politicians, thinking strategically, are most likely to make ambiguous statements to audiences who would not penalize them for being vague. And citizens will tend to know--or at least report to know--more about the issue positions of candidates they already like for other reasons.</p><p>We overcame these problems of measurement and endogeneity by fielding survey experiments in which we manipulated the ambiguity of candidate platforms. In our experiments, a nationally representative sample of U.S. adults chose between candidates who stated policy positions with varying levels of precision.</p><p>Data from our experiments reveal that, on average, ambiguity does not repel and may, in fact, attract voters. In nonpartisan settings, voters who have neutral or positive attitudes toward risk, or who feel uncertain about their own policy preferences, tend to embrace ambiguity. In partisan settings, voters respond even more positively to ambiguity; they optimistically perceive the locations of ambiguous candidates from their Electoral Implications of Candidate Ambiguity February 2009 own party without pessimistically perceiving the locations of vague candidates from the opposition. Our findings imply that ambiguity can be a winning strategy, especially in partisan elections.</p><p>In the remainder of this article, we explain why voters may be attracted to or repelled by candidates with ambiguous policy positions. We then discuss the findings and limitations of existing research about the consequences of candidate ambiguity. We next develop and analyze experiments that isolate the effects of ambiguity on voter perceptions and behavior. We also use two original data sets to gauge how well our experiments reflect the ambiguity of candidates in actual campaigns. Finally, we discuss the implications of our findings for campaign strategy and election outcomes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>THEORETICAL APPROACHES</head><p>Consider a unidimensional policy space in which one candidate takes a single stand and the other candidate represents a probability distribution over points in the issue space. Denote these two candidates as precise (P) and ambiguous (A). If voters have single-peaked utility functions, under what conditions would they prefer A over P? We discuss two approaches to this question.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Expected Utility</head><p>The first approach involves expected utility theory, which <ref type="bibr" coords="2,88.26,383.46,64.54,9.21" target="#b24">Shepsle (1972)</ref> and nearly all subsequent contributors have used to analyze choices between precise and ambiguous candidates. In this framework, each voter evaluates candidates based on the satisfaction candidates are likely to bring. The expected utility from candidate P is simply EU(P) = u(p), where p represents the candidate's position and u(.) is the voter's utility function. The anticipated payoff from A is slightly more complicated because the voter cannot know in advance which outcome A will produce. The expected outcome from electing A is a probabilityweighted average, E(A) ≡ µ = a a f (a)da, where f (a) gives the probability density of each position a that the ambiguous candidate could take. Similarly, the expected utility from selecting the ambiguous candidate is EU(A) = a u(a) f (a)da.</p><p>Whether the expected utility criterion favors the ambiguous candidate depends partly on the voter's attitude toward risk, as reflected in the shape of u(.). Researchers commonly assume that voters are risk averse <ref type="bibr" coords="2,59.16,602.64,63.21,9.21" target="#b3">(Alvarez 1998;</ref><ref type="bibr" coords="2,124.95,602.64,55.97,9.21" target="#b6">Bartels 1986;</ref><ref type="bibr" coords="2,183.52,602.64,108.76,9.21" target="#b14">Enelow and Hinich 1981;</ref><ref type="bibr" coords="2,59.16,613.60,39.47,9.21" target="#b15">Gill 2005</ref>) (i.e., they receive less utility from playing the lottery than from receiving its expected payoff with certainty, such that EU(A) &lt; u(µ)). Risk-averse voters would prefer the precise candidate whenever p = µ, and they might opt for the precise candidate even when the ambiguous one is closer (when |v − µ| &lt; |v − p|, where v is the voter's ideal point), to avoid the risk that the ambiguous candidate could deliver an undesirable outcome.</p><p>What if some voters are risk acceptant, and thus prefer gambles over their expected outcomes, such that EU(A) &gt; u(µ)? <ref type="bibr" coords="2,382.05,54.65,64.68,9.21" target="#b24">Shepsle (1972)</ref> analyzes the implications of risk acceptance when an incumbent candidate, whose position is known with certainty, confronts a challenger who can pursue a strategy of ambiguity. If the incumbent were located at p, the challenger could win the support of risk-acceptant voters by adopting an ambiguous platform with mean value µ = p. Moreover, even if v were closer to p than to µ, risk-acceptant voters might gamble on A in the hope of getting a favorable outcome. Shepsle's analysis identifies one reason why voters might prefer ambiguous candidates over precise alternatives. <ref type="bibr" coords="2,395.46,173.64,3.49,6.44">3</ref> An important exception arises when the precise candidate advocates a policy on the voter's ideal point. In this situation and others like it, even risk-acceptant voters (those with convex loss functions) would prefer the precise candidate. After all, when the precise candidate and the voter coincide, the voter cannot gain and may in fact lose by selecting the risky candidate <ref type="bibr" coords="2,487.94,251.91,55.39,9.21;2,310.21,262.86,91.58,9.21">(Bendor and Meirowitz 2004, 297;</ref><ref type="bibr" coords="2,405.53,262.86,67.97,9.21">Page 1976, 747)</ref>. Our empirical analysis, discussed later, exploits this fact to show why risk acceptance cannot explain the behavior of some participants in our experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biased Probabilities</head><p>To this point, we have assumed that people use objective probabilities: they soberly evaluate where candidates are likely to stand, given the available information. We now relax this assumption and explore the possibility that voters have biased perceptions about the policies that ambiguous candidates actually favor.</p><p>The first possibility is general optimism: when confronted with an ambiguous candidate, optimistic voters assume the candidate is closer to themselves than the facts warrant. Operationally, they perceive a probability distribution more favorable to themselves than the evidence implies, resulting an expectation µ I such that |v − µ I | &lt; |v − µ|. This optimistic misperception, if present, should increase the likelihood that the voter would choose the ambiguous candidate over the precise one.</p><p>Previous research suggests the plausibility of this hypothesis. Psychological studies since the 1950s, for example, have documented that people systematically overestimate the probability of desirable events (e.g., <ref type="bibr" coords="2,310.21,559.79,47.71,9.21" target="#b16">Irwin 1953;</ref><ref type="bibr" coords="2,360.01,559.79,122.76,9.21" target="#b23">Rosenhan and Messick 1966)</ref>. Studies have also uncovered powerful evidence of a "false consensus effect," in which people overestimate the probability of agreement with others whose views are not already known. Importantly, people tend to make this mistake "regardless of their sentiment toward the group" <ref type="bibr" coords="2,344.56,625.54,90.41,9.21">(Krosnick 2002, 125)</ref>. Across-the-board optimism should give ambiguous candidates a boost in competition against precise candidates.</p><p>An alternative hypothesis holds that voters are selectively optimistic and pessimistic; they expand or contract the perceived distance between themselves and an ambiguous candidate, depending on the degree of affective affinity for the candidate <ref type="bibr" coords="3,248.03,76.11,34.87,9.21;3,49.76,87.07,57.99,9.21">(Bartels 1988, 98-101)</ref>. This idea is the focus of an extensive but currently inconclusive literature about how citizens project views onto candidates <ref type="bibr" coords="3,209.31,108.99,69.19,9.21" target="#b17">(Krosnick 2002)</ref>. Democratic voters, for example, might exhibit positive (proximity-enhancing) bias toward Democrats but negative (proximity-detracting) bias toward Republicans. When courting Democratic voters, then, ambiguity could aid Democratic candidates but undermine Republican ones.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Other Conditions That Favor Ambiguous Candidates</head><p>These theories do not exhaust the set of interesting possibilities. One could model utility not only as a function of the distance between the voter and the candidate, but also as a function of candidate traits that do not fit conveniently into the standard spatial framework. For example, voters in a complex world might value flexibility--a willingness to adapt to changing circumstances instead of clinging to singular positions. Candidates who take broad stands in campaigns may signal their flexibility and therefore score points in the eyes of some voters, especially ones who are not rigid about their own positions. <ref type="bibr" coords="3,134.21,349.63,3.49,6.44">4</ref> Alternatively, ambiguity could evoke a negative reaction, even among voters who might otherwise sympathize with the range of positions in a candidate's platform. As <ref type="bibr" coords="3,90.77,395.03,92.45,9.21">Campbell (1983, 278)</ref> conjectures, ambiguity could "hurt a candidate's public image" by revealing the candidate as "evasive or spineless." Thus, ambiguity could be consequential not only because it affects the assumed positions of candidates, but also because it informs judgments about candidates' character.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EXISTING EVIDENCE AND OBSTACLES TO INFERENCE</head><p>Although ambiguous statements are ubiquitous in political campaigns and have been a focus of sustained theoretical inquiry, we have surprisingly little evidence about how candidate ambiguity affects the preferences of voters. The handful of existing studies do not separate ambiguity from other sources of uncertainty, and they reach contradictory conclusions about uncertainty in toto.</p><p>In his analysis of the 1980 U.S. presidential election, <ref type="bibr" coords="3,49.76,604.35,83.79,9.21">Bartels (1986, 709)</ref> found that voters disliked uncertainty about the issue positions of the leading candidates, and that uncertainty was "sufficiently pervasive and important to rival issue distances as a determinant of electoral choices." In a similar vein, Brady and Ansolabehere (1989) studied two unique data sets about the utility functions and vote choices of California residents. They concluded that citizens were risk averse and therefore preferred candidates about whom they knew more (see also <ref type="bibr" coords="3,391.60,65.16,58.76,9.21" target="#b3">Alvarez 1998)</ref>.</p><p>Other studies, however, suggest that voters are not fazed by uncertainty. <ref type="bibr" coords="3,390.76,87.07,71.52,9.21" target="#b12">Campbell (1983)</ref> analyzed polling data from U.S. presidential elections during the years 1968 to 1980. Disagreement about the positions of candidates, measured by the standard deviation of public perceptions, had "no discernible direct impact on electoral outcomes." If anything, Campbell's study implied that vagueness and other sources of uncertainty may help candidates when public opinion is dispersed, issues are salient, or the uncertain candidate's views differ substantially from the electoral median. <ref type="bibr" coords="3,310.79,196.67,115.79,9.21" target="#b9">Berinsky and Lewis (2007)</ref> cast additional doubt on the hypothesis that voters dislike uncertainty. Using a new estimator for the power term in voters' utility functions, they rejected the null hypothesis that American voters are risk averse. Most, they argue, are risk neutral, neither punishing nor rewarding presidential candidates about whose positions they are uncertain. Finally, <ref type="bibr" coords="3,336.45,273.37,167.47,9.21" target="#b20">Morgenstern and Zechmeister (2001)</ref> found that many Mexican voters were risk acceptant, leading them to gamble on the untested Partido Acción Nacional instead of supporting the "devil they knew," the ruling Partido Revolucionario Institucional.</p><p>Why have there been so few empirical studies, and why have they reached conflicting conclusions about a topic so central to democratic politics? Research has been stymied by inadequate data about candidate platforms and by seemingly insurmountable problems of endogeneity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Problems of Measurement</head><p>The American National Election Study (NES) took a valuable step toward measuring candidate issue stances when it began asking respondents to locate candidates on seven-point issue scales. Unfortunately, most NES surveys do not directly measure individual perceptions about the precision of candidate platforms. Participants assign each candidate to a single point, usually without indicating how certain they feel or whether the candidate might stand elsewhere <ref type="bibr" coords="3,434.83,514.97,99.12,9.21;3,300.83,525.93,21.90,9.21" target="#b27">(Weisberg and Fiorina 1980)</ref>.</p><p>Recognizing this problem, scholars have devoted much creative energy to developing indirect proxies for uncertainty about candidate positions. <ref type="bibr" coords="3,471.81,558.81,62.15,9.21" target="#b6">Bartels (1986)</ref> proposed one approach, based on the pattern of "don't know" responses. Suppose that each person has a latent degree of uncertainty about where the candidate stands; that people whose uncertainty exceeds a particular threshold refuse to place the candidate on the scale; and that uncertainty, although unobservable, varies with demographic and contextual variables that are present in the NES. One could then estimate a probit model of nonresponse, compute the predicted probability of nonresponse for each citizen with respect to each candidate and issue, and use the predicted probabilities as measures of uncertainty.</p><p>Even proponents of the probit method acknowledge, however, that it "requires strong assumptions" <ref type="bibr" coords="3,300.83,723.18,144.24,9.21">(Berinsky and Lewis 2007, 144)</ref> and is "sufficiently Electoral Implications of Candidate Ambiguity February 2009 indirect that any attempt to derive general conclusions about the political significance of issue uncertainty would be foolhardy" <ref type="bibr" coords="4,153.43,76.11,81.06,9.21">(Bartels 1986, 726)</ref>. Indeed, the two leading applications of this approach have reached opposite conclusions about the effects of uncertainty <ref type="bibr" coords="4,59.16,108.99,59.75,9.21" target="#b6">(Bartels 1986;</ref><ref type="bibr" coords="4,121.41,108.99,109.65,9.21" target="#b9">Berinsky and Lewis 2007)</ref>.</p><p>Other scholars have used the sample distribution of issue placements as a measure of uncertainty. <ref type="bibr" coords="4,262.96,130.91,23.46,9.21;4,59.16,141.87,46.43,9.21" target="#b12">Campbell (1983)</ref> computed the standard deviation of public perceptions about each candidate's position, and Gill (2005) calculated entropy scores. As <ref type="bibr" coords="4,212.95,163.79,79.25,9.21">Bartels (1986, 710)</ref> pointed out, however, there is no necessary connection between individual-level uncertainty and populationwide variability. If, for example, all voters were uncertain about a candidate's position but had exactly the same expectation, standard deviations and entropy scores would overstate voters' certainty. Conversely, if voters disagreed about where a candidate stood but were completely firm in their beliefs, standard deviations and entropy scores would overstate the uncertainty in voters' minds.</p><p>A few scholars have directly measured people's certainty about candidate positions. In a unique study, <ref type="bibr" coords="4,59.16,306.25,126.59,9.21" target="#b4">Alvarez and Franklin (1994)</ref> not only asked respondents to locate candidates on a scale, but also invited them to say whether they were "very certain, pretty certain, or not very certain" about where each candidate stood (also <ref type="bibr" coords="4,132.89,350.09,80.39,9.21">see NES 1994 and</ref><ref type="bibr" coords="4,216.64,350.09,21.90,9.21">1996)</ref>. <ref type="bibr" coords="4,246.29,350.09,45.98,9.21;4,59.16,361.04,90.56,9.21" target="#b10">Brady and Ansolabehere (1989)</ref> employed a related procedure by treating each person's self-reported knowledge about a candidate as an index of their awareness of the candidate's position. Subjective measures of certainty hold much promise, but they are rarely available in standard surveys, and they leave open the question of whether point estimates reflect the mean, the mode, the worst case, the best case, or a random draw from the candidate's probability distribution.</p><p>Moreover, none of these measures isolates the actual ambiguity in candidate position statements. Instead, each quantifies the total uncertainty arising from numerous sources, only one of which is the vagueness of candidate proclamations. Consequently, one cannot infer how much of the reaction is due to candidate vagueness versus other sources of uncertainty.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Problems of Endogeneity</head><p>Even without measurement problems, three sources of endogeneity make inference difficult. First, candidates are strategic: they take into account the likely reaction of voters when deciding how much information to reveal. Rational candidates avoid making vague statements to audiences who would react harshly against it, and they avoid speaking precisely when specificity would damage their electoral fortunes. Thus, the strategic behavior of candidates confounds efforts by researchers to detect the consequences of ambiguity.</p><p>Second, voters are more attentive to candidates they like. People initially drawn to a candidate's charisma, race, or experience, for example, may end up attending rallies and following media reports about the candidate, and thereby learning about the candidate's policy positions. Election primaries reinforce this pattern. Registered Democrats, for example, are especially likely to participate in Democratic primaries. They follow Democratic candidates throughout the primary season and accumulate information about their platforms. By the time the general election campaign begins, Democratic voters will know more about their party's candidate than about the opposition. Thus, both psychological and institutional forces lead citizens to learn about the issue positions of candidates they already favor for other reasons. Unless somehow controlled, this endogeneity will cause researchers to overstate the costs of ambiguity.</p><p>Finally, voters may overestimate the precision of positions articulated by candidates they like. Ambiguity gives voters leeway to see what they want: to perceive a candidate as being similar to themselves. If citizens encounter a candidate who seems attractive on other grounds, they may perceive more of the candidate's probability distribution as being piled near their own ideal point. In the extreme, voters may perceive the candidate as a probability spike over the most attractive point in the candidate's range. When asked about the candidate's level of ambiguity, voters may then report more precision than the facts warrant. In the minds of voters--and therefore the data sets of researchers--the vague candidate will appear artificially precise, causing a downward bias in the estimated benefits of ambiguity.</p><p>Taken together, problems of measurement and endogeneity pose seemingly insurmountable obstacles to studying the effects of candidate ambiguity. In the next section, we describe an experiment that overcomes these obstacles.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EXPERIMENTAL DESIGN</head><p>We designed an experiment to assess the effect of candidate ambiguity on voter choice and embedded it in an Internet survey of a nationally representative sample of U.S. adults. Our experiment involved three steps. First, we measured respondents' preferences about the appropriate level of government services. Second, using the same issue, we described the platforms of vague and precise candidates and asked which candidate respondents preferred. Third, we asked respondents to supply a point estimate for the location of a vague candidate, and we collected data on the risk preferences of participants.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measuring Respondents' Ideal Points</head><p>The survey began by asking respondents about a key political issue, government provision of services. Following the NES, we explained: "Some people think the government should provide fewer services even in areas such as health and education in order to reduce spending. Other people feel it is important for the government to provide many more services, even if it means an increase in spending." We then asked respondents to select one of seven alternatives: increase services by a large, medium, or small amount; keep the same amount of services; or decrease services by a small, medium, or large amount. The positions were described verbally rather than numerically, though for convenience we sometimes use the integers one through seven as shorthand for the seven fully labeled options.</p><p>As a follow-up, we asked half the participants how certain they were about their own position. The options included extremely sure, very sure, moderately sure, slightly sure, and not sure at all. We assigned this question to only half the sample to guard against the possibility of priming. Respondents who expressed certainty about their own position, for example, might have felt pressure to choose precise candidates over vague ones with similar expected locations, in order to remain consistent with their stated level of certainty. As it turned out, our concerns about priming were unwarranted: respondents behaved similarly regardless of whether they had been asked about the firmness of their own position.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measuring Preferences about Candidates</head><p>We then asked respondents to choose between two candidates, one vague and the other precise. "In the last election," participants were told, "candidates were surveyed by a non-partisan group. We would like your views about two candidates, whose names will remain confidential." Using the same issue and policy options that respondents had seen previously, we offered verbal and graphical summaries of the platforms of two candidates <ref type="figure" coords="5,83.54,395.39,43.07,9.21">(Figure 1a</ref>-c). The precise candidate took one of seven discrete positions on the scale. The ambiguous candidate, in contrast, advocated that "the government should increase services" or that "the government should decrease services," but in neither case said how much. Our description of the vague candidate was purposefully neutral. We avoided language that might have been taken as criticism or praise of ambiguity. After displaying the views of both candidates, we asked who the respondent preferred on that issue. <ref type="bibr" coords="5,237.92,492.46,3.49,6.44">5</ref> Half the respondents encountered unbranded candidates, who were identified by letters such as "A" and "B"; the other half encountered party branded candidates, who were labeled as Democrat and Republican. Each type offered unique opportunities for inference. By denoting some candidates with letters, we were able to test many theories of ambiguity in their purest form, without the potentially confounding effects of party. By denoting other candidates as Democrat and Republican, the design allowed us to study how partisanship--one of the most powerful factors in electoral politics--conditions the consequences of ambiguity. 6 Respondents retained their initial assignments (unbranded or branded) for the duration of the interview. <ref type="bibr" coords="5,49.76,686.35,2.99,5.52">5</ref> We measured respondents' preferences "on this issue" to keep the focus on government services and prevent people from choosing based on assumptions about the candidates' views on other topics. 6 When candidates were party branded, we made sure the Democratic candidate was at least as liberal as the Republican candidate.</p><p>We also randomized the locations of candidates. Our stratified random assignment algorithm ensured, to the greatest extent possible, that each respondent had an equal chance of receiving one of four types of scenarios. In Type I, the precise candidate was closer to the voter (i.e., |v − p| &lt; |v − µ|, where v was the voter's bliss point, p was the position of the precise candidate, and µ was the center of the vague candidate's interval). Type II reversed the inequality, such that the ambiguous candidate was the proximity favorite. Type III, a straddle tie, occurred when the precise candidate took a position at the center of the vague candidate's interval (i.e., p = µ). Finally, Type IV, a reflected tie, arose when the respondent stood between the two candidates and was equidistant to them (i.e., p = µ and |v − p| = |v − µ|). <ref type="bibr" coords="5,529.97,206.06,3.49,6.44">7</ref> Having asked about one pair of candidates, we invited respondents to consider another: "We are interested in what you think about other candidates, as well.</p><p>Here are the views of two different candidates about the level of government services and spending." Once again, the precise candidate was randomly assigned to one of the seven discrete positions. The ambiguous candidate, in contrast, took one of the three central ranges: increase medium to keep the same, increase small to decrease small, or keep the same to decrease medium. Because these positions were more cumbersome to describe verbally, we leveraged respondents' familiarity with our format by offering a graphical summary without a verbal description, as in <ref type="figure" coords="5,430.10,361.04,39.02,9.21">Figure 1d</ref>. <ref type="bibr" coords="5,473.45,359.50,3.49,6.44">8</ref> We ended this phase of the experiment by displaying two more pairs of candidates, some of which we positioned to allow within-subject analysis of the effects of ambiguity. Our method involved mimicking the earlier scenarios but, in each case, replacing the ambiguous candidate with a precise candidate who stood at the midpoint of the previous ambiguous interval. We presented these "precise scenarios" as if they involved entirely new candidates, rather than ones that respondents had already encountered. 9 By studying the choices each voter made in the ambiguous scenario and its matching precise scenario, we inferred the voter's response to changes in candidate ambiguity, holding other factors constant. 7 All voters were eligible to receive Types I to III, but only voters in the central positions could receive Type IV. This constraint arose because the vague platforms implied either µ = 2 or µ = 6 on the seven-point scale. Consequently, the probabilities of assignment for Types I, II, III, and IV were [1/4, 1/4, 1/4, 1/4] when voters were at positions 3, 4, or 5, and [1/3, 1/3, 1/3, 0] when voters were at positions 1, 2, 6, or 7. In Types I to III, candidates could, by chance, take the exact position of the respondent (i.e., v = p and/or v = µ). 8 With vague candidates in the central positions, implying µ = 3, 4, or 5, more voters became eligible for reflected ties. Thus, the probabilities of assignment for Types I, II, III, and IV were [1/4, 1/4, 1/4, 1/4] when voters were at positions 2, 3, 4, 5, or 6, but remained at [1/3, 1/3, 1/3, 0] when voters were at positions 1 or 7. Our findings about the behavior of voters in scenario Type IV should be interpreted with this fact in mind. 9 When subjects had previously considered an ambiguous scenario in which two unbranded candidates were straddle tied (i.e., p = µ), we did not present a matched precise scenario because the two precise candidates would have been identical to each other in all respects except the letter identifying them.</p><p>Electoral Implications of Candidate Ambiguity February 2009</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FIGURE 1. Measuring Preferences for Precise versus Ambiguous Candidates</head><p>Note: Subjects received either unbranded or branded candidates for all scenarios.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measuring Expectations and Taste for Risk</head><p>The third phase of our experiment investigated how citizens form expectations about the likely positions of vague candidates. Each respondent saw a single candidate who was randomly assigned to one of five vague intervals depicted with the now-familiar square bracket. The candidate was identified as Democrat or Republican in the party branded condition, or by a letter in the unbranded condition. "If you had to guess," we asked,"which position do you think this candidate would actually take?" Respondents chose one of the three precise positions spanned by the bracket. We closed the interview by assessing voters' attitudes toward risk. "Some people like taking risks. Other people prefer to avoid taking risks whenever possible. What about you? Do you prefer to take risks, prefer to avoid taking risks, or don't you have a preference either way?" 10</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AND FINDINGS</head><p>The experiments discussed in this article were administered by Knowledge Networks, an Internet-based polling firm, with support from the National Science Foundation. Knowledge Networks uses random digit dialing to recruit participants and provides Internet access to households, resulting in a nationally representative sample. The interviews took place in August 2007, and 1,001 people (76% of invitees) agreed to take the survey. <ref type="table" coords="7,49.76,532.43,31.36,9.21" target="#tab_0">Table 1</ref> shows the percentage of people who chose the ambiguous candidate in each of the four key political configurations: precise candidate closer (Type I), ambiguous candidate closer (Type II), straddle tie (Type III), and reflected tie (Type IV). 11 The distance differential measures the voter's absolute distance to <ref type="bibr" coords="7,49.76,614.61,5.98,5.52">10</ref> We placed this item last to avoid priming respondents to think about risk when selecting between vague and precise candidates. It is unlikely that people misreported their taste for risk to make it consistent with their earlier choices about candidates. Other questions intervened between our initial vague-precise scenarios and our measure of risk propensity. Moreover, the risk question was not explicitly about politics, further minimizing the possibility of posttreatment contamination. 11 Most of the 1,001 respondents evaluated two or three distinct scenarios in which an ambiguous candidate competed against a precise one. We treated each scenario as a separate observation, resulting in a total sample of 2,540 cases. We found no evidence of question order effects. <ref type="table" coords="7,97.61,724.56,25.46,7.36" target="#tab_0">Table 1</ref> gives exact binomial confidence intervals. We the precise candidate, minus the voter's absolute distance to the midpoint of the ambiguous candidate's interval (i.e., |v − p| − |v − µ|). The distance differential ranged from -5 to 5; we grouped -4 with -5 and 4 with 5 to increase the sample sizes at the extremes. <ref type="table" coords="7,310.79,354.45,32.51,9.21" target="#tab_0">Table 1</ref> reveals two clear patterns. First, proximity strongly influences the decisions of voters (see also <ref type="bibr" coords="7,300.83,376.36,140.67,9.21" target="#b25">Tomz and Van Houweling 2008)</ref>. According to proximity theory, ambiguous candidates are at an electoral disadvantage when the distance differential is negative, but they enjoy an electoral advantage when the differential is positive. Our data are highly consistent with this expectation. In the unbranded condition, support for the ambiguous candidate increased from a low of 4% when the difference differential was −4 or less, to a high of 94% when the ambiguous candidate enjoyed a proximity advantage of at least 4 points. Data from the party branded condition display an even stronger pattern. As the difference differential shifted from its minimum to its maximum value, the ambiguous candidate went from having no supporters to enjoying almost unanimous backing. <ref type="bibr" coords="7,418.27,528.23,6.97,6.44">12</ref> Second, and just as striking, ambiguity appears to carry no significant cost. Averaged across all scenarios in <ref type="table" coords="7,311.52,562.66,30.04,9.21" target="#tab_0">Table 1</ref>, with or without party brand names, respondents were as likely to choose the ambiguous candidate as they were to choose the precise one. Ambiguity proved innocuous even when restricting attention to ties, situations in which the voter was equidistant to the precise candidate and the midpoint of the vague candidate's interval. In the unbranded condition, 48% also computed block-bootstrapped confidence intervals, which were no larger than the binomial intervals in <ref type="table" coords="7,437.48,669.93,24.11,7.36" target="#tab_0">Table 1</ref>. <ref type="bibr" coords="7,300.83,678.22,5.98,5.52">12</ref> The pattern is stronger because the effects of partisanship reinforced the effects of proximity. In our experiment, Democratic candidates were always at least as liberal as Republican candidates. Moreover, Democratic voters are typically more liberal than Republican ones. Thus, most voters in our sample were closer to the candidate of their party than to the candidate of the opposite party. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The Average Effect of Ambiguity</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Precise scenario</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Not repelled by ambiguity</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ambiguous scenario</head><p>Repelled by ambiguity of voters who faced ties liked the ambiguous candidate more than the precise one. In the party branded condition, 56% of ties went to the ambiguous candidate, suggesting that ambiguity benefitted candidates in partisan elections. We return to this theme later in the article.</p><p>The reflected ties in <ref type="table" coords="8,159.85,488.45,32.17,9.21" target="#tab_0">Table 1</ref> are of special interest. In polarized political environments, candidates of different parties generally take distinct positions, making reflected ties far more common than straddle ties. Centrist or "swing" voters--the ones most likely to determine elections--are especially likely to encounter reflected ties because partisan candidates often distribute themselves on opposite sides of the political center. When reflected ties arose in our sample, a substantial majority of voters (64% in the unbranded condition and 62% in the party branded condition) preferred the ambiguous candidate. 13 13 In contrast, only 32% of respondents who faced unbranded straddle ties chose the ambiguous candidate. In these special cases, the only difference between the candidates--other than their alphabetic identifiers--was their level of ambiguity. This might have encouraged respondents to interpret our portrayal as implicit criticism of the ambiguous candidate, an implication we had tried to avoid by describing ambiguity as neutrally as possible. It might also have led respondents to place unusually high weight on ambiguity as a negative character trait, while giving atypically low weight to potentially attractive features of ambiguity. Furthermore, some straddle ties are</p><p>To check the robustness of these findings, we next conducted a within-subject analysis. In particular, we compared how each voter responded to a pair of precise candidates versus how the same voter responded to an otherwise identical scenario in which one of the candidates took an ambiguous position. For the purpose of illustration <ref type="figure" coords="8,370.75,488.45,37.83,9.21">(Figure 2</ref>), consider a "precise" scenario in which candidates Y and Z locate at specific points, and an "ambiguous" scenario in which candidate Y P locates precisely at Y, but candidate Z A announces an ambiguous platform centered on Z. In this setting, Y P is a replica of Y and Z A is an ambiguous analog to Z.</p><p>The choices that voters make in scenarios like these can reveal whether they are attracted to or repelled by ambiguity. <ref type="figure" coords="8,358.55,576.12,57.22,9.21">As Figure 2a</ref> illustrates, voters who chose Y in the precise scenario could have been attracted by ambiguity. Those who opted for Z A in the ambiguous scenario were in fact attracted by ambiguity, whereas those who selected Y P were not attracted by ambiguity. <ref type="figure" coords="8,310.21,630.92,41.78,9.21">Figure 2b</ref> displays the other logical possibilities. Voters who chose Z in the precise scenario could have been repelled by ambiguity. Among them, voters who triple conjunctions (v = p = µ) in which neither risk acceptance nor optimism would lead voters to choose the ambiguous candidate. Future research should examine how voters respond when ambiguity is cast positively or negatively, and investigate why voters evaluate candidates differently in straddle ties than in other settings. Note: There were 482 matched pairs involving unbranded candidates and 429 involving party branded candidates. Panel (a) includes all available cases. Panel (b) includes only "close calls" in which the distance differential was either 0 or 1.</p><p>defected to Y P in the ambiguous scenario were repelled by ambiguity, whereas voters who chose Z A were not. We presented people with matched pairs like the one in <ref type="figure" coords="9,61.28,280.82,34.81,9.21">Figure 2</ref>. In half the cases, we denoted each of the four candidates with a unique letter. In the other half, we referred to the leftmost candidate as a Democrat and the rightmost candidate as a Republican. For each matched pair, we recorded the respondent's choice pattern: attracted to ambiguity (Y, Z A ), not attracted to ambiguity (Y, Y P ), repelled by ambiguity (Z, Y P ), or not repelled by ambiguity (Z, Z A ). <ref type="table" coords="9,59.72,369.48,32.84,9.21" target="#tab_2">Table 2</ref> reports the rates at which voters were attracted to or repelled by ambiguity, and it summarizes the net effect. When we analyzed all available cases <ref type="table" coords="9,49.76,403.35,44.21,9.21" target="#tab_2">(Table 2a)</ref>, nearly 19% of the 207 respondents who could have been attracted by ambiguity actually chose the ambiguous candidate. In contrast, less than 13% of the 275 respondents who might have been repelled by ambiguity were in fact turned away. Rates of attraction and repulsion were lower (about 8% and 3%, respectively) in the party branded condition, where most respondents consistently chose the candidate from their own party in both the precise and the ambiguous scenarios.</p><p>On balance, ambiguity had neutral or slightly positive effect on the fortunes of political candidates. By making vague rather than precise policy statements, an unbranded candidate could gain 0.8% of the total vote, and a branded candidate could win the support of an additional 2.1% of the electorate.</p><p>The apparent rewards for ambiguity were larger for close calls: scenarios with a distance differential of 0 or 1 <ref type="table" coords="9,93.09,602.11,40.00,9.21" target="#tab_2">(Table 2b</ref>). These cases were especially informative because the distance differential was less likely to override the consequences of ambiguity. In close calls, ambiguity improved the vote share of unbranded candidates by 2.6 percentage points and the vote share of partisan candidates by 3.6 percentage points. Thus, the within-subject tests reinforce the conclusions from the between-subject tests: ambiguity is not costly and may, in fact, help candidates win close elections.</p><p>Why do so many voters in our study seem to support candidates with ambiguous messages? How do the in-dividual characteristics of voters affect whether they are attracted to or repelled by ambiguity? Why do voters respond somewhat differently in the branded and unbranded conditions? The next four sections explore these questions in greater detail, using four distinct analytical techniques.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Using Ties to Test Causal Mechanisms</head><p>As a first step toward isolating causal mechanisms, we exploited the special characteristics of ties. Triple conjunctions (scenarios in which v = p = µ) are especially interesting because the voter cannot gain and may, in fact, lose by selecting the risky candidate. Thus, in a triple conjunction, neither risk acceptance nor optimism can explain why the voter would choose the ambiguous candidate. When our respondents faced triple conjunctions, though, they selected the ambiguous option 25% of the time when candidates were unbranded and 40% of the time when candidates were party branded.</p><p>What explains this pattern? One possibility, suggested previously, is that voters value flexibility and think ambiguous candidates are more willing to adapt to changing circumstances. A second possibility, which applies only to the party branded condition, is blind party bias. Perhaps citizens break ties not by determining which candidate presents less risk, but by blindly selecting the candidate from their own party. If such bias were ubiquitous, respondents in our experiment, which randomized party labels, would have chosen the vague candidate around 50% of the time. By comparing reactions to triple conjunctions in the branded versus unbranded conditions, however, one sees that pure party bias could have boosted the fortunes of ambiguous candidates by only about 40 − 25 = 15 percentage points. A final possibility is pure error. Perhaps respondents made mistakes, either by not paying attention to the question or by accidentally choosing the candidate they did not intend to pick. Other research on issue voting, though, found a baseline error rate of only 15.5% <ref type="bibr" coords="9,300.83,701.27,161.29,9.21">(Tomz and Van Houweling 2008, 312)</ref>, far short of the rate at which our respondents chose the ambiguous candidate. To estimate how much behavior could be due to risk acceptance and/or optimism, we compared triple conjunctions with double conjunctions (scenarios in which p = µ = v). When candidates were unbranded, respondents opted for the vague candidate 34% of the time when facing double conjunctions versus 25% of the time when facing triple conjunctions. Some combination of risk acceptance and optimism could, therefore, be responsible for around 26% ((34 − 25)/34 = 0.26) of the preference for vague candidates. In the party branded scenarios, support for the ambiguous candidate was 52% with double conjunctions versus 40% with triple conjunctions. Thus, about 23% ((52 − 40)/52 = 0.23) of votes for party branded vague candidates could be due to risk acceptance or optimism. In summary, existing theories can explain only part of voters' preferences for ambiguity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Using Probit Regression to Test Causal Mechanisms</head><p>We next used probit regression to test causal mechanisms. Our dependent variable took a value of 1 if the respondent chose the ambiguous candidate and a value of 0 otherwise. The model with unbranded candidates included three explanatory variables. The first, risk aversion, tested whether respondents' attitudes toward risk affected their willingness to gamble on imprecise candidates. Our measure of risk aversion was 1 if respondents said they preferred to avoid taking risks and 0 otherwise. 14 The second independent variable measured voters' certainty about their own location. We reasoned that respondents who were certain of their own position would dislike vague candidates, whereas other respondents would exhibit the opposite tendency. Our measure singled out people who <ref type="bibr" coords="10,59.16,705.11,5.98,5.52">14</ref> In our data, respondents who preferred to take risks behaved about the same as respondents who did not have a preference about avoiding versus taking risks. expressed extreme certainty about their location on the government services and spending scale. Finally, we controlled for the distance differential, which proved important in <ref type="table" coords="10,366.01,326.79,31.07,9.21" target="#tab_0">Table 1</ref> and is central to proximity theory. The distance differential, which ranged from -5 to 5 with a modal value of 0, should have a positive effect on the probability of selecting the ambiguous candidate. <ref type="table" coords="10,320.18,370.62,36.92,9.21" target="#tab_3">Table 3a</ref> presents the estimates from our probit regression with unbranded candidates. 15 The first numeric columns give coefficients and standard errors, and the remaining columns show how a one-unit increase in the explanatory variable affected the probability of choosing the ambiguous candidate. Other factors equal, risk-averse citizens were about 9 percentage points less likely to choose the ambiguous candidate. This effect was substantively large, and its 95% confidence interval was strictly negative. Similarly, citizens who were certain about their own position were 9 percentage points less likely to embrace ambiguity, although the confidence interval slightly overlapped zero. Finally, the large positive coefficient on distance differential fit the central prediction of proximity theory: voters prefer the candidate closest to themselves.</p><p>Our model with party branded candidates included the same three explanatory variables plus measures of party affiliation, which could affect votes in two ways. First, partisanship could distort perceptions about the locations of candidates. Respondents might be optimistic about the positions of vague candidates from their own party (partisan optimism) and/or pessimistic about the positions of vague candidates from the opposite party (partisan pessimism). Second, partisanship could trigger blind bias: voters might favor candidates from their own party and disfavor members of the opposition, regardless of the candidates' vague or precise policy statements. Note: Bias is measured as expected distance (the distance from the voter to the midpoint of the ambiguous candidate's policy interval) minus imputed distance (the distance from the voter to where the voter believed that the ambiguous candidate stood).</p><p>In our model with branded candidates, party match was 1 if the voter and the ambiguous candidate belonged to the same party; party mismatch was 1 if they belonged to different parties. Independent voters, who neither matched nor mismatched the party of the ambiguous candidate, were the reference category.</p><p>As <ref type="table" coords="11,74.94,277.02,37.44,9.21" target="#tab_3">Table 3b</ref> shows, the introduction of party brand names muted the effects of risk aversion and voter certainty. When candidates were identified as Democrat or Republican, risk aversion and respondent certainty each lowered the preference for the ambiguous candidate by about 5 percentage points, an amount statistically indistinguishable from zero at standard confidence levels. Distance differential, however, continued to have strong effects even in the presence of party brands. Finally, party affiliation influenced choices. The probability of selecting the vague candidate was 34 percentage points higher when the respondent and the candidate belonged to the same party, but was 32 percentage points lower when they belonged to different parties.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Using Imputed Locations to Test Causal Mechanisms</head><p>From the cross-sectional probit, we could not tell whether the effects of partisanship arose entirely from blind partisan bias, or whether partisan optimism and pessimism were also at work. To shed light on this important question, we analyzed another type of data. Our experiment asked voters not only to choose between vague and precise candidates, but also to indicate where they expected ambiguous candidates to stand. For each voter, define imputation bias as B = |v − µ| − |v − µ I |, where v is the voter's bliss point, µ is the midpoint of the ambiguous candidate's policy interval (which we regard as an unbiased reading of the candidate's position), and µ I is the location the voter imputed to the ambiguous candidate. Positive values of B imply optimism, in which respondents shifted the vague candidate's probability distribution toward their own ideal point. Negative values of B, in contrast, reveal pessimism, in which respondents skewed the candidate's probability distribution away from themselves. B = 0 means no bias in either direction. <ref type="table" coords="11,59.73,701.27,31.48,9.21" target="#tab_4">Table 4</ref> presents the average value of B, conditional on the party affiliations of the voter and the candidate. <ref type="table" coords="11,75.35,723.18,33.55,9.21" target="#tab_4">Table 4</ref> supports three inferences. First, there is little evidence of general optimism. Independent voters believed that unbranded candidates were only 0.01 scale points closer and that branded candidates were only 0.05 scale points closer than an unbiased estimate would suggest. These levels of optimism were statistically indistinguishable from zero. Partisan voters were slightly pessimistic about unbranded candidates, but not at statistically significant levels. Overall, then, respondents offered fairly objective assessments when party was not a factor.</p><p>Second, we find strong evidence of partisan optimism. Democrats and Republicans perceived ambiguous candidates from their own party as 0.32 scale steps closer to themselves than to the midpoint of the vague interval. The 95% confidence interval ranged from 0.20 to 0.43 points, affording great certainty that people viewed members of their own party through rosecolored glasses. Third, we found much less evidence of partisan pessimism. Voters moved candidates from the opposite party only 0.11 points further from their self-locations than an objective analysis of candidate positions would dictate. This effect was statistically insignificant at conventional levels. Thus, our analysis uncovered an asymmetry, in which partisan optimism exceeded partisan pessimism in both magnitude and statistical significance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Using Within-Subject Data to Test Causal Mechanisms</head><p>If the optimism-pessimism asymmetry influences behavior, then ambiguity should help candidates gain votes from members of their own party without losing much support from members of other parties. We tested this hypothesis by applying within-subject methods (as in <ref type="figure" coords="11,345.66,596.28,35.79,9.21">Figure 2</ref> and <ref type="table" coords="11,403.41,596.28,31.29,9.21" target="#tab_2">Table 2</ref>) to three mutually exclusive and exhaustive subgroups of our party branded sample.</p><p>Respondents in the first subgroup considered a scenario with two precise candidates, and also considered an equivalent scenario in which their own party's candidate was ambiguous <ref type="table" coords="11,389.48,662.03,38.20,9.21" target="#tab_5">(Table 5a</ref>). In the scenario involving two precise candidates, 14 of 114 people voted for the opposition. <ref type="bibr" coords="11,364.64,682.39,6.97,6.44">16</ref> Seven of them instead chose their own   <ref type="table" coords="12,75.88,239.96,24.36,7.37" target="#tab_2">Table 2</ref>. Close calls are cases in which the distance differential was either 0 or 1.</p><p>party's candidate when that candidate was ambiguous. Thus, ambiguity enabled candidates to attract half of the attractable respondents from their own party. In contrast, ambiguity drove away only 1 of the 100 people who potentially could have been repelled. On balance, ambiguous candidates outperformed precise candidates by 5.3 percentage points among members of their own party. Ambiguity proved even more beneficial in close calls (when the candidates were exactly or nearly equidistant from the voter). In those cases, ambiguity swelled support among copartisans by more than 10 percentage points. Respondents in the second subgroup encountered an ambiguous candidate from the other party, instead of their own party <ref type="table" coords="12,128.17,421.85,38.75,9.21" target="#tab_5">(Table 5b</ref>). In these party mismatched cases, ambiguity drew 4 of the 113 respondents who could have been attracted, while driving away 4 of the 23 respondents who could have been repelled. Thus, ambiguity attracted exactly as many voters as it repelled. The same pattern held in close-call scenarios. Overall, then, ambiguity neither increased nor decreased support by members of the opposite party.</p><p>The final subgroup of our party branded sample contained independents <ref type="table" coords="12,148.63,520.48,41.72,9.21" target="#tab_5">(Table 5c)</ref>. Among this group, the net effect of ambiguity was slightly positive. Ambiguity raised support among independents by 1.7 percentage points in the sample as a whole and by 3.1 percentage points in close-call scenarios. The confidence intervals around both effects overlapped zero, however.</p><p>These findings, combined with previous ones, paint a consistent picture about the effects of ambiguity in partisan elections. Citizens are optimistic about where ambiguous candidates from their own party stand. Setting aside other potential consequences of ambiguity, this selective optimism makes ambiguity an advantageous strategy for candidates who want to increase their vote share among members of their own party. At the same time, people fairly perceive the positions of ambiguous candidates from the opposite party, instead of assumtheir own party: respondents were typically closer to that candidate, and respondents may have had blind party bias.</p><p>ing the worst about them. Other factors equal, then, ambiguity does not undermine candidates' attempts to woo voters from the other party. Thus, in partisan elections, ambiguity may help candidates more than it hurts them.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PATTERNS OF AMBIGUITY IN CAMPAIGNS</head><p>Our experiments compared candidates who made precise statements with candidates whose pronouncements were substantially, but not completely, ambiguous. Vague candidates advocated policy intervals that covered 3 of 7 points, or 43% of the issue space <ref type="figure" coords="12,522.68,408.08,16.52,9.21;12,310.21,419.04,25.00,9.21">(Figure 1)</ref>. We now investigate how well our experiments reflect the ambiguity candidates employ in actual campaigns. Through analysis of an innovative public opinion poll and the content of presidential and vice presidential debates, we find that our experiments represent a common range and type of ambiguity in U.S. elections.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The Range of Ambiguity</head><p>In August-September 2008, we conducted a nationally representative survey that measured how much ambiguity people perceived in statements by John McCain (R) and Barack Obama (D) on the issue of government services and spending. 17 People placed the candidates on the same seven-point issue scale used in our experiments. Departing from the standard practice in surveys, we allowed respondents to express the ambiguity in candidate statements by selecting multiple points on the scale. <ref type="bibr" coords="12,349.70,620.89,6.97,6.44">18</ref> To familiarize respondents with our format and encourage them to use multiple points when appropriate, we displayed four examples of candidates. The first candidate said the government should increase services by a small amount. We showed respondents how to place this candidate at the corresponding point on the scale. The second candidate said the government should increase services, but was vague about the amount. We demonstrated how to place this candidate, by choosing all three points in the implied range from increase by a small amount to increase by a large amount. The third candidate said that the government should not increase services, but was vague about which of the remaining options he or she favored. We taught respondents to summarize such statements by selecting four points, ranging from keep services the same to decrease services by a large amount. The final candidate was totally vague when saying whether the government should increase services, decrease services, or keep them the same. We instructed respondents to place a candidate like this across all seven points. After providing these examples, we asked respondents to summarize what McCain and Obama had said about the issue <ref type="table" coords="13,120.23,558.16,43.59,9.21" target="#tab_6">(Table 6a)</ref>. <ref type="bibr" coords="13,167.90,556.61,6.97,6.44">19</ref> Overall, 51% of people who evaluated McCain's statements put them at a single point, and an additional 34% saw the statements as straddling two or three scale points. Similarly, 51% perceived Obama's statements as occupying one point, and 42% felt the statements encompassed two or three points. <ref type="table" coords="13,59.72,634.88,36.62,9.21" target="#tab_6">Table 6a</ref> supports two conclusions. First, many people believed that the presidential candidates were mak- <ref type="bibr" coords="13,49.76,669.24,5.98,5.52">19</ref> We gave respondents the option of not placing a candidate if they had not heard the candidate say anything about the issue. We offered this alternative to prevent people from attributing vague positions to candidates simply because they had not paid attention to the campaign. Of our respondents, 40% had not heard any relevant statements from Obama, and 51% had not heard any relevant statements from McCain. We dropped them from the analysis.</p><p>ing ambiguous policy statements about government services such as health and education. Second, the vast majority--around 90%--perceived a range of ambiguity like the one in our experiments.</p><p>For additional evidence about candidate ambiguity in actual campaigns, we catalogued statements by presidential and vice presidential candidates in 2007-2008 on a related fiscal issue, federal tax policy. Our analysis covered all tax policy proposals by all participants in 25 Democratic and 15 Republican primary debates and in 4 general election debates. There were 489 proposals; 88% pertained to the level of taxation and thus could be put on a scale like the one we used in our experiment. The remaining 12% called for systemic reform such as replacing the income tax with a national consumption tax. We discuss the statements about tax levels now and revisit the systemic statements later in the article.</p><p>We coded each statement based on two criteria. First, did the candidate advocate increasing taxes, decreasing taxes, keeping taxes the same, or some combination of the three? Second, did the candidate specify the magnitude of any proposed change? We regarded candidates as specific if they offered a precise proposal (e.g., "change the marginal rate from 33% to 39%" or "eliminate the capital gains tax").</p><p>Based on these criteria, we coded the maximum number of scale points each proposal spanned. As Table 6b shows, 48% of statements called for a specific change or unequivocally advocated keeping taxes the same, implying no ambiguity. An additional 41% of statements spanned three points because the candidate advocated increasing or decreasing taxes but did not say how much. Around 10% of statements covered four points because the candidate held open two options: either keeping taxes the same or changing them in a particular direction. Finally, only 1% of statements were totally vague because they did not make clear whether the candidate would raise, sustain, or lower the particular tax being discussed. This analysis reinforces the lessons from our survey: candidates speak vaguely about fiscal issues, but they typically limit their ambiguity to the levels in our experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Types of Ambiguity</head><p>Of course, ambiguity comes in other forms, including broad but vacuous statements about policy goals. During the 1952 presidential campaign, for example, Dwight Eisenhower pledged "I shall go to Korea" with the purpose of ending the war. Richard Nixon was similarly vocal about goals but silent about means: in the 1968 campaign, he promised "new leadership" to end the Vietnam war.</p><p>We found equally ambiguous goal-focused statements about taxes in the 2007-2008 presidential debates. Recall that around 12% of statements advocated systemic tax reform. Of these, 17% (comprising 2% of the entire sample) announced sweeping goals (e.g., "changing the entire tax system" to make it "fairer," "less oppressive," and less beholden to "special interests") without mentioning particular tax instruments. These kinds of ambiguous statements, although rare, may have different consequences than ones in our experiments.</p><p>Another form of candidate ambiguity arises when candidates espouse inconsistent positions. Senator John Kerry famously voted to authorize the use of U.S. force in Iraq in 2002, only to renounce the war when running for president two years later. In the 2008 presidential campaign, John McCain proposed to extend tax cuts that he had vigorously opposed years earlier. Experiments and historical analyses could help quantify the costs and benefits of intertemporal inconsistency, or "flip-flopping." Some candidates take inconsistent stands even within a single speech. In a 2007 Democratic primary debate, for example, Congressman Dennis Kucinich said he would not increase taxes. However, in the next breath, he pledged to repeal the tax cuts that President Bush had given to the richest Americans. These kinds of logical inconsistencies appeared in only 2 of the 489 tax proposals we examined, but may be more common in other issue areas.</p><p>Finally, ambiguity arises when candidates send implicit, rather than explicit, messages. In the late 1960s, gubernatorial candidate George Wallace "gained legitimacy for himself through ambiguity" <ref type="bibr" coords="14,235.81,602.63,56.46,9.21;14,59.16,613.60,33.98,9.21">(Mendelberg 2001, 91</ref>; see also <ref type="bibr" coords="14,138.03,613.60,149.88,9.21" target="#b13">Chester, Hodgson, and Page 1969)</ref>. Wallace used symbols to attract racist voters without employing segregationist language that other people would have found offensive. Researchers could design experiments like the one in <ref type="bibr" coords="14,185.78,657.42,106.50,9.21;14,59.16,668.39,18.82,9.21">Mendelberg (2001, 191-208)</ref> to compare the effects of implicit versus explicit messages on a wide range of campaign issues.</p><p>More generally, the effects of ambiguity could vary by issue. We focused on government services and spending, the central dimension that parties have contested since the New Deal. Ambiguity may evoke dif-ferent responses on other issues, such as complex debates about health care reform and global warming, or moral debates about abortion and gay marriage.</p><p>Although our experiments examined a ubiquitous type of ambiguity in doses that candidates commonly use, one must be careful about extrapolating our conclusions to other types and levels of ambiguity. Voters may, for example, accept ambiguity within the range we studied but shun candidates who are totally vague. This hypothesis, if correct, could explain why candidates in the 2008 presidential campaign delivered vague messages but stopped short of total ambiguity. Our experimental template--unlike observational studies--could be used to infer the consequences of levels and types of ambiguity that politicians rarely employ.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSION</head><p>In this article, we offered an experimental solution to measurement and endogeneity problems that have impeded previous research about candidate ambiguity. Between-subject and within-subject tests showed that citizens are at least as likely to prefer ambiguous candidates as to prefer precise ones. Our tests also showed that, in a partisan context, ambiguity can help candidates gain support from members of their own party without costing them votes from members of the opposition.</p><p>Why do many voters tolerate or even embrace ambiguity? Our evidence points to three explanations. The first concerns voter attitudes toward risk. Some participants in our study reported that they preferred not to take risks and made choices that reflected this predisposition. Their preferences were counterbalanced, however, by a majority of respondents who said they did not mind, or even enjoyed, taking risks. These risk-neutral and risk-acceptant respondents were more willing to gamble on ambiguous candidates, even when precise alternatives were at least as close.</p><p>The second explanation focuses on the firmness of voters' policy preferences. In our study, people who were extremely confident about their own position on government services and spending tended to shun ambiguous candidates. Others, who were less sure about the best course of action, chose ambiguous candidates with greater frequency.</p><p>The final explanation involves partisan optimism. When voters encountered an ambiguous candidate from their own party, they expected the candidate to lean significantly in their own direction, instead of implementing a policy at the center of the candidate's ambiguous platform. Beliefs about candidates from the opposite party were more neutral. Indeed, we could not reject the hypothesis that voters had unbiased expectations about the stances of candidates from the opposite party. This asymmetry--partisan optimism without partisan pessimism--helps make ambiguity profitable.</p><p>Our findings have interesting implications for campaign strategy. The experiments with unbranded candidates suggest that voters neither punish nor reward ambiguity in nonpartisan elections. The experiments with party branded candidates, in contrast, imply that in elections where candidates compete against opponents from different parties, ambiguity can help candidates attract copartisans without repelling other voters. The attractiveness of ambiguity will vary with the composition of the electorate. Ambiguity should pay especially large dividends in jurisdictions where many voters identify with the ambiguous candidate's party and/or where voters have heterogeneous policy preferences that would be difficult to satisfy by taking a single, precise position.</p><p>Ambiguity may prove useful not only in general elections, but also in primaries. Although we did not simulate a primary-like contest between two candidates of the same party, our experiments offer potentially relevant insights. If voters are selectively optimistic about the positions of all primary contestants from their own party, ambiguity could be a net plus. But even if voters respond neutrally, as if the primary contestants were unbranded, ambiguity could still be part of a forwardlooking strategy. Candidates could speak vaguely about policy issues in primaries without suffering an electoral penalty. Later, and without contradiction, they could announce moderate positions that cater to the median voter in the general election. Vagueness could also give candidates room to update their positions in response to new information, including lessons from the primaries <ref type="bibr" coords="15,109.55,350.09,72.55,9.21" target="#b18">(Meirowitz 2005)</ref>.</p><p>Indeed, we find that candidates regularly employ ambiguity in primaries and general elections. Two original data sets, one based on a textual analysis of campaign debates and the other gathered via public opinion polling, show that candidates often take--and voters frequently perceive--ambiguous positions like the ones we portrayed in our experiments. The pervasive use of ambiguity in campaigns fits with our experimental finding that ambiguity can be strategically advantageous.</p><p>Of course, the strategies of other political actors may mediate the attractiveness of ambiguity, sometimes decreasing and sometimes increasing its appeal in ways not captured by our experiments. Candidates may try to counteract their opponents' efforts to benefit from ambiguity. During the 1984 Democratic primary, for example, Gary Hart productively employed ambiguity until Walter Mondale exposed the stratagem in a televised debate by asking, "Where's the beef?" <ref type="bibr" coords="15,248.03,558.30,34.86,9.21;15,49.76,569.26,61.12,9.21">(Bartels 1988, 101-102)</ref>. We found less colorful attempts to criticize politicians for being vague about tax policy in the 2008 presidential campaign.</p><p>However, candidates may portray their own ambiguity as a virtue--as proof of their commitment to bipartisanship, flexibility, and thoughtfulness. Hillary Clinton, the most ambiguous Democrat we encountered in debates about tax policy, exemplified this rhetorical strategy. When barraged with questions about whether she would maintain or raise the cap on payroll taxes, Clinton refused to take a position because it would be a mistake to start "negotiating about what I would do as president" "before we have a bipartisan process." Similarly, when asked about the Alternative Minimum Tax, Clinton would not "get committed to a specific approach" because the issue was "extremely complicated" and had "a lot of moving pieces." <ref type="bibr" coords="15,476.60,63.60,6.97,6.44">20</ref> We presented ambiguity with neutral language, which neither encouraged nor discouraged voting for the ambiguous candidate. Future experiments could manipulate the negative and positive spins that political actors give to ambiguity. Our analysis answers foundational questions while suggesting that efforts to study candidate ambiguity should be redoubled.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="12,75.88,104.00,264.58,8.29;12,84.84,113.96,88.44,8.29;12,201.69,113.96,27.41,8.29;12,261.99,113.96,17.45,8.29;12,314.32,113.96,38.38,8.29;12,380.60,113.96,22.43,8.29;12,435.92,113.96,17.45,8.29;12,488.25,113.96,38.38,8.29;12,84.84,123.92,88.03,8.29;12,201.68,123.92,32.40,8.29;12,266.97,123.92,12.46,8.29;12,319.30,123.92,28.40,8.29;12,380.59,123.92,27.41,8.29;12,440.89,123.92,12.46,8.29;12,493.23,123.92,28.40,8.29;12,84.84,133.89,88.94,8.29;12,201.68,133.89,32.40,8.29;12,266.97,133.89,12.46,8.29;12,319.30,133.89,28.40,8.29;12,380.59,133.89,27.41,8.29;12,435.91,133.89,17.45,8.29;12,493.23,133.89,33.39,8.29;12,75.88,146.84,285.00,8.29;12,84.84,156.80,88.44,8.29;12,201.69,156.80,32.40,8.29;12,266.98,156.80,12.47,8.29;12,319.31,156.80,28.40,8.29;12,380.60,156.80,27.41,8.29;12,440.90,156.80,12.47,8.29;12,493.24,156.80,33.39,8.29;12,84.84,166.76,88.03,8.29;12,201.68,166.76,27.41,8.29;12,261.98,166.76,17.45,8.29;12,319.30,166.76,33.39,8.29;12,380.59,166.76,27.41,8.29;12,435.91,166.76,17.45,8.29;12,493.23,166.76,33.39,8.29;12,84.84,176.73,88.94,8.29;12,201.68,176.73,32.40,8.29;12,266.97,176.73,12.46,8.29;12,312.31,176.73,35.40,8.29;12,380.60,176.73,27.41,8.29;12,440.90,176.73,12.47,8.29;12,486.24,176.73,35.39,8.29;12,75.88,189.68,295.18,8.29;12,84.84,199.64,88.44,8.29;12,201.69,199.64,27.41,8.29;12,266.97,199.64,12.47,8.29;12,319.31,199.64,33.39,8.29;12,380.60,199.64,27.41,8.29;12,435.91,199.64,17.45,8.29;12,493.24,199.64,33.39,8.29;12,84.84,209.60,88.03,8.29;12,201.68,209.60,27.41,8.29;12,266.97,209.60,12.46,8.29;12,319.30,209.60,28.40,8.29;12,380.59,209.60,27.41,8.29;12,440.89,209.60,12.46,8.29;12,493.23,209.60,33.38,8.29;12,84.84,219.57,88.94,8.29;12,201.68,219.57,32.40,8.29;12,266.97,219.57,12.46,8.29;12,312.31,219.57,35.40,8.29;12,380.60,219.57,27.41,8.29;12,440.90,219.57,12.47,8.29;12,486.24,219.57,35.40,8.29;12,75.88,230.87,450.77,7.54"><head></head><label></label><figDesc>Panels (a)-(c) are a mutually exclusive and exhaustive partition of the 429 matched pairs from the party branded sample in</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="7,110.23,60.59,363.26,216.34"><head>TABLE 1 .</head><label>1</label><figDesc>Rates at Which Respondents Chose the Ambiguous CandidateNote: For each scenario, the table gives the percentage of respondents who favored the ambiguous candidate over the precise one. The distance differential is the absolute distance from the respondent to the precise candidate's policy position, minus the absolute distance from the respondent to the midpoint of the vague candidate's policy interval. Total sample size was 1,299 in the unbranded condition and 1,241 in the party branded condition. The averages at the bottom of the table are unweighted means.</figDesc><table coords="7,110.23,77.70,363.26,152.86">Unbranded 
+Party Branded 
+Political 
+Distance 
+Configuration 
+Differential 
+% 
+95% CI 
+% 
+95% CI 
+⎧ 
+⎪ ⎨ 
+
+⎪ ⎩ 
+
+Precise 
+≤−4 
+4 
+(0 to 19) 
+0 
+(0 to 12) 
+candidate 
+−3 
+11 
+(5 to 21) 
+8 
+(2 to 20) 
+was closer 
+−2 
+12 
+(7 to 20) 
+6 
+(2 to 15) 
+to v 
+−1 
+22 
+(16 to 29) 
+24 
+(17 to 32) 
+Straddle tie 
+0 
+32 
+(28 to 37) 
+50 
+(46 to 55) 
+Reflected tie 
+0 
+64 
+(57 to 71) 
+62 
+(52 to 71) 
+⎧ 
+⎪ ⎨ 
+
+⎪ ⎩ 
+
+Ambiguous 
+1 
+79 
+(72 to 86) 
+72 
+(62 to 80) 
+candidate 
+2 
+89 
+(81 to 95) 
+82 
+(70 to 91) 
+was closer 
+3 
+93 
+(82 to 98) 
+98 
+(89 to 100) 
+to v 
+≥4 
+94 
+(84 to 98) 
+98 
+(89 to 100) 
+Average (all scenarios) 
+50 
+50 
+Average (ties only) 
+48 
+56 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="9,88.91,60.59,405.90,124.43"><head>TABLE 2 .</head><label>2</label><figDesc>Within-Subject Estimates of the Effects of Ambiguity</figDesc><table coords="9,88.91,77.70,405.90,107.32">Unbranded 
+Party Branded 
+
+Count 
+% 
+95% CI 
+Count 
+% 
+95% CI 
+(a) All Scenarios 
+Attracted by ambiguity 
+39 of 207 
+18.8 
+(14 to 25) 
+16 of 211 
+7.6 
+(4 to 12) 
+Repelled by ambiguity 
+35 of 275 
+12.7 
+(9 to 17) 
+7 of 218 
+3.2 
+(1 to 7) 
+Net effect of ambiguity 
+4 of 482 
+0.8 
+(−2 to 4) 
+9 of 429 
+2.1 
+(0 to 4) 
+(b) Close Calls 
+Attracted by ambiguity 
+32 of 109 
+29.4 
+(21 to 39) 
+13 of 116 
+11.2 
+(6 to 18) 
+Repelled by ambiguity 
+25 of 156 
+16.0 
+(11 to 23) 
+5 of 109 
+4.6 
+(2 to 10) 
+Net effect of ambiguity 
+7 of 265 
+2.6 
+(−2 to 8) 
+8 of 225 
+3.6 
+(0 to 7) 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="10,86.28,60.59,429.97,210.65"><head>TABLE 3 .</head><label>3</label><figDesc>Probit Regression Analyses of Preference for the Ambiguous Candidate</figDesc><table coords="10,306.40,77.70,188.49,8.29">Coefficient 
+Effect on Probability 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="11,128.21,60.59,327.29,99.91"><head>TABLE 4 .</head><label>4</label><figDesc>Average Bias in Imputed Distance to Candidates</figDesc><table coords="11,128.21,77.70,327.29,82.80">Configuration 
+Bias 
+95% CI 
+Sample Size 
+(a) Unbranded Candidates 
+Independent respondents 
+0.01 
+(−0.10 to 0.13) 
+178 
+Partisan respondents 
+−0.06 
+(−0.15 to 0.02) 
+316 
+(b) Party Branded Candidates 
+Independent respondents 
+0.05 
+(−0.07 to 0.17) 
+194 
+Party matched respondents 
+0.32 
+(0.20 to 0.43) 
+142 
+Party mismatched respondents 
+−0.11 
+(−0.25 to 0.02) 
+149 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="12,75.88,60.59,445.24,40.35"><head>TABLE 5 .</head><label>5</label><figDesc>Within-Subject Estimates, by Party Match</figDesc><table coords="12,258.26,77.70,218.01,8.29">All Cases 
+Close Calls 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="13,99.05,60.59,385.61,242.93"><head>TABLE 6 .</head><label>6</label><figDesc>Perceived and Actual Ambiguity of Candidate Statements on Fiscal Issues (a) Perceived Ambiguity of Statements about Services/Spending by McCain and Obama</figDesc><table coords="13,99.05,98.62,385.61,204.90">McCain 
+Obama 
+
+Number of Scale Points 
+Percent 
+Cumulative 
+Percent 
+Cumulative 
+One (no ambiguity) 
+51.0 
+51.0 
+50.6 
+50.6 
+Two 
+13.4 
+64.4 
+14.6 
+65.2 
+Three 
+20.7 
+85.1 
+27.0 
+92.2 
+Four 
+10.5 
+95.6 
+4.8 
+96.9 
+Five 
+0.8 
+96.4 
+0.5 
+97.5 
+Six 
+0.6 
+97.1 
+0.3 
+97.8 
+Seven (total ambiguity) 
+2.9 
+100.0 
+2.2 
+100.0 
+
+(b) Actual Ambiguity of Statements about Taxes by Debate Participants 
+
+Number of Scale Points 
+Percent 
+Cumulative 
+One (no ambiguity) 
+47.8 
+47.8 
+Three 
+41.0 
+88.8 
+Four 
+10.3 
+99.1 
+Seven (total ambiguity) 
+0.9 
+100.0 
+
+Note: Panel (a) is based on a public opinion survey in which 478 people offered evaluations of McCain's 
+statements and 589 offered evaluations of Obama's statements. Panel (b) is based on analysis of all 429 
+prospective statements about tax policy that candidates from either party made in presidential primary and 
+general election debates (2007-2008), and in the vice presidential debate (2008). 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">If voters are indifferent between gambles and their expected outcomes (i.e., EU(A) = u(µ)), they will prefer the ambiguous candidate over the precise one when |v − µ| &lt; |v − p| and will like both candidates equally if |v − µ| = |v − p|.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">Psychologists have identified individual predilections for something like flexibility versus decisiveness in traits such as need for closure. See, e.g.,<ref type="bibr" coords="3,109.87,724.56,106.24,7.36" target="#b26">Webster and Kruglanski (1994)</ref>.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="15">Only 494 of the 1,001 respondents in our survey were asked about the certainty of their own position. Thus, the sample inTable 3is only half as large as the sample inTable 1.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="16">When both candidates were precise, two factors may have led the overwhelming majority of respondents to choose the candidate from</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="17">The survey was conducted by Knowledge Networks, and 983 people (47% of invitees) completed the questionnaire.18  In the 1979 NES pilot survey,<ref type="bibr" coords="12,426.72,697.67,72.03,7.36" target="#b1">Aldrich et al. (1982)</ref> pioneered a similar method for measuring respondents' own positions on a sevenpoint scale. They strongly recommended this "ambiguity format," but to our knowledge it has not been adopted in subsequent surveys.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="15,300.83,188.14,233.11,7.36;15,308.79,197.11,225.16,7.36;15,308.79,206.08,19.70,7.36" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Why Parties? The Origin and Transformation of Political Parties in America</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">H</forename><surname>Aldrich</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<publisher>Chicago: The University of Chicago Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.82,215.04,233.12,7.36;15,308.79,224.01,225.17,7.36;15,308.79,232.97,225.17,7.36;15,308.79,241.94,181.52,7.36" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The Measurement of Public Opinion about Public Policy: A Report on Some New Issue Question Formats</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">H</forename><surname>Aldrich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">George</forename><surname>Niemi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">W</forename><surname>Rabinowitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Rohde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="391" to="414" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.82,250.91,233.13,7.36;15,308.79,259.87,194.74,7.36" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The Politics of Ambiguity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alberto</forename><surname>Alesina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alex</forename><surname>Cukierman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="829" to="50" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.82,268.84,233.11,7.36;15,308.79,277.81,101.40,7.36" xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Information and Elections</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Alvarez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Michael</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>University of Michigan Press</publisher>
+			<pubPlace>Ann Arbor</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.82,286.77,233.14,7.36;15,308.79,295.74,204.20,7.36" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Uncertainty and Political Perceptions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Alvarez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><forename type="middle">H</forename><surname>Michael</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Franklin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Politics</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="671" to="88" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.82,304.71,233.14,7.36;15,308.79,313.67,225.17,7.36;15,308.79,322.64,56.04,7.36" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Strategic Ambiguity in Electoral Competition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Enriqueta</forename><surname>Aragones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zvika</forename><surname>Neeman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Theoretical Politics</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="183" to="205" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.82,331.60,233.13,7.36;15,308.79,340.57,222.93,7.36" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Issue Voting Under Uncertainty: An Empirical Test</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Larry</forename><forename type="middle">M</forename><surname>Bartels</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="709" to="737" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.82,349.54,233.13,7.36;15,308.79,358.50,197.06,7.36" xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Presidential Primaries and the Dynamics of Public Choice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Larry</forename><forename type="middle">M</forename><surname>Bartels</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Princeton, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.82,367.47,233.13,7.36;15,308.79,376.44,217.68,7.36" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Spatial Models of Delegation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><surname>Bendor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adam</forename><surname>Meirowitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="293" to="310" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.82,385.40,233.14,7.36;15,308.79,394.37,225.15,7.36;15,308.79,403.33,71.31,7.36" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">An Estimate of Risk Aversion in the U.S. Electorate</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adam</forename><forename type="middle">J</forename><surname>Berinsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><forename type="middle">B</forename><surname>Lewis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="139" to="54" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.82,412.30,233.12,7.36;15,308.79,421.27,225.16,7.36;15,308.79,430.23,65.55,7.36" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The Nature of Utility Functions in Mass Publics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Henry</forename><forename type="middle">E</forename><surname>Brady</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><surname>Ansolabehere</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="143" to="63" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.83,439.20,233.12,7.36;15,308.79,448.17,225.17,7.36;15,308.79,457.13,96.12,7.36" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Context-Dependent Voting and Political Ambiguity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><surname>Callander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine</forename><forename type="middle">H</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Public Economics</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="565" to="81" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.83,466.10,233.12,7.36;15,308.79,475.07,225.16,7.36;15,308.79,484.03,209.86,7.36" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The Electoral Consequences of Issue Ambiguity: An Examination of the Presidential Candidates&apos; Issue Positions from 1968 to 1980</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">E</forename><surname>Campbell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Behavior</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="277" to="91" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.83,493.00,233.13,7.36;15,308.79,501.96,225.16,7.36;15,308.79,510.93,25.02,7.36" xml:id="b13">
+	<monogr>
+		<title level="m" type="main">An American Melodrama: The Presidential Campaign of</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lewis</forename><surname>Chester</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Godfrey</forename><surname>Hodgson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bruce</forename><surname>Page</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1968" />
+			<pubPlace>New York; Viking</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.82,519.90,233.12,7.36;15,308.79,528.86,225.17,7.36;15,308.79,537.82,141.88,7.36" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A New Approach To Voter Uncertainty in the Downsian Spatial Model</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><surname>Enelow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Melvin</forename><forename type="middle">J</forename><surname>Hinich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Political Science</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="483" to="93" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.82,546.80,233.12,7.36;15,308.79,555.76,139.01,7.36" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">An Entropy Measure of Uncertainty in Vote Choice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeff</forename><surname>Gill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electoral Studies</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="371" to="92" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.83,564.73,233.06,7.36;15,308.79,573.69,225.17,7.36;15,308.79,582.66,9.97,7.36" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Stated Expectations as Functions of Probability and Desirability of Outcomes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francis</forename><surname>Irwin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="329" to="364" />
+			<date type="published" when="1953" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.83,591.63,233.13,7.36;15,308.79,600.59,225.18,7.36;15,308.79,609.56,225.17,7.36;15,308.79,618.53,147.87,7.36" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The Challenges of Political Psychology: Lessons to be Learned from Research on Attitude Perception</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jon</forename><forename type="middle">A</forename><surname>Krosnick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Thinking about Political Psychology</title>
+		<editor>James H. Kuklinski</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="115" to="52" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.83,627.49,233.15,7.36;15,308.79,636.45,207.85,7.36" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Informational Party Primaries and Strategic Ambiguity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adam</forename><surname>Meirowitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Theoretical Politics</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="107" to="143" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.83,645.43,233.12,7.36;15,308.79,654.39,225.16,7.36;15,308.79,663.36,44.72,7.36" xml:id="b19">
+	<monogr>
+		<title level="m" type="main">The Race Card: Campaign Strategy, Implicit Messages, and the Norm of Equality</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tali</forename><surname>Mendelberg</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Princeton, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.83,672.32,233.14,7.36;15,308.79,681.29,225.15,7.36;15,308.79,690.26,197.99,7.36" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Better the Devil You Know Than the Saint You Don&apos;t? Risk Propensity and Vote Choice in Mexico</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Scott</forename><surname>Morgenstern</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elizabeth</forename><surname>Zechmeister</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Politics</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="93" to="119" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,300.83,714.08,233.11,8.88;15,300.83,724.56,169.55,7.36" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The Democratic Presidential Debate on MSNBC</title>
+	</analytic>
+	<monogr>
+		<title level="m">The New York Times</title>
+		<imprint>
+			<date type="published" when="2007-09-26" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.16,55.57,233.13,7.36;16,67.12,64.54,148.15,7.36" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The Theory of Political Ambiguity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Benjamin</forename><forename type="middle">I</forename><surname>Page</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="742" to="52" />
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+	<note>American</note>
+</biblStruct>
+
+<biblStruct coords="16,59.16,73.51,233.14,7.36;16,67.12,82.47,225.18,7.36;16,67.12,91.44,9.97,7.36" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Affect and Expectation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Rosenhan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Samuel</forename><surname>Messick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="38" to="44" />
+			<date type="published" when="1966" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.16,100.40,233.14,7.36;16,67.12,109.37,225.17,7.36;16,67.12,118.34,48.07,7.36" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The Strategy of Ambiguity: Uncertainty and Electoral Competition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenneth</forename><forename type="middle">A</forename><surname>Shepsle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="555" to="68" />
+			<date type="published" when="1972" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,59.16,127.30,233.12,7.36;16,318.19,55.57,225.17,7.36;16,318.19,64.53,52.05,7.36" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Candidate Positioning and Voter Choice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Tomz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">P</forename><surname>Van Houweling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Political Science Review</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="303" to="321" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,310.21,73.51,233.15,7.36;16,318.19,82.47,225.14,7.36;16,318.19,91.44,131.02,7.36" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Individual Differences in Need for Cognitive Closure</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donna</forename><forename type="middle">M</forename><surname>Webster</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arie</forename><forename type="middle">W</forename><surname>Kruglanski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1049" to="62" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="16,310.21,100.40,233.14,7.36;16,318.19,109.37,225.15,7.36;16,318.19,118.34,225.17,7.36;16,318.19,127.30,127.27,7.36" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Candidate Preference under Uncertainty: An Expanded View of Rational Voting</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Herbert</forename><forename type="middle">F</forename><surname>Weisberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Morris</forename><forename type="middle">P</forename><surname>Fiorina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Electorate Reconsidered</title>
+		<editor>John C. Pierce and John L. Sullivan. Beverly Hills: Sage</editor>
+		<imprint>
+			<date type="published" when="1980" />
+			<biblScope unit="page" from="237" to="56" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

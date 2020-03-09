@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Holistic Processing From Learned Attention to Parts</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kao-Wei</forename><surname>Chua</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><forename type="middle">J</forename><surname>Richler</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Isabel</forename><surname>Gauthier</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Vanderbilt University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">Vanderbilt University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">Vanderbilt University</orgName>
+								<address>
+									<addrLine>Vanderbilt Uni-versity, PMB 407817</addrLine>
+									<postCode>2301, 37240-7817</postCode>
+									<settlement>Vanderbilt Place, Nashville</settlement>
+									<region>TN</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Holistic Processing From Learned Attention to Parts</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1037/xge0000063</idno>
+					<note>BRIEF REPORT</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T14:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>holistic processing</term>
+					<term>learning</term>
+					<term>attention</term>
+					<term>perceptual expertise</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Attention helps us focus on what is most relevant to our goals, and prior work has shown that aspects of attention can be learned. Learned inattention to parts can abolish holistic processing of faces, but it is unknown whether learned attention to parts is sufficient to cause a change from part-based to holistic processing with objects. We trained subjects to individuate nonface objects (Greebles) from 2 categories: Ploks and Glips. Diagnostic information was in complementary halves for the 2 categories. Holistic processing was then tested with PlokϪGlip composites that combined the kind of part that was diagnostic or nondiagnostic during training. Exposure to Greeble parts resulted in general failures of selective attention for nondiagnostic composites, but face-like holistic processing was only observed for diagnostic composites. These results demonstrated a novel link between learned attentional control and the acquisition of holistic processing.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Attention allows us to react to salient or surprising events <ref type="bibr" coords="1,48.00,359.04,61.13,7.91" target="#b34">(Theeuwes, 1991</ref><ref type="bibr" coords="1,116.38,359.04,16.80,7.91" target="#b35">(Theeuwes, , 1994</ref> and find information relevant to current goals <ref type="bibr" coords="1,71.05,370.04,69.66,7.91" target="#b15">(Folk et al., 1992;</ref><ref type="bibr" coords="1,144.77,370.04,84.78,7.91" target="#b3">Bacon &amp; Egeth, 1994)</ref>. Attention can facilitate learning <ref type="bibr" coords="1,116.51,381.04,87.03,7.91" target="#b32">(Shiu &amp; Pashler, 1992;</ref><ref type="bibr" coords="1,207.30,381.04,80.76,7.91;1,48.00,392.04,19.37,7.91" target="#b1">Ahissar &amp; Hochstein, 1993)</ref>, but some learning effects are best characterized as changes in how we attend, or learned attention. Attention can be guided by statistical learning <ref type="bibr" coords="1,118.52,414.04,154.64,7.91">(Zhao, Al-Aidroos, &amp; Turk-Brown, 2013)</ref>, or reward and past selection history <ref type="bibr" coords="1,169.25,425.04,118.79,7.91;1,48.00,436.04,19.37,7.91" target="#b2">(Awh, Belopolsky, &amp; Theeuwes, 2012)</ref>. When task parameters correlate with item properties, mappings between items and the relevant attentional set may be learned <ref type="bibr" coords="1,76.46,458.04,126.64,7.91" target="#b19">(Jacoby, Lindsay, &amp; Hessels, 2003;</ref><ref type="bibr" coords="1,205.08,458.04,79.06,7.91" target="#b6">Bugg &amp; Crump, 2012)</ref>. Learned attentional settings can transfer to novel members of a category <ref type="bibr" coords="1,83.60,480.04,129.08,7.91" target="#b7">(Bugg, Jacoby, &amp; Chanani, 2011)</ref>. Similarly, learned attention could account for phenomena related to perceptual learn-ing <ref type="bibr" coords="1,320.64,348.04,63.38,7.91" target="#b22">(Nosofsky, 1986;</ref><ref type="bibr" coords="1,387.15,348.04,61.75,7.91" target="#b18">Goldstone, 1994)</ref>. For example, eye movements reveal that subjects shift from attending to all stimulus dimensions equally to dimensions most diagnostic for categorization <ref type="bibr" coords="1,323.00,381.41,140.32,7.91" target="#b5">(Blair, Watson, Walshe, &amp; Maj, 2009)</ref>.</p><p>Although most studies of learned attention use simple stimuli, complex objects like faces can also trigger attentional sets. For instance, in a study of cognitive control, subjects learned associations between face sex and proportions of congruent responses <ref type="bibr" coords="1,346.02,437.04,200.03,7.91;1,306.00,448.16,20.12,7.91" target="#b9">(Cañadas, Rodríguez-Bailón, Milliken, &amp; Lupiáñez, 2013)</ref>. Similarly, learned attention to dimensions of complex objects such as faces may account for expert visual object processing phenomena such as holistic processing, the tendency to process objects as unified wholes rather than parts <ref type="bibr" coords="1,515.25,481.54,30.81,7.91;1,306.00,492.66,101.20,7.91" target="#b39">(Young, Hellawell, &amp; Hay, 1987)</ref>. In <ref type="bibr" coords="1,430.53,492.66,115.51,7.91;1,306.00,503.79,23.41,7.91" target="#b10">Chua, Richler, and Gauthier (2014)</ref>, subjects learned to individuate faces from two novel face categories: Lunaris and Taiyos. Diagnostic information for identifying each face was found in complementary halves of the two categories. For example, the top halves of Taiyos and the bottom halves of Lunaris provided diagnostic information for individuation. After training, subjects saw composites made of diagnostic and nondiagnostic face parts in the composite paradigm, a common measure of holistic processing <ref type="bibr" coords="1,487.49,581.66,58.56,7.91;1,306.00,592.79,89.40,7.91" target="#b14">(Farah, Wilson, Drain, &amp; Tanaka, 1998;</ref>. In this task, subjects judge whether the target half (e.g., top) of two sequentially presented composite faces (made of top and bottom halves from different faces) is the same or different while ignoring the other part (e.g., bottom). Holistic processing is inferred when subjects cannot ignore information in the task-irrelevant half, which is typically only obtained for aligned face halves. In <ref type="bibr" coords="1,306.00,670.58,67.90,7.91" target="#b10">Chua et al. (2014)</ref>, holistic processing was only found for face parts that were diagnostic at training, suggesting that learned attention to face parts may be responsible for holistic processing. This is inconsistent with the prevalent idea that holistic processing is strictly a perceptual phenomenon <ref type="bibr" coords="1,483.87,715.04,58.15,7.91" target="#b28">(Rossion, 2013)</ref>, for instance, due to face representations where parts are not differentiated <ref type="bibr" coords="2,104.66,88.04,98.86,7.91" target="#b33">(Tanaka &amp; Farah, 1993)</ref>. The LunariϪTaiyo study challenged this sort of explanation, pointing to a role for learned attention in holistic processing.</p><p>This conclusion was also supported by the finding that subjects showed no holistic processing for face composites made of parts that were nondiagnostic during training. Face parts with a history of not being attended did not trigger obligatory attention. However, while processing diagnostic and nondiagnostic composites differed, novices who had never seen Taiyo or Lunari faces processed them holistically. Thus, because the stimuli were faces, this experiment could not track the acquisition of holistic processing for diagnostic composites with learned attention, although it did show how learned inattention can abolish holistic processing for faces made of parts with a nondiagnostic history.</p><p>In this study, we addressed the acquisition of holistic processing with novel objects. We trained participants to individuate Greebles, objects that novices do not process holistically. We used two kinds of Greebles that contained diagnostic information in different parts and then tested holistic processing for Greebles combining parts never presented together before. In the TayioϪLunari study, congruency effects that did not vary as a function of alignment were observed in the nondiagnostic condition (see <ref type="bibr" coords="2,103.85,341.04,130.53,7.91" target="#b23">Richler, Bukach, &amp; Gauthier, 2009</ref>, for evidence that this is not face-like holistic processing), whereas in the diagnostic condition, the effect was abolished in the misaligned condition. The misaligned baseline should be more easily interpreted with novel objects because no congruency effect should be found in novices. We also included an additional phase-scrambled baseline not expected to be sensitive to training effects.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Subjects</head><p>Eighty subjects were randomly assigned to either the Glip-Top/PlokBottom (18 men, 22 women; M age ϭ 21.6 years) or the GlipBottom/PlokTop (16 men, 24 women; M age ϭ 21.9 years) training condition. Group assignment dictated which part was diagnostic for each Greeble category during individuation training. A control group (n ϭ 40) received no training (16 men, 24 women; M age ϭ 20.5 years). Subjects received $15 per hour for participation. The study was approved by the Vanderbilt Uni-versity institutional review board. Sample size was predetermined based on the Group ϫ Congruency ϫ Alignment interaction in <ref type="bibr" coords="2,341.93,99.04,68.99,7.91" target="#b10">Chua et al. (2014)</ref> ( p 2 ϭ .04), and on our expectation that using fewer parts in the composite task would improve its reliability (see <ref type="bibr" coords="2,368.75,121.04,134.62,7.91" target="#b27">Ross, Richler, &amp; Gauthier, 2014)</ref>. With 80 subjects and an alpha of .05, power for the critical interaction should reach .90.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stimuli</head><p>Stimuli were asymmetrical Greebles <ref type="bibr" coords="2,454.83,187.04,91.24,7.91" target="#b17">(Gauthier &amp; Tarr, 1997;</ref><ref type="bibr" coords="2,306.00,198.04,109.02,7.91" target="#b29">Rossion, Kung, &amp; Tarr, 2004)</ref>. Ploks and Glips had distinct body shapes, textures (see <ref type="figure" coords="2,383.81,209.04,29.61,7.91">Figure 1</ref>), and parts that pointed in different directions (up vs. down). All Greebles were presented in grayscale and tilted 40°clockwise to facilitate making composites without cutting any parts.</p><p>During individuation training, different stimulus sets were used depending on condition. For example, in the GlipTop/ PlokBottom condition, three Glip bottom halves were combined with 10 unique top halves each, and three Plok tops halves were combined with 10 unique Plok bottoms each, to create 30 Glips that varied 10 times more in the top than in the bottom and 30 Ploks that varied 10 times more in the bottom than in the top. A separate set of 60 Greebles was created for the GlipBottom/ PlokTop condition, with the reverse assignment of part variability.</p><p>For the composite task, two sets of five unique top and bottom halves from the two categories that were not seen during training were used. Composite Greebles varied on the top and bottom. Therefore, all subjects were tested on Greebles with the same amount of variation; any differences in composite task performance could only be attributed to training. The top and bottom Greeble halves were randomly combined to form Plok-ϪGlip composites (400 ϫ 400 pixels). A white line 6 pixels thick separated Greeble halves. Misaligned composites were made by shifting the top and bottom halves 35 pixels to the left and right, respectively. An advantage of the Greebles being tilted is that the misaligned object remains inscribed within a box approximately the same width as the aligned object, eliminating a potential confound with the standard misalignment manipulation in which misaligned trials are wider. Another baseline condition was added wherein task-irrelevant parts were phased-scrambled (83%; see <ref type="figure" coords="2,419.87,539.04,32.11,7.91">Figure 2</ref>) while luminance, contrast, and spatial frequency were preserved <ref type="bibr" coords="2,485.01,550.04,61.04,7.91;2,306.00,561.04,20.12,7.91" target="#b30">(Sadr &amp; Sinha, 2004)</ref>. With faces, performance does not differ between phase- <ref type="figure" coords="2,117.00,685.74,27.64,6.86">Figure 1</ref>. Example Glips and Ploks for a subject who saw Glips with diagnostic top halves and Ploks with diagnostic bottom halves. The part that was diagnostic for each family was counterbalanced between two groups. Note that the nondiagnostic half did vary (there were three parts for each category, only one is shown), but there was 10 times more variation for the diagnostic half. This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>scrambled and misaligned baselines <ref type="bibr" coords="3,192.40,256.15,91.03,7.91;3,48.00,267.15,39.09,7.91" target="#b24">(Richler, Floyd, &amp; Gauthier, 2014</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Procedures</head><p>Subjects completed three sessions of individuation training (about 60 min each) over the course of a week, followed by the composite task at the end of Session 3.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Individuation Training</head><p>Subjects learned unique names for 16 Greebles, eight from each category. During training trials, subjects were shown Greebles with one syllable names (e.g., Awg, Dak). Names were randomly assigned to objects for each subject. In all trials, subjects pressed the first letter of the Greeble's name. Training trials were followed by test trials where Greebles were presented without names. If a Greeble appeared that had no learned name association, subjects pressed "n" to indicate "no name." Of the 30 Greebles for a given category, eight were assigned names for participants to learn, while the remaining 22 required a "no name" response. Incorrect responses were followed by feedback showing the correct name (including "no name"). There were three phases on each training day (see <ref type="table" coords="3,80.01,503.15,26.00,7.91" target="#tab_0">Table 1</ref>). All trained Greebles were introduced by the end of Day 1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Composite Task</head><p>Stimuli in the composite task were PlokϪGlip or GlipϪPlok composites made of parts not seen during training (see <ref type="figure" coords="3,263.64,566.15,24.39,7.91;3,306.00,77.04,3.37,7.91" target="#fig_1">Figure   3</ref>). Five tops and five bottoms from each category, and their phase-scrambled versions, were used across all trials. For each subject, half of the composites were made of parts similar to parts that were diagnostic during training, and the other half were made of parts similar to parts that were nondiagnostic during training. Each trial started with a fixation cross (200 ms), followed by a study Greeble (200 ms), a blank screen (500 ms), and a test Greeble (200 ms). Subjects were instructed to judge if the cued halves of the study and test composites were the same or different, while ignoring the other, irrelevant half. On congruent trials, the cued and irrelevant halves were associated with the same response (e.g., both parts same, or both parts different); on incongruent trials, the irrelevant and cued halves were associated with different responses (e.g., one part same, the other part different). A congruency effect (better performance on congruent vs. incongruent trials) indicates an inability to selectively attend: the irrelevant object half influenced performance, despite instructions to ignore it. On misaligned trials, only the test Greeble was misaligned to prevent pseudoholistic effects that are not sensitive to configuration (see <ref type="bibr" coords="3,495.03,286.04,51.02,7.91;3,306.00,297.04,21.22,7.91" target="#b23">Richler et al., 2009;</ref><ref type="bibr" coords="3,332.35,297.04,137.80,7.91" target="#b26">Richler, Wong, &amp; Gauthier, 2011)</ref>. The signature of holistic processing is a Congruency ϫ Alignment interaction, with larger congruency effects on aligned than misaligned trials . Likewise, congruency can be defined on phase-scrambled trials (see <ref type="figure" coords="3,451.39,341.04,31.78,7.91">Figure 2</ref>), depending on whether the task-irrelevant phase-scrambled half is the same or different between study and test. Therefore, holistic processing using the phase-scrambled baseline is also defined as an interaction, with larger congruency effects on aligned than phasescrambled trials.</p><p>There were 15 trials for each combination of composite condition (diagnostic/nondiagnostic), congruency (congruent/incongruent), alignment (aligned/misaligned/phase-scrambled), cued part (top/bottom) and correct response (same/different), for a total of 720 trials. Cued part was blocked (order counterbalanced across subjects). All other factors were randomized.  Note. Both Ploks and Glips were trained in the same way. <ref type="figure" coords="3,48.00,191.50,27.48,6.86">Figure 2</ref>. Example of an incongruent phase-scrambled trial in the composite task, where the top half was cued and the correct answer is "same." In this condition, the task-irrelevant half is phase-scrambled. The cued halves are the same and the phase-scrambled halves are different, so this is an example of an incongruent phase-scrambled trial.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Individuation Training</head><p>This document is copyrighted by the American Psychological Association or one of its allied publishers. This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Composite Task</head><p>Data from two trained subjects and two control subjects were removed for below-chance performance, leaving 78 trained subjects and 38 untrained control subjects. Trials with reaction times less than 100 ms or greater than 2,000 ms were discarded (1.62% of trials). Sensitivity (d=) for control and trained subjects (separated into diagnostic and nondiagnostic composites) for aligned, misaligned, and phase-scrambled trials is presented in <ref type="figure" coords="4,203.98,425.75,29.71,7.91">Figure 4</ref>. We found no evidence of holistic processing in control subjects, that is, there was no significant Congruency (congruent/incongruent) ϫ Trial Type (aligned/misaligned/phase-scrambled) interaction, F(2, 74) ϭ .32, p ϭ .73, p 2 ϭ .009.</p><p>To assess training effects, all analyses were conducted twice, once comparing aligned trials with misaligned trials as the baseline, and once comparing aligned trials with phasescrambled trials as the baseline. In all cases, holistic processing was indexed by a Congruency (congruent/incongruent) ϫ Trial Type (aligned/misaligned or aligned/phase-scrambled) interaction. With each baseline, we first conducted a Condition (control/diagnostic/nondiagnostic) ϫ Congruency (congruent/incongruent) ϫ Trial Type (aligned/misaligned, or aligned/phase-scrambled) analysis of variance (ANOVA), treating condition as a between-subjects variable even though diagnostic and nondiagnostic conditions were from the same individuals. The correlation between holistic processing across conditions was expected to be small <ref type="bibr" coords="4,501.13,518.26,44.91,7.91;4,306.00,529.28,19.37,7.91" target="#b27">(Ross et al., 2014)</ref>, so there should have been a negligible cost in power for this strategy. 1 To unpack any interaction with condition, we ran withinsubject ANOVAs comparing the diagnostic and nondiagnostic conditions in the trained subjects, and between-subjects ANOVAs comparing each trained condition with the control group.</p><p>Misaligned baseline. The three-way Condition (control/diagnostic/nondiagnostic) ϫ Trial Type (aligned/misaligned) ϫ and Congruency interaction was significant, F(2, 191) ϭ 3.16, p ϭ .04, p 2 ϭ .03. With trained subjects only, the Condition ϫ Congruency ϫ Trial Type interaction was only marginally significant, F(1, 77) ϭ 3.06, p ϭ .084, p 2 ϭ .04, with significant holistic processing (Congruency ϫ Trial Type interaction) for diagnostic 1 As expected, there was no significant correlation between holistic processing in the diagnostic and nondiagnostic conditions using the misaligned baseline (r ϭ Ϫ.10, p ϭ .37) and that using the phase-scrambled baseline was significant but modest in size (r ϭ .36, p ϭ .001). This could represent an advantage of the phase-scrambled baseline for future work.  <ref type="figure" coords="4,48.00,665.78,27.22,6.86">Figure 4</ref>. Sensitivity (d=) as a function of trial type (aligned/misaligned/ phase-scrambled) and congruency for the control group, and nondiagnostic and diagnostic composites for the trained group. The aligned and misaligned conditions are connected to highlight the Typical Congruency ϫ Alignment interaction that is only observed in the diagnostic condition. Error bars are 95% confidence intervals. This document is copyrighted by the American Psychological Association or one of its allied publishers. This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>composites, F(1, 77) ϭ 6.67, p ϭ .01, p 2 ϭ .08, but not for nondiagnostic composites, F(1, 77) ϭ 0.12, p ϭ .73, p 2 ϭ .002. As expected, the Condition ϫ Congruency ϫ Trial Type interaction was not significant when the control group was compared with trained nondiagnostic, F(1, 114) ϭ 0.59, p ϭ .44, p 2 Ͻ .001, indicating that exposure to nondiagnostic parts during training did not result in holistic processing. In contrast, the same three-way interaction was significant when the control group was compared with trained diagnostic <ref type="figure" coords="5,131.11,165.04,41.75,7.91">, F(1, 114)</ref> ϭ 4.50, p ϭ .036, p 2 ϭ .038. This revealed more holistic processing for trained subjects judging diagnostic composites than for the untrained control group. In summary, with the misaligned baseline, the within-subject training effect was marginal, but only diagnostic composites were processed holistically by trained subjects and not untrained control subjects.</p><p>Phase-scrambled baseline. The three-way Condition ϫ Trial Type ϫ Congruency interaction was significant, F(2, 191) ϭ 6.24, p Ͻ .002, p 2 ϭ .06. With trained subjects only, the Condition ϫ Congruency ϫ Trial Type interaction was also significant, F(1, 77) ϭ 9.85, p Ͻ .002, p 2 ϭ .11, with significant holistic processing (Congruency ϫ Trial Type interaction) for diagnostic composites, F(1, 77) ϭ 8.62, p Ͻ .001, p 2 ϭ 0.20, but not for nondiagnostic composites, F(1, 77) ϭ 1.38, p ϭ .24, p 2 ϭ .02. As expected, the Condition ϫ Congruency ϫ Trial Type interaction was not significant when the control group was compared with trained nondiagnostic, F(1, 114) ϭ 1.31, p ϭ .25, p 2 ϭ .001. However, this same interaction was significant when the control group was compared with trained diagnostic, F(1, 114) ϭ 9.97, p ϭ .002, p 2 ϭ .08, with greater holistic processing for diagnostic composites than for the control group. In summary, there was more holistic processing in the diagnostic condition than in the nondiagnostic condition for trained subjects, and untrained control subjects did not process these objects holistically.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Novel objects like the Greebles used in our study are not processed holistically by novices. We demonstrated that a history of learned attention to diagnostic Greeble parts was sufficient for the acquisition of holistic processing. This reveals a link between learned attentional strategies and visual object processing. Accounts of item-specific attentional strategies suggest that stimulus features and responses are jointly encoded in memory so that attentional filters are later cued by the perception of features with which they were previously associated <ref type="bibr" coords="5,48.00,572.04,145.45,7.91" target="#b12">(Crump, Vaquero, &amp; Milliken, 2008)</ref>. Here, novices did not process Greebles holistically at all, and trained subjects only exhibited holistic processing for diagnostic Greeble parts. We propose that when trained subjects were shown Greebles made of diagnostic parts in the composite task, they retrieved an attentional filter related to their past history of devoting attention to those parts. When both Greeble parts in the composite task are diagnostic, subjects cannot selectively attend to one Greeble part, producing face-like holistic processing.</p><p>In contrast, no holistic processing was acquired for nondiagnostic Greeble parts. However, training did have an impact because there was a main effect of congruency in the trained group not found in Greeble novices, F(1, 114) ϭ 4.10, p Ͻ .05, p 2 ϭ .044. Nondiagnostic parts may have become associated with an attentional routine to look for more useful information in a different part of the object, consistent with accounts of learned inattention and blocking during learning <ref type="bibr" coords="5,496.56,99.04,49.49,7.91;5,306.00,110.04,45.94,7.91" target="#b21">(Kruschke &amp; Blair, 2000;</ref><ref type="bibr" coords="5,355.52,110.04,61.87,7.91" target="#b20">Kruschke, 2003)</ref>, whereby people learn to ignore irrelevant cues. In contrast, the attentional routines that our subjects acquired for diagnostic parts were specific to the aligned configuration, as typically observed for faces . The configural specificity of these congruency effects may be akin to learned attention that is specific to the encoding context (e.g., <ref type="bibr" coords="5,410.10,176.04,78.15,7.91" target="#b11">Chun &amp; Jiang, 1998)</ref>. However, the composites our subjects were tested with represent a new context in many ways: new exemplars were shown in a new task, parts were combined with parts from a different category with which they were never paired during training, and Greebles varied equally in both parts during the composite task, unlike during training. Despite these changes, the task-irrelevant diagnostic parts were difficult to ignore when they were aligned with a task-relevant diagnostic part. This points to spatial configuration as particularly critical for holistic processing, but not because of a special representational status for aligned objects. Rather, configuration may influence the allocation of attention during composite task judgments, perhaps through object-based attention for parts that are grouped perceptually <ref type="bibr" coords="5,306.00,330.04,93.85,7.91" target="#b37">(Vecera &amp; Farah, 1994;</ref><ref type="bibr" coords="5,404.00,330.04,72.98,7.91" target="#b4">Baker et al., 2004)</ref>. Other work has suggested a role of grouping in the composite task, based on evidence that misaligned colored backgrounds behind aligned face parts reduce holistic processing <ref type="bibr" coords="5,460.26,363.04,85.79,7.91;5,306.00,374.04,54.96,7.91" target="#b13">(Curby, Goldstein, &amp; Blacker, 2013)</ref>. Our effects are similar to those obtained in a number of other paradigms where attention is biased toward information with a history of being attended. Because our effects are measured as reduced selective attention in a congruency task, they are similar to item-specific control during Stroop tasks <ref type="bibr" coords="5,463.11,429.04,82.95,7.91" target="#b9">(Cañadas et al., 2013;</ref><ref type="bibr" coords="5,306.00,440.04,62.87,7.91" target="#b7">Bugg et al., 2011)</ref>. Because our effects lead to spatial bias attached to a specific visual context, they evoke contextual cueing in which subjects implicitly learn spatial invariants in visual scenes <ref type="bibr" coords="5,523.55,462.04,22.50,7.91;5,306.00,473.04,55.70,7.91" target="#b11">(Chun &amp; Jiang, 1998)</ref>. However, in contrast to contextual cueing and item-specific control paradigms, our subjects carried attentional settings from a naming task to the composite task. This renders explanations based on conflict (which did not exist during naming) or learned response associations (because naming responses do not predict congruency) improbable. In category learning, attention can shift to a dimension that was useful in a previous categorization task, and, like our effects, this can occur with transfer objects and a new task <ref type="bibr" coords="5,367.31,561.03,65.32,7.91" target="#b18">(Goldstone, 1994)</ref>, and sometimes last for days <ref type="bibr" coords="5,306.00,572.03,214.26,7.91" target="#b16">(Folstein, Newton, Van Gulick, Palmeri, &amp; Gauthier, 2012)</ref>. As in item-specific control, the effects can be stimulus-specific <ref type="bibr" coords="5,518.23,583.03,27.85,7.91;5,306.00,594.03,62.26,7.91" target="#b0">(Aha &amp; Goldstone, 1992;</ref><ref type="bibr" coords="5,370.77,594.03,111.26,7.91" target="#b36">Van Gulick &amp; Gauthier, 2014)</ref> and may become category specific after multiple exemplars are encoded <ref type="bibr" coords="5,506.32,605.03,39.74,7.91;5,306.00,616.03,19.37,7.91" target="#b22">(Nosofsky, 1986)</ref>. Category-specific (or context-specific) control has also been described within Stroop paradigms (e.g., <ref type="bibr" coords="5,482.58,627.03,63.45,7.91;5,306.00,638.03,40.81,7.91" target="#b8">Bugg, Jacoby, &amp; Toth, 2008)</ref>. Finally, our results are also similar to effects obtained in the task-switching literature, where task-stimulus associations have long-term effects, primarily on trials when there is conflict, as in the composite task <ref type="bibr" coords="5,384.65,671.03,131.25,7.91" target="#b38">(Waszak, Hommel, &amp; Allport, 2003)</ref>. Which of these effects is most similar to holistic processing remains to be determined. Critically, these attentional accounts do not require encoding of unitary representations, a common account of holistic processing <ref type="bibr" coords="5,347.49,715.03,87.58,7.91" target="#b33">(Tanaka &amp; Farah, 1993)</ref>. This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>Together with our previous finding that holistic processing was only evident when both parts of a test face benefitted from a history of attention <ref type="bibr" coords="6,119.75,99.04,66.61,7.91" target="#b10">(Chua et al., 2014)</ref>, the present results suggest that failures of selective attention to diagnostic parts are qualitatively different from those to nondiagnostic parts. Face-like holistic effects appear to require that both the task-relevant and taskirrelevant parts have a history of being attended and that the parts be perceptually grouped, allowing this attentional effect to apply to the entire object. More work is required to account for this configurally specific learned attention in computational models of attention, but our results provide clear answers to the questions that motivated this work: holistic processing can be acquired for nonface objects, and all that is required is a history of attention to parts.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="3,315.00,532.35,231.04,9.00;3,306.00,543.35,197.94,9.30;3,501.02,543.01,2.92,5.14;3,506.64,543.35,39.38,9.00;3,306.00,554.35,240.03,9.00;3,306.00,565.35,72.90,9.30;3,375.97,565.01,2.92,5.14;3,381.89,565.35,23.99,9.00"><head>From</head><label></label><figDesc>Day 1Ϫ3, subjects become more accurate (Day 1: M ϭ .92; Day 3: M ϭ .96), F(2, 79) ϭ 110.6, p Ͻ .001, p 2 ϭ .58, and faster (Day 1: M ϭ 946.8 ms; Day 3: M ϭ 709.0 ms), F(2, 79) ϭ 246.2, p Ͻ .001, p 2 ϭ .75.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="4,117.00,281.63,360.02,7.03;4,117.00,291.63,360.02,7.03;4,117.00,301.63,360.02,7.03;4,117.00,311.63,224.58,7.03"><head>Figure 3 .</head><label>3</label><figDesc>Example stimuli for the Glip top/Plok bottom group. For this group, the tops of Glips and the bottom of Ploks were diagnostic during individuation training (top panel). During the composite task, stimuli were created from diagnostic and nondiagnostic Greeble parts (bottom panel). Composite task stimuli were either aligned, misaligned, or the task-irrelevant part was phase-scrambled.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="3,48.00,591.54,497.00,116.19"><head>Table 1</head><label>1</label><figDesc>Training Structure for Individuation Training for One Greeble Category</figDesc><table coords="3,48.00,622.20,497.00,85.53">Phase 
+Greebles 
+
+Training 
+trials/block 
+
+Test trials/ 
+block 
+Day 1 
+Day 2 
+Day 3 
+
+1 
+4 named 
+8 
+21 
+2 blocks 
+-
+2 blocks 
+6 unnamed 
+2 
+6 named 
+12 
+42 
+2 blocks 
+-
+2 blocks 
+14 unnamed 
+3 
+8 named 
+24 
+63 
+6 blocks 
+10 blocks 
+6 blocks 
+22 unnamed 
+Total trials 
+1,008 
+1,260 
+1,008 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">ReceivedSeptember 18, 2014  Revision received December 15, 2014 Accepted January 29, 2015 Ⅲ</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Members of Underrepresented Groups: Reviewers for Journal Manuscripts Wanted</head><p>If you are interested in reviewing manuscripts for APA journals, the APA Publications and Communications Board would like to invite your participation. Manuscript reviewers are vital to the publications process. As a reviewer, you would gain valuable experience in publishing. The P&amp;C Board is particularly interested in encouraging members of underrepresented groups to participate more in this process.</p><p>If you are interested in reviewing manuscripts, please write APA Journals at Reviewers@apa.org. Please note the following important points:</p><p>• To be selected as a reviewer, you must have published articles in peer-reviewed journals. The experience of publishing provides a reviewer with the basis for preparing a thorough, objective review.</p><p>• To be selected, it is critical to be a regular reader of the five to six empirical journals that are most central to the area or journal for which you would like to review. Current knowledge of recently published research provides a reviewer with the knowledge base to evaluate a new submission within the context of existing research.</p><p>• To select the appropriate reviewers for each manuscript, the editor needs detailed information. Please include with your letter your vita. In the letter, please identify which APA journal(s) you are interested in, and describe your area of expertise. Be as specific as possible. For example, "social psychology" is not sufficient-you would need to specify "social cognition" or "attitude change" as well.</p><p>• Reviewing a manuscript takes time (1-4 hours per manuscript reviewed). If you are selected to review a manuscript, be prepared to invest the necessary time to evaluate the manuscript thoroughly.</p><p>APA now has an online video course that provides guidance in reviewing manuscripts. To learn more about the course and to access the video, visit http://www.apa.org/pubs/authors/reviewmanuscript-ce-video.aspx. This document is copyrighted by the American Psychological Association or one of its allied publishers. This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,48.00,265.70,240.01,7.03;6,56.00,275.70,232.00,7.03;6,56.00,285.70,232.02,7.03;6,56.00,295.70,19.78,7.03" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Concept learning and flexible weighting</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Aha</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Goldstone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Fourteenth Annual Conference of the Cognitive Science Society</title>
+		<meeting>the Fourteenth Annual Conference of the Cognitive Science Society<address><addrLine>Hillsdale, NJ: Lawrence Erlbaum</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="534" to="539" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,48.00,305.70,240.03,7.03;6,56.00,315.70,232.01,7.03;6,56.00,325.70,231.95,7.03;6,56.00,335.70,80.89,7.03" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Attentional control of early perceptual learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ahissar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hochstein</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.90.12.5718</idno>
+		<ptr target="http://dx.doi.org/10.1073/pnas.90.12.5718" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<meeting>the National Academy of Sciences of the United States of America</meeting>
+		<imprint>
+			<publisher>PNAS</publisher>
+			<date type="published" when="1993" />
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="5718" to="5722" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,48.00,345.70,240.02,7.03;6,56.00,355.70,232.00,7.03;6,56.00,365.70,232.00,7.03;6,56.00,375.70,24.00,7.03" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Top-down versus bottom-up attentional control: A failed theoretical dichotomy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Awh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">V</forename><surname>Belopolsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Theeuwes</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tics.2012.06.010</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.tics.2012.06.010" />
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cognitive Sciences</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="437" to="443" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,48.00,385.70,240.03,7.03;6,56.00,395.70,199.12,7.03" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Overriding stimulus-driven attentional capture</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">F</forename><surname>Bacon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">E</forename><surname>Egeth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Perception &amp; psychophysics</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="485" to="496" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,48.00,405.70,240.00,7.03;6,56.00,415.70,232.00,7.03;6,56.00,425.70,53.90,7.03" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Role of attention and perceptual grouping in visual statistical learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">I</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Behrmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="460" to="466" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,48.00,435.70,240.01,7.03;6,56.00,445.70,232.01,7.03;6,56.00,455.70,232.01,7.03;6,56.00,465.70,232.01,7.03;6,56.00,475.70,94.89,7.03" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Extremely selective attention: Eye-tracking studies of the dynamic allocation of attention to stimulus features in categorization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Blair</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Walshe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Maj</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0016272</idno>
+		<ptr target="http://dx.doi.org/10.1037/a0016272" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1196" to="1206" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,48.00,485.70,240.00,7.03;6,56.00,495.70,232.02,7.03;6,56.00,505.70,232.01,7.03;6,56.00,515.70,113.11,7.03" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">In support of a distinction between voluntary and stimulus-driven control: A review of the literature on proportion congruent effects</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Bugg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Crump</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2012.00367</idno>
+		<ptr target="http://dx.doi.org/10.3389/fpsyg.2012.00367" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Psychology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,48.00,525.70,240.01,7.03;6,56.00,535.70,232.03,7.03;6,56.00,545.78,232.03,6.86;6,56.00,555.70,161.25,7.03" xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Why it is too early to lose control in accounts of item-specific proportion congruency effects</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Bugg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">L</forename><surname>Jacoby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Chanani</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0019957</idno>
+		<ptr target="http://dx.doi.org/10.1037/a0019957" />
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="844" to="859" />
+		</imprint>
+	</monogr>
+	<note>Journal of Experimental Psychology: Human Perception and Performance</note>
+</biblStruct>
+
+<biblStruct coords="6,48.00,565.70,239.99,7.03;6,56.00,575.70,232.01,7.03;6,56.00,585.70,89.56,7.03" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Multiple levels of control in the Stroop task</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Bugg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">L</forename><surname>Jacoby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Toth</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/MC.36.8.1484</idno>
+		<ptr target="http://dx.doi.org/10.3758/MC.36.8.1484" />
+	</analytic>
+	<monogr>
+		<title level="j">Memory &amp; Cognition</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="1484" to="1494" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,48.00,595.70,240.01,7.03;6,56.00,605.70,232.02,7.03;6,56.00,615.70,232.01,7.03;6,56.00,625.70,86.89,7.03" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Social categories as a context for the allocation of attentional control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Cañadas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rodríguez-Bailón</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Milliken</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lupiáñez</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0029794</idno>
+		<ptr target="http://dx.doi.org/10.1037/a0029794" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: General</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="934" to="943" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,48.00,635.70,240.02,7.03;6,56.00,645.70,232.03,7.03;6,56.00,655.70,232.02,7.03;6,56.00,665.70,214.72,7.03" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Becoming a Lunari or Taiyo expert: Learned attention to parts drives holistic processing of faces</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K.-W</forename><surname>Chua</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Richler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Gauthier</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0035895</idno>
+		<ptr target="http://dx.doi.org/10.1037/a0035895" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Human Perception and Performance</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="1174" to="1182" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,48.00,675.70,240.01,7.03;6,56.00,685.70,232.01,7.03;6,56.00,695.70,44.95,7.03" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Contextual cueing: Implicit learning and memory of visual context guides spatial attention</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">M</forename><surname>Chun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive psychology</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="28" to="71" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,48.00,705.70,240.00,7.03;6,56.00,715.70,232.02,7.03;6,314.00,77.20,232.02,7.03;6,314.00,87.34,203.99,7.03" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Contextspecific learning and control: The roles of awareness, task relevance, and relative salience</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J C</forename><surname>Crump</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M M</forename><surname>Vaquero</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Milliken</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.concog.2007.01.004</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.concog.2007.01.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Consciousness and Cognition: An International Journal</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="22" to="36" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,306.00,97.48,240.03,7.03;6,314.00,107.61,232.01,7.03;6,314.00,117.75,232.01,7.03;6,314.00,127.89,63.10,7.03" xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Disrupting perceptual grouping of face parts impairs holistic face processing. Attention, Perception, &amp; Psychophysics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Curby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">R</forename><surname>Goldstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Blacker</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/s13414-012-0386-9</idno>
+		<ptr target="http://dx.doi.org/10.3758/s13414-012-0386-9" />
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="83" to="91" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,306.00,138.02,240.02,7.03;6,314.00,148.16,232.01,7.03;6,314.00,158.29,152.90,7.03" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">What is &quot;special&quot; about face perception?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Farah</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">D</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Drain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">N</forename><surname>Tanaka</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-295X.105.3.482</idno>
+		<ptr target="http://dx.doi.org/10.1037/0033-295X.105.3.482" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="482" to="498" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,306.00,168.43,240.00,7.03;6,314.00,178.57,232.00,7.03;6,314.00,188.77,232.02,6.86;6,314.00,198.84,18.00,7.03" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Involuntary covert orienting is contingent on attentional control settings</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Folk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">W</forename><surname>Remington</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Johnston</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Human perception and performance</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">1030</biblScope>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,306.00,208.97,240.03,7.03;6,314.00,219.11,232.03,7.03;6,314.00,229.25,231.99,7.03;6,314.00,239.38,181.78,7.03" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Category learning causes long-term changes to similarity gradients in the ventral stream: A multivoxel pattern analysis at 7T</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Folstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Newton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">B</forename><surname>Van Gulick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Palmeri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Gauthier</surname></persName>
+		</author>
+		<idno type="DOI">10.1167/12.9.1106</idno>
+		<ptr target="http://dx.doi.org/10.1167/12.9.1106" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Vision</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="1106" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,306.00,249.52,240.03,7.03;6,314.00,259.66,232.02,7.03;6,314.00,269.80,161.56,7.03" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Becoming a &quot;Greeble&quot; expert: Exploring mechanisms for face recognition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Gauthier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Tarr</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0042-6989%2896%2900286-6</idno>
+		<ptr target="http://dx.doi.org/10.1016/S0042-6989(96" />
+	</analytic>
+	<monogr>
+		<title level="j">Vision Research</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="286" to="292" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,306.00,279.93,240.02,7.03;6,314.00,290.07,232.02,7.03;6,314.00,300.20,151.12,7.03" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Influences of categorization on perceptual discrimination</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Goldstone</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0096-3445.123.2.178</idno>
+		<ptr target="http://dx.doi.org/10.1037/0096-3445.123.2.178" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: General</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="178" to="200" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,306.00,310.34,240.02,7.03;6,314.00,320.48,232.02,7.03;6,314.00,330.61,225.02,7.03" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Item-specific control of automatic processes: Stroop process dissociations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">L</forename><surname>Jacoby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">S</forename><surname>Lindsay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hessels</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/BF03196526</idno>
+		<ptr target="http://dx.doi.org/10.3758/BF03196526" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychonomic Bulletin &amp; Review</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="638" to="644" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,306.00,340.75,240.02,7.03;6,314.00,350.88,232.00,7.03;6,314.00,361.02,22.00,7.03" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Attention in learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">K</forename><surname>Kruschke</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1467-8721.01254</idno>
+		<ptr target="http://dx.doi.org/10.1111/1467-8721.01254" />
+	</analytic>
+	<monogr>
+		<title level="j">Current Directions in Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="171" to="175" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,306.00,371.16,240.03,7.03;6,314.00,381.29,232.00,7.03;6,314.00,391.43,140.90,7.03" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Blocking and backward blocking involve learned inattention</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">K</forename><surname>Kruschke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Blair</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/BF03213001</idno>
+		<ptr target="http://dx.doi.org/10.3758/BF03213001" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychonomic Bulletin &amp; Review</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="636" to="645" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,306.00,401.56,240.02,7.03;6,314.00,411.70,232.03,7.03;6,314.00,421.84,206.95,7.03" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Attention, similarity, and the identificationcategorization relationship</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Nosofsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0096-3445.115.1.39</idno>
+		<ptr target="http://dx.doi.org/10.1037/0096-3445.115.1.39" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: General</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="39" to="57" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,306.00,431.97,240.02,7.03;6,314.00,442.11,232.00,7.03;6,314.00,452.24,232.00,7.03;6,314.00,462.38,44.67,7.03" xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Context influences holistic processing of nonface objects in the composite task. Attention, Perception, &amp; Psychophysics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Richler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Bukach</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Gauthier</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/APP.71.3.530</idno>
+		<ptr target="http://dx.doi.org/10.3758/APP.71.3.530" />
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="530" to="540" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,306.00,472.52,240.02,7.03;6,314.00,482.65,232.04,7.03;6,314.00,492.79,231.99,7.03" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The Vanderbilt Holistic Face Processing Test: A short and reliable measure of holistic face processing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Richler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Floyd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Gauthier</surname></persName>
+		</author>
+		<idno type="DOI">10.1167/14.11.10</idno>
+		<ptr target="http://dx.doi.org/10.1167/14.11.10" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Vision</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,306.00,502.92,240.01,7.03;6,314.00,513.06,232.00,7.03;6,314.00,523.20,74.66,7.03" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">A meta-analysis and review of holistic face processing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Richler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Gauthier</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0037004</idno>
+		<ptr target="http://dx.doi.org/10.1037/a0037004" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="1281" to="1302" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,306.00,533.33,240.03,7.03;6,314.00,543.47,232.02,7.03;6,314.00,553.60,232.01,7.03;6,314.00,563.74,107.11,7.03" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Perceptual expertise as a shift from strategic interference to automatic holistic processing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Richler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">K</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Gauthier</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0963721411402472</idno>
+		<ptr target="http://dx.doi.org/10.1177/0963721411402472" />
+	</analytic>
+	<monogr>
+		<title level="j">Current Directions in Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="129" to="134" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,306.00,573.88,240.02,7.03;6,314.00,584.01,232.02,7.03;6,314.00,594.15,232.01,7.03;6,314.00,604.28,22.66,7.03" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Reliability of compositetask measurements of holistic face processing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Richler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Gauthier</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/s13428-014-0497-4</idno>
+		<ptr target="http://dx.doi.org/10.3758/s13428-014-0497-4" />
+	</analytic>
+	<monogr>
+		<title level="m">Advance online publication</title>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Behavior Research Methods</note>
+</biblStruct>
+
+<biblStruct coords="6,306.00,614.42,240.01,7.03;6,314.00,624.56,232.01,7.03;6,314.00,634.69,175.12,7.03" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The composite face illusion: A whole window into our understanding of holistic face perception</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Rossion</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/13506285.2013.772929</idno>
+		<ptr target="http://dx.doi.org/10.1080/13506285.2013.772929" />
+	</analytic>
+	<monogr>
+		<title level="j">Visual Cognition</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="139" to="253" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,306.00,644.82,240.03,7.03;6,314.00,654.94,232.00,7.03;6,314.00,665.07,232.00,7.03;6,314.00,675.26,232.00,6.86;6,314.00,685.32,204.44,7.03" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Visual expertise with nonface objects leads to competition with the early perceptual processing of faces in the human occipitotemporal cortex</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Rossion</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">C</forename><surname>Kung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Tarr</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0405613101</idno>
+		<ptr target="http://dx.doi.org/10.1073/pnas.0405613101" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<meeting>the National Academy of Sciences of the United States of America</meeting>
+		<imprint>
+			<publisher>PNAS</publisher>
+			<date type="published" when="2004" />
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="14521" to="14526" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,306.00,695.44,240.03,7.03;6,314.00,705.57,231.92,7.03;6,314.00,715.69,98.89,7.03" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Object recognition and random image structure evolution</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Sadr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Sinha</surname></persName>
+		</author>
+		<idno type="DOI">10.1207/s15516709cog2802_7</idno>
+		<ptr target="http://dx.doi.org/10.1207/s15516709cog2802_7" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Science</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="259" to="287" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="6,7.70,556.60,7.03,14.22;6,7.70,522.39,7.03,31.55;6,7.70,514.39,7.03,5.34;6,7.70,473.51,7.03,38.22;6,7.70,462.85,7.03,8.00;6,7.70,450.41,7.03,9.78;6,7.70,416.21,7.03,31.54;6,7.70,368.66,7.03,44.89;6,7.70,328.22,7.03,37.78;6,7.70,318.89,7.03,6.66;6,7.70,304.68,7.03,11.55;6,7.70,295.35,7.03,6.66;6,7.70,285.13,7.03,7.56;6,7.70,264.70,7.03,17.78;6,7.70,227.15,7.03,34.89;6,17.70,567.25,7.03,14.22;6,17.70,544.60,7.03,19.99;6,17.70,536.60,7.03,5.34;6,17.70,506.39,7.03,27.55;6,17.70,484.62,7.03,19.11;6,17.70,472.63,7.03,9.33;6,17.70,460.19,7.03,9.78;6,17.70,430.42,7.03,27.10;6,17.70,417.10,7.03,10.66;6,17.70,407.77,7.03,6.66;6,17.70,395.33,7.03,9.78;6,17.70,360.22,7.03,32.45;6,17.70,344.23,7.03,13.33;6,17.70,330.02,7.03,11.55;6,17.70,322.02,7.03,5.34;6,17.70,309.14,7.03,10.22;6,17.70,300.25,7.03,6.22;6,17.70,290.04,7.03,7.55;6,17.70,245.60,7.03,41.78;6,17.70,216.50,7.03,26.44" xml:id="b31">
+	<monogr>
+		<title level="m" type="main">This document is copyrighted by the American Psychological Association or one of its allied publishers. This article is intended solely for the personal use of the individual user and is not to be disseminated broadly</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,48.00,77.20,240.01,7.03;7,56.00,87.20,231.99,7.03;7,56.00,97.20,220.88,7.03" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Improvement in line orientation discrimination is retinally local but dependent on cognitive set</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">P</forename><surname>Shiu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Pashler</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/BF03206720</idno>
+		<ptr target="http://dx.doi.org/10.3758/BF03206720" />
+	</analytic>
+	<monogr>
+		<title level="j">Perception &amp; Psychophysics</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="582" to="588" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,48.00,107.20,240.04,7.03;7,56.00,117.20,232.02,7.03;7,56.00,127.20,232.01,7.03;7,56.00,137.20,70.55,7.03" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Parts and wholes in face recognition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Farah</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14640749308401045</idno>
+		<ptr target="http://dx.doi.org/10.1080/14640749308401045" />
+	</analytic>
+	<monogr>
+		<title level="j">The Quarterly Journal of Experimental Psychology A: Human Experimental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="225" to="245" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,48.00,147.20,240.03,7.03;7,56.00,157.20,232.01,7.03;7,56.00,167.20,148.90,7.03" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Exogenous and endogenous control of attention: The effect of visual onsets and offsets</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Theeuwes</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/BF03211619</idno>
+		<ptr target="http://dx.doi.org/10.3758/BF03211619" />
+	</analytic>
+	<monogr>
+		<title level="j">Perception &amp; Psychophysics</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="83" to="90" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,48.00,177.20,240.02,7.03;7,56.00,187.20,232.02,7.03;7,56.00,197.20,232.02,7.03;7,56.00,207.20,128.00,7.03" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Stimulus-driven capture and attentional set: Selective search for color and visual abrupt onsets</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Theeuwes</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0096-1523.20.4.799</idno>
+		<ptr target="http://dx.doi.org/10.1037/0096-1523.20.4.799" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Human Perception and Performance</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="799" to="806" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,48.00,217.20,240.03,7.03;7,56.00,227.20,232.01,7.03;7,56.00,237.20,232.01,7.03;7,56.00,247.20,94.89,7.03" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The perceptual effects of learning object categories that predict perceptual goals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Van Gulick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Gauthier</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0036822</idno>
+		<ptr target="http://dx.doi.org/10.1037/a0036822" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="1307" to="1320" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,306.00,77.20,240.01,7.03;7,314.00,87.20,232.02,7.03;7,314.00,97.20,151.12,7.03" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Does visual attention select objects or locations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">P</forename><surname>Vecera</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Farah</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0096-3445.123.2.146</idno>
+		<ptr target="http://dx.doi.org/10.1037/0096-3445.123.2.146" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: General</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="146" to="160" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,306.00,107.20,240.02,7.03;7,314.00,117.20,232.00,7.03;7,314.00,127.20,232.00,7.03;7,314.00,137.20,55.99,7.03" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Task-switching and longterm priming: Role of episodic stimulus-task bindings in task-shift costs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Waszak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Hommel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Allport</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0010-0285%2802%2900520-0</idno>
+		<ptr target="http://dx.doi.org/10.1016/S0010-0285" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">02</biblScope>
+			<biblScope unit="page" from="520" to="520" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,306.00,147.20,240.02,7.03;7,314.00,157.20,232.01,7.03;7,314.00,167.20,71.11,7.03" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Configurational information in face perception</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">W</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Hellawell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Hay</surname></persName>
+		</author>
+		<idno type="DOI">10.1068/p160747</idno>
+		<ptr target="http://dx.doi.org/10.1068/p160747" />
+	</analytic>
+	<monogr>
+		<title level="j">Perception</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="747" to="759" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,306.00,177.20,240.02,7.03;7,314.00,187.20,232.01,7.03;7,314.00,197.20,180.08,7.03" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Attention is spontaneously biased toward regularities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Al-Aidroos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">B</forename><surname>Turk-Browne</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0956797612460407</idno>
+		<ptr target="http://dx.doi.org/10.1177/0956797612460407" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="667" to="677" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Predicting the Future as Bayesian Inference: People Combine Prior Knowledge With Observations When Estimating Duration and Extent</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><forename type="middle">L</forename><surname>Griffiths</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Psychology</orgName>
+								<orgName type="department" key="dep2">Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology</orgName>
+								<orgName type="institution">University of Califor</orgName>
+								<address>
+									<addrLine>-nia, Berkeley; Joshua B. Tenenbaum</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<address>
+									<settlement>Philadelphia</settlement>
+									<region>Pennsylvania</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>3210 Tolman Hall 1650</addrLine>
+									<postCode>94720-1650</postCode>
+									<settlement>Berkeley, Berkeley</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Journal of Experimental Psychology: General</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Predicting the Future as Bayesian Inference: People Combine Prior Knowledge With Observations When Estimating Duration and Extent</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1037/a0024899</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:01+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Bayesian inference</term>
+					<term>heuristics</term>
+					<term>predicting the future</term>
+					<term>mathematical modeling</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Predicting the future is a basic problem that people have to solve every day and a component of planning, decision making, memory, and causal reasoning. In this article, we present 5 experiments testing a Bayesian model of predicting the duration or extent of phenomena from their current state. This Bayesian model indicates how people should combine prior knowledge with observed data. Comparing this model with human judgments provides constraints on possible algorithms that people might use to predict the future. In the experiments, we examine the effects of multiple observations, the effects of prior knowledge, and the difference between independent and dependent observations, using both descriptions and direct experience of prediction problems. The results indicate that people integrate prior knowledge and observed data in a way that is consistent with our Bayesian model, ruling out some simple heuristics for predicting the future. We suggest some mechanisms that might lead to more complete algorithmiclevel accounts.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Despite the difficulty of predicting the future, people do it effortlessly every day. They are confident about being able to predict the durations of events, how much time will be needed to get home after work, and how long it will take to finish the shopping. In many cases, people have a great deal of information guiding their judgments. However, sometimes they have to make predictions using much less evidence. When faced with new situations, decisions about how much longer events can be expected to last are based on whatever evidence is available. When the only information someone possesses concerns how long a particular event has lasted until now, predicting the future becomes a challenging inductive problem.</p><p>Being able to predict future events is an important component of many cognitive tasks. Expectations about the future are certainly fundamental to planning and decision making, but inferences about time also play a role in other aspects of cognition. Anderson's <ref type="bibr" coords="1,48.00,546.35,63.00,8.10" target="#b1">(Anderson, 1990;</ref><ref type="bibr" coords="1,113.26,546.35,104.01,8.10" target="#b3">Anderson &amp; Schooler, 1991)</ref> rational analysis of human memory takes the fundamental problem of memory to be predicting whether an item will be needed in the future, with retention favoring those items most likely to be in demand. Assessing the need for a particular item explicitly involves predicting the future, a problem that Anderson formulates as a Bayesian inference. Prediction is also intimately related to the discovery of causal relationships. The regularities induced by causal relationships lead people to make predictions about future events that can alter their perceptions <ref type="bibr" coords="1,386.43,432.30,113.18,8.10" target="#b8">(Eagleman &amp; Holcombe, 2002)</ref> and result in surprises when their predictions are incorrect <ref type="bibr" coords="1,477.67,443.61,68.39,8.10;1,306.00,454.92,61.11,8.10" target="#b16">(Huettel, Mack, &amp; McCarthy, 2002)</ref>.</p><p>In this article, we test the predictions of a model of predicting the future, formulating the problem as one of Bayesian inference. Our Bayesian model indicates how people should combine their prior knowledge about a phenomenon with the information provided by observed data. Prior knowledge is expressed in terms of a probability distribution over the extent or duration of a phenomenon, whereas the effect of observations is incorporated via a statistical argument that is used in cosmology known as the anthropic principle <ref type="bibr" coords="1,370.29,556.68,43.52,8.10" target="#b12">(Gott, 1993)</ref>. We explore the predictions of this model in depth and consider their implications for the psychological mechanisms that might guide human predictions.</p><p>In previous work, we showed that people are sensitive to the statistical properties of everyday quantities in the way that is consistent with our model <ref type="bibr" coords="1,404.05,613.19,113.76,8.10" target="#b14">(Griffiths &amp; Tenenbaum, 2006)</ref>. These results indicate that people use prior knowledge, but they do not imply that people are making predictions by performing the calculations indicated by Bayes' rule. Rather, they suggest that whatever algorithm people use for predicting the future, it is consistent with Bayesian inference in its sensitivity to prior knowledge. Many simple heuristics might have this property. For example, <ref type="bibr" coords="1,520.31,680.96,25.74,8.10;1,306.00,692.26,108.84,8.10" target="#b24">Mozer, Pashler, and Homaei (2008)</ref> argued that our results could be explained by people following a simple heuristic, in which they use only a small number of previous experiences to inform their judgments rather than having access to the whole probability distribution.</p><p>Our goal in this article is to gain a deeper understanding of the extent to which people's predictions are consistent with our Bayesian model and thus to obtain stronger constraints on the algorithms that they might be using in making these predictions. Our Bayesian model makes strong predictions about the effects of providing further observations, how prior knowledge should be combined with these observations, and the difference between independent and dependent observations. Each of these predictions provides an opportunity to identify a constraint that an algorithm would need to satisfy: If people behave in a way that is consistent with our model in each of these cases, then whatever algorithm they are using must also approximate Bayesian inference. We test these predictions empirically, using both cognitive and perceptual judgments about time, and consider their implications for simple heuristics that people might use in predicting the future.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rational Models of Predicting the Future</head><p>We begin our analysis by describing the anthropic principle used in predicting the future. We then present the Bayesian generalization of this argument and consider the effects of manipulating the prior and the likelihood within this model. This leads us to the model predictions that we test in the remainder of the article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Copernican Anthropic Principle</head><p>The cosmologist J. <ref type="bibr" coords="2,130.03,390.36,87.26,8.10">Richard Gott III (1993)</ref> proposed a simple heuristic for predicting the future, which was intended to provide insight into weighty matters like the prolonged existence of the human race but be just as valid when applied to matters arising in everyday life. Gott's heuristic is based on the Copernican anthropic principle, which holds that the location of your birth in space and time in the Universe is privileged (or special) only to the extent implied by the fact that you are an intelligent observer, that your location among intelligent observers is not special but rather picked at random. <ref type="bibr" coords="2,224.55,495.97,63.45,7.20">(Gott, 1993, p. 316)</ref> Gott extends this principle to reasoning about a person's position in time: Given no evidence to the contrary, one should not assume that one is in a special place in time. If this principle is adopted, the time at which an observer encounters a phenomenon should be randomly located in the total duration of that phenomenon. <ref type="bibr" coords="2,266.18,559.49,3.50,4.95">1</ref> This principle leads to a simple method for predicting the future: Discover how long a phenomenon has endured until the moment it was observed and predict that it should last that long into the future. This follows from the anthropic principle, because if it is assumed that you encounter a phenomenon at a random point, it is equally likely you observed it in the first or second half of its total duration. Denoting the time between the start of a phenomenon and its observation t past and its total duration t total , a good guess is t total ϭ 2t past . The argument works just as well if you know how far a phenomenon will extend into the future (e.g., if you see a sign that is counting down to some event) but do not know how far it extends into the past. Again, you should guess t total ϭ 2t future . For simplicity, we focus on predicting t total from t past for the remainder of this section.</p><p>More formally, <ref type="bibr" coords="2,373.91,76.85,49.58,8.10" target="#b12">Gott's (1993)</ref> rule can be justified by a probabilistic analysis that he called the "delta t argument" (p. 315). If we define the ratio</p><formula xml:id="formula_0" coords="2,410.01,117.44,135.82,21.65">r ϭ t past t total ,<label>(1)</label></formula><p>the Copernican anthropic principle tells us that r should be uniformly distributed between 0 and 1. This lets us make probabilistic predictions about the value of r. In particular, the probability that r Ͻ 0.5 is 0.5, so there is a 50% chance that t total Ͼ 2t past . Likewise, there is a 50% chance that t total Ͻ 2t past , making t total ϭ 2t past a good guess. We can also use this argument to define confidence intervals over the durations of events by evaluating confidence intervals on r. For example, r will be between .025 and .975 with a probability of .95, meaning that with 95% confidence,</p><formula xml:id="formula_1" coords="2,380.07,254.46,91.43,20.82">1 39 t past Ͻ t future Ͻ 39t past ,</formula><p>where t future ϭ t total Ϫ t past . This method of reasoning has been used to predict a wide range of phenomena. <ref type="bibr" coords="2,363.16,306.90,42.96,8.10" target="#b12">Gott (1993)</ref> gave the example of the Berlin Wall, which he first encountered in 1969. At this point, the Berlin Wall had been in existence for 8 years, so t past is 8 years. The 95% confidence interval on the future duration of the Berlin Wall, t past , based on the assumption that Gott's visit was randomly located in the period of its existence, is 2.46 months to 312 years, firmly containing the actual t future of 20 years. Gott made similar calculations of t future for Stonehenge, the journal Nature, the U.S.S.R., and even the human race (the good news is that a 95% confidence interval gives humans at least 5,100 years, the bad news is that it also predicts less than 7.8 million). The principle has subsequently been applied to a surprisingly broad range of targets, including predictions of the runs of Broadway musicals <ref type="bibr" coords="2,479.46,438.90,61.58,8.10;2,306.00,449.90,80.35,8.10" target="#b21">(Landsberg, Dewynne, &amp; Please, 1993)</ref>. <ref type="bibr" coords="2,315.00,491.85,49.43,8.10" target="#b12">Gott's (1993)</ref> Copernican anthropic principle suggests how we might formulate a rational statistical account of people's ability to predict the future, but the context in which people make daily predictions differs from that assumed by Gott in two important ways: prior knowledge and multiple observations. In many cases, in the real world, where it might be desirable to predict the future, people know more than simply how long a process has been underway. In particular, interaction with the world often gives people some prior expectations about the duration of an event. For example, if one meets a 78-year-old man on the street, one is unlikely to think that there is a 50% chance that he will be alive at the age of 156 (for a similar example, see <ref type="bibr" coords="2,456.93,612.85,47.81,8.10" target="#b18">Jaynes, 2003)</ref>. Likewise, predictions are often facilitated by the availability of multiple observations of a phenomenon. For example, if one was attempting 1 A more standard use of the anthropic principle in cosmology is as a way to explain otherwise improbable events, such as cosmological constants taking values that support a stable universe or the emergence of intelligent life. If we condition on there being an intelligent observer to observe such events, their probability is 1. A detailed discussion of uses of the anthropic principle is given in <ref type="bibr" coords="2,419.74,715.54,53.55,7.20" target="#b6">Bostrom (2002).</ref> to determine the period that passes between subway trains arriving at a station, one would probably have several trips on which to base judgment. If, on the first trip, one discovered that a train had left the station 103 s ago, one might assume that trains run every few minutes. But, after three trips yield trains that have left 103, 34, and 72 s ago, this estimate might get closer to 103 s. After 10 trains, all leaving less than 103 s before we arrive, we might be inclined to accept a value very close to 103 s. <ref type="bibr" coords="3,57.00,164.85,50.17,8.10" target="#b12">Gott's (1993)</ref> delta t argument does not incorporate the prior knowledge about durations that people bring to the problem of predicting the future or the possibility of multiple observations. However, it can be shown that the delta t argument is equivalent to a simple Bayesian analysis of the problem of predicting the future <ref type="bibr" coords="3,48.00,219.85,43.42,8.10" target="#b13">(Gott, 1994)</ref>. Bayesian inference naturally combines prior knowledge with information from one or many observations, making it possible to extend Gott's argument to provide a more general account of predicting the future. Bayes' rule states that</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A Bayesian Approach to Predicting the Future</head><formula xml:id="formula_2" coords="3,128.32,270.58,159.52,20.82">P͑h͉d͒ ϭ P͑d͉h͒P͑h͒ P͑d͒ ,<label>(2)</label></formula><p>where h is some hypothesis under consideration and d is the observed data. By convention, P(h|d) is referred to as the posterior probability of the hypothesis, P(h) the prior probability, and P(d|h) the likelihood, giving the probability of the data under the hypothesis. The denominator P(d) can be obtained by summing across P(d|h)P(h) for all hypotheses, giving</p><formula xml:id="formula_3" coords="3,118.01,372.90,169.83,21.65">P͑h͉d͒ ϭ P͑d͉h͒P͑h͒ ͐ H P͑d͉h͒P͑h͒dh ,<label>(3)</label></formula><p>where H is the set of all hypotheses. In responding to a criticism offered by <ref type="bibr" coords="3,196.55,413.49,43.58,8.10" target="#b7">Buch (1994)</ref>, <ref type="bibr" coords="3,245.96,413.49,42.08,8.10" target="#b13">Gott (1994)</ref> noted that his method for predicting the future could be expressed in Bayesian terms. In this setting, the data are the observation of the current duration of a phenomenon, t past , and the hypotheses concern its total duration, t total . Using the prior P͑t total ͒ ϰ 1 t total and the likelihood P͑t past ͉t total ͒ ϭ 1 t total if t total Ն t past (and 0 otherwise) yields the same results as his original formulation of the delta t argument. 2 This can be seen if Gott's choices of prior and likelihood are substituted into Equation <ref type="formula" coords="3,177.47,522.26,3.50,8.10" target="#formula_3">3</ref>:</p><formula xml:id="formula_4" coords="3,115.42,539.99,172.42,55.54">P͑t total ͉t past ͒ ϭ 1 t total 2 ͵ tpast ϱ 1 t total 2 dt total ,<label>(4)</label></formula><p>which yields</p><formula xml:id="formula_5" coords="3,133.29,622.79,154.54,21.98">P͑t total ͉t past ͒ ϭ t past t total 2 .<label>(5)</label></formula><p>The probability that an observed phenomenon will have t total Ͼ t for t Ն t past can be obtained by integrating this density over all values of t total Ͼ t:</p><formula xml:id="formula_6" coords="3,98.07,689.61,189.76,32.59">P͑t total Ͼ t͉t past ͒ ϭ ͵ t ϱ t past t total 2 dt total ϭ t past t .<label>(6)</label></formula><p>This is exactly the probability that would be obtained via the delta t argument: Asking whether t total Ͼ t is equivalent to asking whether r Ͻ t past t , and the result follows directly from the fact that r is uniformly distributed between 0 and 1. These choices for the likelihood and the prior are not arbitrary. The Copernican anthropic principle determines the likelihood: If a phenomenon is encountered at a random point in its duration, then its current duration, t past , is uniformly distributed between zero and its total duration, t total . Consequently, P͑t past ͉t total ͒ ϭ 1 t total for all t past less than t total . The prior reflects the minimal possible state of knowledge about t total . Using 1 t total for the prior avoids building any sense of scale into the predictions: It gives the same amount of probability to a region even if the scale is transformed multiplicatively. For example, it gives the same probability to t total taking a value between 1 and 2 minutes, 1 and 2 hours, and 1 and 2 years. This kind of prior, which gives very little information about the value of t total , is known as an uninformative prior <ref type="bibr" coords="3,497.53,285.10,48.49,8.10" target="#b25">(Press, 1989;</ref><ref type="bibr" coords="3,306.00,296.17,53.27,8.10" target="#b19">Jeffreys, 1961)</ref>. This choice of prior leads to the scale-free character of the predictions made by Gott's rule: t total is predicted to be a constant multiple of t past , regardless of the value that t past takes on. By not imposing a natural scale, the same simple rule can produce predictions for phenomena that have values of t past ranging from a few seconds to hundreds of thousands of years, but it also leads to counterintuitive conclusions in contexts where a natural scale does seem to apply, as with the human life span.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Changing the Prior and Likelihood</head><p>Crucially, both the prior and the likelihood used in this Bayesian analysis can be altered to accommodate situations in which one has more knowledge, either as a result of previous experiences with similar phenomena or having the opportunity to make multiple observations. <ref type="bibr" coords="3,355.94,467.94,117.06,8.10" target="#b14">Griffiths and Tenenbaum (2006)</ref> explored the effects that prior knowledge of the duration and extent of everyday quantities has on predicting the future. <ref type="figure" coords="3,451.13,490.06,30.98,8.10" target="#fig_0">Figure 1</ref> shows the distributions of five everyday quantities: human life spans, the runtimes of movies, the box office gross of movies, the length of poems, and the time served by members of the U,S. House of Representatives. These quantities have different distributions, which translate into different predictions. Our Bayesian analysis can be applied in all of these cases, with the modification of t past and t total to refer to the observed and total extent of phenomena, respectively (e.g., an amount of money or the number of lines of text), not just their duration.</p><p>We can examine the consequences of using different priors by looking at how the posterior median-the value t such that it is equally likely that the total duration is greater than or less than t, with P͑t total Ͼ t͉t past ͒ ϭ P͑t total Ͻ t͉t past ͒ ϭ 0.5-changes as a function of the current duration t past . This prediction function takes on a different shape for different priors. Human life spans and movie run-times roughly follow Gaussian distributions, with</p><formula xml:id="formula_7" coords="4,112.35,467.19,175.50,23.17">P͑t total ͒ ϭ 1 ͱ2 e Ϫ͑ttotalϪ͒ 2 ⁄2 2 ,<label>(7)</label></formula><p>where and are the mean and standard deviation of the distribution, respectively. The resulting prediction function picks values of t total close to the mean of the prior when t past is small and then predicts a value slightly greater than t past as t past becomes large. Movie grosses and the length of poems follow power-law distributions, with</p><formula xml:id="formula_8" coords="4,143.49,570.17,144.36,10.82">P͑t total ͒ϰt total Ϫ␥ ,<label>(8)</label></formula><p>where ␥ is a parameter of the distribution. The resulting prediction function suggests that t total will be 2 1⁄␥ t past (see <ref type="bibr" coords="4,219.18,600.46,64.63,8.10;4,48.00,611.46,41.43,8.10" target="#b14">Griffiths &amp; Tenenbaum, 2006</ref>, for derivations of the results in this paragraph). The predicted value is thus simply a multiple of t past , as in Gott's rule, although the multiplier depends on the shape of the distribution. The time spent in the U.S. House of Representatives roughly follows an Erlang distribution:</p><formula xml:id="formula_9" coords="4,128.83,672.17,159.00,22.67">P͑t total ͒ ϭ t total e Ϫttotal⁄␤ ␤ 2 ,<label>(9)</label></formula><p>where ␤ is a parameter. This distribution has a broad peak at t total ϭ ␤ and decays to zero at 0 and ϱ. The resulting prediction function indicates that t total will be slightly larger than t past , with the predicted value being t past ϩ ␤log2. <ref type="figure" coords="4,315.00,460.09,30.23,8.10" target="#fig_0">Figure 1</ref> also shows the predictions made by human participants in an experiment in which each participant was asked to make a prediction based on a single value of t past for a subset of these phenomena. In aggregate, these predictions were in remarkably close correspondence with the predictions made by our Bayesian model, with the median human judgment being close to the median of the posterior distribution. However, <ref type="bibr" coords="4,448.45,526.57,70.51,8.10" target="#b24">Mozer et al. (2008)</ref> argued that these results do not provide definitive evidence that people had detailed knowledge of the underlying prior distribution. <ref type="bibr" coords="4,522.57,548.73,23.49,8.10;4,306.00,559.81,18.59,8.10">Mozer et al.</ref> showed that a heuristic in which each participant only has access to k samples from the prior and then makes a prediction corresponding to the smallest of these samples that is greater than t past -the Mink heuristic-can produce similarly good approximations to our Bayesian model when aggregated across many simulated participants. If people are using this heuristic, they may have less detailed knowledge of the distribution of events than our original results suggested. In addition, although the Mink heuristic approximates our Bayesian model in this particular case, it does not incorporate assumptions about how t past is sampled or indicate how observations and prior knowledge should be combined more generally, so it will differ from our Bayesian model in other settings. We have argued elsewhere that people's prior knowledge of the distributions of everyday quantities goes beyond a few samples <ref type="bibr" coords="4,337.04,714.85,148.69,8.10" target="#b22">(Lewandowsky, Griffiths, &amp; Kalish, 2009</ref>) and shown that The lower panels show optimal Bayesian predictions for these quantities, corresponding to the posterior median of t total given t past . Gray lines use the histogram as a prior and black lines use the approximating distributions. The dotted lines show <ref type="bibr" coords="4,154.41,374.49,44.03,7.20" target="#b12">Gott's (1993)</ref> rule, with t total estimated as twice t past , which seems appropriate in some cases (e.g., movie grosses) but not in others (e.g., life spans). The black dots indicate the median of human predictions for these quantities, with error bars corresponding to a 68% confidence interval estimated by bootstrap (see <ref type="bibr" coords="4,449.48,394.49,27.55,7.20;4,117.00,404.49,109.52,7.20">Griffiths &amp; Tenenbaum, 2006, for details).</ref> there are circumstances under which approximating Bayesian computations with small samples can be rational <ref type="bibr" coords="5,234.04,87.91,54.01,8.10;5,48.00,98.97,103.75,8.10" target="#b28">(Shi, Griffiths, Feldman, &amp; Sanborn, 2010;</ref><ref type="bibr" coords="5,155.16,98.97,128.64,8.10;5,48.00,110.02,45.19,8.10" target="#b33">Vul, Goodman, Griffiths, &amp; Tenenbaum, 2009)</ref>. In this article, we turn to the question of whether people's judgments remain consistent with our Bayesian model for more complex prediction problems.</p><p>Bayesian models indicate not just how prior knowledge should be used but also how this knowledge should be integrated with observed data. The experiments we present in this article thus focus on examining how people combine prior knowledge with observations when predicting the future. One property of our Bayesian model, but not of heuristic accounts such as <ref type="bibr" coords="5,265.55,198.47,22.50,8.10;5,48.00,209.53,23.99,8.10" target="#b12">Gott's (1993)</ref> delta t argument or the Mink heuristic proposed by <ref type="bibr" coords="5,264.56,209.53,23.49,8.10;5,48.00,220.59,45.67,8.10" target="#b24">Mozer et al. (2008)</ref>, is that the number of observations of the current duration of a phenomenon people see should affect their predictions. This is most applicable for cyclic phenomena, where t total represents the interval between instances of a recurring event. For example, we might try to estimate how often trains run on a particular subway line on the basis of having waited for trains on multiple occasions. The Copernican anthropic principle determines the probability of a set of observations of this kind in exactly the same way that it determines the probability of a single observation. We use T to denote a set of n times drawn independently and uniformly at random from the total duration of a phenomenon, as might occur when waiting for a train n different times on the same subway line. Then, taking t past to be the largest value in T, we have</p><formula xml:id="formula_10" coords="5,103.51,369.91,184.35,36.20">P͑T͉t total ͒ ϭ ͭ ͩ 1 t total ͪ n t total Ն t past 0 otherwise<label>(10)</label></formula><p>where n appears in the exponent because the probabilities of independent events multiply and each observation has probability 1 t total . This equation says that for any total duration t total , any set of observations less than t total is equally likely, but the probability of the set of observations decreases as t total increases, favoring values of t total that are closer to t past . As the number of observations increases, so does the preference for smaller values of t total .</p><p>Changing the prior and likelihood used in our Bayesian model has important implications for the resulting predictions. We can see some of these implications by examining the effects of these changes on the posterior median t when we manipulate t past and the number of examples (n ϭ 1, 3, 10). The predictions of <ref type="bibr" coords="5,265.52,550.49,22.50,8.10;5,48.00,561.53,23.99,8.10" target="#b12">Gott's (1993)</ref> delta t argument, presented in Equation 1, are shown in <ref type="figure" coords="5,48.00,572.58,37.11,8.10">Figure 2A</ref>. The predictions are unaffected by n and are thus constant at t ϭ 2t past , a consequence of the fact that the simple form of the delta t argument is not designed to take into account situations in which multiple observations are available. The predictions that result from following this heuristic are also insensitive to prior information, offering a single prediction for all situations. This seems to defy intuition and is the weakest of the models we consider.</p><p>At the next level of complexity is a Bayesian model with 1 t total for the likelihood of a single example and the uninformative prior P͑t total ͒ ϰ 1 t total . As shown in <ref type="figure" coords="5,152.10,700.00,23.50,8.10">Figure</ref>  The curve shown in the figure corresponds to the prediction t ϭ 2 1⁄n t past , approaching t past as n becomes large. This reduction in t makes intuitive sense: Consider the problem of predicting the time that passes between trains discussed at the start of this section: An initial t past of 103 s suggests t total is a few minutes, but seeing more examples, each less than 103 s, brings our estimate much closer to t past . The main problem with this model is that it does not make use of the flexibility provided by the inclusion of prior knowledge in inference.</p><p>Although we should certainly use precise information about the distribution of t total if available (as was done in <ref type="bibr" coords="5,477.68,230.25,64.13,8.10;5,306.00,241.25,45.47,8.10" target="#b14">Griffiths &amp; Tenenbaum, 2006)</ref>, in general, we can use a simpler prior to impose some sense of scale on the predictions. In the remainder of the article, we use an Erlang distribution as a prior (see <ref type="table" coords="5,500.80,263.25,38.76,8.10">Equation 9</ref>). This parameterized peaked distribution provides a simple way to summarize many of the kinds of distributions that might be encountered across temporal domains and to explore the results of manipulating different aspects of the model. Of the everyday quantities considered by <ref type="bibr" coords="5,402.21,318.25,122.19,8.10" target="#b14">Griffiths and Tenenbaum (2006)</ref>, two were well-described by an Erlang distribution (length of terms in the U.S. House of Representatives and the durations of reigns of pharaohs in Ancient Egypt). The use of an informative prior imposes a natural scale on a phenomenon, meaning that people's predictions about t total are no longer simply a fixed multiple of t past . <ref type="figure" coords="5,306.00,384.25,36.25,8.10">Figure 2C</ref> shows the predicted values of t total for one, three, and 10 observations using an Erlang prior where the maximum value of t past is varied but ␤ is held constant. As t past increases, the ratio of the predicted value of t total to t past decreases, providing a clear pattern that indicates the use of an informative prior.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model Predictions</head><p>Our Bayesian model of predicting the future has several properties that discriminate it from existing heuristic accounts, such as the rule proposed by <ref type="bibr" coords="5,381.19,494.85,42.05,8.10" target="#b12">Gott (1993)</ref> or the Mink heuristic proposed by <ref type="bibr" coords="5,306.00,505.85,69.51,8.10" target="#b24">Mozer et al. (2008)</ref>. Exploring the extent to which people's judgments are consistent with these properties provides constraints on algorithms that could be used to explain how people predict the future. Each point of consistency highlights a property that a heuristic account must possess and makes it more challenging to define a single simple heuristic that might explain people's behavior.</p><p>The most important property of our Bayesian model is its treatment of multiple observations. The tightening of predictions about t past is a direct consequence of the Copernican anthropic principle and plays an important role in models of human generalization and word learning in the form of the size principle <ref type="bibr" coords="5,306.00,637.85,113.39,8.10" target="#b31">(Tenenbaum &amp; Griffiths, 2001;</ref><ref type="bibr" coords="5,421.77,637.85,90.09,8.10" target="#b34">Xu &amp; Tenenbaum, 2007a</ref><ref type="bibr" coords="5,511.86,637.85,26.24,8.10" target="#b35">, 2007b</ref>. As more observations less than t past are obtained, predictions should converge toward the smallest possible value of t total that is greater than t past . The equivalent statistical structure of predicting the future and generalization also suggest that this phenomenon should be observed whether a judgment is about time or some other quantity for which the same set of hypotheses (i.e., intervals from 0 to some upper limit) is appropriate, such as healthy levels of a toxin (where small amounts are presumably not dangerous but it becomes, at some point, a risk to health).</p><p>Our Bayesian model also asserts that manipulating the prior probability distribution across the hypothesis space will produce a general change in predictions, at least until the effect of the priors is overwhelmed by the likelihoods. In particular, inducing a prior preference for a relatively high value of t total will bias inferences toward hypotheses around that value. <ref type="bibr" coords="6,193.47,615.85,94.58,8.10;6,48.00,626.85,23.99,8.10" target="#b14">Griffiths and Tenenbaum (2006)</ref> showed that people are sensitive to the distribution of everyday quantities when they make predictions, meaning that they make use of prior knowledge. However, our Bayesian model also makes clear quantitative predictions about how this prior knowledge of durations should be combined with the information provided by multiple observations: As the number of observations increases, the influence of prior knowledge should decrease, with judgments becoming more similar regardless of priors. These predictions are not consistent with simple heuristic accounts. Use of <ref type="bibr" coords="6,315.78,538.85,48.78,8.10" target="#b12">Gott's (1993)</ref> rule cannot predict any effect of prior knowledge. If the biasing information is not provided in terms of samples from the prior, it is hard to see how it could be explained by the Mink heuristic. Because neither of these heuristics can handle multiple observations, they also cannot predict the diminishing effect of prior knowledge as the number of observations increases.</p><p>Finally, the effect of multiple observations under our Bayesian model should be sensitive to the process by which the observations were generated. In particular, we should only expect a rapid reduction in the extent of generalization if a set of observations are probabilistically independent. If the observations are dependent, then successive pieces of data will not reduce our predictions about t total . For example, imagine we were trying to predict how long Stonehenge would continue to exist. The first time we visit provides an observation of t past from which we can extrapolate t total . Each subsequent visit gives us a new value for t past , but these visits do not provide independent observations: If Stonehenge existed at <ref type="figure" coords="6,117.00,423.77,29.25,7.20">Figure 2</ref>. Predictions of the various models, depicting the posterior median-the point t at which P͑t total Ͻ t͉T͒ ϭ 0.5-for a set T containing one, three, and 10 observations. The predictions of each model are shown as a line connecting three points: The left point is the prediction for a single example, the center point shows the prediction for three observations, and the right point is the prediction for 10 observations. On all graphs, the vertical axis shows the predicted value of t in proportion to t past , the largest value in the set of observations T. A: The predictions produced by the simple delta t argument. B: The predictions of a Bayesian model with uninformative prior but a likelihood that accommodates multiple observations. C: The predictions of a Bayesian model with an Erlang prior of ␤ ϭ 4 given sets of observations varying in the maximum value of t past .</p><p>the most recent value of t past , it must also have existed at all smaller values. This corresponds to using the likelihood function</p><formula xml:id="formula_11" coords="7,102.89,103.28,184.97,36.19">P͑T͉t total ͒ ϭ ͭ ͩ 1 t total ͪ t total Ն t past 0 otherwise (11)</formula><p>for a set of observations T with maximum value t past . Using this likelihood function, we should not reduce our estimate of t total each time we visit Stonehenge, as we would if we were using the likelihood given in Equation 10, which assumes independent observations. This prediction falls out of the statistical analysis of the prediction problem and is hard to explain unless people are sensitive to the way in which the data they observe are sampled. It is interesting that previous research has provided both positive and negative results concerning people's sensitivity to dependence between observations: <ref type="bibr" coords="7,130.16,249.63,100.73,8.10" target="#b34">Xu and Tenenbaum (2007a)</ref> found evidence that children are sensitive to the way in which examples are sampled in learning words, whereas <ref type="bibr" coords="7,184.90,271.63,103.15,8.10;7,48.00,282.63,60.34,8.10" target="#b4">Barsalou, Huttenlocher, and Lamberts (1998)</ref> found that adults can fail to use such information in learning categories.</p><p>Our Bayesian model has three clear implications for the kind of judgments that people should produce when reasoning about the duration of events. The effect of multiple observations, integration of prior probabilities, and impact of independent observations are all important properties of how these judgments are made. These predictions provide an opportunity to identify constraints on algorithms that people could be using in predicting the future and are inconsistent with existing heuristic accounts. In Experiments 1-3, we examine these predictions in turn, using a task in which people read about the durations of events and then form predictions. Experiments 4 and 5 supplement these results with a task in which people actually experience events of different durations and form their predictions on the basis of their perceptual experiences.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 1: Multiple Observations</head><p>In the first experiment, we examined the effect of introducing multiple observations into problems of predicting the future and compared the resulting predictions with judgments made in nontemporal domains. The aim was to evaluate whether our Bayesian model could provide a good account of these judgments and to examine the correspondence between predicting the future and other problems of generalization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head><p>Participants. Participants were 81 undergraduates participating for partial course credit. The participants were randomly assigned to four conditions, with 21 participants in the teacake condition, 21 in the train condition, 16 in the toxin condition, and 23 in the taxicab condition.</p><p>Stimuli. A simple questionnaire format was used, examining four scenarios in which inductive decisions were required, two of which involved temporal judgments. Each questionnaire had three sections. The first section outlined the situation and gave a single number on which judgments were to be based. This summary was intended to establish a context for the judgment and to provide some information relevant to forming reasonable prior expecta-tions. The second and third sections added further information, giving a total of three numbers and 10 numbers, respectively.</p><p>The first scenario, the teacake scenario, described a coffee shop that had recently started selling teacakes. The situation was described as follows:</p><p>Each day, on your way to class, you walk past a coffee shop. The shop has recently started a new advertising campaign: they bake fresh teacakes regularly throughout the day, and have a clock outside that shows how long it has been since the teacakes were taken out of the oven. You are interested in buying a teacake as soon as it is removed from the oven, and wonder how often batches of teacakes are baked. Today, the clock shows that it has been 34 minutes since the last batch of teacakes was removed from the oven.</p><p>The story gives t past , and participants were asked to predict t total . Specifically, they were asked the following:</p><p>Please write down your best guess of how much time elapses between batches of teacakes, in minutes. Try to make a guess, even if you feel like you don't have enough information to make a decision-just go with your gut feeling. You may assume that the batches of teacakes are always separated by the same amount of time.</p><p>The second and third sections added further times. The second section read as follows:</p><p>Suppose that you check the clock on your way to class for the next two days. Each time, you note how long it has been since the teacakes came out of the oven. Including the first day, the times you have seen are 34, 8, and 21 minutes.</p><p>Participants were then asked exactly the same question about the time between batches of teacakes. Finally, the third section read as follows:</p><p>Suppose that you note the time on the clock every time you walk past the coffee shop in the next week, checking how long it has been since the teacakes came out of the oven. Including the three days from the previous week, the times you have seen are <ref type="bibr" coords="7,463.36,467.26,82.64,7.20;7,322.00,477.26,64.87,7.20">34, 8, 21, 18, 2, 5, 27, 22, 10, and 14 minutes.</ref> This was followed by the same question about the time between batches of teacakes.</p><p>The second scenario, the train scenario, outlined a similar situation in the domain of public transport: Imagine that you are visiting a foreign country, and want to catch a subway train. Your guidebook says that the subway service is very efficient, with trains running to fixed schedules, guaranteeing that you won't have to wait very long at the station. The book doesn't mention how much time passes between trains, so you will have to try to guess. When you get to the station, you see a clock on the wall indicating that the next train will arrive in 103 seconds.</p><p>Here, the clock provides t future , and participants are asked to predict t total . As noted above, our Bayesian model does not differentiate between t past and t future , as they are both observations of a period less than t total assumed to be uniformly distributed between 0 and t total . We thus expect these predictions to be captured by our model in the same way as the predictions based on t past from the first scenario are captured. Participants were then asked to write down their best guess of how much time passes between successive trains. The second section introduced additional observations of 34 and 72 s, then the third section added 61, 17, 29, 101, 97, 42, and 52 s to the times.</p><p>These scenarios were complemented with two analogous situations that made no reference to time. The first asked people to estimate what levels of a toxin might be healthy. The description of the toxin scenario was as follows:</p><p>On a visit to the doctor, you undergo a range of tests. In one case, the doctor informs you that he is testing for levels of a certain environmental toxin in your blood. He has a chart that indicates healthy levels of environmental toxins, but you can't quite read the numbers indicating the threshold between healthy and unhealthy amounts. The doctor tells you that you need only get another appointment if the test suggests that you have unhealthy levels of toxin in your blood. When you go in to pick up your results, you find a stack of reports that have been classified as "healthy." You are relieved to find your report in the "healthy" stack. You see that the concentration listed on your report is 34 ng/mL. Participants were then asked to give their best guess of the highest concentration of the toxin that would be considered healthy. Subsequent information was introduced in the next two sections, with additional observations of 8 and 21 ng/mL, then 18, 2, 5, 27, 22, 10, and 14 ng/mL.</p><p>The second comparison scenario was a version of the Jeffreys (1961) tramcar problem: Participants were told the serial number of a taxicab (as well as being given the information that all cabs are given a unique number between 1 and the total number of cabs in the company) and asked to guess the number of cabs in the company (the presentation of the problem in terms of taxicabs was inspired by <ref type="bibr" coords="8,91.89,394.34,48.56,8.10" target="#b17">Jaynes, 1994)</ref>. The taxicab scenario gave participants the information shown below.</p><p>Imagine that your business requires you to travel by train to a certain town or city for ten weeks. When the train pulls up at the station, you get into the first taxicab you find. As you get into the cab, you notice a serial number on the rear fender of your cab. You are curious about this, and ask the driver how the cabs are labeled. He tells you that each cab is given a unique number between 1 and the total number of cabs in the company, and that each number in that range corresponds to a cab. The serial number of this particular cab is 103.</p><p>Participants were asked to estimate the total number of cabs in the company. Additional observations were introduced in the next two sections, with numbers 34 and 72, then 61, 17, 29, 101, 97, 42, and 52.</p><p>For each of the scenarios, the first number given was the largest, meaning that further observations would only tighten the range of generalization. The largest examples were 34 min and 34 ng/mL for the teacake and toxin scenarios, respectively, and 103 s and 103 cabs for the train and taxicab scenarios, respectively. These values were selected on the basis of an expectation that they would be broadly consistent with people's expectations for these quantities. As can be seen above, the sets of numbers given were identical for the teacake and toxin scenarios and the train and taxicab scenarios. The numbers provided after the first number in each scenario were approximately uniformly distributed and were selected to suggest a random sampling process.</p><p>Procedure. Each participant received a questionnaire containing all three sections on a single sheet. At the top of the sheet was the statement "Please answer each question before going on to the next, and do not go back and change your answers" in boldface. These instructions were the same for all four conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>Plausible responses to these problems are constrained to be greater than the largest example provided, so participants who produced responses less than t past were viewed as not having understood the task and omitted from the analysis. This criterion eliminated approximately 15% of the participants in each of Experiments 1-3. Inspection of participants who were rejected suggested that they were giving estimates either of the spacing between observations or of the central tendency of the observations, consistent with two possible misunderstandings of the instructions. Responses more than 3 standard deviations from the mean were considered outliers and also excluded. Only one outlier was identified in the course of Experiments 1-3. Responses were transformed to t t past , where t is the raw score and t past is the largest example.</p><p>A one-way within-subjects analysis of variance (ANOVA) showed a statistically significant effect of the number of examples for each scenario: For the teacake scenario, F(2, 30) ϭ 9.71, mean square error (MSE) ϭ 0.23; for the train scenario, F(2, 32) ϭ 18.00, MSE ϭ 2.39; for the toxin scenario, F(2, 30) ϭ 15.05, MSE ϭ 0.017; and for the taxicab scenario, F(2, 44) ϭ 9.57, MSE ϭ 3.69, all ps Ͻ .001. Means and standard errors are shown in <ref type="figure" coords="8,316.93,368.06,30.81,8.10" target="#fig_2">Figure 3</ref>, which demonstrates that all four scenarios show a similar effect of new information. The figure also shows fits generated by our Bayesian model, using the Erlang prior with ␤ estimated for each scenario by minimizing the sum of the normalized squared errors to the human data (i.e., taking the difference between the model prediction and the mean of the human data for each point, dividing by the standard error for that mean, then summing over points). The parameterization of the distribution reflects the different priors that might exist across different scenarios, relative to the scale of the examples selected. The values of ␤ for the teacake, train, toxin, and taxicab scenarios were 1.6, 5.4, 0.7, and 4.4 times the maximum of t past , respectively. The peak of the Erlang prior is at t total ϭ ␤, yielding values of 54 min between batches of teacakes, 9 min 21 s between trains, 24 ng/mL of toxin, and 460 taxicabs, all of which seem appropriate.</p><p>The results are consistent with the predicted effect of multiple observations: Smaller predictions were made as more observations were provided. This effect appeared in both the temporal and the nontemporal tasks, as might be expected if all four tasks are viewed as instances of Bayesian inference. This pattern of behavior indicates that people update their beliefs as they receive additional observations, something that is not accommodated by existing heuristics. The variation in the absolute magnitude of responses across different tasks is also consistent with using an informative prior. Under the prior used by <ref type="bibr" coords="8,462.83,632.06,41.16,8.10" target="#b13">Gott (1994)</ref>, we would not expect to see such variation. In Experiment 2, we explore the issue of priors in more detail, examining whether priors can also be manipulated within scenarios. <ref type="bibr" coords="8,315.00,703.85,120.38,8.10" target="#b14">Griffiths and Tenenbaum (2006)</ref> explored the basic prediction that results from taking a Bayesian approach to predicting the future, showing that prior knowledge about the distribution of durations influences people's predictions. Experiment 1 provided further support for this idea, showing that there was variation in people's predictions across scenarios, which can be captured in the different distributions assumed for t total in our model. However, there are still two important questions to address related to the use of prior knowledge in predicting the future, concerning how such knowledge is represented and how it is combined with multiple observations. In Experiment 2, we explore these questions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 2: Priors</head><p>The question of how prior knowledge of durations is represented is relevant to understanding what kinds of algorithms might allow people to predict future events. The Mink heuristic proposed by <ref type="bibr" coords="9,48.00,472.85,72.89,8.10" target="#b24">Mozer et al. (2008)</ref> assumes that people have access to samples from the probability distribution P͑t total ͒ associated with the quantity to be predicted. Although this may be a reasonable assumption for some of the everyday prediction problems considered by Griffiths and <ref type="bibr" coords="9,82.42,516.85,67.70,8.10" target="#b14">Tenenbaum (2006)</ref>, it is clear that people can also make predictions in contexts where they might not have direct experience. In Experiment 2, we use a simple manipulation of prior knowledge, providing instructions that modify people's expectations, which is harder to account for in terms of drawing on some stored set of samples of t total .</p><p>The question of how prior knowledge is combined with multiple observations provides a further opportunity to examine whether people form predictions in a way that is consistent with Bayesian inference. The experiment conducted by <ref type="bibr" coords="9,196.61,615.85,91.44,8.10;9,48.00,626.85,23.99,8.10" target="#b14">Griffiths and Tenenbaum (2006)</ref> asked participants to make a prediction on the basis of only one observation. The results of Experiment 1 demonstrate that people can take into account information from multiple observations and seem to do so in a way that is consistent with Bayesian inference, reducing their predictions toward a value that is the largest observation so far as the number of observations increases. This is the result of the likelihood function (Equation 10) asserting a stronger preference for smaller values of t total as n increases and should thus appear independently of manipulation of the prior. In Experiment 2, we test this by providing multiple observations, in addition to manipulating the prior.</p><p>The basic strategy we adopted for exploring manipulations of people's priors was to provide our participants with information that we expected to affect their priors, obtain predictions with different numbers of observations, and then fit our Bayesian model to these results to estimate a prior distribution. We could then check whether the change in the inferred prior distributions was consistent with the change that should have been produced by the information that we provided to our participants.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head><p>Participants. Participants were 78 undergraduates participating for partial course credit. The participants were randomly assigned to four conditions. The teacake no prior condition had 17 participants, teacake prior had 16, train no prior had 22, and train prior had 23.</p><p>Stimuli. The teacake and train scenarios from Experiment 1 were used, together with two new scenarios. The new scenarios gave participants information that was designed to alter their prior before they were given specific numbers on which a prediction could be based. The sentence "A friend who you are walking with says that he worked in a coffee shop in the same chain last year, and that shops usually bake every two hours, although it varies from shop to shop" was added to the teacake scenario, and "In the course of your travels, you have noticed that most subway trains in this country run approximately every seven minutes, although it varies from place to place" to the train scenario. Both pieces of information were intended to increase the durations people would expect for these scenarios, being greater than the estimated mode in Experiment 1. These new scenarios were termed teacake prior and train prior, whereas the original scenarios were called teacake no prior and train no prior. All scenarios asked for predictions with one, three, and 10 examples, using the same numbers as those presented in the stimuli for Experiment 1.</p><p>Procedure. The procedure was the same as for Experiment 1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>Responses were screened using the same procedure as in Experiment 1. The scenarios were sorted into teacake and train groups and examined for the effect of number of examples and manipulating priors using two-way within-between ANOVAs. The teacake scenarios showed an effect of  <ref type="figure" coords="10,204.70,304.85,29.41,8.10" target="#fig_5">Figure 4</ref>, together with the model fits, obtained via the same method as was used in Experiment 1. The ␤ values used in fitting the data were 1.6, 3.3, 3.25, and 3.85 for the teacake no prior, teacake prior, train no prior, and train prior conditions, respectively. The ␤ values are greater in the conditions where the prior was raised and give peak values of 1 hr 52 min for the teacakes and 6 min 40 s for the trains. It is notable that these values are within 10% of the priors supplied in the experimental materials, supporting the efficacy of the manipulation and the appropriateness of the model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 3: Independence</head><p>Experiments 1 and 2 required participants to respond to a sequence of observations in which they see the largest value, make a response, see two smaller values, make another response, then see another seven values smaller than the first before making a third response. Although we interpret the decreasing trends observed in all three experiments as a rational statistical inference, a possible confound in these experiments is that the largest observation was always presented first. This suggests that participants might be applying an anchoring and adjustment heuristic <ref type="bibr" coords="10,513.56,143.74,32.49,8.10;10,306.00,154.89,74.86,8.10" target="#b32">(Tversky &amp; Kahneman, 1974)</ref>. Specifically, participants form an estimate after the first section of the questionnaire, use this estimate as an anchor, and then adjust downward as more information becomes available.</p><p>Experiment 3 was designed to obtain further constraints on heuristics that people might be using to make predictions. The experiment had two differences from Experiments 1 and 2. First, it used a between-subjects design in which each participant saw a single set of numbers (containing one, three, or 10 examples). The between-subjects design was intended to remove the opportunity for people to adjust their judgments between responses: The largest observation was always presented last and each participant made only a single response, so the task demands no longer made an explicit strategy of this kind attractive. Second, we manipulated the dependency structure of the samples. This provided a way to test whether the statistical structure of the problem affected people's predictions, which would be another aspect of human behavior that would need to be incorporated into heuristic accounts.</p><p>Formally, the treatment of dependency is as follows.  the maximum value of t past will have no effect on predictions about t total . An example of this would be standing outside the coffee shop and waiting, noting down the time on the clock every minute. Only the largest observed time should be used in evaluating how often teacakes are baked, as all of the other observations are rendered irrelevant by this (if the clock says 54 min, it would have said 53 min a minute ago, etc.). If people are using values of t past to make a statistical inference about t total , they should expect to see an effect of the number of observations when those examples are independent but not if they are dependent.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head><p>Participants. Participants were 220 undergraduates participating for partial course credit. Participants were randomly assigned to five conditions: 42 participants saw only a single example, whereas 37 saw three independent examples, 52 saw ten independent examples, 45 saw three dependent examples, and 44 saw ten dependent examples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stimuli.</head><p>Five questionnaires were used, representing two scenarios and three different numbers of examples. The original teacake scenario was used, together with a second scenario in which the successive observations of the clock outside the shop were rendered dependent. This was made apparent through a change in instructions. The questionnaire for three dependent examples read as follows:</p><p>Suppose that one day you decide to wait outside the shop until a fresh batch of teacakes is baked. You look up several times, and see that the clock reads 8, then 21, then 34 minutes, all without a new batch of teacakes being made.</p><p>Because the dependent times were listed from smallest to largest, the independent times on the original teacake scenario were presented in the same order. Each participant saw either one, three, or 10 examples. Because the notion of independence is irrelevant for a single example, only five conditions were needed.</p><p>Procedure.</p><p>The procedure was the same as that used in Experiments 1 and 2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>Responses were screened as in Experiment 1. The effect of examples was examined separately for the independent condition and the dependent condition, because the single example cell was used in both analyses. A one-way between-subjects ANOVA revealed that varying the number of examples had a statistically significant effect on predictions when the examples were independent, F(2, 102) ϭ 4.10, MSE ϭ 0.58, p Ͻ .05, but not when they were dependent, F(2, 115) ϭ 0.55, MSE ϭ 1.52, p ϭ .58, as predicted by our Bayesian account. The means for the different conditions are displayed in <ref type="figure" coords="11,407.97,255.85,29.87,8.10" target="#fig_6">Figure 5</ref>.</p><p>The results of this experiment suggest that people show a sensitivity to the statistical properties of the information provided when making judgments about time and cast doubt on explanations of the results in terms of a simple heuristic like anchoring and adjustment. First, the between-subjects design meant that people saw only one set of numbers and were thus not given an opportunity to explicitly anchor a judgment and then revise it incrementally in the face of further smaller durations. Second, the results provide no evidence for a tightening of generalization when the observations are dependent. A sensitivity to dependency needs to be part of an account of predicting the future: If people are using a simple heuristic to address the task, they are still making an inference about whether the statistical structure of the problem warrants the application of that heuristic.</p><p>Complete dependence between observations is obviously an extreme case, but it provides the strongest manipulation for testing whether people are sensitive to the statistical structure of their observations. We used this strong manipulation in part because a similar strategy has been used in exploring children's sensitivity to the way in which examples are sampled in word learning <ref type="bibr" coords="12,263.96,98.85,24.10,8.10;12,48.00,109.85,72.01,8.10" target="#b34">(Xu &amp; Tenenbaum, 2007a)</ref>. However, our results raise the question of how sensitive people are to this kind of statistical property of the input, which is something that can be explored in future work by providing vignettes that interpolate between complete independence and complete dependence. Understanding how people reason about dependencies between observations is particularly interesting given other work showing that people fail to appropriately account for biases in the way that their observations are sampled <ref type="bibr" coords="12,48.00,197.85,88.86,8.10">(Fiedler &amp; Juslin, 2006;</ref><ref type="bibr" coords="12,140.06,197.85,147.97,8.10" target="#b15">Hertwig, Barron, Weber, &amp; Erev, 2004;</ref><ref type="bibr" coords="12,48.00,208.85,81.11,8.10" target="#b26">Ross &amp; Nisbett, 1991)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 4: Predictions From Experienced Durations</head><p>Experiments 1--3 suggest that people's temporal predictions correspond well to the qualitative properties of our Bayesian account. However, these experiments all involve cognitive judgments about time: People receive a set of numbers that correspond to durations and are asked to produce a response in similar format. In our remaining experiments, we examined the effects of multiple observations and prior beliefs in a set of tasks where both the stimuli and the responses were actual durations. These experiments involved learning about Goodman gems, named for <ref type="bibr" coords="12,252.53,352.85,35.50,8.10;12,48.00,363.85,22.49,8.10" target="#b11">Goodman (1955)</ref>. These gems have the unique property that after a fixed amount of time, they change from one color to another. Each type of gem has two characteristic colors, spending the same amount of time displaying one color before switching to the other, and all gems of the same type take the same amount of time to change. People presumably expect gems not to change in color, so we used these stimuli as a way to introduce the task in a way where people would have relatively little prior knowledge about durations. In each experiment, the participants were presented with sets of gems under different viewing conditions and asked to judge, using a timer, how long it takes those gems to change color. In Experiment 4, we tested the basic predictions of our Bayesian model, exploring how people's judgments vary as the value of t past and the number of observations change. This was thus a replication and extension of Experiment 1 with perceptual rather than conceptual presentation of durations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head><p>Participants. Participants were 27 undergraduates participating for partial course credit.</p><p>Stimuli. The gems were presented as two-dimensional diamonds on a computer screen, and participants directly observed how long it took them to change color. There was no need to consider the psychophysical scaling of the stimuli, because the relationship between actual and perceived time is approximately linear for the intervals used in this experiment <ref type="bibr" coords="12,221.93,648.85,47.61,8.10" target="#b0">(Allan, 1979)</ref>.</p><p>Procedure. In an initial instruction and practice phase, participants were told about the properties of Goodman gems and then watched seven gems go through their full color change cycle, starting in one color, changing to a second, and then changing back to the first. The time taken for these gems to change color was uniformly spaced on a logarithmic scale, from 0.5 to 32 s. Partic-ipants saw these gems in random order and then learned how to click Start and Stop buttons with the mouse to record how long they thought the gems took to change color, on average. The initial instructions read as follows:</p><p>This is an experiment about a special kind of gemstone, called a Goodman gem. Goodman gems have the unique property of cyclically changing color. Each gem has two different colors. After a fixed amount of time, it will suddenly change from one color to the other. Some gems change color rapidly, while others take longer.</p><p>In this experiment, you will see Goodman gems of many different kinds. Your job is to estimate the how much time passes between color changes for each kind of Goodman gem.</p><p>Every Goodman gem of a particular kind changes color after exactly the same amount of time. You can tell that two gems are of the same kind because they have the same colors. This means that you can use your experiences with one gem of a particular kind to predict how much time should pass between changing colors for another gem of that kind.</p><p>Clicking on the button below with the mouse will show you seven samples of different kinds of Goodman gems changing color, one after the other. Each gem starts having just changed color, and you will see it change to its other color and then back again.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Clicking a button then led to the initial examples and training on the use of the Start and Stop buttons, with the following instructions:</head><p>Because this experiment involves making judgments about how much time it takes for a particular kind of Goodman gem to change color, you are going to use a timer to record your responses.</p><p>At several points in the experiment, you will be asked a question about time. For each question, the procedure will be exactly the same. You will see a "Start Timer" button, like the one below. When you are ready to record your response, click on the "Start Timer" button with the mouse.</p><p>When you click on the button, it will disappear and you will be told that the timer is running. A "Stop timer" button will also appear. You should then wait until the time since you pressed the "Start Timer" button is the same as the amount of time that corresponds to the answer to the question, then click on the "Stop Timer" button.</p><p>Following this initial phase, participants received further instructions outlining a story about miners and scientists, intended to establish the nature of the experimental task:</p><p>The seven kinds of Goodman gems you have seen so far were once thought to be the only Goodman gems in existence. However, it has recently been discovered that a group of miners in a faraway country has found fifteen other kinds of Goodman gems, and is trying to sell them to the highest bidder. As a consequence, the gems will probably be sold to private collectors. You represent a group of scientists who are interested in knowing how long it takes these particular Goodman gems to change color. Unfortunately the miners realize that once the scientists have this knowledge, they are less likely to try to buy the gems. Consequently, they won't let you see any of their new kinds of gems go through a complete color change cycle. However, since the miners need to demonstrate that these are actually Goodman gems, you have the opportunity to see each of their gems change color once.</p><p>There are fifteen new kinds of gems, and the miners are selling ten gems of each kind. You are only allowed to view one gem at a time.</p><p>Each gem is kept in a different room, and you enter the room at a random point in the color change cycle. Once the gem changes color, the miners lead you back out of the room.</p><p>The scientists with whom you are working want you to use the information you obtain from your observation of the gems to decide how much time it takes for gems of each kind to change color.</p><p>The instructions were discussed with each participant, ensuring that the nature of the sampling procedure was clear and emphasizing that they would have incomplete information for making these judgments.</p><p>In the main part of the experiment, participants saw 15 sets of new Goodman gems. The sets of gems were chosen in a 5 ϫ 3 factorial array, crossing the maximum time taken to change color (1, 2, 4, 8, or 16 s) with the number of examples (one, three, or 10). All of the gems of a single kind were seen one after the other, and the participants were presented with a display showing up to 10 rooms that they could choose to enter by clicking on different buttons. An example set of instructions at this point was as follows:</p><p>You are about to see a new kind of Goodman gem.</p><p>The miners have ten gems of this kind, each housed in a different room. On the next screen, you will see a set of buttons corresponding to the different rooms you can enter. To enter a room, click on the appropriate button. When you enter a room, you will see the color of the gem and will wait until it changes color.</p><p>All of the Goodman gems you see will be of the same kind, although they will be at a random point in their color change cycle when you encounter them.</p><p>In each set, one gem took the maximum time to change color, while the remaining durations were random values below this maximum, reflecting the fact that the participant had entered the room at a later point in the gem's color change cycle. The gems were shown in random order, so the point at which the gem taking the maximum time to change color appeared was randomized across sets and subjects. After viewing each set of gems, participants made a judgment about how long it took that type of gem to change color, using the Start and Stop buttons. For these judgments, they were given the following instructions:</p><p>Now make a guess about how much time passes before this particular kind of Goodman gem changes color. Since you haven't seen any gems change color and then change back again, you can't know for certain how much time it takes. Try to use the information you have obtained so far to make an informed guess.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>The design provides the same statistical structure as used in Experiments 1-3, although the effect of multiple observations is manipulated across sets of gems rather than within sets of gems. We should thus expect participants to produce smaller predictions for sets containing more examples. As in the previous experiments, responses shorter than the longest example indicate a misunderstanding of the requirements of the task. However, because actual duration estimates tend to be less precise than written responses, we relaxed our criterion to reject only those participants who produced responses that were less than half as long as the longest example. This procedure reduced the number of participants contributing data to 23. We used the same transformation as in the previous experiments for all analyses, converting responses t to t t past .</p><p>The results of the experiment are shown in <ref type="figure" coords="13,479.01,164.24,30.13,8.10" target="#fig_7">Figure 6</ref>, with the characteristic pattern of reduced generalization with more examples found in Experiments 1-3. A two-way within-subjects ANOVA revealed that there was a significant effect of number of examples, F(2, 44) ϭ 35.87, MSE ϭ 0.69, p Ͻ .001, and stimulus duration, F(4, 88) ϭ 43.04, MSE ϭ 0.48, p Ͻ .001, as well as a significant interaction between the two, F(8, 176) ϭ 15.16, MSE ϭ 0.37, p Ͻ .001. This pattern of results is consistent with our Bayesian model, as illustrated by the predictions resulting from using a prior in which ␤ is chosen so that the peak is at 4 s, the geometric mean of the values given as practice stimuli. These predictions are also shown in <ref type="figure" coords="13,416.96,285.24,35.32,8.10" target="#fig_7">Figure 6A</ref>.</p><p>The main effect of number of examples supports our argument, showing the characteristic pattern predicted by our Bayesian model as a result of the independent sampling assumption made in the likelihood. The main effect of stimulus duration also provides strong support for another aspect of our model, reflecting the combination of observed data with a prior distribution. <ref type="figure" coords="13,508.85,351.24,37.20,8.10" target="#fig_7">Figure 6A</ref> shows that this main effect results from participants producing smaller predictions relative to the maximal value of t past for stimuli of longer duration. That is, people tended to produce predictions for the total duration that were closer to the maximum observed duration as the maximum observed duration increased. Such an effect is impossible to explain with the uninformative prior used by <ref type="bibr" coords="13,306.00,428.24,42.05,8.10" target="#b13">Gott (1994)</ref>. Under Gott's analysis, we would expect to see the same pattern of predictions for all five durations. The smaller predictions with longer durations indicate that people have expectations about how long the gems should take to change color. When the observed durations are shorter than expected, they make a larger prediction. As the observed durations increase, the extent to which they are willing to go beyond the maximum observed value decreases. The ability of our model to capture this pattern with a single choice of ␤ equal to the geometric mean of the practice data suggests that people have estimated the typical time scale for this scenario and use that as an ingredient in a rational statistical prediction of duration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 5: Irrelevance of Order</head><p>Experiment 4 showed that the magnitude of people's predictions relative to the maximum value of t past decreases as a function of the number of examples, consistent with the predictions of our Bayesian model. An alternative explanation for these results could be formed on the basis of the fact that as the number of examples increases, so does the elapsed time between observing the maximum value of t past and making a prediction. With one observation, the maximum value has to be the last thing the participant saw. With three observations, there will typically be one other observation between the maximum value and the time when participants make a judgment. With 10 observations, there will typically be four or five observations between the maximum value and the time when participants make a judgment. This increase in elapsed time could account for our results if people forget earlier observations or if people put greater weight on more recent trials (a recency effect).</p><p>To address this alternative explanation, we replicated Experiment 4 but fixed the order of examples so that the largest value of t past always appeared last. Our Bayesian model is insensitive to the order of the observations and thus the basic pattern of results should be similar to those of Experiment 4. Recent work has pointed out that order effects pose a challenge for Bayesian models that assume observations are independent and identically distributed (e.g., <ref type="bibr" coords="14,88.01,615.85,59.24,8.10" target="#b20">Kruschke, 2006)</ref>. Our goal here is not to exhaustively rule out order effects in the predicting the future task but to examine whether this specific aspect of order-the location of the maximal observation-could account for our findings in Experiment 4. If the distance between this maximum value and the prediction is responsible for the observed effect, then the effect should be removed by adopting this presentation order. If people are instead sensitive just to the statistical structure of the task, we would expect to see an effect of multiple observations despite the maximum value of t past appearing last.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head><p>Participants. Participants were 21 undergraduates participating for course credit.</p><p>Stimuli. Stimuli were the same as for Experiment 4. Procedure. Procedure was the same as for Experiment 4, except the largest value of t past was always the last to be presented.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>Two participants produced values of t less than half as long as t past and were excluded from the analysis. The same transformation as in Experiment 4 was used for all analyses. The results are shown in <ref type="figure" coords="14,316.09,637.85,39.52,8.10" target="#fig_7">Figure 6Bb</ref>. The results reproduced the pattern seen in Experiment 4, with a significant effect of number of examples, F(2, 38) ϭ 31.50, MSE ϭ 0.27, p Ͻ .001, and stimulus duration, F(4, 76) ϭ 20.94, MSE ϭ 0.69, p Ͻ .001, and a significant interaction between the two, F(8, 152) ϭ 5.71, MSE ϭ 0.24, p Ͻ .001. Again, the results were consistent with our Bayesian account, as can be seen from the predictions of the model with the same value of ␤ as in Experiment 4, also shown in <ref type="figure" coords="14,424.71,714.85,35.00,8.10" target="#fig_7">Figure 6B</ref>. Our results indicate that forgetting previous observations or placing greater weight on more recent observations cannot account for the decrease in the magnitude of people's predictions relative to the maximal value of t past as they obtain more observations. Even when the maximal value was the most recent, we saw a decrease in predictions consistent with our Bayesian model. However, this experiment examined only one manipulation of the order of observations and does not rule out the possibility of order effects in this task. Because our Bayesian model predicts that the order of observations should be irrelevant to people's predictions, a more comprehensive investigation of order effects would provide a strong test of the model.</p><p>Taken together, these two experiments suggest that the effect of multiple examples observed in Experiments 1-3 extends beyond cognitive stimuli dealing with time, affecting explicitly temporal judgments in which both stimuli and responses are actual durations. The results also illustrate that the effect of multiple observations can be obtained in situations where judgments are not a direct result of the revision of beliefs in the face of new information. Because the experiment used different stimuli for sets of different sizes, the resulting judgments did not reflect the gradual accumulation of information about a single temporal quantity but several decisions about different quantities. People showed the predicted effect of multiple observations in making these decisions. This outcome is similar to that obtained in Experiment 3 but extends the result to perceptual stimuli and a situation in which a single individual makes multiple judgments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General Discussion</head><p>Predicting the future is a difficult inductive problem but one that people often solve effortlessly. Our results suggest that people's predictions about temporal events are consistent with a rational statistical account of predicting the future, which uses Bayesian inference to combine prior knowledge of durations with information from multiple examples. Experiment 1 showed that the effect of providing further examples conformed to the predictions of our Bayesian model: More examples promoted a reduction in the scope of generalization, with predictions becoming closer to the largest example provided. Experiment 2 showed that people's predictions could be affected by the manipulation of their prior expectations and that this effect was consistent with the interaction of priors and likelihoods in Bayesian inference. Experiment 3 showed that the revision of beliefs as a result of further information was appropriately sensitive to the dependency structure of the observations. Finally, Experiments 4 and 5 demonstrated that the effect of multiple observations extended to explicitly temporal judgments with perceptual stimuli and situations in which judgments did not require the direct revision of beliefs.</p><p>These results provide constraints on possible algorithms that people could be using to predict future events. People's predictions are inconsistent with existing simple heuristics, such as the multiplicative rule proposed by <ref type="bibr" coords="15,155.14,648.85,43.78,8.10" target="#b12">Gott (1993)</ref> and the Mink heuristic proposed by <ref type="bibr" coords="15,97.57,659.85,72.59,8.10" target="#b24">Mozer et al. (2008)</ref>. In particular, neither of these heuristics provides an account of how multiple observations should influence predictions, making it difficult to explain the results of Experiments 1, 4, and 5. The sensitivity to instructional manipulation of priors in Experiment 2 and statistical dependency structure observed in Experiment 3 also suggests that people are doing something more sophisticated than naively applying a simple heuristic, because they seem to take into account prior knowledge of durations in a form other than samples from the distribution and the sampling process by which the observations were generated. This kind of sensitivity is consistent with treating the problem of forming predictions as one of statistical inference.</p><p>In the remainder of the article, we explore in detail several issues that are raised by our results. First, we discuss how accounts of predicting the future at different levels of analysis can be mutually informative. Our analysis is at <ref type="bibr" coords="15,457.12,175.85,51.71,8.10" target="#b23">Marr's (1982)</ref> computational level, defining the computational problem presented by predicting the future and considering how it might be solved. Characteristically for this kind of analysis, we have been concerned with why people make the judgments they do rather than how they make those judgments. Further insights into the algorithms behind everyday prediction of the future can be gained from a study by <ref type="bibr" coords="15,348.45,252.84,107.42,8.10" target="#b29">Sternberg and Kalmar (1997)</ref>, and our computational account suggests some simple heuristics in addition to those considered so far that may guide people's predictions. Having discussed these issues, we briefly consider how predicting the future relates to other cognitive problems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Levels of Analysis</head><p>In presenting a Bayesian account of predicting the future, we are not claiming that people explicitly perform Bayesian calculations whenever they pass a coffee shop or arrive at a train station. Rather, we are claiming that a probabilistic analysis of the problem of predicting the future can provide insight into the human ability to solve inductive problems. This account is complementary to analyses of the cognitive processes involved in forming predictions (e.g., <ref type="bibr" coords="15,348.57,417.85,102.46,8.10" target="#b29">Sternberg &amp; Kalmar, 1997)</ref> and can be conducted in parallel with investigations of whether people's judgments can be explained in terms of simple heuristics.</p><p>Computation and algorithm. <ref type="bibr" coords="15,440.66,450.85,45.62,8.10" target="#b23">Marr (1982)</ref> identified three levels at which theories of cognition can provide explanations: computational, algorithmic, and implementational. In analyzing the problem of predicting the future, we aim to provide an explanation at the computational level, addressing the question "What is the goal of the computation, why is it appropriate, and what is the logic of the strategy by which it can be carried out? " <ref type="bibr" coords="15,500.23,516.85,45.80,8.10;15,306.00,527.85,19.67,8.10">(Marr, 1982, p. 25)</ref>. We have made no commitments to the algorithms by which people solve this computational problem or how they might be implemented. Theories at these different levels have the potential to provide complementary insights into people's ability to predict the future. Although neuroscientists have begun to investigate the neural basis of prediction <ref type="bibr" coords="15,399.97,582.85,130.72,8.10" target="#b16">(Huettel, Mack, &amp; McCarthy, 2002)</ref> and the perception of time <ref type="bibr" coords="15,393.86,593.85,116.64,8.10" target="#b8">(Eagleman &amp; Holcombe, 2002)</ref>, we still lack a clear account of how the ability to predict the future might be implemented in people's brains. However, a detailed algorithmic-level analysis of everyday induction was conducted by <ref type="bibr" coords="15,306.00,637.85,105.29,8.10" target="#b29">Sternberg and Kalmar (1997)</ref>, providing some results that parallel our findings. <ref type="bibr" coords="15,315.00,659.85,107.51,8.10" target="#b29">Sternberg and Kalmar (1997)</ref> had participants make a series of judgments about events either in the future or in the past (they termed these tasks prediction and postdiction, respectively) and then used psychometric techniques to establish which properties of the stimuli affected the time taken to form these judgments. Their results were interpreted in terms of a 17-step information-processing model, where each step identified a computational operation involved in encoding the stimuli, accessing memory, forming a prediction, and making a response. The variables found to affect response time included the amount of time between the present and the past or future date, whether the judgment was prediction or postdiction, and how much additional information might be needed to make a prediction. On the basis of these results, Sternberg and Kalmar concluded that the key steps in the algorithm were those that involved computing the difference between the current and the past or future time and developing a schema describing the event. <ref type="bibr" coords="16,57.00,197.85,111.70,8.10" target="#b29">Sternberg and Kalmar's (1997)</ref> results suggest that the strategies people use to make predictions about the past and the future are highly similar, with overlapping (but nonidentical) factors influencing response latencies in prediction and postdiction. This provides a nice algorithmic analogue to our analysis, in which values of t past and t future are equally informative about t total (as discussed briefly in Experiment 1). Their findings also illustrate the important role that prior knowledge plays in everyday inductive inferences. Although our analysis assumes a simple prior, in which domain knowledge is reflected only in the choice of ␤, the retrieval and processing of information relevant to a problem will be an important step in being able to reach solutions that reflect both appropriate knowledge about the domain and the effect of the observations.</p><p>Statistics and heuristics. The consistency of human behavior with our Bayesian model suggests that people's intuitions about predicting the future can be understood in terms of rational statistical inference but does not imply that they work through Bayes' rule whenever they need to make predictions. Presumably, people are following some cognitive algorithm when solving this problem. An analysis of a problem at the computational level can provide informative constraints on possible algorithmic-level theories. In this case, behavior consistent with our Bayesian model provides constraints on the heuristics that people might be using in solving the problem of predicting the future. The standard use of heuristics in psychological theory is as a direct alternative to applying any form of Bayesian reasoning to a problem. In contrast, we view heuristics as providing simple means of achieving solutions similar to the Bayesian solution, without the computational overhead. A probabilistic analysis of a cognitive problem is complementary to identifying a heuristic that seems consistent with human behavior: The probabilistic analysis can explain why a particular heuristic is useful, while the heuristic answers the question of how people are able to perform a task.</p><p>Our experiments illustrate that people seem to combine observations with prior knowledge in a way that is consistent with Bayesian inference and can take into account information from multiple observations. A heuristic account needs to be able to accommodate both of these findings. The Mink heuristic introduced by <ref type="bibr" coords="16,85.10,626.85,72.64,8.10" target="#b24">Mozer et al. (2008)</ref> illustrates how the effects of prior knowledge on predictions could be implemented without requiring sophisticated probabilistic computations. <ref type="bibr" coords="16,203.21,648.85,67.69,8.10">Mozer et al. used</ref> this heuristic to show that results consistent with our Bayesian analysis could be produced by aggregating across a population in which each participant has access to only k samples from the prior. Subsequent work using a within-subjects version of the predicting the future task provides evidence against this account <ref type="bibr" coords="16,209.85,703.85,78.18,8.10;16,48.00,714.85,18.64,8.10" target="#b22">(Lewandowsky et al., 2009)</ref>. However, sampling from the prior still provides a good way to approximate Bayesian inference and is consistent with performance on this task if participants draw a new set of k samples from the prior each time they have to make an inference <ref type="bibr" coords="16,505.95,98.84,40.10,8.10;16,306.00,109.84,19.37,8.10" target="#b28">(Shi et al., 2010)</ref>. Indeed, approximations based on a small number of samples can represent an optimal trade-off between accuracy and computation time <ref type="bibr" coords="16,372.99,131.84,62.35,8.10" target="#b33">(Vul et al., 2009)</ref>.</p><p>The Mink heuristic, in its current form, is not capable of accounting for how people incorporate information from multiple observations (as illustrated in Experiments 1, 4, and 5), how they adjust their priors on the basis of verbal instructions (as illustrated in Experiment 2), or why they are sensitive to the statistical dependency structure of their observations (as illustrated in Experiment 3). Each of these results thus poses a challenge to this account. However, this does not mean that it will not be possible to construct a heuristic that satisfies these constraints. For the purpose of illustration, we show how simple heuristics might be able to account for the effect of multiple observations. We consider two variants on a simple heuristic, making use of the intuition that as the density of observations in an interval increases, the range of generalization should decrease. The simplest form of this density heuristic is the rule "The distance to extrapolate is the range of scores divided by the number of examples." Using this heuristic, the predicted value of t total is</p><formula xml:id="formula_12" coords="16,398.91,337.82,146.91,20.82">t ϭ t past ϩ t past n .<label>(12)</label></formula><p>This heuristic derives its pedigree from frequentist statistics, where statistical problems equivalent to our problem of predicting the future are addressed by using t as an unbiased estimator of t total . This simple density heuristic is insensitive to scale and thus cannot account for the variation in judgments seen in Experiments 1 and 2. In fact, it is closely related to our Bayesian model with the scale-free prior: A first-order Taylor series expansion of P͑t total Ͼ t͉T͒ around the maximum value of t past gives the prediction t ϭ t past ϩ t past 2n . Using this heuristic might thus make sense if one has very little knowledge about the domain, but it would be inappropriate if one has a sense of the scale of predictions.</p><p>To accommodate the results of our experiments, a heuristic needs to reflect the natural scale of durations in a particular domain. Observing that the Erlang prior results in the prediction t ϭ t past ϩ ␤log2 with a single observation, we might define a density heuristic for a domain with a natural scale to be</p><formula xml:id="formula_13" coords="16,402.17,562.41,143.66,21.42">t ϭ t past ϩ ␤ n .<label>(13)</label></formula><p>Here, the density of the observations is evaluated not with respect to t past but with respect to the assumed scale of the problem. This heuristic gives a reasonably good account of our data from Experiments 4 and 5 with ␤ ϭ 2.7 s, as can be seen in <ref type="figure" coords="16,482.25,626.85,29.21,8.10" target="#fig_8">Figure 7</ref>. The full Bayesian model with an Erlang prior gives correlations of .933 and .920 for Experiments 4 and 5, respectively, while this density heuristic gives correlations of .906 and .895, respectively. Just as the Erlang prior is not suitable for all circumstances (e.g., predicting human life spans and the grosses of movies, as discussed above and in <ref type="bibr" coords="16,334.90,692.85,115.46,8.10" target="#b14">Griffiths &amp; Tenenbaum, 2006)</ref>, this particular heuristic might be expected to have limited application. However, heuristics based on density should be able to capture one of the central results of our Bayesian analysis and our experiments: the decrease in the extent of generalization as a function of the number of examples. Taken together, using samples from the prior and paying attention to the density of observations might provide a way to approximate our Bayesian model. However, adopting the appropriate heuristic for producing such an approximation might be a challenging task in itself. Although assessing the density of a set of observations does not require any statistical sophistication, people still need to be sufficiently aware of the statistical structure of a problem to know that applying a particular heuristic is justified: The results of Experiment 3 indicate that if a set of observations has the wrong dependency structure, people do not apply this kind of heuristic. Judging whether a simple heuristic is applicable can require a complex inference that relies on subtle details of a problem and is a current topic of investigation in research on heuristics <ref type="bibr" coords="17,85.49,629.84,108.71,8.10" target="#b10">(Gigerenzer &amp; Brighton, 2009</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Predicting the Future and Other Cognitive Problems</head><p>We have considered predicting the future to be a desirable goal in itself, but being able to form such judgments also has important implications for other areas of cognition. In this section, we consider how our analysis relates to work on memory and generalization.</p><p>Memory and the future. Our analysis of predicting the future is based on the problem of predicting the duration of events, but a similar statistical analysis can be provided for other kinds of prediction tasks. In any such task, the key to making predictions will be specifying a statistical model that captures the quantities to be predicted and the relationship between past and future observations. <ref type="bibr" coords="17,337.29,533.02,62.02,8.10" target="#b1">Anderson (1990)</ref> argued that a number of phenomena in human memory can be understood by considering the goal of memory to be the efficient storage of facts that are likely to be needed in the future. Anderson's analysis of this problem views the memory system as assuming a simple statistical model of when facts are needed, essentially a nonhomogeneous Poisson process, and estimating the properties of each fact according to this model. While the specifics of his account differ from ours, the two approaches embody a similar philosophy in providing a computational level analysis of the problem of predicting the future. <ref type="bibr" coords="17,532.06,635.29,9.33,8.10;17,306.00,646.66,50.29,8.10" target="#b1">Anderson (1990)</ref> suggested that these inferences occur unconsciously and are an important part of the human memory. One attractive component of future research is thus exploring the extent to which unconscious temporal judgments more broadly reflect simple statistical principles.</p><p>Predicting the future as generalization through time. Our Bayesian approach to predicting the future is closely related to  <ref type="bibr" coords="18,48.00,76.85,62.47,8.10" target="#b27">Shepard's (1987)</ref> analysis of the problem of generalization. Given two objects x and y, represented as points in a psychological space, and the knowledge that x has a particular property (equivalent to belonging to a consequential region in psychological space C, containing all objects with that property), the problem of generalization involves computing the probability that y also has that property, P(y ʦ C|x). <ref type="bibr" coords="18,129.16,142.85,61.67,8.10" target="#b27">Shepard (1987)</ref> used a simple Bayesian argument to show that this probability decreases as an exponential function of the distance between x and y. <ref type="bibr" coords="18,57.00,175.85,124.52,8.10" target="#b31">Tenenbaum and Griffiths (2001)</ref> extended <ref type="bibr" coords="18,223.38,175.85,64.67,8.10" target="#b27">Shepard's (1987)</ref> analysis of the problem of generalization to cover different kinds of consequential regions and to allow for situations in which not just a single object x but a set of objects X were offered as examples drawn from C. The generalization function P(y ʦ C|X) can be evaluated via Bayesian inference, computing</p><formula xml:id="formula_14" coords="18,100.97,249.82,186.89,22.25">P͑y ʦ C͉X͒ ϭ ͐ hʦH͉͕X,y͖ʕh P͑X͉h͒P͑h͒ ͐ hʦH͉Xʕh P͑X͉h͒P͑h͒ ,<label>(14)</label></formula><p>where h is a hypothetical consequential region, H is the set of all such hypotheses, P(X|h) is the probability of the set of objects X being sampled from the consequential region h, and P(h) is a prior on consequential regions. <ref type="bibr" coords="18,141.82,314.85,117.06,8.10" target="#b31">Tenenbaum and Griffiths (2001)</ref> defined the likelihood P(X|h) to be</p><formula xml:id="formula_15" coords="18,109.48,340.74,178.36,36.19">P͑X͉h͒ ϭ ͭ ͩ 1 ͉h͉ ͪ n X ʦ h 0 otherwise<label>(15)</label></formula><p>where |h| is the size of h, being the number of objects in a discrete set or the measure of a continuous hypothesis, and n is the number of objects in X. The likelihood reflects the assumption that the objects were independently sampled uniformly at random from h and implies that smaller, more specific hypotheses will receive higher probabilities than larger, more general hypotheses, even when both are equally consistent with the set of observations. <ref type="bibr" coords="18,48.00,464.57,117.04,8.10" target="#b31">Tenenbaum and Griffiths (2001;</ref><ref type="bibr" coords="18,167.40,464.57,68.09,8.10" target="#b30">Tenenbaum, 1999)</ref> called this the size principle.</p><p>The method for predicting the future outlined above can be expressed in terms of Equation 14. H is the set of all possible durations of a phenomenon, with each h an interval ͓0,t total ͔ for t total ʦ ͓0,ϱ͒. Instead of X, we observe T, a set of n observations with maximum value t past , and it is easily seen that Equation 15 becomes Equation 10: The Copernican anthropic principle is equivalent to the size principle. Instead of y, we have a new time t, and thus Equation 14 becomes P͑t total Ͼ t͉T͒ ϭ ͐ t ϱ P͑T͉t total ͒P͑t total ͒dt total ͐ tpast ϱ P͑T͉t total ͒P͑t total ͒dt total , which is exactly the same computation as Equation <ref type="formula" coords="18,240.44,615.84,3.38,8.10" target="#formula_6">6</ref>. The problem of predicting the duration of a phenomenon is equivalent to <ref type="bibr" coords="18,101.88,637.84,64.68,8.10" target="#b27">Shepard's (1987)</ref> problem of generalization. Although Shepard's original formulation involved generalization through psychological space, predicting the future involves generalization through time. We should thus expect to find similar principles guiding people's generalizations regardless of whether they involve time or some other quantity, as long as they embody the same statistical structure. As mentioned earlier in the article, one problem that has the same structure as predicting the future is predicting healthy levels of imaginary toxins: given a number that is a healthy level of a particular toxin, guessing the highest level of the toxin that would be considered healthy. This situation is exactly analogous to predicting the total duration of an event from the amount of elapsed time since the start of the event. In both cases, one is given a number that is assumed to be randomly sampled from the set of all numbers satisfying a particular criterion and then asked to judge the nature of this criterion. Because both duration and toxin levels are numbers required to be between 0 and some maximum number, this judgment requires the estimation of the maximum number (t total in the case of predicting the future). The results of Experiment 1, in which judgments for healthy levels of toxins were similar to predictions of t total , provides support for the idea that predicting the future may simply be an aspect of the human ability to form meaningful generalizations.</p><p>Other problems of estimation and prediction. Our analysis of predicting the future involves a very specific situation in which people need to form an estimate of the total extent or duration of a phenomenon and that quantity is constant across multiple observations. This limits the range of problems to which the simple solution that we present here should be applied. One restrictive assumption is that there is no variability in the total extent or duration across instances of a phenomenon. For example, in our teacake scenario, the coffee shop baked to a fixed but unknown schedule. However, most coffee shops probably bake on a variable schedule throughout the day, meaning that t total is not a single fixed value but something that varies from batch to batch. This can be incorporated into our Bayesian model by making our hypotheses represent different forms for the distribution of t total , rather than a single value, but this adds a significant amount of complexity.</p><p>This example should make it clear that our Bayesian model does not provide a general solution to problems of estimation and prediction. The Bayesian framework, in which prior knowledge is combined with the information provided by a set of observations, can be used to solve these problems in general, but the nature of the hypotheses under consideration will vary from task to task. The analysis given in the previous section should make it clear that another Bayesian model- <ref type="bibr" coords="18,397.36,483.85,66.68,8.10" target="#b27">Shepard's (1987)</ref> account of generalization-corresponds to assuming a slightly more general class of hypotheses. Bayesian models used in other domains, such as models of category learning (e.g., <ref type="bibr" coords="18,431.56,516.85,59.28,8.10" target="#b2">Anderson, 1991)</ref>, provide strategies for estimating probability distributions over observations, taking different forms for those distributions as the hypotheses that they evaluate. Forming good predictions requires using a set of hypotheses that matches the structure of the problem to be solved, as well as prior knowledge appropriate to that domain.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>The ability to effortlessly solve inductive problems is one of the most compelling aspects of human cognition. Bayesian inference provides a natural framework for studying everyday induction, being a formal method for combining rational statistical inferences from observations with rich prior knowledge. These two components are central to understanding how it is that people can solve difficult inductive problems. In this article, we have shown how the problem of predicting the future can be addressed within this framework and examined how well a Bayesian model of predicting the future accounts for people's judgments. The results of our experiments indicate that people behave in a way that is consistent with our Bayesian model, incorporating information from multiple observations, using prior knowledge, and being sensitive to the statistical structure of the observed data. These results provide constraints on algorithms that might explain how people are able to solve the challenging problem of predicting the future.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="4,117.00,294.49,360.04,7.20;4,117.00,304.49,360.00,7.20;4,117.00,314.49,360.01,7.20;4,117.00,324.49,360.04,7.20;4,117.00,334.49,360.04,7.20;4,117.00,344.49,360.02,7.20;4,117.00,354.49,359.75,7.94;4,117.00,364.49,360.02,7.94;4,117.00,374.49,360.01,7.94;4,117.00,384.49,360.00,7.20;4,117.00,394.49,360.03,7.20;4,117.00,404.49,109.52,7.20"><head>Figure 1 .</head><label>1</label><figDesc>Effects of prior knowledge on predicting the future. The upper panels show the distributions associated with five everyday quantities: human life spans (in years), the run-times of movies (in minutes), the box office gross of movies (in millions of United States dollars), the length of poems (in lines), and the time served by members of the U.S. House of Representatives (in years). The histograms show the actual distributions, and the black curves show approximations from Gaussian (life spans and movie run-times), power-law (movie grosses and length of poems), and Erlang (time in the House of Representatives) distributions.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="5,178.05,700.00,109.99,8.10;5,48.00,714.85,240.05,8.10;5,306.00,83.44,130.48,8.10;5,439.77,72.31,4.88,24.57;5,450.11,76.12,4.50,8.10;5,445.73,88.84,13.38,8.93;5,459.39,72.31,4.88,24.57;5,462.37,74.93,2.75,4.95;5,465.12,83.44,80.88,8.10;5,306.00,98.25,240.05,8.10;5,306.00,109.25,166.93,8.10"><head></head><label></label><figDesc>2B, the model shows an effect of the number of examples, resulting from the fact that the likeli-hood of n independent examples is ͩ 1 t total ͪ n . The exponent in the likelihood gives smaller durations more weight as the number of examples increases, reducing the estimate of t.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="9,117.00,267.43,360.02,7.20;9,117.00,277.43,359.99,7.20;9,117.00,287.43,360.04,7.20;9,117.00,297.43,360.03,7.20;9,117.00,307.43,173.04,7.20"><head>Figure 3 .</head><label>3</label><figDesc>Results of Experiment 1. The mean responses for each condition are displayed in the same format as Figure 2, with one, three, and 10 examples corresponding to the left, center, and right points on each plotted line. Error bars show one standard error. All four conditions show a clear effect of number of examples, irrespective of whether they are judgments involving time, as well as variation in the overall range of generalization corresponding to differences in priors.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="10,194.69,183.85,93.35,8.10;10,48.00,194.25,240.02,9.00;10,48.00,205.25,240.03,9.00;10,48.00,216.25,240.03,9.00;10,48.00,227.85,240.06,8.10;10,48.00,238.25,240.03,9.00;10,48.00,249.25,240.04,9.00;10,48.00,260.25,240.01,9.00;10,48.00,271.85,240.05,8.10;10,48.00,282.85,240.06,8.10;10,48.00,293.85,143.20,8.10;10,57.00,304.85,145.16,8.10"><head></head><label></label><figDesc>the number of examples, F(2, 42) ϭ 25.87, MSE ϭ 0.27, p Ͻ .001, and manipulating priors, F(1, 21) ϭ 4.70, MSE ϭ 1.72, p Ͻ .05, as well as an interaction between the two, F(2, 42) ϭ 3.80, p Ͻ .05. Similar results were shown for the train scenarios. There was a statistically significant effect of the number of examples, F(2, 68) ϭ 50.31, MSE ϭ 0.62, p Ͻ .001, as well as an effect of manipulating priors, F(1, 34) ϭ 5.85, MSE ϭ 1.58, p Ͻ .05). In both groups, the effect of the number of examples replicates the results of Experiment 1, and the higher means for the group given the raised prior is consistent with the predictions of our Bayesian model. Means and standard errors are shown in</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="10,512.55,355.54,33.50,8.10;10,306.00,366.69,240.03,8.10;10,306.00,377.83,240.04,8.10;10,306.00,388.98,240.05,8.10;10,306.00,400.13,240.04,8.10;10,306.00,411.28,240.05,8.10;10,306.00,422.42,240.05,8.10;10,306.00,433.57,240.05,8.10;10,306.00,444.71,240.04,8.10;10,306.00,455.84,240.05,8.10"><head></head><label></label><figDesc>The likelihood given in Equation 10 only applies if the n examples of the set are independent. This would be the case if a phenomenon was observed on several different occasions, where each occasion corresponds to a different instance of the phenomenon (as in our examples in Experiments 1 and 2, where different episodes of baking or different trains are observed). If the observations are completely dependent, as would be the case if they were all observations of a single instance of the phenomenon, the likelihood is that given in Equation 11, and new observations less than</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="10,117.00,685.45,360.02,7.20;10,117.00,695.45,359.99,7.20;10,117.00,705.45,360.02,7.20;10,117.00,715.45,35.32,7.20"><head>Figure 4 .</head><label>4</label><figDesc>Results of Experiment 2. The mean responses for each condition are displayed in the same format as Figure 3, with one, three, and 10 examples corresponding to the left, center, and right points on each plotted line. Error bars show one standard error. The results are consistent with the manipulation of the priors described in the text.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="11,117.00,685.45,360.02,7.20;11,117.00,695.45,359.99,7.20;11,117.00,705.45,360.03,7.20;11,117.00,715.45,53.53,7.20"><head>Figure 5 .</head><label>5</label><figDesc>Results of Experiment 3. The mean responses for each condition are displayed in the same format as Figure 3, with one, three, and 10 examples corresponding to the left, center, and right points on each plotted line. Error bars show one standard error. An effect of multiple observations is only observed when the examples are independent.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7" coords="14,117.00,418.76,360.03,7.20;14,117.00,428.76,360.02,7.20;14,117.00,438.76,360.05,7.20;14,117.00,448.76,360.03,7.20;14,117.00,458.76,120.20,7.20"><head>Figure 6 .</head><label>6</label><figDesc>A: Results of Experiment 4. B: Results of Experiment 5. The mean responses for each condition are displayed in the same format as Figure 3, with one, three, and 10 examples corresponding to the left, center, and right points on each plotted line. Error bars show one standard error. The effect of multiple observations persists with perceptual stimuli and the variation in the size of predictions can be accounted for by assuming a single prior distribution over total duration.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8" coords="17,117.00,420.77,360.02,7.20;17,117.00,430.77,272.76,7.20"><head>Figure 7 .</head><label>7</label><figDesc>A: Results of Experiment 4. B: Results of Experiment 5. The dotted lines indicate the predictions of a version of the density heuristic that fixes a natural scale, as described in the text.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">This document is copyrighted by the American Psychological Association or one of its allied publishers.This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">It should be noted that this is an improper prior, because it does not integrate to 1 over all values of t total from 0 to ϱ. Such priors can be used in Bayesian inference in cases where the resulting posterior distribution still integrates to 1, as it does in this case. For details, see<ref type="bibr" coords="3,492.43,705.54,44.77,7.20" target="#b18">Jaynes (2003)</ref> or<ref type="bibr" coords="3,306.00,715.54,88.42,7.20" target="#b5">Bernardo and Smith (1994)</ref>.</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0" />
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="19,48.00,172.54,240.03,7.20;19,56.00,182.54,128.74,7.20" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The perception of time</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">G</forename><surname>Allan</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/BF03204158</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Perception &amp; Psychophysics</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="340" to="354" />
+			<date type="published" when="1979" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,48.00,192.54,240.00,7.20;19,56.00,202.54,29.55,7.20" xml:id="b1">
+	<monogr>
+		<title level="m" type="main">The adaptive character of thought</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<publisher>Erlbaum</publisher>
+			<pubPlace>Hillsdale, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,48.00,212.54,240.02,7.20;19,56.00,222.54,230.11,7.20" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The adaptive nature of human categorization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-295X.98.3.409</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="409" to="429" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,48.00,232.54,240.02,7.20;19,56.00,242.54,232.00,7.20;19,56.00,252.54,68.22,7.20" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Reflections of the environment in memory</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">J</forename><surname>Schooler</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1467-9280.1991.tb00174.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="396" to="408" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,48.00,262.54,240.02,7.20;19,56.00,272.54,232.00,7.20;19,56.00,282.54,92.22,7.20" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Basing categorization on individuals and events</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">W</forename><surname>Barsalou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Huttenlocher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Lamberts</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/cogp.1998.0687</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="203" to="272" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,48.00,292.54,240.04,7.20;19,56.00,302.54,37.99,7.20" xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Bayesian theory</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Bernardo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">F M</forename><surname>Smith</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>Wiley</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,48.00,312.54,240.03,7.20;19,56.00,322.54,161.95,7.20" xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Anthropic bias: Observation selection effects in science and philosophy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Bostrom</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>Routledge</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,48.00,332.54,240.01,7.20;19,56.00,342.54,105.33,7.20" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Future prospects discussed</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Buch</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/368107b0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">368</biblScope>
+			<biblScope unit="page" from="107" to="108" />
+			<date type="published" when="1994-03-10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,48.00,352.54,240.01,7.20;19,56.00,362.54,232.00,7.20;19,56.00,372.54,55.99,7.20" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Causality and the perception of time</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Eagleman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">O</forename><surname>Holcombe</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1364-6613(02</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cognitive Sciences</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1945" to="1954" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,48.00,382.54,240.01,7.20;19,56.00,392.54,200.19,7.20" xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Information sampling and adaptive cognition</title>
+		<editor>Fiedler, K., &amp; Juslin, P.</editor>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge, England</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,48.00,402.54,240.03,7.20;19,56.00,412.54,232.02,7.20;19,56.00,422.54,125.56,7.20" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Homo heuristicus: Why biased minds make better inferences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Gigerenzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Brighton</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1756-8765.2008.01006.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Topics in Cognitive Science</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="107" to="143" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,48.00,432.54,240.03,7.20;19,56.00,442.54,55.33,7.20" xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Fact, fiction, and forecast</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Goodman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1955" />
+			<publisher>Harvard University Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,48.00,452.54,240.01,7.20;19,56.00,462.54,230.39,7.20" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Implications of the Copernican principle for our future prospects</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Gott</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Iii</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/363315a0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">363</biblScope>
+			<biblScope unit="page" from="315" to="319" />
+			<date type="published" when="1993-05-27" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,48.00,472.54,240.02,7.20;19,56.00,482.54,88.89,7.20" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Future prospects discussed</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Gott</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Iii</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/368108a0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">368</biblScope>
+			<biblScope unit="page">108</biblScope>
+			<date type="published" when="1994-03-10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,48.00,492.54,240.01,7.20;19,56.00,502.54,232.01,7.20;19,56.00,512.54,84.89,7.20" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Optimal predictions in everyday cognition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+		</author>
+		<idno>doi:10.1111/ j.1467-9280.2006.01780.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="767" to="773" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,48.00,522.54,240.02,7.20;19,56.00,532.54,232.02,7.20;19,56.00,542.54,200.93,7.20" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Decisions from experience and the effect of rare events in risky choice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Hertwig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Barron</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">U</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Erev</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.0956-7976.2004.00715.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="534" to="539" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,48.00,552.54,240.03,7.20;19,56.00,562.54,232.03,7.20;19,56.00,572.54,112.71,7.20" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Perceiving patterns in random series: Dynamic processing of sequence in prefrontal cortex</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Huettel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">B</forename><surname>Mack</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Mccarthy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="485" to="490" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,48.00,582.54,240.02,7.20;19,56.00,592.54,229.20,7.20" xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Probability theory: The logic of science</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">T</forename><surname>Jaynes</surname></persName>
+		</author>
+		<ptr target="http://omega.math.albany.edu:8008/JaynesBook.html" />
+		<imprint>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+	<note>Fragmentary ed.</note>
+</biblStruct>
+
+<biblStruct coords="19,48.00,602.54,240.02,7.20;19,56.00,612.54,226.89,7.20" xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Probability theory: The logic of science</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">T</forename><surname>Jaynes</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/CBO9780511790423</idno>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge, England</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,306.00,77.04,240.03,7.20;19,314.00,87.04,43.33,7.20" xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Theory of probability</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Jeffreys</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1961" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>Oxford, England</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,306.00,97.04,240.03,7.20;19,314.00,107.04,232.01,7.20;19,314.00,117.04,144.73,7.20" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Locally Bayesian learning with applications to retrospective revaluation and highlighting</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">K</forename><surname>Kruschke</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-295X.113.4.677</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="677" to="699" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,306.00,127.04,240.04,7.20;19,314.00,137.04,178.86,7.20" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Rise and fall</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">T</forename><surname>Landsberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">N</forename><surname>Dewynne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">P</forename><surname>Please</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/365384e0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">365</biblScope>
+			<biblScope unit="page">384</biblScope>
+			<date type="published" when="1993-09-30" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,306.00,147.04,240.03,7.20;19,314.00,157.04,232.02,7.20;19,314.00,167.04,232.01,7.20;19,314.00,177.04,159.18,7.20" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The wisdom of individuals: Exploring people&apos;s knowledge about everyday events using iterated learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lewandowsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Kalish</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1551-6709.2009.01045.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Science: A Multidisciplinary Journal</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="969" to="998" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,306.00,187.04,178.61,7.20" xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Vision</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Marr</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1982" />
+			<publisher>Freeman</publisher>
+			<pubPlace>San Francisco, CA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,306.00,197.04,240.03,7.20;19,314.00,207.04,232.02,7.20;19,314.00,217.04,231.87,7.20;19,314.00,227.04,68.00,7.20" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Optimal predictions in everyday cognition: The wisdom of individuals or crowds</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Mozer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Pashler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Homaei</surname></persName>
+		</author>
+		<idno>doi:10.1080/ 03640210802353016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Science: A Multidisciplinary Journal</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1133" to="1147" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,306.00,237.04,240.01,7.20;19,314.00,247.04,97.08,7.20" xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Bayesian statistics: Principles, models, and applications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Press</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+			<publisher>Wiley</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,306.00,257.04,240.03,7.20;19,314.00,267.04,61.98,7.20" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">The person and the situation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Nisbett</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+			<publisher>McGraw-Hill</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,306.00,277.04,240.03,7.20;19,314.00,287.04,231.85,7.20;19,314.00,297.04,81.77,7.20" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Toward a universal law of generalization for psychological science</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">N</forename><surname>Shepard</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.3629243</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">237</biblScope>
+			<biblScope unit="page" from="1317" to="1323" />
+			<date type="published" when="1987-09-11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,306.00,307.04,240.03,7.20;19,314.00,317.04,232.03,7.20;19,314.00,327.04,231.91,7.20;19,314.00,337.04,45.12,7.20" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Exemplar models as a mechanism for performing Bayesian inference</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">H</forename><surname>Feldman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">N</forename><surname>Sanborn</surname></persName>
+		</author>
+		<idno>doi:10.3758/ PBR.17.4.443</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychonomic Bulletin &amp; Review</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="443" to="464" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,306.00,347.04,240.02,7.20;19,314.00,357.04,232.00,7.20;19,314.00,367.04,119.78,7.20" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">When will the milk spoil? Everyday induction in human intelligence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Sternberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Kalmar</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0160-2896(97)90042-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="185" to="203" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,306.00,377.04,240.01,7.20;19,314.00,387.04,232.02,7.20;19,314.00,397.04,71.76,7.20" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A Bayesian framework for concept learning (Unpublished doctoral dissertation)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Massachusetts Institute of Technology</title>
+		<imprint>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,306.00,407.04,240.01,7.20;19,314.00,417.04,232.02,7.20;19,314.00,427.04,232.01,7.20;19,314.00,437.04,94.20,7.20" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Structure learning in human causal induction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Griffiths</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in neural information processing systems 13</title>
+		<editor>T. K. Leen, T. G. Dietterich, &amp; V. Tresp</editor>
+		<meeting><address><addrLine>Cambridge, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT Press</publisher>
+			<date type="published" when="2001" />
+			<biblScope unit="page" from="59" to="65" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,306.00,447.04,240.01,7.20;19,314.00,457.04,231.98,7.20;19,314.00,467.04,101.77,7.20" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Judgment under uncertainty: Heuristics and biases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Tversky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Kahneman</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.185.4157.1124</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">185</biblScope>
+			<biblScope unit="page" from="1124" to="1131" />
+			<date type="published" when="1974-09-27" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,306.00,477.04,240.04,7.20;19,314.00,487.04,232.04,7.20;19,314.00,497.04,232.01,7.20;19,314.00,507.04,232.04,7.20;19,314.00,517.04,125.54,7.20" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">One and done? Optimal decisions from very few samples</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Vul</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">D</forename><surname>Goodman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+		</author>
+		<ptr target="http://csjarchive.cogsci.rpi.edu/Proceedings/2009/papers/28/paper28.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">CogSci 2009 Proceedings</title>
+		<editor>N. Taatgen &amp; H. van Rijn</editor>
+		<meeting><address><addrLine>Wheat Ridge, CO</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cognitive Science Society</publisher>
+			<date type="published" when="2009" />
+			<biblScope unit="page" from="148" to="153" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,306.00,527.04,240.02,7.20;19,314.00,537.04,231.99,7.20;19,314.00,547.04,84.89,7.20" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Sensitivity to sampling in Bayesian word learning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+		</author>
+		<idno>doi:10.1111/ j.1467-7687.2007.00590.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Developmental Science</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="288" to="297" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,306.00,557.04,240.03,7.20;19,314.00,567.04,225.89,7.20" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Word learning as Bayesian inference</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-295X.114.2.245</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="245" to="272" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

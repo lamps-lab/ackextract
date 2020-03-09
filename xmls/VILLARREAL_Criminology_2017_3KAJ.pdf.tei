@@ -1,0 +1,2152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">CRIME, FEAR, AND MENTAL HEALTH IN MEXICO *</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrés</forename><surname>Villarreal</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wei-Hsin</forename><surname>Yu</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Maryland-College Park</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Sociology</orgName>
+								<orgName type="department" key="dep2">Art-Sociology Building</orgName>
+								<orgName type="institution">University of Maryland-College Park</orgName>
+								<address>
+									<addrLine>834 Campus Dr</addrLine>
+									<postCode>3131, 20742</postCode>
+									<settlement>College Park</settlement>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">CRIME, FEAR, AND MENTAL HEALTH IN MEXICO *</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:19+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>KEYWORDS: fear of crime, mental health, social disorder, organized crime, Mexico</p><p>This article examines the effect of exposure to criminal violence on fear of crime and mental health in Mexico, a country that has experienced a dramatic rise in violent events resulting from the operation of drug trafficking organizations (DTOs). Data are drawn from more than 30,000 respondents to a national longitudinal survey of Mexican households. We use fixed-effects models which allow us to control for timeinvariant individual and municipal characteristics affecting both exposure to violence and mental health. The results indicate a substantial increase in fear and psychological distress for individuals living in communities that suffered a rise in the local homicide rate even when exposure to other forms of victimization and more personal experiences with crime are taken into account. Because DTO killings occur in response to factors external to a specific neighborhood, they generate fear and psychological distress at a larger geographical scale. They also seem to create a generalized sense of insecurity, leading to increased fear of other types of crimes. We examine the effect of large surges in homicide and the presence of military and paramilitary groups combatting DTOs as these conditions may approximate those in conflict zones elsewhere in the world. We also explore differences in the relative sensitivity to homicide rates between sociodemographic groups.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Social scientists have long been interested in the negative health consequences of living in high-crime areas <ref type="bibr" coords="1,146.09,392.72,73.53,9.21" target="#b7">(Chandola, 2001;</ref><ref type="bibr" coords="1,222.32,392.72,48.61,9.21" target="#b51">Ross, 1993;</ref><ref type="bibr" coords="1,273.62,392.72,153.50,9.21" target="#b57">Ross, Mirowsky, and Pribesh, 2001;</ref><ref type="bibr" coords="1,44.61,404.68,122.55,9.21" target="#b68">Torche and Villarreal, 2014;</ref><ref type="bibr" coords="1,170.20,404.68,82.98,9.21" target="#b69">Turner et al., 2013;</ref><ref type="bibr" coords="1,256.23,404.68,111.52,9.21" target="#b80">Whitley and Prince, 2005)</ref>. Yet most of the research on the effect of exposure to crime on mental health has been conducted in the context of ordinary crime in U.S. urban centers. In this article, we examine the mental health consequences of exposure to high rates of violence by organized groups. We draw on data from Mexico, a country that has experienced a dramatic rise in violent incidents resulting from the operation of drug trafficking organizations (DTOs; <ref type="bibr" coords="1,354.06,464.45,73.09,9.21;1,44.61,476.41,68.98,9.21" target="#b20">Heinle, Ferreira, and Shirk, 2014)</ref>. In all, as many as 80,000 people are estimated to have died from DTOrelated violence since 2006 <ref type="bibr" coords="1,160.67,488.36,145.95,9.21" target="#b21">(Heinle, Ferreira, and Shirk, 2016;</ref><ref type="bibr" coords="1,308.66,488.36,57.43,9.21" target="#b42">Molloy, 2013)</ref>. This number of casualties is comparable to those from armed conflicts elsewhere in the world <ref type="bibr" coords="1,389.50,500.31,37.63,9.21;1,44.61,512.27,78.86,9.21">(Geneva Declaration, 2008;</ref><ref type="bibr" coords="1,125.97,512.27,51.24,9.21" target="#b35">Mack, 2014)</ref>.</p><p>A key distinguishing feature of criminal violence by organized groups such as Mexican DTOs compared with ordinary crime is that it is less tied to the social conditions in the immediate surroundings. Killings by DTOs are more likely to occur in response to factors external to a specific neighborhood, such as conflicts over shipping routes for illicit drugs and military campaigns waged by the government against these organizations <ref type="bibr" coords="2,40.37,96.37,203.74,9.21">(Molzahn, Rodríguez Ferreira, and Shirk, 2013;</ref><ref type="bibr" coords="2,246.46,96.37,110.01,9.21" target="#b61">Shirk and Wallman, 2015)</ref>. Thus, the customary approach in studies aimed at examining the impact of crime in U.S. urban areas of using signs of neighborhood disorder, such as abandoned buildings, vandalism, and the public consumption of alcohol and drugs, as proxies for the level of threat felt by local residents is not appropriate (e.g., <ref type="bibr" coords="2,183.07,144.19,125.48,9.21" target="#b0">Aneshensel and Sucoff, 1996;</ref><ref type="bibr" coords="2,310.69,144.19,112.25,9.21;2,40.37,156.15,79.85,9.21" target="#b8">Christie-Mizell, Steelman, and Stewart, 2003;</ref><ref type="bibr" coords="2,123.09,156.15,121.57,9.21" target="#b22">Hill, Ross, and Angel, 2005;</ref><ref type="bibr" coords="2,247.52,156.15,103.74,9.21" target="#b33">Latkin and Curry, 2003;</ref><ref type="bibr" coords="2,354.12,156.15,68.82,9.21;2,40.37,168.10,22.41,9.21" target="#b50">Robinson et al., 2003;</ref><ref type="bibr" coords="2,65.89,168.10,113.94,9.21" target="#b56">Ross and Mirowsky, 2009)</ref>. When assessing the threat of DTO violence, individuals are more likely to take their cue from reports of incidents occurring throughout their city, state, or region rather than from events taking place in their specific neighborhood. It therefore becomes important to consider the effect of violence measured at broader levels of aggregation. We explore the geographical scale at which homicidal violence in Mexico affects mental health. We test the effect of higher municipal and state homicide rates, while controlling for perceived neighborhood disorder, and more immediate victimization experiences at the individual and household levels.</p><p>The wave of violence from organized groups in Mexico also differs from the violence experienced in U.S. urban areas in its intensity and brutality. DTO attacks include beheadings, mutilations, and executions with high-caliber weapons <ref type="bibr" coords="2,331.52,287.65,91.42,9.21;2,40.37,299.61,50.65,9.21" target="#b44">(Molzahn, Ríos, and Shirk, 2012)</ref>. They also frequently involve coordinated operations in which paramilitary techniques are used <ref type="bibr" coords="2,127.31,311.56,67.52,9.21">(Cambell, 2010;</ref><ref type="bibr" coords="2,197.06,311.56,47.08,9.21" target="#b29">Kerr, 2012)</ref>. These features of DTO violence and the Mexican government's response to it, which has included the occupation of entire cities and towns by military forces, make the experience in the hardest-hit areas more comparable to that of conflict zones elsewhere in the world than to that of inner-city neighborhoods in the United States. The findings reported in public health studies have demonstrated the detrimental effects that living in regions with military conflicts and civil wars have on individuals' psychological well-being (e.g., <ref type="bibr" coords="2,266.90,383.29,156.03,9.21;2,40.37,395.26,53.02,9.21" target="#b1">Barenbaum, Ruchkin, and Schwab-Stone, 2004;</ref><ref type="bibr" coords="2,96.62,395.26,62.33,9.21">de Jong, 2002;</ref><ref type="bibr" coords="2,162.18,395.26,200.26,9.21" target="#b13">de Jong, Komproe, and Van Ommeren, 2003;</ref><ref type="bibr" coords="2,365.67,395.26,57.27,9.21;2,40.37,407.21,22.41,9.21" target="#b36">Martín-Baró, 1989;</ref><ref type="bibr" coords="2,65.99,407.21,125.78,9.21" target="#b38">Miller and Rasmussen, 2010;</ref><ref type="bibr" coords="2,194.98,407.21,85.13,9.21" target="#b41">Mollica et al., 2004)</ref>. In our analysis, we capture the extreme conditions that may resemble those in war-torn countries by examining Mexican municipalities that experienced large surges in homicides in recent years. We also test the effect that the presence of military and paramilitary defense groups in a community have on psychological distress.</p><p>In addition to examining the effect of DTO violence on mental health as measured by a general index of psychological distress, we also consider its impact on a more specific psycho-emotional response to crime, namely, fear of personal victimization. A wellestablished body of criminological research has been focused on the conditions that lead individuals to be more fearful of crime, as well as on the consequences such fear may have on personal behavior (e.g., <ref type="bibr" coords="2,188.69,526.76,127.23,9.21" target="#b10">Covington and Taylor, 1991;</ref><ref type="bibr" coords="2,319.97,526.76,62.13,9.21" target="#b14">Ferraro, 1995;</ref><ref type="bibr" coords="2,386.15,526.76,36.80,9.21;2,40.37,538.72,17.92,9.21" target="#b26">Jackson, 2009</ref><ref type="bibr" coords="2,68.53,538.72,17.92,9.21" target="#b27">Jackson, , 2011</ref><ref type="bibr" coords="2,96.70,538.72,135.66,9.21" target="#b32">LaGrange and Ferraro, 1989;</ref><ref type="bibr" coords="2,238.11,538.72,119.62,9.21" target="#b47">Perkins and Taylor, 1996;</ref><ref type="bibr" coords="2,363.49,538.72,59.42,9.21" target="#b66">Taylor, 2001;</ref><ref type="bibr" coords="2,40.37,550.67,103.13,9.21" target="#b67">Taylor and Hale, 1986;</ref><ref type="bibr" coords="2,147.64,550.67,51.70,9.21" target="#b77">Warr, 2000;</ref><ref type="bibr" coords="2,203.47,550.67,110.91,9.21" target="#b79">Warr and Stafford, 1983)</ref>. Despite some similarities, fear of crime is distinguishable from psychological distress by the narrower range of affective states it encompasses. Like psychological distress, fear of victimization may involve feelings of anxiety but does not include other emotional states like anger or depression, which are encompassed within the more general concept of distress <ref type="bibr" coords="2,40.37,610.45,94.20,9.21">Mirowsky, 2001, 2009)</ref>. Fear of victimization also differs from psychological distress in the specificity of the object of the negative emotions. The fear individuals experience is specifically about being a victim of a criminal act [or about having someone close being victimized in the case of "altruistic fear" <ref type="bibr" coords="3,197.51,84.41,54.50,9.21" target="#b77">(Warr, 2000;</ref><ref type="bibr" coords="3,255.06,84.41,101.93,9.21" target="#b78">Warr and Ellison, 2000)</ref>]. Psychological distress, by contrast, may include a more generalized form of anxiety that is not specifically about the danger of being victimized, even if it is triggered by a high crime rate. Comparing the effects of DTO violence on the two outcomes provides a broader perspective on the psychological and emotional consequences of crimes committed by organized groups.</p><p>Because DTO violence is generally directed at other members of organized criminal groups and law enforcement officials rather than at the population at large, it may be said to pose a low objective risk for most Mexican citizens, who therefore have little reason to fear being victims of DTO attacks. Nevertheless, researchers studying fear of crime have shown that serious offenses such as homicides may generate a substantial amount of fear even if they are uncommon <ref type="bibr" coords="3,205.17,215.92,53.61,9.21" target="#b19">(Hale, 1996;</ref><ref type="bibr" coords="3,262.60,215.92,63.02,9.21" target="#b27">Jackson, 2011;</ref><ref type="bibr" coords="3,329.45,215.92,51.39,9.21" target="#b77">Warr, 2000;</ref><ref type="bibr" coords="3,384.65,215.92,42.55,9.21;3,44.60,227.88,62.81,9.21" target="#b79">Warr and Stafford, 1983)</ref>. Moreover, we propose that exposure to high levels of violence by organized groups may create a generalized sense of insecurity leading to increased fear of other forms of victimization. We specifically test whether an increase in the local-area homicide rate leads to a greater fear of being a victim of other crimes such as assaults and robberies. Following long-standing debates regarding gender, age, and socioeconomic differences in fear of crime <ref type="bibr" coords="3,166.10,287.65,60.55,9.21" target="#b14">(Ferraro, 1995</ref><ref type="bibr" coords="3,234.21,287.65,17.93,9.21" target="#b15">(Ferraro, , 1996</ref><ref type="bibr" coords="3,259.68,287.65,62.29,9.21" target="#b26">Jackson, 2009;</ref><ref type="bibr" coords="3,325.03,287.65,102.15,9.21;3,44.60,299.61,22.41,9.21" target="#b32">LaGrange and Ferraro, 1989;</ref><ref type="bibr" coords="3,70.07,299.61,58.41,9.21" target="#b64">Stanko, 1995;</ref><ref type="bibr" coords="3,131.56,299.61,46.15,9.21" target="#b75">Warr, 1984</ref><ref type="bibr" coords="3,185.25,299.61,17.52,9.21" target="#b76">Warr, , 1985</ref>, we also test whether the recent increase in DTO violence has generated greater fear among these different sociodemographic groups in Mexico.</p><p>Finally, the results of previous studies linking crime to psychological well-being have suffered from important data and methodological limitations. Most notably, such studies are based on cross-sectional analyses <ref type="bibr" coords="3,203.56,359.39,128.96,9.21" target="#b0">(Aneshensel and Sucoff, 1996;</ref><ref type="bibr" coords="3,334.55,359.39,47.94,9.21" target="#b52">Ross, 2000;</ref><ref type="bibr" coords="3,384.52,359.39,42.61,9.21;3,44.60,371.34,47.96,9.21" target="#b65">Stockdale et al., 2007;</ref><ref type="bibr" coords="3,94.85,371.34,82.07,9.21" target="#b69">Turner et al., 2013)</ref> or on statistical models that cannot be used to rule out the effect of other individual-and community-level factors that might influence both exposure to crime and mental health <ref type="bibr" coords="3,187.16,395.26,174.25,9.21" target="#b63">(Stafford, Chandola, and Marmot, 2007)</ref>. The omission of such factors in cross-sectional studies is especially problematic because it may result in biased estimates of the effect of crime on psychological distress. For example, unmeasured characteristics may cause individuals to both live in more dangerous neighborhoods and be at higher risk of anxiety or depression, leading researchers who use cross-sectional analyses to overestimate the effect of crime on psychological distress. Fortunately, our access to longitudinal information, including repeated measures of the same individuals' fear of victimization and mental health over time, allows us to test fixed-effects models to account for any time-invariant, individual-and community-level characteristics and produce unbiased estimates of the effect of exposure to crime on fear and mental health. 1 1. We use the term "exposure" throughout the article to include not only the immediate witnessing of criminal acts such as homicides and assaults but also the more indirect experience of knowing of criminal activity in the area through third-person accounts or media reports. Although witnessing a DTO attack or its aftermath (e.g., seeing a dead body in a public place) is likely to have the largest effect on individuals' mental health, such experiences are less common than is knowledge of DTO activities gained from other sources.  <ref type="bibr" coords="4,83.83,338.03,331.72,6.36">1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013</ref> Homicide Rate (per 100,000)</p><p>Year Vital Stats.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reported</head><p>Org. Crime-Official</p><p>Org. Crime-Newspaper</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MEXICO'S WAVE OF VIOLENCE</head><p>Before the recent wave of violence, the Mexican homicide rate had been in a downward trend for more than a decade. As shown in figure 1, this downward trend was dramatically reversed in 2007 according to information from two alternative sources used to compute homicide rates-vital statistics, which register the number of deaths attributed to homicide, and intentional homicides reported by the states' attorney generals offices nationwide. Both sources also show a considerable reduction in homicides beginning in 2011 (the two series are highly correlated, r = .89). <ref type="figure" coords="4,50.34,481.86,35.82,9.21" target="#fig_0">Figure 1</ref> also shows the rate of homicides specifically attributed to organized crime according to the Mexican National Security System (Sistema Nacional de Seguridad Pública, SNSP) and a tally of DTO killings conducted by a leading Mexican newspaper. 2 A comparison of the trends in the overall homicide rate and the rate of homicides attributed to organized crime indicate that the increase in homicides since 2007 is entirely explained by DTO activity <ref type="bibr" coords="4,119.35,541.64,205.54,9.21" target="#b20">(Heinle, Rodríguez Ferreira, and Shirk, 2014)</ref>. Were it not for the 2. See <ref type="bibr" coords="4,80.72,571.62,192.46,7.82">Molzahn, Rodriguez Ferreira, and Shirk (2013: 11)</ref> for a discussion of the criteria used by the SNSP to identify homicides as a result of organized crime. Estimates of DTO killings by the newspaper Reforma were obtained from annual reports by the organization Justice in Mexico at the University of San Diego (www.justiceinmexico.org) and from the newspaper's website (www.reforma.com).</p><p>additional homicides attributed to organized crime, the Mexican homicide rate would have remained flat during the entire course of the violent crime wave. Annual changes in the total homicide rate almost perfectly reflect fluctuations in the rate of homicides attributed to organized crime (the correlation between the two series is .97). This finding is important because it means that any measureable effect of changes in the homicide rate on mental health in our fixed-effects models may be attributed mostly to DTO-related activities.</p><p>Homicides committed by DTOs are unevenly distributed across Mexican communities as they tend to occur in places used for the production and transportation of illicit drugs, in particular, along the northern border with the United States and the Western Sierra Madre (Sierra Madre Occidental). It is in these places where competing DTOs fight one another for territorial control and where law enforcement campaigns by Mexican authorities have been waged. The maps in figures 2a and b show the homicide rate in Mexican municipalities in the years 2000 and 2010, respectively. A comparison of the two maps indicates not only an increase in the homicide rate in already violent municipalities during the decade but also a dispersion of homicides into new areas of the country. In 2000, there were 76 municipalities with a homicide rate of 60 per 100,000 or more. By 2010, there were 210 such municipalities. The increase in homicides was particularly high in the northeastern and northwestern parts of the country. Overall, there is a substantial variation in the rate at which homicide rates increased across Mexican municipalities. This variation allows us to estimate the effect of exposure to changes in homicidal violence on individuals' mental health in the fixed-effects models.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CRIME AND MENTAL HEALTH</head><p>Crime has been posited to have both a direct effect on mental health through personal victimization and an indirect effect through exposure to high levels of crime in a community <ref type="bibr" coords="5,77.88,395.25,86.33,9.21" target="#b34">(Lorenc et al., 2012)</ref>. Findings from numerous studies have revealed that victimization results in significant psychological trauma particularly, although not exclusively, in cases involving the use of violence <ref type="bibr" coords="5,211.25,419.16,168.85,9.21" target="#b9">(Cornaglia, Feldman, and Leigh, 2014;</ref><ref type="bibr" coords="5,383.44,419.16,43.72,9.21;5,44.60,431.12,82.40,9.21" target="#b31">Kilpatrick and Acierno, 2003;</ref><ref type="bibr" coords="5,130.01,431.12,82.89,9.21" target="#b34">Lorenc et al., 2012)</ref>. As noted by <ref type="bibr" coords="5,276.90,431.12,104.83,9.21">Lorenc et al. (2012: 759)</ref>, although the direct effect of victimization on mental health may be large for certain social groups who are at higher risk, the aggregate societal effect of personal victimization is likely to be small given the low overall incidence of violent crime.</p><p>By contrast, because many more people are exposed to crime occurring in their communities even if they are not personally victimized, the indirect effect of criminal victimization on mental health is more widespread. High levels of crime in a community may heighten fear of victimization, especially among individuals who perceive themselves to be more vulnerable <ref type="bibr" coords="5,135.29,526.75,117.83,9.21" target="#b80">(Whitley and Prince, 2005)</ref>. Fear of criminal victimization may in turn affect mental health through a variety of pathways <ref type="bibr" coords="5,296.10,538.71,89.46,9.21" target="#b34">(Lorenc et al., 2012;</ref><ref type="bibr" coords="5,389.29,538.71,37.91,9.21;5,44.60,550.67,130.18,9.21" target="#b63">Stafford, Chandola, and Marmot, 2007)</ref>. First, fear of crime may directly affect mental health by producing anxiety. Second, individuals who are concerned about crime may also limit their activities outside the home to reduce their perceived risk of victimization <ref type="bibr" coords="5,383.77,574.58,43.41,9.21;5,44.60,586.53,46.88,9.21" target="#b53">(Ross and Jang, 2000;</ref><ref type="bibr" coords="5,93.56,586.53,108.58,9.21" target="#b80">Whitley and Prince, 2005)</ref>. The curtailment of social activities is detrimental to mental health as social isolation has been found to increase psychological distress <ref type="bibr" coords="5,402.28,598.49,24.91,9.21;5,44.60,610.44,91.39,9.21" target="#b56">(Ross and Mirowsky, 2009)</ref>. Third, fear of crime may also limit outdoor activities, including exercise, which can also be harmful for mental health <ref type="bibr" coords="7,282.15,60.68,52.92,9.21" target="#b51">(Ross, 1993;</ref>. Although researchers have generally found a negative association between fear of crime and mental health in a variety of national contexts <ref type="bibr" coords="7,317.62,96.54,109.51,9.21;7,44.60,108.49,67.29,9.21" target="#b18">(Green, Gilbertson, and Grimsley, 2002;</ref><ref type="bibr" coords="7,114.48,108.49,86.01,9.21" target="#b49">Roberts et al., 2012;</ref><ref type="bibr" coords="7,203.07,108.49,48.50,9.21" target="#b51">Ross, 1993;</ref><ref type="bibr" coords="7,254.15,108.49,168.61,9.21" target="#b63">Stafford, Chandola, and Marmot, 2007)</ref>, it would be imprudent to interpret such an association as a causal relationship. First, as already noted, these studies are mainly based on cross-sectional data, which do not allow researchers to rule out a spurious relation whereby unobserved individual-and community-level factors affect both fear of crime and psychological distress. Second, the negative association between fear of crime and psychological distress may also reflect the reverse causal ordering in which individuals with poor mental health experience greater fear. <ref type="bibr" coords="7,67.36,192.18,132.10,9.21">Jackson and Stafford (2009: 1)</ref>, for example, have suggested a "feedback model in which worry about crime harms health, which, in turn, serves to heighten worry about crime." Finally, others have suggested that fear of crime is itself a measure of psychological well-being <ref type="bibr" coords="7,109.57,228.04,105.75,9.21">(Lorenc et al., 2012: 760)</ref>, making it difficult to separate the two concepts. Indeed, indexes of psychological distress often include questionnaire items aimed at capturing the level of fear and anxiety (e.g., <ref type="bibr" coords="7,218.20,251.96,119.35,9.21" target="#b22">Hill, Ross, and Angel, 2005;</ref><ref type="bibr" coords="7,339.85,251.96,87.35,9.21;7,44.60,263.92,21.90,9.21" target="#b40">Mirowsky and Ross, 2003)</ref>. Rather than assume a causal connection between fear and psychological distress, we therefore treat them as separate outcomes intended to capture different aspects of individuals' psycho-emotional response to crime. As discussed in a previous section, we take psychological distress to be a broader measure of well-being in which crime is not necessarily the object of the negative emotional state even if it is triggered by a high crime rate.</p><p>In recent studies examining the relation between crime and mental health, particular attention has been paid to the effect of neighborhood characteristics that may heighten the perceived risk of victimization <ref type="bibr" coords="7,179.30,359.55,131.82,9.21" target="#b0">(Aneshensel and Sucoff, 1996;</ref><ref type="bibr" coords="7,314.10,359.55,113.07,9.21;7,44.60,371.51,84.29,9.21" target="#b8">Christie-Mizell, Steelman, and Stewart, 2003;</ref><ref type="bibr" coords="7,133.98,371.51,130.45,9.21" target="#b22">Hill, Ross, and Angel, 2005;</ref><ref type="bibr" coords="7,269.50,371.51,110.40,9.21" target="#b33">Latkin and Curry, 2003;</ref><ref type="bibr" coords="7,384.99,371.51,42.16,9.21;7,44.60,383.47,67.68,9.21" target="#b56">Ross and Mirowsky, 2009</ref>). Signs of social and physical disorder such as abandoned buildings, vandalism, and graffiti, as well as the public consumption of alcohol and drugs, are thought to create the impression that neighborhoods are unsafe <ref type="bibr" coords="7,328.37,407.38,64.20,9.21" target="#b62">(Skogan, 1990;</ref><ref type="bibr" coords="7,395.89,407.38,31.27,9.21;7,44.60,419.33,21.90,9.21" target="#b66">Taylor, 2001)</ref>. The lack of perceived safety (whether accurate or not) can in turn have a negative effect on mental health through the same pathways already discussed. The proposed link between neighborhood disorder and psychological distress in these studies is an indirect test of the effect that greater exposure to crime has on mental health in that residents are thought to become more fearful and distressed, not as a result of greater actual victimization in their neighborhood but because of signs that may be associated with crime.</p><p>Not only is neighborhood disorder an indirect measure of criminal activities, but it may also not be a good mediator of the effect of violence by organized groups on mental health. DTO violence in Mexico has been driven mainly by conditions that are external to local communities such as trade routes for illicit drugs and military campaigns waged by the government. Under these conditions, individuals are more likely to form their impression of the threat posed by DTOs based on reports of violent incidents occurring anywhere in their city or state rather than from signs of physical and social disorder in their immediate neighborhood. In this sense, the effect of DTO-related crime on mental health may operate at a larger geographical level. Individuals may become fearful and distressed regardless of their perceptions of neighborhood disorder. In the analysis that follows, we test the effect of higher homicide rates at different levels of aggregation, while controlling for more immediate victimization experiences at the individual and household levels, as well as for perceptions of neighborhood disorder.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FEAR OF CRIME</head><p>Although seemingly obvious, the relation between exposure to DTO violence and fear of crime is not straightforward. Because DTO violence is relatively rare and primarily affects those involved in organized crime or law enforcement, it may be said to pose a low objective risk to ordinary citizens, who therefore have little to fear. Yet researchers have demonstrated that fear of crime is a function not only of the risk of victimization but also of the perceived seriousness of a particular offense <ref type="bibr" coords="8,261.09,192.01,65.57,9.21" target="#b27">(Jackson, 2011;</ref><ref type="bibr" coords="8,329.16,192.01,50.05,9.21" target="#b77">Warr, 2000;</ref><ref type="bibr" coords="8,381.70,192.01,41.22,9.21;8,40.37,203.97,62.17,9.21" target="#b79">Warr and Stafford, 1983)</ref>. If certain types of crimes, such as DTO-related homicides, are deemed to be grave enough, they could generate considerable fear even if they are rare.</p><p>Other researchers have also suggested that the perceived risk of victimization may itself increase with the seriousness of the offense <ref type="bibr" coords="8,229.64,239.83,153.84,9.21" target="#b6">(Chadee, Austen, and Ditton, 2007;</ref><ref type="bibr" coords="8,386.10,239.83,36.80,9.21;8,40.37,251.78,41.83,9.21">Jackson, 2011: 514;</ref><ref type="bibr" coords="8,84.20,251.78,68.59,9.21">Warr, 2000: 465)</ref>. Serious crimes such as homicides may come to be perceived as more common than they really are. This perception may occur because individuals often rely on cognitive heuristics when assessing the risk of rare events rather than on evaluating the exact probability that they will occur <ref type="bibr" coords="8,276.29,287.65,99.26,9.21">Kahneman, 1973, 1974)</ref>. One such heuristic, called the "availability heuristic," leads individuals to consider events that they are better able to recall or imagine as being more frequent. Because individuals are more likely to recall crimes that are the most shocking, they may overestimate their relative risk.</p><p>Researchers have found a strong correlation between individuals' fear of different types of crimes. Survey respondents who report being afraid of certain types of crime also tend to fear others. <ref type="bibr" coords="8,102.48,371.34,52.53,9.21" target="#b76">Warr (1985)</ref> argued that these correlations are strongest for crimes that are generally thought to occur together or in sequence during the course of the same event. For example, because robberies are often thought to result in homicide, fear of robbery and fear of homicide are often correlated. The same seems to be true for fear of burglary and fear of rape. <ref type="bibr" coords="8,115.83,419.16,47.46,9.21" target="#b76">Warr (1985</ref><ref type="bibr" coords="8,170.56,419.16,19.03,9.21" target="#b77">Warr ( , 2000</ref> referred to the types of crimes that are perceived to accompany one another as "perceptually contemporaneous offenses." It is possible that DTO-related homicides in Mexico may be associated with fear of other ordinary types of crimes like robberies and assaults because they are often thought to occur together or because they are thought to be committed by the same individuals or groups. Moreover, it is also possible that waves of homicidal violence of the scale of that experienced in Mexico over the past decade may result in a generalized sense of insecurity, leading to increased fear of crimes that may not typically be associated with homicides. In the analysis that follows, we specifically test the effect of exposure to higher homicide rates on fear of more common forms of crime such as robberies and assaults.</p><p>Finally, researchers on fear of crime have found some categories of individuals to be particularly fearful of criminal victimization. In the U.S. context, for example, women tend to experience greater fear despite reporting lower levels of victimization <ref type="bibr" coords="8,383.37,562.63,39.58,9.21;8,40.37,574.58,17.92,9.21" target="#b14">(Ferraro, 1995</ref><ref type="bibr" coords="8,66.20,574.58,17.92,9.21" target="#b15">(Ferraro, , 1996</ref><ref type="bibr" coords="8,92.02,574.58,128.64,9.21" target="#b32">LaGrange and Ferraro, 1989;</ref><ref type="bibr" coords="8,224.07,574.58,162.50,9.21" target="#b59">Schafer, Huebner, and Bynum, 2006;</ref><ref type="bibr" coords="8,390.00,574.58,32.93,9.21;8,40.37,586.53,21.91,9.21" target="#b64">Stanko, 1995)</ref>. The same is often thought to be true of older adults, although in some studies, researchers have questioned the association between age and fear of crime <ref type="bibr" coords="8,358.21,598.49,64.71,9.21" target="#b14">(Ferraro, 1995;</ref><ref type="bibr" coords="8,40.37,610.45,124.81,9.21" target="#b16">Ferraro and LaGrange, 1992;</ref><ref type="bibr" coords="8,167.32,610.45,49.20,9.21" target="#b75">Warr, 1984)</ref>. One prominent explanation for the differences in fear experienced by members of different social groups emphasizes their relative vulnerability to criminal victimization <ref type="bibr" coords="9,196.47,72.46,65.65,9.21" target="#b26">(Jackson, 2009;</ref><ref type="bibr" coords="9,264.69,72.46,97.93,9.21" target="#b67">Taylor and Hale, 1986)</ref>. Vulnerability is thought to be not only a function of the extent of exposure to the risk of victimization but also the anticipated seriousness of the consequences of being victimized, and the subjective sense of control, defined as individuals' perceived ability to protect against victimization and reduce the seriousness of its consequences <ref type="bibr" coords="9,302.15,120.28,59.41,9.21" target="#b30">(Killias, 1990)</ref>. According to this framework, women and older persons may experience greater levels of fear of crime despite having lower objective risk because they perceive the consequences of victimization to be more serious and because they have a lower sense of control. Individuals of lower socioeconomic status may similarly experience greater fear of victimization both because they are exposed to greater actual risk and because of a lower perceived sense of control <ref type="bibr" coords="9,78.09,192.02,52.30,9.21" target="#b19">(Hale, 1996;</ref><ref type="bibr" coords="9,132.90,192.02,62.85,9.21" target="#b45">Pantazis, 2000)</ref>.</p><p>In the analysis that follows, we will examine differences in the relative sensitivity to changes in the homicide rate by gender, age, and socioeconomic status. Consistent with the vulnerabilities model, we expect women, older individuals, and those of lower socioeconomic status to experience greater fear as a result of the rapid increase in homicidal violence in Mexico. It is important to note, however, that contrary to most studies in which differences in fear of crime across sociodemographic groups are examined, the fixed-effect models we introduce test the effect of changes in the local-area homicide rate on changes in fear. The results of our models may differ from those using cross-sectional data because there may be categories of individuals who are generally more fearful of crime, yet less sensitive to temporal fluctuations in the local crime rate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AND MEASUREMENTS</head><p>Data for the analysis were drawn from the Mexican Family Life Survey (MxFLS), a nationally representative panel survey of Mexican households <ref type="bibr" coords="9,322.55,371.34,104.60,9.21;9,44.60,383.29,21.90,9.21" target="#b58">(Rubalcava and Teruel, 2007)</ref>. The MxFLS is well suited for our purposes because it contains information about Mexican adults' fear of crime and mental health over the span of an entire decade covering the recent crime wave. Three waves of the MxFLS were conducted in <ref type="bibr" coords="9,376.89,407.20,50.30,9.21;9,44.60,419.16,87.54,9.21">2002, 2005-2006, and 2009-2012</ref>. The initial wave of the survey was applied to individuals living in 8,400 households located in 150 communities. Successive waves tracked residents of the same households as well as residents of new households formed by members of the initial wave. Information was collected from each household member. 3 Nevertheless, our sample is restricted to individuals 15 years of age or older because this is the only age group to which the mental health questionnaire was applied. The sample is also restricted to individuals living in Mexico at the time of each interview because they are the only ones exposed to the Mexican crime wave. <ref type="bibr" coords="10,263.37,60.20,3.49,6.44">4</ref> The final sample consists of 30,749 individuals. <ref type="bibr" coords="10,89.93,72.15,3.49,6.44">5</ref> Our measure of psychological distress is computed by using respondents' answers to a module of emotional well-being included in each wave of the MxFLS. The module consists of 21 questions capturing respondents' mental state over the past 4 weeks on a scale from 1 to 4 based on the frequency with which they experienced a particular symptom (not at all, sometimes, a lot of times, or all the time). Symptoms include feeling sad or anguished, crying, having difficulty sleeping, diminished appetite, obsessive thoughts, trouble focusing, and feeling nervous or anxious, among others (see appendix A for a full list). Because psychological distress may manifest in different symptoms for different individuals, it is customary for mental health researchers to sum up a wide array of potential symptoms to assess the extent to which individuals are distressed (e.g., <ref type="bibr" coords="10,40.37,205.22,161.76,9.21" target="#b9">Cornaglia, Feldman, and Leigh, 2014;</ref><ref type="bibr" coords="10,204.68,205.22,168.42,9.21" target="#b63">Stafford, Chandola, and Marmot, 2007)</ref>. The questions in the MxFLS are similar to those that form part of the General Health Questionnaire (GHQ) used to identify psychological distress in other national settings (e.g., Blekesaune, 2008; <ref type="bibr" coords="10,96.60,241.08,107.63,9.21" target="#b74">Wade and Pevalin, 2004)</ref>, but they are specifically adapted to the Mexican context. These questions have been previously validated (Calderón <ref type="bibr" coords="10,338.19,253.04,65.46,9.21" target="#b4">Narvaez, 1997)</ref> and used in other studies <ref type="bibr" coords="10,131.36,265.00,163.50,9.21" target="#b46">(Parker, Rubalcava, and Teruel, 2008;</ref><ref type="bibr" coords="10,297.27,265.00,121.29,9.21" target="#b60">Schmeer and Kroeger, 2011)</ref>. We construct a scale of psychological distress by averaging the responses to the 21 items for distress symptoms <ref type="bibr" coords="10,136.40,288.90,52.30,9.21" target="#b52">(Ross, 2000;</ref>. The internal reliability for this scale was found to be very high (Cronbach's alpha of at least .92 for every wave of the survey). <ref type="bibr" coords="10,74.97,311.26,3.49,6.44" target="#b84">6</ref> Fear of victimization is measured with a scale constructed from answers to two questions asking respondents how afraid they feel of being assaulted or robbed during the day and during the night, respectively, on a scale from 1 to 4 (not scared, a little scared, scared, very scared). The internal reliability for the scale of fear of crime was found to be very high (Cronbach's alpha of at least .85 in every wave). Because our measure of fear captures the extent to which respondents are afraid of being victims of assault and robbery, rather than of homicide, finding that respondents become more fearful when the local homicide rate increases may signal a spillover effect between homicide exposure and fear of these different types of crimes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Our analytical sample also includes individuals who moved to different municipalities within</head><p>Mexico between waves (3.9 percent of our sample). The homicide rate to which individuals are assumed to be exposed in these and all other cases corresponds to that of the municipality or state in which they reside in each wave. In models not presented here but available in tables S3 and S4 of the online supporting information, we restricted the sample to respondents who did not move to another municipality in any wave of the survey. The results were consistent with those presented in this article. 5. The household roster includes 34,568 individuals 15 years of age or older, out of which 31,227</p><p>were interviewed with the mental health questionnaire. Out of those interviewed, the final analytical sample excludes 478 cases (1.9 percent) as a result of missing values on one or more of the predictors. 6. In alternative models not presented here but available in table S5 of the online supporting information, we created an index of psychological distress that excluded a question asking respondents whether they felt "fearful of some things" to generate a measure that was as independent as possible from our measure of fear of victimization. The results were consistent with those presented in this article.</p><p>To test the effect of violence on fear and psychological distress, we use the municipaland state-level homicide rates as predictors in all our models. Homicide rates are computed from vital statistics that list homicide as a cause of death. <ref type="bibr" coords="11,327.43,82.86,3.49,6.44" target="#b85">7</ref> The homicide counts used are not limited to deaths attributed to organized crime because the latter are not available at a sufficiently disaggregated geographical level. Nevertheless, as discussed in a previous section, because almost all of the increase in homicides during this time period is a result of DTO violence (see <ref type="bibr" coords="11,209.43,132.24,194.68,9.21" target="#b20">Heinle, Rodríguez Ferreira, and Shirk, 2014)</ref>, any effect of the change in the local homicide rate estimated in the fixed-effects models may be attributed to DTO-related violence.</p><p>Homicide rates are computed at two different levels of aggregation to assess whether individuals are reacting to violence occurring within their immediate surroundings or in the larger geographical context. <ref type="bibr" coords="11,182.82,190.46,3.49,6.44" target="#b86">8</ref> As discussed in previous sections, we expect the effect of the increase in homicidal violence in Mexico to operate at higher levels of aggregation because it is mainly the result of organized groups. The homicide rates correspond to the 2 years before the month in which the respondent was interviewed. We use the exact month in which the interview was conducted because interview periods for the second and third waves of the survey spanned several years, making the homicide rates for the same year for all respondents in a wave highly inaccurate. Two-year periods are used to smooth out yearly fluctuations in the number of homicides. Population estimates for the same time period used as a denominator in the homicide rates are estimated by interpolation of census results from 2000, 2005, and 2010.</p><p>We introduce the homicide rate in the initial models as a linear predictor of psychological distress and fear. Nevertheless, to test the effect of large surges in the homicide rate, we also introduce as an alternative predictor a categorical variable in which the homicide rate is divided into tertiles (labeled low-, medium-, and high-homicide rates). The same cutoff points based on the tertiles of the municipal homicide rate are used to create the categorical variable for the state-level homicide rate to make the two measures more comparable. Because the fixed-effects models measure the effect of changes over time, the coefficients for the medium-and high-homicide categories capture large changes in the local homicide rate (from the first to the second tertile, and from the first to the third tertile, respectively). As noted, large surges in the homicide rate may better approximate the experience of living in a conflict zone. Large changes in the homicide rate are also a better indicator of places that experience DTO violence because surges of violence of this magnitude are unlikely to occur without the active presence of organized criminal groups.</p><p>To test the effect of conditions that may resemble those in conflict zones, we also introduce two additional variables as predictors: The first variable is an indicator of the 7. Mexico follows the World Health Organization's (WHO's) guidelines for the classification of the causes of death <ref type="bibr" coords="11,128.07,530.78,32.21,7.82">(CIE-10;</ref><ref type="bibr" coords="11,162.90,530.78,49.67,7.82">INEGI, 2014)</ref>. Vital statistics are preferable to alternative sources such as homicides reported to the various state attorney generals' offices because they are less sensitive to differences in the rate of reporting and legal definitions of homicide across jurisdictions within Mexico. Vital statistics also report homicides at a finer level of aggregation. For these reasons, in previous studies of homicide in Mexico, researchers have generally relied on vital statistics <ref type="bibr" coords="11,68.52,580.59,102.34,7.82" target="#b5">(Caudillo and Torche, 2014;</ref><ref type="bibr" coords="11,173.00,580.59,102.80,7.82" target="#b68">Torche and Villarreal, 2014;</ref><ref type="bibr" coords="11,277.93,580.59,54.76,7.82" target="#b72">Villarreal, 2002</ref><ref type="bibr" coords="11,338.64,580.59,14.90,7.82" target="#b73">Villarreal, , 2004</ref>  <ref type="bibr" coords="12,208.92,132.24,131.51,9.21" target="#b11">(Daly, Heinle and Shirk, 2012;</ref><ref type="bibr" coords="12,343.08,132.24,79.84,9.21;12,40.37,144.19,109.60,9.21" target="#b20">Heinle, Rodríguez Ferreira, and Shirk, 2014;</ref><ref type="bibr" coords="12,152.48,144.19,120.98,9.21">Human Rights Watch, 2011)</ref>.</p><p>Because changes in homicidal violence may be tied to worsening social and economic conditions in a municipality, and these conditions may in turn affect fear and mental health, we control for the living standard of municipal residents by using the Human Development Index (HDI). Created by the United Nations Development Programme, the HDI is based on seven indicators of life expectancy, educational attainment, and percapita income (PNUD, 2014). <ref type="bibr" coords="12,171.80,214.36,3.49,6.44" target="#b87">9</ref> We introduce the HDI as a predictor in our models to control for only changes in the social and economic conditions of a municipality between waves. The fixed-effects models already account for any time-invariant municipal characteristics that may be associated with both the homicide rate and the level of fear and psychological distress. Fixed effects for each wave also control for any changes in the social and economic conditions at the national level.</p><p>The statistical models control for an individuals' victimization experience by introducing as a predictor a binary variable indicating whether he or she was the victim of an assault, robbery, or any other violent crime during the past 2 years. <ref type="bibr" coords="12,339.48,310.01,6.97,6.44" target="#b88">10</ref> Similarly, to distinguish the effect of area-level homicide rates from more immediate exposure to other forms of criminal victimization, we include as a predictor a variable indicating whether a relative, a friend, or an acquaintance had been robbed at home or in his or her business in the past 5 years.</p><p>Perceived neighborhood disorder is measured with a scale constructed based on respondents' answers to six questions. In each wave of the survey, respondents are asked whether in their neighborhood there are abandoned buildings, houses, or businesses; gangs that gather frequently; people drinking alcohol or using drugs on the streets; prostitutes on the streets; frequent fights or conflicts between neighbors; and armed neighbors on the streets (Cronbach's alpha ranged from .63 to .71). These questions are similar to those used to measure disorder in other national contexts (e.g., <ref type="bibr" coords="12,333.70,443.07,89.24,9.21;12,40.37,455.02,21.91,9.21" target="#b54">Ross and Mirowsky, 1999)</ref>. Although our measure of disorder is subjective in that it is based on respondents' perception of neighborhood conditions rather than on a physical survey of the area or <ref type="bibr" coords="12,47.35,500.89,3.18,7.82" target="#b87">9</ref>. The HDI is a useful measure because it captures changes in the overall level of development of a municipality during the period under consideration. Nevertheless, we tested models in which we used some components of the HDI as predictors. These included the health, education, and income indexes, as well as the GDP per capita of a municipality. The results of these alternative models presented in tables S6 and S7 of the online supporting information are consistent with those presented in this article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="10.">The MxFLS gathers information about each criminal incident, including the month and year in</head><p>which it took place. Yet, because the month in which the incident occurred is often missing, we relied only on the year in which the crimes occurred. In cases where the respondent could not provide the year in which the criminal incident took place, respondents were asked their age at the time of the incident. In such cases, we subtracted the age of victimization from respondents' current age to determine whether the incident took place in the previous 2 years. the aggregation of answers from multiple informants within the neighborhood, such a subjective measure may be more relevant when examining the effect of disorder on an individual's mental health <ref type="bibr" coords="13,162.12,84.41,202.36,9.21" target="#b8">(Christie-Mizell, Steelman, and Stewart, 2003;</ref><ref type="bibr" coords="13,368.05,84.41,59.14,9.21;13,44.60,96.37,41.95,9.21">Lorenc et al., 2012: 762)</ref>. We also control for changes in an individual's personal circumstances that may affect his or her mental health. First, the results of previous studies have indicated that worse physical health is associated with greater psychological distress <ref type="bibr" coords="13,318.99,132.24,57.49,9.21">(WHO, 2001)</ref>. We therefore control for an individual's self-rated health status on a scale from 1 (very bad) to 5 (very good). Second, because economic problems may also have a detrimental effect on mental health , we introduce as a predictor a variable indicating whether the household experienced a major economic shock during the past 5 years. The shocks include a serious illness or accident of a household member requiring hospitalization; the unemployment or business failure of a household member; the loss of a home or business as a result of earthquake, flood, or other natural disaster; the total loss of a crop; and the loss, theft, or death of production animals. The last two items are particularly relevant for rural households where family income is derived from agricultural and livestock production. Third, we control for changes in an individual's employment status across waves (employed, unemployed, or out of the labor force, with the last category used as the baseline). Fourth, we control for the effect that changes in marital status may have on an individual's mental health. Five marital status categories are distinguished: married (used as the baseline category), cohabiting, separated or divorced, widowed, and single. Finally, because childrearing may increase psychological distress (McLanahan and Adams, 1987), we include a variable indicating whether an individual has a son or a daughter who is younger than 15 years of age living in the household.</p><p>To examine whether exposure to homicidal violence results in greater fear and psychological distress for some categories of individuals, we test models in which the municipal homicide rate is interacted with dummy variables for different sociodemographic groups. As discussed earlier, we expect women, older individuals, and those of lower socioeconomic status to exhibit a greater sensitivity to criminal violence. Older respondents are defined as those 55 years of age or older, whereas those who did not complete high school are considered to be of low socioeconomic status. We use individuals' educational attainment instead of income as a measure of socioeconomic status because educational attainment is available for individuals who are unemployed or out of the labor market (e.g., students, homemakers, and retired individuals). Descriptive statistics for all variables are presented in table 1.</p><p>As explained in previous sections of this article, one of our key methodological contributions is to test the effect of exposure to increased levels of violence on the same individual's fear and mental health over time. In previous studies, researchers have often relied on an analysis of cross-sectional data, which may lead to biased estimates of the effect of violence. Our individual-level, fixed-effects models allow us to control for any time-invariant characteristics that might influence fear and psychological distress. We also include fixed-effects terms for each wave of the survey to account for national-level changes that may affect fear of crime and mental health over time. Our analytical sample consists of an unbalanced panel because some individuals were added in later waves of the panel or are otherwise missing from particular waves.  <ref type="table" coords="14,50.34,490.89,32.73,9.21">Table 2</ref> shows the results of the regression models for psychological distress. To highlight the importance of controlling for unobserved time-invariant characteristics that might affect both exposure to homicides and psychological distress in our fixed-effects models, we first present a random-effects model in the first column of table 2. This model introduces an individual-specific error term instead of the person fixed effects. The random-effects model shows a large and statistically significant coefficient for the municipal homicide rate. However, when individual fixed effects are introduced in model 1, the coefficient is no longer statistically significant, suggesting that much of the association between the municipal homicide rate and greater psychological distress is explained by unobserved time-invariant characteristics. Model 2 examines the effect of large surges in violence by introducing the municipal homicide rate as a categorical variable. The results   indicate that experiencing a large surge in the municipal homicide rate from the lowest to the middle tertile, and especially from the lowest to the highest tertile, significantly increases individuals' psychological distress. Thus, psychological distress does not seem to increase linearly with homicides. Instead, it takes a large rise in violence to affect individuals' mental health. The results from models 4 and 5 show that a surge in the state-level homicide rate has an even larger effect on psychological distress compared with a similar increase in the municipal homicide rate (the corresponding coefficients in models 4 and 5 are more than twice as large as those in model 2, and the differences are statistically significant). The fact that a rise in homicides at the state level has a detrimental effect on mental health even after controlling for the municipal homicide rate suggests that individuals are being affected by crimes occurring away from their immediate surroundings. The magnitude of the effect of exposure to higher homicide rates at both the municipal and state levels is substantial when compared with other factors generally thought to contribute to worse mental health. For example, a one tertile rise in the state homicide rate is associated with an increase in psychological distress comparable to experiencing a major household economic shock or becoming separated or divorced (all three variables are binary so their respective coefficients in table 2 are comparable).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PSYCHOLOGICAL DISTRESS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 2. Results of Random-and Fixed-Effects Models Predicting Psychological Distress</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fixed-Effects Models</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Random-Effects</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model</head><p>Consistent with expectations, respondents' more personal exposure to crime, either through their own victimization or that of a friend or family member, also results in greater psychological distress. Similarly, increasing signs of neighborhood disorder that might signal a greater risk of victimization, such as abandoned buildings, people using drugs, or frequent conflicts between neighbors, adversely affect mental health. Yet even after controlling for these other stressors, the municipal-and state-level homicide rates continue to be significant predictors. Increases in paramilitary and military personnel in a neighborhood also significantly increase individuals' level of distress net of the homicide rate. As noted, areas characterized by a heavy presence of armed groups may approximate conflict zones in other parts of the world where residents have previously been found to suffer negative psychological consequences.</p><p>The coefficients for the individual-level predictors are also consistent with expectations, which further validates our measure of psychological distress. Experiencing an economic shock, such as the unemployment or business failure of a household member or the loss of a home or business to a natural disaster, understandably results in greater psychological distress. Becoming widowed, divorced, or separated also increases psychological distress, as does worsening physical health. Finally, even though becoming unemployed does not seem to result in distress, obtaining a job does improve the mental health of those who were previously out of the labor force. <ref type="table" coords="16,50.34,532.74,33.81,9.21">Table 3</ref> shows the results of the regression models when fear of crime is used as a dependent variable. Consistent with expectations, a rise in the homicide rate significantly increases individuals' fear of being victimized. In contrast to the results for psychological distress, the coefficients for both the continuous and categorical variables of homicide are statistically significant. This finding suggests that not only large surges in the homicide rate but even more modest increases may result in greater fear. An increase in the statelevel homicide rate has a significant effect on fear even after controlling for the municipal . homicide rate (model 5). Once again, individuals seem to be reacting to violent events occurring beyond their immediate surroundings. Because the measure of fear used in our analysis specifically captures how afraid respondents feel of being victims of a robbery or assault rather than of homicide, our findings suggest a spillover between exposure to higher homicide rates and greater fear of victimization of other types of crimes. Consistent with expectations based on the incivilities model of fear of crime <ref type="bibr" coords="18,373.63,120.45,49.26,9.21;18,40.37,132.41,74.91,9.21" target="#b10">(Covington and Taylor, 1991)</ref>, neighborhood disorder increases residents' fear of victimization. Yet, even after controlling for neighborhood disorder, the homicide rate remains a significant predictor in all models. As in the regression models for psychological distress, the presence of Mexican military and paramilitary groups in a neighborhood also increases residents' fear of crime. Although such fear may reflect the perception that military and paramilitary personnel are victimizing the local population, the presence of armed forces may also create a general sense of insecurity among neighborhood residents.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FEAR OF VICTIMIZATION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 3. Results of Random-and Fixed-Effects Models Predicting Fear of Crime</head><p>The coefficients for the individual-level predictors are once again consistent with expectations. Not surprisingly, individuals who were recently victims of a crime or who have a friend or relative who was victimized are more fearful. As suggested by the vulnerabilities model, worse physical health is associated with greater fear of victimization. Finally, individuals who were previously single and became married between waves of the survey experienced a decline in fear, possibly reflecting less isolation and therefore lower vulnerability to crime. 11</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DIFFERENCES IN SENSITIVITY TO VIOLENCE</head><p>The results of the models including the interaction terms between the homicide rate and individuals' gender, age, and educational attainment are shown in table 4. As discussed, these models allow us to test differences in the sensitivity to increases in violence among these social groups. Only the coefficients for the interaction terms are presented to conserve space. Nevertheless, the models include all the control variables in tables 2 and 3. We use the categorical variable for the homicide rate to capture the effect of large surges of violence because it was found to be significantly associated with psychological distress in the previous section. <ref type="bibr" coords="18,175.83,411.80,6.97,6.44" target="#b90">12</ref> Contrary to expectations, neither women nor less educated individuals are more sensitive to increases in the local homicide rate. An increase in the municipal homicide rate seems to have the same effect on these two groups as on the rest of the adult population. Also contrary to expectations, older individuals are less sensitive to increases in homicide. A surge in homicides does not result in a significant increase in psychological distress among adults 55 years of age or older (the sum of the baseline and interaction terms is not statistically significant). It is hard to explain these unexpected findings. One possibility is that the observed pattern of fear and distress may <ref type="bibr" coords="18,47.35,530.78,7.06,7.82" target="#b89">11</ref>. To account for the possibility that the association between higher homicide rates and psychological distress may be capturing the effect of concurrent increases in other forms of crime, we tested models controlling for the state-level total victimization rate by using data from the National Survey on Insecurity (Encuesta Nacional sobre Inseguridad, ENSI; INEGI, 2010). The results indicated that a surge in the homicide rate is associated with greater psychological distress and fear even after controlling for the state victimization rate (see <ref type="table" coords="18,236.27,580.59,32.24,7.82">Table S8</ref> of the online supporting information). 12. Models in which we use a continuous variable for the municipal homicide rate can be found in table S1 of the online supporting information. The results are consistent with those presented in table 4. reflect differences in the objective risk of victimization. Thus, although women and older persons may be more fearful insofar as they have a lower sense of control, the higher objective risk of DTO-related crimes among young men may have a compensatory effect. Another possibility is that although these groups may be generally more fearful of crime, they are not necessarily more sensitive to changes in the local crime rate captured by our fixed-effects models.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>The recent wave of criminal violence has generated fear and has adversely affected the mental health of the Mexican adult population. The results from our statistical analyses revealed important insights regarding the magnitude and geographical scale of the effect of violence, and about the differences in the relative sensitivity to violence across social groups. First, the effect of exposure to higher homicide rates is substantial when compared with other factors generally thought to contribute to worse mental health. For example, a one tertile increase in the local homicide rate was found to be associated with an increase in psychological distress comparable to experiencing a major household economic shock or becoming divorced or separated. A similar surge in homicides has a larger effect on fear of crime than having a friend or relative victimized. Second, the effect of exposure to violence seems to occur on a broad geographical scale. Even increases in the homicide rate at the state level resulted in greater fear and psychological distress. The fact that an increase in the state-level homicide rate has a measureable impact on individuals' mental health is remarkable. To put the geographical scale into context, this is equivalent to finding that a surge in violence in the state of Illinois causes psychological distress among residents throughout the state. The broad geographical scope of the effect of higher homicide rates further suggests that individuals are responding to media accounts of violent incidents rather than to what they observe directly in their own communities.</p><p>Third, although increases in the homicide rate are associated with both fear of crime and psychological distress, the thresholds necessary to generate these two psychoemotional responses differ. Whereas a modest increase in homicides is sufficient to create a sense of insecurity and raise individuals' fear of victimization, it takes a large surge in homicides in the area for residents to experience greater psychological distress. Fourth, the effect of homicides on fear of crime and mental health was widespread across sociodemographic groups. An increase in the local homicide rate was found to have the same negative consequences for both men and women, as well as for individuals with different levels of educational attainment. Contrary to expectations based on the vulnerabilities model, we found older adults to be less sensitive to an increase in the local homicide rate. More research is clearly required to understand this pattern in the age sensitivity to violence exposure. Nevertheless, rather than supporting the view that fear of crime is driven by a lower subjective sense of control, the greater psychological distress among younger respondents might indicate their correct appreciation that they are in fact at higher risk of victimization, particularly of crimes committed by organized groups. In addition, because we use fixed-effects models to test differences in the effect of changes in the local crime rate across sociodemographic groups instead of to test differences in the overall level of fear, it is also possible that groups that are generally more fearful of crime are not always more sensitive to changes in the local crime rate.</p><p>The effect of exposure to violence on fear and mental health seems to be specifically tied to DTO-related killings. Although we cannot determine which homicides were specifically committed by organized criminal groups, the increase in homicides experienced during this time period has been shown to be almost entirely a result of DTO activities. Because we use fixed-effects models to estimate the effect of changes in the local homicide rate we are essentially measuring the impact of DTO violence. In addition, the models we use to test the effect of large surges in homicide are even more likely to be capturing DTO-related violence because increases in the homicide rate of that magnitude are unlikely to occur without the activities of organized criminal groups.</p><p>We also considered the effect of signs of neighborhood disorder such as the presence of abandoned buildings or the consumption of alcohol and drugs in the streets. Researchers who study mental health in the United States often use neighborhood disorder as a proxy for the threat of victimization felt by local residents. The results from our statistical analysis showed that disorder was indeed associated with greater fear of personal victimization and psychological distress. Yet, the homicide rate continued to be significantly associated with fear and distress even after controlling for perceived neighborhood disorder. Perceived disorder is therefore not a good proxy for the type of violence occurring in Mexico today. Individuals are likely forming their impression about DTO violence from television and newspaper coverage of shootings in their city or state, rather than from seeing abandoned buildings or residents drinking alcohol or using drugs in the streets.</p><p>The wave of criminal violence in Mexico presents conditions that are close to a natural experiment in which to examine the consequences of exposure to violent incidents. Because the recent increase in DTO-related homicides has more to do with external conditions such as shipping routes for illicit drugs rather than with the internal social organization of Mexican communities, the increase in violence is experienced almost as an exogenous shock in affected areas. On the other hand, exposure to high levels of violence can certainly lead individuals to take preemptive or adaptive measures to minimize their risk <ref type="bibr" coords="21,64.33,383.29,127.89,9.21" target="#b68">(Torche and Villarreal, 2014)</ref>. Individuals may, for example, take protective steps such as erecting walls or installing alarm systems in their homes. Because such measures are an endogenous response to the level of violence in the community, our estimates of the effect of homicides on mental health may be biased. Yet they are likely to be biased downward because these measures are meant to reduce exposure to violence, which means that the effect of increasing homicide rates may be even larger than that found in our statistical analysis.</p><p>Because of its extreme nature, the Mexican crime wave may not be comparable to other contexts with more modest levels of criminal victimization. The Mexican case may be more similar to situations in which societies experience large increases in violence resulting from civil wars and military conflicts <ref type="bibr" coords="21,236.39,502.85,65.25,9.21">(de Jong, 2002;</ref><ref type="bibr" coords="21,304.38,502.85,122.78,9.21;21,44.60,514.80,72.57,9.21" target="#b13">de Jong, Komproe, and Van Ommeren, 2003;</ref><ref type="bibr" coords="21,120.60,514.80,83.09,9.21" target="#b36">Martín-Baró, 1989;</ref><ref type="bibr" coords="21,207.11,514.80,126.45,9.21" target="#b38">Miller and Rasmussen, 2010;</ref><ref type="bibr" coords="21,336.98,514.80,85.78,9.21" target="#b41">Mollica et al., 2004)</ref>. To capture conditions that may be comparable to those in war-torn regions of the world, we examined changes in mental health in Mexican municipalities that experienced a large surge in DTO violence, as well as in those that witnessed the large-scale presence of military and paramilitary forces. Our results indicate that individuals living in such municipalities indeed suffer significant psychological distress. The fact that the presence of military personnel made residents even more fearful and distressed suggests that government efforts to provide a sense of security through policing alone may backfire at least in the short term. Eliminating human rights abuses by the military, and improving military public relations, may be a useful first step in reducing the fear caused by government campaigns. Yet, in the long run, it will take a substantial reduction in actual violence, reflected in media coverage, to reduce fear among the Mexican public.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPORTING INFORMATION</head><p>Additional Supporting Information may be found in the online version of this article at the publisher's web site: </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="4,40.37,60.39,375.36,11.05;4,92.19,74.34,318.91,11.05"><head>Figure 1 .</head><label>1</label><figDesc>National Homicide Rate and Rate of Homicides by Organized Crime [Color figure can be viewed at wileyonlinelibrary.com]</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="6,40.37,60.27,382.57,11.05;6,92.19,74.22,226.55,11.05;6,92.19,88.17,123.93,11.05"><head>Figure 2 .</head><label>2</label><figDesc>Homicide Rate in Mexican Municipalities in the Years 2000 (A) and 2010 (B) [Color figure can be viewed at wileyonlinelibrary.com]</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="15,416.98,549.81,7.36,67.51;15,416.98,537.61,7.36,10.18;15,416.50,529.40,7.97,6.22;15,416.98,497.30,7.36,30.10;15,416.98,475.60,7.36,19.70;15,424.07,614.20,5.98,3.11;15,425.94,609.27,7.36,4.43;15,425.46,601.06,7.97,6.22;15,425.94,587.11,7.36,11.96;15,424.07,578.89,5.98,6.23;15,425.94,573.96,7.36,4.43;15,425.46,565.75,7.97,6.22;15,425.94,551.80,7.36,11.96"><head></head><label></label><figDesc>SE = standard error. * p &lt; .05; * * p &lt; .01.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="11,51.58,580.59,375.60,38.71"><head></head><label></label><figDesc>). 8. There are 31 states and 1 federal district in Mexico. Municipalities are political, and administrative units that are similar to counties in the United States, although they are somewhat smaller in size.</figDesc><table coords="11,68.52,611.47,320.40,7.82">In 2010, there were 2,456 municipalities nationwide with an average of 45,740 residents. 
+presence of military personnel or checkpoints in the neighborhood according to respon-
+dents' own assessments. The second variable indicates whether there are armed paramil-
+itary defense groups, sometimes known as white guards (guardias blancas), operating 
+in the neighborhood. Although the nominal purpose of both paramilitary and military 
+groups is to protect residents from criminal organizations, their presence might signal 
+greater danger, thereby increasing fear. Paramilitary and military personnel are also 
+known to prey on the local population </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="14,40.37,60.39,382.57,371.54"><head>Table 1 .</head><label>1</label><figDesc>Descriptive Statistics ABBREVIATIONS: Max. = maximum; Min. = minimum; SD = standard deviation.</figDesc><table coords="14,40.37,80.97,382.57,336.10">Variable 
+Mean 
+SD 
+Min. 
+Max 
+
+Outcomes 
+Psychological distress 
+1.30 
+.37 
+1 
+4 
+Fear of victimization 
+1.62 
+.87 
+1 
+4 
+Employment Status 
+Out of labor force 
+.47 
+.50 
+0 
+1 
+Employed 
+.51 
+.50 
+0 
+1 
+Unemployed 
+.02 
+.13 
+0 
+1 
+Marital status 
+Married 
+.49 
+.50 
+0 
+1 
+Cohabiting 
+.11 
+.32 
+0 
+1 
+Separated or divorced 
+.04 
+.20 
+0 
+1 
+Widowed 
+.05 
+.21 
+0 
+1 
+Single 
+.31 
+.46 
+0 
+1 
+Demographic Characteristics 
+Female 
+.52 
+.50 
+0 
+1 
+Older (&gt;55 years) 
+.18 
+.39 
+0 
+1 
+Has a young child 
+.38 
+.49 
+0 
+1 
+High education (high school or more) 
+.19 
+.40 
+0 
+1 
+Physical Health 
+Self-assessed health 
+3.56 
+.70 
+1 
+5 
+Economic Conditions 
+Economic shock 
+.24 
+.43 
+0 
+1 
+Neighborhood Context 
+Disorder 
+.20 
+.23 
+0 
+1 
+Paramilitary groups 
+.06 
+.23 
+0 
+1 
+Military in the streets 
+.07 
+.25 
+0 
+1 
+Crime and Victimization 
+Individual victim 
+.02 
+.15 
+0 
+1 
+Friend or relative robbed 
+.14 
+.35 
+0 
+1 
+Homicide rate (municipal) 
+.11 
+.13 
+0 
+3.34 
+Middle homicide rate (municipal) 
+.33 
+.47 
+0 
+1 
+High homicide rate (municipal) 
+.33 
+.47 
+0 
+1 
+Homicide rate (state-level) 
+.12 
+.09 
+.02 
+.78 
+Middle homicide rate (state-level) 
+.38 
+.49 
+0 
+1 
+High homicide rate (state-level) 
+.45 
+.50 
+0 
+1 
+Human Development Index (municipal) 
+.83 
+.06 
+.53 
+.94 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="19,148.17,60.09,170.89,557.22"><head>Table 4 .</head><label>4</label><figDesc>Results of Fixed-Effects Models Examining Differences in Sensitivity to Homicidal Violence Between Social Groups</figDesc><table coords="19,182.70,60.09,136.36,557.22">Psychological Distress 
+
+Fear of Crime 
+
+Variable 
+
+Model 1 
+
+Model 2 
+
+Model 3 
+
+Model 4 
+
+Model 5 
+
+Model 6 
+
+Model 7 
+
+Model 8 
+
+Crime and Victimization 
+Middle homicide rate (municipal) 
+
+.012  *  
+
+.018  *  
+
+.018  *  *  
+
+.015  *  *  
+
+.030  *  
+
+.040  *  
+
+.027 
+
+.024 
+
+High homicide rate (municipal) 
+
+.032  *  *  
+
+.022  *  
+
+.040  *  *  
+
+.030  *  *  
+
+.136  *  *  
+
+.135  *  *  
+
+.134  *  *  
+
+.135  *  *  
+
+Middle homicide rate 
+
+× Female 
+
+-.010 
+
+-.017 
+
+High homicide rate 
+
+× Female 
+
+.018 
+
+.002 
+
+Middle homicide rate 
+
+× Older 
+
+-.023 
+
+.009 
+
+High homicide rate 
+
+× Older 
+
+-.039  *  *  
+
+.008 
+
+Middle homicide rate 
+× High education 
+
+-.020 
+
+.033 
+
+High homicide rate 
+× High education 
+
+-.003 
+
+.017 
+
+N (Individuals 
+
+× Wave) 
+
+61,235 
+
+61,235 
+
+61,235 
+
+60,913 
+
+61,450 
+
+61,450 
+
+61,173 
+
+60,856 
+
+ *  *  
+
+p 
+&lt; .05;  *  *  
+
+p 
+&lt; .01. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="27,44.60,345.61,382.60,212.45"><head>Table S1 .</head><label>S1</label><figDesc>Results of Fixed-Effects Models Predicting Psychological Distress Clustering Individuals Within Household Table S2. Results of Fixed-Effects Models Predicting Fear of Crime Clustering Individuals Within Household Table S3. Results of Fixed-Effects Models Predicting Psychological Distress Excluding Individuals That Moved Across Municipalities Between Waves Table S4. Results of Fixed-Effects Models Predicting Fear of Crime Excluding Individuals That Moved Across Municipalities Between Waves Table S5. Results of Fixed-Effects Models Predicting Psychological Distress Excluding Item for Fear From Index of Distress Table S6. Results of Fixed-Effects Models Predicting Psychological Distress Using Alternative Measures of Social and Economic Conditions in Municipalities Table S7. Results of Fixed-Effects Models Predicting Fear of Crime Using Alternative Measures of Social and Economic Conditions in Municipalities Table S8. Results of Fixed-Effects Models Testing Association Between Criminal Victimization and Psychological Distress (Waves 2 and 3 Only) Table S9. Results of Fixed-Effects Models Examining Differences in Sensitivity to Homicidal Violence Between Social Groups</figDesc><table></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">. Our analytical sample therefore includes multiple individuals from some households. In alternative models not presented here, we estimated the standard errors for the regression coefficients clustering individuals within households (see tables S1 and S2 of the online supporting information). Because estimation of the fixed-effects models requires that clusters be the same across all waves for each individual, we were forced to cluster individuals within the first household of which they were a part. The results were consistent with those presented in this article. Additional supporting information can be found in the listing for this article in the Wiley Online Library at http://onlinelibrary.wiley.com/doi/10.1111/crim.2017.55.issue-4/issuetoc.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Questions Used to Compute Index of Psychological Distress</head><p>In the past 4 weeks: 1) Have you felt sad or grief-stricken? (no, sometimes, a lot of times, or all the time) 2) Have you cried or felt like crying? 3) Have you slept badly at night? 4) Have you woken up tired (due to lack of energy or fear)? 5) Have you had difficulties focusing on your daily activities?</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="22,40.37,144.19,382.56,9.21;22,56.31,156.15,280.91,9.21" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The neighborhood context of adolescent mental health</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carol</forename><forename type="middle">S</forename><surname>Aneshensel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Clea</forename><forename type="middle">A</forename><surname>Sucoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Health and Social Behavior</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="293" to="310" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,40.38,168.10,382.57,9.21;22,56.31,180.05,366.63,9.21;22,56.31,192.01,157.48,9.21" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The psychosocial aspects of children exposed to war: Practice and policy initiatives</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><surname>Barenbaum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vladislav</forename><surname>Ruchkin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mary</forename><surname>Schwab-Stone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Child Psychology and Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="41" to="62" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,40.38,203.97,382.56,9.21;22,56.32,215.92,238.01,9.21" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Partnership transitions and mental distress: Investigating temporal order</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Morten</forename><surname>Blekesaune</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marriage and Family</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="879" to="90" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,40.38,227.88,382.56,9.21;22,56.31,239.83,39.83,9.21" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Los Zetas: Operational assessment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lisa</forename><forename type="middle">J</forename><surname>Campbell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Small Wars &amp; Insurgencies</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="55" to="80" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,40.38,251.78,382.55,9.21;22,56.31,263.75,260.17,9.21" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Un questionario para simplificar el diagnóstico del síndrome depresivo</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Calderón</forename><surname>Narvaez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guillermo</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Revista de Neuro-Psiquiatría</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="127" to="162" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,40.38,275.70,382.57,9.21;22,56.32,287.65,305.55,9.21" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Exposure to local homicide and early educational achievement in Mexico</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mónica</forename><forename type="middle">L</forename><surname>Caudillo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Florencia</forename><surname>Torche</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sociology of Education</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="89" to="115" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,40.38,299.61,382.55,9.21;22,56.32,311.56,366.61,9.21;22,56.32,323.52,179.34,9.21" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The relationship between likelihood and fear of criminal victimization: Evaluating risk sensitivity as mediating concept</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Derke</forename><surname>Chadee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Liz</forename><surname>Austen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jason</forename><surname>Ditton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Criminology</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="133" to="53" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,40.38,335.48,382.56,9.21;22,56.32,347.43,39.83,9.21" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The fear of crime and area differences in health</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tarani</forename><surname>Chandola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health &amp; Place</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="105" to="121" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,40.38,359.39,382.56,9.21;22,56.32,371.34,366.62,9.21;22,56.32,383.29,137.50,9.21" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Seeing their surroundings: The effects of neighborhood setting and race on maternal distress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Christie-Mizell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lala</forename><forename type="middle">Carr</forename><surname>André</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><surname>Steelman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Stewart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Science Research</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="402" to="430" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,40.38,395.25,382.56,9.21;22,56.32,407.21,221.94,9.21" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Crime and mental well-being</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francesca</forename><surname>Cornaglia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Naomi</forename><forename type="middle">E</forename><surname>Feldman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Leigh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Human Resources</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="110" to="150" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,40.38,419.16,382.56,9.21;22,56.32,431.12,366.62,9.21;22,56.32,443.07,179.33,9.21" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Fear of crime in urban residential neighborhoods: Implications of between-and within-neighborhood sources for current models</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeanette</forename><surname>Covington</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ralph</forename><forename type="middle">B</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sociological Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="231" to="280" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,40.38,455.02,382.56,9.21;22,56.32,466.99,366.63,9.21;22,56.32,478.94,106.83,9.21" xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Armed with Impunity: Curbing Military Human Rights Abuses in Mexico</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine</forename><surname>Daly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kimberly</forename><surname>Heinle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">A</forename><surname>Shirk</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+			<pubPlace>San Diego, CA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Trans-Border Institute, University of San Diego</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,40.38,490.89,382.55,9.21;22,56.32,502.85,158.05,9.21" xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Trauma, War, and Violence: Public Mental Health in Sociocultural Context</title>
+		<editor>de Jong, Joop</editor>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>Kluwer</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,40.38,514.80,382.59,9.21;22,56.32,526.76,236.60,9.21" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Common mental disorders in postconflict settings</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>De Jong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ivan</forename><forename type="middle">H</forename><surname>Joop</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Komproe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Van Ommeren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Lancet</title>
+		<imprint>
+			<biblScope unit="volume">361</biblScope>
+			<biblScope unit="page" from="2128" to="2158" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,40.38,538.72,382.57,9.21;22,56.32,550.67,132.03,9.21" xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Fear of Crime: Interpreting Victimization Risk</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenneth</forename><forename type="middle">F</forename><surname>Ferraro</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<pubPlace>Albany</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>State University of New York Press</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,40.38,562.63,382.56,9.21;22,56.32,574.58,92.95,9.21" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Women&apos;s fear of victimization: Shadow of sexual assault?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenneth</forename><forename type="middle">F</forename><surname>Ferraro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Forces</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="667" to="90" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,40.38,586.53,382.55,9.21;22,56.32,598.49,366.62,9.21;22,56.32,610.45,44.80,9.21" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Are older people most afraid of crime? Reconsidering age differences in fear of victimization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenneth</forename><forename type="middle">F</forename><surname>Ferraro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Randy</forename><forename type="middle">L</forename><surname>Lagrange</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Gerontology</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="233" to="277" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,44.60,60.51,382.56,9.21;23,60.54,72.46,366.56,9.21;23,60.54,84.41,152.83,9.21" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Global Burden of Armed Conflict</title>
+		<ptr target="http://www.genevadeclaration.org/fileadmin/docs/Global-Burden-of-Armed-Violence-full-report.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">Geneva Declaration Secretariat</title>
+		<meeting><address><addrLine>Geneva</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>Geneva Declaration</note>
+</biblStruct>
+
+<biblStruct coords="23,44.60,96.37,382.54,9.21;23,60.54,108.32,366.60,9.21;23,60.54,120.28,107.64,9.21" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Fear of crime and health in residential tower blocks: A case study in liverpool</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoff</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jan</forename><forename type="middle">M</forename><surname>Gilbertson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">F J</forename><surname>Grimsley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">UK. European Journal of Public Health</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="10" to="15" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,44.60,132.24,382.58,9.21;23,60.54,144.19,74.42,9.21" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Fear of crime: A review of the literature</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chris</forename><surname>Hale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Review of Victimology</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="79" to="150" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,44.60,156.15,382.55,9.21;23,60.54,168.10,366.61,9.21;23,60.54,180.05,142.81,9.21" xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Drug Violence in Mexico: Data and Analysis Through</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kimberly</forename><surname>Heinle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Octavio</forename><forename type="middle">Rodríguez</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">A</forename><surname>Shirk</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<pubPlace>San Diego, CA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Justice in Mexico Project, University of San Diego</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,44.61,192.02,382.55,9.21;23,60.55,203.97,366.61,9.21;23,60.55,215.92,142.81,9.21" xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Drug Violence in Mexico: Data and Analysis Through</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kimberly</forename><surname>Heinle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Octavio</forename><forename type="middle">Rodríguez</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">A</forename><surname>Shirk</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<pubPlace>San Diego, CA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Justice in Mexico Project, University of San Diego</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,44.61,227.88,382.60,9.21;23,60.55,239.83,366.60,9.21;23,60.55,251.79,44.80,9.21" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Neighborhood disorder, psychophysiological distress, and health</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Terrence</forename><forename type="middle">D</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine</forename><forename type="middle">E</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ronald</forename><forename type="middle">J</forename><surname>Angel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Health and Social Behavior</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="170" to="86" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,44.61,263.75,382.56,9.21;23,60.55,275.70,327.12,9.21" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Neither Rights nor Security: Killings, Torture, and Disappearances in Mexico&apos;s &quot;War on Drugs</title>
+	</analytic>
+	<monogr>
+		<title level="j">Human Rights Watch</title>
+		<imprint>
+			<date type="published" when="2011" />
+			<publisher>Human Rights Watch</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,44.61,287.65,382.54,9.21;23,60.54,299.61,201.50,9.21" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Instituto Nacional de Estadística y Geografía (INEGI)</title>
+	</analytic>
+	<monogr>
+		<title level="m">Séptima Encuesta Nacional sobre Inseguridad ENSI 2010. Mexico: INEGI</title>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,44.61,311.56,382.53,9.21;23,60.54,323.52,211.45,9.21" xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Estadísticas de defunciones generales: Síntesis metodológica</title>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>INEGI</publisher>
+			<pubPlace>Mexico</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Instituto Nacional de Estadística y Geografía (INEGI)</note>
+</biblStruct>
+
+<biblStruct coords="23,44.61,335.48,382.57,9.21;23,60.54,347.43,160.76,9.21" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A psychological perspective on vulnerability in the fear of crime</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><surname>Jackson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychology, Crime &amp; Law</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="365" to="90" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,44.61,359.39,382.56,9.21;23,60.54,371.34,189.55,9.21" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Revisiting risk sensitivity in the fear of crime</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><surname>Jackson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Research in Crime and Delinquency</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="513" to="550" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,44.61,383.29,382.55,9.21;23,60.55,395.26,257.40,9.21" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Public health and fear of crime: A prospective cohort study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mai</forename><surname>Stafford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The British Journal of Criminology</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="832" to="879" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,44.61,407.21,382.55,9.21;23,60.55,419.16,17.43,9.21" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Mexico&apos;s drug war: Is it really a war?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Callin</forename><surname>Kerr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">South Texas Law Review</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="193" to="224" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,44.61,431.12,382.59,9.21;23,60.55,443.07,246.27,9.21" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Vulnerability: Towards a better understanding of a key variable in the genesis of fear of crime</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Killias</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Violence &amp; Victims</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="97" to="108" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,44.61,455.03,382.54,9.21;23,60.55,466.99,277.87,9.21" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Mental health needs of crime victims: Epidemiology and outcomes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dean</forename><forename type="middle">G</forename><surname>Kilpatrick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ron</forename><surname>Acierno</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Traumatic Stress</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="119" to="151" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,44.61,478.94,382.55,9.21;23,60.55,490.89,259.31,9.21" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Assessing age and gender differences in perceived risk and fear of crime</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Randy</forename><forename type="middle">L</forename><surname>Lagrange</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenneth</forename><forename type="middle">F</forename><surname>Ferraro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Criminology</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="697" to="719" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,44.61,502.85,382.53,9.21;23,60.55,514.80,366.63,9.21;23,60.55,526.76,110.14,9.21" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Stressful neighborhoods and depression: A prospective study of the impact of neighborhood disorder</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carol</forename><forename type="middle">A</forename><surname>Latkin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aaron</forename><forename type="middle">D</forename><surname>Curry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Health and Social Behavior</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="34" to="44" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,44.61,538.72,382.56,9.21;23,60.55,550.67,366.63,9.21;23,60.55,562.63,366.62,9.21;23,60.55,574.58,229.13,9.21" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Crime, fear of crime, environment, and mental health and wellbeing: Mapping review of theories and causal pathways</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Theo</forename><surname>Lorenc</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><surname>Clayton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Neary</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Margaret</forename><surname>Whitehead</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Petticrew</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hilary</forename><surname>Thomson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><surname>Cummins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amanda</forename><surname>Sowden</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adrian</forename><surname>Renton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health &amp; Place</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="757" to="65" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,44.61,586.53,382.56,9.21;23,60.55,598.50,366.61,9.21;24,56.31,60.51,203.43,9.21;24,64.06,72.46,121.19,9.21" xml:id="b35">
+	<monogr>
+		<title level="m" type="main">The Decline in Global Violence: Evidence, Explanation, and Contestation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><forename type="middle">Ed</forename><surname>Mack</surname></persName>
+		</author>
+		<ptr target="http://www.hsrgroup.org/docs/Publications/HSR2013/HSRPṘeport˙2013˙140226˙Web.pdf" />
+		<imprint>
+			<date type="published" when="2013" />
+			<publisher>Human Security Press</publisher>
+			<pubPlace>Vancouver, BC, Canada</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Human Security Report</note>
+</biblStruct>
+
+<biblStruct coords="24,40.37,84.41,382.57,9.21;24,56.31,96.37,269.31,9.21" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Political violence and war as causes of psychosocial trauma in El Salvador</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ignacio</forename><surname>Martín-Baró</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Mental Health</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="3" to="20" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,40.37,108.32,382.56,9.21;24,56.31,120.28,155.52,9.21" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Parenthood and psychological well-being</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sara</forename><surname>Mclanahan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julia</forename><surname>Adams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="237" to="57" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,40.37,132.24,382.58,9.21;24,56.31,144.19,366.59,9.21;24,56.31,156.15,366.63,9.21;24,56.31,168.10,22.40,9.21" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">War exposure, daily stressors, and mental health in conflict and post-conflict settings: Bridging the divide between trauma-focused and psychosocial frameworks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenneth</forename><forename type="middle">E</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Rasmussen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Science and Medicine</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="7" to="16" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,40.37,180.05,382.55,9.21;24,56.31,192.02,276.50,9.21" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Age and the effect of economic hardship on depression</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Mirowsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine</forename><forename type="middle">E</forename><surname>Ross</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Health and Social Behavior</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="132" to="50" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,40.38,203.97,382.58,9.21;24,56.32,215.92,191.58,9.21" xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Social Causes of Psychological Distress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Mirowsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine</forename><forename type="middle">E</forename><surname>Ross</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Aldine de Gruyter</publisher>
+			<pubPlace>Hawthorne, NY</pubPlace>
+		</imprint>
+	</monogr>
+	<note>2nd ed.</note>
+</biblStruct>
+
+<biblStruct coords="24,40.38,227.88,382.53,9.21;24,56.32,239.83,366.61,9.21;24,56.32,251.79,54.75,9.21" xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">F</forename><surname>Mollica</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Barbara Lopes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Howard</forename><forename type="middle">J</forename><surname>Cardozo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Beverley</forename><surname>Osofsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alastair</forename><surname>Raphael</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Ager</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Salama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mental health in complex emergencies. Lancet</title>
+		<imprint>
+			<biblScope unit="volume">364</biblScope>
+			<biblScope unit="page" from="2058" to="67" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,40.38,263.75,382.56,9.21;24,56.32,275.70,366.63,9.21;24,56.31,287.65,353.06,9.21;24,56.31,299.61,92.16,9.21" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The Mexican undead: Toward a new history of the &apos;drug war&apos; killing fields</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Molly</forename><surname>Molloy</surname></persName>
+		</author>
+		<ptr target="http://smallwarsjournal.com/jrnl/art/the-mexican-undead-toward-a-newh-istory-of-the-%E2%80%9Cdrug-war%E2%80%9D-killing-fields" />
+	</analytic>
+	<monogr>
+		<title level="j">Small Wars Journal</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,40.37,311.56,382.55,9.21;24,56.31,323.52,366.62,9.21;24,56.31,335.48,106.83,9.21" xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Drug Violence in Mexico: Data and Analysis Through 2012</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cory</forename><surname>Molzahn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Octavio</forename><forename type="middle">Rodriguez</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">A</forename><surname>Shirk</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<pubPlace>San Diego, CA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Trans-Border Institute, University of San Diego</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,40.37,347.43,382.55,9.21;24,56.31,359.39,366.61,9.21;24,56.31,371.34,29.05,9.21" xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Drug Violence in Mexico: Data and Analysis Through</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cory</forename><surname>Molzahn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Viridiana</forename><surname>Ríos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">A</forename><surname>Shirk</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<pubPlace>San Diego, CA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Trans-Border Institute, University of San Diego</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,40.37,383.29,382.56,9.21;24,56.31,395.26,101.55,9.21" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Fear of crime&apos;, vulnerability and poverty</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christina</forename><surname>Pantazis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Criminology</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="414" to="450" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,40.37,407.21,382.56,9.21;24,56.31,419.16,366.59,9.21;24,56.31,431.12,96.88,9.21" xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Working conditions and mental health in Mexico: Evidence from the MxFLS. InterAmerican Development Bank</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Susan</forename><forename type="middle">W</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Luis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Graciela</forename><surname>Rubalcava</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Teruel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Working Paper</note>
+</biblStruct>
+
+<biblStruct coords="24,40.37,443.07,382.53,9.21;24,56.31,455.03,366.62,9.21;24,56.31,466.99,196.49,9.21" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Ecological assessments of community disorder: Their relationship to fear of crime and theoretical implications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Douglas</forename><forename type="middle">D</forename><surname>Perkins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ralph</forename><forename type="middle">B</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Community Psychology</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="63" to="107" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,40.38,478.94,382.56,9.21;24,56.32,490.89,294.19,9.21" xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Índice de Desarrollo Humano Municipal en México: Nueva metodología</title>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>PNUD</publisher>
+			<pubPlace>Mexico</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Programa de las Naciones Unidas para el Desarrollo (PNUD)</note>
+</biblStruct>
+
+<biblStruct coords="24,40.38,502.85,382.53,9.21;24,56.32,514.80,366.61,9.21;24,56.32,526.76,285.08,9.21" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The influence of concern about crime on levels of psychological distress in the former Soviet Union</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bayard</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Stickley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Patticrew</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Mckee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Epidemiology and Community Health</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="433" to="442" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,40.38,538.72,382.55,9.21;24,56.32,550.67,366.58,9.21;24,56.32,562.63,283.13,9.21" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Multilevel longitudinal impacts of incivilities: Fear of crime, expected safety, and block satisfaction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><forename type="middle">B</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Brian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ralph</forename><forename type="middle">B</forename><surname>Lawton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Douglas</forename><forename type="middle">D</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Perkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Quantitative Criminology</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="237" to="74" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,40.38,574.58,382.57,9.21;24,56.32,586.53,71.67,9.21" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Fear of victimization and health</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine</forename><forename type="middle">E</forename><surname>Ross</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Quantitative Criminology</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="159" to="75" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="24,40.38,598.50,382.56,9.21;24,56.32,610.45,164.94,9.21" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Neighborhood disadvantage and adult depression</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine</forename><forename type="middle">E</forename><surname>Ross</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Health and Social Behavior</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="177" to="87" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,44.60,60.51,382.57,9.21;25,60.54,72.46,366.62,9.21;25,60.54,84.41,81.07,9.21" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Neighborhood disorder, fear, and mistrust: The buffering role of social ties with neighbors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine</forename><forename type="middle">E</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sungjoon</forename><surname>Jang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Community Psychology</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="401" to="421" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,44.60,96.37,382.57,9.21;25,60.54,108.32,344.03,9.21" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Disorder and decay: The concept and measurement of perceived neighborhood disorder</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine</forename><forename type="middle">E</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Mirowsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Urban Affairs Review</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="412" to="444" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,44.60,120.28,382.56,9.21;25,60.54,132.24,243.54,9.21" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Neighborhood disadvantage, disorder, and health</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine</forename><forename type="middle">E</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Mirowsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Health and Social Behavior</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="258" to="76" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,44.60,144.19,382.54,9.21;25,60.54,156.15,289.23,9.21" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Neighborhood disorder, subjective alienation, and distress</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine</forename><forename type="middle">E</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Mirowsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Health and Social Behavior</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="49" to="64" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,44.60,168.10,382.54,9.21;25,60.54,180.05,366.62,9.21;25,60.54,192.02,132.82,9.21" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Powerlessness and the amplification of threat: Neighborhood disadvantage, disorder, and mistrust</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine</forename><forename type="middle">E</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Mirowsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shana</forename><surname>Pribesh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="568" to="91" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,44.60,203.97,382.54,9.21;25,60.54,215.92,366.59,9.21;25,60.54,227.88,277.02,9.21" xml:id="b58">
+	<monogr>
+		<title level="m" type="main">User´s Guide: Mexican Family Life Survey</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luis</forename><surname>Rubalcava</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Graciela</forename><surname>Teruel</surname></persName>
+		</author>
+		<ptr target="http://www.ennvih-mxfls.org/english/assets/usersguidev2-(1).pdf" />
+		<imprint>
+			<date type="published" when="2005" />
+			<pubPlace>Mexico City, Mexico</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Department of Economics, Universidad Iberoamericana</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,44.60,239.83,382.57,9.21;25,60.54,251.79,366.61,9.21;25,60.54,263.75,17.43,9.21" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Fear of crime and criminal victimization: Gender-based contrasts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseph</forename><forename type="middle">A</forename><surname>Schafer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Beth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Timothy</forename><forename type="middle">S</forename><surname>Huebner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bynum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Criminal Justice</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="285" to="301" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,44.60,275.70,382.57,9.21;25,60.54,287.65,287.52,9.21" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Union type and depressive symptoms among Mexican adults</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kammi</forename><forename type="middle">K</forename><surname>Schmeer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rhiannon</forename><forename type="middle">A</forename><surname>Kroeger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Family Issues</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1597" to="621" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,44.61,299.61,382.56,9.21;25,60.54,311.56,119.56,9.21" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Understanding Mexico&apos;s drug violence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Shirk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joel</forename><surname>Wallman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Conflict Resolution</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="1" to="30" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,44.61,323.52,382.54,9.21;25,60.54,335.48,126.49,9.21" xml:id="b62">
+	<monogr>
+		<title level="m" type="main">Disorder and Decline: Crime and the Spiral of Decay in American Cities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wesley</forename><forename type="middle">G</forename><surname>Skogan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<publisher>Free Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,44.61,347.43,382.55,9.21;25,60.55,359.39,366.62,9.21;25,60.55,371.34,49.78,9.21" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Association between fear of crime and mental health and physical functioning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mai</forename><surname>Stafford</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tarani</forename><surname>Chandola</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Marmot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Public Health</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="2076" to="81" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,44.61,383.29,382.56,9.21;25,60.55,395.26,218.07,9.21" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Women, crime, and fear</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elizabeth</forename><forename type="middle">A</forename><surname>Stanko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The ANNALS of the American Academy of Political and Social Science</title>
+		<imprint>
+			<biblScope unit="volume">539</biblScope>
+			<biblScope unit="page" from="46" to="58" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,44.61,407.21,382.57,9.21;25,60.55,419.16,366.64,9.21;25,60.55,431.12,366.62,9.21;25,60.55,443.07,153.81,9.21" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">The importance of social context: Neighborhood stressors, stress-buffering mechanisms, and alcohol, drug, and mental health disorders</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Susan</forename><forename type="middle">E</forename><surname>Stockdale</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Kenneth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lingqi</forename><surname>Wells</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><forename type="middle">R</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lily</forename><surname>Belin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cathy</forename><forename type="middle">D</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sherbourne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Science &amp; Medicine</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="1867" to="81" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,44.61,455.03,382.55,9.21;25,60.55,466.99,366.62,9.21;25,60.55,478.94,97.43,9.21" xml:id="b66">
+	<monogr>
+		<title level="m" type="main">Breaking Away from Broken Windows: Baltimore Evidence and Implications for the Nationwide Fight Against Crime, Grime, Fear and Decline</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ralph</forename><forename type="middle">B</forename><surname>Taylor</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Westview Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,44.61,490.89,382.54,9.21;25,60.55,502.85,229.15,9.21" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Testing alternative models of fear of crime</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ralph</forename><forename type="middle">B</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Margaret</forename><surname>Hale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Criminal Law and Criminology</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="151" to="89" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,44.61,514.80,382.55,9.21;25,60.55,526.76,366.61,9.21;25,60.55,538.72,109.00,9.21" xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Prenatal exposure to violence and birth weight in Mexico: Selectivity, exposure, and behavioral responses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Florencia</forename><surname>Torche</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrés</forename><surname>Villarreal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="966" to="92" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,44.61,550.67,382.56,9.21;25,60.55,562.63,366.64,9.21;25,60.55,574.58,211.44,9.21" xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Community disorder, victimization exposure, and mental health in a national sample of youth</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Heather</forename><forename type="middle">A</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anne</forename><surname>Shattuck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sherry</forename><surname>Hamby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Finkelhor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Health and Social Behavior</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="258" to="75" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,44.61,586.53,382.54,9.21;25,60.55,598.50,239.70,9.21" xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Availability: A heuristic for judging frequency and probability</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amos</forename><surname>Tversky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Kahneman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="207" to="239" />
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,40.37,60.51,382.58,9.21;26,56.31,72.46,138.34,9.21" xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Judgment under uncertainty: Heuristics and biases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amos</forename><surname>Tversky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Kahneman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">185</biblScope>
+			<biblScope unit="page" from="1124" to="1155" />
+			<date type="published" when="1974" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,40.37,84.41,382.54,9.21;26,56.31,96.37,338.46,9.21" xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Political competition and violence in Mexico: Hierarchical social control in local patronage structures</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrés</forename><surname>Villarreal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="477" to="98" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,40.37,108.32,382.57,9.21;26,56.31,120.28,366.63,9.21;26,56.31,132.24,94.36,9.21" xml:id="b73">
+	<analytic>
+		<title level="a" type="main">The social ecology of rural violence: Land scarcity, the organization of agricultural production and the presence of the state</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrés</forename><surname>Villarreal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="313" to="361" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,40.37,144.19,382.54,9.21;26,56.31,156.15,211.44,9.21" xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Marital transitions and mental health</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Terrance</forename><forename type="middle">J</forename><surname>Wade</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">J</forename><surname>Pevalin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Health and Social Behavior</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="155" to="70" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,40.37,168.10,382.58,9.21;26,56.31,180.05,156.33,9.21" xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Fear of victimization: Why are women and the elderly more afraid?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Warr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Science Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="681" to="702" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,40.37,192.02,350.10,9.21" xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Fear of rape among urban women</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Warr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Problems</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="238" to="50" />
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,40.37,203.97,382.56,9.21;26,56.31,215.92,366.62,9.21;26,56.31,227.88,366.64,9.21;26,56.31,239.83,31.81,9.21" xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Fear of crime in the United States: Avenues for research and policy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Warr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Criminal Justice</title>
+		<editor>Crime and Justice, ed. David Duffee</editor>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2000" />
+		</imprint>
+		<respStmt>
+			<orgName>U.S. Department of Justice. National Institute of Justice</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,40.37,251.79,382.57,9.21;26,56.31,263.75,366.61,9.21;26,56.31,275.70,12.45,9.21" xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Rethinking social reactions to crime: Personal and altruistic fear in family households</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Warr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><forename type="middle">G</forename><surname>Ellison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="551" to="78" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,40.37,287.65,382.58,9.21;26,56.31,299.61,109.01,9.21" xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Fear of victimization: A look at proximate causes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Warr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Stafford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Forces</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1033" to="1076" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,40.37,311.56,382.53,9.21;26,56.31,323.52,243.24,9.21" xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Fear of crime, mobility and mental health in innercity London</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rob</forename><surname>Whitley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Prince</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">UK. Social Science &amp; Medicine</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1678" to="88" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,40.37,335.48,382.55,9.21;26,56.31,347.43,264.31,9.21" xml:id="b81">
+	<analytic>
+		<title level="a" type="main">World Health Organization (WHO)</title>
+	</analytic>
+	<monogr>
+		<title level="m">Mental Health: New Understanding</title>
+		<meeting><address><addrLine>New Hope. Geneva, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<publisher>WHO</publisher>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,50.34,377.32,372.57,9.21;26,40.37,389.27,382.59,9.21;26,40.37,401.23,382.53,9.21;26,40.37,413.18,72.50,9.21" xml:id="b82">
+	<monogr>
+		<title level="m" type="main">Andrés Villarreal is a professor of sociology at the University of Maryland-College Park and a faculty associate at the Maryland Population Research Center</title>
+		<imprint/>
+	</monogr>
+	<note>His current research focuses on international migration, race and ethnicity, crime and violence, and social inequality</note>
+</biblStruct>
+
+<biblStruct coords="26,50.34,435.10,372.60,9.21;26,40.37,447.06,382.58,9.21;26,40.37,459.01,382.57,9.21;26,40.37,470.96,382.60,9.21;26,40.37,482.92,75.84,9.21" xml:id="b83">
+	<monogr>
+		<title level="m" type="main">Her current research interests include patterns of gender inequality in the labor market and how changes in socioeconomic contexts shape individuals&apos; career trajectories, family behaviors, and psychological health</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Wei-Hsin</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Yu is a professor of sociology at the University of Maryland-College Park and a faculty associate at the Maryland Population Research Center</note>
+</biblStruct>
+
+<biblStruct coords="27,83.75,60.68,132.57,9.21" xml:id="b84">
+	<monogr>
+		<title level="m" type="main">Has your appetite diminished?</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,83.75,72.63,343.43,9.21;27,83.74,84.58,262.42,9.21" xml:id="b85">
+	<monogr>
+		<title level="m" type="main">Have you felt obsessive or constantly repetitive (for example: with fixed ideas you cannot stop thinking about or doing things repetitively</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,83.75,96.54,154.98,9.21" xml:id="b86">
+	<monogr>
+		<title level="m" type="main">Has your sexual interest decreased?</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,83.75,108.49,342.12,9.21" xml:id="b87">
+	<monogr>
+		<title level="m" type="main">Do you think you have had a decrease in job performance or in daily activities?</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,83.75,120.45,163.29,9.21" xml:id="b88">
+	<monogr>
+		<title level="m" type="main">Have you felt pressure on your chest?</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,83.75,132.41,291.76,9.21" xml:id="b89">
+	<monogr>
+		<title level="m" type="main">Have you felt nervous, anguished or anxious, more so than normal?</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,83.75,144.36,248.01,9.21" xml:id="b90">
+	<monogr>
+		<title level="m" type="main">Have you felt tired, or discouraged more so than normal?</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,83.75,156.31,293.93,9.21" xml:id="b91">
+	<monogr>
+		<title level="m" type="main">Have you felt pessimistic, or have you thought things will go wrong?</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,83.75,168.27,323.01,9.21" xml:id="b92">
+	<monogr>
+		<title level="m" type="main">Have you frequently had a headache, or felt pain in the back of your neck?</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,83.75,180.23,248.55,9.21" xml:id="b93">
+	<monogr>
+		<title level="m" type="main">Have you felt more irritated, or more angry than normal?</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,83.75,192.18,217.25,9.21" xml:id="b94">
+	<monogr>
+		<title level="m" type="main">Have you felt insecure, or lacking self-confidence?</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,83.75,204.14,173.54,9.21" xml:id="b95">
+	<monogr>
+		<title level="m" type="main">Have you felt less useful to your family?</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,83.75,216.09,343.41,9.21;27,83.74,228.04,113.50,9.21" xml:id="b96">
+	<monogr>
+		<title level="m" type="main">Have you felt fear of some things, as if you expected something serious/dangerous to happen?</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,83.75,240.00,106.28,9.21" xml:id="b97">
+	<monogr>
+		<title level="m" type="main">Have you wished to die?</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

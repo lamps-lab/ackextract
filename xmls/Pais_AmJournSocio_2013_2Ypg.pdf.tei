@@ -1,0 +1,1698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Effects of U.S. Immigration on the Career Trajectories of Native Workers</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="1979">1979-2004 1</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeremy</forename><surname>Pais</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Connecticut</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Effects of U.S. Immigration on the Career Trajectories of Native Workers</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="1979">1979-2004 1</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:12+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>While earlier work primarily examines the point-in-time effects of immigration on the earnings of native workers, this article focuses more broadly on the effects of immigration on native workers' career trajectories. Cross-classified multilevel growth-curve models are applied to 1979 National Longitudinal Survey of Youth and U.S. Census Bureau data to demonstrate how people adjust to changing local labor market conditions throughout their careers. The key findings indicate that substitution and complementary effects depend on the stage of the worker's career. At entry into the labor market, high levels of immigration have a positive effect on the career paths of young nativeborn adults. However, negative contemporaneous effects to natives' earnings tend to offset positive point-of-entry effects, a finding that suggests job competition among natives is greater in areas of high immigrant population concentration. These results raise questions about whether foreign-born workers need to be in direct competition with natives for there to be substitution effects.</p><p>1 Thanks to all the AJS reviewers for their comments and suggestions. I also thank Scott South, Nancy Denton, and Larry Raffalovich for their helpful comments on previous versions of this manuscript.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>The effect of immigration on the socioeconomic attainments of native workers is a contentious issue that is often studied within the substitution/com-with immigrants are also the ones most likely to change their behavior to avoid competition. Rarely, however, is the extent of bias in immigration research ever rigorously evaluated. Consequently, we still do not fully understand how immigration affects local labor market outcomes among native workers.</p><p>This research takes a novel life course approach to address this challenge. Drawing on 25 years of longitudinal data, this research studies the effects of immigrant population concentration on workers' career trajectories ðas opposed to a strict focus on contemporaneous effectsÞ. 2 By observing individuals over the life course as they are exposed to different local levels of immigrant population concentration, this research incorporates individual-level adaptations to immigration that are unaccounted for in previous research. This has important implications for our understanding of how local labor markets operate during an era of increasing immigration and for our empirical assessment of substitution or complementary effects that result. This career trajectory perspective is an important advancement in the area of immigration effects research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONTEXTUAL EFFECTS AND CAREER TRAJECTORIES</head><p>This research incorporates insights from intra-and intergenerational mobility research to develop an account of how immigrant population concentration affects people's career trajectories. Previous research on the determinants of social mobility over the life course have focused primarily on individual-and family-level characteristics ðe.g., <ref type="bibr" coords="3,285.56,381.48,102.15,8.58">Blau and Duncan 1967;</ref><ref type="bibr" coords="3,75.97,393.44,62.88,8.58" target="#b50">Sørensen 1975;</ref><ref type="bibr" coords="3,141.11,393.44,68.25,8.58" target="#b52">Spilerman 1977;</ref><ref type="bibr" coords="3,211.69,393.44,66.61,8.58" target="#b47">Rosenfeld 1980;</ref><ref type="bibr" coords="3,280.57,393.44,55.76,8.58">Halaby 2003Þ</ref>. This study considers, in addition to these characteristics, how contextual factors affect patterns of intragenerational socioeconomic mobility.</p><p>In The American Occupational Structure, Blau and Duncan ð1967Þ posit three main determinants of socioeconomic attainment: ð1Þ family socioeconomic background/resources, ð2Þ educational achievement, and ð3Þ occupational choice/opportunity for young adults. It is now common in stratification research to stress the importance of family background ðe.g., parental educational achievementÞ on a child's life chances. Family background is a major determinant of a child's educational achievement, and family background and educational achievement are strong determinants of an adult child's career choices and opportunities.</p><p>Although given less attention in the literature, stratification research also underscores that a critical juncture in a person's career occurs at the point 2 Several comprehensive reviews of the immigration effects literature ðFix and Passel 1994; Pedace 2006; Okkerse 2008Þ and a cited reference search of pertinent studies did not reveal any studies that analyze the contextual effects of immigrant population concentration on intragenerational social mobility.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effects of Immigration on Career Trajectories of Native Workers</head><p>of entry into the labor market. <ref type="bibr" coords="4,220.99,92.68,177.05,10.00">Blau and Duncan ð1967, pp. 48-49, 170Þ</ref> conceptualize these "career beginnings" as the intervening link between "social origins and subsequent careers"; "this starting level," they note, "affects their subsequent occupational life." Spilerman ð1977, p. 586Þ also observes how labor market entrance is "tantamount to launching an individual on an earnings and status trajectory." Career paths are therefore dependent to some degree upon family background, education, and early career choices and opportunities among young adults.</p><p>This study extends this area of research by considering how local labor market characteristics-at the moment young adults enter the labor market, as well as contemporaneously throughout workers' careers-influence patterns of intragenerational mobility. Specifically, in this article, I focus on whether immigrant population concentration affects entry-level choices and opportunities among young adults and, in turn, whether these initial choices and opportunities facilitate or hinder upward socioeconomic mobility. These point-of-entry effects on the career choices and opportunities of young adults are assessed independently from the point-in-time effects that are typically reported in cross-sectional studies.</p><p>This approach to studying the effects of immigration on natives is important for several reasons. First, focusing on the point of entry into the labor force allows us to better understand how native workers respond to immigration. Numerous studies examine the migratory response of natives to immigrant population concentration ðFrey 1995, 1999; <ref type="bibr" coords="4,326.87,357.44,71.19,8.58;4,86.26,369.46,22.57,8.58" target="#b58">White and Liang 1998;</ref><ref type="bibr" coords="4,113.02,369.46,48.29,8.58" target="#b13">Card 2001;</ref><ref type="bibr" coords="4,165.57,369.46,100.68,8.58" target="#b28">Kritz and Gurak 2001;</ref><ref type="bibr" coords="4,270.51,369.46,127.53,8.58">White and Borjas 2006Þ, but</ref> natives may respond to immigration in other ways that are just as relevant, if not more relevant, to the substitution/complement debate. For reasons explained in the following section, the population share of foreign born in the local area may have significant effects on the job opportunities for young native-born adults, and these early job choices and opportunities may place young natives on a particular career path. In a manner similar to selective migration-for example, less educated natives avoiding high levels of immigrant population concentration when considering relocation ðFrey 1995, 1999; White and Liang 1998Þ-young native-born adults may select into different types of careers depending on the local level of immigration.</p><p>Second, substitution/complement-based research carried out to date implicitly assumes that the contemporaneous effect of immigration on individual differences in earnings across local labor markets ði.e., betweenindividual effectsÞ is equivalent to the effect of immigration on changes in earnings across an individual's career ði.e., within-individual effectsÞ. Yet, because people likely adjust to the effects of immigrant population concentration at discrete points in their career ðe.g., when young adults first enter the labor marketÞ, these cross-sectional effects are perhaps different for people in different stages of their career or different for people that be-American Journal of Sociology gan their careers under vastly different types of local labor markets conditions. Because of migration, even people of similar age living in the same area at the same time have likely had different levels of exposure to immigrant population concentration. This heterogeneity within the population presents a difficult challenge for cross-sectional research designs. A longitudinal research design is better equipped to deal with these complex issues because the longitudinal data allow researchers to decompose the effects of immigrant population concentration into its respective between-individual and within-individual effects. In the next section I elaborate on why immigrant population concentration may have important implications for the career paths of young adults.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IMMIGRATION AND POINT-OF-ENTRY EFFECTS</head><p>Entry-level jobs for many individuals are the stepping stones to future socioeconomic mobility, and these entry-level opportunities are likely to be especially sensitive to local labor market conditions. Conventional arguments suggest that young adults will have more difficulty climbing the socioeconomic ladder without the benefit of access to these entry-level employment opportunities. However, we simply do not know whether high levels of immigration affect entry positions for young adults in ways that influence their career trajectories over the long run.</p><p>Employers of many lower-paying, physical, dirty, dangerous, and menial jobs-jobs at the bottom of the job ladder-seek laborers that are not only hardworking and reliable but are also acquiescent and expendable. Immigrant labor fills these requirements for many employers of the least desirable jobs in advanced capitalist societies ðPiore 1979; Johnson-Webb 2002; <ref type="bibr" coords="5,100.86,417.48,110.94,8.58" target="#b27">Kandel and Parrado 2005;</ref><ref type="bibr" coords="5,214.24,417.48,115.19,8.58" target="#b64">Zamudio and Lichter 2008;</ref><ref type="bibr" coords="5,331.87,417.48,55.84,8.58;5,75.97,429.44,66.79,8.58">Orrenius and Zavodny 2009Þ.</ref> In fact, over the past several decades a progression has left some industries virtually dependent on immigrant labor. When an employer prefers immigrants to do the work he or she believes native workers will not do, or not do as well, and native workers find employment avenues blocked through mechanisms of social closure enacted by immigrant networks ðWaldinger and Lichter 2003Þ, then native workers could be adversely affected, not only in the short term, but throughout the course of their working careers. This is especially problematic if entry-level positions for native workers are limited or cut off entirely. Limited access to entrylevel employment translates into limited access to job training and skillbuilding opportunities. Having limited entry-level opportunities could then directly affect young people's career trajectories by impeding the main conduit through which experience and work-based human capital is acquired.</p><p>Those who insist that foreign-born workers are mainly substitutes for native-born workers maintain this position: high concentrations of immi-Effects of Immigration on Career Trajectories of Native Workers grant labor block entry-level positions for young native workers, which in turn impedes the ability of natives to acquire valuable work experience ðBriggs 1993Þ. Therefore, the modest ðbut in recent studies consistentÞ negative contemporaneous effect of immigrant population concentration on native-born earnings could operate primarily through the constraints that high levels of immigration impose on the employment opportunities for young native-born adults. According to this perspective, we should anticipate immigrant population concentration at the point of entry into the labor force to have a negative effect on the career trajectories of native workers (i.e., on earnings and occupational status attainment).</p><p>Scholars also recognize that foreign-born labor can complement the employment opportunites of native workers and provide a range of compelling explanations for this phenomenon. The work that the majority of foreignborn workers do in the United States is ranked at the bottom of the job ladder. ðNotwithstanding the fact that foreign-born workers in the U.S. economy are found at all levels of the occupational hierarchy.Þ Jobs at the bottom of the ladder are most likely to be eschewed by native workers, and this aversion is amplified by the negative stigma attached to these jobs when they become labeled "immigrant jobs." Indeed, when employers of immigrants in the United States are asked why they predominately hire foreignborn workers they often say native workers do not apply ðsee Waldinger and Lichter 2003, pp. 213-14Þ. Although demand for workers at the bottom of the occupational hierarchy has remained strong, the domestic supply of workers willing to take these lower-level jobs presumably has not. Complementary relations between native-and foreign-born workers are based on the idea that native-born workers are unwilling to do the types of jobs the majority of immigrants do for the wages and status they receive.</p><p>These complementary labor relations suggest that prospective employees hold preconceived ideas about what types of jobs applicants are best suited to work. An employee's expectations concerning employment prospects are shaped by what is deemed accessible and appropriate work for someone with his or her social characteristics. Job expectations and preferences are not solely based on wages, nor are wages entirely free to respond to changes in the supply of workers. People expect wages to reflect social status to some degree, and the labor market is embedded within formal and informal social relations that protect the association between occupational status and earnings. This is why simply increasing wages at the bottom of the hierarchy to attract native workers is potentially problematic. A wage increase at the bottom of the job ladder may induce structural inflation-a form of inflationary pressure on wages that starts at the bottom of the job ladder and progresses upward-leaving the aversion native workers have toward low-status jobs unchanged despite the higher pay ðPiore 1979; <ref type="bibr" coords="6,86.22,597.48,199.84,8.58">Massey, Durand, and Malone 2002, pp. 15-16Þ.</ref> American Journal of Sociology When considering the impact of local labor markets on people's career trajectories, it is important to recognize that the strength of the motivational tie between work and social status is mutable, especially for people of different ages living in different areas. During young adulthood, status expectations are particularly in flux and heavily shaped by their milieu. Similar conceptually to the different frames of reference between foreignand native-born workers ðPiore 1979Þ, people at different ages and in different places within the United States maintain alternative frames of reference as well. Employment preferences among natives therefore tend to vary by age and location.</p><p>Relative to older workers, young workers are less likely to be fully committed to their work and are more likely to receive status and respect from their family and friends than from their jobs ðsee <ref type="bibr" coords="7,307.78,237.48,79.94,8.58;7,75.97,249.44,42.98,8.58">Massey et al. 2002, pp. 17-18Þ</ref>. The prestige of one's job for young workers may not be as important as the financial freedom and friendship it provides. Even if young adults have long-term career goals, the immediate gratification and autonomy that even jobs at the bottom of the hierarchy provide is enough to draw in young native-born workers. In fact, in many instances, menial jobs allow young adults the chance to defer the responsibility and commitment that professional careers require and that youthful lifestyles oppose. Wiley ð1967, p. 150Þ refers to this situation as an "age-grade mobility trap," where younger age groups maintain prestige standards that differ from those of older workers. Black ð2009Þ captures this dynamic among a group of street youths as they "age off the street" and come to embrace an identity of "working-class respectability." Mature native-born workers, like many foreign-born workers, may withstand the unpleasantness of many dirty, dangerous, and menial jobs in order to provide for their family ðBlack 2009, pp. 158-62; MacLeod 2009Þ. Young native-born workers, on the other hand, at an early stage in life are less likely to view their job as a sacrifice. In most cases, jobs at the bottom of the ladder are not seen as an option of last resort among young adults, but as temporary and convenient sources of employment. As a result, for many youths the fickle start of a "career" begins without much forethought.</p><p>The social significance of the status attached to jobs at the bottom of the ladder is likely to be socially contingent upon the characteristics of the individual ðe.g., ageÞ and on the characteristics of the local labor market, especially immigrant population concentration. In local labor markets with few foreign-born workers, many of the lower-paying, dangerous, dirty, and menial jobs may be seen as viable employment opportunities among young natives because they know family and friends who do similar work. In high immigrant concentration areas, on the other hand, young native workers are less likely to consider the same lower-paying, dangerous, dirty, and menial jobs as socially appropriate. When immigrants are overrepresented Effects of Immigration on Career Trajectories of Native Workers in the jobs at the bottom of the ladder, the negative status attached to these jobs may fall beneath a threshold acceptable to many young native workers. This threshold is the "social minimum" that native workers perceivea social minimum is the lowest-level occupational status that is socially acceptable to a job seeker ðsimilar to a reservation wageÞ. 3 High levels of immigration may inflate the social minimum among young native workers, driving them to seek entry into other areas of the labor market. This inflation of the social minimum was likely to be particularly true during the 1980s and 1990s, when many newly arriving immigrants carried the additional stigma of being dark-skinned minorities from less developed countries with limited formal education and limited English proficiency ðsee <ref type="bibr" coords="8,86.22,225.46,120.24,8.58" target="#b49">Smith and Edmonston 1997;</ref><ref type="bibr" coords="8,208.96,225.46,87.19,8.58">Alba and Nee 2003Þ.</ref> Immigrants in high immigrant concentration labor markets dominate many of the job vacancies at the bottom of the occupational hierarchy. Therefore, many young native-born adults who would have otherwise gravitated toward a career path of least resistance ðe.g., jobs with low levels of responsibility and commitmentÞ end up detached from job opportunities at the bottom of the occupational hierarchy, making it more likely that they will seek semiprofessional or professional career paths. Muller's ð1993, p. 143Þ observation that a key effect of immigration has been to change the distribution of jobs available to native workers "away from manufacturing and lower-skill services toward the white-collar sector, particularly in management and the professions," provides some credence to this possibility. From this perspective, we should expect immigrant population concentration at the point of entry into the labor force to have a positive effect on the career trajectories of native-born workers (i.e., earnings and occupational status attainment).</p><p>By focusing on the effects of immigrant population concentration at the point of entry into the labor market, this research brings into the forefront two equally compelling but diametrically opposed reasons for the expectation that immigration will affect native workers' career trajectories. These two reasons constitute viable possibilities that scholars of the immigration debate need to adjudicate. This research offers an explicit examination of the point-of-entry effect hypothesis among workers who primarily entered the labor force when the recent wave of mass immigration began to escalate nationwide during the 1980s ðsee table 1Þ.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AND METHODS</head><p>The primary data source for this study is the 1979 National Longitudinal Survey of Youth ðNLSY79Þ. The NLSY79 is a longitudinal survey frequently used to study labor market outcomes over the life course ðe.g., <ref type="bibr" coords="9,375.13,201.48,8.39,8.58;9,75.97,213.44,72.66,8.58" target="#b16">Fischer et al. 1996;</ref><ref type="bibr" coords="9,152.10,213.44,176.48,8.58" target="#b14">Carneiro, Heckman, and Masterov 2005;</ref><ref type="bibr" coords="9,332.05,213.44,55.65,8.58;9,75.97,225.46,152.99,8.58">Tomaskovic-Devey, Thomas, and Johnson 2005Þ</ref>. Respondents for the NLSY79 were between the ages 14 and 22 in 1979 when the survey began. These respondents were interviewed annually through 1994 and biannually since that time. The response rate ðdefined as the percentage of initial respondents remaining eligible to be reinterviewedÞ through the 2002 round of interviews is 80.9%.</p><p>The NLSY79 consists of 12,686 respondents from three subsamples taken in 1979: ðaÞ a nationally representative cross-sectional sample of 6,111 respondents; ðbÞ an oversample of 1280 respondents enlisted in the military; and ðcÞ an oversample of 5,295 blacks, Hispanics and poor nonblack and non-Hispanic whites. After 1984 the NLSY79 no longer followed the military sample, and after the 1990 round of interviews the survey also dropped the oversample of poor whites. Because these two subsamples are not present for the duration of the study, they are excluded from the analysis.</p><p>Local labor markets are operationalized as a combination of U.S. metropolitan areas and U.S. counties. Counties are the areal unit for those respondents not living in metropolitan areas. This operationalization ensures that respondents who move between metro and nonmetro areas contribute to the analysis. Data at the metropolitan and county level come from the <ref type="bibr" coords="9,114.36,465.44,18.00,8.58" target="#b47">1980</ref><ref type="bibr" coords="9,132.36,465.44,24.94,8.58" target="#b13">, 1990</ref><ref type="bibr" coords="9,157.30,465.44,45.48,8.58">, and 2000</ref> Yearly estimates of local labor market characteristics are unavailable. Consequently, for noncensus years, community measures are interpolated from the decennial census data. These data are then attached to the georeferenced NLSY79 data set.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dependent Variables</head><p>The dependent variables for this study are hourly earnings and occupational status. Hourly earnings are derived from a series of NLSY questions 3. Education and migration status . . . . . Those with lower levels of education that have never moved from their initial local labor market are more likely to be affected by foreign-born competition. The coefficients for % foreign-born will be larger in magnitude in the submodels that include only those with low levels of education that never moved from their initial local labor market.</p><p>Explicit:</p><p>1. about the respondent's employment and sources of income. Hourly earnings include all forms of compensation ðe.g., tips, wage, salary, etc.Þ and are standardized to an hourly scale in 2004 U.S. dollars ðthe last year of this studyÞ and converted into natural log form.</p><p>Occupational status is the second dependent variable and is measured by the Nam-Powers-Boyd occupational status scale, which ranks occupations according to their average level of educational attainment and income ðNam and Boyd 2004Þ. This scale has several desirable qualities. First, the scale is constant over time regardless of changes in occupational classification. Second, the calculation of the scale is straightforward, using existing census data. Third, the scores have an intuitive interpretation that represents the proportion of persons in the civilian labor force who are in occupations with lower levels of education and income than that particular occupation. For example, a score of .80 indicates that 80% of the labor force works in an occupation with lower levels of education and income, on average, than that particular occupation. For this research, the occupational scale is calculated three times using the 1970, 1980, and 2000 U.S. census occupational codes that correspond to the codes provided by the NLSY79. The NLSY79 uses the 1970 census occupational codes for years 1979-81, the 1980 census codes from 1982-2000, and the 2000 census codes from 2002-4. The occupational scale is calculated separately for men and for women. 5</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Independent Variables</head><p>Individual characteristics.-The respondent's age, gender, and racial/ethnic status are the three main demographic characteristics in the analysis. Age is a continuous variable that captures the subject-specific rate of social mobility. The NLSY79 provides detailed information on the respondent's race and ethnicity; however, sample size limits the analysis to non-Hispanic blacks, non-Hispanic whites, and Hispanics. Other important demographic characteristics are the respondent's marital status, number of children, school enrollment, educational achievement, and generational status. Marital status is coded with a dummy variable scored 1 for married respondents and 0 for the unmarried. Number of children is the number of the respondent's biological children, adopted children, or stepchildren living in the household. School enrollment is a dummy variable scored 1 if the respondent is currently enrolled in school. Education is measured as years of school completed. Those of second-generation status are coded 1 versus those that are native-born of native parentage, which are coded 0. Foreign-born respondents in the NLSY are excluded from the analysis. All of these variables except the respondents' gender, racial/ethnic identity, and generational status are measured at each NLSY interview and are treated as time-varying covariates.</p><p>This research also controls for important childhood background characteristics ðFischer et al. 1996; <ref type="bibr" coords="12,216.73,165.48,85.31,8.58">Carneiro et al. 2005Þ</ref>. Parental education is an essential background characteristic, and the models here include father's educational attainment measured as years of schooling completed. Where data are missing for father's education, the mother's education is used. The models also include an indicator for whether the respondent grew up in an intact household ðdefined as living with both biological parents at age 14Þ. The number of siblings at the time of the 1979 interview is included in the analysis, as well as whether the respondent is the oldest or youngest child ðmiddle child is the reference categoryÞ. Last, a measure of cognitive ability is included via the NLSY79's record of the Armed Forces Qualifying Test ðAFQTÞ. 6 These measures are recorded in the initial NLSY interviews and remain time invariant throughout the analysis.</p><p>Local labor market characteristics.-The focal independent variable is the percentage of the metropolitan or county population that is foreign born. 7 However, the expansion of global markets over the last quarter century has affected advanced capitalist societies in ways other than increasing its levels of immigration. Most notably are deindustrialization processes and the growth of high-end and low-end service jobs that have affected the economies of many local U.S. labor markets. Therefore, it is important to consider a number of local labor market characteristics ðin addition to immigrant population concentrationÞ that might influence people's career trajectories.</p><p>The relative size of the manufacturing sector within the local labor market is a potentially important control variable. Manufacturing is measured as the proportion of the labor force employed in manufacturing industries. Another important consideration is the size and composition of the service sector ðJaret, Reid, and Adelman 2003; Wang 2008Þ. Following Jaret et al. ð2003Þ, low-end services are measured as the proportion of the labor force in industries that include personal services, such as entertainment and recreation services, hotels and lodging places, private household services, and other miscellaneous personal services. The high-end service sector includes finance, insurance, and real estate ðFIREÞ industries. Other potentially important local characteristics are the size of the area's population, its share of the non-Hispanic black population, the unemployment rate, the size of public-sector employment, and its median level of family income, which is an important control variable that adjusts the analyses to the cost-of-living differences between communities ðfor descriptive statistics, see table 2Þ.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analytic Approach</head><p>The NLSY79 data records are organized in a person-year format. Each row represents a ðbiÞannual observation for each NLSY79 respondent. The maximum observations any one individual can contribute over the study period is 21; the minimum number of observations is 1. Using longitudinal data organized in a person-year format to analyze individual career trajectories violates the independent and identically distributed ði.i.d.Þ assumptions of classic linear regression. Researchers overcome these limitations by using mixed models that incorporate fixed and random effects.</p><p>This study uses a specific type of mixed model for longitudinal dataa growth curve model-where the interest is in modeling individual change over time ðRaudenbush and Bryk 2002; Singer and Willett 2003Þ. Growth curve models are being used increasingly in social stratification research ðe.g., <ref type="bibr" coords="13,100.07,465.44,94.39,8.58" target="#b4">Bernhardt et al. 2001;</ref><ref type="bibr" coords="13,197.81,465.44,51.70,8.58" target="#b20">Fuller 2008;</ref><ref type="bibr" coords="13,252.86,465.44,98.53,8.58">Hall and Farkas 2008Þ</ref> because they enable researchers to identify the individual trajectories of change across time that deviate from an average trend and allows them to use covariates to explain that deviation.</p><p>In addition to person-year observations clustered within persons, this analysis must also contend with the clustering of observations within local labor markets. Raudenbush and Bryk ð2002, pp. 237-44Þ describe a similar data structure where children's learning growth is modeled as a function of school-level differences ðtheir basic formulation is similar to the model proposed hereÞ. However, there is an important complexity to this study that is pertinent to multilevel studies of individual behavior within areal Second, because some people move into and out of a local area many times over the course of their lives, while others never move, it may be important to account for the duration of time individuals have spent in their local environments. Therefore, all models include a measure of years lived in the current metropolitan area or county of residence. This study also acknowledges the potential for bias in the estimates of immigration effects stemming from selective migration ðe.g., <ref type="bibr" coords="16,255.34,381.48,39.92,8.58" target="#b18">Frey 1995</ref><ref type="bibr" coords="16,302.28,381.48,17.70,8.58">Frey , 1999</ref><ref type="bibr" coords="16,327.00,381.48,71.12,8.58;16,86.24,393.44,22.17,8.58" target="#b58">White and Liang 1998;</ref><ref type="bibr" coords="16,112.15,393.44,46.64,8.58">Card 2001Þ</ref>. To further address this issue, this study provides submodels that distinguish respondents by their previous migration experience. These submodels will illustrate how a commonly unobserved population characteristic ðlike migratory experienceÞ affects the association between immigrant population concentration and earnings. Additionally, there are supplemental analyses discussed below that employ inverse probability weighting and instrumental variables to address the general problem of endogeneity bias that can be induced through differential migration or other factors. <ref type="bibr" coords="16,116.50,489.03,3.00,4.58">8</ref> Formally, the composite equation for the intercepts only ði.e., nullÞ cross classified multilevel growth-curve model is as follows:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effects of Immigration on Career Trajectories of Native Workers</head><formula xml:id="formula_0" coords="16,135.38,533.51,262.65,48.83">Y i jk ð Þ 5 b 00 1 b 01 ðage 40 ij Þ |fflfflfflfflfflfflfflfflfflfflfflfflfflffl{zfflfflfflfflfflfflfflfflfflfflfflfflfflffl} fixed effects 1 z 0j 1 z 1j ðage 40 ij Þ 1 u 0k 1 ε ið jkÞ |fflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl{zfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl} random effects ; o z j 5 j 2 z 0 j z 0 z 1 j 2 z 1 " #<label>ð1Þ</label></formula><p>8 There is also a third consideration. As with patterns of selective migration, there is a concern about whether immigrant population concentration affects an individual's American Journal of Sociology</p><p>The grouping factors ijk refer to measurement occasion i for individual j in community of current residence k. The subscripts jk are written within parentheses to indicate that they are cross classified grouping factors. Zetas ðz 0j ; z 1j Â age ij Þ, upsilon ðu k Þ, and epsilon ðε ið jkÞ Þ are the random effects for the individuals, communities, and transitory or idiosyncratic factors, respectively. Beta ðb 00 Þ is the fixed intercept ðaverage hourly earningsÞ, and b 01 is the fixed slope for age ðaverage rate of earnings growthÞ. These are the growth parameters in a multilevel model of change. At the person level the variance-covariance matrix o zj of the random effects is unstructured.</p><p>The continuous independent variables are grand mean centered, and age is centered at 40 years. Centering age on 40 allows the researcher to evaluate earnings later in people's careers, as opposed to earlier, when differences in earnings between young adults are smaller in magnitude. Centering age in this manner means that the main effects for immigrant population concentration correspond to the average effect in a cross section of the metropolitan or county population at age 40 ðfor those who were born between 1957 and 1965 and present in the United States in 1979Þ.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Point-of-Entry and Contemporaneous Effects</head><p>The effects of immigrant population concentration on patterns of intragenerational mobility are hypothesized to be particularly important when young adults enter the labor market. This research takes a time-centering approach to operationalize this point-of-entry period ðSinger and Willett 2003Þ. The point of entry is determined by the first person-year observation in which the respondent is no longer enrolled in school. Beginning in 1979, as soon as there is a break in a respondent's consecutive annual school enrollment, a point of entry is determined. For example, if a respondent is enrolled in school from 1979 to 1982 and then is no longer enrolled in 1983, 1983 is designated as the point of entry. If the person is not enrolled in 1979, then that year marks their point of entry into the workforce. Operationalizchances of employment. Although the effects of immigration on native employment are incorporated into a career trajectory ðe.g., those unable to acquire work experience will likely earn less and see less occupational mobility over the long termÞ, there could still be bias in the estimates. In an attempt to address this issue, I conducted supplemental analyses that included a Heckman correction. The Heckman correction involves calculating an inverse Mills ratio from a probit regression of employment status on all the covariates and an exclusion restriction ðWooldridge 2002Þ. The exclusion restriction used for this exercise is a NLSY variable that captures whether the respondent experiences any functional health limitations related to work. The models with the Heckman correction are not appreciably different from the models presented in the text. However, because functional health limitation is a weak exclusion restriction, and a stronger alternative is unavailable, the models with the Heckman correction are omitted from the text.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effects of Immigration on Career Trajectories of Native Workers</head><p>ing the point of entry in this matter captures a period in time when young adults are likely seeking employment for the purpose of gaining independence from their parental household. Each individual in the data set has a designated year and location that marks his or her point of entry. Then, %foreign born is measured at the point of entry for each individual and remains a time-invariant covariate throughout the analysis. The regression models continue to control for school enrollment status as a time-varying characteristic to account for those who return to school later in life.</p><p>Singer and Willett ð2003, pp. 175-76Þ refer to the coding technique employed in this research as time-1 centering. This technique allows me to decompose the effects of immigrant population concentration into their respective point-of-entry effects ði.e., between-individual effectsÞ and contemporaneous effects ði.e., within-individual effectsÞ. By decomposing the effect of immigrant population concentration into its point of entry and contemporaneous components, the parameter estimates for immigrant population concentration are less likely to be biased by the omission of an unobserved but important time-invariant individual characteristic. The contemporaneous effect for immigrant population concentration is rendered "fixed" in a fashion similar to de-meaning the indicators via a fixed-effects estimator or via a least-squares dummy variable ðLSDVÞ estimator ðsee <ref type="bibr" coords="18,344.90,321.44,53.23,8.58;18,86.21,333.46,92.68,8.58">Raudenbush and Bryk 2002, p. 262;</ref><ref type="bibr" coords="18,180.81,333.46,54.96,8.58">Halaby 2004Þ</ref>. The difference is that, instead of using the average level of individual exposure to a contextual factor to assess the effects that exist between individuals, the time-centered approach uses the level of the explanatory variable at the point of entry ðor some other meaningful period in timeÞ. The contemporaneous effect ði.e., within-individual effectÞ is measured as a deviation from the point of entry ðrather than the meanÞ: X ið jkÞ -Z 0 ð jkÞ , where X ið jkÞ is the contemporaneous level of immigrant population concentration, and Z 0 ð jkÞ is the level of immigrant population concentration at the point of entry. The hypotheses developed above anticipate that the effects of immigrant population composition, when decomposed into its respective contemporaneous and point-of-entry components, will uniquely affect earnings and occupational attainment. These hypotheses are ideally suited for time-1 centering.</p><p>A CAREER TRAJECTORY ANALYSIS OF EARNINGS ATTAINMENT An implicit but critical assumption of this research is that there are unique point-of-entry effects that differ in meaningful ways from contemporaneous effects. <ref type="table" coords="18,133.69,549.46,31.76,8.58" target="#tab_3">Table 3</ref>    </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effects of Immigration on Career Trajectories of Native Workers</head><p>Model ð2Þ is a baseline model where X iðjkÞ is the U.S. county or metropolitan area level of immigrant population concentration that varies over time and is assessed contemporaneously at every measurement occasion. In model ð3Þ, the effect of age on earnings ði.e., the rate of earnings growthÞ is allowed to vary by the level of X iðjkÞ . The main effect of X iðjkÞ in model ð3Þ is the effect of immigrant population concentration on earnings for someone that is 40 years old ðage is centered at 40Þ. The interaction effect b 03 in model ð3Þ is the effect of X iðjkÞ on the rate of earnings growth. Model ð4Þ decomposes X iðjkÞ into its contemporaneous effect ði.e., within-individual effectÞ and its pointof-entry effect ði.e., between-individual effectÞ. This approach applies Singer and Willett's ð2003Þ time-1 centering, operationalized as b 02 ðX ið jkÞ -Z 0 ð jkÞ Þ plus b 03 ðZ 0 ð jkÞ Þ, where b 02 represents the net contemporaneous effect and b 03 represents the net point-of-entry effect. Similar to model ð3Þ, model ð5Þ allows the effect of age on earnings to vary by the level of immigrant population concentration at the point of entry into the labor force ðrather than contemporaneously as in model ½3Þ. Model ð6Þ combines models ð3Þ, ð4Þ, and ð5Þ. Model ð6Þ allows the contemporaneous effects and point-of-entry effects to influence simultaneously both the average earnings ðat age 40Þ and the rate of earnings growth and is the full and most complex model.</p><p>The fit statistics in table 3 indicate that model ð6Þ is a marked improvement over all the preceding model specifications. The difference in BIC values ðas well as AIC and DICÞ from model ð6Þ to the next best-fitting model is greater than 10. This provides strong evidence of improved model fit ðRaftery 1995Þ. Thus, the analytical distinction between the point-of-entry effects and the contemporaneous effects on earnings and earnings growth is warranted. 9 The aim of the remainder of the analysis is to addresses how these point-of-entry and contemporaneous effects differ. <ref type="table" coords="20,96.21,481.26,32.90,8.58" target="#tab_4">Table 4</ref> contains results from the cross-classified growth-curve models. Model 1 provides the unconditional growth parameters for the earnings trajectories among white, black, and Hispanic men and women but does not include any control variables. <ref type="figure" coords="20,228.81,517.26,35.50,8.58">Figure 1</ref> illustrates the raw earnings trajectories from these unadjusted growth parameters in model 1. The differential earnings' trajectories result in a pay gap among these groups that 9 For comparison, a parallel analysis using the proportion of the local population that is non-Hispanic black ðinstead of the proportion foreign bornÞ fails to find as clear a distinction in model fit when decomposing the effect of black population concentration into its respective contemporaneous and point-of-entry effects.   <ref type="figure" coords="23,143.21,104.64,32.50,10.00">figure 1</ref> as the gap around the vertical dash line ði.e., the interceptÞ. <ref type="figure" coords="23,122.07,117.46,35.61,8.58">Figure 1</ref> demonstrates how earnings inequality between whites and minorities and between men and women accumulates over the life course ðTomaskovic-Devey et al. 2005Þ. 10 Models 2 and 3 in table 4 take the form of model specification ð3Þ and ð5Þ, respectively. These models treat contemporaneous effects and pointof-entry effects separately. Models 4, 5, and 6 in table 4 take the form of the best-fitting model in table 3, model specification ð6Þ. The difference between model 4 and models 5 and 6 is that the latter are fit to a subset of the data that includes only workers with education levels of high school or less that either ðaÞ never left their point-of-entry community ðmodel 5Þ or ðbÞ did leave their point-of-entry community ðmodel 6Þ after entering the labor market. Models 2-6 include all the control variables shown in table 2. These control variables in models 2-6 attenuate the racial and ethnic disparity in earnings at age 40 and the disparity in the rate of earnings growth, especially among Hispanics in this cohort.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ð6Þ</head><formula xml:id="formula_3" coords="21,117.61,93.25,21.59,510.76">6 FIXED EFFECTS b SE b SE b SE b SE b SE b<label>SE</label></formula><p>Model 2 of table 4 introduces the contemporaneous measure of immigrant population concentration. As specified in model specification ð3Þ, immigrant population concentration ðX ið jkÞ Þ is allowed to affect hourly earnings and the rate of earnings growth. The results indicate that the contemporaneous effect of immigrant population concentration on hourly earnings at age 40 is indistinguishable from zero ðb5.118, SE 5 .096Þ. The contemporaneous effect of immigrant population concentration on earnings growth, however, is statistically significant ðb 5 2.012, P &lt; .01Þ. On average, a one percentage point increase in immigrant population concentration is associated with a .012% reduction in the rate of earnings growth, annually. Thus, a 10 percentage point higher level of foreign born will re-10 At age 40, white men in the United States on average earn approximately $18.50 per hour ðe 2:917 Þ. White women at age 40 earn about $15.23 per hour ðe 2:9172:291 Þ, on average, which is about 25% less than what white men earn ½ðe 2:291 -1Þ Â 100 5 ð13:80=18:50 2 1Þ Â 100 5 25%. Black men at age 40 earn approximately 32% less than white men ½ðe 2:379 2 1Þ Â 100, and black women earn roughly 49% less than white men at age 40 ½ðe 2:37912:291 -1Þ Â 100. Hispanic men at age 40 earn 20% less than white men ½ðe 2:225 -1Þ Â 100 and Hispanic women at age 40 earn about 40% less than white men. The average unadjusted rate of annual earnings growth for white men is approximately 3.45% per measurement occasion ½ðe :034 -1Þ Â 100. The average rate of earnings growth for white women is 2.83% ½ðe :0342:006 -1Þ Â 100, which is a difference of about six-tenths of a percentage point less earnings growth annually for white women than for white men ½ðe 2:006 -1Þ Â 100. The average rate of earnings growth is 1.10 percentage points less among black men and 1.70 percentage points less among black women than for white men. Among Hispanics, the rate of earnings growth is seven-tenths of a percentage point less for Latinos and 1.3 percentage points less for Latinas than the rate of earnings growth for white men.</p><p>Effects of Immigration on Career Trajectories of Native Workers duce annual earnings growth by 0.12% and over the course of 25 years, this effect is roughly equivalent to losing one year of earnings growth. This small effect corresponds to the modest substitution effect commonly reported in recent studies ðe.g., <ref type="bibr" coords="24,211.35,129.48,110.78,8.58">Reed and Danziger 2007Þ.</ref> Model 3 of table 4 substitutes the contemporaneous measure of immigrant population concentration with the point-of-entry measure of immigrant population concentration ðZ 0 ðjkÞ Þ. The point-of-entry effect on earnings and earnings growth is positive and statistically significant. The effect of entering a local labor market that is one percentage point more concentrated with foreign-born population translates into about 0.6% increase in earnings at age 40 ðb 5 .563, P &lt; .001Þ, and this earnings bump is partly attributed to the positive point-of-entry effect on the rate of earnings growth. A one percentage point increase in the level of foreign-born population concentration at the time a young adult enters the labor force is associated with 0.04% annual increase in their hourly pay ðb 5 :040, P &lt; .001Þ, on average, throughout their career. The total effect of a 10 percentage point higher level of foreign born at the point of entry translates into approximately a 16.5% earnings advantage over the course of 25 years ½6% 1 10:5% 5 16:5%; ð1:004 25 5 ð1:105 2 1Þ Â 100 5 10:5%. This is a modest cumulative effect that suggests young adults entering the labor market in highly concentrated immigrant areas have opportunities and make choices that are beneficial to their career trajectories.</p><p>Model 4 of table 4 takes the form of the best fitting model from table 3 ðmodel specification ½6Þ. Model 4 introduces the time-1 centering technique that allows us to assess the contemporaneous effect and the point-of-entry effect of immigrant population concentration on earnings and earningsgrowth simultaneously. This model is important because we have seen from model 2 and model 3 in table 4 that the effects of immigrant population concentration pull in different directions at different times during a worker's career ðan effect similar to Simpson's paradoxÞ. Therefore, any assessment of one effect without accounting for the other effect will be biased toward zero. This is evident when comparing the effects in model 2 and model 3 with the effects in model 4.</p><p>In model 4 of table 4, the point-of-entry effect on earnings at age 40 is 29% larger than the corresponding effect in model 3 ð.722 2 .559/.559Þ because model 4 adjusts for the negative contemporaneous effect. Although the point-of-entry effect on earnings growth is relatively unaffected by the simultaneous estimation of both characteristics ðb 5 :040, P &lt; .001 vs. b 5 :030, P &lt; .001Þ, the suppression of the contemporaneous effect on earnings growth is quite large. In fact, the effect in model 4 is 2.4 times greater than its magnitude in model 2 ð2.041 1 .012/2.012Þ. Essentially, the analysis in table 4 reveals heterogeneous effects ðsee Xie, Brand, and Jann 2012Þ-the effect of immigrant population concentration on earnings is different at American Journal of Sociology different stages in the life course, which may partially account for the rather small effects of immigrant population concentration on labor market outcomes for native-born workers that are typically reported in the literature. With cross-sectional data, point-of-entry effects are inseparable from, and thus conflated with, the estimation of contemporaneous effects, and because the point-of-entry effects are in a positive direction, their omission from cross-sectional analyses likely causes the negative contemporaneous point estimates to be biased downward.</p><p>In this area of research it is important to consider the effects of immigrant population concentration on the subpopulations that are most likely to be negatively affected by foreign-born competition. 11 Because foreignborn workers tend to have lower levels of education ðon averageÞ relative to natives, poorly educated natives are more likely to be substituted for by foreign-born workers than are highly educated natives, and this may be particularly true for less educated African-Americans. Additionally, some people may respond to high levels of immigration by moving to a different local labor market, whereas nonmobile natives are more likely to face competition from foreign-born workers. For these reasons, models 5 and 6 provide a comparison of the effects between less educated nonmovers and less educated movers. Nonmovers are those who have remained in their initial local labor market for the duration of the study period. Movers are those who have moved at least once from their local labor market after initially entering the labor force.</p><p>The estimates of key interest for less educated nonmovers in model 5 are indeed much larger than in model 4. The negative contemporaneous effect on earnings at age 40 is 5.8 times greater in model 5 ðb 5 2:173 vs. b 5 21:178Þ than in model 4, and the negative contemporaneous effect ðb 5 2:132Þ on earnings growth is no longer trivial when compared to the initial estimate ðb 5 2:012Þ in model 2. If the foreign-born population increased by one percentage point per year ðwhich was the case for some local labor markets during the 1990sÞ, the rate of earnings growth among those with a high school education or less that never moved from their point-of-entry community would be reduced by approximately .13 of a percent annually ðe.g., from 3.0% annual earnings growth to 2.87% earnings growth to 2.74% growth, etc.Þ.</p><p>It is interesting that these larger negative contemporaneous effects reported in model 5 are almost equally matched by larger point-of-entry effects. Compared to model 4, the positive point-of-entry effect on earnings <ref type="bibr" coords="25,75.97,560.24,6.00,4.58">11</ref> In a supplementary analysis, the contemporaneous effect of % foreign born on earnings growth is significantly stronger among women ðb 5 2:060 5 2:026 1 2:034Þ relative to men ðb 5 2:026Þ. I maintain the pooled models because the pattern of effects for men and women ði.e., positive point-of-entry effects and negative contemporaneous effectsÞ are the same.</p><p>Effects of Immigration on Career Trajectories of Native Workers at age 40 is approximately 35% larger in model 5, and the positive point-ofentry effect on earnings growth is about 1.3 times larger. It appears those most likely to be negatively affected by immigration ðless educated non-moversÞ also experience long-term positive effects from entering the labor force in high immigrant concentration areas. The same pattern also holds for a non-Hispanic black subpopulation of nonmovers with less than a high school education ðresults not shownÞ.</p><p>In model 6 of table 4, the effects for those less educated respondents that did move from their initial local labor market are smaller in magnitude than for the less educated nonmovers. Yet, the positive point-of-entry effects on earnings ðb 5 :554Þ and earnings growth ðb 5 :026Þ remain statistically significant. The negative contemporaneous effects are no longer statistically significant. From model 6 it appears that less educated movers retain some of the initial benefit of entering the labor force in an area of high immigrant concentration while avoiding the negative contemporaneous effects on earnings and earnings growth via migration.</p><p>Overall, the analysis in table 4 provides no support for the claim that immigrant competition impedes chances for upward socioeconomic mobility by limiting entry-level opportunities for native-born young adults. Indeed, we find just the opposite: a robust and positive point-of-entry effect of immigrant population concentration on earnings and earnings growth. This is true even among those who are most likely to be in direct and prolonged competition with foreign-born workers-less educated and nonmobile natives. These positive point-of-entry effects suggest that young adults adjust to large foreign-born populations in their local labor market in ways that place them on a career path that is socioeconomically beneficial over the long run.</p><p>At the same time, however, this study also finds a consistent negative contemporaneous effect of immigrant population concentration on earnings growth. This finding is partially consistent with previous research indicating that foreign-born workers substitute for native workers. Unlike previous research, however, the positive point-of-entry effects coupled with the negative contemporaneous effects suggests a more complex process than simple labor substitution. What accounts for this pattern?</p><p>The negative contemporaneous effect observed here for native-born workers does not need to come from direct competition with foreign-born workers. Instead, older native-born birth cohorts may compete with younger nativeborn birth cohorts that sequentially enter the labor force in search of better jobs in areas of high immigrant concentration. This cross cohort competition may occur because each new cohort adjusts to an increasing level of immigrant population concentration by avoiding "immigrant work" and finding "appropriate" work higher up the occupational hierarchy. Over time a steady supply of young native-born workers seeking better career avenues creates American Journal of Sociology downward pressure on earnings for older cohorts currently occupying those jobs.</p><p>This interpretation is based on the idea of an inflationary process whereby young native-born workers in areas of high immigrant concentration are willing or able to consider only jobs above a certain status threshold-one that varies with the relative size of the foreign-born population. There is greater competition for midrange employment opportunitiesespecially among less educated natives-because the "social minimum" among natives in these areas is higher than in areas with relatively few foreign-born workers. In effect, immigration induces a structural inflation of the occupational hierarchy among native workers, and the results here reveal the unanticipated consequences that this form of inflationary behavior causes. This inflationary process should be considered a viable alternative to the mechanism of direct competition that is typically credited with generating substitution effects. The sensitivity analysis for endogeneity bias and the analysis of occupational mobility in the following sections support this premise.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sensitivity Analysis for Endogeneity Bias</head><p>In any observational study of contextual effects there is the potential for endogeneity bias. There can be a number of factors causing the focal measure of immigrant population concentration to be correlated with the error term, thus inducing bias and inconsistency into the estimates. This study has already discussed two potential sources of endogeneity via selective migration and the annual selection of natives into employment status. Although the analyses above attempt to remedy and assess these issues, there is the potential for other latent sources of endogeneity stemming from the omission of important variables or from measurement error, among other factors ðsee Bollen 2012Þ. Additionally, there is the concern that the level of exposure to immigrant population concentration in young adulthood may influence several time-varying behaviors throughout the life course. Because the analysis presented in table 4 includes time-varying behaviors as covariates, it may essentially control away some of the important immigration effects it seeks to estimate. This will induce bias into the results as well. This section provides two supplemental analyses that address these endogeneity concerns.</p><p>The first supplementary analysis employs inverse probability weighting ðRobins 1999Þ to remove the observed confounding that lies on the causal pathway between foreign-born population concentration at one time and earnings at another time. The central aim of this approach is to produce a "marginal structural model" that recovers the marginal causal effects ðhereafter, marginal effectsÞ. Marginal effects are designed to capture the total ef-Effects of Immigration on Career Trajectories of Native Workers fect of foreign-born concentration on earnings by incorporating the influence of foreign-born concentration on time-varying factors that also influence earnings ðe.g., future school enrollment, probability of unemployment, duration of residence, and othersÞ. Because people respond to foreign-born competition in various ways, the effects reported in table 4 may be obscured to some degree by these time-varying behaviors. Yet, the variables that lie on the causal pathway are also potential confounders that need to be controlled. Inverse probability weighting addresses this two-sided issue. Following the procedures of Wodtke, Harding, and Elwert ð2011Þ, contemporaneous immigrant population concentration is divided evenly into quintiles and predicted probabilities are attained for the construction of the weights via an ordered logistic regression. A stable version of the inverse probability weights is then constructed using predicted probabilities based on all the time-invariant covariates in the numerator and using predicted probabilities based on all time-invariant and time-varying covariates in the denominator. The weights range from a minimum of .62 to a maximum of 2.24 with a mean of 1.01. Race, ethnicity, gender, and age are deterministic and are included in the earnings model equation along with the focal measures for foreign-born population concentration.</p><p>The marginal effects appear in model 1 of table 5. The supplementary analyses are designed to be comparable to the effects of foreign-born population concentration reported in model 4 of table 4. There are two noteworthy findings. First, the negative contemporaneous effect of foreignborn concentration on earnings at age 40 and earnings growth are larger in the supplemental analysis than in the original ðtable 4Þ analysis ðb 5 2:393 vs. b 5 2:173; b 5 2:103 vs. b 5 2:041Þ. Second, the positive pointof-entry effects are only modestly modified after employing the inverse probability weights: we still observe a positive and robust point-of-entry effect on earnings at age 40 and on earnings growth. The positive pointof-entry effect on earnings growth is slightly attenuated ðb 5 :025 vs. b 5 :030Þ, but this is offset by the larger positive point-of-entry effect on earnings at age 40 ðb 5 1:193 vs. b 5 :750Þ. Thus, although time-varying reactions of natives in response to immigration appear to influence their career trajectories to some degree, it is also clear that there is an independent point-of-entry effect of foreign-born population concentration on the career paths of natives.</p><p>The second supplementary analysis employs an instrumental variable approach ðvia two-stage least squares, or 2SLSÞ. The advantage of an instrumental variable approach is its ability to address endogeneity bias stemming from unobserved confounding. The validity of this approach, however, depends heavily on the quality of the instruments. The two instruments employed for foreign-born population concentration at the point of entry are the number of Hispanic arrests and the number of Asian ar-American Journal of Sociology rests in 1980 for the county of residence of the respondent when that worker entered the labor market. The data come from the FBI's 1980 Uniform Crime Reports ðUCR; retrievable at http://www.icpsr.umich.eduÞ. The instrumented version of foreign-born population concentration at the point of entry is also used to construct the deviated measure of foreign-born population concentration ðX ið jkÞ -Z ð jkÞ Þ. All indications ðe.g., weak instrument tests and tests for overidentifying restrictionsÞ suggest that the instruments are strong and valid: the number of Hispanic and Asian arrests is highly correlated with the share of foreign-born concentration at point of entrythe F-test ðF 5 104:6, df 1 5 2; df 2 5 1,197Þ is much greater than 10 and the R jumps by nine points in the first-stage model when the instruments are added to the rest of the covariates ðnot shownÞ. Conceptually it is difficult to imagine how the number of Hispanic and Asian arrests in 1980 would be in any way associated independently ði.e., conditional on population size and the share of foreign-bornÞ with individuals' earnings 20-plus years later. .009*** % foreign-born: ðX ið jkÞ -Z 0 ð jkÞ Þ . . . .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.103</head><p>.005*** 2.043 .005*** a Model 7 ðmarginal effectsÞ: Employs stabilized inverse probability weights from an ordered logistic regression of immigrant population concentration divided evenly into quintiles. Stabilized weights are attained by using predicted probabilities based on all the time-invariant covariates in the numerator and using predicted probabilities based on all time-invariant and time-varying covariates in the denominator. Race, ethnicity, gender, and age are included as covariates in this model. b Model 8 ðinstrumental variables, 2SLSÞ: The instruments are the number of Hispanic arrests and the number of Asian arrests in 1980 for the county of residence of the respondent when they entered the labor market ðweak instrument test: F 5 104.6, df 1 5 2; df 2 5 1197; Sargan-Hansen statistic for overidentifying restrictions x 2 5 1:708, df 5 1, P 5 .191Þ. Covariates include marital status, number of children, enrolled in school, level of education, secondgeneration status, parental education, whether respondent grew up in an intact household, number of siblings, whether respondent is an only child or firstborn sibling, whether respondent is the youngest sibling, AFQT, residential duration; % employed in manufacturing, % employed in high-end service, % employed in low-end service, % employed in government, population sizeðlnÞ, unemployment rate, median family income, % non-Hispanic black.</p><p>* P &lt; .05. ** P &lt; .01. *** P &lt; .001.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effects of Immigration on Career Trajectories of Native Workers</head><p>This exogeneity assumption is supported by a test for overidentifying restrictions. According to the Sargan-Hansen statistic for overidentifying restrictions ðx 2 5 1:708, df 5 1, P 5 .191Þ that accounts for the clustered nature of the data, the null hypothesis of exogenous instruments is upheld. Thus, there is conceptual and empirical support for strength and validity of the instruments. 041Þ. Together, these sensitivity checks provide confidence that the conclusions drawn from the study's main analyses are not distorted by endogeneity bias. These supplemental results continue to underscore the importance of studying the changing structure of labor market opportunities for young adults when assessing the effects of immigration on the earnings of native-born workers.</p><p>A CAREER TRAJECTORY ANALYSIS OF OCCUPATIONAL ATTAINMENT Pay differences are modest early in workers' careers, and using dollars as a metric does not provide the most precise yardstick for determining how contextual factors affect employment outcomes among young adults. Differences in occupational standing, on the other hand, provide an intuitive and arguably a more meaningful metric from which to gauge how contextual factors affect young adults at this critical period in their careers. The following analysis uses occupational status scores to provide valuable insights into the importance of job search environments for young adults and to evaluate how these early career choices and opportunities are affected by immigrant population concentration.</p><p>For conceptual and methodological reasons, there are several minor modifications to the specification used to model occupational status trajectories. Unlike the earnings trajectory models-which focused on average earnings at age 40-the focus here is on the occupational standing of the respondent's initial job choice at the point-of-entry into the labor market.</p><p>In comparison to the model specification for earnings trajectories ðmodel specification ½6 aboveÞ, a key difference is the necessary constraint on the b 04 ðX ið jkÞ -Z 0 ð jkÞ Þ parameter when the time point is zero. This constraint is American Journal of Sociology necessary because at the year of labor force entry the contemporaneous effect is the point-of-entry effect for that year.</p><p>The following composite form specification is the cross-classified multilevel growth-curve model used to study occupational status trajectories. </p><p>In specification model ð7Þ, "year _ entry" is substituted for "age40." "Year _ entry" corresponds to the number of years since the respondent entered the labor market after completing school. Operationally, the point of entry for the occupational trajectory models is the same as in the earnings trajectory models. The difference is that the measure of time is now centered at the year of entry ðinstead of at age 40Þ. Similar to the specification of model ð6Þ, model specification ð7Þ allows the rate of occupational mobility to be influenced by both the point-of-entry effect b 03 ðZ 0 ð jkÞ Â year entry ij Þ and the contemporaneous effect b 04 ðX ið jkÞ 2 Z 0 ð jkÞ Â year entry ij Þ. The intercept, however, now refers to the level of occupational status when year of entry is zero, allowing us to closely assess how immigrant population concentration affects occupational standing at that time point. Again, all other continuous variables in the model are grand-mean centered.</p><p>There are two other minor changes to the occupational mobility models. First, in addition to the same control variables used in the analysis of earnings, the occupational mobility models include a time-invariant variable for the age of the respondent in 1979. Second, there is a difference in the functional form between earnings growth and occupational mobility. The functional form for occupational mobility is curvilinear because occupational mobility increases at a decreasing rate over time. To account for this curvilinear association, the models for occupational mobility include a squared term for years since labor-market entry. <ref type="table" coords="31,85.94,466.01,31.36,8.58" target="#tab_7">Table 6</ref> provides the gender specific results from a series of cross-classified multilevel growth-curve models of occupational status attainment. In model 9, men experience a statistically significant .117 of a percentage point bump to their occupational standing upon entry into the labor force for every one percentage point increase in foreign-born population concentration. According to the same model estimated separately for women, women experience a more modest bump of .103 of a percentage point increase for every one percentage point increase of foreign-born population at the time of entry into the labor force. These positive effects on occupational standing upon entry into the labor market support the premise that the occupational choices and opportunities among young native-born adults are better in areas with high concentrations of foreign-born population.</p><p>ð7Þ</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effects of Immigration on Career Trajectories of Native Workers</head><p>Model 9 in table 6 also provides estimates of the point-of-entry effect and the contemporaneous effect of immigrant population concentration on the rate of occupational mobility. For women, we observe a negative point-ofentry effect ðb 5 2:008Þ from the level of foreign-born population concentration on the rate of occupational mobility. This negative point-of-entry effect among women suggests that there are structural limits to women's occupational mobility that are connected to the types of occupations available to them upon entry into the labor market in areas of high immigrant concentration. Thus, although young women attain higher-status jobs initially in areas marked by high levels of immigration, those initial jobs provide less room for further occupational advancement. NOTE.-All models include as covariates marital status, number of children, enrolled in school, level of education, second generation status, parental education, whether respondent grew up in an intact household, number of siblings, whether respondent is an only child or first born sibling, whether respondent is the youngest sibling, AFQT, residential duration, age of respondent in 1979, years since entry squared, % employed in manufacturing, % employed in high-end service, % employed in low-end service, % employed in government, population sizeðlnÞ, unemployment rate, median family income, % non-Hispanic black. Model 11 utilizes stabilized inverse probability weights as in table 5, model 7. Model 12 utilizes instrumental variables as in table 5, model 8.</p><p>* P &lt; .05. ** P &lt; .01. *** P &lt; .001.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>American Journal of Sociology</head><p>Further empirical support for this pattern of effects is gained by comparing the coefficients from model 9 for both men and women with the coefficients from table 6, model 10, which shows the results for those respondents that have a high school education or less. The pattern of effects is similar between the full sample and the subsample of less educated respondents, although the positive point-of-entry effect on initial occupational standing and the negative point-of-entry effect on occupational mobility appear slightly stronger in magnitude among less educated women than among women in general. From these analyses, and from the results in the previous section, it does not appear that only those with higher levels of education benefit from entering the labor market in highly concentrated immigrant areas. Rather, less educated natives appear to benefit as well, at least initially.</p><p>In addition to the supplemental analyses of the earnings models, a parallel set of supplemental analyses is conducted on the occupational status models. As shown in table 6, the marginal effects in model 11 concur with model 9, but there are two caveats with the supplemental instrumental variable analysis in model 12 that deserve mention. First, for men the point estimate for the point-of-entry effect ðb 5 :138Þ is larger in the 2SLS model than the original ðb 5 :117Þ, but the effect is not statistically significant from zero because of the loss of efficiency stemming from the instrumental variable approach ði.e., by construction the instrumental variable standard errors are always larger than the original standard errorsÞ. Second, for women the point estimate for the point-of-entry effect ðb 5 :008Þ is much smaller in the 2SLS model than in the original ðb 5 :103Þ. The point-of-entry estimate in the 2SLS model for women is likely being affected by the important but unobserved decision many women face in forgoing career aspirations to raise a family. This decision is of course related to occupational attainment over the life course and is also likely related to the level of immigrant population concentration in young adulthood via the structure of employment opportunities for women and their spouses ðor future spousesÞ upon entry into the labor market.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION AND CONCLUSION</head><p>Using over a quarter of a century of longitudinal data from the 1979 National Longitudinal Survey of Youth, this study provides an analysis of how people's career trajectories are influenced by exposure to different local levels of immigrant population concentration. Stratification researchers have emphasized for quite some time how opportunities early in life have important effects on people's careers ðBlau and Duncan 1967; <ref type="bibr" coords="33,338.58,561.48,49.17,8.58" target="#b59">Wiley 1967;</ref><ref type="bibr" coords="33,75.97,573.44,67.79,8.58">Spilerman 1977Þ</ref>. Yet researchers continue to know little about how local labor market characteristics-like immigrant population concentrationaffect the career paths of young adults. This research provides a novel in-Effects of Immigration on Career Trajectories of Native Workers sight into how people's career trajectories are affected by the job choices and the employment opportunities available to them when first entering the labor market in highly concentrated immigrant areas.</p><p>The career trajectory analysis in this research uses a cross-classified multilevel estimator in conjunction with an innovative time-centered coding technique ðSinger and Willett 2003Þ. This approach decomposes the effects of immigrant population concentration into its respective point-of-entry effect ði.e., between-individual effectÞ and contemporaneous effect ði.e., withinindividual effectÞ. As a result, this study discovers ðaÞ heterogeneous effects of the impact of immigrant population concentration on native workers ðcf. <ref type="bibr" coords="34,102.89,213.44,64.79,8.58">Xie et al. 2012Þ</ref> and ðbÞ evidence of both substitution and complementary effects of immigration on native workers.</p><p>These main discoveries contribute substantively to the study of immigration effects and have the following implications. First, contrary to the claim that immigrant competition impedes chances for upward socioeconomic mobility by limiting entry-level opportunities for young adults ðsee explicit hypothesis 1, table 1Þ, this research finds a robust positive point-ofentry effect of immigrant population concentration on earnings over the course of a career and on occupational status of young adults as they enter the labor market. This finding is true after controlling for wide array of relevant individual-and community-level factors, and it holds for those most likely to be in direct competition with foreign-born labor, namely, less educated as well as geographically immobile native workers. These positive point-of-entry effects affirm the idea that young adults adjust to large foreign-born populations in their local labor market by finding career avenues that are socioeconomically beneficial over the long run ðsee explicit hypothesis 2, table 1Þ.</p><p>Yet, this study also finds a persistent negative contemporaneous effect of immigrant population concentration on the annual rate of earnings growth. This finding is consistent with previous research indicating how foreignborn workers are substitutes for native workers ðe.g., <ref type="bibr" coords="34,315.92,453.48,82.05,8.58;34,86.21,465.44,22.02,8.58">Reed and Danziger 2007Þ</ref>. Moving beyond previous work, however, the decomposition of the effect of immigrant population concentration into its respective point-ofentry effect and contemporaneous effect reveals heterogeneous effects that are unaccounted for in this extensive area of research. By accounting for the positive point-of-entry effects, the negative contemporaneous effect of immigrant population concentration on earnings growth is approximately 2.3 times greater in magnitude than in the model that excludes point-ofentry effects ðtable 4Þ. This finding can at least partly explain the rather small point-estimates typically observed in immigration effects research.</p><p>Second, a more complex process than simple immigrant substitution comes to light when we consider the negative contemporaneous effects together with the positive point-of-entry effects. The explanation adopted for American Journal of Sociology this research points to an inflationary process whereby young native-born workers in highly concentrated immigrant areas only consider, or have information about, jobs above a certain status threshold-a status threshold that varies with the relative size of the foreign-born population. This inflationary process in turn generates greater competition among natives. In other words, it is not that foreign-born workers are necessarily competing directly with native-born workers for the same jobs. Instead, high levels of immigration are likely altering the local labor market in ways that increase competition among native workers occupying ðor striving to occupyÞ the middle and upper rungs of the occupational hierarchy. This raises provocative questions about whether foreign-born workers need to be in direct competition with native workers for there to be substitution effects.</p><p>Third, the positive point-of-entry effects suggest that individuals who would otherwise be content with a high school education ðor lessÞ may find themselves staying in school or seeking additional training when contemplating employment in areas with high immigrant concentration. Therefore, the native skill composition of any particular educational/occupational grouping may have been affected as immigration increased throughout the United States during the 1980s and 1990s. This means that the observation of a growing substitution effect of immigration on native-born high school dropouts over time-a finding that is now common in time-series analysesmay be attributed to a lower, unobserved skill set among today's high school dropouts compared to dropouts 20 or 30 years ago ði.e., a cohort effectÞ. Caution should be given to simply comparing contemporaneous skill-set matches among native-and foreign-born workers because the educational/ occupational choices of young native-born adults, and the unobserved skills within those groups, are likely endogenous to the level of immigration. There is ongoing debate in the literature about who among the foreign-born and native-born populations are equivalent substitutes over time ðe.g., <ref type="bibr" coords="35,357.69,429.44,30.17,8.58;35,75.99,441.46,95.20,8.58" target="#b10">Borjas, Grogger, and Hanson;</ref><ref type="bibr" coords="35,175.04,441.46,85.41,8.58">2008 Ottaviano and</ref><ref type="bibr" coords="35,264.34,441.46,42.15,8.58">Peri 2012Þ</ref>, and this research adds another level of complexity that should be of substantive value to researchers.</p><p>Fourth, a clear implication of these findings is the importance it places on where people start their careers during a period of mass immigration. Among those entering the labor force and remaining in immigrant gateway cities-areas marked by high levels of immigrant population concentration at the beginning of the study period and high levels of immigrant population growth in the preceding decades-the initial bump in occupational standing is likely enough to compensate for any negative contemporaneous effects ðalthough competition with younger, native-born birth cohorts in these areas could jeopardize job stability for some older, native-born work-ersÞ. On the other hand, among those transitioning into the labor force in new immigrant destination areas-areas that started the era with low levels Effects of Immigration on Career Trajectories of Native Workers of immigrant population concentration but experienced high levels of immigrant population growth over the last several decades-the positive point-ofentry effects likely failed to materialize while the negative contemporaneous effects may still be very much felt. For many members of this mid-20thcentury birth cohort, labor force entry occurred before significant levels of immigration began to affect these new immigrant destinations. Therefore, the motivation, foresight, and opportunity for young, native-born workers living in these areas to make the types of career choices that would isolate them from future ðdirectÞ competition with foreign-born labor may have been lacking. As a result, by age 40, many of these native workers have accumulated years of experience working in the types of industries and occupations that now rely heavily on immigrant labor.</p><p>Finally, this study had to deal with data limitations and several endogeneity challenges. Significant effort went into ensuring the results were not unduly affected by these issues, but biased estimates could still be a problem. Holding constant native educational attainment and native migration experiences together with efforts to estimate marginal effects and to purge estimates of bias with instrumental variables should minimize concern. Additional steps were also taken to limit bias with a Heckman correction for the potential selection into native unemployment caused by immigration, although the exclusion restriction on the Heckman correction is questionable. Regardless of the supplemental analysis undertaken, the general pattern of effects reported in the main analyses hold true.</p><p>These methodological efforts aside, a life course approach to studying local labor market effects is in a nascent stage; more work is needed to establish generalizability beyond the NLSY79 cohort and to advance this general area of research. For instance, an important objective of future research will be to account for any location-specific changes in the education and skill level of the foreign-born population ðe.g., <ref type="bibr" coords="36,303.63,429.44,67.68,8.58">Hall et al. 2011Þ</ref>. This research reasonably assumes that the large majority of foreign-born workers in the United States during the 1980s and 1990s had low levels of formal education. Young native-born adults entering the labor market today may face a different supply of foreign-born labor. Changes to the skill composition of foreign-born workers in the United States could be an important explanatory variable when comparing the effects of immigrant population concentration across different birth cohorts in different time periods. 12 Fu-12 For a limited sample of NLSY79 respondents living only in metropolitan areas, I conducted a supplementary analysis of ðaÞ the effects of the percentage of those without high school degrees that are foreign born on the earnings trajectories of native workers that have a high school education or less, and ðbÞ the effects of the percentage of those with college degrees that are foreign born on the earnings trajectories of native workers that have more than a high school education. The point-of-entry effects of the percentage of the college educated population that is foreign born on natives with greater than American Journal of Sociology ture research should also explore the role of other location-and period-specific factors that may affect the status threshold for which young native workers begin to experience inflationary pressure on their occupational choices and opportunities. These and other avenues for advancing our understanding of the importance of local labor markets in shaping career trajectories will benefit from a close examination of relevant factors, like immigrant population concentration, at different stages in the life course. high school educations are much smaller than those shown in table 4, model 4 and are not statistically significant. This finding suggests that greater levels of educated foreignborn workers may hinder the earnings of more highly educated natives by possibly blocking their entry into more lucrative career paths. The pattern of effects of the less educated foreign-born population on less educated natives is similar to table 4, model 4. Readers should view these findings with caution, as the skill composition among native workers may have been affected by exposure to immigration in the first place, as noted in the conclusion of this article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effects of Immigration on Career Trajectories of Native Workers</head><p>Copyright of American Journal of Sociology is the property of University of Chicago Press and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission. However, users may print, download, or email articles for individual use.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="18,167.82,549.46,230.24,8.58;18,86.23,561.48,311.83,8.58;18,86.23,572.64,311.81,10.00;18,86.23,584.66,311.80,10.00;18,86.22,596.68,311.83,10.00;18,86.22,69.32,131.84,8.58;19,75.97,247.28,311.85,10.00;19,75.97,259.30,311.76,10.00;19,75.97,271.26,76.00,10.00;19,85.96,284.08,301.82,8.58;19,75.98,296.10,163.82,8.58;19,147.98,325.58,6.66,8.58;19,154.60,329.97,9.48,4.92;19,156.47,329.51,9.80,5.73;19,169.00,324.78,17.65,10.00;19,186.63,330.36,5.73,4.92;19,195.08,324.78,16.01,10.00;19,211.07,330.36,5.73,4.92;19,217.30,324.78,30.46,10.00;19,247.81,329.97,3.69,4.92;19,252.00,324.78,22.08,10.00;19,274.05,330.36,5.73,4.92;19,280.29,324.78,11.03,10.00;19,291.35,329.97,11.85,4.92;19,303.70,324.78,3.85,10.00;19,181.13,331.70,126.40,10.00;19,230.40,344.03,28.19,4.92;19,179.43,352.78,16.50,10.00;19,196.72,358.54,4.74,4.92;19,204.21,352.78,14.80,10.00;19,219.86,358.54,4.68,4.92;19,225.07,352.78,30.46,10.00;19,255.57,357.97,3.69,4.92;19,259.77,352.78,20.87,10.00;19,280.69,357.97,5.70,4.92;19,289.13,352.78,14.28,10.00;19,303.42,357.97,11.85,4.92;19,191.57,359.93,124.18,10.00;19,236.01,372.32,35.22,4.92;19,375.02,342.81,12.75,10.00;19,97.57,400.02,6.66,8.58;19,104.26,404.35,9.42,4.92;19,106.13,403.89,9.80,5.73;19,118.66,399.22,17.65,10.00;19,136.29,404.74,5.73,4.92;19,144.74,399.22,16.01,10.00;19,160.72,404.74,5.73,4.92;19,166.96,399.22,30.46,10.00;19,197.46,404.35,3.69,4.92;19,201.66,399.22,22.08,10.00;19,223.71,404.74,5.73,4.92;19,229.95,399.22,11.03,10.00;19,241.00,404.35,11.84,4.92;19,253.36,399.22,22.02,10.00;19,275.41,404.74,5.73,4.92;19,281.65,399.22,11.03,10.00;19,292.71,400.02,45.94,10.19;19,338.63,404.35,3.69,4.92;19,342.82,399.22,3.85,10.00;19,130.79,406.08,215.85,10.00;19,224.84,418.46,28.13,4.92;19,129.77,427.22,16.50,10.00;19,147.06,432.98,4.74,4.92;19,154.55,427.22,14.80,10.00;19,170.19,432.98,4.74,4.92;19,175.41,427.22,30.46,10.00;19,205.91,432.35,3.69,4.92;19,210.10,427.22,20.93,10.00;19,231.02,432.35,5.70,4.92;19,239.47,427.22,14.28,10.00;19,253.81,432.35,11.79,4.92;19,141.90,434.37,124.18,10.00;19,185.90,446.70,36.18,4.92;19,375.02,417.19,12.75,10.00;19,97.45,475.19,6.66,8.58;19,104.15,479.58,9.42,4.92;19,105.96,479.12,9.80,5.73;19,118.49,474.39,17.65,10.00;19,136.18,479.98,5.73,4.92;19,144.62,474.39,15.95,10.00;19,160.61,479.98,5.73,4.92;19,166.85,474.39,30.46,10.00;19,197.29,479.58,3.69,4.92;19,201.54,474.39,22.02,10.00;19,223.60,479.98,5.73,4.92;19,229.83,474.39,11.03,10.00;19,240.89,479.58,11.79,4.92;19,255.40,474.39,17.15,10.00;19,272.52,471.94,0.93,3.44;19,271.96,479.12,9.98,5.73;19,282.44,474.39,22.08,10.00;19,304.50,479.98,5.73,4.92;19,310.73,474.39,10.51,10.00;19,321.28,471.94,0.93,3.44;19,320.71,479.12,9.97,5.73;19,331.20,474.39,3.85,10.00;19,130.62,481.31,204.41,10.00;19,218.95,493.64,28.13,4.92;19,128.92,502.40,16.45,10.00;19,146.21,508.21,4.74,4.92;19,153.64,502.40,14.86,10.00;19,169.34,508.21,4.68,4.92;19,174.56,502.40,30.46,10.00;19,205.00,507.59,3.69,4.92;19,209.25,502.40,20.87,10.00;19,230.17,507.59,5.70,4.92;19,238.62,502.40,14.28,10.00;19,253.93,507.59,11.79,4.92;19,141.00,509.54,125.21,10.00;19,185.50,521.93,36.18,4.92;19,375.02,492.42,12.75,10.00;19,97.23,552.41,6.66,8.58;19,103.86,556.74,9.48,4.92;19,105.73,556.28,9.80,5.73;19,118.26,551.61,17.65,10.00;19,135.89,557.19,5.73,4.92;19,144.34,551.61,16.01,10.00;19,160.33,557.19,5.73,4.92;19,166.56,551.61,30.46,10.00;19,197.06,556.74,3.69,4.92;19,201.26,551.61,22.08,10.00;19,223.31,557.19,5.73,4.92;19,229.55,551.61,10.57,10.00;19,240.09,549.16,0.93,3.44;19,238.45,557.58,9.98,5.73;19,248.94,551.61,22.08,10.00;19,270.99,557.19,5.73,4.92;19,277.23,551.61,10.51,10.00;19,287.77,549.16,0.93,3.44;19,286.13,552.41,44.07,10.91;19,330.24,556.74,3.69,4.92;19,334.43,551.61,3.85,10.00;19,130.39,559.77,207.87,10.00;19,220.42,572.16,28.19,4.92;19,129.15,579.61,16.50,10.00;19,146.49,585.37,4.68,4.92;19,153.92,579.61,14.80,10.00;19,169.57,585.37,4.74,4.92;19,174.78,579.61,30.46,10.00;19,205.29,584.74,3.69,4.92;19,209.48,579.61,20.93,10.00;19,230.40,584.74,5.76,4.92;19,238.85,579.61,14.34,10.00;19,254.15,584.74,11.85,4.92;19,141.28,586.76,125.20,10.00;19,185.78,599.14,36.18,4.92"><head>Z 0 ð jkÞ Þ 1 b 03</head><label>003</label><figDesc>evaluates this key assumption. To assess whether or not point-of-entry effects are distinct from contemporaneous effects, table 3 provides model fit statistics for five different representations of immigrant population concentration. The Bayesian information criterion ðBICÞ, Akaike's information criterion ðAICÞ, and deviance information criterion American Journal of Sociology ðDICÞ ðRaftery 1995;Spiegelhalter et al. 2002Þ  assess the competing model specifications. Parsimonious models with a higher degree of fidelity will have lower fit statistics.All models include the full list of control variables. The model specifications proceed in the following order:Y i jk ð Þ 5 b 00 1 b 01 ðage 40 ij Þ 1 b 02 ðX ið jkÞ Þ |fflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl ffl{zfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl ffl} fixed effects 1 z 0j 1 z 1j ðage 40 ij Þ 1 u 0k 1 ε ið jkÞ |fflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl{zfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl} random effectsð2ÞY i jk ð Þ 5 b 00 1 b 01 ðage 40 ij Þ 1 b 02 ðX ið jkÞ Þ 1 b 03 ðX ið jkÞ * age 40 ij Þ |fflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl{zfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl ffl} fixed effects 1 z 0j 1 z 1j ðage 40 ij Þ 1 u 0k 1 ε ið jkÞ |fflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl{zfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl} random effects ð3Þ Y i jk ð Þ 5 b 00 1 b 01 ðage 40 ij Þ 1 b 02 ðX ið jkÞ 2 0j 1 z 1j ðage 40 ij Þ 1 u 0k 1 ε ið jkÞ |fflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl{zfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl} random effects ð4Þ Y i jk ð Þ 5 b 00 1 b 01 ðage 40 ij Þ 1 b 02 ðZ 0 ð jkÞ Þ 1 b 03 ðZ 0 ð jkÞ * age 40 ij Þ |fflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl{zfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl} fixed effects1 z 0j 1 z 1j ðage 40 ij Þ 1 u 0k 1 ε ið jkÞ |fflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl{zfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl} random effects</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="20,119.68,95.44,12.10,6.91;20,126.09,94.84,22.73,7.78;20,148.82,99.00,4.30,3.69;20,155.28,94.84,12.02,7.50;20,167.30,99.00,4.30,3.69;20,172.06,94.84,42.69,7.51;20,214.75,99.00,4.30,3.69;20,219.57,94.84,7.88,7.50;20,227.45,92.12,0.70,2.58;20,227.17,94.84,24.49,7.78;20,251.66,99.00,4.30,3.69;20,256.48,94.84,7.88,7.50;20,264.42,92.12,0.70,2.58;20,264.08,94.84,53.01,8.74;20,317.08,99.00,4.30,3.69;20,321.90,94.84,32.15,7.51;20,354.05,92.12,0.70,2.58;20,353.76,94.84,10.88,7.78;20,144.68,100.00,219.94,7.50;20,244.06,109.26,21.14,3.69;20,143.83,119.67,12.02,7.50;20,155.85,123.83,4.30,3.69;20,160.61,119.67,32.21,7.57;20,192.81,117.01,0.70,2.58;20,192.47,119.67,39.40,8.74;20,142.19,124.83,89.68,7.50;20,176.60,134.09,21.14,3.69;20,234.77,119.67,12.41,7.50;20,247.75,124.00,3.54,3.69;20,253.47,119.67,11.10,7.50;20,265.21,124.00,3.54,3.69;20,269.24,119.67,67.92,7.57;20,243.89,125.05,93.75,7.50;20,277.17,134.32,27.15,3.69"><head></head><label></label><figDesc>0j 1 z 1j ðage 40 ij Þ 1 u 0k 1 ε ið jkÞ |fflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl{zfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl} random effects</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="30,96.20,165.48,301.80,8.58;30,86.23,176.64,311.82,10.00;30,86.24,189.46,311.81,8.58;30,86.24,201.48,311.75,8.58;30,86.24,213.44,311.80,8.58;30,86.24,225.46,311.75,8.58;30,86.24,236.68,311.82,10.00;30,86.25,249.44,311.80,8.58;30,86.25,260.66,313.21,10.00;30,85.16,272.68,9.15,10.00"><head></head><label></label><figDesc>The coefficients and the proper standard errors corrected for the 2SLS process ðWooldridge 2002, pp. 91,95Þ appear next to the marginal effects in table 5 under model 8. The pattern of effects in model 8 closely mirrors the pattern of effects in table 4, model 4: we continue to observe positive pointof-entry effects on earnings at age 40 and earnings growth, and the instrumented effects are actually larger in magnitude than the potentially biased effects in table 4 ðb 5 1:523 vs. b 5 :750; b 5 :083 vs. b 5 :030Þ. The negative contemporaneous effects reported here are similar to the original effects reported in table 4 ðb 5 2:313 vs. b 5 2:173; b 5 2:043 vs. b 5 2:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="31,113.78,149.97,11.29,6.46;31,119.74,149.41,80.37,7.53;31,200.64,149.41,27.34,7.31;31,228.02,147.69,0.65,2.41;31,228.02,149.41,34.82,7.50;31,262.83,147.69,0.65,2.41;31,262.83,149.27,50.26,7.67;31,313.63,149.41,2.69,7.00;31,137.20,154.46,179.08,7.00;31,217.13,163.14,19.76,3.44;31,137.76,173.56,45.77,7.36;31,183.52,171.85,0.65,2.41;31,183.52,173.42,50.26,7.67;31,234.31,173.56,2.69,7.00;31,136.17,178.61,100.84,7.00;31,177.00,187.29,19.76,3.44;31,239.75,173.56,11.56,7.00;31,251.89,177.60,3.28,3.44;31,257.22,173.56,10.43,7.00;31,268.21,177.60,3.28,3.44;31,272.01,173.56,37.28,7.53;31,309.83,173.56,39.59,7.02;31,248.26,178.61,101.64,7.00;31,286.41,187.29,25.31,3.44"><head></head><label></label><figDesc>5 b 00 1 b 01 ðyear entry ij Þ 1 b 02 ðZ 0 ð jkÞ Þ 1 b 03 ðZ 0 ð jkÞ Â year entry ij Þ |fflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl ffl{zfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl ffl} fixed effects 1 b 04 ðX ið jkÞ 2 Z 0 ð jkÞ Â year entry ij Þ |fflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl ffl{zfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl ffl} fixed effects1 z 0j 1 z 1j ðyear entry ij Þ 1 u 0k 1 ε ið jkÞ |fflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl{zfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflfflffl} random effects</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="10,100.32,96.92,132.12,507.99"><head>TABLE 1</head><label>1</label><figDesc>The Explicit and Implicit Hypotheses Used in a Career Trajectory Analysis of Immigration Effects</figDesc><table coords="10,130.36,96.92,102.07,507.99">Hypothesis 
+
+Description 
+
+Expected Finding 
+
+Implicit: 
+
+1. Contemporaneous effects 
+. . . . . . . . . . A majority of recent studies report a negative 
+contemporaneous effect of immigrant population 
+
+concentration on earnings. 
+
+Negative coefficients for the contemporaneous 
+effects on the growth parameters 
+
+ðintercept 
+
+and slopeÞ. 
+
+2. Distinction between point-of-entry 
+and contemporaneous effects 
+. . . . . . . Because young adults are especially likely to be 
+affected by local labor market conditions at entry 
+
+into the labor market, a distinction between point-
+of-entry effects and contemporaneous effects is 
+warranted. 
+
+Models that account for both point-of-entry and 
+contemporaneous effects will have the lowest 
+
+fit indices 
+ði.e., best model 
+
+fitÞ. 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="14,175.09,86.79,231.62,517.62"><head>TABLE 2</head><label>2</label><figDesc>Descriptive Statistics service . . . . . . . . . . . . . Proportion of the civilian workforce employed in service . . . . . . . . . . . . . Proportion of the civilian workforce employed in personal services or in entertainment and recreation services ment . . . . . . . . . . . . . Proportion of the civilian workforce employed in local, state, or federal government Median family income . . . Median family income in the local labor market % black . . . . . . . . . . . . . Proportion of the population that is non-Hispanic black % foreign-born . . . . . . . . Proportion of the population that is foreign-bornunits. The primary complexity is that the structure of clustering in this study is not hierarchical as is typical in multilevel studies. This issue stems from the fact that, over time, individuals may move and come to live in any number of different local labor markets. Therefore, many individuals are not simply clustered within a single metropolitan area or county. This complexity necessitates two methodological modifications.First, the grouping factors ði.e., persons and geographiesÞ are considered partially cross-classified grouping factors ðZaccarin and Rivellini 2002; Rasbash and Browne 2008Þ. Cross classification means that person-year observations are clustered within persons, and person-year observations are clustered within geographic units, but persons are not considered clustered within geographic units. Persons are crossed with geographic units. To handle the computational complexity of cross-classified grouping factors, this research employs sparse matrix methods developed by Bates ð2005; Baayen, Davidson, and Bates 2008Þ and implemented on the open source software R. This numerical method for mixed models is developed to efficiently estimate cross classified variance components on large data sets where other approaches are often intractable.</figDesc><table coords="14,205.09,86.79,201.63,517.62">Variable Name 
+
+Description 
+
+Min Max Mean SD 
+
+NLSY79 Data: 
+Dependent: 
+Earnings 
+ðlnÞ . . . . . . . . The natural log of hourly pay, standardized in 2004 $US 
+
+5 
+7.6 2.41 
+
+.65 
+
+Occupational status 
+. . . Nam-Powers-Boyd occupational status scale 
+
+0 
+
+1 
+
+.49 
+
+.25 
+
+Independent: 
+
+Main ascriptive statuses: 
+White 
+. . . . . . . . . . . . . Respondent's status is non-Hispanic white 
+
+0 
+
+1.0 
+
+.50 
+
+.50 
+
+Black. 
+. . . . . . . . . . . . . Respondent's status is non-Hispanic black 
+
+0 
+
+1.0 
+
+.33 
+
+.47 
+
+Latino 
+. . . . . . . . . . . . . Respondent's status is Hispanic 
+
+0 
+
+1.0 
+
+.17 
+
+.37 
+
+Male/female 
+. . . . . . . . . Respondent's status is coded 1 for women and 0 for men 
+
+0 
+
+1.0 
+
+.49 
+
+.50 
+
+Individual characteristics: 
+
+Age 
+. . . . . . . . . . . . . . . Respondent's age at the time of the NLSY interview 
+
+14 
+48.0 28.74 
+
+7.27 
+
+Married 
+. . . . . . . . . . . . Respondent's marital status coded 1 for married, coded 0 otherwise 
+
+0 
+
+1.0 
+
+.42 
+
+.49 
+
+Children 
+. . . . . . . . . . . No. of respondent's biological, adopted, or step children living in the household 
+
+0 
+
+10.0 
+
+.83 
+
+1.13 
+
+Enrolled in school 
+. . . . Currently enrolled in a school program 
+
+0 
+
+1.0 
+
+.14 
+
+.34 
+
+Education 
+. . . . . . . . . . Years of schooling completed 
+
+0 
+20.0 12.82 
+
+2.19 
+
+Second-generation 
+
+status 
+. . . . . . . . . . . . 
+Respondent is coded 1 for second generation and 0 for being native born of native 
+parentage 
+
+0 
+
+1.0 
+
+.074 
+
+.26 
+
+Parental education 
+. . . . Father's education level in 1979; if missing mother's education in 1979 
+
+0 
+20.0 11.04 
+
+3.67 
+
+Intact household. 
+. . . . . Lived with both biological parents at age 14 
+
+0 
+
+1.0 
+
+.69 
+
+.46 
+
+No. siblings 
+. . . . . . . . . No. of siblings at the time of the initial 1979 interview 
+
+0 
+22.0 3.76 
+
+2.58 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="19,75.74,94.82,312.06,129.49"><head>TABLE 3</head><label>3</label><figDesc>Model Fit Statistics for the Analysis of Immigration Population Concentration on Earnings and Earnings Growth</figDesc><table coords="19,75.74,133.82,312.06,90.48">Fixed Effects 
+No. Fixed Effects 
+BIC 
+AIC 
+DIC 
+
+Specification model ð1Þ 
+29 
+162,970 
+162,642 
+162,574 
+Specification model ð2Þ 
+30 
+162,974 
+162,637 
+162,567 
+Specification model ð3Þ 
+30 
+162,982 
+162,644 
+162,574 
+Specification model ð4Þ 
+30 
+162,939 
+162,602 
+162,531 
+Specification model ð5Þ 
+32 
+162,903 a 
+162,546 a 
+162,472 a 
+
+NOTE.-For all models, no. person-years 5 114,062; no. persons 5 7,591; no. local labor 
+markets 5 1,197; no. variance components 5 5. Data are from NLSY79. 
+a These statistics constitute the best-fitting model. 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="21,78.60,104.55,45.87,436.01"><head>TABLE 4</head><label>4</label><figDesc>Cross-Classified Multilevel Growth Curve Estimates of the Contemporaneous and Point-of-EntryEffects of Immigrant Population Concentration on Earnings and Earnings Growth</figDesc><table coords="21,117.61,104.55,6.87,352.79">MODEL 1 
+
+M ODEL 
+
+2 
+
+M ODEL 
+
+3 
+
+M ODEL 
+
+4 
+
+M ODEL 
+
+5 
+
+M ODEL 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="29,75.97,94.82,312.08,120.12"><head>TABLE 5</head><label>5</label><figDesc>Supplementary Analyses of the Contemporaneous and Point-of-Entry Effects</figDesc><table coords="29,75.97,114.43,312.08,100.51">of Immigrant Population Concentration on Earnings and 
+Earnings Growth, NLSY79 
+
+MODEL 7 a 
+MODEL 8 b 
+
+FIXED EFFECTS 
+b 
+SE 
+b 
+SE 
+
+Effects on hourly earnings at age 40 
+% foreign-born at entry: Z 0 
+ð jkÞ . . . . 
+1.193 
+.141*** 
+1.523 
+.245*** 
+% foreign-born: ðX iðjkÞ -Z 0 
+ð jkÞ Þ . . . . . 
+2.393 
+.103*** 
+2.313 
+.104 ** 
+Effects on earnings growth 
+% foreign-born at entry: Z 0 
+ð jkÞ . . . . 
+.025 
+.007*** 
+.083 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" coords="32,86.05,94.82,312.83,255.10"><head>TABLE 6</head><label>6</label><figDesc>Cross-Classified Multilevel Growth-Curve Estimates of the Contemporaneous and Point-of-Entry Effects of Immigrant Population Concentration on Occupational Status and Mobility jkÞ . . . . . 2.008 .003** 2.009 .004* 2.008 .003** 2.015 .005** % foreign-born: ðX iðjkÞ -Z 0 ð jkÞ Þ . . . . . 2.001 .003</figDesc><table coords="32,86.05,142.78,306.89,206.81">MODEL 9 
+M ODEL 10 
+MODEL 11 
+MODEL 12 
+
+OCCUPATIONAL EFFECTS 
+b 
+SE 
+b 
+SE 
+b 
+SE 
+b 
+SE 
+
+Men: 
+Status at entry into the 
+labor force: 
+% foreign-born at 
+entry: Z 0 
+ð jkÞ . . . . . 
+.117 .047** 
+.118 .052* 
+.153 .052** 
+.138 .099 
+Mobility: 
+% foreign-born at 
+entry: Z 0 
+ð jkÞ . . . . . 
+.005 .008 
+.004 .003 
+.004 .003 
+2.001 .004 
+% foreign born: 
+ðX ið jkÞ -Z 0 
+ð jkÞ Þ . . . . . 2.004 .002 
+2.003 .003 
+2.007 .002** 
+.003 .002 
+Women: 
+Status at entry into 
+the labor force: 
+% foreign-born at 
+entry: Z 0 
+ð jkÞ . . . . . 
+.103 .049* 
+.151 .053*** 
+.239 .052*** 
+.008 .104 
+Mobility: 
+% foreign-born at 
+entry: Z 0 
+ð 2.004 .004 
+2.004 .003 
+.004 .002 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">The term "social minimum" comes from Piore's ð1979, pp. 93-101Þ classic Birds of Passage. For Piore, and the economist he references, a "social minimum" refers to the consensus among a community concerning a minimum wage-in contrast to the "statutory minimum," which is the lowest wage set by law. As Piore and others recognize, there are often meaningful discrepancies between the "social minimum" and "statutory minimum" that are not well understood. Piore writes ð1979, p. 101Þ: "For whatever reason, employers . . .seem to feel that there exists a social minimum that is above the statute ½minimum and below which they cannot attract and hold ½native labor." I use the term "social minimum" somewhat differently in this article. Here, "social minimum" is closer in spirit to Piore's initial intention, which takes on more explanatory power when it is used in direct reference to the status hierarchy of the occupational structure rather than the wage structure.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">U.S. Department of Commerce, Bureau of the Census, http://www.icpsr.com.43Effects of Immigration on Career Trajectories of Native Workers</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">It is necessary to consider occupational attainment separately for men and for women because women on average tend to have higher levels of education than men in the same occupation, whereas men on average have higher earnings when compared to women in the same occupation ðWarren, Sheridan, and Hauser 1998Þ.Effects of Immigration on Career Trajectories of Native Workers</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6">In this study the residualized AFQT score is constructed following a technique used byCarneiro et al. ð2005Þ.  7  This research relies on the official Census Bureau Summary File ðCBSFÞ tables to calculate the percentage of the population that is foreign-born. Although a more detailed measure of the foreign-born population would be ideal, the information concerning the foreign-born population in the CBSF tables is quite limited going back to the 1980 census. An alternative approach would be to do the data aggregations myself using census microdata ðPUMSÞ. However, in addition to excluding all the NLSY observations in nonmetropolitan counties-which in a longitudinal study is more vexing than in a crosssectional design-aggregating up from the microdata to get MSA measures is also potentially problematic because there are numerous "partly identified" metropolitan areas. As a sensitivity check, I created a measure using census microdata that captures the gender-specific age group that is most likely to be competing with the men and the women from the NLSY79 cohort. In these analyses, we still observe positive point-of-entry effects and negative contemporaneous effects using the gender-and age-specific measure of immigrant population concentration.American Journal of Sociology</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="37,75.97,212.91,311.79,7.29;37,84.76,222.43,191.61,7.29" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Immigration, Trade, and the Labor Market</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">M</forename><surname>Abowd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">B</forename><surname>Freeman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+			<publisher>University of Chicago Press</publisher>
+			<pubPlace>Chicago</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="37,75.97,232.01,311.74,7.29;37,84.76,241.53,302.97,7.29;37,84.76,251.00,20.79,7.29" xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Remaking the American Mainstream: Assimilation and Contemporary Immigration</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">D</forename><surname>Alba</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Victor</forename><surname>Nee</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Harvard University Press</publisher>
+			<pubPlace>Cambridge, Mass</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="37,75.97,259.90,311.75,8.50;37,84.76,270.10,303.01,7.29;37,84.76,279.57,42.48,7.29" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Mixed-Effects Modeling with Crossed Random Effects for Subjects and Items</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">H</forename><surname>Baayen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Bates</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Memory and Language</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="390" to="412" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="37,75.97,288.47,276.06,8.50" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Fitting Linear Mixed Models in R</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Douglas</forename><surname>Bates</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">R News</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="27" to="30" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="37,75.97,298.73,311.77,7.29;37,84.76,308.25,302.99,7.29;37,84.76,317.72,47.21,7.29" xml:id="b4">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Annette</forename><surname>Bernhardt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martina</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><forename type="middle">S</forename><surname>Handcock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marc</forename><forename type="middle">A</forename><surname>Scott</surname></persName>
+		</author>
+		<title level="m">Divergent Paths: Economic Mobility in the New American Labor Market</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Russell Sage</publisher>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="37,75.97,327.30,311.76,7.29;37,84.75,336.82,223.26,7.29" xml:id="b5">
+	<monogr>
+		<title level="m" type="main">When a Heart Turns Rock Solid: The Lives of Three Puerto Rican Brothers On and Off the Streets</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Timothy</forename><surname>Black</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>Pantheon</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="37,75.96,346.40,311.79,7.29;37,84.75,355.87,114.44,7.29" xml:id="b6">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><forename type="middle">M</forename><surname>Blau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Otis</forename><forename type="middle">Dudley</forename><surname>Ducan</surname></persName>
+		</author>
+		<title level="m">The American Occupational Structure</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<date type="published" when="1967" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="37,75.96,364.77,311.80,8.50;37,84.75,374.29,154.17,8.50" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Instrumental Variables in Sociology and the Social Sciences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenneth</forename><forename type="middle">A</forename><surname>Bollen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="37" to="72" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="37,75.96,383.87,311.81,8.50;37,84.76,394.07,106.95,7.29" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The Substitutability of Black, Hispanic, and White Labor</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">George</forename><forename type="middle">J</forename><surname>Borjas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economic Inquiry</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="93" to="106" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="37,75.98,402.97,311.79,8.50;37,84.77,413.11,98.56,7.29;37,75.99,422.01,311.75,8.50;37,84.77,432.21,132.48,7.29;37,75.99,441.11,311.75,8.50;37,84.78,450.58,183.71,8.50" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Heaven&apos;s Door: Immigration Policy and the American Economy. Princeton</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Industrial and Labor Relations</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="221" to="58" />
+			<date type="published" when="1987" />
+			<publisher>Princeton University Press</publisher>
+		</imprint>
+	</monogr>
+	<note>Journal of Human Resources</note>
+</biblStruct>
+
+<biblStruct coords="37,76.00,460.16,311.79,8.50;37,84.79,470.36,303.00,7.29;37,84.79,479.83,107.63,7.29" xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Imperfect Substitution between Immigrants and Natives: A Reappraisal</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">George</forename><forename type="middle">J</forename><surname>Borjas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><surname>Grogger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gordon</forename><forename type="middle">H</forename><surname>Hanson</surname></persName>
+		</author>
+		<idno>No. 13887</idno>
+		<imprint>
+			<date type="published" when="2008" />
+			<pubPlace>Cambridge, Mass</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">NBER Working Paper</note>
+</biblStruct>
+
+<biblStruct coords="37,76.00,488.73,311.76,8.50;37,84.76,498.30,239.67,8.50" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Immigrant Labor and the Issue of &apos;Dirty Work&apos; in Advanced Industrial Societies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vernon</forename><surname>Briggs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Population and Environment</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="503" to="517" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,86.23,91.31,311.83,8.50;38,95.02,101.46,185.13,7.29" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Immigration and Wages: Evidence from the 1980s</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kristin</forename><forename type="middle">F</forename><surname>Butcher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Card</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="292" to="96" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,86.24,110.36,311.80,8.50;38,95.03,120.56,182.91,7.29;38,86.24,129.46,311.81,8.50;38,95.04,138.92,276.91,8.50;38,86.25,148.50,311.83,8.50;38,95.03,158.70,31.88,7.29" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Immigration Inflows, Native Outflows and the Local Labor Market Impacts of Higher Immigration</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Card</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Industrial and Labor Relations Review</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="300" to="323" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+	<note>Economic Journal</note>
+</biblStruct>
+
+<biblStruct coords="38,86.24,167.60,311.79,8.50;38,95.02,177.75,303.04,7.29;38,95.02,187.27,71.63,7.29" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Labor Market Discrimination and Racial Differences in Premarket Factors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pedro</forename><surname>Carneiro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">J</forename><surname>Heckman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dimitriy</forename><forename type="middle">V</forename><surname>Masterov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Law and Economics</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1" to="39" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,86.24,196.17,311.84,8.50;38,95.04,206.32,199.92,7.29" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Effects of Immigrants on the 1980-1990 U.S. Wage Experience</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maria</forename><forename type="middle">E</forename><surname>Enchautegui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contemporary Economic Policy</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="20" to="38" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,86.25,215.90,311.83,7.29;38,95.04,225.42,303.02,7.29;38,95.04,234.94,157.09,7.29" xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Inequality by Design: Cracking the Bell Curve Myth</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Claude</forename><forename type="middle">S</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Hout</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martín</forename><surname>Sánchez-Jankowski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Samuel</forename><forename type="middle">R</forename><surname>Lucus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ann</forename><surname>Swidler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kim</forename><surname>Voss</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Princeton, N.J.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,86.25,244.52,311.81,7.29;38,95.03,253.99,195.12,7.29" xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Immigration and Immigrants: Setting the Record Straight</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Fix</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><forename type="middle">S</forename><surname>Passel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>Urban Institute Press</publisher>
+			<pubPlace>Washington, D.C</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,86.24,262.89,311.81,8.50;38,95.03,273.09,303.02,7.29;38,95.03,281.88,38.85,8.50" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Immigration Impacts on Internal Migration of the Poor: 1990 Census Evidence for U.S. States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><surname>Frey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Population Geography</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="51" to="67" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,86.24,291.46,311.79,8.50;38,95.02,301.66,303.07,7.29;38,95.02,311.13,213.38,7.29" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">New Black Migration Patterns in the United States: Are They Affected by Recent Immigration?</title>
+	</analytic>
+	<monogr>
+		<title level="m">Pp. 311-44 in Immigration and Opportunity</title>
+		<editor>Frank D. Bean and Stephanie Bell-Rose</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Sage</publisher>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,86.23,320.03,311.86,8.50;38,95.03,330.23,207.17,7.33" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Job Mobility and Wage Trajectories for Men and Women in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sylvia</forename><surname>Fuller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="158" to="83" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,86.23,339.16,311.84,8.50;38,95.02,349.31,222.43,7.29" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The Substitutability of Natives and Immigrants in Production</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jean</forename><surname>Grossman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Baldwin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Economics and Statistics</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="596" to="603" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,86.23,358.21,311.83,8.50;38,95.02,367.73,303.04,8.50;38,86.23,377.31,311.84,8.50;38,95.01,387.51,114.72,7.29" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Where Job Values Come from: Family and Schooling Background, Cognitive Ability, and Gender</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><surname>Halaby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="507" to="551" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note>Annual Review of Sociology</note>
+</biblStruct>
+
+<biblStruct coords="38,86.22,396.41,311.81,8.50;38,95.00,406.56,254.06,7.29" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Does Human Capital Raise Earnings for Immigrants in the Low-Skill Labor Market?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">George</forename><surname>Farkas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Demography</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="619" to="659" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,86.20,415.46,311.81,8.50;38,94.99,425.66,303.02,7.29;38,94.99,435.13,303.02,7.29;38,94.99,444.65,39.80,7.29" xml:id="b24">
+	<monogr>
+		<title level="m" type="main">The Geography of Immigrant Skills: Educational Inequality across Metropolitan Destinations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Audrey</forename><surname>Singer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Deborah</forename><surname>Graefe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gordon De Jong</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<publisher>Brookings Institution</publisher>
+			<pubPlace>Washington, D.C.</pubPlace>
+		</imprint>
+	</monogr>
+	<note>State of Metropolitan America report series</note>
+</biblStruct>
+
+<biblStruct coords="38,86.20,453.55,311.79,8.50;38,94.99,463.70,303.01,7.29;38,94.99,473.22,64.65,7.29" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Black-White Income Inequality and Metropolitan Socioeconomic Structure</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><surname>Jaret</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lesley</forename><forename type="middle">Williams</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">M</forename><surname>Adelman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Urban Affairs</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="305" to="338" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,86.20,482.12,311.79,8.50;38,94.99,492.27,303.04,7.29;38,94.99,501.11,54.17,8.50" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Employer Recruitment and Hispanic Labor Migration: North Carolina Urban Areas at the End of the Millennium</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Karen</forename><surname>Johnson-Webb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Professional Geographer</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="406" to="427" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,86.21,510.68,311.82,8.50;38,95.00,520.88,303.02,7.29;38,95.00,529.67,83.37,8.50" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Restructuring of the U.S. Meat Processing Industry and New Hispanic Migrant Destinations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><surname>Kandel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Emilio</forename><surname>Parrado</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Population and Development Review</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="447" to="72" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,86.22,539.25,311.80,8.50;38,95.01,548.77,271.54,8.50" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The Impact of Immigration on the Internal Migration of Natives and Immigrants</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mary</forename><forename type="middle">M</forename><surname>Kritz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Douglas</forename><forename type="middle">T</forename><surname>Gurak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Demography</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="133" to="178" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,86.24,559.08,311.81,7.29;38,95.02,568.55,145.82,7.29" xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Race, Ethnicity, and Entrepreneurship in Urban America</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ivan</forename><surname>Light</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Rosenstein</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<publisher>Aldine de Gruyter</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="38,86.23,577.45,311.77,8.50;38,95.01,587.65,303.03,7.29;38,95.01,596.44,38.85,8.50" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Immigration and the Structure of Demand: Do Immigrants Alter the Labor Market Composition of U.S. Cities?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Linton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Immigration Review</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="58" to="80" />
+			<date type="published" when="2002-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.97,91.99,311.77,7.29;39,84.77,101.46,171.99,7.29" xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Ain&apos;t No Makin&apos; It: Aspirations and Attainment in a Low-Income Neighborhood</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jay</forename><surname>Macleod</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>Westview Press</publisher>
+			<pubPlace>Boulder, Colo</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.98,111.04,311.78,7.29;39,84.77,120.56,302.99,7.29;39,84.77,130.03,77.90,7.29" xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Beyond Smoke and Mirrors: Mexican Immigration in an Era of Economic Integration</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Douglas</forename><forename type="middle">S</forename><surname>Massey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jorge</forename><surname>Durand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nolan</forename><forename type="middle">J</forename><surname>Malone</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>Russell Sage Foundation</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.98,138.92,311.76,8.50;39,84.77,149.12,302.99,7.29;39,84.77,158.59,39.71,7.29" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Sources of Racial Wage Inequality in Metropolitan Labor Markets: Racial, Ethnic, and Gender Differences</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leslie</forename><surname>Mccall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="520" to="561" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.99,168.17,311.75,7.29;39,84.77,177.69,47.15,7.29" xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Immigrants and the American City</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><surname>Muller</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+			<publisher>New York University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.99,186.59,311.82,8.50;39,84.77,196.74,303.00,7.29;39,84.77,206.26,38.23,7.29" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Occupational Status in 2000: Over a Century of Census-Based Measurement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><forename type="middle">B</forename><surname>Nam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Monica</forename><surname>Boyd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Population Research and Policy Review</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="327" to="58" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.99,215.16,311.81,8.50;39,84.77,225.36,173.85,7.29" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">How to Measure Labor Market Effects of Immigration: A Review</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Liesbet</forename><surname>Okkerse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Economic Surveys</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="1" to="30" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.99,234.26,311.80,8.50;39,84.78,244.41,86.25,7.29" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Do Immigrants Work in Riskier Jobs?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pia</forename><forename type="middle">M</forename><surname>Orrenius</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Madeline</forename><surname>Zavodny</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Demography</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="535" to="51" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.99,253.31,311.77,8.50;39,84.77,263.51,285.18,7.29;39,75.98,272.41,311.78,8.50;39,84.77,281.88,156.32,8.50" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The Economic Value of Cultural Diversity: Evidence from U.S. Cities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gianmarco</forename><surname>Ottaviano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Giovanni</forename><surname>Peri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the European Economic Association</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="152" to="97" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note>Journal of Economic Geography</note>
+</biblStruct>
+
+<biblStruct coords="39,75.99,291.46,311.77,8.50;39,84.77,301.66,303.01,7.29;39,84.77,311.13,143.00,7.29" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Immigration, Labor Market Mobility, and the Earnings of Native-Born Workers: An Occupational Segmentation Approach</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roberto</forename><surname>Pedace</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Economics and Sociology</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="313" to="358" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.99,320.71,311.76,7.29;39,84.77,330.23,157.07,7.29" xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Birds of Passage: Migrant Labor and Industrial Societies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Piore</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1979" />
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge, Mass</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.99,339.13,311.78,8.50;39,84.77,349.27,87.61,7.29" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Bayesian Model Selection in Social Research</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adrian</forename><forename type="middle">E</forename><surname>Raftery</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sociological Methodology</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="111" to="63" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.98,358.17,311.80,8.50;39,84.77,368.37,303.00,7.34;39,84.76,377.94,104.62,7.29" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Modeling Non-Hierarchical Structures</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jon</forename><surname>Rasbash</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><surname>Browne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of Multilevel Analysis</title>
+		<editor>Jan de Leeuw and Erik Meijer</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="301" to="335" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.97,387.52,311.78,7.29;39,84.75,396.99,283.68,7.29" xml:id="b43">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><forename type="middle">W</forename><surname>Raudenbush</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><forename type="middle">S</forename><surname>Bryk</surname></persName>
+		</author>
+		<title level="m">Hierarchical Linear Models: Applications and Data Analysis Methods</title>
+		<meeting><address><addrLine>Thousand Oaks, Calif</addrLine></address></meeting>
+		<imprint>
+			<publisher>Sage</publisher>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note>2d ed</note>
+</biblStruct>
+
+<biblStruct coords="39,75.97,405.89,311.80,8.50;39,84.76,415.41,303.00,8.50;39,84.76,425.55,27.63,7.29" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The Effects of Recent Immigration on Racial/Ethnic Labor Market Differentials</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Deborah</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sheldon</forename><surname>Danziger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="373" to="77" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.97,434.45,311.76,8.50;39,84.76,444.65,303.01,7.29;39,84.76,454.12,302.98,7.29;39,84.76,463.64,302.98,7.29;39,84.76,473.11,47.21,7.29" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Unskilled Immigration and Changes in the Wage Distributions of Black, Mexican American, and Non-Hispanic White Male Dropouts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cordelia</forename><forename type="middle">W</forename><surname>Reimers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Help or Hindrance? The Economic Implications of Immigration for African Americans</title>
+		<editor>Daniel S. Hamermesh and Frank D. Bean. New York: Russell Sage</editor>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="107" to="155" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.97,482.01,311.80,8.50;39,84.76,492.21,77.24,7.29" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Association, Causation, and Marginal Structural Models</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">M</forename><surname>Robins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Synthese</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="151" to="79" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.97,501.11,311.75,8.50;39,84.75,510.63,133.48,8.50" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Race and Sex Differences in Career Dynamics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rachel</forename><surname>Rosenfeld</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="583" to="609" />
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.97,520.89,311.77,7.29;39,84.76,530.36,284.13,7.29" xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Applied Longitudinal Data Analysis: Modeling Change and Event Occurrence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Judith</forename><forename type="middle">D</forename><surname>Singer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">B</forename><surname>Willett</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.97,539.94,311.88,7.29;39,84.76,549.46,302.97,7.29" xml:id="b49">
+	<monogr>
+		<title level="m" type="main">The New Americans: Economic, Demographic, and Fiscal Effects of Immigration</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">P</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Barry</forename><surname>Edmonston</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>National Academy Press</publisher>
+			<pubPlace>Washington, D.C.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.97,558.36,311.81,8.50;39,84.76,567.83,119.88,8.50" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The Structure of Intragenerational Mobility</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aage</forename><forename type="middle">B</forename><surname>Sørensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="456" to="71" />
+			<date type="published" when="1975" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="39,75.98,578.09,311.81,7.29;39,84.76,586.93,303.01,8.50;39,84.76,596.40,294.03,8.50" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Bayesian Measures of Model Complexity and Fit&quot; ðwith discussionÞ</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">J</forename><surname>Spiegelhalter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Nicola</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bradley</forename><forename type="middle">P</forename><surname>Best</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Angelika</forename><surname>Carlin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Van Der Linde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Royal Statistical Society, ser. B ðStatistical MethodologyÞ</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="583" to="639" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="40,86.23,91.31,311.80,8.50;40,95.02,100.78,219.88,8.50" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Careers, Labor Market Structure, and Socioeconomic Achievement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Seymour</forename><surname>Spilerman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="551" to="93" />
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="40,86.23,110.36,311.85,8.50;40,95.02,120.56,303.02,7.29;40,95.02,130.03,229.52,7.29" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Race and the Accumulation of Human Capital across the Career: A Theoretical Model and Fixed-Effects Application</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><surname>Tomaskovic-Devey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Melvin</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kecia</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="58" to="89" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="40,86.23,139.60,311.81,7.29;40,95.02,149.12,260.54,7.29;40,86.23,158.02,311.83,8.50;40,95.01,168.17,167.09,7.29" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Black/Immigrant Competition Re-Assessed: New Evidence from Los Angeles</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roger</forename><surname>Waldinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Still the Promised City? Blacks and New Immigrants in Postindustrial</title>
+		<meeting><address><addrLine>New York. Cambridge, Mass</addrLine></address></meeting>
+		<imprint>
+			<publisher>Harvard University Press</publisher>
+			<date type="published" when="1996" />
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="365" to="85" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="40,86.22,177.75,311.82,7.29;40,95.01,187.27,174.38,7.29" xml:id="b55">
+	<monogr>
+		<title level="m" type="main">How the Other Half Works</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roger</forename><surname>Waldinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">I</forename><surname>Lichter</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>University of California Press</publisher>
+			<pubPlace>Berkeley and Los Angeles</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="40,86.22,196.17,311.80,8.50;40,95.01,206.32,279.97,7.29" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Race/Ethnicity, Gender and Job Earnings across Metropolitan Areas in the United States: A Multilevel Analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Qingfang</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Urban Studies</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="825" to="868" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="40,86.22,215.22,311.81,8.50;40,95.01,225.42,303.01,7.29;40,95.01,234.94,303.05,7.29;40,95.01,244.41,55.24,7.29" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Choosing a Measure of Occupational Standing: How Useful Are Composite Measures in Analyses of Gender Inequality in Occupational Attainment?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">R</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><forename type="middle">T</forename><surname>Sheridan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">M</forename><surname>Hauser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sociological Methods and Research</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="3" to="76" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="40,86.22,253.31,311.82,8.50;40,95.00,263.51,303.06,7.29;40,95.01,272.30,108.82,8.50" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">The Effect of Immigration on the Internal Migration of the Native-born Population, 1981-1990</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">J</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zai</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Population Research and Policy Review</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="141" to="66" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="40,86.22,281.88,311.81,8.50;40,95.03,291.40,90.00,8.50" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">The Ethnic Mobility Trap and Stratification Theory</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Norbert</forename><surname>Wiley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Problems</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="147" to="59" />
+			<date type="published" when="1967" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="40,86.25,300.98,311.77,8.50;40,95.04,310.45,263.03,8.50" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Neighborhood Effects in Temporal Perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Geoffrey</forename><forename type="middle">T</forename><surname>Wodtke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Felix</forename><surname>Harding</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Elwert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="713" to="749" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="40,86.26,320.71,311.81,7.33;40,95.02,330.26,111.21,7.29" xml:id="b61">
+	<monogr>
+		<title level="m" type="main">Econometric Analysis of Cross Section and Panel Data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><forename type="middle">M</forename><surname>Wooldridge</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge, Mass</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="40,86.24,339.16,311.81,8.50;40,95.02,348.63,275.67,8.50" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Estimating Heterogeneous Treatment Effects with Observational Data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yu</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennie</forename><surname>Brand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ben</forename><surname>Jann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sociological Methodology</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="314" to="361" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="40,86.24,358.21,311.81,8.50;40,95.03,368.41,303.03,7.29;40,95.04,377.93,38.28,7.29" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Multilevel Analysis in Social Research: An Application of a Cross-Classified Model</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Susanna</forename><surname>Zaccarin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Giulia</forename><surname>Rivellini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Statistical Methods and Applications</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="95" to="108" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="40,86.25,386.83,311.84,8.50;40,95.04,396.98,303.01,7.29;40,95.04,405.82,253.72,8.50" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Bad Attitudes and Good Soldiers: Soft Skills as a Code for Tractability in the Hiring of Immigrant Latina/os over Native Blacks in the Hotel Industry</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Margaret</forename><forename type="middle">M</forename><surname>Zamudio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">I</forename><surname>Lichter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Problems</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="573" to="89" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="40,86.25,416.08,311.83,7.29;40,95.05,425.55,205.96,7.29" xml:id="b65">
+	<monogr>
+		<title level="m" type="main">New Destinations: Mexican Immigration in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Victor</forename><surname>Zúňiga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rubén</forename><surname>Hernández-León</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<publisher>Russell Sage</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Disparate bilingual experiences modulate task-switching advantages: A diffusion-model analysis of the effects of interactional context on switch costs</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2016-02-02">Available online 2 February 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andree</forename><surname>Hartanto</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Singapore Management University</orgName>
+								<address>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hwajin</forename><surname>Yang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Singapore Management University</orgName>
+								<address>
+									<country key="SG">Singapore</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Disparate bilingual experiences modulate task-switching advantages: A diffusion-model analysis of the effects of interactional context on switch costs</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-02-02">Available online 2 February 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.cognition.2016.01.016</idno>
+					<note type="submission">Article history: Received 18 March 2015 Revised 20 January 2016 Accepted 25 January 2016</note>
+					<note>a r t i c l e i n f o</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:02+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Bilingualism Interactional context Task switching Switch cost Mixing cost Diffusion model Adaptive control hypothesis</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>a b s t r a c t</head><p>Drawing on the adaptive control hypothesis <ref type="bibr" coords="1,351.79,308.98,88.30,6.78" target="#b9">(Green &amp; Abutalebi, 2013)</ref>, we investigated whether bilinguals' disparate interactional contexts modulate task-switching performance. Fifty-eight bilinguals within the single-language context (SLC) and 75 bilinguals within the dual-language context (DLC) were compared in a typical task-switching paradigm. Given that DLC bilinguals switch between languages within the same context, while SLC bilinguals speak only one language in one environment and therefore rarely switch languages, we hypothesized that the two groups' stark difference in their interactional contexts of conversational exchanges would lead to differences in switch costs. As predicted, DLC bilinguals showed smaller switch costs than SLC bilinguals. Our diffusion-model analyses suggest that DLC bilinguals' benefits in switch costs are more likely driven by task-set reconfiguration than by proactive interference. Our findings underscore the modulating role of the interactional context of conversational exchanges in task switching.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Bilinguals are unique in their practice of flexible languageswitching between two or more languages. Given that the neurocognitive mechanisms that underlie bilinguals' language switching and task switching are partially shared (e.g., <ref type="bibr" coords="1,247.41,515.43,36.38,7.53;1,32.71,525.92,60.70,7.53" target="#b0">Abutalebi &amp; Green, 2007;</ref><ref type="bibr" coords="1,97.74,525.92,186.07,7.53;1,32.71,536.35,19.87,7.53" target="#b41">Weissberger, Gollan, Bondi, Clark, &amp; Wierenga, 2015)</ref>, the question arises as to whether bilinguals' qualitatively different language-switching practices affect their task-switching ability to switch back and forth between multiple tasks, operations, and mental sets <ref type="bibr" coords="1,95.86,567.76,57.49,7.53" target="#b22">(Monsell, 2003)</ref>.</p><p>Bilinguals' task-switching abilities have been studied by using a typical task-switching paradigm that considers both switch costs and mixing costs, which have been found to implicate different control mechanisms <ref type="bibr" coords="1,120.07,609.60,159.71,7.53" target="#b1">(Braver, Reynolds, &amp; Donaldson, 2003)</ref>. Specifically, switch costs-i.e., the actual cost of switching between different task sets-arise from local control mechanisms that involve transient task-set reconfiguration <ref type="bibr" coords="1,205.90,640.95,77.88,7.53;1,32.71,651.44,22.03,7.53" target="#b31">(Rogers &amp; Monsell, 1995)</ref> and proactive interference from previous task sets <ref type="bibr" coords="1,258.46,651.44,25.36,7.53;1,32.71,661.87,61.86,7.53" target="#b44">(Wylie &amp; Allport, 2000)</ref>. Mixing costs-i.e., the cost of monitoring and coordinating multiple streams of incoming information-entail activation of global and sustained control mechanisms <ref type="bibr" coords="1,518.34,473.59,34.40,7.53;1,301.72,484.08,55.28,7.53" target="#b32">(Rubin &amp; Meiran, 2005)</ref>. Because of the conceptual overlap between bilinguals' language-and task switching, it has been suggested that bilingualism attenuates task-switching costs. In recent years, however, the question of whether bilingualism confers benefits on task switching has been debated, and findings have been inconsistent. For instance, some studies have found bilingual advantages in switch costs <ref type="bibr" coords="1,411.98,546.84,111.57,7.53" target="#b28">(Prior &amp; MacWhinney, 2010)</ref>, while others report bilingual advantages in mixing costs <ref type="bibr" coords="1,508.47,557.27,44.32,7.53;1,301.72,567.76,136.47,7.53" target="#b6">(Gold, Kim, Johnson, Kryscio, &amp; Smith, 2013;</ref><ref type="bibr" coords="1,443.90,567.76,108.83,7.53;1,301.72,578.19,61.16,7.53" target="#b42">Wiseheart, Viswanathan, &amp; Bialystok, 2014)</ref>. Moreover, recent attempts to replicate these effects found neither switch-nor mixing-cost advantages, even among bilinguals who frequently switch languages <ref type="bibr" coords="1,506.77,599.11,46.01,7.53;1,301.72,609.60,120.54,7.53" target="#b11">(Hernández, Martin, Barcelo, &amp; Costa, 2013;</ref><ref type="bibr" coords="1,425.59,609.60,96.78,7.53" target="#b24">Paap &amp; Greenberg, 2013;</ref><ref type="bibr" coords="1,525.71,609.60,27.02,7.53;1,301.72,620.03,42.96,7.53" target="#b25">Paap &amp; Sawi, 2014)</ref>. These inconsistencies highlight the need for a more rigorous, theory-driven approach.</p><p>The adaptive control hypothesis <ref type="bibr" coords="1,436.13,640.95,98.00,7.53" target="#b9">(Green &amp; Abutalebi, 2013)</ref> postulates that bilinguals' interactional contexts of conversational exchanges implicate different demands on bilinguals' language control and adaptively alter their cognitive-control abilities. Specifically, (a) the dual-language context (DLC)-in which bilinguals use two languages within the same context (e.g., both L1 and L2 at home and work)-requires a more taxing level of http://dx.doi.org/10.1016/j.cognition.2016.01.016 0010-0277/Ó 2016 Elsevier B.V. All rights reserved.</p><p>language control, and therefore should better facilitate taskswitching performance than either (b) the single-language context (SLC)-in which bilinguals speak only one language in one environment and therefore rarely switch languages (e.g., L1 at home and L2 at work)-or (c) the dense code-switching context (i.e., intrasentential code-switching)-in which bilinguals routinely mix linguistic elements (e.g., words) of two languages within a single utterance.</p><p>To test those theoretical predictions, we operationalized bilinguals' interactional contexts according to two primary perspectives that closely reflect the complexity of bilingualism in Singapore. First, we assume that DLC bilingualism is the bipolar opposite of SLC bilingualism, both of which fall along a bipolar continuum. Namely, each point on the continuum is influenced by the extent of both DLC and SLC bilingualism: If one's DLC bilingualism is high, his or her SLC bilingualism is likely low. Second, because of the prevalence of English-based creole in Singapore, 1 both DLC and SLC bilinguals likely perform intrasentential code-switching, which signifies the dense code-switching context; in particular, DLC more likely implicates the dense code-switching context. Therefore, DLC or SLC are not clearly separable from the dense code-switching context, and dividing bilinguals into three groups according to different interactional contexts is not straightforward.</p><p>Because of these constraints, we examined the impact of bilinguals' interactional contexts as follows. First, we examined whether DLC and SLC differ in switch costs. Consistent with the adaptive control hypothesis, we expected that DLC bilinguals would have smaller switch costs than SLC bilinguals, because DLC bilinguals' complex language-set reconfiguration should be conducive to transient task-set reconfiguration, which is regarded as the primary mechanism of switch costs. Second, given that both DLC and SLC are related to the dense code-switching context, we used regression analysis to examine its relative importance to DLC and SLC in predicting switch costs, while controlling for important individual factors.</p><p>Our other important goal was to elucidate the cognitive processing that underlies switch costs in particular. Although the multiple-component model of task switching proposes that switch costs arise from task-set reconfiguration and proactive interference <ref type="bibr" coords="2,311.53,366.72,81.56,7.53" target="#b19">(Mayr &amp; Kliegl, 2003;</ref><ref type="bibr" coords="2,395.71,366.72,147.96,7.53" target="#b33">Ruthruff, Remington, &amp; Johnston, 2001)</ref>, the literature on bilingualism has not clearly identified the specific cognitive components linked to bilingual advantages in task switching. Therefore, we employed the stochastic diffusion model <ref type="bibr" coords="2,311.53,408.56,56.78,7.53" target="#b29">(Ratcliff, 1978)</ref> to decompose switch costs into specific cognitive components. Using this model in the task-switching paradigm, recent studies have reported that differences in the non-decision time parameter (t 0 ) between switch trials and non-switch trials are related to the early phase of a task switch, which involves task-reconfiguration processes, whereas differences in drift rate (v) between switch trials and non-switch trials are associated with the later stage of task switching, which entails proactive interference <ref type="bibr" coords="2,332.90,492.25,229.74,7.53;2,311.53,502.73,21.90,7.53" target="#b17">(Mansfield, Karayanidis, Jamadar, Heathcote, &amp; Forstmann, 2011;</ref><ref type="bibr" coords="2,336.36,502.73,80.93,7.53" target="#b34">Schmitz &amp; Voss, 2012</ref>. This model, therefore, allows us to examine whether the locus of bilingual advantages in switch costs is pertinent to either task-set reconfiguration or proactive interference (see <ref type="figure" coords="2,377.75,534.09,18.88,7.53">Fig. 1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Participants</head><p>One hundred and thirty-three bilinguals (female = 89) from a university in Singapore participated for extra course credit or S $13. 2 In addition to English, bilingual participants spoke a variety of languages, which includes Chinese (n = 110), Malay (n = 8), Indonesian (n = 1), Hindi (n = 3), Tamil (n = 3), Malayalam (n = 1), Vietnamese (n = 5), Korean (n = 2). Using a 5-point Likert scale (1 = never, 5 = always), participants reported on two items regarding the extent to which they used two languages within the same context (DLC bilingualism) and in different contexts (SLC bilingualism; <ref type="figure" coords="2,42.52,228.89,15.35,6.03">Fig. 1</ref>. Diffusion process underlying the diffusion model. The model assumes that decisions are based on the accumulation of information over time until a response boundary is reached and a motor response elicited <ref type="bibr" coords="2,169.68,237.45,43.61,6.03" target="#b29">(Ratcliff, 1978)</ref>. By using both response latency and accuracy, the diffusion model decomposes the decision process into several meaningful parameters. Specifically, drift rate (v) quantifies the speed of information uptake and stimulus difficulty, which map onto participants' processing ability; larger values represent fast and accurate responses. The drift rate is the mean slope of the counter, and differences in drift rate between switch trials and non-switch trials are thought to reflect proactive interference in task switching. Boundary separation (a) quantifies the speed-accuracy trade-off, with a larger value indicating a conservative decision characterized by slow reaction time and high accuracy. Starting point (zr) quantifies a priori bias in decision thresholds, ranging from 0 to 1, with a value of 0.5 indicating the absence of a priori decisional bias. The decision process begins at the starting point, where information is accumulated until a response boundary is reached. Lastly, non-decision time (t 0 ) quantifies the duration of all non-decisional processes, such as encoding and response execution. Non-decision processes occur before and after the actual decision phase and are thought to reflect the reconfiguration processes in task switching (see <ref type="bibr" coords="2,356.09,297.43,46.75,6.03" target="#b38">Voss et al., 2013</ref>, for a practical introduction to diffusion models; see <ref type="bibr" coords="2,42.52,305.99,63.98,6.03" target="#b34">Schmitz &amp; Voss, 2012</ref>, for their use in a task-switching paradigm). Adapted from <ref type="bibr" coords="2,290.89,305.99,93.88,6.03">Schmitz and Voss (2012, p. 226</ref>).</p><p>1 Singapore bilinguals speak an English-based creole language, ''Singlish," which has been substantially influenced by loan words from Mandarin dialects, Malay, and Tamil <ref type="bibr" coords="2,61.34,723.36,39.07,6.03" target="#b43">(Wong, 2004)</ref>. Therefore, Singlish involves frequent practice of intrasentential code-switching in everyday conversation. For example, bilinguals in Singapore may sometimes insert a Malay word, makan, into a single English utterance-e.g., ''Let's find some place to makan [eat]." reverse coded), respectively (see Appendix B). Scores on these two items were summed to produce the composite score for DLC bilingualism (M = 5.80; SD = 1.69), which takes SLC bilingualism into consideration. Using the mean split of this, participants were divided into groups of DLC (n = 75; M P 6) and SLC bilinguals (n = 58; M &lt; 6). Participants' demographic and language characteristics are shown in Tables 1 and 2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Color-shape switching task</head><p>Similar to the typical color-shape switching task used in previous studies (e.g., <ref type="bibr" coords="3,105.62,695.60,100.04,7.53" target="#b24">Paap &amp; Greenberg, 2013)</ref>, participants were instructed to respond to either the color (red or green) or shape (circle or triangle) of a target, with respect to the given cue (the color gradient or a row of small black shapes). For the diffusionmodel analysis, we made two modifications. First, we employed overlapping response mapping, which required participants to press the left key for both ''green" and ''triangle" and the right key for both ''red" and ''circle" (counterbalanced across participants). Second, we employed 100% stimulus-response incompatible trials for two bivalent target stimuli (green circle and red triangle); i.e., no stimulus matched a response on both color and shape.</p><p>Participants began with one practice block (30 trials), followed by two pure blocks (color and shape, counterbalanced across participants), and then four mixed blocks that included an equal number of task-switch and task-repeat trials. Each main block consisted of 50 randomized trials with a maximum of four consecutive trials of the same task. For each trial, a fixation cross appeared for 350 ms, followed by a blank screen (150 ms). The cue then appeared 2.8°above the fixation cross (250 ms), followed by the target. Both the cue and the target remained on the screen until the participant responded, which was followed by an inter-trial interval (850 ms). Participants received feedback (a beep) for incorrect responses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Background measures</head><p>A subtest of the Kaufman Brief Intelligence Test (KBIT-2; <ref type="bibr" coords="3,301.72,300.96,100.54,7.53" target="#b13">Kaufman &amp; Kaufman, 2004</ref>) was used to measure nonverbal intelligence. General verbal ability was assessed by the Shipley Vocabulary Test <ref type="bibr" coords="3,350.08,321.88,59.31,7.53" target="#b36">(Shipley, 1986)</ref>, and language background by a questionnaire adapted from the Language Experience and Proficiency Questionnaire <ref type="bibr" coords="3,393.11,342.80,159.68,7.53;3,301.72,353.29,21.86,7.53" target="#b18">(Marian, Blumenfeld, &amp; Kaushanskaya, 2007)</ref> and the Language History Questionnaire <ref type="bibr" coords="3,484.49,353.29,68.24,7.53;3,301.72,363.72,40.08,7.53" target="#b15">(Li, Zhang, Tsai, &amp; Puls, 2014)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Background measures</head><p>DLC and SLC bilinguals did not differ in nonverbal intelligence, general vocabulary, demographic profiles, or various languagebackground variables <ref type="table" coords="3,383.98,452.10,55.00,7.53" target="#tab_0">(Tables 1 and 2</ref>). The two groups differed significantly, however, in variables related to DLC and SLC bilingualism, intrasentential and intersentential code-switching, all ps &lt; .01 <ref type="table" coords="3,332.39,483.45,32.54,7.53" target="#tab_2">(Table 3)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Task-switching costs</head><p>Overall accuracy rates were high for both pure and mixed blocks and did not differentiate DLC and SLC bilinguals, all ts &lt; 1 <ref type="table" coords="3,301.72,549.10,28.86,7.53" target="#tab_3">(Table 4</ref>). Preliminary analyses of accuracy showed that bilinguals' interactional contexts (DLC, SLC) moderated neither switch costs nor mixing costs, Fs &lt; 1. Therefore, no other analyses were performed for accuracy. Response time (RT) that were either below 200 ms or above 5000 ms or 2.5 SD above or below each participant's mean were excluded separately for pure blocks and mixed-task blocks. Separate analyses were performed for switch costs and mixing costs.</p><p>Regarding switch costs, a repeated-measures mixed-factor ANOVA was performed with Interactional Context (DLC vs. SLC) as a between-participant factor and Switching (switch vs. repeat) as a within-participant factor. We found significant main effects of Interactional Context, F(1, 131) = 4.63, p = .033, g p 2 = .034, and Switching, F(1, 131) = 506.94, p &lt; .001, g p 2 = .795. The interaction between Interactional Context and Switching was also significant, F(1, 131) = 8.94, p = .003, g p 2 = .064, suggesting that bilinguals' interactional contexts modulate switch costs. Follow-up analyses showed that DLC bilinguals were significantly faster than SLC bilinguals in switch trials, F(1, 131) = 6.55, p = .012, g p 2 = .048, but not in repeat trials, p = .155. Note: SDs are shown in parentheses. a Parental education level was rated on a scale of 1 (none) to 6 (master's or PhD). b Household income was rated on a scale of 1 (less than S$2500) to 9 (more than S $20,000), with intervals of S$2500. c Five participants did not participate in a subsequent test session that assessed nonverbal intelligence (DLC bilinguals = 71; SLC bilinguals = 57). d All O-level students in Singapore are required to take one mother-tongue subject (e.g., Mandarin, Malay, Hindi, or Tamil) other than English. The subject includes examination on written, oral, listening, and comprehension skills, and scores range from 1 (F9) to 9 (A1). Fourteen participants did not provide their scores. Regarding mixing costs, a similar repeated-measures mixed factor ANOVA was performed with Interactional Context and Mixing (pure vs. repeat). We found a significant main effect of Mixing, F</p><p>(1, 131) = 660.36, p &lt; .001, g p 2 = .834, but neither the main effect of Interactional Context (p = .151) nor its interaction with Mixing (p = .269) was significant. Together, our results demonstrate that DLC bilingualism confers benefits on switch costs, but not on mixing costs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Diffusion-model analysis of switch costs</head><p>We performed diffusion-model analysis by focusing on switch and repeat trials in the mixed blocks. In our analysis, only drift rate (v) and non-decision time (t 0 ) were allowed to vary freely over task-switch and task-repeat trials. Boundary separation (a) and starting point (zr) were held constant across trials to increase the model's parsimony and fit <ref type="bibr" coords="4,142.41,737.44,109.46,7.53" target="#b38">(Voss, Nagler, &amp; Lerche, 2013)</ref>. Similarly, variability parameters and response-execution differences (d) were fixed to zero, except for the inter-trial variability of non-decision components (st0), which were held constant across trials <ref type="bibr" coords="4,542.15,78.39,20.44,7.53;4,311.53,88.87,44.71,7.53" target="#b38">(Voss et al., 2013)</ref>. Parameters were estimated using Fast-dm for each participant, with the Kolmogorov-Smirnov (KS) statistic for optimization of parameters <ref type="bibr" coords="4,403.14,109.79,70.03,7.53" target="#b39">(Voss &amp; Voss, 2007</ref><ref type="bibr" coords="4,473.17,109.79,22.66,7.53" target="#b20">, 2008</ref>. Overall, the KS statistic did not reveal any suspicious fit (ps &gt; .20), and parameter estimates of the diffusion model fit the empirical RT distributions closely (Appendix C).</p><p>Drift rate and non-decision time were submitted to repeatedmeasures mixed-factor ANOVAs with Interactional Context and Switching (switch vs. repeat). For non-decision time, we found a significant main effect of Switching, F(1, 131) = 373.62, p &lt; .001, g p 2 = .74, and an interaction effect between Interactional Context and Switching, F(1, 131) = 4.61, p = .034, g p 2 = .034. However, for drift rate, we found only a significant main effect of Switching, F(1, 131) = 159.50, p &lt; .001, g p 2 = .427. Neither the effect of Interactional Context nor its interaction with Switching was significant, Fs &lt; 1. These results did not change when we excluded either 23 bilinguals who speak English and a language(s) other than Chinese or 5 participants whose IQ scores were missing; in either case, interactional context significantly modulated switch costs in RT and non-decision time, ps &lt; .05. Together, these results suggest that the source of DLC bilinguals' advantages in switch costs are likely driven by their better ability to deal with task-set reconfiguration rather than proactive interference <ref type="table" coords="4,360.34,329.48,33.06,7.53" target="#tab_4">(Table 5)</ref>. For boundary separation, we found significant group differences t(131) = 2.06, p = .041, suggesting SLC bilinguals' conservative (slower) responses than DLC bilinguals. However, given that zero-order correlations of boundary separation with the composite score of DLC (r = À.132, p = .129) and the index of SLC bilingualism (r = .07, p = .455) were not significant, this suggests that group differences in boundary separation could be a statistical artifact of the median-split procedure <ref type="bibr" coords="4,311.53,413.16,197.63,7.53" target="#b16">(MacCallum, Zhang, Preacher, &amp; Rucker, 2002)</ref>. Lastly, for starting point, the groups did not differ, t(131) = 1.29, p = .199, suggesting that the groups were similar in terms of a priori decision bias.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Regression analyses on switch costs</head><p>Four hierarchical regression analyses were conducted to assess the importance of various predictors of switch costs (in both RT and non-decision time). In all models, paternal education, verbal ability, and nonverbal intelligence were controlled in Step 1 (see <ref type="table" coords="4,311.53,532.55,26.87,7.53" target="#tab_5">Table 6</ref>). In Step 2, the index of intrasentential code-switchingi.e., the proxy measure of a dense code-switching context-was added simultaneously with an additional predictor for each regression model: the composite score of DLC bilingualism (Model 1), the index of SLC bilingualism (Model 2), the index of intersentential code-switching (Model 3), and the frequency of intersentential code-switching (Model 4).</p><p>Two primary results were noteworthy. First, we found that the composite score of DLC bilingualism and the index of SLC bilingualism-variables that represent the continuum of single-and dual-language contexts-emerged as significant predictors of switch costs, while the index and frequency of intersentential code-switching were only moderately significant. Second, unlike intersentential code-switching and DLC bilingualism, which negatively predicted switch costs, intrasentential code-switching positively predicted (i.e., exacerbated) switch costs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>Our study demonstrates that bilinguals' DLC facilitates switch costs but not mixing costs. Furthermore, our diffusion-model anal-  ysis demonstrates that DLC bilinguals' advantages in switch costs are primarily driven by group differences in non-decision timewhich is related to task-set reconfiguration-rather than drift rate, which is related to proactive interference. Our findings highlight the importance of bilinguals' interactional contexts in examining bilingual advantages in task switching.</p><p>Our results elucidate potential causes of previous studies' inconsistencies in three respects. First, although the frequencyrelated values of intersentential code-switching reflect important aspects of the DLC context, they may be less reliable predictors of switch costs than the composite score of DLC bilingualism and index of SLC bilingualism. This is because the mere frequency of intersentential code-switching may not sufficiently capture the complex nature of the control processes involved in language switching. For example, the cognitive demand for intersentential code-switching can be moderated by who initiates the discourse. In general, self-initiated intersentential code-switching seems less taxing than other-initiated intersentential code-switching, because the former permits sufficient preparation time to reconfigure language sets, while the latter is triggered unexpectedly and occurs rapidly, and therefore imposes greater demands on language-set reconfiguration and proactive inhibition. Accordingly, the mere frequency of language switching may not be an adequate proxy measure of bilinguals' interactional context. Second, our finding that intrasentential and intersentential code-switching predict switch costs in the opposite direction underscores the importance of the typology of code-switching. Intrasentential code-switching is voluntary and implicates opportunistic planning-i.e., using whatever comes most readily to hand (e.g., <ref type="bibr" coords="5,321.68,120.22,90.51,7.53" target="#b7">Gollan &amp; Ferreira, 2009;</ref><ref type="bibr" coords="5,414.59,120.22,93.64,7.53" target="#b9">Green &amp; Abutalebi, 2013)</ref>. Therefore, intrasentential code-switching facilitates language production by lightening the cognitive load of language-set reconfiguration <ref type="bibr" coords="5,301.72,151.63,144.73,7.53" target="#b8">(Gollan, Kleinman, &amp; Wierenga, 2014)</ref>. This contrasts with intersentential code-switching, which requires more taxing language control that leads, in turn, to adaptive cognitive control. Hence, a greater reliance on intrasentential code-switching likely mitigates one's ability to exercise task-set reconfiguration and eventually impairs switch costs. Our finding corroborates previous studies (e.g., Festman, Rodriguez-Fornells, &amp; Münte, 2010; Rodriguez-Fornells, Krämer, Lorenzo-Seva, <ref type="bibr" coords="5,424.68,224.88,95.28,7.53">Festman, &amp; Münte, 2012)</ref>, in that not only unconscious but also conscious self-directed codeswitching is associated with reduced executive functioning. Further investigation is warranted to examine different types of code-switching <ref type="bibr" coords="5,362.32,266.71,72.88,7.53" target="#b10">(Green &amp; Wei, 2014</ref>), which appears to demand a different extent of control processing. Together, our findings highlights potential factors that can account for the mixed findings previously reported.</p><p>Lastly, previous studies' inconsistent results can be attributed in part to methodological differences. Given that our color-shape switching task included two modifications-i.e., overlapping response mapping and 100% stimulus-response incompatibilityit is noteworthy that these modifications may have enhanced the task's sensitivity to group differences in task-set reconfiguration. Previous studies have suggested that overlapping response mapping places greater demand on task-set reconfiguration than non-overlapping response mapping <ref type="bibr" coords="5,438.86,392.23,50.91,7.53" target="#b21">(Meiran, 2000</ref><ref type="bibr" coords="5,496.46,392.23,15.82,7.53" target="#b20">(Meiran, , 2008</ref>, because switch trials in overlapping response mapping require participants to recode the response key to match different aspects of the stimulus (for a review, see <ref type="bibr" coords="5,409.49,423.58,70.47,7.53" target="#b14">Kiesel et al., 2010)</ref>. Moreover, unlike previous studies that employed 50% incompatible trials (e.g., <ref type="bibr" coords="5,301.72,444.50,61.65,7.53" target="#b6">Gold et al., 2013)</ref>, using 100% incompatible trials requires response recoding on all switch trials, which may further impose greater demand on task-set reconfiguration. We have summarized the procedural details of previous studies in <ref type="table" coords="5,444.76,475.91,26.32,7.53">Table 7</ref>.  Note: KBIT-2 assessed nonverbal intelligence; Shipley assessed general verbal abilities; DLC = dual-language context; SLC = single-language context; response time and nondecision time were measured in ms; each model was independent. y p &lt; .10. * p &lt; .05. ** p &lt; .01.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 7</head><p>Summary of studies examining bilingual benefit using a color-shape switching task in a task-cueing paradigm.  Notes: CSI = cue-to-stimulus interval; RCI = response-to-cue interval; RC = response compatibility; DLC = dual-language context; SLC = single-language context. a Overlapping response mapping occurs when each response key is assigned to two responses (e.g., both '' green" and ''triangle") from the color vs. shape tasks, while non-overlapping response mapping occurs when each response key is assigned to only one response (e.g., green). b RC (response compatibility) indicates the proportion of trials where the stimulus and response are compatible in the color-shape switching task. For instance, on compatible trials, the bivalent stimulus (e.g., ''green triangle") correctly matches the response associated with ''green" and ''triangle."</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Hartanto, H. Yang / Cognition 150 (2016) 10-19</head><p>Although we found that DLC and SLC bilinguals do not differ in mixing costs, one might argue that DLC bilinguals should have greater advantages in mixing costs because they experience greater demands on goal maintenance and conflict monitoring. We argue, however, that given the high prevalence of bilingualism in Singapore <ref type="bibr" coords="7,143.77,120.23,53.63,7.53" target="#b2">(Dixon, 2005)</ref>, our SLC bilinguals may still-although to a relatively lesser degree-engage monitoring of their language environment, and therefore both SLC and DLC bilinguals can have comparable mixing costs. For instance, SLC bilinguals who speak only Chinese at home must still monitor sudden conversational intrusions from a new interlocutor-e.g., conversing by phone in the caller's language. Furthermore, given mixing costs' greater malleability and sensitivity to training effects than switch costs (e.g., <ref type="bibr" coords="7,225.41,203.90,58.39,7.53;7,32.71,214.39,21.90,7.53" target="#b27">Prior &amp; Gollan, 2013;</ref><ref type="bibr" coords="7,59.64,214.39,172.66,7.53" target="#b37">Strobach, Liepelt, Schubert, &amp; Kiesel, 2011)</ref>, it is likely that bilingualism readily confers benefits on mixing costs to a relatively comparable degree for both DLC and SLC bilinguals. On procedural grounds, the absence of group differences in mixing costs is less likely to be attributed to our administration of pure blocks prior to mixed blocks. We did not find any systematic practice effects between the first two pure blocks. Although only the first mixed block showed relatively faster RTs than other mixed blocks, RTs were quickly stabilized across subsequent mixed blocks. Additionally, when we recalculated mixing costs by using only the second pure block as the baseline to account for any potential practice effect, we still obtained the same results.</p><p>In conclusion, using a theoretical framework, our study closes a gap in the literature regarding the critical importance of including bilinguals' interactional contexts and different types of language switching when studying bilingual advantages in task switching.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A.1. Index of intersentential code-switching</head><p>Intersentential code-switching is the language switching that occurs between sentences. The index of intersentential codeswitching yields an overall estimate of bilinguals' intersentential code-switching, aggregated across four different situations (home, school, work, and others). Participants reported the percentage of time they spent at home, school, work, and in other situations as well as the frequency of intersentential code-switching (1 = never, 5 = always) in each situation. The following formula was used to derive the index for intersentential code-switching:</p><formula xml:id="formula_0" coords="7,32.71,692.88,35.03,24.82">X 4 i¼1 p i Â s i 100</formula><p>where p i is the amount of time bilinguals spent across four different situations, and s i is the value of intersentential code-switching within each situation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A.2. Index of intrasentential code-switching</head><p>Intrasentential code-switching is the language switching that occurs within a sentence. The index of intrasentential codeswitching yields an overall estimate of bilinguals' intrasentential code-switching, aggregated across four different situations <ref type="bibr" coords="7,301.72,130.72,127.46,7.53">(home, school, work, and others)</ref>. Participants reported the percentage of time they spent at home, school, work, and in other situations as well as the frequency of intrasentential codeswitching (1 = never, 5 = always) in each situation. The following formula was used to derive the index for intrasentential codeswitching:</p><formula xml:id="formula_1" coords="7,301.72,200.95,38.83,24.82">X 4 i¼1 p i Â m i 100</formula><p>where p i is the amount of time spent in each context, and m i is the frequency of intrasentential code-switching within a particular situation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix B</head><p>B.1. Composite score of dual-language context bilingualism Composite score of dual-language context (DLC) bilingualism reflects the extent to which two languages are used within the same situation in general. The value is computed by summing participants' responses on two items regarding DLC bilingualism and single-language context bilingualism, which is reverse coded. Scores range from 2 to 10, with a higher score indicating a greater degree of DLC bilingualism.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B.2. Index of single-language context bilingualism</head><p>The index of single-language context (SLC) bilingualism estimates the extent to which one language (e.g., L1) is used in one situation, as opposed to the usage of another language (e.g., L2) in a separate situation. Participants reported the percentage of time they spent at home, school, work, and in other situations as well as the percentage of time they used L1 and L2 (and, potentially, L3 and L4) in each situation. Total percentage of all languages should be 100%. The following formula was used to derive the index for SLC bilingualism:</p><formula xml:id="formula_2" coords="7,301.72,539.92,174.86,60.47">X 4 i¼1 p i Â c i 100 c i ¼ jðjðjðPercentage of L1 À Percentage of L2Þj À Percentage of L3Þj À Percentage of L4Þj</formula><p>where p i is the amount of time spent in each context, and c i is the absolute discrepancy between the percentage of time L1 was used and the total percentage of time other languages were used.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix C</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C.1. Graphical display of model fit</head><p>The graph displays overlaid predicted (parameter-based) and empirical cumulative distribution functions (cdfs) for both switch and repeat trials. Following the suggestion of <ref type="bibr" coords="7,483.70,726.96,69.07,7.53;7,301.72,737.44,23.04,7.53" target="#b34">Schmitz and Voss (2012)</ref>, predicted and empirical cdfs were first computed for each participant and then averaged across participants. Correct and incorrect cdfs are combined, with latencies of correct responses plotted on the right side (with positive values) and latencies of incorrect responses plotted on the left side (with negative values). The intercept of the cdf reflects the percentage of inaccurate responses. A perfect fit is obtained if the predicted cdf falls on the empirical cdf line <ref type="bibr" coords="8,126.54,120.23,66.20,7.53" target="#b38">(Voss et al., 2013)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix D</head><p>See <ref type="table" coords="8,69.62,350.51,31.43,7.53" target="#tab_0">Table D1</ref>.</p><p>Appendix E E.1. Code-switching and interactional contexts questionnaire Q1. How much time do you spend in each of the following situations, in general? Note that your answers should add up to 100%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Home</head><p>School Work Other than home, school and work</p><p>List percentage here E.2. Index of intersentential code-switching Q2. How often do you switch languages between sentences when speaking at home (e.g., you speak one sentence in English and another sentence in Chinese).  .379 *** À.420 *** .657 *** -5. Frequency of intersentential code-switching .376 *** À.496 *** .814 *** .591 *** -6. Frequency of intrasentential code-switching .304 *** À.384 *** .614 *** .637 *** .678 *** -Note: DLC = dual-language context; SLC = single-language context. *** p &lt; .001.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Never ----------Rarely</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E.4. Index of single-language context bilingualism</head><p>Q10. List the percent use of your native language and subsequently acquired language(s) at home. Put 0% if you do not use that particular language (note that your answers should add up to 100%).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Native language</head><p>Second language Third language Fourth language Fifth language List percentage here Q11. How often do you use your native language and subsequently acquired language(s) at school? Put 0% if you do not use that particular language (note that your answers should add up to 100%).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Native language</head><p>Second language Third language Fourth language Fifth language List percentage here Q12. List the percent use of your native language and subsequently acquired language(s) at work. Put 0% if you do not use that particular language (note that your answers should add up to 100%).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Native language</head><p>Second language Third language Fourth language Fifth language List percentage here Q13. List the percent use of your native language and subsequently acquired language(s) in situations other than home, school, and work. Put 0% when you do not use that particular language (note that your answers should add up to 100%).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Native language</head><p>Second language Third language Fourth language Fifth language List percentage here E.5. Composite score of dual-language context bilingualism Q14. Do you speak two or more languages interchangeably within the same situation in general (e.g., using both English and Chinese at school)?</p><p>Never ----------Rarely ----------Sometimes ----------Most of the Time ----------Always Q15. Do you speak only one language in one environment in general (e.g., using Chinese at home but English at school)?</p><p>Never ----------Rarely ----------Sometimes ----------Most of the Time ----------Always</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="8,426.96,130.71,135.59,7.53;8,323.49,141.14,139.74,7.53;8,323.21,162.06,239.32,7.53;8,311.53,172.55,251.05,7.53;8,311.53,182.98,131.47,7.53;8,323.49,203.90,239.05,7.53;8,323.49,214.39,139.74,7.53;8,323.21,235.31,239.32,7.53;8,311.53,245.80,251.05,7.53;8,311.53,256.23,131.47,7.53;8,323.49,277.15,239.05,7.53;8,323.49,287.64,139.74,7.53;8,323.21,308.56,239.38,7.53;8,311.53,318.99,251.08,7.53;8,311.53,329.48,218.31,7.53;8,323.49,350.39,239.05,7.53;8,323.49,360.83,139.74,7.53;8,311.59,381.75,156.45,7.53;8,323.21,402.66,239.39,7.53;8,311.53,413.15,251.02,7.53;8,311.53,423.58,251.07,7.53;8,311.53,434.07,87.59,7.53;8,323.49,454.99,239.05,7.53;8,323.49,465.42,139.74,7.53;8,323.21,486.34,239.39,7.53;8,311.53,496.83,251.07,7.53;8,311.53,507.26,251.07,7.53;8,311.53,517.75,87.59,7.53;8,323.49,538.67,239.05,7.53;8,323.49,549.10,139.74,7.53;8,323.21,570.08,239.39,7.53;8,311.53,580.51,251.02,7.53;8,311.53,591.00,251.07,7.53;8,311.53,601.43,87.59,7.53;8,323.49,622.35,239.05,7.53;8,323.49,632.84,139.74,7.53;8,323.21,653.75,239.37,7.53;8,311.53,664.19,251.05,7.53;8,311.53,674.67,251.16,7.53;8,311.53,685.11,204.73,7.53;8,323.49,706.03,239.05,7.53;8,323.49,716.51,139.74,7.53;8,86.58,291.06,6.37,4.81;8,86.58,262.95,6.37,4.81;8,86.58,234.84,6.37,4.81;8,86.58,206.74,6.37,4.81;8,86.58,178.63,6.37,4.81;8,86.58,150.53,6.37,4.81;8,46.18,297.62,98.62,4.81;8,141.11,186.96,15.42,5.24;8,141.11,193.32,20.37,5.24;8,141.11,211.27,15.42,5.24;8,141.11,217.62,20.98,5.24;8,63.12,305.20,67.46,5.31;8,76.10,311.87,41.33,5.31;8,69.60,220.43,5.31,29.12;8,69.60,190.82,5.31,28.15;8,209.00,290.84,6.37,4.81;8,209.00,262.76,6.37,4.81;8,209.00,234.69,6.37,4.81;8,209.00,206.61,6.37,4.81;8,209.00,178.53,6.37,4.81;8,209.00,150.46,6.37,4.81;8,166.03,297.47,103.90,4.81;8,268.06,187.60,15.43,5.24;8,268.06,193.96,21.90,5.24;8,268.06,212.41,15.43,5.24;8,268.06,218.76,20.98,5.24;8,185.98,305.14,67.46,5.31;8,198.96,311.81,41.33,5.31;8,190.12,220.98,5.31,29.12;8,190.12,191.47,5.31,28.15"><head></head><label></label><figDesc>----------Sometimes ----------Most of the Time ----------Always Q3. How often do you switch languages between sentences when speaking at school (e.g., you speak one sentence in English and another sentence in Chinese)? Never ----------Rarely ----------Sometimes ----------Most of the Time ----------Always Q4. How often do you switch languages between sentences when speaking at work (e.g., you speak one sentence in English and another sentence in Chinese)? Never ----------Rarely ----------Sometimes ----------Most of the Time ----------Always Q5. How often do you switch languages between sentences when speaking in places other than home, school, and work (e.g., you speak one sentence in English and another sentence in Chinese)? Never ----------Rarely ----------Sometimes ----------Most of the Time ----------Always E.3. Index of intrasentential code-switching Q6. How often do you mix words of different languages when speaking at home (e.g., when you have trouble finding a word in Chinese, you tend to immediately replace it with an English word instead, or vice versa)? Never ----------Rarely ----------Sometimes ----------Most of the Time ----------Always Q7. How often do you mix words of different languages when speaking at school (e.g., when you have trouble finding a word in Chinese, you tend to immediately replace it with an English word instead, or vice versa)? Never ----------Rarely ----------Sometimes ----------Most of the Time ----------Always Q8. How often do you mix words of different languages when speaking at work (e.g., when you have trouble finding a word in Chinese, you tend to immediately replace it with an English word instead, or vice versa)? Never ----------Rarely ----------Sometimes ----------Most of the Time ----------Always Q9. How often do you mix words of different languages when speaking in a situation other than home, school, or work (e.g., when you have trouble finding a word in Chinese, you tend to immediately replace it with an English word instead, or vice versa)? Never ----------Rarely ----------Sometimes ----------Most of the Time ----------Always</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="3,32.71,67.94,251.03,139.54"><head>Table 1</head><label>1</label><figDesc>Characteristics of dual-language context (DLC) and single-language context (SLC) bilinguals.</figDesc><table coords="3,41.22,99.40,234.06,108.07">DLC bilinguals 
+(n = 75) 
+
+SLC bilinguals 
+(n = 58) 
+
+t 
+
+Age 
+21.41 (1.81) 
+21.95 (2.84) 
+À1.32 
+Years of formal education 
+13.92 (2.07) 
+14.37 (1.91) 
+À1.29 
+Paternal education level a 
+3.95 (1.20) 
+3.90 (1.25) 
+0.24 
+Maternal education level a 
+3.65 (1.01) 
+3.84 (1.07) 
+À1.06 
+Monthly household income b 
+3.65 (2.23) 
+3.67 (2.42) 
+À0.05 
+
+Nonverbal intelligence standard 
+score (KBIT-2) c 
+
+108.23 (14.24) 
+109.18 (15.00) 
+À0.37 
+
+Shipley Vocabulary Test score 
+30.80 (3.23) 
+30.84 (3.33) 
+À0.08 
+O level mother-tongue subject 
+score d 
+
+8.23 (1.81) 
+8.07 (1.62) 
+0.50 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="3,32.71,318.35,242.52,248.50"><head>Table 2</head><label>2</label><figDesc>Self-report language background of DLC and SLC bilinguals.Note: SDs are shown in parentheses. y p &lt; .10. a Data from one participant is missing.</figDesc><table coords="3,41.22,341.20,234.02,193.91">DLC bilinguals 
+(n = 75) 
+
+SLC bilinguals 
+(n = 58) 
+
+t 
+
+Age of second language (L2) 
+acquisition 
+
+3.17 (2.42) 
+3.98 (2.98) 
+À1.73 y 
+
+Age of L2 fluency a 
+8.69 (4.33) 
+9.91 (4.27) 
+À1.62 
+Recent L1 exposure (%) 
+63.07 (27.52) 
+61.62 (29.49) 
+0.29 
+Recent L2 exposure (%) 
+33.33 (26.45) 
+33.47 (39.86) 
+À0.03 
+L1 exposure for the past 
+5 years (%) 
+
+60.68 (22.03) 
+61.05 (25.84) 
+À0.09 
+
+L2 exposure for the past 
+5 years (%) 
+
+35.23 (20.80) 
+33.43 (25.05) 
+0.45 
+
+Daily usage of L1 (%) 
+65.27 (29.04) 
+66.24 (31.24) 
+À0.19 
+Daily usage of L2 (%) 
+32.35 (29.18) 
+30.03 (31.12) 
+0.44 
+
+L1 self-reported proficiency 
+Speaking 
+8.24 (1.79) 
+8.41 (1.36) 
+À0.61 
+Comprehension 
+8.47 (1.55) 
+8.78 (1.34) 
+À1.21 
+Reading 
+8.37 (1.75) 
+8.05 (2.13) 
+0.96 
+
+L2 self-reported proficiency 
+Speaking 
+6.95 (2.04) 
+6.67 (2.24) 
+0.74 
+Comprehension 
+7.40 (1.87) 
+7.26 (2.02) 
+0.42 
+Reading 
+6.49 (2.41) 
+6.28 (2.66) 
+0.49 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="4,42.52,67.94,251.08,313.30"><head>Table 3</head><label>3</label><figDesc>Language switching variables of DLC and SLC bilinguals. Overall DLC bilingualism in consideration of SLC bilingualism. The value is computed by summing participants' responses on two items regarding DLC bilingualism and SLC bilingualism, which is reverse coded. Scores range from 2 to 10, with a higher score indicating a greater degree of DLC bilingualism.f Estimate of a SLC bilingual's relative use of L1 over other languages, given the amount of time spent across four different situations. This score ranges from 0 to 100, with 100 indicating perfect SLC bilingualism (see Appendix B).</figDesc><table coords="4,42.52,90.84,251.06,235.70">DLC bilinguals 
+(n = 75) 
+
+SLC bilinguals 
+(n = 58) 
+
+t 
+
+Intersentential code-
+switching frequency a 
+
+2.97 (0.96) 
+2.34 (0.93) 
+3.80 *** 
+
+Intrasentential code-
+switching frequency b 
+
+3.57 (0.87) 
+3.02 (1.03) 
+3.36 ** 
+
+Index of intersentential code-
+switching c 
+
+2.82 (1.06) 
+2.25 (0.92) 
+3.29 ** 
+
+Index of intrasentential code-
+switching d 
+
+3.39 (0.93) 
+2.78 (1.07) 
+3.47 ** 
+
+Composite score of DLC 
+bilingualism e 
+
+7.04 (0.98) 
+4.21 (0.87) 
+17.34 *** 
+
+Index of SLC bilingualism f 
+62.18 (24.48) 
+78.98 (16.94) 
+À4.47 *** 
+
+Note: SDs are shown in parentheses. 
+⁄ p &lt; .05. 
+** p &lt; .01. 
+*** p &lt; .001. 
+a General frequency of bilinguals' code-switching between sentences (1 = never, 
+
+5 = always). 
+b General frequency of bilinguals' code-switching within sentences (1 = never, 
+
+5 = always). 
+c Aggregated intersentential code-switching frequency relative to time spent 
+
+across four different situations-home, school, work, and others (see Appendix B for 
+more detail). 
+d Aggregated intrasentential code-switching frequency relative to time spent 
+
+across four different situations (see Appendix A). 
+e </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="4,42.52,411.04,251.04,132.45"><head>Table 4</head><label>4</label><figDesc>Reaction times, accuracy rates, and task-switching costs in the color-shape switching task.Note: SDs are shown in parentheses.</figDesc><table coords="4,51.02,442.45,234.05,86.78">Reaction time (RT) 
+Accuracy 
+
+DLC 
+bilinguals 
+
+SLC 
+bilinguals 
+
+t 
+DLC 
+bilinguals 
+
+SLC 
+bilinguals 
+
+t 
+
+Type of trials 
+Pure 
+393 (66) 405 (93) 
+À0.88 .98 (.02) 
+.98 (.02) 
+À0.04 
+Repeat 
+716 (162) 757 (171) À1.43 .95 (.08) 
+.96 (.04) 
+À0.79 
+Switch 
+915 (201) 1018 (260) À2.56 ⁄ .87 (.11) 
+.89 (.09) 
+À0.85 
+
+Switch costs 199 (95) 260 (139) À2.99 ⁄ À.08 (.06) À.08 (.05) À0.57 
+Mixing costs 322 (150) 351 (150) À1.11 À.02 (.07) À.02 (.04) À0.84 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="5,32.71,67.94,242.52,140.67"><head>Table 5</head><label>5</label><figDesc>Diffusion model parameter estimates.</figDesc><table coords="5,32.71,90.84,242.52,117.77">Parameter 
+DLC bilinguals SLC bilinguals t 
+
+Drift rate (v) 
+Repeat trials 
+1.92 (0.64) 
+1.90 (0.68) 
+0.23 
+Switch trials 
+1.38 (0.55) 
+1.28 (0.49) 
+1.09 
+
+Non-decision time (t 0 ) 
+Repeat trials 
+0.27 (0.08) 
+0.26 (0.07) 
+0.56 
+Switch trials 
+0.40 (0.10) 
+0.43 (0.10) 
+À1.49 
+
+Boundary separation (a) 
+1.83 (0.42) 
+2.00 (0.50) 
+À2.06 ⁄ 
+Starting point (zr) 
+0.53 (0.08) 
+0.55 (0.09) 
+À1.29 
+Inter-trial variability of 
+non-decision components (st0) 
+
+0.20 (0.08) 
+0.19 (0.09) 
+0.24 
+
+Note: SDs are shown in parentheses. 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="5,32.71,494.72,511.52,211.56"><head>Table 6</head><label>6</label><figDesc>Multiple regression analyses on switch costs with interactional contexts as predictors.</figDesc><table coords="5,41.22,517.63,503.01,188.66">Response time 
+Non-decision time 
+
+B 
+S E B 
+Beta 
+t 
+Tolerance 
+VIF 
+B 
+S E B 
+Beta 
+t 
+Tolerance 
+VIF 
+
+Step 1: Control variables 
+Paternal education 
+0.75 
+9.08 
+0.01 
+0.08 
+0.98 
+1.03 
+3.28 
+6.65 
+0.05 
+0.49 
+0.98 
+1.03 
+KBIT-2 
+0.17 
+0.76 
+0.02 
+0.22 
+0.98 
+1.03 
+0.06 
+0.56 
+0.01 
+0.11 
+0.98 
+1.03 
+Shipley 
+À3.46 
+3.30 
+À0.09 
+À1.05 
+1.00 
+1.00 
+À1.98 
+2.42 
+À0.07 
+À0.82 
+1.00 
+1.00 
+
+Step 2: Language-switching variables 
+Model 1 
+Index of intrasentential code-switching 
+21.80 
+11.25 
+0.19 
+1.94 y 
+0.80 
+1.25 
+16.17 
+8.39 
+0.19 
+1.93 y 
+0.80 
+1.25 
+Composite score of DLC bilingualism 
+À22.86 
+6.81 
+0.32 
+À3.36 ** 
+0.83 
+1.21 
+À12.50 
+5.08 
+À0.24 
+À2.46 * 
+0.83 
+1.21 
+
+Model 2 
+Index of intrasentential code-switching 
+16.54 
+11.70 
+0.14 
+1.41 
+0.78 
+1.28 
+16.11 
+8.50 
+0.19 
+1.90 y 
+0.78 
+1.28 
+Index of SLC bilingualism 
+1.17 
+0.53 
+0.22 
+1.98 y 
+0.78 
+1.28 
+0.90 
+0.39 
+0.23 
+2.29 * 
+0.78 
+1.28 
+
+Model 3 
+Index of intrasentential code-switching 
+24.05 
+14.01 
+0.21 
+1.71 y 
+0.55 
+1.83 
+19.86 
+10.25 
+0.23 
+1.94 y 
+0.55 
+1.83 
+Index of intersentential code-switching 
+À26.03 
+13.82 
+À0.22 
+À1.88 y 
+0.56 
+1.78 
+À17.96 
+10.11 
+À0.21 
+À1.78 y 
+0.56 
+1.78 
+
+Model 4 
+Index of intrasentential code-switching 
+21.10 
+13.25 
+0.18 
+1.59 
+0.61 
+1.63 
+16.47 
+9.72 
+0.19 
+1.69 y 
+0.61 
+1.63 
+Frequency of intersentential code-switching 
+À24.32 
+13.48 
+À0.20 
+À1.80 y 
+0.64 
+1.56 
+À14.45 
+9.89 
+À0.16 
+À1.46 
+0.64 
+1.56 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" coords="8,42.52,374.48,242.55,127.18"><head>Table D1</head><label>D1</label><figDesc>Correlation coefficients among language-switching variables.</figDesc><table coords="8,51.02,397.32,234.05,104.33">1 
+2 
+3 
+4 
+5 
+6 
+
+1. Composite score 
+of DLC 
+bilingualism 
+
+-
+
+2. Index of SLC 
+bilingualism 
+
+À.424 *** -
+
+3. Index of 
+intersentential 
+code-switching 
+
+.344 *** 
+À.480 *** -
+
+4. Index of 
+intrasentential 
+code-switching 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">Five participants were excluded from the analysis for the following reasons. Two had extremely high mixing costs (5.6 and 4.8 SD from the overall mean of mixing costs); two violated the model fit when running the diffusion-model analyses (p = .005 and .013); and one had substantial negative switch costs (À190 ms) in nondecision parameters (t 0 ).A. Hartanto, H. Yang / Cognition 150 (2016) 10-19</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>Both authors contributed equally to this work, which was supported by a grant awarded to Hwajin Yang by Singapore Management University through a research grant (14-C242-SMU-031) from the Ministry of Education Academy Research Fund Tier 1. We thank Kenneth Paap and two anonymous reviewers for their excellent comments. We are also grateful to Sujin Yang for helpful comments on an earlier version of the manuscript and to Adam Reynolds, Gaurav Singh, Goh Si Hui, and Lu Yizhen for their assistance with data collection and coding.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="9,301.78,225.15,250.96,6.03;9,313.63,233.08,239.11,6.03" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Bilingual language production: The neurocognition of language representation and control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Abutalebi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Neurolinguistics</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="242" to="275" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,241.08,251.00,6.03;9,313.62,249.01,239.15,6.03;9,313.62,257.01,28.32,6.03" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Neural mechanisms of transient and sustained cognitive control during task-switching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">S</forename><surname>Braver</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">I</forename><surname>Donaldson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="713" to="726" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,265.00,250.97,6.03;9,313.63,272.94,239.14,6.03;9,313.63,280.93,138.19,6.03" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Bilingual education policy in Singapore: An analysis of its sociohistorical roots and current academic outcomes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">Q</forename><surname>Dixon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Bilingual Education and Bilingualism</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="25" to="47" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,288.87,250.96,6.03;9,313.63,296.86,239.14,6.03;9,313.63,304.86,177.31,6.03" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Individual differences in control of language interference in late bilinguals are mainly related to general executive abilities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Festman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Rodriguez-Fornells</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">F</forename><surname>Münte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral and Brain Functions</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,312.79,250.98,6.03;9,313.63,320.79,4.69,6.03" xml:id="b4">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Garbin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Sanjuan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Forn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Bustamante</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Rodríguez-Pujadas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Belloch</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,320.15,320.79,232.64,6.03;9,313.63,328.72,189.90,6.03" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Bridging language and attention: Brain basis of the impact of bilingualism on cognitive control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Ávila</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuroimage</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="1272" to="1278" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,336.72,250.99,6.03;9,313.63,344.71,239.15,6.03;9,313.63,352.65,111.21,6.03" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Lifelong bilingualism maintains neural efficiency for cognitive control in aging</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">T</forename><surname>Gold</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">F</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Kryscio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="387" to="396" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,360.64,250.99,6.03;9,313.63,368.58,239.10,6.03;9,313.63,376.57,223.18,6.03" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Should I stay or should I switch? A cost-benefit analysis of voluntary language switching in young and aging bilinguals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">H</forename><surname>Gollan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">S</forename><surname>Ferreira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="640" to="665" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,384.51,251.01,6.03;9,313.63,392.50,239.12,6.03;9,313.63,400.50,215.92,6.03" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">What&apos;s easier: Doing what you want, or being told what to do? Cued versus voluntary language and task switching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">H</forename><surname>Gollan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Kleinman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Wierenga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: General</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="2167" to="2195" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,408.43,250.97,6.03;9,313.63,416.43,194.04,6.03" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Language control in bilinguals: The adaptive control hypothesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Abutalebi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="515" to="530" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,424.36,250.96,6.03;9,313.63,432.36,123.34,6.03" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A control process model of code-switching. Language</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition and Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="499" to="511" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,440.35,250.98,6.03;9,313.63,448.29,231.28,6.03" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Where is the bilingual advantage in task-switching?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hernández</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Barcelo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Costa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Memory and Language</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="257" to="276" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,456.28,250.98,6.03;9,313.63,464.22,239.11,6.03;9,313.63,472.21,239.14,6.03;9,313.63,480.15,48.05,6.03" xml:id="b12">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Houtzager</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Lowie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sprenger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">E E S</forename><surname>Bot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">A bilingual advantage in task switching? Age-related differences between German monolinguals and Dutch-Frisian bilinguals</title>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="1" to="11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,488.14,250.97,6.03;9,313.63,496.14,138.88,6.03" xml:id="b13">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">S</forename><surname>Kaufman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">L</forename><surname>Kaufman</surname></persName>
+		</author>
+		<title level="m">Kaufman brief intelligence test</title>
+		<meeting><address><addrLine>Circle Pines, MN</addrLine></address></meeting>
+		<imprint>
+			<publisher>American Guidance Service</publisher>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note>2nd ed.</note>
+</biblStruct>
+
+<biblStruct coords="9,301.78,504.08,250.98,6.03;9,313.63,512.07,239.09,6.03;9,313.63,520.01,68.52,6.03" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Control and interference in task switching-A review</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kiesel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Steinhauser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Wendt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Falkenstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Jost</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Philipp</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Koch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="849" to="874" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,528.00,250.98,6.03;9,313.63,535.99,239.13,6.03;9,313.63,543.93,39.10,6.03" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Language history questionnaire (LHQ 2.0): A new dynamic web-based research tool</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Puls</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bilingualism: Language and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="673" to="680" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,551.92,251.01,6.03;9,313.63,559.86,226.01,6.03" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">On the practice of dichotomization of quantitative variables</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Maccallum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">J</forename><surname>Preacher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">D</forename><surname>Rucker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Methods</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="19" to="40" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,567.86,250.98,6.03;9,313.63,575.79,239.13,6.03;9,313.63,583.79,239.15,6.03;9,313.62,591.78,43.58,6.03" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Adjustments of response threshold during task switching: A model-based functional magnetic resonance imaging study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">L</forename><surname>Mansfield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Karayanidis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Jamadar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Heathcote</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">U</forename><surname>Forstmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="14688" to="14692" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,599.72,250.99,6.03;9,313.63,607.71,239.11,6.03;9,313.63,615.65,239.12,6.03;9,313.63,623.64,39.10,6.03" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The Language Experience and Proficiency Questionnaire (LEAP-Q): Assessing language profiles in bilinguals and multilinguals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Marian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">K</forename><surname>Blumenfeld</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kaushanskaya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Speech, Language, and Hearing Research</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="940" to="967" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,631.64,250.96,6.03;9,313.63,639.57,239.12,6.03;9,313.63,647.57,83.32,6.03" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Differential effects of cue changes and task changes on task-set selection costs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Mayr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Kliegl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="362" to="372" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,655.50,250.94,6.03;9,313.63,663.50,39.15,6.03" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The dual implication of dual affordance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Meiran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="251" to="259" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,671.43,250.96,6.03;9,313.62,679.43,239.11,6.03;9,313.62,687.42,235.03,6.03" xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Reconfiguration of stimulus task sets and response task sets during task switching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Meiran</surname></persName>
+		</author>
+		<editor>S. Monsell &amp; J. Driver</editor>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>MIT Press</publisher>
+			<biblScope unit="page" from="377" to="400" />
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Attention and performance XVIII: Control of cognitive processes</note>
+</biblStruct>
+
+<biblStruct coords="9,301.78,695.36,228.05,6.03" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Task switching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Monsell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cognitive Sciences</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="134" to="140" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,301.78,703.35,250.95,6.03;9,313.62,711.29,239.10,6.03;9,313.63,719.28,28.32,6.03" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The joint effect of bilingualism and ADHD on executive functions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Mor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Yitzhaki-Amsalem</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Prior</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Attention Disorders</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="527" to="541" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.58,67.94,250.98,6.03;10,54.48,75.93,211.50,6.03" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">There is no coherent evidence for a bilingual advantage in executive processing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">R</forename><surname>Paap</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><forename type="middle">I</forename><surname>Greenberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="232" to="258" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.58,83.87,250.99,6.03;10,54.48,91.86,239.10,6.03;10,54.48,99.80,157.47,6.03" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Bilingual advantages in executive functioning: Problems in convergent validity, discriminant validity, and the identification of the theoretical constructs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">R</forename><surname>Paap</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Sawi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Psychology</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.58,107.79,251.02,6.03;10,54.48,115.79,239.08,6.03;10,54.48,123.72,160.87,6.03" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Good language-switchers are good task-switchers: Evidence from Spanish-English and Mandarin-English bilinguals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Prior</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">H</forename><surname>Gollan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the International Neuropsychological Society</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="682" to="691" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.58,131.72,251.00,6.03;10,54.48,139.65,239.10,6.03;10,54.48,147.65,28.27,6.03" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The elusive link between language control and executive control: A case of limited transfer</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Prior</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">H</forename><surname>Gollan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="622" to="645" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.58,155.64,251.00,6.03;10,54.48,163.58,152.42,6.03" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A bilingual advantage in task switching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Prior</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Macwhinney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bilingualism: Language and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="253" to="262" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.58,171.57,249.54,6.03" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A theory of memory retrieval</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Ratcliff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="59" to="108" />
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.58,179.51,251.01,6.03;10,54.48,187.50,239.09,6.03;10,54.48,195.44,75.89,6.03" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Self-assessment of individual differences in language switching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Rodriguez-Fornells</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><forename type="middle">M</forename><surname>Krämer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">U</forename><surname>Lorenzo-Seva</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Festman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">F</forename><surname>Münte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Psychology</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.58,203.43,250.98,6.03;10,54.48,211.43,208.55,6.03" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Costs of a predictable switch between simple cognitive tasks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Monsell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: General</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page">207</biblScope>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.58,219.36,251.00,6.03;10,54.48,227.36,239.07,6.03;10,54.48,235.29,90.91,6.03" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">On the origins of the task mixing cost in the cuing task-switching paradigm</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Rubin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Meiran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Learning, Memory, and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1477" to="1491" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,42.58,243.29,250.98,6.03;10,54.48,251.28,239.09,6.03;10,54.48,259.22,231.51,6.03" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Switching between simple cognitive tasks: The interaction of top-down and bottom-up factors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Ruthruff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">W</forename><surname>Remington</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Johnston</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Human Perception and Performance</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1404" to="1419" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.58,67.94,251.00,6.03;10,323.49,75.93,239.07,6.03;10,323.49,83.87,39.04,6.03" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Decomposing task-switching costs with the diffusion model</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Schmitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Voss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Human Perception and Performance</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="222" to="250" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.59,91.86,250.97,6.03;10,323.49,99.80,188.54,6.03" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Components of task switching: A closer look at task switching and cue switching</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Schmitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Voss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Psychologica</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="page" from="184" to="196" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.58,107.79,250.98,6.03;10,323.49,115.79,68.86,6.03" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Shipley institute of living scale</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">C</forename><surname>Shipley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Los Angeles: Western Psychological Services</title>
+		<imprint>
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.58,123.72,251.00,6.03;10,323.49,131.72,239.07,6.03;10,323.49,139.65,64.49,6.03" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Task switching: Effects of practice on switch and mixing costs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Strobach</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Liepelt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Schubert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kiesel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Research Psychologische Forschung</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="74" to="83" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.58,147.65,250.94,6.03;10,323.49,155.64,229.07,6.03" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Diffusion models in experimental psychology: A practical introduction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Voss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Nagler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Lerche</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="385" to="402" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.58,163.58,251.01,6.03;10,323.49,171.57,150.33,6.03" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Fast-dm: A free program for efficient diffusion model analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Voss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Voss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behavior Research Methods</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="767" to="775" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.58,179.51,251.00,6.03;10,323.49,187.50,190.80,6.03" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">A fast numerical algorithm for the estimation of diffusion model parameters</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Voss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Voss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mathematical Psychology</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.58,195.44,250.98,6.03;10,323.49,203.43,239.08,6.03;10,323.49,211.43,153.05,6.03" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Language and task switching in the bilingual brain: Bilinguals are staying, not switching, experts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">H</forename><surname>Weissberger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">H</forename><surname>Gollan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">W</forename><surname>Bondi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">R</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Wierenga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychologia</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="193" to="203" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.58,219.36,250.96,6.03;10,323.49,227.36,225.67,6.03" xml:id="b42">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Wiseheart</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Viswanathan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Bialystok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Flexibility in task switching by monolinguals and bilinguals</title>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="1" to="6" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.58,235.29,250.98,6.03;10,323.49,243.29,151.12,6.03" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The particles of Singapore English: A semantic and cultural interpretation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Pragmatics</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="739" to="793" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,311.58,251.28,250.97,6.03;10,323.49,259.22,206.40,6.03" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Task switching and the measurement of &apos;&apos;switch costs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Wylie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Allport</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Research Psychologische Forschung</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="212" to="233" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

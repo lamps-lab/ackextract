@@ -1,0 +1,1503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Recidivism Following Mental Health Court Exit: Between and Within-Group Comparisons</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Evan</forename><forename type="middle">M</forename><surname>Lowder</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sarah</forename><forename type="middle">L</forename><surname>Desmarais</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">J</forename><surname>Baucom</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">North Carolina State University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Depart-ment of Psychology, North</orgName>
+								<orgName type="institution">Carolina State University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Psychology, North</orgName>
+								<orgName type="institution">Carolina State University</orgName>
+								<address>
+									<addrLine>640 Poe Hall, Campus</addrLine>
+									<postBox>Box 7650</postBox>
+									<postCode>27695</postCode>
+									<settlement>Raleigh</settlement>
+									<region>NC</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Recidivism Following Mental Health Court Exit: Between and Within-Group Comparisons</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1037/lhb0000168</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:08+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>jail diversion</term>
+					<term>mental health court</term>
+					<term>recidivism</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Over the past decade, Mental Health Courts (MHCs) have spread rapidly across the U.S. These courts aim to reduce recidivism among adults with mental illnesses through diversion into community-based treatment. Extant research suggests that MHCs can be effective in reducing recidivism, but also demonstrates that effectiveness varies as a function of characteristics of the participants (e.g., criminal history) and the program (e.g., coercion). Less is known regarding the extent to which process-related factors (e.g., length of participation, time between referral and receipt of services) impact effectiveness. Prior research also is limited by a focus on recidivism during MHC as opposed to postexit. To address these knowledge gaps, we examined recidivism 1 year postexit for a group of MHC participants (n ϭ 57) and offenders receiving treatment as usual (TAU; n ϭ 40), total N ϭ 97. We also investigated the influence of individual characteristics and process factors on changes in jail days 1 year preentry to 1 year postexit for MHC participants. Overall, results provide some evidence supporting the effectiveness of MHCs. MHC participants had significantly fewer jail days, but not charges or convictions, relative to TAU participants. Among MHC participants, graduation from the MHC, presence of co-occurring substance use, and longer length of MHC participation were associated with greater reductions in jail days. Other process factors were unrelated to reductions in recidivism. Findings suggest that MHCs may be particularly effective for high-risk participants and that time spent in a MHC has positive effects on recidivism, regardless of graduation status.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In the mid-1990s, Mental Health Courts (MHCs) were developed in response to the rising number of adults with mental illnesses in the criminal justice system <ref type="bibr" coords="1,191.04,424.04,89.27,7.91" target="#b0">(Almquist &amp; Dodd, 2009</ref>). Briefly, MHCs are court-based diversion programs that aim to connect adults with mental illnesses to community-based mental health treatment services as an alternative to incarceration (Keator, <ref type="bibr" coords="1,48.00,468.04,161.94,7.91" target="#b6">Callahan, Steadman, &amp; Vesselinov, 2013;</ref><ref type="bibr" coords="1,214.99,468.04,73.05,7.91;1,48.00,479.04,153.82,7.91" target="#b32">Steadman, Redlich, Callahan, Robbins, &amp; Vesselinov, 2011)</ref>. Through court-based monitoring, MHCs aim to improve access to treatment for offenders with mental illness, facilitate better criminal justice outcomes, and improve use of resources by the criminal justice system <ref type="bibr" coords="1,48.00,523.04,97.71,7.91" target="#b0">(Almquist &amp; Dodd, 2009)</ref>. Although the specific structure and components differ across MHCs, the earliest MHCs had several defining features, including specialized dockets devoted to processing criminal cases for adults with mental illnesses, diversion of participants into community-based treatment services, and monitoring of adherence to treatment <ref type="bibr" coords="1,168.43,578.04,119.61,7.91;1,48.00,589.04,19.37,7.91" target="#b30">(Steadman, Davidson, &amp; Brown, 2001)</ref>. Within the last decade, MHCs have transitioned toward accepting more felony cases in addition to misdemeanor cases, admitting participants postadjudication, using jail as a sanction for noncompliance, and increasing community supervision of participants . Since the first MHC was established in 1997, these courts have grown in prevalence across the U.S. and particularly in recent years. To demonstrate, as of 2009, there were more than 250 MHCs in the U.S. <ref type="bibr" coords="1,374.44,457.44,92.95,7.91" target="#b0">(Almquist &amp; Dodd, 2009)</ref>, and as of 2013, that number increased by almost 40% to nearly 350 MHCs in 43 states <ref type="bibr" coords="1,306.00,479.60,129.09,7.91">(SAMHSA's GAINS Center, 2013)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effectiveness of Mental Health Courts</head><p>Many studies have investigated the effectiveness of MHCs in decreasing recidivism. Two early efforts with random assignment of participants to study conditions yielded mixed results. <ref type="bibr" coords="1,517.56,548.92,24.93,7.91;1,306.00,560.00,240.04,7.91">Specifically, Cosden, Ellens, Schnell, Yamini-Diouf, and Wolfe (2003)</ref> found no differences in time spent in jail and arrests 12 months following diversion between an MHC group (n ϭ 137) and Treatment As Usual (TAU) group (n ϭ 98). Compared with TAU participants, MHC participants were less likely to face new convictions, and a greater percentage of their convictions were for probation violations, likely as a result of increased monitoring by probation staff. A follow-up study of the same MHC looked at outcomes 24 months following entry into the Court <ref type="bibr" coords="1,513.80,648.64,32.24,7.91;1,306.00,659.71,148.40,7.91">(Cosden, Ellens, Schnell, &amp; Yamini-Diouf, 2005)</ref>. Results failed to show differences in jail days, arrests, and convictions between MHC participants (n ϭ 235) and TAU participants (n ϭ 98); however, both MHC and TAU participants received case management services, possibly increasing the likelihood of favorable outcomes for TAU participants.</p><p>Several observational and quasi-experimental studies also have examined the effectiveness of MHCs in reducing recidivism with favorable results. For instance, within-subjects evaluations show decreases in arrests in the 12 months pre-and postentry <ref type="bibr" coords="2,249.30,110.04,38.73,7.91;2,48.00,121.04,134.57,7.91">(Herinckx, Swart, Ama, Dolezal, &amp; King, 2005)</ref>, as well as in the two years before entering an MHC and two years after exit <ref type="bibr" coords="2,233.05,132.04,54.98,7.91;2,48.00,143.04,19.37,7.91">(Hiday &amp; Ray, 2010)</ref>. Studies conducting between-subjects comparisons similarly show generally positive effects on recidivism, including reduced arrests <ref type="bibr" coords="2,76.14,165.04,114.82,7.91">(Hiday, Wales, &amp; Ray, 2013;</ref><ref type="bibr" coords="2,195.61,165.04,88.56,7.91" target="#b13">Moore &amp; Hiday, 2006)</ref>, decreased risk of new charges <ref type="bibr" coords="2,169.51,176.04,97.14,7.91" target="#b11">(McNiel &amp; Binder, 2007)</ref>, and longer periods without new charges <ref type="bibr" coords="2,188.16,187.04,96.02,7.91" target="#b11">(McNiel &amp; Binder, 2007)</ref>. Finally, <ref type="bibr" coords="2,79.62,198.04,122.08,7.91">Steadman and colleagues (2011)</ref> conducted a multisite, longitudinal study of four MHCs that found MHC participants (n ϭ 447) were less likely to be rearrested in the 18 months after entry into court than TAU participants (n ϭ 600). Together, findings of the extant research suggest that participation in MHCs decreases recidivism for justice-involved adults with mental illnesses, though effectiveness can vary as a function of characteristics of the participants and the program.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Factors Associated With Effectiveness</head><p>MHCs have limited capacity and can only adjudicate a select number of cases at any given time. As a result, MHCs rely on varying selection criteria, such as qualifying diagnosis or level and type of offense <ref type="bibr" coords="2,108.58,352.04,152.03,7.91">(Erickson, Campbell, &amp; Lamberti, 2006;</ref><ref type="bibr" coords="2,264.31,352.04,23.74,7.91;2,48.00,363.04,105.13,7.91" target="#b37">Wolff, Fabrikant, &amp; Belenko, 2011)</ref>, to target individuals who are most likely to benefit from MHC participation. Toward that end, recent research has examined characteristics of the participants that may be associated with effectiveness. Indeed, several studies have shown that MHC participants who fail to graduate from the MHC <ref type="bibr" coords="2,48.00,418.04,117.85,7.91" target="#b4">(Broner, Lang, &amp; Behler, 2009;</ref><ref type="bibr" coords="2,169.14,418.04,81.33,7.91">Herinckx et al., 2005;</ref><ref type="bibr" coords="2,253.75,418.04,34.28,7.91;2,48.00,429.04,47.33,7.91" target="#b13">Moore &amp; Hiday, 2006;</ref><ref type="bibr" coords="2,97.92,429.04,39.84,7.91" target="#b17">Ray, 2014;</ref><ref type="bibr" coords="2,140.35,429.04,122.09,7.91" target="#b26">Sarteschi, Vaughn, &amp; Kim, 2011;</ref><ref type="bibr" coords="2,265.03,429.04,19.16,7.91;2,48.00,440.04,59.20,7.91" target="#b32">Steadman et al., 2011)</ref>, have a prior criminal history <ref type="bibr" coords="2,218.23,440.04,69.82,7.91" target="#b5">(Hiday et al., 2013;</ref><ref type="bibr" coords="2,48.00,451.04,177.70,7.91" target="#b22">Reich, Picard-Fritsche, Lebron, &amp; Hahn, 2015;</ref><ref type="bibr" coords="2,229.65,451.04,58.39,7.91;2,48.00,462.04,20.50,7.91" target="#b25">Rossman et al., 2012;</ref><ref type="bibr" coords="2,73.42,462.04,83.23,7.91" target="#b32">Steadman et al., 2011</ref><ref type="bibr" coords="2,156.65,462.04,131.38,7.91;2,48.00,473.04,52.88,7.91">), are younger (Dirks-Linhorst &amp; Linhorst, 2012</ref><ref type="bibr" coords="2,108.71,473.04,69.05,7.91" target="#b22">Reich et al., 2015)</ref>, and have co-occurring substance use <ref type="bibr" coords="2,86.73,484.04,103.72,7.91" target="#b5">(Burns, Hiday, &amp; Ray, 2013;</ref><ref type="bibr" coords="2,192.56,484.04,71.35,7.91">Cosden et al., 2005;</ref><ref type="bibr" coords="2,266.04,484.04,22.00,7.91;2,48.00,495.04,42.85,7.91" target="#b5">Hiday et al., 2013;</ref><ref type="bibr" coords="2,93.28,495.04,66.28,7.91" target="#b22">Reich et al., 2015;</ref><ref type="bibr" coords="2,161.99,495.04,81.27,7.91" target="#b32">Steadman et al., 2011)</ref> may be less likely to experience reductions in recidivism associated with MHC participation. Homelessness <ref type="bibr" coords="2,155.45,517.04,76.05,7.91" target="#b5">(Burns et al., 2013)</ref> has also been associated with increased recidivism following MHC participation. Finally, although mental health diagnoses have been investigated in relationship to recidivism among MHC participants, findings have been inconsistent <ref type="bibr" coords="2,140.45,561.04,147.60,7.91;2,48.00,572.04,49.23,7.91">(Comartin, Kubiak, Ray, Tillander, &amp; Hanna, 2015;</ref><ref type="bibr" coords="2,100.23,572.04,81.35,7.91" target="#b32">Steadman et al., 2011)</ref>.</p><p>In addition to client characteristics, there may be important differences in programmatic elements of MHCs across settings that contribute to effectiveness <ref type="bibr" coords="2,165.27,605.04,105.58,7.91" target="#b38">(Wolff &amp; Pogorzelski, 2005)</ref>. To demonstrate, an MHC's ability to exercise therapeutic jurisprudence has been operationalized and investigated with respect to recidivism in recent research. <ref type="bibr" coords="2,167.14,638.04,94.93,7.91" target="#b18">Redlich and Han (2014)</ref> found baseline measures of therapeutic jurisprudence (e.g., perceptions of the voluntariness of the court, perceptions of procedural justice, and knowledge of the MHC) to be associated with decreased arrests and jail time and fewer bench warrants 12 months after entry into an MHC. Another study found perceptions of procedural justice independently predicted likelihood of criminal activity; however, perception of negative pressures to coerce MHC partic-ipation was a stronger predictor of any criminal activity in the 12-month postentry follow-up period <ref type="bibr" coords="2,445.89,88.03,100.16,7.91;2,306.00,99.03,110.89,7.91" target="#b15">(Pratt, Koerner, Alexander, Yanos, &amp; Kopelovich, 2013)</ref>. In contrast, <ref type="bibr" coords="2,474.02,99.03,72.00,7.91;2,306.00,110.03,23.99,7.91" target="#b9">Canada and Hiday (2014)</ref> found perceptions of procedural justice based on interactions with staff to be unrelated to short-term (i.e., 6 months) recidivism during MHC participation. Though some have suggested that quality of mental health treatment services may play a role in the effectiveness of MHCs (e.g., <ref type="bibr" coords="2,461.02,154.03,81.14,7.91" target="#b26">Sarteschi et al., 2011)</ref>, existing evidence questions the association between increased use of mental health treatment services and reductions in recidivism among MHC participants <ref type="bibr" coords="2,402.04,187.03,73.39,7.91">(Keator et al., 2013)</ref>. However, current research is limited by a dearth of in-depth investigations into associations between mental health service use and recidivism in the context of MHCs. Other programmatic elements, such as frequency of judicial supervision or use of sanctions for noncompliance <ref type="bibr" coords="2,334.29,242.03,186.97,7.91" target="#b6">(Callahan, Steadman, Tillman, &amp; Vesselinov, 2013;</ref><ref type="bibr" coords="2,523.56,242.03,18.74,7.91;2,306.00,253.03,57.83,7.91">Erickson et al., 2006;</ref><ref type="bibr" coords="2,366.27,253.03,72.19,7.91" target="#b20">Redlich et al., 2010)</ref>, also may be associated with effectiveness but have yet to be investigated with respect to recidivism.</p><p>Beyond client and programmatic elements, characteristics related to the process of participating in the MHC, such as tenure in the MHC, time between referral and entry into the MHC, or time between referral and first receipt of services, may be associated with effectiveness. Process factors have not been defined explicitly in existing literature; however, for the purposes of this discussion, we define them as measures that describe the movement of participants through an MHC program. Such factors may be temporal in nature (e.g., time between two events), but not necessarily (e.g., source of referral to an MHC). In one study, <ref type="bibr" coords="2,472.39,385.03,69.82,7.91;2,306.00,396.03,131.04,7.91" target="#b19">Redlich, Liu, Steadman, Callahan, and Robbins (2012)</ref> examined differences in processing time (i.e., time between initial arrest and MHC entry or case disposition) between MHC participants and defendants experiencing traditional case processing, finding that MHC participants experienced faster case processing relative to defendants without mental illnesses but slower processing time relative to defendants with mental illnesses. However, to our knowledge, only one study has examined associations between such process measures and recidivism in the context of MHCs. <ref type="bibr" coords="2,440.46,484.03,105.59,7.91">Burns and colleagues (2013)</ref> found that longer tenure in the MHC was associated with decreased recidivism, though this association did not persist after accounting for graduation status. Research conducted in other criminal justice treatment settings has established associations between factors such as length of treatment-or treatment dosage-and recidivism. For example, in drug courts, longer participation has been linked to decreased rearrest one year following exit from the court <ref type="bibr" coords="2,375.13,572.03,102.74,7.91" target="#b14">(Peters, Haas, &amp; Hunt, 2001)</ref>. Longer treatment provided in correctional settings more generally, such as prisons, similarly has been associated with decreased risk of reincarceration, with greater reductions seen after each additional week of treatment <ref type="bibr" coords="2,342.99,616.03,111.10,7.91" target="#b3">(Bourgon &amp; Armstrong, 2005)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The Present Study</head><p>More research is needed to both replicate findings of prior research on the effectiveness of MHCs and to further identify the ways in which MHCs can contribute to reductions in recidivism.</p><p>Although several studies have investigated associations between individual characteristics and recidivism, the majority have examined recidivism postentry, when participants are receiving treat-This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly. ment and support services through the MHC during a portion of the follow-up period. Only a handful of studies (i.e., <ref type="bibr" coords="3,243.38,88.04,44.64,7.91;3,48.00,99.04,20.50,7.91" target="#b5">Burns et al., 2013;</ref><ref type="bibr" coords="3,71.73,99.04,69.68,7.91" target="#b5">Hiday et al., 2013;</ref><ref type="bibr" coords="3,144.64,99.04,76.43,7.91">Hiday &amp; Ray, 2010)</ref> have investigated these associations exclusively following exit from the MHC, arguably a higher risk period for recidivism. Moreover, the effects of certain characteristics, such as co-occurring substance use, on recidivism have been inconsistent. Additionally, as noted above, few studies have examined associations between process factors (e.g., time in the MHC program) and recidivism following exit from the MHC.</p><p>The present study will build on previous research first, by comparing recidivism outcomes between MHC participants and a group of offenders with mental illnesses experiencing treatment as usual (TAU), and second, by examining the impact of individual characteristics and process factors on changes in recidivism one year following exit from the MHC. Our specific aims are to determine whether (a) there are significant differences in postprogram charges, convictions, and jail days between MHC participants and a comparison group of offenders with mental illnesses; (b) individual factors (i.e., graduation status, presence of cooccurring substance use, and level of charge) are associated with changes in pre-and post-program jail days among MHC participants; and (c) process factors (i.e., time in program, time between referral and program entry, and time between referral and first receipt of mental health services) are associated with changes in pre-and post-program jail days among MHC participants. Consistent with previous investigations, we hypothesize that MHC participants will have fewer instances of recidivism relative to the comparison group. Additionally, individual factors of graduation from the MHC, absence of co-occurring substance use, and lowerlevel charge are hypothesized to predict greater reductions in recidivism from pre-program to post-program. Finally, we expect more efficient processing of MHC participants to be associated with greater reductions in recidivism from pre-program to postprogram.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study Setting</head><p>Study data were collected from the Ramsey County Mental Health Court, established in 2005 in St. Paul, MN (see <ref type="bibr" coords="3,247.80,528.04,40.25,7.91;3,48.00,539.04,19.37,7.91">Guthmann, 2015)</ref>. At the time of data collection, this MHC accepted participants with misdemeanor and gross-misdemeanor-level charges both preadjudication and postadjudication. To be eligible for participation in the MHC, defendants must have been over 18 years of age, been charged with a misdemeanor or gross misdemeanor, had no history of violent offenses, and been diagnosed with a mental illness by a licensed mental health professional. All diagnostic information on MHC participants came from a state-level database of community mental health provider records. If a participant did not have a standing diagnosis, a diagnostic assessment was completed by a psychiatrist at the Ramsey County Mental Health Clinic before acceptance into the MHC. Eligible defendants were required to participate in the MHC for varying lengths of time that depended on their level of criminal charge at entry (one year for misdemeanors and two years for gross misdemeanors) as well as their progress throughout the program, which was based on compliance with terms of participation. Once admitted to the MHC, participants were assigned mental health case managers and prescribed individualized treatment plans. The mental health case manager was responsible for facilitating access to communitybased treatment services, such as outpatient mental health treatment, mental health support groups, inpatient mental health treatment, and substance use or chemical dependency treatment. Mental health case managers additionally were responsible for overseeing compliance with conditions of participation. Throughout their participation in the MHC, participants were required to abstain from drug use, complete community work service, identify and maintain housing, and attend bimonthly court appearances. Failure to abide by these conditions resulted in graduated sanctions, including additional court appearances, increased supervision, and jail time during the program. Participants in the TAU condition whose cases were adjudicated through traditional case processing would not have received referral to community-based services through the court.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Collection</head><p>The Institutional Review Board of the university and the Second Judicial District of the State of Minnesota approved this study. This study uses secondary, administrative data on all participants who exited the MHC during the first three years following its inception and a comparison group of offenders not participating in the MHC but who were adjudicated during the same timeframe and receiving TAU. To create the TAU group, court staff first reviewed all criminal cases within the last six months of the aforementioned 3-year period. This list was then narrowed to offenders who had misdemeanor or gross misdemeanor-level charges and who were convicted. From this pool, court staff randomly selected 400 cases and screened these cases to include offenders who self-reported a mental illness at intake and to exclude offenders who had previously been referred to or accepted into the MHC. This process resulted in a group of 56 offenders, of which 40 were randomly selected to form the TAU group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample</head><p>The original sample comprised 98 offenders, including 58 participants of the MHC (30 graduates, 28 noncompleters) who exited the program at least one year before the end of 2008 and 40 TAU participants who had committed offenses within the last six months of 2008. One MHC participant was dropped from analyses because no recidivism data were available (original n ϭ 58; final n ϭ 57). See <ref type="table" coords="3,362.39,572.04,29.28,7.91" target="#tab_1">Table 1</ref> for demographic characteristics of each group. Roughly half of participants were male and a greater proportion of participants identified as a non-White race. MHC participants were slightly, but not significantly, younger (M ϭ 34.48, SD ϭ 9.62) than participants in the TAU group (M ϭ 36.05, SD ϭ 9.55). Mental health diagnoses included primarily schizophrenia spectrum (schizophrenia, schizoaffective, and schizophreniform), mood (bipolar and major depressive), and anxiety (generalized anxiety, posttraumatic stress) disorders.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Variables</head><p>Demographic characteristics and covariates. Demographic variables included age (measured continuously), race (white, non-This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>white), and gender (male, female). Mental health diagnosis could not be used as a covariate because individual-level data were not available for the comparison group. Bivariate comparisons conducted between MHC participants and comparison group participants on demographic characteristics were nonsignificant (all ps Ն .439). We conducted preliminary multivariate, between-groups (MHC vs. comparison) analyses using a cutoff value of p Ͻ .10 to identify potential covariates. Recidivism. For comparisons between MHC participants and TAU group participants, three count variables measured postprogram recidivism: charges, convictions, and jail days. For MHC participants, these variables were measured one year after program exit, and for the TAU group, they were measured one year after case disposition. For within-subjects analyses, we examined number of pre-and post-program jail days served by MHC participants. Pre-program jail days were measured one year prior to acceptance into the MHC and post-program jail days were measured one year following exit from the MHC.</p><p>Individual factors. Graduation status (no, yes) was measured by whether or not a participant successfully completed the conditions of the MHC. Reasons for not graduating included opting out of the MHC (n ϭ 10), being terminated from the MHC (n ϭ 14) because of noncompliance with conditions, or being denied participation in the MHC after a provisional acceptance (n ϭ 3). Co-occurring substance use (no, yes) was measured by whether or not a participant had a DSM-IV substance use disorder diagnosis at program entry or was currently using at the time of program entry (as indicated through self-report, clinician report, and/or urine drug screen); if either condition was met, participants were coded as positive for co-occurring substance use. Level of referral charge (misdemeanor, gross misdemeanor) was measured by the highest level of charge for which a participant was referred to the MHC.</p><p>Process factors. Time in program was measured as number of days from date of entry into the MHC to date of exit from the MHC. Time between referral and first receipt of mental health services was measured by number of days between date of referral to the MHC and date of first receipt of any type of mental health services (e.g., appointment with community provider, appointment with case manager, etc.). Participants who were referred to the MHC after their first receipt of mental health services were coded as having zero days between referral and first receipt of services. Finally, time between referral and entry into the MHC was measured by the number of days from date of referral to the MHC to date of entry into the MHC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analyses</head><p>All analyses were conducted in SPSS 21. For Aim 1 betweengroups comparisons, we first conducted a propensity score analysis using available covariates (i.e., age, gender, and race) to match the comparison group to the MHC group. Before the matching procedure, multiple imputation was performed using the SPSS Missing Values package to address missing values on age for N ϭ 5 participants. Preliminary chi-squared analyses showed missingness on age to be unrelated to gender (p ϭ .191) and race (p ϭ .851), justifying the multiple imputation procedure, which was subsequently performed for N ϭ 10 imputations. To conduct the propensity score analysis, we employed the MatchIt package in R This document is copyrighted by the American Psychological Association or one of its allied publishers. This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>(Ho, Imai, King, &amp; Stuart, 2011) using full matching for each of the 10 imputed datasets. Balance summary statistics for each propensity score analysis showed a reduction in mean differences between the two groups across all three covariates. The resulting 10 sets of propensity scores were then averaged to create the final set of scores, per the method advocated for by <ref type="bibr" coords="5,226.26,132.04,61.78,7.91;5,48.00,143.04,22.49,7.91" target="#b12">Mitra and Reiter (2012)</ref>. Aim 1 analyses were conducted using generalized linear models and specifying a negative binomial distribution. Exploratory analyses sought to determine the appropriate model fit using negative binomial regression and maximum likelihood estimation for the dispersion parameter. These analyses failed to yield a significant model fit (p Ͼ .05 for all likelihood ratios). We then compared Poisson regression models (dispersion parameter at 0) to negative binomial models with the dispersion parameter fixed at 1. For the majority of analyses, both models were significant; however, the negative binomial regression analyses produced models that were significant and had more conservative p values for coefficient estimates. Because of the sample size, we chose to proceed with the more conservative approach, using negative binomial regressions with the dispersion parameter fixed at 1.</p><p>For Aims 2 and 3 within-subjects analyses, we used the generalized estimating equation (GEE) with a negative binomial distribution to model changes in jail days (i.e., time, defined as preprogram to post-program) as a function of individual and process factors, as defined above <ref type="bibr" coords="5,141.43,363.04,81.64,7.91">(Liang &amp; Zeger, 1986)</ref>. Importantly, the GEE approach allows for correlations between repeated measurements of a dependent variable <ref type="bibr" coords="5,159.53,385.04,128.51,7.91;5,48.00,396.04,19.37,7.91">(Diggle, Heagerty, Liang, &amp; Zeger, 2002)</ref>, which is appropriate in the current study because prior criminal history is a robust predictor of future recidivism among adults with mental illnesses (e.g., <ref type="bibr" coords="5,175.66,418.04,112.39,7.91;5,48.00,429.04,19.37,7.91">Lovell, Gagliardi, &amp; Peterson, 2002)</ref>. A repeated subcommand was specified to allow for correlations between pre-and post-program jail days.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Descriptive Statistics</head><p>MHC participants served an average of 9.16 (SD ϭ 16.06, range 0 to 88) days in jail in the year before entry into the MHC. Around half of MHC participants completed the MHC program (52.6%, n ϭ 30). More than two thirds of MHC participants (67.3%, n ϭ 35) had a current substance use disorder diagnosis or reported substance use at program entry. Time between referral to the MHC and first receipt of mental health services averaged 11.38 days (SD ϭ 28.15, range 0 to 199). Time between referral to the MHC and entry into the MHC averaged 40.95 days (SD ϭ 36.08, range 0 to 167). Time in program, or time between program entry and program exit, averaged 245.44 days (SD ϭ 122.39, range 28 to 455). <ref type="table" coords="5,315.00,176.04,27.32,7.91" target="#tab_1">Table 1</ref> provides descriptive statistics of all post-program recidivism variables for MHC and TAU participants. Briefly, participants in the TAU group had greater numbers of post-program charges, convictions, and jail days relative to MHC participants, though nongraduates of the MHC reported greater numbers of charges and convictions relative to TAU participants.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Aim 1</head><p>In Aim 1, we investigated whether there were differences in post-program charges, convictions, and jail days between MHC participants and TAU participants. Negative binomial regression results for these analyses are presented in <ref type="table" coords="5,462.41,308.04,26.86,7.91" target="#tab_2">Table 2</ref>.</p><p>Charges. Results showed no effect of group on post-program charges (model fit: 2 ϭ 13.14, p ϭ .001, AIC ϭ 377.28, BIC ϭ 384.98) after controlling for propensity score. Examination of MHC graduates and TAU participants, however, revealed a trending effect on post-program charges (model fit: 2 ϭ 19.95, p Ͻ .001, AIC ϭ 241.21, BIC ϭ 247.91). TAU participants incurred 1.81 times more charges in the 1-year postdisposition period compared with MHC graduates in the 1-year post-program period.</p><p>Convictions. Controlling for the propensity score, findings also showed no significant effect of MHC participation on postprogram convictions (model fit: 2 ϭ 7.33, p ϭ .026, AIC ϭ 243.09, BIC ϭ 250.75). However, examination of MHC graduates and comparison group participants revealed a significant effect of MHC graduation on post-program convictions (model fit: 2 ϭ 13.17, p ϭ .001, AIC ϭ 158.17, BIC ϭ 164.87). Specifically, TAU participants had 2.57 times more post-program convictions than MHC graduates. Jail days. Results showed a significant effect of MHC participation on post-program jail days served (model fit: 2 ϭ 13.50, p ϭ .001, AIC ϭ 574.01, BIC ϭ 581.73), adjusting for propensity This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>score. TAU participants incurred 1.62 times more jail days in the year following case disposition relative to MHC participants postprogram exit. Examination of MHC graduates and comparison group participants also revealed a significant effect of MHC graduation on post-program jail days ( 2 ϭ 38.70, p Ͻ .001, AIC ϭ 370.14, BIC ϭ 376.88), showing TAU participants incurred 4.77 times more jail days relative to MHC graduates.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Aim 2</head><p>In Aim 2, we investigated whether individual factors were associated with changes in pre-and post-program jail days. Results of negative binomial regressions for these analyses are presented in <ref type="table" coords="6,58.00,217.04,26.86,7.91" target="#tab_3">Table 3</ref>.</p><p>Graduation status. Significant main effects of time (i.e., preprogram to post-program) and graduation status on overall jail days were observed, qualified by a significant interaction between time and graduation status (graduated from the MHC or not; see <ref type="table" coords="6,48.00,272.04,26.54,7.91" target="#tab_3">Table 3</ref>). Specifically, graduates experienced a 7.69 times greater decrease in jail days served in the year prior to MHC entry (M ϭ 10.77, SD ϭ 3.82) to the year following exit from the MHC (M ϭ 1.77, SD ϭ 1.03) compared with nongraduates, who actually increased in jail days served from pre-program (M ϭ 7.37, SD ϭ 1.50) to post-program (M ϭ 9.04, SD ϭ 3.17).</p><p>Co-occurring substance use. Results showed a significant main effect of time, controlling for the influence of substance use on overall jail days served (see <ref type="table" coords="6,164.10,360.04,26.43,7.91" target="#tab_3">Table 3</ref>). A significant interaction between substance use at program entry and time was observed.</p><p>Participants with co-occurring substance use experienced a 4.76 times greater decline in jail days served from pre-program (M ϭ 13.31, SD ϭ 3.26) to post-program (M ϭ 4.57, SD ϭ 1.95) compared with participants without a substance use disorder diagnosis or reported substance use at program entry, who experienced a slight increase in jail days from pre-program (M ϭ 2.29, SD ϭ 0.68) to post-program (3.76, SD ϭ 2.11).</p><p>Level of referral charge. Results again revealed a significant main effect of time, controlling for level of referral charge (see <ref type="table" coords="6,306.00,176.04,25.93,7.91" target="#tab_3">Table 3</ref>). However, the interaction between level of referral charge (misdemeanor or gross misdemeanor) and time was not significant, p ϭ .262. Specifically, participants with misdemeanor charges had an average of 7.87 (SD ϭ 2.17) jail days in the year before MHC entry and 5.24 (SD ϭ 1.98) jail days in the year after exit. Participants with gross misdemeanor charges had an average of 14.00 (SD ϭ 5.99) jail days in the year before entry and 5.08 (SD ϭ 2.74) days in jail after exit.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Aim 3</head><p>In Aim 3, we investigated whether process factors were associated with changes in pre-and post-program jail days. Results of negative binomial regressions for these analyses are presented in <ref type="table" coords="6,306.00,327.04,26.86,7.91" target="#tab_3">Table 3</ref>.</p><p>Time between referral and receipt of mental health services. There was a significant main effect of time between referral and receipt of mental health services on overall jail days served (p ϭ .033). Each additional day between referral to the MHC and first Note. CI ϭ confidence interval for odds-ratio. MH ϭ mental health. For time, pre-program time is coded as 0. For graduation status, participants who did not graduate represent 0. For substance use, participants without co-occurring substance use represent 0. ‡ p Ͻ .10. ‫ء‬ p Ͻ .05. ‫ءء‬ p Ͻ .01. ‫ءءء‬ p Ͻ .001. This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>receipt of mental health services was associated with 1.03 times fewer overall jail days served. No significant interaction was observed between time from referral to the MHC and first receipt of mental health services and time (i.e., pre-program to postprogram), p ϭ .553. Time between referral and program entry. No main effects of time between referral to the MHC and program entry on post-program jail days (p ϭ .667) and time (p ϭ .135) were observed, nor was the interaction between time from referral to the MHC program and entry into the MHC and time (i.e., pre-program to post-program) significant (p ϭ .473).</p><p>Time between program entry and program exit. Results indicated a small but significant interaction between time in program and time (OR ϭ 1.005, p ϭ .045). This interaction remained significant even after controlling for graduation status (OR ϭ 1.01, p ϭ .039), suggesting that longer participation in the MHC was associated with greater decreases in jail days from pre-program to post-program regardless of whether or not a participant graduated from the MHC. Main effects of time in program (p ϭ .070) and time were not significant (p ϭ .407).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>MHCs have proliferated in numbers in recent years and so too has research examining their effectiveness in reducing recidivism <ref type="bibr" coords="7,48.00,346.54,83.76,7.91" target="#b26">(Sarteschi et al., 2011;</ref><ref type="bibr" coords="7,135.02,346.54,82.14,7.91" target="#b32">Steadman et al., 2011)</ref>. Recent investigations have focused on factors that contribute to MHC effectiveness <ref type="bibr" coords="7,48.00,368.54,72.52,7.91" target="#b5">(Burns et al., 2013;</ref><ref type="bibr" coords="7,123.86,368.54,82.39,7.91" target="#b32">Steadman et al., 2011)</ref>. However, additional research is needed to replicate prior findings and to increase our understanding of how MHCs are effective at decreasing recidivism, with particular attention to individual, programmatic, and process-related factors. The current study investigated the effectiveness of an MHC by first examining associations between MHC participation and postexit measures of recidivism relative to a comparison group of participants experiencing treatment as usual (TAU). Second, we investigated whether individual factors (i.e., graduation status, co-occurring substance use, and referral charge level) and process factors (i.e., time in program, time between referral and program entry, and time between referral and first receipt of mental health services) influenced the association between MHC participation and changes in pre-and postexit jail days. In the sections that follow, we review study findings and discuss how they relate to the broader literature on MHCs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Summary of Findings</head><p>First, we examined differences in recidivism outcomes between a group of MHC participants and a comparison group of offenders receiving treatment as usual (TAU). We found that MHC participants had fewer jail days, but not charges or convictions, in the 1-year period following exit from the MHC relative to TAU offenders. MHC graduates, specifically, had even fewer jail days and significantly fewer convictions relative to TAU participants. These findings are consistent with other quasi-experimental studies demonstrating some positive effect of MHC participation on recidivism (e.g., <ref type="bibr" coords="7,110.46,671.04,80.81,7.91">Herinckx et al., 2005;</ref><ref type="bibr" coords="7,194.37,671.04,75.57,7.91">Hiday &amp; Ray, 2010;</ref><ref type="bibr" coords="7,273.05,671.04,14.99,7.91;7,48.00,682.04,82.22,7.91">Mc-Niel &amp; Binder, 2007;</ref><ref type="bibr" coords="7,134.37,682.04,88.21,7.91" target="#b13">Moore &amp; Hiday, 2006;</ref><ref type="bibr" coords="7,226.74,682.04,61.31,7.91;7,48.00,693.04,19.37,7.91" target="#b32">Steadman et al., 2011)</ref>, but add to prior research investigating the effectiveness of the MHC when participants are no longer receiving services from the court.</p><p>To our knowledge, only two studies have compared recidivism as a function of MHC participation solely postexit, excluding recidivism occurring during MHC participation, similarly showing that MHC participation was associated with fewer overall charges and rearrests relative to comparison groups <ref type="bibr" coords="7,472.04,121.04,74.02,7.91" target="#b5">(Hiday et al., 2013;</ref><ref type="bibr" coords="7,306.00,132.04,87.88,7.91" target="#b11">McNiel &amp; Binder, 2007)</ref>. Importantly, these studies did not examine days incarcerated, a measure that may be more relevant to understanding the cost-effectiveness of MHC programs over time <ref type="bibr" coords="7,306.00,165.04,132.64,7.91">(McCollister, French, &amp; Fang, 2010)</ref>. Although the growing body of research suggests MHCs are effective, less is known about the extent to which MHCs represent an efficient use of criminal justice resources or the broader impact they have on the numbers of adults with mental illnesses involved in the criminal justice system <ref type="bibr" coords="7,306.00,220.04,206.03,7.91" target="#b31">(Steadman, Osher, Robbins, Case, &amp; Samuels, 2009)</ref>. A few studies have investigated the cost-effectiveness of MHCs, finding largely inconsistent results <ref type="bibr" coords="7,421.14,242.04,124.90,7.91;7,306.00,253.04,58.03,7.91">(Kubiak, Roddy, Comartin, &amp; Tillander, 2015;</ref><ref type="bibr" coords="7,366.31,253.04,73.34,7.91" target="#b24">Ridgely et al., 2007;</ref><ref type="bibr" coords="7,441.93,253.04,79.42,7.91" target="#b29">Steadman et al., 2014)</ref>; more research is needed.</p><p>Second, we explored associations between individual factors and changes in pre-program and post-program jail days among MHC participants. We found MHC graduation status to be associated with significantly greater reductions in jail days served before program entry to after program exit, which is consistent with findings of previous studies <ref type="bibr" coords="7,427.54,330.04,73.51,7.91" target="#b4">(Broner et al., 2009;</ref><ref type="bibr" coords="7,503.56,330.04,42.50,7.91;7,306.00,341.04,35.70,7.91">Herinckx et al., 2005;</ref><ref type="bibr" coords="7,345.90,341.04,84.97,7.91" target="#b32">Steadman et al., 2011)</ref>. Again, however, the present study adds to this body of work with its focus on recidivism exclusively following exit from the MHC when participants were no longer receiving the treatment supports and monitoring inherent to the MHC that may buffer against recidivism. Our findings suggest that long-term engagement with the MHC has a positive effect on criminal justice outcomes and that receiving the "full dose" of the MHC program is especially critical to recidivism reduction. Length of the MHC program itself has not been investigated systematically in the literature, but is an important avenue for future research.</p><p>Additionally, we found that MHC participants with comorbid substance use experienced greater decreases in jail days from pre-program to post-program compared with participants without comorbid substance use. This finding contradicts previous research showing decreased effectiveness of MHCs among participants with co-occurring substance use (e.g., <ref type="bibr" coords="7,447.00,517.03,73.27,7.91">Cosden et al., 2005;</ref><ref type="bibr" coords="7,523.03,517.03,19.16,7.91;7,306.00,528.03,62.07,7.91" target="#b32">Steadman et al., 2011)</ref>. However, differences between the current and prior findings may reflect the higher number of pre-program jail days for participants with co-occurring substance use in the current sample and our inclusion of only misdemeanant, as opposed to both misdemeanor and felony, offenders. Notwithstanding the uniqueness of the present sample, substance use is a significant risk factor for recidivism among adults with mental illness <ref type="bibr" coords="7,525.08,594.03,17.49,7.91;7,306.00,605.03,78.09,7.91" target="#b2">(Baillargeon et al., 2010;</ref><ref type="bibr" coords="7,388.45,605.03,93.85,7.91" target="#b10">Castillo &amp; Alarid, 2011;</ref><ref type="bibr" coords="7,486.67,605.03,59.36,7.91;7,306.00,616.03,126.93,7.91" target="#b36">Wilson, Draine, Hadley, Metraux, &amp; Evans, 2011)</ref> and our finding provides evidence that MHC monitoring and associated treatment can reduce recidivism risk in this subgroup. Future research is warranted to replicate this finding in other contexts and to explore MHC program elements (e.g., support services used by participants, substance use testing, length of participation, etc.) that may account for such an effect.</p><p>Third, we examined associations between process factors and changes in pre-program and post-program jail days among MHC participants. We failed to identify significant interactions between This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>two of the three process measures and criminal justice contact, namely, time between referral and program entry, and time between referral and first receipt of mental health services. Upon closer examination, almost half (49.1%, n ϭ 28) of MHC participants were already receiving mental health treatment services at the time of referral, resulting in somewhat limited variability in the time between referral and receipt of services variable. In contrast, there was greater variability in the time between referral and program entry variable; however, our null findings could reflect the average length of MHC participation and our use of a postexit measure of recidivism, attenuating the effect of a timely referral on changes in recidivism. We did find a significant main effect of time between referral to the MHC and first receipt of recidivism on overall jail days served (including pre-program and post-program). This finding may reflect that higher-risk participants with more extensive criminal histories prior to MHC entry were provided with expedited access to mental health services; however, we could not support this explanation with available data.</p><p>Although we expected to find shorter time between referral and receipt of mental health services and shorter time between referral and program entry to be associated with reductions in recidivism, our findings are not altogether inconsistent with the existing literature. A recent investigation by Hiday, <ref type="bibr" coords="8,190.02,319.04,81.50,7.91">Ray, and Wales (2014)</ref>, for example, found time between index arrest and MHC entry, a comparable process measure, to be unrelated to whether participants completed the terms of participation in a short-term MHC; effects on recidivism were not examined. More research on the association between timing of referral to mental health services, receipt of treatment, and recidivism is needed; however, our results, taken into consideration with those of prior research, suggest that timely referral to the MHC may be less important to MHC effectiveness than other factors.</p><p>Finally, we found a significant interaction between time in program and changes in pre-and post-program jail days. Specifically, each day spent in the MHC was associated with a 1.01 times greater decrease in jail days served from pre-program to postprogram, even after controlling for whether or not a participant graduated from the MHC. This result suggests that participants may benefit from a longer tenure in an MHC program regardless of graduation status, in contrast to prior research showing the relationship between time in program and recidivism did not persist after controlling for graduation status <ref type="bibr" coords="8,214.21,528.03,69.98,7.91" target="#b5">(Burns et al., 2013)</ref>. Consistent with prior research on MHCs and the broader mental health treatment literature, benefits to longer tenure in the MHC may include ongoing case management services (e.g., <ref type="bibr" coords="8,256.80,561.03,31.24,7.91;8,48.00,572.03,114.54,7.91" target="#b34">Ventura, Cassel, Jacoby, &amp; Huang, 1998)</ref>, increased access to mental health treatment (e.g., <ref type="bibr" coords="8,105.15,583.03,68.73,7.91">Keator et al., 2013)</ref>, and social relationships <ref type="bibr" coords="8,267.57,583.03,16.39,7.91;8,48.00,594.03,85.51,7.91" target="#b8">(Canada &amp; Epperson, 2014;</ref><ref type="bibr" coords="8,136.60,594.03,151.43,7.91;8,48.00,605.03,47.75,7.91" target="#b27">Skeem, Eno Louden, Manchak, Vidal, &amp; Haddad, 2009</ref>). Findings also provide evidence against the practice of many MHCs to accept only participants who are likely to graduate from the program <ref type="bibr" coords="8,149.95,627.03,104.59,7.91" target="#b38">(Wolff &amp; Pogorzelski, 2005)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limitations</head><p>Results must be considered in light of some study limitations. First, the present study used a quasi-experimental design with between-groups and within-subjects comparisons. It is possible that between-groups differences are attributable to other factors beyond our control in the current study. For example, defendants may have been selected into the MHC based on likelihood of success, thereby biasing results in favor of the MHC condition. Additionally, self-reported diagnoses in the TAU group could not be verified through clinical interview or otherwise and were not provided to us at an individual-level. As a result, we were unable to include diagnoses as a possible covariate. Additionally, preprogram criminal justice data were not available for the TAU group, limiting our ability to determine whether participants in the TAU group already were at an increased risk for recidivism relative to MHC participants. Relatedly, although our follow-up period was uniform across participants, we could not account for time spent in a secure setting other than jail (e.g., hospital) during the follow-up period. Second, because this particular MHC operates a limited caseload (40 participants a year), our sample size was relatively small, which may have limited our ability to detect statistical significance for small effects in negative binomial models. Third, we investigated a single-site MHC, which limits generalizability of our findings, especially to MHCs with felony-level cases. Fourth, because of our reliance on secondary data, we were limited in the number and types of variables we could investigate. Additional individual and programmatic factors (e.g., failure to appear for court hearings, arrests during participation, and noncompliance with MHC conditions) and process factors (e.g., time from index arrest to MHC entry, time from entry to Deferred Prosecution Agreement, and number of MHC hearings) that have been shown to be predictive of MHC graduation (Hiday et al., 2014) also may be relevant to recidivism, but were not available in the administrative records.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Future Directions</head><p>The current study supports the growing literature on the effectiveness of MHC programs in decreasing recidivism and also suggests directions for future research. Specifically, future research should explore whether certain high-risk groups, such as adults with mental illnesses and co-occurring substance use, benefit from time spent in an MHC setting, regardless of whether they complete the MHC program. Indeed, the positive effect of length of MHC participation on recidivism-regardless of graduation status-is arguably the most important finding of the present study and replication of this effect would imply a reconceptualization of what constitutes "successful" participation in the context of an MHC. More broadly, there is need for continued investigation into factors influencing the effectiveness of MHCs, such as service utilization or interactions with the MHC team. Whether MHCs can effectively address criminogenic risks and needs has been a focus of recent investigation <ref type="bibr" coords="8,393.41,592.54,87.90,7.91" target="#b7">(Campbell et al., 2015)</ref> and should be a focus in future research, particularly in the context of risk assessment and treatment planning to target risk factors predictive of reoffending <ref type="bibr" coords="8,351.96,625.95,98.67,7.91" target="#b1">(Andrews &amp; Bonta, 2010;</ref><ref type="bibr" coords="8,454.61,625.95,61.08,7.91">Honegger, 2015)</ref>. Moreover, as evidence on factors influencing the effectiveness of MHCs grows, there will be a need for systematic investigation of effects across MHC sites. Finally, although investigations of the effectiveness of MHCs are available and growing in the U.S., fewer investigations have taken place in countries outside of the U.S. <ref type="bibr" coords="8,306.00,692.77,121.85,7.91" target="#b23">(Richardson &amp; McSherry, 2010;</ref><ref type="bibr" coords="8,431.89,692.77,89.36,7.91" target="#b28">Slinger &amp; Roesch, 2010</ref>). Research should explore whether the effectiveness of MHCs varies further on an international basis. This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>This study adds to the growing body of literature suggesting MHCs are effective, but also that effectiveness varies as a function of individual and MHC-specific factors. Because every community boasts varied services and a distinct population, the factors emphasized in the development of an MHC program inevitably will be different <ref type="bibr" coords="9,91.61,150.04,82.93,7.91" target="#b16">(Raines &amp; Laws, 2008;</ref><ref type="bibr" coords="9,176.61,150.04,111.42,7.91;9,48.00,161.04,51.29,7.91" target="#b35">Watson, Hanrahan, Luchins, &amp; Lurigio, 2001)</ref>. Moreover, case processing from referral to acceptance or rejection of an applicant is not uniform across MHCs, in part, because each MHC has diverse resources to devote to the processing of criminal offenders . Nevertheless, there is a need for continued research to identify ways to improve MHC effectiveness, given their widespread implementation across the U.S. and internationally. To the extent that evidence-based factors associated with reduced recidivism can be implemented, MHCs may better achieve the ultimate goal of reducing criminal justice contact among adults with mental illnesses.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="4,48.00,439.25,240.08,96.70"><head></head><label></label><figDesc>Age (B ϭ Ϫ0.03, SE ϭ 0.01, p ϭ .052, 95% CI [Ϫ0.06, 0.00]) and race (B ϭ Ϫ1.03, SE ϭ 0.32, p ϭ .001, 95% CI [Ϫ1.67, Ϫ0.40]) predicted post-program charges; age (B ϭ Ϫ0.03, SE ϭ 0.02, p ϭ .083, 95% CI [Ϫ0.07, 0.00]) predicted post-program convictions; and both age (B ϭ Ϫ0.04, SE ϭ 0.01, p ϭ .002, 95% CI [Ϫ0.06, Ϫ0.01]) and gender (B ϭ 0.51, SE ϭ 0.28, p ϭ .072, 95% CI [Ϫ0.05, 1.06]) predicted post-program jail days. Thus, all three variables were included as covariates in our propensity score analysis, as described below.</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="4,48.00,77.04,497.50,258.20"><head>Table 1</head><label>1</label><figDesc>Demographic Characteristics and Recidivism for MHC and TAU ParticipantsNote. All percentages represent valid percentages. Discrepancies in cell sizes reflect missing data.</figDesc><table coords="4,48.00,107.70,497.50,212.53">MHC participants 
+
+TAU participants 
+(N ϭ 40) 
+
+Overall 
+(N ϭ 57) 
+
+Graduates 
+(N ϭ 30) 
+
+Nongraduates 
+(N ϭ 27) 
+
+Variables 
+n 
+% 
+n 
+% 
+n 
+% 
+n 
+% 
+
+Gender 
+Male 
+26 
+45.6 
+12 
+40.0 
+14 
+51.9 
+21 
+52.5 
+Female 
+31 
+54.4 
+18 
+60.0 
+13 
+48.1 
+19 
+47.5 
+Race 
+Non-White 
+37 
+64.9 
+17 
+56.7 
+20 
+74.1 
+25 
+62.5 
+White 
+21 
+35.1 
+13 
+43.3 
+7 
+25.9 
+15 
+37.5 
+Diagnosis 
+Schizophrenia spectrum 
+20 
+35.7 
+10 
+34.5 
+10 
+37.0 
+5 
+12.5 
+Mood 
+37 
+66.1 
+18 
+62.1 
+18 
+66.7 
+35 
+87.5 
+Anxiety 
+12 
+21.4 
+5 
+17.2 
+7 
+25.9 
+9 
+22.5 
+
+M 
+S D 
+M 
+S D 
+M 
+S D 
+M 
+S D 
+
+Age 
+34.48 
+9.62 
+35.00 
+9.76 
+33.77 
+9.62 
+36.05 
+9.55 
+Postprogram recidivism 
+Charges 
+2.09 
+5.87 
+1.03 
+3.40 
+3.27 
+7.66 
+2.45 
+3.47 
+Convictions 
+.73 
+1.98 
+.34 
+.67 
+1.15 
+2.75 
+1.05 
+1.65 
+Jail days 
+5.09 
+12.61 
+1.83 
+5.75 
+8.73 
+16.74 
+9.25 
+23.94 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="5,7.70,227.15,537.80,495.86"><head>Table 2</head><label>2</label><figDesc>Comparisons Between MHC and TAU Participants for Charges, Convictions, and Jail DaysNote. CI ϭ confidence interval for odds ratio; PS ϭ propensity score. For group, TAU participants are coded as 0. ‡ p Ͻ .10. ‫ء‬ p Ͻ .05. ‫ءء‬ p Ͻ .01. ‫ءءء‬ p Ͻ .001. This document is copyrighted by the American Psychological Association or one of its allied publishers.</figDesc><table coords="5,48.00,588.70,497.51,110.30">MHC participants vs. TAU participants 
+MHC graduates vs. TAU participants 
+
+Predictors 
+N 
+B 
+SE B 
+Wald 2 
+OR 
+Wald 95% CI 
+N 
+B 
+SE B 
+Wald 2 
+OR 
+Wald 95% CI 
+
+Charges 
+96 
+69 
+Group 
+Ϫ.11 
+.27 
+.16 
+.90 
+[.53, 1.51] 
+.59 
+.33 
+3.15  ‡ 
+1.81 
+[.94, 3.49] 
+PS 
+Ϫ1.79 
+.54 
+11.05 ‫ءء‬ 
+.17 
+[.06, .48] 
+Ϫ1.79 
+.54 
+11.05 ‫ءء‬ 
+.17 
+[.06, .48] 
+Convictions 
+95 
+69 
+Group 
+.20 
+.32 
+.37 
+1.22 
+[.65, 2.29] 
+.94 
+.44 
+4.57 ‫ء‬ 
+2.57 
+[1.08, 6.10] 
+PS 
+Ϫ1.38 
+.62 
+5.00 ‫ء‬ 
+.25 
+[.07, .84] 
+Ϫ1.38 
+.62 
+5.00 ‫ء‬ 
+.25 
+[.07, .84] 
+Jail days 
+97 
+70 
+Group 
+.48 
+.22 
+4.68 ‫ء‬ 
+1.62 
+[1.05, 2.50] 
+1.56 
+.28 
+30.29 ‫ءءء‬ 
+4.77 
+[2.73, 8.31] 
+PS 
+Ϫ1.24 
+.47 
+7.03 ‫ءء‬ 
+.29 
+[.12, .72] 
+Ϫ1.24 
+.47 
+7.03 ‫ءء‬ 
+.29 
+[.12, .72] 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="6,48.00,401.54,497.51,288.20"><head>Table 3</head><label>3</label><figDesc>Individual and Process Factors Predicting Changes in Jail Days Among MHC Participants</figDesc><table coords="6,48.00,430.94,497.51,258.80">Predictors 
+N 
+B 
+SE B 
+Wald 2 
+OR 
+Wald 95% CI 
+
+Individual factors 
+Graduation status 
+57 
+Time 
+1.81 
+.48 
+14.36 ‫ءءء‬ 
+6.09 
+[2.39, 15.52] 
+Graduation status 
+1.63 
+.67 
+5.92 ‫ء‬ 
+5.11 
+[1.37, 19.04] 
+Graduation status ϫ Time 
+Ϫ2.01 
+.59 
+11.42 ‫ءء‬ 
+.13 
+[.04, .43] 
+Substance use 
+52 
+Time 
+1.07 
+.43 
+6.21 ‫ء‬ 
+2.91 
+[1.26, 6.75] 
+Substance use 
+Ϫ.19 
+.69 
+.08 
+.82 
+[.21, 3.17] 
+Substance use ϫ Time 
+Ϫ1.56 
+.67 
+5.52 ‫ء‬ 
+.21 
+[.06, .77] 
+Level of charge 
+57 
+Time 
+1.01 
+.31 
+10.81 ‫ءء‬ 
+2.75 
+[1.51, 5.04] 
+Level of charge 
+.03 
+.64 
+Ͻ.01 
+1.03 
+[.30, 3.59] 
+Level of charge ϫ Time 
+Ϫ.61 
+.54 
+1.26 
+.54 
+[.19, 1.58] 
+Process factors 
+Time referral to MH services 
+56 
+Time 
+.52 
+.40 
+1.69 
+1.68 
+[.77, 3.68] 
+Referral to MH services 
+Ϫ.03 
+.01 
+4.54 ‫ء‬ 
+.97 
+[.94, .998] 
+Referral to MH services ϫ Time 
+.01 
+.02 
+.35 
+1.01 
+[.98, 1.04] 
+Time referral to program entry 
+56 
+Time 
+.82 
+.55 
+2.23 
+2.27 
+[.77, 6.66] 
+Referral to entry 
+Ͻ.01 
+Ͻ.01 
+.18 
+1.00 
+[.99, 1.01] 
+Referral to entry ϫ Time 
+Ϫ.01 
+.01 
+.52 
+.99 
+[.98, 1.01] 
+Time program entry to exit 
+57 
+Time 
+Ϫ.54 
+.65 
+.70 
+.58 
+[.16, 2.07] 
+Program entry to exit 
+Ϫ.01 
+Ͻ.01 
+3.23  ‡ 
+.99 
+[.99, 1.00] 
+Program entry to exit ϫ Time 
+.01 
+Ͻ.01 
+4.27 ‫ء‬ 
+1.01 
+[1.00, 1.01] 
+Graduation status 
+.19 
+.38 
+.26 
+1.21 
+[.58, 2.54] 
+
+</table></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Therapy and Comparative</head> <ref type="bibr" coords="9,403.41,77.28,42.45,6.86">Criminology,</ref><ref type="bibr" coords="9,448.84,77.28,10.00,6.86">55,</ref><ref type="bibr" coords="9,461.83,77.20,8.00,7.03">[98]</ref><ref type="bibr" coords="9,470.79,77.20,3.60,7.03">[99]</ref><ref type="bibr" coords="9,470.79,77.20,3.60,7.03">[100]</ref><ref type="bibr" coords="9,470.79,77.20,3.60,7.03">[101]</ref><ref type="bibr" coords="9,470.79,77.20,3.60,7.03">[102]</ref><ref type="bibr" coords="9,470.79,77.20,3.60,7.03">[103]</ref><ref type="bibr" coords="9,470.79,77.20,3.60,7.03">[104]</ref><ref type="bibr" coords="9,470.79,77.20,3.60,7.03">[105]</ref><ref type="bibr" coords="9,470.79,77.20,3.60,7.03">[106]</ref><ref type="bibr" coords="9,470.79,77.20,3.60,7.03">[107]</ref><ref type="bibr" coords="9,470.79,77.20,3.60,7.03">[108]</ref><ref type="bibr" coords="9,470.79,77.20,3.60,7.03">[109]</ref><ref type="bibr" coords="9,470.79,77.20,3.60,7.03">[110]</ref><ref type="bibr" coords="9,470.79,77.20,3.60,7.03">[111]</ref><ref type="bibr" coords="9,470.79,77.20,3.60,7.03">[112]</ref><ref type="bibr" coords="9,470.79,77.20,3.60,7.03">[113]</ref><ref type="bibr" coords="9,470.79,77.20,3.60,7.03">[114]</ref><ref type="bibr" coords="9,470.79,77.20,3.60,7.03">[115]</ref><ref type="bibr" coords="9,470.79,77.20,3.60,7.03">[116]</ref><ref type="bibr" coords="9,474.39,77.20,10.80,7.03">[117]</ref><p>. http://dx.doi.org/ 10.1177/0306624X09359502 Comartin, E., Kubiak, S. P., <ref type="bibr" coords="9,402.76,97.48,139.93,7.03">Ray, B., Tillander, E., &amp; Hanna, J. (2015)</ref>.</p><p>Short-and long-term outcomes of mental health court participants by psychiatric diagnosis. Psychiatric <ref type="bibr" coords="9,426.55,117.75,119.45,7.03;9,314.00,127.89,51.92,7.03">Services, appi.ps. 201400230. http:// doi.org/10.1176</ref><ref type="bibr" coords="9,365.92,127.89,62.30,7.03;9,306.00,138.02,195.56,7.03">/appi.ps.201400230 Cosden, M., Ellens, J., Schnell, J., &amp; Yamini-Diouf, Y. (2005</ref>  <ref type="bibr" coords="9,412.55,705.57,63.29,7.03">, &amp; Fang, H. (2010)</ref>. The cost of crime to society: New crime-specific estimates for policy and program evalua-This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="9,48.00,315.70,240.01,7.03;9,56.00,325.70,232.02,7.03;9,56.00,335.70,95.53,7.03" xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Mental health courts: A guide to research-informed policy and practice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Almquist</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Dodd</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>Justice Center</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Council of State Governments</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,48.00,345.70,240.02,7.03;9,56.00,355.70,232.00,7.03;9,56.00,365.70,86.89,7.03" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Rehabilitating criminal justice policy and practice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bonta</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0018362</idno>
+		<ptr target="http://dx.doi.org/10.1037/a0018362" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology, Public Policy, and Law</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="39" to="55" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,48.00,375.70,240.04,7.03;9,56.00,385.70,232.03,7.03;9,56.00,395.70,232.02,7.03;9,56.00,405.78,232.01,6.86;9,56.00,415.70,225.31,7.03" xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Risk of reincarceration among prisoners with co-occurring severe mental illness and substance use disorders. Administration and Policy in Mental Health and Mental Health Services Research</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Baillargeon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">V</forename><surname>Penn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Harzke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Baillargeon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Becker</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10488-009-0252-9</idno>
+		<ptr target="http://dx.doi.org/10.1007/s10488-009-0252-9" />
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="367" to="374" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,48.00,425.70,240.01,7.03;9,56.00,435.70,232.03,7.03;9,56.00,445.70,228.43,7.03" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Transferring the principles of effective treatment into a &quot;real world&quot; prison setting</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Bourgon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Armstrong</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0093854804270618</idno>
+		<ptr target="http://dx.doi.org/10.1177/0093854804270618" />
+	</analytic>
+	<monogr>
+		<title level="j">Criminal Justice and Behavior</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="3" to="25" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,48.00,455.70,240.04,7.03;9,56.00,465.70,232.01,7.03;9,56.00,475.70,232.00,7.03;9,56.00,485.70,212.89,7.03" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The effect of homelessness, housing type, functioning, and community reintegration supports on mental health court completion and recidivism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Broner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Behler</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/15504260903358801</idno>
+		<ptr target="http://dx.doi.org/10.1080/15504260903358801" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Dual Diagnosis</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="323" to="356" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,48.00,495.70,240.01,7.03;9,56.00,505.70,232.00,7.03;9,56.00,515.70,224.51,7.03" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Effectiveness 2 years postexit of a recently established mental health court</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">A</forename><surname>Hiday</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Ray</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0002764212465416</idno>
+		<ptr target="http://dx.doi.org/10.1177/0002764212465416" />
+	</analytic>
+	<monogr>
+		<title level="j">American Behavioral Scientist</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="189" to="208" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,48.00,525.70,240.02,7.03;9,56.00,535.70,232.00,7.03;9,56.00,545.70,232.00,7.03;9,56.00,555.70,32.00,7.03" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A multi-site study of the use of sanctions and incentives in mental health courts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Callahan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J</forename><surname>Steadman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Tillman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Vesselinov</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/h0093989</idno>
+		<ptr target="http://dx.doi.org/10.1037/h0093989" />
+	</analytic>
+	<monogr>
+		<title level="j">Law and Human Behavior</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,48.00,565.70,240.01,7.03;9,56.00,575.70,232.01,7.03;9,56.00,585.70,232.01,7.03;9,56.00,595.70,231.85,7.03;9,56.00,605.70,38.22,7.03" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Multidimensional evaluation of a mental health court: Adherence to the risk-need-responsivity model</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">D</forename><surname>Canales</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Totten</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">A C</forename><surname>Macaulay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Wershler</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/lhb0000135</idno>
+		<ptr target="http://dx.doi.org/10.1037/lhb0000135" />
+	</analytic>
+	<monogr>
+		<title level="j">Law and Human Behavior</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="489" to="502" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,48.00,615.70,240.03,7.03;9,56.00,625.70,232.01,7.03;9,56.00,635.70,232.00,7.03;9,56.00,645.70,117.99,7.03" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The client-caseworker relationship and its association with outcomes among mental health court participants</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">E</forename><surname>Canada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">W</forename><surname>Epperson</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10597-014-9713-z</idno>
+		<ptr target="http://dx.doi.org/10.1007/s10597-014-9713-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Community Mental Health Journal</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="968" to="973" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,48.00,655.70,240.02,7.03;9,56.00,665.70,232.02,7.03;9,56.00,675.70,232.02,7.03;9,56.00,685.70,231.87,7.03;9,56.00,695.70,26.00,7.03" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Procedural justice in mental health court: An investigation of the relation of perception of procedural justice to non-adherence and termination</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">E</forename><surname>Canada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">A</forename><surname>Hiday</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14789949.2014.915338</idno>
+		<ptr target="http://dx.doi.org/10.1080/14789949.2014.915338" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Forensic Psychiatry &amp; Psychology</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="321" to="340" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="9,48.00,705.70,240.01,7.03;9,56.00,715.70,232.00,7.03;10,56.00,77.20,232.00,7.03;10,56.00,87.39,101.99,7.03" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Factors associated with recidivism among offenders with mental illness</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">D</forename><surname>Castillo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">F</forename><surname>Alarid</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.drugalcdep.2009.12.002</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.drugalcdep.2009.12.002" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Offender tion. Drug and Alcohol Dependence</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="98" to="109" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,97.57,240.04,7.03;10,56.00,107.75,232.02,7.03;10,56.00,117.93,232.00,7.03;10,56.00,128.11,52.00,7.03" xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Effectiveness of a mental health court in reducing criminal recidivism and violence. The American Journal of Psychiatry</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">E</forename><surname>Mcniel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Binder</surname></persName>
+		</author>
+		<idno type="DOI">10.1176/appi.ajp.2007.06101664</idno>
+		<ptr target="http://dx.doi.org/10.1176/appi.ajp.2007.06101664" />
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="page" from="1395" to="1403" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,138.29,240.02,7.03;10,56.00,148.48,232.00,7.03;10,56.00,158.66,232.01,7.03;10,56.00,168.84,92.22,7.03" xml:id="b12">
+	<monogr>
+		<title level="m" type="main">A comparison of two methods of estimating propensity scores after multiple imputation. Statistical Methods in Medical Research</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Mitra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Reiter</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0962280212445945</idno>
+		<ptr target="http://dx.doi.org/10.1177/0962280212445945" />
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,179.02,240.01,7.03;10,56.00,189.20,232.04,7.03;10,56.00,199.38,232.01,7.03;10,56.00,209.57,180.14,7.03" xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Mental health court outcomes: A comparison of re-arrest and re-arrest severity between mental health court and traditional court participants. Law and Human Behavior</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">A</forename><surname>Hiday</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10979-006-9061-9</idno>
+		<ptr target="http://dx.doi.org/10.1007/s10979-006-9061-9" />
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="659" to="674" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,219.75,240.02,7.03;10,56.00,229.93,232.00,7.03;10,56.00,240.11,158.23,7.03" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Treatment &quot;dosage&quot; effects in drug court programs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">H</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Haas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">M</forename><surname>Hunt</surname></persName>
+		</author>
+		<idno type="DOI">10.1300/J076v33n04_04</idno>
+		<ptr target="http://dx.doi.org/10.1300/J076v33n04_04" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Offender Rehabilitation</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="63" to="72" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,250.29,240.04,7.03;10,56.00,260.47,232.00,7.03;10,56.00,270.65,232.01,7.03;10,56.00,280.84,232.02,7.03;10,56.00,291.02,204.74,7.03" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Predictors of criminal justice outcomes among mental health courts participants: The role of perceived coercion and subjective mental health recovery</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Pratt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Koerner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">T</forename><surname>Yanos</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Kopelovich</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14999013.2013.791351</idno>
+		<ptr target="http://dx.doi.org/10.1080/14999013.2013.791351" />
+	</analytic>
+	<monogr>
+		<title level="j">The International Journal of Forensic Mental Health</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="116" to="125" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,301.20,240.02,7.03;10,56.00,311.38,232.03,7.03;10,56.00,321.56,59.54,7.03" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Mental health court survey</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Raines</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Laws</surname></persName>
+		</author>
+		<ptr target="http://papers.ssrn.com/abstractϭ1121050" />
+	</analytic>
+	<monogr>
+		<title level="j">Social Science Research Network</title>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,331.74,240.02,7.03;10,56.00,341.93,232.00,7.03;10,56.00,352.11,100.01,7.03" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Long-term recidivism of mental health court defendants</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Ray</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijlp.2014.02.017</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.ijlp.2014.02.017" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Law and Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="448" to="454" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,362.29,240.03,7.03;10,56.00,372.47,232.00,7.03;10,56.00,382.65,200.95,7.03" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Examining the links between therapeutic jurisprudence and mental health court completion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Redlich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Han</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/lhb0000041</idno>
+		<ptr target="http://dx.doi.org/10.1037/lhb0000041" />
+	</analytic>
+	<monogr>
+		<title level="j">Law and Human Behavior</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="109" to="118" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,392.83,240.00,7.03;10,56.00,403.02,232.02,7.03;10,56.00,413.20,232.00,7.03;10,56.00,423.38,181.03,7.03" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Is diversion swift? Comparing mental health court and traditional criminal justice processing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Redlich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J</forename><surname>Steadman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Callahan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Robbins</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0093854811432424</idno>
+		<ptr target="http://dx.doi.org/10.1177/0093854811432424" />
+	</analytic>
+	<monogr>
+		<title level="j">Criminal Justice and Behavior</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="420" to="433" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,433.56,240.01,7.03;10,56.00,443.74,232.02,7.03;10,56.00,453.92,232.02,7.03;10,56.00,464.09,172.01,7.03" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The use of mental health court appearances in supervision</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Redlich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J</forename><surname>Steadman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Callahan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Robbins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Vessilinov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">A</forename><surname>Ozdogru</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijlp.2010.06.010</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.ijlp.2010.06.010" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Law and Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="272" to="277" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,474.26,240.04,7.03;10,56.00,484.43,232.01,7.03;10,56.00,494.61,232.00,7.03;10,56.00,504.78,46.00,7.03" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The second generation of mental health courts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Redlich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J</forename><surname>Steadman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Monahan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Petrila</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">A</forename><surname>Griffin</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/1076-8971.11.4.527</idno>
+		<ptr target="http://dx.doi.org/10.1037/1076-8971.11.4.527" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology, Public Policy, and Law</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="527" to="538" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,514.95,240.01,7.03;10,56.00,525.12,232.02,7.03;10,56.00,535.29,232.01,7.03;10,56.00,545.46,162.46,7.03" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Predictors of mental health court program compliance and rearrest in</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">A</forename><surname>Reich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Picard-Fritsche</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Lebron</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Hahn</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10509674.2015.1055035</idno>
+		<ptr target="http://dx.doi.org/10.1080/10509674.2015.1055035" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Offender Rehabilitation</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="391" to="405" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,555.63,240.02,7.03;10,56.00,565.80,232.02,7.03;10,56.00,575.97,232.00,7.03;10,56.00,586.14,24.00,7.03" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Diversion down under -Programs for offenders with mental illnesses in Australia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Mcsherry</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijlp.2010.06.007</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.ijlp.2010.06.007" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Law and Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="249" to="257" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,596.31,240.02,7.03;10,56.00,606.48,232.01,7.03;10,56.00,616.72,232.03,6.86;10,56.00,626.82,232.04,7.03;10,56.00,636.99,128.44,7.03" xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Justice, treatment, and cost: An evaluation of the fiscal impact of the Allegheny County Mental Health Court (MHC) program</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Ridgely</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Engberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Greenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Demartini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Dembosky</surname></persName>
+		</author>
+		<ptr target="http://www.rand.org/pubs/technical_reports/TR439.html" />
+		<imprint>
+			<date type="published" when="2007" />
+			<pubPlace>Santa Monica, CA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,48.00,647.16,240.02,7.03;10,56.00,657.33,232.03,7.03;10,56.00,667.57,232.00,6.86;10,314.00,77.19,232.01,7.03;10,314.00,87.19,153.56,7.03;10,306.00,97.19,240.05,7.03;10,314.00,107.20,232.02,7.03;10,314.00,117.20,42.44,7.03" xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Criminal justice interventions for offenders with mental illness: Evaluation of mental health courts in Bronx and</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">B</forename><surname>Rossman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Willison</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Mallik-Kane</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Debus-Sherrill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">M</forename><surname>Downey</surname></persName>
+		</author>
+		<ptr target="http://gainscenter.samhsa.gov/grant_programs/adultmhc.asp" />
+		<imprint>
+			<date type="published" when="2012" />
+			<publisher>Urban Institute</publisher>
+			<pubPlace>Brooklyn, New York. Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Adult mental health treatment courts database</note>
+</biblStruct>
+
+<biblStruct coords="10,306.00,127.20,240.01,7.03;10,314.00,137.20,232.02,7.03;10,314.00,147.20,232.00,7.03;10,314.00,157.20,24.00,7.03" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Assessing the effectiveness of mental health courts: A quantitative review</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Sarteschi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">G</forename><surname>Vaughn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jcrimjus.2010.11.003</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.jcrimjus.2010.11.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Criminal Justice</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="12" to="20" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.00,167.20,240.01,7.03;10,314.00,177.20,232.03,7.03;10,314.00,187.20,232.01,7.03;10,314.00,197.20,178.22,7.03" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Social networks and social control of probationers with co-occurring mental and substance abuse problems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Skeem</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Eno Louden</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Manchak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Vidal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Haddad</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10979-008-9140-1</idno>
+		<ptr target="http://dx.doi.org/10.1007/s10979-008-9140-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Law and Human Behavior</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="122" to="135" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.00,207.20,240.02,7.03;10,314.00,217.20,232.02,7.03;10,314.00,227.20,231.99,7.03;10,314.00,237.20,85.12,7.03" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Problem-solving courts in Canada: A review and a call for empirically-based evaluation methods</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Slinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Roesch</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijlp.2010.06.008</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.ijlp.2010.06.008" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Law and Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="258" to="264" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.00,247.20,240.02,7.03;10,314.00,257.20,232.01,7.03;10,314.00,267.20,232.01,7.03;10,314.00,277.20,231.90,7.03;10,314.00,287.20,38.00,7.03" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Criminal justice and behavioral health care costs of mental health court participants: A six-year study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J</forename><surname>Steadman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Callahan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Robbins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Vesselinov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">G</forename><surname>Mcguire</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Morrissey</surname></persName>
+		</author>
+		<idno type="DOI">10.1176/appi.ps.201300375</idno>
+		<ptr target="http://dx.doi.org/10.1176/appi.ps.201300375" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychiatric Services</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="1100" to="1104" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.00,297.20,240.02,7.03;10,314.00,307.20,232.02,7.03;10,314.00,317.20,230.72,7.03" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Law &amp; psychiatry: Mental health courts: Their promise and unanswered questions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J</forename><surname>Steadman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Brown</surname></persName>
+		</author>
+		<idno type="DOI">10.1176/appi.ps.52.4.457</idno>
+		<ptr target="http://dx.doi.org/10.1176/appi.ps.52.4.457" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychiatric Services</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="457" to="458" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.00,327.20,240.00,7.03;10,314.00,337.20,232.02,7.03;10,314.00,347.20,232.00,7.03;10,314.00,357.20,14.00,7.03" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Prevalence of serious mental illness among jail inmates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J</forename><surname>Steadman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">C</forename><surname>Osher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Robbins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Case</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Samuels</surname></persName>
+		</author>
+		<idno type="DOI">10.1176/ps.2009.60.6.761</idno>
+		<ptr target="http://dx.doi.org/10.1176/ps.2009.60.6.761" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychiatric Services</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="761" to="765" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.00,367.20,240.01,7.03;10,314.00,377.20,232.02,7.03;10,314.00,387.20,232.00,7.03;10,314.00,397.20,145.98,7.03" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Effect of mental health courts on arrests and jail days: A multisite study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J</forename><surname>Steadman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Redlich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Callahan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Robbins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Vesselinov</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/archgenpsychiatry.2010.134</idno>
+		<ptr target="http://dx.doi.org/10.1001/archgenpsychiatry.2010.134" />
+	</analytic>
+	<monogr>
+		<title level="j">Archives of General Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="167" to="172" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.00,407.20,240.00,7.03;10,314.00,417.20,232.03,7.03;10,314.00,427.20,231.99,7.03;10,314.00,437.20,78.67,7.03" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">From referral to disposition: Case processing in seven mental health courts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">J</forename><surname>Steadman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Redlich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Petrila</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Monahan</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/bsl.641</idno>
+		<ptr target="http://dx.doi.org/10.1002/bsl.641" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral Sciences &amp; the Law</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="215" to="226" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.00,447.20,240.04,7.03;10,314.00,457.20,232.02,7.03;10,314.00,467.20,232.01,7.03;10,314.00,477.20,18.00,7.03" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Case management and recidivism of mentally ill persons released from jail</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Ventura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Cassel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Jacoby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1176/ps.49.10.1330</idno>
+		<ptr target="http://dx.doi.org/10.1176/ps.49.10.1330" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychiatric Services</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1330" to="1337" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.00,487.20,240.02,7.03;10,314.00,497.20,232.01,7.03;10,314.00,507.20,212.94,7.03" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Mental health courts and the complex issue of mentally ill offenders</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Hanrahan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Luchins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Lurigio</surname></persName>
+		</author>
+		<idno type="DOI">10.1176/appi.ps.52.4.477</idno>
+		<ptr target="http://dx.doi.org/10.1176/appi.ps.52.4.477" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychiatric Services</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="477" to="481" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.00,517.20,240.01,7.03;10,314.00,527.20,232.01,7.03;10,314.00,537.20,232.01,7.03;10,314.00,547.20,172.97,7.03" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Examining the impact of mental illness and substance use on recidivism in a county jail</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">B</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Draine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Hadley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Metraux</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Evans</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijlp.2011.07.004</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.ijlp.2011.07.004" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Law and Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="264" to="268" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.00,557.20,240.02,7.03;10,314.00,567.20,232.02,7.03;10,314.00,577.20,232.01,7.03;10,314.00,587.20,22.66,7.03" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Mental health courts and their selection processes: Modeling variation for consistency</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Fabrikant</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Belenko</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10979-010-9250-4</idno>
+		<ptr target="http://dx.doi.org/10.1007/s10979-010-9250-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Law and Human Behavior</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="402" to="412" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="10,306.00,597.20,240.02,7.03;10,314.00,607.20,232.02,7.03;10,314.00,617.20,232.01,7.03;10,314.00,627.20,46.00,7.03" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Measuring the effectiveness of mental health courts: Challenges and recommendations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Pogorzelski</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/1076-8971.11.4.539</idno>
+		<ptr target="http://dx.doi.org/10.1037/1076-8971.11.4.539" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology, Public Policy, and Law</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="539" to="569" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

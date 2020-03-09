@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Effects of comparative advertising format on consumer responses: The moderating effects of brand image and attribute relevance</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mehmet</forename><forename type="middle">I</forename><surname>Yagci</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Economics and Administrative Sciences</orgName>
+								<orgName type="institution">University of Mersin</orgName>
+								<address>
+									<postCode>33342</postCode>
+									<settlement>Mersin</settlement>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Abhijit</forename><surname>Biswas</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Business Administration</orgName>
+								<orgName type="institution">Wayne State University</orgName>
+								<address>
+									<addrLine>5201 Cass Avenue</addrLine>
+									<postCode>48202</postCode>
+									<settlement>Detroit</settlement>
+									<region>MI</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sujay</forename><surname>Dutta</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Business Administration</orgName>
+								<orgName type="institution">Wayne State University</orgName>
+								<address>
+									<addrLine>5201 Cass Avenue</addrLine>
+									<postCode>48202</postCode>
+									<settlement>Detroit</settlement>
+									<region>MI</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Effects of comparative advertising format on consumer responses: The moderating effects of brand image and attribute relevance</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.jbusres.2008.03.005</idno>
+					<note type="submission">Article history: Received 14 August 2006 Accepted 31 March 2008</note>
+					<note>a r t i c l e i n f o</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:21+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Comparative ad Brand image Attribute relevance Persuasion knowledge model Characterization-correction model</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>a b s t r a c t</head><p>In this research we distinguish between ads that compare two different brands (Across-Brand Comparison or ABC ads) and those that compare different versions of the same brand (Within-Brand Comparison or WBC ads). Results from an experiment indicate that when comparative ads use attributes that are relevant to product performance, ad type and brand image interact such that an ABC ad leads to less favorable consumer perceptions than a WBC ad when image of the sponsor brand is low but not when it is high. However, when the ads use attributes that are irrelevant to product performance an ABC ad leads to less favorable consumer outcomes than a WBC ad, regardless of the image of the sponsor brand. We further propose and show that ad believability mediates these effects. Theoretical and practical implications of the findings are discussed and directions for future research are provided.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Comparative advertising is an increasingly popular promotion tactic. Its popularity stems from the FTC's informal encouragement of explicit comparisons in the 1970s <ref type="bibr" coords="1,159.30,448.54,73.85,7.54" target="#b8">(Grewal et al., 1997;</ref><ref type="bibr" coords="1,235.78,448.54,49.00,7.54;1,33.73,459.02,19.71,7.54" target="#b19">Tannenbaum, 1974;</ref><ref type="bibr" coords="1,56.13,459.02,87.62,7.54" target="#b21">Wilkie and Farris, 1975)</ref> and advertisers' belief in its effectiveness in influencing consumer decision-making. Indeed, it has been suggested that consumers find comparative advertisements both informative and interesting <ref type="bibr" coords="1,135.83,490.38,45.59,7.54" target="#b3">(Barry, 1993)</ref>.</p><p>In a meta-analysis, <ref type="bibr" coords="1,114.58,500.86,71.23,7.54" target="#b8">Grewal et al. (1997)</ref> reported that the effectiveness of comparative ads is "equivocal". A primary reason for these mixed results is that "the complexity of comparative advertising and advertising response makes it difficult to assess the effectiveness of comparative advertising outside of some usage context" <ref type="bibr" coords="1,184.31,542.70,96.75,7.54">(Rogers and Williams,1989)</ref>. In this respect, the primary goal of our research is to examine the effect of comparative ads in the context of the ad format (i.e., brand to which the ad sponsor compares itself), attribute relevance and image of the advertising brand. We also examine the potential effect of "ad believability" as a mediator of comparative advertising on consumers' cognitions, attitudes, and behavioral intentions.</p><p>We contribute to the comparative advertising literature by examining the relative effectiveness of two forms of comparative tactics, "Within-Brand Comparison" (WBC) and "Across-Brand Comparison" (ABC). Further, this study provides a better understanding of the effects of such tactics by including two factors that have not been examined before, namely, attribute relevance and brand image. Use of "brand image" instead of "market share" and "attribute relevance" instead of "message content" as variables that moderate the effectiveness of comparative ads provides a different perspective which may prove to be more appropriate in different advertising conditions, such as a lowimage and low-share brand compared to a high-image and low-share brand or a new product compared to a high-image and high-share brand. The manuscript proceeds as follows. First, we discuss our conceptual model and develop hypotheses. Second, we discuss the procedure and results of an experiment conducted to test the hypotheses. Finally, we discuss the implications of our findings, state the limitations in our approach and provide directions for future research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Conceptual model and hypotheses</head><p>2.1. Conceptual model <ref type="figure" coords="1,313.69,596.95,18.56,7.54" target="#fig_0">Fig. 1</ref> represents the framework of this study. This model proposes that ad format (WBC vs. ABC), attribute relevance (relevant vs. irrelevant), and brand image (high-image brand vs. low-image brand) are antecedents of ad believability. Based on the Characterization-Correction Model <ref type="bibr" coords="1,365.73,638.79,50.06,7.54" target="#b7">(Gilbert, 1989)</ref>, it is proposed that the ad format will interact with brand image and attribute relevance to influence ad believability. For example, consumers might perceive ABC ads by lowimage brands as less believable than ABC ads by high-image brands. Consequently, an ABC ad by a low-image brand might result in more counterarguments because of the ad's lower believability. The model also proposes that the effects of ad format, brand image, and attribute relevance on attitude toward the advertisement (A Ad ), attitude toward the brand (A Br ), and purchase intention will be mediated by ad believability <ref type="bibr" coords="2,89.57,225.17,47.32,7.54" target="#b10">Droge (1989)</ref>. In the next sub-sections we discuss the antecedent variables.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Ad format</head><p>Comparative advertising compares at least two brands explicitly or implicitly in the same generic product or service class on specific attributes (e.g., "Tylenol" vs. "Advil" on faster pain relief; <ref type="bibr" coords="2,267.37,298.36,26.19,7.54;2,42.52,308.84,40.63,7.54" target="#b8">Grewal et al., 1997)</ref>. While this general definition is widely accepted, it does not include within-brand-comparison (WBC) where two products with the same brand name in the same category are compared to one another. Comparison of a new or extended brand (i.e., "Extra Strength Tylenol") to an original brand (i.e., "Regular Strength Tylenol") or a replaced brand with the same name is a common and distinct form of comparative advertising <ref type="bibr" coords="2,193.49,371.60,43.57,7.54" target="#b12">(King, 1990)</ref>. While WBC is used often by advertisers, it has not received much attention from researchers.</p><p>Typically, WBC ads attempt to differentiate a new product from an old one on certain attributes (to show the improvements) while trying to transfer the image associated with the original brand name. Introducing new products based on an existing brand has been labeled as "brand extension" <ref type="bibr" coords="2,127.05,444.79,90.74,7.54" target="#b1">(Aaker and Keller, 1990</ref>) and although the related literature deals with product-based determinants of extension effectiveness (see <ref type="bibr" coords="2,108.40,465.71,95.40,7.54" target="#b20">Völckner and Sattler, 2006</ref> for a recent review), our focus is on the effectiveness of one mode (WBC ads) in which marketers can communicate such extension. ABC ads, on the other hand, involve either association (to elevate the image of the advertised brand) or differentiation (to promote a superior attribute) of a brand from the competition. Prior research on across-brand comparisons indicates that consumers perceive comparative ads to be more informative, but less friendly and believable <ref type="bibr" coords="2,242.07,538.96,51.51,7.54" target="#b10">(Droge, 1989;</ref><ref type="bibr" coords="2,42.52,549.44,75.97,7.54" target="#b13">Muehling et al., 1990)</ref>. We believe consumers' cognitive, affective, and behavioral responses might be different when they are exposed to a WBC ad. Our model proposes that ad believability will be affected by the interaction among ad format, brand image and attribute relevance, variables that are discussed next.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Brand image</head><p>Existing research suggests that effectiveness of comparative advertising may be moderated by relative market position (e.g., market share) of sponsor and comparison brands. Findings indicate that low-share brands are more likely to benefit from comparative advertising than high-share brands <ref type="bibr" coords="2,178.01,674.96,115.57,7.54" target="#b15">(Pechmann and Stewart, 1990;</ref><ref type="bibr" coords="2,42.52,685.39,71.01,7.54" target="#b8">Grewal et al., 1997)</ref>. While this finding has important implications, there are instances where two low-share brands (i.e., Lexus vs. Mercedes) or two high-share brands (i.e., Children's Tylenol vs. Children's Motrin) are compared with each other. In both instances, the compared brands have similar market share but dissimilar brand images. Also, there seems to be an inherent problem associated with using market share to judge the effectiveness of comparative ads. Market share information is easy to obtain but difficult to interpret. <ref type="bibr" coords="2,310.51,78.72,48.17,7.54" target="#b0">Aaker (1996)</ref> indicates that: "There can be measurement problems with market share. The product class and competitor set need to be defined, and sometimes this is difficult. Should store brands be included? What about brands at a different price point? Is the relevant competitor set compact cars, non-luxury cars, import cars, or all cars? Should Miller Lite be compared to all beers, all premium beers, or all light beers? Further, the relevant competitor set can change, creating interpretation problems (p. 116)."</p><p>Given the difficulties associated with the interpretation of market share, the current study reexamines the effectiveness of comparative ads within the context of brand image. We conceptualize brand image as a composite of perceived quality and esteem dimensions. Perceived quality is the customer's judgment of the overall excellence or superiority of a brand (with respect to its intended purpose) relative to alternative brand(s) <ref type="bibr" coords="2,394.64,256.57,86.20,7.54" target="#b14">(Netemeyer et al., 2004)</ref>. Esteem is the degree to which the brand is held in high regard, is trusted by, and respected by customers, relative to other brands in its class/product category <ref type="bibr" coords="2,310.51,287.92,90.34,7.54" target="#b14">(Netemeyer et al., 2004)</ref>. We propose that brand image influences consumers' perception of believability, and therefore the effectiveness of the two ad formats (WBC vs. ABC).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Attribute relevance</head><p>Past research on comparative ads has examined the moderating effect of "message content" and has generally found that the credibility of comparative ads might be enhanced by including factual (objective) product-related information rather than evaluative (subjective) product-related information <ref type="bibr" coords="2,484.32,392.52,77.22,7.54" target="#b8">(Grewal et al., 1997;</ref><ref type="bibr" coords="2,310.50,403.01,89.98,7.54" target="#b5">Edell and Staelin, 1983)</ref>. However, such research has focused on comparison based on product attributes that are relevant to product quality. Attempts to differentiate brands based on irrelevant attributes, that is, attributes that are not relevant to product quality, appear to be common in the marketplace <ref type="bibr" coords="2,477.65,444.85,83.90,7.54;2,310.50,455.28,19.92,7.54" target="#b11">(Kalra and Goodstein, 1998)</ref>. For instance, Procter and Gamble differentiates instant Folger's coffee based on "flaked coffee crystals" (having greater surface area), an attribute that is irrelevant to coffee quality. <ref type="bibr" coords="2,310.51,486.69,95.39,7.54" target="#b4">Carpenter et al. (1994)</ref> showed that brands can successfully differentiate themselves with the help of irrelevant attributes, even when consumers are informed about the attributes' irrelevance to product quality. In two choice-based experiments, these authors showed that consumer preference for a brand over competing brands is higher when the brand differentiates itself based on an irrelevant attribute, compared to when brand that does not differentiate itself on that attribute, ceteris paribus. In the present research we are interested in the mode in which attribute-based differentiation can be communicated to consumers. Specifically, we explore the relative effectiveness of the two ad formats ABC and WBC, subject to attribute relevance and image of the sponsor brand. As we argue subsequently, ABC ads using irrelevant attributes are less effective than WBC ads regardless of sponsor brand image; however, ABC ads using relevant attributes are less effective than WBC ads only when the sponsor brand has a low image.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Hypotheses</head><p>This study employs the Persuasion Knowledge Model and the Characterization-Correction Model to examine the relationships among comparative ad format, brand image, and attribute relevance and the effect of these variables on attitude toward the ad, attitude toward the brand, and purchase intention. The Persuasion Knowledge Model and the Characterization-Correction Model indicate that the different formats might result in different levels of elaboration which in turn affect consumer attitudes and behavioral intentions. Next, these models are briefly explained followed by hypotheses development.</p><p>The Persuasion Knowledge Model presumes that people's knowledge about persuasion, the marketer, and the topic of the persuasion attempt, plays a critical role in determining the effects of advertising on consumers' attitudes and behavior <ref type="bibr" coords="3,178.75,131.06,102.21,7.54" target="#b6">(Friestad and Wright, 1994)</ref>. According to this model, consumers have a tendency to assess the effectiveness and appropriateness of the persuasion tactic. Appropriateness refers to whether consumers judge the tactic to be morally/ normatively acceptable <ref type="bibr" coords="3,120.81,172.89,99.56,7.54" target="#b6">(Friestad and Wright, 1994)</ref>. Judgments such as fairness and manipulativeness of persuasive tactics influence the coping behavior of consumers. This coping behavior determines believability of the ad claims and consequently, consumer behavioral responses.</p><p>The Characterization-Correction Model <ref type="bibr" coords="3,190.83,225.16,53.32,7.54" target="#b7">(Gilbert, 1989)</ref> posits that people tend to engage in a two-stage process when exposed to information. The first stage is the characterization stage which requires little effortful processing and normally results in acceptance of the message claims. If people choose to engage in further elaborate processing they will enter the correction stage where they assess if they should discount the claims <ref type="bibr" coords="3,154.15,287.92,62.74,7.54" target="#b18">(Shiv et al., 1997)</ref>. In the context of comparative advertisements, the type of sponsor brand and/or the information content of the ad may influence consumers' intensity of information processing and therefore, the probability of entering the correction stage. Consequently, in certain situations consumers are likely to discount the advertised claims leading to lower effectiveness of such claims.</p><p>Effects of Ad Format, Brand Image, and Attribute Relevance: Generally, ABC ads are perceived as less friendly and believable <ref type="bibr" coords="3,33.73,382.09,52.57,7.54" target="#b10">(Droge, 1989;</ref><ref type="bibr" coords="3,91.44,382.09,86.61,7.54" target="#b13">Muehling et al., 1990)</ref>. Based on the Persuasion Knowledge Model we posit that in general, consumers are likely to be more skeptical of an ABC ad than a WBC ad. An across-brand comparison might be seen by consumers as unfair or manipulative; whereas a within-brand comparison might be viewed as a legitimate attempt by the advertiser to differentiate the new product from the old. Further, we posit that when relevant attributes are used, the difference in believability of ABC and WBC ads would likely be stronger when the sponsor brand has a low image (versus a high image). When relevant attributes are used for comparison, consumers might use additional cues such as the image of the advertised brand to make evaluative judgments. Use of an ABC ad where a low-image sponsor brand compares itself to a high-image brand (the likely situation) may prompt consumers to enter the correction stage whence they discount such an ad. Consequently, an ABC ad by a lowimage sponsor brand would be less believable (hence would result in lower levels of A Ad , A Br , and purchase intention) than a WBC ad where the same brand engages in self-comparison. Conversely, consumers might be less skeptical of an ABC ad where a high-image brand compares itself to another high-image brand (the likely situation) resulting in possibly comparable believability of ABC and WBC ads by a high-image brand. Consequently, consumers are expected to have comparable levels of A Ad , A Br , and purchase intention across ABC and WBC ads with relevant attributes when the sponsor brand has a high image.</p><p>When comparative ads involve irrelevant attributes, one possibility is that consumers will question the diagnostic value of the information and both ABC and WBC ads would be equally (in)effective regardless of the image of the sponsoring brand. That is, noticing that the ad uses an irrelevant attribute, consumers would discount the ad without processing it any further. However, this effect is unlikely given the past finding that consumers accord considerable importance to irrelevant attributes in judging marketer claims involving such attributes <ref type="bibr" coords="3,73.58,727.29,89.29,7.54" target="#b4">(Carpenter et al., 1994)</ref>. The second, and more likely, possibility is that regardless of the sponsor brand's image an ABC ad involving irrelevant attributes propels consumers to the correction stage whereby they sufficiently elaborate to discount the ad. This position is consistent with <ref type="bibr" coords="3,399.35,78.72,100.33,7.54" target="#b11">Kalra and Goodstein (1998)</ref> who found no evidence that meaningless across-brand differentiation increases brand equity when consumers devote considerable processing capacity. We posit that consumers are less likely to enter the correction stage for WBC ads because, as noted before, in the absence of a different comparison brand, consumers' negative perceptions associated with across-brand comparison are likely to be absent. This position is consistent with <ref type="bibr" coords="3,404.45,151.97,109.45,7.54" target="#b11">Kalra and Goodstein's (1998)</ref> argument that meaningless attributes might have an effect on brand equity when the level of elaboration is low. Consequently, ABC ads with irrelevant attributes would be less believable (and hence would result in lower levels of A Ad , A Br , and purchase intention) than WBC ads, regardless of the sponsor brand's image.</p><p>Hence, we hypothesize:</p><p>H1. ABC ads will result in lower believability than WBC ads and this effect will be stronger for low-image compared to high-image brands when the ads use relevant attributes. When irrelevant attributes are used, ABC ads will result in lower believability than WBC ads regardless of the image of the brand.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>H2</head><p>. ABC ads will result in: (a) lower attitude towards the ad (A Ad ), (b) lower attitude toward the brand (A Br ) and (c) lower purchase intention (PI) than WBC ads and this effect will be stronger for lowimage compared to high-image brands when the ads use relevant attributes. When irrelevant attributes are used, ABC ads will result in lower A Ad , lower A Br and PI than WBC ads regardless of the image of the brand.</p><p>H3. Ad believability will mediate the effect of the independent variables on:</p><p>a. Attitude toward the Ad. b. Attitude toward the brand. c. Purchase Intention.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Methodology</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Study design and procedure</head><p>We conducted a 2 (Ad Format: Across-Brand Comparison; Within-Brand Comparison) × 2 (Brand Image: Low; High) × 2 (Attribute Relevance: Relevant; Irrelevant) between-subjects experiment. Choice of product (toothpaste), sponsor brand and sub-brand names (Mentadent Multi Action Plus for the high-image brand and Pepsodent Multi Action Plus for the low-image brand), comparison brand and sub-brand name (Crest Multi Care Plus for both images), and attributes ("Whitening action" and "ADA approval" for the relevant attributes; "Herbal ingredient" and "color" for the irrelevant attributes) was based on a series of pretests. Respondents were exposed to a mock print ad of a brand of toothpaste. Eight different full-page, black-and-white advertisements with identical lay-out were prepared. Half of these were for "New Mentadent Multi Action Plus," and other half for "New Pepsodent Multi Action Plus." The brand name appeared at the top one third of the ad followed by a main headline "We are better than ever!" in all of the eight advertisements. The main headline was followed by a second headline "Why should you choose New ____________ Multi Action Plus the next time you shop for toothpaste?" in the WBC condition, and "Why should you choose New ___________ Multi Action Plus instead of Crest Multi Care Plus?" in the ABC condition.</p><p>In the middle one-third of the ad, a picture of the advertised toothpaste was placed followed by two attribute ratings. Half of the respondents were exposed to only two relevant attributes, while the other half were exposed to only two irrelevant attributes. Attributes that were used in the ads are "Whitening action" (relevant), "ADA approval" (relevant), "Herbal ingredient" (irrelevant), and "Color" (irrelevant). The advertisement ended with the tag line "____ Recommended by Dentists," in the bottom one-third section, which was followed by information about a rating scale of the attributes and the company that developed the rating scale. After studying the ad, subjects responded to a questionnaire containing measures related to the dependent variables, manipulation checks, assumption checks, and demographics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Sample description</head><p>The sample consisted of two hundred sixteen business students from two large southern universities. Thirty respondents were dropped because of missing manipulation check questions resulting in a final sample size of 186 (13 subjects missed the ad format manipulation check while 17 missed the attribute relevance manipulation check). Of the 186 respondents, 88 were male and 98 were female. The respondents' age ranged from 18 to 40 while 92.5% (172) of them were 18-23 years of age. Subjects were randomly assigned to the eight cells. Cell sizes ranged from 18 to 26.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Measures</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.1.">Ad believability</head><p>Ad believability was measured with a scale containing four statements (7-point "strongly disagree/strongly agree" format), and one question (7-point "very unlikely/very likely" format). The four items were: "The claims in the ad are true," "I believe the claims in the ad," "The ad is sincere," and "I think the ad is honest." The question was "How likely is it that New ______________ is a better toothpaste than ___________?" Coefficient alpha was .90 with inter-item correlations ranging from .47 to .82.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.2.">Attitude toward the Ad (A Ad )</head><p>A Ad was measured with a semantic differential scale of four sevenpoint items anchored by "bad/good," "unappealing/appealing," "not likable/likable," and "not interesting/interesting." Coefficient alpha was .89 and inter-item correlations ranged between .60 and .75.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.3.">Attitude toward the Brand (A Br )</head><p>Four seven-point items anchored by "strongly disagree/strongly agree" were used. The items were: "Buying the advertised __________ is a good decision," "I think the advertised __________ is a satisfactory brand," "I think ____________ depicted in the ad has a lot of beneficial characteristics," and "I have a favorable opinion of the advertised __________." Coefficient alpha was .85 and inter-item correlations ranged between .45 and .70.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.4.">Purchase intention</head><p>Three items anchored by seven-point "strongly disagree/strongly agree" were used. The items were: "It is very likely that I will buy the advertised ______________," "I will purchase the advertised _______________ next time I need toothpaste," and "I will definitely try _______________ depicted in the advertisement." Coefficient alpha was .90 and inter-item correlations ranged from .69 to .79.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Manipulation checks</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.1.">Ad format</head><p>This manipulation was checked by asking respondents to indicate if the ad was a comparative ad using WBC or ABC strategy, or a noncomparative ad. Respondents were instructed to respond to this question without referring to the advertisement. Two hundred three out of the 216 respondents (94%) correctly answered this manipulation check question. This level of correct response was more than by chance (χ 2 = 167.13; p b 0.001).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.2.">Attribute relevance</head><p>Respondents rated the relevance of seven different toothpaste attributes (three filler attributes plus the four used in the study) on a seven-point scale anchored by "Highly Irrelevant" to "Highly Relevant." Seventeen respondents missed this manipulation check and were eliminated from further analysis. Subjects evaluated the each of the attributes whitening action (M = 5.89) and ADA approval (M = 5.96), to have significantly higher relevance than each of the attributes herbal ingredients (M = 2.83) and color (M = 2.26; pvalues for the four pairwise comparisons were all b.01). These results indicate that the manipulation of attribute relevance was adequate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.3.">Brand image</head><p>Brand image was assessed with a eight items tapping the two dimensions of brand image (perceived quality and esteem). For the perceived quality dimension, coefficient alpha was .93 with inter-item correlations ranging between .72 and .86. For the esteem dimension, coefficient alpha was .96 with inter-item correlations ranging between .82 and .90. Overall, independent sample t-tests confirmed that Mentadent had a significantly higher image than Pepsodent for the quality dimension (M Mentadent = 4.30; M Pepsodent = 2.72; t = 8.95; p b .001) as well as for the esteem dimension (M Mentadent = 4.29; M Pepsodent = 2.51; t = 9.06; p b .001). Further, pairwise comparisons across individual cells revealed that mean for the quality and esteem dimension for Mentadent for each of the four experimental cells involving this brand was significantly higher than the means for Pepsodent for each of the four cells involving this brand (all p-values b .01). These results indicate that manipulation of brand image was adequate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Assumption check</head><p>To test our theoretical assumptions, subjects' cognitive responses following their exposure to the ad were coded into three categories by one researcher and an independent judge. The three categories were:</p><p>(1) support arguments about the claims; (2) counterarguments about the claims; and (3) other thoughts.</p><p>Coding reliability was measured by the method recommended by <ref type="bibr" coords="4,310.51,497.18,47.24,7.54" target="#b9">Holsti (1969)</ref>. The coefficient of reliability was calculated by multiplying the number of coding decisions agreed upon by both judges by two and dividing it by the total number of coding decisions made by each judge. The coefficient of reliability based on this formula was 0.82 suggesting an acceptable level of reliability.</p><p>We argued that subjects would react negatively upon exposure to irrelevant attributes and consequently enter the correction stage while processing the ad. Indeed, use of irrelevant attributes resulted in more counterarguments (M = 1.36) than use of relevant attributes (M = .62; t = 3.84; p b .001) indicating support for this assumption.</p><p>Further, we argued that consumers are more likely to enter the correction stage when a low-image sponsor brand attempts acrossbrand comparison with relevant attributes than when the same brand attempts within-brand comparison and also that this difference would be less or would disappear for a high-image sponsor brand. Finally, we argued that when irrelevant attributes are used, people are more likely to enter the correction stage for ABC ads than for WBC ads, regardless of the image of the sponsor brand. A full-factorial ANOVA indicated that the three-way interaction between ad format, brand image and attribute relevance was significant (F 1, 178 = 9.27; p b .01). Further, a two-factor ANOVA indicated that when the ads used relevant attributes, the interaction between ad format and brand image was significant (F 1, 91 = 6.54; p b .01). Simple mean comparisons revealed that this interaction was due to respondents having a significantly higher number of counterarguments to an ABC ad (M = 1.46) than to a WBC ad (M = .24; t = 3.65; p b .001) when brand image was low but not when brand image was high (M ABC Ad = .27; M WBC Ad = .44; t = .40; p b .70). In contrast, a separate ANOVA indicated that when the ads used irrelevant attributes, the interaction between ad format and brand image was not significant (F 1, 90 = 4.48; p b .09) and that overall, respondents had significantly more counterarguments to an ABC ad than to a WBC ad (M ABC Ad = 1.66; M WBC Ad = 1.10; t = 2.19; p b .03). These findings indicate support for our assumptions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Hypotheses test</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.1.">Hypotheses related to ad believability</head><p>Hypothesis 1 posited that ABC ads will result in lower believability than WBC ads and the effect will be greater for low-image compared to high-image brands when the ads use relevant attributes. Additionally, H1 posited that ABC ads will result in lower believability than WBC ads regardless of the image of the brand when irrelevant attributes are used.</p><p>A full-factorial ANOVA was conducted to test H1. The three-way interaction was significant (F 1, 178 = 5.14, p b 0.03). Additional analyses showed that the two-way interaction between the ad format and the brand image was significant in the relevant attributes condition (F 1, 88 = 14.98, p b 0.001), but not in the irrelevant attributes condition (F 1, 90 = 0.20, p b 0.66). Mean comparisons (see <ref type="table" coords="5,223.48,423.93,28.16,7.54" target="#tab_0">Table 1</ref>) in the relevant attribute condition showed that ABC ads (M = 3.27) were less believable than WBC ads (M = 4.60; t = 5.02, p b 0.001) when those ads were used by a low-image brand. Also, there was no significant difference (t = −0.80, p b 0.43) in ad believability between WBC ads (M = 4.80) and ABC ads (mean = 5.05) when those ads were used by a high-image brand. Finally, in the irrelevant attribute condition (see <ref type="table" coords="5,92.41,497.18,27.45,7.54" target="#tab_1">Table 2</ref>) ABC ads (M = 3.67) were less believable than WBC ads (mean = 4.32; t = 2.87, p b .01). Overall, these results support H1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.2.">Hypotheses related to A Ad , A Br , and purchase intention</head><p>Preliminary analyses were conducted using a full-factorial MAN-OVA since the three dependent variables attitude toward the ad (A Ad ), attitude toward the brand (A Br ), and purchase intention (PI) were highly correlated with each other (correlation coefficients ranged between .58 and .67; all p's b .001). As indicated in <ref type="table" coords="5,238.51,591.29,26.74,7.54" target="#tab_2">Table 3</ref>, the multivariate three-way interaction was significant (Wilks' Lambda = .94; F 3, 176 =3.94; p b .01) and was attributable to the univariate three-way interaction for A Ad (F 1, 178 = 4.68; p b .03), A Br (F 1, 178 = 4.63; p b .03), and PI (F 1, 178 = 11.45; p b .01). Further analyses revealed that when the attributes were relevant, the multivariate interaction between type of ad and brand image was significant (Wilks' Lambda = .86; F 3, 86 = 4.85; p b .01) and was attributable to univariate two-way interactions for A Ad (F 1, 88 = 6.63; p b .01), A Br (F 1, 88 = 9.79; p b .01), and PI (F 1, 88 = 9.87; p b .01). However, when the attributes were irrelevant, the multivariate interaction between type of ad and brand image was not significant (Wilks' Lambda = .96; F 3, 88 = 1.09; p b .36). The univariate two-way interactions also were not significant for A Ad (F 1, 90 = .17; p b .68), A Br (F 1, 90 = .09; p b .76), and PI (F 1, 90 = 2.57; p b .11). These results indicate overall support for H2.</p><p>H2a-c were tested through specific mean comparisons. Hypothesis 2a posited that ABC ads will result in lower A Ad than WBC ads and the effect will be stronger for low-image compared to high-image brands when the ads use relevant attributes. Additionally, H2a posited that ABC will result in lower A Ad than WBC ads regardless of the image of the brand when irrelevant attributes are used. Specific mean comparisons (see <ref type="table" coords="5,371.06,340.25,27.08,7.54" target="#tab_0">Table 1</ref>) showed that in the relevant attributes condition, there was a marginally significant difference (t = 1.94, p b 0.06) in A Ad between WBC ads (M = 3.13) and ABC ads (=2.56; mean difference = .57) when those ads were used by a low-image brand. Additionally, for high-image brands, there was no difference (t = −1.80, p b 0.08) in A Ad between WBC ads (M = 3.91) and ABC ads (M = 4.59) (mean difference = − .68). Finally, in the irrelevant attributes condition (see <ref type="table" coords="5,398.67,413.44,27.08,7.54" target="#tab_1">Table 2</ref>) ABC ads (M = 2.63) resulted in lower A Ad than WBC ads (M = 3.10; t = 2.08, p b .04). Overall, support was found for H2a.</p><p>Hypotheses 2b and c posited that ABC ads will result in lower A Br and purchase intention than WBC ads and the effect will be greater for low-image compared to high-image brands when the ads use relevant attributes. Additionally, ABC will result in lower A Br and PI than WBC ads regardless of the image of the brand when irrelevant attributes are used.</p><p>In the relevant attributes condition, mean comparisons (see <ref type="table" coords="5,524.52,507.61,24.28,7.54" target="#tab_0">Table 1</ref>) show a significant difference (t =3.25, p b 0.01) in the A Br between WBC ads (M = 4.42) and ABC ads (M = 3.52) when those ads were used by a low-image brand. However, there was no significant difference (t = −1.01, p b 0.32) in the A Br between WBC ads (M = 5.08) and ABC ads (M = 5.32) when those ads were used by a high-image brand. In the irrelevant attributes condition (see <ref type="table" coords="5,425.03,570.37,24.11,7.54" target="#tab_1">Table 2</ref>) ABC ads (M =3.37) resulted in lower A Br than WBC ads (M =4.29; t =3.81, p b .001). For purchase intention, in the relevant attributes condition, there was a significant difference (t =3.43, p b 0.001) between WBC ads (M = 3.00) and ABC ads (M = 2.03) for low-image brand. There was no significant difference (t = −1.50, p b 0.14) in the purchase intention of the respondents who were exposed to WBC ads (mean= 3.67) and ABC ads (M =4.29) when those ads were used by a high-image brand. In the irrelevant attributes condition (see <ref type="table" coords="5,356.20,654.05,25.47,7.54" target="#tab_1">Table 2</ref>) ABC ads (M = 2.33) resulted in lower PI than WBC ads (M =2.99; t =2.59, p b .001). Hence H2b and H2c were supported.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.3.">Hypotheses related to mediation by ad believability</head><p>Hypotheses 3a-c posited that ad believability would mediate the effect of independent variables on attitude toward the ad, attitude toward the brand, and purchase intention. These mediation hypotheses were examined by conducting appropriate analyses (Baron and   <ref type="bibr" coords="6,42.52,225.17,46.43,7.54" target="#b2">Kenny, 1986)</ref>. First, test of H1 showed that the three independent variables had a joint effect on believability, the mediating variable (F 1, 178 = 5.14, p b 0.03). Second, the full-factorial MANOVA and associated ANOVAs reported earlier <ref type="table" coords="6,173.99,256.52,32.91,7.54" target="#tab_2">(Table 3)</ref> showed that the multivariate three-way interaction was significant (Wilks' Lambda = .94; F 3, 176 = 3.94; p b .01) and that the three independent variables had joint effects on attitude toward the ad (H2a: F 1, 178 = 4.68, p b 0.03), attitude toward the brand (H2b: F 1, 178 = 4.63, p b 0.03) and purchase intention (H2c: F 1, 178 = 11.45, p b 0.001). Third, correlation analysis showed significant relationships between believability and attitude toward the ad (r = .45; p b .001); between believability and attitude toward the brand (r = .62; p b .001); and between believability and purchase intention (r = .56; p b .001). Finally, a MANCOVA was conducted to test the mediating effect of ad believability on attitude toward the ad, attitude toward the brand and purchase intention. The MANCOVA showed complete mediation of the three-way interaction effect (Wilks' Lambda for the interaction term = .96; F 3, 175 = 2.37; p b .07; Wilks' Lambda for ad believability = .73; F 3, 175 = 21.28; p b .001). The univariate results showed partial mediation for purchase intention (F 1, 177 = 7.00, p b 0.01), but complete mediation for attitude toward the ad (F 1, 177 = 2.42, p b 0.12) and attitude toward the brand (F 1, 177 = 1.47, p b 0.23). Overall, support was found for H3a-c.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Discussion</head><p>Comparative advertising continues to be a popular technique for promoting products and services. Past research has primarily investigated effectiveness of comparative ads vis-à-vis noncomparative ads and boundary conditions thereof <ref type="bibr" coords="6,200.18,518.04,76.57,7.54" target="#b8">(Grewal et al., 1997)</ref> and such research has focused on ads that compare brands of competing firms, termed as ABC ads in the present research. In the present research we have identified yet another popular form of comparative ads where two brands of the same firm are compared in the same ad, termed as WBC ads. WBC ads are particularly common when a marketer attempts to phase out an existing version of a brand by replacing it with a new version (when Tylenol promotes "Extra Strength Tylenol" over "Regular Strength Tylenol"). Referring to the type of comparative ad as ad format, in the present research we have investigated the effects of ad format on important consumer outcomes and boundary conditions thereof.</p><p>In general, one might expect that consumers view across-brand comparison as a persuasive tactic and they cope by discounting such attempts to persuasion <ref type="bibr" coords="6,127.95,664.48,100.43,7.54" target="#b6">(Friestad and Wright, 1994)</ref> whereas comparison to an earlier version of the brand (i.e., a within-brand comparison) is seen to be a plausible attempt to better market performance. Consequently, ABC ads are likely to be always discounted vis-à-vis WBC ads. However, we have argued and empirically demonstrated that the relative effectiveness of the two ad formats depends on brand image of the sponsor brand and relevance of the attribute used for comparison. Our results show that when relevant attributes are used, ABC ads are less effective than WBC ads owing to lower ad believability when the sponsor brand has a low image but not when the sponsor brand has a high image. However, when irrelevant attributes are used, ABC ads are less effective regardless of the image of the sponsor brand.</p><p>We explained these effects in terms of the Characterization-Correction Model <ref type="bibr" coords="6,376.27,287.92,47.57,7.54" target="#b7">(Gilbert, 1989</ref>). An across-brand comparison based on a relevant attribute by a low-image sponsor brand might motivate consumers to process the ad more elaborately whereby they enter the correction stage of the ad evaluation process <ref type="bibr" coords="6,473.61,319.27,53.09,7.54" target="#b7">(Gilbert, 1989)</ref> and infer the claims to be not so believable, given the low image of the sponsor brand. A within-brand comparison based on a relevant attribute by a low-image brand is likely plausible at face value as it seems to be an effort to the better the brand and does not merit further elaboration. Consequently, ABC ads using relevant attributes are less effective than WBC ads when sponsor brand image is low. When sponsor brand image is high and comparison is based on relevant attributes, consumers likely do not go beyond the characterization stage (as the ad claims seem plausible at face value) and hence the ad formats are equally effective. In case of across-brand comparison based on irrelevant attributes, consumers likely go into the correction stage whereby an ABC ad is discounted, regardless of the image of the sponsor brand. However, a WBC ad based on an irrelevant attribute is once again accepted at face value and is hence more plausible than an ABC ad, regardless of brand image.</p><p>Our findings with respect to irrelevant attributes have implications for past research on "meaningless differentiation", that is, product differentiation based on attributes that are not relevant to a product's performance <ref type="bibr" coords="6,361.25,518.03,89.43,7.54" target="#b4">(Carpenter et al., 1994;</ref><ref type="bibr" coords="6,455.07,518.03,102.67,7.54" target="#b11">Kalra and Goodstein, 1998)</ref>. <ref type="bibr" coords="6,310.51,528.52,83.03,7.54" target="#b4">Carpenter et al. (1994)</ref> found that differentiation based on irrelevant attributes is effective, even when consumers are aware of the attribute's irrelevance. In two choice-based experiments, these authors showed that consumers are likely to prefer a brand that attempts to differentiate itself based on an irrelevant attribute more over competing brands than a brand that does not differentiate itself on that attribute, ceteris paribus. Our research shows that so far as selecting a communication mode for such differentiation is concerned, marketers can more successfully communicate meaningless differentiation if they use ads that compare within brands, perhaps because consumers accept such a mode of communication at face value, without elaborately processing it. Our research indicates that elaborate processing leads to discounting of meaningless acrossbrand differentiation and in this regard, our findings echo with the past finding that meaningless differentiation is likely less effective under more elaborative processing <ref type="bibr" coords="6,439.54,685.40,100.18,7.54" target="#b11">(Kalra and Goodstein, 1998)</ref>.</p><p>One key contribution of the present research is the focus on WBC ads, an ad format that has not received academic attention thus far. A second key contribution is the inclusion of sponsor brand image, rather than sponsor brand's market share <ref type="bibr" coords="6,435.45,727.24,107.65,7.54" target="#b16">(Pechmann and Stewart, 1991)</ref>, as a possible factor delimiting the effectiveness of comparative ads. Market share is not only difficult to measure <ref type="bibr" coords="7,186.80,57.81,51.39,7.54" target="#b0">(Aaker, 1996)</ref> but is also something that consumers might not be accurately informed about. Brand image of the sponsor brand, on the other hand, appears to be a construct that is more readily accessible to consumers for purposes of evaluation and hence constitutes a more potent boundary condition. Our research further indicates that attribute relevance acts as a motivational factor for comparative ad evaluation. Finally, the present research demonstrates that so far as evaluation of comparative ads is concerned, ad believability mediates the effects of ad and brand characteristics on such important consumer outcomes as attitude toward the ad, attitude toward the sponsor brand and purchase intention. In other words, in assessing comparative ads consumers' primary concern is the believability of the claims which in turn acts as a "gateway" to consumer outcomes that are practically relevant to the marketer. Our research has practical implications. Brand extension is common in today's markets. Possibly, sponsor brands with high image can leverage the advantage of both types of comparative ads when the comparison is based on an attribute that is considered by consumers to be relevant to their decision-making. When such brands use irrelevant attributes for comparison, they cannot hope to use ABC ads as effectively as they might use WBC ads. For sponsor brands with low image, however, ABC ads are discounted more than WBC ads. The clear recommendation for low-image sponsor brands is that they should be careful with spending resources on ABC ads as they are not likely to benefit much out of them. Finally, we recommend that marketers do all that they can to enhance believability of comparative ads as this seems to be the primary consumer concern. To this end, using such tools as endorsement or certification by agencies might help them achieve the desired goals from comparative ads.</p><p>One limitation of the present approach is the absence of a control condition (in the form of noncomparative ads) from our experiment. Without such a control condition it was not possible for us to know if WBC ads were effective at all. Future research should address this discrepancy. Since consumers seem to discount ABC ads by low-image sponsor brands, even truthful comparison would likely be discounted. Future research should investigate factors that might help low-image sponsor brands overcome the disparaging effect of using ABC ads that we observed in the present study.</p><p>The characterization-correction model <ref type="bibr" coords="7,194.57,465.77,55.25,7.54" target="#b7">(Gilbert, 1989)</ref> suggests that people critically evaluate a message when they sufficiently elaborate on the message. The model does not prescribe correlates for elaboration and it is up to researchers to investigate possible correlates. In this research, we suggested that attribute relevance might be a motivating factor for elaboration where evaluation of comparative ads is concerned. Future research should seek to identify other possible correlates such as need for cognition and consumers' trait-based skepticism. It is probable that consumers with higher need for cognition and higher trait-based skepticism more easily move to the correction stage of processing thereby discounting relevant attribute-based across-brand comparison by low-image sponsor brands and irrelevant attribute-based across-brand comparisons by all sponsor brands. Finally, future research should study conditions under which across-brand differentiation based on irrelevant attributes might be effective. It is possible that consumers' confidence about the attribute irrelevance plays a role. For instance, consumers who are less certain about the irrelevance of an attribute might trust an ABC ad more. Further, consumers with low trait-based skepticism might trust irrelevant attributes more, because of a likely tendency to not elaborate on comparison-based claims.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="2,148.82,177.19,38.90,6.03"><head>Fig. 1 .</head><label>1</label><figDesc>Model.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="5,33.73,58.07,519.02,90.36"><head>Table 1</head><label>1</label><figDesc>Interaction means: relevant attributes condition.</figDesc><table coords="5,33.73,81.32,519.02,67.11">WBC 
+ABC 
+WBC 
+ABC 
+
+Low image 
+Low image 
+t-values (sig.) 
+High image 
+High image 
+t-values (sig.) 
+
+Believability 
+4.60 
+3.27 
+5.02 (0.001)⁎ 
+4.80 
+5.05 
+− 0.80 (0.43) 
+A Ad 
+3.13 
+2.56 
+1.94 (0.06) 
+3.91 
+4.59 
+− 1.80 (0.08) 
+A Br 
+4.42 
+3.52 
+3.25 (0.01)⁎ 
+5.08 
+5.32 
+− 1.01 (0.32) 
+PI 
+3.00 
+2.03 
+3.43 (0.001)⁎ 
+3.67 
+4.29 
+− 1.49 (0.16) 
+
+⁎Significant at p b 0.05 level. 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="5,33.73,654.88,251.49,90.36"><head>Table 2</head><label>2</label><figDesc>Main effect means: irrelevant attributes condition.</figDesc><table coords="5,33.73,678.07,251.49,67.17">Ad format 
+Brand image 
+
+WBC 
+ABC 
+t-values (sig.) 
+High 
+Low 
+t-values (sig.) 
+
+Believability 
+4.32 
+3.67 
+2.87 (0.01)⁎ 
+4.22 
+3.77 
+1.92 (0.06) 
+A Ad 
+3.10 
+2.63 
+2.08 (0.04)⁎ 
+3.08 
+2.64 
+1.89 (0.06) 
+A Br 
+4.29 
+3.37 
+3.81 (0.001)⁎ 
+4.14 
+3.52 
+2.43 (0.02)⁎ 
+PI 
+2.99 
+2.33 
+2.59 (0.01)⁎ 
+3.03 
+2.26 
+3.08 (0.01)⁎ 
+
+⁎Significant at p b 0.05 level. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="6,42.52,58.07,517.94,148.10"><head>Table 3</head><label>3</label><figDesc>Results of full-factorial MANOVA and ANOVAs.</figDesc><table coords="6,42.52,81.32,517.94,124.86">Sources 
+MANOVA 
+ANOVA 
+
+A Ad 
+A Br 
+PI 
+df 
+
+Wilks' lambda 
+Effect size 
+F (p-value) 
+F (p-value) 
+F (p-value) 
+F (p-value) 
+
+Main effects 
+Ad Format (AF) 
+.90 
+.10 
+6.70 (.001) 
+19.17 (.001) 
+1.79 (.18) 
+6.25 (.013) 
+1 
+Brand Image (BI) 
+.75 
+.25 
+20.01 (.001) 
+42.63 (.001) 
+32.26 (.001) 
+42.32 (.001) 
+1 
+Attribute Relevance (AR) 
+.84 
+.16 
+10.87 (.001) 
+27.91 (.001) 
+18.03 (.001) 
+12.11 (.001) 
+1 
+Interaction effects 
+AF × BI 
+.98 
+.02 
+1.24 (.30) 
+2.77 (.10) 
+2.58 (.11) 
+1.37 (.24) 
+1 
+AF × AR 
+.97 
+.03 
+1.80 (.15) 
+4.69 (.03) 
+2.81 (.10) 
+2.25 (.14) 
+1 
+AR × BI 
+.96 
+.05 
+2.74 (.05) 
+3.21 (.08) 
+7.81 (.01) 
+3.46 (.07) 
+1 
+AF × BI × AR 
+.94 
+.06 
+3.94 (.01) 
+4.63 (.03) 
+4.86 (.03) 
+11.45 (.001) 
+1 
+Error df 
+176 
+178 
+178 
+178 
+Total df 
+186 
+186 
+186 
+</table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="7,301.72,191.19,251.09,6.03;7,313.68,199.13,98.50,6.03" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Measuring brand equity across products and markets. California Management</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Aaker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Review</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="102" to="122" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,207.12,251.06,6.03;7,313.68,215.11,72.44,6.03" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Consumer evaluations of brand extensions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Aaker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Keller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="27" to="41" />
+			<date type="published" when="1990-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,223.05,250.97,6.03;7,313.68,231.04,239.05,6.03;7,313.68,238.98,96.17,6.03" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The moderator-mediator variable distinction in social psychological research: conceptual, strategic, and statistical considerations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Baron</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Kenny</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pers Soc Psychol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1173" to="82" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,246.97,251.02,6.03;7,313.68,254.97,54.45,6.03" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Comparative advertising: what have we learned in two decades?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">E</forename><surname>Barry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Advert Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="19" to="29" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,262.90,251.05,6.03;7,313.68,270.90,239.03,6.03" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Meaningful brands from meaningless differentiation: the dependence on irrelevant attributes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">S</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Glazer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Nakamoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mark Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="339" to="50" />
+			<date type="published" when="1994-08" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,278.83,251.02,6.03;7,313.68,286.83,106.71,6.03" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The information processing of pictures in print advertisements</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Edell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Staelin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Consum Res</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="45" to="61" />
+			<date type="published" when="1983-06" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,294.76,251.02,6.03;7,313.68,302.76,164.82,6.03" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The persuasion knowledge model: how people cope with persuasion attempts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Friestad</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Wright</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Consum Res</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1" to="31" />
+			<date type="published" when="1994-06" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,310.75,251.07,6.03;7,313.68,318.69,239.11,6.03;7,313.68,326.68,77.43,6.03" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Thinking lightly about others: automatic components of the social inference Process</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Gilbert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Unintended Thought</title>
+		<editor>Uleman James S, Bargh John A</editor>
+		<meeting><address><addrLine>New York: Guilford</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1989" />
+			<biblScope unit="page" from="189" to="211" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,334.62,251.01,6.03;7,313.68,342.61,177.17,6.03" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Comparative versus noncomparative advertising: a meta-analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Grewal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kavonoor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">F</forename><surname>Fern</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Costley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Barnes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mark</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="1997-10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,350.61,251.02,6.03;7,313.68,358.54,67.00,6.03" xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Content Analysis for the Social Sciences and Humanities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><forename type="middle">R</forename><surname>Holsti</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1969" />
+			<publisher>Addison-Wesley</publisher>
+			<pubPlace>Reading, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,366.54,251.03,6.03;7,313.68,374.47,239.06,6.03" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Shaping the route to attitude change: central versus peripheral processing through comparative versus noncomparative advertising</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Droge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mark Res</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="193" to="204" />
+			<date type="published" when="1989-05" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,382.47,251.05,6.03;7,313.68,390.40,150.84,6.03" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The impact of advertising positioning strategies on consumer price sensitivity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kalra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Goodstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mark Res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="210" to="234" />
+			<date type="published" when="1998-05" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,398.40,251.04,6.03;7,313.68,406.39,38.39,6.03" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">RJR&apos;s ads for discount smokes to target rival full-cost brands</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">R</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wall Street J</title>
+		<imprint>
+			<date type="published" when="1990-09-06" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,414.33,251.07,6.03;7,313.68,422.32,153.55,6.03" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The impact of comparative advertising on levels of message involvement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">D</forename><surname>Muehling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Stoltman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Grossbart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Advert</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="41" to="50" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,430.26,251.04,6.03;7,313.68,438.25,239.10,6.03;7,313.68,446.25,36.76,6.03" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Developing and validating measures of facets of customer-based brand equity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">G</forename><surname>Netemeyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Krishnan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Pullig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Yagci</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Dean</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bus Res</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="209" to="233" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,454.18,251.00,6.03;7,313.68,462.18,201.71,6.03" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The effects of comparative advertising on attention, memory and purchase intentions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Pechmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Stewart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Consum Res</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="180" to="91" />
+			<date type="published" when="1990-09" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,470.11,251.10,6.03;7,313.68,478.11,113.30,6.03" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">How direct comparative ads and market share affect brand choice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Pechmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Stewart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Advert Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="47" to="55" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,486.04,251.06,6.03;7,313.68,493.94,210.88,6.38" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Comparative advertising effectiveness: practitioners&apos; perceptions versus academic research findings</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">G</forename><surname>Williams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Advert Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="22" to="37" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,502.03,251.08,6.03;7,313.68,509.97,189.97,6.03" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Factors affecting the impact of negatively versus positively framed ad messages</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Shiv</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Edell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Payne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Consum Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="285" to="94" />
+			<date type="published" when="1997-12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,517.96,251.03,6.03;7,313.68,525.90,127.64,6.03" xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Policy Statements and Guidelines for Comparative Advertising</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Tannenbaum</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1974-04" />
+		</imprint>
+	</monogr>
+	<note>American Advertising Agencies</note>
+</biblStruct>
+
+<biblStruct coords="7,301.72,533.89,251.02,6.03" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Drivers of brand extension success</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Völckner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Sattler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mark</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="18" to="34" />
+			<date type="published" when="2006-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="7,301.72,541.89,251.02,6.03;7,313.68,549.82,14.35,6.03" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Comparison advertising: problems and potential</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">L</forename><surname>Wilkie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">W</forename><surname>Farris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mark</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="7" to="15" />
+			<date type="published" when="1975" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

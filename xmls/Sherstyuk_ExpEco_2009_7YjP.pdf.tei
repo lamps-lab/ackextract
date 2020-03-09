@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A comparison of first price multi-object auctions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2009">2009</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Katerina</forename><surname>Sherstyuk</surname></persName>
+						</author>
+						<title level="a" type="main">A comparison of first price multi-object auctions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="volume">12</biblScope>
+							<biblScope unit="page" from="42" to="64"/>
+							<date type="published" when="2009">2009</date>
+						</imprint>
+					</monogr>
+					<note type="submission">Received: 20 October 2006 / Revised: 16 October 2007 / Accepted: 18 October 2007 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Multi-object auctions · Experiments JEL Classification C92 · D44</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We compare simultaneous multi-object English-type ascending price auctions with first price sealed bid auctions in private values environments with multiobject demands. Special attention is paid to the effect of closing rules on ascending auctions' outcomes. We find that simultaneous ascending auctions with the soft closing rule are the most efficient, while the sealed bid auctions generate the highest revenue. Ascending auctions with the hard closing rule display a significant amount of late bidding, resulting in the lowest among the three institutions revenue and efficiency.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"> <ref type="bibr" coords="2,51.80,56.10,95.59,8.97" target="#b0">Alsemgeest et al. 1998;</ref><ref type="bibr" coords="2,150.57,56.10,92.15,8.97" target="#b10">Kagel and Levin 2001)</ref><p>, possibilities of bidder collusion in multi-object auctions (e.g., <ref type="bibr" coords="2,163.75,68.07,124.68,8.97" target="#b12">Kwasnica and Sherstyuk 2007)</ref>, or efficient auction design in the presence of interdependencies in bidder valuations across objects (e.g., <ref type="bibr" coords="2,51.80,92.01,89.17,8.97" target="#b4">Bykowsky et al. 2000;</ref><ref type="bibr" coords="2,143.46,92.01,70.69,8.97" target="#b2">Banks et al. 2003)</ref>.</p><p>This study pursues simpler but important objectives. One is to compare efficiencies and revenue-generating properties of simultaneous multi-object first price sealed bid auctions and ascending bid English-type auctions in competitive environments. The choice of auction format and auction rules has implications for bidder behavior, and, therefore, for resulting efficiency and revenue of the auction. While auction formats other than first price sealed bid and pay-your-bid ascending English-type auctions are used in practice (e.g., <ref type="bibr" coords="2,178.11,175.80,104.00,8.97" target="#b20">Roth and Ockenfels 2002)</ref>, the formats we study are used commonly, and are often considered as competing alternatives in multi-object auction design <ref type="bibr" coords="2,111.63,199.74,77.13,8.97" target="#b7">(Goeree et al. 2006)</ref>. Multi-object simultaneous English-type auctions range from large scale government spectrum auctions <ref type="bibr" coords="2,267.97,211.71,120.57,8.97" target="#b15">(McAfee and McMillan 1996;</ref><ref type="bibr" coords="2,51.81,223.68,116.41,8.97" target="#b9">Jehiel and Moldovanu 2003)</ref>, to silent charity auctions <ref type="bibr" coords="2,282.39,223.68,101.85,8.97" target="#b8">(Isaac and Schnier 2005)</ref>, to small scale online jewelry auctions (e.g., Bidz.com). Examples of multi-object first price sealed bid auctions include many public procurement auctions <ref type="bibr" coords="2,343.16,247.62,45.40,8.97;2,51.81,259.59,73.30,8.97" target="#b14">(Lunanders and Nilsson 2004)</ref>. We therefore focus on first price sealed bid and ascending bid English-type multi-object formats. To ensure that the value structure does not give a priori advantages to one auction format over the other, we study independent private values environments with multi-object demands. Further, to ensure a competitive environment, we investigate auctions with a fairly large number of bidders per market (four). <ref type="bibr" coords="2,77.51,317.47,3.79,6.81">1</ref> For single-object auctions, <ref type="bibr" coords="2,176.58,331.43,97.44,8.97" target="#b5">Coppinger et al. (1980)</ref> have shown that first price sealed bids lead to higher prices and generate more revenue than English auctions. We check whether these findings generalize to multi-object demand environments. Such a test of robustness of relative performances of sealed bid and ascending price auctions is important since new phenomena may emerge in a multi-object environment due, for example, to the presence of transaction or complexity costs for bidders in dealing with multiple objects (e.g., <ref type="bibr" coords="2,205.56,403.25,95.41,8.97" target="#b8">Isaac and Schnier 2005)</ref>, or to possible emergence of new equilibria under certain multi-object auction formats (e.g., <ref type="bibr" coords="2,343.25,415.22,45.34,8.97;2,51.80,427.19,58.06,8.97" target="#b3">Brusco and Lopomo 2002)</ref>. <ref type="bibr" coords="2,116.99,427.19,121.97,8.97" target="#b14">Lunanders and Nilsson (2004)</ref> compare bidding behavior for multiple identical contracts in first price simultaneous, first price sequential and first price combinatorial auctions, under non-linear cost structures. Unlike Lunanders and Nilsson, we consider auctions for multiple heterogeneous goods with independent valuations. <ref type="bibr" coords="2,75.99,475.07,79.11,8.97" target="#b7">Goeree et al. (2006)</ref> compare the performances of first price simultaneous, first price sequential, simultaneous descending and simultaneous ascending auctions in various bidding environments with single-unit demands. They find that simultaneous ascending auctions are the most efficient, but at the same time they yield lower and <ref type="bibr" coords="2,51.80,540.53,3.39,6.10">1</ref> In the presence of complementarities in bidder valuations, a simultaneous ascending auction format has been argued to have an advantage over the sealed bid auction in achieving efficient aggregation of complementary objects; e.g., <ref type="bibr" coords="2,121.58,561.55,94.73,7.17" target="#b15">McAfee and McMillan (1996)</ref>. Further, while non-competitive behavior is always of a concern in multi-object settings, it has not been reported in no communication auction experiments with more than two bidders, unless a very specific valuations structure is imposed; see <ref type="bibr" coords="2,310.17,580.48,78.36,7.17;2,51.80,589.95,19.92,7.17" target="#b12">Kwasnica and Sherstyuk (2007)</ref>, and <ref type="bibr" coords="2,90.41,589.95,59.38,7.17" target="#b13">Li and Plott (2005)</ref>. See also <ref type="bibr" coords="2,183.26,589.95,54.51,7.17" target="#b11">Kwasnica (2000)</ref> and <ref type="bibr" coords="2,253.16,589.95,94.33,7.17" target="#b24">Sherstyuk and Dulatre (2007)</ref> on collusion in multi-object auctions with communication. more variable revenues than other auction formats. Unlike Goeree et al., we consider environments with multi-object demands.</p><p>The second objective of our paper is to consider effects of closing rules on ascending bid English-type auctions' outcomes. We compare ascending bid auction with the fixed auction duration, or the "hard" closing rule (AAH), and ascending bid auction with an activity-based, or "soft," closing rule (AAS). While the soft closing rule guarantees that bidding according to one's true value is an equilibrium in an English-type ascending auction, the hard closing rule guarantees that the auction ends "on time." Thus, the two formats may offer a trade-off between efficiency and time-effectiveness that are worth considering. Experimentalists have been aware of closing rule effects and have often opted for soft closing rules since early auction experiments (e.g., <ref type="bibr" coords="3,116.41,187.82,47.79,8.97" target="#b25">Smith 1964)</ref>. 2 An activity-based soft closing rule was used in recent Federal Communications Commission simultaneous multi-object ascending auctions for spectrum licenses <ref type="bibr" coords="3,143.26,211.78,123.42,8.97" target="#b15">(McAfee and McMillan 1996)</ref>. However, the differences in performances brought in by the variations in the closing rules have not been documented in detail. <ref type="bibr" coords="3,123.09,235.72,110.23,8.97" target="#b20">Roth and Ockenfels (2002)</ref> and <ref type="bibr" coords="3,254.10,235.72,110.20,8.97" target="#b19">Ockenfels and Roth (2006)</ref> bring fresh interest to the auction closing rules with their analysis of end-of-period bidding in second price internet auctions. They suggest that the hard closing rule creates strategic incentives for late bidding, and present evidence of significant differences in bidding patterns between eBay and Amazon auctions that use different ending rules. <ref type="bibr" coords="3,51.80,295.61,75.35,8.97" target="#b1">Ariely et al. (2005)</ref> support the above findings with laboratory data from second price single-object experimental auctions. Similarly to Ariely et al., we consider the effects of closing rules on experimental ascending auctions performances. However, there are two significant differences from Ariely et al. First, we focus on first price, or pay-your-bid, rather than second price, ascending auctions. 3 Pay-your-bid ascending auctions have an advantage of being more strategically transparent to bidders than second price ascending auctions, and in some cases an auctioneer may prefer to use a pay-your-bid ascending auction for this reason. Second, we focus on multi-object, rather than single-object auctions. The strategic rational of bidding late in the auctions with the hard closing rule to avoid price wars, studied in <ref type="bibr" coords="3,278.04,403.39,106.35,8.97" target="#b19">Ockenfels and Roth (2006)</ref>, 2 All non-computerized double auction experiments employed an activity-based closing rule; a typical instruction to subjects, in its relevant part, read: "This [bidding] process continues for a period of time. You will be warned in advance before the market closes and more bids will be called for before actually closing" <ref type="bibr" coords="3,80.95,463.50,98.37,7.17">(Plott and Smith 1978, p. 150)</ref>. <ref type="bibr" coords="3,185.24,463.50,42.88,7.17" target="#b26">Smith (1979)</ref> used a soft closing rule in a public good auction mechanism. Early computerized double auction software by <ref type="bibr" coords="3,243.34,472.97,51.93,7.17" target="#b27">Williams (1980)</ref> imposed a maximum auction duration, but the auction duration could be shortened through traders' unanimous vote to end trading period <ref type="bibr" coords="3,51.80,491.91,44.54,7.17">(1980, p. 241)</ref>. Multiple Unit Double Auction software by <ref type="bibr" coords="3,242.20,491.91,38.65,7.17" target="#b21">Plott (1991)</ref> allowed a choice between a hard and a soft closing rule. 3 In a first price pay-your-bid ascending auction, the current highest bid for an object is publicly displayed and becomes the current price for the object. In a second price ascending auction, the current highest bid is not publicly displayed, and the current price for the object equals to the minimum bid increment above the previous highest bid. Thus traditional English-type ascending auctions where bids are solicited "from the floor" are technically first price auctions, even though their single-object versions are theoretically equivalent to second price (Vickrey) auctions in terms of their outcomes. Second price ascending auctions have become popular relatively recently with the emergence of online auction platforms such as eBay; see <ref type="bibr" coords="3,51.80,580.48,84.54,7.17" target="#b20">Roth and Ockenfels (2002)</ref>. To complicate things, some online auctions offer bidders a choice to either bid "live," as in a pay-your-bid ascending auction, or to use a proxy bidding system and submit their maximum bids, as in a second price ascending auction. fully applies to the pay-your-bid AAH auctions (both single and multi-object). In fact, incremental bidding is not always a best response or an equilibrium strategy in the pay-your-bid ascending auctions under the hard closing rule. <ref type="bibr" coords="4,314.98,77.91,3.79,6.81">4</ref> The soft closing rule (as in AAS) eliminates incentives for late bidding. Thus we investigate whether late bidding is characteristic to AAH auctions, and whether such late bidding leads to lower prices, as compared to AAS auctions. Yet another possibility is that bidders in AAH auctions delay bidding till the last moment, and then submit bids close to those in the sealed bid auctions. If all bidders ignore the possibility of end-ofauction bids not going through, and are all risk-neutral, then each bidder's expected payoff under such strategy in AAH is equal to the payoff in the first price sealed bid auction, and therefore this strategy constitutes a (weak) equilibrium, supported by the threat of a price war if "early" out-of-equilibrium bids are observed. This gives us another reason to compare AAH ascending auctions with first price sealed bid (FPSB) auctions.</p><p>We find that, as in the single-object case, ascending bid English-type auction with the soft closing rule is more efficient but generates less revenue than first price sealed bid auction. Further, we observe significant differences in bidding dynamics and outcomes in ascending auctions with the hard and with the soft closing rules. The use of controlled laboratory environments allows us to investigate the effects of ending rules not only on timing of bids (as in <ref type="bibr" coords="4,223.70,282.26,82.58,8.97" target="#b20">Ockenfels 2002, and</ref><ref type="bibr" coords="4,369.15,282.26,19.39,8.97;4,51.80,294.15,21.45,8.97" target="#b19">Roth 2006)</ref>, but also on resulting auction revenues and efficiencies. <ref type="bibr" coords="4,298.97,294.15,76.10,8.97" target="#b1">Ariely et al. (2005)</ref> report that revenues and efficiencies were somewhat lower in the second price auction with the hard closing rules. In our experiments, AAH result in significantly lower efficiency, and more volatile and somewhat lower prices than AAS. However, the AAH do take less time to run.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Description of institutions and research hypotheses</head><p>Three multi-object auction institutions are considered: first price sealed bid auctions (FPSB), simultaneous ascending auctions with the hard closing rule (AAH), and simultaneous ascending auctions with the soft closing rule (AAS). In all three institutions, several objects are offered for sale simultaneously to a number of bidders. In 4 Following <ref type="bibr" coords="4,90.79,467.16,87.10,7.17" target="#b19">Ockenfels and Roth (2006)</ref>, consider a two-bidder auction for one object in which bidder i follows an incremental bidding strategy: he starts with submitting the lowest possible bid m for the object; then does not bid as long as bidder i is the highest bidder; otherwise bids up by a minimal increment s if the object's price is below i's value v i . If bidder j uses the same incremental bidding strategy then j 's payoff is zero whenever v j ≤ v i . If, instead, j does not bid till the very end of the auction and then bids (m + s) when i does not have time to respond to j 's bid, then j 's expected payoff is p(v j − m − s) &gt; 0, where p &gt; 0 is the probability of an end-of-period-bid going through. Hence, j 's best response may be not to bid until late. In general, if bidder values are i.i.d. drawn from a distribution F (·), and i's value is unknown to j , then (assuming that i uses the above incremental bidding strategy) j 's expected payoff from incremental bidding is</p><formula xml:id="formula_0" coords="4,144.43,551.65,99.14,8.96">F (v j ) × (v j − E(v i |v i ≤ v j ))</formula><p>, whereas j 's expected payoff from delaying the bid till the last moment is, as before, p(v j − m − s). Obviously, the lower is j 's value v j and the higher is the probability p that the end-of-auction bid goes through, the more likely is j to benefit from end-of-period bidding. Note that if some bidders wait "too long" to submit their end-of-period bids, then these bids are likely not to go through. This may be as true in the lab as it is in the field, especially because sniping software is typically not available for laboratory subjects. FPSB, each bidder submits a sealed bid for each object that he or she may want to buy. Each object is then allocated to the highest bidder for that object, who pays his or her own bid. In both variants of ascending auctions, each object is auctioned off via an ascending bid (English-type) auction in a separate market, with markets running simultaneously for all objects. In AHH, the auction duration is fixed; in AAS, the auction closes when no new bids are incoming for a given number of seconds. As in the FPSB, each object is then allocated to the highest bidder for that object, who pays his or her own bid. All three institutions are tested in independent private values environments only.</p><p>We next state several competing hypotheses regarding comparative performance of the three institutions. The baseline hypothesis is based on the revenue equivalence theorem <ref type="bibr" coords="5,87.07,186.09,64.07,8.97" target="#b16">(Myerson 1981;</ref><ref type="bibr" coords="5,153.77,186.09,108.91,8.97" target="#b23">Riley and Samuelson 1981)</ref>. It ignores possible emergence of other-than-competitive equilibria due to the multi-object setting, as well as possible closing rule effects in AAH, and assumes risk neutral competitive (Bayesian and Perfect Bayesian for static and dynamic auctions, respectively) Nash equilibrium behavior of all bidders:</p><p>Hypothesis H0 All three multi-object auction institutions, FPSB, AAH and AAS, yield the same price levels and efficiency.</p><p>An alternative hypothesis focuses on possible differences between ascending and sealed bid auctions, and is based on earlier evidence from single-object auctions: 5 Hypothesis H1 Multi-object FPSB yield higher prices and more revenue than either of the ascending auction institutions, AAH and AAS.</p><p>Even if Hypothesis H0 does not hold due to differences between ascending and sealed bid auctions, we may expect equivalence between the two ascending auction institutions if the auction closing rule has no effect:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hypothesis H2 AAH and AAS auctions yield the same price levels and efficiency, which may be different from FPSB auctions.</head><p>The remaining hypotheses focus on possible effects of auction closing rules on bidder behavior. First suppose that bidders in AAH try to delay price wars by bidding late, but then engage in sealed-bid-like price competition towards the end of the auction. If such bidders bid sufficiently late so that any feedback on competitors' bids is unavailable, but in time to get their bids in with certainty, then the outcomes in the AAH should be similar to the outcomes in FPSB auctions. In this case, AAH should not lead to suppressed prices in spite of the closing rule effect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hypothesis H3 AAH yield the same price levels and revenues as FPSB auctions, which may be different from the AAS auction.</head><p>An alternative hypothesis assumes an adverse effect of the hard auction closing rule on bidder competitive tendencies. Suppose some bidders strategically respond to incremental bidding by other bidders. Then under AAH, they may delay bidding till the last moment, and then bid near the end of the auction by some increment over the minimal (or the low outstanding) bid. Such bidding dynamics may result in suppressed prices and inefficient outcomes.</p><p>Hypothesis H4 AAH yields lower prices and lower efficiency than AAS.</p><p>The above hypotheses do not exhaust all possibilities, but they cover several cases of possible different rankings between the three institutions in terms of revenue and efficiency. The experimental design below allows to discriminate among these competing hypotheses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Experimental design and procedures</head><p>Groups of four subjects participated in a series of simultaneous auctions for four objects, labeled A, B, C and D. Three treatments were considered in the experiment, which differed in the institutions used to allocate the objects: AAH, AAS and FPSB, as described in Sect. 2. The institution used and the group composition stayed the same throughout each session. The ascending auction sessions, AAH and AAS, involved an unpaid trial period followed by 15 paid periods. The sealed bid sessions FPSB involved 20 paid periods. The trial period in AAH and AAS and the first five periods in FPSB were used to familiarize the bidders with the institutions; the last 15 periods were used to compare actual performances of institutions.</p><p>The sealed bid sessions were semi-computerized, and the ascending auction sessions were fully computerized. <ref type="bibr" coords="6,177.70,370.64,3.79,6.81">6</ref> In FPSB auctions, the sealed bids for each object were submitted by subjects manually and then entered into the computer program which returned resulting prices and allocations. The bidders were then informed about the auction outcomes in their group, and a new auction period started. In AAH and AAS, the bidders could bid on the computer on any or all four objects at any time once an auction opened for bidding; the bid was accepted provided that it was higher than the previous outstanding bid on that object. No minimal bid increment was imposed. All incoming bids were observable to all bidders in the market through the computer; the bidders could easily see whether they or someone else were the highest bidder on a given object. The bidding closed on all objects simultaneously. In AAH, each auction was open for bidding for four minutes (240 seconds). In AAS, the auction ended when no new bids had been placed on any of the four objects for 40 seconds. When the auction closed, each object was allocated to the bidder with the highest bid for that object. There was a one minute interval between auction periods.</p><p>Bidder valuations for the objects were integers between 1 and 100. Valuations were independently pre-drawn from the discrete uniform distribution for each period. To ensure better comparison across institutions, we used the same bidder value draws for the last 15 periods of all three treatments. Under all treatments, bidders were allowed to bid over their values and to submit non-integer bids.</p><p>A total of 15 independent four-person groups participated in the experiments, with five groups per each treatment. The subjects were all undergraduates students at the University of Hawaii at Manoa, mostly from the College of Social Sciences. One or two four-person groups were run independently at the same time. <ref type="bibr" coords="7,321.71,126.35,3.79,6.81">7</ref> The ascending auction sessions AAH and AAS were run for the maximum of 2.5-3 hours; in all but one sessions all 15 periods were completed; session AAS-2 ran out of time after completing 10 periods. The sealed bid sessions FPSB took about 1.5 hours each; all 20 auction periods were completed in each session. The exchange rate was US $0.07 per experimental dollar, and the average per subject earnings were US $27.45, including $5 show-up fee.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Results: auction prices and efficiencies</head><p>The data from the last 15 periods of the three experimental treatments are summarized in <ref type="table" coords="7,86.41,275.01,29.09,8.97" target="#tab_0">Table 1</ref>, which presents summary statistics on auction prices, efficiencies, and bidder payoffs per auction, pooled by treatment. Table A1 (in the Supplementary Material section) gives more detailed statistics for each session. We compare the actual data with both the ascending auction (AA) and the sealed bid (FPSB) competitive predictions. 8 Market efficiency, reported in the tables, is measured both in terms of the percentage of maximum gains from trade captured, and the percentage of auctions in which efficient allocations were achieved. Auction prices and bidder payoffs are reported in experimental dollars. Bidder payoffs are given by the differences between the highest bidder's value and the price they paid in a given auction. The last three rows of <ref type="table" coords="7,86.49,383.36,30.50,8.97" target="#tab_0">Table 1</ref> list p-values for the null hypotheses that the corresponding characteristics for each pair of treatments (FPSB and AAH, FPSB and AAS and AAH and AAS) are drawn from the same distribution (Wilcoxon Mann-Whitney test, twosided). Unless otherwise stated, all non-parametric tests reported here use per session averages as units of observation.</p><p>We first compare price levels, which are directly indicative of the auctioneer's revenues, across the three institutions. We also look at price volatility relative to the competitive predictions.</p><p>Result 1 In terms of price levels and revenues, the three treatments can be ranked as follows: FPSB &gt; AAS &gt; AAH. FPSB prices were significantly above the risk neutral Nash equilibrium prediction, AAS were at the equilibrium prediction, while AAH prices were below the prediction. AAH prices were also much more volatile than AAS prices.</p><p>Support <ref type="table" coords="9,88.34,91.05,102.69,8.97" target="#tab_0">Table 1; see also Table A1</ref> and <ref type="figure" coords="9,209.50,91.05,28.34,8.97" target="#fig_0">Fig. F1</ref> in Supplementary Materials. 9 The average price in FPSB treatment was 68.19 experimental dollars, as compared to 52.45 in AAH treatment and 60.15 in AAS treatment. The differences between FPSB and AAH, and between FPSB and AAS, are both significant at 0.8% level; the difference between AAS and AAH is marginally significant at 5.56% level. <ref type="bibr" coords="9,329.42,136.19,7.57,6.81">10</ref> The average per session price deviations from the risk neutral Bayes Nash equilibrium prediction in FPSB was 7.73 experimental dollars, which is significantly different from zero at 0.14% level (t-test, two sided). The price deviation from the competitive English auction prediction in AAS was 0.80 experimental dollars, which is not different from zero at 39.1% level. The average per session price deviation from the competitive prediction in AAH was −6.95 experimental dollars, which is different from zero at 4.93% level. Further, the price deviations from the competitive prediction were much more variable in AAH than in AAS <ref type="figure" coords="9,202.85,232.44,30.92,8.97" target="#fig_0">(Fig. F1</ref>): the standard deviation of price differences between the competitive predictions and the actual prices was significantly higher in AAH than in AAS (p-value for the test of no differences between AAH and AAS is 0.0080).</p><p>Hence we can reject Hypothesis H0 in the part regarding the price and revenue equivalence between the institutions. We confirm that the property of sealed bid auctions to result in higher prices than ascending bid auctions carries over from oneobject to multi-object environments; the Hypothesis H1 is not rejected based on our evidence. Ascending auctions with the soft closing rule yield outcomes right at the competitive equilibrium predictions; however, this is not so for ascending auctions with the hard closing rule. We obtain evidence of marginally lower and significantly more volatile prices in AAH auctions, against Hypotheses H2 and H3 and in support of Hypothesis H4.</p><p>We next compare the institutions in terms of efficiency.  <ref type="figure" coords="9,55.69,520.78,31.36,7.17" target="#fig_0">Figure F1</ref> shows the dynamics of price deviations from the corresponding competitive predictions (riskneutral Bayes Nash equilibrium predictions for FPSB auctions, and competitive English auction predictions for ascending auctions), pooled by treatment. For presentation convenience, the auction for each object is represented as a separate period in the figures. For example, periods 1, 2, 3, 4 in the figure correspond to auctions for objects A, B, C, D in period 1. The actual periods are separated by vertical lines. <ref type="bibr" coords="9,51.80,569.13,6.77,6.10">10</ref> We can show that the differences in mean prices between AAH and AAS treatments were mostly due to the early periods of the experiment. Indeed, by breaking the data into early periods (periods 1 to 7) and late periods (periods 8 to 15) we obtain that mean prices were significantly lower in AAH than in AAS in the early periods (p-value is 0.0080), but not in the late periods (p-value is 0.2103); see also Interestingly, we note that lower prices in AAH as compared to AAS did not result in significantly higher bidder payoffs, due to efficiency distortions:</p><p>Result 3 Both ascending auction formats resulted in higher bidder payoffs than the FPSB auction format. The difference in bidder payoffs between AAH and AAS auctions is not statistically significant. Support Tables 1, A1. Overall, bidder payoffs were the highest in AAH (23.30 experimental dollars on average), second highest in AAS (19.32 experimental dollars), and the lowest in FPSB (11.3 experimental dollars). However, the difference between AAH and AAS treatments is not statistically significant (p-value is 0.1508); 12 the differences between AAH and FPSB, and AAS and FPSB, are highly significant (pvalues are 0.008 and 0.0158, respectively).</p><p>We thus observe that ascending auctions with the soft closing rule (AAS) yield outcomes closest to the competitive equilibrium prediction both in terms of prices and efficiency. Sealed bid auctions (FPSB) result in inefficient allocations more often than AAS auctions, but interestingly we find that the efficiency losses are negligible. In contrast, we find that the use of the hard closing rule causes more volatile pricing which significantly reduces both the share of efficient allocations and the gains from trade. This gives additional evidence against Hypotheses H0, H2 and H3, and in support of Hypothesis H4.</p><p>In sum we reject Hypotheses H0, H2 and H3, and do not reject Hypotheses H1 and H4. Having obtained the evidence of adverse effects of the hard closing rule on the efficiency and revenue-generating properties in multi-object ascending auctions, we seek to uncover behavioral regularities behind these effects. Our next step is to analyze and compare the bidding dynamics in AAH and AAS auctions. 11 To further emphasize a high level of efficiency in AAS auctions, we note that only 12 out of 280 object allocations in AAS were inefficient. Out of these 12 inefficient allocations, eight occurred in the first two periods of the auctions. In the remaining four instances of inefficient object allocations, the valuation differences between the highest valuation bidder and the winning bidder for the object did not exceed 8 experimental dollars in each case, indicating truly negligible losses in gains from trade in these transactions. <ref type="bibr" coords="10,51.80,587.53,6.77,6.10">12</ref> In periods 1-7, the difference between bidder payoff in AAH and AAS is marginally significant (p-value is 0.0556); however, it disappears completely in periods 8-15 (p-value is 0.5000).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Bidding dynamics in ascending auctions</head><p>We consider the bidding dynamics under the two ascending auctions formats, AAH and AAS. <ref type="bibr" coords="11,90.70,91.16,7.57,6.81">13</ref>  <ref type="figure" coords="11,100.84,93.14,60.48,8.97" target="#fig_0">Figures 1 and 2</ref> illustrate the bidding dynamics for one of the sessions for  , and the vertical axis shows bid values (in experimental dollars). Since bidding took place for multiple objects simultaneously, there may be multiple bids submitted at the same time. 14 Distinct time intervals with no bidding activity correspond to time breaks between periods.</p><p>Before turning to a formal analysis of the bidding dynamics, let us compare representative dynamics in AAH treatment ( <ref type="figure" coords="13,218.64,92.12,26.61,8.97" target="#fig_0">Fig. 1)</ref> with AAS treatment <ref type="figure" coords="13,332.60,92.12,30.43,8.97" target="#fig_1">(Fig. 2)</ref> informally. Although both are characterized by overall bid increases in time within each auction period, there are several noticeable differences between AAH-1 and AAS-1 sessions. First, it appears that overall there were fewer bids submitted in AAH-1 than in AAS-1. Second, substantial amount of bids were concentrated towards the end of periods in AAH-1, while bids appeared to be distributed more uniformly in time in AAS-1. Third, bids appeared to increase slowly at the beginning of many periods in AAH-1, with bid increases accelerating towards the end of periods. In contrast, in AAS-1 most of the bid increases occurred early in time, and bids increased slower towards the end. All three phenomena potentially indicate less intensive price competition in AAH as compared to AAS.</p><p>To see whether these preliminary observations have support in the data, we consider the bidding dynamics, as well as auction duration, by session. <ref type="table" coords="13,334.48,236.20,30.50,8.97" target="#tab_3">Table 2</ref> summarizes the characteristics of bidding dynamics by session and pooled by treatment. The last row of <ref type="table" coords="13,116.07,260.22,29.69,8.97" target="#tab_3">Table 2</ref> lists p-values for the null hypothesis that the corresponding characteristics for AAH and AAS are drawn from the same distribution (Wilcoxon Mann-Whitney test, two-sided).</p><p>Since AAH auctions had pre-set period durations, while AAS had a flexible period duration, we compare duration of bidding activity, rather than period duration itself, across treatments. For each auction period, the duration of bidding activity is defined as the time between the earliest and the latest bid in the period. Special attention is further paid to the last 10% of bidding activity time, which we call the end-of-period interval. Such measures of auction duration and end-of-period interval allow for a better comparison between AAH and AAS bidding dynamics. <ref type="bibr" coords="13,298.64,366.29,7.57,6.81">15</ref> We first compare duration of bidding activity and overall bidding intensity, measured by the number and frequency of bids in time, in AAH and AAS auctions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Result 4</head><p>The AAS auctions took longer than AAH auctions. However, bidding competition was more intensive in AAS than in AAH auctions: there were more bids submitted per auction, and frequencies of bids in time were higher in AAS than in AAH auctions. Support <ref type="table" coords="13,88.34,476.92,28.53,8.97" target="#tab_3">Table 2</ref>. The average duration of bidding activity in AAH was 207.66 seconds (about 3.5 minutes), as compared to 343.52 seconds (about 5.7 minutes) in AAS; the difference is significant at 3.18% level. The average number of bids per auction 15 For example, if in a certain auction period the first bid came in at 7 seconds after the auction opened, and the last bid came in at 234 seconds after the auction opened, then the bidding activity lasted for 234 − 7 = 227 seconds. We call the last ten percent, or 22.7 seconds of this time, the end-of-period bidding interval. Although such measure does not indicate how close to the scheduled auction closing time the bidding continued in AAH, it allows for a comparable measure of end-of-period bidding in both AAH and AAS. Note that (unlike in <ref type="bibr" coords="13,134.75,580.47,83.15,7.17" target="#b20">Roth and Ockenfels 2002)</ref> our auctions with the soft closing rule did not have an initially pre-set duration with automatic extension, and therefore an alternative measure of period duration and end-of-period bidding in AAS would be problematic.  in AAH was only 25.03, as compared to 55.42 bids in AAS (significantly different at 0.8% level). The average time lag between any two bids in AAH auctions was 10.01 seconds, as compared to 6.5 seconds in AAS auctions (significantly different at 0.8% level).</p><p>Together with Result 1, this implies that the hard auction closing rule did have a detrimental effect on competitive tendencies in AAH. Of course one could suggest that prices lower than competitive occurred in AAH simply because incremental bidders raised their bids too slowly and did not have time to reach the competitive equilibrium levels within the allocated 240 seconds of bidding. However, this explanation can be rejected by observing that the frequency at which the bids were submitted was substantially lower in AAH than in AAS.</p><p>Next consider whether end-of-period bidding was in fact substantial in AAH auctions, as may be suggested by theoretical considerations and by <ref type="figure" coords="15,301.68,477.62,60.21,8.97" target="#fig_0">Fig. 1. Figure 3</ref> shows bidding intensity within all auctions by treatment. For the purpose of better comparison, we normalized the duration of bidding activity to one for each treatment. The length of each bar on the figure is indicative of the total number of bids submitted within a certain time interval in the auctions. <ref type="table" coords="15,63.76,537.85,30.36,8.97" target="#tab_3">Table 2</ref> displays the share of bids submitted in each quarter of bidding activity time. It also displays the share of bids submitted during the end-of-period interval (the last 10% of the bidding activity time), and the average time lag between end-ofperiod bids.</p><p>As obvious from <ref type="figure" coords="15,132.68,586.01,23.12,8.97" target="#fig_2">Fig. 3</ref> and <ref type="table" coords="15,174.91,586.01,27.98,8.97" target="#tab_3">Table 2</ref>, there was a drastic difference in the timing of bids between AAH and AAS auctions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Result 5 The timing of bids was significantly different between AAH and AAS treatments. There was a significant amount of end-of-period bidding in AAH auctions, but not in AAS auctions.</head><p>Support <ref type="figure" coords="16,88.34,106.16,33.58,8.97" target="#fig_2">Figure 3</ref> and Table 2. <ref type="figure" coords="16,176.02,106.16,33.60,8.97" target="#fig_2">Figure 3</ref> illustrates that in AAS, the bidding intensity was the highest at the beginning of the auctions and then decreased slowly but steadily as auctions progressed. In contrast, in AAH the bidding intensity was the highest at the beginning and at the end of the auctions, with relatively few bids submitted in between the beginning and the end. <ref type="figure" coords="16,197.77,154.92,33.94,8.97" target="#fig_2">Figure 3</ref> indicates at both the differences in the overall number of bids (more bids in AAS than in AAH) and in the timing of bids. To focus on the differences in the timing, we normalize overall bidding intensity in each auction to one, and then evaluate the distribution of bidding intensity within auction duration by treatment. For the data pooled by treatment, the hypothesis that the observed bidding intensities within auction duration in AAH and AAS are drawn from the same population is rejected at any significance level (p-value is zero for both Kolmogorov-Smirnov and Kruskal-Wallis tests). <ref type="bibr" coords="16,245.65,238.25,7.57,6.81">16</ref> From <ref type="table" coords="16,280.63,240.24,28.27,8.97" target="#tab_3">Table 2</ref>, about 36% of bids were submitted in the first quartile of bidding time in both AAH and AAS auctions. For AAH, almost the same share of bids were submitted in the last quartile (34.8%); in contrast, only 16.9% of bids were submitted in the last quartile in AAS auctions. 24.6% of all bids in AAH were submitted in the last 10% of the bidding activity time, as compared to only 7.4% for AAS; the differences are highly significant (p-value for the Wilcoxon Mann-Whitney test is 0.008). The average time interval between any two submitted bids decreased from 10.01 seconds to 2.89 seconds at the end of the auctions in AAH, whereas it increased from 6.50 seconds to 10.82 seconds in AAS. <ref type="bibr" coords="16,74.23,347.95,7.57,6.81">17</ref> This indicates an increase in the bidding intensity at the end of the auctions in AAH, and a corresponding slow-down in bidding intensity at the end of the auctions in AAS.</p><p>It is of interest to see whether such delayed bidding in AAH was mostly due to high value bidders trying to suppress price competition, or it was more due to lower value bidders waiting out on bidding to increase their chances of obtaining goods during the end-of-period interval. <ref type="figure" coords="16,186.18,436.55,38.73,8.97" target="#fig_1">Figure F2</ref> (in the Supplementary Materials section) displays bidding intensity within auction duration in AAH for bidders grouped into four value intervals: (i) bidders with values 25 and below; (ii) bidders with values in the range of 26-50; (iii) bidders with values in the range of 51-75; and (iv) bidders with values in the range of 76-100, all in experimental dollars. For comparison, we <ref type="bibr" coords="16,51.80,517.74,6.77,6.10">16</ref> These results are based on the bidding intensities pooled across all auctions of a given treatment. The pattern of bidding intensity was fairly homogeneous across AAH sessions: The hypothesis of no differences in distributions of bidding intensities among five sessions of AAH cannot be rejected according to Kruskal-Wallis test: p-value is 0.119. The individual sessions in AAS treatment were more heterogeneous (p-value is 0.000, for the same test); however, any sessions in AAS treatment exhibited less end-of-period bidding than any session in AAH bidding; see <ref type="table" coords="16,200.47,567.54,22.48,7.17" target="#tab_3">Table 2</ref>. 17 Both differences are significant at 6.26% level according to Wilcoxon matched-pairs signed rank test, using per session averages as units of observations. The reported p-value is the lowest that may be obtained for this sample size (five pairs of matched observations). also display bidding intensity by value in AAS auctions. The figure clearly indicates that the differences in the bidding patterns between the AAH and AAS auctions were mostly due to the high value bidders. Low value bidders submitted fewer bids than high value bidders from the beginning, and bid even less towards the period end under both treatments. High value bidders in AAS started bidding intensively at the beginning and did so consistently till the end of the auction; whereas high value bidders in AAH bid at the beginning and then waited out till the period end to start an intense bidding competition. Regression analysis of the number of bids on the value interval in AAH (reported in <ref type="table" coords="17,191.02,152.31,36.41,8.97" target="#tab_3">Table A2</ref> in the Supplementary Materials section) confirms that high value bidders bid more that low value bidders overall, and that this was especially true in the last quarter of bidding activity time. Such tendency persisted from early to later periods in AAH. An interesting effect of experience is that in late periods (periods 8-15), the intermediate-value bidders (those with values between 25 and 75 experimental dollars) bid less as compared to early periods (period 1-7); see <ref type="table" coords="17,90.54,224.45,34.15,8.97" target="#tab_3">Table A2</ref>.</p><p>We next compare the average size of bid increments in AAH and AAS treatments, and consider how it changed from the beginning to the end of an auction. Small bid increments throughout should provide evidence of incremental bidding; whereas large bid increments could indicate more aggressive or more erratic bidding, or, if exhibited towards the end of the auction, possible similarities with first-pricesealed-bid-auction-type strategies. <ref type="table" coords="17,193.98,296.61,30.93,8.97" target="#tab_4">Table 3</ref> summarizes, by session and treatment, the average magnitude of the opening (first) bids in an auction, average bid incre- p-value ** for H0: AAH = AAS 0.1508 0.008 0.0158 0.008 * Wilcoxon matched-pairs signed ranks test, two-sided ** Wilcoxon Mann-Whitney test, two-sided ments within auction duration, and average end-of-period bid increments. The table also gives the p-values for the null hypothesis of no difference between treatments (Wilcoxon Mann-Whitney rank-sum test), and for the hypotheses of no differences between the opening, average, and end-of-period bid increments (Wilcoxon signed rank test).</p><p>Result 6 AAS auctions were characterized by aggressive opening bids, followed by bids rising in small increments; bid increments decreased toward the end of the auctions. In AAH auctions, bids were increasing in larger increments than in AAS auctions, and the bid increments increased towards the end of the auctions. Support <ref type="table" coords="18,88.34,188.70,28.56,8.97" target="#tab_4">Table 3</ref>. Although the magnitude of the opening bids was not significantly different between AAH and AAS treatment (p-value is 0.1508), the average bid increments were significantly higher in AAH (8.24 experimental dollars on average) than in AAS (4.07 experimental dollars on average), at the significance level of 0.8%. During the last 10% of bidding activity time (end-of-period), the AAH bid increments increased to an average of 12.97 experimental dollars; in contrast, in AAS they decreased to an average of 1.95 experimental dollars. For both treatments, the p-values for the tests of no differences between before-end and end-of-period bid increments are 0.0626, the lowest that may be obtained for this sample size (Wilcoxon signed rank test). 18</p><p>Finally, we consider the incidence of incremental bidding and late bidding using individual-level data. Tables 4 and A3 (in the Supplementary Materials) summarize bidding characteristics in AAH and AAS by individual subject. Along with reporting it is an opening bid for the object, or (ii) it is not submitted by the current highest bidder, and the bid increment is no higher than 5 experimental dollars ** Late only bidding is defined as bidding exclusively at the end of period, that is, in the last ten percent of bidding activily time <ref type="bibr" coords="18,51.80,568.90,6.77,6.10">18</ref> In parallel with <ref type="bibr" coords="18,109.27,570.98,60.59,7.17" target="#b1">Ariely et al. (2005)</ref> analysis, we can further show that from period one of AAS auctions, the bid levels practically reached the final prices before the end-of-period intervals started. In contrast, before-end winning bids became a progressively poorer indicator of final prices with each period of AAH auctions. See <ref type="figure" coords="18,95.84,599.42,23.04,7.17" target="#fig_2">Fig. F3</ref> in the Supplemental Materials section.</p><p>the average by subject number of bids and the share of end-of-period bids, <ref type="table" coords="19,358.56,56.10,29.98,8.97" target="#tab_5">Table 4</ref> reports two other individual characteristics. One is the share of incremental bids. We consider a bid incremental if either (i) it was an opening bid for the object, or (ii) it was not submitted by the current highest bidder, and the bid increment was no higher than 5 experimental dollars. <ref type="bibr" coords="19,163.93,102.37,7.57,6.81">19</ref> This characteristic allows us to explore whether individual subject behavior in AAH and AAS was consistent with incremental bidding, as discussed in Sect. 1 above. We report the share of incremental bids by subject both before the period end, and at the end of the period. We also report how often (in what share of periods among all periods) each subject bid exclusively at the end of the period (denoted as "Late only bidding"). 20 Based on the individual data, we conclude the following.</p><p>Result 7 Individual behavior in AAS auctions was overwhelmingly characterized by incremental bidding throughout auction duration; the share of end-of-period bidding was negligible. In AAH auctions, the individuals submitted incremental bids less often overall, and the share of incremental bids decreased dramatically during the end of the period for all subjects. In many instances, subjects in AAH bid exclusively at the end of the period.</p><p>Support Tables 4, A3. In AAS auctions, the share of incremental bids increased from 82.2% before the end of the period to 95.0% at the end of the period. For 15 out of 20 subjects, 100% of end-of-period bids were incremental bids. With the exception of one subject in two periods, no one engaged in late-only bidding in AAS. In AAH auctions, the average share of incremental bids dropped from 72.1% before the end of the period to only 32.7% at the end of the period; moreover, the share of incremental bids decreased at the end of the period for every subject <ref type="table" coords="19,280.74,359.00,37.10,8.97" target="#tab_4">(Table A3</ref>). On average, in 22.6% of the periods a subject in AAH did not bid until the end of the period; 70% of subjects did not bid until late at least in one period, and 30% of subjects did not bid until late in 45% of periods or more.</p><p>To further help explain the differences in final prices and efficiencies between AAH and AAS auctions, we also analyzed whether bids submitted in the last five seconds of bidding activity time in each treatment were based solely on previous highest bid for the object (which would serve as another indicator of incremental bidding), or they depended on bidder values, or both. For the data pooled by treatment, <ref type="bibr" coords="19,51.80,499.04,6.77,6.10">19</ref>  <ref type="bibr" coords="19,59.08,501.10,61.73,7.17" target="#b1">Ariely et al. (2005)</ref> report the share of bids submitted by current highest bidder as an indicator of nonincremental bidding. In our experiments, over 99.5% of all bids in AAS, both before the end and at the end of the auctions, were not submitted by the current highest bidder. For AAH, these percentages were 94.5% and 83.1%, correspondingly. Thus, except for the end-of-period bids in AAH, bidders in our experiments rarely bid on the object for which they were current highest bidder. We therefore use a stricter definition of incremental bidding which takes into account both who bid, and how large the bid increment was. The maximum bid increment of 5 experimental dollars used to define incremental bidding is chosen rather arbitrary; using 4 or 6 dollars instead gives qualitatively similar results. 20 <ref type="table" coords="19,59.08,580.41,30.41,7.17" target="#tab_4">Table A3</ref> provides more details on individual bidding characteristics. Reported statistics may differ somewhat between <ref type="table" coords="19,115.22,589.92,273.31,7.17;19,51.80,599.42,34.08,7.17" target="#tab_3">Tables 2, 3 and Tables 4, A3, since the averages in Tables 4 and A3 are weighted by  individual.</ref> these final bids showed significant dependency on both the bidder value and the previous high bid for AAH, but proved to depend only on the previous high bid for AAS. These results are also supported by individual data analysis. <ref type="bibr" coords="20,290.36,78.99,7.57,6.81">21</ref> We thus confirm that individual behavior was characterized by incremental competitive bidding in AAS, but was subject to very strong end-of-period effects in AAH. We can also show that end-of-period bidding in AAH increased with subject experience; thus, the share of end-of-period bids among all bids increased to 43.7% in periods 8-15 as compared to 36.8% across all periods <ref type="table" coords="20,280.53,143.17,42.50,8.97" target="#tab_4">(Table A3)</ref>. <ref type="bibr" coords="20,327.49,141.18,7.57,6.81">22</ref> Such bidder behavior in AAH is best explained by high-value bidders trying to suppress price competition or delay it till the end of the auction. However, these attempts appear to be not fully successful, as can be inferred from relatively large bid increments of about 8 experimental dollars taking place throughout the process of bidding. Being followed by hectic end-of-period bidding with average bid increments of over 12 experimental dollars, such bidding dynamics in AAH resulted in somewhat lower than competitive and much more volatile prices, with no significant gains to bidders due to distortions in allocative efficiency.</p><p>It is instructive to compare our findings with <ref type="bibr" coords="20,251.47,255.11,109.49,8.97" target="#b20">Roth and Ockenfels (2002)</ref>, Ockenfels and <ref type="bibr" coords="20,98.37,267.55,48.48,8.97" target="#b19">Roth (2006)</ref>, and <ref type="bibr" coords="20,173.78,267.55,79.82,8.97" target="#b1">Ariely et al. (2005)</ref>, who study last-minute bidding in second price internet auctions. They show that (i) there is significant amount of late bidding in auctions that use a hard closing rule (eBay), but not in auctions that use a soft closing rule (Amazon); (ii) Bid increments increase at the end of the period on eBay, but not in Amazon; and (iii) End-of-period bidding on eBay increases with experience. We obtain similar findings for pay-your-bid experimental ascending auctions. However, much of the analyses and results are different because of the differences between first price pay-your-bid and second price ascending auctions. For example, Ariely et al. report that in their auctions with the soft closing rule, the number of bids per bidder decreases with bidder experience, a feature that is due to the second price nature of the auctions they study; in contrast, we observe that intensive incremental bidding in our pay-your-bid auctions with the soft clos- <ref type="bibr" coords="20,51.80,440.16,6.77,6.10">21</ref> We ran individual regressions of final five seconds bids on the previous highest bid and on the object value for each bidder for whom there were at least 5 observations of such late bids (counting across all periods and objects). There were 40 subjects total, with 20 subjects per treatment. In AAH, there were enough observations of such last-second bidding for all but one subjects. For 9 out of these 19 subjects, bids submitted in the last 5 seconds of bidding activity time depended, at least in part, on the object value. In contrast, in AAS there were enough observations of the last-second bidding for only 8 out of 20 subjects. For 7 out of these 8 subjects, their bids in the last 5 seconds of bidding activity time depended exclusively on the previous highest bid. <ref type="bibr" coords="20,51.80,520.34,6.77,6.10">22</ref> The above findings are confirmed by parametric estimations of both percentages and probabilities of incremental bidding as functions of closing rule, subject experience (approximated by the period number), individual value for the object, and end-of-period time interval. We confirm that incremental bidding increases at the end of period in AAS, and it decreases at the end of period in AAH. Subject experience has a significant negative effect on incremental bidding in AAH, but has no effect on incremental bidding in AAS. Bidder value for object has a pronounced negative effect on incremental bidding in both AAH and AAS, but the magnitude of the effect is much smaller in AAS. The estimations also show that there is significant heterogeneity among subjects in both AAH and AAS auctions. These findings are robust to various model specifications.</p><p>ing rule persists with experience, leading to competitive pricing and highly efficient outcomes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6">Discussion</head><p>In comparing three simultaneous multi-object pay-your-bid (first price) auction formats, we observed that simultaneous ascending auctions with the soft closing rule were the most efficient among these formats. Ascending auctions with the hard closing rule generated the lowest revenue and efficiency, while the sealed bids led to the highest revenue. Thus our findings on revenue rankings between FPSB and ascending bid multi-object auctions are consistent with earlier findings on revenue rankings between ascending and FPSB single-unit auctions <ref type="bibr" coords="21,251.98,202.53,90.56,8.97" target="#b5">(Coppinger et al. 1980)</ref>. <ref type="bibr" coords="21,346.82,200.56,7.57,6.81">23</ref> We also observed significant differences in dynamics between ascending auctions with two different closing rules. While the soft closing rule yields outcomes right at the competitive predictions, the hard closing rule generates incentives for delayed bidding, distorting both auction revenue and efficiency.</p><p>These results have several useful implications. First, the observed differences among multi-object formats may help auction designers to evaluate trade-offs between efficiency, revenue and time-effectiveness of these institutions in competitive environments with private values and no complementarities. Second, we document effects of auction closing rules on the dynamics and outcomes of ascending payyour-bid auctions. Experimentalists have known for decades to avoid hard closing rules in their auction designs whenever possible. However, there are circumstances when one is tempted to use a hard closing rule. That could be, for example, to insure that auctions end "on time," or to synchronize several auctions conducted in parallel. An auction with a hard closing rule may be more attractive to bidders, who may prefer this auction design due to time-management reasons, or because they may think a hard closing rule is likely to give them a better (lower) price. 24 Hard closing rules are often used in practice; for example, silent charity auctions operate under hard closing rules. <ref type="bibr" coords="21,73.66,417.12,7.57,6.81">25</ref> In other cases, auctions may operate under soft closing rules, but auctioneers themselves may not fully realize the connection between auction closing rules and incentives for late bidding. <ref type="bibr" coords="21,159.89,441.19,7.57,6.81">26</ref> We hope that this study will help to better understand <ref type="bibr" coords="21,51.80,473.54,6.77,6.10">23</ref>  <ref type="bibr" coords="21,59.08,475.62,64.43,7.17" target="#b7">Goeree et al. (2006)</ref> also find that first price sealed bid multi-object auctions yield higher revenue than ascending auctions, in bidding environments with single-unit demands. 24 I am thankful to the anonymous referee for pointing out this demand-side argument. It is interesting to note that we do not find that bidders actually gain more in AAH as compared to AAS; see Result 3 in Sect. 4. <ref type="bibr" coords="21,51.80,527.61,6.77,6.10">25</ref>  <ref type="bibr" coords="21,59.08,529.69,79.23,7.17" target="#b8">Isaac and Schnier (2005)</ref> point out that the multi-object simultaneous nature of non-computerized silent charity auctions together with a hard closing rule causes a certain revenue anomaly, due to a transaction cost to the bidders of following several objects at the same time. Bidders tend to stick around their favorite objects in the last few minutes of these auctions. A similar phenomenon may be present to some extent in computerized auctions. Isaac and Schnier also report that bid jumping, or bidding in large increments inconsistent with incremental bidding, is widespread in silent auctions. <ref type="bibr" coords="21,51.80,587.85,6.77,6.10">26</ref> An online jewelry auction Bidz.com allows automatic extension for additional 15 seconds if a bid is placed in the last 15 seconds of an auction. Until recently, this auction operated as pay-your-bid auction, the trade-offs between auction "speed," revenue, efficiency, as well as incentives for late bidding induced by different closing rules.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="11,51.80,558.99,223.48,7.17"><head>Fig. 1</head><label>1</label><figDesc>Bidding dynamics under the hard closing rule, session AAH-1 13 The bidding dynamics are pooled together across all four objects. Separating the analysis by object gives qualitatively similar results.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="12,51.80,479.92,219.92,7.17"><head>Fig. 2</head><label>2</label><figDesc>Bidding dynamics under the soft closing rule, session AAS-1 each treatment. Figure 1 displays bids in time in AAH-1 session, and Fig. 2-bids in time in AAS-1 session. The horizontal axis shows time (in seconds)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="15,51.80,281.58,336.73,7.17;15,51.80,291.04,318.93,7.17"><head>Fig. 3</head><label>3</label><figDesc>Bidding intensity within auction duration, by treatment. The vertical axis shows time flow within an auction, with the time of the first bid normalized to 0, and the time of the last bid normalized to 1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="8,114.60,52.87,206.13,552.00"><head>Table 1</head><label>1</label><figDesc>Auction outcomes by treatmentMean (stddv)    </figDesc><table coords="8,133.30,52.87,187.43,552.00">Prices, experimental $ 
+
+Efficiency, % 
+
+Bidder payoff, experimental $ 
+
+Actual 
+
+AA 
+
+FPSB 
+
+% gains 
+
+% efficient 
+
+Prediction 
+
+Actual 
+
+AA 
+
+FPSB 
+
+prediction 
+
+prediction 
+
+from trade 
+
+allocations 
+
+prediction 
+
+prediction 
+
+captured 
+
+FPSB-all 
+
+68.19 
+
+59.12 
+
+60.46 
+
+98.57 
+
+87.00 
+
+100 
+
+11.30 
+
+21.50 
+
+20.15 
+
+(14.42) 
+
+(20.64) 
+
+(12.39) 
+
+(5.43) 
+
+(0.00) 
+
+(7.77) 
+
+(15.67) 
+
+(4.13) 
+
+AAH-all 
+
+52.45 
+
+59.40 
+
+60.55 
+
+93.60 
+
+72.97 
+
+100 
+
+23.30 
+
+21.33 
+
+20.18 
+
+(16.69) 
+
+(20.60) 
+
+(12.40) 
+
+(14.76) 
+
+(0.00) 
+
+(15.67) 
+
+(15.65) 
+
+(4.13) 
+
+AAS-all 
+
+60.15 
+
+59.35 
+
+60.48 
+
+98.71 
+
+95.71 
+
+100 
+
+19.32 
+
+21.29 
+
+20.16 
+
+(20.49) 
+
+(20.52) 
+
+(12.36) 
+
+(9.02) 
+
+(0.00) 
+
+(18.89) 
+
+(15.45) 
+
+(4.12) 
+
+p-value: * 
+
+FPSB 
+= AAH 
+
+0.0080 
+
+0.0318 
+
+0.0952 
+
+0.0080 
+
+p-value: * 
+
+FPSB 
+= AAS 
+
+0.0080 
+
+0.4206 
+
+0.0952 
+
+0.0158 
+
+p-value: * 
+
+AAH 
+= AAS 
+
+0.0556 
+
+0.0158 
+
+0.0080 
+
+0.1508 
+
+* 
+
+Wilcoxon Mann-Whitney test, two-sided 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="9,51.80,420.18,336.84,104.62"><head></head><label></label><figDesc>Result 2 Among the three treatments, AAS had the highest share, and AAH had the lowest share of efficient allocations. In terms of gains from trade captured, the treatments can be ranked as follows: AAS ≈ FPSB &gt; AAH. The differences between FPSB and AAH and between AAS and AAH are statistically significant.</figDesc><table coords="9,51.80,478.70,336.84,46.10">Support Tables 1, A1. AAS resulted in 95.71% of efficient allocations, as compared 
+to 87.0% in FPSB and 72.97% in AAH. The average per session gains from trade in 
+
+9 </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="9,348.36,599.42,25.02,7.17"><head></head><label></label><figDesc>Fig. F1.</figDesc><table coords="10,51.80,56.10,336.75,47.96">AAS and FPSB treatments were 98.71% and 98.57%, correspondingly, and are not 
+statistically different according to Wilcoxon Mann-Whitney test (p-value is 0.4206); 
+they are both significantly above the AAH gains of 93.6% (p-values are 0.0318 for the 
+test between FPSB and AAH, and 0.0158 for the test between AAS and AAH). 11 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="14,88.75,53.36,254.65,551.51"><head>Table 2</head><label>2</label><figDesc>Timing of bids Treatment</figDesc><table coords="14,105.50,53.36,237.90,551.51">Auction 
+
+Number of 
+
+Mean lag, 
+End of period * 
+
+Share of bids in time 
+
+duration, secs 
+
+bids, count 
+
+secs 
+
+lag, secs 
+
+Quarter 1 
+
+Quarter 2 
+
+Quarter 3 
+
+Quarter 4 
+
+End of 
+period * 
+
+AAH-all 
+
+207.66 
+
+25.03 
+
+10.01 
+
+2.89 
+
+0.363 
+
+0.154 
+
+0.136 
+
+0.348 
+
+0.246 
+
+AAH-1 
+
+212.87 
+
+26.40 
+
+8.80 
+
+2.95 
+
+0.349 
+
+0.152 
+
+0.132 
+
+0.367 
+
+0.248 
+
+AAH-2 
+
+206.53 
+
+24.07 
+
+10.96 
+
+2.57 
+
+0.452 
+
+0.142 
+
+0.104 
+
+0.303 
+
+0.254 
+
+AAH-3 
+
+210.40 
+
+26.20 
+
+10.06 
+
+3.77 
+
+0.310 
+
+0.126 
+
+0.143 
+
+0.421 
+
+0.258 
+
+AAH-4 
+
+204.23 
+
+20.08 
+
+11.33 
+
+2.39 
+
+0.356 
+
+0.151 
+
+0.131 
+
+0.362 
+
+0.245 
+
+AAH-5 
+
+204.29 
+
+28.43 
+
+8.87 
+
+2.76 
+
+0.346 
+
+0.198 
+
+0.171 
+
+0.285 
+
+0.226 
+
+AAS-all 
+
+343.52 
+
+55.42 
+
+6.50 
+
+10.82 
+
+0.369 
+
+0.259 
+
+0.203 
+
+0.169 
+
+0.074 
+
+AAS-1 
+
+210.13 
+
+36.33 
+
+6.05 
+
+9.67 
+
+0.416 
+
+0.242 
+
+0.180 
+
+0.162 
+
+0.077 
+
+AAS-2 
+
+600.40 
+
+106.90 
+
+5.72 
+
+9.17 
+
+0.305 
+
+0.280 
+
+0.241 
+
+0.174 
+
+0.064 
+
+AAS-3 
+
+334.13 
+
+48.20 
+
+7.11 
+
+12.28 
+
+0.354 
+
+0.262 
+
+0.210 
+
+0.174 
+
+0.072 
+
+AAS-4 
+
+289.87 
+
+47.33 
+
+6.33 
+
+12.60 
+
+0.385 
+
+0.272 
+
+0.201 
+
+0.143 
+
+0.065 
+
+AAS-5 
+
+283.07 
+
+38.33 
+
+7.32 
+
+10.37 
+
+0.387 
+
+0.238 
+
+0.182 
+
+0.193 
+
+0.091 
+
+p-value ** 
+for H0: AAH 
+
+= AAS 
+
+0.0318 
+
+0.008 
+
+0.008 
+
+0.008 
+
+0.6904 
+
+0.008 
+
+0.008 
+
+0.008 
+
+0.008 
+
+* 
+
+End of period is defined as during the last ten percent of bidding activity time 
+
+** 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="17,51.80,337.00,336.82,219.52"><head>Table 3</head><label>3</label><figDesc>Mean opening bids and bid increments, in experimental dollars</figDesc><table coords="17,51.91,353.75,336.71,202.77">Treatment 
+First bid Bid increment 
+p-value * for H0: 
+
+Average Before end End of Firs bid = Before end bid 
+
+within 
+of period 
+period bid 
+incr = end bid 
+
+period 
+increment incr 
+
+AAH-all 
+10.17 
+8.24 
+6.53 
+12.97 0.625 
+0.0626 
+
+AAH-1 
+16.68 
+7.81 
+7.18 
+9.42 
+
+AAH-2 
+12.30 
+7.48 
+6.01 
+11.62 
+
+AAH-3 
+1.75 
+7.83 
+5.52 
+14.65 
+
+AAH-4 
+9.94 
+11.02 
+8.18 
+17.92 
+
+AAH-5 
+10.20 
+7.05 
+5.74 
+11.22 
+
+AAS-all 
+14.35 
+4.07 
+4.25 
+1.95 0.0626 
+0.0626 
+
+AAS-1 
+16.68 
+5.30 
+5.63 
+1.59 
+
+AAS-2 
+2.95 
+2.20 
+2.26 
+1.35 
+
+AAS-3 
+18.53 
+3.81 
+3.98 
+1.71 
+
+AAS-4 
+13.13 
+4.20 
+4.37 
+2.03 
+
+AAS-5 
+20.47 
+4.84 
+5.02 
+3.06 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="18,51.80,372.98,336.80,142.75"><head>Table 4</head><label>4</label><figDesc>Individual bidding summary</figDesc><table coords="18,51.80,389.71,336.80,126.02">Mean No of 
+Number End 
+Incremental bids * , share Late 
+% of subject who bid late only 
+
+(stddv) subjects of bids bids, 
+only ** 
+
+per 
+share 
+bidding, 
+
+period 
+share 
+
+Before end 
+End of 
+At least In 25% 
+In 45% 
+
+of period 
+period 
+in one 
+periods 
+periods 
+
+period 
+or more or more 
+
+AAH 20 
+6.72 
+0.368 0.721 
+0.327 0.226 
+70.00 
+40.00 
+30.00 
+
+3.15 
+0.228 0.170 
+0.189 0.253 
+
+AAS 20 
+14.09 
+0.067 0.822 
+0.950 0.005 
+5.00 
+0.00 
+0.00 
+
+6.98 
+0.028 0.136 
+0.107 0.020 
+
+* A bid is considered incremental if either (i) </table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">Explanations for the differences observed in single-object auctions include, for example, bidder risk aversion (e.g.,<ref type="bibr" coords="5,85.06,590.01,46.26,7.17" target="#b6">Cox et al. 1988</ref>), or bidder bounded rationality combined with the type of information feedback provided in FPSB auctions<ref type="bibr" coords="5,139.37,599.42,95.71,7.17" target="#b17">(Neugebauer and Selten 2006)</ref>.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6">The sealed bid experiments were semi-computerized instead of fully computerized due to experimental software constraints at the time the experiments were conducted. We are unaware of studies that report significant differences between computerized and non-computerized first price sealed bid auctions.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">Since all groups were run independently from each other, we will refer to individual groups as "sessions" below. 8 Theoretical predictions listed in the tables are based on the actual bidder values for the periods completed in each session. In session AAH-5, no allocation was made in the first period due to computer problems; in session AAS-2, only ten periods were completed; all other sessions had all 15 periods completed. For this reason predictions differ slightly across sessions and treatments.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14">There were also a number of instances where several bids for the same object came in at the same moment in time. In such cases all bids were accepted and recorded, and the highest bid became the outstanding bid.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Wilcoxon Mann-Whitney test, two-sided</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements Financial support by the University of Hawaii Foundation New Economy Research</head><p>Grant is gratefully acknowledged. The ascending auctions experimental software used in this study was developed by Anil Roopnarine and David Porter. I would like to thank Jeremy Dulatre for an excellent research assistance, and Sumner La Croix, Charles Plott, Sean D'Evelyn, the Editors and two anonymous referees for very helpful discussions.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="22,51.80,189.02,336.73,7.17;22,68.74,198.51,171.75,7.17" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Experimental comparisons of auctions under singleand multi-unit demand</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Alsemgeest</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Noussair</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Olson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economic Inquiry</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="87" to="97" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,51.80,208.12,336.74,7.17;22,68.74,217.60,143.63,7.17" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">An experimental analysis of ending rules in Internet auctions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Ariely</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ockenfels</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Roth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rand Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="890" to="907" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,51.80,227.20,336.73,7.17;22,68.74,236.68,319.76,7.17;22,68.74,246.19,51.08,7.17" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Theory, experiment and the Federal Communications Commission spectrum auctions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Banks</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Rassenti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Economic Behavior and Organization</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="303" to="350" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,51.80,255.78,336.74,7.17;22,68.74,265.27,319.76,7.17;22,68.74,274.75,29.84,7.17" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Collusion via signaling in simultaneous ascending bid auctions with heterogeneous objects, with and without and complementarities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Brusco</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Lopomo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Economic Studies</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="407" to="436" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,51.80,284.37,336.74,7.17;22,68.74,293.85,192.47,7.17" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Mutually destructive bidding: The FCC auction design problem</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bykowsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Cull</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ledyard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Regulatory Economics</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="205" to="228" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,51.80,303.45,336.72,7.17;22,68.74,312.93,159.13,7.17" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Incentives and behavior in English, Dutch, and Sealed-Bid auctions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">M</forename><surname>Coppinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Titus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economic Inquiry</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1" to="22" />
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,51.80,322.54,336.72,7.17;22,68.74,332.03,101.57,7.17" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Theory and individual behavior of first-price auctions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Risk and Uncertainty</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="61" to="99" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,51.80,341.64,336.74,7.17;22,68.74,351.13,209.57,7.17" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Using first-price auctions to sell heterogeneous licenses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">K</forename><surname>Goeree</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Offerman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Schram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Industrial Organization</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="555" to="581" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,51.80,360.72,336.70,7.17;22,68.74,370.21,51.08,7.17" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Silent auctions in the field and in the laboratory</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Isaac</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Schnier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economic Inquiry</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="715" to="733" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,51.80,379.82,333.82,7.17" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">An economic perspective on auctions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Jehiel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Moldovanu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economic Policy</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="269" to="308" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,51.80,389.41,336.72,7.17;22,68.74,398.90,200.34,7.17" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Behavior in multi-unit demand auctions: Experiments with uniform price and dynamic Vickrey auctions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Kagel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Levin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Econometrica</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="413" to="454" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,51.80,408.51,336.73,7.17;22,68.74,418.00,142.45,7.17" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The choice of cooperative strategies in sealed bid auctions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kwasnica</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Economic Behavior and Organization</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="323" to="346" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,51.80,427.59,336.74,7.17;22,68.74,437.10,74.35,7.17" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Collusion and equilibrium selection in auctions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kwasnica</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Sherstyuk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Economic Journal</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="120" to="145" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,51.80,446.69,336.67,7.17;22,68.74,456.18,318.24,7.17" xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Tacit collusion in auctions and conditions for facilitation and prevention: Equilibrium selection in laboratory experimental markets</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Plott</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<publisher>Caltech Social Science Working Paper No</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,51.80,465.79,336.75,7.17;22,68.74,475.27,273.94,7.17" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Taking the lab to the field: Experimental tests of alternative mechanisms to procure multiple contracts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Lunanders</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Nilsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Regulatory Economics</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="39" to="58" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,51.80,484.87,336.77,7.17;22,68.74,494.35,69.67,7.17" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Analyzing the airwaves auction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">P</forename><surname>Mcafee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Mcmillan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Economic Perspectives</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="159" to="175" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,51.80,503.97,306.70,7.17" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Optimal auction design</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">B</forename><surname>Myerson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mathematics of Operations Research</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="58" to="73" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,51.80,513.56,336.65,7.17;22,68.74,523.04,319.78,7.18;22,68.74,532.55,13.93,7.17" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Individual behavior of first-price auctions: The importance of information feedback in computerized experimental markets</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Neugebauer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Selten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Games and Economic Behavior</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="183" to="204" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,51.80,561.48,336.76,7.17;22,51.80,570.96,336.73,7.17;22,51.80,580.45,336.72,7.17;22,51.80,589.93,336.72,7.17;22,51.80,599.42,277.17,7.17" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The explanation of how AutoBid works is as follows: &quot;(1) Enter your Maximum Bid amount. (2) Enter the desired Bid Increment</title>
+	</analytic>
+	<monogr>
+		<title level="m">but now has an optional proxy bidding system</title>
+		<imprint/>
+	</monogr>
+	<note>AutoBid will begin outbidding others in the last 5 seconds of the auction. An obvious consequence of such proxy bidding system is that most of the bidding activity starts at around 5 seconds before the originally scheduled auction closing time</note>
+</biblStruct>
+
+<biblStruct coords="23,51.80,57.46,336.75,7.17;23,68.74,66.93,319.78,7.17;23,68.74,76.38,29.84,7.17" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Late and multiple bidding in second price Internet auctions: Theory and evidence concerning different rules for ending an auction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ockenfels</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Roth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Games and Economic Behavior</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="297" to="320" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.80,85.84,336.72,7.17;23,68.74,95.31,319.78,7.17;23,68.74,104.78,17.90,7.17" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Last-minute bidding and the rules for ending second-price auctions: Evidence from eBay and Amazon auctions on the internet</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ockenfels</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1093" to="1103" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.80,114.25,336.73,7.17;23,68.74,123.70,221.69,7.17" xml:id="b21">
+	<monogr>
+		<title level="m" type="main">A computerized laboratory market system and research support systems for the multiple unit double auction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Plott</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+			<publisher>Caltech Social Science Working Paper</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.80,133.17,336.75,7.17;23,68.74,142.63,120.16,7.17" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">An experimental examination of two exchange institutions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Plott</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Review of Economic Studies</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="133" to="153" />
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.80,152.10,324.97,7.17" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Optimal auctions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">G</forename><surname>Riley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">F</forename><surname>Samuelson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="381" to="392" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.80,161.57,336.73,7.17;23,68.74,171.04,319.78,7.17;23,68.74,180.49,195.29,7.17" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Market performance and collusion in sequential and simultaneous multi-object auctions: evidence from an ascending auctions experiment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Sherstyuk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Dulatre</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijindorg.2007.04.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Industrial Organization</title>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.80,189.95,336.72,7.17;23,68.74,199.42,90.05,7.17" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Effect of market organization on competitive equilibrium</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Quarterly Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="181" to="201" />
+			<date type="published" when="1964" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.80,208.89,336.70,7.17;23,68.74,218.36,276.41,7.17" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Incentive compatible experimental processes for the provision of public goods</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Research in experimental economics</title>
+		<editor>V. L. Smith</editor>
+		<meeting><address><addrLine>Greenwich</addrLine></address></meeting>
+		<imprint>
+			<publisher>JAI Press</publisher>
+			<date type="published" when="1979" />
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="23,51.80,227.81,336.74,7.17;23,68.74,237.27,154.42,7.17" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Computerized double-auction markets: Some initial experimental results</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">W</forename><surname>Williams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Business</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="235" to="258" />
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+	<note>Part 1</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

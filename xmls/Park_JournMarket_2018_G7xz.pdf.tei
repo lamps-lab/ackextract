@@ -1,0 +1,2965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Social Dollars in Online Communities: The Effect of Product, User, and Network Characteristics</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eunho</forename><surname>Park</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rishika</forename><surname>Rishika</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ramkumar</forename><surname>Janakiraman</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><forename type="middle">B</forename><surname>Houston</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Byungjoon</forename><surname>Yoo</surname></persName>
+						</author>
+						<title level="a" type="main">Social Dollars in Online Communities: The Effect of Product, User, and Network Characteristics</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1509/jm.16.0271</idno>
+					<note>Online Supplement: http://dx.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:13+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>social networks</term>
+					<term>social contagion</term>
+					<term>online communities</term>
+					<term>massively multiplayer online role-playing games</term>
+					<term>double-hurdle model</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Online communities have experienced burgeoning popularity over the last decade and have become a key platform for users to share information and interests, and to engage in social interactions. Drawing on the social contagion literature, the authors examine the effect of online social connections on users' product purchases in an online community. They assess how product, user, and network characteristics influence the social contagion effect in users' spending behavior. The authors use a unique large-scale data set from a popular massively multiplayer online role-playing game community-consisting of users' detailed gaming activities, their social connections, and their in-game purchases of functional and hedonic products-to examine the impact of gamers' social networks on their purchase behavior. The analysis, based on a double-hurdle model that captures gamers' decisions of playing and spending levels, reveals evidence of "social dollars," whereby social interaction between gamers in the community increases their in-game product purchases. Interestingly, the results indicate that social influence varies across different types of products. Specifically, the effect of a focal user's network ties on his or her spending on hedonic products is greater than the effect of network ties on the focal user's spending on functional products. Furthermore, the authors find that user experience negatively moderates social contagion for functional products, whereas it positively moderates contagion for hedonic products. In addition, dense networks enhance contagion over functional product purchases, whereas they mitigate the social influence effect over hedonic product purchases. The authors perform a series of tests and robustness checks to rule out the effect of confounding factors. They supplement their econometric analyses with dynamic matching techniques and estimate average treatment effects. The results of the study have implications for both theory and practice and help provide insights on how managers can monetize social networks and use social information to increase user engagement in online communities.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>O nline communities have grown rapidly in prominence and have become a dominant platform for individuals to form social ties with other users and share information, ideas, and interests. While many online communities aim to provide primarily digital content for their users, a growing number of communities aim to build their business model on the three pillars of online platforms: content, community, and commerce <ref type="bibr" coords="1,399.46,508.12,59.17,8.77" target="#b52">(Meeker 2014)</ref>. For example, online platforms such as Houzz rely on creating content and then connecting users into a community so that users can purchase different types of products from the site. Social media platforms such as WeChat and KakaoTalk (popular social messaging applications in China and Korea) generate revenues by enticing users with free games that they can download and then offering virtual items such as stickers for purchase. According to some estimates, the emoticons market for KakaoTalk is as high as $86 million, and about 10 million KakaoTalk users use purchased emoticons in their chats. 1 For an online social media community to survive and thrive, it is imperative not only that users interact with each other but also that these social networks result in greater commerce for the online community. While there are studies that have examined social influence in an online community, no study to our knowledge has examined how interactions between users of a community influence within-community spending behaviors. Therefore, in this study, we systematically examine the role of social interactions among users in influencing commerce activities in an online community.</p><p>A large body of research has studied how a focal individual's behavior varies with the behavior of other individuals in the focal individual's network. While the earlier studies based on offline communities focus on the role of contagion on actors' adoption of innovations, the more recent studies based on online communities have been interested in the role of contagion on behaviors such as online content creation (e.g., <ref type="bibr" coords="2,274.63,175.45,55.41,8.77;2,90.88,186.90,20.66,8.77" target="#b78">Zeng and Wei 2013)</ref>. Despite the great deal of interest in online communities, many communities struggle to engage and motivate users to make within-community purchases. For example, online platforms such as gaming communities often offer users the opportunity to make in-game purchases <ref type="bibr" coords="2,261.11,232.76,68.89,8.77;2,90.88,244.22,75.57,8.77" target="#b53">(Mochizuki and Needleman 2016)</ref>. These communities rely on users' within-community purchases for long-term survival and growth. Thus, understanding the interplay of social networks and users' purchasing behavior becomes critical as communities pursue strategies to monetize their social-interaction based communities. With this relevant problem in mind, the first objective of this study is to systematically examine the role of users' social connections on their within-community purchase behavior. To do so in a rigorous way, we use data on actual social interactions and transactions within an online community.</p><p>Scholars who study social influence have argued for a deeper understanding of the operational forces behind social contagion <ref type="bibr" coords="2,132.67,381.70,46.01,8.77" target="#b2">(Aral 2011;</ref><ref type="bibr" coords="2,182.85,381.70,49.42,8.77" target="#b26">Godes 2011)</ref>. A key focus of recent studies has been to examine the factors that moderate the effect of social contagion to understand the mechanisms that drive contagion <ref type="bibr" coords="2,130.12,416.05,89.04,8.77" target="#b57">(Nitzan and Libai 2011;</ref><ref type="bibr" coords="2,220.73,416.05,105.19,8.77" target="#b37">Hu and Van den Bulte 2014)</ref>. We adopt an integrative approach and examine factors related to product, user, and network characteristics that can influence the effect of social connections on a focal user's purchasing behavior. Broadly, products are of two types, functional and hedonic. In the context of viral marketing, existing research suggests that content characteristics (i.e., functional vs. hedonic) are an important factor in users' decisions to share the content or message (e.g., <ref type="bibr" coords="2,149.27,507.73,107.39,8.77" target="#b11">Berger and Milkman 2012;</ref><ref type="bibr" coords="2,260.09,507.73,61.68,8.77" target="#b16">Chiu et al. 2007</ref>). Online communities often offer both functional and hedonic products (e.g., Second Life 2 ), and different behavioral motivations may drive social-influence effects across these two types of products. Yet, no study to our knowledge has examined the role of product characteristics on social influence in online communities. Thus, the second objective of this study is to assess whether contagion effects differ across different types of products (functional vs. hedonic) and which type of product is a better conduit for social influence in users' purchase behavior.</p><p>Several recent studies have shed light on the role of user and network characteristics in understanding the transmission of information across social networks (e.g., <ref type="bibr" coords="2,238.85,645.20,91.19,8.77;2,90.88,656.66,69.25,8.77" target="#b39">Iyengar, Van den Bulte, and Valente 2011;</ref><ref type="bibr" coords="2,162.71,656.66,85.88,8.77" target="#b77">Yoganarasimhan 2012)</ref>. While a limited and recent set of studies has examined the role of network characteristics on product adoption (e.g., <ref type="bibr" coords="2,233.15,679.56,92.85,8.77" target="#b4">Aral and Walker 2014)</ref>, existing literature provides few insights into the effect of network and user characteristics in facilitating information transmission and motivating users' repeat purchase behavior. We draw on existing theories in social contagion and extend this stream of literature by examining the effect of time-variant user (user experience) and network (network density) characteristics on users' spending across two different types of products: functional and hedonic. Thus, the third objective of this study is to examine the moderating role of dynamic user-specific and user network-specific characteristics on the effect of social contagion in online communities.</p><p>To accomplish our objectives, we leverage a novel data set from a popular massively multiplayer online role-playing game (MMORPG) community. MMORPGs are a blend of roleplaying video games and massively multiplayer online games. They facilitate communication and interaction between users, where users (frequently called "gamers" 3 ) team up with one another to play games. MMORPGs often offer "in-game" products to gamers in the community in exchange for realworld currency. In our online gaming community, users can purchase two different types of virtual products: functional and hedonic. Whereas functional products help improve the in-game performance of a gamer during play, hedonic products are purely for fun or image and may help a gamer gain social currency (such products help in signaling taste, virtual appearance, etc.) without improving the gamer's actual performance in the online game. Another interesting feature of MMORPGs is the character progression system by which gamers earn experience points and use those points to reach higher character "levels." This feature of MMORPGs helps us gauge the effect of time-varying gamer-specific skill-based experience. Furthermore, gamers team up with many different gamers, changing alliances at will, and a gamer's alliance partners can also be connected to each other; this phenomenon creates dynamic social networks in these communities. We are able to track all of a gamer's activities, the networks they create, and their virtual in-game purchases, allowing us to study the effect of contagion on a focal gamer's dynamic spending behavior.</p><p>Several earlier studies have relied on surveys or geographic proximity to infer social contagion; however, access to social networking sites enables researchers to observe interactions between actors. In our gaming community, we observe actual interactions between users and use these interactions to measure social contagion. Social contagion literature has identified several challenges in the identification of social influence from observational data. One of the thorniest issues is endogenous group formation <ref type="bibr" coords="2,418.94,576.44,55.04,8.77" target="#b49">(Manski 1993)</ref>, also referred to as homophily <ref type="bibr" coords="2,353.88,587.89,137.84,8.77" target="#b56">(Nejad, Amini, and Babakus 2015)</ref> or assortativity <ref type="bibr" coords="2,555.55,587.89,37.50,8.77;2,353.88,599.34,62.86,8.77" target="#b30">(Haenlein and Libai 2013)</ref>, whereby actors with similar tastes tend to form a group. We follow the prescriptions of recent studies to handle these issues <ref type="bibr" coords="2,429.05,622.30,123.32,8.77" target="#b27">(Ghose, Han, and Iyengar 2012;</ref><ref type="bibr" coords="2,554.84,622.30,38.22,8.77;2,353.88,633.75,42.99,8.77" target="#b33">Hartmann et al. 2008;</ref><ref type="bibr" coords="2,399.28,633.75,137.45,8.77" target="#b55">Nair, Manchanda, and Bhatia 2010)</ref> and perform a battery of robustness checks to rule out alternative explanations for our findings. Specifically, we follow a multimethod approach and supplement the results of our main model with a fixed-effects formulation <ref type="bibr" coords="2,522.31,679.56,51.80,8.77" target="#b62">(Rossi 2014)</ref>, an instrumental variable approach, and a quasi-experimental approach (e.g., <ref type="bibr" coords="2,416.64,702.47,151.29,8.77" target="#b3">Aral, Muchnik, and Sundarajan 2009)</ref>.</p><p>Our analysis, based on a double-hurdle model of users' participation and expenditure decisions, reveals evidence of "social dollars," whereby social interaction between users increases within-community purchase of both functional and hedonic products. We find a greater contagion effect for hedonic product purchases than for functional products. We find that whereas newbies (or less-experienced users) are more influenced by their friends' spending behavior in their purchases of functional products, the more-experienced users exhibit a greater response to their social network's spending on hedonic products. We also find that while denser social networks have a stronger influence on users' spending on functional products, sparser social networks are better conduits of social influence for users' spending on hedonic products.</p><p>Our findings contribute significantly to both theory and practice. Online communities are increasingly under pressure to generate more and different sources of revenue and have devised ways to help monetize users' social interactions in these communities. Our study leverages data on actual social interactions in online communities and helps advance current research by showing that social interactions between users of online communities influence repeat purchase behavior of users and help facilitate commerce within those communities; community managers would be served well by leveraging these social networks to promote products. With respect to product types, most of the studies on social contagion have focused on functional (utilitarian) products. However, an extensive body of research shows that consumer behavior differs across different types of products (e.g., <ref type="bibr" coords="3,210.95,393.15,114.92,8.77" target="#b23">Dhar and Wertenbroch 2000)</ref>. Whereas utilitarian product purchase behavior may be more rational and performance-or goal-driven, hedonic behavior may embody a notion of fun, excitement, and gaining social status among peers. Thus, depending on the type of product, we argue for and find differential contagion effects across the two types of products. We propose and document interesting moderating roles of dynamic user-specific and user network-specific characteristics on users' susceptibility to social contagion. These results not only are new contributions to the literature on social interactions in online communities but also yield relevant managerial implications for niche communities that are based around users' interests in specific type of products. While many communities are trying to leverage online social networks to engage and motivate users to make purchases, there is scant evidence on the monetization of social networks. From a managerial perspective, we thus establish the link between social connections in online communities and social value. Based on our results, we offer insights for managers on implementing user segmentation strategies and managing user networks across different types of products. In <ref type="table" coords="3,90.88,633.75,28.81,8.77" target="#tab_0">Table 1</ref>, we summarize how we differentiate our study from existing studies that have examined social contagion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Research Background and Hypothesis Development</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Social Contagion</head><p>Scholars across several fields, such as marketing, sociology, and economics, have been interested in the phenomenon of social contagion as it plays a key role in the diffusion of new products, ideas, and behaviors (e.g., <ref type="bibr" coords="3,461.46,83.78,127.44,8.77" target="#b72">Van den Bulte and Lilien 2001)</ref>. Much of the literature set in the context of offline communities has, however, relied either on geographic proximity between actors to infer social contagion (e.g., <ref type="bibr" coords="3,507.70,118.19,85.27,8.77" target="#b8">Bell and Song 2007;</ref><ref type="bibr" coords="3,353.88,129.64,128.13,8.77" target="#b48">Manchanda, Xie, and Youn 2008)</ref> or on surveys to construct the social networks between users <ref type="bibr" coords="3,476.98,141.09,116.07,8.77;3,353.88,152.54,56.07,8.77" target="#b39">(Iyengar, Van den Bulte, and Valente 2011;</ref><ref type="bibr" coords="3,414.46,152.54,143.89,8.77" target="#b55">Nair, Manchanda, and Bhatia 2010)</ref>. Online communities offer researchers the ability to observe interactions between users, thus enabling the researcher to observe a focal actor's social network with precision instead of inferring it from geographic proximity or surveys. For example, in our online MMORPG community, we can observe whether two gamers have collaborated to play against monsters or to complete missions. Further, much of the rich social contagion literature in offline communities studies products that are inherently functional in nature, such as drugs (e.g., <ref type="bibr" coords="3,504.42,255.67,88.56,8.77;3,353.88,267.12,48.62,8.77" target="#b55">Nair, Manchanda, and Bhatia 2010)</ref>. However, many online communities offer both functional and hedonic products, and some communities offer only hedonic products, thus making the study of social influence important across the functional and hedonic product domains.</p><p>Our study context is a unique setting of an online community where users can purchase products with primarily functional attributes and other products that have only hedonic attributes within the online community, thus allowing our study to be the first to use individual-level purchase behavior data to study social contagion across both hedonic and functional products. In <ref type="table" coords="3,401.47,381.70,27.59,8.77" target="#tab_0">Table 1</ref>, we note that all the listed studies examine contagion in functional products. <ref type="bibr" coords="3,481.49,392.58,3.74,6.58">4</ref> Social contagion is effective in the spreading of ideas and behaviors as it helps reduce perceived economic and/or social risk. Whereas economic risk stems from quality uncertainty associated with products, social risk stems from an individual's need for social reassurance where individuals consider how others in the network might judge their choices <ref type="bibr" coords="3,514.09,461.86,51.22,8.77" target="#b60">(Prasad 1975)</ref>. In an online community, observing the actions of other individuals with whom a focal user interacts can help reduce both the economic and the social risk associated with the purchase of products. In online communities, users can learn about the specific attributes of functional products that help in task accomplishment or enhance performance from observing the choices of other users who belong to their social network in the community. Similarly, users can also gain knowledge about hedonic products from their social network that may help their self-expression goals and mitigate the social risk associated with such products.</p><p>Thus, we expect that in an online community, a focal user's friends' spending on virtual products (both functional and hedonic) will influence the focal user's subsequent spending behavior. We thus propose the following: H 1 : A focal user is more likely to purchase products (i.e., functional and hedonic products) when that user's friends have done so recently. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Functional Versus Hedonic Products</head><p>Functional products embody rational and goal-oriented decision making, where the derived benefits depend on efficient task completion <ref type="bibr" coords="5,262.83,111.72,67.19,8.77;5,90.88,123.17,20.66,8.77" target="#b69">To, Liao, and Lin 2007)</ref>. Hedonic products, in contrast, embody a desire for fun, adventure, playfulness, and fantasy <ref type="bibr" coords="5,225.41,134.63,104.59,8.77;5,90.88,146.14,20.68,8.77" target="#b7">(Babin, Darden, and Griffin 1994)</ref>. According to <ref type="bibr" coords="5,173.53,146.14,152.68,8.77">Hirschman and Holbrook (1982, p. 92)</ref>, "hedonic consumption designates those facets of consumer behavior that relate to the multi-sensory, fantasy and emotive aspects of one's experience with products." In the context of viral marketing and information transmission, product characteristics (functional or hedonic) are particularly important; studies have found them to be important drivers of the success of marketing campaigns. For example, <ref type="bibr" coords="5,245.33,226.30,84.67,8.77;5,90.88,237.75,52.26,8.77" target="#b63">Schulze, Schöler, and Skiera (2014)</ref> suggest that in a fun-oriented environment (e.g., Facebook), consumers will rely on simple cues and heuristics to process viral marketing messages. which will lead to greater sharing of hedonic products than functional products. <ref type="bibr" coords="5,304.03,272.16,25.93,8.77;5,90.88,283.62,80.71,8.77" target="#b12">Berger and Schwartz (2011)</ref> find that products with more visible and hedonic attributes generate greater word-of-mouth. They argue that more visible products increase accessibility and top-ofmind awareness, resulting in greater transmission. <ref type="bibr" coords="5,287.13,317.97,42.88,8.77;5,90.88,329.42,64.93,8.77" target="#b11">Berger and Milkman (2012)</ref> also suggest that highly emotional content (related to hedonic attributes of a product) can lead to more effective viral marketing campaigns.</p><p>In an online community that offers both hedonic and functional products, while a focal user will be influenced by his or her friends' spending behavior, we argue that this effect will differ across subsequent spending on hedonic and functional products. Studies on consumption in virtual communities suggest that involvement in a virtual community can help enhance users' hedonic consumption experiences (Ben-Ur, Mai, and Yang 2017). For functional products, a focal user will engage in deeper information processing because these are high-involvement products that are designed to yield specific and desired functional benefits. For hedonic products, users are likely to use simple cues and heuristics and engage in faster information processing to derive primarily experiential and emotional benefits. Thus, relatively lower cognitive processing needs for hedonic products will lead to faster information transmission. In addition, hedonic products also constitute conspicuous spending and are associated with hedonic attributes (style, fashion, etc.), implying that a focal user's hedonic product choices are immediately noticed by his or her network. Consumption of hedonic products is directly related to social prestige and is an investment in social capital <ref type="bibr" coords="5,271.46,592.93,58.47,8.77;5,90.88,604.39,41.20,8.77" target="#b0">(Amaldoss and Jain 2005;</ref><ref type="bibr" coords="5,135.91,604.39,118.48,8.77" target="#b34">Hinz, Spann, and Hann 2015)</ref>. Thus, consuming such products can lead a focal user to feel a sense of immediate social gratification and an ascension of social status in the community.</p><p>While the benefits of functional consumption are intrinsic and performance driven, the benefits of hedonic consumption are extrinsic and create immediate social capital for a focal user in an online community. Hence, we expect the effect of friends' hedonic product spending on a focal user's hedonic product spending to be greater than the effect of friends' functional product spending on a focal user's functional product spending. Based on these arguments, we present the following hypothesis: H 2 : The effect of friends' hedonic spending on a focal user's hedonic spending is greater than the effect of friends' functional spending on a focal user's functional spending.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Impact of User and Network Characteristics on Susceptibility to Contagion</head><p>In an online community, as users gain experience and learn about community norms, products offered, and so on, in the community, their susceptibility to contagion might shift. Social networks in online communities are also fairly complex and dynamic <ref type="bibr" coords="5,444.63,190.75,105.61,8.77" target="#b30">(Haenlein and Libai 2013)</ref> and might evolve rapidly, which, in turn, could influence the effect of social contagion. In the following, we argue for the moderating roles of user experience and network density on users' susceptibility to contagion.</p><p>User experience. A user's level of experience in an online community reflects the depth of domain-related knowledge he or she possesses, and therefore it can play a critical factor in his or her susceptibility to social influence. Users who have been members of a community for longer are more aware of community norms and functions and can navigate the features of the community with greater ease. For example, in our gaming community, an expert gamer is likely to know the different aspects of a game, the various virtual monsters he or she is likely to encounter, and the level of skill needed to defeat these monsters and progress to more advanced levels. Gamers with more experience also have a higher likelihood of performing well at the game and thus are less likely to be influenced by peers in terms of purchase of functional products. As <ref type="bibr" coords="5,560.22,407.43,32.79,8.77;5,353.88,418.89,58.52,8.77">Ericsson (2006, p. 685)</ref> states, "Extensive experience of activities is necessary to reach high levels of performance." A novice user, on the other hand, needs to spend a considerable amount of time and effort to understand the different aspects of an online community and develop a sense of comfort within the community to engage in collaboration with other members and commerce activities. Therefore, a newbie with much less experience in the community will have more to learn from peers who can assist in his or her acclimation in the community. Since functional products embody attributes that are more task-and performance-oriented, newbies will likely benefit more from peer interaction to learn about products that can help them achieve their goals or the tasks they may have set for themselves in the community. Prior research also suggests that individuals with higher levels of expertise may have higher levels of confidence <ref type="bibr" coords="5,398.09,590.72,115.65,8.77" target="#b70">(Trafimow and Sniezek 1994)</ref> in their abilities and hence may not find information from peers about functional products as relevant. In a similar vein, research on physician prescription behavior has demonstrated that social contagion effects are weaker for expert physicians or opinion leaders <ref type="bibr" coords="5,353.88,648.04,141.02,8.77" target="#b55">(Nair, Manchanda, and Bhatia 2010)</ref>.</p><p>Drawing on the aforementioned arguments, we propose that the social influence effect for within-community purchases of functional products will be diminished for experienced users as compared with the less experienced users, in the following hypothesis:</p><p>Information diffusion, or how individuals share information, often depends on the characteristics of the product, such as whether it is functional or hedonic <ref type="bibr" coords="6,219.77,95.23,110.22,8.77;6,90.88,106.73,20.67,8.77" target="#b63">(Schulze, Schöler, and Skiera 2014)</ref>. As discussed earlier, hedonic product consumption is associated with a desire to seek fantasy and fun <ref type="bibr" coords="6,289.73,118.19,40.32,8.77;6,90.88,129.64,75.74,8.77" target="#b23">(Dhar and Wertenbroch 2000;</ref><ref type="bibr" coords="6,170.73,129.64,68.04,8.77" target="#b66">Strahilevitz 1999)</ref>. Users with more experience in online communities are likely to have achieved their goals related to the tasks performed in the community (e.g., mastering a game) and may harbor greater desire to seek an affective or a sensory experience that increases pleasure, as compared with less experienced users. Users with less experience may feel a greater need initially to explore the community, understand the norms and the layout of the community, and hone the skills needed (if any) to perform the tasks in the community before they venture into seeking an enhanced experience involving pleasure. For example, in our community, experienced users are more likely to be familiar with the community, the game, its rules, in-game products, and so on (vs. less experienced users). These users, thus, are likely to look for ways to make their gaming experience more enjoyable. The social contagion effect for hedonic product purchases will, therefore, be strengthened for these users. The less experienced users will first need to gain proficiency in the game before indulging in hedonic product purchases that reflect their selfexpression desires and help create a social identity for themselves in the community. Taking these ideas together, we expect experienced users to exhibit greater sensitivity toward peers' spending on hedonic products, and we propose the following hypothesis:</p><p>H 4 : The greater the expertise level of a focal user, the greater the effect of social contagion on that user's purchase of hedonic products.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Network density.</head><p>A key feature of online communities is that users create intricate social networks that can affect the nature and the amount of information flowing through the communities. The level of interaction and the type of connections among users together determine the amount of trust a focal user can place in the information received from peers; they are thus critical factors that influence user behavior in an online community <ref type="bibr" coords="6,139.24,530.63,96.64,8.77" target="#b4">(Aral and Walker 2014)</ref>. It has been long understood that dense networks (where density reflects the extent to which friends in a focal actor's network are connected to each other; <ref type="bibr" coords="6,139.80,564.98,59.45,8.77" target="#b19">Coleman 1988</ref><ref type="bibr" coords="6,207.78,564.98,19.16,8.77" target="#b20">Coleman , 1990</ref>) allow accumulation of more redundant information within a network. In contrast, sparse networks allow new information to diffuse through social networks more easily <ref type="bibr" coords="6,206.23,599.40,77.00,8.77" target="#b29">(Granovetter 1973)</ref>. However, dense networks yield stronger and closer ties that can increase the amount of trust a focal user may place in his or her network, resulting in greater social influence. We note that users make new connections and change existing connections at will in online communities, and thus their network structure is dynamic. No study, to our knowledge, has examined the dynamic effect of network density on users' susceptibility to social contagion.</p><p>For certain product consumption experiences, users' trust in the source of the information may be more important than it is for other products. Since consumption of functional products is mostly driven by expectations regarding product performance, users need to place more trust in the source of the information when purchasing products they hope will deliver key performance benefits. Research shows that consumers pursue prevention goals when purchasing utilitarian products; such behavior reduces the likelihood of a distressing experience, enhances their confidence, and makes them feel more secure in their product choice <ref type="bibr" coords="6,441.60,141.09,151.45,8.77;6,353.88,152.55,20.68,8.77" target="#b15">(Chitturi, Raghunathan, and Mahajan 2008)</ref>. Thus, users in online communities need trustworthy information about purchasing functional products, and dense networks help foster the close ties that lead to greater trust among members of a close-knit network. In our gaming community, if gamers need to know how a particular performance-enhancing product works in the game, they will tend to rely on the gamers they typically either play with or who are friends of their friends.</p><p>Drawing on this discussion, we argue that dense social networks in an online community will enhance the contagion effect on a focal user's spending on functional products. Stated formally:</p><p>H 5 : The greater the density of a focal user's network, the greater the effect of social contagion on that user's purchase of functional products.</p><p>As noted earlier, hedonic product consumption is more sensory in nature and involves elements of fun and pleasure <ref type="bibr" coords="6,353.88,354.26,149.34,8.77" target="#b44">(Khan, Dhar, and Wertenbroch 2005)</ref>. For hedonic product consumption (vs. functional product consumption), trust in the source of the information or objective evaluations may not be as important. Consumers' focus in hedonic purchase situations is likely to be more on promotion goals that culminate in creating an exciting and pleasurable experience <ref type="bibr" coords="6,503.09,411.57,89.96,8.77;6,353.88,423.02,74.82,8.77" target="#b15">(Chitturi, Raghunathan, and Mahajan 2008)</ref>. Indeed, <ref type="bibr" coords="6,467.80,423.02,125.22,8.77" target="#b35">Hirschman and Holbrook (1982</ref> suggest that hedonic consumption may involve consumers' conjectures or subjective evaluations of what they perceive reality to be or what they wish reality to be. In an online community, for users to take pleasure in creating their own version of reality and sharing it with others, it becomes important to connect with others, seek out new information from new sources, and create an exciting existence within the bounds of the community. Research suggests that sparse networks, which involve more loosely connected users, allow easy transmission of such new information <ref type="bibr" coords="6,542.66,537.60,50.27,8.77;6,353.88,549.05,21.42,8.77" target="#b29">(Granovetter 1973)</ref>, which can be critical for users to create an engaging and an absorbing experience for themselves. Therefore, we expect the social contagion effect surrounding hedonic product purchases to be mitigated for dense networks. We hypothesize:</p><p>H 6 : The greater the density of a focal user's network, the weaker the effect of social contagion on that user's purchase of hedonic products. <ref type="figure" coords="6,353.88,647.70,32.94,8.77">Figure 1</ref> illustrates our proposed conceptual framework.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Research Setting and Data</head><p>Research Setting: MMORPG Communities</p><p>The setting of MMORPGs is ideally suited to examining the effect of social contagion on users' purchase behavior in online communities. With projections of over US$108 billion in annual global revenue in 2017, MMORPGs have gained tremendous popularity over the last decade. 5 MMORPGs such as World of Warcraft have reported over 100 million accounts created over the game's lifetime. MMORPGs lend a player the ability to assume a character, or "avatar," and play the game with other players around the world. Some games are eagerly awaited, such as Star Wars: The Old Republic, and can quickly amass millions of subscribers within a short time after the launch of the game.</p><p>MMORPGs are a genre of online games that support a large number of gamers in an environment in which they participate simultaneously and interact with each other <ref type="bibr" coords="7,263.75,410.44,66.25,8.77;7,90.88,421.89,20.64,8.77" target="#b31">(Harmeling et al. 2017)</ref>. A MMORPG is a "graphical two-dimensional (2-D) or three-dimensional (3-D) role playing game played online, allowing individuals, through their self-created digital characters or 'avatars', to interact not only with the gaming software but with other users" <ref type="bibr" coords="7,171.38,467.76,150.63,8.77">(Steinkuehler and Williams 2006, p. 886</ref>). Prior literature on information systems suggests that gamers' motivations to play MMORPGs include a sense of achievement, social interaction, and immersion <ref type="bibr" coords="7,249.92,502.11,44.65,8.77" target="#b74">(Yee 2006)</ref> and that gamers prefer MMORPGs not only for their technological features but also for the social experience they provide <ref type="bibr" coords="7,299.63,525.02,30.39,8.77;7,90.88,536.47,38.78,8.77" target="#b41">(Jin and Sun 2015)</ref>.</p><p>MMORPG users can create a personalized avatar and play a significant portion of the game content without paying. However, online games earn revenue when gamers spend actual money to buy virtual products. In MMORPGs, typically there are two types of virtual products that gamers can buy. Functional products (e.g., virtual energy drinks or safety cards) help gamers play better, garner more experience points, and progress faster through the levels of a given game. Hedonic products include virtual clothes and decorative items (e.g., jewelry, accessories) that users can buy to adorn their avatars. Gamers often take their avatars very seriously, even considering virtual avatars as idealized or experimental representations of themselves in the virtual world; thus, to facilitate self-enhancement goals, many gamers attempt to make their own avatar look special or different from others <ref type="bibr" coords="7,427.72,83.78,101.34,8.77" target="#b75">(Yee and Bailenson 2007)</ref>. These hedonic products do not help gamers play better or earn more points.</p><p>A key difference between the two types of products in an MMORPG community is that hedonic product purchases are easily observed by other gamers, whereas the purchase of functional products can only be inferred from the performance of another gamer. For example, gamers can immediately observe an avatar donning jewelry or other decorative or hedonic items. In contrast, although the purchases of functional products are less conspicuous, a gamer can easily infer that a friend's avatar consumed an energy drink that enabled it to come alive or bought other products that made the avatar play better. However, because the functional products typically cause a dramatic change in performance (e.g., a focal gamer who is unable to play suddenly resumes playing), such inferences are relatively clear and easily made. In addition, gamers can chat with each other to exchange information about virtual products. We note that it is typical for friends to virtually "hang out" in gaming and MMORPG communities (e.g., Cresci 2017; Gibson 2016; <ref type="bibr" coords="7,353.88,301.48,142.09,8.77" target="#b46">Kowert, Domahidi, and Quandt 2014)</ref>. In our focal MMORPG, gamers can observe or learn about the purchases of their friends, thereby making contagion feasible. Although gamers can earn points by playing individually, they often collaborate to fight different monsters or complete missions, 6 making a gamer's social network dynamic. In Web Appendix W1, we provide a more detailed overview of our popular focal MMORPG, based in South Korea. <ref type="bibr" coords="7,415.45,381.13,3.74,6.58">7</ref> From the firm's perspective, MMORPGs can involve large development and testing costs and need to be managed by investing in and increasing reliable server capacity <ref type="bibr" coords="7,353.88,427.50,71.21,8.77" target="#b50">(Marchand 2016)</ref>. Thus, sales of virtual products are a critical source of revenue for these games and vital for their survival. To sum, our focal MMORPG enables us to observe actual in-game purchases, actual social interactions between gamers in the online community, variation in gamers' skill levels, and changes in network structure over time. This setting is thus conducive to studying the social contagion effect in users' in-game purchase behavior and providing much-needed insights for managers who work to develop viable online communities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data</head><p>We have access to individual gamers' log data, which capture all the gaming activities and purchase decisions of the gamers in our focal MMORPG community. Our estimation data span a total of 20 weeks. Given that gamers can join the gaming community at different times and that not every gamer logs in to play during our data period, for the purpose of model tractability, we apply the following two filters to select the estimation sample: we work with (1) gamers who registered (by  creating a profile) in the second and third months of the launch of the focal game and (2) gamers who play the MMORPG at least once a month over the data period. We exclude the first month of data (after the launch of the game) from the analysis to allow for a "settling period," as online games often experience systematic errors and corrections near the time of launch. 8 Given our focus on gamers' purchase behavior, the second filter allows us to work with gamers who access the gaming community with fairly regular frequency. 9 These filtering steps yield a sample of 4,645 gamers. Thus, our estimation sample contains the log-ins, gaming activities, and purchase decisions of 4,645 gamers over a period of 20 weeks (from the start of the second month of the launch of the game). The total number of gamers who played with these 4,645 focal gamers over the data period is 31,645. The MMORPG, like most MMORPGs, has a skill-based progression system. Gamers earn experience points, the unit of measurement of character progression in many MMORPG games, by completing missions or defeating enemies (e.g., monsters) to progress through various levels; gamers can also lose points if they do not play well. For example, if a gamer's virtual avatar were to get hit by monsters, the gamer would lose points. As a gamer gains experience points, the gamer's virtual character "levels up," 10 and progress to a new level comes with benefits such as new abilities and improved statistics. This, in turn, lets the gamer's character get stronger and enables the gamer to participate in more difficult tasks (e.g., fighting stronger monsters, completing more difficult missions). While gamers can play for free, the online game earns revenues when the gamers spend real currency to buy virtual products. 11 As mentioned earlier, gamers can buy two types of products: (1) functional products, such as health drinks or safety cards, that help gamers fight monsters and play better; and (2) hedonic products, such as jewelry and clothes, that gamers can use to decorate their avatars.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dependent and Independent Variables</head><p>Gamer spending. Our analysis is at the individual gamer-weekly level. Given that there are two types of virtual products-functional and hedonic -we have two dependent variables, Spending f it and Spending h it ("f" and "h" indicate functional and hedonic products, respectively). These variables capture a focal gamer i's purchase (in Korean won) 12 of functional and hedonic products, respectively, in week t. We note that gamers can access the basic game content without paying, and we handle this issue explicitly in the "Model Specification" section.</p><p>Contagion. Following extant research <ref type="bibr" coords="8,523.11,102.66,69.88,8.77;8,353.88,114.11,48.43,8.77" target="#b27">(Ghose, Han, and Iyengar 2012</ref>; Iyengar, Van den Bulte, and Lee 2015; Iyengar, Van den Bulte, and Valente 2011), we operationalize contagion as the spending level of a gamer's friends. Specifically, we define a gamer i's contagion at time t as the sum of amount spent at time t -1 by the gamer's friends and is operationalized as follows:</p><formula xml:id="formula_0" coords="8,353.88,176.39,180.20,20.96">Contagion k it = å j Spending k ijt-1 ,<label>(1)</label></formula><p>where Spending k ijt-1 is the spending of a gamer i's friend j at time t -1 on product type k (k = functional and hedonic products).</p><p>As we noted earlier, a gamer can team up with other gamers to fight monsters. On the basis of the collaboration history between gamers, we classify two gamers as friends in a time period only if they collaborated in any games played in the previous time period. Three points about the operationalization of contagion deserve special mention. First, the operationalization is based on observed interactions between a focal gamer and his/her friends. Second, we work with a (one-period) lagged measure of spending by a focal gamer's friends (as opposed to a contemporaneous measure) to avoid the "reflection problem" <ref type="bibr" coords="8,353.88,355.45,54.84,8.77" target="#b49">(Manski 1993)</ref>. We elaborate on the identification issues in the following section, but, very briefly, the temporal ordering based on the lagged measure helps us separate the effect of friends' purchase behavior on the purchase behavior of the focal gamer from the effect of the focal gamer's purchase behavior on the purchase behavior of his/her friends <ref type="bibr" coords="8,503.64,412.76,89.34,8.77;8,353.88,424.22,44.22,8.77" target="#b48">(Manchanda, Xie, and Youn 2008)</ref>. Third, given that we code two gamers as friends if they collaborated in the time period immediately prior to the focal time period, we believe that our measure of contagion is very conservative.</p><p>Experience. We use users' level in the game to capture their experience (or level of expertise, in our context). Gamers gain (lose) experience points when they defeat (or get defeated by) a monster, and they reach higher character levels once those points exceed specified amounts. We operationalize Experience it as the game level of a user i at the end of week t. We note that our context allows us to measure variation in a gamer's expertise level over time. Because user level is based on cumulative points, the variable captures users' cumulative performance-based experience at any given time. Furthermore, to the extent that a focal gamer can gain and lose points in any play session, the variable also captures change in users' expertise that is observable by other users at any given time.</p><p>Network density. Network density measures the extent to which an actor's nodes or contacts are connected to each other <ref type="bibr" coords="8,353.88,656.66,56.97,8.77" target="#b19">(Coleman 1988</ref><ref type="bibr" coords="8,417.07,656.66,16.50,8.77" target="#b20">(Coleman , 1990</ref>. In our context, the higher the number of connections between friends of a focal gamer, the greater the density of the network of the focal gamer. Following studies on dynamic social networks <ref type="bibr" coords="8,455.71,691.01,57.85,8.77" target="#b58">(Phillips 2010;</ref><ref type="bibr" coords="8,517.45,691.01,75.58,8.77;8,353.88,702.46,22.49,8.77" target="#b73">Watts and Strogatz 1998)</ref> and recent studies in marketing strategy (Swaminathan and Moorman 2009), we operationalize a focal gamer's network density as the ratio of the actual number of connections between friends of a focal gamer to the maximum number of possible 8 Although we exclude the first month of data, we note that we have play and purchase behavior data for the sample gamers from the time of their first log-ins. <ref type="bibr" coords="8,99.84,657.32,3.36,5.92">9</ref> We note that we do not apply any data filtering to gamers according to their purchase of products in the gaming community.</p><p>10 Once a gamer reaches a predetermined number of experience points, his or her avatar proceeds to the next level. 11 Virtual products cannot be traded between the gamers. Gamers can only purchase products from the MMORPG. We thank an anonymous reviewer for raising this point. connections between friends of the focal gamer. <ref type="bibr" coords="9,279.04,71.82,7.31,6.58">13</ref> We define network density as follows:</p><p>Network Densityit = Number of actual connections between friends of a gamer i at time t Number of possible connections between friends of a gamer i at time t .</p><p>(2)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Control Variables</head><p>We control for various gamer-specific, gamer network-specific, game-related, and avatar-specific characteristics in the model. The gamer-specific (time-varying) control variables are the following: the experience points that a gamer i obtained at time t (denoted by ExperiencePoint it ), the total number of log-ins by the focal gamer by time t (TotalLogin it ), the total size of a gamer's network operationalized by the total number of friends the gamer has played with by time t (TotalNumFriends it ), the number of weeks since a gamer started playing the game (Duration it ), the total number of times a gamer's avatar died by time t (TotalDeath it ), and the total number of monsters a gamer's avatar defeated by time t (TotalDefeat it ). Following the arguments in recent literature on contagion using observational data <ref type="bibr" coords="9,109.14,297.51,65.41,8.77" target="#b32">(Hartmann 2010;</ref><ref type="bibr" coords="9,177.02,297.51,135.09,8.77" target="#b55">Nair, Manchanda, and Bhatia 2010)</ref>, we created a gamer network-specific variable to account for correlated unobservables, factors that can simultaneously affect all the gamers in a gamer's network. Specifically, by accounting for the purchase behavior (at time t) of the friends-of-friends of a focal gamer who are not friends of the focal gamer (Friends of Friends k it ), we control for factors that affect all gamers in a gamer's network. We elaborate on this variable in the following section. We created this variable for the two types of virtual products, functional and hedonic. Our MMORPG is a role-playing game in which a gamer can select an avatar type, or "job," from the following four options: magician, archer, thief, or warrior. We created game-related dummy variables (denoted by Job i ) for the basic characteristics of the avatar that a gamer chooses. 14 We also control for the age and the gender of the gamers. Finally, we also include time fixed effects to absorb factors that may affect purchase behavior at a given time (we elaborate on this in the following section). In <ref type="table" coords="9,257.63,492.25,26.90,8.77" target="#tab_2">Table 2</ref>, we present the operationalizations and summary statistics of all the variables.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Econometric Model</head><p>Before we present our main model, we discuss several econometric challenges that researchers who work with observational data must overcome in establishing the effect of social contagion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Identification Challenges</head><p>Studies that examine social influence using nonexperimental data like ours face the challenge of identification in terms of differentiating the social contagion effect from the effect of confounding factors. Prior literature in economics has identified three sources of confounding factors, namely, endogenous group formation, correlated unobservables, and simultaneity <ref type="bibr" coords="9,560.92,146.14,32.06,8.77;9,353.88,157.59,20.78,8.77" target="#b49">(Manski 1993)</ref>. Among these issues, endogenous group formation is the thorniest issue for researchers who work with observational data to study contagion. In the following paragraphs, we elaborate on these issues and explain the prescriptions expounded in the recent literature <ref type="bibr" coords="9,490.10,203.40,102.98,8.77;9,353.88,214.85,23.12,8.77" target="#b27">(Ghose, Han, and Iyengar 2012;</ref><ref type="bibr" coords="9,380.09,214.85,89.64,8.77" target="#b33">Hartmann et al. 2008;</ref><ref type="bibr" coords="9,472.82,214.85,120.24,8.77;9,353.88,226.30,23.64,8.77" target="#b55">Nair, Manchanda, and Bhatia 2010)</ref> to address them.</p><p>Endogenous group formation. Endogenous group formation (or homophily) refers to the possibility that individuals with similar tastes or preferences are more likely to form a group. In our context, gamers who have an inherent liking for decorating their avatars (by purchasing hedonic products) may form groups to play together. In such a scenario, the effect of a gamer's friends' purchase behavior on the focal gamer's purchase behavior may not be driven by contagion but may be due to homophily. To the extent that group formation is driven by similar usage, duration, and demographic characteristics, we include several of these variables in our model to account for possible similarities in tastes and preferences among users <ref type="bibr" coords="9,353.88,383.23,95.57,8.77" target="#b57">(Nitzan and Libai 2011)</ref>. Several other solutions have been developed to address the issue of endogenous group formation <ref type="bibr" coords="9,353.88,406.13,129.07,8.77" target="#b27">(Ghose, Han, and Iyengar 2012;</ref><ref type="bibr" coords="9,486.95,406.13,63.95,8.77" target="#b32">Hartmann 2010;</ref><ref type="bibr" coords="9,554.90,406.13,38.09,8.77;9,353.88,417.59,43.18,8.77" target="#b33">Hartmann et al. 2008;</ref><ref type="bibr" coords="9,399.69,417.59,135.92,8.77" target="#b55">Nair, Manchanda, and Bhatia 2010)</ref>. The key is to leverage panel data and account for endogenous group formation by using either individual user-level fixed effects or random effects <ref type="bibr" coords="9,412.91,451.94,65.45,8.77" target="#b32">(Hartmann 2010;</ref><ref type="bibr" coords="9,480.83,451.94,112.24,8.77;9,353.88,463.39,20.57,8.77" target="#b55">Nair, Manchanda, and Bhatia 2010)</ref>. The argument is that both fixed and random effects formulations help capture unobserved common tastes by accounting for user-level effects that drive endogenous group formation. Hence, we use individual gamer-level random effects to further account for unobserved common tastes among gamers. 15 Correlated unobservables. The second identification challenge is the issue of correlated unobservables that may drive purchase behavior of all the gamers simultaneously. For example, gamers who play together during a sporting event (such as the World Cup) may all be equally excited and may increase their in-game purchase behavior following or during this big event. Any increase may be driven by the exogenous event that the group of gamers experienced together and should not be inferred as social contagion. Correlated unobservables are driven by exogenous time period-specific shocks, and studies suggest that these can be accounted for by incorporating time fixed effects <ref type="bibr" coords="10,90.88,678.77,133.91,8.77" target="#b40">(Janakiraman and Niraj 2011;</ref><ref type="bibr" coords="10,230.89,678.77,99.10,8.77;10,90.88,690.22,53.20,8.77" target="#b55">Nair, Manchanda, and Bhatia 2010)</ref>. We thus include time fixed effects (at the weekly level) in our model.</p><p>Although time fixed effects help us account for shocks that affect all gamers at a given point of time, we also would like to account for other unobserved factors at the (gamer) network and time level. Following prior studies (e.g., Nair, Manchanda, and Bhatia 2010), we employ the difference-in-differences approach and construct the purchase behavior of those gamers who are not in a focal gamer's network. Since we can map the social network of all the gamers, we construct Friends of Friends k itthe purchase behavior of gamers (of product type k at time t) who are friends of a focal gamer i's friends but not of the focal gamer -to control for unobserved network-and time-specific correlated unobservables. The argument is that because of direct connections/ties between a gamer's friends and friends-of-friends, the variable helps account for the contemporaneous time-and gamer networkspecific shocks to gamers' purchase behaviors (e.g., <ref type="bibr" coords="11,310.84,129.64,19.21,8.77;11,90.88,141.09,118.40,8.77" target="#b55">Nair, Manchanda, and Bhatia 2010)</ref>. This would help absorb any gamer network-specific shocks over and above the time-period fixed effects. Given that gamers can choose from different avatars with specific roles or jobs in the game (i.e., magician, archer, thief, and warrior), and to the extent that gamers who choose similar jobs might purchase similar items, we believe that avatar type-specific dummy variables help further account for avatar level correlated unobservables effect.</p><p>Simultaneity. The next issue that confronts researchers who use observational data to model contagion is simultaneity, also referred to as the "reflection problem" <ref type="bibr" coords="11,254.04,261.11,54.66,8.77" target="#b49">(Manski 1993)</ref>. The issue arises because the effect of social contagion can be difficult to identify if individuals in the same group affect each other's behavior simultaneously. To temporally separate the effect of a focal gamer's purchase behavior on his/her friends' purchase behavior from the effect of the friends' purchase behavior on the focal gamer's purchases, following prior literature (e.g., <ref type="bibr" coords="11,142.66,341.33,123.32,8.77" target="#b27">Ghose, Han, and Iyengar 2012;</ref><ref type="bibr" coords="11,269.18,341.33,60.81,8.77;11,90.88,352.78,20.67,8.77" target="#b33">Hartmann et al. 2008)</ref>, we use lagged values of the friends' purchase behavior to operationalize contagion. To be consistent, we also use lagged values for all the control variables included in the model. 16</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model Specification</head><p>The primary goal is to model gamers' spending behavior as a function of social contagion. In our context, gamers must cross through two "hurdles" before we as econometricians can observe positive levels of gamers' spending. First, a focal gamer should decide to participate or not (i.e., play a game by logging in during any given time period, or not). Second, conditional on crossing the "play hurdle" (i.e., given that the gamer has decided to play), the gamer must cross the "spending hurdle" and decide how much to spend on virtual products. In other words, in our context, we can observe zero spending for either of two reasons:</p><p>(1) a gamer decides not to play or (2) the gamer decides to play but chooses not to spend on virtual products. A standard Tobit model helps account for censoring at zero but assumes a singlehurdle process; in our context, it would not help disentangle zero spending due to players' decision not to play from zero spending due to players' decision not to buy virtual products conditional on their decision to play. 17 In order to disentangle the two types of zeros in spending behavior and to better assess the impact of social contagion on gamers' spending behavior, we employ the double-hurdle model, or the Craggit model, originally developed by <ref type="bibr" coords="11,190.04,641.69,51.80,8.77" target="#b21">Cragg (1971)</ref>. The model assumes there are two decisions: a participation decision (play or not, in our context) and an expenditure decision (spend or not). We refer the readers to <ref type="bibr" coords="11,430.67,72.32,57.67,8.77" target="#b54">Moffatt (2005)</ref> and Eakins (2016) for applications of the model to consumer choice problems.</p><p>Gamers' play decision. To model the focal gamer i's (i = 1, …, N) participation hurdle, we specify the gamer's utility (denoted by Play * it ) of playing the game at time t (t = 1, … T i ) as follows:</p><p>Play * it = a 0 + a 1 ln TotalLogin it-1 + a 2 ln TotalNumFriends it-1 + a 3 ln TotalDeath it-1 + a 4 ln TotalDefeat it-1 + a 5 Duration it + a 6 Job1 i + a 7 Job2 i + a 8 Job3 i + a 9 Age i + a 10 Female i + g t + w it:</p><p>(3)</p><p>We refer the readers to the previous section for the description of the independent variables used in Equation 3. We model players' utility of participation as a function of player-specific time-variant characteristics, which include the cumulative measure of the total number of log-ins (TotalLogin it ), the total number of friends (TotalNumFriends it ), the total number of times the player's avatar died (TotalDeath it ), the total of number of monsters the player's avatar defeated (TotalDefeat it ), and the player's tenure (Duration it ). <ref type="bibr" coords="11,549.47,345.02,7.47,6.58">18</ref> We use a log transformation of the total number of log-ins, total number of friends, total number of deaths, and total number of monsters defeated -TotalLogin it ,TotalNumFriends it , TotalDeath it , and TotalDefeat it -because all of these variables are skewed. <ref type="bibr" coords="11,585.64,390.83,7.47,6.58">19</ref> We also use lagged measures of these variables. Finally, g t is the set of time fixed effects, and w it is the error term associated with the model.</p><p>Gamers' spending decision. The second and the core component of the model is concerned with a gamer's level of spending conditional on the gamer's decision to play the game at a given time period. Drawing on our conceptual framework (see <ref type="figure" coords="11,372.99,490.66,32.78,8.77">Figure 1</ref>) and the identification-related issues discussed earlier, we present our model of gamers' spending behavior as follows:</p><p>ln Spending k* it = ln Contagion k it · ðb 1 + b 2 Experience it-1 + b 3 NetworkDensity it-1 Þ + b 4 Experience it-1 + b 5 NetworkDensity it-1 + b 6 ln ExperiencePoint it-1 + b 7 ln TotalLogin it-1 + b 8 ln TotalNumFriends it-1 + b 9 Duration it + b 10 ln FriendsofFriends k it + b 11 Job1 i + b 12 Job2 i + b 13 Job3 i + b 14 Age i</p><formula xml:id="formula_1" coords="11,353.88,531.94,163.75,83.62">+ b 15 Female i + j k i + u k t + e k it ;<label>(4)</label></formula><p>where Spending k* it is the latent variable of Spending k it which indicates a gamer's spending on product type k (k: functional and <ref type="bibr" coords="11,99.84,687.20,6.72,5.92">16</ref> For the FriendsofFriends variable alone, we use the contemporaneous value because it helps capture contemporaneous timeand network-specific correlated unobservable effects on a focal user's spending behavior. <ref type="bibr" coords="11,99.84,727.06,6.72,5.92">17</ref> We thank the area editor and an anonymous reviewer for this suggestion. <ref type="bibr" coords="11,362.89,657.32,6.72,5.92">18</ref> We also estimated the model with noncumulative measures of control variables in the play decision (Equation 3). We find that the core results of the model are substantively consistent with the results of our proposed model. <ref type="bibr" coords="11,362.89,697.18,6.72,5.92">19</ref> We thank an anonymous reviewer for this suggestion. We added 1 to the TotalLogin, TotalNumFriends, TotalDeath, TotalDefeat, Spending, Contagion, and FriendsofFriends variables (in Equations 3 and 4) before employing the log transformation to avoid taking the logarithm of 0 <ref type="bibr" coords="11,408.81,737.53,131.39,7.89">(Snedecor and Cochran 1967, p. 329</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Social Dollars in Online Communities / 103</head><p>hedonic products) at time t. We note that we use a log transformation on the spending-related variables, the focal contagion variables, and total numbers of log-ins and friends-Spending k it , Contagion k it , Friends of Friends k it , TotalLogin it , and TotalNumFriends it -because all of these variables are skewed. We refer the readers to the previous section for the description of the independent variables used in Equation 4. Finally, j k i is the individual (product type-specific) random effect term that helps account for unobserved individual heterogeneity, u k t is the set of time (product-specific) fixed effects and e k it is the error term associated with the model. 20</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Proposed Double-Hurdle Model of Play and Spending Decisions</head><p>The double-hurdle model consists of two equations: the participation model and the expenditure decision model. We observe the crossing of the first hurdle, the "participation" hurdle, if a focal gamer decides to play at a given time. Accordingly, the participation decision can be specified as . follows:</p><formula xml:id="formula_2" coords="12,90.88,291.65,160.39,32.25">Play it = 1 if Play * it &gt; 0 0 if Play * it £ 0 (<label>(5)</label></formula><p>The second component of a focal gamer's expenditure decision closely follows the Tobit modeling framework <ref type="bibr" coords="12,289.08,344.67,40.96,8.77;12,90.88,356.13,16.54,8.77" target="#b1">(Amemiya 1973</ref>). We observe a positive level of spending if the gamer crosses the second hurdle, the "spending" hurdle, given by</p><formula xml:id="formula_3" coords="12,90.88,378.11,190.75,17.85">ln Spending k** it = max Â 0, ln Spending k* it Ã . (6)</formula><p>The double-hurdle model of positive level of spending is given by <ref type="bibr" coords="12,103.69,414.97,54.55,8.77" target="#b21">Cragg (1971):</ref> ln Spending k it = Play it · ln Spending k** it .</p><p>For the purpose of exposition, we divide the T i observations for a gamer i into two types, one that is associated with zero spending (denoted by T i0 ) and another associated with positive spending (denoted by T i+ ). The likelihood function (L i ) for a gamer i (i = 1, …, N) over T i time periods is written as follows (see <ref type="bibr" coords="12,110.64,507.61,133.63,8.77" target="#b5">Aristei, Perali, and Pieroni 2008;</ref><ref type="bibr" coords="12,248.78,507.61,47.82,8.77" target="#b42">Jones 1989;</ref><ref type="bibr" coords="12,301.11,507.61,28.93,8.77;12,90.88,519.06,22.48,8.77" target="#b54">Moffatt 2005)</ref>  <ref type="bibr" coords="12,113.16,518.50,7.31,6.58">21</ref> :</p><formula xml:id="formula_5" coords="12,90.88,529.53,227.22,60.19">L i = ∏ Ti0 Â 1 -pðPlay it = 1Þp À ln Spending * it &gt; 0 Play it = 1 ÁÃ · ∏ Ti + Â pðPlay it = 1Þp À ln Spending * it &gt; 0 Play it = 1 Á g À ln Spending * it ln Spending * it &gt; 0, Play it = 1 ÁÃ ,<label>(8)</label></formula><p>where pðPlay it = 1Þ indicates the probability that a gamer i plays the game at time t, pðln Spending * it &gt; 0 Play it = 1Þ denotes the probability that a gamer spends money given that the gamer plays the game, g($) is the probability density function divided by cumulative distribution function, and ln Spending * it is the vector of two latent variables of spending. Before we present the final log-likelihood function for the proposed double-hurdle model, recall that we have two types of products, functional and hedonic products. To account for the possibility that the purchase behavior of the two types of products can be correlated, we jointly estimate the models of spending on functional and hedonic products. We thus assume that the error vector ½e f it , e h it is distributed as bivariate normal (with a mean of zero and standard deviations of s f and s h , respectively, with a correlation r; superscript "f" indicates functional products, and "h" refers to hedonic products). Accordingly, the final log-likelihood function for the proposed doublehurdle model (based on Equations 3, 4, and 8) that accounts for the correlation between the two spending decisions can be written as follows:</p><formula xml:id="formula_6" coords="12,353.88,246.76,225.65,136.30">ln L i = å Ti ð1 -Play it Þ · ln½1 -Fðz9 it aÞ + Play it · À 1 -d f it Á · À 1 -d h it Á · ln Â Fðz9 it aÞ · Y À q f it , q h it , r ÁÃ + Play it · d f it · À 1 -d h it Á · ln " Fðz9 it aÞ · 1 s f · f À q f it Á · F q h it -rq f it ffiffiffiffiffiffiffiffiffiffiffiffi ffi 1 -r 2 p !# + Play it · À 1 -d f it Á · d h it · ln " Fðz9 it aÞ · 1 s h · f À q h it Á · F q f it -rq h it ffiffiffiffiffiffiffiffiffiffiffiffi ffi 1 -r 2 p !# + Play it · d f it · d h it · ln Fðz9 it aÞ · 1 s f s h · y À q f it , q h it , r Á ! ,<label>(9)</label></formula><p>where Play it is a binary variable equal to 1 if a gamer i plays the game at time t, 0 otherwise; f ð$Þ and y ð$, $, $Þ are univariate and bivariate standard normal probability density functions, respectively; F ð$Þ and Y ð$, $, $Þ are univariate and bivariate normal cumulative distribution functions, respectively; z it is a set of explanatory variables used in participation decisions (Equation 3) and a is the corresponding set of coefficients; Play it is the binary outcome, equal to one if a gamer i plays the game at time t, 0 otherwise; and d f it and d h it are dichotomous indicators equal to 1 if Spending f it &gt; 0 and Spending h it &gt; 0, respectively, and 0 otherwise. We define q k it = ½ln Spending k itðx k it Þ 9 b k =s k , where x k it is a set of regressors used in the spending equation <ref type="formula" coords="12,524.14,525.13,48.49,8.77" target="#formula_1">(Equation 4</ref>) for product type k and b k is the corresponding set of coefficients; s f and s h are standard deviations of error terms e f it and e h it in Equation 4, respectively; and r is a correlation coefficient between two error terms. We estimate our proposed model (Equation 9) via maximum likelihood estimation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model-Free Analysis</head><p>Before we present the results of our proposed model, we offer model-free evidence of the contagion effect in gamers' within-community spending behavior. As part of our modelfree analyses, we present plots of contagion and gamers' spending for the two types of products, functional and hedonic. For brevity, we compare the average spending of gamers (for a given time period) across three scenarios: (1) when more than 50% of gamers' friends purchased virtual products, (2) when less than 50% of gamers' friends purchased virtual products, and (3) when none of gamers' friends purchased any product in a given time period. As can be seen from <ref type="figure" coords="13,145.27,633.75,32.64,8.77">Figure 2</ref>, we find that gamers' mean spending for both functional and hedonic products is greater when their friends spend on such products. It is also evident from the figure that gamers' mean spending for both functional and hedonic products increases with the percentage of friends who purchase. To shed light on the role of moderating variables, we classified the gamers into "high" and "low" levels (for the two moderating variables, experience and network density) according to the median split of the respective moderating variables. In <ref type="figure" coords="13,234.07,736.88,32.41,8.77">Figure 3</ref>, we present the variation in spending with contagion for the high and low levels of the two moderating variables and for the two types of products.</p><p>It is evident from <ref type="figure" coords="13,440.66,106.74,33.19,8.77">Figure 3</ref> that, on average, gamers who have friends who made purchases spend more on purchases themselves, and we see that this pattern holds across different levels of gamers' experience. However, the contagion effect differs across the two types of products. Whereas the differences between the spending of gamers with friends who made purchases (contagion case) versus gamers with no friends who made purchases (no contagion case) decreases with gamer experience for functional products, the difference between the two cases increases with gamer experience for hedonic products. These findings suggest that gamers' experience level could negatively moderate the relationship between contagion and gamers' spending on functional products and positively moderate the relationship between contagion and gamers' spending on hedonic products. We also find an interesting pattern for the moderating effect of network density on the effect of contagion. For functional products, the contagion effect increases with network density, but in the case of hedonic products, the contagion effect decreases with network density, which suggests a differential effect of network density on contagion across the two types of products. <ref type="table" coords="13,353.87,381.70,28.36,8.77" target="#tab_4">Table 3</ref> provides the fit statistics of a series of alternative models (Models 1-4) and our proposed model (Model 5). We start with the basic model (Model 1) of spending behavior as a function of only control variables. Model 2 builds on Model 1 to also account for the main contagion effect. From Models 3-4, we subsequently add one interaction term at a time before adding all interaction terms, which yields the proposed model (Model 5). All models are based on the proposed double-hurdle model and account for time-period dummies, individual-level random effects, and other variables that help address the identification challenges discussed earlier. Our proposed model has the best fit as compared with the alternative models in terms of loglikelihood, Akaike information criterion, and the likelihoodratio test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Parameter Estimates</head><p>In <ref type="table" coords="13,381.75,542.08,30.27,8.77" target="#tab_5">Table 4</ref>, we present the parameter estimates of the proposed model and alternative models. Since the proposed model (Model 5) has the best fit, for brevity, we discuss the parameter estimates of the spending decision component of that model only. Contagion has a positive and significant effect on gamers' purchase of both functional and hedonic products. We thus find support for H 1 . Next, we compare the coefficients of social contagion for functional and hedonic products (for details on comparison of coefficients, see <ref type="bibr" coords="13,484.74,633.75,108.30,8.77;13,353.88,645.20,20.69,8.77" target="#b18">Clogg, Petkova, and Haritou 1995)</ref>. We find that the effect of contagion is greater for gamers' purchase of hedonic products versus their purchase of functional products (z-statistic associated with the difference is 2.372, p £ .01), thereby providing support for H 2 . Turning our attention to the two moderating effects, we find that whereas the coefficient of interaction between contagion and gamer experience is negative and significant for functional products, the coefficient is positive and significant for hedonic products. This suggests that gamers' experience negatively moderates gamers'  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Average Spending</head><p>Notes: Vertical axes indicate gamers' average spending (in Korean won; 1,000 Korean won is approximately equal to 1 U.S. dollar). Average spending is calculated given that a gamer played the game and the gamer has at least one friend.</p><p>Social Dollars in Online Communities / 105 susceptibility to contagion over functional products and positively moderates the contagion effect over gamers' hedonic product purchases. Thus, these findings support H 3 and H 4 . In addition, we find that whereas network density has a positive and significant moderating effect on contagion over gamers' purchase of functional products, it negatively moderates the contagion effect over purchase of hedonic products; thus, this set of findings supports H 5 and H 6 . We discuss the theoretical and practical implications of these results in the "Discussion" section.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Robustness Checks</head><p>We performed a battery of robustness checks to ascertain that the core results pertaining to the contagion effect are robust. To that end, we estimate models that (1) test for alternative measures of contagion, (2) account for gamer fixed effects (instead of random effects), (3) account for endogeneity of contagion via the use of instrumental variables and (4) account for endogeneity of contagion via a quasiexperimental approach.</p><p>Alternative measures of contagion. In the main model, we operationalized contagion as the sum of lagged spending of a focal user's friends. We test the robustness of the results by using various alternative measures of contagion. We use the average of lagged spending of a focal gamer's friends and the percentage of a focal user's friends who purchased virtual products (lagged) as alternative measures of contagion. We find that the core results are robust to these alternative measures of contagion (see <ref type="table" coords="14,414.88,679.56,29.22,8.77" target="#tab_6">Table 5</ref>). In addition, we also operationalize contagion as the cumulative sum of a focal gamer's friends' spending and find the results to be substantively consistent with the results of our proposed model. Instead of using a lagged measure only, we estimate the model with contemporaneous and (one-period) lagged measures of the contagion variable, and we find our results to be robust. We test for the effect of a possible "cross-product contagion" effect by adding the contagion based on a focal user's friends' spending on hedonic products on the focal user's purchase of functional products, and vice versa. We find no significant effect of cross-product contagion for either the functional or the hedonic products (for details, see Web Appendix W2). In our context, hedonic products are items for gamers' avatars, broadly of four different types: (1) items for head or hair (e.g., hat, hairstyle, eye makeup, glasses), (2) clothes (e.g., top, dress), (3) shoes, and (4) miscellaneous items (e.g., ring, gloves, backpack). We compare the average spending of gamers due to contagion and find that social contagion, although significant, does not vary across the four types of hedonic products. This suggests that social contagion is not solely driven by visibility of hedonic products. 22</p><p>Accounting for gamer fixed effects. We earlier accounted for user-specific effects by employing a random effects formulation. We note that we took this approach following prescriptions expounded in the studies that have examined contagion using nonexperimental data <ref type="bibr" coords="15,171.44,545.59,119.67,8.77" target="#b13">(Bollinger and Gillingham 2012;</ref><ref type="bibr" coords="15,292.56,545.59,37.43,8.77;15,90.88,557.05,41.83,8.77" target="#b33">Hartmann et al. 2008;</ref><ref type="bibr" coords="15,135.00,557.05,126.33,8.77" target="#b48">Manchanda, Xie, and Youn 2008)</ref>, coupled with the finding in the panel data econometrics literature <ref type="bibr" coords="15,275.79,568.50,54.22,8.77;15,90.88,579.95,52.64,8.77" target="#b14">(Cameron and Trivedi 2005)</ref> that fixed effects-based Tobit models can yield inconsistent estimates. An advantage of employing a fixed-effects approach is that it helps account for endogeneity bias without the need to use instruments <ref type="bibr" coords="15,179.96,614.31,45.92,8.77" target="#b62">(Rossi 2014)</ref>. However, the fixed-effects approach can be employed in the case of a linear regression model. We thus cast our model of contagion in a simple linear regression framework (without the selection component of the Tobit model) but account for endogeneity effects via the use of fixed effects (e.g., <ref type="bibr" coords="15,156.94,671.62,42.40,8.77" target="#b62">Rossi 2014)</ref>. We present the results of the fixedeffects model in <ref type="table" coords="15,153.85,683.07,27.36,8.77" target="#tab_7">Table 6</ref>. We note that using this revised model formulation that accounts for user fixed effects, we still find evidence of social influence. The use of user fixed effects and time fixed effects absorbs all user-specific and time-specific unobserved factors; it provides convincing evidence on the effect of social contagion on user behavior that we find a significant effect of contagion after including these two sets of fixed effects.</p><p>Instrumental variable approach. Another way to account for endogeneity is via the instrumental variable approach. We use the lagged spending of a focal gamer's friends-of-friends (who are not friends of the focal gamer) as the instrumental variable (IV). 23 More specifically, we use two-period lagged spending behavior (denoted by Friends of Friends_Spending k it-2 ) of a focal gamer's friends-of-friends (for brevity, we refer to the "friends-of-friends" group as Group B) as the IV for the contagion variable. The contagion variable itself is operationalized as the one-period lagged spending behavior of a focal gamer's friends (we refer to this "friends" group as Group A). The argument for using this IV is that we expect Friends of Friends_Spending k it-2 , the spending behavior of Group B at time t -2, to affect the contagion variable at time t -1 (spending behavior of Group A) because of direct ties between these two groups. However, because Group B is not directly connected to the focal gamer, we do not expect the spending behavior of Group B to affect the spending behavior of the focal gamer, especially with a lag of two time periods. We also include the average number of friends-of-friends of a focal user (denoted by Friends_AvgTotalNumFriends it-2 ) in the first stage. In <ref type="table" coords="15,391.33,615.44,29.01,8.77" target="#tab_7">Table 6</ref>, we present the parameter estimates of the models (estimated separately) with the proposed IV. The results of the model are substantively similar to the results reported earlier from the proposed model, providing strong evidence of social contagion in our data.</p><p>Quasi-experimental approach. Among the identification challenges, we noted earlier that the thorniest issue is that of endogenous group formation. To further address the issue of endogenous group formation, we conducted additional analysis to supplement our results based on the panel data econometric techniques. Following some recent studies (e.g., Aral, Muchnik, and Sundarajan 2009), we take a quasi-experimental approach (based on dynamic matching coupled with average treatment effect analysis) to disentangle the effect of endogenous group formation from the contagion effect (for details, see Web Appendix W3). We note that the quasi-experimental approach also yields results that suggest a strong presence of social influence in users' purchase behavior in our community. All the results from the robustness checks taken together suggest that the proposed contagion effect is robust to the alternative measures of the contagion variable, alternative model formulations (inclusion of individual gamer-specific .542*** .008 .543*** .008 .543*** .008 .543*** .008 .543*** .008 *p &lt; .10. **p &lt; .05. ***p &lt; .01. Notes: All models account for time-period dummies and players' unobserved heterogeneity in spending equations. effects), and alternative ways of accounting for endogeneity. In summary, the additional analyses and robustness checks lend greater confidence to the core set of results of our proposed model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>As social media has replaced many traditional modes of accessing and sharing information, it is critical to understand how the vast and intricate online social networks can be leveraged to drive site commerce. Several recent studies have worked on understanding social influence in online communities and how network properties influence information transfer across social networks (e.g., <ref type="bibr" coords="17,238.07,478.98,91.98,8.77" target="#b4">Aral and Walker 2014;</ref><ref type="bibr" coords="17,90.88,490.43,79.31,8.77" target="#b78">Zeng and Wei 2013)</ref>. Recent research has also suggested that mere participation in online communities in which consumers are exposed to other consumers can positively influence consumers' purchase behavior (e.g., <ref type="bibr" coords="17,226.32,524.79,103.64,8.77;17,90.88,536.24,92.89,8.77" target="#b47">Manchanda, Packard, and Pattabhiramaiah 2015)</ref>. Yet there is a lack of research that explicitly and systematically studies how these social media communities can be effectively monetized. Social media communities not only facilitate creation of social networks but also offer different types of products to increase site revenues. Our research provides insights into the impact of peer influence in an online community on users' purchase of functional versus hedonic products. We use a unique and large-scale set of data on activity at the individual user level from an MMORPG community to examine the effect of users' social interactions, user, and network characteristics on users' spending across two different types of virtual products, functional and hedonic, in this online community.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Theoretical Implications</head><p>This study examines and applies different perspectives from psychology and sociology to help understand social influence in online communities. While social contagion (or peer effects) have been well established in the context of offline communities, an emerging stream of research in marketing, economics, and information systems focuses on social information transmission and the underlying mechanisms in online communities (e.g., <ref type="bibr" coords="17,376.15,377.84,146.26,8.77" target="#b3">Aral, Muchnik, and Sundarajan 2009)</ref>. This upswing in interest has merit because, unlike in earlier studies that rely on self-reported measures or geographic proximity to infer social contagion, access to social networking sites has enabled researchers to observe actual interactions between individuals <ref type="bibr" coords="17,353.88,435.79,90.27,8.77" target="#b57">(Nitzan and Libai 2011;</ref><ref type="bibr" coords="17,446.04,435.79,49.64,8.77" target="#b71">Tucker 2011)</ref>. Our study contributes to the limited research that examines contagion in online communities based on actual interactions between users.</p><p>With the increased popularity of social media, managers of online and social networking platforms are continuously designing features that harness the power of online social interactions to stimulate social commerce activities <ref type="bibr" coords="17,564.50,505.07,28.50,8.77;17,353.88,516.69,122.65,8.77" target="#b59">(Pöyry, Parvinen, and Malmivaara 2013)</ref>. Our findings show that social interactions significantly facilitate social commerce. Online communities offer different types of virtual products, and we find substantial contagion effects in users' spending across two types of products, functional and hedonic products. Further, we find that the social contagion effect is greater in users' spending on hedonic products than their spending on functional products. These results suggest that although contagion forces (such as awareness, learning, and competitive mechanisms that help transmit information across networks; Van den Bulte and Lilien 2001) are important, psychological forces (e.g., increasing status, creating a social identity) are a stronger driver in our MMORPG community. Studies have found that product characteristics determine the virality of marketing campaigns (e.g., <ref type="bibr" coords="17,551.22,667.32,41.81,8.77;17,353.88,678.95,59.13,8.77" target="#b11">Berger and Milkman 2012;</ref><ref type="bibr" coords="17,415.99,678.95,64.76,8.77" target="#b16">Chiu et al. 2007;</ref><ref type="bibr" coords="17,483.73,678.95,109.26,8.77;17,353.88,690.51,22.10,8.77" target="#b63">Schulze, Schöler, and Skiera 2014)</ref> and certain product domains are more conducive for consumers to effectively communicate their desired social identity <ref type="bibr" coords="17,387.04,713.70,99.74,8.77" target="#b10">(Berger and Heath 2007)</ref>. Our study integrates the contagion literature with theories in psychology that explain how consumer behavior differs across product domains. Social Dollars in Online Communities / 109</p><p>Prior contagion research has primarily focused on new product adoption (e.g., Iyengar, Van den Bulte, and Valente 2011), where risk mitigation is a major force driving social contagion. Product domains in which risk is minimal (such as ours; virtual products are not very expensive in our MMORPG community) have received less attention. However, as social commerce has taken off and shows no signs of abatement, it is important to understand that contagion forces may operate differentially for different types of products. Our results show that contagion is stronger for hedonic products, implying that in online communities, social psychological drivers, such as status seeking through consumption of conspicuous products, may be more important than risk mitigation.</p><p>Existing studies suggest that experts (expertise measured via self-reported surveys) tend to be less influenced by social contagion (e.g., Iyengar, Van den Bulte, and Valente 2011). We extend this stream of literature and show that these effects may also differ across different product categories. We find that experts are less vulnerable to peers' spending on functional products, but they are more susceptible to peers' spending on hedonic products. We attribute these results to the conspicuous nature and attributes of hedonic products in online communities where a user's product choices are on immediate display to his or her network. Our results suggest that experienced users harbor greater desire for pleasurable social experiences that make them more vulnerable to influence from peers' hedonic product spending. Indeed, hedonic products are associated with more unplanned and impulsive purchases that provide a more exciting experience; in contrast, functional products involve a more conscious, rational, and cognitive decision-making process <ref type="bibr" coords="18,371.50,633.75,91.08,8.77" target="#b69">(To, Liao, and Lin 2007)</ref>. Users with greater experience are more likely to have engaged in rational decision making in their long tenure in the community and now seek a more adventurous social experience in the community.</p><p>Networks are a conduit for the transmission of information and, therefore, network interactions determine how individuals in a network will influence each other. The nature of influence itself often depends on the structure of the network. Thus, network properties, such as how close relationships are, how many common relationships exist, and so on, may help researchers decipher how and why information gets transmitted <ref type="bibr" coords="19,90.88,83.77,93.23,8.77" target="#b4">(Aral and Walker 2014;</ref><ref type="bibr" coords="19,187.20,83.77,50.85,8.77" target="#b71">Tucker 2011)</ref>. We focus on network density to understand the role of the type of information (new vs. redundant) in making social contagion effective across different product domains. We find that new information is particularly relevant for hedonic product categories: sparse networks that ease the flow of new information across networks help strengthen contagion effects for hedonic products. However, for functional products, users have a greater need to trust the sources of information, and, therefore, dense networks help strengthen peer effects for functional products. These results not only are novel to the literature but can help guide managerial actions in online communities offering different types of products, as we discuss next.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Practical Implications</head><p>The findings from our study highlight that managers of online communities can benefit from monetization of social networks and that social interactions between users of a community can lead to within-community purchase behavior. The study provides strong evidence of social dollars in online communities, suggesting that managers would be well served in designing features that help create deeper social connections in online communities. While popular and larger social networks such as Facebook continue to develop such features and leverage the power of social networks, smaller or niche communities often have limited resources that may hinder such investments. We believe our results can be extended to sell products in contexts where brands leverage social networks and their followers on these platforms. Indeed, Nike recently announced that they will start selling their products via Instagram to appeal more to millennials <ref type="bibr" coords="19,140.19,450.41,47.44,8.77" target="#b45">(Kim 2017)</ref>. While social networks have escalated in popularity, tapping into such networks to facilitate social commerce has trailed, and only now are companies and brands trying to find ways to effectively monetize their social networks. Even our focal community can do better by making it easier for users to view friends' product choices and allow users to suggest product choices or display product decisions prominently to their networks. Such measures are not in place in most communities, and as social commerce grows, we believe advantage will lie with communities who take the lead in investing in developing such social commerce-related features. Online communities can offer different types of products, from purely functional to hedonic, that are designed to increase user engagement. For example, a widely popular Korean messaging service, KakaoTalk, sells emoticons and virtual stickers that generate revenue and help create a loyal customer base for the company. Flickr, an online image-and video-hosting web services community, offers functional or performance-related features, such as extra storage and adfree content, for an extra fee. For managers, it is very useful to know for which type of products peer influence is especially relevant so that social networks can be used to promote those products in the communities. Promotional activities, in this context, would take the form of promoting conspicuous consumption whereby users' product purchases can immediately be seen by their network friends. Managers can use responsible "social seeding" strategies where products can first be shared with users who are more likely to adopt them and who have wider social networks through which product information can diffuse quickly.</p><p>To further understand the differential impact of social influence across different product types on users' purchase behavior, we also computed the elasticities of social contagion on users' purchase behavior <ref type="bibr" coords="19,449.46,164.00,71.17,8.77" target="#b76">(Yen and Su 1995;</ref><ref type="bibr" coords=""></ref> i.e., the percentage change in user spending due to a 1% increase in contagion, conditional on a focal user's decision to purchase). <ref type="bibr" coords="19,551.17,186.39,7.31,6.58">24</ref> We find the elasticities of contagion for functional and hedonic products to be .051 and .078, respectively. To the best of our knowledge, we provide the first evidence regarding the elasticity of contagion on actual purchase behavior of users in online communities. This suggests that to enhance sales of products within an online community, managers must create social networks such that user purchases are prominently visible to their networks. Stronger peer effects for hedonic product purchases (vs. functional products) suggest that there are greater returns from leveraging social networks for promoting hedonic products.</p><p>Any effective marketing strategy entails identifying customer segments in which customers are similar in their tastes and segments respond differentially to marketing stimuli. Our results highlight that different seeding strategies should be used for different types of products by customer segments. For example, managers could reward experienced users with free points that can be used for virtual hedonic products, while novice users could be offered social connections and products that can help them achieve task-oriented goals in the community. Our results on network characteristics also provide insights into optimally incentivizing users for message propagation. Sparse networks work better for information transmission on hedonic products, and dense networks help strengthen contagion for functional products. These results suggest differential strategies for managing peer influence across different product categories.</p><p>In summary, our study highlights the substantial benefits that accrue from harnessing the power of social networks; these benefits vary depending on the type of products a community offers, as well as by user and network characteristics. Thus, it is essential to understand the unique aspects of a community and users' goals and motivations to formulate strategies that can effectively engage users.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limitations and Directions for Future Research</head><p>While we observe actual purchase behavior and interactions between gamers in our focal online gaming community, the results of our study are based on only one online gaming community. Although we have tried to avoid the use of contextspecific reasoning as much as possible, we note that it is important to consider various factors before the parametric results of our study can be generalized. It is important to conduct empirical examinations of the impact of social networks in different contexts, and we urge researchers to examine other platforms (music-sharing sites, retail settings, etc.) to develop a more robust understanding of the social contagion phenomenon. In this study, we rely on the differential effect of social connections across different types of products, users, and network characteristics to argue for the different mechanisms that drive social contagion. While we took a series of cautionary steps and conducted several robustness checks, we acknowledge that we work with observational data to model social contagion, and thus the study may suffer from the issues associated with purely observational data. We hope that future studies can conduct field experiments to ascertain the contagion effect in users' purchase behavior as well as use experimental study settings to uncover the different mechanisms that drive contagion. We also do not explicitly model network formation. Future studies can leverage big data to explicitly study network formation. We also note that our results are based on active users, and thus care must be taken in extending the parametric results to the entire user base. Despite these limitations, we hope that our study spurs future inquiries into the effect of social networks in driving commerce in online communities.</p><p>Copyright of Journal of Marketing is the property of American Marketing Association and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission. However, users may print, download, or email articles for individual use.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="7,187.37,72.33,46.15,9.64;7,155.57,83.78,109.76,9.64"><head></head><label></label><figDesc>FIGURE 1 Conceptual Framework</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="8,99.84,727.06,230.16,8.39;8,90.88,737.54,23.06,7.89;8,90.88,785.92,163.33,9.31"><head></head><label></label><figDesc>12 1 U.S. dollar is equal to 1,116.4 Korean won (as of March 28, 2017). 100 / Journal of Marketing, January 2018</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="13,187.37,72.33,46.15,9.64;13,108.74,83.78,203.38,9.64;13,154.32,95.23,112.15,9.64;13,161.87,113.63,98.85,8.33"><head></head><label></label><figDesc>FIGURE 2 Model-Free Evidence: Main Effect of Social Contagion on Spending A: Functional Products</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="14,318.90,72.33,46.09,9.64;14,159.42,83.78,365.04,9.64;14,292.63,102.18,98.99,8.33"><head></head><label></label><figDesc>FIGURE 3 Model-Free Evidence: Moderating Effects of Experience and Network Density A: Functional Products</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="4,173.47,81.28,331.93,662.19"><head>TABLE 1</head><label>1</label><figDesc>Selective Literature Review of Studies Investigating the Effects of Social Contagion</figDesc><table coords="4,203.10,81.28,302.31,662.19">Study 
+
+Network 
+
+Online or 
+Offline 
+Network 
+
+Focal 
+Behavior Product Type 
+
+Nature of 
+Network 
+Structure 
+
+Level of 
+Analysis 
+
+Accounting for 
+Endogenous 
+
+Group Formation 
+
+Moderating Roles 
+
+Individual 
+User-Specific 
+
+Network-
+Specific 
+
+Our study 
+
+Online gaming 
+platform 
+
+Online 
+
+Repeated 
+spending 
+Functional and 
+Hedonic 
+
+Dynamic 
+
+Disaggregate 
+
+Yes 
+
+Yes 
+
+Yes 
+
+Hu and Van den 
+Bulte (2014) 
+
+Academic 
+collaboration 
+
+Offline 
+
+Adoption 
+
+Functional 
+
+Dynamic 
+
+Disaggregate 
+
+No 
+
+Yes 
+
+No 
+
+Risselada, 
+Verhoef, and 
+Bijmolt (2014) 
+
+Mobile call 
+
+Offline 
+
+Adoption 
+
+Functional 
+
+Static 
+
+Disaggregate 
+
+Yes 
+
+No 
+
+Yes 
+
+McShane, 
+Bradlow, and 
+Berger (2012) 
+
+Geographic 
+proximity 
+
+Offline 
+
+Adoption 
+
+Functional 
+
+Static 
+
+Aggregate 
+
+Yes 
+
+No 
+
+No 
+
+Bollinger and 
+Gillingham 
+
+(2012) 
+
+Geographic 
+proximity 
+
+Offline 
+
+Adoption 
+
+Functional 
+
+Static 
+
+Aggregate 
+
+Yes 
+
+No 
+
+No 
+
+Katona, Zubcsek, 
+and Sarvary 
+(2011) 
+
+Real-life 
+friendship 
+
+Offline 
+
+Adoption 
+
+Functional 
+
+Static 
+
+Disaggregate 
+
+No 
+
+No 
+
+Yes 
+
+Nair, Manchanda, 
+and Bhatia 
+(2010) 
+
+Self-reported 
+
+Offline 
+
+Prescription 
+
+Functional 
+
+Static 
+
+Disaggregate 
+
+Yes 
+
+No 
+
+No 
+
+Choi, Hui, and 
+Bell (2010) 
+
+Geographic 
+proximity 
+
+Offline 
+
+Adoption 
+
+Functional 
+
+Static 
+
+Aggregate 
+
+No 
+
+No 
+
+No 
+
+Manchanda, Xie, 
+
+and Youn 
+(2008) 
+
+Geographic 
+proximity 
+
+Offline 
+
+Adoption 
+
+Functional 
+
+Static 
+
+Disaggregate 
+
+No 
+
+No 
+
+No 
+
+Bell and Song 
+(2007) 
+
+Geographic 
+proximity 
+
+Offline 
+
+Adoption 
+
+Functional 
+
+Static 
+
+Aggregate 
+
+Yes 
+
+No 
+
+No 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="7,90.88,106.44,239.15,153.78"><head></head><label></label><figDesc>Notes: Expected results are in parentheses. H 2 predicts that the effect of friends' hedonic spending on a focal user's hedonic spending is greater than the effect of friends' functional spending on a focal user's functional spending.</figDesc><table coords="7,98.38,106.44,226.02,104.29">Social Contagion 
+of Functional 
+Products 
+
+Focal User's 
+Spending on 
+Functional Products 
+
+Focal User's 
+Experience 
+
+Network 
+Density 
+
+H 3 (-) 
+
+H 4 (+) 
+
+H 5 (+) 
+
+H 6 (-) 
+
+H 1 (+) 
+Social Contagion 
+of Hedonic 
+Products 
+
+Focal User's 
+Spending on 
+Hedonic Products 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="10,90.88,72.33,502.18,582.80"><head>TABLE 2 Variable</head><label>2</label><figDesc>Operationalization and Summary Statistics</figDesc><table coords="10,90.88,101.96,502.18,553.17">Variable Notation 
+Description of the Variable 
+M 
+SD 
+Min 
+Max 
+Mdn 
+
+Dependent Variables 
+Spending f 
+
+it 
+
+User i's spending on product type f (functional 
+products) at time t 
+
+294 
+2,383 
+0 
+111,100 
+0 
+
+Spending h 
+
+it 
+
+User i's spending on product type h (hedonic 
+products) at time t 
+
+351 
+2,588 
+0 
+199,300 
+0 
+
+Play it 
+= 1 if a focal user i plays the game at time t, 
+0 otherwise 
+
+.724 
+.456 
+0 
+1 
+1 
+
+Independent Variables 
+Contagion f 
+
+it 
+
+Total amount spent on functional products at 
+time t -1 by a focal user i's friends 
+
+4,951 
+27,051 
+0 
+1,415,400 
+0 
+
+Contagion h 
+
+it 
+
+Total amount spent on hedonic products at 
+time t -1 by a focal user i's friends 
+
+5,293 
+21,711 
+0 
+622,700 
+0 
+
+Experience it 
+Game level of a focal user i at the end of week t 
+25.68 
+16.68 
+1 
+76 
+21 
+
+NetworkDensity it 
+Ratio of the actual number of connections 
+between friends of a focal user i to the 
+maximum number of possible connections 
+between friends of the focal user i at time t 
+
+.077 
+.193 
+0 
+1 
+.007 
+
+Control Variables 
+ExperiencePoint it 
+A focal user i's points gained at time t (·10 7 ) 
+2.320 
+8.275 
+0 
+228.53 
+.016 
+
+TotalLogin it 
+A focal user i's cumulative number of log-ins by 
+time t 
+
+78.92 
+142.97 
+0 
+7,659 
+44 
+
+TotalNumFriends it 
+Total number of a focal user i's friends by time t 
+29.07 
+64.66 
+0 
+1,011 
+5 
+
+Duration it 
+Number of weeks since a focal user i started 
+playing the game 
+
+9.266 
+5.174 
+1 
+20 
+9 
+
+TotalDeath it 
+Total number of times that a user i was 
+defeated by monsters by time t 
+
+18.53 
+34.17 
+0 
+717 
+6 
+
+TotalDefeat it 
+Total number of monsters a user i defeated by 
+time t 
+
+9,088 
+18,217 
+0 
+506,672 
+2,279 
+
+FriendsofFriends f 
+
+it 
+
+Average spending of the friends of a focal user 
+i's friends (who are not friends of the focal 
+gamer) on functional products at time t 
+
+370 
+1,128 
+0 
+102,840 
+0 
+
+FriendsofFriends h 
+
+it 
+
+Average spending of the friends of a focal user 
+i's friends (who are not friends of the focal 
+gamer) on hedonic products at time t 
+
+419 
+937 
+0 
+18,700 
+0 
+
+Job1 i ðMagicianÞ 
+= 1 if a focal user i's virtual job is magician; 
+0 otherwise 
+
+.233 
+.423 
+0 
+1 
+0 
+
+Job2 i ðArcherÞ 
+= 1 if a focal user i's virtual job is archer; 
+0 otherwise 
+
+.295 
+.456 
+0 
+1 
+0 
+
+Job3 i ðThiefÞ 
+= 1 if a focal user i's virtual job is thief; 
+0 otherwise 
+
+.210 
+.407 
+0 
+1 
+0 
+
+Age i 
+Age of a focal user i 
+25.48 
+12.90 
+3 
+89 
+24 
+
+Female i 
+= 1 if a focal user i is female; 0 otherwise 
+.435 
+.496 
+0 
+1 
+0 
+
+Notes: Spending, Contagion, and FriendsofFriends variables are measured in Korean won. Number of observations = 80,405 across 4,645 gamers. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="15,90.88,72.33,503.52,216.12"><head>TABLE 3 Model</head><label>3</label><figDesc>Fit</figDesc><table coords="15,90.88,101.96,503.52,186.49">Model 
+Description 
+
+Log-
+Likelihood 
+
+Likelihood Ratio 
+Test (vs. Model 5) 
+
+Akaike 
+Information 
+Criterion 
+
+Model 1 
+Gamer spending behavior as a function 
+of control variables only 
+
+-88,696.04 
+c 2 (d.f. = 6) = 117.9*** 
+177,586 
+
+Model 2 
+Variables in Model 1 + Contagion variable 
+-88,647.89 
+c 2 (d.f. = 4) = 21.6*** 
+177,494 
+
+Model 3 
+Variables in Model 2 + Moderating effect 
+of experience 
+
+-88,643.08 
+c 2 (d.f. = 2) = 12.0*** 
+177,488 
+
+Model 4 
+Variables in Model 2 + Moderating effect of 
+network density 
+
+-88,641.17 
+c 2 (d.f. = 2) = 8.1*** 
+177,484 
+
+Model 5 
+(proposed model) 
+
+Variables in Model 2 + Moderating effects 
+of experience and network density 
+
+-88,637.10 
+-
+177,480 
+
+***p &lt; .01. 
+Notes: All models are based on the proposed double-hurdle model formulation and account for time-period dummies and players' unobserved 
+heterogeneity in spending equations. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="16,90.87,72.33,502.12,529.17"><head>TABLE 4 Parameter</head><label>4</label><figDesc>Estimates: Models of Users' Spending Behavior</figDesc><table coords="16,90.87,101.96,502.12,499.54">Variable 
+
+Model 1 
+Model 2 
+Model 3 
+Model 4 
+Model 5 
+
+Estimate SE Estimate SE Estimate SE Estimate SE Estimate SE 
+
+Gamers' Play Decisions 
+ln(TotalLogin) 
+.375*** .009 
+.375*** .009 
+.374*** .009 
+.375*** .009 
+.367*** .009 
+ln(TotalNumFriends) 
+-.013 
+.009 
+-.012 
+.009 
+-.012 
+.009 
+-.013 
+.009 
+-.013 
+.009 
+ln(TotalDeath) 
+-.041*** .008 
+-.041*** .008 
+-.041*** .008 
+-.041*** .008 
+-.041*** .008 
+ln(TotalDefeat) 
+.029*** .010 
+.029*** .010 
+.029*** .010 
+.029*** .010 
+.029*** .010 
+Duration 
+-.921*** .016 
+-.921*** .016 
+-.921*** .016 
+-.921*** .016 
+-.906*** .016 
+Job1 
+.045*** .015 
+.045*** .015 
+.045*** .015 
+.045*** .015 
+.045*** .015 
+Job2 
+.051*** .014 
+.050*** .014 
+.051*** .014 
+.051*** .014 
+.051*** .014 
+Job3 
+.026** .015 
+.025* 
+.016 
+.026* 
+.015 
+.026* 
+.015 
+.026* 
+.015 
+Age 
+.001 
+.005 
+.001 
+.005 
+.001 
+.005 
+.001 
+.005 
+-.001 
+.005 
+Female 
+.063*** .010 
+.063*** .010 
+.063*** .010 
+.063*** .010 
+.063*** .010 
+
+Gamers' Spending Decisions: 
+Functional Products 
+ln(Contagion) 
+-
+-
+.227*** .077 
+.209*** .077 
+.224*** .078 
+.204*** .078 
+ln(Contagion) · Experience 
+-
+-
+-
+-
+-.155*** .063 
+-
+-
+-.147** .065 
+ln(Contagion) · NetworkDensity 
+-
+-
+-
+-
+-
+-
+.429*** .137 
+.386*** .140 
+Experience 
+2.605*** .138 
+2.591*** .139 
+2.644*** .141 
+2.583*** .138 
+2.595*** .141 
+NetworkDensity 
+.084 
+.094 
+.093 
+.094 
+.083 
+.095 
+.198** .099 
+.173* 
+.101 
+ln(ExperiencePoint) 
+.263** .118 
+.230* 
+.123 
+.203* 
+.123 
+.243** .122 
+.232* 
+.123 
+ln(TotalLogin) 
+.364*** .129 
+.350*** .129 
+.366*** .129 
+.345*** .129 
+.346*** .129 
+ln(TotalNumFriends) 
+-.695*** .137 
+-.769*** .144 
+-.769*** .144 
+-.679*** .145 
+-.679*** .147 
+Duration 
+-2.448*** .261 -2.436*** .262 -2.440*** .261 -2.406*** .260 -2.438*** .260 
+ln(FriendsofFriends) 
+2.178*** .082 
+2.165*** .083 
+2.151*** .082 
+2.156*** .082 
+2.155*** .083 
+Job1 
+.174 
+.223 
+.201 
+.224 
+.189 
+.224 
+.160 
+.223 
+.221 
+.224 
+Job2 
+-.265 
+.211 
+-.250 
+.212 
+-.252 
+.211 
+-.284 
+.211 
+-.263 
+.211 
+Job3 
+-.975*** .253 
+-.938*** .251 
+-.959*** .251 
+-.998*** .251 
+-.973*** .251 
+Age 
+.744*** .082 
+.740*** .082 
+.743*** .082 
+.741*** .082 
+.739*** .082 
+Female 
+.986*** .164 
+.938*** .164 
+.958*** .164 
+.999*** .164 
+.951*** .164 
+
+Gamers' Spending Decisions: 
+Hedonic Products 
+ln(Contagion) 
+-
+-
+.478*** .077 
+.467*** .079 
+.472*** .080 
+.469*** .080 
+ln(Contagion) · Experience 
+-
+-
+-
+-
+.140** .061 
+-
+-
+.123** .062 
+ln(Contagion) · NetworkDensity 
+-
+-
+-
+-
+-
+-
+-.268** .136 
+-.278** .141 
+Experience 
+2.162*** .137 
+2.109*** .138 
+2.007*** .144 
+2.085*** .138 
+2.012*** .144 
+NetworkDensity 
+-.319*** .108 
+-.298*** .109 
+-.251** .108 
+-.297** .109 
+-.256** .110 
+ln(ExperiencePoint) 
+.193 
+.127 
+.189 
+.127 
+.204 
+.128 
+.192 
+.127 
+.197 
+.129 
+ln(TotalLogin) 
+.435*** .120 
+.413*** .129 
+.385*** .129 
+.411*** .128 
+.390*** .129 
+ln(TotalNumFriends) 
+-.271* 
+.140 
+-.284* 
+.149 
+-.278* 
+.149 
+-.342** .150 
+-.297** .152 
+Duration 
+-3.682*** .276 -3.615*** .276 -3.569*** .275 -3.590*** .275 -3.583*** .276 
+ln(FriendsofFriends) 
+2.793*** .086 
+2.718*** .087 
+2.726*** .087 
+2.731*** .087 
+2.723*** .087 
+Job1 
+-.061 
+.229 
+-.037 
+.229 
+-.045 
+.228 
+-.062 
+.228 
+-.062 
+.228 
+Job2 
+-.318 
+.214 
+-.286 
+.214 
+-.291 
+.214 
+-.294 
+.214 
+-.305 
+.214 
+Job3 
+-1.131*** .254 -1.077*** .254 -1.081*** .254 -1.139*** .254 -1.178*** .254 
+Age 
+.200** .081 
+.210** .081 
+.221** .081 
+.200** .081 
+.207** .081 
+Female 
+1.512*** .167 
+1.507*** .167 
+1.501*** .167 
+1.541*** .167 
+1.508*** .167 
+Correlation (rho) 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="17,90.88,72.33,502.11,237.52"><head>TABLE 5 Robustness</head><label>5</label><figDesc>Check: Alternative Measures of Contagion Variable Average of Friends' Spending Percentage of Friends Who Purchased</figDesc><table coords="17,90.88,116.87,502.11,192.99">Functional 
+Hedonic 
+Functional 
+Hedonic 
+
+Estimate 
+SE 
+Estimate 
+SE 
+Estimate 
+SE 
+Estimate 
+SE 
+
+ln(Contagion) 
+.347*** 
+.088 
+.546*** 
+.082 
+.145** 
+.073 
+.256*** 
+.075 
+ln(Contagion) · Experience 
+-.184*** 
+.068 
+.168** 
+.068 
+-.253*** 
+.077 
+.178** 
+.084 
+ln(Contagion) · NetworkDensity 
+.316** 
+.124 
+-.251** 
+.123 
+.170* 
+.100 
+-.272** 
+.120 
+Experience 
+2.945*** 
+.145 
+2.316*** 
+.146 
+2.391*** 
+.143 
+2.046*** 
+.145 
+NetworkDensity 
+.145 
+.101 
+-.244** 
+.110 
+.030 
+.095 
+-.330*** 
+.110 
+ln(ExperiencePoint) 
+.645*** 
+.127 
+.314** 
+.131 
+.619*** 
+.118 
+.424*** 
+.123 
+ln(TotalLogin) 
+.434*** 
+.132 
+.407*** 
+.131 
+.374*** 
+.128 
+.345*** 
+.129 
+ln(TotalNumFriends) 
+-.876*** 
+.149 
+-.311** 
+.152 
+-.642*** 
+.137 
+-.026 
+.141 
+Duration 
+-2.268*** 
+.266 
+-3.628*** 
+.280 
+-2.126*** 
+.260 
+-3.363*** 
+.276 
+ln(FriendsofFriends) 
+2.233*** 
+.084 
+2.855*** 
+.088 
+2.120*** 
+.081 
+2.777*** 
+.086 
+Job1 
+.171 
+.228 
+-.098 
+.232 
+.096 
+.222 
+-.078 
+.229 
+Job2 
+-.311 
+.215 
+-.331 
+.217 
+-.325 
+.210 
+-.325 
+.214 
+Job3 
+-1.238*** 
+.257 
+-1.226*** 
+.258 
+-1.033*** 
+.249 
+-1.176*** 
+.255 
+Age 
+.860*** 
+.087 
+.195** 
+.089 
+.740*** 
+.085 
+.215** 
+.087 
+Female 
+1.197*** 
+.167 
+1.778*** 
+.170 
+.982*** 
+.163 
+1.580*** 
+.168 
+Correlation (rho) 
+-
+-
+.568*** 
+.007 
+-
+-
+.539*** 
+.008 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" coords="18,90.88,72.33,502.14,427.60"><head>TABLE 6 Robustness</head><label>6</label><figDesc>Check: Alternative Ways of Accounting for Endogeneity All models account for time-period dummies. We do not have user-specific variables in the fixed-effects model as they would be collinear with the user fixed effects.</figDesc><table coords="18,90.88,101.96,502.11,388.71">Variable 
+
+Functional 
+Hedonic 
+
+Estimate 
+SE 
+Estimate 
+SE 
+
+Fixed-Effects Formulation 
+ln(Contagion) 
+.038*** 
+.008 
+.071*** 
+.018 
+ln(Contagion) · Experience 
+-.014** 
+.007 
+.009** 
+.004 
+ln(Contagion) · NetworkDensity 
+.063*** 
+.014 
+-.174*** 
+.062 
+Experience 
+-.070*** 
+.018 
+-.014*** 
+.001 
+NetworkDensity 
+.018** 
+.009 
+-.091** 
+.044 
+ln(ExperiencePoint) 
+.065*** 
+.008 
+.077*** 
+.009 
+ln(TotalLogin) 
+-.060*** 
+.008 
+-.080*** 
+.009 
+ln(TotalNumFriends) 
+.036*** 
+.010 
+.013 
+.011 
+Duration 
+.024 
+.017 
+.043** 
+.019 
+ln(FriendsofFriends) 
+.062*** 
+.001 
+.064*** 
+.001 
+
+IV Regression 
+
+Second Stage: Ln(Spending) 
+ln(Contagion) 
+.229*** 
+.023 
+.445*** 
+.023 
+ln(Contagion) · Experience 
+-.043*** 
+.013 
+.064*** 
+.013 
+ln(Contagion) · NetworkDensity 
+.044*** 
+.016 
+-.079*** 
+.016 
+Experience 
+.161*** 
+.010 
+.085*** 
+.011 
+NetworkDensity 
+.003 
+.006 
+-.012** 
+.006 
+ln(ExperiencePoint) 
+.113*** 
+.008 
+.138*** 
+.008 
+ln(TotalLogin) 
+-.038*** 
+.008 
+-.038*** 
+.008 
+ln(TotalNumFriends) 
+-.051*** 
+.006 
+-.022*** 
+.006 
+Duration 
+-.083*** 
+.017 
+-.072*** 
+.017 
+ln(FriendsofFriends) 
+.084*** 
+.003 
+.077*** 
+.003 
+Job1 
+.012 
+.016 
+-.011 
+.016 
+Job2 
+-.023 
+.015 
+-.022 
+.017 
+Job3 
+-.052*** 
+.016 
+-.057*** 
+.017 
+Age 
+.040*** 
+.006 
+.008 
+.006 
+Female 
+.069*** 
+.011 
+.095*** 
+.012 
+
+First Stage: Ln(Contagion) 
+ln(FriendsofFriends_Spending) 
+.231*** 
+.004 
+.228*** 
+.003 
+ln(Friends_AvgTotalNumFriends) 
+.653*** 
+.006 
+.671*** 
+.006 
+
+**p &lt; .05. 
+***p &lt; .01. 
+Notes: </table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">Second Life is a virtual community in which users can create avatars, explore the virtual world, meet and socialize with other avatars, and engage in various economic activities.3  Henceforth, we use the terms "users" and "gamers" interchangeably.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">While social contagion in offline communities has been examined in different contexts focusing on the functional product domain, this is the first study to examine contagion in both the functional and hedonic product domains using individual-level purchase data from an online community. We thank the area editor for this clarification.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">H 3 : The greater the expertise level of a focal user, the weaker the effect of social contagion on that user's purchase of functional products.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">See https://newzoo.com/insights/articles/the-global-games-marketwill-reach-108-9-billion-in-2017-with-mobile-taking-42 (accessed July 11, 2017). This represents an increase of 7.8% from the year before.6  We note that gamers cannot fight against each other in our focal MMORPG. They can collaborate to fight together against virtual monsters. We thank an anonymous reviewer for raising this issue.7  The Korean online gaming market is one of the largest in the world, with revenues of US$2.5 billion in 2013. See https://www. techinasia.com/south-korea-gaming-market-big-change-2014 (accessed March 28, 2017).Social Dollars in Online Communities / 99</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="13">For the operationalization of the network density variable, we work with the total number of friends of a gamer. If a focal gamer i has n it friends at time t, the total number of possible connections between the n it friends is {n it · (n it -1)}/2. To illustrate the operationalization of network density, if a focal gamer has four friends at a given time, the total number of possible connections between the four friends is six. Of these six possible connections, if three friends are connected to each other, the network density of the focal gamer is .5.14  We note that once a gamer chooses his/her character's job, he/she cannot change it.15  As we explain in the following subsection, we employ a limited dependent variable model of users' spending behavior. We note that econometrics literature on panel data models suggests that there are no consistent estimators for fixed-effects censored or selection models(Cameron and Trivedi 2005, p. 800). As a robustness check, we analyze spending behavior using a simple linear regression model with fixed effects.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="20">We note that we do not model a focal user's decision of whom to play with. We thank an anonymous reviewer for clarifying this point.21  In a double-hurdle model, it is common to assume that the error term in the participation equation and the error term in the purchase equation are independent (see<ref type="bibr" coords="12,198.88,727.56,131.13,7.89" target="#b6">Atkinson, Gomulka, and Stern 1984;</ref><ref type="bibr" coords="12,90.88,737.53,45.74,7.89" target="#b42">Jones 1989).</ref> 104 / Journal of Marketing, January 2018</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="22">In the interest of space, we do not provide the results of the models based on the last two alternative measures of contagion. More information is available upon from the authors upon request.23  Recall that we use the contemporaneous version of the variable as a control variable to account for common shocks in spending.Social Dollars in Online Communities / 107</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="24">We compute conditional elasticity, which is the percentage change in spending behavior with a 1% change in contagion, conditional on users' decision to play and to spend more than zero.Social Dollars in Online Communities / 111</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="112">/ Journal of Marketing, January 2018</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="114">/ Journal of Marketing, January 2018</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="20,90.88,248.56,239.09,8.97;20,102.84,259.78,227.11,7.89;20,102.84,270.27,139.67,7.89" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Pricing of Conspicuous Goods: A Competitive Analysis of Social Effects</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wilfred</forename><surname>Amaldoss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sanjay</forename><surname>Jain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="30" to="42" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,90.88,279.91,239.11,8.97;20,102.84,291.42,227.14,7.89;20,102.84,302.08,38.09,7.89" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Regression Analysis When the Dependent Variable Is Truncated Normal</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Takeshi</forename><surname>Amemiya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Econometrica</title>
+		<imprint>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="997" to="1016" />
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,90.88,311.78,239.11,8.97;20,102.84,323.22,227.13,7.89;20,102.84,333.94,201.92,7.89" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Commentary: Identifying Social Influence: A Comment on Opinion Leadership and Social Contagion in New Product Diffusion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sinan</forename><surname>Aral</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="217" to="240" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,90.88,343.58,239.16,8.97;20,102.84,355.08,227.13,7.89;20,102.84,365.74,227.14,7.89;20,102.84,376.46,213.31,7.89" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Distinguishing Influence-Based Contagion from Homophily-Driven Diffusion in Dynamic Networks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sinan</forename><surname>Aral</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lev</forename><surname>Muchnik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arun</forename><surname>Sundarajan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<meeting>the National Academy of Sciences of the United States of America</meeting>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="21544" to="21593" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,90.88,386.10,239.12,8.97;20,102.84,397.60,227.13,7.89;20,102.84,408.26,169.15,7.89" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Tie Strength, Embeddedness, and Social Influence: A Large-Scale Networked Experiment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sinan</forename><surname>Aral</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dylan</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Management Science</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1352" to="70" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,90.88,417.96,239.12,8.97;20,102.84,429.41,227.13,7.89;20,102.84,440.12,227.15,7.89;20,102.84,450.78,82.19,7.89" xml:id="b5">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Aristei</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Federico</forename><surname>Perali</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Luca</forename><surname>Pieroni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Cohort, Age, and Time Effects in Alcohol Consumption by Italian Households: A Double-Hurdle Approach</title>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="29" to="61" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,90.88,461.27,239.08,7.89;20,102.84,471.14,227.12,8.97;20,102.84,482.64,227.14,7.89;20,102.84,493.30,227.17,7.89;20,102.84,504.01,142.01,7.89" xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Household Expenditure on Tobacco 1970-1980: Evidence from the Family Expenditure Survey</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><forename type="middle">B</forename><surname>Atkinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joanna</forename><surname>Gomulka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicholas</forename><forename type="middle">H</forename><surname>Stern</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984" />
+		</imprint>
+		<respStmt>
+			<orgName>London School of Economics</orgName>
+		</respStmt>
+	</monogr>
+	<note>Discussion Paper 57, Programme on Taxation, Incentives, and the Distribution of Income</note>
+</biblStruct>
+
+<biblStruct coords="20,90.88,514.44,239.11,7.89;20,102.84,524.37,227.14,8.97;20,102.84,535.82,204.70,7.89" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Work and/or Fun: Measuring Hedonic and Utilitarian Shopping Value</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Barry</forename><forename type="middle">J</forename><surname>Babin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>William</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mitch</forename><surname>Darden</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Griffin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="644" to="56" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,90.88,545.52,239.10,8.97;20,102.84,556.96,227.14,7.89;20,102.84,567.68,227.14,7.89;20,102.84,578.34,33.61,7.89" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Neighborhood Effects and Trial on the Internet: Evidence from Online Grocery Retailing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">R</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sangyoung</forename><surname>Song</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quantitative Marketing and Economics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="361" to="400" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,90.88,588.04,239.12,8.97;20,102.84,599.49,227.14,7.89;20,102.84,610.20,56.33,7.89" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Hedonic Consumption in Virtual Reality</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseph</forename><surname>Ben-Ur</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Enping</forename><surname>Mai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jun</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Internet Commerce</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="406" to="429" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,90.88,619.85,239.11,8.97;20,102.84,631.35,227.11,7.89;20,102.84,642.01,143.87,7.89" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Where Consumers Diverge from Others: Identity Signaling and Product Domains</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonah</forename><surname>Berger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chip</forename><surname>Heath</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="121" to="155" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,90.88,651.71,239.08,8.97;20,102.84,663.15,227.14,7.89;20,102.84,673.87,33.61,7.89" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">What Makes Online Content Viral?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonah</forename><surname>Berger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Katherine</forename><forename type="middle">L</forename><surname>Milkman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="192" to="205" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,90.88,683.51,239.11,8.97;20,102.84,695.01,227.10,7.89;20,102.84,705.67,94.55,7.89" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">What Drives Immediate and Ongoing Word of Mouth?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonah</forename><surname>Berger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><forename type="middle">M</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="869" to="80" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,90.88,715.37,239.12,8.97;20,102.84,726.82,227.14,7.89;20,102.84,737.53,56.33,7.89" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Peer Effects in the Diffusion of Solar Photovoltaic Panels</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bryan</forename><surname>Bollinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenneth</forename><surname>Gillingham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="900" to="912" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,353.88,249.35,239.12,7.89;20,365.84,260.01,227.19,7.89;20,365.84,270.67,20.05,7.89" xml:id="b14">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Cameron</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pravin</forename><forename type="middle">K</forename><surname>Colin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Trivedi</surname></persName>
+		</author>
+		<title level="m">Microeconometrics: Methods and Applications</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,353.88,281.15,239.09,7.89;20,365.84,291.02,227.14,8.97;20,365.84,302.47,211.62,7.89" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Delight by Design: The Role of Hedonic Versus Utilitarian Benefits</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ravindra</forename><surname>Chitturi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rajagopal</forename><surname>Raghunathan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vijay</forename><surname>Mahajan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="48" to="63" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,353.88,312.96,239.12,7.89;20,365.84,322.83,227.13,8.97;20,365.84,334.27,227.14,7.89;20,365.84,344.93,56.39,7.89" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The Determinants of Email Receivers&apos; Disseminating Behaviors on the Internet</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hung</forename><forename type="middle">-</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yi-Ching</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ya-Hui</forename><surname>Hsieh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Monle</forename><surname>Kao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Advertising Research</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="524" to="558" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,353.88,354.63,239.10,8.97;20,365.84,366.08,227.08,7.89;20,365.84,376.74,224.08,7.89" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Spatiotemporal Analysis of Imitation Behavior Across New Buyers at an Online Grocery Retailer</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeonghye</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sam</forename><forename type="middle">K</forename><surname>Hui</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">R</forename><surname>Bell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="75" to="89" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,353.88,387.22,239.12,7.89;20,365.84,397.09,227.15,8.97;20,365.84,408.54,227.14,7.89;20,365.84,419.26,33.66,7.89" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Statistical Methods for Comparing Regression Coefficients Between Models</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Clifford</forename><forename type="middle">C</forename><surname>Clogg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eva</forename><surname>Petkova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adamantious</forename><surname>Haritou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1261" to="93" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,353.88,428.90,239.15,8.97;20,365.84,440.35,226.75,7.89" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Social Capital in the Creation of Human Capital</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">S</forename><surname>Coleman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="95" to="120" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+	<note>Suppl.</note>
+</biblStruct>
+
+<biblStruct coords="20,353.88,450.84,239.08,7.89;20,365.84,461.50,162.46,7.89" xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Foundations of Social Theory</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">S</forename><surname>Coleman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<publisher>Harvard Business School Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,353.88,471.20,239.11,8.97;20,365.84,482.64,227.14,7.89;20,365.84,493.30,143.70,7.89" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Some Statistical Models for Limited Dependent Variables with Application to the Demand for Durable Goods</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">G</forename><surname>Cragg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Econometrica</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="829" to="873" />
+			<date type="published" when="1971" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,353.88,503.00,239.10,8.97;20,365.84,514.45,227.15,7.89;20,365.84,525.11,226.97,7.89;20,365.84,535.76,214.51,7.89" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Club Penguin: The Kids&apos; Website That Became an Internet Obsession</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elena</forename><surname>Cresci</surname></persName>
+		</author>
+		<ptr target="https://www.theguardian.com/technology/2017/jan/31/club-penguin-the-kids-website-that-became-an-internet-obsession" />
+	</analytic>
+	<monogr>
+		<title level="m">The Guardian</title>
+		<imprint>
+			<date type="published" when="2017-01-31" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,353.88,545.46,239.10,8.97;20,365.84,556.91,227.16,7.89;20,365.84,567.57,90.07,7.89" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Consumer Choice Between Hedonic and Utilitarian Goods</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ravi</forename><surname>Dhar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kalus</forename><surname>Wertenbroch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="60" to="71" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,353.88,577.27,239.13,8.97;20,365.84,588.71,227.18,7.89;20,365.84,599.37,104.98,7.89" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">An Application of the Double Hurdle Model to Petrol and Diesel Household Expenditures in Ireland</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Eakins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Transport Policy</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="84" to="93" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,353.88,609.07,239.15,8.97;20,365.84,620.52,227.14,7.89;20,365.84,631.18,227.18,7.89;20,365.84,641.89,227.13,7.89;20,365.84,652.55,227.15,7.89;20,365.84,663.21,33.66,7.89" xml:id="b25">
+	<monogr>
+		<title level="m" type="main">The Influence of Experience and Deliberate Practice on the Development of Superior Expert Performance,&quot; in The Cambridge Handbook of Expertise and Expert Performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Ericsson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Anders</surname></persName>
+		</author>
+		<editor>K.A. Ericsson, N. Charness, P.J. Feltovich, and R.R. Hoffman</editor>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Cambridge University Press</publisher>
+			<biblScope unit="page" from="683" to="703" />
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,353.88,672.91,239.09,8.97;20,365.84,684.35,227.16,7.89;20,365.84,695.01,128.39,7.89" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Commentary: Invited Comment on &apos;Opinion Leadership and Social Contagion in New Product Diffusion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Godes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="224" to="253" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,353.88,704.71,239.11,8.97;20,365.84,716.16,227.17,7.89;20,365.84,726.82,227.17,7.89;20,365.84,737.48,49.66,7.89" xml:id="b27">
+	<monogr>
+		<title level="m" type="main">An Empirical Analysis of Network Characteristics and Social Contagion on the Mobile Internet</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anindya</forename><surname>Ghose</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sang</forename><forename type="middle">Pil</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Raghuram</forename><surname>Iyengar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Pennsylvania</orgName>
+		</respStmt>
+	</monogr>
+	<note>working paper</note>
+</biblStruct>
+
+<biblStruct coords="21,90.88,71.57,239.16,8.97;21,102.84,82.96,227.15,7.89;21,102.84,93.50,227.16,7.89;21,102.84,104.11,227.04,7.89;21,102.84,114.71,227.11,7.89;21,102.84,125.31,169.72,7.89" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The Next Level: Video Games Are More Addictive Than Ever. This Is What Happens When Kids Can&apos;t Turn Them Off</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Caitlin</forename><surname>Gibson</surname></persName>
+		</author>
+		<ptr target="http://www.washingtonpost.com/sf/style/2016/12/07/video-games-are-more-addictive-than-ever-this-is-what-happens-when-kids-cant-turn-them-off/?utm_term=.fb70950e7dcd" />
+	</analytic>
+	<monogr>
+		<title level="j">The Washington Post</title>
+		<imprint>
+			<date type="published" when="2016-12-07" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,90.88,135.01,239.08,8.97;21,102.84,146.40,178.85,7.89" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The Strength of Weak Ties</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><forename type="middle">S</forename><surname>Granovetter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1360" to="80" />
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,90.88,156.04,239.07,8.97;21,102.84,167.43,227.14,7.89;21,102.84,178.03,24.64,7.89" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Targeting Revenue Leaders for a New Product</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Haenlein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Barak</forename><surname>Libai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="65" to="80" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,90.88,188.52,239.09,7.89;21,102.84,198.28,227.13,8.97;21,102.84,209.67,216.55,7.89" xml:id="b31">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Colleen</forename><forename type="middle">M</forename><surname>Harmeling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Robert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Palmatier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Group Marketing: Theory, Mechanisms, and Dynamics</title>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="1" to="24" />
+		</imprint>
+	</monogr>
+	<note>Eric (Er) Fang, and Dainwen Wang</note>
+</biblStruct>
+
+<biblStruct coords="21,90.88,219.37,239.08,8.97;21,102.84,230.76,227.12,7.89;21,102.84,241.36,132.88,7.89" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Demand Estimation with Social Interactions and the Implications for Targeted Marketing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wesley</forename><forename type="middle">R</forename><surname>Hartmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="585" to="601" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,90.88,251.79,239.09,7.89;21,102.84,261.60,227.16,8.97;21,102.84,273.00,227.13,7.89;21,102.84,283.60,209.18,7.89" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Modeling Social Interactions: Identification, Empirical Methods, and Policy Implications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wesley</forename><forename type="middle">R</forename><surname>Hartmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Puneet</forename><surname>Manchanda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Harikesh</forename><surname>Nair</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><surname>Bothner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Dodds</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Godes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Letters</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="287" to="304" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,90.88,293.30,239.06,8.97;21,102.84,304.63,227.09,7.89;21,102.84,315.23,227.12,7.89;21,102.84,325.83,170.86,7.89" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Research Note: Can&apos;t Buy Me Love… or Can I? Social Capital Attainment Through Conspicuous Consumption in Virtual Environments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Oliver</forename><surname>Hinz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Spann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Il-Horn</forename><surname>Hann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information Systems Research</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="859" to="70" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,90.88,335.53,239.12,8.97;21,102.84,346.92,227.12,7.89;21,102.84,357.53,138.83,7.89" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Hedonic Consumption: Emerging Concepts, Methods, and Propositions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elizabeth</forename><forename type="middle">C</forename><surname>Hirschman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Morris</forename><forename type="middle">B</forename><surname>Holbrook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="92" to="101" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,90.88,367.17,239.13,8.97;21,102.84,378.56,227.18,7.89;21,102.84,389.16,199.93,7.89" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The Experiential Aspects of Consumption: Consumer Fantasies, Feelings, and Fun</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Morris</forename><forename type="middle">B</forename><surname>Holbrook</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elizabeth</forename><forename type="middle">C</forename><surname>Hirschman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="132" to="172" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,90.88,398.86,239.11,8.97;21,102.84,410.19,227.10,7.89;21,102.84,420.79,88.54,7.89" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Nonmonotonic Status Effects in New Product Adoption</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yansong</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christophe</forename><surname>Van Den Bulte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="509" to="542" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,90.88,431.28,239.12,7.89;21,102.84,441.09,227.12,8.97;21,102.84,452.48,128.39,7.89" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Social Contagion in New Product Trial and Repeat</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Raghuram</forename><surname>Iyengar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christophe</forename><surname>Van Den Bulte</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jae</forename><forename type="middle">Young</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="408" to="437" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,90.88,462.92,239.12,7.89;21,102.84,472.73,227.16,8.97;21,102.84,484.12,226.08,7.89" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Opinion Leadership and Social Contagion in New Product Diffusion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Raghuram</forename><surname>Iyengar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christophe</forename><surname>Van Den Bulte</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><forename type="middle">W</forename><surname>Valente</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="195" to="212" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,90.88,493.82,239.13,8.97;21,102.84,505.21,227.14,7.89;21,102.84,515.81,227.12,7.89;21,102.84,526.36,130.89,7.89" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The Impact of Geographic Proximity on What to Buy, How to Buy, and Where to Buy: Evidence from High-Tech Durable Goods Market</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ramkumar</forename><surname>Janakiraman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rakesh</forename><surname>Niraj</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Decision Sciences</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="889" to="919" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,90.88,536.05,239.17,8.97;21,102.84,547.45,227.10,7.89;21,102.84,558.05,227.16,7.89;21,102.84,568.73,202.71,7.70" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Understanding the Antecedents of Virtual Product Purchase in MMORPG: An Integrative Perspective of Social Presence and User Engagement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wei</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yongqiang</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2015 Pacific Asia Conference on Information Systems</title>
+		<meeting>the 2015 Pacific Asia Conference on Information Systems</meeting>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,90.88,578.29,239.06,8.97;21,102.84,589.68,227.15,7.89" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A Double-Hurdle Model of Cigarette Consumption</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Econometrics</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="23" to="39" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,90.88,599.38,239.13,8.97;21,102.84,610.77,227.18,7.89;21,102.84,621.37,205.49,7.89" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Network Effects and Personal Influences: The Diffusion of an Online Social Network</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Katona</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><forename type="middle">P</forename><surname>Zsolt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Miklos</forename><surname>Zubcsek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Sarvary</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="425" to="468" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,90.88,631.02,239.11,8.97;21,102.84,642.41,227.17,7.89;21,102.84,653.01,227.16,7.89;21,102.84,663.61,198.40,7.89" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A Behavioral Decision Theory Perspective on Hedonic and Utilitarian Choice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Uzma</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ravi</forename><surname>Dhar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Klaus</forename><surname>Wertenbroch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Inside Consumption: Consumer Motives, Goals, and Desires</title>
+		<editor>S. Ratneshawar and David Glen Mick</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="page" from="144" to="65" />
+		</imprint>
+	</monogr>
+	<note>: Routledge</note>
+</biblStruct>
+
+<biblStruct coords="21,90.88,673.25,239.09,8.97;21,102.84,684.64,227.14,7.89;21,102.84,695.24,227.17,7.89;21,102.84,705.85,181.49,7.89" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Nike&apos;s Plan to Sell Shoes via Instagram Could Spark a 20% Rally in the Stock</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tae</forename><surname>Kim</surname></persName>
+		</author>
+		<ptr target="http://www.cnbc.com/2017/07/06/nikes-plan-to-sell-shoes-via-instagram-could-spark-rally-analyst.html" />
+	</analytic>
+	<monogr>
+		<title level="j">Analyst Says</title>
+		<imprint>
+			<date type="published" when="2017-07-06" />
+		</imprint>
+	</monogr>
+	<note>CNBC</note>
+</biblStruct>
+
+<biblStruct coords="21,90.88,716.33,239.12,7.89;21,102.84,726.15,227.10,8.97;21,102.84,737.48,227.12,7.89;21,365.84,72.36,227.14,7.89;21,365.84,82.96,55.25,7.89" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The Relationship Between Online Video Game Involvement and Gaming-Related Friendship Among Emotionally Sensitive Individuals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rachel</forename><surname>Kowert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Emese</forename><surname>Domahidi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thorsten</forename><surname>Quandt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cyberpsychology, Behavior, and Social Networking</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="447" to="53" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,93.39,239.06,7.89;21,365.84,103.20,227.11,8.97;21,365.84,114.59,227.17,7.89;21,365.84,125.25,151.24,7.89" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Social Dollars: The Economic Impact of Customer Participation in a Firm-Sponsored Online Customer Community</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Puneet</forename><surname>Manchanda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Grant</forename><surname>Packard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adithya</forename><surname>Pattabhiramaiah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="367" to="87" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,134.89,239.13,8.97;21,365.84,146.29,227.18,7.89;21,365.84,156.89,128.39,7.89" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The Role of Targeted Communication and Contagion in Product Adoption</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Puneet</forename><surname>Manchanda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ying</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nara</forename><surname>Youn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="961" to="76" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,166.59,239.13,8.97;21,365.84,177.98,227.14,7.89;21,365.84,188.58,56.39,7.89" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Identification of Endogenous Social Effects: The Reaction Problem</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><forename type="middle">F</forename><surname>Manski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Economic Studies</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="531" to="573" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,198.22,239.12,8.97;21,365.84,209.67,227.16,7.89;21,365.84,220.27,226.93,7.89" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The Power of an Installed Based to Combat Lifecycle Decline: The Case of Video Games</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">André</forename><surname>Marchand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Research in Marketing</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="140" to="54" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,230.70,239.11,7.89;21,365.84,240.51,227.16,8.97;21,365.84,251.90,94.55,7.89" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Visual Influence and Social Groups</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mcshane</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><forename type="middle">T</forename><surname>Blakeley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonah</forename><surname>Bradlow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Berger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="854" to="71" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,261.60,239.14,8.97;21,365.84,272.99,201.26,7.89" xml:id="b52">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mary</forename><surname>Meeker</surname></persName>
+		</author>
+		<ptr target="http://www.kpcb.com/blog/2014-internet-trends" />
+		<title level="m">Internet Trends 2014: Code Conference</title>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,282.64,239.13,8.97;21,365.84,294.08,227.14,7.89;21,365.84,304.69,227.02,7.89;21,365.84,315.29,219.31,7.89" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Pokémon-Chasing Investors Send Nintendo Shares Soaring</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Takashi</forename><surname>Mochizuki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sarah</forename><forename type="middle">E</forename><surname>Needleman</surname></persName>
+		</author>
+		<ptr target="http://www.wsj.com/articles/pokemon-chasing-investors-send-nintendo-shares-soaring-1468228206" />
+	</analytic>
+	<monogr>
+		<title level="j">The Wall Street Journal</title>
+		<imprint>
+			<date type="published" when="2016-07-11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,324.93,239.13,8.97;21,365.84,336.32,197.33,7.89" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Hurdle Models of Loan Default</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><forename type="middle">G</forename><surname>Moffatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Operational Research Society</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1063" to="71" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,346.81,239.12,7.89;21,365.84,356.62,227.14,8.97;21,365.84,368.01,227.16,7.89;21,365.84,378.61,94.55,7.89" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Asymmetric Social Interactions in Physician Prescription Behavior: The Role of Opinion Leaders</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Harikesh</forename><forename type="middle">S</forename><surname>Nair</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Puneet</forename><surname>Manchanda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tulikaa</forename><surname>Bhatia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="883" to="95" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,389.10,239.12,7.89;21,365.84,398.91,227.18,8.97;21,365.84,410.31,129.87,7.89" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Success Factors in Product Seeding: The Role of Homophily</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mohammad</forename><forename type="middle">G</forename><surname>Nejad</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mehdi</forename><surname>Amini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Emin</forename><surname>Babakus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Retailing</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="68" to="88" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,419.95,239.07,8.97;21,365.84,431.39,177.94,7.89" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Social Effects on Customer Retention</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Irit</forename><surname>Nitzan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Barak</forename><surname>Libai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="24" to="38" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,441.04,239.14,8.97;21,365.84,452.43,155.49,7.89" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Ethics and Network Organizations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">A</forename><surname>Phillips</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Business Ethics Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="533" to="576" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,462.13,239.15,8.97;21,365.84,473.52,227.15,7.89;21,365.84,484.12,227.15,7.89;21,365.84,494.72,149.31,7.89" xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Can We Get from Linking to Buying? Behavioral Differences in Hedonic and Utilitarian Facebook Usage</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Essi</forename><surname>Pöyry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Petri</forename><surname>Parvinen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tuuli</forename><surname>Malmivaara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electronic Commerce Research and Applications</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="224" to="259" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,504.36,239.16,8.97;21,365.84,515.81,227.14,7.89" xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Socioeconomic Product Risk and Patronage Preferences of Retail Shoppers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Prasad</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Kanti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="42" to="47" />
+			<date type="published" when="1975" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,526.24,239.08,7.89;21,365.84,536.05,227.17,8.97;21,365.84,547.44,227.17,7.89;21,365.84,558.05,103.73,7.89" xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Dynamic Effects of Social Influence and Direct Marketing on the Adoption of High-Technology Products</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Risselada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><forename type="middle">C</forename><surname>Hans</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Verhoef</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">A</forename><surname>Tammon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bijmolt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="52" to="68" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,567.75,239.14,8.97;21,365.84,579.14,227.13,7.89;21,365.84,589.74,154.70,7.89" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Even the Rich Can Make Themselves Poor: A Critical Examination of IV Methods in Marketing Applications</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><forename type="middle">E</forename><surname>Rossi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="655" to="72" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,599.44,239.13,8.97;21,365.84,610.83,227.18,7.89;21,365.84,621.43,129.87,7.89" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Not All Fun and Games: Viral Marketing for Utilitarian Products</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christian</forename><surname>Schulze</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lisa</forename><surname>Schöler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bernd</forename><surname>Skiera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,631.86,239.10,7.89;21,365.84,642.46,206.34,7.89" xml:id="b64">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">George</forename><forename type="middle">W</forename><surname>Snedecor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">G</forename><surname>Cochran</surname></persName>
+		</author>
+		<title level="m">Statistical Methods</title>
+		<meeting><address><addrLine>Ames, IA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Iowa State University Press</publisher>
+			<date type="published" when="1967" />
+		</imprint>
+	</monogr>
+	<note>6th ed.</note>
+</biblStruct>
+
+<biblStruct coords="21,353.88,652.16,239.13,8.97;21,365.84,663.55,227.18,7.89;21,365.84,674.15,214.95,7.89" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Where Everybody Knows Your (Screen) Name: Online Games as Third Places</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Constance</forename><forename type="middle">A</forename><surname>Steinkuehler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dmitri</forename><surname>Williams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Computer-Mediated Communication</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="885" to="909" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,683.85,239.15,8.97;21,365.84,695.24,227.10,7.89;21,365.84,705.84,227.15,7.89" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">The Effects of Product Type and Donation Magnitude on Willingness to Pay More for a Charity-Linked Brand</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michal</forename><surname>Strahilevitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Psychology</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="215" to="256" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,353.88,715.49,239.12,8.97;21,365.84,726.93,227.16,7.89;21,365.84,737.54,93.98,7.89" xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Marketing Alliances, Firm Networks, and Firm Value Creation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vanitha</forename><surname>Swaminathan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christine</forename><surname>Moorman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="52" to="69" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="21,421.23,785.92,171.75,9.31" xml:id="b68">
+	<monogr>
+		<title level="m" type="main">Social Dollars in Online Communities / 113</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,90.88,71.57,239.10,8.97;22,102.84,83.81,227.13,7.89;22,102.84,95.26,177.66,7.89" xml:id="b69">
+	<monogr>
+		<title level="m" type="main">Shopping Motivations on Internet: A Study Based on Utilitarian and Hedonic Value</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pui-Lai</forename><surname>To</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chechen</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tzu-Hua</forename><surname>Lin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="774" to="87" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Technovation</note>
+</biblStruct>
+
+<biblStruct coords="22,90.88,104.90,239.11,8.97;22,102.84,117.14,227.15,7.89;22,102.84,128.60,181.40,7.89" xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Perceived Expertise and Its Effect on Confidence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Trafimow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Janet</forename><forename type="middle">A</forename><surname>Sniezek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Organizational Behavior and Human Decision Processes</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="290" to="302" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,90.88,138.29,239.07,8.97;22,102.84,150.54,227.17,7.89;22,102.84,161.99,145.83,7.89" xml:id="b71">
+	<monogr>
+		<title level="m" type="main">Network Stability, Network Externalities, and Technology Adoption</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine</forename><surname>Tucker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+		<respStmt>
+			<orgName>National Bureau of Economic Research</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Working Paper No. 17246</note>
+</biblStruct>
+
+<biblStruct coords="22,90.88,171.69,239.06,8.97;22,102.84,183.93,227.13,7.89;22,102.84,195.38,205.10,7.89" xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Medical Innovation Revisited: Social Contagion Versus Marketing Effort</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christophe</forename><surname>Van Den Bulte</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><forename type="middle">L</forename><surname>Lilien</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1409" to="1444" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,90.88,205.02,239.05,8.97;22,102.84,216.47,225.17,8.97" xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Collective Dynamics of &apos;Small-World&apos; Networks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Duncan</forename><forename type="middle">J</forename><surname>Watts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">H</forename><surname>Strogatz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">393</biblScope>
+			<biblScope unit="page" from="440" to="482" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,353.88,71.56,239.11,8.97;22,365.84,82.78,227.14,7.89;22,365.84,93.27,149.99,7.89" xml:id="b74">
+	<analytic>
+		<title level="a" type="main">The Demographics, Motivations, and Derived Experiences of Users of Massively Multi-User Online Graphical Environments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nick</forename><surname>Yee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Presence</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="309" to="338" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,353.88,102.92,239.08,8.97;22,365.84,114.19,227.18,7.89;22,365.84,124.62,183.55,7.89" xml:id="b75">
+	<analytic>
+		<title level="a" type="main">The Proteus Effect: The Effect of Transformed Self-Representation on Behavior</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nick</forename><surname>Yee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeremy</forename><forename type="middle">N</forename><surname>Bailenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Human Communication Research</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="271" to="90" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,353.88,134.32,239.12,8.97;22,365.84,145.54,227.15,7.89;22,365.84,156.03,151.07,7.89" xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Butter Consumption with Zero Observations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">T</forename><surname>Yen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shew-Jiuan</forename><surname>Su</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Agricultural and Resource Economics Review</title>
+		<editor>Modeling U.S</editor>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="47" to="55" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,353.88,165.67,239.22,8.97;22,365.84,176.95,227.16,7.89;22,365.84,187.38,177.88,7.89" xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Impact of Social Network Structure on Content Propagation: A Study Using YouTube Data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hema</forename><surname>Yoganarasimhan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quantitative Marketing and Economics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="111" to="50" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="22,353.88,197.08,239.10,8.97;22,365.84,208.30,227.17,7.89;22,365.84,218.79,109.17,7.89" xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Social Ties and User Content Generation: Evidence from Flickr</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiaohua</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Liyuan</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information Systems Research</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="71" to="87" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

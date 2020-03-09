@@ -1,0 +1,1272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Children Understand That Agents Maximize Expected Utilities</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Julian</forename><surname>Jara-Ettinger</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sammy</forename><surname>Floyd</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Laura</forename><forename type="middle">E</forename><surname>Schulz</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Yale University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Psychology</orgName>
+								<orgName type="department" key="dep2">Department of Psychology</orgName>
+								<orgName type="institution">Yale University</orgName>
+								<address>
+									<addrLine>Sammy Floyd</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="institution">Princeton University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department" key="dep1">Jara-Ettinger</orgName>
+								<orgName type="department" key="dep2">Department of Psychology</orgName>
+								<orgName type="institution">Yale University</orgName>
+								<address>
+									<addrLine>2 Hillhouse Avenue, New Haven</addrLine>
+									<postCode>06520</postCode>
+									<region>CT</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Children Understand That Agents Maximize Expected Utilities</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>Supplemental materials: http://dx.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:04+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>theory of mind</term>
+					<term>social cognition</term>
+					<term>cognitive development</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>A growing set of studies suggests that our ability to infer, and reason about, mental states is supported by the assumption that agents maximize utilities-the rewards they attain minus the costs they incur. This assumption enables observers to work backward from agents' observed behavior to their underlying beliefs, preferences, and competencies. Intuitively, however, agents may have incomplete, uncertain, or wrong beliefs about what they want. More formally, agents try to maximize their expected utilities. This understanding is crucial when reasoning about others' behavior: It dictates when actions reveal preferences, and it makes predictions about the stability of behavior over time. In a set of 7 experiments we show that 4-and 5-year-olds understand that agents try to maximize expected utilities, and that these responses cannot be explained by simpler accounts. In particular, these results suggest a modification to the standard belief/desire model of intuitive psychology. Children do not treat beliefs and desires as independent; rather, they recognize that agents have beliefs about their own desires and that this has consequences for the interpretation of agents' actions.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Human commonsense psychology is characterized by a remarkable facility to draw meaningful interpretations of simple behavior with strong predictive power <ref type="bibr" coords="1,160.58,413.04,95.80,7.91" target="#b16">(Heider &amp; Simmel, 1944)</ref>. At the center of our commonsense psychology lies an intuitive causal theory of how other people's mental states-their beliefs and desires-relate to the actions they take <ref type="bibr" coords="1,191.86,446.04,56.88,7.91" target="#b5">(Dennett, 1989;</ref><ref type="bibr" coords="1,251.39,446.04,36.65,7.91;1,48.00,457.04,58.75,7.91" target="#b15">Gopnik &amp; Meltzoff, 1997;</ref><ref type="bibr" coords="1,111.26,457.04,55.95,7.91" target="#b39">Wellman, 1990</ref><ref type="bibr" coords="1,175.77,457.04,15.50,7.91" target="#b41">Wellman, , 2014</ref>. If we learn that Sally wants a cookie and that she believes there are cookies in the cookie jar, we can predict that Sally will walk toward the cookie jar and take a cookie out. This causal theory also enables us to work backward from Sally's actions to her mental states. If Sally takes a cookie from the cookie jar and eats it, we can infer that she wanted a cookie and that she (correctly) believed that she would find one in the cookie jar.</p><p>These accounts, however, have largely focused on beliefs that represent content about the world (e.g., the location of the cookies; <ref type="figure" coords="1,306.00,413.40,32.43,7.91" target="#fig_0">Figure 1a</ref>). However, agents also have beliefs about the contents of their minds (see also <ref type="bibr" coords="1,385.85,424.58,99.51,7.91">Bartsch &amp; Wellman, 1995;</ref><ref type="bibr" coords="1,488.46,424.58,57.59,7.91;1,306.00,435.77,86.68,7.91" target="#b6">Flavell, Flavell, Green, &amp; Moses, 1990;</ref><ref type="bibr" coords="1,395.74,435.77,47.18,7.91" target="#b31">Miller, 2009)</ref>. Consider again the simple case of watching Sally get a cookie from the jar. Usually this means that Sally likes cookies and that she would get a cookie again if she were in the same situation (and infants appear to share this intuition; <ref type="bibr" coords="1,356.75,480.46,162.56,7.91" target="#b49">Woodward, Sommerville, &amp; Guajardo, 2001)</ref>. However, this inference critically assumes that Sally knew that she liked cookies. If Sally had never tried a cookie before, we would not be so confident that Sally taking a cookie implies that she likes cookies, or that she will take them again in the future. For us to know what someone likes, she has to know it herself first.</p><p>Cookies, of course, are almost universally familiar and universally liked, but in novel contexts, inferences that depend on an agent's beliefs about her desires are both commonplace and critical for social cognition. If your friend, for instance, buys food that she has never tasted before, her choices may not tell us anything about her stable, long-term preferences. Conversely, if your friend tries some food, changes her mind, and chooses a different kind of food, you might infer that she was initially naïve, unsure, or wrong about her preferences. In these cases, the instability of the agent's behavior reveals the initial uncertainty of her beliefs about her desires.</p><p>The same logic applies to beliefs about the costs of actions. For example, Sally might be eager (or reluctant) to join a committee. However, if she does not understand the costs involved, her actions may not be informative about her future ones. Conversely, if Sally signs up for the committee and then fails to attend regularly, you might infer that she had not accurately estimated the commitment involved.</p><p>Recent work suggests that the intuitive relationship between mental states and behavior is powered by a naive utility calculus (Jara-Ettinger, <ref type="bibr" coords="2,101.79,429.04,135.47,7.91" target="#b17">Gweon, Schulz, &amp; Tenenbaum, 2016;</ref><ref type="bibr" coords="2,239.32,429.04,48.74,7.91;2,48.00,440.04,144.56,7.91" target="#b18">Jara-Ettinger, Gweon, Tenenbaum, &amp; Schulz, 2015;</ref><ref type="bibr" coords="2,196.89,440.04,91.15,7.91;2,48.00,451.04,67.47,7.91" target="#b20">Jara-Ettinger, Schulz, &amp; Tenenbaum, 2017;</ref>; see also <ref type="bibr" coords="2,65.18,462.04,83.81,7.91" target="#b21">Johnson &amp; Rips, 2015;</ref><ref type="bibr" coords="2,151.68,462.04,66.41,7.91">Lucas et al., 2014)</ref>. According to this intuitive theory of decision-making, agents choose what to do by associating utilities with goals, and pursuing the one with the highest utility ( <ref type="figure" coords="2,108.15,495.04,37.82,7.91" target="#fig_0">Figure 1b)</ref>. Each goal's utility is given by the rewards the agent expects to obtain minus the costs she expects to incur. Thus, as a goal's reward increases, its utility increases, and as a goal's cost increases, its utility diminishes. Critically, the naïve utility calculus is a theory of how people think other people make decisions, and it may differ in important ways from how people actually make decisions (see <ref type="bibr" coords="2,182.94,561.04,92.33,7.91" target="#b17">Jara-Ettinger et al., 2016)</ref>.</p><p>More formally, the utility U(S, A) for taking actions A to reach goal-state S is given by the reward obtained in the goal-state state, R(S), minus the action costs, C(A), that lead to this state. Because agents cannot estimate the utility function U(S, A) precisely, they act on the expected utility, E[U(S, A)] ϭ E[R(S)] -E[C(A)]. Over time, as agents interact with the world, they update their utility estimates. <ref type="figure" coords="2,88.29,638.04,36.54,7.91">Figure 2a</ref> shows intuitive representations of agents' beliefs about two sources of reward and how they are updated over time. <ref type="figure" coords="2,69.41,660.04,35.66,7.91">Figure 2b</ref> shows a visual schematic of how the spread and expected value of these reward distributions determines the agent's choice.</p><p>Under this account, agents' knowledge of the costs and rewards should influence their behavior in two ways. First, knowledgeable agents' expected utilities should be closer to the true utilities compared to ignorant agents' expected utilities. As such, knowledgeable agents should be more likely to select the utilitymaximizing plan. Second, compared with ignorant agents, knowledgeable agents should be less likely to change their beliefs about which plan has the highest utility in light of new experience, and they should therefore have more stable choices over time (see <ref type="figure" coords="2,306.00,143.04,29.04,7.91">Figure 2</ref>). Although current evidence suggests that children expect agents to maximize utilities <ref type="bibr" coords="2,408.21,154.04,126.54,7.91" target="#b18">(Jara-Ettinger, Gweon, et al., 2015)</ref>, it is unknown if they understand that these utilities are estimated and not exact.</p><p>To investigate children's understanding of how agents' uncertainty about their costs and rewards relates to their behavior we test the predictions outlined above. To the degree that researchers have looked at children's inferences regarding beliefs, they have focused primarily on issues related to epistemic access: canonically, whether the agent does or does not see where a desired object has been placed (e.g., <ref type="bibr" coords="2,376.18,253.03,95.56,7.91" target="#b48">Wimmer &amp; Perner, 1983)</ref>. The current study goes beyond merely representing agents' beliefs about the world and treating beliefs and desires as independent nodes affecting action <ref type="bibr" coords="2,330.00,286.03,82.51,7.91" target="#b14">(Goodman et al., 2006;</ref><ref type="bibr" coords="2,414.53,286.03,94.27,7.91" target="#b15">Gopnik &amp; Meltzoff, 1997;</ref><ref type="bibr" coords="2,510.80,286.03,35.24,7.91;2,306.00,297.03,16.40,7.91" target="#b39">Wellman, 1990</ref>; <ref type="figure" coords="2,328.62,297.03,32.49,7.91" target="#fig_0">Figure 1a</ref>). Instead, we propose that children understand that agents can have beliefs about their own desires ( <ref type="figure" coords="2,491.33,308.03,34.22,7.91">Figure 2b</ref>) and understand that different agents might perform the same actions with the same beliefs about the world and yet interpret the experience differently, depending on their knowledge or ignorance of their own utilities.</p><p>Research suggests that, by age four, children can explicitly reason about others' beliefs <ref type="bibr" coords="2,411.77,374.03,130.40,7.91" target="#b43">(Wellman, Cross, &amp; Watson, 2001)</ref>, and that by five, children expect agents to maximize utilities (Jara-Ettinger, <ref type="bibr" coords="2,361.22,396.03,75.56,7.91" target="#b18">Gweon, et al., 2015)</ref>. Because the current studies   <ref type="figure" coords="2,306.00,525.78,28.17,6.86">Figure 2</ref>. Belief distributions over the space of possible rewards over time using two different visualizations. In this example, the belief distribution of the rambutan (red fruit; red/dark gray curve) begins with high uncertainty and a slight bias toward a lower reward (frame 1; left plot in panel a and left side of plot on panel b) and gets revised to a belief for a high reward (frame 2; right plot in panel b and right side of plot on panel b); the African cucumber (yellow fruit; yellow/light gray curve) shows a similar trend on the opposite direction. (a) Each plot shows a visual schematic of a distribution of beliefs over rewards. (b) Visual schematic of expected rewards as a function of experience. The x-axis represents the amount of experience with a source of rewards, and the y-axis represents the range of possible rewards. Each fruit represents the expected value at a given level of experience, and the ovals represent the agent's uncertainty about this reward. The numbers above indicate the corresponding frame in panel (a). Together, these figures illustrate how ignorant agents (Ignorant end of Experience axis) are more likely to incorrectly judge which option has the highest expected reward, and they are more likely to revise their choices as their experience grows. The same logic applies to experience with costs, and thus to the overall expected utilities. See the online article for the color version of this figure. This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>focus on children's explicit reasoning about agents' mental states, here we focus on 4-and 5-year-olds, looking at whether children who understand that costs, rewards, and beliefs vary across agents also understand that beliefs interact with costs and rewards. <ref type="figure" coords="3,57.00,121.04,35.25,7.91" target="#fig_0">Figure 1c</ref> shows a visualization of the structure of the experiments. In Experiments 1-4 we explore children's understanding of how knowledge of rewards influences agents' choices and their stability over time. In Experiments 5-7 we explore the same questions in a domain where both costs and rewards are in play. Our sample size (n ϭ 16 per experiment) was based on similar tasks with a similar age ranges. Monte Carlo power analyses using effect sizes estimated from past data show that our experiment was appropriately powered as long as each experiment contained an inclusion question that would help remove the noise in the analyses. Power analyses with parameters estimated from a metaanalysis on our data confirm that our experiments' power is over .95, with a .04 chance of producing a false positive (see supplemental text).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Children's Understanding of how Knowledge of Rewards Influence Action</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 1</head><p>In Experiment 1 we look at whether children understand that agents who are naive about rewards are more likely to make poor choices compared to knowledgeable agents. We introduce children to two puppets who are given a choice between two types of fruits. One puppet is knowledgeable and has tasted both fruits before; one puppet is naïve and has not. Both puppets choose the same fruit. One puppet tastes it and says "Yum!" and the other tastes it and says "Yuck!" We predict that children will infer that the knowledgeable puppet is more likely to say "Yum!" (see <ref type="figure" coords="3,238.90,434.54,29.74,7.91">Figure 3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method.</head><p>Participants. Sixteen participants (mean age (SD): 5.09 years (195 days), range 4.13-5.89 years) were recruited at an urban children's museum. One additional participant was recruited but not included in the study because he failed to respond to the inclusion questions correctly (see Procedure).</p><p>Stimuli. The stimuli consisted of two pairs of gender-matched puppets, and picture cutouts of two fruits: rambutans and African cucumbers.</p><p>Procedure. Participants were tested individually in a quiet room in a children's museum. The child and the experimenter sat on opposite sides of a small table. The experimenter first introduced the cutout pictures of the rambutans and the African cucumbers and placed four pictures of each fruit on the table with each kind of fruit in its own pile. Next, the experimenter introduced the two puppets by name ("Anne" and "Sally," or "Arnold" and "Bob," depending on the participant's gender). The experimenter then explained that "Sally has never seen these fruits before and she doesn't know what they taste like" while "Anne knows all about these fruits. She knows what they taste like." Next, the experimenter told the participant, "Earlier today, we told our friends they had to pick one fruit each, and both of our friends picked a rambutan" (actual fruit counterbalanced). Next, the experimenter placed a picture of a rambutan in front of each puppet and explained, "Both of our friends took a bite of their fruit and one of them said 'Yum!' and one of them said 'Yuck'!" Participants were then asked inclusion questions to ensure the child remembered the critical information: "Can you tell me, which of our friends has tasted the fruits before? And which one of our friends has not tasted these fruits before?" Finally, participants were asked which puppet said "Yum!" and which puppet said "Yuck!" Puppets were placed equidistant from the child. We independently counterbalanced (i) the fruits that the puppets chose, (ii) which puppet was knowledgeable, (iii) the knowledgeable puppet's position relative to the child, and (iv) which puppet's knowledge state was introduced first.</p><p>Results and discussion. Children who failed to respond correctly to the inclusion questions were excluded from analysis and replaced (n ϭ 1). Results were first coded for adherence to the protocol by a coder blind to the child's final response (no participants were dropped due to experimenter error). Videotapes were then coded to record the child's response to the test question. Children were coded as answering correctly if they indicated that the knowledgeable puppet had said "Yum" and that the ignorant puppet said "Yuck," and they were coded as responding incorrectly otherwise. Of the 16 children who responded to the inclusion questions correctly, 16 (100%) responded correctly to the test question (see <ref type="figure" coords="3,356.98,551.33,29.74,7.91" target="#fig_1">Figure 4</ref>). <ref type="bibr" coords="3,393.22,549.90,3.50,4.83">1</ref> Note that if children believe that an agent's choices always reflect her preferences, then children should have expected both puppets to say "Yum!" Both agents knew they had a choice of the two fruits, and both agents made the same choice: If children recovered agents' desires only from information about the agents' actions and beliefs about the state of the world, then children should have responded at chance in this context. Instead children recognized that the knowledgeable agent would be more likely to like the chosen fruit. This suggests that children understand that 1 Because of conceptual limitations with p values <ref type="bibr" coords="3,478.64,679.70,46.46,7.03" target="#b3">(Cohen, 1994;</ref><ref type="bibr" coords="3,527.78,679.70,13.67,7.03;3,306.00,688.70,39.13,7.03" target="#b4">Cumming, 2014)</ref>, here we report bootstrapped 95% confidence intervals instead. This approach does not enable us to compute confidence intervals for the first experiment (because the data has no variance). However, the conclusion we draw is consistent with null-hypothesis significance testing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 1</head><p>Who said "yum" and who said "yuck"? Yum! Yuck! Experiment 2 Who hadn't tasted the fruits before? <ref type="figure" coords="3,48.00,665.78,29.25,6.86">Figure 3</ref>. Experiments 1 and 2. In Experiment 1, after watching a knowledgeable and a naïve puppet choose identical fruits to eat, children were asked to infer who said "yum!" and who said "yuck!" In Experiment 2 children learned which puppet said "yum!" and which puppet said "yuck!" and were asked to infer who had tasted the fruits before. See the online article for the color version of this figure. This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>agents choose the options with the highest expected rewards and that a naive agent's choices may be governed by an inaccurate estimate of the actual reward.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 2</head><p>Experiment 1 shows that children believe ignorant agents are more likely to make choices that lead to low rewards. However, in the real world we are rarely privy to the epistemic status of others. Instead, we often grapple with the opposite task: inferring what others know given how they act. In Experiment 2 we ask if children can infer which of two agents was ignorant based on the rewards they obtain. Children watched two puppets pick the same fruit to eat. After learning that one puppet said "Yum!" and the other puppet said "Yuck!" children were asked to decide which puppet had not tasted the fruits before (see <ref type="figure" coords="4,208.62,484.04,29.64,7.91">Figure 3</ref>). We predict that children will infer that the puppet who said "Yuck!" had not tasted the fruits before.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method.</head><p>Participants. Thirty-two participants (mean age (SD): 5.12 years (194 days), range 4.12-5.99 years) were recruited at an urban children's museum. Sixteen participants were recruited for the original experiment, and 16 additional participants were recruited to conduct a replication (see Results). Four additional participants were recruited in the original experiment but excluded from analysis and replaced for failing the inclusion questions (n ϭ 1), declining to complete the experiment (n ϭ 1), and declining to answer the test question (n ϭ 2). Three additional participants were recruited in the replication experiment but excluded from analysis for failing the inclusion questions (n ϭ 2), and declining to answer the test question (n ϭ 1). See Results.</p><p>Stimuli. The stimuli were identical to those used in Experiment 1.</p><p>Procedure. Participants were tested individually in a quiet room. As in Experiment 1, the experimenter introduced the two puppets and the fruits and explained that each puppet chose a fruit to eat. One section from Experiment 1 was omitted; here, one puppet was not more knowledgeable than the other. After both puppets chose a fruit, the experimenter said "Anne and Sally (or Arnold and Bob) both took a bite from their rambutans (or African cucumbers). Anne said 'Yum!' Sally said 'Yuck!'" Next, the experimenter said, "But guess what? One of our friends didn't know what rambutans tasted like until today." Children were then asked to remember which puppet had said "Yum!" and which puppet had said "Yuck!" as inclusion questions. For the test question, the experimenter asked, "Can you tell me, which one of our friends didn't know what rambutans tasted like until today?" (Actual fruits counterbalanced throughout.) The replication experiment used the same procedure as the original experiment with the exception that the inclusion questions were asked immediately after the puppets tasted the fruit in order to make the last part of the experiment more fluent. We independently counterbalanced (i) the fruits that the puppets chose, (ii) which puppet said yum, (iii) the puppets' positions relative to the child, and (iv) which puppet's behavior was introduced first.</p><p>Results and discussion. Results were coded as in Experiment 1. Participants were coded as passing the inclusion if they could recall correctly which puppet said "Yum" and which puppet said "Yuck" (one participant was excluded on this basis). Participants were coded as responding correctly if they indicated that the puppet who said "Yuck!" was the one who had not tasted the fruits before today. Of the 16 participants who made a choice in the original experiment, 12 responded correctly (75%; 95% CI [56.25%-100%]; see <ref type="figure" coords="4,383.88,613.99,29.07,7.91" target="#fig_1">Figure 4</ref>). These results suggest that children can use knowledge about the actual subjective rewards that different agents obtain to infer which agent is more likely to have been naïve in her estimate of the expected rewards. However, four children answered incorrectly and two were excluded from analysis and replaced for failing to provide any answer to the test question. Thus, to ensure the validity of our interpretation we replicated the experiment. The replication yielded identical results. Out of the 16 participants who made a choice in the replication, 12 responded correctly (75%; 95% CI [56.25%-100%]; see <ref type="figure" coords="4,510.67,715.04,28.89,7.91" target="#fig_1">Figure 4</ref>).  This document is copyrighted by the American Psychological Association or one of its allied publishers. This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>Together, these experiments suggest that children can use knowledge about subjective rewards to infer knowledge.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 3</head><p>In Experiment 3, children were introduced to a set of fruits and to a knowledgeable and an ignorant agent. Next, children saw both puppets pick the same kind of fruit and take a bite. Finally, children learned that one of the puppets changed her choice and they were asked to determine which puppet had changed her mind and which puppet had changed her choice (see <ref type="figure" coords="5,239.03,184.04,31.63,7.91">Figure 5</ref>). If children believe both agents maximized actual rewards, they should perform at chance, but if they understand that agents were maximizing expected rewards, and that these estimates change as a function of experience, they should recognize that the ignorant agent was more likely to revise her choices.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method.</head><p>Participants. Sixteen participants (mean age (SD): 5.16 years (241 days), range 4.01-5.96 years) were recruited at an urban children's museum. One additional participant was recruited but excluded from the study and replaced because he declined to complete the task.</p><p>Stimuli. The stimuli were identical to those used in Experiments 1-2.</p><p>Procedure. The procedure was identical to the procedure in Experiment 1 except as follows: One of the puppets was introduced as having tasted the fruits and knowing what they tasted like, and neither puppet said "Yum!" or "Yuck!" Instead, after the puppets had tasted the fruits, the experimenter said, "Both of our friends took a bite from their fruit and one of them changed her mind and decided she wanted to eat a different fruit." As an inclusion question, participants were asked "Can you remind me, which one of our friends knows all about these fruits? Sally or Anne?" or "Can you remind me, which one of our friends has never tried these fruits? Sally or Anne?" (see supplemental materials for full script). For the test question, participants were asked, "Which one of our friends changed his/her mind?" We independently counterbalanced (i) the fruits that the puppets chose, (ii) which puppet was knowledgeable, (iii) the knowledgeable puppet's position relative to the child, (iv) which puppet's knowledge state was introduced first, and (v) the type of inclusion question.</p><p>Results and discussion. Results were coded in the same way as Experiments 1-2. All participants passed the inclusion question and no participants were dropped due to experimenter error. Children were coded as responding correctly if they indicated that the naïve agent was the one who had changed her mind. Fifteen of the 16 children responded to the test question correctly (93.75%; 95% CI [87.5%-100%]; see <ref type="figure" coords="5,393.06,143.03,29.85,7.91" target="#fig_1">Figure 4</ref>). Note that in contrast to Experiment 1, participants in Experiment 3 never obtained any information about the outcome of each puppet's choice. Thus, it was possible that either or both puppets had liked or disliked their chosen fruit. Nevertheless, children were able to infer that naïve agents are more likely to make unstable choices. Furthermore, in this experiment participants couldn't succeed by grouping together two features with a positive valence (such as knowledge and "yumminess" in Experiment 1). Together with Experiment 1, the results from this experiment suggest that 4-and 5-year-olds understand that relative to knowledgeable agents, naïve agents are more likely to make choices that lead to low rewards, and thus that their choices are less likely to be stable over time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 4</head><p>Experiment 3 shows that children believe ignorant agents are more likely to revise their choices. In Experiment 4 we ask if children can infer which of two agents is more likely to be naive about their rewards when one shows stable preferences and one does not. Children watched two puppets choosing and tasting identical fruits. Next, one puppet announced that she wanted to eat the other kind of fruit instead while the other puppet wanted to stick to her choice. Children were asked which of the puppets had never tasted the fruits before (see <ref type="figure" coords="5,442.87,407.04,31.48,7.91">Figure 5</ref>). We predict that children will infer that the puppet who changed her choice had not tasted the fruits before.</p><p>Method. Sixteen participants (mean age (SD): 5.06 years (244 days), range 4.04 -5.93 years) were recruited at an urban children's museum. Three additional children were tested but excluded from the study because they failed to respond to the inclusion questions correctly. See Results.</p><p>Stimuli. The stimuli were identical to those used in Experiments 1-3.</p><p>Procedure. The procedure was identical to Experiment 2 except as follows: First, children were never given any information about whether the puppets said "Yum!" or "Yuck!" after tasting the fruits. Instead, after taking a bite from their fruit, the experimenter said, "Anne kept eating the rambutan. Sally changed her mind and said she wanted an African cucumber instead." As inclusion questions, participants were asked, "Can you remind me, which one of our friends kept eating the rambutan? Anne or Sally? And which one of our friends changed her mind and wanted an African cucumber instead? Anne, or Sallly?" As in Experiment 2, at test children were asked, "Can you tell me, which one of our friends didn't know what rambutans tasted like until today?" We independently counterbalanced (i) the fruits that the puppets chose, (ii) which puppet was knowledgeable, (iii) the knowledgeable puppet's position relative to the child, and (iv) which puppet's knowledge state was introduced first.</p><p>Results and discussion. All results were coded in the same way as Experiments 1-3. Participants were coded as passing the inclusion questions correctly if they responded to both questions Experiment 4 Who hadn't tasted the fruits before?</p><p>Experiment 3 Who changed her choice? <ref type="figure" coords="5,48.00,665.78,29.25,6.86">Figure 5</ref>. Experiments 3 and 4. In Experiment 3, after watching a knowledgeable and a naïve puppet choose identical fruits to eat, children were asked to infer who changed her mind after tasting her fruit. In Experiment 4 children learned which changed her choice and were asked to infer who had not tasted the fruits before. See the online article for the color version of this figure. This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>correctly, and they were marked as failing inclusion otherwise. Three children failed to respond to the inclusion questions correctly and were therefore excluded from analysis and replaced. Children's responses were coded as responding correctly if they indicated that the puppet who changed her mind was the one who had never tasted the fruits before. Of the 16 participants who made a choice, 13 responded correctly (81.25%; 95% CI [62.5%-100%]; see <ref type="figure" coords="6,62.73,154.04,29.98,7.91" target="#fig_1">Figure 4</ref>). Together with Experiment 3, these results suggest children understand that relative to naïve agents, knowledgeable agents are more likely to stick to their choices. Moreover, children can infer which agents are more likely to be knowledgeable based on the stability of these choices.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Children's Understanding of How Knowledge of Utilities Influence Action</head><p>Experiments 1-4 suggest that children understand that agents do not maximize rewards, but expected rewards. In these experiments, the costs were matched and negligible. In part 2 we test if children assume that agents maximize expected utilities when both costs and rewards are in play. In Experiments 5 and 6 we ask if children believe that agents who are aware of the costs make better choices, and whether they can infer relative knowledge or ignorance based on these choices. In Experiment 7 we look at whether children understand that agents who are ignorant about the costs are more likely to revise their choices in light of new information. 2</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 5</head><p>Experiment 5 is similar to Experiment 1 but focuses on utilities rather than rewards alone. Here we ask if children understand that agents who know the cost associated with different alternatives are more likely to maximize utilities. In Experiment 5a children watched two puppets choose between climbing a set of stairs to get a tomato (high-cost plan), or getting a piece of corn at no cost (low-cost plan). Critically, however, only one of the puppets knew about the set of stairs. After both puppets chose to get the tomato, children were asked which of the two puppets was more likely to really like tomatoes (see <ref type="figure" coords="6,144.92,495.04,30.73,7.91">Figure 6</ref>). If children believe that the puppets were maximizing actual utilities, then they should conclude that they both prefer tomatoes to corn (as they both chose the tomato at a high cost over corn at a low cost). However, if children believe that the puppets were maximizing expected utilities, they should only conclude that the puppet who was aware of the costs prefers tomatoes (as the ignorant agent did not know she was pursuing a plan with a higher cost). Experiment 5b is identical to Experiment 5a with the exception that both puppets now choose the low-cost plan (see <ref type="figure" coords="6,131.96,594.04,29.74,7.91">Figure 6</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method.</head><p>Participants. Thirty-two participants (mean age (SD): 4.75 years (206 days), range 4.06 -5.73 years) were recruited at an urban children's museum and assigned to the test of the control condition (N ϭ 16 per condition). Six additional participants were recruited but not included in the study due to family interference (n ϭ 1 participant), experiment error (n ϭ 2 participants), and failure to respond the inclusion questions correctly (n ϭ 3 participants; see Procedure).</p><p>Stimuli. The stimuli consisted of two pairs of gender-matched puppets, a set of puppet-sized walls with doors (1 yellow and 1 red; 20.5" H, 12" W), a puppet-sized set of stairs (20 steps; 21.5" H, 4" W), a plastic tomato, and a plastic ear of corn.</p><p>Procedure. Participants were tested individually in a quiet room in a children's museum. The child and the experimenter sat on opposite sides of a small table. The red and yellow doors were placed on opposite sides of the table facing the child. In the test condition (see <ref type="figure" coords="6,360.40,144.26,30.20,7.91">Figure 6</ref>) the experimenter first introduced the red and yellow doors and opened each of them to reveal that there was a set of stairs behind the red door, but not behind the yellow door. Next, the experimenter showed the participant the corn and the tomato and explained that she would place the corn right behind the yellow door, so if someone wanted to get it, they could just pick it right up. But the tomato is going to go all the way at the top of the stairs, so it's way harder to get.</p><p>The experimenter then introduced two puppets matched with the participant's gender. The experimenter informed the puppets, "There's a tomato behind the red door, and some corn behind the yellow door," purposefully omitting information about the stairs, and then explained that the puppets were going to choose one of the foods, asking them, "Do you want the tomato or corn?" Next, the experimenter acted out one of the puppets peeking behind both doors, and told the participants, "One of the puppets peeked behind both of the doors and saw that there was a huge set of stairs behind the red door." (Which puppet was knowledgeable, and her position relative to the child, were counterbalanced separately.) The experimenter then said, "It's time for the puppets to choose one of the foods! Let's see what they do!" and narrated while the puppets moved toward the red door, "Both of our friends chose the tomato!" Participants were then asked inclusion questions to ensure the child remembered the critical information: "Can you remind me, who knew about the stairs behind the red door? And who didn't know?" (question order counterbalanced). Finally, participants were asked, "Both of our friends chose the tomato door, but can you tell me who really likes tomatoes?" We independently counterbalanced (i) which puppet was knowledgeable, (ii) the knowledgeable puppet's position relative to the child, and (iii) the order of the inclusion questions.</p><p>The knowledgeable agent had peeked behind the doors before making her choice and was therefore more active during the puppet show, raising the possibility that children could arrive at the correct answer by attending to this superficial difference. To ensure this was not the case we ran a control condition, where everything was identical with the exception that the stairs were 2 The experimental design in our paper manipulates the direction of the inference (mental states to behavior, or behavior to mental states), the type of observed behavior (choice outcome or behavior stability), and type of uncertainty (with respect to rewards or utilities). These features create a 2 ϫ 2 ϫ 2 design with 8 conditions. We do not test the eighth condition-if children understand that agents who revise their choices are more likely to be ignorant about the utilities-because it is not possible in our stairs paradigm. In the reward scenarios agents could change their mind without revealing they made a poor choice because the rewards are unobservable. In contrast, in the utility scenario, the costlier choice is always observable. As such, it is not possible for the agent to revise her choice without revealing that her original choice was costlier. Therefore, experiments testing children's understanding of stability with respect to utilities would necessarily include information about the quality of the choice, which, as Experiment 7 reveals, is sufficient for children to solve the task. This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>placed behind the yellow door. As such, both puppets selected the low-cost plan over the high-cost plan (see <ref type="figure" coords="7,202.07,396.04,29.19,7.91">Figure 6</ref>). As in the test condition, children watched the knowledgeable puppet peek, and both puppets selected the tomato (low-cost plan). Thus, if children were simply selecting the more active puppet, they should continue to judge that the knowledgeable agent is the one who really likes tomatoes. Results and discussion. Children who failed to respond correctly to the inclusion questions were excluded from analysis and replaced (n ϭ 3). Results were coded in the same way as in Experiments 1-4 (n ϭ 2 participants were excluded due to experimenter error; n ϭ 1 participant excluded due to family interference). Fourteen of the 16 children in the test condition said the knowledgeable agent had the strong preference for tomatoes (87.5%; 95% CI [75%-100%]; see <ref type="figure" coords="7,179.52,539.04,29.81,7.91" target="#fig_1">Figure 4</ref>). In the control condition, only 9 of the 16 children said the knowledgeable agent had the strong preference (56.25%; 95% CI [31.25%-81.25%]; see <ref type="figure" coords="7,48.00,572.04,29.91,7.91" target="#fig_1">Figure 4</ref>). These conditions were not significantly different from each other (odds ratio ϭ 5.16; p ϭ .11). <ref type="bibr" coords="7,197.67,581.61,3.50,4.83">3</ref> Our control condition shows that children did not succeed in the test condition by simply selecting the more active puppet. Arguably, however, children should have recognized that the naïve puppet was pursuing what she likes best, whereas the knowledgeable agent may have only been avoiding the cost for climbing the stairs. This predicts that children should select the naïve puppet. To ensure this interpretation is plausible, we conducted an online survey with adults via Amazon Mechanical Turk's platform. <ref type="bibr" coords="7,265.82,669.61,3.50,4.83">4</ref> Like the children our study, adult participants judged that the knowledgeable agent had a stronger preference in the test condition (see Experiment 5b in supplemental materials), but, unlike children, they also judged that the ignorant agent in the control condition had a stronger preference (see Experiment 5b control in supplemental materials). However, this inference is substantially more complicated than the one children had to draw in the test condition. Specifically, in the test condition, the knowledgeable agent could have only chosen the high-cost plan for one reason: She preferred tomatoes. However, in the control condition, the knowledgeable agent could have chosen the high-cost plan for three reasons: (1) She may have preferred tomatoes to corn, (2) she may have liked both foods equally and thus selected the option with the lowestcost, or (3) she may have preferred corn, but chosen to get the tomato because its cost was lower. The results of our control condition show that children's inferences in the test condition were not merely due to the differential salience of the two puppets: Children did not simply select the "more active" puppet. At the same time, children's success in the test condition and failure to choose the knowledgeable agent in the control condition suggests that children are better able to entertain a single, fairly simple hypothesis consistent with a naïve utility calculus than entertain or integrate over many possible, more complex hypotheses consistent with the evidence. <ref type="bibr" coords="7,314.00,624.44,3.00,4.40">3</ref> The hypothesis that children select the right answer by selecting the more active puppet predicts that children should perform reliably above chance in both the test and the control conditions. As such, finding that children do not succeed in the control condition rules out this account. Note however that the control condition was designed not because the naïve utility calculus specifically predicts a difference between the two conditions, but only to rule out the alternative account. Although our account does not predict a difference, we present statistical comparisons across conditions as suggested by an anonymous reviewer. A similar logic applies to Experiments 6 or 7. <ref type="bibr" coords="7,314.00,714.44,3.00,4.40">4</ref> We thank an anonymous reviewer for this suggestion.  <ref type="figure" coords="7,117.00,307.28,27.71,6.86">Figure 6</ref>. Experiments 5 and 6. Children watched two puppets choose between eating a tomato or corn. In Experiment 5 children learned which of the puppets knew about the set of stairs and were asked to infer who had a strong preference for tomatoes based on their actions. In Experiment 6 children watched the puppets make their choices and were asked to infer which puppet was knowledgeable. See the online article for the color version of this figure.</p><p>This document is copyrighted by the American Psychological Association or one of its allied publishers. This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>However, it is also important to note that the probability of finding a false negative increases as a function of the number of total experiments in a study. As such it is possible that 4-and 5-year-olds are able to succeed in the control condition of Experiment 5, even if it is more complex than the rest of our experiments. Indeed, based on our power analyses, there is a 22% chance that at least one of the experiments would fail to reach significance (see supplemental information). Overall, the results from Experiment 5 show that children can make the relatively simple inference that agents who knowingly pursue high cost actions expect high rewards.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 6</head><p>In Experiment 6 we ask if children can infer which of two puppets is more knowledgeable about the costs of their actions. In Experiment 6, children are introduced to two puppets and two doors with food behind them. One door has a tomato directly accessible (low-cost door), whereas the other door has a tomato at the top of a set of stairs (high-cost door). That is, the low-cost door is a better choice: It leads to the same reward as the high-cost door but without the need to incur the costs. Children saw one puppet choose the tomato behind the low-cost door and the other choose the tomato behind the high-cost door. Finally, children learned that one of the puppets knew beforehand about the set of stairs and were asked to determine which puppet already knew about the stairs (see <ref type="figure" coords="8,88.45,363.04,30.23,7.91">Figure 6</ref>). The control condition was identical except that the tomato behind the high-cost door was placed directly next to the stairs, rather than at the top of the stairs (see <ref type="figure" coords="8,242.52,385.04,29.90,7.91">Figure 6</ref>). If children understand that agents maximize expected utilities they should infer the puppet who choose the door with stairs was ignorant in the test condition, and this effect should go away in the control condition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method.</head><p>Participants. Thirty-two participants (mean age (SD): 5.04 years (181 days), range 4.07-5.94 years) were recruited at an urban children's museum, and assigned to the test or the control conditions (N ϭ 16 per condition). Five additional participants were recruited for the experiment but excluded from analysis and replaced for failing the inclusion questions (n ϭ 1), for family interference (n ϭ 2), because they did not speak English (n ϭ 1), and due to experimenter error (n ϭ 1).</p><p>Stimuli. The stimuli were identical to those used in Experiment 5, except that two tomatoes were used instead of one corn and one tomato.</p><p>Procedure. The procedure in the test condition was the same as Experiment 5, except that children were introduced to two identical tomatoes. One was placed at the top of the stairs behind the red door, and the other was placed directly behind the yellow door. Children were then introduced to two puppets (which were counterbalanced for side with respect to the child) and the experimenter announced to the puppets that there was a tomato behind each door, and that the puppets could choose one of the doors. Each of the puppets chose one of the doors (puppet choosing each door counterbalanced). That is, one puppet chose the high-cost tomato whereas the other puppet chose the low-cost tomato. Children were then asked two inclusion questions to ensure that they had paid attention to the story: "Can you remind me who chose the red door? And who chose the yellow door?" (order counterbal-anced). Finally, children were asked the test question: "It turns out that one of our friends didn't know about the stairs behind the red door. Who didn't know about the stairs behind the red door?" We independently counterbalanced (i) which puppet chose the red door, (ii) the order in which the puppets' choices were introduced, (iii) the knowledgeable puppet's position relative to the child, and (iv) the order of the inclusion questions.</p><p>To ensure children didn't choose the puppet who chose the red door because the test question mentioned "the red door," we ran a control condition. 5 This condition was similar to the test condition with the exception that the tomato behind the red door was placed behind the red door next to the beginning of the stairs. The procedure was identical to the test condition except that when the experimenter introduced the stairs she said, ". . .behind the red door, there's a huge set of stairs, but they don't matter" (see supplemental materials). Similarly, after the tomato was placed at the bottom of the stairs, the script was adjusted and the experimenter said, ". . . I'm going to put the other tomato behind the red door, so if someone wanted to get it they could also just pick it up. So the stairs don't matter." As in the test condition, children were asked two inclusion questions: "Can you remind me who chose the red door? And who chose the yellow door?" (order counterbalanced). The test question was identical to the one in the test condition: "It turns out that one of our friends didn't know about the stairs behind the red door. Who didn't know about the stairs behind the red door?"</p><p>Results and discussion. Results were coded in the same way as Experiments 1-5. Participants were coded as passing the inclusion questions if they responded to both inclusion questions correctly and were coded as failing inclusion otherwise. Five participants were excluded by decision of the coder because they failed to pass the inclusion questions (n ϭ 1), because of family interference (n ϭ 2), because they did not speak English (n ϭ 1), and due to an experimenter error (n ϭ 1). Participants in the test condition were coded as responding correctly if they indicated that the puppet who chose the red door was the one who didn't know about the stairs. Of the 16 participants who made a choice, 14 responded correctly (87.5%; 95% CI [75%-100%]; see <ref type="figure" coords="8,510.11,484.04,29.45,7.91" target="#fig_1">Figure 4</ref>). Although, according to the Naïve Utility Calculus, there is no correct question in the control condition, for clarity, we coded children as responding correctly (as determined by the confound) if they indicated that that the puppet who chose the red door was the one who knew the location of the tomato. Of the 16 participants who made a choice, 10 responded correctly according to the confound (62.50%; 95% CI [37.50%-87.50%]; see <ref type="figure" coords="8,493.77,561.04,29.26,7.91" target="#fig_1">Figure 4</ref>). The two conditions were not significantly different from each other (odds ratio ϭ 0.25; p ϭ .22). Together, these results suggest that children believe that agents who fail to maximize utilities are more likely to have been ignorant about the costs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment 7</head><p>In Experiment 7 we test if children believe that agents who are naive about the costs of different plans have less stable choices compared to knowledgeable agents. Children saw two agents <ref type="bibr" coords="8,314.00,696.44,3.00,4.40">5</ref> We thank an anonymous reviewer for the suggestion of this control condition. In our original manuscript we presented an alternative control condition that is now reported in the supplemental materials. This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>choose between a low-cost and a high-cost plan. Both puppets chose the high-cost plan, but only one of them was aware of the cost. After the cost was revealed, children learned that one of the puppets changed her choice, and were asked to determine which puppet that was (see <ref type="figure" coords="9,131.42,121.04,30.98,7.91">Figure 7</ref>). If children believe that agents choose what they like best, they should perform at chance. If instead children understand that learning about the costs is more likely to lead to a revision of their choice, then children should judge that the originally naive agent was more likely to have changed her mind.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Method.</head><p>Participants. Thirty-two participants (mean age: 4.84, SD: 0.49 years (178 days), range: 4.02-5.88 years) were recruited at an urban children's museum and assigned to the test or the control condition (N ϭ 16 per condition). Six additional participants were recruited but not included in the study because they failed to respond to the inclusion questions correctly (n ϭ 2 in the test condition and n ϭ 4 in the control condition).</p><p>Stimuli. The stimuli in Experiment 7 were identical to the ones used in Experiment 3.</p><p>Procedure. The setup was identical to Experiment 3 (see <ref type="figure" coords="9,48.00,308.04,29.44,7.91">Figure 8</ref>). As in Experiment 3, children in the test condition were introduced to the two foods and doors, as well as the differing costs behind the doors (big stairs behind red door, no stairs behind yellow door). The same two puppets were introduced. Both puppets were given a choice between the corn and tomato doors, and both puppets chose the tomato door. Crucially, neither of the puppets looked behind the doors prior to this, so they were unaware of the differing costs when they made this choice. Participants were then shown that one of the puppets peeked behind the red door "and saw that there was actually a huge set of stairs to climb to get to the tomato" (location of the puppet relative to each door was counterbalanced). Participants were then asked two inclusion memory questions in a randomized order: "Can you remind me who doesn't know about the stairs behind the red door? And who knows about the stairs behind the red door?" (order counterbalanced). Then, participants were told, "One of our friends changed his/her mind and said s/he wanted to go to the other door to get corn instead," and were then asked the test question: "Which one of our friends changed his/her mind." We independently counterbalanced (i) which puppet was knowledgeable, (ii) the knowledgeable puppet's position relative to the child, and (iii) the order of the inclusion questions. Similar to Experiment 3, children's answers may be driven by a preference for the more active puppet, so in the control condition, the procedure was identical, except that the stairs were placed behind the yellow door instead. Thus, in contrast to the test condition, where the active puppet saw that she had made a high-cost choice, in the control condition the active puppet saw that she had made a low-cost choice.</p><p>Results and discussion. Results were videotaped and coded in the same way as Experiments 1-6. Participants were coded as passing the inclusion questions if they responded to both inclusion questions correctly and coded as failing inclusion otherwise. Six participants were excluded for failing the inclusion questions (n ϭ 2 in the test condition and n ϭ 4 in the control condition). Thirteen out of the 16 children in the test condition determined that the agent who peeked after making her choice was the one who changed her mind (81.25%; 95% CI [62.5%-100%]; see <ref type="figure" coords="9,510.64,715.03,28.89,7.91" target="#fig_1">Figure 4</ref>).  <ref type="figure" coords="9,48.00,665.78,27.22,6.86">Figure 7</ref>. Design of Experiment 7. Children watched two puppets-one who knew about the unobservable set of stairs and one who did notchoose the tomato over the corn (high-cost choice in Experiment 7a and low-cost choice in Experiment 7b). Children then learned that one puppet changed her choice after opening the door and were asked to infer who that was. See the online article for the color version of this figure.</p><p>Experiment 5b according to "ignorance = error" account Who really likes tomatoes? <ref type="figure" coords="9,306.00,341.28,27.15,6.86">Figure 8</ref>. Visual representation of the ignorant agent's beliefs according to the "ignorance ϭ error" account in Experiment 5b. According to this account the ignorant agent chose what she believes to be a high-cost plan, and children should therefore infer that she prefers tomatoes to corn. See the online article for the color version of this figure.</p><p>This document is copyrighted by the American Psychological Association or one of its allied publishers. This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>In the control condition, only 8 of the 16 children determined that the active agent had changed her mind (50%; 95% CI [25%-75%]; see <ref type="figure" coords="10,62.71,99.04,29.96,7.91" target="#fig_1">Figure 4</ref>), showing that children did not arrive at the correct answer in the test condition by selecting the more active puppet. These conditions were not significantly different from each other (odds ratio ϭ 4.13; p ϭ .14). Together with Experiment 3, the results from this experiment suggest that 4-and 5-year-olds understand that relative to knowledgeable agents, naïve agents are more likely to make choices that do not maximize actual utilities, and that, as such, their choices are more likely to change as they obtain more information about the world. Together with Experiment 5, the results from this experiment suggest that these expectations appear both with respect to uncertainty about the rewards, and the costs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General Discussion</head><p>Across seven experiments we studied children's understanding of how agents act when they do not know their own costs or rewards, and how these beliefs are updated over time. Our results suggest that 4-and 5-year-olds understand that, relative to naïve agents, knowledgeable agents are more likely to obtain high utilities and are more likely to make stable choices. Collectively, these results build upon evidence that, from early childhood, we expect agents to maximize utilities <ref type="bibr" coords="10,163.30,341.04,104.57,7.91" target="#b17">(Jara-Ettinger et al., 2016;</ref><ref type="bibr" coords="10,273.57,341.04,14.49,7.91;10,48.00,352.04,121.86,7.91" target="#b18">Jara -Ettinger, Gweon et al., 2015;</ref>, and suggest that, also from an early age, we understand that agents try to maximize the utilities they expect to obtain. This growing body of results shows how the naïve utility calculus supports reasoning about how other people act and learn through rational action and rational belief updating.</p><p>Although our results were consistent with the idea that children were reasoning about expected utility maximization, an alternative account is that children solved these task by relying on simple heuristics. Specifically, a classic study suggests that children equate being ignorant with having a false belief <ref type="bibr" coords="10,224.87,462.04,59.28,7.91" target="#b37">(Ruffman, 1996)</ref>. In these experiments children believed that an ignorant agent's belief about the color of a hidden candy would be necessarily wrong. Similarly, children in our study may have simply assumed that whoever was ignorant necessarily made a poor choice (and vice versa).</p><p>We believe this explanation is unlikely to account for the current results. Recent work casts doubt on whether children do indeed assume ignorance indicates wrongness, suggesting that minimally, this heuristic is extremely limited in its scope <ref type="bibr" coords="10,214.57,561.04,73.50,7.91;10,48.00,572.04,20.20,7.91" target="#b7">(Friedman &amp; Leslie, 2004a</ref><ref type="bibr" coords="10,68.21,572.04,28.79,7.91" target="#b8">, 2004b</ref><ref type="bibr" coords="10,105.08,572.04,110.98,7.91" target="#b9">Friedman &amp; Petrashek, 2009;</ref><ref type="bibr" coords="10,219.98,572.04,68.07,7.91;10,48.00,583.04,19.37,7.91" target="#b13">German &amp; Leslie, 2001)</ref>. More importantly, the ignorant ϭ wrong heuristic is qualitatively inconsistent with some of our data: if ignorant agents always have false-beliefs, then the ignorant agent in Experiment 5b must have chosen a plan she believed was costly (see <ref type="figure" coords="10,251.59,616.04,29.96,7.91">Figure 8</ref>). Thus, children should have judged that the ignorant agent had a strong preference. However, children responded at chance. To compare the accounts directly, we use modeling to compare the quantitative fit of the heuristic account with our expected utility account: The model of the expected utility maximization account provides a stronger fit to our empirical data. When the noise parameter is estimated from the percentage of children failing inclusion questions, our account is over one thousand times more likely than the heuristic account; when the noise is individually fit to each model, our account is 12 times more likely than the heuristic account and requires positing half the amount of noise that the heuristic model requires to explain the data (see Appendix in supplemental materials).</p><p>Our results raise questions about the role of the Naïve Utility Calculus in the development of theory of mind. Research with infants has long suggested that infants understand that others minimize costs <ref type="bibr" coords="10,364.34,154.27,139.39,7.91" target="#b10">(Gergely, Bekkering, &amp; Király, 2002;</ref><ref type="bibr" coords="10,506.90,154.27,39.16,7.91;10,306.00,165.31,51.23,7.91" target="#b11">Gergely &amp; Csibra, 2003;</ref><ref type="bibr" coords="10,362.21,165.31,161.37,7.91" target="#b12">Gergely, Nádasdy, Csibra, &amp; Bíró, 1995;</ref><ref type="bibr" coords="10,528.55,165.31,17.49,7.91;10,306.00,176.34,74.66,7.91" target="#b17">Jara-Ettinger et al., 2016;</ref><ref type="bibr" coords="10,383.22,176.34,73.29,7.91" target="#b25">Liu &amp; Spelke, 2017)</ref>. Research also suggests that infants understand that agents can have false beliefs about the world <ref type="bibr" coords="10,330.92,198.41,123.93,7.91" target="#b0">(Baillargeon, Scott, &amp; He, 2010;</ref><ref type="bibr" coords="10,458.78,198.41,82.92,7.91;10,306.00,209.44,44.18,7.91" target="#b22">Kovács, Téglás, &amp; Endress, 2010;</ref><ref type="bibr" coords="10,353.11,209.44,40.18,7.91" target="#b28">Luo, 2011;</ref><ref type="bibr" coords="10,396.21,209.44,103.40,7.91" target="#b32">Onishi &amp; Baillargeon, 2005)</ref>. As such, it is also possible that infants also understand that agents can have incorrect knowledge or ignorance about their own costs and rewards. Indeed, toddlers as young as 18 months old understand that different agents can have different preferences, showing evidence for an early understanding of differences in agents' rewards <ref type="bibr" coords="10,530.08,264.61,11.99,7.91;10,306.00,275.65,90.02,7.91" target="#b34">(Repacholi &amp; Gopnik, 1997)</ref>. In explicit theory of mind, research has revealed that children's milestones follow a systematic trajectory: They first acquire desire diversity understanding, followed by belief diversity understanding, knowledge-access understanding, false-belief understanding, and, finally, hidden emotion understanding <ref type="bibr" coords="10,339.37,330.82,134.46,7.91" target="#b45">(Wellman, Fang, and Peterson 2011;</ref><ref type="bibr" coords="10,476.70,330.82,69.35,7.91;10,306.00,341.85,137.51,7.91" target="#b23">Kristen, Thoermer, Hofer, Aschersleben, &amp; Sodian, 2006;</ref><ref type="bibr" coords="10,445.71,341.85,100.33,7.91" target="#b33">Peterson &amp; Wellman, 2009;</ref><ref type="bibr" coords="10,306.00,352.88,119.10,7.91" target="#b34">Peterson, Wellman, &amp; Liu, 2005;</ref><ref type="bibr" coords="10,427.20,352.88,57.84,7.91" target="#b40">Wellman, 2011;</ref><ref type="bibr" coords="10,487.12,352.88,58.93,7.91;10,306.00,363.92,20.50,7.91" target="#b46">Wellman &amp; Liu, 2004;</ref><ref type="bibr" coords="10,330.81,363.92,207.85,7.91" target="#b47">Wellman, Lopez-Duran, LaBounty, &amp; Hamilton, 2008)</ref>. <ref type="bibr" coords="10,542.52,362.50,3.50,4.83">6</ref> Our results show that 4-and 5-year-olds can understand uncertainty about preferences, but we do not know the earliest ages at which children can do so.</p><p>Our findings also have implications for the broader literature. In primate theory of mind research, our work opens the question of whether nonhuman primates understand that agents can be uncertain about their own desires or overall utilities. Studies probing this may help shed light on the capacity and limits of nonhuman primates' understanding of beliefs <ref type="bibr" coords="10,435.27,463.16,89.71,7.91" target="#b30">(Martin &amp; Santos, 2016)</ref>. Our study also highlights a critical component that computational models of theory of mind currently lack <ref type="bibr" coords="10,436.68,485.20,109.38,7.91;10,306.00,496.23,66.68,7.91" target="#b1">(Baker, Jara-Ettinger, Saxe, &amp; Tenenbaum, 2017)</ref>, revealing how to build more powerful models of action interpretation. And in social cognition more broadly, our work can help solve the challenge of how our theory of mind can give rise to the complex explanations of the social interactions we witness in our everyday lives <ref type="bibr" coords="10,416.96,540.32,48.61,7.91" target="#b29">(Malle, 2004)</ref>.</p><p>Past research has focused on people's ability to draw inferences connecting agents' beliefs, desires, and actions (e.g., <ref type="bibr" coords="10,501.43,562.36,44.62,7.91;10,306.00,573.39,20.50,7.91" target="#b1">Baker et al., 2017;</ref><ref type="bibr" coords="10,329.64,573.39,93.52,7.91" target="#b48">Wimmer &amp; Perner, 1983)</ref>. Research into beliefs, however, has largely focused on beliefs about the world. The current study suggests that children understand that agents have beliefs not only about the world, but also about their own preferences: What they like (high rewards) and what they want (high utilities). Children understand that as agents gain knowledge about the world, their preferences can change as well. As scientists, we can use these findings to continue the development of more nuanced models of 6 A notable exception to this pattern comes from Chinese children, who master false-belief understanding before knowledge-access understanding <ref type="bibr" coords="10,306.00,697.70,127.68,7.03" target="#b44">(Wellman, Fang, Liu, Zhu, &amp; Liu, 2006)</ref>. This difference may be caused by differences in mental state word availability and acquisition <ref type="bibr" coords="10,513.37,706.70,32.64,7.03;10,306.00,715.70,51.21,7.03" target="#b38">(Tardif &amp; Wellman, 2000)</ref>. This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p><p>theory of mind. Our intuitive psychology supports representations in which agents can reason about the contents of their own minds.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="2,48.00,259.20,240.03,7.03;2,48.00,269.20,240.02,7.03;2,48.00,279.20,240.01,7.03;2,48.00,289.20,240.02,7.03;2,48.00,299.20,240.03,7.03;2,48.00,309.20,240.01,7.03;2,48.00,319.20,240.03,7.03;2,48.00,329.20,240.00,7.03;2,48.00,339.20,240.01,7.03;2,48.00,349.20,159.71,7.03"><head>Figure 1 .</head><label>1</label><figDesc>(a) Classical Theory of Mind model where the focus is on the independent contribution that beliefs and desires have on actions. (b)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="4,117.00,274.20,360.01,7.03;4,117.00,284.20,360.02,7.03;4,117.00,294.20,347.39,7.03"><head>Figure 4 .</head><label>4</label><figDesc>Results from Experiments 1-7. The x-axis shows each condition and the y-axis shows children's distribution of responses. Black vertical bars show 95% bootstrapped confidence intervals and the horizontal dotted line shows expected chance performance. See the online article for the color version of this figure.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="2,48.00,269.20,489.28,244.27"><head></head><label></label><figDesc>we test the same understanding over utilities. See the online article for the color version of this figure.</figDesc><table coords="2,48.00,269.20,489.28,244.27">The 
+naïve utility calculus embedded in the same framework. Desires are sep-
+arated into rewards (what agents like) and utilities (what agents want), and 
+their relation is mediated by the costs. Agents' beliefs about their own costs 
+and rewards determine their expected utilities. (c) In Experiments 1-4 we 
+explore children's understanding of how knowledge of rewards determines 
+actions, and how the actions lead to updating the agents' rewards. In 
+Experiments 5-7 Experience 
+
+Expected 
+reward 
+
+Ignorant Knowledgeable 
+
+a 
+b 
+
+Belief 
+
+Reward 
+
+Yuck! 
+Yum! Yuck! 
+Yum! 
+
+1 
+2 
+
+1 
+2 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="9,136.57,444.15,69.02,127.67"><head></head><label></label><figDesc>Experiment 7Who changed her choice? Experiment 7 -Control Who changed her choice?</figDesc><table></table></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Call for Nominations</head><p>The Publications and Communications (P&amp;C) Board of the American Psychological Association has opened nominations for the editorships of the Journal of Experimental Psychology: Animal Learning and Cognition, Neuropsychology, and Psychological Methods for the years 2020 to 2025. Ralph R. Miller, PhD, Gregory G. Brown, PhD, and Lisa L. Harlow, PhD, respectively, are the incumbent editors.</p><p>Candidates should be members of APA and should be available to start receiving manuscripts in early 2019 to prepare for issues published in 2020. Please note that the P&amp;C Board encourages participation by members of underrepresented groups in the publication process and would particularly welcome such nominees. Self-nominations are also encouraged.</p><p>Search chairs have been appointed as follows: Candidates should be nominated by accessing APA's EditorQuest site on the Web. Using your browser, go to https://editorquest.apa.org. On the Home menu on the left, find "Guests/Supporters." Next, click on the link "Submit a Nomination," enter your nominee's information, and click "Submit." Prepared statements of one page or less in support of a nominee can also be submitted by e-mail to Sarah Wiederkehr, P&amp;C Board Editor Search Liaison, at swiederkehr@apa.org.</p><p>Deadline for accepting nominations is Monday, January 8, 2018, after which phase one vetting will begin. This document is copyrighted by the American Psychological Association or one of its allied publishers.</p><p>This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="11,48.00,135.24,240.03,7.03;11,56.00,145.25,232.00,7.03;11,56.00,155.26,85.56,7.03" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">False-belief understanding in infants</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Baillargeon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>He</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tics.2009.12.006</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.tics.2009.12.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cognitive Sciences</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="110" to="118" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,165.27,240.02,7.03;11,56.00,175.28,232.02,7.03;11,56.00,185.29,165.96,7.03;11,48.00,195.31,240.01,7.03;11,56.00,205.32,118.63,7.03" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Rational quantitative attribution of beliefs, desires and percepts in human mentalizing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Jara-Ettinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">R</forename><surname>Saxe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Human Behaviour</title>
+		<editor>0064. Bartsch, K., &amp; Wellman, H. M.</editor>
+		<imprint>
+			<date type="published" when="1995" />
+			<publisher>Oxford University Press</publisher>
+		</imprint>
+	</monogr>
+	<note>Children talk about the mind</note>
+</biblStruct>
+
+<biblStruct coords="11,48.00,215.33,240.01,7.03;11,56.00,225.34,232.02,7.03;11,56.00,235.35,212.05,7.03" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The origins of counting algorithms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Cantlon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">T</forename><surname>Piantadosi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ferrigno</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">D</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Barnard</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0956797615572907</idno>
+		<ptr target="http://dx.doi.org/10.1177/0956797615572907" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="853" to="865" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,244.66,240.01,8.00;11,56.00,255.37,189.56,7.03" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The earth is round (p Ͻ. 05)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0003-066X.49.12.997</idno>
+		<ptr target="http://dx.doi.org/10.1037/0003-066X.49.12.997" />
+	</analytic>
+	<monogr>
+		<title level="j">American Psychologist</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="997" to="1003" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,265.38,240.01,7.03;11,56.00,275.40,59.76,7.03" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The new statistics: Why and how</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Cumming</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="7" to="29" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,285.41,240.01,7.03" xml:id="b5">
+	<monogr>
+		<title level="m" type="main">The intentional stance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Dennett</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,295.42,240.00,7.03;11,56.00,305.43,232.02,7.03;11,56.00,315.44,202.65,7.03" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Young children&apos;s understanding of fact beliefs versus value beliefs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Flavell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">R</forename><surname>Flavell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">L</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">J</forename><surname>Moses</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1130865</idno>
+		<ptr target="http://dx.doi.org/10.2307/1130865" />
+	</analytic>
+	<monogr>
+		<title level="j">Child Development</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="915" to="928" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,325.45,240.03,7.03;11,56.00,335.46,232.02,7.03;11,56.00,345.47,185.78,7.03" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A developmental shift in processes underlying successful belief-desire reasoning</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Leslie</surname></persName>
+		</author>
+		<idno type="DOI">10.1207/s15516709cog2806_4</idno>
+		<ptr target="http://dx.doi.org/10.1207/s15516709cog2806_4" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Science</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="963" to="977" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,355.49,240.03,7.03;11,56.00,365.50,232.00,7.03;11,56.00,375.51,167.34,7.03" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Mechanisms of belief-desire reasoning: Inhibition and bias</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Leslie</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.0956-7976.2004.00717.x</idno>
+		<ptr target="http://dx.doi.org/10.1111/j.0956-7976.2004.00717.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="547" to="552" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,385.52,240.02,7.03;11,56.00,395.53,232.02,7.03;11,56.00,405.54,232.00,7.03" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Children do not follow the rule &quot;ignorance means getting it wrong</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Petrashek</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jecp.2008.07.009</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.jecp.2008.07.009" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Child Psychology</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="114" to="121" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,415.55,240.03,7.03;11,56.00,425.56,232.00,7.03;11,56.00,435.57,82.89,7.03" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Developmental psychology: Rational imitation in preverbal infants</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Gergely</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Bekkering</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Király</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/415755a</idno>
+		<ptr target="http://dx.doi.org/10.1038/415755a" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">415</biblScope>
+			<biblScope unit="page">755</biblScope>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,445.59,240.02,7.03;11,56.00,455.60,232.00,7.03" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Teleological reasoning in infancy: The naıve theory of rational action</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Gergely</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Csibra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in cognitive sciences</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="287" to="292" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,465.61,240.03,7.03;11,56.00,475.62,232.00,7.03;11,56.00,485.63,139.77,7.03" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Taking the intentional stance at 12 months of age</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Gergely</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Nádasdy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Csibra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Bíró</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0010-0277%2895%2900661-H</idno>
+		<ptr target="http://dx" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="165" to="193" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,495.64,240.04,7.03;11,56.00,505.65,232.01,7.03;11,56.00,515.66,223.24,7.03" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Children&apos;s inferences from &quot;knowing&quot; to &quot;pretending&quot; and &quot;believing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">P</forename><surname>German</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Leslie</surname></persName>
+		</author>
+		<idno type="DOI">10.1348/026151001165967</idno>
+		<ptr target="http://dx.doi.org/10.1348/026151001165967" />
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Developmental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="59" to="83" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,525.68,240.02,7.03;11,56.00,535.69,232.00,7.03;11,56.00,545.70,232.01,7.03;11,56.00,555.70,232.00,7.03;11,56.00,565.70,40.66,7.03" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Intuitive theories of mind: A rational approach to false belief</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">D</forename><surname>Goodman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">B</forename><surname>Bonawitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">K</forename><surname>Mansinghka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gopnik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Wellman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">.</forename><forename type="middle">.</forename><surname>Tenenbaum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the twenty-eighth annual conference of the Cognitive Science Society</title>
+		<meeting>the twenty-eighth annual conference of the Cognitive Science Society</meeting>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="1382" to="1387" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,575.70,240.02,7.03;11,56.00,585.70,94.20,7.03" xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Words, thoughts, and theories</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gopnik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">N</forename><surname>Meltzoff</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,595.70,240.01,7.03;11,56.00,605.70,201.72,7.03" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">An experimental study of apparent behavior</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Heider</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Simmel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The American Journal of Psychology</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="243" to="259" />
+			<date type="published" when="1944" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,615.70,240.04,7.03;11,56.00,625.70,232.01,7.03;11,56.00,635.70,232.00,7.03;11,56.00,645.70,139.79,7.03" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The Naïve Utility Calculus: Computational principles underlying commonsense psychology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Jara-Ettinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Gweon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">E</forename><surname>Schulz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tics.2016.05.011</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.tics.2016.05.011" />
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cognitive Sciences</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="589" to="604" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,655.70,240.05,7.03;11,56.00,665.70,232.04,7.03;11,56.00,675.70,232.00,7.03;11,56.00,685.70,23.06,7.03" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Children&apos;s understanding of the costs and rewards underlying rational action</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Jara-Ettinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Gweon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">E</forename><surname>Schulz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cognition.2015.03.006</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.cognition.2015.03.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="14" to="23" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,48.00,695.70,240.02,7.03;11,56.00,705.70,232.01,7.03;11,56.00,715.70,231.99,7.03" xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Not so innocent: Toddlers&apos; inferences about costs and culpability. Psychological Science</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Jara-Ettinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">E</forename><surname>Schulz</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0956797615572806</idno>
+		<ptr target="http://dx.doi.org/10.1177/0956797615572806" />
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="633" to="640" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.00,77.20,240.02,7.03;11,314.00,87.51,232.00,7.03;11,314.00,97.82,84.21,7.03" xml:id="b20">
+	<monogr>
+		<title level="m" type="main">The naïve utility calculus as a foundation for action understanding</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Jara-Ettinger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">E</forename><surname>Schulz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>Manuscript submitted for publication</note>
+</biblStruct>
+
+<biblStruct coords="11,306.00,108.13,240.00,7.03;11,314.00,118.43,231.99,7.03;11,314.00,128.74,226.21,7.03" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Do the right thing: The assumption of optimality in lay decision theory and causal judgment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">G</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">J</forename><surname>Rips</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cogpsych.2015.01.003</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.cogpsych.2015.01.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="42" to="76" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.00,139.05,240.03,7.03;11,314.00,149.35,232.00,7.03;11,314.00,159.66,194.28,7.03" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The social sense: Susceptibility to others&apos; beliefs in human infants and adults</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Á</forename><forename type="middle">M</forename><surname>Kovács</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Téglás</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Endress</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1190792</idno>
+		<ptr target="http://dx.doi.org/10.1126/science.1190792" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">330</biblScope>
+			<biblScope unit="page" from="1830" to="1834" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.00,169.97,240.02,7.03;11,314.00,180.28,232.02,7.03;11,314.00,190.58,232.01,7.03;11,314.00,200.89,231.88,7.03;11,314.00,211.20,14.00,7.03" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Skalierung von &quot;theory of mind&quot; aufgaben [Scaling of theory of mind tasks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kristen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Thoermer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Hofer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Aschersleben</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Sodian</surname></persName>
+		</author>
+		<idno type="DOI">10.1026/0049-8637.38.4.186</idno>
+		<ptr target="http://dx.doi.org/10.1026/0049-8637.38.4.186" />
+	</analytic>
+	<monogr>
+		<title level="m">Zeitschrift für Entwicklungspsychologie und Pädagogische Psychologie</title>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="186" to="195" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.00,221.50,240.01,7.03;11,314.00,231.81,162.17,7.03" xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Doing Bayesian data analysis: A tutorial with R, JAGS, and Stan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kruschke</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>Academic Press</publisher>
+			<pubPlace>Waltham, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.00,242.12,240.00,7.03;11,314.00,252.41,231.99,7.03;11,314.00,262.71,119.56,7.03" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Six-month-old infants expect agents to minimize the cost of their actions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">S</forename><surname>Spelke</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cognition.2016.12.007</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.cognition.2016.12.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">160</biblScope>
+			<biblScope unit="page" from="35" to="42" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.00,273.00,240.02,7.03;11,314.00,283.30,12.50,7.03" xml:id="b26">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">G</forename><surname>Lucas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">L</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Fawcett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gopnik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kushnir</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,329.75,283.30,216.24,7.03;11,314.00,293.59,206.14,7.03" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The child as econometrician: A rational model of preference understanding in children</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PloS ONE</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">92160</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.00,303.89,240.02,7.03;11,314.00,314.19,231.99,7.03;11,314.00,324.48,14.00,7.03" xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Do 10-month-old infants understand others&apos; false beliefs? Cognition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Luo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cognition.2011.07.011</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.cognition.2011.07.011" />
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="289" to="298" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.00,334.78,240.01,7.03;11,314.00,345.07,202.62,7.03" xml:id="b29">
+	<monogr>
+		<title level="m" type="main">How the mind explains behavior: Folk explanations, meaning, and social interaction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">F</forename><surname>Malle</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.00,355.37,240.03,7.03;11,314.00,365.66,231.99,7.03;11,314.00,375.96,139.79,7.03" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">What cognitive representations support primate theory of mind?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">R</forename><surname>Santos</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tics.2016.03.005</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.tics.2016.03.005" />
+	</analytic>
+	<monogr>
+		<title level="m">Trends in Cognitive Sciences</title>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="375" to="382" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.00,386.25,240.02,7.03;11,314.00,396.55,232.00,7.03;11,314.00,406.84,31.55,7.03" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Children&apos;s understanding of second-order mental states</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Miller</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0016854</idno>
+		<ptr target="http://dx.doi.org/10.1037/a0016854" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="749" to="773" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.00,417.14,240.02,7.03;11,314.00,427.43,232.00,7.03;11,314.00,437.73,53.54,7.03" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Do 15-month-old infants understand false beliefs?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">H</forename><surname>Onishi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Baillargeon</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1107621</idno>
+		<ptr target="http://dx.doi.org/10.1126/science.1107621" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">308</biblScope>
+			<biblScope unit="page" from="255" to="258" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.00,448.02,240.01,7.03;11,314.00,458.32,232.02,7.03;11,314.00,468.61,232.00,7.03;11,314.00,478.91,148.23,7.03" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">From fancy to reason: Scaling deaf and hearing children&apos;s understanding of theory of mind and pretence</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">C</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Wellman</surname></persName>
+		</author>
+		<idno type="DOI">10.1348/026151008X299728</idno>
+		<ptr target="http://dx.doi.org/10.1348/026151008X299728" />
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Developmental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="297" to="310" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.00,489.20,240.03,7.03;11,314.00,499.50,232.01,7.03;11,314.00,509.79,231.85,7.03;11,314.00,520.09,28.00,7.03;11,306.00,530.38,240.02,7.03;11,314.00,540.68,232.02,7.03;11,314.00,550.97,167.78,7.03" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Steps in theory-ofmind development for children with deafness or autism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">C</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Wellman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">M</forename><surname>Repacholi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gopnik</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0012-1649.33.1.12</idno>
+		<ptr target="http://dx.doi.org/10.1037/0012-1649.33.1.12" />
+	</analytic>
+	<monogr>
+		<title level="j">Developmental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="12" to="21" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note>Child Development</note>
+</biblStruct>
+
+<biblStruct coords="11,306.00,561.27,107.56,7.03" xml:id="b35">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Robert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Casella</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,415.87,561.27,130.14,7.03;11,314.00,571.57,154.84,7.03" xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Monte Carlo statistical methods</title>
+		<imprint>
+			<publisher>Springer Science &amp; Business Media</publisher>
+			<pubPlace>Berlin, Germany</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.00,581.86,240.02,7.03;11,314.00,592.16,232.00,7.03;11,314.00,602.45,231.99,7.04;11,314.00,612.75,34.22,7.03" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Do children understand the mind by means of simulation or a theory? Evidence from their understanding of inference</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Ruffman</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1468-0017.1996.tb00053.x</idno>
+		<ptr target="http://dx.doi.org/10.1111/j.1468-0017.1996.tb00053.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Mind &amp; Language</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="388" to="414" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.00,623.04,240.00,7.03;11,314.00,633.34,232.02,7.03;11,314.00,643.64,197.62,7.03" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Acquisition of mental state language in Mandarin-and Cantonese-speaking children</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Tardif</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Wellman</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0012-1649.36.1.25</idno>
+		<ptr target="http://dx.doi.org/10.1037/0012-1649.36.1.25" />
+	</analytic>
+	<monogr>
+		<title level="j">Developmental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="25" to="43" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.00,653.93,240.02,7.03;11,314.00,664.23,53.54,7.03" xml:id="b39">
+	<monogr>
+		<title level="m" type="main">The child&apos;s theory of mind</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Wellman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<publisher>MIT press</publisher>
+			<biblScope unit="volume">37</biblScope>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.00,674.52,240.02,7.03;11,314.00,684.82,201.58,7.03" xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Developing a theory of mind. The Wiley-Blackwell Handbook of Childhood Cognitive Development</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Wellman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="258" to="284" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,306.00,695.11,240.04,7.03;11,314.00,705.41,232.03,7.03;11,314.00,715.70,97.34,7.03" xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Making minds: How theory of mind develops</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Wellman</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/acprof:oso/9780199334919.001.0001</idno>
+		<ptr target="http://dx.doi.org/10.1093/acprof:oso/9780199334919.001.0001" />
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="11,7.70,556.60,7.03,14.22;11,7.70,522.39,7.03,31.55;11,7.70,514.39,7.03,5.34;11,7.70,473.51,7.03,38.22;11,7.70,462.85,7.03,8.00;11,7.70,450.41,7.03,9.78;11,7.70,416.21,7.03,31.54;11,7.70,368.66,7.03,44.89;11,7.70,328.22,7.03,37.78;11,7.70,318.89,7.03,6.66;11,7.70,304.68,7.03,11.55;11,7.70,295.35,7.03,6.66;11,7.70,285.13,7.03,7.56;11,7.70,264.70,7.03,17.78;11,7.70,227.15,7.03,34.89;11,17.70,567.25,7.03,14.22;11,17.70,544.60,7.03,19.99;11,17.70,536.60,7.03,5.34;11,17.70,506.39,7.03,27.55;11,17.70,484.62,7.03,19.11;11,17.70,472.63,7.03,9.33;11,17.70,460.19,7.03,9.78;11,17.70,430.42,7.03,27.10;11,17.70,417.10,7.03,10.66;11,17.70,407.77,7.03,6.66;11,17.70,395.33,7.03,9.78;11,17.70,360.22,7.03,32.45;11,17.70,344.23,7.03,13.33;11,17.70,330.02,7.03,11.55;11,17.70,322.02,7.03,5.34;11,17.70,309.14,7.03,10.22;11,17.70,300.25,7.03,6.22;11,17.70,290.04,7.03,7.55;11,17.70,245.60,7.03,41.78;11,17.70,216.50,7.03,26.44" xml:id="b42">
+	<monogr>
+		<title level="m" type="main">This document is copyrighted by the American Psychological Association or one of its allied publishers. This article is intended solely for the personal use of the individual user and is not to be disseminated broadly</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,48.00,77.20,240.03,7.03;12,56.00,87.20,232.01,7.03;12,56.00,97.20,185.40,7.03" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Meta-analysis of theoryof-mind development: The truth about false belief</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Wellman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Cross</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Watson</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1467-8624.00304</idno>
+		<ptr target="http://dx.doi.org/10.1111/1467-8624.00304" />
+	</analytic>
+	<monogr>
+		<title level="j">Child Development</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="655" to="684" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,48.00,107.20,240.02,7.03;12,56.00,117.20,232.01,7.03;12,56.00,127.20,232.00,7.03;12,56.00,137.20,29.11,7.03" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Scaling of theory-of-mind understandings in Chinese children</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Wellman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1467-9280.2006.01830.x</idno>
+		<ptr target="http://dx.doi.org/10.1111/j.1467-9280.2006.01830.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1075" to="1081" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,48.00,147.20,240.01,7.03;12,56.00,157.20,232.03,7.03;12,56.00,167.20,232.01,7.03;12,56.00,177.20,64.55,7.03" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Sequential progressions in a theory of mind scale: Longitudinal perspectives</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Wellman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">C</forename><surname>Peterson</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1467-8624.2011.01583.x</idno>
+		<ptr target="http://dx.doi.org/10.1111/j.1467-8624.2011.01583.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Child Development</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="780" to="792" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,48.00,187.20,240.01,7.03;12,56.00,197.20,232.01,7.03;12,56.00,207.20,28.00,7.03" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Scaling of theory-of-mind tasks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Wellman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1467-8624.2004.00691.x</idno>
+		<ptr target="http://dx.doi.org/10.1111/j.1467-8624.2004.00691.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Child Development</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="523" to="541" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,48.00,217.20,240.02,7.03;12,56.00,227.20,232.00,7.03;12,314.00,77.20,231.96,7.03;12,314.00,87.70,64.66,7.03" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Infant attention to intentional action predicts preschool theory of mind</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Wellman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Lopez-Duran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Labounty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Hamilton</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0012-1649.44.2.618</idno>
+		<ptr target="http://dx.doi.org/10.1037/0012-1649.44.2.618" />
+	</analytic>
+	<monogr>
+		<title level="j">Developmental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="618" to="623" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,306.00,98.20,240.02,7.03;12,314.00,108.70,232.02,7.03;12,314.00,119.20,231.99,7.03;12,314.00,129.70,74.66,7.03" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Beliefs about beliefs: Representation and constraining function of wrong beliefs in young children&apos;s understanding of deception</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Wimmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Perner</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0010-0277%2883%2990004-5</idno>
+		<idno>1016/ 0010-0277</idno>
+		<ptr target="http://dx.doi.org/10" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">83</biblScope>
+			<biblScope unit="page" from="90004" to="90009" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="12,306.00,140.20,240.03,7.03;12,314.00,150.70,232.02,7.03;12,314.00,161.20,232.02,7.03;12,314.00,171.70,178.70,7.03" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">How infants make sense of intentional action</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Sommerville</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">J</forename><surname>Guajardo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Intentions and intentionality: Foundations of social cognition</title>
+		<editor>B. Malle, L. Moses, &amp; D. Baldwin</editor>
+		<meeting><address><addrLine>Cambridge, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT Press</publisher>
+			<date type="published" when="2001" />
+			<biblScope unit="page" from="149" to="169" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
