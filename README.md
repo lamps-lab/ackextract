@@ -13,6 +13,6 @@ This code works on Windows and Linux so far, it should work on Mac as well.
 
 ## Preparation:
 Before importing ackeer.py, make sure running stanfordnlp server at first: go to stanfordnlp and run 
-...
+```
 java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
-...
+```
