@@ -12,7 +12,9 @@ Requirement: Make sure StanfordNLP(https://github.com/stanfordnlp), Pragmatic Se
 This code works on Windows and Linux so far, it should work on Mac as well.
 
 ## Preparation:
-Before importing ackeer.py, make sure running stanfordnlp server at first: go to stanfordnlp and run 
+Before importing ackeer.py, make sure running stanfordnlp server at first: 
+go to stanfordnlp directory
+and run 
 ```
 java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000
 ```
