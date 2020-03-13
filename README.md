@@ -37,4 +37,13 @@ gradlew run
 Check the code and comments for more details
 
 ## brief example of implementation
+make sure testPDF.py,testXML.py and ackseer.py in the same directory
+go into this directory through commandline
+windows run 
+```
+py testPDF.py
+```
+then there generate an TEI file which is the XML form of the PDF file
+and it will return the name entities inside its acknowledgement section as well
 
+to extract name entities directly from TEI file please run testXML.py
