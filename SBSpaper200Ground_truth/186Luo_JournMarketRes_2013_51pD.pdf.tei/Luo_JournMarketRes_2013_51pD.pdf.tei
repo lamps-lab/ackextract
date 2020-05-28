@@ -1,0 +1,3314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2013-02">February 2013</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lan</forename><surname>Luo</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brian</forename><forename type="middle">T</forename><surname>Ratchford</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Botao</forename><surname>Yang</surname></persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of Marketing Research</title>
+						<imprint>
+							<biblScope unit="volume">L</biblScope>
+							<biblScope unit="page" from="24" to="43"/>
+							<date type="published" when="2013-02">February 2013</date>
+						</imprint>
+					</monogr>
+					<note>*Lan Luo is Assistant Professor of Marketing (e-mail: lluo@marshall. usc.edu), and Botao Yang is Assistant Professor of Marketing (e-mail: botaoyan@marshall.usc.edu), Marshall School of Business, University of Southern California. Brian T. Ratchford (corresponding author) is Charles and Nancy Davidson Distinguished Professor of Marketing at the School of Management, University of Texas at Dallas (e-mail: btr051000@utdallas. edu). The authors thank the review team, as well as seminar participants at Harvard University, National University of Singapore, University of Col-orado at Boulder, and the Sixth Annual UT Dallas FORMS Conference for helpful comments. Ron Shachar served as associate editor for this article.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:09+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Although the majority of extant literature in marketing emphasizes consumers' choices of goods such as food, transportation, and recreation, ultimately goods are bought to be used in consumption activities such as eating, driving, or playing sports and games. Often, consumers also need to invest their scarce time (referred to as "the ultimate scarcity" in <ref type="bibr" coords="1,102.49,546.70,103.86,8.79" target="#b28">Howard and Sheth [1969]</ref> and <ref type="bibr" coords="1,225.97,546.70,68.05,8.79;1,53.99,557.78,80.32,8.79" target="#b30">Jacoby, Szybillo, and Berning [1976]</ref>) into the consumption of these activities. For example, an individual's decision to invest time in an activity (e.g., engage in arts and crafts, play video games) is often a necessity before he or she decides to purchase the goods (e.g., raw materials, tools, video games and consoles) associated with the consumption. Therefore, a careful investigation of how consumers allocate time to these activities may enhance researchers' understanding of how consumers make subsequent purchase decisions.</p><p>Activity consumption also has an enormous economic impact on the U.S. economy. In 2010, U.S. consumers spent approximately $30 billion on crafts and hobbies (Craft and Hobby Association 2011) and $25.1 billion on video games, consoles, and accessories (Entertainment Software Association 2011). Consequently, a better understanding of the underlying mechanisms that guide an individual's time allocation decisions across various activity types is essential to marketing research and consumer behavior. Furthermore, by examining the dynamics of consumers' activity consumption and time allocation decisions over time, we can also obtain insights into how lifestyles are formed. Lifestyle often serves as an important segmentation and targeting tool in marketing.</p><p>Despite the fundamental role of consumer time allocation in marketing, there has not been much quantitative research that empirically investigates why and how a person allocates time to a portfolio of activities over time. The primary goal of this research is to fill this gap in the literature by constructing a consumer panel to examine how individual consumers make time allocation decisions among a portfo-lio of activities over an extended period. Specifically, our empirical investigation emphasizes the critical role of consumer expertise in the dynamics of an individual's time allocation decisions.</p><p>In particular, we documented 287 U.S. consumers' time use, consumption motives, and expertise measures on five leisure activities on a weekly basis from January to June 2011. We operationalize our research within the context of leisure activity consumption because (1) the choices of leisure activities are largely discretionary, (2) they involve a considerable amount of a consumer's time, and (3) they not only represent an essential part of consumer life but also play a major role in the U.S. economy. To our knowledge, this is the first empirical study to track not only a panel of individuals' time allocation dynamics but also the evolution of their consumer expertise and consumption motives over time. Furthermore, we develop a dynamic panel data model to examine how the underlying drivers specified in our theoretical framework jointly affect consumers' activity choices and time allocation decisions.</p><p>Our research is built on two streams of prior literature. The first stream relies on psychological or sociological theories to explain consumer's activity consumption or lifestyle choices. This literature tends to use qualitative approaches to examine the different types of needs that are satisfied by engaging in a given activity (e.g., <ref type="bibr" coords="2,251.27,330.97,42.84,8.79;2,54.00,342.04,52.79,8.79" target="#b0">Ajzen and Driver 1992;</ref><ref type="bibr" coords="2,109.54,342.04,119.56,8.79" target="#b7">Celsi, Rose, and Leigh 1993;</ref><ref type="bibr" coords="2,231.85,342.04,62.06,8.79;2,54.00,353.11,22.82,8.79" target="#b21">Holbrook et al. 1984;</ref><ref type="bibr" coords="2,79.45,353.11,42.01,8.79" target="#b26">Holt 1995)</ref>. This literature also suggests that people's consumption patterns (lifestyle, as in <ref type="bibr" coords="2,215.81,364.18,45.71,8.79" target="#b56">Wells 1974</ref><ref type="bibr" coords="2,269.92,364.18,19.30,8.79" target="#b56">Wells , 1975</ref> reveal personality traits, such as budget-mindedness (e.g., <ref type="bibr" coords="2,54.00,386.32,69.25,8.79" target="#b35">Lastovicka 1982;</ref><ref type="bibr" coords="2,125.81,386.32,58.23,8.79" target="#b41">Mitchell 1983)</ref>; individual identities, such as yuppies (e.g., <ref type="bibr" coords="2,127.51,397.39,130.94,8.79" target="#b10">DiMaggio and Ostrower 1990;</ref><ref type="bibr" coords="2,262.25,397.39,31.76,8.79;2,54.00,408.46,21.99,8.79" target="#b46">Richins 1994)</ref>; or social roles, such as social class, gender, and ethnicity (e.g., <ref type="bibr" coords="2,102.05,419.53,41.81,8.79">Holt 1997)</ref>.</p><p>The second stream of research involves using quantitative methods to investigate consumers' time allocation decisions or household life cycles. For example, <ref type="bibr" coords="2,235.71,452.74,58.26,8.79" target="#b4">Becker (1965)</ref> and <ref type="bibr" coords="2,71.34,463.81,70.56,8.79" target="#b45">Ratchford (2001)</ref> propose theoretically that the allocation of time among different activities is determined by a person's effort to maximize the total utility he or she receives from all the activities. Following this utility maximization framework, several researchers have conducted cross-sectional time use studies (e.g., <ref type="bibr" coords="2,213.89,519.16,46.13,8.79" target="#b5">Bhat 2005;</ref><ref type="bibr" coords="2,263.08,519.16,30.99,8.79;2,54.00,530.23,99.86,8.79" target="#b16">Gronau and Hamermesh 2008;</ref><ref type="bibr" coords="2,159.62,530.23,134.40,8.79">Holbrook and Lehmann 1981;</ref><ref type="bibr" coords="2,54.00,541.29,69.21,8.79" target="#b33">Kamakura 2009;</ref><ref type="bibr" coords="2,126.01,541.29,71.65,8.79" target="#b50">Sener et al. 2008)</ref>. Others use a series of cross-sectional data to examine macro patterns of intertemporal time use (e.g., <ref type="bibr" coords="2,138.57,563.41,75.28,8.79" target="#b18">Hamermesh 2008;</ref><ref type="bibr" coords="2,216.59,563.41,77.52,8.79;2,54.00,574.47,23.97,8.79" target="#b32">Juster and Stafford 1991)</ref> and expenditure patterns over household life cycles <ref type="bibr" coords="2,54.00,585.53,105.08,8.79" target="#b11">(Du and Kamakura 2006)</ref>. Studies of time use employing panels are scarce. <ref type="bibr" coords="2,129.02,596.60,148.55,8.79" target="#b17">Habib, Miller, and Axhausen (2008)</ref> use data from a panel of six weeks but only to compare estimates from weekly cross-sections without examining within-subject variation over time. Using data for a 12-week period, <ref type="bibr" coords="2,85.93,640.85,80.51,8.79" target="#b52">Spissu et al. (2009)</ref> study within-subject variation over the 12 weeks for six broad activity categories, plus an "other" activity. However, they employed only household and location characteristics as predictors and neglected internal drivers of time use such as motives and expertise.</p><p>We contribute to both streams of literature by studying the factors that guide the dynamics of an individual's activity choices and consumption patterns. We illustrate that expertise contributes to perceived benefits (i.e., hedonic, social, and self-efficacy) of an activity, which in turn leads to high value associated with activity consumption. Expertise also directly influences value obtained from an activity. This expertise, in turn, is acquired over time through past consumption. This cycle implies a chain from expertise to value to time use and back to expertise, which may lead consumers to evolve their consumption around a subset of activities that they know well. To the extent that the resulting set of activities can be viewed as a lifestyle, expertise may be regarded as a key variable that explains lifestyle choices. To our knowledge, this is the first empirical study that documents how expertise and value recursively drive time allocation dynamics. We also contribute to the extant research by proposing a unified framework that sheds light on the dynamics of a person's time use decisions.</p><p>We organize the remainder of the article as follows: First, we discuss the theoretical framework of this research. Second, we present the model, describe the empirical data, and discuss the findings. Finally, we conclude by summarizing results and discussing implications, limitations, and avenues for further research. <ref type="figure" coords="2,327.95,308.89,34.10,8.79">Figure 1</ref> presents a schematic illustration of the theoretical framework that guides our empirical analysis. In what follows, we discuss how we conceptualize this framework in correspondence to prior literature. The basic premise of our theory is that an individual's knowledge of how to perform an activity (i.e., expertise as defined in <ref type="bibr" coords="2,518.70,364.24,39.35,8.79;2,317.95,375.31,74.88,8.79" target="#b1">Alba and Hutchinson 1987)</ref> plays an integral role in his or her time allocation decisions. First, we propose that expertise determines the magnitudes of consumption benefits produced by a given activity, which in turn affect the value an individual obtains from consumption. Such consumption benefits represent the needs that are satisfied by engaging in a given activity. Within our context, the various benefits discussed in the leisure activity literature (e.g., <ref type="bibr" coords="2,464.03,452.80,94.00,8.79" target="#b0">Ajzen and Driver 1992;</ref><ref type="bibr" coords="2,317.95,463.87,98.06,8.79" target="#b3">Arnould and Price 1993;</ref><ref type="bibr" coords="2,418.33,463.87,115.39,8.79" target="#b7">Celsi, Rose, and Leigh 1993;</ref><ref type="bibr" coords="2,536.04,463.87,21.95,8.79;2,317.95,474.94,103.21,8.79" target="#b20">Hills, Argyle, and Reeves 2000;</ref><ref type="bibr" coords="2,423.50,474.94,42.90,8.79" target="#b26">Holt 1995;</ref><ref type="bibr" coords="2,468.74,474.94,89.25,8.79;2,317.95,486.01,54.13,8.79" target="#b36">Manfredo, Driver, and Tarrant 1996;</ref><ref type="bibr" coords="2,374.70,486.01,100.05,8.79" target="#b54">Unger and Kernan 1983)</ref> can be broadly classified under the following three categories proposed by <ref type="bibr" coords="2,317.95,508.15,121.60,8.79" target="#b7">Celsi, Rose, and Leigh (1993)</ref>: (1) hedonic (sensory pleasure, enjoyment, fun), (2) social (satisfaction from interacting with others, need to conform to others' wishes), and (3) self-efficacy (personal growth, achievement). Different activities may provide these benefits to varying degrees.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>THEORETICAL FRAMEWORK</head><p>We demonstrate our rationale for the effects of expertise on the hedonic, social, and self-efficacy benefits in the following example. The activity of watching baseball is likely to be boring for someone who knows little about the game (low hedonic value) but may be exciting (high hedonic value) to an expert familiar with the game and its subtleties <ref type="bibr" coords="2,317.95,629.92,46.61,8.79" target="#b26">(Holt 1995)</ref>. <ref type="bibr" coords="2,371.76,629.92,124.02,8.79" target="#b7">Celsi, Rose, and Leigh (1993)</ref> also show that the hedonic benefit of skydiving progresses from thrill to pleasure to a sense of flow as a skydiver's experience increases and that a skydiver's self-efficacy benefit from skydiving progresses from survival to achievement to an altered personal identity as experience increases. In addition, Celsi, Rose, and Leigh indicate that novice skydivers merely want to conform to group norms, intermediate-level sky divers achieve a sense of group identity, and expert sky divers create and share a special worldview.  Notes: We use bold lines in the figure to represent the direct and indirect impacts of expertise.</p><p>In addition to the indirect effect of expertise outlined previously, there may also be a direct effect of expertise on activity consumption. Specifically, <ref type="bibr" coords="4,195.13,76.36,98.96,8.79" target="#b0">Ajzen and Driver (1992)</ref> find that perceived behavioral control has a direct effect on the consumption of leisure activities after factors similar to the benefits described previously are controlled for. Perceived behavioral control is defined as the perceived ease or difficulty of performing a behavior, which is essentially identical to <ref type="bibr" coords="4,106.00,142.78,130.33,8.79" target="#b1">Alba and Hutchinson's (1987)</ref> definition of expertise. Basically, even if a given activity is perceived as yielding a given level of hedonic, social, or self-efficacy benefits, a consumer who lacks expertise may eschew participation. This implies that expertise should be included as a predictor along with measures of consumption benefits in a model of time allocation. To the extent that different activities require similar skills, there may also be spillovers in which expertise at one activity increases the attractiveness of another activity that requires similar skills (Ratchford 2001). For example, because water sports enhance a person's stamina and strength, participation in such sports may boost the attractiveness of workout for a consumer. We also examine such expertise spillover effects in our model.</p><p>The final link to expertise in our model is that expertise is produced by repeated consumption. In other words, past consumption plays an important role in developing expertise at a given activity <ref type="bibr" coords="4,108.48,330.97,66.11,8.79" target="#b45">(Ratchford 2001;</ref><ref type="bibr" coords="4,176.55,330.97,94.25,8.79" target="#b53">Stigler and Becker 1977)</ref>. This is consistent with <ref type="bibr" coords="4,124.98,342.04,120.09,8.79" target="#b1">Alba and Hutchinson's (1987)</ref> observation that expertise results from familiarity, which is derived from a comprehensive literature review. As a result, we propose that expertise evolves over time through past consumption.</p><p>Using this cycle of increasing expertise, satisfaction, and activity consumption, utility-maximizing consumers may form a tendency to allocate time toward a subset of activities at which they excel. Therefore, consumer expertise may be viewed as a key variable that drives consumption patterns and lifestyle choices. A manifestation of this in the context of product consumption is that past experiences with a brand (brand capital) appear to be an important driver of current consumption of the brand <ref type="bibr" coords="4,206.43,474.88,87.51,8.79;4,54.00,485.95,82.07,8.79" target="#b6">(Bronnenberg, Dubé, and Gentzkow 2012)</ref>.</p><p>Aside from the state dependence induced by the relationships described previously, there are other possible reasons for the existence of state dependence in leisure activity choices. Some possible sources of other effects are inertia <ref type="bibr" coords="4,54.00,541.30,61.65,8.79" target="#b31">(Jeuland 1979)</ref>, risk aversion <ref type="bibr" coords="4,183.03,541.30,106.56,8.79">(Erdem and Keane 1996)</ref>, and/or desire for novelty and stimulation <ref type="bibr" coords="4,230.22,552.37,63.80,8.79;4,53.99,563.44,66.78,8.79">(McAlister and Pessemier 1982)</ref>. Following the prior literature in product consumption (e.g., <ref type="bibr" coords="4,135.05,574.51,128.46,8.79" target="#b12">Dubé, Hitsch, and Rossi 2010;</ref><ref type="bibr" coords="4,266.57,574.51,27.46,8.79;4,53.98,585.58,23.41,8.79" target="#b14">Erdem 1996;</ref><ref type="bibr" coords="4,80.17,585.58,89.66,8.79">Erdem and Sun 2001;</ref><ref type="bibr" coords="4,172.60,585.58,79.41,8.79" target="#b49">Seetharaman 2004;</ref><ref type="bibr" coords="4,254.78,585.58,34.68,8.79;4,53.98,596.65,146.75,8.79">Seetharaman, Ainslie, and Chintagunta 1999)</ref>, these possibilities are accounted for by including lagged consumption terms in our model. Last, we include monetary costs (prices) required for engaging in these activities into the model to capture the possibility that, ceteris paribus, people may allocate more time to less costly activities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MODEL DEVELOPMENT</head><p>The theory outlined in the preceding section implies the need for the following models: (1) a model of time allocation in which time allocated to a given activity is related to the three consumption motives and expertise, as outlined previously;</p><p>(2) a model of the relation between consump-tion motives and expertise; and (3) a model of the evolution of expertise with past consumption. We have panel data spanning 20 weeks in which consumers reported their time allocation weekly to the following leisure activities: arts and crafts, running/jogging, video games, workout, water sports, and all others. (We explain our rationale for choosing these activities in detail in the "Empirical Analysis" section.) Our unit of analysis is a week, and we want to examine (1) how people allocate time to these activities in a given week, (2) whether consumption benefits increase with expertise, and (3) whether the latter is enhanced by past consumption. <ref type="table" coords="4,317.95,179.49,29.99,8.79" target="#tab_2">Table 1</ref> summarizes the measures required for constructing the three models. We discuss how these were operationalized in the "Data" section. In what follows, we discuss the specifics of our model development.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Time Allocation Model</head><p>The time allocation model we use is built on <ref type="bibr" coords="4,537.15,247.34,20.88,8.79;4,317.95,258.71,104.36,8.79" target="#b34">Kim, Allenby, and Rossi (2002)</ref> and <ref type="bibr" coords="4,441.39,258.71,46.20,8.79" target="#b5">Bhat (2005)</ref>. This model provides a suitable framework in our context because (1) it is flexible enough to accommodate the possibility of an individual undertaking different activity mixes over different time periods, (2) it accounts for not only the choice but also the time use of each activity type, and (3) it allows for corner solutions where an individual does not participate in one or more activities in any given period.</p><p>First, we examine a model that accounts for individual i's consumption in J activity types during a time horizon of M periods. Within a time period t (e.g., a week), consumer i chooses to allocate time ijt (e.g., hours) to activity type j, with ijt . Specifically, the utility consumer i derives from allocating time ijt to the J activity types at period t is defined as follows:</p><p>where ijt represents the baseline utility associated with activity type j (which is a function of activity-specific characteristics), ijt denotes time spent, and j and j are parameters of the utility function. As discussed in <ref type="bibr" coords="4,499.24,510.25,58.78,8.79;4,318.01,521.62,68.75,8.79" target="#b34">Kim, Allenby, and Rossi (2002)</ref> and <ref type="bibr" coords="4,406.49,521.62,46.63,8.79" target="#b5">Bhat (2005)</ref>, the utility form in Equation 1 belongs to a family of translated utility functions, where the role of the translation parameter j is to enable corner solutions and the purpose of j is to capture potential differences in satiation rates across activity types (low satiation when j 1 and high satiation when j 0). <ref type="bibr" coords="4,522.83,577.92,3.75,6.59">1</ref> We further follow a standard random utility specification and introduce a multiplicative random error ijt into the baseline marginal utility ijt as follows:</p><p>(2) ijt = exp(V ijt + ijt ).</p><formula xml:id="formula_0" coords="4,318.75,435.04,166.75,228.77">∑ ( ) = ψ τ +γ = α (1) U , it ijt j 1 J ijt j j 1</formula><p>Although our model is flexible enough to accommodate different rates of satiation, it is possible that returns to time spent on some activities follow an inverted U-shaped relationship, as <ref type="bibr" coords="4,465.25,676.97,59.11,7.03" target="#b38">McAlister (1982)</ref> suggests. However, there must be diminishing returns to each activity at the point of observed time allocations; otherwise, a corner solution in which only one activity is chosen will result <ref type="bibr" coords="4,414.00,703.97,39.39,7.03" target="#b5">(Bhat 2005;</ref><ref type="bibr" coords="4,455.63,703.97,102.44,7.03" target="#b34">Kim, Allenby, and Rossi 2002;</ref><ref type="bibr" coords="4,318.00,712.97,106.92,7.03" target="#b48">Samuelson and Nordhaus 2001)</ref>. Consequently, our model should be a good approximation within the range of observed time allocations, even though it may not capture some part of the utility function.</p><p>Substituting the preceding expression of ijt into Equation 1, the overall utility takes the following functional form:</p><p>Given that consumer i is maximizing the overall utility U it subject to the total time he or she invests on leisure activities during time period t (i.e., J j = 1 ijt = T it ), we can solve the optimal time allocation problem by forming the Lagrangian. Given the additive-separable utility structure defined in Equation 3, the model can be applied to any subset of goods as long as an identification condition that at least one alternative is chosen during each time period t is satisfied <ref type="bibr" coords="5,91.66,531.26,48.11,8.79" target="#b5">(Bhat 2005)</ref>. In our study, this condition is satisfied for the category "other leisure activities" (all consumers indicated nonzero time spent on the outside alternative during our 20-week study), leading to its being chosen as the numeraire (activity 1). 2 Therefore, we can solve the optimal time allocation model by applying the Kuhn-Tucker conditions in Equation 4. It is important to note that these conditions are on marginal utility and that the shadow price of time (e.g., the Lagrange multiplier [ ), has been substituted out and does not enter directly into these condi-</p><formula xml:id="formula_1" coords="5,54.75,370.22,285.94,58.72">∑{ } ( )( ) = + ε ⎡ ⎣ ⎤ ⎦ τ + γ α = (3) U exp V . it ijt ijt ijt j j 1 J j tions.</formula><p>Because the shadow price of time is constant across activity types, it does not have a differential effect on their relative valuation:</p><p>For activity j = 2, …, J, the deterministic component V ijt in <ref type="figure" coords="5,318.00,486.91,46.93,8.79">Equation 4</ref> can be expressed as follows (for details on variable definitions, see <ref type="table" coords="5,415.60,498.32,29.58,8.79" target="#tab_2">Table 1</ref> ):</p><p>In Equation 5, the intercept 0ij captures the unobserved heterogeneity in consumer i's intrinsic preference toward activity j. Z1j , Z2j , and Z3j measure the impacts from the three consumption benefits. We included gender dummies,  2 Alternatively, we could define the numeraire as consumption of all other activities (e.g., total time available [168 hours a week]) less time spent on the five focal activities. Under the additive-separable utility framework in <ref type="bibr" coords="5,279.00,679.97,15.11,7.03;5,53.98,688.97,19.79,7.03" target="#b5">Bhat (2005)</ref>, the marginal utility of the other leisure activity and all other (including nonleisure) activities in general are equal to one another, which is the common shadow price of time <ref type="bibr" coords="5,154.17,706.97,36.70,7.03">(Equation 4</ref>). Therefore, in principle, either one could be used as the numeraire. In addition, adopting all other activities as the outside alternative would raise issues of whether the assumed additiveseparable utility structure would continue to hold (e.g., certain time expenditures such as work and personal care may not be entirely discretionary) and would also create difficulties in estimation due to the greatly different time allocations between all other goods and the focal leisure goods (see <ref type="bibr" coords="5,318.00,679.97,103.35,7.03" target="#b34">Kim, Allenby, and Rossi 2002)</ref>. Consequently, we believe that the time allocation model, with its additive-separable utility structure, is most likely to hold when alternatives serve the same general purpose and are entirely discretionary, such as leisure activities. The approach of focusing on a limited set of leisure activities has been employed elsewhere (e.g., <ref type="bibr" coords="5,520.38,715.97,34.24,7.03" target="#b5">Bhat 2005)</ref>. <ref type="bibr" coords="5,318.00,724.97,105.69,7.03" target="#b34">Kim, Allenby, and Rossi (2002)</ref> also provide a discussion of the relative merits of discrete-continuous choice models confined to one category versus those that define an outside alternative in terms of all other goods. to capture the potential gender effects in these parameter estimates (e.g., men may take greater pleasure in playing video games than women). We use the parameter jj to capture the direct impact of expertise. When j = j, this term captures influence from expertise at the focal activity j. When j j, the term jj gauges whether there is expertise spillover between the activity pair j and j (with jj = j j ). As we noted in the "Theoretical Framework" section, expertise spillovers account for the possibility that people may find an activity more attractive when they can use their expertise in other activities that utilize similar skills. Finally, ij reflects the nature of state dependence, and ijx is the parameter estimate related to monetary cost.</p><formula xml:id="formula_2" coords="5,318.00,411.75,240.09,230.25">Z1j = b Z1j + b female_j1 × Female, Z2j = b Z2j + b female_j2 × Female, and Z3j = b Z3j + b female_j3 × Female in Equation 5 ( ) ( ) + ε = + ε τ &gt; = + ε &lt; + ε τ = = = + α + α − τ + γ =<label>(4)</label></formula><p>Given that consumer i's time use in activity j during the initial time period of our panel study may reflect the consumer's prior intrinsic preference for the activity, we adopt the method proposed in <ref type="bibr" coords="6,168.46,230.57,104.52,8.79">Erdem and Sun (2001)</ref> and <ref type="bibr" coords="6,54.00,241.59,79.61,8.79" target="#b57">Wooldridge (2005)</ref> to treat the initial observations in our panel data. Specifically, we assume that the individual-and activity-specific intercept term in Equation 5, 0ij , can be expressed as follows:</p><p>with A i being a vector of exogenous variables that may reflect the initial condition of the participant (e.g., age, gender, region of residence, early involvement) and ij1 being the amount of time individual i spent on activity type j during the initial period of the panel data (i.e., first week), and 2 0j being the variance term. To address the possibility that consumers may be heterogeneous in their state dependence as well as their sensitivity to the monetary cost required by the activity, we use random coefficients for the parameters associated with these variables. Because the self-reported hourly monetary cost measure may be endogenous (a person may spend more money on an activity because it produces more satisfaction), we adopt the control function approach that <ref type="bibr" coords="6,229.90,458.74,64.17,8.79;6,54.00,469.76,27.31,8.79" target="#b43">Petrin and Train (2010)</ref> describe to address this issue. Appendix A presents details of this endogeneity control.</p><p>As for the outside alternative, given that it may represent a diverse array of activities, we did not collect data on benefits or expertise for this activity. We also normalize its intercept and coefficients of its activity-invariant variables (age, gender, and region of residence) to zero to provide a base for the focal activities (see Equation A4 in Appendix A). Thus, we use only initial period time use to estimate the deterministic component of the outside alternative's baseline utility.</p><p>Finally, we partition the error term in Equation 2 into two independent components, ijt and w ijt . We assume the first component, ijt , to be standard i.i.d. double exponential distribution. The second component is specified as w ijt = j w ij,t-1 + ijt , with the vector it = ( i1t , i2t , …, iJt ) following a time-invariant multivariate normal distribution with a mean of zero and a variance-covariance matrix . The parameter j captures the degree of serial correlation in the unobserved error terms over time. <ref type="bibr" coords="6,177.87,678.67,3.75,6.59">3</ref> In addition, the variance-</p><formula xml:id="formula_3" coords="6,54.75,289.45,182.25,16.74">Λ Λ ( ) β + +λτ σ A (6)~N b , , 0ij j i j j ij1 0 j 2</formula><p>covariance matrix captures the unobserved correlation across the activity types. Appendix A presents details of our estimation algorithm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Models of Consumption Benefits and Expertise</head><p>In addition to the time allocation model outlined in Equations 3-6, we further examine whether the amount of hedonic, social, and self-efficacy benefits produced by a certain activity is enhanced by consumer expertise. In addition, we include a measure of a person's desire to explore an activity further (i.e., E ijt ) as a potential driving force of Z ijt1 , Z ijt2 , and Z ijt3 . Finally, given that the social quality of an activity may depend on the willingness of others to share it, we incorporate "friends like" and "family likes" (i.e., FL ijt ) as additional determinants of the social benefit, Z ijt2 . Therefore, we have the following equations (for detailed variable definitions, see <ref type="table" coords="6,380.88,244.11,28.28,8.79" target="#tab_2">Table 1</ref>):</p><p>In Equations 7-9, we include random coefficients for all model parameters. We also allow the error terms e 1ijt , e 2ijt , and e 3ijt to be correlated across the three quality measures in a given time period for a given consumer and over time in an Autoregressive(1) (AR(1)) Process for a given activity and a given consumer. The latter is meant to control for possible serial correlation resulting from consumers rating the same set of scales in each week.</p><p>Finally, we examine the evolution of expertise level in Equation 10 as follows:</p><p>where b 0kij is a random-effects intercept, ij captures the carryover of K ij from the previous period, b ikj measures the increase in expertise from engaging in activity j during time period t -1, and v ij,t -1 represents an error term with the vector v i, t -1 = (v i1, t-1 , v i2, t -1 , …, v iJ, t -1 ) following a time-invariant multivariate normal distribution with a mean of zero and a variance-covariance matrix, v , to capture the error correlation across the activity types.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Summary</head><p>In summary, our theoretical framework generates the following testable predictions through the estimation of Equations 3-10: (1) The marginal utility an individual obtains from an activity increases with its ability to satisfy a set of consumption motives (i.e., hedonic, social, and self-efficacy benefits) and with the person's expertise at performing the focal and/or related activities (Equations 3-6), (2) the magnitude of consumption benefits is driven by expertise (Equations 7-9), and (3) expertise increases with past consumption (Equation 10). In the following section, we describe how we carry out the empirical investigation of our theory.</p><formula xml:id="formula_4" coords="6,318.75,260.75,227.26,219.19">= +ς + τ + − − − − (10) K b K b v , ij, t 1 0kij ij ij, t 2 ikj ij, t 1 ij, t 1 (7) Z d d K d E e , ijt1 ij11 ij12 ij, t 1 ij13 ijt 1ijt = + + + − = + + + + − FL D (8) Z d d K d E e , and ijt2 ij21 ij22 ij, t 1 ij13 ijt ijt ij24 2ijt = + + + − (9) Z d d K d E e . ijt3 ij31 ij32 ij, t 1 ij33 ijt 3ijt</formula><p>3 As Heckman (1981a, b, c) discusses, there are three possible sources of serial correlation in panel data: (1) state dependence, (2) time-invariant unobservable heterogeneity, and (3) time-variant unobservable error. In our context, we use lagged time use, random effects, and AR(1) error to capture the three possible sources of serial correlation, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EMPIRICAL INVESTIGATION Data</head><p>Panel data setup. The data used in this study comprise a longitudinal panel documenting the weekly time expenditure of a group of U.S. consumers on leisure activity consumption from January to June 2011. Specifically, we tracked these consumers' time use, hedonic, social, self-efficacy, and expertise measures on a weekly basis for five leisure activities that are representative among U.S. consumers, according to the American Time Use Survey (U.S. Department of Labor 2009). <ref type="bibr" coords="7,142.55,172.70,3.75,6.59">4</ref> We recruited the panelists from the Amazon Mechanical Turk consumer panel, with the restriction that only people residing in the United States were eligible to participate. 5 The panel members completed a series of weekly surveys during a consecutive 20-week period. Four hundred twenty-eight individuals signed up to participate in the panel study. To construct the dynamic panel data model with a sufficient number of observations per person, we retained only participants who completed 12 or more weeks of surveys in our empirical analysis. This results in the 287 respondents (66.6% of the participants who signed up) included in our empirical analysis. <ref type="bibr" coords="7,207.84,294.82,3.75,6.59">6</ref> Activity selection. While a time diary in which respondents list all the activities that they engage in over a specific time period is a standard method of collecting data on time use, this approach would not be feasible for our study. We needed to be able to trace time use as well as levels of consumption benefits and expertise on a given activity for each respondent over time. We also needed the questionnaire to be short enough to maintain their participation in the panel. These constraints required us to focus on a specific and limited set of activities. In addition, because the domain of our theory is leisure activities, the chosen activities had to fit into this category.</p><p>Therefore, we used the 2009 American Time Use Survey (U.S. Department of Labor 2009) to identify leisure activities that the U.S. population typically undertakes. Within the American Time Use Survey classifications, we deemed Categories 12 ("Socializing, Relaxing, and Leisure") and 13 ("Sports, Exercise, and Recreation") to be the most closely related to leisure activity consumption. We calculated the average time use and the incidence rate of each activity type listed under these two categories. Among the most participated activities, the following five were included in our panel study: arts and crafts, running/ jogging, video games, workout (e.g., lifting weights, fitness machine use), and water sports (e.g., indoor/outdoor swimming, water aerobics). In our weekly questionnaire, we asked respondents to report the approximate number of hours/ minutes spent on each of the five focal activities in the past week. We also asked respondents to report the amount of time they spent on all other leisure activities in the past week (the numeraire). Appendix B presents more details of our activity selection and time use measures.</p><p>Measurement of scales and other variables. To develop reliable and valid measurement scales for the constructs used in this study, we followed the guidelines proposed by <ref type="bibr" coords="7,318.00,242.37,67.40,8.79" target="#b8">Churchill (1979)</ref> for scale development (for more details of the scale development, see Appendix B). Specifically, we used <ref type="bibr" coords="7,339.47,264.51,123.59,8.79" target="#b7">Celsi, Rose, and Leigh (1993)</ref> and <ref type="bibr" coords="7,483.27,264.51,48.23,8.79" target="#b26">Holt (1995)</ref> as the theoretical foundation for the scale development of our hedonic, social, and self-efficacy consumption benefits. With regard to consumer expertise, we adapted the expertise scales developed by <ref type="bibr" coords="7,414.57,308.79,105.06,8.79" target="#b40">Mitchell and Dacin (1996)</ref>. We also collected measures on other model variables such as hourly monetary cost associated with consumption of each activity type, perceived similarity between each activity pair regarding skills needed to perform them, early involvement, and so on. Appendix B provides more details of the final scales and measures.</p><p>Safeguards against common method bias. Although common method bias can be a problem with survey data <ref type="bibr" coords="7,318.00,408.42,73.23,8.79" target="#b33">(Kamakura 2010)</ref>, several aspects of our survey design should mitigate this problem. Specifically, our dependent and independent measures had different response formats: the dependent measure is a self-report of hours/minutes spent that appears at the beginning of the survey, whereas our consumption benefits and expertise scales have a Likert format and appear later in the survey. Moreover, we used the expertise value from the preceding week as the independent variable to predict current period time use and consumption benefits (Equation 5, Equations 7-9, and Equation 10). We also used established scales that describe the activity to measure consumption benefits and expertise levels. Furthermore, we presented the 20 items from the multi-item scales listed in <ref type="table" coords="7,380.25,552.33,36.88,8.79" target="#tab_2">Table B1</ref> in random order to minimize selfreport bias. We also assured our participants that "there would not be any 'right' or 'wrong' answers" and that their responses would be anonymous and confidential. These aspects of our survey design are consistent with recommendations for avoiding item ambiguity and demand characteristics by using different formats for dependent and independent variables, separating these variables, and using established scales, random ordering, and assurances of confidentiality <ref type="bibr" coords="7,364.40,651.96,90.94,8.79" target="#b44">(Podsakoff et al. 2003;</ref><ref type="bibr" coords="7,457.84,651.96,92.10,8.79" target="#b47">Rindfleisch et al. 2008)</ref>.</p><p>Panel data descriptives. <ref type="table" coords="7,429.09,663.03,30.15,8.79" target="#tab_3">Table 2</ref> presents descriptives of the panel data. Among the five focal activities, video games appear to be the most popular activity (in terms of both time use and incidence), and water sports was the least popular choice of our respondents. In addition, there appear to be gender differences in time use across these activities, with women spending more time on arts and crafts and men allo-4 The 2009 American Time Use Survey (U.S. Department of Labor 2009) was the latest publicly available survey at the time we began our panel data collection. Similar tracking studies have been conducted using consumer panels in other domains such as beverage consumption <ref type="bibr" coords="7,237.49,550.97,56.40,7.03;7,54.00,559.97,54.11,7.03" target="#b29">(Huang, Khwaja, and Sudhir 2012)</ref>. <ref type="bibr" coords="7,62.00,568.53,3.00,5.27">5</ref> Given the increasing popularity of Amazon Mechanical Turk consumer panels in social science research in recent years, several studies have been conducted to investigate the validity of using this panel as a source of data collection. This stream of research suggests that the majority of Mechanical Turk workers genuinely care about the quality of their work (e.g., <ref type="bibr" coords="7,54.00,613.97,72.23,7.03" target="#b37">Mason and Suri 2012;</ref><ref type="bibr" coords="7,128.39,613.97,126.17,7.03" target="#b42">Paolacci, Chandler, and Ipeirotis 2010)</ref>. Moreover, under various settings, the quality of data collected from the Amazon Mechanical Turk panel is highly comparable to that of data from traditional sources such as lab and field studies (e.g., <ref type="bibr" coords="7,191.11,640.97,71.43,7.03" target="#b37">Mason and Suri 2012;</ref><ref type="bibr" coords="7,264.65,640.97,29.23,7.03;7,54.00,649.97,93.45,7.03" target="#b42">Paolacci, Chandler, and Ipeirotis 2010;</ref><ref type="bibr" coords="7,149.45,649.97,94.83,7.03" target="#b51">Snow, Jurafsky, and Ng 2008)</ref>. <ref type="bibr" coords="7,62.00,658.53,3.00,5.27">6</ref> Given that we retained only respondents who completed 12 or more weekly surveys in our analysis, we examined the extent to which our panel data are affected by selection bias. Specifically, we compared summary statistics of respondents we retained with those of respondents who completed fewer than 12 weekly surveys. We did not find significant differences across these two samples regarding time use, consumption benefits, expertise, exploration, age, gender, region of residence, and other demographics. Therefore, we believe that selection bias is not salient in our context (Armstrong and Overton 1977). More details are available on request. cating more time to the other activities. Men and women also reported different scores on the hedonic, social, and self-efficacy benefits as well as the expertise measures of these activities. <ref type="table" coords="9,124.81,87.28,32.38,8.79" target="#tab_3">Table 2</ref> also indicates that the average scores of exploration are relatively low for all activities, which implies that there is generally not much interest in exploring these activities further. In the appendixes, we report the over-time, within-subject variation in our panelists' time use, consumption benefits, and expertise measures (Appendix B), as well as a systematic decline (albeit small in magnitude) in the variation of time spent on the focal activities during the 20 weeks of data collection (Appendix A). The former enables us to examine the evolution of consumption motives and expertise levels over time, and the latter offers face validity to our theory (Appendix A). 7</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Determinants of consumption utility. We first discuss estimation results of the time allocation model. Appendix B provides a comparison of nested models to demonstrate how various model components add to the prediction of time use. <ref type="table" coords="9,92.77,285.63,29.75,8.79" target="#tab_5">Table 3</ref> presents the estimates related to the initial condition. These estimates, which determine the intercept of the deterministic component of the utility function in Equation 4, essentially reflect consumers' intrinsic preferences for that activity. The results in <ref type="table" coords="9,208.89,329.71,30.72,8.79" target="#tab_5">Table 3</ref> indicate that early involvement has a significant, positive effect on intrinsic preference for all activities except video games, which provides evidence in favor of the view that experience with activities is associated with increased preference. The activities with a significant, positive effect of time spent in the initial period are arts and crafts and running/jogging. In general, age and gender effects are in accord with intuition: preferences for arts and crafts increase with age, while preferences for video games and running/jogging decline with age; women have a lower intrinsic preference toward running/ jogging, video games, and workout. Although women have a negative sign for arts and crafts, this effect is offset by other influences on the initial condition: women are more likely to be involved early in arts and crafts and spent more time on arts and crafts in the initial period. Finally, holding other factors constant, we find several significant regional differences in intrinsic preference for activities. <ref type="table" coords="9,64.00,528.07,30.20,8.79" target="#tab_6">Table 4</ref> presents the estimates related to determinants of consumption utility. The top panel of the table presents estimates related to consumption benefits. Positive signs indicate that high values of the benefit are associated with a higher degree of baseline marginal utility, while negative signs indicate that high values of the benefit are associated with lower baseline utility. For example, the negative rela-tionship between social benefit and workout indicates that people who attach high marginal utility to this activity do not engage in workout for social reasons, while those attaching low marginal value to workout might do so.</p><p>The results in this panel provide insight into why consumers find each activity attractive. Gender differences are prominent. Men appear to engage in arts and crafts for hedonic (pleasure) and social reasons, not for self-efficacy, while women participate in this activity for self-efficacy (self-fulfillment), followed by social and hedonic reasons. Men who attach high value to running/jogging undertake this activity for self-efficacy and social reasons, not for hedonic benefit. The self-efficacy, social, and hedonic benefits for running/jogging are more prominent for women than for men. Our findings also indicate that men mainly engage in video games for hedonic reasons, while women participate in this activity mostly for self-efficacy. 8 Respondents of both genders who attach high marginal value to workout appear to participate in this activity for self-efficacy rather than social reasons. Finally, we find that men who assign high marginal value to water sports engage in this activity for hedonic and self-efficacy (rather than social) benefits, whereas their female counterparts are drawn to this activity for hedonic reasons and attach less value to self-efficacy. <ref type="bibr" coords="9,545.65,312.42,3.75,6.59">9</ref> The second panel in <ref type="table" coords="9,412.13,324.22,30.02,8.79" target="#tab_6">Table 4</ref> presents effects of expertise and expertise spillovers. Consistent with our theory, expertise in the focal activity exerts a significant positive impact on consumption utility for all activities under study. The coefficients of expertise spillovers are listed in the off-diagonal elements. We found that there are significant, positive spillovers between the following three activities pairs: workout and water sports, workout and running/jogging, and video games and water sports. It is not difficult to envision skills used in workout, such as stamina and strength, being useful in activities such as water sports and running/ jogging. Reasons for the spillover between video games and water sports are less obvious and might be a worthwhile subject for further research. <ref type="bibr" coords="9,440.80,469.92,7.70,6.59">10</ref> We also found negative spillovers between video games and the following activities: arts and crafts, running/jogging, and workout, indicating that avid gamers are likely to be less interested in these activities. Such negative spillovers, though statistically significant, are small in magnitude.</p><p>The third panel of <ref type="table" coords="9,405.46,537.96,30.59,8.79" target="#tab_6">Table 4</ref> provides estimates related to state dependence terms. The coefficients of lagged time use 8 It is possible that men mainly play video games for pure pleasure, while women are more drawn to games, such as Wii Fit, that aim to provide a sense of self-fulfillment. Nevertheless, this conjecture should be interpreted with caution. Further research may be needed to investigate whether this result would replicate under alternative model setups and/or data sets. 9 Because of its low participation rate (8.6%; see <ref type="table" coords="9,484.73,622.97,22.91,7.03" target="#tab_3">Table 2</ref>), values of V ijt for water sports tend to be negative to maintain corner solutions. Because the exponential of these numbers is less than one, the large coefficients for social and other effects on water sports may partially result from its low baseline utility. <ref type="bibr" coords="9,326.00,667.53,6.15,5.27">10</ref> Because the spillover is the product of perceived similarity of skills and expertise at the other activity, it must be due to some combination of higher similarity and higher expertise of participants relative to nonparticipants. Our data do not address what drives this combination. Perhaps some gamers may participate in water-sports-related games that enhance their skills at the actual sport. For example, players of Surf's Up video game are likely to be surfers. There may be some other explanation, which can be addressed in further research. <ref type="bibr" coords="9,62.00,622.53,3.00,5.27">7</ref> To the extent possible, we also made comparisons between our dependent measures and those reported in <ref type="bibr" coords="9,168.59,631.97,61.38,7.03" target="#b52">Spissu et al. (2009)</ref>. Although our specific activities do not correspond closely with those in Spissu et al., the sum of our running/jogging, workout, and water sports activities corresponds approximately to their physically active sports category. Average time per week summed across nonzero observations of our three sports activities was 4.9 hours, compared with 4.3 hours for the Spissu et al. sports category; incidence of use of at least one of the three sports in our study was 62.4%, compared with an incidence of 45.7% for the <ref type="bibr" coords="9,231.83,694.97,21.60,7.03">Spissu</ref>    indicate significant positive state dependence for all focal activities but workout. This finding suggests that respondents in our panel engage in habitual behavior in these activities for reasons beyond the direct and indirect effects of consumer expertise, possibly inertia <ref type="bibr" coords="11,213.55,98.34,55.72,8.79" target="#b31">(Jeuland 1979</ref>) and/ or risk aversion <ref type="bibr" coords="11,121.46,109.37,102.45,8.79">(Erdem and Keane 1996)</ref>. The coefficient of lagged time use for workout is not significant, but its standard deviation is significant, indicating significant heterogeneity across respondents. In general, our findings are in line with prior literature in product consumption: consumers tend to exhibit positive state dependence behavior in many, but not all, product categories (e.g., <ref type="bibr" coords="11,248.43,175.55,45.65,8.79;11,54.00,186.58,40.84,8.79">Erdem and Sun 2001;</ref><ref type="bibr" coords="11,97.34,186.58,179.85,8.79">Seetharaman, Ainslie, and Chintagunta 1999)</ref>. The fourth panel of <ref type="table" coords="11,146.86,197.61,30.49,8.79" target="#tab_6">Table 4</ref> presents the parameter estimates associated with monetary costs. With the exception of arts and crafts, monetary costs exert a significant, negative impact on participation for all activities. In addition, we observe significant positive residuals from the control function for arts and crafts, running/jogging, and workout, indicating that people tend to spend more money on these activities due to high appreciation and/or high income. The inclusion of these residuals into the model effectively alleviated the endogeneity bias associated with our monetary cost measure. The next panel in <ref type="table" coords="11,183.01,307.91,29.61,8.79" target="#tab_6">Table 4</ref> reports the satiation parameter for each activity type. Our results show that the estimated satiation rates range from .372 to .492 across different activities. T-statistic tests reveal that none of the satiation rates significantly differs from .372, the lowest alpha estimate value. This suggests that, overall, the satiation rates do not differ much among the activities in our study.</p><p>The last panel in <ref type="table" coords="11,131.79,385.12,29.35,8.79" target="#tab_6">Table 4</ref> includes the autoregressive coefficients of the AR(1) error terms. The video game category is the only activity that exhibits significant serial correlation in the error terms. This finding suggests that serial correlation in our panel data has been largely captured by the inclusion of state dependence terms and time-invariant unobservable heterogeneity (i.e., random effects) in our model. For video games, the positive and significant autoregressive coefficient of the AR(1) error captures effects beyond the two effects discussed previously. Appendix B presents all the variance-covariance matrices of the error terms associated with Equations 3-10.</p><p>Determinants of hedonic, social, and self-efficacy benefits. <ref type="table" coords="11,336.27,171.89,30.80,8.79" target="#tab_7">Table 5</ref> provides estimates related to determinants of hedonic, social, and self-efficacy benefits. In line with our theory, the stock of expertise significantly enhances the three consumption benefits for all activities under study. Our findings also indicate that, on average, this expertise effect is the most prominent for hedonic benefits, followed by self-efficacy and social benefits. In addition, the results in this table indicate that friends and/or family liking of the activity exerts a positive influence on the social benefits of all five activities. <ref type="table" coords="11,390.59,277.82,29.89,8.79" target="#tab_7">Table 5</ref> also shows that, for all the activities studied, the desire for exploration has a positive impact on hedonic, social, and self-efficacy benefits.</p><p>Evolution of consumer expertise. <ref type="table" coords="11,468.95,313.13,30.87,8.79" target="#tab_8">Table 6</ref> presents estimates related to the evolution of consumer expertise. As we expected, both lag expertise and lag time use have significant, positive impacts on expertise level in the current period. This again supports our theory that expertise evolves over time through repeated consumption. Overall, expertise carryover from the previous week is similar across the five activities, ranging from 85.6% in running/jogging to 88.8% in arts and crafts. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Summary of Key Findings</head><p>Overall, these empirical findings are in line with our theoretical expectations. Specifically, the baseline utility of an activity increases with (1) its ability to satisfy a set of consumption benefits (hedonic, social, and self-efficacy) and (2) an individual's expertise in performing the focal and/or related activities. We further demonstrate that expertise has an indirect impact on the marginal utility of an activity by influencing its hedonic, social, and self-efficacy benefits. This expertise, in turn, is acquired through experience. Through the link from expertise to value to time use and back to expertise, our findings support the proposition that expertise can be regarded as a key variable that explains consumption patterns and lifestyle choices.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>In this study, we investigate how consumers allocate time to a portfolio of activities using 20 weeks of consumer panel data. These data enable us to examine the underlying factors (e.g., consumption motives, expertise) that drive the dynamics of activity consumption. We discover that consumer expertise may be viewed as a key variable that plays an integral role in observed differences in consumption patterns. In particular, expertise exhibits both a direct and an indirect (through its influences on consumption motives) impact on consumers' preferences toward an activity. This expertise, in turn, is acquired over time through past consumption. Therefore, through a cycle of increasing expertise, satisfaction, and time use, consumers focus on a subset of activities they know well. This tendency toward specialization may be vital to understanding consumption patterns and lifestyle choices. To our knowledge, we offer the first empirical evidence that expertise and satisfaction recursively drive time allocation dynamics.</p><p>Considering the substantial economic impact of recreation industry, our findings may also generate valuable insights for practitioners. First, our findings shed light on why people find an activity attractive and on how this differs among men and women. For example, while the main benefit of engaging in arts and crafts is self-efficacy among women, men appear to undertake this activity mostly for fun (hedonic benefit). Such insights can be helpful in formulating appeals to encourage increased participation. More important, our results indicate that expertise may be leveraged to create loyalty. For example, one possible way to encourage participation is to subsidize expertise investment (e.g., offering discounted personal training). In addition, firms may consider from which activities their consumers may exploit expertise spillovers and leverage such effects by offering a portfolio of products/services to advocate a particular lifestyle or establishing alliances to cross-promote related activities.</p><p>Our research is also subject to limitations, which suggest promising avenues for further research. One issue is how best to define the time domain and the associated numeraire good. For reasons stated previously (footnote 4), we chose to define the time domain as the total time a person allocates to leisure activities in a given time period and the numeraire to be other leisure activities. However, we acknowledge that whether it is the best way to model this is still an open question that might be addressed in further research. Second, while we have made an effort to alleviate the common method bias, our budget did not allow the prohibitive cost of gathering activity consumption data across multiple contexts (e.g., Internet, phone, in-person). Further research could address this issue. Third, while we account for the notion that consumers may participate in an activity to explore it further, our model does not address the likelihood that consumers may participate in an activity to resolve uncertainty about how beneficial it is. This possibility might be addressed in further research, possibly by building on <ref type="bibr" coords="12,317.92,473.95,100.63,8.79">Erdem and Keane (1996)</ref> to incorporate a Bayesian learning component into our existing framework. Last, while our panel of 20 weeks has a longer duration than any other panel in time use studies, it would be desirable to have a panel, or some other method, to capture longer-term changes in behavior. It would also be desirable to have a panel of beginners at an activity and to observe the evolution of their hedonic, social, and self-efficacy benefits from the activity as their expertise builds. While we did not examine this behavior due to the inherent difficulty of collecting such data, future pursuits in this direction could lead to better information on the role of expertise in determining activity choice.</p><p>With regard to extensions, our framework could be adapted to examine consumption patterns in alternative contexts in which physical goods are more directly involved. In many (if not most) activities, a consumer interacts with some purchased goods to produce satisfaction. In effect, the consumer supplies the labor. Examples are driving a car, using the Internet, and vacationing at a resort. In all these cases, knowing how to buy or use a brand can be critical to consumer choice. For example, a consumer may know a great deal about driving and owning Toyotas, which makes the brand more valuable than other unfamiliar brands; a consumer may prefer to use Windows computers to surf the Internet because he or she knows exactly how to use them; a consumer may stay at the resort of a particular hotel chain because of past experience with the chain. The research of <ref type="bibr" coords="13,209.30,77.58,84.72,8.79;13,54.00,89.26,87.41,8.79">Bronnenberg, Dubé, and Gentzkow (2011)</ref> documents that brand capital built up from past experience is important. Our general approach could be used to examine how this capital is produced.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX A: ESTIMATION ALGORITHM Time Allocation Model</head><p>Overall setup. Given that consumer i is maximizing the overall utility U it during period t subject to his or her time constraint T it (i.e., J j = 1 ijt = T it ), we can solve the optimal time allocation problem by forming the Lagrangian and applying the Kuhn-Tucker (K-T) conditions <ref type="bibr" coords="13,241.72,209.34,47.74,8.79" target="#b5">(Bhat 2005)</ref>. The Lagrangian function is given by Differentiating the Lagrangian w.r.t. ijt gives the following standard FOC K-T conditions:</p><p>In our panel data, all consumers indicated nonzero time spent on the outside alternative across the 20 weeks of data collection. Therefore, denoting activity 1 as the outside alternative with i1t = T it -J j = 2 ijt , we can rewrite the K-T conditions as follows:</p><p>As discussed in <ref type="bibr" coords="13,126.90,563.66,50.07,8.79" target="#b5">Bhat (2005)</ref>, if the error term ijt was i.i.d. double exponential, the probability that individual i participates in M of the J activity types could be expressed as follows:</p><p>where g is the standard extreme value density function, G is the standard extreme value distribution, the first M activity types are the ones in which the consumer participates during time period t, and J is the Jacobian matrix whose determinant is given by the following:</p><formula xml:id="formula_5" coords="13,54.75,238.53,238.99,432.97">∑ ∑ { } ( )( ) = + ε ⎡ ⎣ ⎤ ⎦ τ + γ − λ τ − ⎛ ⎝ ⎜ ⎜ ⎞ ⎠ ⎟ ⎟ α = = (A1) L exp V T . ijt ijt ijt j j 1 J ijt j 1 J it j (A2) exp V 0 if 0, j 1, 2, ..., J, exp V 0 if 0, j 1, 2, ..., J. ijt ijt j ijt j 1 ijt ijt ijt j ijt j 1 ijt j j ( ) ( ) ( ) ( ) + ε ⎡ ⎣ ⎤ ⎦ α τ + γ − λ = τ &gt; = + ε ⎡ ⎣ ⎤ ⎦ α τ + γ − λ &lt; τ = = α − α − ( ) ( ) ′ + ε = ′ + ε τ &gt; = ′ + ε &lt; ′ + ε τ = = ′ = + α + α − τ + γ = (A3) V V if 0 with j 2, 3, ..., J, (A3) V V if 0 with j 2, 3, ..., J, where (A3) V V ln 1 ln with j 1, 2, ..., J. ijt ijt i1t i1t ijt ijt ijt i1t i1t ijt ijt ijt j j ijt j (A4) P t , t , ..., t , 0, 0, ..., 0 g V V J G V V , ij2 ij3 ijM i1t i1t ijt i1t j 2 M it i1t ij t i1t j M 1 J ∏ ∏ ( ) ( ) ( ) ε = ′ − ′ + ε ⎡ ⎣ ⎢ ⎢ ⎤ ⎦ ⎥ ⎥ ⎧ ⎨ ⎪ ⎩ ⎪ ⎫ ⎬ ⎪ ⎭ ⎪ × ′ − ′ + ε ⎧ ⎨ ⎪ ⎩ ⎪ ⎫ ⎬ ⎪ ⎭ ⎪ = ′ ′ = +</formula><p>To enforce the condition that the satiation parameter j must be bounded between 0 and 1, we parameterize j = 1/[1 + exp( ~j )] in the empirical estimation. In addition, because empirically the parameters j and j in Equation 4 cannot be identified separately, we adopt the method proposed by <ref type="bibr" coords="13,357.48,155.92,130.86,8.79" target="#b34">Kim, Allenby, and Rossi (2002)</ref> and <ref type="bibr" coords="13,508.54,155.92,49.34,8.79" target="#b5">Bhat (2005)</ref> by fixing j = .1. As these two studies indicate, any positive j allows for corner solutions. Therefore, the unconditional probability of Equation 3 has the following closed-form expression <ref type="bibr" coords="13,486.03,199.98,46.48,8.79" target="#b5">(Bhat 2005)</ref>:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Error term formation.</head><p>In what follows, we discuss how we relax the i.i.d. double exponential assumption on the error term ijt in our setting. In particular, we partition the error term in Equation 2 into two independent components, ijt and w ijt . We assume the first component, ijt , to be standard i.i.d. double exponential distribution. We specify the second component as w ijt = j w ij, t -1 + ijt , with | j | &lt; 1, the vector it = ( i1t , i2t , …, iJt ) following a time-invariant multivariate normal distribution with a mean of zero and a variance-covariance matrix . The parameter j captures the degree of serial correlation over time. In addition, the variance-covariance matrix captures the unobserved correlation across the activity types.</p><p>Using repeated substitution, we can rewrite w ijt as w ijt = ijt + j ij, t -1 + j 2 ij, t -2 + .... Let w it = (w i1t , w i2t , …, w iJt ) and = ( 1 , 2 , …, J ). Given that such serial correlation is likely to exist before our panel data collection and continues infinitely afterward, we have E(w it ) = 0 and the variancecovariance matrix w it = A A, with A being a J × J diagonal matrix with its jth diagonal term being 1/ 1 -2 j (with j = 1, 2, …, J) <ref type="bibr" coords="13,352.59,541.95,56.16,8.79" target="#b15">(Greene 2000)</ref>. To carry out the estimation, we first obtain random draws of w i1 using E(w i1 ) = 0 and w il = A A. Assume that we take H random draws of w i1 in the estimation. Conditional on each random draw from w h i1 (h = 1, 2, … , H), we obtain draws of w i2 using the equation w h i2 = w h i1 + i1 (h = 1, 2, …, H), with i1 drawn from the timeinvariant MVN(0, ). We follow a similar procedure to obtain draws of w i3 , …, w iT .</p><p>To the extent that these H random draws capture the underlying distribution at the aggregate level, the procedure described here enables us to capture the serial correlation in the error term. A potential drawback of this procedure is that it neglects the potential random errors in the H random draws. Ideally, conditional on each random draw from the previous period, a new set of random draws should be taken in the subsequent period (t = 2, …, T). Nevertheless, given that it takes approximately five days to estimate our time allocation model without AR(1) error terms on a Dual Six </p><formula xml:id="formula_6" coords="13,318.75,56.98,209.00,254.47">J M ijt ijt ∏ ∑ ∏ ∑ ( ) ( ) τ τ τ = ⎛ ⎝ ⎜ ⎜ ⎞ ⎠ ⎟ ⎟ ⎛ ⎝ ⎜ ⎜ ⎞ ⎠ ⎟ ⎟ ⎛ ⎝ ⎜ ⎜ ⎞ ⎠ ⎟ ⎟ ⎡ ⎣ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎤ ⎦ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ − = = ′ = ′ = (A5) J c 1 c , where c 1 . it ijt j 1 M ijt j 1 M ijt j ijt j ∏ ∑ = ⎛ ⎝ ⎜ ⎜ ⎞ ⎠ ⎟ ⎟ ⎛ ⎝ ⎜ ⎜ ⎞ ⎠ ⎟ ⎟ = − α τ + γ = =</formula><p>Core Intel Xeon Processor Workstation computer, the computational burden of this approach would be prohibitively expensive. By adopting the procedure described here, we are able to incorporate serial correlation in unobservable errors into our framework in a computationally feasible manner. To our knowledge, this is the first attempt to incorporate AR(1) error terms into the multiple discrete-continuous model. Last, it is worth noting that, because we have incorporated lagged time use and random effects in the marginal utility of each activity type <ref type="figure" coords="14,166.40,155.38,46.26,8.79">(Equation 3</ref>), the serial correlation described here only captures effects beyond state dependence and time-invariant unobservable heterogeneity <ref type="bibr" coords="14,54.00,189.10,90.44,8.79">(Heckman 1981a, b, c)</ref>. Addressing endogeneity in monetary cost. Given that a person may spend more money on an activity due to high satisfaction from consuming the activity and/or high income, the self-reported hourly monetary cost measure (for details of the measure, see "Other Variables" in Appendix B) in our context is likely to be endogenous. We adopt the control function approach discussed in <ref type="bibr" coords="14,224.32,267.78,69.70,8.79;14,54.00,279.02,27.66,8.79" target="#b43">Petrin and Train (2010)</ref> to address this issue. In particular, we include the following instruments in the control function for the term X ijt in Equation 5: (1) the average of all other panelists' estimated hourly monetary cost measures on the activity during the same time period, (2) lagged hourly wage rate (wage rate is measured as "supposing that someone offers you an extra hour of work suitable to your skills in this past week, at what hourly wage rate would you be willing to work?"), and (3) household income.</p><p>The rationale behind our first instrument is similar to <ref type="bibr" coords="14,54.00,391.42,106.78,8.79" target="#b43">Petrin and Train's (2010)</ref> use of the average price of the same cable service in all other markets as an instrument for price in the focal market. In our context, we use the average of all other panelists' estimated hourly monetary costs associated with the activity during the same time period to capture the average cost of engaging in the activity. We also use lagged hourly wage rate and household income as additional instruments to account for the possibility that a person with a high wage rate and/or household income is likely to be willing to spend more on a given activity. These variables are viable instruments in our setting because they are (1) correlated with the self-reported measures of hourly monetary costs and (2) exogenous and uncorrelated with current period's error terms.</p><p>We follow the estimation procedure in <ref type="bibr" coords="14,226.67,548.78,67.19,8.79;14,54.00,560.02,27.50,8.79" target="#b43">Petrin and Train (2010)</ref> by first regressing the momentary cost measure on the instruments. Let X * ijt denote the vector of instrumental variables discussed previously. The regression can be written as X ijt = b x0 + X * ijt B X0 + A i B A + ijt , with X * ijt being the instruments and A i being the vector of exogenous variables in the marginal utility function (i.e., age, gender, region of residence, and early involvement). The residuals of this regression ( ijt ) are retained and used to calculate the control function ( j ijt ). Next, the time allocation model is estimated with the control function entering as an extra variable. Specifically, we revise Equation 5 as follows:</p><formula xml:id="formula_7" coords="14,54.75,688.75,211.24,48.18">∑ = β + β + β + β + ϕ +δ τ +β +ϑ μ ′ ′ = ′ ′ − − (A7) V Z Z Z s K X . ijt 0ij Z1j ijt1 Z2 j ijt2 Z3j ijt3 jj j 1 J ijj ij , t 1 ij ij, t 1 ijx ijt j ijt</formula><p>Likelihood. Therefore, we can compute the unconditional probability as follows:</p><p>Simulated maximum likelihood is used to estimate this equation. The likelihood function can be written as follows:</p><p>with B = ( 0ij , ijx , ij ) denoting the vector of variables in which we incorporate random coefficients and B being a diagonal variance-covariance matrix.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Models of Consumption Motives and Expertise</head><p>Following the procedure described by <ref type="bibr" coords="14,482.99,442.18,56.57,8.79" target="#b15">Greene (2000)</ref>, we estimate the system of Equations 7-9 together to examine the determinants of consumption motives. In addition, we estimate Equation 10 independently to study the evolution of consumer expertise.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Identification</head><p>The identification of our model relies on two sources of variation in our observed variables: (1) cross-sectional variation and (2) within-subject over-time variation. Regarding the former, our panel data consist of 287 panelists with varying degrees of time use, consumption benefits, and expertise levels <ref type="table" coords="14,387.72,574.62,37.73,8.79" target="#tab_2">(Table 1)</ref>. With respect to the latter, we illustrate in Appendix B, <ref type="table" coords="14,419.05,585.66,34.11,8.79" target="#tab_3">Table B2</ref>, that there is a noticeable degree of within-subject over-time variation in these key model variables during the 20 weeks of our panel data collection. Therefore, both types of variation discussed here enable us to identify the models described previously.</p><p>In addition, we examined whether there is a systematic decline in the variation of time spent in each activity over the 20 weeks of data collection. In particular, for each respondent and each activity type, we calculated a series of standard deviation scores for time use in weeks 2-10 (denoted as SD_time1), weeks 3-11 (SD_time2), and so on, until weeks 12-20 (SD_time11). (We omit the subscripts for individual and activity type here for simplicity.) This series of standard deviation scores essentially represents the over-  time trend in the degree of variation in time use. Next, for each activity under study, we regressed SD_time t on a time variable t (with t = 1, 2, …, 11) to examine whether there exists a time trend in the overall trend of these standard deviation scores. We discovered that the regression coefficients of the time trend variable are negative and significant, albeit small in magnitude, for all activities. This indicates that, throughout the course of our data collection, there is a slight downward trend over time in the within-subject overtime variation in time spent on these activities. That is, we see some evidence of a tendency toward stabilization in consumption patterns, as our theory would predict.</p><formula xml:id="formula_8" coords="14,319.50,80.71,235.49,95.99">∏ ∫ ∑ ∏ ∑ η η Ψ Ψ ( ) ( ) ( ) τ τ τ = ⎛ ⎝ ⎜ ⎜ ⎞ ⎠ ⎟ ⎟ ⎛ ⎝ ⎜ ⎜ ⎞ ⎠ ⎟ ⎟ ⎛ ⎝ ⎜ ⎜ ⎞ ⎠ ⎟ ⎟ ⎡ ⎣ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎤ ⎦ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ −</formula><formula xml:id="formula_9" coords="14,332.75,115.38,220.06,261.24">ijt j ijt ijt ijt j ijt ijt ∏ ∑ ∫ ∏ ∏ ∑ ∫ ∏ ∏ ∑ η η Ψ Ψ ( ) ( ) ( ) = ⎛ ⎝ ⎜ ⎜ ⎞ ⎠ ⎟ ⎟ ⎛ ⎝ ⎜ ⎜ ⎞ ⎠ ⎟ ⎟ ⎛ ⎝ ⎜ ⎜ ⎡ ⎣ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎧ ⎨ ⎪ ⎪ ⎪ ⎩ ⎪ ⎪ ⎪ × ⎛ ⎝ ⎜ ⎜ ⎞ ⎠ ⎟ ⎟ ⎡ ⎣ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎢ ⎤ ⎦ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ ⎥ − ⎫ ⎬ ⎪ ⎪ ⎪ ⎭ ⎪ ⎪</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX B: SUPPLEMENTARY INFORMATION ON EMPIRICAL APPLICATION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Activity Selection</head><p>We used the 2009 American Time Use Survey (U.S. Department of Labor 2009) to select the focal activities in our panel study. We first calculated the average time use and the incidence rate of each activity type listed under Categories 12 ("Socializing, Relaxing, and Leisure") and 13 ("Sports, Exercise, and Recreation"). Among the activities with the highest average time use and the highest incidence rates, we excluded activities that require minimal expertise (e.g., chatting with friends, watching television), given our emphasis on examining the direct and indirect roles of expertise on activity choices and time use. In addition, we left out activities with strong seasonality (e.g., golfing, fishing, hunting) because participation in such activities may be confounded with seasonality. We also combined activities such as "working out," "using cardio equipment," and "weightlifting" into one activity, "workout," given their similarity. Last, we refined the activity "playing games" to its subset "playing video games," given that the definition of the former can be confusing in that different people may interpret it differently and that the latter plays an integral role in this activity category. We also conducted a pretest in which we asked 30 participants recruited from the Amazon Mechanical Turk consumer panel to indicate the three leisure activities on which they spent the most time during the current year. The five activities included in our panel study also appeared among the most popular activities, which is in line with our findings from the American Time Use Survey.</p><p>Given our interest in examining the direct and indirect roles of expertise in activity choices and time use, we conducted a second pretest in which we asked 26 participants (recruited from the same consumer panel mentioned previously) to answer the following question on a seven-point scale: "I would find (the name of the activity) more enjoyable if I possess more expertise in this activity" for the five activities included in our study (1 = "strongly disagree," and 7 = "strongly agree"). The results revealed that the average ratings for all activities are above the midpoint of the scale <ref type="bibr" coords="15,53.98,653.28,240.00,8.79;15,53.98,664.30,79.18,8.79">(arts and crafts: 5.96; running/jogging: 4.12; video games: 4.49; workout: 4.67</ref>; and water sports: 5.32), which further confirmed that it was reasonable to include these five activities in our study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scale Development and the Measurement of Other Variables</head><p>Thirty-five participants (recruited from the same consumer panel mentioned previously) answered a battery of scale items for each of the five leisure activities identified in the preceding section. All responses are based on sevenpoint scales (1 = "strongly disagree," and 7 = "strongly agree"). We used the responses to develop the scales used in our study. <ref type="table" coords="15,362.74,98.54,38.08,8.79" target="#tab_2">Table B1</ref> lists the final scales for the hedonic, social, self-efficacy benefits, expertise, and exploration. Hedonic, social, and self-efficacy benefits. Following <ref type="bibr" coords="15,317.98,131.63,65.13,8.79" target="#b8">Churchill (1979)</ref>, we used the theoretical definition of hedonic, social, and self-efficacy consumption benefits in <ref type="bibr" coords="15,534.66,142.66,23.32,8.79;15,317.98,153.69,95.87,8.79" target="#b7">Celsi, Rose, and Leigh (1993)</ref> and <ref type="bibr" coords="15,433.77,153.69,47.60,8.79" target="#b26">Holt (1995)</ref> to generate an initial set of measurement items. For each consumption benefit, we submitted the corresponding measurement items to an exploratory factor analysis with oblique rotation. The results revealed that all item loadings were above .70. Therefore, we retained all the measurement items. The Cronbach's alphas for the hedonic, social, and self-efficacy scales were .892, .899, and .857, respectively.</p><p>A correlation analysis revealed that the correlation between social and self-efficacy benefits is .376, between hedonic and self-efficacy benefits is .408, and between hedonic and social is .638. These results indicate that the three quality attributes of activity consumption are partially correlated, with each attribute capturing a different aspect of consumption benefits. Furthermore, we used confirmatory factor analysis to formally test the discriminant validity of these three constructs. We found that a three-factor structural model fits the data much better (goodness-of-fit index = .976, root mean square error of approximation = .095) than a single-factor model that combines the three scales (goodnessof-fit index = .871, root mean square error of approximation = .159). Consequently, we decided to include hedonic, social, and self-efficacy as three distinct factors that drive the utility of activity consumption, acknowledging that they are not entirely orthogonal to each other.</p><p>Expertise. We generated the initial set of scale items that measure consumer expertise based on <ref type="bibr" coords="15,477.73,440.47,80.15,8.79;15,317.98,451.50,24.74,8.79" target="#b40">Mitchell and Dacin (1996)</ref>, while excluding the vocabulary test. We used an item analysis to eliminate the item with the lowest loading iteratively, until all the factor loadings were above .5. This pro- cedure yielded the six-item expertise scale. An exploratory factor analysis with oblique rotation suggested one dominant factor with loadings above .679 for all the items. The Cronbach's alpha for this scale is .937. Exploration. The measurement items in the exploration scale were developed based on <ref type="bibr" coords="16,182.92,109.62,106.79,8.79;16,54.00,120.70,45.89,8.79" target="#b36">Manfredo, Driver, and Tarrant (1996)</ref>. An exploratory factor analysis with oblique rotation yielded one dominant factor that accounted for 70.8% of the variance in the data. All the factor loadings were above .782. The Cronbach's alpha for this scale is .812 (for scale items, see <ref type="table" coords="16,135.74,165.02,33.32,8.79" target="#tab_2">Table B1</ref>).</p><p>Other variables. To measure time use on focal activities, we used the following question: "Please indicate approximately how many hours and/or minutes you have spent on each of the following activities." Because the outside alternative includes all leisure activities other than the focal ones, we thought it would be unreasonable for the participants to remember the exact number of minutes they spent on all other leisure activities. Therefore, we used the following question: "Approximately how many hours have you spent on all other leisure activities in the past week (for example, enter 0.5 for 30 minutes)" to measure time spent on the outside alternative. As a result, it is possible that our measure on this variable is not very accurate. Therefore, we conducted two robustness checks in which we varied values of time spent on the outside alternative by ±10% and discovered that the model estimates did not change significantly. We also collected information on hourly wage rate (measured as "supposing that someone offers you an extra hour of work suitable to your skills in this past week, at what hourly wage rate would you be willing to work?") on a weekly basis.</p><p>The respondents also reported their estimated hourly monetary cost associated with consumption of each activity type. In particular, we asked, "What is your estimated hourly monetary cost (in dollars) for participating in this activity? For example, if you plan to spend $300 on this activity and engage in this activity for 50 hours this year, the per-hour monetary cost would be $6. If you have not yet participated in this activity, please fill in an estimate based on your observation or knowledge of others who engage in this activity." We collected this measure on a weekly basis to allow respondents adjust their estimates of the monetary costs required for engaging in these activities over time. We acknowledge that this self-reported hourly monetary cost measure is subject to measurement error and endogeneity bias. Consequently, we use instrumental variables and the control function approach (see Appendix A) to correct for the endogeneity bias, as well as the potential measurement error in this variable. Although we extend beyond extant literature (e.g., <ref type="bibr" coords="16,112.40,608.22,47.16,8.79" target="#b5">Bhat 2005;</ref><ref type="bibr" coords="16,163.65,608.22,70.72,8.79" target="#b33">Kamakura 2009;</ref><ref type="bibr" coords="16,238.46,608.22,55.54,8.79;16,53.98,619.30,19.30,8.79" target="#b52">Spissu, et al. 2009</ref>) by incorporating monetary cost into consumers' activity consumption and/or time allocation decisions, future work could explore avenues to obtain a better monetary cost measure and/or to account for differences in the variance of measurement errors across respondents due to differences in expertise.</p><p>We also collected the following time-invariant measures in the first weekly survey. We asked the participants when they first participated in this activity on a five-point scale, with more than ten years at the high end and never at the low end. We used this response to assess early involvement with the activity. To assess degrees of expertise spillovers, we also asked the respondents to report their perceived similarity related to each activity pair (e.g., arts and craftsrunning/jogging) regarding skills needed to perform them on a seven-point scale (1 = "require very different skills," and 7 = "require very similar skills"). We also collected demographics-related information such as gender, age, state of residence, household income, and so on. We classified participants into four regions according to their state of residence (Northeast, Midwest, South, and West, using the U.S. Census Bureau's regional divisions).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Within-Subject Over-Time Variation of Model Variables</head><p>Given our interest in examining the evolution of consumption motives and consumer expertise, we report descriptives of the within-subject over-time variation in the respondents' time use, hedonic, social, self-efficacy, and expertise measures in <ref type="table" coords="16,417.28,233.63,37.65,8.79" target="#tab_3">Table B2</ref>. Specifically, for each variable of interest (e.g., the hedonic value of arts and crafts), we calculated a standard deviation score for each participant using the longitudinal data. This score essentially measures the degree of variation in this variable for the participant during the time span of the data collection. <ref type="table" coords="16,522.03,289.78,36.04,8.79" target="#tab_3">Table B2</ref> displays the descriptives of such standard deviation scores across the 287 participants in our consumer panel. Note that, with the exception of time use, we measured all the other variables using seven-point scales. It is evident that there is a noticeable degree of within-subject variation in these variables during the 20 weeks of our panel data collection, which provides a suitable setting to examine the evolution of consumption motives and expertise over time.</p><p>During the panel data collection, we also asked the respondents to indicate whether they arranged one or more Notes: "a1" represents arts and crafts, "a2" represents running/jogging, "a3" represents video games, "a4" represents workout, and "a5" represents water sports. social or personal events (e.g., visited a vacation spot, visited friends, visited family, hosted or attended a party, went on a business trip) during each week of the study. Approximately 80% of the time, the respondents selected one or more events in the weekly surveys. This also provides some evidence that there are many external events that may introduce variation into the shadow price of time, which in turn may also contribute to the within-subject over-time variation in time use, consumption motives, and expertise in these activities. For example, when a person is on vacation in a given week, he or she may allocate considerably more time to video games, workout, and other leisure activities. This may lead to a noticeable increase in his or her expertise in these activities, which in turn may also enhance the amount of hedonic, social, and self-efficacy benefits the person obtains from consuming these activities. In contrast, when the person goes on a business trip and cannot spend much time on video games and workout, he or she may experience some expertise decay. This in turn may also affect the magnitudes of consumption benefits the person obtains from consuming the activities. Consequently, the prevailing existence of such events serves as an external source that introduces over-time within-subject variation into the key variables in our model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparison of Nested Models</head><p>In <ref type="table" coords="17,75.14,340.47,35.26,8.79" target="#tab_5">Table B3</ref>, we present a comparison of nested models to demonstrate how various model components add to the prediction of time use for participants in our panel. In what follows, we first describe how we carried out the predictions for the time allocation model described in the text. Next, we discuss how we carried out the comparison of nested models.</p><p>In our context, in each time period t, consumer i allocates time to the activities under study to maximize the overall utility U it (in Equation 3) subject to the time constraint J j=1 ijt = T it and ijt 0 for all j. Therefore, in the current model, the consumer's time allocation is based on the following problem <ref type="bibr" coords="17,71.50,461.43,46.49,8.79" target="#b5">(Bhat 2005)</ref>:</p><p>In Equation B1, the random effects associated with V ijt and the error terms ijt and w ijt introduce random components where G is the standard extreme value distribution and F is the multivariate normal distribution. In time t, we obtain draws of w it = (w i1t , w i2t , …, w iJt ) based on draws from w i1~ MVN(0, A A) and repeated substitution using w it = w i, t -1 + it . Following <ref type="bibr" coords="17,362.91,303.00,47.69,8.79" target="#b5">Bhat (2005)</ref>, the objective function in <ref type="figure" coords="17,520.96,303.00,37.02,8.79;17,318.00,314.15,11.87,8.79">Equation  B2</ref> can be evaluated using simulation techniques, and the time allocation problem can be predicted using the obtained parameter estimates under a constrained optimization routine. To predict time use, we repeated this optimization routine for each person in each of the time periods used for holdout prediction.</p><p>To compare the predictive validity of nested models, we used the following five models: (1) Model 1: the most basic model, which incorporates only motives and monetary constraint and consists of i.i.d. double exponential error terms;</p><p>(2) Model 2: adding expertise and expertise spillovers to Model 1; (3) Model 3: adding state dependence to Model 2; (4) Model 4: adding the error component w ijt to Model 3; and (5) Model 5: adding random effects to Model 4. For each of the five models, we carried out predictive comparisons by using data from the first 15 weeks for calibration and those from the last 5 weeks for prediction. Note that Equation B2 describes the prediction procedure used for Model 5. For Models 1-4, the corresponding components were removed from the utility specification for both calibration and prediction. Similar to <ref type="bibr" coords="17,446.90,537.19,48.35,8.79" target="#b5">Bhat (2005)</ref>, we compared the hit rates (correctly predicting participation; i.e., zero or nonzero time spent) and the mean absolute error between the actual and predicted time use conditional on a correct prediction on participation to assess the predictive validity of these models. In <ref type="table" coords="17,401.62,592.94,35.79,8.79" target="#tab_5">Table B3</ref>, we present the comparison results. It is evident that each additional component adds the predictive validity of the model, and Model 5 (the one employed in this study) has the highest hit rate and the lowest mean absolute error.   <ref type="formula" coords="17,134.13,714.20,12.26,7.03">(1)</ref> errors + random effects activity types when consumers make discretionary time-use decisions, the estimated variance-covariance matrix reflects any unobservable relationships across the activities after controlling for the observed factors. We discover that all the off-diagonal terms are insignificant, indicating that there is not much covariance in unobserved factors between the activity types, after accounting for the observables. As we expected, because of the high number of unobservable factors associated with the outside alternative, compared with the five focal activities, the variance term associated with the outside alternative is also substantially higher. <ref type="table" coords="18,328.00,109.87,35.66,8.79" target="#tab_7">Table B5</ref> presents the error term estimates related to Equations 7-9. The autoregressive parameters (i.e., z ) are significant for the three quality attributes across all the activities under study. In addition, the variance-covariance matrices of the error terms reveal that there are unobservable correla-  tions among the hedonic, social, and self-efficacy benefits of each activity for all five focal activities. <ref type="table" coords="19,64.00,109.90,35.66,8.79" target="#tab_8">Table B6</ref> presents the error term estimates related to Equation 10. Most off-diagonal terms in the variance-covariance matrix are positive and significant, implying that, beyond observed factors (i.e., lagged expertise and lagged time use), the evolution of expertise is correlated across these activities. A possible explanation for this finding is that consumers develop their expertise in the focal activity through participation in related activities. The implied correlations range from .06 between video games and running/jogging to .37 between workout and running/ jogging.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Variance-Covariance Matrix of the Error Terms in Time Allocation Model</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Error Term Estimates Related to Determinants of Hedonic, Social, and Self-Efficacy Benefits</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Variance-Covariance Matrix of the Error Terms in the Model of Expertise</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="3,196.20,386.14,9.25,28.34;3,196.20,377.52,9.25,5.56;3,209.63,395.51,7.40,56.01;3,209.63,340.47,7.40,52.89"><head></head><label></label><figDesc>Figure 1 THEORETICAL FRAMEWORK</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="5,62.00,54.32,358.26,301.92"><head>Table 1</head><label>1</label><figDesc>LIST OF VARIABLES EMPLOYED IN THE EMPIRICAL MODELa Appendix B addresses measurement in detail.</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="8,152.99,67.00,306.92,671.01"><head>Table 2</head><label>2</label><figDesc>PANEL DATA DESCRIPTIVES</figDesc><table coords="8,189.95,67.00,269.96,671.01">Arts and Crafts 
+
+Running/Jogging 
+
+Video Games 
+
+Workout 
+
+Water Sports 
+
+Outside Alternative 
+
+M 
+
+SD 
+
+M 
+
+SD 
+
+M 
+
+SD 
+
+M 
+
+SD 
+
+M 
+
+SD 
+
+M 
+
+SD 
+
+Incidence 
+
+.412 
+
+.360 
+
+.570 
+
+.478 
+
+.086 
+
+-
+
+Variables and Scales: Men 
+Time use (in hours) 
+
+1.307 
+
+2.630 
+
+1.550 
+
+2.662 
+
+4.276 
+
+6.042 
+
+1.874 
+
+2.868 
+
+.380 
+
+2.075 
+
+10.653 
+
+14.280 
+
+Hedonic 
+
+3.294 
+
+1.769 
+
+3.496 
+
+1.831 
+
+4.687 
+
+1.732 
+
+3.657 
+
+1.921 
+
+3.585 
+
+1.943 
+
+Social 
+
+2.795 
+
+1.282 
+
+2.893 
+
+1.311 
+
+3.882 
+
+1.538 
+
+2.937 
+
+1.384 
+
+3.326 
+
+1.681 
+
+Self-efficacy 
+
+3.108 
+
+1.637 
+
+3.499 
+
+1.709 
+
+4.114 
+
+1.705 
+
+3.800 
+
+1.837 
+
+3.024 
+
+1.723 
+
+Expertise 
+
+3.364 
+
+1.810 
+
+4.053 
+
+1.674 
+
+4.737 
+
+1.673 
+
+3.809 
+
+1.748 
+
+3.310 
+
+1.619 
+
+Exploration 
+
+2.848 
+
+1.651 
+
+2.629 
+
+1.390 
+
+3.433 
+
+1.616 
+
+3.034 
+
+1.527 
+
+2.556 
+
+1.562 
+
+Variables and Scales: Women 
+Time use (in hours) 
+
+1.797 
+
+3.817 
+
+1.167 
+
+3.397 
+
+2.704 
+
+5.374 
+
+1.590 
+
+3.910 
+
+.212 
+
+1.111 
+
+9.401 
+
+12.381 
+
+Hedonic 
+
+4.333 
+
+1.739 
+
+3.033 
+
+1.904 
+
+3.926 
+
+1.837 
+
+3.316 
+
+1.881 
+
+3.604 
+
+3.064 
+
+Social 
+
+3.041 
+
+1.462 
+
+2.548 
+
+1.460 
+
+3.341 
+
+1.532 
+
+2.679 
+
+1.461 
+
+3.051 
+
+1.643 
+
+Self-efficacy 
+
+3.804 
+
+1.518 
+
+3.086 
+
+1.752 
+
+3.378 
+
+1.708 
+
+3.404 
+
+1.698 
+
+2.996 
+
+1.787 
+
+Expertise 
+
+4.372 
+
+1.623 
+
+3.393 
+
+1.692 
+
+3.789 
+
+1.694 
+
+3.384 
+
+1.697 
+
+3.324 
+
+1.774 
+
+Exploration 
+
+3.432 
+
+1.613 
+
+2.489 
+
+1.511 
+
+3.013 
+
+1.578 
+
+2.925 
+
+1.676 
+
+2.469 
+
+1.526 
+
+M 
+
+S D 
+
+Demographics 
+
+Gender 
+
+1.648 
+
+.478 
+
+Age (years) 
+
+35.844 
+
+11.410 
+
+Percentage 
+Region 
+Northeast 
+
+28.39% 
+
+Midwest 
+
+22.66% 
+
+South 
+
+32.61% 
+
+West 
+
+16.34% 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="9,53.98,694.97,240.20,43.03"><head></head><label></label><figDesc>et al. sports category. Give the different time periods (2002 vs. 2011) and locations (Europe and the United States), our self-reported data of time use seem comparable to those in Spissu et al.. This provides evidence that our time use data are reasonable.</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="10,67.53,67.75,157.92,670.25"><head>Table 3</head><label>3</label><figDesc>INITIAL CONDITION ESTIMATES</figDesc><table coords="10,104.49,67.75,120.96,670.25">Arts and Crafts 
+
+Running/Jogging 
+
+Video Games 
+
+Workout 
+
+Water Sports 
+
+Outside Alternative 
+
+Parameter 
+
+Estimate 
+
+SE 
+
+Estimate 
+
+SE 
+
+Estimate 
+
+SE 
+
+Estimate 
+
+SE 
+
+Estimate 
+
+SE 
+
+Estimate 
+
+SE 
+
+Intercept 
+
+-7.875* 
+
+.688 
+
+-.117 
+
+.179 
+
+-.190* 
+
+.093 
+
+.183 
+
+.103 
+
+.043* 
+
+.012 
+
+-
+
+-
+
+SD of intercept 
+
+.345 
+
+.232 
+
+.149* 
+
+.073 
+
+.044 
+
+.196 
+
+.287 
+
+.175 
+
+1.843* 
+
+.071 
+
+-
+
+-
+
+Early involvement 
+
+.100* 
+
+.031 
+
+.010* 
+
+.005 
+
+-.150 
+
+.656 
+
+.340* 
+
+.116 
+
+.258* 
+
+.070 
+
+-
+
+-
+
+Initial period participation 
+
+.041* 
+
+.007 
+
+.364* 
+
+.143 
+
+-.011 
+
+.034 
+
+-.003 
+
+.003 
+
+-.012 
+
+.024 
+
+-1.723* 
+
+.334 
+
+Age 
+
+.015* 
+
+.004 
+
+-.179* 
+
+.020 
+
+-.376* 
+
+.109 
+
+.059 
+
+.071 
+
+-.050 
+
+.029 
+
+-
+
+-
+
+Female 
+
+-1.544* 
+
+.269 
+
+-6.965* 
+
+.664 
+
+-.386* 
+
+.100 
+
+-.245* 
+
+.091 
+
+.174 
+
+.108 
+
+-
+
+-
+
+Residence: Midwest 
+
+.375* 
+
+.140 
+
+.018 
+
+.047 
+
+-.018* 
+
+.003 
+
+.016 
+
+.034 
+
+-.149 
+
+.092 
+
+-
+
+-
+
+Residence: South 
+
+.561* 
+
+.130 
+
+-1.143* 
+
+.239 
+
+-1.814 
+
+1.677 
+
+1.130* 
+
+.051 
+
+-.076 
+
+.100 
+
+-
+
+-
+
+Residence: West 
+
+.806* 
+
+.153 
+
+-.042 
+
+.031 
+
+.016* 
+
+.005 
+
+.140* 
+
+.009 
+
+.067 
+
+.123 
+
+-
+
+-
+
+*Significant at .05. 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="10,237.68,67.75,307.92,670.25"><head>Table 4</head><label>4</label><figDesc>DETERMINANTS OF CONSUMPTION UTILITY</figDesc><table coords="10,274.64,67.75,270.96,670.25">Arts and Crafts 
+
+Running/Jogging 
+
+Video Games 
+
+Workout 
+
+Water Sports 
+
+Outside Alternative 
+
+Parameter 
+
+Estimate 
+
+SE 
+
+Estimate 
+
+SE 
+
+Estimate 
+
+SE 
+
+Estimate 
+
+SE 
+
+Estimate 
+
+SE 
+
+Estimate 
+
+SE 
+
+Consumption Motives 
+Hedonic 
+
+.468* 
+
+.092 
+
+.212 
+
+.170 
+
+.143* 
+
+.045 
+
+.020* 
+
+.005 
+
+.270* 
+
+.016 
+
+.-
+
+.-
+
+Hedonic × female 
+
+-.355* 
+
+.103 
+
+.047* 
+
+.017 
+
+-.324* 
+
+.146 
+
+.016 
+
+.024 
+
+.000 
+
+.002 
+
+.-
+
+.-
+
+Social 
+
+.141* 
+
+.069 
+
+.370* 
+
+.027 
+
+.084 
+
+.136 
+
+-.876* 
+
+.257 
+
+-8.785* 
+
+.930 
+
+.-
+
+.-
+
+Social × female 
+
+-.024 
+
+.078 
+
+.232* 
+
+.080 
+
+.113 
+
+.160 
+
+.180* 
+
+.038 
+
+.015* 
+
+.008 
+
+.-
+
+.-
+
+Self-efficacy 
+
+-.249* 
+
+.098 
+
+.392* 
+
+.195 
+
+.030* 
+
+.008 
+
+.744* 
+
+.153 
+
+.191* 
+
+.083 
+
+.-
+
+.-
+
+Self-efficacy × female 
+
+.593* 
+
+.115 
+
+.297* 
+
+.066 
+
+.232* 
+
+.012 
+
+.244 
+
+.146 
+
+-1.993* 
+
+.563 
+
+.-
+
+.-
+
+Expertise and Spillovers 
+Arts and crafts 
+
+.385* 
+
+.045 
+
+.-
+
+.-
+
+.-
+
+.-
+
+.-
+
+.-
+
+.-
+
+.-
+
+.-
+
+.-
+
+Running/jogging 
+
+.007 
+
+.056 
+
+.607* 
+
+.049 
+
+.-
+
+.-
+
+.-
+
+.-
+
+.-
+
+.-
+
+.-
+
+.-
+
+Video games 
+
+-.058* 
+
+.025 
+
+-.093* 
+
+.029 
+
+.551* 
+
+.053 
+
+.-
+
+.-
+
+.-
+
+.-
+
+.-
+
+.-
+
+Workout 
+
+.017 
+
+.047 
+
+.185* 
+
+.052 
+
+-.063* 
+
+.031 
+
+.808* 
+
+.053 
+
+.-
+
+.-
+
+.-
+
+.-
+
+Water sports 
+
+.000 
+
+.054 
+
+.036 
+
+.025 
+
+.107* 
+
+.041 
+
+.300* 
+
+.119 
+
+.483* 
+
+.082 
+
+.-
+
+.-
+
+State Dependency 
+Lag time use ( 
+
+j ) 
+
+.203* 
+
+.012 
+
+.487* 
+
+.133 
+
+.022* 
+
+.003 
+
+-2.977 
+
+3.695 
+
+1.769* 
+
+.093 
+
+.-
+
+.-
+
+SD of 
+j coefficient 
+
+.250 
+
+.400 
+
+.356 
+
+.186 
+
+.176 
+
+.113 
+
+.464* 
+
+.166 
+
+.133 
+
+.120 
+
+.-
+
+.-
+
+Monetary Cost 
+Monetary cost (mc 
+
+j ) 
+
+.032 
+
+.036 
+
+-.247* 
+
+.081 
+
+-.339* 
+
+.090 
+
+-.294* 
+
+.137 
+
+-.782* 
+
+.164 
+
+.-
+
+.-
+
+SD of mc 
+j coefficient 
+
+.282* 
+
+.118 
+
+.288* 
+
+.081 
+
+.134 
+
+.184 
+
+.423* 
+
+.145 
+
+.496* 
+
+.116 
+
+.-
+
+.-
+
+Control_Func Resid 
+
+.021* 
+
+.008 
+
+.381* 
+
+.170 
+
+-.043 
+
+.047 
+
+.814* 
+
+.260 
+
+.015 
+
+.089 
+
+.-
+
+.-
+
+Satiation 
+
+j 
+
+.443 
+
+.403 
+
+.401 
+
+.247 
+
+.482* 
+
+.081 
+
+.372* 
+
+.052 
+
+.492 
+
+2.352 
+
+.432 
+
+.284 
+
+AR(1) Error 
+
+j 
+
+-.165 
+
+.515 
+
+.234 
+
+.134 
+
+.574* 
+
+.156 
+
+.392 
+
+.284 
+
+-.574 
+
+.343 
+
+.077 
+
+.053 
+
+*Significant at .05. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" coords="11,54.00,429.40,494.02,307.83"><head>Table 5</head><label>5</label><figDesc>DETERMINANTS OF HEDONIC, SOCIAL, AND SELF-EFFICACY BENEFITS</figDesc><table coords="11,54.00,466.27,494.02,270.96">Arts and Crafts 
+Running/Jogging 
+Video Games 
+Workout 
+Water Sports 
+
+Parameter 
+Estimate 
+SE 
+Estimate 
+SE 
+Estimate 
+SE 
+Estimate 
+SE 
+Estimate 
+SE 
+
+Hedonic 
+Intercept 
+.076 
+13.027 
+.130 
+10.507 
+-.001 
+17.245 
+.124 
+3.165 
+.009 
+3.080 
+SD of intercept 
+.074 
+.100 
+.410* 
+.145 
+.186 
+.219 
+.029 
+.118 
+.255 
+.221 
+Lag expertise 
+.652* 
+.012 
+.653* 
+.015 
+.572* 
+.044 
+.646* 
+.013 
+.707* 
+.017 
+SD of lag expertise 
+.089* 
+.014 
+.264* 
+.018 
+.313* 
+.070 
+.154* 
+.018 
+.347* 
+.025 
+Exploration 
+.305* 
+.011 
+.278* 
+.015 
+.177* 
+.015 
+.327* 
+.012 
+.246* 
+.014 
+SD of exploration 
+.110* 
+.013 
+.254* 
+.018 
+.182* 
+.016 
+.169* 
+.016 
+.293* 
+.021 
+
+Social 
+Intercept 
+.057 
+6.489 
+.058 
+17.585 
+.065 
+4.688 
+.045 
+6.044 
+.061 
+12.847 
+SD of intercept 
+.768* 
+.264 
+.159 
+.134 
+.237 
+.173 
+.370* 
+.154 
+.163 
+.164 
+Lag expertise 
+.237* 
+.015 
+.263* 
+.013 
+.363* 
+.014 
+.250* 
+.013 
+.354* 
+.013 
+SD of lag expertise 
+.335* 
+.016 
+.258* 
+.015 
+.267* 
+.026 
+.301* 
+.020 
+.157* 
+.029 
+Exploration 
+.135* 
+.013 
+.230* 
+.013 
+.140* 
+.012 
+.213* 
+.012 
+.169* 
+.015 
+SD of exploration 
+.244* 
+.022 
+.196* 
+.016 
+.211* 
+.015 
+.306* 
+.026 
+.267* 
+.024 
+Friends like 
+.128* 
+.010 
+.106* 
+.010 
+.103* 
+.011 
+.125* 
+.010 
+.133* 
+.010 
+SD of friends like 
+.127* 
+.021 
+.142* 
+.015 
+.166* 
+.013 
+.191* 
+.013 
+.155* 
+.017 
+Family like 
+.121* 
+.011 
+.098* 
+.010 
+.043* 
+.010 
+.076* 
+.010 
+.112* 
+.011 
+SD of family like 
+.250* 
+.016 
+.171* 
+.014 
+.202* 
+.016 
+.186* 
+.017 
+.194* 
+.018 
+
+Self-Efficacy 
+Intercept 
+.120 
+15.406 
+.108 
+11.465 
+.115 
+35.339 
+.102 
+15.312 
+.142 
+7.219 
+SD of intercept 
+.092 
+.107 
+.371* 
+.139 
+.176 
+.130 
+.199 
+.125 
+.413* 
+.119 
+Lag expertise 
+.499* 
+.011 
+.525* 
+.014 
+.522* 
+.014 
+.526* 
+.013 
+.537* 
+.016 
+SD of lag expertise 
+.139* 
+.015 
+.210* 
+.018 
+.276* 
+.015 
+.139* 
+.018 
+.225* 
+.023 
+Exploration 
+.318* 
+.011 
+.356* 
+.013 
+.261* 
+.014 
+.326* 
+.012 
+.318* 
+.014 
+SD of exploration 
+.131* 
+.017 
+.256* 
+.019 
+.263* 
+.021 
+.187* 
+.019 
+.298* 
+.022 
+
+*Significant at .05. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8" coords="12,54.00,53.90,498.01,140.34"><head>Table 6</head><label>6</label><figDesc>EVOLUTION OF CONSUMER EXPERTISE</figDesc><table coords="12,54.00,91.28,498.01,102.96">Arts and Crafts 
+Running/Jogging 
+Video Games 
+Workout 
+Water Sports 
+
+Parameter 
+Estimate 
+SE 
+Estimate 
+SE 
+Estimate 
+SE 
+Estimate 
+SE 
+Estimate 
+SE 
+
+Estimates 
+Intercept 
+.399* 
+.025 
+.454* 
+.023 
+.437* 
+.026 
+.451* 
+.023 
+.342* 
+.021 
+SD of intercept 
+.037 
+.024 
+.011 
+.026 
+.060* 
+.026 
+.038 
+.026 
+.118 
+.023* 
+Lag expertise 
+.888* 
+.006 
+.856* 
+.007 
+.866* 
+.007 
+.847* 
+.007 
+.882* 
+.006 
+SD of lag expertise 
+.031* 
+.005 
+.024* 
+.006 
+.039* 
+.006 
+.044* 
+.007 
+.093* 
+.005 
+Lag time use 
+.039* 
+.004 
+.048* 
+.006 
+.025* 
+.002 
+.053* 
+.006 
+.036* 
+.010 
+SD of lag time use 
+.020* 
+.004 
+.030* 
+.006 
+.020* 
+.002 
+.038* 
+.005 
+.100* 
+.016 
+
+*Significant at .05. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9" coords="15,318.00,497.10,227.55,249.77"><head>Table B1 SCALE ITEMS</head><label>B1ITEMS</label><figDesc></figDesc><table coords="15,318.00,533.90,227.55,212.96">Scale 
+Measurement Items 
+
+Hedonic 
+This activity brings me relaxation. 
+I obtain a lot of pleasure from this activity. 
+This activity brings me excitement. 
+
+Social 
+All my friends want to do it. 
+This activity brings me socialization. 
+This activity reveals my group identity. 
+This activity is a family event. 
+
+Self-efficacy 
+This activity brings me self-fulfillment. 
+This activity brings me sense of achievement. 
+This activity reveals my personality. 
+I enjoy its competitiveness. 
+
+Expertise 
+Compared to the average person, I know a lot about 
+this activity. 
+I'm very familiar with this activity. 
+I am very skilled at performing this activity. 
+I know a lot about this activity. 
+I am very interested in this activity. 
+I own all equipment related to this activity. 
+
+Exploration 
+I am in the process of learning about this activity. 
+New activity for me-want to try it out. 
+I want to know more about this activity. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10" coords="16,318.00,424.56,233.02,292.05"><head>Table B2</head><label>B2</label><figDesc>WITHIN-SUBJECT VARIATION OF VARIABLES OVER TIME</figDesc><table coords="16,318.00,461.65,233.02,254.96">Number of 
+Observations M 
+SD 
+Min 
+Max 
+
+SD_time_a1 
+287 
+.985 
+.772 
+0 
+4.225 
+SD_time_a2 
+287 
+.743 
+.827 
+0 
+8.476 
+SD_time_a3 
+287 
+1.173 
+.834 
+0 
+3.844 
+SD_time_a4 
+287 
+.937 
+.937 
+0 
+8.239 
+SD_time_a5 
+287 
+.327 
+.567 
+0 
+3.648 
+SD_time_outside 
+287 
+1.706 
+.907 
+0 
+5.413 
+SD_hedonic_a1 
+287 
+.709 
+.224 
+0 
+1.405 
+SD_social_a1 
+287 
+.697 
+.219 
+0 
+1.310 
+SD_self_efficacy_a1 
+287 
+.698 
+.208 
+0 
+1.351 
+SD_expertise_a1 
+287 
+.639 
+.193 
+0 
+1.383 
+SD_hedonic_a2 
+287 
+.650 
+.310 
+0 
+1.355 
+SD_social_a2 
+287 
+.656 
+.244 
+0 
+1.389 
+SD_self_efficacy_a2 
+287 
+.653 
+.271 
+0 
+1.351 
+SD_expertise_a2 
+287 
+.637 
+.223 
+0 
+1.429 
+SD_hedonic_a3 
+287 
+.644 
+.275 
+0 
+1.364 
+SD_social_a3 
+287 
+.670 
+.220 
+0 
+1.331 
+SD_self_efficacy_a3 
+287 
+.655 
+.267 
+0 
+1.328 
+SD_expertise_a3 
+287 
+.584 
+.235 
+0 
+1.333 
+SD_hedonic_a4 
+287 
+.686 
+.310 
+0 
+1.485 
+SD_social_a4 
+287 
+.670 
+.244 
+0 
+1.344 
+SD_self_efficacy_a4 
+287 
+.685 
+.267 
+0 
+1.400 
+SD_expertise_a4 
+287 
+.654 
+.256 
+0 
+1.379 
+SD_hedonic_a5 
+287 
+.650 
+.309 
+0 
+1.554 
+SD_social_a5 
+287 
+.682 
+.247 
+0 
+1.428 
+SD_self_efficacy_a5 
+287 
+.620 
+.316 
+0 
+1.684 
+SD_expertise_a5 
+287 
+.636 
+.238 
+0 
+1.324 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11" coords="17,318.00,96.00,240.15,628.23"><head>Table B4 provides</head><label>B4</label><figDesc>the estimated variance-covariance matrix of the error terms from the time allocation model. Because our time allocation model already explicitly accounts for expertise spillovers and the substitution across</figDesc><table coords="17,318.75,96.00,226.50,151.45">∫ 
+∫ 
+∫ 
+∫ 
+∫ 
+∫ 
+∫ 
+∫ 
+
+∑ 
+
+∑ 
+
+η η Ψ Ψ 
+
+( ) 
+
+( 
+) ( 
+) 
+
+( 
+) 
+
+( ) ( ) ( ) ( ) ( ) 
+
+( ) 
+
+= 
+
+× 
++ ζ + 
+τ + γ 
+⎡ 
+⎣ ⎢ 
+
+⎤ 
+⎦ ⎥ 
+
+× 
+ζ 
+ζ 
+ζ 
+ζ 
+ζ 
+
+× 
+ζ 
+Ψ 
+
+τ = 
+τ ≥ 
+= 
+
+η η 
+
+η η 
+
+τ 
+ζ 
+ζ 
+ζ 
+ζ 
+ζ 
+ζ 
+
+τ 
+
+α 
+
+= 
+
+τ 
+
+τ 
+
+= 
+
+B 
+
+(B2) max U 
+
+(B2) max U 
+exp V 
+w 
+
+(B2) max U 
+dG 
+dG 
+dG 
+dG 
+dG 
+
+(B2) max U 
+dG 
+dF 
+dF 
+
+s.t. 
+T 
+0 j 1, ..., J, 
+
+B 
+
+B 
+
+it 
+
+it 
+ijt 
+ijt 
+ijt 
+ijt 
+j 
+
+j 1 
+
+J 
+
+it 
+i 1 t 
+i 2 t 
+i 3 t 
+i 4 t 
+i 5 t 
+
+it 
+i6t 
+i 
+i 
+
+ijt 
+
+j 1 
+
+J 
+
+it 
+ij 
+
+ijt 
+i6t 
+i5t 
+i4t 
+i3t 
+i2t 
+i1t 
+i 
+i 
+
+ijt 
+
+j 
+
+ijt 
+
+ijt 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12" coords="17,53.98,591.32,239.03,129.92"><head>Table B3</head><label>B3</label><figDesc>COMPARISON OF NESTED MODELS</figDesc><table coords="17,53.98,628.28,239.03,92.96">Hit 
+Mean 
+Rate Absolute 
+(%) 
+Error 
+
+Model 1: motives 
+72.7 
+1.19 
+Model 2: motives + expertise 
+77.6 
+1.09 
+Model 3: motives + expertise + state dependence 
+81.0 
+1.08 
+Model 4: motives + expertise + state dependence 
+81.5 
+1.03 
++ correlated AR(1) errors 
+Model 5: motives + expertise + state dependence 
+82.1 
+1.01 
++ correlated AR</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13" coords="18,54.00,180.31,499.29,126.92"><head>Table B4</head><label>B4</label><figDesc>VARIANCE-COVARIANCE MATRIX: MARGINAL CONSUMPTION UTILITY Standard error terms are in parentheses.</figDesc><table coords="18,54.00,217.28,499.29,89.96">Arts and Crafts 
+Running/Jogging 
+Video Games 
+Workout 
+Water Sports 
+Outside Alternative 
+
+Arts and crafts 
+.015 (.019) 
+Running/jogging 
+-.005 (.017) 
+.061 (.059) 
+Video games 
+.010 (.026) 
+-.033 (.045) 
+.534 (.353) 
+Workout 
+.018 (.027) 
+-.020 (.034) 
+.109 (.056) 
+.122* (.030) 
+Water sports 
+.057 (.084) 
+.659 (.962) 
+3.035 (3.027) 
+.779 (.418) 
+.875 (.511) 
+Outside alternative 
+.002 (.011) 
+.012 (.050) 
+.314 (.303) 
+.104 (.062) 
+3.888 (3.761) 
+102.630 (56.111) 
+
+*Significant at .05. 
+Notes: </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14" coords="18,54.00,324.16,470.67,399.92"><head>Table B5</head><label>B5</label><figDesc>ERROR TERM ESTIMATES RELATED TO EQUATIONS 7-9 *Significant at .05. Notes: Standard error terms are in parentheses.</figDesc><table coords="18,54.00,361.12,470.67,338.96">Hedonic 
+Social 
+Self-Efficacy 
+
+Arts and Crafts 
+AR(1) error intercept 
+.092 (3.749) 
+.107 (.816) 
+.117 (3.992) 
+AR(1) error z estimate 
+.712 (.011)* 
+.873 (.004)* 
+.741 (.009)* 
+Variance-Covariance Matrix 
+Hedonic 
+.274 (.008)* 
+Social 
+.041 (.004)* 
+.148 (.007)* 
+Self-efficacy 
+.122 (.005)* 
+.071 (.004)* 
+.236 (.008)* 
+
+Running/Jogging 
+AR(1) error intercept 
+.024 (1.423) 
+.083 (3.169) 
+.055 (1.453) 
+AR(1) error z estimate 
+.865 (.012)* 
+.820 (.011)* 
+.873 (.010)* 
+Variance-Covariance Matrix 
+Hedonic 
+.233 (.008)* 
+Social 
+.049 (.004)* 
+.135 (.006)* 
+Self-efficacy 
+.116 (.005)* 
+.073 (.004)* 
+.225 (.007)* 
+
+Video Games 
+AR(1) error intercept 
+.114 (2.100) 
+.112 (.652) 
+.086 (4.752) 
+AR(1) error z estimate 
+.879 (.034)* 
+.862 (.013)* 
+.865 (.010)* 
+Variance-Covariance Matrix 
+Hedonic 
+.210 (.010)* 
+Social 
+.050 (.004)* 
+.168 (.008)* 
+Self-efficacy 
+.091 (.005)* 
+.093 (.005)* 
+.236 (.008)* 
+
+Workout 
+AR(1) error intercept 
+.030 (.679) 
+.075 (.845) 
+.125 (2.810) 
+AR(1) error z estimate 
+.785 (.010)* 
+.860 (.011)* 
+.817 (.012)* 
+Variance-Covariance Matrix 
+Hedonic 
+.264 (.010)* 
+Social 
+.052 (.004)* 
+.121 (.006)* 
+Self-efficacy 
+.116 (.005)* 
+.075 (.004)* 
+.267 (.008)* 
+
+Water Sports 
+AR(1) error intercept 
+.089 (.309) 
+.095 (2.211) 
+.062 (1.092) 
+AR(1) error z estimate 
+.901 (.010)* 
+.828 (.001)* 
+.849 (.011)* 
+Variance-Covariance Matrix 
+Hedonic 
+.263 (.009)* 
+Social 
+.078 (.005)* 
+.186 (.008)* 
+Self-efficacy 
+.130 (.006)* 
+.099 (.005)* 
+.246 (.009)* 
+
+</table></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Copyright of Journal of Marketing Research (JMR) is the property of American Marketing</head><p>Association and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission. However, users may print, download, or email articles for individual use.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="19,54.00,302.28,240.10,7.91;19,63.00,312.67,231.03,7.91;19,63.00,323.07,97.65,7.91" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Application of the Theory of Planned Behavior to Leisure Choice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Ajzen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">L</forename><surname>Driver</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Leisure Research</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="207" to="224" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,54.00,333.46,239.78,7.91;19,63.00,343.86,231.01,7.91;19,63.00,354.25,28.92,7.91" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Dimensions of Consumer Expertise</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseph</forename><forename type="middle">W</forename><surname>Alba</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">Wesley</forename><surname>Hutchinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="411" to="54" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,54.00,364.65,240.12,7.91;19,63.00,375.04,231.00,7.91;19,63.00,385.44,81.50,7.91" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Estimating Non-Response Bias in Mail Surveys</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Scott</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Terry</forename><forename type="middle">S</forename><surname>Overton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="396" to="402" />
+			<date type="published" when="1977-08" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,54.00,395.83,240.09,7.91;19,63.00,406.23,231.01,7.91;19,63.00,416.62,112.90,7.91" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">River: Magic: Extraordinary Experience and the Service Encounter</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><surname>Arnould</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Linda</forename><surname>Price</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="24" to="45" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,54.00,427.02,240.00,7.91;19,63.00,437.41,139.73,7.91" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A Theory of the Allocation of Time</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><surname>Becker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Economic Journal</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">299</biblScope>
+			<biblScope unit="page" from="493" to="519" />
+			<date type="published" when="1965" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,54.00,447.81,240.04,7.91;19,63.00,458.20,230.98,7.91;19,63.00,468.60,231.00,7.91;19,63.00,478.99,59.99,7.91" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A Multiple Discrete-Continuous Extreme Value Model: Formulation and Application to Discretionary Time-Use Decisions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chandra</forename><forename type="middle">R</forename><surname>Bhat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Transportation Research</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="679" to="707" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note>Part B</note>
+</biblStruct>
+
+<biblStruct coords="19,54.00,489.39,240.04,7.91;19,63.00,499.78,230.81,7.91;19,63.00,510.18,231.02,7.91;19,63.00,520.57,73.49,7.91" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The Evolution of Brand Preferences: Evidence from Consumer Migration</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bart</forename><forename type="middle">J</forename><surname>Bronnenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Jean-Pierre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Matthew</forename><surname>Dubé</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gentzkow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2472" to="2508" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,54.00,530.97,240.07,7.91;19,63.00,541.36,230.84,7.91;19,63.00,551.76,196.40,7.91" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">An Exploration of High-Risk Leisure Consumption Through Sky-Diving</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><surname>Celsi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Randall</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><surname>Leigh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="23" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,54.00,562.15,240.05,7.91;19,62.99,572.55,230.99,7.91;19,62.99,582.94,116.64,7.91" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A Paradigm for Developing Better Measures of Marketing Constructs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gilbert</forename><forename type="middle">A</forename><surname>Churchill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="64" to="53" />
+			<date type="published" when="1979-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,53.99,593.34,240.06,7.91;19,62.98,603.73,231.06,7.91;19,62.97,614.13,230.91,7.91;19,62.97,624.52,120.73,7.91" xml:id="b9">
+	<monogr>
+		<title level="m" type="main">About Us</title>
+		<ptr target="https://www.craftandhobby.org/eweb/DynamicPage.aspx" />
+		<imprint>
+			<date type="published" when="2011-12-05" />
+		</imprint>
+		<respStmt>
+			<orgName>Craft and Hobby Association</orgName>
+		</respStmt>
+	</monogr>
+	<note>Site=cha&amp;WebKey=077a4ea7-7c8b-4de2-bd48-61e444916782</note>
+</biblStruct>
+
+<biblStruct coords="19,53.97,634.92,240.03,7.91;19,62.96,645.31,230.99,7.91;19,62.96,655.71,29.25,7.91" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Participation in the Arts by Black and White Americans</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><surname>Dimaggio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francie</forename><surname>Ostrower</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Forces</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="753" to="78" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,53.96,666.10,240.03,7.91;19,62.96,676.50,230.96,7.91;19,62.96,686.89,134.89,7.91" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Household Life Cycles and Lifestyles in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rex</forename><forename type="middle">Y</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Kamakura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="121" to="153" />
+			<date type="published" when="2006-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,53.96,697.29,240.06,7.91;19,62.96,707.68,230.92,7.91;19,62.96,718.08,196.72,7.91" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">State Dependence and Alternative Explanations for Consumer Inertia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jean-Pierre</forename><surname>Dubé</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Günter</forename><forename type="middle">J</forename><surname>Hitsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><forename type="middle">E</forename><surname>Rossi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RAND Journal of Economics</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="417" to="462" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,317.95,287.18,240.07,7.91;19,326.95,297.20,230.83,7.91;19,326.95,307.22,76.99,7.91" xml:id="b13">
+	<monogr>
+				<ptr target="http://www.theesa.com/facts/index.asp" />
+		<title level="m">Entertainment Software Association</title>
+		<imprint>
+			<date type="published" when="2011-12-05" />
+		</imprint>
+	</monogr>
+	<note>Industry Facts</note>
+</biblStruct>
+
+<biblStruct coords="19,317.95,317.23,239.91,7.91;19,326.95,327.25,210.46,7.91;19,317.95,337.27,240.02,7.91;19,326.95,347.29,231.03,7.91;19,326.95,357.30,231.00,7.91;19,326.95,367.32,35.24,7.91;19,317.95,377.34,239.86,7.91;19,326.95,387.35,231.00,7.91;19,326.95,397.37,44.24,7.91" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Decision-Making Under Uncertainty: Capturing Dynamic Brand Choice Processes in Turbulent Consumer Goods Markets</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tülin</forename><surname>Erdem</surname></persName>
+		</author>
+		<idno>1-20. ---and Baohong Sun</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business and Economic Statistics</title>
+		<editor>Michael P. Keane</editor>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="142" to="52" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note>Marketing Science</note>
+</biblStruct>
+
+<biblStruct coords="19,317.95,407.39,240.00,7.91;19,326.95,417.40,88.38,7.91" xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Econometric Analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">H</forename><surname>Greene</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>Prentice Hall</publisher>
+			<pubPlace>Upper Saddle River, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,317.95,427.42,239.82,7.91;19,326.95,437.44,230.97,7.91;19,326.95,447.46,159.25,7.91" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The Demand for Variety: A Household Production Perspective</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Reuben</forename><surname>Gronau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">S</forename><surname>Hamermesh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Review of Economics and Statistics</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="562" to="72" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,317.95,457.47,239.80,7.91;19,326.95,467.49,230.98,7.91;19,326.95,477.51,231.14,7.91;19,326.95,487.52,230.95,7.91;19,326.95,497.54,112.82,7.91" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Weekly Rhythm in Joint Time Expenditure for All At-Home and Out-of-Home Activities: Application of Kuhn-Tucker Demand System Model Using Multi-Week Travel Diary Data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Habib</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kay</forename><forename type="middle">W</forename><surname>Axhausen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Transportation Research Record</title>
+		<imprint>
+			<biblScope unit="page" from="64" to="73" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,317.95,507.56,240.05,7.91;19,326.95,517.57,170.24,7.91" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Direct Estimates of Household Production</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><forename type="middle">S</forename><surname>Hamermesh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economics Letters</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="31" to="34" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,317.95,527.59,240.02,7.91;19,326.95,537.61,231.04,7.91;19,326.95,547.63,121.49,7.91;19,317.95,557.64,240.11,7.91;19,326.95,567.66,231.09,7.91;19,326.95,577.68,231.01,7.91;19,326.95,587.69,230.98,7.91;19,326.95,597.71,194.57,7.91;19,317.95,607.73,240.06,7.91;19,326.95,617.83,231.06,7.72;19,326.95,627.76,230.86,7.91;19,326.95,637.78,90.25,7.91" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The Incidental Parameters Problem and the Problem of Initial Conditions in Estimating a Discrete Time-Discrete Data Stochastic Process</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">J</forename><surname>Heckman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Structural Analysis of Discrete Panel Data with Econometric Applications</title>
+		<editor>C.F. Manski and D. McFadden</editor>
+		<meeting><address><addrLine>Cambridge, MA; Cambridge, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT Press</publisher>
+			<date type="published" when="1981" />
+			<biblScope unit="page" from="114" to="78" />
+		</imprint>
+	</monogr>
+	<note>Structural Analysis of Discrete Panel Data with Econometric Applications</note>
+</biblStruct>
+
+<biblStruct coords="19,317.95,647.80,240.02,7.91;19,326.95,657.81,230.93,7.91;19,326.95,667.83,231.00,7.91;19,326.94,677.85,29.25,7.91" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Individual Differences in Leisure Satisfactions: An Investigation of Theories of Leisure Motivation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Hills</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Argyle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Reeves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Personality and Individual Differences</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="763" to="99" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,317.94,687.86,239.98,7.91;19,326.94,697.88,231.16,7.91;19,326.94,707.90,231.31,7.91;19,326.94,717.91,231.01,7.91" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Play as a Consumption Experience: The Roles of Emotions, Performance, and Personality in the Enjoyment of Games</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Morris</forename><forename type="middle">B</forename><surname>Holbrook</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Robert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Terence</forename><forename type="middle">A</forename><surname>Chestnut</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><forename type="middle">A</forename><surname>Oliva</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Greenleaf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="728" to="767" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,286.41,154.32,39.19,9.25" xml:id="b22">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B6</forename><surname>Table</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,201.99,167.76,208.05,7.40" xml:id="b23">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">ERROR TERM ESTIMATES RELATED TO EQUATION</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,161.13,191.28,49.74,6.86;19,242.45,191.28,55.11,6.86;19,332.77,191.28,42.49,6.86;19,424.60,191.28,26.82,6.86;19,501.28,191.28,41.46,6.86;19,54.00,205.20,47.50,7.03;19,165.00,205.20,41.67,7.03" xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Arts and Crafts Running/Jogging Video Games Workout Water Sports Arts and crafts</title>
+		<imprint>
+			<biblScope unit="volume">487</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,62.00,256.20,60.90,7.03;19,62.00,265.20,149.96,7.03;20,54.00,54.20,239.81,7.91;20,63.00,64.20,231.00,7.91;20,63.00,74.19,117.40,7.91" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Allocating Discretionary Time: Complementarity Among Activities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><forename type="middle">R</forename><surname>Lehmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">*Significant at .05. Notes: Standard error terms are in parentheses</title>
+		<imprint>
+			<date type="published" when="1981" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="395" to="406" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,54.00,84.19,239.86,7.91;20,63.00,94.19,230.99,7.91;20,62.99,104.19,35.24,7.91" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">How Consumers Consume: A Typology of Consumption Practice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Douglas</forename><forename type="middle">B</forename><surname>Holt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,53.99,114.19,240.15,7.91;20,62.99,124.19,231.07,7.91;20,62.99,134.19,171.90,7.91" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Poststructuralist Lifestyle Analysis: Conceptualizing the Social Patterning of Consumption in Postmodernity</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="326" to="50" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,53.99,144.19,239.95,7.91;20,62.99,154.19,150.73,7.91" xml:id="b28">
+	<monogr>
+		<title level="m" type="main">The Theory of Buyer Behavior</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">A</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jagdish</forename><surname>Sheth</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1969" />
+			<publisher>John Wiley &amp; Sons</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,53.99,164.19,240.05,7.91;20,62.99,174.19,230.99,7.91;20,62.99,184.18,231.08,7.91;20,62.99,194.18,58.01,7.91" xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Short Run Needs and Long Term Goals: A Dynamic Model of Thirst Management</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guofang</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ahmed</forename><surname>Khwaja</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Sudhir</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+		<respStmt>
+			<orgName>Yale University</orgName>
+		</respStmt>
+	</monogr>
+	<note>Cowles Foundation Discussion Paper No. 1856</note>
+</biblStruct>
+
+<biblStruct coords="20,53.99,204.18,240.05,7.91;20,62.99,214.18,230.80,7.91;20,62.99,224.18,165.15,7.91" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Time and Consumer Behavior: An Interdisciplinary Overview</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jacob</forename><surname>Jacoby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">George</forename><forename type="middle">J</forename><surname>Szybillo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Carol</forename><forename type="middle">K</forename><surname>Berning</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="320" to="359" />
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,53.99,234.18,240.00,7.91;20,62.99,244.18,230.63,7.91" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Brand Choice Inertia as One Aspect of the Nation of Brand Loyalty</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Abel</forename><forename type="middle">P</forename><surname>Jeuland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Management Science</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="671" to="82" />
+			<date type="published" when="1979" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,53.98,254.18,240.11,7.91;20,62.98,264.18,231.12,7.91;20,62.98,274.18,230.37,7.91" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The Allocation of Time: Empirical Findings, Behavioral Models, and Problems of Measurement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Juster</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frank</forename><forename type="middle">P</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Stafford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Economic Literature</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="471" to="522" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,53.98,284.17,239.95,7.91;20,62.98,294.17,231.00,7.91;20,62.98,304.17,148.64,7.91;20,53.98,314.17,240.03,7.91;20,62.98,324.17,230.98,7.91;20,62.98,334.17,143.73,7.91" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">American Time-Styles: A Finite-Mixture Allocation Model for Time-Use Analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wagner</forename><forename type="middle">A</forename><surname>Kamakura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Wiley International Encyclopedia of Marketing, Jagdish Sheth and Naresh Malhotra</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="332" to="61" />
+		</imprint>
+	</monogr>
+	<note>Common Methods Bias</note>
+</biblStruct>
+
+<biblStruct coords="20,53.98,344.17,240.02,7.91;20,62.98,354.17,231.00,7.91;20,62.98,364.17,44.24,7.91" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Modeling Consumer Demand for Variety</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Greg</forename><forename type="middle">M</forename><surname>Jaehwan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><forename type="middle">E</forename><surname>Allenby</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Rossi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="229" to="50" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,53.98,374.17,239.84,7.91;20,62.98,384.16,230.99,7.91;20,62.98,394.16,72.23,7.91" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">On the Validation of Lifestyle Traits: A Review and Illustration</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">L</forename><surname>Lastovicka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="126" to="164" />
+			<date type="published" when="1982-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,53.98,404.16,240.05,7.91;20,62.98,414.16,230.88,7.91;20,62.98,424.16,230.99,7.91;20,62.97,434.16,59.99,7.91" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Measuring Leisure Motivation: A Meta-Analysis of the Recreation Experience Preference Scales</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Manfredo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">L</forename><surname>Driver</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Tarrant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Leisure Research</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="180" to="213" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,53.97,444.16,239.97,7.91;20,62.97,454.16,231.02,7.91;20,62.97,464.16,159.64,7.91" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">A Guide to Conducting Behavioral Research on Amazon&apos;s Mechanical Turk</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Winter</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Siddharth</forename><surname>Suri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral Research Methods</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="23" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,53.97,474.15,239.75,7.91;20,62.97,484.15,230.99,7.91;20,62.96,494.15,50.99,7.91" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">A Dynamic Attribute Satiation Model of Variety-Seeking Behavior</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Leigh</forename><surname>Mcalister</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="141" to="51" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,53.96,504.15,239.99,7.91;20,62.96,514.15,231.02,7.91;20,62.96,524.15,43.91,7.91" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Variety Seeking Behavior: An Interdisciplinary Review</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">---</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edgar</forename><surname>Pessemier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="311" to="333" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,53.96,534.15,240.09,7.91;20,62.96,544.15,231.00,7.91;20,62.96,554.15,132.40,7.91" xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The Assessment of Alternative Measures of Consumer Expertise</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><forename type="middle">A</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Dacin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="219" to="258" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,53.96,564.15,240.02,7.91;20,62.95,574.14,28.02,7.91" xml:id="b41">
+	<monogr>
+		<title level="m" type="main">The Nine American Lifestyles</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arnold</forename><surname>Mitchell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983" />
+			<publisher>Warner</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,53.95,584.14,240.05,7.91;20,62.94,594.14,230.89,7.91;20,62.94,604.14,169.89,7.91" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Running Experiments on Amazon Mechanical Turk</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gabriele</forename><surname>Paolacci</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jesse</forename><surname>Chandler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Panagiotis</forename><forename type="middle">G</forename><surname>Ipeirotis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Judgment and Decision Making</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="411" to="430" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,54.14,240.02,7.91;20,326.93,64.14,231.01,7.91;20,326.93,74.14,174.89,7.91" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">A Control Function Approach to Endogeneity in Consumer Choice Models</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amil</forename><surname>Petrin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kenneth</forename><surname>Train</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="3" to="13" />
+			<date type="published" when="2010-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,84.14,239.78,7.91;20,326.93,94.14,231.00,7.91;20,326.93,104.14,231.07,7.91;20,326.93,114.14,231.00,7.91;20,326.93,124.14,48.74,7.91" xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Common Method Biases in Behavioral Research: A Critical Review of the Literature and Recommended Remedies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Philip</forename><forename type="middle">M</forename><surname>Podsakoff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeong-Yeon</forename><surname>Mackenzie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nathan</forename><forename type="middle">P</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Podsakoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Psychology</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="879" to="903" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,134.13,240.03,7.91;20,326.93,144.13,201.56,7.91" xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The Economics of Consumer Knowledge</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brian</forename><forename type="middle">T</forename><surname>Ratchford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="397" to="411" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,154.13,240.10,7.91;20,326.93,164.13,231.01,7.91;20,326.93,174.13,29.25,7.91" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Special Possessions and the Expression of Material Values</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marsha</forename><surname>Richins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="522" to="555" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,184.13,239.82,7.91;20,326.93,194.13,230.84,7.91;20,326.93,204.13,231.00,7.91;20,326.93,214.13,129.39,7.91" xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Cross-Sectional Versus Longitudinal Survey Research: Concepts, Findings, and Guidelines</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Rindfleisch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alan</forename><forename type="middle">J</forename><surname>Aric</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shankar</forename><surname>Malter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christine</forename><surname>Ganesan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Moorman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="261" to="79" />
+			<date type="published" when="2008-06" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,224.13,240.00,7.91;20,326.93,234.13,144.48,7.91" xml:id="b48">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><forename type="middle">A</forename><surname>Samuelson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">D</forename><surname>Nordhaus</surname></persName>
+		</author>
+		<title level="m">Microeconomics</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>McGraw-Hill/Irwin</publisher>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,244.12,240.03,7.91;20,326.93,254.12,231.05,7.91;20,326.93,264.12,171.21,7.91;20,317.93,274.12,240.05,7.91;20,326.93,284.12,231.05,7.91;20,326.93,294.12,230.98,7.91;20,326.93,304.12,33.75,7.91" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Modeling Multiple Sources of State Dependence in Random Utility Models: A Distributed Lag Approach</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">B</forename><surname>Seetharaman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<editor>Andrew Ainslie, and Pradeep K. Chintagunta</editor>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="488" to="500" />
+			<date type="published" when="1999-11" />
+		</imprint>
+	</monogr>
+	<note>Marketing Science</note>
+</biblStruct>
+
+<biblStruct coords="20,317.93,314.12,240.06,7.91;20,326.93,324.12,231.05,7.91;20,326.93,334.12,231.09,7.91;20,326.93,344.11,230.95,7.91;20,326.93,354.11,74.00,7.91" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">An Analysis of Children&apos;s Leisure Activity Engagement: Examining the Day of Week, Location, Physical Activity Level, and Fixity Dimensions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ipek</forename><forename type="middle">N</forename><surname>Sener</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Rachel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ram</forename><forename type="middle">M</forename><surname>Copperman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chandra</forename><forename type="middle">R</forename><surname>Pendyala</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bhat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Transportation</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="673" to="96" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,364.11,240.04,7.91;20,326.93,374.11,231.07,7.91;20,326.93,384.11,231.00,7.91;20,326.93,394.19,230.82,7.72;20,326.93,404.11,231.02,7.91;20,326.93,414.11,73.76,7.91" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Cheap and Fast-but Is It Good? Evaluating Non-Expert Annotations for Natural Language Tasks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rion</forename><surname>Snow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O&amp;apos;</forename><surname>Brendan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniel</forename><surname>Conner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><forename type="middle">Y</forename><surname>Jurafsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Conference on Empirical Methods in Natural Language Processing</title>
+		<meeting>the Conference on Empirical Methods in Natural Language Processing<address><addrLine>Stroudsburg, PA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="254" to="63" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,424.11,239.91,7.91;20,326.93,434.11,231.01,7.91;20,326.93,444.10,230.92,7.91;20,326.93,454.10,196.82,7.91" xml:id="b52">
+	<analytic>
+		<title level="a" type="main">An Analysis of Weekly Out-of-Home Discretionary Activity Participation and Time Use Behavior</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Erika</forename><surname>Spissu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Abdul</forename><forename type="middle">Rawoof</forename><surname>Pinjari</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chandra</forename><forename type="middle">R</forename><surname>Bhat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ram</forename><forename type="middle">M</forename><surname>Pendyala</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kay</forename><forename type="middle">W</forename><surname>Axhausen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Transportation</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="483" to="510" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,464.10,239.99,7.91;20,326.93,474.10,229.55,7.91" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">De Gustibus Non Est Disputandum</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">George</forename><surname>Stigler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><forename type="middle">B</forename><surname>Becker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The American Economic Review</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="76" to="90" />
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,484.10,239.99,7.91;20,326.93,494.10,231.02,7.91;20,326.93,504.10,150.90,7.91" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">On the Meaning of Leisure: An Investigation of the Subjective Experience</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lynete</forename><surname>Unger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jerome</forename><forename type="middle">B</forename><surname>Kernan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="381" to="92" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,514.10,239.93,7.91;20,326.93,524.10,231.01,7.91;20,326.93,534.10,18.25,7.91" xml:id="b55">
+	<monogr>
+		<title level="m" type="main">American Time Use Survey</title>
+		<ptr target="http://www.bls.gov/tus/" />
+		<imprint>
+			<date type="published" when="2009-10-22" />
+		</imprint>
+		<respStmt>
+			<orgName>U.S. Department of Labor</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,544.09,240.00,7.91;20,326.93,554.09,155.99,7.91;20,317.93,564.09,240.00,7.91;20,326.93,574.09,149.39,7.91" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Psychographics: A Critical Review</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><surname>Wells</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ed</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Life Style and Psychographics</title>
+		<meeting><address><addrLine>Chicago</addrLine></address></meeting>
+		<imprint>
+			<publisher>American Marketing Association</publisher>
+			<date type="published" when="1974" />
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="196" to="213" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,317.93,584.09,240.03,7.91;20,326.93,594.09,230.99,7.91;20,326.93,604.09,231.01,7.91;20,326.93,614.09,68.99,7.91" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Simple Solutions to the Initial Conditions Problem in Dynamic, Nonlinear Panel Data Models with Unobserved Heterogeneity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><forename type="middle">M</forename><surname>Wooldridge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Econometrics</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="39" to="54" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

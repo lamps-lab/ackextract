@@ -1,0 +1,1607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2017-02">February 2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rebecca</forename><forename type="middle">W</forename><surname>Hamilton</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roland</forename><forename type="middle">T</forename><surname>Rust</surname></persName>
+							<email>rrust@rhsmith.umd.edu.michel</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michel</forename><surname>Wedel</surname></persName>
+							<email>mwedel@rhsmith.umd.edu</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chekitan</forename><forename type="middle">S</forename><surname>Dev</surname></persName>
+							<email>chekitan.dev@cornell.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Excellence in Service and the Center for Complexity in Business</orgName>
+								<orgName type="department" key="dep2">Robert H. Smith School of Business</orgName>
+								<orgName type="institution">University of Maryland</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">School of Hotel Administration</orgName>
+								<orgName type="institution">Cornell University</orgName>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of Marketing Research</title>
+						<imprint>
+							<biblScope unit="volume">LIV</biblScope>
+							<biblScope unit="page" from="96" to="110"/>
+							<date type="published" when="2017-02">February 2017</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1509/jmr.14.0364</idno>
+					<note>*Rebecca W. Hamilton is Michael G. and Robin Psaros Chair in Business Administration and Professor of Marketing, McDonough School of Business, Georgetown University (e-mail: rebecca.hamilton@georgetown.edu). Roland T. Rust is Distinguished University Professor and David Bruce Smith Chair in Marketing, and Executive Director of the Wedel is PepsiCo Chair in Consumer Science, Robert H. Smith School of Business, University of Maryland Conference for their helpful comments. Thanks also to Rick Adie, General Manager of the Statler Hotel at Cornell University, for benchmarking data and to Jess Pettit and James Kim for their help with data analysis and preparation of the figure. Coeditor: Robert Meyer; Associate Editor: Peter Verhoef.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:02+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>service amenities</term>
+					<term>service marketing</term>
+					<term>return on investment</term>
+					<term>financial impact</term>
+					<term>hotel management</term>
+					<term>brand standards</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Firms often vie for competitive advantage by providing additional services (amenities) to their customers. Although extant research has focused on the effect of adding amenities on choice, return on service amenities may arise from two sources: increased initial choice and increased revenues from repurchase. The authors develop a return on investment (ROI) model to capture how service amenities produce financial return from these two sources. They apply the model to hotel amenities, using a discrete choice experiment and a large-scale customer database developed in collaboration with a multibrand global hotel company. The authors employ a hierarchical Bayesian formulation to estimate the parameters. They use the estimation results to compare ROI for three amenities for six brands and find that returns vary across amenities, and returns on a single amenity can vary substantially across brands. The authors validate the results for one amenity against the ROI from the actual historical implementation of that amenity using a natural experiment with a before/after design with controls. The present research demonstrates that the return on service amenities model provides a useful decision tool for managers deciding which amenities are most profitable.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Return on Service Amenities</head><p>Firms often vie for competitive advantage by providing additional services-referred to in some industries as amenities-to their customers. Within the hotel industry, for example, the U.S. Internal Revenue Service (2013) defines amenities as services or items offered to guests at no extra cost with the goal of increasing the hotel's appeal, enhancing a guest's stay, or encouraging guests to return. Such amenities can boost revenues by increasing both initial sales and customer retention, but firms incur costs to provide them. Because the costs of offering an amenity are not defrayed by usage fees, firms must carefully consider whether they receive a sufficient return on investment (ROI) from installing and maintaining each amenity. Consider the following scenarios:</p><p>1. The manager of a hotel brand is trying to figure out whether each of its properties should have a swimming pool. A pool might increase the attractiveness of the properties when guests choose among hotels in the area, but will it increase the likelihood that guests return? The costs of installation and upkeep are substantial. How can the manager figure out whether swimming pools pay off? 2. An international airline currently offers free luggage pickup for first-class passengers. This service is not currently being marketed, so it is unlikely to attract new passengers to the airline. Are passengers who use this service more likely to fly with the airline in the future, or should the operations manager consider discontinuing it because of its high cost?</p><p>As these scenarios illustrate, returns from service amenities arise from two sources: increased initial choice revenue and increased revenues from repurchase. Extant research provides guidance for predicting the effect of adding a feature or an amenity on the initial attractiveness of an offering (e.g., <ref type="bibr" coords="2,264.93,65.08,29.14,8.75;2,54.94,76.07,96.29,8.75" target="#b2">Bertini, Ofek, and Ariely 2009;</ref><ref type="bibr" coords="2,153.69,76.07,140.29,8.75;2,54.94,87.02,23.84,8.75" target="#b6">Carpenter, Glazer, and Nakamoto 1994;</ref><ref type="bibr" coords="2,82.71,87.02,109.18,8.75" target="#b25">Ofek and Srinivasan 2002;</ref><ref type="bibr" coords="2,195.59,87.02,98.47,8.75;2,54.94,97.96,80.30,8.75" target="#b37">Van Oest, Van Heerde, and Dekimpe 2010;</ref><ref type="bibr" coords="2,137.70,97.96,85.96,8.75" target="#b39">Victorino et al. 2005)</ref>. However, these predictions may not accurately capture the degree to which adding features or amenities will increase repurchase <ref type="bibr" coords="2,263.11,119.90,30.95,8.75;2,54.94,130.84,84.13,8.75" target="#b22">(Meyer, Zhao, and Han 2008;</ref><ref type="bibr" coords="2,141.59,130.84,152.47,8.75" target="#b30">Rust, Thompson, and Hamilton 2006;</ref><ref type="bibr" coords="2,54.94,141.84,136.35,8.75" target="#b35">Thompson, Hamilton, and Rust 2005)</ref>. Revenues from repurchase are especially critical for service businesses, which typically involve ongoing customer relationships <ref type="bibr" coords="2,198.08,163.72,87.58,8.75" target="#b28">(Rust and Huang 2014)</ref>. We add to prior research examining the effects of features and amenities on consumer choice by isolating the distinct effects the same amenity may have on different stages of the choice process. Some amenities, such as the swimming pool mentioned previously, may have a strong effect on initial choice but a weaker effect on repurchase, while others, such as the free luggage pickup service, may have a weak effect on initial choice and a stronger effect on repurchase. The manager's goals, the proportion of new versus repeat customers, the costs of these amenities, and the strengths of their effects on initial and repeat purchases should all enter into the manager's decision about whether to begin or continue offering these amenities.</p><p>In this article, we build a model of the financial return resulting from offering a service amenity. We take into account the effect of the amenity on both initial choice and increased revenue from repeat business. For repeat business, we consider both the frequency of repeat purchase and the increased revenue conditional on repeat purchase. Our model enables decision makers to evaluate the financial return from an amenity in terms of ROI and net present value <ref type="bibr" coords="2,247.94,393.90,24.41,8.75">(NPV)</ref>. We apply the model in the context of hotel amenities using data from a large-scale discrete choice experiment and a longitudinal customer data set created in collaboration with a multibrand global hotel company. We use a hierarchical Bayesian model of purchase frequency and future revenue conditional on purchase, which is kept relatively simple to facilitate its implementation in practice. We use the estimation results as well as information about market share, proportion of new and returning guests, and costs of amenities to compute the financial returns from offering each of three amenities. Finally, we validate our results for one amenity through a natural experiment in which we compare historical revenue for properties that introduced the amenity with those that did not.</p><p>The hotel industry offers an interesting context to study amenities because competing brands tend to engage in "amenity wars," with each one looking for the next great offering that will drive trial, market share, and loyalty <ref type="bibr" coords="2,197.41,580.19,49.75,8.75" target="#b36">(Trejos 2011)</ref>. Even with the proliferation of amenities offered, some customers complain of too few amenities (e.g., absence of free Wi-Fi), while hotel owners complain of too many (e.g., having to offer free coffee makers and bottled water in the rooms) and resist investing in them. Decisions to add amenities are especially contentious in an industry in which the hotel property is often owned by an entity different from the brand name on the building. For example, a hotel might be owned by a pension fund but branded by Marriott. Whereas brand managers, under the guise of "brand standards," want to load the hotel with amenities to make their offering as attractive as possible, hotel owners want to limit the number of amenities to keep their costs in check. In addition to the increase in service complexity created by adding amenities, there is much debate on whether and when offering additional amenities improves financial return <ref type="bibr" coords="2,451.73,65.08,63.19,8.75" target="#b21">(McNichol 2005)</ref>.</p><p>In the next section, we review previous work examining the financial returns of investing in amenities as well as other marketing activities and identify initial purchase and repurchase as two sources of financial return that are influenced by offering amenities. Next, we describe a model of how ROI emerges from offering a service amenity. We describe the discrete choice experiment we conducted and the longitudinal data set we created in collaboration with a global hotel company, our estimation results, and financial returns for three illustrative amenities across multiple hotel brands. Finally, we validate our findings for one of the amenities we studied using a field experiment, discuss the implications of our findings, and describe how our model can be applied to other industries with similar characteristics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ROI IN SERVICE AMENITIES</head><p>Evaluating the financial impact of marketing activities is imperative for marketers <ref type="bibr" coords="2,423.44,262.37,133.64,8.75;2,317.93,273.36,23.61,8.75" target="#b14">(Hanssens, Rust, and Srivastava 2009;</ref><ref type="bibr" coords="2,407.34,273.36,145.60,8.75" target="#b34">Srivastava, Shervani, and Fahey 1999)</ref>, and especially for service marketers <ref type="bibr" coords="2,457.29,284.31,64.08,8.75" target="#b0">(Anderson 2006)</ref>. Returnon-investment models enable firms to evaluate the cost-benefit trade-off of investing in a new initiative such as improving service quality <ref type="bibr" coords="2,379.39,317.19,99.13,8.75" target="#b31">(Rust and Zahorik 1993;</ref><ref type="bibr" coords="2,482.18,317.19,74.88,8.75;2,317.93,328.13,72.13,8.75" target="#b32">Rust, Zahorik, and Keiningham 1995)</ref>, investing in service to increase customer equity <ref type="bibr" coords="2,347.53,339.13,146.48,8.75" target="#b29">(Rust, Lemon, and Zeithaml 2004)</ref>, or enhancing customer acquisition (Van Oest, Van Heerde, and Dekimpe 2010). Such models assume that firms focus on the financial implications of investing in alternative initiatives and that it is possible to either overinvest or underinvest in one initiative relative to others. Intelligent marketing investment decisions depend on the ability to evaluate financial return from each potential investment.</p><p>Traditional marketing research methods, such as conjoint analysis, estimate the financial return of product and service improvements solely through their effects on initial choice (e.g., <ref type="bibr" coords="2,342.03,459.66,108.98,8.75" target="#b25">Ofek and Srinivasan 2002)</ref>. Prior research on financial return from service amenities has largely adopted this approach (e.g., <ref type="bibr" coords="2,368.73,481.54,81.49,8.75" target="#b39">Victorino et al. 2005)</ref>. However, because service typically involves ongoing customer relationships <ref type="bibr" coords="2,518.68,492.54,38.36,8.75;2,317.94,503.48,51.94,8.75" target="#b28">(Rust and Huang 2014)</ref>, financial return from investments in service plays out over time <ref type="bibr" coords="2,392.83,514.42,53.77,8.75" target="#b3">(Bolton 1998;</ref><ref type="bibr" coords="2,448.50,514.42,80.47,8.75" target="#b4">Boulding et al. 1993;</ref><ref type="bibr" coords="2,530.82,514.42,26.35,8.75;2,317.94,525.42,108.08,8.75" target="#b12">Gupta, Lehmann, and Stuart 2004;</ref><ref type="bibr" coords="2,429.17,525.42,103.37,8.75" target="#b13">Gupta and Zeithaml 2006)</ref>. This implies that calculations of financial return for services must consider the impact of the amenity not only on the initial attractiveness of the service but also on repeat purchases.</p><p>Previous work has suggested that the effects of adding amenities on initial purchases may differ from their effects on repurchase <ref type="bibr" coords="2,362.38,591.19,149.85,8.75" target="#b35">(Thompson, Hamilton, and Rust 2005)</ref>. However, this previous work does not isolate the effect of individual features or amenities on repurchase or estimate the financial implications of adding or removing amenities. Next, we consider the distinct effects of amenities on initial choice and repurchase.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effect of Amenities on Initial Choice</head><p>Focusing first on the initial attractiveness of a service, we know that adding more features or amenities often favorably affects consumers' decisions to choose goods and services <ref type="bibr" coords="2,317.93,711.72,118.63,8.75" target="#b23">(Mukherjee and Hoyer 2001;</ref><ref type="bibr" coords="2,440.84,711.72,116.19,8.75" target="#b24">Nowlis and Simonson 1996;</ref><ref type="bibr" coords="2,317.93,722.66,152.69,8.75" target="#b35">Thompson, Hamilton, and Rust 2005)</ref>. For example, when customers choose a hotel, airline, or theme park, their choices may be influenced by amenities or star attractions (Van Oest, Van Heerde, and Dekimpe 2010) in addition to core attributes such as location or price. While some of the additional services offered by service providers have associated usage fees (e.g., airlines may offer meals at an additional charge; Bertini, Ofek, and Ariely 2009), we focus on amenities that are offered to all customers without an additional charge. Thus, in accordance with the Internal Revenue Service (2013) definition cited previously, the goal of offering amenities is to attract and retain customers, and we can think of customer choices among services as choices among bundles of attributes that include both core attributes and amenities. For example, customers typically pay one price to gain access to all of the attractions within a theme park, and they may compare parks on the basis of location, price, and new rides (Van Oest, Van Heerde, and Dekimpe 2010). Under these conditions, adding amenities tends to increase the initial choice of goods and services, even when the differentiation is trivial <ref type="bibr" coords="3,110.94,251.42,110.66,8.75" target="#b5">(Brown and Carpenter 2000;</ref><ref type="bibr" coords="3,224.53,251.42,69.58,8.75;3,54.94,262.37,78.90,8.75" target="#b6">Carpenter, Glazer, and Nakamoto 1994)</ref>. To maximize initial choice, it is better to offer more amenities <ref type="bibr" coords="3,137.43,273.31,147.85,8.75" target="#b35">(Thompson, Hamilton, and Rust 2005)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effect of Amenities on Repeat Purchase</head><p>In contrast, the effect of adding service amenities on repeat purchases may not be linear even if customers evaluate each amenity favorably. As more attractions are added to a theme park, customers may not have time to experience them all, or the park may become so large that it is overwhelming for customers to navigate. Unfortunately, very little research has examined postpurchase product usage <ref type="bibr" coords="3,210.27,372.01,83.78,8.75;3,54.94,382.95,22.77,8.75" target="#b33">(Shih and Venkatesh 2004)</ref> or feature usage <ref type="bibr" coords="3,144.34,382.95,42.49,8.75" target="#b9">(Fan 2013;</ref><ref type="bibr" coords="3,189.24,382.95,85.01,8.75" target="#b11">Ghose and Han 2011;</ref><ref type="bibr" coords="3,276.66,382.95,17.37,8.75;3,54.94,393.90,44.19,8.75" target="#b17">Kim et al. 2010;</ref><ref type="bibr" coords="3,101.93,393.90,113.00,8.75" target="#b22">Meyer, Zhao, and Han 2008)</ref>. Even less research has examined how consumers' use of features affects repurchase. In a lab setting, <ref type="bibr" coords="3,143.66,415.83,150.46,8.75" target="#b35">Thompson, Hamilton, and Rust (2005)</ref> measure the effects of more versus fewer features on subsequent choice, <ref type="bibr" coords="3,116.05,437.78,130.19,8.75" target="#b22">and Meyer, Zhao, and Han (2008)</ref> measure the effects of features on willingness to pay. However, it is unclear how adding features or amenities affects customer repurchase decisions in day-to-day contexts.</p><p>One challenge is that even if amenities are offered to customers without charge, customers still make choices about whether to use the amenities. For example, a hotel may offer a fitness center free of charge, and guests can either use the facility or choose not to do so during their stay. This choice about usage highlights the distinction between upgrades and amenities. Upgrades, such as luxury sheets on a hotel bed, are used whenever guests use the core offerings of the hotel (i.e., the bed). In contrast, guests choose whether to use amenities such as a fitness center, wireless Internet access, and bottled water.</p><p>Because customers make postpurchase decisions about whether to use amenities, it is important to understand how introducing an amenity affects not only initial purchase decisions but also future purchase decisions. Prior research has suggested that consumers may have difficulty predicting how many amenities they will actually use <ref type="bibr" coords="3,203.07,656.95,91.03,8.75;3,54.93,667.89,22.25,8.75" target="#b22">(Meyer, Zhao, and Han 2008;</ref><ref type="bibr" coords="3,81.30,667.89,152.63,8.75" target="#b35">Thompson, Hamilton, and Rust 2005)</ref>. If consumers choose a hotel or airline because it offers a specific amenity but then fail to use it, the presence of the amenity may have a different effect on repurchase than if they had used the amenity. For example, consider a guest who makes a point of choosing a hotel with a fitness center and packs workout clothing and shoes. If he or she then does not use the fitness center, the guest is likely to leave the hotel feeling dissatisfied. However, a guest who has no expectation to find bottled water provided in the room but enjoys some during his or her stay might be pleased and more likely to choose the same hotel brand in the future. Thus, to understand the effects of offering service amenities on repurchase, we need to consider the joint effects of expected use and actual use of the amenities.</p><p>In summary, comprehensively computing the financial returns of offering an amenity requires consideration of several factors, as <ref type="figure" coords="3,362.49,163.73,34.23,8.75" target="#fig_0">Figure 1</ref> illustrates. Purchase for a focal service occasion is a function of expected amenity use as well as past purchases and revenues. Next, during the focal service occasion, the customer chooses to use (or not use) the amenity. We propose that repeat purchase is influenced jointly by whether the customer expected to use and whether (s)he actually used the amenity during the focal service occasion. Thus, in our model, future purchases and revenue are predicted by expected amenity use and actual amenity use during the focal service occasion as well as by past purchases and revenue.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MODEL OF RETURN ON SERVICE AMENITIES</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Management Scenario</head><p>We consider the two related scenarios described previously (regarding a hotel brand and an airline). In the first scenario, the firm is considering adding a service amenity. In the second scenario, the firm already has installed the amenity but is considering its elimination.</p><p>To evaluate the financial return that would result from offering a new amenity, the firm would conduct market research (e.g., survey, conjoint analysis) with both customers and noncustomers to make predictions about how offering the amenity would affect initial choice. Next, to measure how offering an amenity would affect repurchase and future revenues, the firm would conduct a test in which the amenity is offered in selected service locations (e.g., one or more properties within a hotel brand, one or more flights on an airline).  Customers would be surveyed before and after experiencing the service, past visit and revenue information would be obtained from the firm's customer database, and future visit and revenue information would be obtained for an equivalent period following the service experience. The approach is similar when the firm has already installed the amenity and is considering removing it. In this case, the data requirements are the same, but the service locations analyzed may be all (or a sample) of those in which the amenity is being offered.</p><p>In the next two subsections, we describe how initial sales, S I , from first-time customers and repeat sales, S R , from existing customers are influenced by amenity use. Total sales, S T , is the sum of initial and repeat sales (S T = S I + S R ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Initial Sales</head><p>Consistent with common practice in marketing, we assume that initial choice of a brand, j, from among L brands is a function of its vector of attributes, X, and the vector of importance weights, b <ref type="bibr" coords="4,135.50,262.37,64.70,8.75" target="#b18">(Lancaster 1966)</ref>. Using typical extreme value error assumptions, P i,j , the probability of initial choice of brand j by customer i can be written as follows:</p><formula xml:id="formula_0" coords="4,54.93,296.36,161.16,35.30">P i,j = exp À X i,j b Á ålexp À X i,l b Á :<label>(1)</label></formula><p>These attributes, X i,j , include both core attributes and K amenities. From this formulation, the expected effect of amenity m on the initial choice probability of the brand is reflected in the amenity-specific coefficient</p><formula xml:id="formula_1" coords="4,54.93,370.02,239.10,40.16">, b m , such that ¶P i,j ¶b m = b m P i,j À 1 − P i,j Á :<label>(2)</label></formula><p>We can approximate the initial choice probability for brand j when amenity m is offered using the market share for brand j, MS j . This enables us to estimate P −m , the decrease in initial choice probability for brand j when amenity m is not present:</p><formula xml:id="formula_2" coords="4,54.93,459.92,164.17,17.61">P −m = b m MS j À 1 − MS j Á :<label>(3)</label></formula><p>If S I is the initial sales that the firm accrues when the amenity is offered, then the initial sales that the firm would accrue if the amenity were not offered, S I −m , is</p><formula xml:id="formula_3" coords="4,54.93,525.25,154.02,11.90">S I −m = ð1 − P −m ÞS I :<label>(4)</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Future Visits and Future Revenue</head><p>Amenity use may affect revenue from repeat sales either by increasing future purchases and/or by increasing the revenue obtained, given a particular number of purchases. For ease of exposition, we refer to purchases as "visits" because this is the term used in the hotel industry, which we use for our empirical analysis. Thus, for each customer i, we model the frequency of future visits, y i , and future revenue, R i . We assume that the number of future visits follows a Poisson distribution:</p><formula xml:id="formula_4" coords="4,54.94,659.27,147.49,23.54">Prðy i Þ = r yi i e −r i y i ! ,<label>(5)</label></formula><p>where r i is the expected number of return visits. In line with Equation <ref type="formula" coords="4,94.05,700.77,3.74,8.75" target="#formula_4">5</ref>, the probability f i that customer i will return at least once is f i = 1 − e −r i . Revenue, R i , conditional on number of return visits, y i , is modeled as a zero-inflated log-normal distribution. With probability 1 − f i , we have R i = 0, and with probability f i , we have</p><formula xml:id="formula_5" coords="4,317.93,75.20,200.39,32.69">fðR i jy i Þ = 1 R i s R ffiffiffiffiffiffi ffi 2f i p exp ( − ½lnðR i Þ − m i 2 2s 2 R ) : (6)</formula><p>The parameters characterizing these distributions, r i and m i , are parameterized using their canonical link functions, and future visits and future revenue are predicted by unobserved customer heterogeneity, control variables, and expected and actual use of K amenities: lnðr i Þ = a 0,i + x 0 i a 1 + z 0 i a 2,bðiÞ , and (7)</p><formula xml:id="formula_6" coords="4,317.93,199.22,163.26,12.25">m i = b 0,i + x 0 i b 1 + z 0 i b 2,bðiÞ :<label>(8)</label></formula><p>In Equations 7 and 8, a 0,i~N ða 0 , s 2 a 0 Þ and b 0,i~N ðb 0 , s 2 b 0 Þ are random intercept terms that capture unobserved customer heterogeneity. Next, x i is a ðP × 1Þ vector of control variables for customer i including historical values of the dependent variable in question (i.e., past visits in Equation 7 and past revenue in Equation 8), and a 1 and b 1 are the coefficients.</p><p>The third term in Equations 7 and 8 captures the effects of expected and actual use of K amenities by customer i. Because expected and actual use of each amenity are likely to jointly affect visits and revenue <ref type="figure" coords="4,414.48,317.93,34.34,8.75" target="#fig_0">(Figure 1</ref>), we use a factor model for them with factor scores z i . Coefficients a 2,bðiÞ and b 2,bðiÞ capture the brand-specific effect of z i for the focal brand visited by customer i: bðiÞ = 1, :::, B, where z i is a ðQ × 1Þ vector of factor scores derived from the factor model for the expected and actual usage of K amenities.</p><p>We assume that expected use of each of K amenities is measured once prior to a visit and that actual use is measured once after the same visit. Furthermore, we assume that the expected and actual use variables for each amenity for each customer i, v i = v i,1:2K , are binary and follow Bernoulli distributions:</p><formula xml:id="formula_7" coords="4,317.93,450.62,170.97,17.95">Pr À v i,k Á = q vi,k i,k À 1 − q i,k Á 1−vi,k :<label>(9)</label></formula><p>q i = q i,1:2K , the ð2K × 1Þ vector of parameters of these distributions, is modeled according to a factor structure, using the probit link function:</p><formula xml:id="formula_8" coords="4,317.93,513.86,155.10,11.11">F −1 ðq i Þ = l 0 + Lz i :<label>(10)</label></formula><p>In Equation 10, z i is a vector of factor scores, l 0 is a ð2K × 1Þ vector of intercepts, and L is a ð2K × QÞ matrix of factor weights. Because actual and expected use are typically very highly correlated, they may reasonably be expected to load on the same factor, leading to K factors, one for each amenity (our empirical example confirms this). We assume that the factor scores are normally distributed: z i,k~N ð0, 1Þ: The model thus involves a confirmatory structure of L with expected use and actual use of each amenity loading on the same factor.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effect of Amenities on Future Revenue</head><p>To calculate the effect of an amenity m on future revenue, we can compute the difference in expected future revenue with and without the amenity. If z i is the vector of factor scores for customer i, then the expected future revenue with the amenity can be obtained from inserting z i , along with the covariates, into Equations 5-8. The visit distribution is obtained from Equation 5, and then the expected future revenue, R i , can be obtained from Equation 6 and the properties of the log-normal distribution:</p><formula xml:id="formula_9" coords="5,54.94,91.95,226.36,27.27">EðR i Þ = å ' yi = 0 Prðy i ÞEðR i jy i Þ = ð1 − e −r i Þexp m i + s 2 R 2 : (11)</formula><p>Next, we can compute expected future revenue without the amenity. Let z i,m be the factor score for amenity m for customer i. If amenity m is not offered, the factor score, z i,m , must be zero. Denoting the future revenue without amenity m as R i,−m , we have</p><formula xml:id="formula_10" coords="5,54.93,189.64,192.90,53.37">E À R i,−m Á = å ' yi = 0 Pr À y i,−m Á E À R i,−m jy i,−m Á = ð1− e −r i, − m Þexp m i,−m + s 2 R 2 ,<label>(12)</label></formula><p>where y i,−m and R i,−m are obtained by replacing the mth factor score with zero in Equations 5-8, and r i,−m and m i,−m are the resulting r i and m i if the amenity is not present. Denoting R and R −m as the expected total future revenue across the sample with and without amenity m, respectively, we calculate the expansion factor, G, by which amenity m multiplies repeat sales:</p><formula xml:id="formula_11" coords="5,54.94,336.27,140.80,8.86">G = R=R −m ,<label>(13)</label></formula><formula xml:id="formula_12" coords="5,54.94,352.28,159.55,37.43">where R = å i EðR i Þ, and<label>(14)</label></formula><formula xml:id="formula_13" coords="5,54.93,396.93,154.98,23.68">R −m = å i E À R i,−m Á : (15)</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Financial Return</head><p>Next, we compute financial return by comparing the effect of the amenity on revenue from both initial choice by new customers and repeat purchases by existing customers with the costs of providing the amenity. The company typically has internal data on the number of customers, N, and average repeat sales per customer, S, resulting in a total repeat sales, S R = N × S. From Equation 13, we can then project the total repeat sales if the amenity is not present:</p><formula xml:id="formula_14" coords="5,54.93,545.38,138.26,21.63">S R −m = S R G :<label>(16)</label></formula><p>The firm also typically knows the proportion, q, of its revenues that comes from initial sales. Combining Equations 4 and 16, we get</p><formula xml:id="formula_15" coords="5,54.94,613.41,166.89,11.95">S T −m = qS I −m + ð1 − qÞS R −m :<label>(17)</label></formula><p>This gives us the revenue side, but there is also the cost side to consider. Let C I,m be the costs of installing amenity m, let C A,m be annual maintenance costs for amenity m, and let C U,m be the cost per customer use of amenity m. If u m is the proportion of guests who use the amenity, then the total annual cost is</p><formula xml:id="formula_16" coords="5,54.94,694.91,170.18,9.45">AC m = C A,m + u m N × C U,m :<label>(18)</label></formula><p>If PM is the profit margin as a proportion of sales, the annual profit, p m , from amenity m is</p><formula xml:id="formula_17" coords="5,317.93,46.91,171.82,18.04">p m = PM À S T − S T −m Á − AC m :<label>(19)</label></formula><p>ROI. If we assume, conservatively, that a manager would like to evaluate the financial returns of investing in an amenity based on a one-year payback, we can compute annual ROI 1 in amenity m as</p><formula xml:id="formula_18" coords="5,317.93,114.83,185.65,16.70">ROI m = À p m − C I,m ÁÀ AC m + C I,m Á : (20)</formula><p>NPV. If the manager is confident that the amenity will continue to produce the same profit for multiple periods (i.e., no significant changes in the competitive context), the NPV of investing in amenity m can be computed. For a time horizon of H periods, a discount rate of r, and cash flows at a constant rate and continuous over time, we can calculate NPV m using the standard discounted cash flow equation as</p><formula xml:id="formula_19" coords="5,317.93,216.91,190.24,49.17">NPV m = Z H 0 p m expð−rtÞdt − C I,m = − p m r ½expð−rHÞ − 1 − C I,m :<label>(21)</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPLICATION: RETURN ON HOTEL AMENITIES</head><p>We tested this model of return on service amenities in collaboration with a global hotel company whose managers wished to evaluate the financial return from service amenities for several brands. We selected three amenities and conducted a discrete choice experiment with both customers and noncustomers to estimate the effect of these amenities on initial choice. We also created a longitudinal data set including 36 months of visit and revenue data for each customer who responded to a prestay and poststay survey about his or her predicted and actual use of hotel amenities during a specific stay at one of the company's brands.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Selection of Amenities</head><p>We chose three amenities that are of particular interest within the hotel industry and have very different cost structures: in-room bottled water, in-room Internet access, and fitness center. Providing bottled water in guest rooms has very low installation costs (the company works with a vendor that loads the inventory directly onto housekeeping cleaning carts, eliminating any storage space requirements) and low annual maintenance costs (incremental labor costs for replacement of bottles in guest rooms); the largest cost is the per usage cost of the water. In contrast, while providing in-room Internet access has low installation costs and virtually no incremental cost per use, the annual maintenance costs for the service, paid to a third-party vendor, are relatively high. Finally, the fitness center amenity has relatively high installation costs (purchase of furnishings and equipment), moderate annual maintenance costs (labor costs and planned replacement of equipment), and moderate per usage costs (cleaning as well as providing towels and a drinking water dispenser).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data</head><p>Discrete choice experiment. To estimate the effect of offering amenities on guests' initial choices of the brand, we designed a discrete choice experiment in which participants chose among hotel profiles that varied on attributes known to play a critical role in hotel choice (location, price and loyalty program membership; <ref type="bibr" coords="6,146.10,223.36,83.18,8.75" target="#b39">Victorino et al. 2005</ref>) as well as the three amenities we selected (free bottled water, free in-room Internet, and free fitness center). We created hotel profiles that varied independently on these attributes with two levels for each attribute ( <ref type="table" coords="6,129.90,267.24,27.75,8.75" target="#tab_1">Table 1</ref>). The JMP software 2 was used to generate two choice sets consisting of five choices with four options for each choice. Participants were randomly assigned to one of the two choice set conditions so that each participant made five choices and saw a total of 20 options.</p><p>To ensure that both brand customers and noncustomers participated in the study, the discrete choice experiment was embedded in Forrester Research's 2014 U.S. Omnibus Online Survey. Respondents were a nationally representative sample of 5,090 U.S. business and leisure travelers between 18 and 88 years of age who completed the survey online in December 2014. Thirty-eight percent reported taking at least one business trip involving an overnight stay within the past 12 months, and 71% reported taking at least one leisure trip involving an overnight stay within the past 12 months. If participants reported taking at least one business trip within the past 12 months, they were assigned to the business condition (N = 1,944), and if they did not, they were assigned to the leisure condition (N = 3,146). Participants were asked to "imagine that you are choosing a hotel for an upcoming business (vacation) trip. You will be staying in the hotel for two nights."</p><p>Longitudinal customer data set. Next, to estimate the effects of offering amenities on future visits and revenues, we worked closely with the global hotel company to conduct a large-scale survey of guests who stayed at one of 33 North American properties over an eight-week period. These properties were selected to span different price tiers (upscale, upper upscale, and luxury) as well as different brands, geographic areas (East Coast, Midwest, and West Coast), and types of properties (urban, suburban, and resort). To ensure consistency in provision of amenities and reporting, all of the properties included were company owned. A total of 3,043 guests responded to a prestay survey describing their expected amenity use approximately one week prior to their stay, and 3,111 guests responded to a poststay survey describing their actual amenity use approximately one week after their stay. Of these respondents, 782 guests responded to both surveys, providing us with a matched data set.</p><p>In the prestay survey, guests were asked to predict whether they would use each of 50 different amenities and services (e.g., automated check-in, lobby seating, in-room Internet access, fitness center) during their upcoming stay (sevenpoint scale anchored by "definitely will not use it" and "definitely will use it"; responses were recoded into a binary variable with 1 indicating expected use and 0 indicating expected nonuse). In the poststay survey, guests were asked to report whether they actually used the same 50 amenities and services (seven-point scale anchored by "did not use it at all" and "used it"; responses were recoded into a binary variable with 1 indicating use and 0 indicating nonuse). In both surveys, we also measured demographic variables such as gender, age, loyalty program membership, and purpose of stay (business, leisure, or combination). The Appendix provides a list of the 50 surveyed amenities and services.</p><p>We created a longitudinal data set by combining the survey data indicating expected and actual use of amenities with guestlevel data collected by the hotel company, including 18 months of prior monthly stays and monthly revenue as well as 18 months of subsequent monthly stays and monthly revenue. 3 After eliminating respondents for whom we did not have full data on the control variables, our data set included 765 respondents.</p><p>We obtained cost data for the three focal amenities from the hotel company, including costs for their initial installation, annual maintenance costs, and per usage costs. We benchmarked these cost data using industry sources and found that the global hotel company's costs were in line with industry standards.</p><p>We obtained market share and annual guest and revenue data for each brand, the proportion of new versus returning guests for each brand, and its profit margin and discount rate. We obtained market share data for each brand by combining company data and data on industry-standard competitive sets from Smith Travel Research; market shares ranged from 1% to 13%. We benchmarked the brand-level revenue and guest data we obtained against published sources <ref type="bibr" coords="6,465.11,574.07,91.95,8.75;6,317.94,585.01,41.00,8.75" target="#b1">(Applegate, Piccoli, and Dev 2008;</ref><ref type="bibr" coords="6,362.20,585.01,89.42,8.75" target="#b8">Dev and Stroock 2007)</ref>, and found that these data were consistent with metrics for brands in the same segments. We used industry-level estimates for profit margin <ref type="bibr" coords="6,509.75,606.95,47.30,8.75;6,317.94,617.89,17.82,8.75" target="#b7">(Damodaran 2016</ref>) and the discount rate used to evaluate new investments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Estimation</head><p>Discrete choice experiment. We used a conditional logit model (Equation 1) to estimate the effect of each of the factors we varied on participants' choices in the discrete choice Notes: Standard errors in parentheses; all estimates are significant at p &lt; .001.</p><p>2 http://www.jmp.com/en_us/software.html. <ref type="bibr" coords="6,325.93,696.60,2.99,5.25">3</ref> We have changed the numbers of properties, numbers of unique guests, proportion of new guests, and annual revenues per unique guest to protect the identity of the global hotel company we worked with. These are reported within 10% of their true values. experiment. <ref type="table" coords="7,102.84,54.13,29.02,8.75" target="#tab_1">Table 1</ref> reports the coefficients for the full data set as well as for participants assigned to the business and leisure scenarios.</p><p>Longitudinal customer data set. We used the longitudinal customer data set to simultaneously estimate the visit frequency and revenue models in Equations 5-8, allowing for unobserved individual heterogeneity and controlling for past visits/revenue, gender, age, loyalty program membership, and purpose of stay. The dependent variables were the frequency of visits to the focal brand, y i , aggregated over the 18 months after customers completed the survey and revenue from stays at the focal brand (using the natural logarithm of the dollar value, which is approximately normal) for the 18 months after the survey, R i , similarly aggregated.</p><p>As described previously, we account for correlation between each respondent's expected and actual amenity use by incorporating a factor structure into the model, as shown in Equations 9 and 10. An exploratory factor analysis of the six expected and actual usage variables showed that three factors cleanly separate and capture expected and actual use of the three amenities (in-room Internet access, fitness center, and bottled water); initial eigenvalues exceeded 1 for only three factors, which explain 68% of the variance, and loadings of the expected and actual usage variables on their respective factors exceeded .76 in all cases. We therefore specify a confirmatory factor model with three factors, one for each of the three amenities (m = 1: water, m = 2: Internet, m = 3: fitness), with the factor weights matrix L in Equation 10 specified as </p><p>For each factor, we set the first factor weight, corresponding to the actual use of the amenity, to 1 in order to identify the model.</p><p>We accounted for customer heterogeneity in two ways. First, we allowed for unobserved customer heterogeneity in Equations 7 and 8 by including a separate intercept for each customer in the visit (a 0,i Þ and revenue ðb 0,i Þ equations, where a 0,i~N ða 0 , s 2 a 0 Þ and b 0,i~N ðb 0 , s 2 b 0 Þ. Second, we controlled for the effects of a vector of control variables including indicators for gender, age, loyalty program membership, and business or leisure traveler, as well as the value of the dependent variable in question in the presurvey period (i.e., visit frequency in the visit model and revenue in the revenue model) aggregated over 18 months, which have associated coefficients a 1 and b 1 in the visit and revenue Equations 7 and 8.</p><p>We accounted for heterogeneity across brands by assuming that parameters that capture the effects of the three amenity factors are different across brands, reflecting differences in the impact of the amenities between them. This enabled us to compute return on amenities separately for each brand.</p><p>The visit frequency (Equations 5 and 7), conditional revenue (Equations 6 and 8), and factor model (Equations 9 and 10) equations were simultaneously estimated with WinBUGS <ref type="bibr" coords="7,54.94,689.26,70.03,8.75" target="#b20">(Lunn et al. 2000)</ref>, using 50,000 draws, of which 20,000 are used as a burn-in, and 1 in 10 were retained. We used Nð0, 10 3 Þ priors for all parameters and hyperparameters in Equations 7 and 8, Nð0, 10 3 Þ for the intercepts in Equation 10, Nð0; 1Þ for the factor weights in Equation 10, and IGð:1, :1Þ priors for the variance parameters. Convergence was checked with standard methods; convergence was achieved well before the end of the burn-in. <ref type="table" coords="7,349.77,87.02,28.29,8.75" target="#tab_2">Table 2</ref> reports posterior means and standard deviations of the parameters.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Estimation Results</head><p>Initial choice. <ref type="table" coords="7,386.08,130.90,29.87,8.75" target="#tab_1">Table 1</ref> shows that among all of the factors we varied in the discrete choice experiment (location, price, loyalty program membership, free in-room Internet, free fitness center, and free in-room bottled water), the Internet amenity had the strongest effect on choice, whether participants imagined they were taking a business or leisure trip. The price of the hotel (lowest of the set vs. average of set) had the next strongest impact, followed by location (event is in adjoining building vs. a few blocks away) and loyalty program membership. Among the factors we varied, the fitness center amenity and bottled water amenity had the weakest (though still highly significant) effects on choice. Overall, the results were quite similar for those assigned to the business and leisure scenarios; quite predictably, though, price had a stronger effect for leisure travelers and loyalty program had a stronger effect for business travelers. Thus, the in-room Internet amenity seems to have a strong effect on initial choice, whereas the fitness center and bottled water amenities have weaker effects on initial choice.</p><p>Repeat purchases. <ref type="table" coords="7,403.94,339.08,29.87,8.75" target="#tab_2">Table 2</ref> shows that prior visits, gender, and loyalty program membership are significant predictors of subsequent visits. In addition, the factor capturing expected and actual use of bottled water is a significant predictor of future visits to Upper Upscale Brand 1 and Upper Upscale Brand 2. The conditional revenue model shows fewer significant effects. Controlling for visits, past revenue is a significant predictor of conditional future revenues. The factor capturing expected and actual use of bottled water is a marginal predictor of conditional future revenue for Luxury Brand 3. We validated these results using a similar Bayesian model that combined data across brands as well as simple ordinary least squares regressions on visit frequency and log revenue conditional on visit; for all of these models, the same control variables were significant and only the bottled water factor was a significant predictor.</p><p>The estimated weight for expected use of bottled water on the first factor was .73 (SE = .34), the weight of expected use of wireless on the second factor was 2.07 (SE = .46), and that of expected fitness center usage on the third factor was 1.64 (SE = .42). Thus, of the three, the factor related to the bottled water amenity shows the least influence of expected usage and, as a consequence, the greatest influence of actual usage. Of the three amenities, we also observe the strongest effects of the bottled water amenity on repeat visits and revenue. The bottled water amenity has a significant effect on subsequent visits for both of the upper upscale brands and a marginal effect on conditional revenue for one of the three luxury brands. Neither of the other two amenities shows significant effects on repeat purchases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Computation of Financial Return</head><p>Although these parameter estimates are noteworthy, they do not directly answer our questions about whether offering specific amenities results in a positive or negative financial return for the organization. To compute the financial return for specific brands offering specific amenities, we performed the following set of computations using our parameter estimates. These computations can be done using only an Excel spreadsheet, a tool familiar to most managers.</p><p>First, we computed the loss of initial choice if each amenity was not present, using Equation 3. <ref type="table" coords="8,190.72,415.83,29.42,8.75" target="#tab_1">Table 1</ref> gives the expected coefficient vectors, b, containing amenity-specific coefficients b m from our discrete choice experiment, from which we computed the expected effect of removing amenity m on the initial choice probability, using the market share for each brand as the initial choice probability with the amenity.</p><p>Next, we computed the effect of each amenity on expected revenue from repeat choice using Equations 7, 8, 11, and 12. To compute the revenue impact (including both the effect on return visits and the effect on revenue conditional on a visit) of offering an amenity, we compared expected total future revenue with the amenity (Equation 14) to expected total future revenue without the amenity <ref type="formula" coords="8,168.89,547.36,48.60,8.75" target="#formula_0">(Equation 15</ref>). This gives us the "expansion factor" by which offering an amenity influences repeat sales (Equation 13).</p><p>Finally, using internal company data on average annual revenue per guest, annual number of guests, proportion of new versus repeat guests, amenity costs (initial costs, maintenance costs and cost per use), proportion of guests using each amenity, profit margin, and discount rate, we computed the financial return from individual amenities (Equations 16-21). In the following subsections, we report the financial returns for the three amenities of interest: bottled water, in-room Internet access and fitness center.</p><p>Bottled water. To estimate the effect of offering bottled water on initial choice among hotel brands, we computed P −m for each brand. Consistent with the weak effect of this amenity on initial choice, estimates of P −m were small, ranging from 0% to 3%.</p><p>In contrast, our estimation using our longitudinal customer data set shows that offering bottled water has a significant effect on repeat choice. <ref type="figure" coords="8,407.23,382.95,31.91,8.75" target="#fig_2">Figure 2</ref> compares the effect of offering the bottled water amenity on the probability of initial choice and on expected repeat purchase for each brand. As <ref type="table" coords="8,526.90,404.89,30.15,8.75" target="#tab_4">Table 3</ref> shows, the expansion factor, G, was quite high for three of the brands, suggesting that offering the amenity has a strong positive effect on repeat stays. However, for the three other brands, the expansion factor was very close to 1, suggesting that those who used the amenity were no more likely to return than those who did not.</p><p>We received cost data for bottled water for each of the properties in our sample, which we used to create cost estimates at the brand level. According to the hotel company, the initial costs of offering this amenity are very minimal. The company contracts with a service provider that delivers bottled water to each property in a form that can be loaded directly onto housekeeping carts. Initial installation costs (for developing procedures and training staff) are estimated to be $1,000 per property. Annual maintenance costs (for loading the housekeeping carts and replacing bottles in rooms) are estimated to be $10 per room. Per usage costs vary slightly across brands, as <ref type="table" coords="8,387.78,602.13,30.15,8.75" target="#tab_4">Table 3</ref> shows, but average about $.25 per 500 mL bottle. Our inquiries with a hospitality supply company and industry experts indicate that these costs are in line with industry standards.</p><p>Using these inputs, our model shows that the ROI ratio (Equation 20) for providing the bottled water amenity is positive and higher than the discount rate for five of the brands, but negative for one brand. For example, for Upper Upscale Brand 1, our customer survey data suggest that 46% of guests expect to use bottled water and 27% actually use it during their stay. Approximately 5 million guests at this brand's North American properties, 62% of whom are new customers, contribute an average of about $500 each to annual revenues. Using our parameter estimates, we predict that initial choice of this brand would fall by approximately 3% if the brand were to stop offering bottled water. Even if bottled water had no effect on initial choice of the brand, the expansion factor suggests that future revenues from existing brand customers would decrease by approximately 1% if the brand did not offer bottled water.</p><p>Using an operating margin (earnings before interest and tax, divided by sales) of 15%, we derive an ROI ratio of 2.99 4 for Upper Upscale Brand 1 (meaning that there is a $2.99 return for each $1 spent) from the combined effects on initial choice and effects on return visits from current guests.</p><p>In-room Internet access. To estimate the effect of offering in-room Internet access on initial choice among hotel brands, we computed P −m for each brand. Consistent with the strong effect of this amenity on initial choice that we observed in the discrete choice experiment, estimates of P −m were larger than those for bottled water, ranging from 2% to 17%.</p><p>In contrast, our estimation using the longitudinal customer data set shows that offering in-room Internet access has only a weak effect on repeat choice. <ref type="figure" coords="9,434.66,141.84,32.88,8.75" target="#fig_2">Figure 2</ref> illustrates the effect of offering the in-room Internet amenity on the probability of initial choice and expected repeat purchase for each brand. As <ref type="table" coords="9,317.93,174.66,29.02,8.75" target="#tab_5">Table 4</ref> shows, the expansion factor, G, was very close to 1 for four of the brands, suggesting that offering the amenity has no effect on repeat stays. For two other brands, one upper upscale and one luxury brand, the expansion factor was positive, suggesting that those who used the amenity were more likely to return than those who did not. However, because of the lack of significance in the parameter estimates for this amenity across brands, these results should be interpreted with caution.</p><p>Drawing on conversations with the hotel company about its contracts with Internet service providers, we estimate that the initial costs to install the amenity are $350 per property, maintenance costs are $6.50 per room per month, and per use costs are $0. Costs for this amenity do not vary across brands, meaning that differences in returns across brands are fully driven by the amenity's effect on revenues.</p><p>The ROI ratio for offering this amenity is positive and well above the firm's discount rate for five of the six brands, suggesting that these brands should offer the amenity. This is largely driven by the positive effects of this amenity on initial choice. However, as <ref type="table" coords="9,397.30,393.90,28.91,8.75" target="#tab_5">Table 4</ref> shows, returns differ substantially across brands. The ROI ratio is lowest (negative) for Upscale Brand 1 and highest for Luxury Brand 3. For example, for Luxury Brand 2, our customer survey data suggest that 71% of this brand's guests expect to use in-room Internet access and 48% actually use it during their stay. The brand's approximately 125,000 annual guests at ten North American properties contribute an average of $1,600 each to annual revenues. Using our parameter estimates, we predict that initial choice of this brand would fall by approximately 3% if the brand were to stop offering free in-room Internet access. However, beyond the effect of in-room Internet access on initial choice of the brand, our estimates suggest that future revenues from existing brand customers would not change if the brand did not offer free in-room Internet access. Using an operating margin (earnings before interest and tax, divided by sales) of 15%, we derive an ROI ratio of 3.12 for Luxury Brand 2 due to the effects of this amenity on initial choice.</p><p>Given that the proportion of guests using the amenity and the effects on initial choice and effects on future revenues from existing customers are so similar, why is the ROI ratio for Upscale Brand 1 (−.49) so much lower than that for Luxury Brand 2 (3.12)? The difference in expected returns across brands is driven primarily by differences in the value of a customer (annual revenue per unique guest), which is many times higher for Luxury Brand 2 than for Upscale Brand 1, making up for the relatively high annual maintenance costs.</p><p>Fitness center. To estimate the effect of offering a fitness center on initial choice among hotel brands, we computed P −m for each brand. Consistent with the weak effect of this amenity on initial choice, estimates of P −m ranged from 0% to 3%.  Similarly, our estimation using our longitudinal customer data set shows that offering a fitness center has a weak effect on repeat choice. <ref type="figure" coords="10,114.12,256.07,34.23,8.75" target="#fig_2">Figure 2</ref> compares the effect of offering the fitness center amenity on the probability of initial choice and expected repeat purchases for each brand. As <ref type="table" coords="10,234.71,278.18,29.76,8.75" target="#tab_6">Table 5</ref> shows, the expansion factor, G, was very close to 1 for four of the brands, suggesting that offering the amenity has almost no effect on repeat stays. For two of the brands, one upscale and one luxury brand, the expansion factor was positive, suggesting that those who used the amenity were more likely to return than those who did not. However, we should again interpret these results with caution because of the lack of significance in the parameter estimates.</p><p>Drawing on conversations with the hotel company about their costs, we estimate the initial costs of installing a fitness center based on the size of the property, with large hotels requiring a $220,000 investment and smaller hotels requiring a $125,000 investment. Annual maintenance costs include costs such as replacing equipment ($1,380 per month for larger properties and $690 per month for smaller properties). Per use costs for cleaning, water, linens, and so on are estimated to range from $.50 for upscale brands to $1.00 for luxury brands.</p><p>Notably, the ROI ratios for offering a fitness center were negative for five of the six brands, indicating that these brands would not achieve payback in one year. For one of the brands (Luxury Brand 2), we project a strong payback (49% ROI) even in one year. Given the high initial cost of this investment and the relatively longer time that may be required for competitors to copy this amenity, it may be appropriate to use a time horizon longer than one year to compute ROI (using Equation 21). For example, using an infinite time horizon in Equation 21 would produce an internal rate of return (the discount rate for which the NPV = 0) greater than 20% for three of the six brands.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Our model enables us to compare the effects of offering an amenity on revenues due to changes in initial choice probabilities with those due to changes in repeat visits by current customers <ref type="figure" coords="10,358.81,345.54,37.04,8.75" target="#fig_2">(Figure 2)</ref>. We see that in some cases, revenues from repurchase drive the effects of amenities on revenues (e.g., for bottled water, there is almost no change in initial choice due to offering the amenity, but those who use the amenity show an increase in repeat visits for three of the brands). In other cases, the effects of offering the amenity on initial choice are more important (e.g., offering free in-room Internet increases initial choice but offering the amenity had very little effect on repeat visits for the majority of brands). Thus, by incorporating both the effects of offering an amenity on initial sales and its effects on future revenues from existing customers through repeat sales, our modeling results provide important insights beyond work focusing on how amenities change the initial attractiveness of goods and services.</p><p>Notably, our analysis shows that the one-year financial returns of providing service amenities differ substantially across amenities (e.g., bottled water vs. in-room Internet access vs. fitness center). The first reason for differences in ROI across amenities is that one amenity may have a stronger effect on  initial purchases than another amenity. This is an important factor contributing to differences in returns when we compare the bottled water and in-room Internet access amenities: free Internet access has a much stronger effect on choosing a hotel than free bottled water. Because more than 60% of the global hotel company's guests are first-time stayers (across brands), the effect of an amenity on initial purchase is critical. A second reason for differences in ROI is that one amenity may have a stronger effect on repeat purchases than another amenity. Why do we observe such strong differences in the effects of these three amenities on initial choice and repurchase? Whereas the value of some amenities can be assessed cognitively prior to use (e.g., in-room Internet), the value of other amenities (e.g., bottled water, fitness center) may be more visceral or emotional and influence the consumer's evaluation of the service experience in a more holistic manner.</p><p>A third important factor influencing differences in financial returns is that costs differ substantially across amenities. For example, the primary reason the bottled water amenity shows a higher ROI ratio than the fitness center amenity is that it requires a substantially lower initial investment and annual investment than the fitness center amenity (see <ref type="table" coords="11,233.35,464.20,57.20,8.75" target="#tab_4">Tables 3 and 5)</ref>. Indeed, when we compare the effect of the bottled water and fitness center amenities on revenues from initial choice (see the "Impact on Initial Choice (P −m )" column in <ref type="table" coords="11,220.37,497.02,58.02,8.75" target="#tab_4">Tables 3 and 5)</ref> and revenues from existing customers (see the "Impact on Repeat Choice (G)" column in Tables 3 and 5), we see that the fitness center amenity and bottled water have almost the same average effects. Thus, costs rather than revenues drive the higher returns for the bottled water amenity relative to the fitness center amenity. For some amenities, multiple factors come into play. The favorable ROI ratios we observe for the inroom Internet access amenity across brands are due to the amenity's importance to initial purchase decisions, its relatively low cost and its positive effect on future revenues from existing customers. These factors combine to suggest-as we observe in practice-that free in-room Internet access is expected to become a standard amenity in the upper upscale and luxury segments. <ref type="bibr" coords="11,186.69,649.92,3.74,6.56">5</ref> Our analysis also shows that returns on the same amenity can differ substantially across brands within the same service category (in this case, hotels). For example, the ROI ratio for bottled water is estimated to be more than six times higher for Upper Upscale Brand 2 than it is for Upper Upscale Brand 1 <ref type="table" coords="11,317.93,266.90,35.28,8.75" target="#tab_4">(Table 3)</ref>. Because the costs of this amenity differ very little across brands (usage costs range from $.15 for midscale brands to $.60 for the highest-cost luxury brand, while annual costs and initial costs are the same) and the effects on initial purchase are estimated to be very similar for these two brands, differences in the ROI ratio are driven by this amenity's effects on revenues from existing customers. Examining the impact on repeat choice (G) in <ref type="table" coords="11,401.78,343.61,29.30,8.75" target="#tab_4">Table 3</ref>, we find that the bottled water amenity has a much smaller effect on revenues from existing customers for Upper Upscale Brand 1 than for Upper Upscale Brand 2. The effect on ROI ratio is further magnified by differences in annual revenues per unique guest at these two brands. As <ref type="table" coords="11,363.00,398.43,29.98,8.75" target="#tab_4">Table 3</ref> shows, annual revenues per unique guest are 20% higher for Upper Upscale Brand 2 than for Upper Upscale Brand 1.</p><p>Despite the usefulness of comparing the effects of amenities on initial choice versus repeat purchases, one concern about these results may be that they are derived from what-if simulations-rather than an actual experience-of not offering an amenity. To validate our results, we therefore analyzed a natural (field) experiment in collaboration with the same global hotel company for one of the amenities we studied: bottled water.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VALIDATION IN THE FIELD</head><p>One of the amenities we studied, bottled water, was added fairly recently to the brand standards for two of the hotel company's upper upscale brands and was introduced during a well-defined time period. Moreover, because the hotel company manages multiple brands, we were able to obtain data for a control set of properties that did not change their offering of this amenity during this time period. Thus, we were able to compare monthly revenue for one year prior to the introduction of this amenity and for one year after the introduction of this amenity between properties that introduced this amenity and matched properties that did not make changes to this amenity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data</head><p>To create an appropriate comparison among "test" properties that added the amenity and "control" properties that did not, we used propensity matching based on a data set of 517 properties including key industry variables such as number of rooms, average annual revenue per available room, ownership (franchised vs. owned), location type <ref type="bibr" coords="12,201.79,65.08,88.73,8.75;12,54.94,76.07,16.23,8.75">(urban, suburban, or resort)</ref>, and geographic location (latitude and longitude). The propensity matching algorithm we used <ref type="bibr" coords="12,212.98,87.02,58.29,8.75" target="#b26">(Parsons 2001)</ref> identified 100 matched pairs of properties such that 100 properties that had added the amenity were matched with 100 properties that had not. Demonstrating that the propensity matching was effective, a comparison between the test and control properties showed that the two groups of properties did not differ on any of the matching variables (all ps &gt; .12).</p><p>Next, we obtained revenue data at the property level for 12 months before the introduction of the amenity and for 12 months after the introduction of the amenity. Complete revenue data for the preintroduction and postintroduction periods were available for 78 of the 100 matched pairs of properties. To control for seasonality, which is an important factor in the hotel industry, we averaged monthly log revenue over the pre-and postintroduction periods. We then computed the difference in log-revenue before and after the introduction of the amenity for each property. A positive difference indicates that revenue increased after relative to before the introduction of the amenity, while a negative difference indicates that revenue decreased.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>When we compared the difference in average monthly logrevenue across the test and control properties, we found that the test properties showed a significantly higher boost in logrevenue over the 12 months following the introduction of the bottled water amenity (R test = $61,665.23) than the control properties (R control = $48,723.34; Wald c 2 (1) = 4.39, p = .04; see <ref type="table" coords="12,71.77,396.16,30.05,8.75" target="#tab_7">Table 6</ref>). In other words, when we compare preintroduction and postintroduction revenues, we observe that the ratio of postintroduction to preintroduction monthly revenue is larger for the test properties ($946,709/$885,043 = 1.070) than the control properties ($1,070,684/$1,021,961 = 1.048). This ratio is not equivalent to G in our model, which compares revenue from repeat purchase, because this ratio captures both initial and repeat purchases; however, it enables us to compare the revenue expansion of the test and control properties, taking both initial sales and repeat sales into account.</p><p>On an annual basis, this 2.2% difference in revenue expansion translates into $249,928 per property. Assuming the same profit margin as we did in our prior calculations, we compute a profit of $38,864. If annual costs per property for upper upscale brands are the same as in our previous calculations, the profit after accounting for annual maintenance costs and per usage costs is $29,991. Given an initial installation cost of $1,000 per property, the ROI ratio is 2.94, almost identical to what we calculated for Upper Upscale Brand 1 (2.99) in our previous analysis <ref type="table" coords="12,476.96,119.90,35.26,8.75" target="#tab_4">(Table 3)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The results of this natural experiment provide evidence that adding the bottled water amenity had a measurable and positive effect on property revenues for two brands over a 12month period, consistent with our model's predictions. Even more importantly, these results provide validation that our model generates predictions that are in line with the real-world effects of adding an amenity. Although the data in our validation study were at the property level rather than at the individual customer level, computations of financial returns across sources were directionally the same and of very similar magnitude as those of one of the two upper upscale brands.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION AND CONCLUSIONS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Theoretical Contribution</head><p>In this article, we propose a methodology for computing return on service amenities that considers both the effect of adding an amenity on initial choice and its effect on repurchase and future revenues. We build on previous work that has focused on the effect of adding features and amenities on initial choice (e.g., <ref type="bibr" coords="12,367.54,371.50,103.60,8.75" target="#b25">Ofek and Srinivasan 2002;</ref><ref type="bibr" coords="12,473.78,371.50,83.26,8.75" target="#b39">Victorino et al. 2005)</ref> by incorporating the effects of expected amenity use on initial purchase and, along with that of actual use, on repurchase and future revenues. Incorporating both effects is critical because prior work has suggested that consumers are likely to overestimate their use of amenities when making predictions about the future <ref type="bibr" coords="12,356.70,437.27,113.61,8.75" target="#b22">(Meyer, Zhao, and Han 2008;</ref><ref type="bibr" coords="12,472.44,437.27,84.57,8.75;12,317.93,448.21,57.07,8.75" target="#b35">Thompson, Hamilton, and Rust 2005)</ref>. Indeed, this pattern of overestimating amenity use was confirmed in almost all cases for the three amenities we investigated: expected amenity use was systematically higher than actual use. However, this prior work comparing the effect of amenities on initial choice and repurchase does not isolate the effect of individual amenities on repurchase or consider the financial implications of adding or removing specific features on overall revenue. To our knowledge, our work is the first to analyze the effect of individual amenities on different stages in the consumer choice process and the implications for ROI in amenities.</p><p>Researchers have noted that value in service occurs only when the customer uses the service <ref type="bibr" coords="12,463.12,579.74,93.91,8.75" target="#b28">(Rust and Huang 2014;</ref><ref type="bibr" coords="12,317.93,590.68,88.68,8.75" target="#b38">Vargo and Lusch 2006)</ref>. <ref type="bibr" coords="12,410.68,590.11,3.74,6.56">6</ref> Thus, a new amenity may provide no value to customers unless they actually use it. It is critical, then, to consider how both expected use of an amenity and actual use of an amenity affect the service provider's stream of revenues. Some incremental sales may result from the effect of the amenity's expected use on initial choice, as discussed in previous research, but sales also may result because of not only expected use but also actual amenity use during a previous service occasion on repurchase behavior. Our model considers both of these effects and allows service providers to compare their relative size. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Managerial Implications</head><p>Our research gives service providers a model and estimation methodology for evaluating the financial return from service amenities. The model includes not just the effect of amenities on initial choice and current revenues but also the effect on future revenues. Current market research techniques tend to focus on the effects of adding an amenity on initial choice, which may either overestimate or underestimate the full impact of the investment on both current and future revenues. Using our methodology, a service provider can evaluate the profitability of offering a particular service amenity based on its effects on both initial choice and repeat purchases.</p><p>Would managers invest in the wrong amenities if they measured the effects of amenities only on initial choice, using currently favored methods such as discrete choice experiments? Our results provide compelling evidence that they would. Clearly, differences in the effects of these three amenities on initial choice and repurchase cannot be explained by differences in the way these effects are measured but are likely to be explained by the nature of the three amenities. As <ref type="figure" coords="13,54.94,279.83,33.56,8.75" target="#fig_2">Figure 2</ref> shows, the effect of an amenity on initial choice is not a good proxy for its effect on repeat purchase. The effects of both bottled water and fitness center amenities on initial choice are much smaller than their effects on repurchase. A manager focusing on initial choice may invest in bottled water because of its very low costs, but (s)he would be unlikely to invest in the fitness center amenity despite the opportunity for favorable returns. In contrast, a manager informed by both initial choice and repurchase data would see that bottled water offers a positive ROI for five of the six brands and that offering a fitness center has a positive ROI for one of the six brands within a year despite its significant cost.</p><p>We believe that our methodology can be adapted quite easily to compute the financial returns of offering amenities in related industries. For example, like service providers in the hotel industry, service providers in the airline industry maintain detailed customer databases tracking customer purchases and revenues over time. By offering test amenities on selected routes, they could measure the effect of the amenity on both initial purchases and on repeat purchases. Similarly, online retailers such as Amazon would be able to test whether offering certain amenities (e.g., free shipping) improves revenues by studying how the use of each amenity relates to future purchase incidence and revenues. By comparing the incremental revenues with the costs of providing each amenity, as we have detailed here, these service providers will be able to compute the financial returns of each amenity. Although we have used relatively sophisticated modeling techniques that enable us to estimate our visit and revenue equations simultaneously and control for customer heterogeneity, our validation analyses show that simpler methods (such as ordinary least squares) may produce similar results.</p><p>In addition to its theoretical and methodological contributions, our research also provides substantive insight by demonstrating how amenities contribute to financial returns in the hotel industry. Most notably, we show that the profitability of an amenity is often brand specific. Several factors contribute to these differences. First, customer lifetime value differs across brands, meaning that even if the effect of adding an amenity on future visits is the same across brands, the effect on future revenue may differ. Second, the relative proportions of new and repeat guests differ across brands. This means that the effect of an amenity on revenues through attracting new customers versus retaining existing customers differs across brands. Third, the proportion of guests using various amenities differs across brands. Whereas only 27% of Upper Upscale Brand 1's guests used bottled water during their stay, 84% of Luxury Brand 2's guests used this amenity. Fortunately, decisions about offering amenities are often made at the brand level-referred to within the hotel industry as "brand standards." Our results suggest that market tests of amenities should also be conducted at the brand level even if the costs of offering an amenity are similar across brands, as in the case of both bottled water and in-room Internet access.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limitations and Directions for Further Research</head><p>Attempting to predict the financial return of offering an amenity is difficult because there are several potential sources of error that could bias the estimates. First, we have considered the decision to offer an amenity as a unilateral decision made by one service provider. However, the decision to offer an amenity may provoke a competitive response, limiting the future revenue effect <ref type="bibr" coords="13,403.71,295.31,108.92,8.75" target="#b25">(Ofek and Srinivasan 2002)</ref>. Although many amenities (e.g., swimming pools) cannot be implemented quickly by competitors, others (e.g., free bottled water) can be matched relatively quickly. If matched by all competitors, amenities quickly become commodities with little differentiating power, something the hotel industry refers to as "amenity creep." Such matching may decrease the positive effect of offering the amenity on both initial choice and future revenues. We do not believe that this has had a major impact on the present study, which was conducted at a time when the three amenities we investigated (bottled water, in-room Internet access, and fitness center) had already become industry standards.</p><p>A second factor potentially attenuating the positive effect of offering an amenity on financial returns is that some hotel choices are not made by guests. For example, a business traveler may stay in a hotel chosen by the company, or a conferencegoer may stay at the conference hotel. Within our data set, most guests indicated that they had selected the brand and property themselves (65%) either because the brand was their first choice (24%) or because the brand is one of several they check for availability before a stay (39%). Most of the remaining guests selected the property because of an event being held there (32%); only a few were required by company policy to stay there (1%) or stayed because there were no other comparable choices in the area (2%). Thus, while the majority of guests in our data set had a direct influence on the purchases made, a third of the sample may be less responsive to changes in the amenities offered. Moreover, we note that although the amenities we studied were less likely to have influenced the initial choice of brand for these guests, the amenities they used during their visit may have affected the likelihood of a future stay or revenues during that stay.</p><p>It is also possible that offering a new amenity may have more impact than we have estimated because of word of mouth and the opportunity for customers to learn over time. Indeed, for the hotel industry, there are hundreds of blog posts (e.g., Kelly 2013) and articles (e.g., Fineman 2012; Kim 2012) devoted to discussing amenities. Customers who experience a new amenity may engage in positive word of mouth with other potential customers, increasing initial choice among those who encounter this word-of-mouth information. To the extent that customers engage in word of mouth, the positive effects of using an amenity that we consider are likely to be conservative. Previous work examining return on services has considered this word-of-mouth effect (e.g., <ref type="bibr" coords="14,77.90,119.90,127.19,8.75" target="#b19">Libai, Muller, and Peres 2009)</ref> and, with additional data, this could be incorporated into our methodology.</p><p>In this article, we have defined amenities as services that are offered free of charge to all customers with the goal of attracting customers, improving the customer experience, or increasing repurchase. However, firms often charge for the amenities they offer to customers <ref type="bibr" coords="14,123.39,185.66,116.53,8.75" target="#b2">(Bertini, Ofek, and Ariely 2009)</ref>. Charging for an amenity enables a firm to defray the costs of offering the amenity, potentially increasing its financial returns. However, assuming a downward sloping demand curve, charging for an amenity will also influence the customer's decision about whether to use the amenity. If charging for an amenity reduces the positive effect of using that amenity on repurchase and future revenues, charging for the amenity may decrease the financial returns of offering the amenity. The relative size of these effects-defraying costs and reducing the use of the amenity-are important to examine in future work.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>Previous research has shown that providing attractive amenities can increase initial choice of a service. We add to this by showing that whether customers actually use specific service amenities has a measurable effect on their future spending with the service provider. We provide a conceptual framework and methodology for service providers to evaluate the financial returns of offering a service amenity due to both changes in the initial attractiveness of the service and changes in future spending. Using this methodology will enable service providers to select and invest in the amenities that will be most profitable for each of their brands. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX: LIST OF AMENITIES INCLUDED IN PRE-AND POSTSTAY SURVEYS</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="3,419.19,479.62,36.62,9.32;3,334.32,493.01,206.40,7.46;3,394.53,504.92,85.99,7.46"><head>Figure 1 RELATIONSHIP</head><label>1</label><figDesc>BETWEEN AMENITY USE AND FUTURE PURCHASE BEHAVIOR</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="9,156.19,54.14,36.62,9.32"><head>Figure 2</head><label>2</label><figDesc>Figure 2</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="6,54.93,54.14,502.16,116.34"><head>Table 1</head><label>1</label><figDesc>ATTRIBUTES AND ESTIMATION RESULTS FOR DISCRETE CHOICE EXPERIMENT</figDesc><table coords="6,54.93,91.12,502.16,79.36">Choice Attribute 
+Level 0 
+Level 1 
+
+Full Data Set 
+(N = 5,090) 
+
+Business 
+(n = 1,944) 
+
+Leisure 
+(n = 3,146) 
+
+Location 
+Event is in adjoining building 
+Hotel is a few blocks away from event 
+−.56 
+(.02) 
+−.35 
+−.72 
+Price 
+Lowest price among set = $189 
+Average price among set = $200 
+−.90 
+(.02) 
+−.57 
+−1.15 
+Free in-room Internet 
+Yes 
+No 
+−1.53 
+(.02) 
+−1.30 
+−1.72 
+Free fitness center 
+Yes 
+No 
+−.23 
+(.02) 
+−.23 
+−.24 
+Free bottled water 
+Yes 
+No 
+−.23 
+(.02) 
+−.14 
+−.31 
+Loyalty program 
+Member 
+Nonmember 
+−.33 
+(.01) 
+−.41 
+−.29 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="8,54.93,54.14,502.16,288.08"><head>Table 2</head><label>2</label><figDesc>RESULTS: VISIT AND CONDITIONAL REVENUE MODELSA: Visit Model Upscale Brand 1 Upper Upscale Brand 1 Upper Upscale Brand 2 Luxury Brand 1 Luxury Brand 2 Luxury Brand 3Notes: Standard deviations are in parentheses. Parameters for which the 95% (90%) credible interval does not include zero are shown in boldface (italics).</figDesc><table coords="8,54.93,119.65,502.15,206.64">Bottled water 
+1.16 (.04) 
+.73 (.02) 
+.58 (.02) 
+−.83 (.03) 
+−.50 (.04) 
+.66 (.04) 
+In-room Internet access 
+.33 (.07) 
+−.25 (.02) 
+.05 (.01) 
+.49 (.02) 
+.19 (.03) 
+.53 (.03) 
+Fitness center 
+.23 (.07) 
+.19 (.02) 
+−.00 (.01) 
+−.22 (.03) 
+.17 (.02) 
+.62 (.03) 
+Intercept 
+−1.45 (.24) 
+Past visits 
+.12 (.01) 
+Gender 
+.48 (.22) 
+Age 
+.32 (.24) 
+Loyalty 
+−1.81 (.24) 
+Purpose of stay 
+.31 (.23) 
+
+B: Conditional Revenue Model 
+
+Upscale Brand 1 Upper Upscale Brand 1 Upper Upscale Brand 2 Luxury Brand 1 Luxury Brand 2 Luxury Brand 3 
+
+Bottled water 
+−.93 (.43) 
+−.03 (.27) 
+.32 (.17) 
+−.62 (.71) 
+.66 (.49) 
+.67 (.39) 
+In-room Internet access 
+−.10 (.63) 
+.34 (.21) 
+−.06 (.15) 
+.59 (.48) 
+−.08 (.49) 
+−.03 (.38) 
+Fitness center 
+−.73 (.69) 
+−.02 (.23) 
+.16 (.14) 
+−.06 (.55) 
+.41 (.39) 
+.16 (.36) 
+Intercept 
+6.12 (.19) 
+Past revenue 
+.12 (.02) 
+Gender 
+.27 (.15) 
+Age 
+−.24 (.17) 
+Loyalty 
+−.27 (.17) 
+Purpose of stay 
+.07 (.17) 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="9,59.85,67.53,226.89,465.86"><head></head><label></label><figDesc>COMPARISON OF REVENUES FROM INITIAL CHOICE ANDREPEAT PURCHASE</figDesc><table coords="9,59.85,103.29,226.89,430.11">A: Bottled Water Amenity 
+
+B: In-Room Internet Amenity 
+
+C: Fitness Center Amenity 
+
+0 
+
+.02 
+
+.04 
+
+.06 
+
+.08 
+
+.10 
+
+.12 
+
+.14 
+
+Upscale 1 
+Upper 
+Upscale 1 
+
+Upper 
+Upscale 2 
+
+Luxury 1 
+Luxury 2 
+Luxury 3 
+
+Change in initial purchase 
+Change in repeat purchase 
+
+0 
+
+.02 
+
+.04 
+
+.06 
+
+.08 
+
+.10 
+
+.12 
+
+Upscale 1 
+Upper 
+Upscale 1 
+
+Upper 
+Upscale 2 
+
+Luxury 1 
+Luxury 2 
+Luxury 3 
+
+Change in initial purchase 
+Change in repeat purchase 
+
+0 
+
+.02 
+
+.04 
+
+.06 
+
+.08 
+
+.10 
+
+.12 
+
+.14 
+
+Upscale 1 
+Upper 
+Upscale 1 
+
+Upper 
+Upscale 2 
+
+Luxury 1 
+Luxury 2 
+Luxury 3 
+
+Change in initial purchase 
+Change in repeat purchase 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="10,54.93,54.14,502.22,158.88"><head>Table 3</head><label>3</label><figDesc>RETURN ON BOTTLED WATER AMENITY BY BRAND the identity of the global hotel company we worked with. The reported numbers are within 10% of the true values.</figDesc><table coords="10,54.93,91.12,502.22,121.90">Brand 
+
+Number of 
+Properties 
+
+Number 
+of Unique 
+Guests 
+
+Proportion 
+of New 
+Guests 
+
+Annual 
+Revenue 
+per Unique 
+Guest 
+
+Proportion 
+Using 
+Amenity 
+
+Impact 
+on Initial 
+Choice 
+(P −m ) 
+
+Impact 
+on Repeat 
+Choice (G) 
+
+Initial 
+Cost per 
+Property 
+
+Annual 
+Cost per 
+Property 
+
+Cost 
+per Use 
+
+ROI 
+Ratio 
+
+Upscale 1 
+50 
+400,000 
+.70 
+$300.00 
+.65 
+.00 
+.97 
+$1,000 
+$1,360 
+$.15 
+−1.86 
+Upper Upscale 1 
+200 
+5,000,000 
+.60 
+$500.00 
+.27 
+.03 
+1.01 
+$1,000 
+$7,696 
+$.19 
+2.99 
+Upper Upscale 2 
+125 
+3,500,000 
+.50 
+$600.00 
+.34 
+.02 
+1.18 
+$1,000 
+$6,690 
+$.21 
+21.25 
+Luxury 1 
+15 
+275,000 
+.70 
+$918.06 
+.56 
+.01 
+1.00 
+$1,000 
+$3,366 
+$.17 
+.82 
+Luxury 2 
+10 
+125,000 
+.60 
+$1,750.00 
+.84 
+.00 
+1.42 
+$1,000 
+$1,830 
+$.60 
+29.89 
+Luxury 3 
+30 
+700,000 
+.50 
+$900.00 
+.28 
+.01 
+1.33 
+$1,000 
+$5,053 
+$.39 
+.39 
+
+Notes: Numbers of properties, numbers of unique guests, proportion of new guests, and annual revenues per unique guest listed in this table have been changed 
+to protect </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="10,54.93,572.09,502.22,158.88"><head>Table 4</head><label>4</label><figDesc>RETURN ON IN-ROOM INTERNET ACCESS AMENITY BY BRANDNotes: Numbers of properties, numbers of unique guests, proportion of new guests, and annual revenues per unique guest listed in this table have been changed to protect the identity of the global hotel company we worked with. The reported numbers are within 10% of the true values.</figDesc><table coords="10,54.93,609.07,502.16,97.01">Brand 
+
+Number of 
+Properties 
+
+Number 
+of Unique 
+Guests 
+
+Proportion 
+of New 
+Guests 
+
+Annual 
+Revenue 
+per Unique 
+Guest 
+
+Proportion 
+Using 
+Amenity 
+
+Impact 
+on Initial 
+Choice (P −m ) 
+
+Impact on 
+Repeat 
+Choice (G) 
+
+Initial 
+Cost per 
+Property 
+
+Annual 
+Cost per 
+Property 
+
+Cost 
+per Use 
+
+ROI 
+Ratio 
+
+Upscale 1 
+50 
+400,000 
+.70 
+$300.00 
+.53 
+.03 
+.97 
+$350 
+$10,608 
+0 
+−.49 
+Upper Upscale 1 
+200 
+5,000,000 
+.60 
+$500.00 
+.42 
+.17 
+1.08 
+$350 
+$60,031 
+0 
+3.43 
+Upper Upscale 2 
+125 
+3,500,000 
+.50 
+$600.00 
+.32 
+.13 
+.99 
+$350 
+$52,182 
+0 
+2.76 
+Luxury 1 
+15 
+275,000 
+.70 
+$918.06 
+.40 
+.06 
+1.19 
+$350 
+$39,410 
+0 
+4.51 
+Luxury 2 
+10 
+125,000 
+.60 
+$1,750.00 
+.48 
+.03 
+1.00 
+$350 
+$14,274 
+0 
+3.12 
+Luxury 3 
+30 
+700,000 
+.50 
+$900.00 
+.36 
+.09 
+1.02 
+$350 
+$26,255 
+0 
+7.05 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="11,54.93,54.14,502.21,158.88"><head>Table 5</head><label>5</label><figDesc>RETURN ON FITNESS CENTER AMENITY BY BRANDNotes: Numbers of properties, numbers of unique guests, proportion of new guests, and annual revenues per unique guest listed in this table have been changed to protect the identity of the global hotel company we worked with. The reported numbers are within 10% of the true values.</figDesc><table coords="11,54.93,91.12,502.15,97.27">Brand 
+
+Number of 
+Properties 
+
+Number 
+of Unique 
+Guests 
+
+Proportion 
+of New 
+Guests 
+
+Annual 
+Revenue 
+per Unique 
+Guest 
+
+Proportion 
+Using 
+Amenity 
+
+Impact 
+on Initial 
+Choice (P −m ) 
+
+Impact on 
+Repeat 
+Choice (G) 
+
+Initial 
+Cost per 
+Property 
+
+Annual 
+Cost per 
+Property 
+
+Cost 
+per Use 
+
+ROI 
+Ratio 
+
+Upscale 1 
+50 
+400,000 
+.70 
+$300.00 
+.24 
+.00 
+1.09 
+$125,000 
+8,280 
+$.50 
+−.91 
+Upper Upscale 1 
+200 
+5,000,000 
+.60 
+$500.00 
+.14 
+.03 
+1.00 
+$220,000 16,560 
+$.75 
+−.87 
+Upper Upscale 2 
+125 
+3,500,000 
+.50 
+$600.00 
+.18 
+.02 
+1.05 
+$220,000 16,560 
+$.75 
+−.64 
+Luxury 1 
+15 
+275,000 
+.70 
+$918.06 
+.22 
+.01 
+.98 
+$172,500 12,420 
+$1.00 
+−.97 
+Luxury 2 
+10 
+125,000 
+.60 
+$1,750.00 
+.31 
+.00 
+1.30 
+$125,000 
+8,280 
+$1.00 
+.49 
+Luxury 3 
+30 
+700,000 
+.50 
+$900.00 
+.20 
+.01 
+1.06 
+$220,000 16,560 
+$1.00 
+−.49 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" coords="12,54.93,554.17,394.72,176.86"><head>Table 6</head><label>6</label><figDesc>VALIDATION STUDY: COMPARISON BETWEEN TEST AND CONTROL PROPERTIESNotes: Estimates in bold are statistically significant at p &lt; .05. 6 Indeed, this is equally true for goods.</figDesc><table coords="12,54.93,603.12,239.15,112.19">Change in Monthly Log Revenue 
+
+Parameter 
+B 
+SE 
+Wald 
+
+Test versus control 
+.007 
+.0033 
+4.39 
+Number of rooms 
+.00004 
+.00003 
+1.55 
+Franchised 
+−.037 
+.0183 
+4.20 
+Airport 
+.002 
+.0130 
+.03 
+Convention 
+−.055 
+.0117 
+22.01 
+Suburban 
+.007 
+.0119 
+.38 
+Resort 
+.000 
+.0104 
+.00 
+Latitude 
+−.001 
+.0009 
+1.01 
+Longitude 
+.000 
+.0002 
+2.96 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">Note that we do not need AC m in the numerator of Equation 20 because it is accounted for in Equation 19. We also note that %ROI can be obtained by multiplying the ROI ratio by 100.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">This is a high rate of return, but we show subsequently that it is of similar magnitude to the ROI obtained in our field experiment.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">Our study suggests that supplying free Internet access is more profitable than not providing free Internet access. However, we do not consider the issue of whether charging a fee for Internet access might provide even higher profits. We return to this issue in the "Discussion and Conclusions" section.</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Copyright of Journal of Marketing Research (JMR) is the property of American Marketing</head><p>Association and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission. However, users may print, download, or email articles for individual use.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="14,317.93,377.31,239.13,8.97;14,326.95,388.60,109.22,7.87" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Linking Service and Finance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eugene</forename><forename type="middle">W</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="587" to="89" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.93,399.09,239.11,7.87;14,326.95,408.72,230.09,8.97;14,326.95,420.01,221.76,7.87" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Hilton Hotels: Brand Differentiation Through Customer Relationship Management</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lynda</forename><forename type="middle">M</forename><surname>Applegate</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gabriele</forename><surname>Piccoli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chekitan</forename><forename type="middle">S</forename><surname>Dev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Harvard Business School Case</title>
+		<imprint>
+			<biblScope unit="page" from="9" to="809" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.93,429.64,239.13,8.97;14,326.95,440.93,230.10,7.87;14,326.95,451.36,129.58,7.87" xml:id="b2">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marco</forename><surname>Bertini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elie</forename><surname>Ofek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dan</forename><surname>Ariely</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Impact of Add-On Features on Consumer Product Evaluations</title>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="17" to="28" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.93,461.05,239.13,8.97;14,326.95,472.28,230.06,7.87;14,326.95,482.77,221.26,7.87" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A Dynamic Model of the Duration of the Customer&apos;s Relationship with a Continuous Service Provider: The Role of Satisfaction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ruth</forename><forename type="middle">N</forename><surname>Bolton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="45" to="65" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.93,493.20,239.13,7.87;14,326.95,502.89,230.10,8.97;14,326.95,514.12,230.11,7.87;14,326.95,524.60,108.60,7.87" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A Dynamic Process Model of Service Quality: From Expectations to Behavioral Intentions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><surname>Boulding</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ajay</forename><surname>Kalra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><surname>Staelin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Valarie</forename><forename type="middle">A</forename><surname>Zeithaml</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="7" to="27" />
+			<date type="published" when="1993-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.93,534.24,239.13,8.97;14,326.95,545.52,230.12,7.87;14,326.95,555.96,230.09,7.87;14,326.95,566.44,56.33,7.87" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Why Is the Trivial Important? A Reasons-Based Account for the Effects of Trivial Attributes on Choice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christina</forename><forename type="middle">L</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gregory</forename><forename type="middle">S</forename><surname>Carpenter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="372" to="85" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.93,576.87,239.11,7.87;14,326.95,586.56,230.13,8.97;14,326.95,597.79,230.09,7.87;14,326.95,608.28,74.75,7.87" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Meaningful Brands from Meaningless Differentiation: The Dependence on Irrelevant Attributes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gregory</forename><forename type="middle">S</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rashi</forename><surname>Glazer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kent</forename><surname>Nakamoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="339" to="50" />
+			<date type="published" when="1994-08" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.93,617.92,239.14,8.97;14,326.95,629.20,229.45,7.87" xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Margins by Sector</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Aswath</forename><surname>Damodaran</surname></persName>
+		</author>
+		<ptr target="http://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/margin.html" />
+		<imprint>
+			<date type="published" when="2016-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.93,638.84,239.13,8.97;14,326.95,650.12,230.14,7.87;14,326.95,660.55,158.14,7.87" xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Rosewood Hotels &amp; Resorts: Branding to Increase Customer Profitability and Lifetime Value</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chekitan</forename><forename type="middle">S</forename><surname>Dev</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Laure</forename><forename type="middle">M</forename><surname>Stroock</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<publisher>Harvard Business School Case</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="14,317.93,670.24,239.10,8.97;14,326.94,681.47,230.07,7.87;14,326.94,691.96,60.79,7.87" xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Dynamics of Multi-Feature Product Usage: Carryover, Spillover, and Social Effects</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tingting</forename><surname>Fan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<pubPlace>New York University</pubPlace>
+		</imprint>
+	</monogr>
+	<note>working paper</note>
+</biblStruct>
+
+<biblStruct coords="14,317.93,701.59,239.14,8.97;14,326.94,712.89,230.06,7.87;14,326.95,723.31,205.44,7.87" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Best Hotel Perks for Business Travelers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joel</forename><surname>Fineman</surname></persName>
+		</author>
+		<ptr target="http://travel.usnews.com/features/Best_Hotel_Perks_for_Business_Travelers/" />
+	</analytic>
+	<monogr>
+		<title level="j">U.S. News &amp; World Report</title>
+		<imprint>
+			<date type="published" when="2012-09-13" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,54.94,53.31,239.07,8.97;15,63.89,64.60,230.15,7.87;15,63.89,75.03,178.91,7.87" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">An Empirical Analysis of User Content Generation and Usage Behavior on the Mobile Internet</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anindya</forename><surname>Ghose</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sang</forename><forename type="middle">Pil</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Management Science</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1671" to="91" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,54.93,85.52,239.11,7.87;15,63.89,95.15,230.15,8.97;15,63.89,106.44,19.36,7.87" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Valuing Customers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><forename type="middle">R</forename><surname>Sunil</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><forename type="middle">A</forename><surname>Lehmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Stuart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="7" to="18" />
+			<date type="published" when="2004-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,54.93,116.07,239.10,8.97;15,63.89,127.36,230.15,7.87;15,63.89,137.85,54.40,7.87" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Customer Metrics and Their Impact on Financial Performance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sunil</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Valarie</forename><forename type="middle">A</forename><surname>Zeithaml</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="718" to="757" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,54.93,148.28,239.02,7.87;15,63.89,157.97,230.16,8.97;15,63.89,169.20,227.42,7.87;15,54.93,178.89,239.18,8.97;15,63.89,190.12,230.11,7.87;15,63.89,200.60,151.66,7.87" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Marketing Strategy and Wall Street: Nailing Down Marketing&apos;s Impact</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dominique</forename><forename type="middle">M</forename><surname>Hanssens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Roland</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rajendra</forename><forename type="middle">K</forename><surname>Rust</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Srivastava</surname></persName>
+		</author>
+		<ptr target="http://www.irs.gov/Businesses/Hotel-Industry-Overview_Complete-Version" />
+	</analytic>
+	<monogr>
+		<title level="j">Internal Revenue Service</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="115" to="133" />
+			<date type="published" when="2009-11" />
+		</imprint>
+	</monogr>
+	<note>Hotel Industry Overview-Complete Version</note>
+</biblStruct>
+
+<biblStruct coords="15,54.93,210.24,239.17,8.97;15,63.89,221.52,230.11,7.87;15,63.89,231.95,230.08,7.87;15,63.89,242.44,157.42,7.87" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">New Perks at Hyatt House-Breakfast, Welcome Amenities and More</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brian</forename><surname>Kelly</surname></persName>
+		</author>
+		<ptr target="http://thepointsguy.com/2013/05/new-perks-at-hyatt-house-breakfast-welcome-amenities-and-more/" />
+	</analytic>
+	<monogr>
+		<title level="j">ThePointsGuy.com</title>
+		<imprint>
+			<date type="published" when="2013-05-21" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,54.93,252.08,239.12,8.97;15,63.89,263.36,230.11,7.87;15,63.89,273.79,230.19,7.87;15,63.89,284.28,77.73,7.87" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The Best and Worst Hotel Trends-We Love Rain Showers, Hate Pillow Menus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Monica</forename><surname>Kim</surname></persName>
+		</author>
+		<ptr target="http://travel.usnews.com/features/Best_Hotel_Perks_for_Business_Travelers/" />
+	</analytic>
+	<monogr>
+		<title level="j">Condé Nast Traveler</title>
+		<imprint>
+			<date type="published" when="2012-04-18" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,54.93,294.71,239.10,7.87;15,63.89,304.40,230.12,8.97;15,63.89,315.63,230.15,7.87;15,63.88,326.12,58.82,7.87" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">An Empirical Analysis of Mobile Voice Service and SMS: A Structural Model</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Youngsoo</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rahul</forename><surname>Telang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">William</forename><forename type="middle">B</forename><surname>Vogt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ramayya</forename><surname>Krishnan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Management Science</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="234" to="52" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,54.93,335.75,239.14,8.97;15,63.89,347.04,161.72,7.87" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A New Approach to Consumer Theory</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kelvin</forename><forename type="middle">J</forename><surname>Lancaster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Political Economy</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="132" to="57" />
+			<date type="published" when="1966" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,54.93,356.67,239.15,8.97;15,63.88,367.96,226.12,7.87" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The Diffusion of Services</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Barak</forename><surname>Libai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eitan</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Renana</forename><surname>Peres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="163" to="75" />
+			<date type="published" when="2009-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,54.93,378.40,239.15,7.87;15,63.89,388.08,230.15,8.97;15,63.89,399.31,230.15,7.87;15,63.89,409.80,29.80,7.87" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">WinBUGS: A Bayesian Modeling Framework: Concepts, Structure and Extensibility</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">J</forename><surname>Lunn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicky</forename><surname>Best</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Spiegelhalter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Statistics and Computing</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="325" to="362" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,54.93,419.44,239.14,8.97;15,63.89,430.72,230.14,7.87;15,63.89,441.15,112.99,7.87" xml:id="b21">
+	<monogr>
+		<title level="m" type="main">The Amenities War</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tom</forename><surname>Mcnichol</surname></persName>
+		</author>
+		<ptr target="http://www.hospitalityperformance.com/articles/2005_09_15_amenities_war.html" />
+		<imprint>
+			<date type="published" when="2005-09" />
+		</imprint>
+	</monogr>
+	<note>Meetings West</note>
+</biblStruct>
+
+<biblStruct coords="15,54.93,450.84,239.12,8.97;15,63.89,462.07,230.10,7.87;15,63.89,472.56,93.02,7.87" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Biases in Valuation vs. Usage of Innovative Product Features</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">J</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shenghui</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jin</forename><forename type="middle">K</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1083" to="96" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,54.93,482.25,239.13,8.97;15,63.89,493.48,230.12,7.87;15,63.89,503.97,94.55,7.87" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The Effect of Novel Attributes on Product Evaluation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ashesh</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wayne</forename><forename type="middle">D</forename><surname>Hoyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="462" to="72" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,54.93,513.60,239.13,8.97;15,63.89,524.89,230.10,7.87;15,63.89,535.32,117.62,7.87" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The Effect of New Product Features on Brand Choice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><forename type="middle">M</forename><surname>Nowlis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Itamar</forename><surname>Simonson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="36" to="46" />
+			<date type="published" when="1996-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,54.93,545.01,239.07,8.97;15,63.89,556.24,230.16,7.87;15,63.89,566.73,82.19,7.87" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">How Much Does the Market Value an Improvement in a Product Attribute</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elie</forename><surname>Ofek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Srinivasan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="398" to="411" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,317.93,53.31,239.14,8.97;15,326.95,64.60,230.18,7.87;15,326.95,75.03,230.10,7.87;15,326.95,85.51,45.10,7.87" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Reducing Bias in a Propensity Score Matched-Pair Sample Using Greedy Matching Algorithms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lori</forename><forename type="middle">S</forename><surname>Parsons</surname></persName>
+		</author>
+		<ptr target="http://www2.sas.com/proceedings/sugi26/p214-26.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">SUGI Proceedings</title>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note>paper 214-26</note>
+</biblStruct>
+
+<biblStruct coords="15,317.93,95.95,239.10,7.87;15,326.95,105.64,230.13,8.97;15,326.95,116.87,230.10,7.87;15,326.95,127.35,117.62,7.87" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Measuring Marketing Productivity: Current Knowledge and Future Directions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roland</forename><forename type="middle">T</forename><surname>Rust</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tim</forename><surname>Ambler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gregory</forename><forename type="middle">S</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rajendra</forename><forename type="middle">K</forename><surname>Srivastava</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="76" to="89" />
+			<date type="published" when="2004-10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,317.93,137.04,239.09,8.97;15,326.95,148.27,230.12,7.87;15,326.95,158.76,128.39,7.87" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The Service Revolution and the Transformation of Marketing Science</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roland</forename><forename type="middle">T</forename><surname>Rust</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ming-Hui</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="206" to="227" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,317.93,169.19,239.12,7.87;15,326.94,178.88,230.17,8.97;15,326.95,190.11,230.09,7.87" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Return on Marketing: Using Customer Equity to Focus Marketing Strategy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roland</forename><forename type="middle">T</forename><surname>Rust</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Katherine</forename><forename type="middle">N</forename><surname>Lemon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Valarie</forename><forename type="middle">A</forename><surname>Zeithaml</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="109" to="136" />
+			<date type="published" when="2004-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,317.93,200.60,239.11,7.87;15,326.94,210.24,230.09,8.97;15,326.95,221.53,113.25,7.87" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Defeating Feature Fatigue</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roland</forename><forename type="middle">T</forename><surname>Rust</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Debora</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rebecca</forename><forename type="middle">W</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hamilton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Harvard Business Review</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="98" to="107" />
+			<date type="published" when="2006-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,317.93,231.16,239.13,8.97;15,326.95,242.44,230.11,7.87;15,326.95,252.88,124.03,7.87" xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Customer Satisfaction, Customer Retention and Market Share</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roland</forename><forename type="middle">T</forename><surname>Rust</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><forename type="middle">J</forename><surname>Zahorik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Retailing</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">Summer</biblScope>
+			<biblScope unit="page" from="193" to="215" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,317.93,263.36,239.18,7.87;15,326.95,273.00,230.11,8.97;15,326.95,284.28,230.09,7.87" xml:id="b32">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roland</forename><forename type="middle">T</forename><surname>Rust</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Anthony</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Timothy</forename><forename type="middle">L</forename><surname>Zahorik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Keiningham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Return on Quality (ROQ): Making Service Quality Financially Accountable</title>
+		<imprint>
+			<date type="published" when="1995-04" />
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="58" to="70" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,317.93,293.92,239.12,8.97;15,326.95,305.20,230.12,7.87;15,326.95,315.64,157.48,7.87" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Beyond Adoption: Development and Application of a Use-Diffusion Model</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chuan-Fong</forename><surname>Shih</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alladi</forename><surname>Venkatesh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="59" to="72" />
+			<date type="published" when="2004-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,317.93,326.12,239.11,7.87;15,326.95,335.76,230.07,8.97;15,326.95,347.04,230.13,7.87;15,326.95,357.47,230.06,7.87;15,326.95,367.96,29.12,7.87" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Marketing, Business Processes, and Shareholder Value: An Organizationally Embedded View of Marketing Activities and the Discipline of Marketing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rajendra</forename><forename type="middle">K</forename><surname>Srivastava</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Tassaduq</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Liam</forename><surname>Shervani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Fahey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="168" to="79" />
+			<date type="published" when="1999-10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,317.93,378.39,239.13,7.87;15,326.94,388.08,230.09,8.97;15,326.94,399.31,230.09,7.87;15,326.94,409.80,89.39,7.87" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Feature Fatigue: When Product Capabilities Become Too Much of a Good Thing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Debora</forename><forename type="middle">V</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rebecca</forename><forename type="middle">W</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Roland</forename><forename type="middle">T</forename><surname>Rust</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="431" to="473" />
+			<date type="published" when="2005-11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,317.93,419.44,239.14,8.97;15,326.95,430.72,230.12,7.87;15,326.94,441.15,230.02,7.87;15,326.94,451.64,123.16,7.87" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The Ever Changing Scene of Hotel Room Amenities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nancy</forename><surname>Trejos</surname></persName>
+		</author>
+		<ptr target="http://articles.washingtonpost.com/2011-03-18/lifestyle/35260328_1_hotel-room-budget-hotels-hotel-guests" />
+	</analytic>
+	<monogr>
+		<title level="j">The Washington Post</title>
+		<imprint>
+			<date type="published" when="2011-03-18" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,317.93,462.07,239.09,7.87;15,326.94,471.76,230.10,8.97;15,326.95,483.05,228.45,7.87" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Return on Roller Coasters: A Model to Guide Investment in Theme Park Attractions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rutger</forename><forename type="middle">D</forename><surname>Van Oest</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Harald</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marnik</forename><forename type="middle">G</forename><surname>Van Heerde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Dekimpe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="721" to="758" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,317.93,492.68,239.10,8.97;15,326.95,503.97,230.09,7.87;15,326.95,514.48,230.25,7.68;15,326.95,524.89,230.10,7.87;15,326.95,535.32,54.41,7.87" xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Service-Dominant Logic: What It Is, What It Is Not, What It Might Be</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><forename type="middle">L</forename><surname>Vargo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">F</forename><surname>Lusch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Service-Dominant Logic of Marketing: Dialog, Debate and Directions</title>
+		<editor>B.R.F. Lusch and S.L. Vargo</editor>
+		<meeting><address><addrLine>Armonk, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>M.E. Sharpe</publisher>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="43" to="56" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="15,317.93,545.81,239.12,7.87;15,326.94,555.44,230.11,8.97;15,326.94,566.73,230.10,7.87" xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Service Innovation and Customer Choices in the Hospitality Industry</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Liana</forename><surname>Victorino</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rohit</forename><surname>Verma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gerhard</forename><surname>Plaschka</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chekitan</forename><forename type="middle">S</forename><surname>Dev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Managing Service Quality</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="555" to="76" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

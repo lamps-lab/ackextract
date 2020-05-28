@@ -1,0 +1,2170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A NEW LOOK AT THE EMPLOYMENT AND RECIDIVISM RELATIONSHIP THROUGH THE LENS OF A CRIMINAL BACKGROUND CHECK *</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Megan</forename><surname>Denver</surname></persName>
+							<email>mdenver@albany.edu.</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Criminal Justice</orgName>
+								<orgName type="institution">University at Albany</orgName>
+								<address>
+									<country>SUNY</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Garima</forename><surname>Siwach</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Economics</orgName>
+								<orgName type="institution">University at Albany</orgName>
+								<address>
+									<settlement>SUNY</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shawn</forename><forename type="middle">D</forename><surname>Bushway</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Rockefeller College of Public Affairs and Policy</orgName>
+								<orgName type="institution">University at Albany</orgName>
+								<address>
+									<region>SUNY</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Megan</forename><surname>Denver</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">School of Criminal Justice, University at Albany</orgName>
+								<orgName type="institution">State University of New York</orgName>
+								<address>
+									<addrLine>135 Western Avenue, Draper Hall 219</addrLine>
+									<postCode>12222</postCode>
+									<settlement>Albany</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A NEW LOOK AT THE EMPLOYMENT AND RECIDIVISM RELATIONSHIP THROUGH THE LENS OF A CRIMINAL BACKGROUND CHECK *</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">CRIMINOLOGY</title>
+						<imprint>
+							<biblScope unit="volume">55</biblScope>
+							<biblScope unit="page" from="174" to="204"/>
+						</imprint>
+					</monogr>
+					<note>* Additional supporting information can be found in the listing for this article in the Wiley Online Library at http://onlinelibrary.wiley.com/doi/10.1111/crim.2017.55.issue-1/issuetoc. Direct all correspondence to The authors are extremely grateful to our New York State partners who made this project possible. We would like to thank Terry Salo and Leslie Kellam and their team at the Division of Criminal Justice Services; Daryl Barra and his team at the Department of Health; and the research staff at the Department of Labor for their encouragement, access to data, and complete support. We ex-tend a special thank you to the project co-PI Megan Kurlychek for her support and encouragement on this article. We would also like to thank our editor and four anonymous reviewers for detailed feedback that helped strengthen the article. All errors remain our own. These data are provided by the New York State Division of Criminal Justice Services (DCJS) and the Department of Health C 2017 American Society of Criminology 174</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T14:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>recidivism</term>
+					<term>criminal background checks</term>
+					<term>desistance</term>
+					<term>employment</term>
+					<term>instru- mental variables</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Criminal background checks are increasingly being incorporated into hiring decisions by employers. Although originally uncompromising-almost anyone with a criminal record could be denied employment-court rulings and policy changes have forced criminal background checks to become more nuanced. One motivation for allowing more individuals with criminal records to work is to decrease recidivism and encourage desistance. In this article, we estimate the causal impact of receiving a clearance to work on subsequent arrests for individuals with criminal records who have been provisionally hired to work in certain nonlicensed health-care jobs in New York State <ref type="figure" coords="1,83.42,342.94,49.34,9.96">(N = 6,648)</ref>. We employ an instrumental variable approach based on a substantive understanding of the state-mandated criminal background check process. We examine age-graded effects within this group of motivated individuals and differential effects by sex in the rapidly growing health-care industry, which is typically dominated by women. Our estimated local average treatment effect indicates a 2.2-percentage-point decrease in the likelihood of a subsequent arrest in 1 year and a 4.2-percentage-point decrease over 3 years. We find meaningful variations by sex; men are 8.4 percentage points less likely to be arrested over the 3-year period when cleared compared with a 2.4-percentage-point (and nonsignificant) effect for women. Older women in particular are driving the nonsignificant results for women.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>During the last 20 years, there has been an expansion in the use of criminal records by employers for hiring decisions <ref type="bibr" coords="2,198.35,72.46,61.73,9.21" target="#b44">(Jacobs, 2015;</ref><ref type="bibr" coords="2,264.27,72.46,65.11,9.21" target="#b70">Raphael, 2011)</ref>. These changes have occurred in part because of developments in technology-primarily the Internetand perceptions of increased risk arising from events like 9/11 <ref type="bibr" coords="2,44.60,108.32,71.53,9.21" target="#b76">SEARCH, 2005)</ref>. One major source of criminal background information is official criminal record repositories. Originally created for criminal justice purposes by states using fingerprint cards, the volume of fingerprint-based background checks for noncriminal justice purposes increased 55 percent from 2006 to 2014 in 48 states and the District of Columbia (Bureau of Justice <ref type="bibr" coords="2,214.02,156.15,62.93,9.21">Statistics, 2008</ref><ref type="bibr" coords="2,285.79,156.15,17.52,9.21">Statistics, , 2015</ref>. During the same period, the volume of fingerprint-based checks for criminal justice purposes declined 6 percent (Bureau of Justice <ref type="bibr" coords="2,125.27,180.05,60.75,9.21">Statistics, 2008</ref><ref type="bibr" coords="2,192.68,180.05,17.52,9.21">Statistics, , 2015</ref>. The net effect was that in 2014, for the first time, most of the 24 million fingerprint-based criminal background checks conducted by staff at repositories were for noncriminal-justice purposes. The practitioners at these repositories processed an additional 19.4 million name-based criminal background checks in 2014 for noncriminal-justice purposes.</p><p>Although these numbers are large, they are undoubtedly dwarfed by the biggest source of criminal background checks for employers: consumer reporting agencies. Consumer reporting agencies are private commercial vendors whose staff members conduct namebased searches using information collected from court records and other publicly available data sources <ref type="bibr" coords="2,125.45,287.65,77.57,9.21">(Jacobs, 2015: 75)</ref>. For example, the commercial vendor LexisNexis (n.d.) reported maintaining a national database spanning all 50 U.S. states and containing more than 250 million criminal records for more than 100 million individuals. Although there are not clear national estimates on how many employers conduct criminal background checks using these sources, the existing evidence indicates that these searches are common, particularly for large companies <ref type="bibr" coords="2,332.99,347.43,58.28,9.21">EEOC, 2012;</ref><ref type="bibr" coords="2,394.80,347.43,32.37,9.21;2,44.60,359.39,107.40,9.21" target="#b41">Holzer, Raphael, and Stoll, 2006;</ref><ref type="bibr" coords="2,154.52,359.39,215.64,9.21">Society for Human Resources Management, 2012)</ref>.</p><p>The use of these records for employment decisions, regardless of the source of criminal history record information, is governed by state laws and federal court rulings about potential disparate impact under Title VII of the Civil Rights Act of 1964 <ref type="bibr" coords="2,349.69,395.26,77.48,9.21;2,44.60,407.21,21.90,9.21" target="#b48">(King and Fliegel, 2011)</ref>. In the seminal <ref type="bibr" coords="2,138.37,407.21,224.36,9.21">Green v. Missouri Pacific Railroad Company (1977)</ref> case, a federal court of appeals banned employers from implementing "blanket bans" or from using an applicant's conviction record as an absolute bar to employment. Instead, employers were encouraged to clear individuals with records to work unless there was a business necessity to deny the applicant <ref type="bibr" coords="2,141.97,455.03,61.58,9.21">(EEOC, 1987)</ref>. Despite this guidance, blanket bans remain common, particularly in the context of occupational licenses. More than a quarter of the U.S. workforce was covered by license requirements in 2008, which was a dramatic increase from 5 percent in the 1950s <ref type="bibr" coords="2,165.43,490.89,121.09,9.21">(Kleiner and Krueger, 2011)</ref>. Half the states and the District of Columbia currently allow a blanket ban denial approach for individuals with criminal convictions in the licensure process (White <ref type="bibr" coords="2,231.72,514.80,55.12,9.21" target="#b92">House, 2015)</ref>.</p><p>The results of recent social science research have not supported the idea of blanket bans; instead they have supported the idea that individuals with criminal records can be <ref type="bibr" coords="2,68.52,573.61,24.89,7.82">(DOH)</ref>. The opinions, findings, and conclusions expressed in this publication are those of the authors and not those of DCJS or DOH. Neither New York State nor DCJS nor DOH assumes liability for its contents or use thereof. This research was supported by Award 2012-MU-MU-0048 from the National Institute of Justice, Office of Justice Programs, U.S. Department of Justice. The opinions, findings, and conclusions expressed in this publication are those of the authors and do not necessarily reflect the views of the Department of Justice. differentiated a priori on the basis of different elements of the criminal history <ref type="bibr" coords="3,374.81,60.68,48.16,9.21;3,40.37,72.63,94.65,9.21" target="#b11">(Blumstein and Nakamura, 2009;</ref><ref type="bibr" coords="3,138.93,72.63,196.52,9.21" target="#b17">Bushway, Nieuwbeerta, and Blokland, 2011;</ref><ref type="bibr" coords="3,58.83,84.58,90.90,9.21">Bushway, 2006, 2007)</ref>. Based in part on this research, the federal Equal Employment Opportunity Commission <ref type="bibr" coords="3,155.69,96.54,63.73,9.21">(EEOC, 2012)</ref> further revised its guidance to encourage the practice of individualized assessments, which include the consideration of mitigating information that might assuage concerns raised by the criminal record. The EEOC has also filed several high-profile lawsuits against large employers over their use of criminal background checks <ref type="bibr" coords="3,104.81,144.36,152.64,9.21" target="#b31">(Fliegel, Hartstein, and Mora, 2013)</ref>. At the same time, the "Ban the Box" movement has been spreading across the nation, moving criminal background inquiries to later stages in the hiring process with the goal of increasing employment for those with criminal history records <ref type="bibr" coords="3,147.13,180.23,58.73,9.21" target="#b81">(Smith, 2014)</ref> and there is evidence that the move to more formal, regulated criminal background checks has led employers to clear more people with criminal records than they might have previously <ref type="bibr" coords="3,253.63,204.14,95.64,9.21" target="#b39">(Hartstein et al., 2012;</ref><ref type="bibr" coords="3,351.77,204.14,71.12,9.21;3,40.37,216.09,74.22,9.21" target="#b53">Lageson, Vuolo, and Uggen, 2015)</ref>.</p><p>Furthermore, policy makers are actively pushing for increased hiring of such individuals <ref type="bibr" coords="3,54.70,240.00,141.50,9.21" target="#b75">(Rodriguez and Emsellem, 2011;</ref><ref type="bibr" coords="3,198.91,240.00,70.24,9.21" target="#b79">Simonson, 2006;</ref><ref type="bibr" coords="3,271.88,240.00,65.86,9.21" target="#b83">Solomon, 2012)</ref>. In 2011, then U.S. Attorney General Eric Holder wrote a letter to all state attorneys general requesting a review of state laws that impose restrictions on individuals with criminal records, with the goal of eliminating restrictions that are unnecessary for public safety. Part of his argument was that "research reveals that gainful employment and stable housing are key factors that enable people with criminal convictions to avoid future arrests and incarcerations" <ref type="bibr" coords="3,40.37,311.73,96.98,9.21">(Holder, 2011, para. 5)</ref>. The argument is straightforward: Increasing the rate at which individuals with criminal records are cleared to work can both increase employment and decrease crime.</p><p>Even though it is clearly plausible in theory <ref type="bibr" coords="3,248.23,347.60,125.06,9.21" target="#b18">(Bushway and Reuter, 2001;</ref><ref type="bibr" coords="3,376.80,347.60,46.13,9.21;3,40.37,359.55,65.53,9.21" target="#b30">Fagan and Freeman, 1999;</ref><ref type="bibr" coords="3,107.81,359.55,108.16,9.21" target="#b58">Laub and Sampson, 2001)</ref>, the argument that a criminal background check clearance will decrease crime has never been validated empirically. Moreover, the connection between work and crime for individuals with criminal records has been tested almost exclusively on men. Although men are overrepresented in the criminal justice system, criminal background checks are increasingly relevant for women as well. <ref type="bibr" coords="3,393.60,407.38,29.32,9.21;3,40.37,419.33,59.54,9.21">Brame et al.'s (2014)</ref> estimate that approximately 15-20 percent of women experience at least one nontraffic arrest by 23 years of age only seems small when considering that the male arrest rate is approximately two times larger.</p><p>Just as importantly, many industries that are most likely to conduct criminal background checks, like health care, child care, and education, are dominated by women, particularly for entry-level positions <ref type="bibr" coords="3,187.52,479.11,149.93,9.21" target="#b41">(Holzer, Raphael, and Stoll, 2006;</ref><ref type="bibr" coords="3,340.91,479.11,82.04,9.21;3,40.37,491.06,79.02,9.21">National Women's Law Center, 2014;</ref><ref type="bibr" coords="3,122.12,491.06,84.61,9.21" target="#b92">White House, 2015)</ref>. For example, 41 states now require home health agencies to conduct criminal background checks for home health-care aides (Office of Inspector General, 2014), and 91 percent of home health-care aides in 2012 were women <ref type="bibr" coords="3,40.37,526.93,193.71,9.21" target="#b67">(Paraprofessional Healthcare Institute, 2014)</ref>. The relevance of this issue will only grow: The Bureau of Labor <ref type="bibr" coords="3,136.79,538.89,68.76,9.21">Statistics (2015)</ref> anticipates that health-care support positions will experience the largest growth in low-wage jobs in the next decade and that the female civilian labor force is projected to increase by 9 percent (more than 6.4 million individuals) between 2008 and 2018 (Bureau of Labor Statistics, 2011). Clearly, women are increasingly affected by criminal background checks.</p><p>Although women have lower recidivism rates when compared with those of men <ref type="bibr" coords="3,40.37,610.62,160.73,9.21" target="#b26">(Durose, Cooper, and Snyder, 2014;</ref><ref type="bibr" coords="3,205.05,610.62,161.26,9.21" target="#b34">Gendreau, Little, and Goggin, 1996;</ref><ref type="bibr" coords="3,370.26,610.62,52.65,9.21;4,44.60,60.68,51.63,9.21" target="#b54">Langan and Levin, 2002)</ref>, and may have a different relationship with work, both normatively and economically <ref type="bibr" coords="4,89.42,72.63,83.29,9.21" target="#b89">(Urahn et al., 2014)</ref>, there is some evidence that women with criminal records may be more affected than men with criminal records. For example, men with incarceration histories tend to secure jobs at higher rates than women with incarceration histories <ref type="bibr" coords="4,44.60,108.49,156.26,9.21" target="#b59">(La Vigne, Brooks, and Lloyd, 2009)</ref>, and an incarceration record does not seem to influence employers' responses for men nearly as much as for women when submitting online job applications for entry-level job positions <ref type="bibr" coords="4,242.11,132.41,88.81,9.21" target="#b25">(Decker et al., 2014)</ref>. This presents a dual disadvantage-not only might women work in industries that are more likely to conduct criminal background checks, but women with criminal records might also be viewed more negatively than men with criminal records.</p><p>This article strives to provide insight into the overall question of how a criminal background check affects subsequent criminal justice involvement for individuals with records. As this is fundamentally the study of a policy-based criminal background check, any study of this question must include information about individuals who are being reviewed as part of a particular background check process. In the absence of an experiment, researchers can generate inferences by substantively modeling the criminal background check in practice to identify exogenous variation in the outcomes associated with the check.</p><p>In much of Europe, criminal background checks are decided by the centralized government repository in response to a request from the employee <ref type="bibr" coords="4,305.57,287.82,117.19,9.21" target="#b45">(Jacobs and Larrauri, 2015)</ref>. As a result, a study in Europe might be possible at the national level. In the United States, however, criminal background checks are much more fragmented, and they are usually conducted by an employer or state agency responsible for a particular job sector, such as teachers or hospital employees. As a result, we focus on a criminal background check conducted by one state agency in New York for a set of direct-care, nonlicensed jobs for two large industries in the state-licensed nursing homes and home health-care agencies. Our sample includes the population of individuals in 2008 and 2009 with formal criminal history records (as recorded in the official state and federal repositories) who have applied for and been provisionally hired to work in such jobs, conditional on passing the state-mandated criminal background check. Because we can model the decision, we can provide the first causal estimate of the impact of the criminal background check outcome on individuals with records.</p><p>Nevertheless, the necessary focus on a particular state, industry, and type of individual with a criminal record (i.e., those actively seeking legitimate employment and provisionally qualified for the position) also means that our results have limited generalizability. This limitation is shared by other research in this area. For example, researchers who have conducted audit studies on the negative impact of having a criminal record have focused on specific local labor markets, including Milwaukee <ref type="bibr" coords="4,299.19,503.02,55.55,9.21" target="#b65">(Pager, 2003)</ref>, New York City <ref type="bibr" coords="4,44.60,514.97,171.30,9.21" target="#b66">(Pager, Western, and Bonikoswki, 2009)</ref>, and Minneapolis . Likewise, the aims of recent experimental evaluations of transitional job programs for individuals exiting prisons have also been limited to tests for individuals in one type of transitional job in a particular labor market <ref type="bibr" coords="4,208.49,550.84,112.65,9.21" target="#b15">(Bushway and Apel, 2012;</ref><ref type="bibr" coords="4,323.46,550.84,103.68,9.21;4,44.60,562.79,74.49,9.21" target="#b91">Visher, Winterfield, and Coggeshall, 2005)</ref>.</p><p>Given that this is the first study to evaluate the impact of the outcome of a criminal background check on subsequent recidivism, we believe the trade-off between internal validity and external validity is warranted. Examining a standardized criminal background check process provides a unique methodological opportunity where we can identify the different factors that determine the background check decision. Furthermore, New York State is an excellent laboratory for this analysis because the state's legal context anticipated the developing national situation. New York is one of the few states to formally prevent blanket bans <ref type="bibr" coords="5,135.27,96.37,104.25,9.21" target="#b48">(King and Fliegel, 2011;</ref><ref type="bibr" coords="5,242.57,96.37,149.39,9.21">NY Correction Law Article 23-A)</ref> and to require the consideration of rehabilitation and good conduct information. In doing so, the law explicitly recognizes the need to balance public safety concerns about hiring people with demonstrated risk with the potential benefits of encouraging the licensure and employment of people with prior conviction records (NY Correction Law Article 23-A). As a result, an analysis examining transparent decision processes followed by a large state agency should be particularly informative for policy makers trying to understand the consequences of criminal background checks. Furthermore, because the sample derives from a job setting with mostly women, the article is uniquely situated to look separately at the impact of employment opportunities on recidivism for women and men with criminal history records.</p><p>In addition to providing new insight about the consequences of criminal background checks, this article also contributes to the criminological literature on the relationship between employment and recidivism. In research that has examined employment and recidivism, most studies have focused on men recently released from prison <ref type="bibr" coords="5,377.98,263.75,44.97,9.21;5,40.37,275.70,64.62,9.21" target="#b7">(Apel and Sweeten, 2010;</ref><ref type="bibr" coords="5,108.20,275.70,111.47,9.21" target="#b15">Bushway and Apel, 2012;</ref><ref type="bibr" coords="5,222.88,275.70,76.30,9.21" target="#b22">Cook et al., 2015)</ref>. Most of these men are detached from the labor market, a fact that might account for the largely null relationship between employment programs and subsequent recidivism for this population. By examining criminal background checks, we can test the employment-recidivism relationship in a sample of individuals who are, by definition, attached to the labor market. Finally, the article also provides an opportunity to test the life-course idea that the impact of life events, like work opportunities, are age-graded <ref type="bibr" coords="5,250.68,347.43,56.34,9.21" target="#b27">(Elder, 1975;</ref><ref type="bibr" coords="5,310.27,347.43,112.66,9.21" target="#b57">Laub and Sampson, 1993;</ref><ref type="bibr" coords="5,40.37,359.39,55.67,9.21" target="#b87">Uggen, 2000)</ref>. Because the sample consists of individuals who are all in the labor market, we can distinguish the concept of age from more general concepts like motivation or job readiness.</p><p>The article proceeds by discussing the literature on work and recidivism, with a particular focus on potential age-graded effects and variations by sex. The following two sections describe the data and our empirical strategy. We implement an instrumental variable approach based on substantive knowledge of the two-stage criminal background check process in our study context. Specifically, after the initial criminal background check decision occurs, everyone who receives a proposed denial has the opportunity to contest the decision by providing some additional information, and the decision-makers then consider the additional information (when applicable) before making a final determination. We estimate a relevant local average treatment effect (LATE) for the causal impact of a criminal background check decision on subsequent arrest over the shorter (1 year) and the longer (3 year) run, while attempting to explain the mechanism through which these effects play out. The article concludes with the results and a discussion of how the empirical evaluation of a criminal background check, which is interesting in its own right, sheds new light on the complex theoretical relationship between work opportunities and recidivism.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>WORK AND RECIDIVISM</head><p>From an economic perspective, a legitimate source of income caused by a criminal background check clearance to work might change the cost-benefit calculation of crime for the rational decision maker <ref type="bibr" coords="6,209.17,60.68,57.68,9.21" target="#b9">(Becker, 1968</ref>). In addition, access to employment could generate an important source of social control for individuals with criminal records <ref type="bibr" coords="6,44.60,84.58,115.34,9.21" target="#b57">(Laub and Sampson, 1993)</ref>. Furthermore, a positive clearance decision could help eradicate, rather than exacerbate, the "stigma" of a criminal record <ref type="bibr" coords="6,326.07,96.54,63.13,9.21" target="#b10">(Becker, 1963;</ref><ref type="bibr" coords="6,392.56,96.54,34.58,9.21;6,44.60,108.49,21.90,9.21" target="#b60">Lemert, 1951)</ref>.</p><p>This intuition has not been tested in the context of a criminal background check, but it has been tested extensively with research on the causal impact of employment and job training programs on recidivism for individuals involved in the criminal justice system. Surprisingly, rigorous evaluations of employment-based programs often find null effects <ref type="bibr" coords="6,44.60,168.27,115.25,9.21" target="#b15">(Bushway and Apel, 2012;</ref><ref type="bibr" coords="6,163.02,168.27,76.72,9.21" target="#b22">Cook et al., 2015;</ref><ref type="bibr" coords="6,242.92,168.27,184.23,9.21" target="#b91">Visher, Winterfield, and Coggeshall, 2005;</ref><ref type="bibr" coords="6,44.60,180.23,178.49,9.21" target="#b94">Wilson, Gallagher, and MacKenzie, 2000)</ref>. Part of the problem is that many employment programs do not actually increase employment <ref type="bibr" coords="6,247.92,192.18,77.83,9.21" target="#b22">(Cook et al., 2015;</ref><ref type="bibr" coords="6,328.01,192.18,99.14,9.21;6,44.60,204.14,77.56,9.21" target="#b94">Wilson, Gallagher, and MacKenzie, 2000)</ref>. Theoretically, work programs should not reduce crime unless they cause meaningful improvements in employment and earnings <ref type="bibr" coords="6,313.27,216.09,113.90,9.21" target="#b15">(Bushway and Apel, 2012;</ref><ref type="bibr" coords="6,44.60,228.04,158.83,9.21" target="#b56">Lattimore, Steffey, and Visher, 2010;</ref><ref type="bibr" coords="6,205.94,228.04,121.02,9.21" target="#b71">Raphael and Weiman, 2007)</ref>.</p><p>Nevertheless, even transitional jobs programs, which clearly and unambiguously increase employment during the duration of the program, often do not reduce recidivism even in the short run <ref type="bibr" coords="6,140.75,263.92,122.20,9.21" target="#b69">(Piliavin and Gartner, 1981;</ref><ref type="bibr" coords="6,266.25,263.92,88.67,9.21" target="#b72">Redcross et al., 2010</ref><ref type="bibr" coords="6,362.70,263.92,17.93,9.21" target="#b73">Redcross et al., , 2011</ref><ref type="bibr" coords="6,388.41,263.92,38.74,9.21;6,44.60,275.87,49.10,9.21" target="#b93">Wiegand et al., 2015;</ref><ref type="bibr" coords="6,96.56,275.87,156.41,9.21" target="#b96">Zweig, Yahner, and Redcross, 2010)</ref>. One possible explanation for this finding is that employment programs may need to be targeted at the small subset of individuals who are ready for employment <ref type="bibr" coords="6,204.06,299.78,64.04,9.21" target="#b55">(Latessa, 2012)</ref>. Perhaps individuals are only ready for employment when other criminological needs have been met <ref type="bibr" coords="6,323.89,311.73,77.72,9.21" target="#b22">(Cook et al., 2015)</ref>. This idea fits well with the growing consensus from the risk-needs-responsivity movement that effective programming targets the right program for the right person at the right time <ref type="bibr" coords="6,66.91,347.60,166.32,9.21" target="#b2">(Andrews, Bonta, and Wormith, 2006)</ref>. <ref type="bibr" coords="6,240.57,347.60,122.35,9.21" target="#b18">Bushway and Reuter (2001)</ref> have also suggested that employment only "works" for individuals who are motivated. From this line of thought, programs that identify and employ individuals who are motivated to work might be more likely to find a relationship between employment opportunities and crime than the standard studies that use samples of individuals exiting prison. <ref type="bibr" coords="6,329.18,393.87,3.49,6.44">1</ref> Another line of scholarship from the life-course tradition has produced results that suggest that the key contextual factor is not motivation but age <ref type="bibr" coords="6,329.87,419.33,60.60,9.21" target="#b87">(Uggen, 2000)</ref>. Uggen reevaluated Supported Work, an experimental subsidized work program conducted in the 1970s that found no relationship between subsidized work and crime <ref type="bibr" coords="6,370.95,443.24,56.18,9.21;6,44.60,455.19,61.36,9.21" target="#b69">(Piliavin and Gartner, 1981)</ref>. After interacting the treatment with age, Uggen found that the Supported Work did lead to a negative, significant, and substantively meaningful reduction in recidivism for those individuals with criminal history records who were older than 26 years of age, which indicates that the impact of employment on crime is age-graded. As individuals transition into adulthood and prepare to "settle down" and desist <ref type="bibr" coords="6,330.74,503.02,96.38,9.21" target="#b8">(Bachman et al., 2014;</ref><ref type="bibr" coords="6,44.60,514.97,118.15,9.21" target="#b64">Massoglia and Uggen, 2010)</ref>, obtaining legitimate work becomes relevant and meaningful. Ninety-six percent of Americans believe working full time is "at least somewhat important" for claiming adult status (General Social Survey, 2002 as cited in <ref type="bibr" coords="6,348.60,538.88,78.55,9.21;6,44.60,550.84,17.52,9.21" target="#b33">Furstenberg et al., 2004</ref>).</p><p>It is not always possible to disentangle motivation or readiness from age. Older individuals may be more "ready to desist" <ref type="bibr" coords="7,197.57,72.46,143.51,9.21" target="#b68">(Paternoster and Bushway, 2009;</ref><ref type="bibr" coords="7,344.11,72.46,59.74,9.21" target="#b78">Shover, 1996)</ref> and therefore better able to take advantage of the job. But <ref type="bibr" coords="7,278.01,84.41,59.05,9.21" target="#b87">Uggen (2000)</ref> found that younger individuals did not reduce their illegal earnings even while participating in the work program, suggesting that the work may not have been salient for these participants, who could and did work. To date, there has been no test of whether the age-graded impact of work is conceptually distinct from motivational or job readiness perspectives. In this article, we examine whether the impact of a background check clearance has an age-graded impact on recidivism among a sample of motivated, job-ready individuals. Evidence that the impact is age-graded in this sample would be solid evidence that age is more than just another way to describe motivation or job readiness.</p><p>Unlike age, sex has received scant attention in the discussion of work and crime. Women form a small minority of individuals who participate in the criminal justice system. As a result, researchers do not usually conduct studies that differentiate the theoretical justification for the role of employment between men and women, and only a few samples have enough women to study them separately. Nevertheless, in our sample of individuals provisionally hired to work in the health-care industry, women comprise more than two thirds of the individuals with criminal records. Greater than 90 percent of home health aides in the United States--the fifth fasting growing occupation in the county--are women (Bureau of Labor Statistics, 2015; <ref type="bibr" coords="7,224.01,287.65,96.54,9.21" target="#b47">Khatutsky et al., 2011)</ref>. And although women have less lifetime involvement than men in the criminal justice system, their rates of involvement are still substantial <ref type="bibr" coords="7,172.94,311.56,84.64,9.21" target="#b12">(Brame et al., 2014)</ref>. The current study provides a unique opportunity to examine the impact of employment on recidivism by sex in an employment context where a criminal background check is becoming a legal prerequisite for obtaining a job.</p><p>Few articles study differences in the way employment affects participation differently for men and women. Nonetheless, it is clear that sex variations in criminal participation do exist <ref type="bibr" coords="7,76.93,383.29,119.04,9.21" target="#b37">(Greenfeld and Snell, 1999;</ref><ref type="bibr" coords="7,198.76,383.29,161.64,9.21" target="#b74">Reisig, Holtfreter, and Morash, 2006;</ref><ref type="bibr" coords="7,363.19,383.29,59.76,9.21;7,40.37,395.26,72.41,9.21" target="#b84">Steffensmeier and Allan, 1996)</ref>. One natural consequence is a debate about whether traditional risk assessment tools developed mostly on male samples apply to women <ref type="bibr" coords="7,340.03,407.21,82.91,9.21;7,40.37,419.16,79.99,9.21" target="#b74">(Reisig, Holtfreter, and Morash, 2006)</ref>. For example, a traditional rational choice orientation might lead to the conclusion that the financial incentives for committing a crime are higher for men than for women because they are more likely to be the primary earners in the household <ref type="bibr" coords="7,40.37,455.03,53.40,9.21" target="#b46">(Jurik, 1983;</ref><ref type="bibr" coords="7,96.28,455.03,207.66,9.21" target="#b90">Verbruggen, Blokland, and van der Geest, 2012)</ref>.</p><p>Verbruggen, Blokland, and van der Geest (2012) discussed how the psychological effects of being unemployed, including stigmatization, may also fall more heavily on men, whereas women might have easier access to other social roles. Specifically, social factors like marriage, raising children, and household tasks may better explain women's decisions to participate in illegal activities <ref type="bibr" coords="7,206.74,514.80,69.84,9.21" target="#b32">(Freeman, 1999)</ref>. Within a marriage, for example, one partner may be able to insure him-or herself against negative income shocks through the spouse's earnings. Furthermore, the opportunity cost of committing a crime should increase with the number of children because children increase the added disutility or harm from going to jail <ref type="bibr" coords="7,142.50,562.63,86.14,9.21" target="#b19">(Campaniello, 2014)</ref>.</p><p>Nevertheless, there have been major increases in labor-force participation for women in recent decades, along with changes in social and family dynamics. As a result, the impact of employment on crime for women relative to men is an open question. In a recent study, researchers used welfare reform legislation in the 1990s that increased employment among women to examine variation in the impact of employment on crime by sex <ref type="bibr" coords="8,74.69,72.46,163.73,9.21" target="#b23">(Corman, Dave, and Reichman, 2014)</ref>. The authors found significant negative effects of women's work incentives on women's property crimes but no effect on other types of crime.</p><p>In a study analyzing the Transitional Aid Research Project (TARP) experiment among newly released felons, <ref type="bibr" coords="8,141.39,120.28,52.09,9.21" target="#b46">Jurik (1983)</ref> gave at least two reasons to expect sex differences in a population of people with criminal records. First, women tend to have different criminal records than men have in terms of the nature of past offenses; and second, women may have different family obligations than men have. For example, many mothers may have sole custody of small children, increasing the burden of child-care responsibilities. Despite these differences, <ref type="bibr" coords="8,122.11,180.05,52.18,9.21" target="#b46">Jurik (1983)</ref> found little difference in the effects of TARP payments by sex, although she did find that number of weeks employed has a smaller negative effect on women's crime.</p><p>This mixed evidence does not provide much guidance in predicting what we will find in the current study, which deviates from previous work in several ways, but we can speculate. Everyone in the current study sample is active in the labor market and provisionally hired to work in the health-care setting, which is not the usual context for individuals returning home from prison where involvement in the labor market is the exception rather than the rule <ref type="bibr" coords="8,103.85,275.70,111.38,9.21" target="#b7">(Apel and Sweeten, 2010)</ref>. Furthermore, the individuals in our sample are experiencing a criminal background check decision that has broad employment implications beyond one individual job. DOH's clearance decision impacts all related jobs falling under the DOH criminal background check mandate in the state (i.e., low-wage jobs involving direct access to patients or residents in licensed institutions and agencies). Therefore, in addition to the background check analysis, we will also explore the effects of these increased employment opportunities from the background check clearance, which serves as the mechanism for our main effects.</p><p>Our sample predominantly comprises women and is older than the average individual involved in the criminal justice system. As a result, the individuals examined in this article have a higher average risk when compared with the general population, but they have a lower average risk when compared with a typical pool of individuals with criminal records. In this sense, we might anticipate small recidivism effects of employment in absolute terms simply because the risk is lower than in standard studies of men recently released from prison. To examine this possibility, we will compare the effect of clearance across these important subgroups (men vs. women and older vs. younger individuals).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CRIMINAL BACKGROUND CHECK DECISIONS IN CONTEXT</head><p>In 2006, the New York State Department of Health (DOH) was mandated to conduct criminal history background checks on all individuals provisionally hired to work in certain low-wage, direct-access jobs in the health-care industry. "Direct access" refers to nonlicensed positions that involve contact with patients or residents, such as orderlies and nurse aides, in licensed nursing home, assisted living, and home health-care facilities. Licensed positions, such as nurses or psychologists, and volunteers are excluded from this particular background check process.</p><p>DOH's criminal background check process involves two decision points: a proposed (or initial) clearance decision and a final clearance decision. Between the two decisions, everyone who receives a proposed denial has the option to submit evidence of rehabilitation in an attempt to reverse the proposed denial. The two-stage decision process essentially flips the proposed denial decision to a final clearance for a nontrivial (approximately 16 percent), nonrandom proportion of the sample. In other words, DOH uses the additional information to clear another 16 percent of the sample during this additional review. In addition to being substantively important, this step has important implications for our analytic strategy. This section describes how the legal context directs the initial decision and the implications of the two-stage process from a methodological perspective. State laws regulate when the criminal background check process occurs and outline the requirements for the background check decision. DOH only conducts criminal background checks on individuals after they are provisionally hired by the local employer, which is beneficial to us analytically. Although we cannot observe the self-selection and employer-selection process, within this group of provisionally hired individuals, DOH makes the first-round background check decision based only on available criminal history information. This formal and independent criminal history review process does not consider (and DOH does not have access to) additional factors that employers may also care about (such as personality or employability), which might be correlated with recidivism. Furthermore, state laws specify the factors that decision-makers must consider (Article 23-A of the NY Correction Law) and specific offenses that automatically disqualify individuals from these positions in the health-care sector (Public Health Law 28-E).</p><p>After this initial clearance decision occurs, every individual who receives a proposed denial has 30 calendar days to "explain . . . why the prospective employee's eligibility for employment should not be disproved" (NYCRR Title 10, Part 402). This coincides with Article 23-A's provision that employers need to consider evidence of rehabilitation and good conduct in the criminal history background check, and DOH provides individuals receiving proposed denial decisions a list of 13 examples that could be used as evidence of rehabilitation in a submission. <ref type="bibr" coords="9,181.29,482.43,3.49,6.44">2</ref> The second stage of the decision process presents a complication to an otherwise straightforward and predictable clearance decision. The option to contest the proposed denial, and the subsequent reevaluation for those who do provide evidence of rehabilitation, separates individuals into four groups. As displayed in table 1, the initial decision and the decision to contest the proposed denial defines how individuals are grouped into the four subsamples. In previous research with these data, researchers used the groups to identify in part the average treatment effects (through bounding) in the likelihood of subsequent arrest and found variation across the groups <ref type="bibr" coords="10,289.68,72.63,58.16,9.21">(Siwach, n.d.)</ref>. The most important comparison is between groups 3 and 4, which both receive proposed denials and are ultimately denied clearance. Individuals in group 4, who never contest the proposed decision, have worse subsequent arrest outcomes when compared with those who unsuccessfully submit evidence of rehabilitation (group 3; <ref type="bibr" coords="10,258.36,120.45,54.84,9.21">Siwach, n.d.)</ref>. The two-stage process is problematic in the current analysis because individuals in group 2 successfully contested, converting the proposed denial to a clearance decision. We cannot observe factors such as motivation, personality, human capital, or other social dynamics that may have influenced their decision to submit evidence of rehabilitation or their success in doing so.</p><p>As selection into the second clearance round introduces endogeneity, the ordinary least-squares (OLS) estimates from regressing recidivism on final clearance are expected to be biased. To deal with this bias, our empirical strategy follows an instrumental variable approach, where we use the initial decision by the DOH decision maker as the instrument. This initial decision is based solely on the criminal history record of the candidate. Importantly, the decision maker never meets the candidate and is not involved in the original hiring decision. In addition, we have access to the same criminal record information used by the DOH decision makers. Of course, the decision maker is not randomly assigning people to the treatment (clearance). Nevertheless, the internal policies that DOH implements, along with the legal and policy context, create a situation where initial decisions are unusually predictable to researchers with access to extensive criminal history information. <ref type="bibr" coords="10,101.02,311.73,95.11,9.21">Kurlychek et al. (n.d.)</ref> demonstrated that we can correctly predict the initial decision 89 percent of the time by following DOH's decision rules (i.e., the factors listed in Article 23-A and Public Health Law 28-E) and by using only the criminal record information available to the decision-maker. We can almost perfectly predict cases that are guided by state law or internal policies, which represent high-and low-severity criminal histories, respectively <ref type="bibr" coords="10,160.31,371.51,98.14,9.21">(Kurlychek et al., n.d.)</ref>. The less certain predictions are cases with criminal records that fall in the discretionary middle (i.e., are subject to decision maker discretion), but we also can control extensively for the criminal record characteristics that comprise this group and any minor decision-maker variation is exogenous to the individual's subsequent arrest behavior.</p><p>We also observe additional detailed information on the person's arrest record and employment history (which the decision-maker does not see) that are correlated with offending. After fully controlling for the available information that determines the first-round decision and this additional information, the leftover variation in the instrument (initial clearance) is plausibly random with respect to the outcome. With this framework, we estimate a LATE of the criminal background clearance decision on recidivism. We further build on this framework by exploring different treatment effects by sex and by interacting our treatment with age to evaluate variations in the impact of clearing someone for an employment opportunity.</p><p>DATA DOH provided us with information on everyone provisionally hired for the first time in 2008 or 2009 to work in specific low-wage, direct-access jobs in the health-care industry in New York State. This includes demographic information (race, sex, age at the time of the decision), contextual information (regional facility location, facility type), and application information (the date the background check process started, decision letters, and decision dates). With a starting sample of 7,541 individuals with convictions (and no open arrests), we link these data to detailed criminal history information from the New York State Division of Criminal Justice Services (DCJS). The DCJS files contain all prior arrest and conviction offenses and 3 years of follow-up data after the clearance decision. <ref type="bibr" coords="11,418.94,106.94,3.49,6.44">3</ref> We then link these data to employment information from the New York State Department of Labor (DOL) to include controls for employment and earnings in the 3 years prior to the clearance decision. 4 Finally, we drop cases missing arrest or conviction information (n = 299). Our final sample size consists of 6,648 individuals.</p><p>Traditionally, criminal history variables are the best predictors of future criminal behavior <ref type="bibr" coords="11,71.70,180.22,163.46,9.21" target="#b34">(Gendreau, Little, and Goggin, 1996)</ref>. We use two sets of criminal history controls: all arrest history available to us from DCJS and prior convictions known to DOH. Although the EEOC has recommended against the use of arrests in most cases for employment decision-making, this information is commonly used in risk prediction models in the criminal justice system <ref type="bibr" coords="11,167.30,228.04,158.87,9.21" target="#b34">(Gendreau, Little, and Goggin, 1996)</ref>. Therefore, the arrest controls are intended to capture the propensity to engage in crime based on our closest measure to (unobservable) actual behavior. We include time since last arrest (linear and squared), age at first arrest (linear and squared), and the number of prior arrests for different felony offenses (violent, property, drug, and other) and misdemeanor offenses (violent, property, drug, larceny, and other). Larceny misdemeanors are included as a separate category because individuals cleared to work are anticipated to have full access to resident or patient personal property; therefore, this crime type is of particular interest in the current job context.</p><p>For prior convictions, we only include conviction events that would be visible to DOH at the time of the final decision (i.e., we exclude sealed convictions). The purpose of including the conviction controls is to mirror the information DOH used in the final decision-making process as closely as possible. We include time since last conviction, age at first conviction, and the number of prior convictions for different felony offenses (violent, property, drug, and other) and misdemeanor offenses (violent, property, drug, larceny, and other). We also include higher order and interaction terms in the models to saturate fully the influence of certain conviction types on DOH's decision-making. In addition to the squared terms for time since last conviction, age at first conviction, the number of felonies for a particular conviction type <ref type="bibr" coords="11,257.94,443.24,142.47,9.21">(violent, property, drug, or other)</ref>, and the number of misdemeanors for a particular conviction type (violent, property, drug, larceny or other), we also interact time since last conviction with age at first conviction and with the number of convictions for each conviction category (number of violent felonies, number of violent misdemeanors, number of drug felonies, etc.). This set of conviction controls is critical for our identifying assumption that after fully controlling for criminal history, including the information used by DOH, the initial decision is plausibly exogenous (see the Methods section).</p><p>We also use the DCJS data to measure two outcomes of interest: a subsequent arrest in New York State in the shorter term (within 1 year of the final clearance decision) and in the longer term (within 3 years of the final clearance decision). 5 At a descriptive level, 11 percent of the sample was arrested within 1 year and 22 percent was arrested within 3 years of the final clearance decision. There are stark differences in the arrest rates for the cleared and denied groups; individuals perceived as lower risk by DOH were cleared for employment, but may have also experienced a causal effect from the employment opportunity. <ref type="table" coords="12,144.50,192.18,32.37,9.21" target="#tab_1">Table 2</ref> shows that approximately 7 percent of the cleared sample was arrested within 1 year (17 percent within 3 years), whereas a substantively higher 17 percent of the denied sample was arrested within the same period (33 percent within 3 years).</p><p>This sample is unusual in comparison with most criminal record studies in that it primarily comprises women (more than two thirds). Approximately half of the sample is White, and the other half is Black. A large percentage of the sample (31 percent) was provisionally hired to work in a facility in New York City, and these facilities are typically licensed home-care services agencies (49 percent) or nursing homes (50 percent). In the 3-year period prior to DOH's criminal background check, the sample worked a little more than 1.5 years on average in jobs covered by unemployment insurance in New York State, and it earned approximately $10,200 per year on average in the preperiod. In terms of criminal history, the most common type of official reported crime involves property offenses; more than 60 percent of individuals in our sample have been arrested for at least one property crime, whereas 47 percent have been convicted of a property offense. Individuals in this sample have an average of 1.7 felony arrests and 3.7 misdemeanor arrests, with an average of .4 felony convictions and 1.7 misdemeanor convictions. See table 2 for additional sample descriptive statistics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>We begin our analysis by estimating a linear probability model (LPM) predicting recidivism in New York State after the final decision letter. The LPM model estimates the following:</p><formula xml:id="formula_0" coords="12,139.34,488.80,287.83,10.60">S i = α 1 C i + α 2 X i + α 3 E i + α 4 V i + α 5 A i + u i<label>(1)</label></formula><p>where S i is a binary variable for the recidivism outcome and C i is a binary variable for whether the individual was cleared in the final decision. X i , E i , V i , and A i are individual vectors for demographic/contextual factors, employment history, conviction history 5. Although we originally planned to incorporate FBI records to measure subsequent arrests outside of New York State, the FBI changed its data-sharing arrangement with the National Institute of Justice during our grant period and we could not obtain the data for this study. We do observe and include out-of-state prior arrest and conviction information as part of the criminal history information that DOH was able to see. known to DOH, and all arrest history, respectively (see <ref type="table" coords="14,286.94,60.68,29.21,9.21" target="#tab_1">table 2</ref> for the list of variables in each vector). u i represents the individual error term. We define our recidivism outcome in two different ways to capture the time length of observing the outcome: 1) any arrest event within 1 year of DOH's final decision (short run) and 2) any arrest event within 3 years of DOH's final decision (long run). Subsequent arrest is a useful recidivism measure because it is an early official point of contact with the criminal justice system. In addition, subsequent arrests have particular meaning to decision-makers and employers in this context because DCJS follows a "rap-back" procedure whereby the agency reports all subsequent arrests to DOH (SEARCH, 2010). These arrests are not adjudicated by DOH, but subsequent arrest notifications are passed on to employers.</p><p>Before we introduce our instrumental variable approach, it is important to recognize that we follow a linear estimation method (OLS, and as we will see later, 2SLS) throughout the entire analysis, even though our dependent variable is a binary outcome. There are two common concerns with using a linear model when the outcome variable is binary: The predicted outcome can lie outside the unit interval, and the error term is heteroskedastic by definition (the variance will vary with the latent probability p). Econometricians have shown that coefficient estimates are unbiased and that the slopes estimated from a linear model are similar to the marginal effects computed after probit <ref type="bibr" coords="14,370.66,275.87,56.51,9.21;14,44.60,287.82,56.10,9.21" target="#b6">(Angrist and Pischke, 2009</ref>). As long as our purpose is to estimate the partial effects of the treatment variable on the outcome, the fact that the predicted probabilities may lie outside the [0,1] interval is not a concern (Wooldridge, 2010). Moreover, the concern about heteroskedasticity can be easily overcome by reporting heteroskedasticity-consistent robust standard error estimates in a LPM. We focus on the results from linear models in this study 6 because they are easier to interpret, but we also report the probit estimates in the tables in the online supporting information, 7 which confirm that our results are robust to model specification.</p><p>In the basic model, our treatment is the final clearance decision. Therefore, as mentioned, the treatment effect estimated from this model will be biased so long as there are unobservable factors that impact an individual's decision to contest the proposed/initial denial that also impact recidivism. More formally, we expect:</p><formula xml:id="formula_1" coords="14,205.77,439.52,221.40,10.60">E (C i , u i ) = 0<label>( 2 )</label></formula><p>One way to solve the problem of omitted variable bias, absent an experiment, is through some type of quasi-experimental design. Here we implement an instrumental variable (IV) approach based on DOH's decision-making practices and use the initial decision as an instrument for modeling the final decision and subsequent recidivism relationship. Following <ref type="bibr" coords="14,233.77,508.73,123.83,9.21" target="#b42">Imbens and Angrist (1994)</ref>, a strong and 6. As robustness checks we estimated probit and instrumental variable probit (IV probit) models and compared the marginal effects computed at the means of the covariates. We also employed a new method, local average response functions (LARF) <ref type="bibr" coords="14,253.87,560.66,53.28,7.82" target="#b0">(Abadie, 2003)</ref>, which accounts for heterogeneity across our conditioning variables through a weighting mechanism. We found that our 2SLS results were robust to all model specifications, and we only report those results here. We include the IV probit results in the online supporting information. 7. Additional supporting information can be found in the listing for this article in the Wiley Online Library at http://onlinelibrary.wiley.com/doi/10.1111/crim.2017.55.issue-1/issuetoc. </p><formula xml:id="formula_2" coords="15,40.37,142.31,358.96,18.21">F i = 1 N/A Group 1 ᵃ Initial Clearance (Defiers)<label>(Compliers)</label></formula><p>ᵃ Although we can assume that everyone initially denied would have retained a final decision of clearance had they experienced an initially cleared potential outcome, we cannot assume that group 1 would have retained a final clearance decision had they received a proposed initial denial. Therefore, not all individuals in group 1 are anticipated to be compliers based on the potential outcomes framework. NOTE: Based on <ref type="bibr" coords="15,102.38,204.22,49.19,7.36" target="#b3">Angrist (2006:</ref>  valid instrument should satisfy the following assumptions: 1) random assignment; 2) strong correlation with the treatment; 3) exclusion restriction; and 4) individual-level monotonicity.</p><p>We contend that as a result of the formal and informal legal and policy structures that guide initial decisions, after fully controlling for the candidate's criminal history known to DOH and other demographic and geographic characteristics, the leftover variation in the initial decision is as good as random. We argue that this is true because the only factors that are possibly endogenous between the initial decision and an individual's likelihood of recidivism are included in the individual's conviction history. DOH uses this information in the background check process, and it is fully observable to our research team. Furthermore, as we discuss in the Results section, DOH's initial decision is strongly correlated with its final decision. This is unsurprising considering that the first decision is the final decision for individuals who are cleared in first decision, or those who are not cleared and do not successfully contest the proposed denial. Hence, assumptions 1 and 2 are satisfied by the instrument. Assumption 3 requires that the instrument should only impact the outcome through the treatment. We argue that the initial clearance decision only impacts recidivism through the employment opportunities the final clearance decision provides. The two-stage clearance process is fully contained within the DOH context, and DOH's initial clearance decision cannot influence recidivism through another outlet external to DOH's final decision.</p><p>The final assumption that requires monotonicity of the instrument is best understood in a LATE framework. The IV approach provides a causal estimate of the impact of the clearance decision on subsequent arrest outcomes for a subsample of individuals known as "compliers," or individuals who comply with the treatment only when they are assigned to it. In following <ref type="bibr" coords="15,118.85,512.21,133.94,9.21" target="#b43">Imbens and Wooldridge (2009)</ref>, the compliance types in our study are given in table 3. Let C i be a binary variable for the treatment that equals 1 if the individual is cleared in DOH's final decision and 0 otherwise. Let F i be a binary variable for the instrument, which equals 1 if the individual is cleared in DOH's first decision, and 0 otherwise. We look at potential outcomes C i (F i ), such that:</p><formula xml:id="formula_3" coords="15,167.58,584.24,255.36,22.55">C i (F i ) = C i (1) , if F i = 1 C i (0) , if F i = 0<label>(3)</label></formula><p>The monotonicity (or no-defiers) assumption implies that:</p><formula xml:id="formula_4" coords="16,204.16,81.98,223.00,10.60">C i (1) ≥ C i (0)<label>(4)</label></formula><p>In our particular context, no individuals are cleared in the first decision but denied in the final decision. In other words, once cleared in the first decision (F i = 1), the final decision is always cleared (C i = 1). This implies that the following equation will always hold:</p><formula xml:id="formula_5" coords="16,211.77,139.71,215.39,10.60">C i (1) = 1<label>( 5 )</label></formula><p>Equation <ref type="formula" coords="16,87.47,162.21,12.74,9.21" target="#formula_5">(5)</ref> automatically satisfies equation <ref type="formula" coords="16,240.04,162.21,11.42,9.21" target="#formula_4">(4)</ref>, and therefore, our instrument plausibly satisfies assumption 4. The instrumental variable estimation is done through a two-stage, least-squares (2SLS) model with clearance in the first decision as an instrument for clearance in the final decision. More formally, for the variables defined in equation <ref type="formula" coords="16,304.03,210.03,12.73,9.21" target="#formula_0">(1)</ref> and a binary variable for clearance in DOH's first decision F i , the two-stage estimation is given by:</p><formula xml:id="formula_6" coords="16,140.20,238.30,286.96,37.45">C i = β 1 F i + β 2 X i + β 3 E i + β 4 V i + β 5 A i + v i (6) S i = α 1Ĉi + α 2 X i + α 3 E i + α 4 V i + α 5 A i + u i<label>(7)</label></formula><p>We argue that C i in equation <ref type="formula" coords="16,170.57,287.65,12.73,9.21" target="#formula_0">(1)</ref> is potentially endogenous because of the candidate's discretion to contest a proposed decision (or not) if denied. Equation <ref type="formula" coords="16,336.77,299.61,12.73,9.21">(6)</ref> estimates C i with the instrument F i , and we insert the estimated final clearance decision,Ĉ i , in equation <ref type="formula" coords="16,44.61,323.51,12.73,9.21" target="#formula_6">(7)</ref> to estimate S i . The inclusion ofĈ i in equation <ref type="formula" coords="16,268.87,323.51,12.73,9.21" target="#formula_6">(7)</ref> allows us to use only the exogenous variation in the final decision (or the part that is uncorrelated with the error term), eliminating the endogeneity problem. The 2SLS estimate α 1 in equation <ref type="formula" coords="16,205.67,359.39,12.73,9.21" target="#formula_6">(7)</ref> generates the LATE by estimating the average treatment responses for the compliers. The compliers in our study include everyone who would receive the same treatment status (i.e., final decision) as the instrument (or initial decision), irrespective of whether they were cleared or received a proposed denial in the initial decision. In the case of one-sided compliance as supported by equation <ref type="formula" coords="16,382.21,407.20,11.42,9.21" target="#formula_5">(5)</ref>, everyone receiving a proposed denial in the initial decision and denied in the final decision is a complier, despite whether they contested the proposed denial decision (groups 3 and 4; see table 1). The outcome of equation <ref type="formula" coords="16,210.56,443.07,12.73,9.21" target="#formula_5">(5)</ref> implies that had these individuals been cleared in the initial decision, they would have retained that clearance status (and would not have the option or ability to switch to a denial status).</p><p>Based on the same reasoning, some individuals in group 1 are expected to be compliers. Although the proportion of compliers can be estimated, the specific individuals who comprise the group of compliers cannot be determined <ref type="bibr" coords="16,301.39,502.85,125.75,9.21;16,44.60,514.80,21.90,9.21" target="#b4">(Angrist, Imbens, and Rubin, 1996)</ref>. Instead, we again rely on expectations based on the potential outcomes framework <ref type="bibr" coords="16,44.60,526.75,118.24,9.21" target="#b42">(Imbens and Angrist, 1994)</ref>. Had the individuals in group 1 received a proposed denial, some likely would have contested the decision and received a final clearance decision (resulting in noncompliance). Others may not have, resulting in compliance. Individuals in group 2, on the other hand, switch their treatment status between the first and final decisions. Group 2 individuals are classified as "always takers"-i.e., they always take the treatment (clearance) irrespective of the instrument. In the current study, there are no "never takers," as observed in equation <ref type="formula" coords="16,221.77,598.49,11.42,9.21" target="#formula_5">(5)</ref>, because individuals cannot be denied after receiving clearance in the initial decision. Because LATEs only produce estimates for individuals moved by the instrument, always takers and never takers are excluded from the LATE.</p><p>Finally, after establishing the strength of our instrument and the main treatment effects estimated by the 2SLS, we look at heterogeneity within these effects. We estimate separate models for men and women, and we include interaction effects of treatment (final clearance) and age, where we specify age as continuous and as a dummy variable for whether the candidate was older than 30 years old at the time of receiving DOH's final decision. This exercise enables us to compare the effect of being cleared for work on recidivism for four different profiles of people: young men, young women (ࣘ30 years old), older men, and older women (&gt;30 years old). 8</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MAIN EFFECTS AND SEX DIFFERENCES</head><p>LPM, first-stage, and 2SLS results for any subsequent arrest in 1 year and 3 years are shown in table 4. First we display the F statistic results in panel A. Our F statistic for the instrument in the first-stage estimation is close to 3,700. These values are also large in the separate models for men and women, with the larger F statistic for women reflecting the larger sample. In all cases, the F statistics are well above the guidelines proposed by <ref type="bibr" coords="17,398.56,283.03,24.35,9.21;17,40.38,294.98,80.69,9.21" target="#b85">Stock and Watson (2003)</ref>, and F statistics of this size are unusual <ref type="bibr" coords="17,297.15,294.98,121.38,9.21" target="#b5">(Angrist and Kreuger, 2001)</ref>. In this context, though, the power of the instrument is not surprising because the initial proposed decision is, for most individuals, the same as the final decision.</p><p>In the basic LPM for the whole sample, as displayed in panel B, a final clearance decision is related to approximately a 2.7-percentage-point decrease in official arrests in the subsequent year. Next, we incorporate our initial clearance decision instrument into the model to address the potential endogeneity in the final clearance decision/subsequent arrest relationship. The 2SLS estimator indicates only a slightly more conservative (-2.2percentage-point) impact of clearance to work on subsequent arrest in 1 year. The results are substantively large (the overall sample base rate is 10 percent) but not statistically significant at the .05 alpha level for a two-tailed test. The longer term (3 years) subsequent arrest results are displayed in panel C. The basic LPM model suggests an almost 4-percentage-point decrease in the likelihood of arrest over the 3-year postperiod from clearance to work, whereas the 2SLS estimate is slightly larger at (negative) 4.2 percentage points. Unlike the 1-year results, the 3-year postperiod result for the full model is significant at the 5 percent level.</p><p>In addition, we look at the main effects of sex and age at the time of the DOH decision on arrest probability. When considering the full model, men are 4.1 percentage points more likely to be subsequently arrested within a year as compared with women (panel B). This difference is both statistically significant and substantively large. We also find 8. <ref type="bibr" coords="17,64.29,561.66,50.11,7.82" target="#b87">Uggen (2000)</ref> used a cutoff of age 26. Although the mean age in his sample was approximately 25, our sample mean is around 39. As a result of having too few people younger than age 26 in our sample, we are underpowered when we use Uggen's cutoff point. Therefore, we use a marginally higher age cutoff of 30 in our analysis, although we do find that the general direction of the treatment effects hold when replicating Uggen's analysis with age 26 as the cutoff. We only report the age 30 results here. that age is negatively related to the likelihood of subsequent arrests in a year with a .4percentage-point decrease with every additional year of age. Neither result is surprisingmen are more likely than women to be arrested and older people are less likely than younger people to be arrested, all else constant. Men are also much more likely than women to be subsequently arrested in 3 years (6.3 percentage points), and being older by an additional year reduces the likelihood of arrest by .7 percentage points (see full model, panel C).</p><p>As described, our sample is female dominated, and we run the entire model separately for men and women to exploit this study feature and examine heterogeneous effects of clearance by sex. The 2SLS results in table 4 (panel B) show that the impact of getting cleared to work is 7.8 percentage points for men in the first year after the decision when holding other factors constant. Conversely, at least in the short term, we find that clearance to work has no impact on women's subsequent arrest outcomes, which suggests that men benefit substantially more so than women from clearance in terms of reduced recidivism.</p><p>As with the 1-year results, the effect of clearance is largely concentrated on men in the longer term-the models in panel C suggest men are 8.4 percentage points less likely to be arrested over 3 years when cleared, whereas the effect for women is only 2.4 percentage points and not statistically significant. The difference between the effect sizes for men and women is statistically significant over the first year (t statistic of 2.34) but insignificant over the longer term (t statistic of 1.39). It is important to keep in mind when comparing effects across different samples that the standard errors will always be affected by the different properties of the two samples. Therefore, although the difference between men and women may not be statistically significant in 3 years, the different criminal histories between them (which produce different estimates) could potentially be a reason for this. In summary, we conclude that men are more affected by clearance to work when compared with women, and a potential explanation is that men and women look different in terms of their overall criminal histories-a major factor that defines the relationship between work and recidivism.</p><p>One thing to note is that the effect sizes from the 2SLS models, at least when estimated on the whole sample, are not so different from the linear probability estimates in both short-and long-term models. Indeed the results of the traditional endogeneity tests 9 confirm that the differences between the basic and IV results are not statistically significant. Nevertheless, the endogeneity tests only compare the models examined here, and this conclusion does not apply to all instruments used even within our sample context. The 2SLS models estimate a local average treatment effect, which is based on the treatment for the compliers (see <ref type="table" coords="19,188.60,490.89,29.23,9.21" target="#tab_2">table 3</ref>). As compliers are those individuals who are moved or influenced by the instrument, using different instruments will identify different groups of compliers and, therefore, different local effects. LPMs, on the other hand, estimate an average association between clearance and recidivism. The endogeneity tests are comparing the "compliers-specific" LATE based on our instrument--and not an average treatment effect (ATE)--with the LPM results, so we are unable to say that the LPM model is unbiased. In addition, the results from the statistical tests should be interpreted 9. This can be obtained from either the Wald test of exogeneity from the IV model or by including the residuals from the first-stage equation into the original (potentially endogenous) equation of interest and examining the "residual" variable's z value.</p><p>with caution because failing to reject the null hypothesis of no endogeneity does not imply that the treatment is exogenous. This is particularly relevant in the subsamples by sex because small sample sizes will reduce statistical power. Moreover, there are substantive differences between the LPM and 2SLS estimates for men (almost a 2.5-percentage-point difference), who experience the highest impact of clearance, suggesting that the 2SLS estimates are consistent over the LPM estimates, and should be used for interpreting the causal effects of clearance to work.</p><p>To summarize, we find that our instrument identifies the LATE with substantial power. Essentially, the proposed decision, conditional on observable information, creates an effective identification strategy in this study context where decision makers are making narrowly defined decisions with a clearly defined set of inputs that are observable to researchers. We find large heterogeneity in the treatment effects by sex, where clearance has almost no effect on women but reduces the likelihood of subsequent arrests by almost 8 percentage points for men in the first year after the criminal background check.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>HETEROGENEOUS TREATMENT EFFECTS BY AGE</head><p>To understand the variation in these treatment effects, we next estimate heterogeneous treatment effects by age in our instrumental variable models. In addition to the new Treatment × Age interaction, we also include Instrument × Age in the first stage, which enables the model to remain just-identified. <ref type="table" coords="20,231.68,293.64,33.62,9.21" target="#tab_4">Table 5</ref> presents the 2SLS estimates for the treatment variable, as well as the interaction terms with age, for a subsequent arrest in 1 year (panel A) and in 3 years (panel B).</p><p>We allow the age interaction with clearance to take two forms. In the first model, we interact the treatment variable (clearance) with the actual age of the individual at the time of DOH's decision (given in columns 1A, 2A, and 3A). Similar to <ref type="bibr" coords="20,351.03,353.40,57.15,9.21" target="#b87">Uggen (2000)</ref>, we also include a dummy analysis for age (ࣘ30 or &gt;30) (given in columns 1B, 2B, and 3B). As the results in columns 2A and 3A suggest, being older by 1 year reduces the absolute impact of a DOH clearance by .5 percentage points for men (p = .057) and by .2 percentage points for women (p = .121). When we look at the interaction between the treatment and the dummy for age higher than 30 years old, we do not find evidence that the effect of clearance varies for men in a statistically significant way by age in 1-year or 3-year postdecision (columns 2B and 5B). For women, there is only a statistically meaningful effect for subsequent arrests in 3 years (column 6B), where we find that women older than 30 years experience almost no effect from the clearance decision, whereas women younger than 30 years are 7.7 percentage points less likely to be rearrested because of clearance and have a 7.5-percentage-point larger treatment effect relative to older women. When we consider the fact that almost 74 percent of women in our sample are older than 30 years old, it is not surprising that disregarding the heterogeneous effects by age leads to a null impact for all women.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TREATMENT EFFECTS AND THE EMPLOYMENT MECHANISM</head><p>The effect of the clearance decision should come from increased employment opportunities for cleared individuals, which is in turn expected to reduce their likelihood of future engagement in illegal activities. In our case, approximately 83 percent of the individuals who were cleared to work had formal employment of some kind in the quarter after the period when the final criminal background check decision was made, and  67 percent worked in the health-care industry in the quarter immediately following the criminal background check. Some of those cleared did not end up working at the job for which they were provisionally hired, some did not last long (i.e., into the next quarter) because of the high turnover rate in these jobs, and others seem to have moved to other jobs outside the industry. These conditions present us with a unique opportunity to test the mechanism by which clearance works to reduce recidivism. If the impact of clearance works through employment and not through another mechanism, then the effect from comparing those who were cleared and actually worked with those who did not work should be bigger than the results displayed in table 4. In terms of employment effects, the results in table 4 are "diluted" by individuals who are cleared but do not work (and by individuals who are denied but still work). To test this idea, we use the initial decision to instrument first for healthcare employment and then for overall employment in the quarter immediately after the background check. By doing so, we can capture the effect of increased work (employment as the treatment) because of the initial clearance decision (first-stage relationship). In a situation where some cleared individuals may not work, as in this situation, the effect will get larger but only if the effect of clearance works mainly through employment. To ensure that we avoid reverse causality, we remove individuals who were arrested within that initial postdecision quarter and we use subsequent arrests within the first year as the outcome of interest. The 2SLS results from using employment instead of clearance as the treatment of interest are given in table 6.</p><p>As displayed in panel A, we find that working in the health-care sector in that initial quarter reduces the likelihood of arrests by 3.8 percentage points for the entire sample; although this coefficient does not reach the conventional thresholds for statistical significance, the result is in the anticipated direction. The result is statistically significant for men; as before, we find that men experience an effect of almost 11 percentage points, whereas women have no effect of health-care employment on their arrest outcomes. To get an even tighter estimate on the mechanism, because some individuals who were denied could have gone on to obtain employment elsewhere, we look at the effect of overall employment in the first quarter on subsequent arrests in the first year (panel B). This effect should be even bigger, if the mechanism is through employment, because the gap in employment levels for those cleared compared with those not cleared is not as big as the gap in health-care employment. We find that even though women still have a low-to-null effect, the men in our sample experience a substantial impact from employment, reducing their 1-year arrest outcomes by 16 percentage points if employed in the initial quarter.</p><p>In summary, the large effect of clearance on arrests for men can be explained by increased employment opportunities in the health-care industry that would otherwise be unavailable. Indeed, individuals who were cleared to work by DOH had average earnings of approximately $15,300 in the year after the DOH decision-more than twice as much as those denied in the criminal background check (ß$6,700 on average).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION AND CONCLUSION</head><p>This article uses an instrumental variable analysis to generate an estimate of the impact of a criminal background check clearance on recidivism outcomes for a sample of individuals with criminal records who are attached to the labor market and provisionally hired to work. Our results indicate that receiving clearance on the basis of a criminal record alone decreases the likelihood of a subsequent arrest by 2.2 percentage points over 1 year. During a 3-year period, clearance leads to a 4.2-percentage-point decrease in the likelihood of a subsequent arrest. More importantly, we find that this effect is driven by the men in our sample, whereas older women in particular experience an almost null effect of this particular work opportunity on their arrest outcomes.</p><p>Although the current study context enables us to generate causal estimates within the vast and growing health-care industry in New York State, these results cannot speak to all industries or all criminal background check processes. We believe our results are most generalizable for individuals with criminal records who are pursuing jobs that involve state-mandated, formalized criminal background checks, which includes those applying for occupational licenses <ref type="bibr" coords="23,150.93,455.02,77.87,9.21" target="#b86">(Thompson, 2008)</ref>. Our results might also be particularly relevant for employers and states expanding criminal background checks in the nursing home industry as part of mandates in the Affordable Care Act of 2010 (CNA, 2012). Future work should examine whether our findings apply to other criminal background check contexts in the United States. In addition, researchers may be able to generate national estimates in European countries such as Spain and the Netherlands, where one central repository provides employee clearances across most job contexts <ref type="bibr" coords="23,329.36,526.75,93.57,9.21;23,40.37,538.71,21.90,9.21" target="#b45">(Jacobs and Larrauri, 2015)</ref>.</p><p>The effects in the current study are substantively large, especially when compared with earlier findings from employment and job training programs that often do not find that work opportunities lead to meaningful reductions in recidivism <ref type="bibr" coords="23,310.99,574.58,111.97,9.21" target="#b15">(Bushway and Apel, 2012;</ref><ref type="bibr" coords="23,40.37,586.53,73.83,9.21" target="#b22">Cook et al., 2015;</ref><ref type="bibr" coords="23,116.43,586.53,180.38,9.21" target="#b91">Visher, Winterfield, and Coggeshall, 2005;</ref><ref type="bibr" coords="23,299.01,586.53,88.78,9.21" target="#b93">Wiegand et al., 2015;</ref><ref type="bibr" coords="23,390.01,586.53,32.93,9.21;23,40.37,598.49,145.89,9.21" target="#b94">Wilson, Gallagher, and MacKenzie, 2000)</ref>. The difference in the size of the impact may be the result of the differences in the sample-provisionally hired employees who are motivated and in the labor market-or the nature of the treatment. The most plausible reason for the decrease in subsequent arrests is through employment, which in the short run is driven almost mechanistically by the clearance decision.</p><p>It is also interesting to note that the point estimate in this study is nearly twice the size of the upper bound of the ATE that Siwach (n.d.) estimated with a partial identification strategy on the same data. 10 Based on the bounds in that study, the difference in subsequent arrests in 3 years for an average individual who was cleared and for an average individual who was not cleared in the entire sample should be at most 2.2 percentage points. In this study, we estimate the LATE for those who comply with DOH's first-stage criminal background check decision. Some individuals, particularly those who are willing to contest the original denial decision, may not respond in the same way to the treatment, and <ref type="bibr" coords="24,63.11,192.01,56.70,9.21">Siwach (n.d.)</ref> pointed to these variations, indicating that individuals who successfully contest the initial denial experience null treatment effects.</p><p>Because our instrument identifies the effect for compliers with the first clearance decision, those who successfully contest the initial decision are excluded. Therefore, the LATE in this study points to a much larger estimate than does the ATE. Both estimates are potentially important to policy makers; in the current study, it is advantageous to study the impact coming from the initial decision because most policy rules regarding criminal records are used in determining that initial proposed decision, not the final decision. The LATE in this article speaks directly to the effects of those policy rules.</p><p>Another significant contribution of our study is the identification of the heterogeneity in the LATE by sex and age. We find that, on average, older individuals experience smaller treatment effects (.3 percentage points less for every year older) on subsequent arrest. Yet we also find substantial differences in the effect of clearance between men and women by age, with older women experiencing almost no effect of clearance to work on their subsequent arrest outcomes. Our sample contains older individuals, on average, and older women, in particular. Because everyone in our sample was provisionally hired, the sample composition differs from that in many other prior studies that explored the relationship between employment and recidivism. Potentially for this reason, unlike <ref type="bibr" coords="24,398.35,395.25,28.78,9.21;24,44.60,407.21,25.84,9.21" target="#b87">Uggen (2000)</ref>, we find that both younger and older men seem to be responsive to the background check decision.</p><p>The strength of the age-graded effects is notably different for women, where we find that older women are not responsive to clearance in terms of reduced recidivism. The results of prior research have led to the suggestion that women experience different pathways into crime <ref type="bibr" coords="24,116.16,466.99,54.20,9.21" target="#b24">(Daly, 1992)</ref> and that the transition from adolescence into adulthood is associated with desistance for women but not for men, meaning that women desist earlier than men do, typically as a result of important life transition events <ref type="bibr" coords="24,367.64,490.89,59.53,9.21;24,44.60,502.85,64.16,9.21" target="#b35">(Graham and Bowling, 1995;</ref><ref type="bibr" coords="24,112.06,502.85,42.62,9.21" target="#b62">Liu, 2015)</ref>. It is possible that younger women are disproportionately affected by a clearance for work largely because the older women in our sample are simply not likely to be arrested, despite whether they receive a clearance to work.</p><p>The results inevitably highlight the need to consider both the benefits of clearance to individuals with criminal records and the potential public safety costs associated with failing to do adequate criminal background checks. With more than 109,000 residents in certified nursing facilities in New York State in 2008 <ref type="bibr" coords="25,237.10,60.68,181.44,9.21" target="#b38">(Harrington, Carrillo, and Garfield, 2014)</ref>, DOH is directly responsible for safeguarding a sizeable group of vulnerable individuals being cared for by those individuals who pass the background check. This article does not address this second half of the equation-we do not explore the costs of clearing individuals who ultimately do go on to offend on the job. The base rates of arrest for our sample are not trivial (22 percent over 3 years), and approximately 8 percent of the sample has a felony subsequent arrest and 5 percent has an automatic disqualifying subsequent arrest offense within 3 years. The trade-off between the benefits to those with records who are cleared for employment and the costs to those in direct care who might be harmed by employees is not a simple policy choice, and it is not immediately clear how to balance these costs better. This lack of clarity becomes even muddier if, as suggested by our heterogeneous treatment effect analysis, those with the highest risk (young people, men) are also the most likely to benefit from clearance. Future research is clearly needed to explore the trade-off for specific rules guiding these criminal background checks.</p><p>There is also the potential for future studies that aim to explore whether actuarial risk assessment tools can improve the efficiency of this criminal background check by more accurately identifying "risky" individuals in this population. A more systematic risk assessment tool might also allow policy makers to identify cases where expanding criminal background check clearance can reduce recidivism without increasing harm to employers as well as the patients of nursing home facilities and home health-care agencies.</p><p>Given the increasing use of criminal background checks in employment decisions, it is becoming ever more important to identify the potential costs and benefits associated with these decisions. By providing an estimate of the benefits associated with offering an opportunity to work to individuals with criminal records, we supply the motivation and an essential starting point for the growing discussion surrounding optimal policies regarding criminal background checks for employment purposes. Future research is needed to both identify the potential benefit of further increases in criminal background clearance rates as well as guidance for identifying the best candidates for clearance who will not jeopardize public safety. Garima Siwach is a PhD candidate in the Department of Economics, University at Albany, SUNY. Her work focuses on using applied microeconometrics to explore relationships between crime and labor markets.</p><p>Shawn D. Bushway, PhD, is a professor in the Rockefeller College of Public Affairs and Policy at the University at Albany, SUNY. His current research focuses on the process of desistance, the impact of a criminal history on subsequent outcomes, and the distribution of discretion in the criminal justice sentencing process.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPORTING INFORMATION</head><p>Additional Supporting Information may be found in the online version of this article at the publisher's web site: </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="18,105.39,587.40,11.05,29.92;18,105.39,575.44,11.05,8.97;18,105.39,508.98,11.05,60.48;18,105.39,472.14,11.05,33.87;18,105.39,416.02,11.05,53.14;18,125.97,339.72,7.36,19.94;18,125.97,331.98,7.36,5.75;18,134.94,354.91,7.36,40.30;18,134.94,330.33,7.36,22.57;18,134.94,321.68,7.36,6.65;18,134.94,315.70,7.36,3.99;18,134.94,296.44,7.36,17.27;18,125.97,146.17,7.36,19.94;18,125.97,138.43,7.36,5.75;18,134.94,162.91,7.36,40.30;18,134.94,138.32,7.36,22.57;18,134.94,129.68,7.36,6.65;18,134.94,123.70,7.36,3.99;18,134.94,101.34,7.36,20.37;18,153.47,505.36,7.36,19.94;18,153.47,496.73,7.36,6.64;18,162.44,521.42,7.36,18.16;18,162.44,503.48,7.36,15.94;18,162.44,482.45,7.36,19.04;18,162.44,402.80,7.36,13.73;18,162.44,337.84,7.36,15.94;18,162.44,268.22,7.36,27.47;18,162.44,211.25,7.36,13.73;18,162.44,146.28,7.36,15.94;18,162.44,74.66,7.36,27.47;18,180.97,587.19,7.36,30.13;18,180.97,550.40,7.36,13.74;18,180.97,503.02,7.36,15.94;18,180.97,450.97,7.36,27.47;18,180.97,416.53,7.36,18.16;18,180.97,384.60,7.36,18.17;18,180.97,352.68,7.36,18.16;18,180.97,320.74,7.36,18.17;18,180.97,288.82,7.36,18.16;18,180.97,256.89,7.36,18.17;18,180.97,224.96,7.36,18.16;18,180.97,193.03,7.36,18.17;18,180.97,161.11,7.36,18.16;18,180.97,129.18,7.36,18.17;18,180.97,97.25,7.36,18.16;18,180.97,63.33,7.36,18.17;18,195.89,596.50,7.36,20.82;18,195.89,546.27,7.36,13.94;18,194.00,536.93,5.98,9.34;18,195.89,499.99,7.36,13.95;18,194.00,490.65,5.98,9.34;18,195.89,453.72,7.36,13.95;18,194.00,444.38,5.98,9.34;18,195.89,421.66,7.36,7.97;18,195.89,389.73,7.36,7.97;18,195.89,357.80,7.36,7.97;18,195.89,325.88,7.36,7.97;18,195.89,293.95,7.36,7.97;18,195.89,262.02,7.36,7.97;18,195.89,230.09,7.36,7.97;18,195.89,198.16,7.36,7.97;18,195.89,166.23,7.36,7.97;18,195.89,134.31,7.36,7.97;18,195.89,102.38,7.36,7.97;18,195.89,68.47,7.36,7.97;18,204.85,584.55,7.36,32.77;18,204.85,543.16,7.36,20.15;18,204.85,496.89,7.36,20.15;18,204.85,450.62,7.36,20.15;18,204.85,421.66,7.36,7.97;18,204.85,389.72,7.36,7.97;18,204.85,357.80,7.36,7.97;18,204.85,325.88,7.36,7.97;18,204.85,293.94,7.36,7.97;18,204.85,262.02,7.36,7.97;18,204.85,230.09,7.36,7.97;18,204.85,198.17,7.36,7.97;18,204.85,166.23,7.36,7.97;18,204.85,134.31,7.36,7.97;18,204.85,102.38,7.36,7.97;18,204.85,70.45,7.36,7.97;18,215.81,612.45,7.36,4.87;18,215.81,598.05,7.36,12.40;18,215.81,546.26,7.36,31.89;18,215.81,499.98,7.36,31.89;18,215.81,453.71,7.36,31.89;18,215.81,421.64,7.36,7.97;18,215.81,389.71,7.36,7.97;18,215.81,357.78,7.36,7.97;18,215.81,325.86,7.36,7.97;18,215.81,293.93,7.36,7.97;18,215.81,262.01,7.36,7.97;18,215.81,230.07,7.36,7.97;18,215.81,198.15,7.36,7.97;18,215.81,166.22,7.36,7.97;18,215.81,134.29,7.36,7.97;18,215.81,102.36,7.36,7.97;18,215.81,70.44,7.36,7.97;18,226.76,599.60,7.36,17.72;18,226.76,553.30,7.36,7.97;18,226.76,507.03,7.36,7.97;18,226.76,460.75,7.36,7.97;18,226.76,421.59,7.36,17.93;18,224.89,415.36,5.98,6.23;18,226.76,389.67,7.36,17.94;18,226.76,357.73,7.36,17.94;18,224.89,351.51,5.98,6.23;18,226.76,325.81,7.36,17.94;18,224.89,319.59,5.98,6.23;18,226.76,290.77,7.36,17.94;18,226.76,258.85,7.36,17.94;18,226.76,230.03,7.36,17.94;18,224.89,223.81,5.98,6.23;18,226.76,198.10,7.36,17.94;18,224.89,194.99,5.98,3.11;18,226.76,166.18,7.36,17.94;18,224.89,163.07,5.98,3.11;18,226.76,134.25,7.36,17.94;18,224.89,131.14,5.98,3.11;18,226.76,100.77,7.36,17.94;18,224.89,97.66,5.98,3.11;18,226.76,68.84,7.36,17.94;18,237.73,582.33,7.36,34.99;18,237.73,553.29,7.36,7.97;18,237.73,507.02,7.36,7.97;18,237.73,460.74,7.36,7.97;18,237.73,418.47,7.36,20.16;18,237.73,386.55,7.36,20.15;18,237.73,354.62,7.36,20.15;18,237.73,322.69,7.36,20.15;18,237.73,287.64,7.36,20.15;18,237.73,255.72,7.36,20.15;18,237.73,226.91,7.36,20.15;18,237.73,194.98,7.36,20.15;18,237.73,163.05,7.36,20.15;18,237.73,131.12,7.36,20.15;18,237.73,97.64,7.36,20.15;18,237.73,65.71,7.36,20.15;18,248.69,602.66,7.36,14.65;18,248.69,553.30,7.36,7.97;18,248.69,507.03,7.36,7.97;18,248.69,460.75,7.36,7.97;18,248.69,421.59,7.36,17.94;18,246.81,412.25,5.98,9.34;18,248.69,389.67,7.36,17.94;18,246.81,380.33,5.98,9.34;18,248.69,357.74,7.36,17.94;18,246.81,348.40,5.98,9.34;18,248.69,325.81,7.36,17.94;18,246.81,316.47,5.98,9.34;18,248.69,290.77,7.36,17.94;18,246.81,287.66,5.98,3.11;18,248.69,258.84,7.36,17.94;18,246.81,255.73,5.98,3.11;18,248.69,230.04,7.36,17.93;18,246.81,220.69,5.98,9.34;18,248.69,198.10,7.36,17.94;18,246.81,188.76,5.98,9.34;18,248.69,166.18,7.36,17.94;18,246.81,156.84,5.98,9.34;18,248.69,134.25,7.36,17.94;18,246.81,124.91,5.98,9.34;18,248.69,100.77,7.36,17.94;18,246.81,94.54,5.98,6.23;18,248.69,68.84,7.36,17.94;18,246.81,62.61,5.98,6.23;18,259.64,553.30,7.36,7.97;18,259.64,507.03,7.36,7.97;18,259.64,460.76,7.36,7.97;18,259.64,418.49,7.36,20.16;18,259.64,386.55,7.36,20.16;18,259.64,354.62,7.36,20.16;18,259.64,322.69,7.36,20.16;18,259.64,287.64,7.36,20.16;18,259.64,255.72,7.36,20.16;18,259.64,226.90,7.36,20.16;18,259.64,194.97,7.36,20.16;18,259.64,163.03,7.36,20.16;18,259.64,131.10,7.36,20.16;18,259.64,97.61,7.36,20.16;18,259.64,65.68,7.36,20.16;18,270.60,601.37,7.36,15.94;18,270.60,553.30,7.36,7.97;18,270.60,507.03,7.36,7.97;18,270.60,460.75,7.36,7.97;18,270.60,421.59,7.36,13.95;18,268.73,412.25,5.98,9.34;18,270.60,389.67,7.36,13.95;18,268.73,380.33,5.98,9.34;18,270.60,357.81,7.36,7.97;18,270.60,325.88,7.36,7.97;18,270.60,293.95,7.36,7.97;18,270.60,262.03,7.36,7.97;18,270.60,230.04,7.36,13.95;18,268.73,220.69,5.98,9.34;18,270.60,198.11,7.36,13.95;18,268.73,188.76,5.98,9.34;18,270.60,166.24,7.36,7.97;18,270.60,134.31,7.36,7.97;18,270.60,102.39,7.36,7.97;18,270.60,70.46,7.36,7.97;18,281.57,553.30,7.36,7.97;18,281.57,507.03,7.36,7.97;18,281.57,460.75,7.36,7.97;18,281.57,418.49,7.36,20.16;18,281.57,386.56,7.36,20.15;18,281.57,357.80,7.36,7.97;18,281.57,325.87,7.36,7.97;18,281.57,293.94,7.36,7.97;18,281.57,262.02,7.36,7.97;18,281.57,226.92,7.36,20.15;18,281.57,194.99,7.36,20.15;18,281.57,166.23,7.36,7.97;18,281.57,134.30,7.36,7.97;18,281.57,102.37,7.36,7.97;18,281.57,70.45,7.36,7.97;18,294.34,611.56,7.36,5.75;18,292.82,608.58,5.52,2.99;18,294.34,553.30,7.36,7.97;18,294.34,507.03,7.36,7.97;18,294.34,460.76,7.36,7.97;18,294.34,421.59,7.36,13.95;18,294.34,389.73,7.36,7.97;18,294.34,357.74,7.36,13.95;18,294.34,325.88,7.36,7.97;18,294.34,290.77,7.36,17.94;18,294.34,262.02,7.36,7.97;18,294.34,230.03,7.36,13.95;18,294.34,198.17,7.36,7.97;18,294.34,166.18,7.36,13.95;18,294.34,134.31,7.36,7.97;18,294.34,100.76,7.36,17.94;18,303.31,611.12,7.36,6.20;18,303.31,548.32,7.36,17.94;18,303.31,502.04,7.36,17.94;18,303.31,455.76,7.36,17.94;18,303.31,400.70,7.36,17.94;18,303.31,336.84,7.36,17.94;18,303.31,272.98,7.36,17.94;18,303.31,209.12,7.36,17.94;18,303.31,145.26,7.36,17.94;18,303.31,79.41,7.36,17.94;18,318.29,586.99,7.36,30.33;18,318.29,558.75,7.36,25.24;18,318.29,525.63,7.36,30.11;18,318.29,501.82,7.36,20.81;18,318.29,492.16,7.36,6.65;18,318.29,446.01,7.36,43.16;18,318.29,425.74,7.36,17.27;18,318.29,409.03,7.36,13.72;18,318.29,399.38,7.36,6.65;18,318.29,385.32,7.36,11.07;18,318.29,348.70,7.36,33.63;18,318.29,318.91,7.36,26.79;18,318.29,304.84,7.36,11.07;18,318.29,286.78,7.36,15.06;18,318.29,251.04,7.36,32.75;18,318.29,219.70,7.36,28.34;18,318.29,200.75,7.36,15.94;18,318.29,186.25,7.36,11.51;18,318.29,144.28,7.36,38.97;18,318.29,118.25,7.36,23.02;18,318.29,109.93,7.36,5.31;18,318.29,95.87,7.36,11.07;18,318.29,60.11,7.36,32.77;18,327.25,587.43,7.36,29.89;18,327.25,572.26,7.36,13.28;18,327.25,561.95,7.36,8.42;18,327.25,535.27,7.36,24.80;18,327.25,502.37,7.36,31.00;18,327.25,489.42,7.36,11.07;18,327.25,463.40,7.36,24.13;18,327.25,447.78,7.36,13.73;18,327.25,437.76,7.36,8.14;18,327.25,417.29,7.36,18.60;18,327.25,399.46,7.36,15.95;18,327.25,386.06,7.36,11.52;18,327.25,367.78,7.36,16.38;18,327.25,361.91,7.36,3.99;18,327.25,335.23,7.36,24.80;18,327.25,285.08,7.36,48.26;18,327.25,276.55,7.36,6.65;18,327.25,263.59,7.36,11.07;18,327.25,237.80,7.36,23.91;18,327.25,218.20,7.36,17.71;18,327.25,170.03,7.36,46.28;18,327.25,149.10,7.36,19.04;18,327.25,134.37,7.36,12.85;18,327.25,127.18,7.36,5.31;18,327.25,92.97,7.36,32.32;18,327.25,60.08,7.36,31.00;18,336.22,599.83,7.36,17.49;18,336.22,585.43,7.36,12.40;18,336.22,572.37,7.36,11.07;18,336.22,550.01,7.36,20.37;18,336.22,541.37,7.36,6.65;18,336.22,528.31,7.36,11.07;18,336.22,504.61,7.36,21.70;18,336.22,465.41,7.36,37.20;18,336.22,422.22,7.36,41.17;18,336.22,410.03,7.36,10.19;18,336.22,396.97,7.36,11.07;18,336.22,383.45,7.36,11.51;18,336.22,356.66,7.36,24.80;18,336.22,339.61,7.36,15.05;18,336.22,329.20,7.36,8.41;18,336.22,302.41,7.36,24.79;18,336.22,267.43,7.36,32.98;18,345.19,545.38,7.36,71.93;18,345.19,525.19,7.36,18.17;18,344.71,516.99,7.97,6.22;18,345.19,479.81,7.36,35.19;18,345.19,433.10,7.36,44.72;18,345.19,407.39,7.36,23.70;18,345.19,400.52,7.36,4.87;18,345.19,384.81,7.36,13.73;18,344.71,376.59,7.97,6.22;18,345.19,369.73,7.36,4.87;18,345.19,339.64,7.36,28.10;18,345.19,319.93,7.36,17.71;18,344.71,311.72,7.97,6.22;18,345.19,289.80,7.36,19.93;18,345.19,249.71,7.36,38.09;18,345.19,224.00,7.36,23.70;18,352.28,614.20,5.98,3.11;18,354.15,609.27,7.36,4.43;18,353.67,601.06,7.97,6.22;18,354.15,587.11,7.36,11.96;18,352.28,578.89,5.98,6.23;18,354.15,573.96,7.36,4.43;18,353.67,565.75,7.97,6.22;18,354.15,551.80,7.36,11.96;18,352.28,540.46,5.98,9.34;18,354.15,535.54,7.36,4.43;18,353.67,527.33,7.97,6.22;18,354.15,511.39,7.36,13.95;18,354.15,466.24,7.36,43.16"><head>Table 4 .</head><label>4</label><figDesc>Subsequent Robust standard errors in parentheses. Note that in the first-stage models, the final clearance decision (and not subsequent arrest) is the depndent variable. Not all control variables are shown. The R² value does not have a natural interpretation in the second stage(Wooldridge, 2003)  and is therefore excluded here. See the tables in the online supporting information for the full models with all control variables.ABBREVIATIONS: 2SLS = two-stage, least-squares model; F Stat = F statistic; LPM = linear probability model. * p &lt; .05; * * p &lt; .01; * * * p &lt; .001 (two-tailed).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="9,40.37,60.39,382.57,101.67"><head>Table 1 .</head><label>1</label><figDesc>Sample Stratification</figDesc><table coords="9,40.37,80.97,382.57,81.09">Decision Point 
+Group 1 
+Group 2 
+Group 3 
+Group 4 
+
+Initial/Proposed Decision 
+Cleared 
+Denied 
+Denied 
+Denied 
+Submitted Evidence of Rehabilitation 
+N/A 
+Yes 
+Yes 
+No 
+Final Decision 
+Cleared 
+Cleared 
+Denied 
+Denied 
+n 
+3,202 
+1,042 
+977 
+1,427 
+% 
+48.2% 
+15.7% 
+14.7% 
+21.5% 
+
+NOTE: Based on the group classification table in Siwach (n.d.). 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="13,40.37,60.27,383.60,544.89"><head>Table 2 .</head><label>2</label><figDesc>Descriptive Statistics ABBREVIATIONS: DOH = Department of Health; SD = standard deviation.</figDesc><table coords="13,40.37,80.85,30.12,7.36">Variable 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="15,40.37,60.27,382.57,79.32"><head>Table 3 .</head><label>3</label><figDesc>DOH Background Check Potential Outcomes and Groups</figDesc><table coords="15,40.37,80.85,382.57,58.75">Delivered Treatment 
+
+C i = 0 
+C i = 1 
+Assigned Treatment (Instrument) 
+Final Decision: Denial 
+Final Decision: Clearance 
+
+F i = 0 
+Groups 3 and 4 
+Group 2 
+Proposed Initial Denial 
+(Compliers) 
+(Always takers) 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="15,153.56,204.22,28.34,7.36"><head>table 1 ).</head><label>1</label><figDesc></figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="21,131.32,60.10,195.95,557.22"><head>Table 5 .</head><label>5</label><figDesc>Heterogeneous Treatment Effects (2SLS) by Age</figDesc><table coords="21,154.70,401.05,15.41,86.42">Panel A 
+
+Subsequent Arrest in 1 Year 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="22,44.60,60.27,382.59,258.83"><head>Table 6 .</head><label>6</label><figDesc>NOTES: Robust standard errors in parentheses. Control variables are not shown here, but they mirror the recidivism model controls. The sample sizes are slightly smaller here because the models remove anyone with a subsequent arrest within the first quarter postdecision. See the tables in the online supporting information for the full models with all control variables. ABBREVIATIONS: F Stat = F statistic; Q1 = first quarter after the final decision. * p &lt; .05; * * * p &lt; .001 (two-tailed).</figDesc><table coords="22,44.60,60.27,382.56,199.15">Subsequent Arrest in First Year Postdecision: Employment 
+Treatment (2SLS) 
+
+Variables 
+Whole Sample 
+Men Only 
+Women Only 
+
+Health-Care Employment in Q1 
+-.038 
+-.109  *  
+-.006 
+(Panel A) 
+(.027) 
+(.049) 
+(.033) 
+
+First-Stage Regression of Health-Care Employment in Quarter 1 
+
+Clearance in Initial Decision 
+.299  *  *  *  
+.342  *  *  *  
+.277  *  *  *  
+(.015) 
+(.029) 
+(.019) 
+First-Stage F Stat 
+382.594 
+146.410 
+225.300 
+
+Overall Employment in Q1 
+-.053 
+-.161  *  
+-.008 
+(Panel B) 
+(.038) 
+(.073) 
+(.033) 
+
+First-Stage Regression of Overall Employment in Quarter 1 
+Clearance in Initial Decision 
+.216  *  *  *  
+.231  *  *  *  
+.207  *  *  *  
+(.014) 
+(.025) 
+(.016) 
+
+First-Stage F Stat 
+251.540 
+84.089 
+159.012 
+
+N 
+6,442 
+1,856 
+4,586 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="31,40.37,476.95,382.58,128.75"><head>Table S . 1 .</head><label>S1</label><figDesc>First-Stage RegressionsTable S.2. Complete Models-Whole Sample, Subsequent Arrest in 1 Year Table S.3. Complete Models-Whole Sample, Subsequent Arrest in 3 Years Table S.4. Complete Models-Men-Only Sample, Subsequent Arrest in 1 Year Table S.5. Complete Models-Men-Only Sample, Subsequent Arrest in 3 Years Table S.6. Complete Models-Women-Only Sample, Subsequent Arrest in 1 Year Table S.7. Complete Models-Women-Only Sample, Subsequent Arrest in 3 Years Table S.8. Complete Models-Subsequent Arrest in 1 Year With Health-Care Employment as Treatment Table S.9. Complete Models-Subsequent Arrest in 1 Year With Any Employment as Treatment</figDesc><table></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">.<ref type="bibr" coords="6,68.52,581.58,103.98,7.82" target="#b18">Bushway and Reuter (2001)</ref> did not provide an operational definition of motivation, but they focused on people who self-select into work or work training programs. In this article, we claim that individuals who have obtained a job offer in the direct-care industry in either a nursing home or home health-care agency are motivated to work.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">. Examples include letters of recommendation from previous employers or evidence of successfully completing an education, probation, or drug/alcohol treatment program. DOH notes that this list should not be considered complete and that individuals may submit other indicators of rehabilitation and good conduct.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3">. We link DCJS and DOH data by using New York State identification (NYSID) numbers, a unique fingerprint-based identifier that is created when individuals submit their fingerprints for the background check. Fifty individuals were missing a 3-year subsequent arrest follow-up window and are dropped. Arrests that do not lead to dispositions are not linked to a person in New York State until the person's first conviction (after which, all arrests are linked to the individual's NYSID). Therefore, an individual with a conviction record may also have other NYSIDs for arrests that occurred prior to their first conviction, and as a result, we are undercounting arrests in our control variables. 4. We link DOL and DOH data by using Social Security numbers (SSNs), and we lose 544 unmatched cases in the process. Reasons for missing NYS DOL data might include noncitizenship status, working outside the state, or illegitimate work that is not captured by the state, and it is a limitation of this study.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10">. Partial identification does not create a point estimate but instead provides a range of viable estimates associated with different plausible assumptions<ref type="bibr" coords="24,266.60,611.47,97.69,7.82" target="#b63">(Manski and Pepper, 2000)</ref>.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="25,40.37,443.07,382.56,9.21;25,56.31,455.02,225.27,9.21" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Semiparametric instrumental variable estimation of treatment response models</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alberto</forename><surname>Abadie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Econometrics</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="231" to="63" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,40.37,466.98,347.67,9.21" xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Affordable Care Act. 2010. P.L. 111-148, 124 Stat</title>
+		<imprint>
+			<biblScope unit="page" from="119" to="1025" />
+		</imprint>
+	</monogr>
+	<note>enacted March 23</note>
+</biblStruct>
+
+<biblStruct coords="25,40.37,478.93,382.57,9.21;25,56.31,490.89,319.11,9.21" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The recent past and near future of risk and/or need assessment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><forename type="middle">A</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><surname>Bonta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Stephen Wormith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Crime &amp; Delinquency</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="7" to="27" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,40.37,502.85,382.58,9.21;25,56.31,514.80,330.46,9.21" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Instrumental variables methods in experimental criminological research: What, why and how</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><forename type="middle">D</forename><surname>Angrist</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Criminology</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="23" to="44" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,40.37,526.75,382.53,9.21;25,56.31,538.71,366.62,9.21;25,56.31,550.67,44.80,9.21" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Identification of causal effects using instrumental variables</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><forename type="middle">D</forename><surname>Angrist</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Guido</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><forename type="middle">B</forename><surname>Imbens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Rubin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Statistical Association</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="444" to="55" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,40.37,562.63,382.58,9.21;25,56.31,574.58,366.63,9.21;25,56.31,586.53,140.56,9.21" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Instrumental variables and the search for identification: From supply and demand to natural experiments</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><forename type="middle">D</forename><surname>Angrist</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alan</forename><forename type="middle">B</forename><surname>Kreuger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Economic Perspectives</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="69" to="85" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="25,40.37,598.49,382.58,9.21;25,56.31,610.44,291.20,9.21" xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Mostly Harmless Econometrics: An Empiricist&apos;s Companion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><forename type="middle">D</forename><surname>Angrist</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jörn-Steffen</forename><surname>Pischke</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Princeton, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,44.60,60.51,382.56,9.21;26,60.54,72.46,268.48,9.21" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The impact of incarceration on employment during the transition to adulthood</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">J</forename><surname>Apel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><surname>Sweeten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Problems</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="448" to="79" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,44.61,84.41,382.55,9.21;26,60.54,96.37,366.62,9.21;26,60.54,108.32,366.63,9.21;26,60.54,120.28,34.04,9.21" xml:id="b8">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jerald</forename><forename type="middle">G</forename><surname>Bachman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Patrick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">E</forename><surname>O&amp;apos;malley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lloyd</forename><forename type="middle">D</forename><surname>Schulenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alison</forename><forename type="middle">L</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alicia</forename><forename type="middle">C</forename><surname>Bryant</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Merline</surname></persName>
+		</author>
+		<title level="m">The Decline of Substance Use in Young Adulthood: Changes in Social Activities, Roles, and Beliefs</title>
+		<meeting><address><addrLine>Hoboken, NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>Taylor &amp; Francis</publisher>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,44.61,132.24,382.56,9.21;26,60.54,144.19,131.72,9.21" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Crime and punishment: An economic approach</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><forename type="middle">S</forename><surname>Becker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Political Economy</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="169" to="217" />
+			<date type="published" when="1968" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,44.61,156.15,382.56,9.21;26,60.54,168.10,25.20,9.21" xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Outsiders: Studies in the Sociology of Deviance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Howard</forename><forename type="middle">S</forename><surname>Becker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1963" />
+			<publisher>Free Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,44.61,180.05,382.54,9.21;26,60.54,192.02,278.99,9.21" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Redemption in the presence of widespread criminal background checks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alfred</forename><surname>Blumstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kiminori</forename><surname>Nakamura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Criminology</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="327" to="59" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,44.61,203.97,382.56,9.21;26,60.55,215.92,366.63,9.21;26,60.55,227.88,77.74,9.21" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Demographic patterns of cumulative arrest prevalence by ages 18 and 23</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Brame</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shawn</forename><forename type="middle">D</forename><surname>Robert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ray</forename><surname>Bushway</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">G</forename><surname>Paternoster</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Crime &amp; Delinquency</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="471" to="86" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,44.61,239.83,382.55,9.21;26,60.54,251.79,137.04,9.21;26,44.61,263.75,382.55,9.21;26,60.54,275.70,137.04,9.21;26,44.60,287.65,382.57,9.21;26,60.54,299.61,182.64,9.21" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Survey of State Criminal History Information Systems</title>
+		<ptr target="http://www.bls.gov/spotlight/2011/women/" />
+	</analytic>
+	<monogr>
+		<title level="m">Author. Bureau of Justice Statistics</title>
+		<meeting><address><addrLine>Washington, DC; Washington, DC; Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+		<respStmt>
+			<orgName>Bureau of Justice Statistics</orgName>
+		</respStmt>
+	</monogr>
+	<note>: Author. Bureau of Labor Statistics</note>
+</biblStruct>
+
+<biblStruct coords="26,44.60,311.56,382.56,9.21;26,60.54,323.52,243.59,9.21" xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Employment Projections-2014-24</title>
+		<ptr target="http://www.bls.gov/news.release/pdf/ecopro.pdf" />
+		<imprint>
+			<date type="published" when="2015" />
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Bureau of Labor Statistics</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,44.60,335.48,382.55,9.21;26,60.54,347.43,292.27,9.21" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A signaling perspective on employmentbased reentry programming</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shawn</forename><forename type="middle">D</forename><surname>Bushway</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Apel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Criminology &amp; Public Policy</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="21" to="50" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,44.60,359.39,382.56,9.21;26,60.54,371.34,366.60,9.21;26,60.54,383.29,366.63,9.21;26,60.54,395.26,366.63,9.21;26,60.54,407.21,137.56,9.21" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Private providers of criminal history records: Do you get what you pay for?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shawn</forename><forename type="middle">D</forename><surname>Bushway</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shauna</forename><surname>Briggs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Faye</forename><surname>Taxman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Meredith</forename><surname>Thanner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mischelle</forename><surname>Van Brakle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Barriers to Reentry? The Labor Market for Released</title>
+		<editor>Shawn Bushway, Michael Stoll, and David Weiman</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Russell Sage Foundation</publisher>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,44.60,419.16,382.56,9.21;26,60.54,431.12,366.59,9.21;26,60.54,443.07,121.22,9.21" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The predictive value of criminal background checks: Do age and criminal history affect time to redemption</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shawn</forename><forename type="middle">D</forename><surname>Bushway</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><surname>Nieuwbeerta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arjan</forename><surname>Blokland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Criminology</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="27" to="60" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,44.60,455.03,382.57,9.21;26,60.54,466.99,338.80,9.21" xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Labor markets and crime</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shawn</forename><forename type="middle">D</forename><surname>Bushway</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><surname>Reuter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Crime</title>
+		<editor>Joan Petersilia and James Q. Wilson</editor>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>ICS Press</publisher>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note>3rd edition</note>
+</biblStruct>
+
+<biblStruct coords="26,44.60,478.94,382.55,9.21;26,60.54,490.89,124.26,9.21" xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nadia</forename><surname>Campaniello</surname></persName>
+		</author>
+		<ptr target="http://wol.iza.org/articles/women-in-crime" />
+	</analytic>
+	<monogr>
+		<title level="j">Women in Crime. IZA World of Labor</title>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,44.60,502.85,292.03,9.21" xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Civil Rights Act</title>
+		<imprint>
+			<date type="published" when="1964-07-241" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Pub.L. 88-352</note>
+</biblStruct>
+
+<biblStruct coords="26,44.60,514.80,382.54,9.21;26,60.54,526.76,353.91,9.21" xml:id="b21">
+	<monogr>
+		<title level="m" type="main">National Background Check Program Long Term Care Criminal Convictions Work Group</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cna</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+			<publisher>CNA Analysis &amp; Solutions</publisher>
+			<pubPlace>Alexandria, VA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">IRM-2012-U-003468</note>
+</biblStruct>
+
+<biblStruct coords="26,44.60,538.72,382.56,9.21;26,60.54,550.67,366.61,9.21;26,60.54,562.63,282.57,9.21" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">An experimental evaluation of a comprehensive employment-oriented prisoner re-entry program</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Phillip</forename><forename type="middle">J</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Songman</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><surname>Braga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jens</forename><surname>Ludwig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mallory</forename><forename type="middle">E</forename><surname>O&amp;apos;brien</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Quantitative Criminology</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="355" to="82" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="26,44.60,574.58,382.54,9.21;26,60.54,586.53,366.61,9.21;26,60.54,598.50,12.45,9.21" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Effects of welfare reform on women&apos;s crime</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Corman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hope</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nancy</forename><forename type="middle">E</forename><surname>Dave</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Reichman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Review of Law and Economics</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,40.37,60.51,382.54,9.21;27,56.31,72.46,366.61,9.21;27,56.31,84.41,67.80,9.21" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Women&apos;s pathways to felony court: Feminist theories of lawbreaking and problems of representation. Southern California Review of Law and</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kathleen</forename><surname>Daly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Women&apos;s Studies</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="11" to="52" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,40.37,96.37,382.56,9.21;27,56.31,108.32,366.62,9.21;27,56.31,120.28,366.62,9.21;27,56.31,132.24,328.21,9.21" xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Criminal Stigma, Race, Gender, and Employment: An Expanded Assessment of the Consequences of Imprisonment for Employment (Final report to the National Institute of Justice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Scott</forename><forename type="middle">H</forename><surname>Decker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cassia</forename><surname>Spohn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Natalie</forename><forename type="middle">R</forename><surname>Ortiz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><surname>Hedberg</surname></persName>
+		</author>
+		<idno>2010-MU-MU-0004</idno>
+		<imprint>
+			<date type="published" when="2014" />
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>National Institute of Justice</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,40.37,144.19,382.56,9.21;27,56.31,156.15,366.62,9.21;27,56.31,168.10,83.85,9.21" xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Recidivism of Prisoners Released in 30 States in 2005: Patterns from</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Durose</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alexia</forename><forename type="middle">D</forename><surname>Matthew</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Howard</forename><forename type="middle">N</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Snyder</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Bureau of Justice Statistics</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,40.37,180.05,382.54,9.21;27,56.31,192.02,39.83,9.21" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Age differentiation and the life course</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Glen</forename><forename type="middle">H</forename><surname>Elder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="165" to="90" />
+			<date type="published" when="1975" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,40.37,203.97,382.57,9.21;27,56.31,215.92,366.63,9.21;27,56.31,227.88,366.62,9.21;27,56.31,239.83,202.28,9.21" xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Policy Statement on the Issue of Conviction Records under Title VII of the Civil Rights Act of 1964</title>
+		<ptr target="http://www.eeoc.gov/policy/docs/convict1.html" />
+		<imprint>
+			<date type="published" when="1987" />
+			<pubPlace>As Amended, 42 U.S.C; Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Equal Employment Opportunity Commission (EEOC. Section] 2000e, Et Seq.</note>
+</biblStruct>
+
+<biblStruct coords="27,40.37,251.79,382.55,9.21;27,56.31,263.75,366.59,9.21;27,56.31,275.70,153.94,9.21" xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Enforcement Guidance on the Consideration of Arrest and Conviction Records in Employment Decisions Under Title VII</title>
+		<imprint>
+			<date type="published" when="2012" />
+			<publisher>Author</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Equal Employment Opportunity Commission (EEOC)</note>
+</biblStruct>
+
+<biblStruct coords="27,40.38,287.65,382.56,9.21;27,56.31,299.61,277.61,9.21" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Crime and work</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><surname>Fagan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">B</forename><surname>Freeman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Crime and Justice</title>
+		<editor>Michael Tonry</editor>
+		<meeting><address><addrLine>Chicago, IL</addrLine></address></meeting>
+		<imprint>
+			<publisher>University of Chicago Press</publisher>
+			<date type="published" when="1999" />
+			<biblScope unit="volume">25</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,40.37,311.56,382.55,9.21;27,56.31,323.52,366.63,9.21;27,56.31,335.48,366.62,9.21;27,56.31,347.43,366.69,9.21;27,56.31,359.39,164.63,9.21" xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Two New EEOC Criminal Record Lawsuits Underscore Important Strategic and Practical Considerations for Employers Conducting Background Checks. Littler Insight</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rod</forename><forename type="middle">M</forename><surname>Fliegel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><forename type="middle">L</forename><surname>Barry Hartstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mora</surname></persName>
+		</author>
+		<ptr target="http://www.littler.com/two-new-eeoc-criminal-record-lawsuits-underscore-important-strategic-and-practical-considerations" />
+		<imprint>
+			<date type="published" when="2013-06-12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,40.37,371.34,382.55,9.21;27,56.31,383.29,44.80,9.21" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The economics of crime</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">B</forename><surname>Freeman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Handbook of Labor Economics</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="3529" to="71" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,40.37,395.26,382.54,9.21;27,56.31,407.21,320.83,9.21" xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Growing up is harder to do</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frank</forename><forename type="middle">F</forename><surname>Furstenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sheela</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vonnie</forename><forename type="middle">C</forename><surname>Mcloyd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ruben</forename><forename type="middle">G</forename><surname>Rumbaut</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Richard</forename><forename type="middle">A</forename><surname>Settersten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contexts</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="33" to="41" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,40.37,419.16,382.53,9.21;27,56.31,431.12,289.48,9.21" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">A meta-analysis of the predictors of adult offender recidivism: What works</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paul</forename><surname>Gendreau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tracy</forename><surname>Little</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Claire</forename><surname>Goggin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Criminology</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="575" to="608" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,40.37,443.07,382.57,9.21;27,56.31,455.03,58.65,9.21" xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Young People and Crime</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Benjamin</forename><surname>Bowling</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+			<publisher>Home Office</publisher>
+			<pubPlace>London, U.K.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,40.37,466.99,264.29,9.21" xml:id="b36">
+	<monogr>
+				<title level="m">Missouri Pacific Railroad. 1977. 549 F.2d 1158</title>
+		<imprint>
+			<biblScope unit="page">1160</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,40.37,478.94,382.56,9.21;27,56.31,490.89,359.76,9.21" xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Women Offenders</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lawrence</forename><forename type="middle">A</forename><surname>Greenfeld</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tracy</forename><forename type="middle">L</forename><surname>Snell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>U.S. Department of Justice, Office of Justice Programs, Bureau of Justice Statistics</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,40.37,502.85,382.56,9.21;27,56.31,514.80,366.63,9.21;27,56.31,526.76,347.54,9.21;27,56.31,538.72,25.17,9.21" xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Nursing Facilities, Staffing, Residents and Facility Deficiencies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charlene</forename><surname>Harrington</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Helen</forename><surname>Carrillo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rachel</forename><surname>Garfield</surname></persName>
+		</author>
+		<ptr target="http://kff.org/medicaid/report/nursing-facilities-staffing-residents-and-facility-deficiencies-2009-through-2014/" />
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="27,40.37,550.67,382.56,9.21;27,56.31,562.63,366.63,9.21;27,56.31,574.58,366.64,9.21;27,56.31,586.53,358.57,9.21;27,56.31,598.50,51.18,9.21" xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Criminal Background Checks: Evolution of the EEOC&apos;s Updated Guidance and Implications for the Employer Community. Littler Insight</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hartstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rod</forename><forename type="middle">M</forename><surname>Barry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marcy</forename><surname>Fliegel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><surname>Mcgovern</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Mora</surname></persName>
+		</author>
+		<ptr target="http://www.littler.com/criminal-background-checks-evolution-eeocs-updated-guidance-and-implications-employer-community" />
+		<imprint>
+			<date type="published" when="2012-05-17" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="28,44.60,60.51,382.55,9.21;28,60.54,72.46,77.54,9.21" xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Letter to State Attorney Generals from Eric Holder, U.S. Attorney General</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><surname>Holder</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011-04-18" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="28,44.60,84.41,382.53,9.21;28,60.54,96.37,366.63,9.21;28,60.54,108.32,94.90,9.21" xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Perceived criminality, criminal background checks, and the racial hiring practices of employers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Harry</forename><forename type="middle">J</forename><surname>Holzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><surname>Raphael</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Stoll</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Law and Economics</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="451" to="80" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="28,44.60,120.28,382.52,9.21;28,60.54,132.24,221.62,9.21" xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Identification and estimation of local average treatment effects</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guido</forename><forename type="middle">W</forename><surname>Imbens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><forename type="middle">D</forename><surname>Angrist</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Econometrica</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="467" to="75" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="28,44.60,144.19,382.56,9.21;28,60.54,156.15,308.02,9.21" xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Recent developments in the econometrics of program evaluation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guido</forename><forename type="middle">W</forename><surname>Imbens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><forename type="middle">M</forename><surname>Wooldridge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Economic Literature</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="5" to="86" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="28,44.61,168.10,382.57,9.21;28,60.54,180.05,42.62,9.21" xml:id="b44">
+	<monogr>
+		<title level="m" type="main">The Eternal Criminal Record</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">B</forename><surname>Jacobs</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<publisher>Harvard University Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="28,44.61,192.02,382.56,9.21;28,60.54,203.97,366.64,9.21;28,60.54,215.92,45.38,9.21" xml:id="b45">
+	<monogr>
+		<title level="m" type="main">European Criminal Records and Ex-Offender Employment. New York University Public Law and Legal Theory Working Papers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">B</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Elena</forename><surname>Larrauri</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note>Paper 532</note>
+</biblStruct>
+
+<biblStruct coords="28,44.61,227.88,355.89,9.21" xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The economics of female recidivism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nancy</forename><forename type="middle">C</forename><surname>Jurik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Criminology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="603" to="625" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="28,44.61,239.83,382.54,9.21;28,60.55,251.79,366.63,9.21;28,60.55,263.75,366.63,9.21;28,60.55,275.70,366.62,9.21;28,60.55,287.65,347.61,9.21;28,60.55,299.61,219.99,9.21" xml:id="b47">
+	<monogr>
+		<title level="m" type="main">Understanding Direct Care Workers: A Snapshot of Two of America&apos;s Most Important Jobs</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Galina</forename><surname>Khatutsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joshua</forename><surname>Wiener</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wayne</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Valentina</forename><surname>Akhmerova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Jessuprti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marie</forename><forename type="middle">R</forename><surname>Squillace</surname></persName>
+		</author>
+		<ptr target="https://aspe.hhs.gov/basic-report/understanding-direct-care-workers-snapshot-two-americas-most-important-jobs-certified-nursing-assistants-and-home-health-aides" />
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note>Report prepared for the U.S. Department of Health and Human Services</note>
+</biblStruct>
+
+<biblStruct coords="28,44.61,311.56,382.56,9.21;28,60.55,323.52,211.42,9.21" xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Conviction records and disparate impact</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Allan</forename><forename type="middle">G</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rod</forename><forename type="middle">M</forename><surname>Fliegel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ABA Journal of Labor &amp; Employment Law</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="405" to="431" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="28,44.61,335.48,382.55,9.21;28,60.55,347.43,366.61,9.21;28,60.54,359.39,22.96,9.21" xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Analyzing the extent and influence of occupational licensing on the labor market</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Morris</forename><forename type="middle">M</forename><surname>Kleiner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alan</forename><forename type="middle">B</forename><surname>Krueger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Labor Economics</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="173" to="202" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="28,44.61,371.34,382.58,9.21;28,60.54,383.29,366.61,9.21;28,60.54,395.26,86.88,9.21" xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Scarlet letters and recidivism: Does an old criminal record predict future offending?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Megan</forename><forename type="middle">C</forename><surname>Kurlychek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Brame</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shawn</forename><forename type="middle">D</forename><surname>Bushway</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Criminology &amp; Public Policy</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="483" to="504" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="28,44.61,407.21,382.58,9.21;28,60.54,419.16,366.62,9.21;28,60.54,431.12,72.76,9.21" xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Enduring risk? Old criminal records and predictions of future criminal involvement</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Megan</forename><forename type="middle">C</forename><surname>Kurlychek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Brame</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shawn</forename><forename type="middle">D</forename><surname>Bushway</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Crime and Delinquency</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="64" to="83" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="28,44.61,443.07,382.58,9.21;28,60.54,455.03,366.61,9.21;28,60.54,466.99,234.72,9.21" xml:id="b52">
+	<monogr>
+		<title level="m" type="main">Conferring and creating legitimacy: Balancing employer and employee rights in an era of criminal background checks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Megan</forename><forename type="middle">C</forename><surname>Kurlychek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Shawn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Garima</forename><surname>Bushway</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Megan</forename><surname>Siwach</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Denver</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="report_type">n.d.</note>
+	<note>Unpublished manuscript</note>
+</biblStruct>
+
+<biblStruct coords="28,44.61,478.94,382.57,9.21;28,60.54,490.89,302.76,9.21" xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Legal ambiguity in managerial assessments of criminal records</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sarah</forename><surname>Lageson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mike</forename><surname>Vuolo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><surname>Uggen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Law &amp; Social Inquiry</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="175" to="204" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="28,44.61,502.85,382.54,9.21;28,60.54,514.80,162.98,9.21" xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Recidivism of prisoners released in 1994</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Patrick</forename><forename type="middle">A</forename><surname>Langan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">J</forename><surname>Levin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Federal Sentencing Reporter</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="58" to="65" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="28,44.61,526.76,382.58,9.21;28,60.54,538.72,366.62,9.21;28,60.54,550.67,39.83,9.21" xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Why work is important, and how to improve the effectiveness of correctional reentry programs that target employment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edward</forename><surname>Latessa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Criminology &amp; Public Policy</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="87" to="91" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="28,44.61,562.63,382.55,9.21;28,60.54,574.58,366.61,9.21;28,60.54,586.53,12.45,9.21" xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Prisoner reentry in the first decade of the twenty-first century</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pamela</forename><forename type="middle">K</forename><surname>Lattimore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Danielle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christy</forename><forename type="middle">A</forename><surname>Steffey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Visher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Victims &amp; Offenders</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="253" to="67" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="28,44.61,598.50,382.57,9.21;28,60.54,610.45,263.72,9.21" xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Turning points in the life course: Why change matters to the study of crime</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">H</forename><surname>Laub</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">J</forename><surname>Sampson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Criminology</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="301" to="326" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="29,40.37,60.51,382.56,9.21;29,56.31,72.46,366.61,9.21;29,56.31,84.41,25.20,9.21" xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Understanding desistance from crime</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">H</forename><surname>Laub</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><forename type="middle">J</forename><surname>Sampson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Crime and Justice</title>
+		<editor>Michael Tonry</editor>
+		<meeting><address><addrLine>Chicago, IL</addrLine></address></meeting>
+		<imprint>
+			<publisher>University of Chicago Press</publisher>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">28</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="29,40.37,96.37,382.56,9.21;29,56.31,108.32,366.62,9.21;29,56.31,120.28,147.25,9.21" xml:id="b59">
+	<monogr>
+		<title level="m" type="main">Women on the Outside: Understanding the Experiences of Female Prisoners Returning to</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">La</forename><surname>Vigne</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nancy</forename><forename type="middle">G</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lisa</forename><forename type="middle">E</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tracey</forename><forename type="middle">L</forename><surname>Lloyd</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>Urban Institute</publisher>
+			<pubPlace>Houston, Texas. Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="29,40.37,132.24,382.56,9.21;29,56.31,144.19,183.48,9.21" xml:id="b60">
+	<monogr>
+		<title level="m" type="main">Social Pathology: A Systematic Approach to the Theory of Sociopathic Behavior</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edwin</forename><forename type="middle">M</forename><surname>Lemert</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1951" />
+			<publisher>McGraw-Hill</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="29,40.37,156.15,216.41,9.21;29,258.18,155.59,4.31,5.11;29,272.13,156.15,150.80,9.21;29,56.31,168.10,239.96,9.21" xml:id="b61">
+	<monogr>
+		<title level="m" type="main">Available online: LexisNexis R Screening Solutions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="middle">N</forename><surname>Lexisnexis</surname></persName>
+		</author>
+		<ptr target="http://www.sgaumc.org/files/fileslibrary/lexisnexisinformation.pdf" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="29,40.37,180.05,382.57,9.21;29,56.31,192.01,366.64,9.21;29,56.31,203.97,79.42,9.21" xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Is the shape of the age-crime curve invariant by sex? Evidence from a national sample with flexible non-parametric modeling</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Siyu</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Quantitative Criminology</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="93" to="123" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="29,40.37,215.92,382.54,9.21;29,56.31,227.88,286.15,9.21" xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Monotone instrumental variables: With an application to the returns to schooling</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><forename type="middle">F</forename><surname>Manski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">V</forename><surname>Pepper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Econometrica</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="997" to="1010" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="29,40.37,239.83,382.55,9.21;29,56.31,251.78,366.62,9.21;29,56.31,263.75,121.49,9.21;29,40.37,275.70,382.56,9.21;29,56.31,287.65,136.50,9.21;29,40.37,299.61,382.55,9.21;29,56.31,311.56,366.61,9.21;29,56.31,323.51,214.48,9.21" xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Settling down and aging out: Toward an interactionist theory of desistance and the transition to adulthood</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Massoglia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><surname>Uggen</surname></persName>
+		</author>
+		<ptr target="http://oig.hhs.gov/oei/reports/oei-07-14-00131.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">Memorandum Report: State Requirements for Conducting Background Checks on Home Health Agency Employees</title>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>Author. Office of Inspector General</publisher>
+			<date type="published" when="2010" />
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="543" to="82" />
+		</imprint>
+	</monogr>
+	<note>Underpaid &amp; Overloaded: Women in Low-Wage Jobs</note>
+</biblStruct>
+
+<biblStruct coords="29,40.37,335.48,382.53,9.21;29,56.31,347.43,49.78,9.21" xml:id="b65">
+	<analytic>
+		<title level="a" type="main">The mark of a criminal record</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Devah</forename><surname>Pager</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="937" to="75" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="29,40.37,359.39,382.60,9.21;29,56.31,371.34,366.61,9.21;29,56.31,383.29,12.45,9.21" xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Discrimination in a low wage labor market: A field experiment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Devah</forename><surname>Pager</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bruce</forename><surname>Western</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bart</forename><surname>Bonikoswki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="777" to="99" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="29,40.38,395.25,382.56,9.21;29,56.31,407.21,183.77,9.21" xml:id="b67">
+	<monogr>
+		<title level="m" type="main">Home Health Care Aides at a Glance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Paraprofessional Healthcare Institute</surname></persName>
+		</author>
+		<ptr target="http://http://www.PHInational.org" />
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="report_type">PHI Facts 5</note>
+</biblStruct>
+
+<biblStruct coords="29,40.38,419.16,382.55,9.21;29,56.31,431.12,366.61,9.21;29,56.31,443.07,49.78,9.21" xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Desistance and the feared self: Toward an identity theory of criminal desistance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ray</forename><surname>Paternoster</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shawn</forename><surname>Bushway</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Criminal Law and Criminology</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="1103" to="56" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="29,40.38,455.02,382.56,9.21;29,56.31,466.99,366.64,9.21;29,56.31,478.94,30.15,9.21" xml:id="b69">
+	<monogr>
+		<title level="m" type="main">The Impact of Supported Work on Ex-Offenders</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Irving</forename><surname>Piliavin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rosemary</forename><surname>Gartner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1981" />
+			<pubPlace>New York</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Institute for Research on Poverty and Mathematica Policy Research</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="29,40.38,490.89,382.56,9.21;29,56.31,502.85,366.61,9.21;29,56.31,514.80,17.43,9.21" xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Incarceration and prisoner reentry in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><surname>Raphael</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The ANNALS of the American Academy of Political and Social Science</title>
+		<imprint>
+			<biblScope unit="volume">635</biblScope>
+			<biblScope unit="page" from="192" to="215" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="29,40.38,526.75,382.55,9.21;29,56.31,538.72,366.62,9.21;29,56.31,550.67,366.62,9.21;29,56.31,562.63,366.60,9.21" xml:id="b71">
+	<analytic>
+		<title level="a" type="main">The impact of local labor market conditions on the likelihood that parolees are returned to custody</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><surname>Raphael</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">F</forename><surname>Weiman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Barriers to Reentry? The Labor Market for Released</title>
+		<editor>Shawn D. Bushway, Michael A. Stoll, and David Weiman</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Russell Sage Foundation</publisher>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="29,40.38,574.58,382.58,9.21;29,56.31,586.53,366.63,9.21;29,56.31,598.49,366.62,9.21;29,56.31,610.45,62.82,9.21" xml:id="b72">
+	<monogr>
+		<title level="m" type="main">Work after Prison: One-Year Findings from the Transitional Jobs Reentry Demonstration</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cindy</forename><surname>Redcross</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dan</forename><surname>Bloom</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Erin</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michelle</forename><surname>Manno</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sara</forename><surname>Muller-Ravett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kristin</forename><surname>Seefeldt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><surname>Yahner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alford</forename><forename type="middle">A</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Janine</forename><surname>Zweig</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>MDRC</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,44.60,60.51,382.56,9.21;30,60.54,72.46,366.60,9.21;30,60.54,84.41,346.51,9.21" xml:id="b73">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cindy</forename><surname>Redcross</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Megan</forename><surname>Millenky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Timothy</forename><surname>Rudd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Valerie</forename><surname>Levshin</surname></persName>
+		</author>
+		<title level="m">More than a Job: Final Results from the Evaluation of the Center For Employment Opportunities (CEO) Transitional Jobs Program (OPRE Report 2011-18)</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>MDRC</publisher>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,44.60,96.37,382.58,9.21;30,60.54,108.32,268.96,9.21" xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Assessing recidivism risk across female pathways to crime</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><forename type="middle">D</forename><surname>Reisig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kristy</forename><surname>Holtfreter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Merry</forename><surname>Morash</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Justice Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="384" to="405" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,44.60,120.28,382.56,9.21;30,60.54,132.24,366.62,9.21;30,60.54,144.19,153.87,9.21" xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Need Not Apply&quot;: The Case for Reforming Criminal Background Checks for Employment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michelle</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maurice</forename><surname>Emsellem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The National Employment Law Project</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note>65 Million</note>
+</biblStruct>
+
+<biblStruct coords="30,44.60,156.15,382.55,9.21;30,60.54,168.10,232.85,9.21" xml:id="b76">
+	<monogr>
+		<title level="m" type="main">Report of the National Task Force on the Commercial Sale of Criminal Justice Record Information</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Search</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<publisher>Author</publisher>
+			<pubPlace>Sacramento, CA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,44.60,180.05,372.37,9.21" xml:id="b77">
+	<monogr>
+		<title level="m" type="main">Survey of Proposed FBI Rap Back Service</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Search</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>Author</publisher>
+			<pubPlace>Sacramento, CA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,44.60,192.02,382.55,9.21;30,60.54,203.97,65.02,9.21" xml:id="b78">
+	<monogr>
+		<title level="m" type="main">Great Pretenders: Pursuits and Careers of Persistent Thieves</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Neal</forename><surname>Shover</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Westview</publisher>
+			<pubPlace>Boulder, CO</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,44.60,215.92,382.53,9.21;30,60.54,227.88,245.75,9.21" xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Rethinking &quot;rational discrimination&quot; against ex-offenders</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jocelyn</forename><surname>Simonson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Georgetown Journal Poverty Law and Policy</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="283" to="311" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,44.60,239.83,382.56,9.21;30,60.54,251.79,143.38,9.21" xml:id="b80">
+	<monogr>
+		<title level="m" type="main">Criminal background checks and recidivism: Bounding the causal impact</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Garima</forename><forename type="middle">N</forename><surname>Siwach</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Unpublished manuscript</note>
+</biblStruct>
+
+<biblStruct coords="30,44.60,263.75,382.56,9.21;30,60.54,275.70,366.63,9.21;30,60.54,287.65,205.31,9.21" xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Banning the box but keeping the discrimination: Disparate impact and employers&apos; overreliance on criminal background checks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Harvard Civil Rights-Civil Liberties Law Review</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="197" to="228" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,44.60,299.61,382.58,9.21;30,60.54,311.56,366.62,9.21;30,60.54,323.52,277.90,9.21" xml:id="b82">
+	<monogr>
+		<title level="m" type="main">Background Checking-The Use of Criminal Background Checks in Hiring Decisions</title>
+		<ptr target="http://www.shrm.org/Research/SurveyFindings/Articles/Pages/CriminalBackgroundCheck.aspx" />
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>Society for Human Resources Management</note>
+</biblStruct>
+
+<biblStruct coords="30,44.60,335.48,382.52,9.21;30,60.54,347.43,98.50,9.21" xml:id="b83">
+	<analytic>
+		<title level="a" type="main">In search of a job: Criminal records as barriers to employment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Amy</forename><forename type="middle">L</forename><surname>Solomon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NIJ Journal</title>
+		<imprint>
+			<biblScope unit="volume">270</biblScope>
+			<biblScope unit="page" from="42" to="51" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,44.60,359.39,382.57,9.21;30,60.54,371.34,366.61,9.21;30,60.54,383.29,12.45,9.21" xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Gender and crime: Toward a gendered theory of female offending</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Darrell</forename><forename type="middle">J</forename><surname>Steffensmeier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Emilie</forename><forename type="middle">A</forename><surname>Allan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="459" to="87" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,44.60,395.26,382.56,9.21;30,60.54,407.21,133.21,9.21" xml:id="b85">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">H</forename><surname>Stock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><forename type="middle">W</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Introduction to Econometrics</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<date type="published" when="2003" />
+			<publisher>Addison-Wesley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,44.60,419.16,382.56,9.21;30,60.54,431.12,182.68,9.21" xml:id="b86">
+	<monogr>
+		<title level="m" type="main">Releasing Prisoners, Redeeming Communities: Reentry, Race, and Politics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anthony</forename><forename type="middle">C</forename><surname>Thompson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>NYU Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,44.60,443.07,382.57,9.21;30,60.54,455.03,366.61,9.21;30,60.54,466.99,12.45,9.21" xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Work as a turning point in the life course of criminals: A duration model of age, employment, and recidivism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><surname>Uggen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Sociological Review</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="529" to="575" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,44.60,478.94,382.56,9.21;30,60.54,490.89,366.61,9.21;30,60.54,502.85,246.87,9.21" xml:id="b88">
+	<analytic>
+		<title level="a" type="main">The edge of stigma: An experimental audit of the effects of low-level criminal records on employment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><surname>Uggen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mike</forename><surname>Vuolo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sarah</forename><surname>Lageson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ebony</forename><surname>Ruhland</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hilary</forename><forename type="middle">K</forename><surname>Whitham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Criminology</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="627" to="54" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,44.60,514.80,382.55,9.21;30,60.54,526.76,366.61,9.21;30,60.54,538.72,366.65,9.21;30,60.54,550.67,356.42,9.21;30,60.54,562.63,134.20,9.21" xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Women&apos;s Work: The Economic Mobility of Women across a Generation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Susan</forename><forename type="middle">K</forename><surname>Urahn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Travis</forename><surname>Plunkett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Erin</forename><surname>Currier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Diana</forename><surname>Elliott</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sarah</forename><surname>Sattelmeyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Denise</forename><surname>Wilson</surname></persName>
+		</author>
+		<ptr target="http://www.pewtrusts.org/en/research-and-analysis/reports/2014/04/01/womens-work-the-economic-mobility-of-women-across-a-generation" />
+	</analytic>
+	<monogr>
+		<title level="m">Pew Charitable Trusts</title>
+		<meeting><address><addrLine>Philadelphia, PA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="30,44.60,574.58,382.56,9.21;30,60.54,586.53,366.61,9.21;30,60.54,598.50,366.62,9.21;30,60.54,610.45,44.80,9.21" xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Effects of employment and unemployment on serious offending in a high-risk sample of men and women from ages 18 to 32 in the Netherlands</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Janna</forename><surname>Verbruggen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Arjan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Victor</forename><forename type="middle">R</forename><surname>Blokland</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Van Der Geest</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Criminology</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="845" to="69" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,40.37,60.51,382.57,9.21;31,56.31,72.46,366.62,9.21;31,56.31,84.41,76.65,9.21" xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Ex-offender employment programs and recidivism: A meta-analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christy</forename><forename type="middle">A</forename><surname>Visher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Laura</forename><surname>Winterfield</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><forename type="middle">B</forename><surname>Coggeshall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Criminology</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="295" to="316" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,40.37,96.37,382.55,9.21;31,56.31,108.32,74.50,9.21" xml:id="b92">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">White</forename><surname>House</surname></persName>
+		</author>
+		<title level="m">Occupational Licensing: A Framework for Policymakers. Washington</title>
+		<imprint>
+			<publisher>DC: Author</publisher>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,40.37,120.28,382.55,9.21;31,56.31,132.24,366.64,9.21;31,56.31,144.19,234.82,9.21" xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Evaluation of the Re-Integration of Ex-Offenders (RExO) Program: Two-Year Impact Report</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Wiegand</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jesse</forename><surname>Sussell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Erin</forename><surname>Valentine</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Brittany</forename><surname>Henderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Policy Research Associates</title>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,40.38,156.15,382.54,9.21;31,56.31,168.10,366.62,9.21;31,56.31,180.05,284.76,9.21" xml:id="b94">
+	<analytic>
+		<title level="a" type="main">A metaanalysis of corrections-based education, vocation, and work programs for adult offenders</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">B</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Catherine</forename><forename type="middle">A</forename><surname>Gallagher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Doris</forename><forename type="middle">L</forename><surname>Mackenzie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Research in Crime and Delinquency</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="347" to="68" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,40.38,192.02,382.56,9.21;31,56.31,203.97,123.49,9.21" xml:id="b95">
+	<monogr>
+		<title level="m" type="main">Econometric Analysis of Cross Sectional and Panel Data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><forename type="middle">M</forename><surname>Wooldridge</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,40.37,215.92,382.56,9.21;31,56.31,227.88,366.64,9.21;31,56.31,239.83,142.80,9.21" xml:id="b96">
+	<monogr>
+		<title level="m" type="main">Recidivism Effects of the Center for Employment Opportunities (CEO) Program Vary by Former Prisoners&apos; Risk of Reoffending</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Janine</forename><surname>Zweig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><surname>Yahner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cindy</forename><forename type="middle">Redcross</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>MDRC</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="31,50.34,267.72,372.60,9.21;31,40.38,279.69,382.53,9.21;31,40.38,291.64,133.11,9.21" xml:id="b97">
+	<monogr>
+		<title level="m" type="main">Megan Denver is a PhD candidate in the School of Criminal Justice at the University at Albany, SUNY. Her work examines policy responses to criminal records, employment and recidivism, and desistance</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
