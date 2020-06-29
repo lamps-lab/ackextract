@@ -4,7 +4,7 @@ import re
 import stanza
 import requests
 from time import sleep
-from XIN import *
+from relationfilter import *
 import string
 nlp = stanza.Pipeline(lang='en', processors='tokenize,ner')
 # nlp2 = stanza.Pipeline('en')
