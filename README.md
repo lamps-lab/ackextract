@@ -1,5 +1,6 @@
 # ackextract
 Acknowledgement and its name entities extraction from scholarly papers.
+
 Copyright (c) 2020, Jian Wu, Pei Wang, Xin Wei
 ### Catalog
 Covid-19Ground_truth: 100 covid-19 papers,each one has a JSON file (full paper in JSON format), a txt file(ackowledgment section) and an ann file (entities annotation), some also has a pdf file(full paper in PDF format).
