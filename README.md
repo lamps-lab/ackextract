@@ -10,8 +10,14 @@ SBSpaper200Ground_truth: 100 SBS(Social Behavior Science) papers,each one has a 
 Testdata: testing data for evaluate NER tools, sentence segmentation tools and sentence classification tools.
 
 Result: entities extracted from all covid-19 papers and some advanced analysis, all are csv files.
-Code.
 
+Code: 
+```ackextract_stanfordNLP_pysbd_JSON.py``` stanfoldNLP NER and Pragmatic Segmenter on JSON files.
+```ackextract_stanfordNLP_pysbd_XML.py``` stanfoldNLP NER and Pragmatic Segmenter on XML files.
+```ackextract_stanza_JSON.py``` Stanza NER and Stanza sentence segmenter on JSON files.
+```ackextract_stanza_XML.py``` Stanza NER and Stanza sentence segmenter on XML files.
+```ackextract_stanza_relationfilter_XML.py``` Stanza NER with word relation filter and Stanza sentence segmenter on XML files.
+```ackextract_stanza_relationfilter_JSON.py```Stanza NER with word relation filter and Stanza sentence segmenter on JSON files.
 
 
 
@@ -49,15 +55,3 @@ gradlew run
 ```
 ## Functions
 Check the code and comments for more details
-
-## brief example of implementation
-make sure testPDF.py,testXML.py and ackseer.py in the same directory
-go into this directory through commandline
-windows run 
-```
-py testPDF.py
-```
-then there generate an TEI file which is the XML form of the PDF file
-and it will return the name entities inside its acknowledgement section as well
-
-to extract name entities directly from TEI file please run testXML.py
