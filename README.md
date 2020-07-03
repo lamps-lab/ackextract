@@ -21,9 +21,9 @@ Code:
 
 ```ackextract_stanza_XML.py``` Stanza NER and Stanza sentence segmenter on XML files.
 
-```ackextract_stanza_relationfilter_XML.py``` Stanza NER with word relation filter and Stanza sentence segmenter on XML files.
+```ackextract_stanza_relationfilter_XML.py``` Stanza NER with word relation based filter and Stanza sentence segmenter on XML files.
 
-```ackextract_stanza_relationfilter_JSON.py```Stanza NER with word relation filter and Stanza sentence segmenter on JSON files.
+```ackextract_stanza_relationfilter_JSON.py```Stanza NER with word relation based filter and Stanza sentence segmenter on JSON files.
 
 
 
