@@ -12,11 +12,17 @@ Testdata: testing data for evaluate NER tools, sentence segmentation tools and s
 Result: entities extracted from all covid-19 papers and some advanced analysis, all are csv files.
 
 Code: 
+
 ```ackextract_stanfordNLP_pysbd_JSON.py``` stanfoldNLP NER and Pragmatic Segmenter on JSON files.
+
 ```ackextract_stanfordNLP_pysbd_XML.py``` stanfoldNLP NER and Pragmatic Segmenter on XML files.
+
 ```ackextract_stanza_JSON.py``` Stanza NER and Stanza sentence segmenter on JSON files.
+
 ```ackextract_stanza_XML.py``` Stanza NER and Stanza sentence segmenter on XML files.
+
 ```ackextract_stanza_relationfilter_XML.py``` Stanza NER with word relation filter and Stanza sentence segmenter on XML files.
+
 ```ackextract_stanza_relationfilter_JSON.py```Stanza NER with word relation filter and Stanza sentence segmenter on JSON files.
 
 
