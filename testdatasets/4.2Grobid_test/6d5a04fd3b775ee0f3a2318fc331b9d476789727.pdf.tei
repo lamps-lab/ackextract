@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 C:\PWang\Datasets\grobid-0.5.5\grobid-0.5.5\grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.5" ident="GROBID" when="2020-06-22T14:05+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The US 2009 A/H1N1 influenza epidemic: Quantifying the impact of school openings on the reproductive number</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Karen</forename><forename type="middle">E</forename><surname>Huang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Communicable Disease Dynamics</orgName>
+								<orgName type="department" key="dep2">Department of Epidemiology</orgName>
+								<orgName type="institution">Harvard School of Public Health</orgName>
+								<address>
+									<postCode>02115</postCode>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marc</forename><surname>Lipsitch</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Communicable Disease Dynamics</orgName>
+								<orgName type="department" key="dep2">Department of Epidemiology</orgName>
+								<orgName type="institution">Harvard School of Public Health</orgName>
+								<address>
+									<postCode>02115</postCode>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Immunology and Infectious Diseases</orgName>
+								<orgName type="institution">Harvard School of Public Health</orgName>
+								<address>
+									<postCode>02115</postCode>
+									<settlement>Boston</settlement>
+									<region>Ma</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeffrey</forename><surname>Shaman</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Environmental Health Sciences</orgName>
+								<orgName type="department" key="dep2">Scholl of Public Health</orgName>
+								<orgName type="institution">Columbia University</orgName>
+								<address>
+									<postCode>10032</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Edward</forename><surname>Goldstein</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Center for Communicable Disease Dynamics</orgName>
+								<orgName type="department" key="dep2">Department of Epidemiology</orgName>
+								<orgName type="institution">Harvard School of Public Health</orgName>
+								<address>
+									<postCode>02115</postCode>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The US 2009 A/H1N1 influenza epidemic: Quantifying the impact of school openings on the reproductive number</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1097/EDE.0000000000000055</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>Background-There is limited information on differences in the dynamics of influenza transmission during time periods when schools are open compared with periods when they are closed.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>With the emergence and spread of novel influenza strains having pandemic potential, such as the A(H7N9) outbreak in China in the spring of 2013 and the A(H3N2v) outbreak in the US in the summer of 2012, there is growing need to understand strategies that can slow influenza transmission. One intervention that may reduce influenza transmission 1-3 --albeit with high economic and social cost 1,4,5 --is school closure. However, there are varying estimates of the change in transmission dynamics of influenza during time periods when schools are open compared with periods when they are closed. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> Such estimates have been often described within limited populations (such as transmission in a school-based population) <ref type="bibr" target="#b7">8</ref> , or with regard to school closures that took place when the influenza epidemic was already declining <ref type="bibr" target="#b8">9</ref> . Here we attempt to quantify the potential effect of school closure on influenza transmission in the general population by examining the impact of the beginning of school year on the effective reproductive number of the 2009 A(H1N1) pandemic influenza in several US states.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data</head><p>We used state-specific sentinel surveillance data on (1) physician consultations for influenza-like illness and (2) virological testing of respiratory specimens. <ref type="bibr" target="#b9">10</ref> State Departments of Education provided information on public grade-school opening dates by school district for the 2009-2010 school year. For states where a full census of district opening dates was not available, we contacted a representative random sample of 25 school districts.</p><p>Daily absolute humidity values, measured as specific humidity and averaged at the state level, were derived from National Centers for Environmental Prediction reanalysis, <ref type="bibr" target="#b10">11</ref> as described by Shaman and colleagues. <ref type="bibr" target="#b11">12</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Influenza incidence proxies and reproductive numbers</head><p>Following Goldstein et al, <ref type="bibr" target="#b12">13</ref> we defined the state-specific weekly incidence proxy for an influenza subtype as the percent of all physician consultations that were for influenza-like illness multiplied by the percent of viral specimens testing positive for that subtype on a given week (see eAppendix for details). The weekly incidence proxy for A(H1N1)pdm (the pandemic 2009 A(H1N1) strain) on week t was used to estimate the daily growth rate r for A(H1N1)pdm incidence on week t: <ref type="bibr" target="#b0">(1)</ref> The effective reproductive number on week t was estimated using the Lotka-Euler equation. 14 <ref type="bibr" target="#b1">(2)</ref> where w() is the serial interval distribution for A/H1N1pdm, adopted from the paper by Cauchemez et al <ref type="bibr" target="#b14">15</ref> (mean = 2.72 days, [SD = 1.34 days]),; sensitivity with respect to the estimate of the serial interval is explored in the eAppendix.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Selection of states</head><p>For each state, we denote the median school opening date for students weighted by the district enrollment by week 0, the preceding week by week −1, etc. We use incidence data for weeks −3,−2,−1,0,1,2, and we include only states that had, for each of the above weeks, at least N influenza-like illness cases in the surveillance system, and at least N positive A(H1N1)pdm specimens. Results for cut-off values N = 15,20,25, 30 were explored. In addition, to allow for potential changes in the representativeness of the surveillance system (see Discussion), we considered only states in which the ratio of the incidence during consecutive weeks was at most 4 (which corresponds to a reproductive number of less than 1.66).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Inference method</head><p>For each state included in the analysis, we considered the average difference in the natural logarithms of the reproductive numbers for two pairs of weeks before and after school opened <ref type="bibr" target="#b2">(3)</ref> For pairs of weeks before and after school opened separated by a short time period (average of 3 weeks), it is expected that the increment in the reproductive number is explained largely by the effect of school opening. Outcomes given by equation <ref type="formula">(3)</ref> for each state were jointly regressed linearly against an intercept, which represents an average increase in the logarithm of the reproductive number after school openings. The increase in the logarithm of the reproductive number was exponentiated and reported as a percent increase in the reproductive number. Additionally, we attempted to adjust for the forcing of influenza transmission by absolute humidity <ref type="bibr" target="#b11">12</ref> by including the humidity covariate in the linear regression above, defined as <ref type="bibr" target="#b3">(4)</ref> Here AH i is the average daily value for the specific (absolute) humidity observations for week i shifted backward by two days (to allow for a short lag between infection and physician consultation).</p><p>The outcomes generated by Eq. 3 are derived from data with quantifiable measurement error that varies by state. As a result, we could not incorporate this error directly into the regression model but instead added another layer of uncertainty (see section S1 of the eAppendix for more detail). Briefly, we generated a sample S of estimates for the effect of school opening on the reproductive number drawn from its distributions conditional on weekly state-specific levels of influenza-like illness and viral positivity, and a posterior sample of estimates of those levels conditional on the observed counts, binomial likelihoods and flat priors. The mean and the 95% credible interval for the sample S are reported. The corresponding analysis involving a 3-week period around the opening of school is presented in the eAppendix. <ref type="figure" target="#fig_0">Figure 1</ref> plots the incidence proxies from 4 weeks before through 4 weeks after the opening of school for the 10 states corresponding to the smallest cut-off value N = 15 for state selection (with higher values of N resulting in subsets of the 10 states). <ref type="figure" target="#fig_1">Figure 2</ref> plots the increases in the natural logarithm of the reproductive number after school opening for the corresponding collection of states. All 10 states experienced a robust rise in incidence and an increase in the reproductive number following school opening, with point estimates for that increase ranging from 6% to 37%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>The <ref type="table">Table shows</ref> estimates for the average increase in the effective reproductive number associated with school opening as a function of the cut-off parameter N for the linear regression model with and without the humidity covariate. The estimates obtained for the two inference methods were similar.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>We examined changes in the reproductive number of the 2009 A(H1N1) influenza epidemic associated with the beginning of the school year in 10 US states. A correlation between school opening and increase in influenza activity in various US states has been documented by Chao and colleagues <ref type="bibr" target="#b15">16</ref> . Cauchemez et al 2 , used a model incorporating household and community mixing to assess the impact of school holidays in France on influenza transmission; the rate of transmission to children fell 20%-29% during those periods. Another model of age-stratified transmission incorporating weather-related variables estimated a somewhat larger impact of school closures on influenza transmission among school-age children. <ref type="bibr" target="#b2">3</ref> There is limited evidence, however, on how schools being open or closed might affect the community-wide reproductive number. Here, we uniformly find an increase of the effective reproductive number in 10 US states that is associated with the latesummer opening of schools during 2009. Moreover, unlike the estimates in other studies 2,3 , our results do not rely on an explicit model of influenza transmission in a community. The estimated 19.5% average increase may be specific to the pandemic 2009 strain that disproportionately affected children, <ref type="bibr" target="#b16">17</ref> and it may also be specific to the timing of school openings (for example, given the shift from outdoor to indoor interaction between children being more pronounced for the summer school openings).</p><p>The magnitude of the increase in reproductive number following school opening varied among the different states, which may be explained partly by the variability in influenza incidence dynamics before the opening of schools. Influenza incidence was growing for several weeks prior to school openings in Georgia, and, to a lesser extent, in Alabama, North Carolina and West Virginia. These were also the states with some of the smallest increases in reproductive number following school openings. Such variability in incidence dynamics when schools were closed may be related to variability in mixing patterns during that period, a subject that merits further investigation.</p><p>We hypothesized that some of the increase in the reproductive number following the beginning of the school year may be explained by the decrease in absolute humidity, which is known to enhance influenza transmission. <ref type="bibr" target="#b11">12</ref> However adjusting for the change in humidity had a very minor impact on estimates, with the confidence interval for the humidity covariate's contribution straddling zero. This may be due in part to the fact that, for 5 of the 10 states considered in the analysis, there was an increase in absolute humidity after school openings.</p><p>Our study has several limitations. One, our dataset was relatively small. Another limitation is that reporting to the sentinel surveillance system is voluntary, and the relation between the inferred influenza incidence proxy and the population incidence of influenza may be timevarying (e.g. through an influx of reporting by pediatric providers following school openings resulting in an increase in the proportion of influenza cases among all patients compared with providers who reported previously). We tried to account for potential changes in surveillance during the study period by restricting the inference to states with no more than a 4-fold increase in influenza incidence proxy during any pair of consecutive weeks. In addition, we did not use the estimate of the reproductive number on the school-opening week, essentially computing the growth rate in incidence separately for the periods just before and just after schools opened, in the hope that those estimates are more representative of the actual growth rates for influenza incidence during the corresponding weeks. While not all schools opened in the same week, most of them did, and, this had any effect if, heterogeneity in school opening times would decrease the estimate of the impact of school openings on the reproductive number. To match the spatial scales of the surveillance data, specific humidity conditions were averaged at the state level. For smaller, more climatically uniform states, this spatial averaging is more representative of local conditions than for larger states. Nonetheless, given the minor impact that the humidity variable had on our estimates, we expect that the effect of the above statewide averaging is also minor.</p><p>In summary, we detected an increase in the reproductive number for influenza incidence following the opening of schools in the summer of 2009 in the US. These findings support the idea that closing schools (or keeping schools closed), combined with efforts to decrease mixing among children during that period, can have a major impact on the population dynamics of influenza.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Material</head><p>Refer to Web version on PubMed Central for supplementary material.  State-specific increases in the natural logarithm of the reproductive number of the influenza epidemic following school opening in 2009. Vertical bars indicate 95% credible intervals.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Influenza incidence proxies around school opening times (weeks) in 2009 in 10 US states (week 0 = median school opening week).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Epidemiology. Author manuscript; available in PMC 2015 March 01.</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>We thank Dennis Chao for help with obtaining school opening data, and Matthew Biggerstaff and Lyn Finelli for providing state-specific influenza surveillance data. </p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"> <ref type="table">Table 1</ref> <p>Estimates of the increase in the effective reproductive number Reff associated with school opening, with and without adjusting for changes in humidity. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Closure of schools during an influenza pandemic. The Lancet infectious diseases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Cauchemez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Wachtel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="473" to="81" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 19628172</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Estimating the impact of school closure on influenza transmission from Sentinel data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Cauchemez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Valleron</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">Y</forename><surname>Boelle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Flahault</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M</forename><surname>Ferguson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">452</biblScope>
+			<biblScope unit="issue">7188</biblScope>
+			<biblScope unit="page" from="750" to="754" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18401408</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Effects of school closure on incidence of pandemic influenza in Alberta</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Earn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">B</forename><surname>Loeb</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Fonseca</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">E</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Dushoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canada. Annals of internal medicine</title>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="173" to="81" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 22312137</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Estimating the costs of school closure for mitigating an influenza pandemic</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Z</forename><surname>Sadique</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">J</forename><surname>Edmunds</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC public health</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">135</biblScope>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18435855</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Economic cost and health care workforce effects of school closures in the U</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Lempel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Epstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Hammond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">S. PLoS currents</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">1051</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 20025205</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">School closures and influenza: systematic review of epidemiological studies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Vynnycky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Hawker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Olowokure</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Mangtani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ open</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">2149</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Different transmission patterns in the early stages of the influenza A(H1N1)v pandemic: a comparative analysis of 12 European countries</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Flasche</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Hens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">Y</forename><surname>Boelle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Epidemics</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="125" to="158" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 21624784</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Robust reconstruction and analysis of outbreak data: influenza A(H1N1)v transmission in a school-based population</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Hens</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Calatayud</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kurkela</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Tamme</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wallinga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American journal of epidemiology</title>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="196" to="203" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 22791742</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Effects of school closures, 2008 winter influenza season, Hong Kong. Emerging infectious diseases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">J</forename><surname>Cowling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">H</forename><surname>Lau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Lam</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1660" to="1662" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18826841</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Overview of Influenza Surveillance in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Us Cdc</surname></persName>
+		</author>
+		<ptr target="http://www.cdc.gov/flu/weekly/overview.htm" />
+		<imprint>
+			<date type="published" when="2013-11-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The NCEP/NCAR 40-Year Reanalysis Project</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ekm</forename><surname>Kalnay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Kistler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Deaven</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Gandin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Iredell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull Amer Met Soc</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="437" to="71" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Absolute humidity and the seasonal onset of influenza in the continental United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Shaman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">E</forename><surname>Pitzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Viboud</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">T</forename><surname>Grenfell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lipsitch</surname></persName>
+		</author>
+		<idno>e1000316.</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS biology</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 20186267</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Predicting the epidemic sizes of influenza A/H1N1, A/H3N2, and B: a statistical method</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Goldstein</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Cobey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lipsitch</surname></persName>
+		</author>
+		<idno>e1001051.</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS medicine</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 21750666</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">How generation intervals shape the relationship between growth rates and reproductive numbers</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wallinga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lipsitch</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1609" />
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="page" from="599" to="604" />
+		</imprint>
+	</monogr>
+	<note>Proceedings Biological sciences / The Royal Society. PubMed: 17476782</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Household transmission of 2009 pandemic influenza A (H1N1) virus in the United States. The New England journal of medicine</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Cauchemez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Donnelly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Reed</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">361</biblScope>
+			<biblScope unit="page" from="2619" to="2646" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 20042753</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">School opening dates predict pandemic influenza A(H1N1) outbreaks in the United States</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">L</forename><surname>Chao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">E</forename><surname>Halloran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">M</forename><surname>Longini</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">202</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="877" to="80" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 20704486</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Prevalence of seropositivity to pandemic influenza A/H1N1 virus in the United States following the 2009 pandemic</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Katz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Hancock</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Balish</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Fry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hnsw</forename><surname>Group</surname></persName>
+		</author>
+		<idno>e48187.</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PloS one</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 23118949</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

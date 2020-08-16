@@ -1,0 +1,1790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /home/jwu/github/grobid/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2011-06">June 2011</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of Marketing Research</title>
+						<imprint>
+							<biblScope unit="volume">XLVIII</biblScope>
+							<biblScope unit="page" from="425" to="443"/>
+							<date type="published" when="2011-06">June 2011</date>
+						</imprint>
+					</monogr>
+					<note>*Zsolt Katona is Assistant Professor of Marketing, Haas School of Busi-ness, University of California, Berkeley (e-mail: zskatona@haas.berkeley. edu). Peter Pal Zubcsek is Assistant Professor of Marketing, University of Florida (e-mail: pzubcsek@ufl.edu). Miklos Sarvary is Professor of Marketing, INSEAD</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.0-SNAPSHOT" ident="GROBID-SDO" when="2019-12-20T15:05+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid-sdo"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>its membership base, whereas Facebook has more than 400 million members worldwide, recently surpassing Google in becoming the most visited website in the United States.</p><p>The increased importance of technology platforms for social interactions has raised the interest of product marketers who want to explore them as new advertising/promotion media. Indeed, social networks' revenue models are based primarily on advertising, though so far, the use of (mostly) banner-type advertising has produced disappointing results <ref type="bibr" coords="2,54.00,153.37,104.99,8.79">(e.g., BusinessWeek 2008;</ref><ref type="bibr" coords="2,161.57,153.37,84.65,8.79">The Economist 2007)</ref>. Marketers increasingly believe that the efficient way of using social networks for marketing relies on harnessing WOM by analyzing the network of members' connections. For example, Google recently filed a patent for an algorithm that identifies socalled influencers on social networks. Several other firms (e.g., Idiro, Xtract) provide network analysis for the telecommunications sector and for various Web 2.0 platforms to assist in viral marketing campaigns. Indeed, social networks represent but one area in which network analysis might be used for WOM marketing. Other technologies (e.g., blogs, telecommunications, virtual worlds) that record consumers' communication patterns are also adapted to such techniques. In all these cases, the essential idea is that understanding the network structure of individual consumers can help implement effective viral marketing strategies.</p><p>The assumption that underlies all these "network-marketing" techniques is that network information can help identify influencers and predict consumers' adoption probabilities. The goal of this article is to verify this assumption and identify how the network structure drives adoption. To be specific, we develop and empirically test an individual-level diffusion model that explicitly takes into account the microstructure of interpersonal connections among potential adopters. Our empirical application studies the growth of a country-specific social network site for which membership can be acquired only by receiving an invitation from an existing member. In this context, we study the adoption process of network memberships at an early stage of the site's development. We assume that the social network site gradually replicates people's real-life social connection patterns. Thus, by recording the site's membership network at a much later point in time, we can assume that it reflects people's real-life social networks accurately. Then, we can retroactively observe a diffusion process of membership on this "ultimate" or "final" network. <ref type="bibr" coords="2,190.59,537.83,3.75,6.59">1</ref> Our primary research objective is to uncover the effects of differences in individuals' connection patterns on the diffusion process. Motivated by both conceptual and practical considerations, we distinguish three factors that may affect a potential adopter's adoption decision. The first factor, which we call "network effects," relates to the influence of the structure of connection patterns of the potential adopter's already adopted neighbors. The second factor, which we call "influencer effects," refers to the (average) individual characteristics of already adopted network mem-bers on their not-yet-adopted neighbors. In contrast to the previous factor, which concentrates on the impact of the structure, for influencer effects we essentially measure the (average) influential power of every adopter. The average characteristics that describe influencers may be demographics, such as age, but they also may include measures that describe the global network position of the influencersthat is, their position in the final social network observed. The third factor, called "adopter effects," captures the effects of the adopter's individual characteristics. For influencers, these characteristics include both demographics and characteristics that describe the adopter's global network position. Depending on data availability and legislative constraints, marketers can use each of these categories of variables to identify potential marketing targets to influence the adoption process. They can target members of the network who have already adopted the promoted product or potential adopters who have yet to adopt. In both cases, potential marketing targets can be selected on the basis of their individual characteristics or, alternatively, of the local network structure that surrounds them. Our model helps identify potential adopters by predicting the next set of adopters substantially better than models based solely on demographic variables.</p><p>In our choice of network variables, we rely on diffusion theory and previous research in sociology. In particular, individuals who are related to many already adopted members may have greater adoption probability because their related partners can provide more information about the service or innovation in question and ultimately exercise greater joint influential power. We call this the "degree effect," after the number of connections (degree) an individual has. In addition to the number of connections, the density of connections in a group of already adopted users may also affect the adoption of individuals being linked to the members of this group. A more tightly connected group should have a stronger influence on its members; we call this the "clustering effect." We find strong empirical evidence to support the presence of both the degree and clustering effects, as well as a positive interaction between them.</p><p>Beyond network effects, we also find strong influencer and adopter effects on the adoption probability of potential network members. For example, some demographic characteristics (e.g., age, gender) can predict adopters' influential power on their neighbors. In a similar way, demographic variables can also predict potential adopters' propensity to adopt. More interesting is that variables that describe individuals' position in the social network (e.g., the number of their contacts, how connected these neighbors are, the extent to which they are interconnecting parts of the network) are also good predictors of both influential power and adoption propensity. From both theoretical and practical perspectives, a particularly interesting empirical result is that the average influential power of individuals is lower the larger their social network is. This result suggests that having a high number of friends dilutes the influential power that an individual has on each of his or her friends. We also find some evidence to indicate that the same influential power is greater the more the actors occupy a "brokering" position among their contacts.</p><p>We organize the rest of the article as follows. Next, we place our work in the context of the extant literature and highlight our points of departure. Then, we set up the stochastic network-based diffusion model and introduce the network measures used. We then present our empirical analysis, including extensive validity tests. Finally, we discuss the results, provide our conclusions, and highlight a few limitations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RELATED LITERATURE</head><p>Our work draws on two broad research streams: (1) the marketing literature on new-product diffusion and (2) the sociology literature on social network analysis. The large body of quantitative research on new-product diffusion is based on models that, for the most part, ignore connection patterns among individuals. Like most of its generalizations, the <ref type="bibr" coords="3,69.45,208.37,49.98,8.79" target="#b0">Bass (1969)</ref> model implicitly assumes that every consumer is connected to every other consumer and estimates a uniform interpersonal influence (interpreted as WOM) on this (assumed-to-be) complete network. This assumption typically also applies to diffusion models that take into account consumer heterogeneity. 2 Although these models allow for heterogeneous WOM effects, they still ignore the network structure of the adopter population. Given the central role of WOM communication for the diffusion process, there has been a call in the literature to incorporate the finegrained structure of interpersonal connections into diffusion models (see <ref type="bibr" coords="3,109.13,329.37,64.04,8.79">Mahajan 1993;</ref><ref type="bibr" coords="3,177.45,329.37,116.55,8.79;3,54.00,340.37,22.36,8.79" target="#b21">Mahajan, Muller, and Bass 1990)</ref>. Although various models have been developed to address this call (e.g., <ref type="bibr" coords="3,144.70,351.37,93.78,8.79">Goldenberg, Libai, and</ref><ref type="bibr" coords="3,241.16,351.37,52.85,8.79;3,54.00,362.37,23.38,8.79">Muller 2001, 2002;</ref><ref type="bibr" coords="3,80.16,362.37,187.22,8.79" target="#b31">Shaikh, Rangaswamy, and Balakrishnan 2005</ref>; for a review, see <ref type="bibr" coords="3,99.53,373.37,53.86,8.79" target="#b34">Valente 2005)</ref>, these models could only be tested on aggregate data. <ref type="bibr" coords="3,126.82,383.83,3.75,6.59">3</ref> In recent years, various technological innovations have made it possible to access network data on the interpersonal relationships between consumers. Empirical studies have developed and used models to assess the impact of network characteristics on the diffusion process. For example, <ref type="bibr" coords="3,268.55,439.37,25.45,8.79;3,54.00,450.37,78.83,8.79" target="#b9">Godes and Mayzlin (2004)</ref> study how WOM can be a driver of personal preferences in an environment in which consumer communication via newsgroups is observed. <ref type="bibr" coords="3,236.40,472.37,57.61,8.79;3,54.00,483.37,71.76,8.79">Van den Bulte and Lilien (2001)</ref> analyze the Medical Innovation data set, which tracks the medical community's understanding of a new drug. To obtain the structure of WOM, they combined data from two overlaid relationship networks ("discussion" and "advice") to get a social-influence weight matrix over the doctors whose behavior was recorded. They then estimated an individual-level diffusion model to demonstrate that earlier findings on social contagion over the same network were confounded with the marketing efforts (pricing and promotion) of the manufacturer. <ref type="bibr" coords="3,204.19,582.37,89.80,8.79;3,53.99,593.37,54.64,8.79" target="#b25">Nair, Manchanda, and Bhatia (2010)</ref> study physician prescription behavior and find that opinion leaders in the physician's reference group may have a significant influence on the physician's behavior. In another domain, <ref type="bibr" coords="3,391.35,65.37,148.49,8.79" target="#b15">Hill, Provost, and Volinsky (2006)</ref> use telecommunication data to provide evidence that customers who communicated with a customer of a particular service have an increased likelihood of adopting that service. Iyengar, <ref type="bibr" coords="3,335.26,109.37,140.05,8.79">Van den Bulte, and Valente (2008)</ref> investigate the relationship between self-reported leadership and sociometric leadership, that is, when a person is nominated by others as someone to whom they turn for advice. They find that these two types of opinion leaderships are only weakly correlated and that there are significant differences in the adoption behaviors of different types of opinion leaders. Studying a different type of network, <ref type="bibr" coords="3,422.72,186.37,107.97,8.79">Stephen and Toubia (2010)</ref> examine the role of the link structure in seller networks in which links facilitate customers' navigation between stores. They find that the network had a positive overall effect on store performance and that the position of stores in the network had a significant effect on their profitability.</p><p>Our work directly follows this stream of research. Our primary goal is to understand how network characteristics (particular patterns of connections between already adopted network members) may influence the adoption probabilities of their not-yet-adopted peers. To establish this relationship, we estimate a discrete-time proportional hazards model. This approach is the same one that <ref type="bibr" coords="3,467.60,318.37,90.40,8.79" target="#b1">Bell and Song (2007)</ref> follow to estimate network effects on purchase behavior across regions in the United States. However, because our data set enables us to observe the individual network connections of participants, we are able to use the same approach to study the impact of personal network structure on adoption.</p><p>Sociology researchers have extensively studied how network structure affects social influence, though only in small social networks. <ref type="bibr" coords="3,383.03,416.83,3.75,6.59">4</ref>  <ref type="bibr" coords="3,389.31,417.37,80.96,8.79" target="#b19">Krackhardt's (1998)</ref> influential study suggests that when assessing the influence that individuals' contacts have over them, researchers should not only count the number of related actors but also examine how those relationships are embedded in the entire network of relationships. <ref type="bibr" coords="3,318.00,472.37,67.53,8.79" target="#b3">Coleman (1988)</ref> and <ref type="bibr" coords="3,407.51,472.37,48.91,8.79" target="#b2">Burt (2005)</ref> establish two important social phenomena, which may be tied to structural properties of the network. When two related individuals are connected to the same third parties, the network becomes more effective at transmitting information, and the affected relationships ultimately become stronger. <ref type="bibr" coords="3,430.33,527.37,46.38,8.79" target="#b2">Burt (2005)</ref> labels this "network closure." He argues that the shared third parties create redundant paths for information flow, leading to increased trust between the two related actors. As a consequence, friends of individuals in social networks are typically densely connected to one another compared with the average connectivity in the network <ref type="bibr" coords="3,353.37,593.37,103.19,8.79">(Watts and Strogatz 1998)</ref>. This result is consistent with those of <ref type="bibr" coords="3,375.67,604.37,78.83,8.79" target="#b14">Granovetter (1973)</ref> and <ref type="bibr" coords="3,475.56,604.37,57.55,8.79" target="#b30">Rogers (2003)</ref>, who state that social networks in general consist of clusters of densely connected individuals with strong ties among them and sparse weak ties connecting such clusters to each other. <ref type="bibr" coords="3,318.00,648.37,51.30,8.79" target="#b2">Burt (2005)</ref> highlights another phenomenon related to the structural properties of social networks-namely, that individuals interconnecting these clusters may have greater influence on their peers because they have control over information that originates from other groups. This phenomenon is termed "brokerage," and the argument is often cited as structural hole theory <ref type="bibr" coords="4,141.82,65.37,45.03,8.79" target="#b2">(Burt 2005)</ref>. These arguments provide critical input for our network measures.</p><p>Our model is based partly on the approaches that <ref type="bibr" coords="4,271.00,87.37,23.01,8.79;4,54.00,98.37,27.03,8.79" target="#b16">Holtz (2004)</ref> and <ref type="bibr" coords="4,101.01,98.37,193.00,8.79" target="#b31">Shaikh, Rangaswamy, and Balakrishnan (2005)</ref> propose. However, these studies do not estimate the adoption process at the individual level. The former author attempts to disaggregate the <ref type="bibr" coords="4,171.88,131.37,49.31,8.79" target="#b0">Bass (1969)</ref> model to the network level and uses simulations to confirm the results, whereas the latter authors compare the fit of a small-worldbased diffusion model with the traditional models using aggregate-level data. In contrast, in the current study, we develop and estimate an individual-level diffusion model in which each individual is described by both his or her local network characteristics and demographic information. At any point during the adoption process and for each potential adopter, we compute the network spanned by his or her already adopted peers. We then estimate how the structure of the network of his or her adopted peers affects the adoption probability of the potential adopters. In addition, we also show empirically how network characteristics of already adopted individuals may predict their influential power on others. The estimates also provide insights into some of the common sociological theories in network analysis. In the next section, we present our model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MODEL The Adoption Process</head><p>To examine the process of diffusion over a social network, we use a hazard-rate model. We assume that all members of the network are potential adopters of a certain product or service. The relationships among network members serve as paths for WOM communication, through which network members may influence each others' adoption. We denote such a social network by G(V, E), where V is the set of potential adopters and E is the set of symmetric binary relationships among members of V.</p><p>By neighbors of a potential adopter v, denoted as N(v), we refer to those network members (actors) who are connected to v. That is, N(v) = {w | w  V and {v, w}  E}. The degree of a node, d(v), then the number of its neighbors: d(v) = |N(v)|. For notational convenience, we further define an indicator function of the relationships in the network. For every v 1 , v 2  V, we let</p><p>We assume that at the start of the diffusion process, a small set of actors, A 0  V, have already adopted the innovation in question. We then model time in a discrete way. In every time step, some actors adopt the innovation, resulting in the series A 0  A 1  ...  A T , where A t denotes the set of actors in the network who have adopted the innovation during the first t steps. For the individuals in the network, let T v denote the adoption time of actor v, yielding It is important to make the distinction between the overall social network and the subnetworks induced by A t . The network G(V, E) defined on the entire set of individuals V (the</p><formula xml:id="formula_0" coords="4,115.25,554.96,112.50,144.75">e(v , v ) if v , v E otherwise. 1 2 1 2 = 1 ( ) 0 ∈      A = v V T t}. t v { | ∈ ≤</formula><p>potential adopters) remains unchanged throughout the process. However, as the number of adopters increases over time, A t covers an increasingly larger subset of V. The network induced by A t consists of the nodes of A t and links of the original network G(V, E) leading between two already adopted members (of A t ). If we were to plot the network induced by A t for every t &lt; T, with the overall network in the background, we could see how the innovation diffused across the network over time.</p><p>In our model, the adoption likelihood of potential adopters depends on their individual propensity to adopt and on the influence of their neighbors who have already adopted. As explained previously, we distinguish conceptually among three types of influences. First, (local) network effects refer to the impact of the structure of connection patterns among the potential adopter's already adopted neighbors. Thus, in this case we consider only the networks that are induced by A t for a given time t. <ref type="figure" coords="4,405.50,241.37,34.31,8.79" target="#fig_0">Figure 1</ref> illustrates this phenomenon: The network among the black nodes 1, 2, and 3 may influence the adoption likelihood of later adopter 8. It is important to emphasize that these network effects do not distinguish individuals in the personal networks of potential adopters; only the local network structure drives such effects. Over time, this local network changes as more and more neighbors of the potential adopter adopt themselves. As such, network variables are time-varying covariates.</p><p>Second, influencer effects refer to the impact of average individual characteristics of already adopted network members on their not-yet-adopted friends. These average characteristics may be demographics (e.g., age), but they also may include measures that describe the global network position of the influencers-that is, their position in the final friendship network, G. Although these measures do not change over time for a single influencer, because we measure the average effect of influencers, these variables also become time-varying covariates as additional influencers adopt the innovation. Influencer effects may affect multiple potential adopters. <ref type="figure" coords="4,356.80,461.37,33.53,8.79">Figure 2</ref> illustrates this point: The already adopted actor 8 may affect the adoption likelihood of later adopters 9, 10, 12, and 13, indicated by black nodes. We assume that such personal influences are the same on all of the influencer's later-adopting neighbors. JOURNAL OF MARKETINg RESEARCh, JUNE 2011 Finally, we consider adopter effects, which refer to the impact of the adopters' individual characteristics on their adoption propensity. These are constant variables over time. Again, some of these measures are demographic variables, but we also include the overall network characteristics of a certain adopter, for example, the total number of connections an individual has in the final network, G. (By considering the number of real-life friends an individual has, we control for differences in individuals' propensity to make friends.) To capture the effects just described, let f denote the influence function f:2 v  V  [0, 1], which we interpret as follows. If an actor v  V has not yet adopted by time t, the probability that it adopts at time (t + 1) is f[N(v)  A t , v], that is, a function of the set consisting of the neighbors of the actor who have already adopted and the actor itself. Formally,</p><p>Thus, the function f(S, v) captures both the propensity of actor v to adopt the innovation in question and the strength of influence the set of adopted neighbors S  V has on actor v. (Note that our model formulation also allows for individual characteristics of members of S to influence the adoption likelihood of v.) To estimate the effect of certain structural properties of the network on adoption probabilities, we interpret the daily adoption decisions as binary choices of actors between adoption and nonadoption. There are a number of different link functions that can be used to model such binary decisions as dependent variables, i ncluding the most frequently used logit and probit. We use the complementary log-log link function formulating the equation <ref type="bibr" coords="5,54.00,643.01,10.49,7.91">(2)</ref> where X(S) is a set of variables that describe the local network structure, W(S) is a set of variables that describe the average characteristics of the members of S (the influencers), and Z(v) is a set of node-specific (i.e., adopter-specific) covariates. The choice of the complementary log-log transformation has two important advantages over the logit and</p><formula xml:id="formula_2" coords="5,104.50,477.21,140.25,189.20">Pr(T = t + 1|T t) = f N(v A , v v v t &gt; ) . [ ] ∩ f(S, v xp{ exp[ X(S) + W(S) + Z( ) 1 ≡ − − + × × × e α β ϕ γ v v)]},</formula><p>probit functions. First, the so-derived discrete-time parameter estimates are also the estimates of an underlying continuoustime proportional hazards model <ref type="bibr" coords="5,458.55,76.37,99.46,8.79;5,318.00,87.37,21.94,8.79" target="#b27">(Prentice and Gloeckler 1978)</ref>. In addition, the complementary log-log link also enables us to directly relate our model to hazard-rate models with utility-maximizing consumers <ref type="bibr" coords="5,457.63,109.37,82.10,8.79" target="#b1">(Bell and Song 2007)</ref>. We also note that the complementary log-log and logit formulations yield similar results for small probabilities. However, in addition to enabling a direct interpretation of the results as hazard ratios, the complementary log-log method also provides a slightly better fit in such cases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measures</head><p>Network effect measures. We begin by discussing the effects that the local structure of already adopted friends has on the adoption likelihood of an individual. We keep the notation S = N(v)  A t for convenience. The first network effect measure is degree. The most natural question to ask regarding the influence of an actor's adopted neighbors is how their number affects the likelihood of the actor's adoption. <ref type="bibr" coords="5,340.30,274.37,80.54,8.79" target="#b14">Granovetter (1973)</ref> and <ref type="bibr" coords="5,442.06,274.37,62.28,8.79" target="#b34">Valente (2005)</ref> suggest that one friend may have a greater impact on an actor's behavior when the actor has, in total, fewer friends. Thus, we choose our first local network variable to be the proportion of already adopted friends 5 :</p><p>It is intuitive that if a person has more friends already using a certain service or product, he or she will adopt with a greater probability. Thus, we expect degree to have a positive effect on adoption probability.</p><p>Our second local network variable is the clustering coefficient, which measures the extent to which a set of members are interconnected. It is clear that this measure might be relevant in a context in which these members exert an influence on another member. The definition of the clustering coefficient is as follows:</p><p>where the numerator counts the number of links among the already adopted neighbors of v and the denominator is the maximum number of relationships possible among them. Network closure theory <ref type="bibr" coords="5,420.61,570.37,48.79,8.79" target="#b2">(Burt 2005;</ref><ref type="bibr" coords="5,472.70,570.37,59.91,8.79" target="#b3">Coleman 1988</ref>) proposes that if two actors related to the same individual are also related to each other, they have greater power over that individual than if they were unrelated. In our context, we could expect that if a potential adopter hears about the social network service from two friends, the attractiveness of the service is greater when these two friends also know each other. Thus, the density of relationships among adopted friends of potential adopters may affect their adoption likelihood. On the basis of this stream of research in sociology, we expect that clusteredness has a positive effect on adoption probability. <ref type="figure" coords="5,156.00,54.72,36.95,9.46">Figure 2</ref> "INFLUENCER EFFECTS": ChARACTERISTICS OF ACTOR v = 8 AFFECT ThE ADOPTION LIKELIhOOD OF ALL LATER ADOPTERS w = 9, w = 10, w = 12, w = 13 1 2 3 4</p><formula xml:id="formula_3" coords="5,390.00,336.29,96.50,194.21">X (S) = |S| |N(v)| 1 . X (S) = (S) = e(s,t) 2 s, t S s, t S ρ ∈ ∈ ∑ ∑ 1 ,</formula><p>As we already discussed, on average, a higher clustering coefficient indicates stronger relationships. However, keeping the density of one's personal network constant, the number of relationships in the network increases quadratically with the number of related actors. In other words, a larger personal network with the same clustering coefficient requires more ties per neighbor between its members. Therefore, we expect that larger personal networks with the same clustering coefficient indicate a stronger network closure. In other words, we expect a positive interaction effect between the degree and clustering variables. To this end, our third variable becomes the degree-clustering interaction:</p><p>Influencer measures. For influencer measures, we focus on the variables that describe the characteristics of the individuals who may influence a potential adopter. The first variable is "influencer total degree." Opinion leaders have always been a focus for marketers. They are considered important targets for marketing communication. <ref type="bibr" coords="6,249.76,270.54,38.82,8.79;6,54.00,281.54,106.90,8.79" target="#b25">Nair, Manchanda, and Bhatia (2010)</ref> empirically show that in referral networks of physicians, opinion leaders significantly alter the behavior of other individuals in the networks. Studying the aggregate impact of influencers on diffusion, <ref type="bibr" coords="6,253.97,314.54,40.03,8.79;6,54.00,325.54,57.66,8.79" target="#b36">Watts and Dodds (2007)</ref> ran a series of computer simulations. They show that the structure of social influence may decrease the relative importance of highly connected individuals over a critical mass of easily influenced individuals. <ref type="bibr" coords="6,237.26,358.54,56.74,8.79;6,54.00,369.54,39.36,8.79" target="#b10">Goldenberg et al. (2009)</ref> examine this issue in an empirical study and find that members of a social network with large network degrees (hubs) actually had a larger-than-average overall impact on adoption. In our model, we revisit this question, but we focus strictly on the microlevel effects of high network degree. We analyze how the average influence of adopted network members on their later-adopting friends depends on the total number of friends these adopted actors have. That is, our first influencer variable is the average number of connections that potential adopters' friends have: <ref type="bibr" coords="6,64.00,533.89,41.58,8.79" target="#b20">Lin (1999)</ref> argues that in social networks, the larger the personal network of actors becomes, the easier it is for these actors get access to more diverse social resources. <ref type="bibr" coords="6,248.32,555.89,45.67,8.79;6,54.00,566.89,49.56,8.79">Goldenberg et al. (2006)</ref> also find support for this argument: Surveying consumers' opinion-seeking habits, they identify conditions in which social connectivity is more important for opinion leadership than product expertise. In the context of our analysis, however, social status alone is insignificant to influence the behavior of not-yet-adopted individuals: New adopters had to be actively informed about this novel type of service. Personal communication (at least one of the adopted friends sending an invitation, plus perhaps other, potentially offline conversations) had to precede every adoption, and many of the instrumental actions Lin (1999) mentions were not supported by the medium. For this reason, we argue that the average intensity of friendships of an actor likely diminishes with the number of friends the actor has. This is also consistent with the findings of Stephen, Dover, and Goldenberg's (2010) recent marketing study and with early sociological work by French and Raven</p><formula xml:id="formula_4" coords="6,131.25,197.03,86.75,325.67">X (S) = X (S) X (S) 3 1 2 × . W (S) = d(w) S 1 w S ∈ ∑ | | .</formula><p>(1960), who suggest that people only have a limited amount of influential power. In other words, although it is likely that highly connected individuals have a high degree of influence on their closest ties, it is also likely that they could not spend much time communicating with all of their friends. In summary, we expect that the average influential power of actors (on average over all actors) decreases with the total number of friends the actors has. The second variable is "betweenness." <ref type="bibr" coords="6,491.95,142.37,61.58,8.79" target="#b6">Freeman (1977</ref><ref type="bibr" coords="6,318.00,153.37,19.06,8.79">Freeman ( , 1979</ref> defines the "betweenness centrality" of v so that for every pair (s, t) of the other nodes in the network, if v lies on the shortest path between s and t, then that pair of nodes contributes to the betweenness centrality of v. The intuition behind such a definition is that if a message traveling from s to t must pass through v, then the structure of connections indeed increases the influence of v over t (and, in an undirected network, over s, because the roles of source and destination are interchangeable).</p><p>Although such influence may be present in general (e.g., organizational) social networks, we argue that in our network of real-life friendships, the influence is irrelevant if s and t are not actually neighbors (friends) of v; that is, we argue that influence depletes rapidly with additional intermediaries. Therefore, we propose a definition for local betweenness to focus on structural holes at v by examining only pairs of neighbors of v:</p><p>(3)</p><p>For every unrelated pair of actors (s, t) among the neighbors of v, the contribution of the pair (s, t) to the betweenness of v is inversely proportional to the number of two-step paths between s and t. For simplicity, hereinafter, we refer to the local betweenness measure as "betweenness." <ref type="figure" coords="6,328.00,448.18,33.40,8.79">Figure 3</ref> illustrates the concept. In the network on the left, actor 1 interconnects the pairs of not-related actors (2, 4) and (3, 4) but not (2, 3), because actors 2 and 3 are related in that network. Because actor 1 is the intermediary of the only two-step path between actors (2, 4) and (3, 4), B(v) in Equation 3 becomes actor 2. In the same figure, on the right-hand side, actor 1 interconnects the same two pairs of not-related actors. However, actors (2, 4) are also connected through actor 5, whereas actors (3, 4) are also connected through</p><formula xml:id="formula_5" coords="6,354.75,351.46,166.25,34.29">B(v) = e(s, v) e(v, t) [1 e(s, t) e( s t V w V ≠ ∈ ∈ ∑ ∑ − × × ] s s, w) e(w, t) × .</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>430</head><p>JOURNAL OF MARKETINg RESEARCh, JUNE 2011</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 3 SAMPLE NETWORKS TO ILLUSTRATE LOCAL BETWEENNESS</head><p>Notes: In the network on the left, the local betweenness of actor 1 is 2, whereas in the network on the right, actor 1's local betweenness is 5/6. both actors 6 and 7. In this way, B(v) becomes 1/2 + 1/3 = 5/6.</p><p>To account for the effect of local betweenness on the adoption likelihood of v, we take the average betweenness of v's neighbors at the time of the adoption decision. Thus, our second influencer variable becomes <ref type="bibr" coords="7,54.00,148.53,10.49,7.91">(4)</ref> How does this variable affect adoption probabilities? Besides network closure, <ref type="bibr" coords="7,158.40,182.87,47.64,8.79" target="#b2">Burt (2005)</ref> details another structural pattern of network connections that may alter the influential power of network members involved. When an actor is interconnecting two otherwise not well-communicating parts of a network, we talk about a structural hole in the network. The interconnecting actor may be able to broker information between the two sides. It is clear that such brokers may have greater influence over related actors on both sides of the network. Thus, the literature on structural holes would suggest that structural holes increase the influential power of brokers. However, when the personal network of an actor has two parts that otherwise do not communicate, the influence of the actor in the middle of the structural hole is governed by two opposing effects. It may increase with the sizes of the corresponding parts because of the greater social status that brokerage gives, but as we pointed out previously, as the personal network grows larger, on average, these relationships become weaker, and the influence of the brokering actor on his or her potential adopter friends may decrease.</p><p>Control variables. In addition to the variables outlined previously, we use a number of control variables in our estimations. Because of the lack of theory, we do not have explicit predictions on the effect of these measures. However, from a practical perspective, including them in the estimation may be interesting, because they can help predict adoption probabilities and identify influential consumers.</p><p>One of our control variables is the influencer's clustering coefficient in the final friendship network. As we discussed previously, this variable is a proxy for how dense the influencer's network is. Furthermore, we examine the effect of two demographic variables. In particular, we examine how an influencer's age and gender affect his or her influential power. As in the case of the network variables, we take an average over the neighborhood of the individual. For example, in the case of age, the variable is as follows:</p><p>For gender, we simply include the proportion of females within S.</p><p>Adopter measures. This group of variables measures how the characteristics of potential adopters affect their likelihood of adoption in each time period. Again, these variables are of two types. The first set describes the adopter's final network characteristics (total degree, betweenness, and clusteredness), as in the case of influencers. For the lack of theory, we do not have explicit predictions concerning these variables. Rather, they should be considered control variables. The second set of (control) variables is demographics.</p><formula xml:id="formula_6" coords="7,133.00,129.17,82.75,482.28">W (S) B(w) S 2 w S = | | . ∈ ∑ W (S) AGE S 3 w S w = | | . ∈ ∑</formula><p>Beyond age and gender, we can also include an additional variable: population density of the city of residence.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EMPIRICAL ANALYSIS Data Description</head><p>Our data originate from a major European social networking site. The goal of this web-based networking service is to build an online community of people who then may use the tools provided by the website to interact (e.g., to send messages to their friends, to share their pictures, to maintain a profile page with personal information). People can represent their "friendship network" graphically and can search the membership base by various criteria. An important feature of the site is that proposed friendships need to be confirmed by the other party and can be severed as well. As a result, the network contains information on mutual relationships only.</p><p>Today, the portal we study has more than 4 million registered users and more than 100 million friendship links between them. In this article, we analyze adoption data from the first 3.5 years (1247 days) of the service. We consider this early time frame for two reasons: First, during this period, the service was not advertised and its media appearance was minimal, which means that membership growth was entirely due to WOM effects; second, during the period studied, the service was the only of its kind in the country. At the end of the examined time period, the website began experiencing technical difficulties providing the service, and its administrators limited the number of new members who could join. Soon after the alleviation of the technical problems, social networking received national media exposure, resulting in both the launch of competing portals and a sudden growth of membership.</p><p>To register to the site, potential users had to receive an invitation from a member. During the time period we study, a member had unlimited invitations to send; thus, the availability of invitations did not limit the growth of the network. During the period analyzed, 138,964 users registered on the website. To minimize the potential bias caused by including only users who adopted during the studied time frame, we also include some of the next adopters in the data set. Because of computational limitations, we set the size of the analyzed sample at 250,000 users (of whom the latter 111,036 members signed up during the first month after the last day we examine).</p><p>When analyzing the diffusion process, we investigate the adoption of the portal (the social network site) over time by members of the real-life friendship network of potential adopters. We consider all the relationships confirmed in the system 36 weeks after the end of the studied period as this real-life friendship network. By doing so, we implicitly assume two things: (1) The network recorded on the site 36 weeks after our study period contains all the "real-life" relationships between potential adopters, and (2) the relationships indicated in the network were not "formed on the network" (i.e., not even partly resulting from individuals' adoption behavior). The validity of these assumptions may be critical to our findings. In the subsection "Robustness and Validity Tests," we conduct several tests to conclude that neither assumption weakens our empirical results.</p><p>The friendship data (sampled as described previously) contain 13,152,323 links among the 250,000 registered users, corresponding to a friendship density of. <ref type="table" coords="8,242.48,54.37,29.24,8.79" target="#tab_0">Table 1</ref> summarizes the distributions of the demographic variables and network characteristics defined in the "Model" section.</p><p>In <ref type="table" coords="8,74.82,87.37,28.47,8.79" target="#tab_0">Table 1</ref>, we also report the correlations of demographics and network characteristics between related actors in the network. Whereas the network characteristics of neighbors are indeed positively correlated, these weak correlations are unlikely to be the drivers of the results of our estimations. Finally, <ref type="table" coords="8,86.51,142.37,29.47,8.79" target="#tab_1">Table 2</ref> reports correlations of the independent variables used in our estimations. These correlations, together with the network autocorrelation information in <ref type="table" coords="8,260.06,164.37,30.09,8.79" target="#tab_0">Table 1</ref>, suggest that age, gender, and population density are good control variables. We note that the network autocorrelation is higher for the age and population-density variables, which suggests that we should consider group effects within age clusters and within cities. We address these estimation issues in the "Individual and Group Effects" subsection.</p><p>In the outline of the stochastic model, we defined a distinguished group of people who are already using the service at the start of the analyzed period. In our empirical analysis, we include the first 2121 members in this initial group because these members received their membership directly from the creators of the social network. Finally, because the database contains registration dates for every member, we choose days to be the unit of time (thus estimating daily adoption probabilities in our model). Next, we present the details of the estimation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Estimation</head><p>The estimation is based on the network-based influence model described in Equations 1 and 2. We apply the complementary log-log regression using the maximum likelihood method to obtain parameter estimates. The observations we use are based on daily adoption decisions. Every day, we record the decision of each individual who has not yet adopted along with the variables described in the previous section. Some of these variables are constant over time, and some of them change as the adoption process moves forward. Because we have 250,000 individuals in the data set that we analyze throughout a period of 1247 days, we obtain close to 200 million such observations. Just storing the values of our variables for all of these observations would exceed our computational capacities. To overcome this problem, we discretize some of our variables so that we could store the observations in a grouped table. For the variables we discretize, we split the range of the variable into 100 equal intervals. For each interval, we only store the average value of the variable over observations that lie in the interval. In this way, we are able to reduce the space required to store our observations (which can be represented by integer coordinates of points in a multidimensional grid) and run the maximum likelihood estimation. To examine in detail how the number of intervals chosen affects the results, we build the multidimensional grid several times, each time with randomly selected dimensions that contain only 50 equal intervals (keeping 99 ticks at the others). We find that the 95% confidence intervals overlap for the vast majority of the coefficients, which confirms the validity of this approach. Because of space limitations, we omit the exact results from this article.</p><p>Because our primary focus is on investigating how observed network characteristics can predict adoption probabilities, we first estimate a model (Model 1) with network effects only. Beyond these effects, Model 2 also includes influencer effects and adopter effects that are still network related, that is, have been calculated from the ultimate friendship network of the population. In Model 3 (the full model), in addition to the predictors considered in Models 1 and 2, we also include all the demographic variables.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Table <ref type="table" coords="8,354.62,296.37,5.00,8.79" target="#tab_2">3</ref> summarizes the results of the complementary log-log regressions. Across Models 1, 2, and 3, we find consistent support for the positive effect of degree and clustering. Specifically, following the general intuition expressed in the "Measures" subsection, we observe a clear degree effect: Having more adopted neighbors increases the likelihood of a potential adopter to adopt, and while holding the number of adopted friends constant, having a higher total number of friends decreases adoption likelihood. More interesting is the strong support for the clustering effect. Consistent with network closure theory, a set of highly connected individuals has a stronger influence on a potential adopter than an identical number of sparsely connected ones. It is interesting to observe how strong the clustering effect is. When an individual has 100 friends and 6 of them have already adopted, then one extra adopted friend has the same effect on his or her adoption probability as one extra friendship between the 6 adopted friends. Finally, the interaction of degree and clustering is also significant and positive in the richer models, which provides partial support for the general intuition that the marginal effect of an additional influencer is larger for highly connected networks.</p><p>For influencer variables, we do not find significant effects for betweenness, indicating that structural hole theory may not apply to significantly large social networks in a straightforward way. Another interesting finding is that total degree has a relatively weak but significant, negative effect,</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>432</head><p>JOURNAL OF MARKETINg RESEARCh, JUNE 2011  suggesting that individuals with many connections have less influential power on a particular neighbor. The remaining influencer variables are all significant. The significance of the demographic variables shows that, in a practical setting, these are useful predictors for influential power. For this social network site, we find that younger people and female network members have a greater influence. This result is somewhat surprising because many researchers in sociology have acknowledged that men have a greater social power <ref type="bibr" coords="10,151.66,618.85,137.82,8.79" target="#b4">(Dépret, Fiske, and Taylor 1993)</ref>. However, influencing adoption likelihood to a social network portal may be substantially different from the general notion of social power. To further examine the effects of age and gender, we estimate Model 3 separately for different genders and age groups. Besides confirming the direction and strength of the effects listed herein, we generally find greater influencer effects for similar individuals and a significantly greater influence of females among younger individuals. We do not report the results of these estimations here, but in the "Individual and Group Effects" section, we test whether such unobserved heterogeneity in the relationships affects the validity of our findings.</p><p>Regarding adopter effects, we also find significant results. In general, these results are consistent across models except for adopter betweenness, which changes sign between Models 2 and 3. The total degree of an individual, for example, has a positive effect on his or her adoption probability; this is not surprising considering that we also included the proportion of already adopted friends in the equation, through which the total number of friends relates to the dependent variable negatively. However, an alternative cause may be endogeneity, whereby the "more enthusiastic" network users gather more friends online, which could invalidate our assumption on the exogeneity of the final network. To verify that this is not the case, we conduct several tests, which we present in the "Network Dynamics" subsection.</p><p>With respect to demographics, we find that age and population density of the town of residence both have small but significant effects, whereas gender does not. It is interesting</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>434</head><p>JOURNAL OF MARKETINg RESEARCh, JUNE 2011 that age has a positive effect, which generally contradicts empirical findings in the diffusion literature, because younger people have been shown to be generally more likely to adopt early. However, we already control for network-related variables that may cause younger users to sign up sooner if the network density is greater among them. In addition to age, we find that population density of adopters' home city has a marginal positive effect. Note that we find this latter effect in addition to the already discussed network effects, which already capture the potentially greater density of social connections in highly populated areas. We also conclude that adopters' propensity to join the network increased with the overall network size, which may indicate the presence of some offline buzz about the site. However, because network size and time are almost perfectly correlated, it is also possible that this positive coefficient indicates that later network members became more accustomed to Internet technologies (in particular, the concept of a web-based online social network) over time and, thus, adopted with larger probability.</p><p>Comparing the fit of models, the Akaike information criterion (AIC), the Bayesian information criterion (BIC), and McFadden's pseudo-R-square measure all rank the models in the same order. The AIC and BIC measures require the same number of observations across estimations; therefore, we compute them over the 136,829,184 full observations included in Model 3. We list the actual values of these metrics in <ref type="table" coords="11,81.63,351.37,28.66,8.79">Table 4</ref>. However, because we believe that considering broader samples for the simpler models is more useful for interpreting the results, in most of the tables (including <ref type="table" coords="11,54.00,384.37,27.69,8.79" target="#tab_2">Table 3</ref>) we only report the pseudo-R-square values. Although Model 3 provides the best fit on the basis of all of the three measures, the corresponding pseudo-R-square value is still only .0496. The explanation for such low values is that, because the mean of our dependent variable is less than .001, the null model makes many good predictions (by always predicting nonadoption). Thus, low fit measures do not necessarily weaken our findings. However, because the independent variables are weakly positively correlated for network neighbors (see Column 4 in <ref type="table" coords="11,468.55,98.37,28.55,8.79" target="#tab_0">Table 1</ref>), it is possible that even characteristics of the real-life friendship network are driven by unobserved similarities among network neighbors <ref type="bibr" coords="11,339.57,131.37,60.64,8.79" target="#b24">(Manski 1993)</ref>. The finding that the coefficients of Models 2 and 3 are similar while the explanatory power of Model 3 is greater indicates that this is not the case, thus providing support for the results. Because we are not interested in the formation of the final friendship network per se but rather in the diffusion on an existing network of friendships, we leave all further discussion of this issue to the "Robustness and Validity Tests" subsection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Predictive Power</head><p>The results of the previous section demonstrate how local network characteristics may influence adoption likelihoods. Here, we demonstrate how our models can help predict which individuals will adopt in the near future. 6 Existing models such as the <ref type="bibr" coords="11,395.79,285.37,48.05,8.79" target="#b0">Bass (1969)</ref> model perform well in forecasting the overall number of adopters but do not provide any prediction on which individuals are more or less likely to adopt. Our methodology enables us to predict the adoption probabilities of individuals who have not adopted up to a certain point in time. However, it is not straightforward to measure the predictive power of our model if the outputs are probabilities, especially if these probabilities are as low as our daily adoption rates (less than .001). In real applications, it is often required to predict who the next adopters will be and not only provide probability predictions. Therefore, to test the predictive power of our models, we rank-order <ref type="table" coords="11,289.74,456.67,32.51,9.46">Table 4</ref> COMPARINg MODEL FIT OVER ThE SAME SET OF OBSERVATIONS the individuals in decreasing adoption likelihood and compare the top m individuals of this list with the set of the next m individuals who adopted in reality. We do this for different values of m; to determine the number m to be used in the context of a real application, one could, for example, use an aggregate-level model to predict the number of individuals adopting in the next period under consideration. Because our adoption data are distorted after the studied period for previously mentioned reasons, we make predictions for the last ten days before the cutoff point, day 1247. 7 Therefore, we first estimate our models on the first 1237 days of the adoption data. Next, using the resulting coefficients and the total network data, we calculate the predicted probability of adoption for each individual on day 1238. Then, we rank these predicted probabilities and list the nodes to which the m highest probabilities belong as a prediction for the next m adopters. Let M denote the set of these individuals with |M| = m.</p><p>We test the predictive power of four models. The first three are the same three main models we used in the "Estimation" subsection. Model 4 is a benchmark in which we ignore the network variables and include only demographics and network size. We drop all observations for which any of the variables used in any of the models are missing. To test predictive power, we calculate what percentage of individuals in M really adopted during the ten-day period. <ref type="table" coords="12,263.51,318.37,30.49,8.79" target="#tab_4">Table 5</ref> shows the results for different values of m.</p><p>The highest value we use, m = 9944, is the actual number of adopters during this period, which constitutes 11.66% of the potential adopters in our sample. Thus, a random set of size 9944 would have a hit rate of 11.66%. We use this as a benchmark, in addition to the prediction based on only the available demographic variables (Model 4), which successfully predicts 13.25% of the adopters. Using any of our three main models, we can almost double the hit rate from the random benchmark to approximately 21%, substantially improving the predictive power over that of Model 4. Displaying the success rates for Models 3 and 4 as a function of m, <ref type="figure" coords="12,66.91,461.37,33.84,8.79">Figure 4</ref> shows this pattern. As <ref type="table" coords="12,194.00,461.37,29.68,8.79" target="#tab_4">Table 5</ref> shows, Models 1 and 2 yield results similar to those of Model 3. If the application only requires the identification of a lower number of adopters than the total expected number of adopters, then the hit rate becomes even higher. For values around m = 500, Models 1, 2, and 3 predict adoption successfully with an approximate 30% probability. That is, for applications for which not only successful predictions are of interest but also the cost of "false-positive" predictions is somewhat larger, it may be best to focus on only approximately 5%-10% of future adopters. In such scenarios, our model performs much better than the random selection (11.66% success rate) and the model based solely on demographic variables (13.60% success).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Robustness and Validity Tests</head><p>In this section, we address several limitations of our model, data, and estimation procedure. We begin by allowing for latent individual heterogeneity in the propensity to adopt. Because of the computational limitations discussed in the "Estimation" subsection, we are only able to estimate such models on a smaller (random) sample of individuals. In a different approach, we implode the friendship network into network layers containing only relationships within the same city of residence to examine whether our results still hold within these networks to garner further support for our substantive findings. We continue by considering alternative model formulations. We change the link function, and we test an alternative definition of our main independent variable. Third, we discuss a number of issues related to network dynamics. By eliminating certain individuals, links, and decisions from our data set, we challenge our assumption on the exogeneity of the real-life friendship network and explore the potential effects of heterogeneous link strength on our results.  Individual and group effects. In this section, we carry out tests to verify the validity of the assumption on the independence of the error terms in our main models. First, we estimate our model including random effects: <ref type="bibr" coords="13,54.00,123.03,10.49,7.91">(5)</ref> where we assume that u v~N (0, s 2 ). Because the random effects vary according to individual, we have to break with our estimation method of discretizing the independent variables, which assumes homogeneity within each cell in the grid (which may contain observations from different individuals). Thus, to run the random-effects model on the whole adoption data set, we would have to deal with well over 100 million observations. Because this is clearly infeasible, we randomly select 5000 individuals from the 250,000 network members and run the random-effects estimation on the data comprised of observations concerning only these individuals. (However, we compute the independent variables from the network spanning over all the individuals in the data.) We present the results of this process in <ref type="table" coords="13,197.93,296.37,28.01,8.79" target="#tab_5">Table 6</ref>. The large value of r confirms that the low model fit measures reported in <ref type="table" coords="13,54.00,318.37,30.05,8.79" target="#tab_2">Table 3</ref> may indicate unobserved heterogeneity in the relationships. Nevertheless, although the coefficients cannot be directly compared with those in <ref type="table" coords="13,186.92,340.37,29.02,8.79" target="#tab_2">Table 3</ref>, we find that most of the effects identified by our main estimation are supported by the results herein as well. The finding that some of the demographic variables become insignificant suggests that demographics may be correlated with the unobserved propensity of adoption, which we capture here by individual random coefficients. Finally, our choice of restricting the structure of individual effects to the normal distribution is a result of computational limitations: The data sample that f(S, v) = 1 X (S)</p><formula xml:id="formula_7" coords="13,122.00,113.46,104.24,25.45">+ W(S) Z(v) + v − − + × × + × exp{ exp[α β γ ϕ u v ]},</formula><p>we consider contains several million observations per regression, which makes estimating 5000 fixed-effect dummies infeasible. Next, we return to our original model formulation (without individual effects), but we allow the error terms to be correlated for homogeneous age or gender groups to arrive at more robust standard-error estimates. In general, we find that the network effects we examine remain significant. In <ref type="table" coords="13,318.00,142.37,28.21,8.79" target="#tab_6">Table 7</ref>, we present a specific example leading to the largest decrease in the strength of the effects that we obtain this way. For this estimation, we divide the population into five age clusters <ref type="bibr" coords="13,351.31,171.90,148.90,13.01">(21, 22-23, 24-26, 27-29, and 30)</ref>. The parameter significances corresponding to the robust standard error estimates provide further support for the degree and clustering effects and also for the negative effect of influencer total degree. However, the degree-clustering interaction and betweenness do not have significant effects under these circumstances.</p><p>Finally, to explore the validity of some of our substantive findings, we refine the personal networks by dedicating special attention to friendships within the same city of residence. We split all network variables except clustering. We jointly estimate the impact of the number of friends from the same city and the impact of the number of friends from other towns. In a similar way, the average betweenness of network neighbors from the same city and the average of those from other towns become two independent variables. (In the case of the clustering variable, we do not have a straightforward way to do the same, because across-town friendships in one's personal network may be present. Thus, clustering may not arise as a sum of within-city and acrosscities components.) For the degree-clustering interaction, we have two choices: In Model 5, we include the degree variable as before (referring to the proportion of adopted friends), and in Model 6, we include the within-city degree (proportion of adopted friends considering only within-city friendships).</p><p>In <ref type="table" coords="14,74.63,390.37,28.20,8.79" target="#tab_7">Table 8</ref>, we show the coefficient estimates of Models 5 and 6. We find support for the degree and clustering effects as well as the negative effect of influencer total degree. The degree-clustering interaction is only supported in Model 6, and we cannot detect the positive effect of betweenness (that structural hole theory would predict). An interesting phenomenon is the effect of network size: Despite all the within-city network variables being more significant than their across-cities pairs, the opposite is true for network size, and the coefficient of within-city network size is negative. This suggests that the positive coefficient of network size in Models 1-3 indicates the evolution of users' affinity for technology rather than the presence of offline buzz.</p><p>Alternative model formulations. In this section, we discuss the most straightforward alternatives to some of our modeling choices. We begin by including two quadratic terms in our models to determine if the negative effect of influencer total degree is driven by actors with significantly large personal networks. As the results (see Columns 5 and 6 of <ref type="table" coords="14,138.76,599.37,29.82,8.79" target="#tab_2">Table 3</ref>) indicate, the square of influencer total degree is not or is only marginally significant, and it has a positive coefficient. This result suggests that our main results are not driven by highly connected individuals and that they hold for actors with smaller personal networks as well.</p><p>Next, we change our main independent variable from the proportion of already adopted friends within all friends of adopters to their number. <ref type="table" coords="14,160.57,687.37,30.45,8.79" target="#tab_8">Table 9</ref> lists the estimates of the model. Although we find that all major results are consistent with those presented in <ref type="table" coords="14,171.84,709.37,29.47,8.79" target="#tab_2">Table 3</ref>, we also note that the model fit values are lower for this alternative specification. In summary, the proportion, not the sheer number, of already adopted friends explains more about the adoption decisions studied. <ref type="bibr" coords="14,389.10,378.83,3.75,6.59">8</ref> Finally, we replace the complementary log-log link function (Equation 2) with the logit function and reestimate our original models. Because all coefficients and z-values are similar to the results of the complementary log-log regression, we do not report the results herein.</p><p>Network dynamics. Throughout this work, we have relied on the assumption that the observed network at the time of the study is final and static in the sense that we can observe all the real-life friendships among individuals in the network; this is inaccurate for two related reasons. On the one hand, numerous friendships appearing in the data could have been made during the 3.5 years we analyze. On the other hand, there were probably some existing real-life friendships not confirmed in the network before the friendship data were collected. If the observed final network data are not a good proxy for the structure existing in real-life friendships, our results may be biased. In that case, it could be argued that individuals who had spent less time as users (i.e., people joining the network later) might not have enough time to map out all their friends present in the network. Then, the independent variables for these people (i.e., their network characteristics) might be erroneous. Similarly, being a member of the service to make more friends might be a typical user behavior. In such a case, members with many friends would have a greater propensity to make new friends. In this case, the rate of the network's growth could vary on the basis of how many friends a user already has, leading to sampling bias. To verify that these concerns do not lead to qualitatively different results, we conduct a series of tests. We first examine whether the network spanned by the analyzed set of adopters grows uniformly. Because we do not have access to the evolution of the complete network, we selected a random sample of users in our data and recorded the number of their friends among the analyzed pool of network users both at the time when the observed snapshot of the friendship network was taken and at a much later date (1002 days after the end of the studied period). We then analyzed the overall growth rate  of network density to find that the network of the observed 138,964 individuals continued to grow after the completion of the study at an average yearly growth rate of approximately 10%. Here, we test whether factors such as the number of friends already present or the length of time an individual has been a member affect this rate. We present the results of this estimation in <ref type="table" coords="16,134.35,120.37,32.19,8.79" target="#tab_0">Table 10</ref>. These results show that neither the size of individuals' personal networks nor the date on which they joined had a significant effect on the growth rate of their networks. In other words, the friendship network grows "uniformly," which in turn provides support against the presence of a sampling bias in the data we analyzed.</p><p>Although the test we just described eliminates concerns linked to particular types of user behavior, it also reveals that the real-life friendship network slowly evolves over time. Now we examine the potential impact of this trend by estimating three variants of our model. We begin with changing the sample of adopters to include only the 138,964 network members who adopt by the end of the analyzed period. <ref type="table" coords="16,84.92,263.37,34.96,8.79" target="#tab_0">Table 11</ref> presents the results of this estimation. The sign and significance of the coefficients of the degree and clustering variables do not change, and the effect of betweenness remains insignificant. Moreover, as the number of observations drops to less than half, we find that the model fit increases across Models 1-3.</p><p>Next, we condense the friendship network and focus on presumably stronger relationships. In two tests, we keep any relationship if and only if the endpoints of the corresponding edge in the network adopted the service within 30 and 60 days, respectively. We then recompute the network variables on these friendship networks and reestimate our models. <ref type="table" coords="16,333.80,98.37,34.34,8.79" target="#tab_0">Table 12</ref> presents the results of this procedure. It is clear that by tailoring the network in this way, the personal networks of users shrink. Therefore, such a condensation of the friendship network works against our argument for a positive degree-clustering interaction, and a negative effect of the influencer total degree, and it also may affect the chance of detecting the impact of structural holes (in the network defined by the stronger ties) on adoption. In <ref type="table" coords="16,504.70,175.37,34.25,8.79" target="#tab_0">Table 12</ref>, we show that after this transformation, we indeed do not find support for a positive degree-clustering interaction, and that the other two effects also vanish when we apply the 30-day cutoff threshold. However, note that for the 60-day threshold, we still find evidence for the impact of structural holes and that a larger total degree leads to a smaller average influence. In summary, we find that the negative effect of influencer total degree is robust; nevertheless, it should be treated with care when only the network spanned by the strongest ties between members is being considered.</p><p>Finally, in a similar vein to the test we just discussed, we reestimate our models by considering up to 30 and 60 adoptions per user, respectively. 9 This results in censoring observations for those individuals who adopt the service much later than their first adopting friend. In this estimation, we keep the network variables from the original model. <ref type="table" coords="16,524.00,351.37,34.00,8.79" target="#tab_0">Table 13</ref> presents the results. We find that this estimation confirms our results pertaining to the degree and clustering effects and to the negative effect of influencer total degree. For the positive effect of local betweenness, we find only partial support. An important finding is that the significance of the degreeclustering interaction in the richer models decreases, which  indicates that the interaction effect is (at least) partly driven by "slow adopters," who only sign up for the service once large dense subnetworks of their friends have already joined.</p><p>CONCLUDING REMARKS With the emergence of new communication technologies, the communication patterns of individuals are increasingly being recorded, providing an opportunity to study WOM at the individual level. Network data enable us to discover how each individual's social connections influence his or her adoption decisions. Furthermore, it enables the measurement of each person's influence on others. The insights gained from such analyses are invaluable for marketers who search for new viral marketing tactics to foster new-product diffusion.</p><p>In this article, we analyze data from a social networking site to identify WOM effects at the individual level. Our central goal was to discover how the local communication network structure affects the diffusion process. In this respect, we confirmed the general intuition that the number of already adopted friends has a positive effect on the probability of an individual's adoption. In addition, we found that the interconnectedness of an individual's already adopted friends has a positive effect on his or her adoption probability. This finding is important because it shows that beyond sheer network size, strong communities are more relevant for WOM influence.</p><p>In a second step, we measured the average influential power of already adopted friends. At this end, we found that people with many friends have a lower average influence than those with fewer friends. Similarly, influencers who occupy structural holes in the network have, on average, greater influential power. In addition to these global network variables, we found that demographics are useful for identifying strong influencers. Finally, demographics and global network variables are useful for identifying not only influencers but adopters as well.</p><p>These findings have important implications for firms that want to better understand how customers adopt a product or service. If data are available on the interpersonal connection patterns among (potential) customers, our model may serve as a methodology for identifying customers who play an important role during the diffusion of the new product or service. For example, at the initial phase of the adoption process, marketers may be interested in targeting potential customers with a high probability of adoption. Our research shows that they can do so by using demographics as well as global network variables. Similarly, the promotion effort can be targeted to influencers, who, like potential adopters, may be identified by their demographics and global network positions. At a later stage of the diffusion process, marketers may have information about the connections of already adopted customers. The information on this subnetwork can be used again to target both potential adopters (e.g., people surrounded by a large and dense network of adopted friends) and influencers (members of such subnetworks). Our findings show that when the goal is to make predictions about the next set of adopters, our model can provide predictions that are successful in up to 30% of the cases, compared with approximately 13% when using only demographic information.</p><p>Using similar statistical models to improve viral marketing efforts must be adapted to the actual application context. Nevertheless, our findings confirm the general insight that a viral marketing campaign may be more effective if it is initiated on a sample of highly connected customers rather than on a sample of customers with simply the largest numbers of connections. Our results specifically indicate that, in the case of high-involvement products for which high average influential power is required to convince others to adopt, the firm may be better-off focusing on individuals who have fewer connections. In contrast, in the case of low-involvement products, highly connected customers may play the most important role because they have the greatest overall influence.</p><p>Our study has a number of limitations, some of which we addressed in the "Robustness and Validity Tests" subsection, including the potential endogeneity of connections. Our validity tests indicate that this does not influence the results significantly and that the final network we have is a good proxy for people's real-life networks. However, we only consider individuals who eventually signed up for the service. Thus, selfselection might bias our estimated adoption probabilities but not the direction of the effects we find. Another limitation of our study is that we do not possess data on the actual communication between individuals; we are only aware of links based on revealed friendships. Although this is a simplified mapping of social connections, we know that these links are mutual, because both parties had to agree when establishing such a</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>442</head><p>JOURNAL OF MARKETINg RESEARCh, JUNE 2011 connection. In addition, because of the computational issues arising from the size of our data set, we had to keep relationships within the network homogeneous. (The related actors and their personal networks are the only sources of heterogeneity.) <ref type="bibr" coords="19,90.87,98.37,140.80,8.79" target="#b23">Manchanda, Xie and Youn's (2008)</ref> results indicate that this may be an important limitation. Finally, we only have access to limited demographic information, such as age, gender, and city of residence. It would be interesting to examine how other variables that directly influence social connections, such as the schools a person attended, affect the diffusion process. These limitations undoubtedly weaken our study. However, despite the limitations, the results show the potential impact of network analysis for efficient WOM marketing. Furthermore, the models we presented provide a first step toward developing statistical tools to analyze the impact of network structure on new-product diffusion.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="4,419.53,523.85,36.95,9.46;4,323.92,537.29,228.15,7.57;4,326.94,549.29,222.12,7.57;4,394.84,561.29,86.32,7.57"><head>Figure 1 "</head><label>1</label><figDesc>NETWORK EFFECTS": ThE SET OF ADOPTED NEIghBORS S = {1, 2, 3} INFLUENCES ThE ADOPTION LIKELIhOOD OF LATER ADOPTER v = 8</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="12,419.91,54.33,36.95,9.46;12,341.34,67.76,194.09,7.57;12,355.12,79.76,166.53,7.57;12,330.19,91.76,216.39,7.57"><head></head><label></label><figDesc>Figure 4 PROPORTION OF ADOPTERS AMONg PREDICTED OUT-OF-CALIBRATION SAMPLE ADOPTERS AS A FUNCTION OF ThE SIZE OF ThE PREDICTION LIST</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="8,53.99,598.52,502.58,129.91"><head>Table 1</head><label>1</label><figDesc>SUMMARY STATISTICS FOR ThE STUDIED POPULATION OF NETWORK MEMBERS</figDesc><table coords="8,284.17,635.47,271.79,6.86">M 
+SD 
+Network Autocorrelation 
+Records 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="9,201.75,73.05,201.90,644.96"><head>Table 2</head><label>2</label><figDesc></figDesc><table coords="9,215.19,73.05,188.47,644.96">CORRELATION COEFFICIENTS OF ADOPTION DETERMINANTS 
+Adoption Determinant Variables 
+
+Variable 
+
+X 
+
+1 
+
+X 
+
+2 
+
+X 
+
+3 
+
+W 
+
+1 
+
+W 
+
+2 
+
+W 
+
+3 
+
+W 
+
+4 
+
+W 
+
+5 
+
+Z 
+
+1 
+
+Z 
+
+2 
+
+Z 
+
+3 
+
+Z 
+
+4 
+
+Z 
+
+5 
+
+Z 
+
+6 
+
+Degree (X 
+
+1 ) 
+Clustering (X 
+
+2 ) 
+
+-.03 
+
+Degree × clustering (X 
+
+3 ) 
+
+.67 
+
+.40 
+
+Influencer total degree (W 
+
+1 ) 
+
+-.08 
+
+.10 
+
+-.01 
+
+Influencer betweenness (W 
+
+2 ) 
+
+-.08 
+
+.00 
+
+-.04 
+
+.73 
+
+Influencer clustering (W 
+
+3 ) 
+
+.02 
+
+.16 
+
+.15 
+
+-.19 
+
+-.10 
+
+Influencer age (W 
+
+4 ) 
+
+.03 
+
+-.04 
+
+-.02 
+
+-.13 
+
+-.09 
+
+-.29 
+
+Influencer gender (W 
+
+5 ) 
+
+.08 
+
+-.03 
+
+.04 
+
+-.10 
+
+-.06 
+
+.11 
+
+-.11 
+
+Adopter total degree (Z 
+
+1 ) 
+
+-.06 
+
+-.15 
+
+-.17 
+
+.25 
+
+.03 
+
+.03 
+
+-.29 
+
+-.05 
+
+Adopter betweenness (Z 
+
+2 ) 
+
+.00 
+
+-.03 
+
+-.03 
+
+.04 
+
+.01 
+
+-.02 
+
+-.01 
+
+-.01 
+
+.38 
+
+Adopter clustering (Z 
+
+3 ) 
+
+.03 
+
+.39 
+
+.44 
+
+.01 
+
+.00 
+
+.35 
+
+-.09 
+
+.06 
+
+-.37 
+
+-.08 
+
+Age (Z 
+
+4 ) 
+
+.20 
+
+-.06 
+
+.09 
+
+-.15 
+
+-.04 
+
+-.28 
+
+.32 
+
+-.05 
+
+-.19 
+
+.00 
+
+-.13 
+
+Gender (Z 
+
+5 ) 
+
+-.02 
+
+-.02 
+
+-.03 
+
+.01 
+
+.01 
+
+.00 
+
+-.02 
+
+.19 
+
+-.01 
+
+-.02 
+
+-.01 
+
+-.08 
+
+Population density (Z 
+
+6 ) 
+
+.24 
+
+-.06 
+
+.12 
+
+.01 
+
+-.02 
+
+-.16 
+
+.05 
+
+.03 
+
+-.06 
+
+.00 
+
+-.09 
+
+.11 
+
+.03 
+
+Network size (T 
+
+1 ) 
+
+.50 
+
+-.07 
+
+.26 
+
+-.19 
+
+-.05 
+
+.30 
+
+-.11 
+
+.18 
+
+-.11 
+
+-.02 
+
+.12 
+
+-.07 
+
+.00 
+
+-.11 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="10,54.00,54.33,497.23,450.91"><head>Table 3</head><label>3</label><figDesc>PARAMETER ESTIMATES OF DIFFERENT MODEL SPECIFICATIONS</figDesc><table coords="10,54.00,91.28,497.23,413.96">Model 1: 
+Model 2: 
+Model 3: 
+Model 2b: 
+Model 3b: 
+Probability of Adoption 
+M (z-Value) 
+M (z-Value) 
+M (z-Value) 
+M (z-Value) 
+M (z-Value) 
+
+Network Effects 
+Degree 
+4.476** 
+4.383** 
+4.476** 
+4.401** 
+4.483** 
+(215.95) 
+(183.41) 
+(114.27) 
+(182.90) 
+(114.21) 
+Clustering 
+.361** 
+.689** 
+.704** 
+.703** 
+.713** 
+(18.02) 
+(32.48) 
+(24.89) 
+(33.06) 
+(25.16) 
+Degree × clustering 
+-1.916** 
+.552** 
+1.305** 
+.492** 
+1.274** 
+(-43.31) 
+(7.33) 
+(10.00) 
+(6.50) 
+(9.76) 
+Influencer Effects 
+Average total degree 
+-.00075** 
+-.00090** 
+-.00079** 
+-.00092** 
+(-17.50) 
+(-15.64) 
+(-18.18) 
+(-15.91) 
+Average (total degree)² (× .001) 
+.000020 
+.000027* 
+(1.86) 
+(2.27) 
+Average betweenness (× .001) 
+-.0067 
+.000025 
+-.000075 
+-.0000013 
+(-1.88) 
+(.59) 
+(-1.89) 
+(-.03) 
+Average clustering 
+3.867** 
+4.269** 
+3.777** 
+4.197** 
+(28.48) 
+(21.22) 
+(27.70) 
+(20.82) 
+Average age 
+-.0082** 
+-.0082** 
+(-7.24) 
+(-7.24) 
+Gender (fraction of females) 
+.076** 
+.077** 
+(3.57) 
+(3.62) 
+Adopter Effects 
+Total degree 
+.0010** 
+.0011** 
+.0012** 
+.0013** 
+(39.02) 
+(34.78) 
+(33.57) 
+(27.63) 
+(Total degree)² (× .001) 
+-.00027** 
+-.00020** 
+(-6.95) 
+(-3.98) 
+Betweenness (× .001) 
+-.00022** 
+-.00020** 
+.000066 
+-.000016 
+(-7.02) 
+(-5.44) 
+(1.77) 
+(-.33) 
+Clustering 
+-2.614** 
+-3.322** 
+-2.548** 
+-3.266** 
+(-40.86) 
+(-34.38) 
+(-39.52) 
+(-33.59) 
+Age 
+.0029** 
+.0030** 
+(5.89) 
+(6.11) 
+Gender (male = 0, female = 1) 
+.0068 
+.0070 
+(.96) 
+(.98) 
+Population density 
+.0012** 
+.0012** 
+(city of residence) 
+(3.97) 
+(4.06) 
+Network size (× .001) 
+.013** 
+.012** 
+.012** 
+.012** 
+.012** 
+(134.39) 
+(118.44) 
+(92.28) 
+(118.08) 
+(92.18) 
+Constant 
+-8.830** 
+-8.896** 
+-8.903** 
+-8.922** 
+-8.925** 
+(-1029.77) 
+(-455.45) 
+(-183.19) 
+(-450.13) 
+(-182.36) 
+Observations 
+188,631,660 
+188,628,849 
+136,829,184 
+188,628,849 
+136,829,184 
+Pseudo-R² 
+.0455 
+.0487 
+.0496 
+.0487 
+.0496 
+
+*p &lt; .05. 
+**p &lt; .001. 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="12,54.00,623.13,498.70,110.91"><head>Table 5</head><label>5</label><figDesc>ADOPTION PERCENTAgE OF PREDICTED ADOPTERS</figDesc><table coords="12,333.98,660.08,100.04,6.86">Successful Prediction Rate (%) 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="13,53.96,457.47,500.96,279.91"><head>Table 6</head><label>6</label><figDesc>PARAMETER ESTIMATES: RANDOM-EFFECTS COMPLEMENTARY LOg-LOg REgRESSION</figDesc><table coords="13,261.35,494.42,276.03,6.86">Model 1: 
+Model 2: 
+Model 3: 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="14,54.00,54.33,502.46,279.91"><head>Table 7</head><label>7</label><figDesc>PARAMETER ESTIMATES: CORRECTINg FOR UNOBSERVED hETEROgENEITY</figDesc><table coords="14,258.78,91.28,276.83,6.86">Model 1: 
+Model 2: 
+Model 3: 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" coords="15,54.00,54.33,479.78,321.91"><head>Table 8</head><label>8</label><figDesc>PARAMETER ESTIMATES WITh WIThIN-CITY NETWORKS CONSIDERED (MODELS 5 AND 6)</figDesc><table coords="15,285.97,91.28,202.39,6.86">Model 5 
+Model 6 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8" coords="15,53.99,387.76,502.47,279.91"><head>Table 9</head><label>9</label><figDesc>PARAMETER ESTIMATES: NONNORMALIZED DEgREE</figDesc><table coords="15,261.80,424.71,270.22,6.86">Model 1 
+Model 2 
+Model 3 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9" coords="16,54.00,360.02,459.34,99.91"><head>Table 10</head><label>10</label><figDesc>UNIFORMITY OF NETWORK gROWThWe thank an anonymous reviewer for suggesting this test.</figDesc><table coords="16,54.00,396.96,275.00,62.96">Percentage Growth of Personal Network 
+During Two Years (748 Days) After Sampling 
+Coefficient 
+z-Value 
+
+Day joined 
+-.0000025 
+-.11 
+Number of friends in sample 
+-.19 
+-.99 
+Constant 
+55.53 
+1.95 
+
+Notes: Number of observations = 93; F(2, 90) = .49. 
+9 </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10" coords="16,53.97,468.82,502.49,270.91"><head>Table 11</head><label>11</label><figDesc>PARAMETER ESTIMATES OF DIFFERENT MODEL SPECIFICATIONS FOR ThE FIRST 138,964 ADOPTERS</figDesc><table coords="16,263.52,505.77,276.43,6.86">Model 1 
+Model 2 
+Model 3 
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11" coords="17,54.00,54.33,498.79,438.91"><head>Table 12</head><label>12</label><figDesc>PARAMETER ESTIMATES FOR CONDENSED FRIENDShIP NETWORKS</figDesc><table coords="17,54.00,91.28,498.79,401.96">Friends Adopting Within 60 Days 
+Friends Adopting Within 30 Days 
+
+Model 1: 
+Model 2: 
+Model 3: 
+Model 1: 
+Model 2: 
+Model 3: 
+Probability of Adoption 
+M (z-Value) 
+M (z-Value) 
+M (z-Value) 
+M (z-Value) 
+M (z-Value) 
+M (z-Value) 
+
+Network Effects 
+Degree 
+3.742** 
+3.682** 
+3.809** 
+3.066** 
+2.813** 
+2.857** 
+(258.07) 
+(214.03) 
+(184.80) 
+(195.11) 
+(148.92) 
+(127.96) 
+Clustering 
+.287** 
+.219** 
+.163** 
+.316** 
+.128** 
+.068* 
+(15.68) 
+(11.40) 
+(6.99) 
+(16.11) 
+(6.26) 
+(2.78) 
+Degree × clustering 
+-.758** 
+-.795** 
+-.722** 
+-.658** 
+-.739** 
+-.583** 
+(-24.62) 
+(-17.37) 
+(-12.70) 
+(-20.79) 
+(-16.39) 
+(-10.55) 
+Influencer Effects 
+Average total degree 
+-.0022** 
+-.0021** 
+.0049** 
+.0054** 
+(-9.74) 
+(-7.78) 
+(12.85) 
+(11.91) 
+Average betweenness (× .001) 
+.037** 
+.038** 
+-.038** 
+-.041** 
+(8.59) 
+(5.65) 
+(-8.30) 
+(-7.59) 
+Average clustering 
+.700** 
+.649** 
+.515** 
+.483** 
+(16.73) 
+(12.39) 
+(14.47) 
+(11.10) 
+Average age 
+.00050 
+-.00053 
+(.71) 
+(-.72) 
+Gender (fraction of females) 
+-.099** 
+-.100** 
+(-7.10) 
+(-7.03) 
+Adopter Effects 
+Total degree 
+.000024 
+.000033 
+-.0039** 
+-.0038** 
+(.13) 
+(1.66) 
+(-10.54) 
+(-8.86) 
+Betweenness (× .001) 
+-.022** 
+-.022** 
+-.080** 
+-.080** 
+(-14.42) 
+(-13.07) 
+(-19.96) 
+(-17.62) 
+Clustering 
+.0031 
+.031 
+.209** 
+.187** 
+(.09) 
+(.77) 
+(6.76) 
+(4.95) 
+Age 
+.00079 
+-.0015* 
+(1.45) 
+(-2.47) 
+Gender (male = 0, female = 1) 
+-.0046 
+-.0013 
+(-.60) 
+(-.16) 
+Population density 
+.0021** 
+.0014** 
+(city of residence) 
+(6.43) 
+(3.87) 
+Network size (× .001) 
+.0026** 
+.0026** 
+.0030** 
+-.00028* 
+.0020** 
+.0023** 
+(29.19) 
+(26.55) 
+(24.28) 
+(-3.01) 
+(19.33) 
+(18.15) 
+
+Constant 
+-5.293** 
+-5.317** 
+-5.418** 
+-4.120** 
+-4.164** 
+-4.125** 
+(-474.07) 
+(-358.38) 
+(-175.02) 
+(-333.52) 
+(-258.03) 
+(-127.72) 
+Observations 
+5,078,035 
+5,053,555 
+3,718,551 
+1,817,996 
+1,795,121 
+1,322,861 
+Pseudo-R² 
+.0863 
+.0875 
+.0882 
+.0840 
+.0912 
+.0917 
+
+*p &lt; .01. 
+**p &lt; .001. 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12" coords="18,54.00,54.33,502.79,438.91"><head>Table 13</head><label>13</label><figDesc>PARAMETER ESTIMATES FOR MODELS CONSIDERINg ONLY A BOUNDED NUMBER OF ADOPTION DECISIONS</figDesc><table coords="18,54.00,91.28,502.79,401.96">First 60 Adoption Decisions Considered 
+First 30 Adoption Decisions Considered 
+
+Model 1: 
+Model 2: 
+Model 3: 
+Model 1: 
+Model 2: 
+Model 3: 
+Probability of Adoption 
+M (z-Value) 
+M (z-Value) 
+M (z-Value) 
+M (z-Value) 
+M (z-Value) 
+M (z-Value) 
+
+Network Effects 
+Degree 
+4.686*** 
+4.006*** 
+4.573*** 
+4.890*** 
+3.400*** 
+3.787*** 
+(35.30) 
+(27.23) 
+(14.71) 
+(20.57) 
+(12.48) 
+(4.88) 
+Clustering 
+.739*** 
+.666*** 
+.696*** 
+1.251*** 
+.951*** 
+.974*** 
+(13.16) 
+(11.68) 
+(8.90) 
+(13.83) 
+(10.22) 
+(7.65) 
+Degree × clustering 
+-1.188*** 
+.087 
+1.465* 
+-1.502*** 
+-.522 
+-.080 
+(-7.67) 
+(.31) 
+(2.46) 
+(-5.84) 
+(-1.35) 
+(-.08) 
+Influencer Effects 
+Average total degree 
+-.0016*** 
+-.0012*** 
+-.0028*** 
+-.0026*** 
+(-7.90) 
+(-4.03) 
+(-8.89) 
+(-5.23) 
+Average betweenness 
+.00023 
+.00014 
+.00094** 
+.0011** 
+(× .001) 
+(.93) 
+(.40) 
+(2.66) 
+(3.22) 
+Average clustering 
+1.763*** 
+3.866*** 
+1.460** 
+2.661 
+(4.11) 
+(4.03) 
+(2.99) 
+(1.91) 
+Average age 
+-.0022 
+-.0014 
+(-.50) 
+(-.19) 
+Gender (fraction of 
+.019 
+.058 
+females) 
+(.19) 
+(.38) 
+Adopter Effects 
+Total degree 
+-.0021*** 
+-.00027 
+-.0064*** 
+-.0027*** 
+(-9.30) 
+(-.92) 
+(-13.05) 
+(-4.11) 
+Betweenness (× .001) 
+.00058*** 
+.000089 
+.0022** 
+-.0028 
+(5.76) 
+(.15) 
+(2.78) 
+(-.55) 
+Clustering 
+-1.262*** 
+-3.521*** 
+-.686* 
+-2.221** 
+(-5.19) 
+(-6.73) 
+(-2.39) 
+(-3.15) 
+Age 
+.029*** 
+.020*** 
+(11.76) 
+(4.01) 
+Gender (male = 0, 
+-.398*** 
+-.236* 
+female = 1) 
+(-6.55) 
+(-2.22) 
+Population density 
+.0096*** 
+.0015 
+(city of residence) 
+(3.67) 
+(.35) 
+Network size (× .001) 
+.013*** 
+.0083*** 
+.017*** 
+.017*** 
+.0088*** 
+.020*** 
+(14.79) 
+(8.57) 
+(9.56) 
+(16.77) 
+(7.87) 
+(9.80) 
+Constant 
+-8.311*** 
+-7.216*** 
+-8.775*** 
+-8.433*** 
+-6.267*** 
+-7.597*** 
+(-237.15) 
+(-76.60) 
+(-36.79) 
+(-119.31) 
+(-42.14) 
+(-17.73) 
+Observations 
+4,553,579 
+4,553,526 
+3,265,048 
+1,185,452 
+1,185,430 
+840,973 
+Pseudo-R² 
+.0718 
+.0793 
+.0406 
+.1353 
+.1637 
+.0841 
+
+*p &lt; .05. 
+**p &lt; .01. 
+***p &lt; .001. 
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">It is important to realize that we do not study a network growth or network formation process but rather a diffusion process on an already existing network of potential adopters; the results depend on the validity of the assumption that we have indeed captured the relevant social network by observing the membership network at a late stage. In our empirical application, we test this assumption in various ways (see the "Network Dynamics" subsection).</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">For early papers, see, for example,<ref type="bibr" coords="3,181.71,633.47,86.14,7.03" target="#b26">Oren and Schwartz (1988)</ref>;<ref type="bibr" coords="3,273.53,633.47,20.47,7.03;3,54.00,642.47,58.30,7.03" target="#b33">Urban and Hauser (1993)</ref>; for more recent applications, see, for example,Goldenberg, Libai, and Muller (2002);Van den Bulte and Joshi (2007).3  Goldenberg, Libai, and Muller (2001, 2002)  generate adoption data by applying stochastic cellular automata models to simulate the diffusion process on a two-dimensional grid.Goldenberg, Libai, and Muller (2002)   compare the results of their simulations with consumer electronics sales data to explain double-peaked diffusion curves, observed in many product categories.<ref type="bibr" coords="3,90.23,705.47,151.45,7.03" target="#b31">Shaikh, Rangaswamy, and Balakrishnan (2005)</ref> develop a diffusion model that takes into account local network characteristics. They demonstrate how it may be used to infer structural properties of the consumer network from aggregate sales data.4  See also relevant early studies in marketing byReingen and Kernan  (1986)  and<ref type="bibr" coords="3,354.87,732.57,66.20,7.03" target="#b28">Reingen et al. (1984)</ref>.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5">Subsequently, we explore an alternative formulation in which we use the number of adopted friends an individual has.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6">We thank the associate editor for suggesting this.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7">The prediction process does not depend on the number of days, and the predicted sets would be the same for different periods. However, the actual probabilities would be small for one day, and it is more realistic to consider a longer period.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8">An interesting difference between the estimates of the two models is the coefficient of Adopter Total Degree.<ref type="bibr" coords="14,450.01,687.65,80.10,7.03" target="#b10">Goldenberg et al. (2009)</ref> propose that social hubs tend to adopt earlier because of more exposure to the product in question. InTable 9, the number of (possible) exposures is directly captured in the Network Degree variable. Because the coefficient of Adopter Total Degree is negative in this estimation, we indeed find empirical support for the explanation of hubs' early adoption.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="19,54.00,254.03,240.00,7.91;19,63.00,264.03,201.11,7.91" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A New Product Growth Model for Consumer Durables</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frank</forename><forename type="middle">M</forename><surname>Bass</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Management Science</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="215" to="242" />
+			<date type="published" when="1969" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,54.00,274.03,240.00,7.91;19,63.00,284.03,231.00,7.91;19,63.00,294.03,216.26,7.91" xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Neighborhood Effects and Trial on the Internet: Evidence from Online Grocery Retailing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><forename type="middle">R</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sangyoung</forename><surname>Song</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quantitative Marketing and Economics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="361" to="400" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,54.00,304.03,240.00,7.91;19,63.00,314.03,215.08,7.91;19,54.00,324.03,240.00,7.91;19,63.00,334.03,101.84,7.91" xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Google: Harnessing the Power of Cliques</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ron</forename><forename type="middle">S</forename><surname>Burt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Brokerage and Closure</title>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2005" />
+			<biblScope unit="page">50</biblScope>
+		</imprint>
+	</monogr>
+	<note>Closure, Trust, and Reputation</note>
+</biblStruct>
+
+<biblStruct coords="19,54.00,344.03,240.00,7.91;19,63.00,354.03,231.00,7.91;19,63.00,364.03,64.75,7.91" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Social Capital in the Creation of Human Capital</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><forename type="middle">S</forename><surname>Coleman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="95" to="120" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+	<note>Supplement</note>
+</biblStruct>
+
+<biblStruct coords="19,54.00,374.03,240.00,7.91;19,63.00,384.03,231.00,7.91;19,63.00,394.03,231.00,7.91;19,63.00,404.03,231.00,7.91;19,63.00,414.03,179.98,7.91" xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Social Cognition and Power: Some Cognitive Consequences of Social Structure as a Source of Control Deprivation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><surname>Dépret</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Susan</forename><forename type="middle">T</forename><surname>Fiske</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shelley</forename><forename type="middle">E</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Control Motivation and Social</title>
+		<editor>Cognition, G. Weary, F. Gleicher, and K. Marsh</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="176" to="202" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,54.00,424.03,225.04,7.91" xml:id="b5">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Social Graph-iti</title>
+		<imprint>
+			<biblScope unit="page">77</biblScope>
+			<date type="published" when="2007-10-20" />
+		</imprint>
+	</monogr>
+	<note>The Economist</note>
+</biblStruct>
+
+<biblStruct coords="19,54.00,434.03,240.00,7.91;19,63.00,444.03,186.31,7.91" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A Set of Measures of Centrality Based on Betweenness</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Linton</forename><forename type="middle">C</forename><surname>Freeman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sociometry</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="35" to="41" />
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,54.00,453.46,240.00,8.58;19,63.00,464.03,174.41,7.91" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Centrality in Social Networks: Conceptual Clarification</title>
+	</analytic>
+	<monogr>
+		<title level="j">Social Networks</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="215" to="254" />
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,54.00,474.03,240.00,7.91;19,63.00,484.03,231.00,7.91;19,63.00,494.03,200.24,7.91" xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The Bases of Social Power</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">R P</forename><surname>French</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bertram</forename><forename type="middle">H</forename><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Raven</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Group Dynamics</title>
+		<editor>Dorwin Cartwright and Alvin Zander</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Harper &amp; Row</publisher>
+			<date type="published" when="1960" />
+			<biblScope unit="page" from="607" to="623" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,54.00,504.03,240.00,7.91;19,63.00,514.03,231.00,7.91;19,63.00,524.03,76.47,7.91" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Using Online Conversation to Study Word-of-Mouth Communication</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Godes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dina</forename><surname>Mayzlin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="545" to="60" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,54.00,534.03,240.00,7.91;19,63.00,544.03,231.00,7.91;19,62.99,554.03,181.99,7.91" xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The Role of Hubs in the Adoption Process</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jacob</forename><surname>Goldenberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sangman</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><forename type="middle">R</forename><surname>Lehmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jae</forename><forename type="middle">Weon</forename><surname>Hong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2009-03" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,54.00,563.46,239.99,8.58;19,62.99,574.03,231.00,7.91;19,62.99,584.03,231.00,7.91;19,62.99,594.03,195.35,7.91" xml:id="b11">
+	<monogr>
+		<title level="m" type="main">The Role of Expert Versus Social Opinion Leaders in New Product Adoption</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">---</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Donald</forename><forename type="middle">R</forename><surname>Lehmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daniella</forename><surname>Shidlovski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michal</forename><forename type="middle">Master</forename><surname>Barak</surname></persName>
+		</author>
+		<idno>No. 06-124</idno>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Marketing Science Institute</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct coords="19,54.00,603.46,240.00,8.58;19,63.00,614.03,231.00,7.91;19,63.00,624.03,189.66,7.91" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Talk of the Network: A Complex Systems Look at the Underlying Process of Word-of-Mouth</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">---</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Barak</forename><surname>Libai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eitan</forename><surname>Muller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Letters</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="211" to="234" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,54.00,633.46,240.00,8.58;19,63.00,644.03,230.99,7.91;19,62.99,654.03,169.01,7.91" xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Riding the Saddle: How Cross-Market Communications Can Create a Major Slump in Sales</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="2002-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,53.99,664.03,240.00,7.91;19,62.98,674.03,139.16,7.91" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The Strength of Weak Ties</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mark</forename><surname>Granovetter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1360" to="80" />
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,53.98,684.03,240.01,7.91;19,62.99,694.03,231.01,7.91;19,62.99,704.03,192.72,7.91" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Network-Based Marketing: Identifying Likely Adopters via Consumer Networks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Foster</forename><surname>Shawndra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chris</forename><surname>Provost</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Volinsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Statistical Science</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="256" to="76" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,53.99,714.03,239.99,7.91;19,62.98,724.03,231.00,7.91;19,62.99,734.03,54.97,7.91" xml:id="b16">
+	<monogr>
+		<title level="m" type="main">An Individual Level Diffusion Model, Carefully Derived from the Bass-Model</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Georg</forename><surname>Holtz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Osnabrueck</orgName>
+		</respStmt>
+	</monogr>
+	<note>working paper</note>
+</biblStruct>
+
+<biblStruct coords="19,317.99,54.33,240.00,7.91" xml:id="b17">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Raghuram</forename><surname>Iyengar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christophe</forename><surname>Van Den Bulte</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><forename type="middle">W</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,326.99,64.33,231.00,7.91;19,326.99,74.33,231.00,7.91;19,326.99,84.33,112.88,7.91" xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Opinion Leadership and Social Contagion in New Product Diffusion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Valente</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>working paper, the Wharton School, the University of Pennsylvania</note>
+</biblStruct>
+
+<biblStruct coords="19,317.99,94.33,240.00,7.91;19,326.99,104.33,231.00,7.91;19,326.99,114.33,231.00,7.91;19,326.99,124.33,152.48,7.91" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Simmelian Ties: Super Strong and Sticky</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Krackhardt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Networks and Organizations: Structure, Form, and Action</title>
+		<editor>Roderick M. Kramer and Margaret A. Neale</editor>
+		<meeting><address><addrLine>Oaks, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Sage Publications</publisher>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="21" to="38" />
+		</imprint>
+	</monogr>
+	<note>Thousand</note>
+</biblStruct>
+
+<biblStruct coords="19,317.99,134.33,239.51,7.91;19,326.99,144.33,160.86,7.91" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Social Networks and Status Attainment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nan</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="467" to="87" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,317.99,154.33,240.00,7.91;19,326.99,164.33,231.00,7.91;19,326.99,174.33,151.14,7.91" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">New Product Diffusion Models: A Review and Directions for Research</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Vijay</forename><surname>Mahajan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eitan</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Frank</forename><surname>Bass</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="1" to="26" />
+			<date type="published" when="1990-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,318.00,183.76,240.00,8.58;19,327.00,194.41,231.00,7.72;19,327.00,204.33,231.00,7.91;19,327.00,214.33,157.73,7.91" xml:id="b22">
+	<analytic>
+		<title level="a" type="main">New Product Diffusion Models</title>
+	</analytic>
+	<monogr>
+		<title level="m">Handbooks in Operations Research and Management Science</title>
+		<editor>Marketing, Jehoshua Eliashberg and Gary L. Lilien</editor>
+		<imprint>
+			<publisher>Elsevier Science Publishers</publisher>
+			<date type="published" when="1993" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="349" to="408" />
+		</imprint>
+	</monogr>
+	<note>Amsterdam</note>
+</biblStruct>
+
+<biblStruct coords="19,318.00,224.33,240.00,7.91;19,327.00,234.33,231.00,7.91;19,327.00,244.33,168.98,7.91" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The Role of Targeted Communication and Contagion in New Product Adoption</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Puneet</forename><surname>Manchanda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ying</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nara</forename><surname>Youn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Marketing Science</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="950" to="61" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,318.00,254.33,240.00,7.91;19,327.00,264.33,124.22,7.91" xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The Reflection Problem</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charles</forename><forename type="middle">F</forename><surname>Manski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Economic Studies</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="531" to="573" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,318.00,274.33,240.00,7.91;19,327.00,284.33,231.00,7.91;19,327.00,294.33,231.00,7.91;19,327.00,304.33,79.97,7.91" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Asymmetric Peer Effects in Physician Prescription Behavior: The Role of Opinion Leaders</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Harikesh</forename><surname>Nair</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Puneet</forename><surname>Manchanda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tulikaa</forename><surname>Bhatia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="883" to="95" />
+			<date type="published" when="2010-10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,318.00,314.33,240.00,7.91;19,327.00,324.33,231.00,7.91;19,327.00,334.33,44.24,7.91" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Diffusion of New Products in Risk-Sensitive Markets</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shmuel</forename><forename type="middle">S</forename><surname>Oren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rick</forename><forename type="middle">G</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Forecasting</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="273" to="87" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,318.00,344.33,240.00,7.91;19,327.00,354.33,231.00,7.91;19,327.00,364.33,94.47,7.91" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Regression Analysis of Grouped Survival Data with Application to Breast Cancer Data</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Prentice</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Gloeckler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="57" to="67" />
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,318.00,374.33,240.00,7.91;19,327.00,384.33,231.00,7.91;19,327.00,394.33,231.00,7.91;19,327.00,404.33,117.25,7.91" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Brand Congruence in Interpersonal Relations: A Social Network Analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><forename type="middle">H</forename><surname>Reingen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Brian</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jacqueline</forename><forename type="middle">Johnson</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Stephen</forename><forename type="middle">B</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Seidman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="771" to="83" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,318.00,413.76,240.00,8.58;19,327.00,424.33,231.00,7.91;19,327.00,434.33,150.37,7.91" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Analysis of Referral Networks in Marketing: Methods and Illustration</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">---</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jerome</forename><forename type="middle">B</forename><surname>Kernan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="370" to="78" />
+			<date type="published" when="1986-11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,318.00,444.33,240.00,7.91;19,327.00,454.33,77.82,7.91" xml:id="b30">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Everett</forename><forename type="middle">M</forename><surname>Rogers</surname></persName>
+		</author>
+		<title level="m">Diffusion of Innovations</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>The Free Press</publisher>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note>5th ed</note>
+</biblStruct>
+
+<biblStruct coords="19,318.00,464.33,240.00,7.91;19,327.00,474.33,231.00,7.91;19,327.00,484.33,230.37,7.91" xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Modeling the Diffusion of Innovations Through Small-World Networks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nazrul</forename><forename type="middle">I</forename><surname>Shaikh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Arvind</forename><surname>Rangaswamy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Anant</forename><surname>Balakrishnan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+		<respStmt>
+			<orgName>Pennsylvania State University</orgName>
+		</respStmt>
+	</monogr>
+	<note>working paper</note>
+</biblStruct>
+
+<biblStruct coords="19,318.00,494.33,240.00,7.91;19,327.00,504.33,231.00,7.91;19,327.00,514.33,231.00,7.91;19,327.00,524.33,159.02,7.91;19,318.00,533.76,240.00,8.58;19,327.00,544.33,231.00,7.91;19,327.00,554.33,58.73,7.91" xml:id="b32">
+	<analytic>
+		<title level="a" type="main">You Snooze You Lose: Comparing the Roles of High Activity and Connectivity in Information Dissemination Over Online Social Networks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><forename type="middle">T</forename><surname>Stephen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yaniv</forename><surname>Dover</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jacob</forename><surname>Goldenberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marketing Research</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="215" to="243" />
+			<date type="published" when="2010-04" />
+			<publisher>Olivier Toubia</publisher>
+		</imprint>
+	</monogr>
+	<note>Deriving Value from Social Commerce Networks</note>
+</biblStruct>
+
+<biblStruct coords="19,318.00,564.33,240.00,7.91;19,327.00,574.33,227.68,7.91" xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Design and Marketing of New Products</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Glen</forename><forename type="middle">L</forename><surname>Urban</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">John</forename><forename type="middle">R</forename><surname>Hauser</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+			<publisher>Prentice Hall</publisher>
+			<pubPlace>Saddle River, NJ</pubPlace>
+		</imprint>
+	</monogr>
+	<note>2d ed. Upper</note>
+</biblStruct>
+
+<biblStruct coords="19,318.00,584.33,240.00,7.91;19,327.00,594.33,231.00,7.91;19,327.00,604.33,231.00,7.91;19,327.00,614.33,231.00,7.91;19,327.00,624.33,47.85,7.91;19,318.00,634.33,240.00,7.91;19,327.00,644.33,231.00,7.91;19,327.00,654.33,80.97,7.91" xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Network Models and Methods for Studying the Diffusion of Innovations</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Thomas</forename><forename type="middle">W</forename><surname>Valente</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yogesh</forename><forename type="middle">V</forename><surname>Cristophe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Joshi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">New Product Diffusion with Influentials and Imitators</title>
+		<editor>Peter J. Carrington, John Scott, and Stanley Wasserman</editor>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press. Van den Bulte</publisher>
+			<date type="published" when="2005" />
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="400" to="421" />
+		</imprint>
+	</monogr>
+	<note>Models and Methods in Social Network Analysis</note>
+</biblStruct>
+
+<biblStruct coords="19,318.00,663.76,240.00,8.58;19,327.00,674.33,231.00,7.91;19,327.00,684.33,113.64,7.91" xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Medical Innovation Revisited: Social Contagion Versus Marketing Effort</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">---</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gary</forename><forename type="middle">L</forename><surname>Lilien</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sociology</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1409" to="1444" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,318.00,694.33,240.00,7.91;19,327.00,704.33,231.00,7.91;19,327.00,714.33,93.01,7.91" xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Influentials, Networks, and Public Opinion Formation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Duncan</forename><forename type="middle">J</forename><surname>Watts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peter</forename><forename type="middle">S</forename><surname>Dodds</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Consumer Research</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="441" to="58" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="19,318.00,723.76,240.00,8.58;19,327.00,734.33,189.26,7.91" xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Collective Dynamics of &apos;Small-Worlds&apos; Networks</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">---</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><forename type="middle">H</forename><surname>Strogatz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">393</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="440" to="482" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct coords="20,70.87,73.87,435.85,10.80;20,70.87,87.67,422.57,10.80;20,70.87,101.47,446.06,10.80;20,70.87,115.27,221.26,10.80" xml:id="b38">
+	<monogr>
+		<title level="m" type="main">JMR) is the property of American Marketing Association and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder&apos;s express written permission. However, users may print, download, or email articles for individual use</title>
+		<imprint/>
+		<respStmt>
+			<orgName>Copyright of Journal of Marketing Research</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

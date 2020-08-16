@@ -1,0 +1,1459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 C:\PWang\Datasets\grobid-0.5.5\grobid-0.5.5\grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.5" ident="GROBID" when="2020-06-22T14:04+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Papain-Like Protease from the Severe Acute Respiratory Syndrome Coronavirus Is a Deubiquitinating Enzyme</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2005-12">Dec. 2005</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Holger</forename><forename type="middle">A</forename><surname>Lindner</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nasser</forename><surname>Fotouhi-Ardakani</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Viktoria</forename><surname>Lytvyn</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Paule</forename><surname>Lachance</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Traian</forename><surname>Sulea</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Robert</forename><surname>Ménard</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Biotechnology Research Institute</orgName>
+								<orgName type="institution" key="instit1">Biotechnology Research Institute</orgName>
+								<orgName type="institution" key="instit2">National Research Council of Canada</orgName>
+								<address>
+									<addrLine>6100 Royalmount Avenue</addrLine>
+									<postCode>H4P 2R2</postCode>
+									<settlement>Montreal</settlement>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">National Research Council of Canada</orgName>
+								<address>
+									<addrLine>6100 Royalmount Avenue</addrLine>
+									<postCode>H4P</postCode>
+									<settlement>Montreal</settlement>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Papain-Like Protease from the Severe Acute Respiratory Syndrome Coronavirus Is a Deubiquitinating Enzyme</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">JOURNAL OF VIROLOGY</title>
+						<imprint>
+							<biblScope unit="volume">79</biblScope>
+							<biblScope unit="issue">24</biblScope>
+							<biblScope unit="page" from="15199" to="15208"/>
+							<date type="published" when="2005-12">Dec. 2005</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1128/JVI.79.24.15199-15208.2005</idno>
+					<note type="submission">Received 26 July 2005/Accepted 22 September 2005</note>
+					<note>0022-538X/05/$08.00ϩ0</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>These results clearly establish that SARS-CoV PLpro is a deubiquitinating enzyme, thereby confirming our earlier prediction. This unexpected activity for a coronavirus papain-like protease suggests a novel viral strategy to modulate the host cell ubiquitination machinery to its advantage.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The identification of a coronavirus as the infectious agent of severe acute respiratory syndrome (SARS) and the rapid sequencing of its genome have led to a renewed interest in coronaviruses <ref type="bibr" target="#b34">(34)</ref>. SARS, which emerged in China in late 2002, is a pulmonary infection with a reported fatal outcome of 10% <ref type="bibr" target="#b42">(42)</ref>. The SARS coronavirus (SARS-CoV) is an enveloped, single-stranded positive-sense RNA virus with a genome comprising approximately 29,700 nucleotides. The SARS-CoV genome is predicted to encode a number of proteins, enzymes, and undefined domains <ref type="bibr" target="#b35">(35,</ref><ref type="bibr" target="#b46">46)</ref> whose functions, for the most part, are currently poorly characterized. The 5Ј proximal region of the genome containing the replicase gene accounts for approximately two-thirds of the full-length genome and encodes the nonstructural proteins (nsp's) essential for viral replication as large overlapping replicase polyproteins, pp1a (486 kDa) and pp1ab (790 kDa). These polyproteins are processed by two viral cysteine proteases to release 16 nsp's <ref type="bibr" target="#b35">(35,</ref><ref type="bibr" target="#b46">46)</ref>. The C-terminal regions of the pp1a and pp1ab polyproteins are processed at 7 and 11 sites, respectively, by a chymotrypsin-like cysteine protease (3CLpro, also called main protease). N-terminal processing of pp1a/pp1ab is carried out at three sites by a papain-like protease (PLpro), releasing nsp1, nsp2, and nsp3 <ref type="figure" target="#fig_0">(Fig. 1A)</ref>.</p><p>PLpro refers to a domain within nsp3 of pp1a/pp1ab, whose boundaries are defined by homology to the papain-like fold <ref type="bibr" target="#b18">(18)</ref>. The PLpro domain can be regarded as the catalytic core behind PLpro-mediated cleavages, even though processing by PLpro enzymes has been reported to be modulated by additional amino acid residues outside of these boundaries <ref type="bibr" target="#b38">(38,</ref><ref type="bibr" target="#b45">45)</ref>. By in vitro translation of pp1a/pp1ab amino acids Lys737 to Thr1858 containing PLpro, Thiel and colleagues showed that SARS-CoV PLpro could cleave at the nsp2/3 boundary <ref type="bibr" target="#b39">(39)</ref>. By coexpressing the SARS-CoV PLpro domain and its predicted pp1a/pp1ab substrate sequences to set up a trans-cleavage assay, Baker and coworkers confirmed that PLpro cleaves all three predicted sites, albeit at different rates <ref type="bibr" target="#b15">(16)</ref>. While the expressed PLpro domain was sufficient for processing the predicted nsp1/2 and nsp2/3 sites (the former being processed more rapidly), an extended region containing a hydrophobic domain downstream of the catalytic domain of PLpro was required for processing the nsp3/4 site. These PLpro-mediated cleavages occurred most likely after the highly conserved P 4 to P 1 motif LXGG, consistent with earlier predictions <ref type="bibr" target="#b15">(16,</ref><ref type="bibr" target="#b39">39)</ref>.</p><p>Using bioinformatics analysis tools, we have detected a significant structural relationship between SARS-CoV PLpro and the catalytic core domain of the herpesvirus-associated ubiquitin-specific protease (HAUSP), also known as USP7 <ref type="bibr" target="#b37">(37)</ref>. The refined three-dimensional model of the SARS-CoV PLpro catalytic core (residues Lys1632-Glu1847), based on this novel relationship, features a circularly permuted Zn-ribbon domain inserted in the middle of a papain-like fold. Mutation of the four cysteine residues in the predicted Zn-binding motif of PL1pro from human CoV 229E (HCoV-229E) has been shown to abolish catalytic activity, suggesting that the Zn-ribbon domain is important for enzyme activity <ref type="bibr" target="#b18">(18)</ref>. The SARS-CoV PLpro structural model also highlights Asp1826 as an activesite residue, which together with Cys1651 and His1812 forms the putative catalytic triad <ref type="bibr" target="#b37">(37)</ref>. Importantly, it was recognized that the binding site complementarity of HAUSP to the Cterminal ubiquitin sequence LRGG matches the LXGG sequence specificity at SARS-CoV PLpro processing sites <ref type="bibr" target="#b15">(16,</ref><ref type="bibr" target="#b35">35,</ref><ref type="bibr" target="#b39">39)</ref>. The detailed substrate interactions modeled in the SARS-CoV PLpro binding site explain its narrow specificity toward Gly residues at substrate positions P 1 and P 2 : the side chains of the S 1 -subsite residues Asn1649 and Leu1702 and S 2 -subsite residues Tyr1813 and Tyr1804 sterically prevent binding of substrate P 1 and P 2 side chains larger than Ala. The available space around P 2 is also limited by a predicted ␤-hairpin loop between Tyr1804 and Tyr1813.</p><p>Combining the modeled SARS-CoV PLpro structure with comparative sequence analyses reveals that all currently known coronaviral PLpro enzymes can be classified into two groups according to their binding site architectures (T. Sulea, H. A. Lindner, E. O. Purisima, and R. Menard, unpublished data). One group, termed R, is characterized by a restricted binding site bearing remarkable similarities to that of ubiquitin-specific proteases (USPs) <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b30">30)</ref> and includes, besides SARS-CoV PLpro, all PL2pro enzymes, the PL1pro enzymes from HCoV-229E, HCoV-NL, porcine transmissible gastroenteritis virus and porcine epidemic diarrhea virus, and the infectious bronchitis virus PLpro. The other group, termed O, features a more open, papain-like binding site (particularly at the S 2 subsite),  <ref type="table">PLpro and 3CLpro</ref> processing sites, respectively. nsp3 is shown inverted, and Ac (acidic), X, SUD (SARS unique domain), PLpro, Y, and HD (hydrophobic domain) refer to the putative nsp3 domain organization. The three residues of the putative PLpro catalytic triad are identified. (B) Fusion protein constructs are shown and labeled as described in the text. Filled arrowheads indicate the positions of putative sites for cleavage by SARS-CoV PLpro, one of which was confirmed in this work by N-terminal sequencing and is shown in underlined bold type. Numbers of N-and C-terminal residues of nsp1-, nsp2-, and nsp3-derived sequences are indicated. N-and C-terminal extensions represent accordingly labeled peptide epitopes added for Western blot detection. aa, amino acid. and includes the coronavirus PL1pro enzymes from HCoV-OC43, HCoV-HKU1, bovine CoV, and mouse hepatitis virus. This binding site-based classification of coronaviral PLpro enzymes is largely consistent with, and explains the processing specificity and inhibition selectivity data available for, several members of the family.</p><p>Perhaps the most intriguing aspect from the structural bioinformatics analysis of the SARS-CoV PLpro domain is its relationship to the USP family <ref type="bibr" target="#b37">(37)</ref>. USPs are cysteine proteases which remove ubiquitin (Ub) and ubiquitin-like (Ubl) modifiers from proteins and peptides. Hence, in addition to polyprotein processing, SARS-CoV PLpro might possess deubiquitinating activity, including deconjugation of other Ubl modifiers. It has become clear that deubiquitination plays an important role in several key cellular processes <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b36">36,</ref><ref type="bibr" target="#b41">41)</ref> and that USPs represent an emerging class of regulators. The deubiquitinating activity of the SARS-CoV PLpro may thus provide ample opportunities for the SARS virus to mimic the function of cellular proteins and modify its environment in order to favor replication. For example, we have speculated that the Ubl interferon (IFN)-induced 15-kDa protein (ISG15) deconjugation by PLpro could allow the SARS virus to counteract protein ISGylation <ref type="bibr" target="#b37">(37)</ref>, an IFN-induced process that may contribute to innate immunity to viral infection <ref type="bibr" target="#b10">(11,</ref><ref type="bibr" target="#b31">31)</ref>. Interestingly, the absence of a detectable IFN-␣/␤ response observed following SARS-CoV infection suggests that the virus may evade some of the innate immune defenses of the host <ref type="bibr" target="#b26">(26)</ref> while it remains susceptible to IFN treatment, particularly IFN-␤ <ref type="bibr" target="#b8">(9,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b21">21)</ref>.</p><p>In order to confirm experimentally the predicted deubiquitinating activity of the SARS coronavirus papain-like protease, we overexpressed and purified the enzyme from Escherichia coli for in vitro characterization. SARS-CoV PLpro was also overexpressed in mammalian cells. The proteolytic activity of the SARS-CoV PLpro was characterized both in vitro and in cell-based assays using various substrates derived from the viral polyprotein cleavage sites, Ub and Ubl fusion proteins (peptide linkages), and ubiquitinated proteins (isopeptide linkages), as well as synthetic substrates. The results presented in this paper demonstrate that SARS-CoV PLpro does possess deubiquitinating activity, thus confirming our original specificity prediction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head><p>DNA constructs. Expression constructs were generated using standard molecular cloning methods <ref type="bibr" target="#b32">(32)</ref> and commercial kits (QIAGEN, Mississauga, Ontario, Canada) for DNA purification and plasmid preparation. The SARS-CoV Tor2 isolate genome clones SARS314L10 and SARS313D06, encoding replicase polyprotein sequences, were obtained from Canada's Michael Smith Genome Science Centre (Vancouver, British Columbia, Canada). Clone SARS314L10 comprises the entire nsp1 plus part of nsp2 referred to here as nsp2* (Met1-Tyr359), and clone SARS313D06 encodes a portion of nsp3 containing the PLpro domain (Val1198-Asp2009). The ISG15 precursor gene (IMAGE clone 3545944) was purchased from Open Biosystems (Huntsville, AL). In the following, the ISG15 precursor is referred to as ISG15P in order to differentiate it from mature ISG15 after the removal of eight amino acid residues from the C terminus <ref type="bibr" target="#b24">(24)</ref>. <ref type="table" target="#tab_0">Table 1</ref> lists the PCR primers used for amplification of specific nsp1-, nsp2-, nsp3-, Ub-, and ISG15P-derived sequences from the appropriate template DNA clones and the nucleotides added for cloning. The ISG15P product and sequence versions of SARS-CoV PLpro extending from either Gly1507 or Glu1541 to Thr1858 were simultaneously ligated into pET-21a(ϩ) (Novagen, Madison, WI) to yield the two fusions constructs T7-ISG15P-PLpro(C2)-His 6 and T7-ISG15P-PLpro(C1)-His 6 , respectively. By this strategy, a Gly-Ser linker sequence was introduced between ISG15P and the respective PLpro sequence. The nsp1-2* sequence Met1 to Tyr359 was ligated into pcDNA3-Flag, yielding The underlined nucleotides of the reverse primer for the ISG15 fragment and the forward primer for the nsp2* fragment represent overhangs that are complementary to the subsequent nucleotides of the forward primer for the nsp2* fragment and the reverse primer for the ISG15 fragment, respectively.</p><p>c The underlined nucleotides of the reverse primer for the Ub fragment and the forward primer for the nsp2* fragment represent overhangs that are complementary to the subsequent nucleotides of the forward primer for the nsp2* fragment and the reverse primer for the Ub fragment, respectively.</p><p>d The introduction of the C1651 mutation in the wild-type PLpro sequence eliminated a MunI restriction site, which was used for screening, and the position of which in the sequence is italicized.</p><p>Flag-nsp1-2*. The pcDNA3-Flag was provided by D. Banville (Biotechnology Research Institute, National Research Council Canada, Quebec, Canada). The vector was derived from pcDNA3 (Invitrogen, Burlington, Ontario, Canada) by inserting the sequence encoding the Flag epitope downstream of a Kozak sequence (CCACCATGG, where ATG serves as the start codon) in the BamHI site of the vector. The ISG15-nsp2* and Ub-nsp2* fusion constructs were obtained by first amplifying the ISG15, Ub, and nsp2* sequences independently with the appropriate primer pairs <ref type="table" target="#tab_0">(Table 1</ref>) and then using either the ISG15 or Ub PCR product in combination with the nsp2* product as a template in a second round of PCR amplification with the forward primer for ISG15 or Ub, respectively, and the reverse primer for nsp2*. The resulting ISG15-nsp2* and Ub-nsp2* PCR products were ligated into pcDNA3.1/Myc-His (Invitrogen), generating ISG15-nsp2*-Myc and Ub-nsp2*-Myc, respectively. The replicase polyprotein sequence Val1198 to Asp2009 was PCR amplified and ligated into pTT5SH8Q1-GFPq (where GFP is green fluorescent protein), resulting in PLpro(C3)-GFP. The pTT5SH8Q1-GFPq vector is a derivative of the pTT vector (13) containing a C-terminal StrepTagII/His 8 G tag <ref type="formula">(7)</ref> and was provided by Y. Durocher (Biotechnology Research Institute).</p><p>To generate catalytically inactive variants of PLpro, the active-site cysteine (Cys1651) was mutated to an alanine in the plasmids encoding T7-ISG15P-PLpro(C1)-His 6 , T7-ISG15P-PLpro(C2)-His 6 , and PLpro(C3)-GFP using a QuikChange XL Site-Directed Mutagenesis Kit (Stratagene, La Jolla, CA). The forward version of the mutagenic primer is included in <ref type="table" target="#tab_0">Table 1</ref>. All constructs generated during the course of this work were confirmed by DNA sequencing and are illustrated in <ref type="figure" target="#fig_0">Fig. 1B</ref>.</p><p>Expression and purification of SARS-CoV PLpro from E. coli. The plasmids encoding T7-ISG15P-PLpro(C1)-His 6 , T7-ISG15P-PLpro(C2)-His 6 , and the corresponding PLpro active-site C1651A mutants were transformed into BL21(DE3) cells (Novagen). Unless indicated otherwise, transformed E. coli cultures were grown in Miller's LB broth base (Invitrogen) containing 100 g/ml ampicillin at 37°C. For analysis of functional PLpro expression, 1-ml aliquots of overnight cultures were diluted 10-fold and grown for 1 h. Protein expression was induced with isopropyl-1-thio-␤-D-galactopyranoside (0.4 mM final concentration) for 3 h at 22°C. Aliquots of 0.5-ml cell cultures were pelleted, resuspended in 50 l of sodium dodecyl sulfate-polyacrylamide gel electrophoresis (SDS-PAGE) loading buffer, boiled, and subjected to Western blot analysis as described below.</p><p>For purification of overexpressed PLpro, growth conditions were modified according to <ref type="bibr">Schlicke and Brakmann (33)</ref>. Cells were cultured in Miller's LB broth base (Invitrogen) containing 100 g/ml ampicillin supplemented with sorbitol (660 mM) (Fisher Scientific, Nepean, Ontario, Canada) and glycine betaine hydrochloride (2.5 mM) (Sigma, Saint Louis, MO). Overnight cultures of 5 ml were diluted 20-fold, and protein expression was induced at an A 600 value of 0.7. Cells were lysed and protein was purified using a BugBuster His-Bind Purification Kit (Novagen) according to the instructions of the supplier. Briefly, cells from a 100-ml expression culture were lysed in 5 ml of protein extraction reagent. His-tagged protein was purified on 1.2 ml of Ni-nitrilotriacetic acid (NTA) resin and eluted in a volume of 2.5 ml. A major band revealed on SDS-PAGE was subjected to N-terminal sequencing according to the method of Matsudaira <ref type="bibr" target="#b29">(29)</ref>. The eluted protein was transferred into 20 mM Tris-HCl (pH 8.0) and 10% (vol/vol) glycerol using a PD-10 seizing column (Amersham Biosciences, Inc., Piscataway, NJ) and loaded on a MonoQ HR 5/5 column (Amersham Biosciences), which was operated at a flow rate of 1 ml/min and equilibrated with the same buffer. Elution was carried out using a linear 20-ml gradient of 0 to 1 M NaCl in equilibration buffer. Peak fractions of Ub-7-amino-4-methylcoumarin (AMC) hydrolyzing activity, measured as described below, were pooled. The enzyme retained its activity following storage for 1 month at Ϫ80°C and was also stable after 24 h at 4°C. All analyses were carried out within these time frames. Protein concentrations were determined using the Bio-Rad (Hercules, CA) protein assay based on the original Bradford assay (5) with bovine serum albumin (Sigma) as the standard.</p><p>In vitro assays of SARS-CoV PLpro activity. The activity of purified SARSCoV PLpro was assessed using the fluorogenic substrates Ub-AMC (Boston Biochem, Cambridge, MA) and Z-LRGG-AMC (Bachem Bioscience, King of Prussia, PA). The rate of substrate hydrolysis was determined by monitoring AMC-released fluorescence (excitation , 380 nm; emission , 440 nm) as a function of time on a SPEX Fluorolog-2 spectrofluorometer (Horiba Jobin Yvon, Edison, NY) at 25°C. The kinetic measurements were carried out in the presence of 50 mM Tris-HCl (pH 7.9), 2 mM dithiothreitol (DTT), 200 mM NaCl, and 2% (vol/vol) dimethyl sulfoxide. The enzyme was tested for stability under the assay conditions prior to the experiments. Reactions were initiated by the addition of enzyme to the cuvette, yielding final concentrations of 10 nM for the assay with the substrate Ub-AMC and 20 nM with the substrate Z-LRGG-AMC. Since no saturation was observed in plots of the rate versus substrate concentration, the k cat /K m values were obtained by dividing the initial rates by the substrate and enzyme concentrations. The kinetics of inhibition by ubiquitin aldehyde (Ubal) (Boston Biochem) was measured using the Ub-AMC substrate at a concentration of 125 nM ([S] Ͻ Ͻ K m ) and 20 nM PLpro. The rate versus time curves showed a time-dependent slow inhibition process, and the steady-state rates (v i ) in the presence of 0.3 to 1.5 M Ubal were used to determine the inhibition constant K i , by a plot of 1/v i versus inhibitor concentration <ref type="bibr" target="#b11">(12)</ref>.</p><p>Hydrolysis of Lys48-linked polyubiquitin chains with lengths of two to seven (Ub2-7) or four (Ub4) units (Boston Biochem) was tested by incubating 5 g of Ub2-7 or Ub4 from 1 mg/ml stock solutions in 50 mM Tris-HCl (pH 7.9) with 200 ng of purified PLpro (2 l) in a final volume of 25 l 50 mM Tris-HCl (pH 7.9), 200 mM NaCl, and 2 mM DTT for 2 h at 37°C. Controls were incubated without enzyme. Samples were subjected to SDS-PAGE.</p><p>Hydrolysis of ISG15-nsp2*-Myc from HeLa cells was assayed in cell lysates prepared as described below. Twenty micrograms of protein contained in 10 to 15 l of HeLa cell lysate was incubated with 200 ng of purified PLpro (2 l) in a final volume of 20 l of 50 mM HEPES (pH 7.9) 150 mM NaCl, and 2 mM DTT for 2 h at 37°C, followed by Western blot detection of the Myc epitope as described below.</p><p>Tissue culture. HeLa cells (American Type Culture Collection, Manassas, VA) were maintained in Dulbecco's modified Eagle's medium (Invitrogen) containing 10% heat-inactivated fetal bovine serum (HyClone, Logan, UT) in a humidified 5% CO 2 atmosphere at 37°C. For expression of Ub-nsp2*-myc, ISG15-nsp2*-Myc, Flag-nsp1-2*, and PLpro(C3)-GFP, 2 ϫ 10 6 HeLa cells were seeded on 60-mm cell culture plates and transiently transfected with the indicated plasmids using Lipofectin reagent (Invitrogen) according to the manufacturer's instructions. The pcDNA3.1 vector (Invitrogen) was used as a control. At 48 h after transfection, cells were washed once with cold phosphate-buffered saline and harvested by scraping in 0.5 ml of 50 mM HEPES (pH 7.9), 150 mM sodium chloride, 1% Triton X-100, 1 mM phenylmethylsulfonyl fluoride, 20 g/ml leupeptin, and 1 g/ml aprotinin. Lysates were cleared by centrifugation at 20,000 ϫ g for 10 min at 4°C. Expression of recombinant proteins was analyzed by Western blotting as described below.</p><p>Western blotting. HeLa cell lysates and whole E. coli cells were subjected to SDS-PAGE and electroblotted onto Hybond-ECL nitrocellulose membranes (Amersham Biosciences). Unless indicated otherwise, steps were carried out at ambient temperature. Membranes were first blocked for 1.5 h with 10% skim milk powder in 20 mM Tris-HCl (pH 7.6), 137 mM NaCl, and 0.05% (vol/vol) Tween 20 (TBST) and then incubated with the appropriate primary antibody overnight at 4°C. Monoclonal antibodies against the T7 (Novagen) (1:8,000), His 6 (Novagen) (1:2,500), Flag (Sigma) (1:2,000) and Myc (Sigma) (1:2,000) epitopes and GFP (clone 11E5 was a kind gift from A. Marcil, Biotechnology Research Institute) (1:5) were diluted in blocking solution as indicated and were used to detect accordingly tagged proteins. After washing with TBST once for 45 min for T7 and His 6 detection or three times for 5 min for Flag, Myc, and GFP detection, blots were incubated with the appropriate horseradish peroxidaseconjugated secondary antibody in blocking solution for 1 h. Goat anti-rabbit and goat anti-mouse conjugates were from Bio-Rad. After being washed as above, blots were developed using the ECL Western blotting analysis system (Amersham Biosciences).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Expression of SARS-CoV PLpro in E. coli. In order to experimentally test our previous prediction that the SARS-CoV PLpro displays deubiquitinating activity in addition to its role in replicase polyprotein processing, we chose to produce the enzyme recombinantly in E. coli. Although its homology to papain defines the SARS-CoV PLpro as a domain within nsp3, the inclusion of additional N-and C-terminal sequences was reported to be necessary for the generation of enzymatically active enzyme in Vero E6 cells <ref type="bibr" target="#b15">(16)</ref> or by in vitro translation <ref type="bibr" target="#b39">(39)</ref>. Based on these data, we selected replicase polyprotein amino acids Glu1541 and Thr1858 as the N-and C-terminal residues of our first PLpro construct, as this yields the shortest of the possible sequences from combinations of the N and C termini of the previously reported active SARS-CoV PLpro constructs <ref type="bibr" target="#b15">(16,</ref><ref type="bibr" target="#b39">39)</ref>. The strategy adopted to express this pro-tein is based on the production of a fusion between a Ubl modifier (ISG15) and the selected SARS-CoV PLpro sequence. Fusing proteins to Ub (3) or the Ubl modifier SUMO (6) has been reported as a useful approach for soluble protein expression. Such an approach has been used successfully for the expression of a fusion protein of ISG15 to USP18 <ref type="bibr" target="#b28">(28)</ref>. In that study, the ISG15-USP18 fusion protein underwent complete autocleavage during expression in E. coli, demonstrating the catalytic activity of the enzyme <ref type="bibr" target="#b28">(28)</ref>. The potential to rapidly obtain information on the activity of our selected PLpro sequence is another advantage of this approach. Considering these points led us to generate a fusion of the precursor of ISG15 (ISG15P, where P stands for the eight-amino-acid residue propeptide) to the selected SARS-CoV PLpro sequence, which includes the PLpro catalytic core domain <ref type="figure" target="#fig_0">(Fig. 1B)</ref>. The Ubl protein ISG15 was selected as a fusion partner to the SARS-CoV PLpro, due to the significance of the ISG15-specific USP family peptidase USP18 for innate immunity to viral infection (31), which had previously led us to speculate that the Ubl ISG15 may also represent a cellular target for SARS-CoV PLpro <ref type="bibr" target="#b37">(37)</ref>. We provided the ISG15P-PLpro(C1) fusion with an N-terminal T7 and a C-terminal His 6 epitope and subjected a whole-cell lysate of a fusion protein expression culture to Western blot analyses <ref type="figure" target="#fig_1">(Fig. 2)</ref>. The N terminus-specific anti-T7 antibody detected a major species, which, however, migrated at a lower molecular weight (ϳ15 kDa) than calculated for the expected T7-ISG15 fragment (18 kDa), suggesting further Cterminal degradation <ref type="figure" target="#fig_0">(Fig. 2, lane 1)</ref>. The C terminus-specific anti-His 6 antibody detected a major band close to the calculated 38-kDa band of the P-PLpro(C1)-His 6 fragment <ref type="figure" target="#fig_1">(Fig. 2,  lane 5)</ref>, which is consistent with cleavage of the fusion protein at a position close to the processing site of ISG15P (Gly1572Gly158) <ref type="bibr" target="#b24">(24)</ref>. Introduction of the active-site mutation C1651A in the PLpro sequence prevented the occurrence of these cleavage products and stabilized the full-length T7-ISG15P-PLpro(C1)-His 6 fusion protein, which was detected with both antibodies at its predicted molecular weight of 56 kDa, in addition to a few minor degradation products <ref type="figure" target="#fig_1">(Fig. 2,  lanes 2 and 6)</ref>. This indicates that the enzyme is catalytically active and undergoes complete autocleavage. However, efforts to recover soluble P-PLpro-His 6 protein from expression cultures failed, and the protein was retained in the insoluble fractions of cell lysates. Importantly, no Ub-AMC hydrolyzing activity could be detected in cell lysates or eluates from Ni-NTA column chromatography, indicating the absence of this activity from E. coli in accordance with previous reports <ref type="bibr" target="#b27">(27)</ref>.</p><p>In a second attempt, we replaced the PLpro(C1) sequence of our fusion protein by an N-terminally extended version, PLpro(C2), comprising residues Gly1507 to Thr1858 <ref type="figure" target="#fig_0">(Fig. 1B)</ref>. As before, the fusion protein was completely degraded to a smaller anti-T7 antibody-reactive ϳ15-kDa fragment <ref type="figure" target="#fig_1">(Fig. 2,  lane 3)</ref> and an anti-His 6 antibody-reactive species close to the 41 kDa expected for P-PLpro(C2)-His <ref type="bibr" target="#b5">6</ref>  <ref type="figure" target="#fig_1">(Fig. 2, lane 7)</ref>. Also, the active-site mutant was detected with both antibodies at a molecular weight close to the 60 kDa expected for the intact T7-ISG15P-PLpro(C2)-His 6 but without the additional degradation products seen with the mutant of the corresponding PLpro(C1) fusion <ref type="figure" target="#fig_1">(Fig. 2, lanes 4 and 8)</ref>.</p><p>During overexpression trials, P-PLpro(C2)-His 6 proved to retain its solubility when expressed in the presence of sorbitol and glycine betaine in the growth medium (see Materials and Methods). <ref type="figure" target="#fig_2">Figure 3</ref> shows the appearance in SDS-PAGE of the main fractions obtained during the purification of the protein. After initial Ni-NTA chromatography <ref type="figure" target="#fig_2">(Fig. 3, lane 3)</ref>, a major band, running approximately at the expected 41 kDa, was subjected to N-terminal sequencing of the first seven residues, which confirmed the presence of the intact ISG15P C terminus-derived peptide (P). Subsequent anion exchange chromatography <ref type="figure" target="#fig_2">(Fig. 3, lane 5</ref>) removed remaining protein species running at higher or lower molecular weights in SDS-PAGE. Sixty-five percent of the Ub-AMC hydrolyzing activity eluted from the column was recovered in a volume of 1 ml containing approximately 100 g of protein with about 290 mM NaCl. However, an additional faint band, migrating immediately below SARS-CoV PLpro and representing a potential degradation product, could not be separated. The obtained purified enzyme [P-PLpro(C2)-His 6 ] sample was used for further studies.</p><p>Catalytic properties and inhibition of SARS-CoV PLpro. To determine the enzymatic activity of recombinant purified SARS-CoV PLpro, we performed a general deubiquitinating assay using the substrate Ub-AMC (10). The substrate was  <ref type="figure" target="#fig_0">(lanes 1, 3, 5</ref>, and 7) and C1651A mutants (mut) (lanes 2, 4, 6, and 8) was analyzed by resolving 5-l aliquots of cell lysates by 12% SDS-PAGE and Western blot detection with T7-and His 6 -specific antibodies. Positions of molecular mass standards are indicated between the blots (in kDa).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VOL. 79, 2005</head><p>DEUBIQUITINATING ACTIVITY Of SARS PAPAIN-LIKE PROTEASEefficiently hydrolyzed by the PLpro, with a k cat /K m of 13,100 M Ϫ1 s Ϫ1 <ref type="figure">(Fig. 4A)</ref>. The initial rate of substrate hydrolysis increased linearly with substrate concentration, indicating that the K m value is much higher than the highest substrate concentration used (125 nM). The catalytic activity against Ub-AMC was compared to the activity against a small synthetic AMC substrate which incorporates the C-terminal four residues found in Ub (LRGG). Activity against Z-LRGG-AMC was found to be 220-fold lower than for Ub-AMC, with a k cat /K m of only 60 M Ϫ1 s Ϫ1 . Ubal, a specific inhibitor of several deubiquitinating enzymes <ref type="bibr" target="#b19">(19)</ref>, reacts with the active-site cysteine residue to form a reversible hemithioacetal adduct <ref type="bibr" target="#b20">(20,</ref><ref type="bibr" target="#b22">22)</ref>. In order to determine if Ubal can inhibit the SARS-CoV PLpro, cleavage of Ub-AMC was measured in the presence of Ubal. As shown in <ref type="figure">Fig. 4B</ref>, the presence of Ubal at sub-to low-micromolar concentrations leads to a time-dependent inhibition of SARS-CoV PLpro activity. From these curves, the dissociation constant of the PLpro-Ubal adduct is estimated at 210 nM.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SARS-CoV PLpro disassembles branched polyubiquitin chains.</head><p>To determine whether purified SARS-CoV PLpro could hydrolyze isopeptide bond-linked Ub units, we incubated the enzyme with Lys48-linked homopolymeric Ub chains of different lengths as described in Materials and Methods. SDS-PAGE analysis of the reaction mixture containing Ub2-7 revealed significant reductions in the amounts of each of the visible Ub conjugates (Ub3 through Ub6) in the presence of SARS-CoV PLpro <ref type="figure" target="#fig_0">(Fig. 5, lanes 1 and 2)</ref>. Interestingly, while single Ub can be detected, the main product observed is diubiquitin. A similar result is obtained when a homogenous Ub4 polymer preparation is used. Ub and Ub2 were generated with a concomitant decrease in the amount of Ub4, with the latter form present in higher amounts <ref type="figure" target="#fig_2">(lanes 3 and 4)</ref>. These results demonstrate that SARS-CoV PLpro has isopeptidase activity and can act as a polyubiquitin debranching enzyme. The accumulation of the Ub2 form, however, is intriguing and suggests that processing of Ub2 to single Ub units is much slower than processing of longer polyubiquitin chains. More studies are ongoing to elucidate this apparent specificity for the size of the branched polyubiquitin chains.</p><p>Trans-cleavage of an ISG15 fusion protein by SARS-CoV PLpro. The ability of SARS-CoV PLpro to autoprocess a fusion to the precursor protein of ISG15 showed that the E. coli-expressed enzyme was catalytically active <ref type="figure" target="#fig_1">(Fig. 2)</ref>. However, this experimental setup is unable to differentiate between cis-and trans-cleavage. In order to test SARS-CoV PLpro processing activity against an ISG15 fusion protein in a transcleavage assay, we expressed a fusion of ISG15 to the SARSCoV replicase polyprotein sequence nsp2* <ref type="figure" target="#fig_0">(Fig. 1B)</ref> in HeLa cells. Lysates of cells expressing ISG15-nsp2*-Myc were incubated with purified SARS-CoV PLpro as described in Material and Methods, and Western blots were probed with an anti-Myc antibody <ref type="figure">(Fig. 6</ref>). In the absence of PLpro, intact ISG15-nsp2*-Myc could be detected (lane 2) but disappeared when purified SARS-CoV PLpro was included in the reaction mixture (lane 3). The corresponding Ub fusion protein Ub-nsp2*-Myc could not be detected in HeLa lysates, likely due to its efficient degradation by endogenous deubiquitinating enzymes, precluding its use as a substrate (lane 4).</p><p>To assess whether the same ISG15-nsp2* cleavage would be carried out by SARS-CoV PLpro in an intact cellular environment, we coexpressed nsp3 residues Val1198 to Asp2009 fused to GFP [PLpro(C3)-GFP] <ref type="figure" target="#fig_0">(Fig. 1B)</ref> with its substrate in HeLa cells. SARS-CoV replicase polyprotein processing at the nsp1/2 cleavage site was previously shown to be the most efficient of the three PLpro-mediated processing events <ref type="bibr" target="#b15">(16)</ref>. Therefore, a Flag-nsp1-2* construct was first used to detect the catalytic activity of coexpressed SARS-CoV PLpro. Anti-Flag Western blotting detected an N-terminal cleavage product, running approximately at the expected size of Flag-nsp1, and eliminated any detectable full-length Flag-nsp1-2* <ref type="figure" target="#fig_4">(Fig. 7A,  lane 4)</ref>. The nsp1-2* protein remained intact in the presence of the PLpro active-site mutant C1651A (lane 6). Considering this as an indication of functional SARS-CoV PLpro expression in HeLa cells, we next coexpressed the wild-type enzyme with the ISG15-nsp2*-Myc substrate, which was shown before to be cleaved by purified SARS-CoV PLpro <ref type="figure">(Fig. 6</ref>). As with added purified PLpro, the wild-type enzyme led to the disappearance of the full-length ISG15 fusion <ref type="figure" target="#fig_2">(Fig. 7B, lane 3)</ref>, whereas it was still readily detected when coexpressed with the active-site mutant (lane 4). These experiments indicate that SARS-CoV PLpro mediated ISG15 processing can occur in trans.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>In order to investigate whether SARS-CoV PLpro exhibits deubiquitinating activity, we sought to overproduce the enzyme by recombinant means. Expression of the precursor of ISG15 to our selected SARS-CoV PLpro sequences Gly1507 to Thr1858 and Glu1541 to Thr1858, both including the PLpro catalytic core domain (Lys1632-Glu1847) <ref type="figure" target="#fig_0">(Fig. 1B)</ref>, in E. coli led to autocatalytic removal of the mature ISG15, with the eight-residue C-terminal propeptide remaining attached at the PLpro N terminus. This indicates that the PLpro recognized the conserved LRGG motif and that hydrolysis occurred between Gly157 and Gly158 of the ISG15 precursor generating the authentic mature ISG15. The inclusion of sorbitol and the "chemical chaperone" glycine betaine in the E. coli growth medium afforded the soluble expression and subsequent purification to near homogeneity of only the longer version of SARS-CoV PLpro (starting with Gly1507). It is tempting to speculate that truncation at Glu1541 may have precluded the isolation of soluble protein because it removes part of an additional N-terminal domain, which, however, may not be absolutely necessary for the PLpro catalytic activity.</p><p>In has been reported for hydrolysis of the same substrate by isopeptidase T (10). It must be noted that no potent irreversible inhibitor was available to perform active-site titration,  The purified SARS-CoV PLpro was also shown to be active against Lys48-linked polyubiquitin chains (Ub2-7 and Ub4), where processing occurs through cleavage of isopeptide bonds <ref type="figure" target="#fig_3">(Fig. 5)</ref>. In addition, SARS-CoV PLpro processing activity was detected against an ISG15 fusion protein, both in vitro using purified enzyme <ref type="figure">(Fig. 6)</ref> and in a HeLa cell-based assay <ref type="figure" target="#fig_4">(Fig.  7)</ref>. Activity of SARS-CoV PLpro toward Ub fusion proteins could not be studied in a cellular environment, since human USPs efficiently processed the substrate even in the absence of PLpro. These results taken together clearly establish that the SARS-CoV PLpro can deubiquitinate substrates, thereby confirming our earlier prediction <ref type="bibr" target="#b37">(37)</ref>.</p><p>The nature of the putative SARS-CoV PLpro substrate(s) and the mechanism by which the enzyme recognizes its substrate(s) are presently unknown. This is also true of several mammalian USPs. For example, it was noted that the HAUSP catalytic core may be insufficient by itself to recognize ubiquitinated substrates <ref type="bibr" target="#b20">(20)</ref>. USPs are known with a variety of extensions at their N-and/or C-terminal regions, as well as insertions in their catalytic domains <ref type="bibr" target="#b7">(8,</ref><ref type="bibr" target="#b23">23)</ref>. It is currently thought that these "domains" could be involved in substrate recognition/binding or could confer substrate specificity to the basic deubiquitinating scaffold. The additional domains could also influence intracellular localization. Interestingly, this somewhat parallels the situation with SARS-CoV PLpro, where the enzyme is found within nsp3, the largest replicase subunit encoded by SARS-CoV. The catalytic core of SARSCoV PLpro is flanked by additional domains in nsp3, which have been suggested to modulate proteolytic processing and influence subcellular localization of coronaviral PLpro enzymes <ref type="bibr" target="#b15">(16,</ref><ref type="bibr" target="#b44">44)</ref>. The dependence of proteolytic activity on regions of the viral polyprotein outside of the PLpro catalytic core may explain why small synthetic peptide substrates are not hydrolyzed (or hydrolyzed very poorly) by coronaviral PLpro enzymes <ref type="bibr" target="#b18">(18,</ref><ref type="bibr" target="#b38">38)</ref>. An interesting feature of HAUSP (and possibly of several other USPs, including SARS-CoV PLpro) is that the active site of the enzyme in the free form exists in a conformation which is catalytically inactive <ref type="bibr" target="#b20">(20)</ref>. Ub binding causes a conformational change to produce the catalytically competent active site. Similarly, binding to polyprotein regions outside of the PLpro catalytic core might be required to produce the catalytically competent form of the PLpro.</p><p>Establishing exactly how the SARS coronavirus can benefit from the deubiquitinating activity of PLpro through the deciphering of the affected process(es) or pathway(s) is a challenging task. Deubiquitinating enzymes can process several types of Ub and Ubl precursors and conjugated proteins and peptides <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b41">41)</ref>. These events regulate several important cellular processes and biological pathways <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b36">36,</ref><ref type="bibr" target="#b41">41)</ref>. The identity of the modifier (Ub or Ubl) as well as the nature of the substrate recognized by the SARS-CoV PLpro will lead to interference with distinct sets of biological functions. The most widespread mechanism of ubiquitin action is to target proteins for degra- dation by the proteasome <ref type="bibr" target="#b13">(14,</ref><ref type="bibr" target="#b40">40)</ref>. The deubiquitinating activity of SARS-CoV PLpro could, therefore, protect proteins from degradation, thereby increasing the stability and steadystate level of host and/or viral proteins.</p><p>Results obtained in this study also suggest that SARS-CoV PLpro may de-ISGylate protein conjugates. Indeed, cleavage of isopeptide bonds in polyubiquitin chains was observed, the acceptance of the ISG15 fragment in SARS-CoV PLpro substrates was demonstrated, and both Ub and ISG15 share the same C-terminal sequence (LRLRGG). Taken together, these three observations imply ISG15-deconjugation (isopeptide bond cleavage). It must be noted that isopeptidase T, which normally acts on Ub conjugates, was shown to cross-react with an ISG15-vinyl sulfone, indicating some level of overlapping deubiquitinating and de-ISGylating activities <ref type="bibr" target="#b16">(17)</ref>. The induction of ISG15 and the formation of ISG15 conjugates seem to be important to confer host cell protection against viral infections. In humans, USP18 has been identified as an ISG15-specific protease, with no evidence of Ub-deconjugating activity <ref type="bibr" target="#b28">(28)</ref>. Recently, Ritchie et al. have shown that lack of USP18, which was shown to increase the level of ISGylated proteins, also abolished replication of several RNA viruses <ref type="bibr" target="#b31">(31)</ref>. This was interpreted as an indication that protein ISGylation can create an environment less favorable to virus infection. It is therefore possible that SARS-CoV PLpro, through deconjugation of ISGylated proteins, could confer an advantage to SARS-CoV infections. The importance of the "ISG15 pathway" in the host response to viral infections is also illustrated by the NS1B protein of influenza B virus, which binds to ISG15, thereby preventing ISGylation of proteins <ref type="bibr" target="#b43">(43)</ref>.</p><p>Evidence is emerging that viral deubiquitinating enzymes can play a role in virus infection. Adenovirus infection is accompanied by an increase in deubiquitinating activity in the host cells, which has been attributed to the adenovirus protease (4). The authors have also shown that the adenovirus protease was capable of processing the ISG15 precursor in vitro. African swine fever virus also contains a protease, the N-terminal protease (N pro ), which features a core domain characteristic of SUMO-1-specific proteases (2), another family of deubiquitinating enzymes. Cells infected with African swine fever virus fail to produce IFNs-␣/␤, an effect that was attributed to the viral protein N pro <ref type="bibr" target="#b25">(25)</ref>. The prediction that SARS-CoV PLpro could deubiquitinate proteins originated from our recent bioinformatics study, where a model of the protease has been produced <ref type="bibr" target="#b37">(37)</ref>. The results obtained in this work provide the first experimental validation of our prediction. The involvement of SARS-CoV PLpro in polyprotein processing is now well established, but its role in the assembly and function of the replicase complex is still unclear <ref type="bibr" target="#b15">(16)</ref>. The protease is located in nsp3, which is part of the replicase complex, and it is also unclear if the SARSCoV PLpro will be able to deubiquitinate substrates while being associated to this complex. It must be noted, however, that the viral polyprotein undergoes processing by the PLpro prior to formation of the replicase complex, and therefore deubiquitination by the SARS-CoV PLpro could occur outside of the complex. Confirmation that deubiquitination is operative in the context of a SARS-CoV infection might be best achieved by the identification of substrates from cells infected by the virus. Nevertheless, the possibility that the SARS-CoV PLpro could also deubiquitinate host or viral proteins has added an additional level of functional complexity to this enzyme and elevated the value of the SARS-CoV PLpro as a potential target for therapeutic intervention. It must be noted that contrary to the O-group of coronaviral PLpro enzymes, at least one R-group PLpro can be found in all coronaviruses identified so far (T. Sulea, H. A. Lindner, E. O. Purisima, and R. Menard, unpublished data). This absolute conservation across multiple coronaviruses indicates that the R-group PLpro enzymes (which are all predicted to possess deubiquitinating activity) may play an important role that cannot be compensated for by the O-group enzyme. Although SARS now appears to have been contained, there are reasons to be concerned about the possibility of SARS reemergence in humans <ref type="bibr" target="#b34">(34)</ref>. Development of antiviral agents to treat SARS should, therefore, remain an open research area. For this purpose, continued investigation of SARS-CoV PLpro functions is likely to improve our understanding of processes taking place at the molecular level during viral infection.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG. 1 .</head><label>1</label><figDesc>FIG. 1. Schematic diagrams of the SARS-CoV replicase polyprotein 1a and fusion protein constructs used in this work. (A) Filled and open arrowheads indicate the positions of the PLpro and 3CLpro processing sites, respectively. nsp3 is shown inverted, and Ac (acidic), X, SUD (SARS unique domain), PLpro, Y, and HD (hydrophobic domain) refer to the putative nsp3 domain organization. The three residues of the putative PLpro catalytic triad are identified. (B) Fusion protein constructs are shown and labeled as described in the text. Filled arrowheads indicate the positions of putative sites for cleavage by SARS-CoV PLpro, one of which was confirmed in this work by N-terminal sequencing and is shown in underlined bold type. Numbers of N-and C-terminal residues of nsp1-, nsp2-, and nsp3-derived sequences are indicated. N-and C-terminal extensions represent accordingly labeled peptide epitopes added for Western blot detection. aa, amino acid.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIG. 2 .</head><label>2</label><figDesc>FIG. 2. Expression of ISG15P-SARS-CoV PLpro fusion proteins in E. coli. The expression of T7-ISG15P-PLpro(C1)-His 6 and T7-ISG15P-PLpro(C2)-His 6 wild-type (wt) proteins (lanes 1, 3, 5, and 7) and C1651A mutants (mut) (lanes 2, 4, 6, and 8) was analyzed by resolving 5-l aliquots of cell lysates by 12% SDS-PAGE and Western blot detection with T7-and His 6 -specific antibodies. Positions of molecular mass standards are indicated between the blots (in kDa).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIG. 3 .</head><label>3</label><figDesc>FIG. 3. SDS-PAGE analysis of SARS-CoV PLpro purified from E. coli. SARS-CoV PLpro (from residue Gly1507 to Thr1858) was expressed as a fusion protein to the precursor of ISG15. SARS-CoV PLpro was purified as a 41-kDa autocleavage product, with the prosequence of ISG15 remaining at the N terminus. Marker proteins (lane 1), 1.5 l of the soluble fraction from the cell lysate (lane 2), and 1.5 g (each) of eluate from Ni-NTA (lane 3), PD-10 (lane 4), and MonoQ (lane 5) columns were separated by 12% SDS-PAGE and stained with Coomassie blue. The molecular weights of the marker proteins are indicated on the left of the gel (in kDa).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FIG. 5 .</head><label>5</label><figDesc>FIG. 5. Hydrolysis of branched polyubiquitin chains by SARS-CoV PLpro purified from E. coli. Lys48-linked Ub2-7 or Ub4 chains were incubated with SARS-CoV PLpro (lanes 2 and 4). SARS-CoV PLpro was present at 8 g/ml, and either substrate was present at 200 g/ml. Controls were without enzyme (lanes 1 and 3). Proteins were resolved by 10% SDS and revealed by Coomassie blue staining. The molecular weights of the marker proteins are indicated on the right of the gel (in kDa).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FIG. 7 .</head><label>7</label><figDesc>FIG. 7. Cell-based trans-cleavage assays of SARS-CoV PLpro activity. (A) Flag-nsp1-2* and either the wild-type (wt) or the C1651A mutant (mut) of PLpro(C3)-GFP were either expressed alone or coexpressed in HeLa cells. Aliquots of 20 g of cell lysate proteins were resolved by 10% SDS-PAGE and subjected to anti-Flag Western blotting. Expression of the PLpro fusion proteins was confirmed using an anti-GFP antibody. (B) Either PLpro variant was coexpressed with ISG15-nsp2*-Myc, and an anti-Myc antibody was used for Western blot detection. The molecular weights of the marker proteins are indicated on the left of each gel (in kDa).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" validated="true"><head>TABLE 1 .</head><label>1</label><figDesc>Primers for PCR amplification of nsp1-, nsp2-, nsp3-, and ISG15P-derived sequences and for mutagenesis of SARS-CoV PLpro</figDesc><table>Generated fragment 
+or mutation 
+Oligonucleotide sequence (5Ј to 3Ј) 
+
+a 
+
+Added 
+restriction 
+site 
+
+Polarity 
+
+ISG15P 
+CACAAGATCTGGCTGGGACCTGACGGTGAAG 
+BglII 
+Forward 
+AGTGGATCCGCTCCGCCCGCCAGGCTC 
+BamHI 
+Reverse 
+PLpro(C1) 
+ACTGGATCCGAGGTTAAGACTATAAAAGTGTTC 
+BamHI 
+Forward 
+GACCTCGAGCGACACAGGCTTGATGGTTG 
+XhoI 
+Reverse 
+PLpro(C2) 
+CTTGGATCCGGTGACAAAATTGTGTACC 
+BamHI 
+Forward 
+GACCTCGAGCGACACAGGCTTGATGGTTG 
+XhoI 
+Reverse 
+PLpro(C3) 
+GTTTAAACGCCATGGTACAGAAGCCTGTCGATG 
+PmeI 
+Forward 
+CAGCGCTAGCGTCTTCTACTGCCAGAACTTCAA 
+NheI 
+Reverse 
+ISG15 
+
+b 
+
+AGGGATCCCACCATGGGCTGGGACCTGACGGTG 
+BamHI 
+Forward 
+GAGTGACTGCGCCTCCCCGCAGGCGCAGATTCA 
+None 
+Reverse 
+nsp2* 
+
+b 
+
+GCGGGGAGGCGCAGTCACTCGCTATGTCGACAACA 
+None 
+Forward 
+CCCAAGCTTGGTACCCACATGTAGTAGGTC 
+HindIII 
+Reverse 
+Ub 
+
+c 
+
+AGGGATCCCCACCATGCAGATCTTTGTGAAGACC 
+BamHI 
+Forward 
+GAGTGACTGCGCCACCTCGCAGGCGCAACACCA 
+None 
+Reverse 
+nsp2* 
+
+c 
+
+GCGAGGTGGCGCAGTCACTCGCTATGTCGACAACA 
+None 
+Forward 
+CCCAAGCTTGGTACCCACATGTAGTAGGTC 
+HindIII 
+Reverse 
+nsp1/2* 
+CGAAACTCGAGCATGGAGAGCCTTGTTCTTGG 
+XhaI 
+Forward 
+GCCCTCTAGAGGGTACCCACATGTAGTAGGTC 
+XbaI 
+Reverse 
+PLpro mutant 
+C1651A 
+
+CTTCAATTAAATGGGCTGATAACAATGCTTATTTGTCTAGTGTTTTATTAGCAC 
+
+d 
+
+None 
+Forward 
+
+a Nucleotides introduced for cloning purposes or site-directed mutagenesis are underlined. 
+b </table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" validated="false"><head></head><label></label><figDesc>this study, we have demonstrated that SARS-CoV PLpro can hydrolyze Ub-related substrates, deconjugate Ub and Ubl modifiers from fusion proteins (peptide linkages), and disas- semble branched polyubiquitin chains (isopeptide linkages). Ub-AMC, a substrate commonly used to characterize deubiq- uitinating enzymes, was hydrolyzed by SARS-CoV PLpro pu- rified from E. coli with a k cat /K m (catalytic efficiency) value of</figDesc><table>13,100 M 
+Ϫ1 s 
+Ϫ1 . By comparison, a k cat /K m of 240,000 M 
+Ϫ1 s 
+
+Ϫ1 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">on May 1, 2019 by guest http://jvi.asm.org/ Downloaded from</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACKNOWLEDGMENTS</head><p>This work was supported in part by the Protein Engineering Network of Centres of Excellence (PENCE).</p><p>We thank Chi Yuan Chang and Alain Alary for technical assistance. This is NRCC publication number 47480.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Mechanism and function of deubiquitinating enzymes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">Y</forename><surname>Amerik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hochstrasser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1695</biblScope>
+			<biblScope unit="page" from="189" to="207" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">African swine fever virus protease, a new viral member of the SUMO-1-specific protease family</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Andres</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Alejo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Simon-Mateo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">L</forename><surname>Salas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="780" to="787" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Protein expression using ubiquitin fusion and cleavage</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">T</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="541" to="546" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Deubiquitinating function of adenovirus proteinase</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">Y</forename><surname>Balakirev</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Jaquinod</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Haas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Chroboczek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Virol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="6323" to="6331" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">M</forename><surname>Bradford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="248" to="254" />
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">SUMO fusion technology for difficult-to-express proteins</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">R</forename><surname>Butt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Edavettal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Mattern</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Expr. Purif</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Purification of recombinant proteins from mammalian cell culture using a generic doubleaffinity chromatography scheme</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Cass</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">L</forename><surname>Pham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kamen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Durocher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Expr. Purif</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="77" to="85" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Deubiquitinating enzymes: their diversity and emerging roles</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">H</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">H</forename><surname>Baek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">266</biblScope>
+			<biblScope unit="page" from="633" to="640" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Treatment of SARS with human interferons</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Cinatl</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>B. Morgenstern</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Chandra</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">W</forename><surname>Rabenau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Doerr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">362</biblScope>
+			<biblScope unit="page" from="293" to="294" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Kinetic and mechanistic studies on the hydrolysis of ubiquitin C-terminal 7-amido-4-methylcoumarin by deubiquitinating enzymes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">C</forename><surname>Dang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">D</forename><surname>Melandri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Stein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="1868" to="1879" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">ISG15: a ubiquitin-like enigma</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">T</forename><surname>Dao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">E</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Biosci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="2701" to="2722" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The determination of enzyme inhibitor constants</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Dixon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="170" to="171" />
+			<date type="published" when="1953" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">High-level and high-throughput recombinant protein production by transient transfection of suspensiongrowing human 293-EBNA1 cells</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Durocher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Perret</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kamen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The ubiquitin-proteasome proteolytic pathway: destruction for the sake of construction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">H</forename><surname>Glickman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ciechanover</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="373" to="428" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Pegylated interferon-alpha protects type 1 pneumocytes against SARS coronavirus infection in macaques</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">L</forename><surname>Haagmans</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kuiken</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">E</forename><surname>Martina</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Fouchier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">F</forename><surname>Rimmelzwaan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Van Amerongen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Van Riel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Jong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Itamura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">H</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Tashiro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Osterhaus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Med</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="290" to="293" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Identification of severe acute respiratory syndrome coronavirus replicase products and characterization of papain-like protease activity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">H</forename><surname>Harcourt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Jukneliene</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kanjanahaluethai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bechill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">M</forename><surname>Severson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">A</forename><surname>Rota</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Virol</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="13600" to="13612" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Hemelaar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Borodovsky</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">M</forename><surname>Kessler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Reverter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Kolli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Gan-Erdene</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">D</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Gill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Lima</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">L</forename><surname>Ploegh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Specific and covalent targeting of conjugating and deconjugating enzymes of ubiquitin-like proteins</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ovaa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Biol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="84" to="95" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A human RNA viral cysteine proteinase that depends upon a unique Zn2ϩ-binding finger connecting the two domains of a papain-like fold</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Herold</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">G</forename><surname>Siddell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Gorbalenya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="page" from="14918" to="14925" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Ubiquitin-aldehyde: a general inhibitor of ubiquitin-recycling processes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Hershko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">A</forename><surname>Rose</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="1829" to="1833" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Crystal structure of a UBP-family deubiquitinating enzyme in isolation and in complex with ubiquitin aldehyde</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="1041" to="1054" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Advancements in the battle against severe acute respiratory syndrome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">S</forename><surname>Hui</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">W</forename><surname>Wong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Expert. Opin. Pharmacother</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1687" to="1693" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Structural basis for the specificity of ubiquitin C-terminal hydrolases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Riddle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">P</forename><surname>Hill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="3877" to="3887" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Deubiquitinating enzymes as cellular regulators</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">C</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">S</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Bang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">H</forename><surname>Chung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biochem. (Tokyo)</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="9" to="18" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A 15-kDa interferon-induced protein is derived by COOH-terminal processing of a 17-kDa precursor</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Fahey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Cordova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hillman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Kutny</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Reich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Blomstrom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">263</biblScope>
+			<biblScope unit="page" from="4520" to="4522" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Loss of interferon regulatory factor 3 in cells infected with classical swine fever virus involves the N-terminal protease, N pro</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">La</forename><surname>Rocca</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Herbert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Crooke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">W</forename><surname>Drew</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">E</forename><surname>Wileman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">P</forename><surname>Powell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Virol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="7239" to="7247" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Pathogenesis of severe acute respiratory syndrome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">L</forename><surname>Lau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Peiris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="404" to="410" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A method for assaying deubiquitinating enzymes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">I</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Woo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">I</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">C</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">H</forename><surname>Baek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">J</forename><surname>Yoo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">H</forename><surname>Chung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Proc. Online</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="92" to="99" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">UBP43 (USP18) specifically removes ISG15 from conjugated proteins</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">P</forename><surname>Malakhov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><forename type="middle">A</forename><surname>Malakhova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">I</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">J</forename><surname>Ritchie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">E</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="9976" to="9981" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Sequence from picomole quantities of proteins electroblotted onto polyvinylidene difluoride membranes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Matsudaira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">262</biblScope>
+			<biblScope unit="page" from="10035" to="10038" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Cloning and enzymatic analysis of 22 novel human ubiquitin-specific proteases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Quesada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Diaz-Perales</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Gutierrez-Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Garabaya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Cal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Lopez-Otin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">314</biblScope>
+			<biblScope unit="page" from="54" to="62" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Role of ISG15 protease UBP43 (USP18) in innate immunity to viral infection</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">J</forename><surname>Ritchie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">S</forename><surname>Hahn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">I</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Rosario</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>De La Torre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">E</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Med</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1374" to="1378" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Molecular cloning: a laboratory manual</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Sambrook</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Russell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Cold Spring Harbor Laboratory Press</publisher>
+			<pubPlace>Cold Spring Harbor, N.Y.</pubPlace>
+		</imprint>
+	</monogr>
+	<note>3rd ed</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Expression and purification of histidine-tagged bacteriophage T7 DNA polymerase</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Schlicke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Brakmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Expr. Purif</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="247" to="253" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Severe acute respiratory syndrome (SARS): a year in review</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Skowronski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Astell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Brunham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">E</forename><surname>Low</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Petric</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Roper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Talbot</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Tam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Babiuk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Med</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="357" to="381" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Unique and conserved features of genome and proteome of SARS-coronavirus, an early split-off from the coronavirus group 2 lineage</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Snijder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Bredenbeek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Dobbe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Thiel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ziebuhr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">L</forename><surname>Poon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rozanov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">J</forename><surname>Spaan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Gorbalenya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">331</biblScope>
+			<biblScope unit="page" from="991" to="1004" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Deubiquitinating enzymes: their functions and substrate specificity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">A</forename><surname>Soboleva</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">T</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Protein Pept. Sci</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="191" to="200" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Deubiquitination, a new function of the severe acute respiratory syndrome coronavirus papain-like protease?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Sulea</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">A</forename><surname>Lindner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">O</forename><surname>Purisima</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Menard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Virol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="4550" to="4551" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Expression of murine coronavirus recombinant papain-like proteinase: efficient cleavage is dependent on the lengths of both the substrate and the proteinase polypeptides</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Teng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Pinon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Weiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Virol</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="2658" to="2666" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Mechanisms and enzymes involved in SARS coronavirus genome expression</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Thiel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">A</forename><surname>Ivanov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Putics</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Hertzig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Schelle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Bayer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Weissbrich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Snijder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Rabenau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">W</forename><surname>Doerr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Gorbalenya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ziebuhr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Gen. Virol</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="2305" to="2315" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Themes and variations on ubiquitylation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Weissman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="169" to="178" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Regulation of ubiquitin-dependent processes by deubiquitinating enzymes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">D</forename><surname>Wilkinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1245" to="1256" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Summary of probable SARS cases with onset of illness from 1</title>
+		<ptr target="http://www.who.int/csr/sars/country/table2004_04_21/en" />
+		<imprint>
+			<date type="published" when="2002-07-31" />
+		</imprint>
+	</monogr>
+	<note>Communicable Disease Surveillance and Response (CSR)</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Influenza B virus NS1 protein inhibits conjugation of the interferon (IFN)-induced ubiquitin-like ISG15 protein</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Krug</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="362" to="371" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Virus-encoded proteinases and proteolytic processing in the Nidovirales</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ziebuhr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Snijder</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Gorbalenya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Gen. Virol</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="853" to="879" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The autocatalytic release of a putative RNA virus transcription factor from its polyprotein precursor involves two paralogous papain-like proteases that cleave the same peptide bond</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ziebuhr</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Thiel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Gorbalenya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="33220" to="33232" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The coronavirus replicase</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ziebuhr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Top. Microbiol. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="57" to="94" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

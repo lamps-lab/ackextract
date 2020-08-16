@@ -1,0 +1,2298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 C:\PWang\Datasets\grobid-0.5.5\grobid-0.5.5\grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.5" ident="GROBID" when="2020-06-22T14:06+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Key Role of Genomics in Modern Vaccine and Drug Design for Emerging Infectious Diseases</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kate</forename><forename type="middle">L</forename><surname>Seib</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Novartis Vaccines and Diagnostics</orgName>
+								<address>
+									<settlement>Siena</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gordon</forename><surname>Dougan</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">The Wellcome Trust Sanger Institute</orgName>
+								<orgName type="institution" key="instit2">The Wellcome Trust Genome Campus</orgName>
+								<address>
+									<settlement>Hinxton, Cambridge</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rino</forename><surname>Rappuoli</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Novartis Vaccines and Diagnostics</orgName>
+								<address>
+									<settlement>Siena</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Key Role of Genomics in Modern Vaccine and Drug Design for Emerging Infectious Diseases</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>Review</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Abstract: It can be argued that the arrival of the</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>''genomics era'' has significantly shifted the paradigm of vaccine and therapeutics development from microbiological to sequence-based approaches. Genome sequences provide a previously unattainable route to investigate the mechanisms that underpin pathogenesis. Genomics, transcriptomics, metabolomics, structural genomics, proteomics, and immunomics are being exploited to perfect the identification of targets, to design new vaccines and drugs, and to predict their effects in patients. Furthermore, human genomics and related studies are providing insights into aspects of host biology that are important in infectious disease. This ever-growing body of genomic data and new genome-based approaches will play a critical role in the future to enable timely development of vaccines and therapeutics to control emerging infectious diseases.</p><p>By controlling debilitating and often-lethal infectious diseases, vaccines and antibiotics have had an enormous impact on world health. Now, with the arrival of the ''genomics era,'' a paradigm shift is occurring in the development of vaccines-and potentially also in the development of antibiotics-that is providing fresh impetus to this field. The world is still faced with a huge burden of infection, however, by classic pathogens (e.g., typhoid, measles), recently discovered causes of disease (e.g., Helicobacter pylori and hepatitis C virus <ref type="bibr">[HCV]</ref>), and emerging infectious diseases (EIDs, e.g., H1N1 swine flu and severe acute respiratory syndrome coronavirus <ref type="bibr">[SARS-CoV]</ref>). In addition, variant forms of previously identified infectious diseases are reemerging (e.g., Streptococcus pyogenes, also known as group A streptococcus <ref type="bibr">[GAS]</ref>, and dengue fever), along with antibiotic-resistant forms of microbes (e.g., methicillin-resistant Staphylococcus aureus <ref type="bibr">[MRSA]</ref> and Mycobacterium tuberculosis) <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref> (for a list of EIDs see http://www3.niaid.nih.gov/ topics/emerging/list.htm). The World Health Organization (WHO) estimates that we can expect at least one such new pathogen to appear every year.</p><p>The fact that an infectious disease has emerged or reemerged indicates immune naïvety in the infected population, or altered virulence potential or an increase in antibiotic/antiviral resistance in the pathogen population. The rapid development of vaccines and therapeutics that target these pathogens is therefore essential to limit their spread. Traditional empirical approaches that screen for vaccines or drugs a few candidates at a time are timeconsuming and have often proven insufficient to control many EIDs, particularly when the causative pathogens are antigenically diverse (e.g., HIV), cannot be cultivated in the laboratory (e.g., HCV), lack suitable animal models of infection (e.g., Neisseria spp.), have complex mechanisms of pathogenesis (e.g., retroviruses), and/or are controlled by mucosal or T cell-dependent immune responses rather than humoral immune responses (e.g., Shigella spp., M. tuberculosis) <ref type="bibr" target="#b2">[3]</ref>. For many EIDs, the wealth of information emerging in the genome era has already had a significant impact on the way we approach vaccine and therapeutic development. For EIDs that appear in the near future, genomics will be in the first line of defense in terms of antigen identification, diagnostic development, and functional characterization.</p><p>Since the completion of the genome sequence of Haemophilus influenzae-the first finished bacterial genome sequence-in 1995 <ref type="bibr" target="#b3">[4]</ref>, advances in sequencing technology and bioinformatics have produced an exponential growth of genome sequence information. At least one genome sequence is now available for each major human pathogen. As of October 2009, over 1,000 bacterial genomes were ''completed'' (i.e., closed genomes and whole genome shotgun sequences) and more than 1,000 were ongoing; over 3,000 viral genomes were completed (http://www.genomesonline.org/gold.cgi, http://www.ncbi.nlm.nih.gov/genomes/MICROBES/microbial_ taxtree.html, http://cmr.jcvi.org/tigr-scripts/CMR/shared/ Genomes.cgi). For a bacterial pathogen, which may have more than 4,000 genes, the genome sequence provides the complete genetic repertoire of antigens or drug targets from which novel candidates can be identified. For viral pathogens that may possess fewer than 10 genes, genomics can be used to define the variability that may exist between isolates. Host genetic factors also play a role in infectious disease <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>, however, and the availability of ''complete'' human genome sequences, as well as large-scale human genome projects (see http://www.1000genomes.org/), are valuable resources. Hence, the sequences of both pathogen and host genomes can facilitate identification of a growing number of potential vaccine and drug targets ( <ref type="figure">Figure 1</ref>). It is estimated that 10-100 times more candidates can be identified in one to two years using genomicsbased approaches than can be identified by conventional methods in the same time frame. Furthermore, genomics-based vaccine projects have substantially increased our understanding of microbial physiology, epidemiology, pathogenesis, and protein functions (see Box 1). <ref type="figure">Figure 1</ref>. Genomics-based approaches used in the control of EIDs from the outbreak of a disease to the development of a vaccine or drug. (A) The causative agent of a disease may first be identified from patient samples by using metagenomics. (B) Vaccine and therapeutic targets can be identified from the pathogen genome using a variety of screening approaches that focus on the genome, transcriptome, proteome, immunome or structural genome. (C) The human genome can be screened to avoid homologies or similarities with pathogen vaccine and therapeutic targets, or to identify new targets. (D) Once candidate vaccine and therapeutic targets have been identified they must be shown to provide protection against disease and to be safe for use in patients. (E) The clinically tested vaccine or therapeutic can then be licensed for use. The clinical responses of a vaccine and/or therapeutic can be analyzed using human genome based studies (dotted arrows). The pathogen genome can also be used to analyze mutants that are able to evade the immune system in vaccinated subjects or organisms that develop antibiotic resistance. Examples of the approaches indicated are given in <ref type="table">Table 1</ref> From the outbreak of a disease, metagenomics (the study of all the genetic material recovered directly from a sample) can be applied to diseased human samples to aid the rapid identification of the causative agent <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref>. Once the complete genome sequence of the organism is available, high-throughput approaches can be used to screen for target molecules, as outlined below and in <ref type="table">Table 1</ref>  <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b9">10]</ref>. Screening approaches vary depending on the nature of the pathogen but are based on several accepted principles and key requirements of vaccines and therapeutics, including the need for targets to be (i) expressed and accessible to the host immune system, or to a therapeutic agent, during human disease; (ii) genetically conserved; (iii) important for survival or pathogenesis; and (iv) free of measurable homology or similarity to host factors. Although many of the approaches described here focus on vaccine development, which involves screening of candidates for immunogenicity, they are largely applicable to drug development by altering the selection criteria used and screening candidates against compound libraries <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref>.</p><p>Reverse Vaccinology, Pan-genomics, and Comparative Genomics</p><p>The idea behind reverse vaccinology is to screen an entire pathogen genome to find genes that encode proteins with the attributes of good vaccine targets, such as, for example, bacterial surface associated proteins <ref type="bibr" target="#b13">[14]</ref>. These proteins can then undergo normal laboratory evaluation for immunogenicity. The Neisseria meningitidis serogroup B (MenB) reverse vaccinology project provides the ''proof of concept'' for this type of approach. This project identified more novel vaccine candidates in 18 months than had been discovered in 40 years of conventional vaccinology <ref type="bibr" target="#b14">[15]</ref>. Analysis of the genome sequence of the virulent MenB strain MC58 found 2,158 predicted open reading frames (ORFs); these were screened using bioinformatics tools to identify 570 ORFs that were predicted to encode surface-exposed or secreted proteins that might be accessible to the immune system <ref type="bibr" target="#b14">[15]</ref>. Antigen screening</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Box 1: Reverse Vaccinology Drives the Discovery of New Protein Functions</head><p>Reverse vaccinology involves the in silico screening of the entire genome of a pathogen to find genes that encode proteins with the attributes of good vaccine targets, using either the genome of a single pathogenic isolate or the pangenome (the genomic information from several isolates) of a pathogenic species.</p><p>Pili in pathogenic streptococci play a key role in virulence and are promising vaccine candidates The identification of pili (long filamentous structures that extend from the bacterial surface) in the main pathogenic strains of streptococci is a good example of how genomics can lead to the discovery of protein functions and increased understanding of host-pathogen interactions. The pili of gram-negative bacteria are well-described virulence factors. Little was known, however, about pili in gram-positive bacteria before the sequencing and analysis of the genomes of S. pyogenes, S. agalactiae, and S. pneumoniae (reviewed in <ref type="bibr" target="#b70">[72]</ref>). During analysis of eight S. agalactiae genome sequences, three protective antigens identified by pan-genomic reverse vaccinology <ref type="bibr" target="#b19">[20]</ref> were found to contain LPXTG motifs typical of cell wall-anchored proteins and seen to assemble into pili <ref type="bibr" target="#b71">[73]</ref>. Further bioinformatics analysis revealed three independent loci that encode structurally distinct pilus types, each of which contains two surface-exposed antigens capable of eliciting protective immunity in mice <ref type="bibr" target="#b73">[75]</ref>. Because of the limited variability of S. agalactiae pili, it has been suggested that a combination of only three pilin subunits could lead to broad protective immunity <ref type="bibr" target="#b72">[74]</ref>. Following the identification of S. agalactiae pili, typical pilus regions were identified in the available S. pyogenes genomes based on the presence of genes encoding LPXTG-containing proteins. In addition, a combination of recombinant pilus proteins was shown to confer protection in mice against mucosal challenge with virulent S. pyogenes isolates <ref type="bibr" target="#b73">[75]</ref>. Falugi and colleagues have since found that S. pyogenes pili are encoded by nine different gene clusters, and they estimate that a vaccine comprising a combination of 12 backbone variants could provide protection against over 90% of circulating S. pyogenes strains <ref type="bibr" target="#b74">[76]</ref>. The availability of multiple complete genome sequences for S. pneumoniae, and the increased understanding of pilus proteins in other pathogenic streptococci, led to the discovery of two pilus ''islands'' that encode proteins that play a role in adherence to lung epithelial cells and colonization in a murine model of infection, where they elicit host inflammatory responses <ref type="bibr" target="#b75">[77,</ref><ref type="bibr" target="#b76">78]</ref>. In addition, the pilus subunits confer protection in passive and active immunization models <ref type="bibr" target="#b77">[79]</ref>. The presence of pili that contain protective antigens in all three principal streptococcal pathogens indicates that these structures play an important role in virulence.</p><p>Reverse vaccinology leads to identification of the fHBP and its role in meningococcal species specificity Serogroup B N. meningitidis (MenB) strains are responsible for the majority of meningococcal disease in the developed world, yet there is no comprehensive MenB vaccine available. Screening of the MenB genome for vaccine candidates by using reverse vaccinology led to the discovery of the meningococcal factor H-binding protein (fHBP) <ref type="bibr" target="#b14">[15]</ref>, which was recently suggested to play an important role in the species specificity of N. meningitidis <ref type="bibr" target="#b78">[80]</ref>. fHBP is a component of the Novartis multivalent MenB vaccine that entered Phase III clinical testing in 2008 <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref> and is also under investigation by Wyeth Vaccines (designated LP2086) <ref type="bibr" target="#b79">[81]</ref> and other groups <ref type="bibr" target="#b80">[82]</ref>. Initially identified as the genome-derived Neisseria antigen 1870 (GNA1870), a Neisseria-specific putative surface lipoprotein of unknown function, fHBP was renamed because of its ability to bind complement factor H (fH), a molecule that down-regulates activation of the complement alternative pathway. Hence, binding of fH to the surface of Neisseria allows the pathogen to evade complement-mediated killing by the innate immune system <ref type="bibr" target="#b81">[83]</ref>. fHBP is expressed by all N. meningitidis strains studied <ref type="bibr" target="#b82">[84]</ref>. It induces high levels of bactericidal antibodies in mice <ref type="bibr" target="#b15">[16]</ref> and is important for survival of bacteria in human serum and blood <ref type="bibr" target="#b81">[83,</ref><ref type="bibr" target="#b83">85,</ref><ref type="bibr" target="#b84">86]</ref>. The discovery that binding of fH to N. meningitidis is specific for human fH, and that human fH alone is able to downregulate complement activation and bactericidal activity leading to increased bacterial survival has significant implications for the study of this organism <ref type="bibr" target="#b78">[80]</ref>. The administration of human fH to infant rats challenged with MenB led to a greater than 10-fold increase in survival of bacteria <ref type="bibr" target="#b78">[80]</ref>, providing an important insight into hostpathogen interactions that may lead to the development of new animal models of infection.</p><p>continued on the basis of several criteria: the ability of antigens to be expressed in Escherichia coli as recombinant proteins (350 candidates); confirmation by ELISA and flow cytometry that the antigen is exposed on the cell surface (91 candidates); the ability of induced antibodies to elicit killing, as measured by serum bactericidal assay and/or passive protection in infant rat assays (28 candidates); and screening of a panel of diverse meningococcal isolates to determine whether the antigens are conserved. This approach resulted in the development of a multi-component recombinant MenB vaccine that entered Phase III clinical trials in 2008 <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref>.</p><p>As multiple genome sequences become available for a single species, the concept of pan-genomic reverse vaccinology is <ref type="table">Table 1</ref>. Approaches to identify vaccine and/or drug targets against EIDs in the genomic era.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Approach Methods Used Limitations of Method Example</head><p>Organism Disease Genomics/reverse vaccinology: Analysis of the genetic material of an organism in order to identify the repertoire of protein antigens/drug targets the organism has the potential to express.</p><p>Bioinformatics screening of the genome sequence to identify ORFs predicted to be exposed on the surface of the pathogen or secreted, expression of recombinant proteins, generation of antibodies in mice to confirm surface exposure, and bactericidal activity <ref type="bibr" target="#b13">[14]</ref>.</p><p>Prediction algorithms need to be validated. Non-protein antigens including polysaccharides or glycolipids, and post-translational modifications cannot be identified. High-throughput cloning and protein expression is required.</p><p>Serogroup B N. meningitidis <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16]</ref> Major cause of septicemia and meningitis in the developed world.</p><p>Pan-genomics: Analysis of the genetic material of several organisms of a single species to identify conserved antigens/ targets and ensure the chosen target covers the diversity of the organism.</p><p>Similar to above, but ORFs are chosen by screening of multiple genomes with either direct sequencing or comparative genome hybridization <ref type="bibr" target="#b17">[18]</ref>.</p><p>Sequences of multiple isolates of a species are required. Similar limitations as described above.</p><p>S. agalactiae <ref type="bibr" target="#b19">[20]</ref> Leading cause of neonatal bacterial sepsis, pneumonia, and meningitis in the US and Europe.</p><p>Comparative genomics: Analysis of the genetic material of several individuals of a single species, to identify antigens/ targets that are present in pathogenic strains but absent in commensal strains, and thus important for disease.</p><p>Similar to pangenomics, but ORFs are chosen by screening of genomes from multiple strains of pathogenic and commensal strains of a species <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b20">21]</ref>.</p><p>Similar limitations as for the above two approaches.</p><p>E. coli <ref type="bibr" target="#b21">[22]</ref> Major cause of mild to severe diarrhea, hemolytic-uremic syndrome, and urinary tract infections.</p><p>Transcriptomics: Analysis of the set of RNA transcripts expressed by an organism under a specified condition.</p><p>Gene expression is evaluated in vitro or in vivo using DNA microarrays or cDNA sequencing <ref type="bibr" target="#b23">[24]</ref>.</p><p>There is no direct correlation between the levels of mRNA and protein.</p><p>In vivo studies require relatively large amounts of mRNA.</p><p>V. cholerae <ref type="bibr" target="#b25">[26]</ref> Causes diseases ranging from selflimiting to severe, life-threatening diarrhea, wound infections, and sepsis.</p><p>Functional genomics: Analysis of the role of genes and proteins in order to identify genes required for survival under specific conditions.</p><p>Genes that are functionally essential in specific conditions in vitro or in vivo are determined by gene inhibition followed by screening of mutants in animal models or cell culture to identify attenuated clones <ref type="bibr" target="#b85">[87]</ref>.</p><p>Genetic tools, acceptance of transposons, and natural competence of the pathogen are required.</p><p>H. pylori <ref type="bibr" target="#b31">[32]</ref> Major cause of duodenal and gastric ulcers and stomach cancer as a result of chronic low-level inflammation of the stomach lining.</p><p>Proteomics: Analysis of the set of proteins expressed by an organism under a specified condition and/or in specific cellular locations (e.g., on the cell surface).</p><p>2D-PAGE, MS, and chromatographic techniques to identify proteins from whole cells, fractionated samples, or the cell surface <ref type="bibr" target="#b33">[34]</ref>.</p><p>Proteins with low abundance and/or solubility and proteins that are only expressed in vivo may not be identified.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S. pyogenes [36]</head><p>Cause of a range of diseases from mild pharyngitis to severe toxic shock syndrome, necrotizing fasciitis, and rheumatic fever.</p><p>Immunomics: Analysis of the subset of proteins/epitopes that interact with the host immune system.</p><p>Analysis of seroreactive proteins, using 2D-PAGE, phage display libraries, or protein microarrays, probed with host sera <ref type="bibr" target="#b37">[38]</ref>. Bioinformatics prediction of B cell and T cell epitopes <ref type="bibr" target="#b36">[37]</ref>.</p><p>Potential bias against sequences that cannot be displayed. Large conformational epitopes made up of noncontiguous amino acids may not be detected. Prediction of B cell epitopes is difficult due to the need to identify conformational epitopes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S. aureus [39]</head><p>Cause of wound infections. Has emerged as a significant opportunistic pathogen due to antibiotic resistance.</p><p>Structural genomics: Analysis of the three-dimensional structure of an organism's proteins and how they interact with antibodies or therapeutics.</p><p>NMR or crystallography to determine the structure of proteins in the presence/absence of antibodies or therapeutics <ref type="bibr" target="#b50">[51]</ref>.</p><p>Poor understanding of determinants of immunogenicity, immunodominance, and structurefunction relationships.</p><p>HIV <ref type="bibr" target="#b52">[53]</ref> Causative agent of AIDS.</p><p>Vaccinomics/immunogenetics pharmacogenetics: Analysis of how the human immune system responds to a vaccine or drug.</p><p>Investigation of genetic heterogeneity/ polymorphisms in the host, at the individual or population level, that may alter immune responses to vaccines <ref type="bibr" target="#b66">[68]</ref> or metabolism of therapeutics <ref type="bibr" target="#b69">[71]</ref>. emerging as a powerful tool to identify vaccine candidates in antigenically diverse species <ref type="bibr" target="#b17">[18]</ref>. Pan-genomics aims to identify the full complement of genes in a species, based on the superset of genes in several strains of the same species. Analysis of the genome sequences of eight Streptococcus agalactiae (also known as group B streptococcus) strains revealed substantial genetic heterogeneity and the extended gene repertoire of the species <ref type="bibr" target="#b18">[19]</ref>. Screening found a total of 589 genes predicted to encode surface-exposed or secreted proteins in the S. agalactiae pan-genome (396 from the ''core genome''-genes conserved in all strains-and 193 from the ''dispensable genome''-genes that are present in two or more strains and are hence considered dispensable for survival). Based on further screening of this pool of candidates, including the ability of recombinant proteins to provide protection when used to immunize animals, a combination of four antigens-only one of which is in the core genome-was selected and shown to confer protection against a panel of S. agalactiae strains <ref type="bibr" target="#b19">[20]</ref>. Whereas genome sequencing projects have typically focused on pathogenic organisms, comparison of the genomes of pathogenic and nonpathogenic strains allows vaccine and drug targets to be identified on the basis of proteins that are specifically involved in pathogenesis <ref type="bibr" target="#b20">[21]</ref>. Comparative studies of up to 17 commensal and pathogenic E. coli genomes identified genes unique to certain pathogenic strains that are largely absent in commensal strains. This filter decreases the pool of targets to be screened and potentially limits any detrimental effects of therapeutics on the composition of the commensal flora <ref type="bibr" target="#b21">[22]</ref>.</p><p>New sequencing technologies will also open up opportunities for monitoring pathogen vaccine escape by screening for evidence of immune selection in the genomes of pathogen populations before and after vaccine selection. By deep-sequencing of bacterial and viral populations it will be possible to identify antigens under immune selection by monitoring the clustering of single nucleotide polymorphisms (SNPs) and other mutations that affect protein sequence. This approach has already been used to search for evidence of antigenic variation/selection in populations of Salmonella enterica serovar Typhi <ref type="bibr" target="#b22">[23]</ref>, where variation is extremely limited. Similar sequencing strategies could be applied to populations of bacteria taken before or after a vaccine trial in a particular geographical region.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Beyond Genomics: Other -Omics Approaches to Study Pathogens</head><p>Pathogen genes that are up-regulated during infection and/or essential for microorganism survival or pathogenesis can be identified by using transcriptomics, i.e., the analysis of a near complete set of RNA transcripts expressed by the pathogen under a specified condition. Comprehensive DNA-based microarray chips (probed with cDNA generated from RNA by reverse transcription) <ref type="bibr" target="#b23">[24]</ref> and ultra-high-throughput sequencing technologies that allow rapid sequencing and direct quantification of cDNA <ref type="bibr" target="#b24">[25]</ref> enable the transcriptome of a pathogen to be characterized and particular types of gene product to be identified. For example, genes involved in the hyperinfectious state of Vibrio cholerae, which appears after passage through the human gastrointestinal tract, were identified through a comparison of the transcriptome of bacteria isolated directly from stool samples of cholera patients with that of V. cholerae grown in vitro <ref type="bibr" target="#b25">[26]</ref>. Similarly, analysis of the transcription profile of M. tuberculosis during early infection in immune-competent (BALB/c) and severe combined immunodeficient (SCID) mice revealed a set of 67 genes activated exclusively in response to the host immune system <ref type="bibr" target="#b26">[27]</ref>.</p><p>Functional genomics-linking genotype, through transcriptomics and proteomics, to phenotype-has been applied to many pathogens to identify genes essential to survival or virulence that may be valid vaccine candidates. DNA microarrays can be used to screen comprehensive libraries of pathogen mutants, by comparing bacterial isolates from before and after passage through animal models or exposure to compound libraries to identify attenuated clones <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref>. For example, these methods have been used to identify 65 novel MenB genes that are required for the pathogen to cause septicemia in infant rats <ref type="bibr" target="#b30">[31]</ref>, 47 genes essential for H. pylori gastric colonization of the gerbil <ref type="bibr" target="#b31">[32]</ref>, and genes contributing to M. tuberculosis persistence in the host <ref type="bibr" target="#b32">[33]</ref>.</p><p>Analysis of a pathogen's proteome (the near complete set of proteins expressed under a specified condition) to reveal potential vaccine and drug candidates can add significant value to in silico approaches <ref type="bibr" target="#b33">[34]</ref>. High-throughput proteomic analyses can be performed by using mass spectrometry (MS), chromatographic techniques, and protein microarrays <ref type="bibr" target="#b34">[35]</ref>. A novel proteome-based approach has been applied to identify the surface proteins of GAS by making use of proteolytic enzymes to ''shave'' the bacterial surface, releasing exposed proteins and partially exposed peptides. Seventeen surface proteins of a virulent GAS strain were identified in this way by using MS and genome sequence analysis. Their location on the pathogen surface was confirmed by flow cytometry, and one of them provided protective immunity in a mouse model of the disease <ref type="bibr" target="#b35">[36]</ref>.</p><p>The proteome of a pathogen can also be screened to identify the immunome (the near complete set of pathogen proteins or epitopes that interact with the host immune system) using in vitro or in silico techniques <ref type="bibr" target="#b36">[37,</ref><ref type="bibr" target="#b37">38]</ref>. In vitro identification and screening of the immunome are based on the idea that antibodies present in serum from a host, which has been exposed to a pathogen, represent a molecular ''imprint'' of the pathogen's immunogenic proteins and can be used to identify vaccine candidates. As such, several techniques have been developed to allow the highthroughput display of pathogen proteins, and the subsequent screening for proteins that interact with antibodies in sera. Immunogenic surface proteins of several organisms have been identified, including S. aureus using 2D-PAGE, membrane blotting, and MS <ref type="bibr" target="#b38">[39]</ref>; S. agalactiae, S. pyogenes, and Streptococcus pneumoniae using phage-or E. coli-based comprehensive genomic peptide expression libraries <ref type="bibr" target="#b37">[38,</ref><ref type="bibr" target="#b39">40]</ref>; and Francisella tularensis (the causative agent of tularemia or rabbit fever) <ref type="bibr" target="#b40">[41]</ref> and V. cholerae using protein microarray chips <ref type="bibr" target="#b41">[42]</ref>. Protein microarrays, in which proteins from the pathogen are spotted onto a microarray chip, can also be used to characterize protein-drug interactions, as well as other protein-protein, protein-nucleic acid, ligand-receptor, and enzyme-substrate interactions <ref type="bibr" target="#b42">[43]</ref>.</p><p>The ability to predict in silico which pathogen epitopes will be recognized by B cells or T cells has greatly improved in recent years <ref type="bibr" target="#b43">[44]</ref>. Large-scale screening of pathogens including HIV, Bacillus anthracis, M. tuberculosis, F. tularensis, Yersinia pestis (the causative agent of bubonic plague), flaviviruses, and influenza for B cell and T cell epitopes is currently underway <ref type="bibr" target="#b44">[45,</ref><ref type="bibr" target="#b45">46]</ref>. Although epitope prediction is not foolproof, it can serve as a guide for further biological evaluation. T cell epitopes are presented by MHC/HLA proteins on the surface of antigen-presenting cells, which vary considerably between hosts, complicating the task of functional epitope prediction. Additionally, B cell epitopes can be both linear and conformational. The ultimate aim of researchers in this field of study would be to engineer a single peptide that represents defined epitope combinations from a protein or organism, enabling the genetic variability of both pathogen and host to be overcome <ref type="bibr" target="#b43">[44]</ref>.</p><p>Structural genomics-the study of the three-dimensional structures of the proteins produced by a species-is increasingly being applied to vaccine and drug development as a result of the explosion of genome and proteome data, and continuing improvements in the fields of protein expression, purification, and structural determination <ref type="bibr" target="#b46">[47]</ref>. The structure-based design of antiviral therapeutics has led to the development of drugs directed at the active sites of the HIV-1 protease <ref type="bibr" target="#b47">[48]</ref> and influenza neuraminidase <ref type="bibr" target="#b48">[49]</ref>. More than 45,000 high-resolution protein structures are available in public databases (see http://www. wwpdb.org/stats.html), and several initiatives have been established to pursue high-throughput characterization of protein structures on a genome-wide scale <ref type="bibr" target="#b49">[50]</ref>, focusing on determining and understanding the structural basis of immune-dominant and immune-recessive antigens as well as protein active sites and potential drug-binding sites <ref type="bibr" target="#b50">[51,</ref><ref type="bibr" target="#b51">52]</ref>. For example, structural characterization of the HIV envelope proteins gp120 and gp41 has revealed mechanisms used by the virus to evade host antibody responses, many of which involve hypervariability in immunodominant epitopes <ref type="bibr" target="#b52">[53,</ref><ref type="bibr" target="#b53">54]</ref>. Based on this information, immune refocusing (e.g., by retargeted glycosylation, deletion, and/or substitution of amino acids) has been used to dampen the response to variable immunodominant epitopes of the envelope glycoprotein gp160, enabling the host to respond to previously subdominant epitopes <ref type="bibr" target="#b54">[55]</ref>. High-throughput modification of proteins and their screening for immunogenicity and interaction with antimicrobials is predicted to become more common as techniques evolve <ref type="bibr" target="#b50">[51]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The Contribution of Human Genomics</head><p>When designing new vaccines, one important consideration is the risk that the vaccine might generate ''self'' immune reactions against host epitopes; immune responses against a pathogen antigen can cross-react with host antigens if homologies exist in the primary amino acid sequence or structure, potentially leading to damage to the host tissue <ref type="bibr" target="#b55">[56]</ref>. Drugs aimed at pathogen targets could also theoretically target similar host molecules. The availability of the human genome sequence combined with methods for predicting B cell and T cell epitopes will facilitate screening for the presence of homologies between candidate microbial vaccine antigens and proteins in humans, enabling issues of autoimmunity and cross-reactivity to be tackled <ref type="bibr" target="#b56">[57]</ref>. As such, vaccine or drug targets identified using methods based on pathogen genomics should be screened for homology or similarity to human proteins in silico, using programs such as BLAST (Basic Local Alignment Search Tool; http://blast.ncbi.nlm.nih.gov/ Blast.cgi) to query human genome databases. Interestingly, analysis of 30 viral genomes revealed that around 90% of viral pentapeptides, which could be components of epitopes, are identical to human peptides <ref type="bibr" target="#b57">[58]</ref>. There is little homology, however, between validated immunogenic disease-associated peptides/epitopes and host peptides <ref type="bibr" target="#b56">[57,</ref><ref type="bibr" target="#b58">59]</ref>, suggesting that screening approaches that include prediction of immunogenicity could improve the pool of target candidates.</p><p>It is important to keep in mind that we do not fully understand how self-tolerance is broken, so we currently have no perfect way of predicting all potential autoimmune triggers that could be associated with vaccination. While many links have been made between autoimmune disease and vaccination, they have been confirmed in only a small number of cases (reviewed in <ref type="bibr" target="#b59">[60]</ref>). For example, treatment-resistant Lyme arthritis is associated in certain patients with immune reactivity to the outer surface protein A (OspA) of the causative agent of Lyme disease, Borrelia burgdorferi, and an OspA epitope (OspA165-173) has homology to the human lymphocyte function-associated antigen (hLFA)-1aL <ref type="bibr" target="#b60">[61]</ref>. As a result, the OspA-based Lyme disease vaccine (LYMErix) was taken off the market in 2002, but a recombinant OspA lacking the potentially autoreactive T cell epitope has been proposed as a replacement vaccine <ref type="bibr" target="#b61">[62]</ref>.</p><p>Rather than targeting drugs to pathogen enzymes, an alternative approach has focused on targeting the host-cell proteins that are exploited by pathogens for replication and survival. The use of techniques including microarray-based analysis of virusinduced host gene expression has revealed several possible targets <ref type="bibr" target="#b62">[63,</ref><ref type="bibr" target="#b63">64]</ref>. The cholesterol-lowering drugs statins, for example, have an anti-HIV effect that is believed to be mediated by preventing activation of the host protein Rho, which is activated by the HIV envelope protein and required for virus entry to the cell <ref type="bibr" target="#b64">[65]</ref>. Furthermore, such studies can improve our understanding of the host immune responses that protect against a pathogen (i.e., innate, antibody, Th1, or Th2 responses), which will aid the selection of appropriate vaccine adjuvants. For example, induction of interferon signaling early in infection may be critical to confer protection against SARS-CoV, as determined from functional genomic studies of early host responses to SARS-CoV infection in the lungs of macaques <ref type="bibr" target="#b65">[66]</ref>.</p><p>Many of the genes of the human immune system are highly polymorphic, which enables the population as a whole to generate sufficient immunological diversity to combat EIDs. This variation also impacts on the outcome of vaccination and treatment. The International HapMap Project has identified over 3.1 million SNPs in 270 individuals [67] and the 1000 Genomes Project aims to identify even more genetic variants. The field of vaccinomics (also called immunogenetics) investigates heterogeneity in host genetic markers that results in variations in vaccine-induced immune responses, with the aim of predicting and minimizing vaccine failures or adverse events <ref type="bibr" target="#b66">[68]</ref>. For example, polymorphisms of HLA and immunoregulatory cytokine receptor genes are associated with variable outcomes of vaccination against mumps <ref type="bibr" target="#b67">[69]</ref>. Similarly, pharmacogenetics, which investigates genetic differences in the way individuals metabolize therapeutics, has found that human variability in the speed of metabolism of the common first-line tuberculosis drug isoniazid is associated with genetic variants, including SNPs, in the gene encoding arylamine N-acetyltransferase (NAT2) <ref type="bibr" target="#b68">[70,</ref><ref type="bibr" target="#b69">71]</ref>. The ability to predict an individual's response to a vaccine or drug, may eventually allow physicians to determine whether a patient is genetically susceptible to a disease, the possible adverse effects of a vaccine or drug, and the appropriate schedule or dose to use.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Challenges for the Future</head><p>We predict that genomics will greatly aid the control of EIDs because of the increased efficiency with which vaccine and therapeutic targets can be identified using the genome-based approaches described above. Furthermore, we anticipate the continual refinement and development of novel genome-based approaches as sequencing becomes faster and more affordable. Several challenges remain, however, in the identification of these targets and in the processes needed to bring a new vaccine or drug to the market. Understanding the molecular nature of epitopes, the mechanisms of action of adjuvants, and T cell and mucosal immunity are key priorities to be tackled in the coming years <ref type="bibr" target="#b2">[3]</ref>. These issues can be addressed by improved structural studies of antigen epitopes and the compilation of databases containing information on structure, immunogenicity, and in silico B cell and T cell epitope predictions. Genome-based development of effective vaccines and therapeutics is still largely dependent on the availability of valid models to measure efficacy and protection against disease; however, the increased understanding of microbial pathogenesis that is emerging from genomics should greatly aid in this respect. Likewise, the continued development of animal models with knockout and allele-specific mutations in key components of the immune response will greatly increase understanding of the type of immune response needed to control disease and the ways in which the immune system can be programmed to protect the host against disease. Unfortunately, the stepwise series of prelicensure clinical trials (Phase I, II, and III) that are required to document the safety, immunogenicity, and efficacy of a vaccine are still highly time-consuming and costly. We can only hope that the increasingly ''smart'' identification and design of targets, and the fresh impetuous given to the fields of vaccine and drug development by the arrival of genomics, will enable increased success of those vaccines and drugs that do make it into clinical development.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" validated="false"><head></head><label></label><figDesc>. doi:10.1371/journal.pgen.1000612.g001</figDesc><table></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">PLoS Genetics | www.plosgenetics.org</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">October 2009 | Volume 5 | Issue 10 | e1000612</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Emerging pathogens: Challenges and successes of molecular diagnostics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">P</forename><surname>Olano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">W</forename><surname>Mcbride</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">H</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Diagn</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="185" to="197" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Infectious disease in the genomic era</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">P</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Genomics Hum Genet</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="21" to="48" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Bridging the knowledge gaps in vaccine design</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rappuoli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1361" to="1366" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Whole-genome random sequencing and assembly of Haemophilus influenzae Rd</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">D</forename><surname>Fleischmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Clayton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">F</forename><surname>Kirkness</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">269</biblScope>
+			<biblScope unit="page" from="496" to="512" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Human genetics of infectious diseases: A unified theory</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Casanova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Abel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="915" to="922" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Genetic susceptibility to infectious diseases: Big is beautiful, but will bigger be even better?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Burgner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">E</forename><surname>Jamieson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Blackwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="653" to="663" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Direct metagenomic detection of viral pathogens in nasal and fecal specimens using an unbiased high-throughput sequencing approach</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Sakon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Ueda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Tougan</surname></persName>
+		</author>
+		<idno type="doi">10.1371/journal.pone.0004219</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">4219</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Molecular detection of multiple emerging pathogens in sputa from cystic fibrosis patients</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Bittar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Richet</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Dubus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Reynaud-Gaubert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Stremler</surname></persName>
+		</author>
+		<idno type="doi">10.1371/journal.pone.0002908</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Vaccinology in the genome era</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Rinaudo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Telford</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rappuoli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">L</forename><surname>Seib</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Invest</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="2515" to="2525" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Developing antibacterial vaccines in genomics and proteomics era</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">K</forename><surname>Kaushik</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Sehgal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="544" to="552" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Novel genetic techniques and approaches in the microbial genomics era: identification and/or validation of targets for the discovery of new antibacterial agents</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Pucci</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Drugs R D</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="201" to="212" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">When will the genomics investment pay off for antibacterial discovery?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">D</forename><surname>Mills</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="1096" to="1102" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The role of medical structural genomics in discovering new drugs for infectious diseases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">C</forename><surname>Van Voorhis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wgj</forename><surname>Hol</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Myler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">J</forename><surname>Stewart</surname></persName>
+		</author>
+		<idno type="doi">e530.10.1371/journal.pcbi.1000530</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Comput Biol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Reverse vaccinology: A genomebased approach for vaccine development</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Masignani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rappuoli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pizza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Opin Biol Ther</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="895" to="905" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Identification of vaccine candidates against serogroup B meningococcus by whole-genome sequencing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pizza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Scarlato</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Masignani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">M</forename><surname>Giuliani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Arico</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="1816" to="1820" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A universal vaccine for serogroup B meningococcus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">M</forename><surname>Giuliani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Adu-Bobie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Comanducci</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Arico</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Savino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="10834" to="10839" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">The application of reverse vaccinology, Novartis MenB vaccine developed by design. 16th International Pathogenic Neisseria Conference</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rappuoli</surname></persName>
+		</author>
+		<ptr target="http://www.IPNC2008.org.Abstr.81p" />
+		<imprint>
+			<date type="published" when="2008" />
+			<pubPlace>Rotterdam, The Netherlands</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The pan-genome: Towards a knowledge-based discovery of novel targets for vaccines and antibacterials</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Muzzi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Masignani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rappuoli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Drug Discov Today</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="429" to="439" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Genome analysis of multiple pathogenic isolates of Streptococcus agalactiae: implications for the microbial &apos;&apos;pan-genome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Tettelin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Masignani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Cieslewicz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Donati</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Medini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="13950" to="13955" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Identification of a universal Group B streptococcus vaccine by multiple genome screen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Maione</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Margarit</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Rinaudo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Masignani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mora</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">309</biblScope>
+			<biblScope unit="page" from="148" to="150" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Methods and tools for comparative genomics of foodborne pathogens</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">A</forename><surname>Bhagwat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bhagwat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Foodborne Pathog Dis</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="487" to="497" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The pangenome structure of Escherichia coli: Comparative genomic analysis of E. coli commensal and pathogenic isolates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Rasko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Rosovitz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">S</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">F</forename><surname>Mongodin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">F</forename><surname>Fricke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">190</biblScope>
+			<biblScope unit="page" from="6881" to="6893" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Highthroughput sequencing provides insights into genome variation and evolution in Salmonella typhi</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">E</forename><surname>Holt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Parkhill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Mazzoni</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Roumagnac</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">X</forename><surname>Weill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Genet</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="987" to="993" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Gene expression microarrays: A 21st century tool for directed vaccine design</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Dhiman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Bonilla</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>O&amp;apos;kane</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">A</forename><surname>Poland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vaccine</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="22" to="30" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Applications of next-generation sequencing technologies in functional genomics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Morozova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Marra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genomics</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="255" to="264" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Hostinduced epidemic spread of the cholera bacterium</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">S</forename><surname>Merrell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Qadri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">A</forename><surname>Dolganov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Alam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">417</biblScope>
+			<biblScope unit="page" from="642" to="645" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The temporal expression profile of Mycobacterium tuberculosis infection in mice</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Talaat</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Lyons</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">T</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Johnston</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="4602" to="4607" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The impact of genomics on vaccine design</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Scarselli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">M</forename><surname>Giuliani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Adu-Bobie</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Pizza</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rappuoli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="84" to="91" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Signature-tagged mutagenesis: technical advances in a negative selection method for virulence gene identification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">L</forename><surname>Saenz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Dehio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="612" to="619" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Genomics, systems biology and drug development for infectious diseases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Sakata</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">A</forename><surname>Winzeler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biosyst</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="841" to="848" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Functional genomics of Neisseria meningitidis pathogenesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Bakshi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Chalmers</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Tang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Med</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1269" to="1273" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Identification and characterization of Helicobacter pylori genes essential for gastric colonization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Kavermann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">P</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Angermuller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Odenbreit</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Fischer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Med</title>
+		<imprint>
+			<biblScope unit="volume">197</biblScope>
+			<biblScope unit="page" from="813" to="822" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Genes required for mycobacterial growth defined by high density mutagenesis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Sassetti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">H</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">J</forename><surname>Rubin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="77" to="84" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bilgin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Snyder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proteomics. Annu Rev Biochem</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="783" to="812" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Genomics and proteomics in reverse vaccines</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Grandi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Biochem Anal</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="379" to="393" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Characterization and identification of vaccine candidate proteins through analysis of the group A Streptococcus surface proteome</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Rodriguez-Ortega</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Norais</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Bensi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Liberatori</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Capo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="191" to="197" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Prediction of immunogenicity: in silico paradigms, ex vivo and in vivo correlates</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">S</forename><surname>De Groot</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Mcmurry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Moise</forename><forename type="middle">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="620" to="626" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Antigenome technology: A novel approach for the selection of bacterial vaccine candidate antigens</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Meinke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Henics</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hanner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">B</forename><surname>Minh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Nagy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vaccine</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="2035" to="2041" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Identification of vaccine candidate antigens of Staphylococcus aureus by serological proteome analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Vytvytska</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Nagy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bluggel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">E</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Kurzbauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="580" to="590" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Discovery of a novel class of highly conserved vaccine antigens using genomic scale antigenic fingerprinting of pneumococcus with human antibodies</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Giefing</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Meinke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hanner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Henics</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Bui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Med</title>
+		<imprint>
+			<biblScope unit="volume">205</biblScope>
+			<biblScope unit="page" from="117" to="131" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Immunodominant Francisella tularensis antigens identified using proteome microarray</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Eyles</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Unal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">G</forename><surname>Hartley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Newstead</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Flick-Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="2172" to="2183" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Production and sequence validation of a complete full length ORF collection for the pathogenic bacterium Vibrio cholerae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Rolfs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">R</forename><surname>Montor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">S</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Bhullar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="4364" to="4369" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Protein microarrays: high-throughput tools for proteomics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Stoevesandt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Taussig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>He</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Rev Proteomics</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="145" to="157" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Epitope-based immunonederived vaccines: a strategy for improved design and safety</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">S</forename><surname>De Groot</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Moise</forename><forename type="middle">L</forename><surname>Mcmurry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename></persName>
+		</author>
+		<editor>Falus A, ed. Clinical Applications of Immunomics</editor>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>Springer</publisher>
+			<biblScope unit="page" from="39" to="69" />
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A roadmap for the immunomics of category A-C pathogens</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Sette</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Fleri</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Sathiamurthy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">H</forename><surname>Bui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="155" to="161" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Identification of immunogenic HLA-B7 &apos;&apos;Achilles&apos; heel&apos;&apos; epitopes within highly conserved regions of HIV</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">S</forename><surname>De Groot</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">S</forename><surname>Rivera</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Mcmurry</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Buus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vaccine</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="3059" to="3071" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Structural genomics and drug discovery</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Lundstrom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Mol Med</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="224" to="238" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Viracept (nelfinavir mesylate, AG1343): A potent, orally bioavailable inhibitor of HIV-1 protease</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">W</forename><surname>Kaldor</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">J</forename><surname>Kalish</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">V</forename><surname>Shetty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Fritz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Chem</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="3979" to="3985" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Influenza neuraminidase inhibitors possessing a novel hydrophobic interaction in the enzyme active site: Design, synthesis, and structural analysis of carbocyclic sialic acid analogues with potent anti-influenza activity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">U</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Lew</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Chem Soc</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="681" to="690" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Progress of structural genomics initiatives: An analysis of solved target structures</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Marsden</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Thornton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Orengo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">348</biblScope>
+			<biblScope unit="page" from="1235" to="1260" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Structure-based antigen design: A strategy for next generation vaccines</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">R</forename><surname>Dormitzer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">B</forename><surname>Ulmer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rappuoli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="659" to="667" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Structure-based approaches to antibiotic drug discovery</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Nicola</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Abagyan</surname></persName>
+		</author>
+		<idno>17.2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Protoc Microbiol Chapter</title>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Structural definition of a conserved neutralization epitope on HIV-1 gp120</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Dey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Hessell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Van Ryk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">445</biblScope>
+			<biblScope unit="page" from="732" to="737" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Structure and function of the HIV envelope glycoprotein as entry mediator, vaccine immunogen, and target for inhibitors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Prabakaran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">S</forename><surname>Dimitrov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">R</forename><surname>Fouts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">S</forename><surname>Dimitrov</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kuanteh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Pharmacology</title>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="2007" />
+			<biblScope unit="page" from="33" to="97" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Deceptive imprinting and immune refocusing in vaccine design</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">J</forename><surname>Tobin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Trujillo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">V</forename><surname>Bushnell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">R</forename><surname>Chaudhuri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vaccine</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="6189" to="6199" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">The role of infections in autoimmune disease</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Ercolini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">D</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Exp Immunol</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Pathogen proteins eliciting antibodies do not share epitopes with host proteins: A bioinformatics approach</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Amela</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Cedano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Querol</surname></persName>
+		</author>
+		<idno type="doi">10.1371/journal.pone.0000512</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">512</biblScope>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Massive peptide sharing between viral and human proteomes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Kanduc</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Stufano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Lucchese</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kusalik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Peptides</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1755" to="1766" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Non-redundant peptidomes from DAPs: Towards &apos;&apos;the vaccine&apos;&apos;?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Kanduc</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Lucchese</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Mittelman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Autoimmun Rev</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="290" to="294" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Vaccination and autoimmune disease: What is the evidence?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">C</forename><surname>Wraith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Goldman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">H</forename><surname>Lambert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">362</biblScope>
+			<biblScope unit="page" from="1659" to="1666" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Identification of LFA-1 as a candidate autoantigen in treatment-resistant Lyme arthritis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Gross</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Forsthuber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Tary-Lehmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Etling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Ito</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="page" from="703" to="706" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">An effective secondgeneration outer surface protein A-derived Lyme vaccine that eliminates a potentially autoreactive T cell epitope</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">A</forename><surname>Willett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">L</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">T</forename><surname>Huber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="1303" to="1308" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Attacking pathogens through their hosts</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Kellam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">201</biblScope>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Virogenomics: the virushost interaction revisited</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Andeweg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">L</forename><surname>Haagmans</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Osterhaus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="461" to="466" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Statins inhibit HIV-1 infection by down-regulating Rho activity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Del Real</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Jimenez-Baranda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mira</forename><forename type="middle">E</forename><surname>Lacalle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Lucas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Med</title>
+		<imprint>
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="page" from="541" to="547" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Functional genomics highlights differential induction of antiviral pathways in the lungs of SARS-CoV-infected macaques</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>De Lang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Baas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Teal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Leijten</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Rain</surname></persName>
+		</author>
+		<idno type="doi">10.1371/journal.ppat.0030112.67</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="851" to="861" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note>Nature</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Application of pharmacogenomics to vaccines</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">A</forename><surname>Poland</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">G</forename><surname>Ovsyannikova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Jacobson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacogenomics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="837" to="852" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Human leukocyte antigen and cytokine receptor gene polymorphisms associated with heterogeneous immune responses to mumps viral vaccine</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">G</forename><surname>Ovsyannikova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Jacobson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Dhiman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Vierkant</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">S</forename><surname>Pankratz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pediatrics</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="1091" to="1099" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Arylamine Nacetyltransferases: Structural and functional implications of polymorphisms</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Sim</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Lack</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Westwood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Toxicology</title>
+		<imprint>
+			<biblScope unit="volume">254</biblScope>
+			<biblScope unit="page" from="170" to="183" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Translation of pharmacogenetics into clinically relevant testing modalities</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Baudhuin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">J</forename><surname>Langman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>O&amp;apos;kane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Pharmacol Ther</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="373" to="376" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Pili in gram-positive pathogens</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Telford</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Barocchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Margarit</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rappuoli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Grandi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="509" to="519" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Genome analysis reveals pili in Group B Streptococcus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Lauer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Rinaudo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Soriani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Margarit</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Maione</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">309</biblScope>
+			<biblScope unit="page">105</biblScope>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Preventing bacterial infections with pilus-based vaccines: The group B streptococcus paradigm</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Margarit</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">D</forename><surname>Rinaudo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Galeotti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Maione</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Ghezzo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page" from="108" to="115" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Group A Streptococcus produce pilus-like structures containing protective antigens and Lancefield T antigens</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mora</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Bensi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Capo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Falugi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Zingaretti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="15641" to="15646" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Sequence variation in Group A Streptococcus pili and association of pilus backbone types with Lancefield T serotypes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Falugi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Zingaretti</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Pinto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Mariani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Amodeo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">198</biblScope>
+			<biblScope unit="page" from="1834" to="1841" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">A pneumococcal pilus influences virulence and host inflammatory responses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Barocchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ries</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Zogaj</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Hemsley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Albiger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="2857" to="2862" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">A second pilus type in Streptococcus pneumoniae is prevalent in emerging serotypes and mediates adhesion to host cells</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Bagnoli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Moschioni</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Donati</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Dimitrovska</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Ferlenghi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">190</biblScope>
+			<biblScope unit="page" from="5480" to="5492" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Streptococcus pneumoniae pilus subunits protect mice against lethal challenge</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Gianfaldoni</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Censini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hilleringmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Moschioni</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Facciotti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect Immun</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="1059" to="1062" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Binding of complement factor H (fH) to Neisseria meningitidis is specific for human fH and inhibits complement activation by rat and rabbit sera</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Granoff</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Welsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect Immun</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="764" to="769" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Detection of LP2086 on the cell surface of Neisseria meningitidis and its accessibility in the presence of serogroup B capsular polysaccharide</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">K</forename><surname>Mcneil</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><forename type="middle">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Guttmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Harris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vaccine</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="3417" to="3421" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Bactericidal antibody responses elicited by a meningococcal outer membrane vesicle vaccine with overexpressed factor H-binding protein and genetically attenuated endotoxin</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Koeberling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Seubert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Granoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">198</biblScope>
+			<biblScope unit="page" from="262" to="270" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">The meningococcal vaccine candidate GNA1870 binds the complement regulatory protein factor H and enhances serum resistance</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Madico</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Welsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Mcnaughton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">H</forename><surname>Perlman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">177</biblScope>
+			<biblScope unit="page" from="501" to="510" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Vaccination against Neisseria meningitidis using three variants of the lipoprotein GNA1870</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Masignani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Comanducci</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">M</forename><surname>Giuliani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Bambini</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Adu-Bobie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Med</title>
+		<imprint>
+			<biblScope unit="volume">197</biblScope>
+			<biblScope unit="page" from="789" to="799" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Complement-dependent synergistic bactericidal activity of antibodies against factor H-binding protein, a sparsely distributed meningococcal vaccine antigen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Welsch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ram</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">O</forename><surname>Koeberling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Granoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">197</biblScope>
+			<biblScope unit="page" from="1053" to="1061" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Factor Hbinding protein is important for meningococcal survival in human whole blood and serum and in the presence of the antimicrobial peptide LL-37</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">L</forename><surname>Seib</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Serruto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Oriente</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Delany</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Adu-Bobie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect Immun</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="292" to="299" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Signature-tagged mutagenesis: Barcoding mutants for genome-wide screens</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Mazurkiewicz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Boone</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">W</forename><surname>Holden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Genet</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="929" to="939" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

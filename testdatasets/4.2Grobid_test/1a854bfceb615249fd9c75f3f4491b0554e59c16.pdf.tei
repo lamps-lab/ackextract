@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 C:\PWang\Datasets\grobid-0.5.5\grobid-0.5.5\grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.5" ident="GROBID" when="2020-06-22T14:01+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Effective containment explains sub-exponential growth in confirmed cases of recent COVID-19 outbreak in Mainland China</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-02-19">(Dated: February 19, 2020)</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Benjamin</forename><forename type="middle">F</forename><surname>Maier</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dirk</forename><surname>Brockmann</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Robert Koch Institute</orgName>
+								<address>
+									<addrLine>Nordufer 20</addrLine>
+									<postCode>D-13353</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Institute for Theoretical Biology</orgName>
+								<orgName type="institution">Robert Koch Institute</orgName>
+								<address>
+									<addrLine>Nordufer 20</addrLine>
+									<postCode>D-13353</postCode>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Humboldt-University of Berlin</orgName>
+								<address>
+									<addrLine>Philippstr. 13</addrLine>
+									<postCode>D-10115</postCode>
+									<settlement>Berlin</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Effective containment explains sub-exponential growth in confirmed cases of recent COVID-19 outbreak in Mainland China</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-02-19">(Dated: February 19, 2020)</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The recent outbreak of COVID-19 in Mainland China is characterized by a distinctive algebraic, subexponential increase of confirmed cases with time during the early phase of the epidemic, contrasting an initial exponential growth expected for an unconstrained outbreak with sufficiently large reproduction rate. Although case counts vary significantly between affected provinces in Mainland China, the scaling law t µ is surprisingly universal, with a range of exponents µ = 2.1 ± 0.3. The universality of this behavior indicates that, in spite of social, regional, demographical, geographical, and socio-economical heterogeneities of affected Chinese provinces, this outbreak is dominated by fundamental mechanisms that are not captured by standard epidemiological models. We show that the observed scaling law is a direct consequence of containment policies that effectively deplete the susceptible population. To this end we introduce a parsimonious model that captures both, quarantine of symptomatic infected individuals as well as population wide isolation in response to mitigation policies or behavioral changes. For a wide range of parameters, the model reproduces the observed scaling law in confirmed cases and explains the observed exponents. Quantitative fits to empirical data permit the identification of peak times in the number of asymptomatic or oligo-symptomatic, unidentified infected individuals, as well as estimates of local variations in the basic reproduction number. The model implies that the observed scaling law in confirmed cases is a direct signature of effective contaiment strategies and/or systematic behavioral changes that affect a substantial fraction of the susceptible population. These insights may aid the implementation of containment strategies in potential export induced COVID-19 secondary outbreaks elsewhere or similar future outbreaks of other emergent infectious diseases.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>The current outbreak of the new coronavirus in Mainland China (COVID-19, previously named 2019-nCoV) is closely monitored by governments, researchers, and the public alike <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>. The rapid increase of positively diagnosed cases in Mainland China and subsequent exportation and confirmation of cases in more than 20 countries worldwide raised concern on an international scale. The World Health Organization (WHO) therefore announced the COVID-19 outbreak a Public Health Emergency of International Concern <ref type="bibr" target="#b3">[4]</ref>.</p><p>Confirmed cases in Mainland China increased from approx. 330 on Jan. 21st, 2020 to more than 17,000 on Feb. 2nd, 2020 in a matter of two weeks <ref type="bibr">[8]</ref>. In Hubei Province, the epicenter of the COVID-2019 outbreak, confirmed cases rose from 270 to 11,000 in this period, in all other Chinese provinces the cumulated case count increased from 60 to 6,000 in the same period.</p><p>An initial exponential growth of confirmed cases is generically expected for an uncontrolled outbreak and in most cases mitigated with a time delay by effective containment strategies and policies that reduce transmission and effective reproduction of the virus, commonly yielding a saturation in the cumulative case count and an exponential decay in the number of new infections. Although in Hubei the number of cases was observed to grow exponentially in early January <ref type="bibr" target="#b8">[9]</ref>, the * bfmaier@physik.hu-berlin.de subsequent rise followed a sub-exponential, super-linear, algebraic scaling law t µ with an exponent µ = 2.3 (between Jan. 24th and Feb. 9th), cf. <ref type="figure">Fig. 1A</ref>. For the majority of the affected Chinese provinces of Mainland China, however, this type of algebraic rise occured from the beginning, lacking an initial exponential growth altogether. Surprisingly, the exponent µ does not vary substantially with a typical value of µ = 2.1 ± 0.3 for the confirmed case curves in other substantially affected provinces (confirmed case counts larger than 500 on Feb. 12th), despite geographical, socio-economical differences, differences in containment strategies, and heterogeneties that may have variable impacts on how the local epidemic unfolds, cf. <ref type="figure">Fig. 1B</ref> and C.</p><p>The universality of the scaling relation t µ with similar exponents µ is evidence that this aspect of the dynamics is determined by fundamental principles that are at work and robust with respect to variation of other parameters that typically shape the temporal evolution of epidemic processes. Three questions immediately arise, (i) what may be the reason for this functional dependency, (ii) are provinces other than Hubei mostly driven by export cases from Hubei and therefore follow a similar functional form in case counts as suggested by preliminary studies <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref>, or, alternatively, (iii) is the scaling law a consequence of endogeneous and basic epidemiological processes and a consequence of a balance between transmission events and containment factors.</p><p>Here we propose a parsimonious epidemiological model that incorporates quarantine measures and containment policies. In addition to standard epidemiological parameters such arXiv:2002.07572v1 [q-bio.PE] 18 Feb 2020 <ref type="figure">Figure 1</ref>. A: Confirmed case numbers in Hubei. The increase in cases follows a scaling law t µ with an exponent µ = 2.32 after a short initial exponential growth phase. On Feb 9th the case count starts deviating towards lower values. B: Aggregated confirmed cases in all other affected provinces except Hubei. C(t) follows a scaling law with exponent µ = 1.92 until Feb. 2nd when case counts deviate to lower values. The insets in A and B depict C(t) on a log-log scale. C: Confirmed cases as a function of time for the 8 most affected provinces in China. The curves follow a scaling law with exponents µ ≈ 2 with the exception of Chongqing Province (µ = 1.45) and Jiangxi Province (µ = 2.75).</p><p>as transmission and recovery rate, the model introduces effective quarantine measures that act on both, symptomatic infected individuals as well as susceptible individuals. We show that depleting both "ends" of the transmission interactions that involve an infectious and a susceptible individual naturally yields a sub-exponential, algebraic increase in confirmed cases. This behavior is qualitatively different from the behavior expected in a scenario in which only infecteds are targets of containment strategies to reduce transmission. In this case one expects either a stable exponential growth at a lower rate or an exponential decay if mitigation is sufficiently effective.</p><p>The model predicts the observed growth of case numbers exceptionally well for almost all affected provinces for epidemiological parameters estimated by preliminary studies <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b12">13]</ref>. Furthermore, the model permits an indirect assessment of the peak time in the number of undetected infectious individuals (asymptomatic and oligosymptomatic cases) that preceeds the depletion of confirmed cases. This indicates that the number of unidentified infectious indviduals peaked in early February.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. SITUATION ASSESSMENT</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Case numbers in Hubei and other provinces</head><p>We rely on case number data provided by the Systems Science and Engineering group of Johns Hopkins University who currently give up to two updates per day on the number of laboratory-confirmed cases globally <ref type="bibr">[8]</ref>. For the time period discussed in this paper, the group integrated and curated case data manually collected at four sources: the World Health Organization (WHO), the US Centers for Disease Control and Prevention (CDC), the European Centre for Disease Prevention and Control (ECDC), the Chinese physician's platform DXY.cn, and the National Health Commission of the People's Republic of China (NHC). The published data comprises total confirmed cases, total deaths, and total recovered cases as a function of time for each affected location. In the following we will focus on the number of total confirmed cases C(t).</p><p>In Hubei, we find that the initital increase in confirmed cases is followed by an algebraic scaling with time, i.e. C(t) ∝ t µ , with a scaling exponent µ ≈ 2.3 that persisted until Feb. 9th, see <ref type="figure">Fig. 1A</ref>. On Feb. 12th, the case definition was changed by Chinese authorities which labeled a large number of previously unconfirmed cases as confirmed, leading to a discontinuity in the curves. We will therefore only consider data prior to Feb. 12th, 6am UTC. <ref type="figure">Fig. 1B</ref> illustrates the cumulated case count in all affected provinces except Hubei province. In the period Jan. 21st until Feb. 2nd the curve follows an algebraic scaling law t µ with µ ≈ 1.9 lacking the initial exponential phase observed in Hubei province. Starting on Feb. 2nd, the observed case count starts deviating towards lower case counts. This poses the question whether the observed behavior is an averaging affect introduced by accumulating case counts across provinces. Interestingly, <ref type="figure">Fig. 1C</ref> provides evidence that this is not so. The confirmed case counts in the most affected provinces all exhibit a scaling law with exponents close to µ = 2. Among the most affected provinces only Chongqing Province exhibits a significantly lower exponent. Furthermore, all provincial case count curves start deviating from the algebraic curve around Feb. 2nd.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Implemented policies</head><p>The Chinese government put several mitigation policies in place to contain the spread of the epidemic. In particular, positively diagnosed cases were either quarantined or put under a form of self-quarantine at home <ref type="bibr" target="#b13">[14]</ref>. Similarly, suspicious cases were confined in monitored house arrest, e.g. individuals who arrived from Hubei before all traffic from its capital Wuhan was effectively restricted <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16]</ref>. These measures aimed at the removal of infectious individuals from the transmission process.</p><p>Additionally, measures were implemented that aimed at the protection of the susceptible population by the partial shutdown of public life. For instance, universities remained closed, many businesses closed down, and people were asked to remain in their homes for as much time as possible <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref>. These actions that affect both, susceptibles and nonsymptomatic infectious individuals, not only protect susceptibles from acquiring the infection but also remove a substantial fraction of the entire pool of susceptibles from the transmission process and thus indirectly mitigate the proliferation of the virus in the population in much the same way that herd immunity is effective in the context of vaccine preventable diseases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. EPIDEMIOLOGICAL MODELING WITH QUARANTINE AND ISOLATION</head><p>On a very basic level, an outbreak as the one in Hubei is captured by SIR dynamics <ref type="bibr" target="#b16">[17]</ref>. The population is devided into three compartments that differentiate the state of invididuals with respect to the contagion process: (I)nfected, (S)usceptible to infection, and (R)emoved (i.e. not taking part in the transmission process). The corresponding variables S, I, and R quantify the respective compartments' fraction of the total population such that S + I + R = 1. The temporal evolution of the number of cases is governed by two processes: The infection that describes the transmission from an infectious to a susceptible individual with basic reproduction number R 0 and the recovery of an infected after an infectious period of average length T I . The basic reproduction number R 0 captures the average number of secondary infections an infected will cause before he or she recovers or is effectively removed from the population.</p><p>Initially, a small fraction of infecteds yields an exponential growth if the basic reproduction number is larger than unity. When the supply of susceptibles is depleted, the epidemic reaches a maximum and the infecteds decline. A simple reduction of contacts caused by isolation policies could be associated with a reduction in the effective reproduction number, which would, however, still yield an exponential growth in the fraction of infecteds as long as R 0 &gt; 1, inconsistent with the observed scaling law t µ discussed above. To test the hypothesis that the observed growth behavior can be caused by isolation policies that apply to both, infected and susceptible individuals, by effective public shutdown policies, we extend the SIR model by two additional mechanisms one of which can be interpreted as a process of removing susceptibles from the transmission process. First, we assume that general public containment policies or individual behavioral changes in response to the epidemic effectively remove individuals from the interaction dynamics or significantly reduce their participation in the transmission dynamics. Secondly, we account for the removal of symptomatic infected individuals by quarantine procedures. The dynamics is governed by the system of ordinary differential equations:</p><formula xml:id="formula_0">∂ t S = −αSI − κ 0 S (1) ∂ t I = αSI − βI − κ 0 I − κI (2) ∂ t X = (κ + κ 0 )I,<label>(3)</label></formula><p>a generalization of the standard SIR model, henceforth referred to as the SIR-X model. The rate parameters α and β quantify the transmission rate and the recovery rate of the standard SIR model, respectively. Additionally, the impact of public containment is captured by the terms proportional to the containment rate κ 0 that is effective in both I and S populations. Infected individuals are removed at rate κ corresponding to quarantine measures that only affect symptomatic infecteds. The new compartment X quantifies symptomatic, quarantined infecteds. Here we assume that the fraction X(t) is proportional to the empirical confirmed and reported cases. The case κ 0 = 0 corresponds to a scenario in which the general population is unaffected by policies or does not commit behavioral changes in response to an epidemic. The case κ = 0 corresponds to a scenario in which symptomatic infecteds are not isolated specifically. Note that infecteds are always removed from their compartment I at a higher rate than susceptibles as β + κ + κ 0 &gt; κ 0 .</p><p>In the basic SIR model that captures unconstrained, free spread of the disease, the basic reproduction number R 0 is related to transmission and recovery rate by R 0 ≡ R 0,free = α/β because β −1 = T I is the average time an infected individual remains infectious before recovery or removal. Here, the time period that an infected individual remains infectious is T I,eff = (β + κ 0 + κ) −1 such that the effective, or "observed" reproduction number R 0,eff = αT I,eff is smaller than R 0,free since both κ 0 &gt; 0 and κ &gt; 0.</p><p>We introduce public containment leverage P = κ 0 κ 0 + κ that reflects how strong isolation measures affect the general public in comparison to quarantine measures imposed on symptomatic infecteds alone. We further define Q = κ 0 + κ β + κ 0 + κ as the quarantine probability, i.e. the probability that an infected is identified and quarantined either in specialized hospital wards or at home.</p><p>The key mechanism at work in the model defined by Eqs. <ref type="formula">(1)</ref>- <ref type="formula" target="#formula_0">(3)</ref> is the exponentially fast depletion of susceptibles in addition to isolation of infecteds. This effect is sufficient to account for the observed scaling law in the number of confirmed cases for a plausible range of rate parameters as discussed below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. RESULTS</head><p>We assume that a small number of infected individuals travelled from Hubei to each of the other affected provinces before traffic restrictions were effective but at a time when containment measures were just being implemented. <ref type="figure" target="#fig_0">Fig. 2</ref> illustrates the degree to which the case count for Hubei province and the aggregated case count for all other provinces is captured by the SIR-X model as defined by Eqs. <ref type="figure" target="#fig_1">(1)-(3)</ref>.</p><p>We find that for a wide range of model parameters, the case count is well reproduced by the model. The model reproduces the scaling law t µ as observed in the data for a significant period of time before saturating to a finite level. Remarkably, the model is able to reproduce both growth behaviors observed in the data: The model predicts the expected initial growth of case numbers in Hubei Province followed by an algebraic growth episode for ≈ 11 days until the saturation sets in, a consequence of the decay of unidentified infected individuals after a peak time around Feb. 7th (see <ref type="figure" target="#fig_0">Fig. 2A)</ref>. Furthermore, the model also captures the immediate sub-exponential growth observed in the remaining most affected provinces <ref type="figure" target="#fig_0">(Fig. 2B-C)</ref>. Again, saturation is induced by a decay of unidentified infecteds after peaks that occur several days before peak time Province N/10 6 Q P I 0 /X 0 R 0,eff in Hubei, ranging from Jan. 31st to Feb. 5th. For all provinces, following their respective peaks the number of unidentified infecteds I(t) decays over a time period that is longer than the reported estimation of maximum incubation period of 14 days <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b12">13]</ref>. It is important to note that due to the uncertainty in the population size, the numerical value of unidentified infecteds is sensitive to parameter variations-the general shape of I(t), however, is robust for a wide choice of parameters, as discussed in App. A. Parameter choices for best fits were a fixed basic reproduction number of R 0,free = 6.2 (note that this reproduction number corresponds to an unconstrained epidemic) and a fixed mean infection duration of T I = 8 d consistent with previous reports concerning the incubation period of COVID-19 <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b12">13]</ref>. The remaining fit parameters are shown in Tab. I. For these values, the effective basic reproduction number is found to range between 1.7 ≤ R 0,eff ≤ 3.3 for the discussed provinces, consistent with estimates found in previous early assessment studies <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19]</ref>.</p><p>A detailed analysis of the obtained values for quarantine probability Q and public containment leverage P indicates that a wide range of these parameters can account for similar shapes of the respective case counts. Consequently, the model is structurally stable with respect to these parameters and the numerical value is of less importance than the quality of the mechanism they control (see App. A).</p><p>For the remaining 20 provinces, we find growth behaviors similar to the ones discussed before. Some follow a functional form comparable to the case counts in Hubei, others display a stronger agreement with pure algebraic growth, as can be seen in <ref type="figure" target="#fig_1">Fig. 3</ref>. Generally, a stronger agreement with algebraic growth can be associated with stronger public containment leverages.</p><p>In order to stress the general importance of public containment measures and to clarify to what extent quarantine is connected to case confirmation we also analyzed a model variant where (i) the general public and infecteds are removed from In Hubei, the model captures both, the initial rise of confirmed cases as well as the subsequent algebraic growth. The confirmed cases are predicted to saturate at C = 51, 000. The model also predicts the time-course of the number of unidentified infectious individuals I(t) which peaks on Feb. 7th and declines exponentially afterwards. While the order of I(t) is associated with rather large fluctuations depending on the fitting procedure, the predicted peak time is robust, consistently around Feb. 7th. B: Model prediction for case numbers aggregated over all affected provinces other than Hubei. The case numbers' algebraic growth is well reflected and predicted to saturate at C = 12, 600. In contrast to Hubei, the fraction of unidentified infecteds peaks around Feb. 1st, approximately a week earlier. The insets in A and B depict both data and fits on a log-log scale. C: Fits for confirmed cases as a function of time for the remaining 8 most affected provinces in China. All curves are well captured by the model fits that predict similar values for the peak time of unidentified infecteds. the transmission process in the same way and (ii) case counting is decoupled from the quarantine process (see App. C). We find that these model variants describe the real case count data reasonably well for the majority of provinces, further evidence of the importance of containment policies that target the susceptible population. In App. B we present further analytical evidence for this conclusion.</p><p>Note that the described saturation behavior of confirmed cases requires that eventually all susceptibles will effectively be removed from the transmission process. In reality, not every susceptible person can be isolated for such an extended period of time as the model suggests. One might expect instead that the number of infecteds will decay more slowly and saturate to a small, yet non-zero level. At this point it would be crucial to identify unquarantined infecteds more efficiently in order to completely shut down the transmission process. Due to potential difficulties in upholding the containment policies for such an extended period of time, we expect that our predictions will underestimate the final total amount of confirmed cases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. DISCUSSION AND CONCLUSION</head><p>In summary, we find that one of the key features of the dynamics of the COVID-19 epidemic in Hubei Province but also in all other provinces is the robust sub-exponential rise in the number of confirmed cases according to the scaling law t µ during the first episode of the epidemic. This general, almost universal behavior is evidence that fundamental principles are at work associated with this particular epidemic that are dominated by the interplay of the contagion process with endogeneous behavioral changes in the susceptible population and external mitigation policies. We find that the generic scaling of case counts with time is independent of many other factors that often shape the time-course of an epidemic.</p><p>The model defined by Eqs. <ref type="formula">(1)</ref>- <ref type="formula" target="#formula_0">(3)</ref> and discussed here indicates that this type of behavior can generally be expected if the supply of susceptible individuals is systematically decreased by means of implemented containment strategies or behavioral changes in response to information about the ongoing epidemic. Unlike contagion processes that develop without external interference at all or processes that merely lead to parametric changes in the dynamics, our analysis suggests that non-exponential growth is expected when the supply of susceptibles is depleted on a timescale comparable to the infectious period assiociated with the infection. The effective depletion of the susceptible populations on a timescale κ −1 0 in the model does not imply that the pool of susceptibles must be depleted in a physical sense. Rather, this depletion could be achieved indirectly.</p><p>Containment that targets the susceptible population is a requirement for the observed algebraic scaling of case counts with time, unlike the reduction of transmission rates, or the reduction of the duration infected individuals remain infectious. Both of the latter measures address infected individuals only, which leads to a reduction of the exponential growth rate of new infections, or an exponential decay if the corresponding measures are sufficiently effective, but do not alter the functional growth behavior.</p><p>The fact that scaling laws were observed in Hubei after an initial exponential phase and that an exponential phase was not observed in the other substantially affected provinces is consistent with the model predictions if one assumes that the response in the population and the effect of policies lagged the onset of the epidemic in Hubei province and was immediate in all other provinces that were in an alert status already when cases were increasing substantially in Hubei province.</p><p>The model reproduces the empirical case counts in all provinces well for plausible parameter values. The quality of the reproduction of the case counts in all 29 affected provinces can be used to estimate the peak time of the number of asymptomatic or oligo-symptomatic infected individuals in the population, which is the key quantity for estimating the time when this outbreak will wane. The current analysis indicates that this peak time was reached around Feb. 7th for Hubei and within the first days of February in the remaining affected provinces.</p><p>The model further suggests that the public response to the epidemic and the containment measures put in place by the Chinese administration were effective despite the increase in confirmed cases. That this behavior was universally observed in all provinces also indicates that mitigation strategies were universally effective. Based on our analysis, we argue that the implemented containment strategies should stay in effect for a longer time than the incubation period after the saturation in confirmed cases sets in for this particular outbreak.</p><p>Our analysis further implies and provides evidence that mitigation strategies that target the susceptible population and induce behavioral changes at this "end" of the transmission process are most effective to contain an epidemic-especially in situations when asymptomatic or mildly symptomatic infectious periods are long or their duration unknown. This may be of importance for developing containment strategies in future scenarios or if the current COVID-19 epidemic were to trigger large scale outbreaks in other regions of the world by exports and subsequent proliferation.</p><p>isolation. Yet, we advise not to overinterpret the values of these fit parameters, as many different parameter values generate similar developments of confirmed cases.</p><p>As we fixed the population size to be equal to the total population of the respective provinces, one might also ask how system size changes the results-for instance, if the outbreak is contained in a small region of a province, the effective population available to the transmission process will be substantially smaller. Therefore, we repeated the fit procedure with N as a free fit parameter to find that the form of X(t) is not altered substantially for different values of N, while I(t) can vary more strongly as reflected by a larger variation in I 0 . This result suggests that the estimation of the number of infecteds is associated with a larger uncertainty. The general shape of I(t), however, remains stable such that an inference of the peak time of unidentified infecteds is reasonable. Furthermore, the model favours larger values of the containment rate κ 0 for larger population sizes in order to reproduce emprical data. This is a reasonable because the number of available transmission pathways grows quadratically with the population size, making it easier for the disease to spread faster. In order to still observe sub-exponential growth, a large part of the susceptible population has to be removed quickly. Consistently, we find that a decay of susceptibles is necessary to reliably obtain the observed growth behavior (i.e. P &gt; 0, κ 0 &gt; 0).</p><p>Concerning variation in the fixed model parameters, larger values of up to R 0,free = 12 yield results similar to the ones described above when adjusting the infectious period T I to larger values, as well. For lower values of R 0,free &lt; 6, the model fails to reproduce the scaling laws observed in the data. Similarly, the fit results are reasonably robust against variations of the duration of infection in a range of T I ∈ [6 d, 20 d] with concurrent adjustment of R 0,free . Similar effects are found for the remaining 20 affected provinces for which model fits are displayed in <ref type="figure" target="#fig_1">Fig. 3</ref> with parameters given in Tab. II. In general, provinces with larger values of public containment leverage P exhibit a stronger agreement with the hypothesis of algebraic growth.</p><p>All data and the analysis material is available online <ref type="bibr" target="#b20">[21]</ref>.</p><p>Appendix B: Case-number development in early phase of the epidemic</p><p>In a typical outbreak scenario only few people are infected initially, such that S(0) = 1 − ε and I(0) = with ε 1, which implies that the depletion of susceptibles available to the transmission process will be dominated by shutdown policies. This assumption effectively linearizes Eq. (1), yielding the solution</p><formula xml:id="formula_1">S(t) = exp(−κ 0 t).</formula><p>Further integration of the linearized Eq. (2) yields For small values of t we can expand the exponent to obtain the approximate growth function</p><formula xml:id="formula_2">I(t) = I 0 exp [−(β + κ + κ 0 )t] × exp − α κ 0 e −κ 0 t − 1 . Province N/10 6 Q P I 0 /X 0 R 0,eff</formula><formula xml:id="formula_3">I(t)/Ĩ 0 ≈ exp {(α − β − κ − κ 0 ) t} × exp − 1 2 ακ 0 t 2</formula><p>Here, the first factor implies that quarantining infecteds merely decreases the rate with which their number will grow exponentially, while the second term suppresses the whole transmission process well enough to alter the growth behavior. This implies that public shutdown policies facilitate epidemic containment in a more effective way than quarantine measures.</p><p>Appendix C: Case confirmation without quarantine</p><p>In an alternative approach to the one discussed in the main text one may assume that isolation affects all citizens equally, i.e. κ = 0, but that the confirmation and counting of a new case is decoupled from whether the respective person is quarantined or not-rather, an infected is discovered and counted at rateκ. This implies an ODE system of</p><formula xml:id="formula_4">∂ t S = −αSI − κ 0 S (C1) ∂ t I = αSI − βI − κ 0 I (C2) ∂ t X =κI,<label>(C3)</label></formula><p>where as before, X will be equal to the number of confirmed cases C.</p><p>A numerical investigation of this alternative model shows that confirmed case data can be reasonably fit for all provinces, as well, which confirms the argumentation of App. B that removal of susceptibles from the transmission process is more effective than quarantine in mitigating epidemic spread.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Case numbers in Hubei compared to model predictions. The quarantined compartment X(t) and the unidentified infectious compartment I(t) are obtained from least-squares fits of the model defined by Eqs. (1)-(3), cf. App. A. All fits were performed with fixed values of R 0,free = 6.2 and T I = 8d. Note that the effective, observed basic reproduction number R 0,eff has lower values and varies for each of the affected provinces as discussed in Sec. IV and shown in Tab. I. A: In Hubei, the model captures both, the initial rise of confirmed cases as well as the subsequent algebraic growth. The confirmed cases are predicted to saturate at C = 51, 000. The model also predicts the time-course of the number of unidentified infectious individuals I(t) which peaks on Feb. 7th and declines exponentially afterwards. While the order of I(t) is associated with rather large fluctuations depending on the fitting procedure, the predicted peak time is robust, consistently around Feb. 7th. B: Model prediction for case numbers aggregated over all affected provinces other than Hubei. The case numbers' algebraic growth is well reflected and predicted to saturate at C = 12, 600. In contrast to Hubei, the fraction of unidentified infecteds peaks around Feb. 1st, approximately a week earlier. The insets in A and B depict both data and fits on a log-log scale. C: Fits for confirmed cases as a function of time for the remaining 8 most affected provinces in China. All curves are well captured by the model fits that predict similar values for the peak time of unidentified infecteds.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Case numbers of all affected provinces reproduced by the SIR-X model defined by Eqs. (1)-(3) and the fraction of unidentified infecteds I(t) as obtained from least-squares fits. All fits were performed with fixed values of R 0,free = 6.2 and T I = 8d. For more details concerning the fitting procedure, cf. App. A.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" validated="false"><head></head><label></label><figDesc>Table II. Fit parameters as described in Sec. III, fixed population size N, and resulting effective basic reproduction number R 0,eff for the remaining affected provinces, decreasingly ordered by largest case number. The infectious period T I and the basic reproduction number R 0,free = αT I were fixed to values T I = 8 d and R 0,free = 6.2, respec- tively.</figDesc><table>Shandong 
+94.2 0.79 0.04 18.86 
+1.33 
+Sichuan 
+87.2 0.75 0.12 
+9.74 
+1.58 
+Heilongjiang 
+38.2 0.49 0.70 
+6.13 
+3.19 
+Beijing 
+14.9 0.77 0.07 
+1.50 
+1.42 
+Shanghai 
+22.3 0.58 0.56 
+1.99 
+2.58 
+Fujian 
+36.9 0.76 0.11 16.10 
+1.47 
+Hebei 
+69.9 0.79 0.03 
+9.41 
+1.27 
+Guangxi 
+48.2 0.81 0.03 
+6.83 
+1.15 
+Shaanxi 
+37.6 0.75 0.13 
+4.33 
+1.55 
+Yunnan 
+45.4 0.51 1.00 14.99 
+3.01 
+Hainan 
+9.3 0.82 0.01 
+1.77 
+1.12 
+Guizhou 
+37.9 0.71 0.11 
+2.23 
+1.81 
+Shanxi 
+34.1 0.72 0.14 
+4.93 
+1.71 
+Liaoning 
+43.1 0.79 0.06 
+3.51 
+1.28 
+Tianjin 
+14.0 0.78 0.05 
+1.96 
+1.37 
+Gansu 
+26.3 0.79 0.06 
+2.50 
+1.30 
+Jilin 
+27.3 0.48 0.81 
+3.79 
+3.22 
+Xinjiang 
+21.3 0.80 0.02 
+1.13 
+1.22 
+Inner Mongolia 
+24.3 0.82 0.01 
+4.11 
+1.11 
+Ningxia 
+6.2 0.49 1.00 
+3.99 
+3.16 
+
+</table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACKNOWLEDGMENTS</head><p>We want to express our gratitude to L. H. Wieler and L. Schaade for helpful comments regarding the manuscript. B. F. M. is financially supported as an Add-on Fellow for Interdisciplinary Life Science by the Joachim Herz Stiftung.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A: Fitting routine and analysis</head><p>Fits were performed using the Levenberg-Marquardt method of least squares. We fixed the epidemiological parameters to duration of infection T I = 8 d and basic reproduction number R 0,free = αT I = 6.2. The population size N of each of the affected Chinese provinces was obtained from the Geonames project <ref type="bibr" target="#b19">[20]</ref> and is listed in Tab. I. For each confirmed cases data set, we set the initial conditions X(t 0 ) = C(t 0 )/N,</p><p>is the i-th pair of a province's time and aggregated confirmed case number. Since the number of unidentified infectious is unknown per definition, the prefactor I 0 /X 0 ≥ 1 was chosen as a fit parameter. The remaining fit parameters were quarantine rate κ &gt; 0 and containment rate κ 0 &gt; 0. For the fit procedure, Eqs. <ref type="formula">(1)</ref>- <ref type="formula">(3)</ref> were integrated using the DormandPrince method which implements a fourth-order Runge-Kutta method with step-size control, yielding I(t) and X(t) for every parameter configuration and every data set. The residuals were computed as R(t i ) = N X(t i ) − C(t i ).</p><p>We find that the model accurately reflects both the subexponential growth as well as the saturating behavior observed in the data discussed in the main text, with the obtained fit parameters displayed in Tab. I. For the 9 majorly affected provinces and the aggregated data over all provinces except Hubei, the quarantine probability is found to have similar values of Q = 0.6 ± 0.1. The public containment leverage is fluctuating more strongly with values ranging between P = 0.07 and P = 1, where generally, lower values appear concurrently with a higher quarantine probability, which suggests that stronger quarantine implementation requires less public</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Scientists are racing to model the next moves of a coronavirus that&apos;s still hard to predict</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jon</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<date type="published" when="2020-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Here&apos;s How Computer Models Simulate the Future Spread of New Coronavirus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jeremy</forename><surname>Hsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific American</title>
+		<imprint>
+			<date type="published" when="2020-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">China&apos;s Citywide Quarantines: Are They Ethical and Effective? Scientific American</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tanya</forename><surname>Lewis</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+				<title level="m">WHO. Novel Coronavirus (2019-nCoV) Situation Report -11</title>
+		<imprint>
+			<date type="published" when="2020-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nanshan</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Min</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xuan</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jieming</forename><surname>Qu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Fengyun</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yang</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yang</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jingli</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ying</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yuan</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ting</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xinxin</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Li</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Lancet</title>
+		<imprint>
+			<date type="published" when="2020-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Preliminary estimation of the basic reproduction number of novel coronavirus (2019-nCoV) in China, from 2019 to 2020: A data-driven analysis in the early phase of the outbreak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Shi</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Qianyin</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jinjun</forename><surname>Ran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Salihu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guangpu</forename><surname>Musa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Weiming</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yijun</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daozhou</forename><surname>Lou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lin</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Daihai</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Maggie</forename><forename type="middle">H</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Infectious Diseases</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="214" to="217" />
+			<date type="published" when="2020-03" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Novel Coronavirus (2019-nCoV)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cdc</surname></persName>
+		</author>
+		<ptr target="https://www.cdc.gov/coronavirus/2019-ncov/about/symptoms.html" />
+		<imprint>
+			<date type="published" when="2019-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">/</forename><surname>Cssegisanddata</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Covid-19</surname></persName>
+		</author>
+		<ptr target="https://github.com/CSSEGISandData/COVID-19accessed" />
+		<imprint>
+			<date type="published" when="2020-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Qun</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xuhua</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Peng</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xiaoye</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lei</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yeqing</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ruiqi</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kathy</forename><forename type="middle">S M</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Eric</forename><forename type="middle">H Y</forename><surname>Lau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jessica</forename><forename type="middle">Y</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Xuesen</forename><surname>Xing</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nijuan</forename><surname>Xiang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yang</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chao</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Qi</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dan</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tian</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jing</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Man</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wenxiao</forename><surname>Tu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chuding</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Lianmei</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rui</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Qi</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Suhua</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rui</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Hui</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yinbo</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yuan</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ge</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Huan</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhongfa</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yang</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhiqiang</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Boxi</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Zhitao</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yanping</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Guoqing</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tommy</forename><forename type="middle">T Y</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Joseph</forename><forename type="middle">T</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">George</forename><forename type="middle">F</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Benjamin</forename><forename type="middle">J</forename><surname>Cowling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bo Yang, Gabriel M. Leung, and Zijian Feng. Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia</title>
+		<imprint>
+			<date type="published" when="2020-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Network-Based Prediction of the 2019-nCoV Epidemic Outbreak in the Chinese Province Hubei</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bastian</forename><surname>Prasse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Massimo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Long</forename><surname>Achterberg</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Piet</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Van Mieghem</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2002.04482</idno>
+		<idno>arXiv: 2002.04482</idno>
+		<imprint>
+			<date type="published" when="2020-02" />
+		</imprint>
+	</monogr>
+	<note>physics, q-bio</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Steven</forename><surname>Sanche</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yen</forename><surname>Ting Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chonggang</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ethan</forename><surname>Romeroseverson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicolas</forename><forename type="middle">W</forename><surname>Hengartner</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ruian</forename><surname>Ke</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2002.03268</idno>
+		<idno>arXiv: 2002.03268</idno>
+		<title level="m">The Novel Coronavirus, 2019-nCoV, is Highly Contagious and More Infectious Than Initially Estimated</title>
+		<imprint>
+			<date type="published" when="2020-02" />
+		</imprint>
+	</monogr>
+	<note>q-bio</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">A Time Delay Dynamic System with External Source for the Local Outbreak of 2019-nCoV</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yu</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jin</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Yu</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Keji</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2002.02590</idno>
+		<idno>arXiv: 2002.02590</idno>
+		<imprint>
+			<date type="published" when="2020-02" />
+		</imprint>
+	</monogr>
+	<note>physics, q-bio</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+				<title level="m">WHO. Novel Coronavirus (2019-nCoV) Situation Report -7</title>
+		<imprint>
+			<date type="published" when="2020-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Over 1,700 frontline medics likely infected with coronavirus in China presenting new crisis for the government</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nectar</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Natalie</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">David</forename><surname>Culver</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CNN</title>
+		<imprint>
+			<date type="published" when="2020-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">How the Coronavirus Made Globalization a Deadly Threat</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Georg</forename><surname>Fahrion</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Kristina</forename><surname>Gnirke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Veronika</forename><surname>Hackenbroch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><surname>Hesse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Martin</forename><forename type="middle">U</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Katharina</forename><forename type="middle">Graça</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Michael</forename><surname>Sauga</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Bernhard</forename><surname>Zand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SPIEGEL International</title>
+		<imprint>
+			<date type="published" when="2020-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Wuhan: Zwei, die nicht mehr rauskommen. Die Zeit</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Caroline</forename><surname>Rosales</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alisa</forename><surname>Schröter</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Modeling infectious diseases in humans and animals</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">James</forename><surname>Matthew</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Pejman</forename><surname>Keeling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Rohani</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>Princeton University Press</publisher>
+			<biblScope unit="page">163616681</biblScope>
+			<pubPlace>Princeton</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Early dynamics of transmission and control of 2019-nCoV: a mathematical modelling study. medRxiv</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Adam</forename><forename type="middle">J</forename><surname>Kucharski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Timothy</forename><forename type="middle">W</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Charlie</forename><surname>Diamond</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sebastian</forename><surname>Group</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rosalind</forename><forename type="middle">M</forename><surname>Funk</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Eggo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020-02" />
+		</imprint>
+	</monogr>
+	<note>page 2020.01.31.20019901</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions. medRxiv</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jonathan</forename><forename type="middle">M</forename><surname>Read</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Jessica</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Bridgen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">T</forename><surname>Derek</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Antonia</forename><surname>Cummings</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Chris</forename><forename type="middle">P</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Jewell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="2020" to="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Geonames</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Geonames</surname></persName>
+		</author>
+		<ptr target="https://geonames.orgac-cessed" />
+		<imprint>
+			<date type="published" when="2019-11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Benjamin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Maier</surname></persName>
+		</author>
+		<ptr target="https://github.com/benmaier/COVID19CaseNumberModel" />
+		<title level="m">benmaier/COVID19CaseNumberModel</title>
+		<imprint>
+			<date type="published" when="2020-02-18" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

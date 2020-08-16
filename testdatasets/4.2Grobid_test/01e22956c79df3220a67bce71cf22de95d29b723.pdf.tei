@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 C:\PWang\Datasets\grobid-0.5.5\grobid-0.5.5\grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.5" ident="GROBID" when="2020-06-22T14:00+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">In-Depth Analysis of the Antibody Response of Individuals Exposed to Primary Dengue Virus Infection</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2011">2011</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>De Alwis</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Beltramello</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">B</forename><surname>Messer</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sukupolvi-Petty</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wmpb</forename><forename type="middle">M P B</forename><surname>Wahala</surname></persName>
+						</author>
+						<title level="a" type="main">In-Depth Analysis of the Antibody Response of Individuals Exposed to Primary Dengue Virus Infection</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">PLoS Negl Trop Dis</title>
+						<imprint>
+							<biblScope unit="volume">5</biblScope>
+							<biblScope unit="issue">6</biblScope>
+							<biblScope unit="page">1188</biblScope>
+							<date type="published" when="2011">2011</date>
+						</imprint>
+					</monogr>
+					<note type="submission">Received December 21, 2010; Accepted April 12, 2011;</note>
+					<note>Editor: The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript. Competing Interests: The authors have declared that no competing interests exist. *</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>Humans who experience a primary dengue virus (DENV) infection develop antibodies that preferentially neutralize the homologous serotype responsible for infection. Affected individuals also generate cross-reactive antibodies against heterologous DENV serotypes, which are non-neutralizing. Dengue cross-reactive, non-neutralizing antibodies can enhance infection of Fc receptor bearing cells and, potentially, exacerbate disease. The actual binding sites of human antibody on the DENV particle are not well defined. We characterized the specificity and neutralization potency of polyclonal serum antibodies and memory B-cell derived monoclonal antibodies (hMAbs) from 2 individuals exposed to primary DENV infections. Most DENV-specific hMAbs were serotype cross-reactive and weakly neutralizing. Moreover, many hMAbs bound to the viral pre-membrane protein and other sites on the virus that were not preserved when the viral envelope protein was produced as a soluble, recombinant antigen (rE protein). Nonetheless, by modifying the screening procedure to detect rare antibodies that bound to rE, we were able to isolate and map human antibodies that strongly neutralized the homologous serotype of DENV. Our MAbs results indicate that, in these two individuals exposed to primary DENV infections, a small fraction of the total antibody response was responsible for virus neutralization.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Dengue virus (DENV) complex consists of 4 serotypes. People exposed to primary DENV infections develop robust antibody responses that cross-react with all serotypes (Reviewed in <ref type="bibr" target="#b0">[1]</ref>). Despite the extensive cross-reactivity, individuals only develop long term, protective immunity against the homologous serotype responsible for the primary infection <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>. Indeed, the risk of progressing to DHF is greater during secondary compared to primary infection <ref type="bibr" target="#b3">[4]</ref>. A prevailing theory that explains severe dengue during secondary infection is that pre-existing, non-neutralizing dengue specific antibodies enhance DENV entry and replication in Fc-receptor-bearing cells, which leads to a higher viremia and more severe disease <ref type="bibr" target="#b3">[4]</ref>. Antibodies have been demonstrated to enhance DENV in cell culture <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref> and in animal models of dengue pathogenesis <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref>.</p><p>Our current understanding of how antibodies interact with DENV and other flaviviruses is primarily based on studies utilizing mouse monoclonal antibodies (MAbs) (Reviewed in <ref type="bibr" target="#b9">[10]</ref>). The DENV envelope (E) protein is the principle target of neutralizing antibodies. Antibody neutralization occurs by blocking critical functions of the E protein, including attachment to host cells and low pH-dependent fusion of the viral and host cell membranes <ref type="bibr" target="#b10">[11]</ref>. The crystal structures of the E protein of several flaviviruses have been solved <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref>. Individual subunits of E protein consist of three beta-barrel domains designated domains I (EDI), II (EDII) and III (EDIII), with the native protein forming a head-totail homodimer. Mouse MAbs that bind to all three domains of DENV E have been generated and characterized <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref>. Although neutralizing mouse MAbs have been mapped to all three domains of E, the most strongly neutralizing MAbs recognize epitopes on the lateral ridge and A strand of EDIII <ref type="bibr" target="#b23">[24]</ref>.</p><p>Following a primary DENV infection, humans develop antibodies that cross-react with all 4 serotypes, but mainly neutralize the homologous serotype responsible for the infection (Reviewed in <ref type="bibr" target="#b2">[3]</ref>). Studies with human immune sera and, more recently, human monoclonal antibodies have demonstrated that the dominant antibody response is cross-reactive and weakly neutralizing <ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref>. Multiple viral antigens including E protein, premembrane (prM/M) protein and non-structural protein 1 (NSP1) are recognized by the human humoral response <ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref>. Nonetheless, few studies have defined the actual epitopes of DENV recognized by type-specific and cross-reactive human antibodies at the structural level and compared this to the epitopes defined using mouse antibodies. The target(s) of dengue type-specific, strongly neutralizing human antibodies remain unknown. The goal of this study was to study two subjects in-depth to define the major antigens and epitopes recognized by antibodies that develop following primary human DENV infection. Defining the human B-cell epitopes on DENV is a key step towards understanding how antibodies can both enhance and inhibit the severity of DENV infections.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head><p>Viruses, recombinant proteins and immune sera DENV1 WestPac-74, DENV2 S-16803, DENV3 CH-53489, and DENV4 TVP-360, provided by Dr. Robert Putnak (Walter Reed Army Institute of Research, Silver Spring, MD) were used in the present study <ref type="bibr" target="#b28">[29]</ref>. Recombinant envelope (rE) proteins from the 4 DENV serotypes were kindly provided by Dr. Beth-Ann Coller (Hawaii Biotech, Inc) <ref type="bibr" target="#b11">[12]</ref>. The recombinant proteins bind to conformational MAbs and X-ray crystallography studies have demonstrated that these proteins retained a native-like structure <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b12">13]</ref>. Convalescent DENV immune sera were obtained from volunteers who had experienced natural DENV infections during travel abroad. The protocol for recruiting and collecting blood samples from people was approved by the Institutional Review Board of the University of North Carolina at Chapel Hill. Written informed consent was obtained from all subjects before collecting blood.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Whole DENV and recombinant E antigen ELISAs</head><p>ELISA plates were coated with 50 ng of purified virus or 100 ng of rE in carbonate buffer at pH 9.6 for 2 hrs at room temperature and incubated with blocking buffer (0.05% TBS-T containing 3% skim milk or 3% normal goat serum) at 37 o C for 1 hr. Human immune sera or hMAbs serially diluted in blocking buffer were added for 1 hr at 37uC followed by alkaline phosphataseconjugated goat anti-human IgG (Sigma) for 1 hr at 37uC. Finally, p-nitrophenyl phosphate substrate (Sigma) was added to each well and the reaction was allowed to develop for 15 minutes before recording optical density at 405 nm on a spectrophotometer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DENV Neutralization assays</head><p>DENV neutralizing antibodies was measured by a focus reduction neutralization test (FRNT) with Vero cells or using a flow cytometry-based neutralization assay with the U937 human monocytic cell line stably transfected with DC-SIGN as previously described <ref type="bibr" target="#b30">[31]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Summary</head><p>Dengue is a mosquito-borne viral disease of humans. The dengue virus complex is made up of four viruses designated as serotypes. People experiencing their first infection develop immune responses that prevent re-infection with the same serotype only. People experiencing a second infection with a new serotype face a greater risk of developing a severe disease known as dengue hemorrhagic fever. Although studies indicate that antibodies can prevent or enhance disease caused by DENV, few studies have explored the specific properties of human antibodies against DENV. The objective of this study was to conduct a detailed analysis of the antibody response of two individuals who had recovered from primary infections. Human antibodies bound to sites on the dengue virus particle including the viral pre-membrane (prM/M) and envelope (E) proteins. Our studies indicate that the human antibody response consists of a minor population of strongly neutralizing antibody and a major population of DENV serotype cross-reactive, non-neutralizing antibody with potential for enhancement of virus and disease. Further studies with more DENV-immune subjects are needed to determine if our findings are broadly applicable to primary infections. Peripheral blood samples were obtained from two healthy adult donors who were infected by DENV during foreign travel. The dengue neutralization profiles confirmed previous primary DENV2 (Donor 013) and DENV3 (Donor 033) infections <ref type="table" target="#tab_0">(Table  S1</ref>). From both donor hMAbs were produced as previously described <ref type="bibr" target="#b31">[32]</ref>. B-cells producing DENV specific antibody were identified by screening culture supernatants by flow cytometry for antibodies that bound to C6/36 insect cells infected with DENV2 (Donor 013) or DENV3 (Donor 033) <ref type="bibr" target="#b31">[32]</ref>. A secondary screen to identify antibodies that bound to the rE was performed by ELISA as previously described <ref type="bibr" target="#b31">[32]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Epitope mapping of EDIII binding hMAbs</head><p>DENV antibody escape mutant viruses were selected for by infecting Vero cells with DENV2 (strain S-16803) in the presence of hMAb concentrations estimated to neutralize greater than 99% of infectious virus (i.e. 1.0 mg/ml for DVC 3.7 and 1.5 mg/ml for DVC 10.16). Equivalent GC copy numbers of control and antibody treated viruses were repeatedly passaged in the presence of hMAbs until equivalent DENV genomic copy numbers were observed for MAb treated and control samples (4-6 passages under antibody pressure). Escape mutant viruses were plaque purified and amplified. E genes were amplified by RT-PCR and sequenced to identify mutations linked to antibody escape. Antibody binding sites were also mapped by using yeast cells expressing a library of EDIII as previously described <ref type="bibr" target="#b32">[33]</ref>. Mutations were mapped onto the DENV2 EDIII structure using the atomic coordinates of DENV2 EDIII (RCSB accession number 1OAN) and displayed using PyMOL Molecular Graphics System, Version 1.3 (Schrödinger, LLC).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>The objective of the current study was to characterize the primary human antibody response to DENV by comparing immune sera and MAbs derived from two individuals previously exposed to primary DENV infections. Donor 033 had reported a high fever following a visit to India in 2005 and laboratory investigations confirmed a primary DENV3 infection (data not shown). One year later, when serum and peripheral blood mononuclear cells (PBMCs) were isolated, the subject had a neutralizing antibody response that primarily targeted DENV3 <ref type="table" target="#tab_0">(Table S1)</ref>. Donor 013 developed a fever, clinically diagnosed as dengue, while visiting a Pacific Island in 1996. Eight years later when serum and PBMCs were isolated for the current study, the subject had a neutralizing antibody profile consistent with a past primary DENV2 infection <ref type="table" target="#tab_0">(Table S1</ref>).</p><p>Initially we characterized the binding properties of serum polyclonal antibodies in both subjects using purified DENVs and recombinant DENV E proteins from the 4 serotypes. We calculated endpoint titers (reciprocal of highest serum dilution that was positive in the assay) to estimate relative levels of antibody against whole virus and rE antigens ( <ref type="table" target="#tab_0">Table 1</ref>). The quantity of antibody binding to E was only 10 to 35% of the quantity that bound to whole virus suggesting that antibodies bound to sites on the virus that were not present on rE protein <ref type="table" target="#tab_0">(Table 1)</ref>. Thus, in both subjects the predominant antibodies binding to dengue virions were serotype cross-reactive and directed to epitopes on the virus and, to a lesser extent, to epitopes on rE protein.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Identification of DENV-reactive memory B cells following primary infection</head><p>We have previously reported that dengue reactive memory B cells are common following both primary and secondary DENV infection <ref type="bibr" target="#b29">[30]</ref>. To further characterize the human B cell response in donor 033, we immortalized memory B cells. PBMCs were isolated and IgG+ memory B cells were immortalized with EBV and CpG as previously described <ref type="bibr" target="#b33">[34]</ref>. The immortalized B cell culture supernatants were screened for antibodies that bound to C6/36 insect cells infected with DENV3. Thirty five percent of the B cell cultures generated from donor 033 were positive following this initial screen <ref type="table" target="#tab_1">(Table 2)</ref>. From the dengue positive cultures only 7.5% of the cultures bound to rE protein <ref type="table" target="#tab_1">(Table 2)</ref>. To further characterize the binding and functional properties of human antibodies, we isolated hMAbs from donor 033. Isolation and characterization of DENV-specific hMAbs from donor 033</p><p>To isolate hMAbs specific for DENV from donor 033, positive B cell cultures were cloned by limiting dilution and 16 clones were isolated and expanded. All the hybridomas produced IgG1 with the single exception DV20.10, which was IgG3 <ref type="table" target="#tab_1">(Table S2</ref>). To identify antibodies that bound to structural viral antigens, the hMAbs were tested for binding to purified DENV3 particles in ELISA. Fourteen out of 16 hMAbs bound to DENV3 virus. Of the 14 hMAbs that bound to DENV3 particles, 13 cross-reacted with all four dengue serotypes dengue complex reactiveand one antibody (hMAb DV51.3) bound to serotypes 1 and 3, but not 2 and 4 (dengue sub complex reactive) <ref type="table" target="#tab_1">(Table S2</ref>). Dengue virions were solubilized and subjected to Western blot analysis to identify the viral structural proteins recognized by hMAbs. Ten of the 14 hMAbs bound to prM and only a single hMAb (DV64.3) bound to E protein <ref type="figure">(Figure 1</ref>). Three hMAbs did not bind to viral antigens by Western blot, although they reacted with DENV3 virion. The 16 hMAbs were also tested for binding to rE protein in ELISA. Only hMAb DV64.31, which had also recognized E protein by Western Blot, bound to rE protein from all 4 DENV serotypes <ref type="table" target="#tab_1">(Table S2)</ref>.</p><p>We next tested the ability of the 16 antibodies generated from donor 033 to neutralize DENV. Five hMAbs including the two that did not bind to the virion lacked neutralizing activity <ref type="figure" target="#fig_0">(Figure 2</ref>). The remaining antibodies ranged from weak to moderately neutralizing and had DENV3 50% neutralization titers that ranged from 0.09 to 1 mg/ml <ref type="figure" target="#fig_0">(Figure 2A</ref>). The neutralizing antibodies had similar 50% neutralization titers against all 4 serotypes, which was consistent with their broad binding specificity (data not shown). In general, prM antibodies had neutralization curves that were shallow and did not reach 100% neutralization, indicating that a fraction of the virus population was resistant to antibody neutralization ( <ref type="figure" target="#fig_0">Figure 2B</ref>). The single E reactive antibody (DV64.31) exhibited a steeper neutralization curve and neutralized 100% of virus at high concentrations ( <ref type="figure" target="#fig_0">Figure 2C</ref>). In summary, the hMAbs generated from donor 033, who had experienced a primary DENV3 infection, were broadly cross-reactive, weakly neutralizing, and mainly directed to epitopes on prM. None of the hMAbs mimicked the functional properties of immune serum from donor 033 that displayed strong type-specific neutralization of DENV3 <ref type="table" target="#tab_0">(Table S1</ref>). A complete summary of the functional profiles of all sixteen hMAbs from donor 033 is included as supplementary material <ref type="table" target="#tab_1">(Table S2)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Characterization of Human MAbs generated from donor 013</head><p>Next, we characterized the dengue specific memory B cell response in donor 013, who had recovered from a primary DENV2 infection. We have previously reported on some of the properties of B cells and hMAbs generated from this donor <ref type="bibr" target="#b29">[30]</ref>. Here we expand on these previous results by comparing properties of serum antibodies and hMAbs from this donor and by epitope mapping a subset of hMAbs from this donor. When immortalized B cell culture supernatants from donor 013 were screened for antibodies that bound to C6/36 insect cells infected with DENV2, 28% (567/2016) of the cultures were found positive for DENVspecific B cells following this initial screen <ref type="table" target="#tab_1">(Table 2)</ref>. From the DENV positive cultures only 2.9% of the cultures bound to rE protein <ref type="table" target="#tab_1">(Table 2)</ref>. Thus, as in the case of donor 033, although dengue specific memory B cells were frequent, only a small fraction of the positive cultures from donor 013 produced antibodies that bound to rE protein.</p><p>Since a relatively unbiased selection scheme for producing hMAbs from donor 033 indicated that most hMAbs were crossreactive, weakly neutralizing and directed to antigens other than rE, we altered the selection scheme for donor 013 to enrich for hMAbs that recognized rE from DENV2. After the initial screening of memory B cell culture supernatants, the relatively rare rE protein binding cultures were selected for cloning and expansion. Ten rE binding hMAbs were produced (all IgG1). When the antibodies were tested for binding to heterologous serotypes, 5 hMAbs were DENV2 type-specific, 2 hMAbs were dengue subcomplexspecific and 3 hMAbs were dengue complex-specific ( <ref type="figure">Figure 3A)</ref>. Six of the ten hMAbs bound to EDIII from DENV2 ( <ref type="figure">Figure 3A)</ref>.</p><p>The hMAbs from donor 013 displayed variable neutralization properties ( <ref type="figure">Figure 3A-C)</ref>, with 2 non-neutralizing hMAbs (DV1.6, and 21.5; 50% neutralization titers .1 ug/ml) , 4 weakly to moderately neutralizing hMAbs (DV14.21, 35.3, 25.5 and 18.21; 50% neutralization titers between 0.1 and 1 ug/ml) and 4 strongly neutralizing hMAbs (DV3.7, 10.16, 13.6 and 23.13; 50% neutralization titers ,0.1 ug/ml). The strongly neutralizing hMAbs, including those that were cross-reactive in binding assays, neutralized DENV2 better than the other serotypes <ref type="figure">(Figure 3)</ref>. Thus, by biasing the initial screen for hMAbs that bound to rE protein, we identified hMAbs with neutralization profiles that were more similar to the immune sera of donor 013, which strongly neutralized DENV2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Epitope mapping donor 013 hMAbs binding to EDIII</head><p>Several hMAbs from donor 013 bound to EDIII <ref type="figure">(Figure 3)</ref>. Two approaches were used to map the binding sites of these hMAbs on EDIII. Two strongly neutralizing hMAbs that bound EDIII, which were type-(DV3.7) or subcomplex-(DV10.16) specific, were mapped by identifying neutralization escape variants after passaging DENV2 in the presence of each antibody (ired a mutation on EDIII. The virus passaged in the presence of hMAb DV3.7 acquired the single point mutation V382G <ref type="table" target="#tab_2">(Table 3</ref> and <ref type="figure" target="#fig_1">Figure 4C</ref>). This residue is located on the EDIII lateral ridge, which is a target of previously mapped type-specific strongly <ref type="figure">Figure 3</ref>. Binding and neutralization properties of donor 013 hMAbs. Ten hMAbs from donor 013 were tested for binding dengue virus, recombinant E (rE) and EDIII from DENV2. Cross-reactivity was determined by using whole virus antigen from all four serotypes. For each hMAb the 50% neutralization titer was determined using flow cytometry and U937 cell expressing DC-SIGN. (A) Summary of the binding and neutralization data for all hMAbs from donor 013. B, C and D display representative neutralization curves for DENV2 type-specific (B), subcomplex-specific (C) and complex-specific (D) hMAbs. doi:10.1371/journal.pntd.0001188.g003</p><p>Human Antibody Response to Dengue Infection www.plosntds.orgneutralizing mouse MAbs <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b22">23]</ref>  <ref type="table" target="#tab_2">(Table 3</ref> and <ref type="figure" target="#fig_1">Figure 4C</ref>). The virus passaged in the presence of hMAb DV10.16 acquired the point mutation E311K <ref type="table" target="#tab_2">(Table 3</ref> and <ref type="figure" target="#fig_1">Figure 4C</ref>). This amino acid is located on the A strand of EDIII and forms part of a dengue subcomplex epitope recognized by neutralizing mouse MAbs <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b22">23]</ref>  <ref type="table" target="#tab_2">(Table 3</ref> and <ref type="figure" target="#fig_1">Figure 4C</ref>).</p><p>As an independent approach to mapping EDIII-reactive hMAbs, we used a yeast surface display assay that has been previously used to map numerous flavivirus antibodies <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b32">33]</ref>. <ref type="table" target="#tab_2">Table 3</ref> summarizes all mutations that resulted in loss of binding or neutralization of EDIII antibodies generated from donor 013. All the human EDIII-binding MAbs mapped to the lateral ridge   <ref type="table" target="#tab_2">Table 3</ref>) (orange). Ribbon diagram of DENV-2 EDIII was generated from a published X-ray crystallographic structure. The disulfide bond is highlighted in yellow. Human MAbs 3.7 and 25.5 are type-specific antibodies that bind to epitopes centered on the lateral ridge while 10.16 is sub-complex-specific and bind to an epitope centered on the A strand of EDIII. doi:10.1371/journal.pntd.0001188.g004</p><p>Human Antibody Response to Dengue Infection www.plosntds.orgor the A strand regions that have previously been described as targets of mouse MAbs <ref type="bibr" target="#b22">[23]</ref> ( <ref type="figure" target="#fig_1">Figure 4C</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Our main objective was to define viral antigens and epitopes recognized by 2 individuals exposed to primary DENV infections. In both these subjects the dengue virion was a major target of the humoral immune response but many of these antibodies did not bind to rE protein. The DENV virion displays 180 E and 180 prM or M proteins that are arrayed with pseudo-icosahedral symmetry. Depending on the maturation state of the virus particle, the 180 E protein molecules are organized as 90 head-to-tail dimers that lie flat on the virion surface or 60 trimers that protrude as spikes from the surface <ref type="bibr" target="#b34">[35]</ref>. Since the E protein, with ,500 amino acids, is considerably larger than the 166 amino acid prM protein, the majority of surface exposed viral protein consists of the ectodomain of E. Thus, our finding that many antibodies bound to epitopes on the virus that were not preserved on rE was somewhat unexpected. These findings are consistent with the results of another study from our group <ref type="bibr" target="#b29">[30]</ref> as well as a study by Dejnirattisai and colleagues who observed that many hMAbs that bound to DENV particles did not bind to rE protein <ref type="bibr" target="#b24">[25]</ref>. As the rE protein used in the current study lacked ,20% of the protein, which include the membrane proximal regions and the transmembrane domains, it is possible that some antibodies bind to these regions. Moreover, antibodies may recognize E protein epitopes that are only available in the context of the native oligomeric array on the virion. Several hMAbs generated from individuals infected with West Nile virus bound the virion but not rE protein; these hMAbs recognized epitopes that were created by adjacent E protein molecules on the surface of the virion or formed by hinge regions <ref type="bibr" target="#b35">[36]</ref>.</p><p>When producing MAbs from donor 013, we increased the probability of identifying strongly neutralizing antibodies by biasing the selection scheme for MAbs that specifically recognized rE protein.</p><p>In contrast to the weak or non-neutralizing hMAbs isolated from donor 033, several hMAbs from donor 013 displayed strong typespecific DENV2 neutralization. Of note, even hMAbs from donor 013 that bound to more than one serotype (dengue subcomplex or complex MAbs) displayed type-specific neutralization of DENV2, which was the serotype that infected donor 013. Thus, by biasing the selection to enrich for rare rE protein binding antibodies, we generated hMAbs from donor 013 that were functionally similar to the polyclonal immune serum from the same donor that neutralized only DENV2. It is unclear how the results with hMAbs relate to the neutralization properties of polyclonal immune serum from these donors. One possibility is that the abundance of hMABs reflects the functional properties of antibodies in immune sera, where a small fraction of DENV-specific antibodies in immune sera are responsible for neutralization. Alternatively, it is conceivable that individual antibodies that are weakly neutralizing become strongly neutralizing due to cooperative effects that only occur in a polyclonal milieu. Further studies are needed to understand how the properties of hMABs from DENV immune donors relate to the properties of circulating serum antibody.</p><p>From the neutralizing MAbs from donor 013 that bound to rE, some bound to the lateral ridge and A strand epitopes on EDIII (ref) . We also identified several neutralizing hMABs <ref type="bibr">(35.3, 18.21, 13.6, 23.13</ref>) that bound to rE but not EDIII and these antibodies most likely bind to epitopes on EDI or EDII. We are especially interested in mapping the binding sites of these hMABs as recent studies indicate that epitopes other than the lateral ridge and A strand of EDIII can be the targets of strongly neutralizing mouse, horse and primate antibodies <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b36">37,</ref><ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b21">22]</ref>, Our results indicating that prM was a dominant target of the primary antibody response are in agreement with other recent studies <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b29">30]</ref>. The prM protein is required for the proper folding and assembly of flavivirus particles in the endoplasmic reticulum <ref type="bibr" target="#b38">[39]</ref>, while also preventing adventitious fusion of the virus <ref type="bibr" target="#b39">[40]</ref> in the acidic environment of the trans-Golgi network. Recent studies have demonstrated that DENV virions produced in cell culture are often partially processed and contain a mixture of unprocessed prM and fully processed M <ref type="bibr" target="#b40">[41]</ref>. The maturation state and relative amount of prM on a virion can alter the potency of antibodies that bind specific epitopes on E, including the cross-reactive antibodies that bind the fusion loop in DII <ref type="bibr" target="#b41">[42]</ref>. Additionally, immature, noninfectious particles became infectious in the presence of prM antibody by enhancing the ability of immature dengue virions to infect Fc-receptor bearing cells in vitro <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b42">43]</ref>. Given our findings and those of others <ref type="bibr" target="#b24">[25]</ref> establishing that prM antibodies are common following primary and secondary DENV infections, more work needs to be performed to address their contribution to dengue pathogenesis in humans.</p><p>In summary, the studies reported here demonstrate an unexpected antibody profile in two individuals following primary dengue infection. In both individuals a majority of the DENVspecific human antibodies were broadly cross-reactive and weakly neutralizing. Many antibodies bound to prM and sites on the virus that were not preserved on rE protein. Only a minor fraction of the total dengue specific antibody response was responsible for potent neutralization of the homologous virus. Given the difficulty of identifying suitable donors and generating antigen specific hMAbs, we only characterized the antibody response in two subjects here. Further studies with more dengue immune subjects are needed to determine if our findings are broadly applicable to primary dengue exposure.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supporting Information</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. DENV3 neutralization by donor 033 human MAbs. The 50% neutralization titers against DENV3 were determined for all 16 hMAbs from donor 033 using a flow cytometry based neutralization test that utilizes U937 cells expressing DC-SIGN. (A) Dengue antigen recognized and the 50% neutralization titer for each hMAb. The hMAbs for which a specific antigen has still not been identified are designated with a *?*. (B) Neutralization curves for three representative prM antibodies. Note that prM antibodies have shallow neutralization curves, which plateau when ,60% of the virions are neutralized. (C) Neutralization curve of the only E protein reactive antibody obtained from donor 033. This antibody has a steeper neutralization curve compared to prM antibodies. doi:10.1371/journal.pntd.0001188.g002</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Epitope mapping of anti-DENV2 hMAbs binding to EDIII. To identify antibody binding sites, DENV2 was serially passaged in the presence of neutralizing hMAbs DV3.7 or DV10.16. Viruses growing in the presence of hMAbs were plaque purified and expanded. Neutralization escape was confirmed by growing the parental and the cloned antibody selected viruses in the presence of each hMAb 3.7 (A) or hMAb 10.16 (B). (C) Localization of neutralizing human antibody epitopes on the structure of DENV2 EDIII (strain 16681) using residues identified by neutralization escape selection (blue) or yeast surface display screening (see Table 3) (orange). Ribbon diagram of DENV-2 EDIII was generated from a published X-ray crystallographic structure. The disulfide bond is highlighted in yellow. Human MAbs 3.7 and 25.5 are type-specific antibodies that bind to epitopes centered on the lateral ridge while 10.16 is sub-complex-specific and bind to an epitope centered on the A strand of EDIII. doi:10.1371/journal.pntd.0001188.g004</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" validated="true"><head>Table 1 .</head><label>1</label><figDesc>Relative levels of virus and rE protein binding antibody in immune sera.</figDesc><table>Serum 
+Serotype 
+End point binding titer 
+
+a 
+
+rE antibody relative to 
+whole virus antibody (%) 
+
+b 
+
+Whole virus 
+rE protein 
+
+Serum 013 (primary DENV2) 
+DENV1 
+3,579 
+358 
+10 
+
+DENV2 
+8,906 
+1,536 
+17 
+
+DENV3 
+3,579 
+1,242 
+35 
+
+DENV4 
+3,141 
+485 
+15 
+
+Serum 033 (primary DENV3) 
+DENV1 
+13,164 
+1,338 
+10 
+
+DENV2 
+8,906 
+2,050 
+23 
+
+DENV3 
+20,768 
+6,931 
+33 
+
+DENV4 
+12,334 
+1,815 
+15 
+
+a 
+
+The end point binding titers are based on ELISAs performed with virus or recombinant E (rE) protein antigen and serial dilutions of immune serum. The end point titer 
+was the reciprocal of the highest dilution that produced a signal 2 standard deviations above the signal for normal human sera. 
+b The amount of antibody that bound to rE protein relative to the virus was calculated using the following formula: (end point titer for rE antigen/end point titers for 
+whole virus)X 100. When endpoint titers were calculated using a E protein cross reactive mouse MAb (4G2), similar end point titers were obtained for well coated with 
+virus or recombinant E indicating both antigens had a similar number of accessible E molecules. 
+doi:10.1371/journal.pntd.0001188.t001 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" validated="false"><head>Table 2 .</head><label>2</label><figDesc>Screen for isolating DENV-specific human Mabs.No. of positive cultures after primary screenProportion of DENV positive cultures binding to rE proteinNo. of human MAbs producedPrimary screen was conducted by flow cytometry using C6/36 cells infected with the homologous serotype. b Proportion of recombinant E (rE) protein reactive cultures was determined by ELISA using recombinant protein from homologous virus.</figDesc><table>Donor 
+
+a 
+
+b 
+
+c 
+
+Reference 
+
+033 (primary DENV3) 
+332/960 (35%) 
+7.50% 
+16 
+This study 
+
+013 (primary DENV2) 
+567/2016 (28%) 
+2.90% 
+10 
+Betramello et al 2010 
+
+a 
+
+c 
+
+For donor 013, the selection of cultures for DENV-specific MAb production was biased to enrich for rE and EDIII reactive MAbs. 
+doi:10.1371/journal.pntd.0001188.t002 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" validated="true"><head>Table 3 .</head><label>3</label><figDesc>Epitope mapping DENV2 EDIII reactive MAbs from donor 013.</figDesc><table>Human MAb 
+(Donor 013) 
+
+a 
+
+Binding 
+specificity 
+
+b 
+
+DENV2 neutralization 
+potency 
+
+c 
+
+Neutralization 
+escape mutations 
+
+d 
+
+DENV2 Yeast 
+EDIII mapping 
+
+e 
+
+EDIII Epitope 
+
+Loss of binding 
+Decreased binding 
+
+DV3.7 
+DENV2 type specific 
+Strong 
+V382G 
+P384A, P384N 
+K307Q 
+DIII-lateral 
+
+DV14.21 
+DENV2 type specific 
+Weak 
+NA 
+K305E, K307N, 
+K307I, K310E 
+
+G304Y K307Q 
+DIII-A strand 
+
+DV25.5 
+DENV2 type specific 
+Moderate 
+NA 
+T303Y, G304Y, 
+K307N, K307Q 
+
+D329Q, G330D, 
+E383G, P384A, P384N 
+
+DIII-lateral 
+
+DV10.16 
+DENV subcomplex 
+Strong 
+E311K 
+K305E, K310E 
+NA 
+DIII-A strand 
+
+DV21.5 
+DENV complex 
+None 
+NA 
+K305E, K310E, K317Y 
+NA 
+DIII-A strand 
+
+NA = Not Applicable 
+
+a 
+
+Only EDIII reactive MAbs from donor 013 were mapped. 
+b The MAbs were tested for binding to the four DENV serotypes. 
+
+c 
+
+Neutralization potency is based on 50% neutralization titers in Figure 3. 
+d DENV2 escape mutants were obtained with strongly neutralizing MAbs only. 
+
+e 
+
+EDIII mutations that led to a complete loss of binding and partial loss of binding are indicated separately. 
+doi:10.1371/journal.pntd.0001188.t003 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" validated="false"><head>Table S1</head><label>S1</label><figDesc>Dengue immune human sera used in the present study. (DOC)</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" validated="false"><head>Table S2</head><label>S2</label><figDesc>Properties of MAbs from donor 033 (Primary DENV3 infection). (DOC)</figDesc><table></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">June 2011 | Volume 5 | Issue 6 | e1188</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">www.plosntds.org</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>We thank Britta Jones and Anne Broadwater for technical assistance and David Jarrossay for cell sorting. We are especially indebted to Dr. Robert Putnak (Walter Reed Army Institute of Research, Silver Spring, MD) for providing us virus strains and antibodies. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Antigenic structure of flavivirus proteins</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Roehrig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Virus Res</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="141" to="175" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">B</forename><surname>Halstead</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="471" to="476" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Dengue: defining protective versus pathologic immunity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Rothman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Invest</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="946" to="951" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Neutralization and antibody-dependent enhancement of dengue viruses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">B</forename><surname>Halstead</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Virus Res</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="421" to="467" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Dengue virus replication enhancement in peripheral blood leukocytes from immune human beings</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">B</forename><surname>Halstead</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Marchette</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Sung</forename><surname>Chow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Lolekha</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Soc Exp Biol Med</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="page" from="136" to="139" />
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Immunological enhancement of dengue virus replication</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">B</forename><surname>Halstead</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Chow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Marchette</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat New Biol</title>
+		<imprint>
+			<biblScope unit="volume">243</biblScope>
+			<biblScope unit="page" from="24" to="26" />
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Monoclonal antibody-mediated enhancement of dengue virus infection in vitro and in vivo and strategies for prevention</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">P</forename><surname>Goncalvez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Engle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>St Claire</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">H</forename><surname>Purcell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Lai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="9422" to="9427" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Lethal antibody enhancement of dengue disease in mice is prevented by Fc modification</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Balsitis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">L</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Lachica</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Flores</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Kyle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1000790</biblScope>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Enhanced infection of liver sinusoidal endothelial cells in a mouse model of antibody-induced severe dengue disease</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Zellweger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">R</forename><surname>Prestwood</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Shresta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Host Microbe</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="128" to="139" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Molecular mechanisms of antibody-mediated neutralisation of flavivirus infection</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Diamond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Rev Mol Med</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">12</biblScope>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Structural insights into the mechanisms of antibody-mediated neutralization of flavivirus infection: implications for vaccine development</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">H</forename><surname>Fremont</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Kuhn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Diamond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Host Microbe</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="229" to="238" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A ligand-binding pocket in the dengue virus envelope glycoprotein</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Modis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ogata</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Clements</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Harrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="6986" to="6991" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Variable surface epitopes in the crystal structure of dengue virus type 3 envelope glycoprotein</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Modis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ogata</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Clements</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Harrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="1223" to="1231" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Crystal structure of the West Nile virus envelope glycoprotein</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Nybakken</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">S</forename><surname>Diamond</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">H</forename><surname>Fremont</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="11467" to="11474" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The envelope glycoprotein from tick-borne encephalitis virus at 2 A resolution</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">A</forename><surname>Rey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">X</forename><surname>Heinz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Mandl</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Kunz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">C</forename><surname>Harrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="page" from="291" to="298" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Monoclonal Antibodies That Bind to Domain III of Dengue Virus E Glycoprotein Are the Most Efficient Blockers of Virus Adsorption to Vero Cells</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">D</forename><surname>Crill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Roehrig</surname></persName>
+		</author>
+		<idno type="doi">10.1128/JVI.75.16.7769-7773.2001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="7769" to="7773" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Characterization of an antigenic site that contains a dominant, type-specific neutralization determinant on the envelope protein domain III (ED3) of dengue 2 virus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">D</forename><surname>Gromowski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Barrett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virology</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="349" to="360" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Characterization of dengue virus complex-specific neutralizing epitopes on envelope protein domain III of dengue 2 virus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">D</forename><surname>Gromowski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">D</forename><surname>Barrett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">D</forename><surname>Barrett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="8828" to="8837" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Localization of a Neutralizing Epitope on the Envelope Protein of Dengue Virus Type 2</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">R</forename><surname>Parrish</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">J</forename><surname>Wright</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virology</title>
+		<imprint>
+			<biblScope unit="volume">202</biblScope>
+			<biblScope unit="page" from="885" to="890" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Binding of a neutralizing antibody to dengue virus alters the arrangement of surface glycoproteins</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Lok</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Kostyuchenko</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Nybakken</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">A</forename><surname>Holdaway</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Battisti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Struct Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="312" to="317" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Monoclonal Antibody Mapping of the Envelope Glycoprotein of the Dengue 2 Virus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Roehrig</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Bolin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">G</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Jamaica. Virology</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page" from="317" to="328" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Structure and Function Analysis of Therapeutic Monoclonal Antibodies against Dengue Virus Type 2</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sukupolvi-Petty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Austin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Engle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Brien</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">A</forename><surname>Dowd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Type-and Subcomplex-Specific Neutralizing Antibodies against Domain III of Dengue Virus Type 2 Envelope Protein Recognize Adjacent Epitopes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sukupolvi-Petty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Austin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">E</forename><surname>Purtha</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Oliphant</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Nybakken</surname></persName>
+		</author>
+		<idno type="doi">10.1128/JVI.00432-07</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="12816" to="12826" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The development of therapeutic antibodies that neutralize homologous and heterologous genotypes of dengue virus type 1</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Shrestha</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Brien</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sukupolvi-Petty</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Austin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Edeling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1000823</biblScope>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Cross-reacting antibodies enhance dengue virus infection in humans</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Dejnirattisai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Jumnainsong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Onsirisakul</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Fitton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Vasanawathana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">328</biblScope>
+			<biblScope unit="page" from="745" to="748" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Neutralizing and non-neutralizing monoclonal antibodies against dengue virus E protein derived from a naturally infected patient</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">S</forename><surname>Schieffelin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Costin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">O</forename><surname>Nicholson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M</forename><surname>Orgeron</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">A</forename><surname>Fontaine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virol J</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">28</biblScope>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Humoral immune responses of dengue fever patients using epitope-specific serotype-2 virus-like particle antigens</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">D</forename><surname>Crill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">R</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Delorey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">J</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">4991</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Antibodies to envelope glycoprotein of dengue virus during the natural course of infection are predominantly cross-reactive and recognize epitopes containing highly conserved residues at the fusion loop of domain II</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">Y</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">Y</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">R</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Kao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">P</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="6631" to="6643" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Dengue virus neutralization by human immune sera: role of envelope protein domain III-reactive antibody</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">M</forename><surname>Wahala</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">A</forename><surname>Kraus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">B</forename><surname>Haymore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Accavitti-Loper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virology</title>
+		<imprint>
+			<biblScope unit="volume">392</biblScope>
+			<biblScope unit="page" from="103" to="113" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The human immune response to dengue virus is dominated by highly cross-reactive antibodies endowed with neutralizing and enhancing activity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Beltramello</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">L</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">P</forename><surname>Simmons</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Macagno</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Simonelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Host Microbe</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="271" to="283" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Comparison of Plaqueand Flow Cytometry-Based Methods for Measuring Dengue Virus Neutralization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">A</forename><surname>Kraus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Messer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">B</forename><surname>Haymore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>De Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="3777" to="3780" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The human immune response to dengue virus is dominated by highly cross-reactive antibodies endowed with neutralizing and enhancing activity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Beltramello</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">L</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">P</forename><surname>Simmons</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Macagno</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Simonelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Host Microbe</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="271" to="283" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Antibody Recognition and Neutralization Determinants on Domains I and II of West Nile Virus Envelope Protein</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Oliphant</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Nybakken</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Engle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<idno type="doi">10.1128/JVI.01732-06</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="12149" to="12159" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">An efficient method to make human monoclonal antibodies from memory B cells: potent neutralization of SARS coronavirus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Traggiai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Subbarao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Kolesnikova</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Uematsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Med</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="871" to="875" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">A structural perspective of the flavivirus life cycle</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Mukhopadhyay</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Kuhn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">G</forename><surname>Rossmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="13" to="22" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Human monoclonal antibodies against West Nile virus induced by natural infection neutralize at a postattachment step</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">R</forename><surname>Vogt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Moesker</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Goudsmit</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Jongeneelen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Austin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="6494" to="6507" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The neutralizing antibody response against West Nile virus in naturally infected horses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">C</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">M</forename><surname>Degrace</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Mattei</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Hanna</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virology</title>
+		<imprint>
+			<biblScope unit="volume">359</biblScope>
+			<biblScope unit="page" from="336" to="348" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Induction of Epitope-Specific Neutralizing Antibodies against West Nile Virus 10.1128/ JVI.00643-07</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Oliphant</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Nybakken</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Austin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Bramson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="11828" to="11839" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Structure of the immature dengue virus at low pH primes proteolytic maturation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">M</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">A</forename><surname>Holdaway</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><forename type="middle">A</forename><surname>Kostyuchenko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="page" from="1834" to="1837" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Association of the pr peptides with dengue virus at acidic pH blocks membrane fusion</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">M</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">A</forename><surname>Holdaway</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">R</forename><surname>Chipman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Kuhn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">G</forename><surname>Rossmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="12101" to="12107" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Structural basis for the preferential recognition of immature flaviviruses by a fusion-loop antibody</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">V</forename><surname>Cherrier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Kaufmann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">E</forename><surname>Nybakken</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Lok</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Warren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Embo J</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="3269" to="3276" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Maturation of West Nile virus modulates sensitivity to antibody-mediated neutralization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Jost</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ess</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">1000060</biblScope>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Immature dengue virus: a veiled pathogen</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">A</forename><surname>Rodenhuis-Zybert</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Van Der Schaar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Silva</forename><surname>Da</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Voorham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Van Der Ende-Metselaar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">Y</forename><surname>Lei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1000718</biblScope>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
