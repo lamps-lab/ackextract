@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 C:\PWang\Datasets\grobid-0.5.5\grobid-0.5.5\grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.5" ident="GROBID" when="2020-06-22T14:05+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Real-time digital pathogen surveillance — the time is now</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><surname>Gardy</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Communicable Disease Prevention and Control Services</orgName>
+								<orgName type="institution" key="instit2">British Columbia Centre for Disease Control</orgName>
+								<address>
+									<addrLine>655 West 12th Avenue</addrLine>
+									<postCode>V5Z 4R4</postCode>
+									<settlement>Vancouver</settlement>
+									<region>BC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Nicholas</forename><forename type="middle">J</forename><surname>Loman</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Microbiology and Infection</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<postCode>B15 2TT</postCode>
+									<settlement>Birmingham</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrew</forename><surname>Rambaut</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Evolutionary Biology</orgName>
+								<orgName type="institution">University of Edinburgh</orgName>
+								<address>
+									<postCode>EH9 2FL</postCode>
+									<settlement>Edinburgh</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jennifer</forename><surname>Gardy</surname></persName>
+						</author>
+						<title level="a" type="main">Real-time digital pathogen surveillance — the time is now</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<note>C O M M E N T Open Access Real-time digital pathogen surveillance -the time is now Author details</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Ebola</term>
+					<term>Real-time whole-genome sequencing</term>
+					<term>Surveillance</term>
+					<term>Salmonella</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>It is time to shake up public health surveillance. New technologies for sequencing, aided by friction-free approaches to data sharing, could have an impact on public health efforts.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>Zoonotic pathogens have serious consequences for human health. A single transmission of a virus -plausibly from a bat to a boy playing by an old, dead tree <ref type="bibr" target="#b0">[1]</ref> has led to the largest outbreak of Ebola virus disease ever, claiming over 11,000 lives in West Africa <ref type="bibr">[2]</ref>. Similarly, the MERS coronavirus, seemingly endemic in dromedary camels in the Arabian Peninsula <ref type="bibr" target="#b1">[3]</ref>, has repeatedly spilled over to humans, causing numerous outbreaks -the latest involves hundreds of patients in South Korea and China and arose from a single infected traveller. In 2009, a new lineage of swine H1N1 influenza emerged in North America into humans, creating the first pandemic of the 21st century and establishing a new seasonal lineage of influenza A virus. Over a million cases of Salmonella infection occur in the USA each year <ref type="bibr" target="#b2">[4]</ref>, and, when outbreaks are large enough to warrant investigation, they are often linked to sources of food production.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The need for pathogen genomic surveillance</head><p>Controlling potentially lethal pathogens requires timely, comprehensive surveillance systems. These systems currently rely on case counting and simple genotyping techniques, but surveillance could be markedly improved through genomics. Pathogen sequencing has commonly Many pathogens causing acute disease evolve rapidly, with genomes from even closely linked cases often exhibiting discernable nucleotide differences over time-scales of weeks to months -differences that can be used to draw informative epidemiological conclusions. Initial genetic sequencing of a newly emerging virus can provide a substantial amount of information about the nature of the pathogen through comparison with existing sequences. As more cases are sequenced, analysis of the genetic diversity among the population can provide estimates of how fast the disease is spreading and help predict its future course. In the early stages of the 2009 H1N1 influenza A pandemic, a sequence-based estimate of the transmission potential was shown to be comparable to a traditional epidemiological estimate, providing the first characterization of the epidemiology of the new human epidemic <ref type="bibr" target="#b3">[5]</ref>. Sequencing of bacterial pathogens has also proved useful in understanding and managing acute outbreaks in hospital and community settings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Real-time genomic epidemiology: a new opportunity</head><p>Such progress is remarkable, but we are now on the cusp of a second revolution in genomic epidemiology. The potential exists to move from pathogen genomics providing static 'snapshots' of epidemics, often months after the cases occurred, to a situation where data are produced in real-time, providing a detailed picture of the epidemic that is only a few days old. The advance of high-throughput sequencing means that it is possible to obtain whole-genome sequences from clinical samples within days. Now, genomic epidemiologists are working to bring sequencing to the outbreak, rather than sending isolates to a reference laboratory.</p><p>Such rapid results are crucial if the intention is to intervene in an outbreak rather than simply document it in retrospect. For such applications, the useful halflife of genomic information for epidemiology, while there is a chance to influence control practices, can be measured in days or weeks.</p><p>Benchtop sequencing technologies and, most recently, portable nanopore sequencing are making cheap, closeto-the-sample sequencing a reality. One of us (NJL) recently showed that the Oxford Nanopore MinION can be used for real-time detection of Salmonella enterica from clinical isolates during the investigation of a large hospital outbreak <ref type="bibr" target="#b4">[6]</ref>. Others have used this system for metagenomics diagnosis of viral infections directly from clinical samples <ref type="bibr" target="#b5">[7]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sharing and comparing</head><p>No matter how rapidly they are generated, pathogen genome sequences are of limited utility when viewed in isolation. They must be examined in the context of a constantly updating database of comparator strains and the associated epidemiological and surveillance data. This can be seen in the S. enterica hospital outbreak. Initially, genome sequencing demonstrated that the outbreak was of a single strain, but could not identify its origins. When the genome data were integrated with national surveillance data, the cases were linked to a larger, national outbreak. Later, when the UK data were compared with European sequences, a link to a larger, continental outbreak became apparent and was traced to an egg production factory <ref type="bibr">[2]</ref>. Sharing in this case was ad hoc -sequences generated during the outbreak were shared through the file-sharing utility Dropbox (http:// www.dropbox.com) with Public Health England, who were then able to integrate the genomic data with their national surveillance database. Indeed, the modern internet sharing era is ideally suited for such digital pathogen surveillance data. Cloud services, such as Google Drive (http://drive.google.com) and Dropbox, facilitate rapid data sharing between engaged parties, while collaborative tools, such as GitHub (http://www.github.com) and the Slack communication platform (http://www.slackhq. com), make it easy for international teams to write to an 'open lab notebook' <ref type="bibr" target="#b6">[8]</ref>. Online tools can provide powerful evolutionary and epidemiological visualizations, such as Bedford and Nehrer's nextflu, which was originally designed for influenza strain tracking and has now been adapted to integrate real-time Ebola genomic datasets (http://ebola.nextflu.org) <ref type="bibr" target="#b7">[9]</ref>. We have also employed the Microreact website (http://microreact.org) to integrate phylogenetic and geographical information into an easyto-use website for epidemiologists engaged in the Ebola outbreak response <ref type="bibr" target="#b8">[10]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Into the field</head><p>Real-time genomic surveillance can also be performed in resource-limited settings. Since April 2015, we have been engaged in genomic surveillance of the ongoing outbreak of Ebola virus in West Africa. Under the auspices of the European Mobile Laboratories in Guinea, we have successfully used nanopore sequencing to cluster cases based on their genome sequence. These clusters are available within a few days after diagnosis and can be used by epidemiologists to investigate chains of transmission. Another group, based at the University of Cambridge, UK, have been providing similar information generated on the Ion Torrent platform in real-time from Sierra Leone. Integration of the most-recent datasets showed that contemporary cases in Guinea cluster with cases in Sierra Leone, strongly suggestive of crossborder transmissions <ref type="bibr" target="#b9">[11]</ref>.</p><p>Such ad hoc international collaborations seem to arise naturally in the context of urgent public health investigations, where there is strong pressure to release data and a community of researchers ready to engage (see also the Escherichia coli O104:H4 outbreak in Germany, where crowd-sourced analysis was carried out by researchers on four continents) <ref type="bibr" target="#b10">[12]</ref>. However, challenges exist in standardizing and scaling this model for routine pathogen surveillance. Such activities are typically performed under the purview of government-funded surveillance laboratories. Although there are good arguments that agencies should share their data widely and openly, there are concerns about negative side effects. Many objections center around how potentially identifying 'metadata' is shared whilst protecting anonymity of individuals to avoid possible breaches of privacy. Institutions or companies, for example those identified by genomics as the source of an outbreak, could suffer financial losses or reputational damage. Clearly, a careful balance needs to be reached between these concerns and the evident positive public health benefit of routine and rapid data sharing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Concluding remarks</head><p>We envisage a future of ubiquitous pathogen surveillance, generated with 'cheap as chips' sequencing, linked by the internet. Automated clustering algorithms will be able to detect outbreaks far quicker than traditional case-exceedance methods <ref type="bibr" target="#b11">[13]</ref>. Portable genome sequencing will make it possible to sample the natural environment for pathogen reservoirs, as well as clinical samples close to the patient. It is our firm belief that these digital genomic data, generated by a diverse range of agents -and then shared widely -will serve to break conventional silo thinking about infections.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" validated="false"><head></head><label></label><figDesc>* Correspondence: n.j.loman@bham.ac.ukInstitute of Microbiology and Infection, University of Birmingham, Birmingham B15 2TT, UK Full list of author information is available at the end of the article been used for the identification of isolates and their classification into 'genotypes' (genetic lineages) that can be associated with host species or geographical regions. More recently, however, genome sequencing has emerged as a crucial tool in our real-time response to outbreaks of infec- tious disease.</figDesc><table>2 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">© 2015 Gardy et al. This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (http:// creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated. Gardy et al. Genome Biology (2015) 16:155 DOI 10.1186/s13059-015-0726-x</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head><p>We thank Barbara Myers and Tim Dallman for critical reading of the manuscript.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Competing interests NJL is a member of the Oxford Nanopore MinION Early Access Programme and has received travel and accommodation expenses to speak at a symposium organized by Oxford Nanopore. NJL has ongoing research collaborations with Oxford Nanopore but does not receive financial compensation for this. JG and AR do not declare any conflicts of interest.</p><p>Authors' contributions JG, NJL and AR wrote the manuscript. All authors read and approved the final manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Twitter</head><p>Please discuss this with us on Twitter: @jennifergardy, @pathogenomenick, @arambaut.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Investigating the zoonotic origin of the West African Ebola epidemic</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Marí</forename><surname>Saéz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Nowak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Lapeyre</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Zimmermann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Düx</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO Mol Med</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="17" to="23" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Middle East respiratory syndrome coronavirus neutralising serum antibodies in dromedary camels: a comparative serological study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Cbem</forename><surname>Reusken</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">L</forename><surname>Haagmans</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Gutierrez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G-J</forename><surname>Godeke</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Meyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="859" to="66" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Atlas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Salmonella</surname></persName>
+		</author>
+		<ptr target="http://www.cdc.gov/salmonella/reportspubs/salmonella-atlas/" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Pandemic potential of a strain of influenza A (H1N1): early findings</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Donnelly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Cauchemez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">P</forename><surname>Hanage</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Van Kerkhove</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">D</forename><surname>Hollingsworth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">324</biblScope>
+			<biblScope unit="page" from="1557" to="61" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Rapid draft sequencing and real-time nanopore sequencing in a hospital outbreak of Salmonella</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Quick</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Ashton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Calus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Chatt</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Gossain</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Hawker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">114</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Rapid metagenomic identification of viral pathogens in clinical samples by real-time nanopore sequencing analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">L</forename><surname>Greninger</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">N</forename><surname>Naccache</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Federman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Mbala</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Bres</surname></persName>
+		</author>
+		<idno type="doi">bioRxiv2015.10.1101/020420</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Ehec Outbreak Crowdsourcing Github</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Wiki</surname></persName>
+		</author>
+		<ptr target="https://github.com/ehec-outbreak-crowdsourced/BGI-data-analysis/wiki" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Real-time tracking of seasonal influenza virus evolution in humans</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">A</forename><surname>Neher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Bedford</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Nextflu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note>pii:btv381</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Microreact</surname></persName>
+		</author>
+		<ptr target="http://microreact.org/" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+				<ptr target="http://virological.org/t/updateon-ebola-virus-circulating-in-sierra-leone-and-guinea/151" />
+		<title level="m">Update on Ebola virus circulating in Sierra Leone and Guinea</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Open-source genomic analysis of Shiga-toxin-producing E. coli O104:H4</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Rohde</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Loman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Hentschke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">365</biblScope>
+			<biblScope unit="page" from="718" to="742" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The rise of a digital immune system</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">C</forename><surname>Schatz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">M</forename><surname>Phillippy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gigascience</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">4</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

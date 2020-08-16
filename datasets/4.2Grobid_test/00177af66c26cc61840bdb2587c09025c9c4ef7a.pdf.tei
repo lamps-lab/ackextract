@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 C:\PWang\Datasets\grobid-0.5.5\grobid-0.5.5\grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.5" ident="GROBID" when="2020-06-22T13:58+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Optimizing the control of disease infestations at the landscape scale</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2007-03-20">March 20. 2007</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Graeme</forename><forename type="middle">A</forename><surname>Forster</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Plant Sciences</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>Downing Street</addrLine>
+									<postCode>CB2 3EA</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Christopher</forename><forename type="middle">A</forename><surname>Gilligan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Plant Sciences</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>Downing Street</addrLine>
+									<postCode>CB2 3EA</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Optimizing the control of disease infestations at the landscape scale</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="volume">104</biblScope>
+							<biblScope unit="issue">12</biblScope>
+							<biblScope unit="page" from="4984" to="4989"/>
+							<date type="published" when="2007-03-20">March 20. 2007</date>
+						</imprint>
+					</monogr>
+					<note type="submission">Edited by Burton H. Singer, Princeton University, Princeton, NJ, and approved January 4, 2007 (received for review September 19, 2006)</note>
+					<note>Author contributions: G.A.F. and C.A.G. designed research; G.A.F. performed research; and G.A.F. and C.A.G. wrote the paper. The authors declare no conflict of interest. This article is a PNAS direct submission. Abbreviation: SIS model, susceptible-infected-susceptible to reinfection model. † To whom correspondence should be addressed.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Using a contact-process model for the spread of crop disease over a regional scale, we examine the importance of the time scale for control with respect to the cost of the epidemic. The costs include the direct cost of treating infected sites as well as the indirect costs incurred through lost yield. We first use a mean-field approximation to derive analytical results for the optimal treatment regimes that minimize the total cost of the epidemic. We distinguish shortand long-term epidemics. and show that seasonal control (short time scale) requires extreme treatment, either treating all sites or none or switching between the two at some stage during the season. The optimal long-term strategy requires an intermediate level of control that results in near eradication of the disease. We also demonstrate the importance of incorporating economic constraints by deriving a critical relationship between the epidemiological and economic parameters that determine the qualitative nature of the optimal treatment strategy. The set of optimal strategies is summarized in a policy plot, which can be used to determine the nature of the optimal treatment regime given prior knowledge of the epidemiological and economic parameters. Finally, we test the robustness of the analytical results, derived from the mean-field approximation, on the spatially explicit contact process and demonstrate robustness to implementation errors and misestimation of crucial parameters.</p><p>contact process ͉ economic modeling ͉ epidemiological modeling T here is increasing interest in the optimization of disease control at the landscape scale (1-5). This interest is motivated for crop and animal disease by the desire to reduce unnecessary use of pesticide and to minimize the cost of control relative to the costs of infection. Seeking an optimal strategy in this way opens up a rich suite of possibilities that range from treating all infected individuals, through treatment of a fixed or varying proportion of infected individuals, as circumstances change during the course of an epidemic, to no treatment at all. Finding the optimal strategy depends on the balance of economic and epidemiological parameters that reflect the nature of the host-pathogen system and the efficiency of control method. Progress therefore requires a combination of epidemiological and economic factors in modeling that hitherto have tended to remain separate.</p><p>Economic models have given insight into optimal control under constraints imposed by limited resources (6-8), but they frequently ignore the spatial and temporal dynamics of disease (9). Epidemiological modeling has largely focused on identifying the mechanisms responsible for epidemics (5, 10, 11) but has taken little account of economic constraints in analyzing control strategies. Recent exceptions include epidemiological models for the spread of severe acute respiratory syndrome (12, 13), foot and mouth disease (1, 2, 14-16), and avian flu (3), in which the efficiencies of different control strategies are compared, usually with respect to times for extinction of the invading pathogen. These models are often closely tied to the details of the specific host-pathogen system. Although these details are essential for the implementation of control, they sometimes obscure underlying principles of optimal disease control. A more generic approach applicable to a wide range of host-pathogen systems is given by Dybiec et al. (17), who showed how matching the scale of the control strategy with the natural scale of the epidemic spread can bring epidemics under control, even when there is long-distance, small-world dispersal, as well as local dispersal of the pathogen. Much epidemiological work is predicated on the assumption that an invading disease must be eliminated. For many plant, animal, and even human diseases, however, it is not axiomatic that elimination of the pathogen is economically viable, which refocuses attention on the relative costs and benefits of control and the effects of epidemiological parameters associated with disease transmission and efficiency of control on them (18-21). One natural way to approach the situation, which allows analytical progress for simple epidemiological models, is through variational calculus (22, 23). Control strategies are introduced into epidemiological models, and optimal strategies are derived by minimizing an objective function that incorporates costs of infection and control. Sethi and others <ref type="bibr" target="#b18">(19,</ref><ref type="bibr" target="#b23">(24)</ref><ref type="bibr" target="#b24">(25)</ref><ref type="bibr" target="#b25">(26)</ref><ref type="bibr" target="#b26">(27)</ref><ref type="bibr" target="#b27">(28)</ref><ref type="bibr" target="#b28">(29)</ref> have successfully examined a number of these models. Here, we use the approach of Sethi <ref type="formula">(21)</ref>, which utilized Green's theorem to solve the optimization problem, and build on it to examine the trade-offs between epidemiological and economic parameters. We motivate the analysis for the control of disease spreading through an agricultural landscape, by using the contact process (30) to describe an epidemic propagating through a lattice of susceptible sites. This type of model can be used to describe the spread of disease in a fixed landscape, where each site represents a bounded subpopulation that the disease can inhabit, such as a field. The analyses are principally motivated for crop disease, in which a field, plantation, or sometimes a farm is the natural epidemiological unit for monitoring and controlling the spread of disease through the landscape. Thus for a given crop, such as wheat, a field is initially classified as susceptible (S). It becomes infected (more strictly infectious) (I), as it becomes capable of transmitting infection to neighboring fields. Treatment of an infected field by a fungicide speeds the rate of recovery of the field to the susceptible class, and hence the system is described by an SIS model (31). This form of transmission is typical of a wide range of diseases that spread predominantly over short distances so that spread occurs between neighboring fields. The model applies to many soil-borne and splash-dispersed fungal pathogens and to viral pathogens vectored by short-range movement of aphid and other invertebrate vectors. By keeping the model generic, in this way the results also hold for simplified models of animal diseases, where the epidemiological unit is the herd, flock or, again, an entire farm.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Using a contact-process model for the spread of crop disease over a regional scale, we examine the importance of the time scale for control with respect to the cost of the epidemic. The costs include the direct cost of treating infected sites as well as the indirect costs incurred through lost yield. We first use a mean-field approximation to derive analytical results for the optimal treatment regimes that minimize the total cost of the epidemic. We distinguish shortand long-term epidemics. and show that seasonal control (short time scale) requires extreme treatment, either treating all sites or none or switching between the two at some stage during the season. The optimal long-term strategy requires an intermediate level of control that results in near eradication of the disease. We also demonstrate the importance of incorporating economic constraints by deriving a critical relationship between the epidemiological and economic parameters that determine the qualitative nature of the optimal treatment strategy. The set of optimal strategies is summarized in a policy plot, which can be used to determine the nature of the optimal treatment regime given prior knowledge of the epidemiological and economic parameters. Finally, we test the robustness of the analytical results, derived from the mean-field approximation, on the spatially explicit contact process and demonstrate robustness to implementation errors and misestimation of crucial parameters.</p><p>contact process ͉ economic modeling ͉ epidemiological modeling T here is increasing interest in the optimization of disease control at the landscape scale <ref type="bibr" target="#b0">(1)</ref><ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref>. This interest is motivated for crop and animal disease by the desire to reduce unnecessary use of pesticide and to minimize the cost of control relative to the costs of infection. Seeking an optimal strategy in this way opens up a rich suite of possibilities that range from treating all infected individuals, through treatment of a fixed or varying proportion of infected individuals, as circumstances change during the course of an epidemic, to no treatment at all. Finding the optimal strategy depends on the balance of economic and epidemiological parameters that reflect the nature of the host-pathogen system and the efficiency of control method. Progress therefore requires a combination of epidemiological and economic factors in modeling that hitherto have tended to remain separate.</p><p>Economic models have given insight into optimal control under constraints imposed by limited resources <ref type="bibr" target="#b5">(6)</ref><ref type="bibr" target="#b6">(7)</ref><ref type="bibr" target="#b7">(8)</ref>, but they frequently ignore the spatial and temporal dynamics of disease <ref type="bibr" target="#b8">(9)</ref>. Epidemiological modeling has largely focused on identifying the mechanisms responsible for epidemics <ref type="bibr" target="#b4">(5,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11)</ref> but has taken little account of economic constraints in analyzing control strategies. Recent exceptions include epidemiological models for the spread of severe acute respiratory syndrome <ref type="bibr" target="#b11">(12,</ref><ref type="bibr" target="#b12">13)</ref>, foot and mouth disease <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b13">(14)</ref><ref type="bibr" target="#b14">(15)</ref><ref type="bibr" target="#b15">(16)</ref>, and avian flu (3), in which the efficiencies of different control strategies are compared, usually with respect to times for extinction of the invading pathogen. These models are often closely tied to the details of the specific host-pathogen system. Although these details are essential for the implementation of control, they sometimes obscure underlying principles of optimal disease control. A more generic approach applicable to a wide range of host-pathogen systems is given by <ref type="bibr">Dybiec et al. (17)</ref>, who showed how matching the scale of the control strategy with the natural scale of the epidemic spread can bring epidemics under control, even when there is long-distance, small-world dispersal, as well as local dispersal of the pathogen. Much epidemiological work is predicated on the assumption that an invading disease must be eliminated. For many plant, animal, and even human diseases, however, it is not axiomatic that elimination of the pathogen is economically viable, which refocuses attention on the relative costs and benefits of control and the effects of epidemiological parameters associated with disease transmission and efficiency of control on them <ref type="bibr" target="#b17">(18)</ref><ref type="bibr" target="#b18">(19)</ref><ref type="bibr" target="#b19">(20)</ref><ref type="bibr" target="#b20">(21)</ref>. One natural way to approach the situation, which allows analytical progress for simple epidemiological models, is through variational calculus <ref type="bibr" target="#b21">(22,</ref><ref type="bibr" target="#b22">23)</ref>. Control strategies are introduced into epidemiological models, and optimal strategies are derived by minimizing an objective function that incorporates costs of infection and control. Sethi and others <ref type="bibr" target="#b18">(19,</ref><ref type="bibr" target="#b23">(24)</ref><ref type="bibr" target="#b24">(25)</ref><ref type="bibr" target="#b25">(26)</ref><ref type="bibr" target="#b26">(27)</ref><ref type="bibr" target="#b27">(28)</ref><ref type="bibr" target="#b28">(29)</ref> have successfully examined a number of these models. Here, we use the approach of Sethi <ref type="bibr" target="#b20">(21)</ref>, which utilized Green's theorem to solve the optimization problem, and build on it to examine the trade-offs between epidemiological and economic parameters. We motivate the analysis for the control of disease spreading through an agricultural landscape, by using the contact process <ref type="bibr" target="#b29">(30)</ref> to describe an epidemic propagating through a lattice of susceptible sites. This type of model can be used to describe the spread of disease in a fixed landscape, where each site represents a bounded subpopulation that the disease can inhabit, such as a field. The analyses are principally motivated for crop disease, in which a field, plantation, or sometimes a farm is the natural epidemiological unit for monitoring and controlling the spread of disease through the landscape. Thus for a given crop, such as wheat, a field is initially classified as susceptible (S). It becomes infected (more strictly infectious) (I), as it becomes capable of transmitting infection to neighboring fields. Treatment of an infected field by a fungicide speeds the rate of recovery of the field to the susceptible class, and hence the system is described by an SIS model <ref type="bibr" target="#b30">(31)</ref>. This form of transmission is typical of a wide range of diseases that spread predominantly over short distances so that spread occurs between neighboring fields. The model applies to many soil-borne and splash-dispersed fungal pathogens and to viral pathogens vectored by short-range movement of aphid and other invertebrate vectors. By keeping the model generic, in this way the results also hold for simplified models of animal diseases, where the epidemiological unit is the herd, flock or, again, an entire farm.</p><p>We show how the optimal control strategies depend on the balance between economic and epidemiological parameters as well as the initial density of infected units (e.g., fields) in the population. Specifically, we ask the following questions. Is the conventional strategy associated with the contact process optimal, whereby a fixed proportion of infected fields is treated? If not, what is optimal and why? We give particular attention to the importance of the time frame over which control is envisaged and how it affects the optimal strategy. A distinction is made between a short period, typically a single season, and a long time frame, extending over many seasons that would be typical of a perennial crop or of disease in natural environments. Analysis of strategies over a long term necessarily involves a discount rate to account for alternative investment of resources for control, whereas that for a single season arguably does not <ref type="bibr" target="#b22">(23)</ref>. We first derive analytical solutions from a mean-field approximation of the contact process, from which to identify optimal control strategies. These strategies are nonspatial; that is, they do not rely on any knowledge of the location of disease in the landscape. The advantage of such strategies is that they are less susceptible to implementation errors arising from cryptic infection, in which infectious sites remain nonsymptomatic for a period <ref type="bibr" target="#b17">(18)</ref>, than are strategies that track the explicit location of infections in the landscape. From these nonspatial strategies we derive policy plots that serve to identify optimal strategies, given some knowledge of the epidemiological and economic parameters and the current level of infestation. We then run extensive numerical simulations to test that these strategies are also optimal (among the set of all nonspatial strategies) for the spatially explicit contact process and therefore provide a link between the mean-field analysis and the motivational example (the spatial spread of disease). Finally, we consider the robustness of the strategies to implementation errors and misestimation of crucial parameters, and the advantages and limitations of this approach for the control of disease in the agricultural landscape are discussed.</p><p>The Model. In a contact process, each site of a lattice exists in one of two states, healthy or infected. Infected sites pass disease on to healthy neighbors and recover at a given rate, whereupon they become immediately susceptible to reinfection (SIS). Because a susceptible site must have an infected neighbor to become infected, the disease-free state is absorbing; persistence of the epidemic depends on the transmission rate and the recovery rate. By treating the occupancy of each site as statistically independent and assuming spatial homogeneity, we can derive a mean-field approximation for the proportion of infected sites () given by</p><formula xml:id="formula_0">d dt ϭ Ϫ⑀ 1 ϩ ␤͑1 Ϫ ͒, [1]</formula><p>where ⑀ 1 Ϫ1 is the infectious period of each site and ␤ the transmission rate, which is essentially an aggregated parameter composed of the transmission rate between pairs of infected and susceptible sites and the coordination number that describes the contact structure between infected and susceptible sites <ref type="bibr" target="#b29">(30,</ref><ref type="bibr" target="#b31">32)</ref>.</p><p>The application of control to a given site may be assumed to reduce the infectious period leading to increased recovery rates from ⑀ 1 to ⑀ 2 , of that site to the susceptible state. By applying control randomly to k of the n possible sites in the landscape we derive the state equation with control k ʦ [0, n], given by,</p><formula xml:id="formula_1">d dt ϭ Ϫ k n ⑀ 2 Ϫ ͑n Ϫ k͒ n ⑀ 1 ϩ ␤͑1 Ϫ ͒. [2]</formula><p>This equation implies that there exists a critical level of treatment k ϭ k c given by</p><formula xml:id="formula_2">k c ϭ n ␤ Ϫ ⑀ 1 ⑀ 2 Ϫ ⑀ 1 , [3]</formula><p>such that if k Ͼ k c the disease will be eradicated in the long term. The existence of the phase transition is ensured by imposing the conditions ⑀ 1 Ͻ ␤ and ⑀ 2 Ն ␤. Note that although it is convenient to express the phase transition in terms of k c because it maps onto control strategies as envisaged here, the phase transition could also be expressed in terms of the familiar epidemiological concept of the basic reproductive number, R 0 (10), by a simple transformation of Eq. 2</p><formula xml:id="formula_3">whereby R 0 ϭ ␤n/[(n Ϫ k)⑀ 1 ϩ k⑀ 2 ]</formula><p>. Thus, the condition k Ͼ k c is equivalent to R 0 Ͻ 1, the widely used epidemiological criterion for the prevention of disease invasion. The existence of a phase transition has also been proven for the contact process <ref type="bibr" target="#b32">(33,</ref><ref type="bibr" target="#b33">34)</ref>. However, the critical parameter values at which the phase transition takes place differ from the mean-field case because of the effect of spatial structure. Approximations of the critical values have been provided by using simulations <ref type="bibr" target="#b34">(35)</ref> and series analysis (36-39) for lattices with low dimensionality.</p><p>Optimal Control. The objective is to control the number of sites receiving treatment [k ϭ k(t)] such that the total cost of infection and treatment is minimized over time. Under the assumption that the cost of treatment is linearly related to the amount administered, and similarly for the cost of infection <ref type="bibr" target="#b20">(21,</ref><ref type="bibr" target="#b28">29)</ref>, the cost functions for short and long time scales are given, respectively, by</p><formula xml:id="formula_4">J T ϭ ͵ 0 T ͩcϩd k n ͪdt, J ϱ ϭ ͵ 0 ϱ e Ϫrt ͩcϩd k n ͪdt, [4]</formula><p>where c is the cost per infected site per unit of time, d is the cost per treated site per unit of time, r is the discount rate, and T is the length of the season. The discount rate represents the rate the policymaker is willing to pay to trade off the value of treatment today against the ensuing cost of increased infection in the future <ref type="bibr" target="#b22">(23)</ref>. By using the Pontryagin maximum principle [supporting information (SI) Appendix A], the optimal solution for both the long and short time scale problems is given by</p><formula xml:id="formula_5">k ϭ k ϭ ͭ 0, if f͑t͒ Ͼ 0 ʦ ͓0, n͔, if f͑t͒ ϭ 0 n, i ff͑t͒ Ͻ 0, [5]</formula><p>where f(t) ϭ (⑀ 2 Ϫ ⑀ 1 ) ϩ d and is the costate variable (or shadow price of infection). The costate variable is governed by the differential equation</p><formula xml:id="formula_6">ϭ r ϩ c Ϫ ͩϪ k n ⑀ 2 Ϫ ͑n Ϫ k͒ n ⑀ 1 ϩ ␤͑1 Ϫ 2͒ͪ . [6]</formula><p>Treatments applied to all or no sites (k ϭ n or k ϭ 0) are termed extreme solutions, and intermediate coverage is termed a singular (or interior) solution. The costate variable indicates the marginal benefit of reducing the stock of infection. Because infection is harmful, it is always negative. A change ⌬k in the level of treatment causes the density of infected sites to change by Ϫ ⌬k ⁄n(⑀ 2 Ϫ ⑀ 1 ), and therefore the social value of this change is Ϫ ⌬k ⁄n(⑀ 2 Ϫ ⑀ 1 ). The total cost of achieving such an outcome is d ⌬k ⁄n. When treatment coverage is intermediate, so that variation in either direction is possible, the marginal cost of changing the coverage must be exactly equal to the social benefit. Thus, we obtain Ϫ(⑀ 2 Ϫ ⑀ 1 ) ϭ d, which is the condition f(t) ϭ 0 for an interior (or singular) solution in Eq. 5. If the marginal cost of changing the coverage is different from the benefit received from the resulting change in infection, extreme coverage should be adopted. For example, if the cost of increasing coverage is less than the associated benefits, complete coverage (k ϭ n) should be adopted, which is equivalent to the condition <ref type="bibr" target="#b39">(40)</ref>. The behavior of the function f(t) dictates the nature of the optimal strategy. It is permissible to have solutions contained within the limits of treatment (singular solutions) only if f(t) ϭ 0 for some nonzero length of time. Otherwise, the solution contains only the extreme levels of treatment, which is termed a ''bang-bang'' solution. A bang-bang solution may contain any number of switches from one extreme to the other over the course of the epidemic.</p><formula xml:id="formula_7">Ϫ(⑀ 2 Ϫ ⑀ 1 ) Ͼ d, or f(t) Ͻ 0 in Eq. 5</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>The key difference between optimal short-and long-term disease control is the existence of a singular solution. It can be shown analytically (SI Appendix B) that singular solutions are not possible in the short time scale problem unless ␤/(⑀ 2 Ϫ ⑀ 1 ) ϭ c/d. This strict and exact condition is unlikely to be satisfied in natural systems, and so it can effectively be ruled out as a realistic option for policy decisions. Therefore, the optimal treatment regime involves extreme policies only, either treating all of the sites or none of them. Hence, the critical value k c can be ruled out as a candidate. It can also be demonstrated analytically that if ␤/(⑀ 2 Ϫ ⑀ 1 ) Ͻ c/d, then the optimal strategy is to treat all sites initially and then switch to no treatment at some determinable time (SI Appendix B). Otherwise, it is optimal not to treat at all.</p><p>For long-term control, the singular solution exists and is given by</p><formula xml:id="formula_8">k* ϭ k c ͩ 1 ϩ r␤ ͑␤ Ϫ ⑀ 1 ͒͑␤ Ϫ c րd͑⑀2 Ϫ ⑀ 1 ͒͒ ͪ . [7]</formula><p>As in the case of short-term control, the qualitative nature of the optimal control strategy can be derived entirely analytically by analysis of the phase space (SI Appendix C and SI <ref type="figure">Fig. 4</ref>). There are three possibilities for the optimal path, which are summarized in a policy plot <ref type="figure" target="#fig_0">(Fig. 1a and SI Fig. 4</ref>). The optimal strategy is determined by a relationship that relates the economic and epidemiological parameters and also depends on the prevalence of the infection when treatment is first administered. There exists a critical relation such that when c/d Ͻ ␤/(⑀ 2 Ϫ ⑀ 1 ), the optimal strategy is to treat no sites at all, but when c/d Ͼ ␤/(⑀ 2 Ϫ ⑀ 1 ), the optimal strategy changes radically to a two-phase strategy that begins with treating all (or no) sites (depending on the initial density of infection) and then switches to the interior level of treatment. The optimal time to switch is when the density of infection reaches the equilibrium value corresponding to k ϭ k* <ref type="figure" target="#fig_0">(Fig. 1a)</ref>. As the cost per infection increases relative to the cost per treated site, the optimal long-term level of infection approaches zero as the singular solution k* asymptotes to k c . <ref type="figure" target="#fig_1">Fig. 2</ref> shows some illustrative examples of optimal long-and short-term treatment regimes and the corresponding paths of infection.</p><p>Numerical Testing and Sensitivity. With the qualitative nature of the optimal treatment strategies for the mean-field model established, we now revert to the original contact-process formulation to test these strategies. The optimal strategies developed by using the mean-field formulation are independent of space. They are effective, and arguably achievable strategies that are easily implemented in practice (providing we have an estimate of the disease parameters) because they do not rely on any detailed knowledge of the location of disease in the landscape. When we test these strategies on the contact process, we are not testing for absolute optimality over all strategies (because absolute optimality is sure to depend on a knowledge of spatial location of infection). We are testing for optimality over all nonspatial strategies; that is, strategies that do not rely on any knowledge of the location of disease (as in the mean-field case). Given that the mean-field approximation has the same qualitative properties as the explicitly spatial system, we use spatial simulation to test the hypothesis that the optimal treatment regimes also share the same qualitative properties. We also test the sensitivity of the strategies to implementation errors and misestimation of crucial parameters. Scaling the parameters from the mean-field to the spatially explicit is not straightforward <ref type="bibr" target="#b40">(41)</ref><ref type="bibr" target="#b41">(42)</ref><ref type="bibr" target="#b42">(43)</ref>. The transmission rate in the mean-field case (␤) is assumed to be the rate at which an individual susceptible site becomes infected by an infected neighbor, multiplied by the number of possible contacts in the neighborhood (four in this case) <ref type="bibr" target="#b31">(32)</ref>. In reality, the transmission rate depends on the number of neighboring sites, which is dynamically changing in time. For this reason, we cannot simply map the optimal strategies derived from the mean-field model onto the spatially explicit case. Instead, we concern ourselves with demonstrating that the qualitative nature of the optimal strategy in the mean-field case <ref type="figure" target="#fig_0">(Fig. 1a)</ref> is the same as in the contact process. We ran replicated simulations to find the Given that the initial density of infection is known, and we have an estimate of the epidemiological and economic parameters, we can use the policy plot as a tool to obtain the qualitative nature of the optimal treatment regime. The arrows indicate the progression toward the steady state for each strategy. In b, the dots represent the optimal equilibrium levels of infection for high, medium, and low initial infection densities. They vary because different epidemic realizations were used in each case. The three parameters are given in <ref type="table" target="#tab_0">Table 1</ref> and were used in both deterministic and spatially explicit cases. optimal nonspatial strategy among all possible constant and single-switch strategies. These simulations were performed over three initial levels of infection ( 0 low, medium, and high) and multiple cost ratios (c/d) <ref type="figure" target="#fig_0">(Fig. 1b)</ref>. The optimal long-term level of infection was plotted for each initial level of infection (dots in <ref type="figure" target="#fig_0">Fig. 1b)</ref> and averaged (dashed line). The policy plots derived analytically from the mean-field model and numerically from the contact process are qualitatively identical but quantitatively different. The quantitative differences, such as the level of treatment required to maintain a given level of infection [which is significantly lower in the spatially explicit case because of the short-range spread (ref. <ref type="bibr" target="#b29">30)</ref>], derive from the effects of spatial structure.</p><p>The major implementation error in the case of long-term control is likely to be in the estimation of critical epidemiological parameters (such as the transmission rate), which could lead to a deflection of the boundaries among strategies in the policy plot. We examine this scenario for the case in which the recommended strategy involves a switch from treating all sites to treating k* sites once infection reaches a critical level. We perform this examination for a range of values of k around k* to simulate misjudgment of the values for the critical level of infection associated with misestimation of epidemiological parameters. We also compare this result with various constant strategies (for fixed k) because they represent the most practical alternatives to the switching strategy <ref type="figure">(Fig. 3a)</ref>. The optimal strategy (when k* is estimated correctly) does not perform significantly better than the best constant strategy (in this case where treatment is held at 55% coverage). The true worth of the two-phase approach is in its robustness to misestimation of k*. It is apparent that undertreating in the constant strategy case could lead to significant loss, whereas the two-phase approach is remarkably robust against underestimating k* <ref type="figure">(Fig. 3a)</ref>.</p><p>Over a single season, the optimal treatment strategy is simply to treat all sites and then switch off treatment at some critical point before the end of the season (providing the cost ratio is above a given critical value). Testing this strategy against the range of single-switch and constant strategies for a range of parameter variations (as performed in the long time frame case) demonstrated that the qualitative nature of the optimal strategy is identical in the mean-field and contact-process formulations.</p><p>The only difficulty in implementing this strategy is in finding the optimal time to switch, which cannot be derived analytically. Simulations reveal that if the optimal switch time is missed, then the switching policy does not always outperform the constant strategy <ref type="figure">(Fig. 3b)</ref>. However, there is significant margin for error if optimality is not achieved. The best constant strategy was the strategy of treating approximately 55% of sites for the entire season, and it was determined numerically a posteriori. Varying the parameter values yielded similar outcomes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Using a mean-field, SIS model derived from the contact process we have rigorously derived the optimal treatment strategies that minimize the total cost of an epidemic over short and long time scales. The mean-field exhibits a bifurcation in stability of the nonzero equilibrium point as the level of treatment changes. This qualitative property is shared with the spatial lattice formulation. The goals were to examine the relationship between the optimal treatment strategy and the critical level of treatment required to eradicate the disease and to investigate how the time scale of control affects this relationship. Although the system studied is a simple representation of the spread of crop disease in a static landscape, it demonstrates the importance of economic considerations in epidemiological studies <ref type="bibr" target="#b27">(28,</ref><ref type="bibr" target="#b43">44)</ref> and allows us to extract some general principles that can then be tested in more realistic models for specific host-pathogen combinations.</p><p>The analyses give rise to recommendations for optimal strategies that differ from current conventions, where, for many diseases of annual and perennial crop plants, all infected fields are routinely treated. It is clear that simple analysis of epidemiological models would suggest that complete treatment of infected fields is not necessary if the objective is to prevent invasion of disease through the landscape or to prevent persistence <ref type="bibr" target="#b4">(5,</ref><ref type="bibr" target="#b44">45)</ref>. Here the default for a system approximated by the contact process is to treat a proportion of fields, given for the mean-field approximation by k c (Eq. 3), but doing so ignores the economic constraints associated with the cost of infection and the cost of treatment. Combining the two by using variational calculus <ref type="bibr" target="#b21">(22)</ref> demonstrates that the epidemiological strategy is not necessarily optimal and leads to a set of alternative strategies, the outcome of which depends on the time frame of interest. The set of alternative strategies reflects, of course, the inclusion or otherwise of a discount rate <ref type="bibr" target="#b22">(23)</ref> in the objective function, to be minimized. Here we have equated short-term regimes with a single season, for which we exclude the discount rate, comparing them with discounted longer-term regimes extending over multiple seasons. Note that it is the discount rate that separates the short-and long-term strategies, so the long time frame problem could just as easily be formulated as a finite time problem over more than one season (by replacing ϱ in Eq. 4 by large T). The results, in each case, depend on the relationships between the trade-offs in transmission and recovery rates for the epidemiological parameters and the ratio of costs for infection and treatment in the economic parameters ( <ref type="figure" target="#fig_0">Figs. 1 and  2</ref>). Although both regimes can give rise to a singular solution, the criterion involving matching of the trade-offs in epidemiological with economic parameters is so exact for the short time horizon that we reject it as a plausible strategy. Doing so leaves only a bang-bang solution for the short time horizon provided [␤/(⑀ 2 Ϫ ⑀ 1 )] Ͻ (c/d). The singular solution holds, however, for the long time horizon <ref type="figure" target="#fig_0">(Fig. 1)</ref>, with treatment of a fixed proportion (k ϭ k*) of infected fields, where k* Ͻ k c . In this case, the optimal strategy is a switch from an extreme level of treatment to a level comparable with the critical level required for pathogen extinction. Over a shorter time scale, it becomes nonoptimal to treat near criticality, and instead it is best to switch between extreme treatments. This result is an intuitive one because the pathogen dynamics over a long time scale will eventually settle to equilibrium, whereas over short time scales, such as within a single growing season, the system will often remain in a transient state. Our model does not take account of the effect of interrupted transients associated with a long time scale for successive seasons of annual crops. Here, transients are routinely interrupted by harvesting, with successive epidemics being initiated by inoculum carried over from previous crops or by invasion from more distant sites for overwintering <ref type="bibr" target="#b3">(4)</ref>. The discontinuities remove the possibility of analytical results, but these systems are amenable to numerical investigation.</p><p>The relationship between the epidemiological and economic parameters determines a critical point at which a radically different strategy becomes optimal and is summarized for the long time frame case by a policy plot <ref type="figure" target="#fig_0">(Fig. 1a)</ref>. The policy plot can be used to determine the nature of the optimal treatment regime, given prior knowledge of the epidemiological and economic parameters. The analytic results obtained from the meanfield formulation were tested on the spatially explicit contactprocess model by using numerical simulation <ref type="figure" target="#fig_0">(Fig. 1b)</ref> and were found to be qualitatively identical but quantitatively different (because of the effects of spatial structure). It is important to note that the derived strategies are nonspatial. The advantage of nonspatial strategies is that they do not depend on a knowledge of the spatial location of disease. The strategies derived for the deterministic model outperformed the traditional constant policy and were shown to be robust against implementation errors. The robustness of the deterministic strategies was especially true in the case of long-term treatment, where misestimation of the interior level of treatment k* had little effect on the overall cost of the epidemic.</p><p>Previous authors have found optimal singular solutions for epidemiological models with bifurcations. Both Sethi (21) and <ref type="bibr">Goldman et al. (19)</ref> considered SIS models, whereas <ref type="bibr">Barrett (28)</ref> analyzed a static economic model with bifurcation and a Nash equilibrium. The analyses presented here go beyond these models in analyzing the trade-off between the epidemiological and economic parameters for different time scales and in testing the robustness of the strategies in a spatially explicit scheme.</p><p>We made certain assumptions to simplify the optimization, such as a linear relationship between the cost and the amount of treatment and infection. If this relationship were not the case, it would lead to a more complicated optimal strategy that would dynamically change in time and hence would not be as practical <ref type="figure">Fig. 3</ref>. Testing the robustness of the optimal strategies by using spatial simulations. (a) Total discounted cost of an epidemic vs. the estimated value of k*. Two strategies are compared, a constant strategy where treatment remains at the estimated level of k* throughout, and the two-phase strategy of switching from maximum treatment to k*. Note that the epidemic runs with epidemiological parameters ␤ and ⑀i fixed at the correct values, so incorrect estimation of k* results from not knowing these values. (b) Cost of an epidemic (relative to the most cost-effective constant strategy, which was determined numerically to be Ϸ55% treatment) vs. the time of the switch (relative to the length of the season) from maximum to zero treatment. In both the short and long time frame cases, there were 50 realizations for each parameter set, with the default parameter values given in <ref type="table" target="#tab_0">Table 1.</ref> or manageable. We also assumed that treatment has no lasting effect. This assumption will not change the qualitative nature of the optimal path but may alter the timings of the switches between phases of treatment. The contact process is itself a crude approximation for the spread of disease through the landscape, in that it treats the infectious status of individual fields as a binary process and assumes that the transmission is restricted to neighboring fields arranged on a lattice. Simple extensions of the model are possible, notably to introduce structured metapopulations in which allowance is made for the build-up of infection within fields before transmission to other fields <ref type="bibr" target="#b10">(11)</ref>, to allow for off-lattice or lattice with gap distribution of susceptible sites and to the inclusion of explicit dispersal kernels for the longer distance dispersal of pathogens between infected and susceptible sites.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Although the optimal strategy for the long time frame problem is derived entirely analytically, numerical methods were used to determine the time of the switch for the optimal strategy within the short time horizon. Doing so involved a deterministic analysis of alternative switching times.</p><p>Contact-process simulations were performed on a lattice consisting of n ϭ 10,000 sites (two-dimensional square lattice 100 ϫ 100 with periodic boundary conditions). The default parameters used in the simulations are given in <ref type="table" target="#tab_0">Table 1</ref>. The results hold for a wide range of initial densities and parameter values. The system was updated in a synchronous way until it reached steady state and the cost integral (J ϱ ) converged. Spread was possible in the von Neumann neighborhood (nearest neighbor spread) of each site. Treatment on a site increases the probability of recovery at the next update but has no lasting effect. To obtain the optimal constant strategy (i.e., the optimal strategy from the set of strategies that treat the same number of sites at each time step), we used a simple binary search algorithm.</p><p>To obtain the policy plot <ref type="figure" target="#fig_0">(Fig. 1b)</ref>, tests were performed on a smaller lattice (50 ϫ 50) because of the computation time for each simulation, but isolated cases were tested on the larger lattice. We tested all possible constant strategies as well as single-switch strategies between all possible interior levels of treatment, which was done by using a single epidemic realization and then repeated on a second realization. In the vast majority of cases, the strategy that minimized the cost was the same in both cases (and is plotted in <ref type="figure" target="#fig_0">Fig. 1b)</ref>. Very occasionally, two qualitatively different strategies were derived from each realization, leading to additional realizations to determine the likely optimal. Realizations were performed for three initial levels of infection ( 0 ϭ 0.1, 0.3, and 0.5). For each initial level of infection, the optimal strategy was derived over a range of cost ratios (c/d) and the optimal long-term level of infection recorded (as dots in <ref type="figure" target="#fig_0">Fig. 1b)</ref> varied slightly because different epidemic realizations were used in each case. Further tests revealed that alternative parameter values resulted in qualitatively identical policy plots. The values given here are used in numerical simulations unless stated otherwise, although the qualitative results presented in this work held for any parameter realizations.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Policy plots. (a) Mean-field model. (b) Contact process. Given that the initial density of infection is known, and we have an estimate of the epidemiological and economic parameters, we can use the policy plot as a tool to obtain the qualitative nature of the optimal treatment regime. The arrows indicate the progression toward the steady state for each strategy. In b, the dots represent the optimal equilibrium levels of infection for high, medium, and low initial infection densities. They vary because different epidemic realizations were used in each case. The three parameters are given in Table 1 and were used in both deterministic and spatially explicit cases.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Optimal treatment strategies and infection paths. (a and c) Long time frame case. (b and d) Short time horizon case. The critical level of treatment (kc), derived from the mean-field model, is shown for comparison (dashed line) in all panels.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" validated="true"><head>Table 1 .</head><label>1</label><figDesc>Default parameters used in simulations</figDesc><table>Symbol 
+Meaning 
+Default value 
+
+0 
+Initial infected density 
+0.1 
+n 
+Population size 
+10,000 
+␤ 
+Transmission rate 
+0.1 
+⑀1 
+Natural recovery rate 
+0.01 
+⑀2 
+Recovery rate with treatment 
+0.11 
+c 
+Cost per infected site per unit time 
+2 
+d 
+Cost per treated site per unit time 
+1 
+r 
+Discount rate 
+0.01 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4986">͉ www.pnas.org͞cgi͞doi͞10.1073͞pnas.0607900104 Forster and Gilligan</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4988">͉ www.pnas.org͞cgi͞doi͞10.1073͞pnas.0607900104 Forster and Gilligan</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We thank Nik Cunniffe and referees for insightful comments. This work was supported by the Biotechnology and Biological Sciences Research Council and a Frank Smart Studentship (awarded to G.A.F.) by the Department of Plant Sciences, Cambridge.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Donnelly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">292</biblScope>
+			<biblScope unit="page" from="1155" to="1160" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Tildesley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">J</forename><surname>Savill</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Deardon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">P</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mej</forename><surname>Woolhouse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Keeling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">440</biblScope>
+			<biblScope unit="page" from="83" to="86" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dat</forename><surname>Cummings</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Cauchemez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Riley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Meeyai1a</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Iamsirithaworn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">S</forename><surname>Burke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">437</biblScope>
+			<biblScope unit="page" from="209" to="214" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Stacey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Truscott</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mjc</forename><surname>Asher</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Gilligan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phytopathology</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="209" to="215" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Gilligan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Bot Res</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="1" to="64" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">B</forename><surname>Matchar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Clements</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">D</forename><surname>Peterson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page" from="225" to="231" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">L</forename><surname>Trotter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">J</forename><surname>Edmunds</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">324</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Worrall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Rietveld</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Delacollette</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Trop Med Hyg</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="136" to="140" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Gilligan</surname></persName>
+		</author>
+		<title level="m">Battling Resistance to Antibiotics and Pesticides: An Economic Approach, ed Laxminarayan R (Resources for the Future, Washington, DC)</title>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="221" to="243" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>May</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phil Trans R Soc London B</title>
+		<imprint>
+			<biblScope unit="volume">314</biblScope>
+			<biblScope unit="page" from="533" to="568" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">W</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Gubbins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Gilligan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="162" to="174" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lipsitch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Robins</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Gopalakrishna</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Chew</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">C</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">H</forename><surname>Samore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">300</biblScope>
+			<biblScope unit="page" from="1966" to="1970" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Riley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Donnelly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Ghani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">J</forename><surname>Abu-Raddad</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Hedley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">M</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">Q</forename><surname>Thach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">300</biblScope>
+			<biblScope unit="page" from="1961" to="1966" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Keeling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mej</forename><surname>Woolhouse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Chase-Topping</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">T</forename><surname>Haydon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">J</forename><surname>Cornell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kappey</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Wilesmith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">T</forename><surname>Grenfell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">294</biblScope>
+			<biblScope unit="page" from="813" to="817" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Keeling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mej</forename><surname>Woolhouse</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">T</forename><surname>Grenfell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">421</biblScope>
+			<biblScope unit="page" from="135" to="142" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">M</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Donnelly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">413</biblScope>
+			<biblScope unit="page" from="542" to="548" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Dybiec</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kleczkowski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Gilligan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Rev Ser E</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page">66145</biblScope>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Dybiec</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Kleczkowski</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Gilligan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Phys Pol B</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="1509" to="1526" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">M</forename><surname>Goldman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lightwood</surname></persName>
+		</author>
+		<title level="m">Topics in Economic Analysis and Policy</title>
+		<meeting><address><addrLine>Berkeley, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Berkeley Electronic Press</publisher>
+			<date type="published" when="2002" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1" to="24" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">K</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Rink</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Math Biosci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="383" to="396" />
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sethi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="681" to="691" />
+			<date type="published" when="1974" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Pinch E (1993) Optimal Control and the Calculus of Variations</title>
+		<imprint>
+			<publisher>Oxford Univ Press</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">K</forename><surname>Dixit</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">S</forename><surname>Pindyck</surname></persName>
+		</author>
+		<title level="m">Investment Under Uncertainty</title>
+		<meeting><address><addrLine>Princeton</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton Univ Press</publisher>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sethi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Optim Theory Appl</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="615" to="627" />
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sethi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Opl Res Soc</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="265" to="268" />
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">P</forename><surname>Sethi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">L</forename><surname>Thompson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1981" />
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="279" to="291" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Greenhalgh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Math Biosci</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="125" to="158" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Barrett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Eur Econom Assoc</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="591" to="600" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Optimal Treatment of Disease Under a Budget Constraint</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rowthorn</surname></persName>
+		</author>
+		<editor>Halvorsen R, Layton DF (Edward Elar</editor>
+		<imprint>
+			<date type="published" when="2004" />
+			<biblScope unit="page" from="20" to="35" />
+			<pubPlace>Cheltenham, UK</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Marro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Dickman</surname></persName>
+		</author>
+		<title level="m">Nonequilibrium Phase Transitions in Lattice Models</title>
+		<meeting><address><addrLine>Cambridge, UK</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge Univ Press</publisher>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">D</forename><surname>Murray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mathematical Biology. I. An Introduction</title>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+	<note>3rd Ed</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Joo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">L</forename><surname>Lebowitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Rev E</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page">66105</biblScope>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Interacting Particle Systems</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">M</forename><surname>Liggett</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1985" />
+			<publisher>Springer</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Durrett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lecture Notes on Particle Systems and Percolation</title>
+		<imprint>
+			<date type="published" when="1985" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Grassberger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Phys</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="373" to="396" />
+			<date type="published" when="1979" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Brower</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Furman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Moshe</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Lett B</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="213" to="219" />
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Dickman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Rev B</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="7005" to="7010" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Dickman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Jensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Rev Lett</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="2391" to="2394" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Dickman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Rev E</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1710" to="1725" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Rowthorn</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">M</forename><surname>Brown</surname></persName>
+		</author>
+		<title level="m">Battling Resistance to Antibiotics and Pesticides: An Economic Approach</title>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="42" to="62" />
+		</imprint>
+	</monogr>
+	<note>ed Laxminarayan R (Resources for the Future</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Keeling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">T</forename><surname>Grenfell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Theor Biol</title>
+		<imprint>
+			<biblScope unit="volume">203</biblScope>
+			<biblScope unit="page" from="51" to="61" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">M</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">Z</forename><surname>Kiss</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">R</forename><surname>Kao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Theor Biol</title>
+		<imprint>
+			<biblScope unit="volume">239</biblScope>
+			<biblScope unit="page" from="289" to="297" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">J</forename><surname>Keeling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">D</forename><surname>Eames</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J R Soc Interface</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="295" to="307" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P-Y</forename><surname>Geoffard</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Philipson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Econ Rev</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="222" to="230" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Infectious Disease of Humans: Dynamics and Control</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>May</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+			<publisher>Oxford Science Publications</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

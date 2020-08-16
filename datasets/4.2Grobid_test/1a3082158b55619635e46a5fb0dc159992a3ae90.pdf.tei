@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 C:\PWang\Datasets\grobid-0.5.5\grobid-0.5.5\grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.5" ident="GROBID" when="2020-06-22T14:01+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">SEIR Modeling of the Italian Epidemic of SARS- CoV-2</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Alberto</forename><surname>Godio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Environment, Land and Infrastructure Engineering (DIATI)</orgName>
+								<orgName type="institution">Politecnico di Torino</orgName>
+								<address>
+									<addrLine>Corso Duca degli Abruzzi 24</addrLine>
+									<postCode>10129</postCode>
+									<settlement>Torino</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Francesca</forename><surname>Pace</surname></persName>
+							<email>francesca.pace@polito.itf.p.</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Environment, Land and Infrastructure Engineering (DIATI)</orgName>
+								<orgName type="institution">Politecnico di Torino</orgName>
+								<address>
+									<addrLine>Corso Duca degli Abruzzi 24</addrLine>
+									<postCode>10129</postCode>
+									<settlement>Torino</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Andrea</forename><surname>Vergnano</surname></persName>
+							<email>andrea.vergnano@polito.ita.v.</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Environment, Land and Infrastructure Engineering (DIATI)</orgName>
+								<orgName type="institution">Politecnico di Torino</orgName>
+								<address>
+									<addrLine>Corso Duca degli Abruzzi 24</addrLine>
+									<postCode>10129</postCode>
+									<settlement>Torino</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">SEIR Modeling of the Italian Epidemic of SARS- CoV-2</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.20944/preprints202004.0073.v1</idno>
+					<note>Article * Correspondence: alberto.godio@polito.it (A.G); Tel. +39 011 0907656</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>SARS-CoV-2</term>
+					<term>COVID-19</term>
+					<term>SEIR modeling</term>
+					<term>Italy</term>
+					<term>stochastic modeling</term>
+					<term>swarm intelligence</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Abstract: We applied a generalized SEIR epidemiological model to the recent SARS-CoV-2 outbreak in the world, with a focus on Italy and its Lombardia, Piemonte, and Veneto regions. We focus on the application of a stochastic approach in fitting the model numerous parameters, to improve the reliability of predictions in the medium term (30 days). We analyze the official data and the predicted evolution of the epidemic in the Italian regions, and we compare their results also with data and predictions of Spain and South Korea. We discuss the effectiveness of policies taken by different regions and countries and how they have an impact on past and future infection scenarios.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>We intend to present an updated version of the predictive model of epidemic phenomena based on the approach called SEIR (Susceptible-Exposed-Infective-Recovered), widely used to analyze infection data during the different stages of an epidemic outbreak or to try to predict possible contagion development scenarios.</p><p>It is based on a series of dynamic mathematical equations that consider the amount of the population potentially subject to contagion, considering that a portion of individuals is immune to contagion, the trend over time of individuals who recover after infection, and the individuals who unfortunately die <ref type="bibr" target="#b0">[1]</ref>.</p><p>In the most consolidated methods, the coefficients of the equations represent the different ratios of variation over time of the different categories of individuals, that is, infected, dead and recovered <ref type="bibr" target="#b1">[2]</ref>. Often these coefficients are considered constant <ref type="bibr" target="#b2">[3]</ref> that is, they are unable to take due account of external influences, such as actions to contain the spread of the infection that may occur at different times during the development of the infection itself or the possible change in health conditions and pharmacological development capable of treating infected individuals. Like all models, the quality of the observed data and their validation is a crucial node in assessing the reliability of the model results.</p><p>This work is carried out during the crucial development phase of the epidemic in Italy (end of March 2020), with the operational difficulties linked to the impossibility of verifying and validating the databases, and with the difficulty of comparing and calibrating the results with other studies. The purpose, however, is to provide an easy to read and useful tool that can help the policymakers, responsible for strategic choices, in assessing the social and economic scenarios related to the development of the epidemic. We are conscious that it is a predictive model, which, although based on a scientific approach, is conditioned by a series of intrinsic and endogenous factors that can affect its medium-term reliability, but we aware that any political decision not based on the rational and critical evaluation of all available data risks being based on mere sensations, often dictated by sentimental suggestions <ref type="bibr" target="#b3">[4]</ref>. The generalized SEIR model we used is based on the system of differential equations found by <ref type="bibr" target="#b4">Peng et al. (2020)</ref>  <ref type="bibr" target="#b4">[5]</ref> in the analysis of the SARS-CoV-2 outbreak in China. We chose this model, that adds complexity to the classical SIR or SEIR models, for being able to represent the various conditions of susceptible and infected individuals during an epidemic outbreak (especially quarantined people, who are not able to infect other people during their quarantine). Moreover, it introduces timedependent model parameters and provides reliable results in the prediction of the peak of the epidemic in different China provinces.</p><p>Besides, we want to check the feasibility of using a stochastic approach, based on the particle swarm optimization approach (PSO) <ref type="bibr" target="#b5">[6]</ref> over a deterministic method in the analysis of the evolution of an epidemic outbreak. In fact, citing the overview made by <ref type="bibr">Parham (2012)</ref>, the analysis of temporally-forced non-linear epidemic models within stochastic frameworks has received little attention to date due to the complexity of the problem, despite representing the most realistic framework for capturing the behaviour of many intrinsically or extrinsically forced infectious diseases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Database</head><p>The analysis is based on the data collected and made available via a dashboard by the John Hopkins University in the USA. They collect the data from different official organizations such as OMS, USA Centers for Disease Control and Prevention, ECDC China, NHC, and other organizations. The Chinese data are collected through the DXY, a Chinese web-site able to aggregate the reports on the local situation furnished by local authorities, on the cases of confirmed deaths and infected. The Italian data are mainly collected through the bulletin of the Protezione Civile Italiana.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Overview of the generalized SEIR model</head><p>The SEIR model simulates the time-histories of an epidemic phenomenon. In its classical form, it models the mutual and dynamic interaction of people between four different conditions, the susceptible (S), exposed (E), infective (I), and recovered (R). The susceptible (S) is the part of the population that could be potentially subjected to the infection. The exposed (E) is the fraction of the population that have been infected but does not show symptoms yet, (it can be called a latent phase), and according to the kind of disease they are infectious, partially infectious or not infectious <ref type="bibr" target="#b6">[7]</ref>. The infective (I) represents the infective population after the latent period. The recovered (R) are people after healing, and they are generally removed by the susceptible category, if it is considered that they became immune to the disease. The R category comprehends also the individuals died due to the disease.</p><p>The parameters β (infection ratio) controls how fast people move from being susceptible to exposed, and γ, the inverse of the latent time, controls how fast individuals pass from exposed to infective. Another parameter, δ, controls how fast people get recovered from being infected.</p><p>Given the complexity of the disease, we used a generalized SEIR model <ref type="bibr" target="#b4">[5]</ref> which works with more parameters than the classical SEIR model:</p><p>• α is the protection rate, • β is the infection rate, • γ is the inverse of the average latent time, • δ is the inverse of the average quarantine time, • λ0 and λ1 are coefficients used in the time-dependent cure rate, • κ0 and κ1 are coefficients used in the time-dependent mortality rate. Notice that λ and κ, the cure rate and mortality rate respectively, are considered time-dependent to enhance the capability of the model to follow the evolution of the outbreak. On the basis of the results achieved by <ref type="bibr" target="#b4">Peng et al. (2020)</ref>  <ref type="bibr" target="#b4">[5]</ref>, which suggested an exponential evolution of the two parameters, we constrained them to fit an exponential trend. The λ0 represents the initial value of the cure rate, which is the velocity at which an average infective individual can recover. It is related to the initial health system ability to tackle the infection and depends also on other factors like the good health of the citizens. λ 1 measures how the rate has changed with time. Given the properties of the λ function, if λ 1 turns out to be positive, the cure rate will improve over time, and the higher it is, the better this improvement.</p><p>The parameter κ0 represents the initial value of the mortality rate, which is the velocity at which an average infective individual could die. Like λ0, κ 0 parameter is related to the initial health system ability to tackle the infection and depends on the good health of the citizens. κ 1 measures how the rate has changed with time. If κ1 turns out to be positive, the mortality rate will decrease over time, and the higher it is, the better this decrease.</p><p>The generalized SEIR-model scheme is described graphically and mathematically in <ref type="figure" target="#fig_0">Figure 1</ref>. The main outputs of the model are the following data: • S, target time-histories of the susceptible cases, • E, the target time-histories of the exposed cases, • I the target time-histories of the infectious cases, • Q, the target time-histories of the quarantined cases, • R, the target time-histories of the recovered cases, • D, the target time-histories of the death cases, • P, the target time-histories of the insusceptible cases. The susceptible category decreases over time, feeding the Exposed (E) category through the beta parameter β and the Protected (P) category through the α parameter; the latter represents the part of the population which for various reasons becomes insusceptible to the disease.</p><p>The Exposed (E) category is a temporary category: its individuals pass into the infective (I) category after a latent time (1/ γ), on average. The infective category generates newly infected people over time, taking them from the Susceptible category, and infected individuals are made quarantined (Q) to avoid spread. Then, they evolve into recovered or death cases, according to various causes, as health care system effectiveness, age, co-presence of other diseases.</p><p>The α, β, γ, δ, λ and κ parameters can be considered also an important output of the model, and the evolution over time of λ and κ could provide insightful information about the changes in the population and health system response to the contagion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Implementation of the SEIR model and stochastic approach</head><p>Preprints (www.preprints.org) | NOT PEER-REVIEWED | Posted: 7 April 2020 doi:10.20944/preprints202004.0073.v1</p><p>The model equations were implemented using the MATLAB code provided by [8] available in Matlab File Exchange (https://it.mathworks.com/matlabcentral/fileexchange/74545-generalized-seirepidemic-model-fitting-and-computation).</p><p>The data are extracted from the official repository and are composed of: confirmed, recovered and dead cases (Q, R, and D, respectively). These values represent the initial assumptions. The parameters α, β, γ, δ, λ and κ are the problem unknowns. At the beginning of modeling, their initial values are given as first esteem. Then, their values are calculated following a least square curve fitting approach that considers the observed data (Q, R, D) with time. The differential equations in <ref type="figure" target="#fig_0">Figure 1</ref> are numerically solved by means of the Runge-Kutta method.</p><p>We modified the model by introducing a stochastic approach for solving the optimization problem. The six unknown parameters are calculated by minimizing an objective function that minimized the misfit between observed data (Q, R, D) and the response calculated by the SEIR model. This approach leads to the best optimized parameters, for several trials. The calculation of the parameters is based on the Particle Swarm Optimization (PSO) algorithm, which is a populationbased nature-inspired metaheuristic method belonging to the family of Computational Intelligence <ref type="bibr" target="#b7">[9,</ref><ref type="bibr" target="#b8">10]</ref>. The main difference with respect to the standard linearized method (deterministic) is that the result is a set of most probable parameters, giving a set of most probable predicted curves.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>Here we present the time series obtained by the standard deterministic approach, compared with the data series that highlight the best prediction solutions obtained by the stochastic approach, based on the Particle Swarm Optimization (PSO) algorithm.</p><p>The analysis of the overall Italian situation shows the trends given in <ref type="figure" target="#fig_1">Figure 2</ref>. We can point out that the results are biased by the selection of the starting point of model parameters, according to the main limits of the deterministic methods. The PSO approach gives a similar output in terms of data fitting and forecast of the development of the epidemic, even if the fitted parameters differ from those obtained by the deterministic approach, according to the global searching in the model domain parameter of the stochastic approach <ref type="figure" target="#fig_2">(Figure 3)</ref>.  In these graphs, the points refer to the data provided by official institutions, and they are plotted together with the model-predicted trend lines. We showed in red the number of individuals tested positive and placed in quarantine (at home, or hospitalized, or in intensive care). The predicted peak in the red curve represents the status in which the rate of recoveries becomes greater than the rate of infection. It is important because reflects also one of the moments of greatest stress on the health system, because the quarantined people, both at home and in the hospitals, are at their maximum number. Blue and black colors represent the number of recovered and the number of deaths, respectively. It should be pointed out that the sum of Quarantined, Recovered and Deaths, at a certain date, represents the total confirmed cases at that moment.</p><p>The analysis of the situation of Lombardia, Veneto and Piemonte regions allows us to detect the following elements. Lombardia has been strongly impacted by SARS-CoV-2, as at the end of March, nearly 40,000 novel infected cases and more than 5,000 deaths have been recorded in a population of 10 million. On the contrary, the Veneto region evidences 7,000 cases and about 300 deaths in a population of 5 million. The predicted evolution of the phenomenon is depicted in <ref type="figure" target="#fig_4">Figures 4, 5 and 6</ref> for Lombardia, Veneto and Piemonte, respectively.</p><p>The prediction of the situation in Lombardia, according to the deterministic approach ( <ref type="figure">Figure  4a)</ref>, appears rather optimistic, as the trend of the quarantined should start to decrease in few days; this probably does not reflect the evolution of the true situation in that region, even if the rate the recovered suggests positive feelings. If we look at the most probable scenario, according to the PSO analysis <ref type="figure">(Figure 4b)</ref>, the wide spreading of the trend of the quarantined indicates how any eventual less-restrictive policy must be evaluated with great care in the next days.  The picture of the situation in Spain is shown in <ref type="figure" target="#fig_5">Figure 7</ref>. The crisis exploded in few days, just after the Italian collapse, as the direct consequence of the delay in undertaking restrictions in the business and social activities to limit the spreading of the infection. At this stage of the evolution of the phenomenon in Spain, after one month, the results obtained by the deterministic approach forecast a trend of the recovered that seems very optimistic if compared with respect to the Italian situation. We can assume that the Spanish health system will react promptly to the last evolution of the infectious; anyway, in order to give a wider overview of the possible scenarios a stochastic analysis could be more appropriate. We adopted a generalized SEIR method to offer a quantitative overview of the complex analysis of the SARS-CoV-2 epidemic meanwhile the disease is still running. The parameters were fitted with a deterministic approach, and then with a stochastic approach, using a Particle Swarm Optimization algorithm, a novelty in the field of epidemiological studies. The main aim is to offer an opportunity to the policymaker in Italy or elsewhere to think about the importance that any decision in an emergency status must avoid any wasted time.</p><p>The analysis of the result given by the simulation using the stochastic approach (PSO) gives an overview of the most probable scenario in the days after April, 1 st . It can be well noticed that the different predicted model responses are obtained with approximately an equivalent goodness of the data fitting (the normalized, with respect to the mean value of the quarantined, L2-norm &lt; 0.01), even if they are forecasting very different scenarios for the incoming days. The different scenarios are achieved by a deeper investigation of the model-space domains where the solutions are not driven and influenced by the initial selection of the rate of infected, recovered, and deaths.</p><p>The data seem to confirm that while Lombardy and Piemonte applied similar approaches to social distancing and retail closures, Veneto's strategy considers a much more proactive effort in order to limit the contagious, by extensive testing of symptomatic and asymptomatic cases early on, jointly with an effective tracing of potential positives. The different actions undertaken by the Regions are well depicted in the future trend of the model, with evident advantages in an earlier end of the infection spreading in Veneto.</p><p>The behavior of Piemonte deals with a peculiar trend, introducing a time-delay of the recovered with respect to the death cases, and the rates also show a weird behavior, where the number of the recovered in the month of March is always lower than the deaths. This involves that the intersection of the trends of recovered and deaths will be reached at a later time with respect to other regions herein analyzed. We cannot say if all these peculiarities are caused by different approaches in computing the cases, with an underestimate of the recovered versus the infected or they are affected by some inertia in the health system. A recent analysis <ref type="bibr" target="#b9">[11]</ref> pointed out how, according to the guidance from public health authorities in the central government, Lombardia's actions involved a more conservative approach mainly focusing on the symptomatic cases. They also suppose that the set of policies enacted in Veneto has minimized the burden on hospitals and minimized the risk of spreading in medical facilities.</p><p>The expected trend of these two regions is controlled by many factors outside the control of policymakers, including Lombardy's greater population density and a higher number of cases at the explosion of the crisis. Nevertheless, the different public health policies at the early stage of the epidemic phenomena also had an impact.</p><p>The trend of the cases and the predicted response of South Korea's situation is presented in <ref type="figure" target="#fig_6">Figure 8</ref>. The analysis of the data about South Korea could be useful in order to look at the Italian situation with respect to a Country where, for many reasons, the contagious has been limited, even if the crisis seemed very dramatic at the early stage. We could not fit the observed data, because of the marked oscillations both in the time-series of the quarantined and in the recovered one. The abrupt changes of the trends will require more careful analysis, taking into account the time and the effects of the action of the containment of the infection and also the effects of any new pharmacological treatment methods introduced by the health system. To sum up our results, the estimated parameters for Italy, Spain and South Korea are shown in <ref type="table" target="#tab_0">Table 1</ref>. They all refer to the deterministic approach. The β parameter, that governs the infection rate of the disease, appears to be quite similar in the various countries. It is interesting to notice the lambda parameters: λ0 is much smaller for Italy than for the other two countries, and this could represent an initial struggle to treat the patients, or also simply longer average quarantine time at the beginning of the outbreak. Italy has the highest value of the λ1 parameter, thus meaning that the ability of the health system to cure patients has improved over time. This is consistent with the latest news from Protezione Civile Italiana. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>We have applied two different approaches for solving the equations of the SEIR model to model the evolution of the epidemic phenomenon in Italy and in most impacted regions of the North of Italy (Lombardia, Veneto and Piemonte). We have considered all the possible available data at the end of March 2020. The main findings indicate that the deterministic approaches could be not appropriate to explore all the possible solutions of the space-domain of the solution; we suggest providing the fitting of the data using a stochastic approach, based on the PSO method. According to the latter approach we have estimated different scenarios of the evolution in the next 30 days.</p><p>The data and the model predictions confirm that some valuable lessons should be to be learned from the approaches of South Korea, and in Taiwan, and Singapore, which were able to contain the contagion very soon before a wide spreading of the infection.</p><p>The main purpose of our work is to provide new tools able to support the policymakers in their decision about the action to minimize the impact of the disease. Our analysis demonstrated that, because the Italian health care system is highly decentralized, different regions managed different policies. We pointed out how the data and the model prediction well reflected the different approaches taken by Lombardy and Veneto, two regions with similar socio-economic tissue. The overall lesson that could be learned from this analysis is out the scope of our modeling and will require a more wide analysis on all the possible socio-economic and political factors, even if the data analysis of the Veneto situation could be used to revisit regional and central policies early on; Lombardy and other regions are going to emulate the main virtuous approaches of Veneto, including more demanding requests to support them in their diagnostic capacity that will weight on the central government.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Generalized SEIR model. The highlighted equations are the classical SEIR model core equations (modified from [5]).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Observed data of infected in quarantine, recovered and deaths for Italy, updated on March 31st, 2020. Deterministic approach. The continuous lines refer to the trend of the predicted evolution in 30 days according to the SEIR model.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Observed data as in Figure 2. Observed data of infected in quarantine, recovered and deaths for Italy, updated on March 31st, 2020. Stochastic approach. The dashed lines are the predicted trends in 30 days according to the set of probable scenarios for different optimized parameters. The solid lines are the most probable scenarios for Q, R, D.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .Figure 5 .</head><label>45</label><figDesc>Figure 4. Observed data of infected in quarantine, recovered and deaths for Lombardia region, updated on March 31st, 2020. The continuous lines refer to the trend of the predicted evolution in 30 days according to the SEIR model: (a) Deterministic approach; (b) Stochastic approach.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Observed data of infected in quarantine, recovered and deaths for Piemonte region, updated on March 31st, 2020. Deterministic approach. The continuous lines refer to the trend of the predicted evolution in 30 days according to the SEIR model.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Observed data of infected in quarantine, recovered and deaths for Spain, updated on March 31st, 2020. Deterministic approach. The continuous lines refer to the trend of the predicted evolution in 30 days according to the SEIR model.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Observed data of infected in quarantine, recovered and deaths for South Korea, updated on March 31st, 2020. Deterministic approach. The continuous lines refer to the trend of the predicted evolution in 30 days according to the SEIR model.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" validated="true"><head>Table 1 .</head><label>1</label><figDesc>The final calculated values of α, β, γ, δ, λ and κ for Italy, Spain and South Korea.</figDesc><table>Country 
+Prediction 
+ 
+ 
+ 
+ 
+0 
+1 
+k0 
+k1 
+Italy 
+30 days 
+0.0292 
+1.2687 
+0.7631 
+0.5086 
+0.0181 
+2.0000 
+0.0234 
+0.0174 
+Spain 
+30days 
+0.0636 
+1.3388 
+0.5329 
+0.2110 
+0.4814 
+0.0031 
+0.0170 
+0.0032 
+S. Korea 
+30 days 
+0.1044 
+1.3511 
+0.8486 
+0.4093 
+0.2068 
+0.0051 
+0.0010 
+0.0000 
+
+</table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">© 2020 by the author(s). Distributed under a Creative Commons CC BY license.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Preprints (www.preprints.org) | NOT PEER-REVIEWED | Posted: 7 April 2020 doi:10.20944/preprints202004.0073.v1</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Author Contributions: All authors provided a contribution to the development of the methodology and conceptualization. Code implementation and modeling: F.P. and A.G; validation and interpretation, A.G. and A.V.; writing-original draft preparation, A.G.; writing-review and editing, F:P and A.V.; supervision, A.G. All authors have read and agreed to the published version of the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>Declare conflicts of interest or state "The authors declare no conflict of interest." Authors must identify and declare any personal circumstances or interest that may be perceived as inappropriately influencing the representation or interpretation of reported research results. Any role of the funders in the design of the study; in the collection, analyses or interpretation of data; in the writing of the manuscript, or in the decision to publish the results must be declared in this section. If there is no role, please state "The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results".</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Outbreak properties of epidemic models: The roles of temporal forcing and stochasticity on pathogen invasion dynamics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">E</forename><surname>Parham</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Michael</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Theoretical Biology</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">A Short History of Mathematical Population Dynamics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Bacaër</surname></persName>
+		</author>
+		<idno>978- 0-85729-114-1</idno>
+		<imprint>
+			<date type="published" when="2011" />
+			<publisher>Springer</publisher>
+			<pubPlace>London; London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">A Modified SIR Model for the COVID-19 Contagion in Italy</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">C</forename><surname>Calafiore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Novara</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Possieri</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2003.14391</idno>
+		<imprint>
+			<biblScope unit="page">2020</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">S M</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">H Y</forename><surname>Lau</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">Y</forename><surname>Wong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">382</biblScope>
+			<biblScope unit="page" from="1199" to="1207" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Epidemic analysis of COVID-19 in China by dynamical modeling</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Zhuge</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Hong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Epidemiology</title>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+				<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Eberhart</surname></persName>
+		</author>
+		<idno type="doi">10.1109/ICNN.1995.488968</idno>
+		<title level="m">Particle swarm optimization. International Conference on Neural Networks IV (IEEE) proceedings, extended abstracts</title>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="1942" to="1948" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Transmission dynamics model of 2019 nCoV coronavirus with considering the weak infectious ability and changes in latency duration</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Seir</surname></persName>
+		</author>
+		<idno>2020. 8. Cheynet E.</idno>
+		<ptr target="https://www.github.com/ECheynet/SEIR" />
+	</analytic>
+	<monogr>
+		<title level="m">Generalized SEIR Epidemic Model (fitting and computation</title>
+		<imprint>
+			<date type="published" when="2020-04-02" />
+		</imprint>
+	</monogr>
+	<note>Infectious Diseases</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Computational intelligence: An introduction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">P</forename><surname>Engelbrecht</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<publisher>John Wiley and Sons Ltd</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Self-organizing hierarchical particle swarm optimizer with time-varying acceleration coefficients</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ratnaweera</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Halgamuge</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">C</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Evolutionary</title>
+		<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Lessons from Italy&apos;s response to Coronavirus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">P</forename><surname>Pisano</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Sadun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Zanini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Harvard Business Review</title>
+		<imprint>
+			<date type="published" when="2020-03-27" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

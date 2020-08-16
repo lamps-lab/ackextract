@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 C:\PWang\Datasets\grobid-0.5.5\grobid-0.5.5\grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.5" ident="GROBID" when="2020-06-22T20:34+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Role Of Mitochondria In The Mammalian Antiviral Defense System</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iain</forename><surname>Scott</surname></persName>
+							<email>scotti@mail.nih.gov</email>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Iain</forename><surname>Scott</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Molecular Biology Section</orgName>
+								<orgName type="department" key="dep2">Translational Medicine Branch</orgName>
+								<orgName type="institution">National Heart Lung and Blood Institute</orgName>
+								<address>
+									<addrLine>Building 10-CRC, Room 5-3216</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">National Institutes of Health</orgName>
+								<address>
+									<postCode>9000, 20892</postCode>
+									<settlement>Rockville Pike, Bethesda</settlement>
+									<region>MD</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Role Of Mitochondria In The Mammalian Antiviral Defense System</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.mito.2010.02.005</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>MAVS</term>
+					<term>Innate immunity</term>
+					<term>NLRX1</term>
+					<term>STING</term>
+					<term>mitochondria</term>
+					<term>apoptosis</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>Innate immunity is a crucial defense system against viral and bacterial pathogens, providing a rapid response to mitigate the effects of microbial attack. While more readily associated with respiration and metabolism, recent research has surprisingly identified a number of mitochondrial factors in the mammalian innate immune system. This review summarizes the novel mitochondrial proteins, such as MAVS and NLRX1, involved in this process and attempts to reconcile this new mitochondrial function with our previous knowledge of the organelle.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The mammalian innate immune system acts as the first line of defense against microbial attack. On encountering viral or bacterial intruders, this system activates numerous signaling pathways that result in the production of anti-microbial compounds designed to mitigate damage, in effect by preventing both the replication and spread of the pathogen. Initiation of an immune response relies on numerous pattern-recognition proteins (PRPs) -a group of proteins shared by animals and plants <ref type="bibr" target="#b9">(Janeway and Medzhitov, 2002</ref>) -which recognize the molecular markers of invaders (e.g. dsRNA, lipopolysaccharide, unmethylated CpG DNA) and signal to downstream members of the immune system. PRPs can be placed into two general groups, based on where they function. Extracellular pathogens are recognized by the toll-like receptor (TLR) proteins, which are either expressed on the cell membrane facing the extracellular matrix, or in endosomes (reviewed in <ref type="bibr">Kawai and Akira, 2006)</ref>. Once a pathogen is bound the TLR proteins signal through cytoplasmic adapter proteins, such as TRIF and MyD88, to initiate the production of nuclear encoded pro-immune cytokines. Intracellular pathogens are recognized by several groups of PRPs, including protein kinase R (PKR), the NOD-like protein family, and the more recently-identified RIG-I-like helicase (RLH) pathway <ref type="bibr" target="#b9">(Janeway and Medzhitov, 2002;</ref><ref type="bibr" target="#b19">Meylan and Tschopp, 2008;</ref><ref type="bibr" target="#b41">Yoneyama and Fujita, 2009)</ref>. The RLH pathway is composed of three RNA helicase proteins which bind virally-produced nucleic acids, and a number of downstream signaling molecules <ref type="figure" target="#fig_0">(Figure 1</ref>). The prototypic member of the family is RIG-I, a protein which consists of twin N-terminal caspase activation and recruitment (CARD) domains, and a C-terminal RNA helicase domain <ref type="bibr" target="#b42">(Yoneyama et al., 2004)</ref>. RIG-I binds viral dsRNA at its helicase domain, which stimulates a conformational change that exposes the twin CARD domains, to allow downstream signaling through direct protein:protein interactions. The other two helicases are MDA-5, which is similar in structure and function to RIG-I, but which recognizes other viral substrates; and LGP2, which has a homologous helicase domain, but lacks the CARD domains and can act as a negative regulator of RLH signaling during infection by certain viruses, particularly those sensed by RIG-I <ref type="bibr" target="#b42">(Yoneyama et al., 2004;</ref><ref type="bibr" target="#b34">Venkataraman et al., 2007;</ref><ref type="bibr" target="#b41">Yoneyama and Fujita, 2009</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">MAVS -the first mitochondrial protein identified in the innate immune system</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Identification of the mitochondrial antiviral signaling protein, MAVS</head><p>In the year following the identification of RIG-I, four groups simultaneously reported a novel member of the RLH signaling pathway, with each group choosing a different name for the new protein. <ref type="bibr" target="#b11">Kawai et al. (2005)</ref> found Interferon-β Promoter Stimulator 1 (IPS-1) by screening multiple cDNA pools for novel inducers of the IFN-β promoter. They reported that IPS-1 could activate the pro-immune transcription factors IRF3, IRF7 and NF-κB to induce type 1 interferon production, and that it interacted with RIG-I and MDA-5 through its CARD domain. <ref type="bibr" target="#b38">Xu et al. (2005)</ref> made expression constructs of 12 unknown cDNAs from a previous study that had identified a large number of novel NK-κB activators <ref type="bibr" target="#b17">(Matsuda et al., 2003)</ref>. In their system, Virus-triggered IFN-β Signaling (VISA) was the only one of these cDNAs to significantly induce NK-κB signaling <ref type="bibr" target="#b38">(Xu et al., 2005)</ref>. Using a combination of mammalian coimmunoprecipitation and yeast two-hybrid studies, they found that VISA interacted with both TRAF2 and TRAF6, potentially implicating it in TLR-mediated pathways <ref type="bibr" target="#b38">(Xu et al., 2005)</ref>. <ref type="bibr" target="#b18">Meylan et al. (2005)</ref> found CARD Adaptor Inducing IFN-β (CARDIF) using bioinfomatic searches for novel CARD-domain proteins. They showed that it could recruit the signaling kinases IKKα, IKKβ and IKKε, which led to the activation of the IRF3 and NK-κB transcription factors. The authors also employed an in vitro system to demonstrate that CARDIF is cleaved by a protease encoded by the hepatitis C virus, showing for the first time that viruses could specifically disrupt CARDIF signaling <ref type="bibr" target="#b18">(Meylan et al., 2005)</ref>. Finally, <ref type="bibr" target="#b28">Seth et al. (2005)</ref> discovered the Mitochondrial Antiviral Signaling protein (MAVS) by performing sequence similarity searches, using the CARD domain of MDA-5 as bait. They reported that overexpression of MAVS activated IRF3 and NK-κB, and that its presence was required for a response to Sendai virus infection. Importantly, only <ref type="bibr" target="#b28">Seth et al. (2005)</ref> in these primary papers localized this novel protein to mitochondria, therefore for this reason (and general simplicity) IPS-1/VISA/CARDIF/MAVS will be referred to as "MAVS" below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Structure and function of MAVS</head><p>MAVS is a predicted 57 kDa protein consisting of three functional domains -a single Nterminal CARD domain (10-77 aa), a medial proline-rich region (PRR; 107-173 aa) and a Cterminal transmembrane domain (TM; 514-535 aa) that anchors it to the outer mitochondrial membrane <ref type="bibr" target="#b28">(Seth et al., 2005)</ref>. The N-terminal CARD domain shares high similarity to the CARD domains found in RIG-I and MDA-5 <ref type="bibr" target="#b23">(Potter et al., 2008)</ref>, and these proteins are predicted to bind with MAVS homotypically at this domain, following activation by viruses. As such, removal of the MAVS CARD domain appears to prevent this interaction and ablates its signaling function <ref type="bibr" target="#b28">(Seth et al., 2005;</ref><ref type="bibr" target="#b18">Meylan et al., 2005;</ref><ref type="bibr" target="#b11">Kawai et al., 2005)</ref>. The PRR section of MAVS contains consensus binding sites for many proline-associated immune proteins, such as members of the tumor necrosis factor receptor associated factor (TRAF) family like TRAF2, TRAF3 and TRAF6 <ref type="bibr" target="#b38">(Xu et al., 2005;</ref><ref type="bibr" target="#b25">Saha et al., 2006)</ref>. In the context of this review, perhaps the most interesting domain however is the C-terminal TM domain that directs MAVS to mitochondria. Removal of the TM prevents both its mitochondrial localization and signaling function, restricting the truncated protein to the cytosol <ref type="bibr" target="#b28">(Seth et al., 2005;</ref><ref type="bibr" target="#b38">Xu et al., 2005)</ref>. The TM domain has similarities to those found in the outer mitochondrial membrane proteins TOM20, Bcl-2 and Bcl-xL, and replacing the TM of MAVS with those from Bcl-2 or Bcl-xL restores both its function and mitochondrial localization <ref type="bibr" target="#b28">(Seth et al., 2005)</ref>. This suggests that the TM domain of MAVS has no other role in the antiviral function of the protein, other than to ensure correct placement at the outer mitochondrial membrane. When overexpressed, a construct containing just the CARD and TM domains of MAVS had a similar ability to activate the IFN-β promoter as the whole protein <ref type="bibr" target="#b28">(Seth et al., 2005)</ref>, indicating that these two domains are the most important for MAVS function.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">Regulation of MAVS downstream signaling</head><p>There have been several (sometimes conflicting) reports of proteins that interact with MAVS, either to aid downstream signaling, or to regulate its function. Downstream signaling, resulting in the production of cytokines, has been linked to a number of pathways that converge on the pro-immune transcription factors IRF3, IRF7 and NF-κB. MAVS has been shown to associate with FADD and RIP1 <ref type="bibr" target="#b17">(Matsuda et al., 2003;</ref><ref type="bibr" target="#b12">Lad et al., 2008)</ref>, adapter proteins involved in the IKK complex that activates NF-κB. However, the requirement for RIP1 in MAVS-associated cytokine production is questioned by the finding that there is normal IFN-β activation in RIP1 −/− mouse embryonic fibroblasts (MEFs; <ref type="bibr" target="#b28">Seth et al., 2005)</ref>. Binding of TRAF-family members (e.g. TRAF2, TRAF3 and TRAF6) to the proline-rich region of MAVS has been shown to be necessary for the downstream phosphorylation of NF-κB and IRF3/7 <ref type="bibr" target="#b28">(Seth et al., 2005;</ref><ref type="bibr" target="#b38">Xu et al., 2005;</ref><ref type="bibr" target="#b25">Saha et al., 2006)</ref>, although a deletion-mutant of MAVS without the binding sites still has the capacity to activate IFN-β <ref type="bibr" target="#b28">(Seth et al., 2005)</ref>. Kinases such as IKKε, have been shown to physically interact with MAVS at the outer mitochondrial membrane <ref type="bibr" target="#b15">(Lin et al., 2006)</ref>, and this leads to the phosphorylation and activation of IRF3. In contrast, the mitotic polo-like kinase 1 (PLK1) has been shown to inhibit MAVS signaling and IFN-β activation, by blocking the TRAF3 binding site on MAVS in a phospho-independent manner <ref type="bibr" target="#b35">(Vitour et al., 2009</ref>).</p><p>Similar to other biological "arms race" scenarios, pathogenic persistence relies on the ability of microbes to overcome the host-cell defenses. Hepatitis C virus (HCV) encodes NS3/4A, a serine protease that blocks RLH signaling by cleaving MAVS from the outer mitochondrial membrane at Cys-508 <ref type="bibr" target="#b18">(Meylan et al., 2005;</ref><ref type="bibr" target="#b15">Lin et al., 2006)</ref>. Like other truncation mutants that prevent its mitochondrial localization <ref type="bibr" target="#b28">(Seth et al., 2005;</ref><ref type="bibr" target="#b12">Lad et al., 2008)</ref>, this cleavage prevents MAVS from signaling to downstream immune effectors. The evolutionarily-unrelated hepatitis A virus (HAV) cleaves MAVS from mitochondria at Gln-428, using its 3ABC cysteine protease <ref type="bibr" target="#b39">(Yang et al., 2007)</ref>, indicating that numerous viruses may have evolved strategies to block the immune system at this point.</p><p>Interestingly, two mammalian proteins have recently been shown to be involved in MAVS degradation in response to viral infection, potentially acting as a negative-feedback system to fine-tune interferon production. A subunit of the proteasome, PSMA7, interacts with MAVS in vivo and in vitro, and its overexpression leads to a reduction in endogenous MAVS levels <ref type="bibr" target="#b10">(Jia et al., 2009)</ref>. Importantly, there is also a transient increase in PSMA7 levels during viral infection, indicating that the MAVS degradation is not just experimental artifact. Potentially upstream of this protein is PCBP2, which interacts with MAVS and acts as a negative regulator of its function <ref type="bibr" target="#b43">(You et al., 2009)</ref>. PCBP2 is upregulated during viral infection, and appears to target MAVS for degradation via the ubiquitin-proteasome system. Following viral infection, PCBP2 recruits the HECT E3 ubiquitin ligase AIP4 to MAVS, resulting in its polyubiquitination and degradation <ref type="bibr" target="#b43">(You et al., 2009</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">MAVS, immunity and apoptosis</head><p>A familiar aspect of mitochondrial biology is the role the organelle plays in apoptosis. Mitochondria are an integral part of the intrinsic apoptotic pathway, being the location of many proteins involved in the early stages of cell death. For example, the Bcl-2 family of proteins (including the pro-apoptotic Bax and Bak, and the anti-apoptotic Bcl-2 and Bcl-xL) act at the outer mitochondrial membrane in response to stress stimuli, and help to regulate whether the cell enters the later stages of programmed cell death (for review, see <ref type="bibr" target="#b44">Youle and Strasser, 2008)</ref>. If the cell receives sufficient pro-apoptotic signals, Bax and Bak aid the release of cytochrome c from the mitochondrial inter membrane space, which leads to the induction of caspases and the orderly destruction of the cell. Apoptosis is also an important aspect of the immune system, as it can help to prevent the movement of pathogens between tissues, and many viruses (such as human immunodeficiency virus and cytomegalovirus) produce proteins that interfere with this process <ref type="bibr" target="#b2">(Boya et al., 2003)</ref>. For example, the 2′5′-oligoadenylate synthetase/RNaseL pathway induces apoptosis in response to viral infection, by using the endoribonuclease RNaseL to cleave all cellular RNA (host and viral), which shuts down protein synthesis and kills the cell <ref type="bibr" target="#b4">(Castelli et al., 1998;</ref><ref type="bibr" target="#b16">Malathi et al., 2007)</ref>.</p><p>In their initial paper, <ref type="bibr" target="#b28">Seth et al. (2005)</ref> speculated that MAVS may have a role in apoptosis induction, as siRNA knockdown of protein levels led to the cleavage of PARP, a known marker of cell death; although a follow-up report by the same group found no difference in MAVS −/− MEFs following apoptosis <ref type="bibr" target="#b30">(Sun et al., 2006)</ref>. However, a number of recent studies have indicated that MAVS may have pro-apoptotic roles in immunity outside of cytokine production. Induction of apoptosis following reovirus infection is reduced in MAVS knockdown cells <ref type="bibr" target="#b6">(Holm et al., 2007)</ref>, while MAVS −/− MEFs show reduced apoptosis in response to infection by Sendai virus <ref type="bibr" target="#b13">(Lei et al., 2009)</ref>. These data are complimented by studies showing that overexpression of MAVS induces apoptosis by activation of caspase-3, -8 and -9 <ref type="bibr" target="#b13">Lei et al., 2009;</ref><ref type="bibr" target="#b45">Yu et al., 2010)</ref>.</p><p>Given the role that MAVS may play in immune-related apoptosis, it is perhaps unsurprising that the protein is heavily regulated during apoptosis. Upstream members of the RLH pathway such as RIG-I and MDA-5 are degraded by caspases during apoptosis which, in the case of MDA-5, can be induced by poliovirus infection <ref type="bibr" target="#b1">(Barral et al., 2007;</ref><ref type="bibr" target="#b26">Scott, 2009)</ref>. MAVS is cleaved at Asp-429 by caspases during apoptosis, a process which can be blocked by the addition of the caspase inhibitor zVAD-fmk, or expression of the anti-apoptotic protein BclxL <ref type="bibr" target="#b27">(Scott and Norris, 2008;</ref><ref type="bibr" target="#b24">Rebsamen et al., 2008)</ref>. Cleavage of these proteins during the early stages of cell death has the potential to aid viral replication, as it may prevent RLH proteins from signaling to downstream immune proteins, or delay completion of the apoptotic program. Initial studies of MDA-5 cleavage during poliovirus infection did not detect a benefit to the invading virus from inducing apoptosis, as there were no increases in viral replication or reduction in cytokine production <ref type="bibr" target="#b1">(Barral et al., 2007)</ref>. However, a recent study by <ref type="bibr" target="#b13">Lei et al. (2009)</ref> has provided direct evidence of a viral protein targeting MAVS-induced apoptosis. The anti-apoptotic SARS-CoV protein NSP15 prevents apoptosis as a result of MAVS expression, but does not mediate apoptosis induced by staurosporine treatment, indicating that it has evolved as a MAVS-specific strategy <ref type="bibr" target="#b13">(Lei et al., 2009)</ref>. Further studies will help to elucidate the extent to which viruses target this interferon-independent aspect of MAVS biology.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">NLRX1 -MAVS regulator or innocent bystander?</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Discovery and conflicting functions of NLRX1</head><p>As mentioned above, one of the other groups of intracellular PRPs is the NOD-like receptor family of proteins. These leucine-rich repeat proteins are receptors involved in sensing numerous pathogen markers, such as bacterial lipopolysaccharide, leading to the activation of NF-κB; and also as part of the inflammasome complexes which regulate caspase-1 activation and production of inflammatory cytokines <ref type="bibr" target="#b9">(Janeway and Medzhitov, 2002;</ref><ref type="bibr" target="#b22">O'Neill, 2008)</ref>. Recently two research groups characterized a new member of the family, NLRX1, which was found to have a mitochondrial localization, in contrast to the cytosolic nature of the other family members. <ref type="bibr" target="#b20">Moore et al. (2008)</ref> reported that NLRX1 was targeted to the mitochondrial outer membrane by a putative N-terminal localization sequence <ref type="figure">(Figure 2)</ref>, and had the ability to down-regulate RLH signaling by interacting with MAVS. This regulation was hypothesized to act as a brake on MAVS function, with the NACHT domain of NLRX1 reversibly binding to the CARD domain of MAVS -in effect blocking its ability to interact with RIG-I or MDA-5 <ref type="bibr" target="#b20">(Moore et al., 2008)</ref>. The second group also implicated NLRX1 in innate immunity, however with a greatly contrasting function. <ref type="bibr" target="#b32">Tattoli et al. (2008)</ref> demonstrated that the mitochondrial localization of NLRX1 was dependent on a N-terminal addressing sequence, and that its expression did not lead to direct NF-κB activation. However, it was shown that NLRX1 could amplify reactive oxygen species production in response to Shigella infection and tumor necrosis factor α, which led to an increase in pro-immune NF-κB and JUN kinase signaling <ref type="bibr" target="#b32">(Tattoli et al., 2008)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">The matrix, not the membrane</head><p>Clearly the functions ascribed to NLRX1, as both a repressor and activator of innate immunity, pose some problems. While these may be accounted for by differences in experimental model or cell type, further research was required to elucidate NLRX1 function. Both groups reported that NLRX1 had a N-terminal mitochondrial targeting sequence, a feature which is normally associated with proteins that are imported into mitochondria via membrane translocases, as opposed to outer membrane proteins, which tend to have internal localization markers <ref type="bibr" target="#b36">(Wiedemann et al., 2004)</ref>. A thorough biochemical analysis of NLRX1 in HeLa and HEK293 cells indicated that NLRX1 is indeed imported into the mitochondrial matrix, a process which requires the removal of the N-terminal pre-sequence and an intact transmembrane potential <ref type="bibr" target="#b0">(Arnoult et al., 2009</ref>). In addition, the authors demonstrated that NLRX1 coimmunoprecipitates with UQCRC2, a subunit of the respiratory chain complex III, which is localized on the matrixfacing side of the inner mitochondrial membrane. As complex III is involved in reactive oxygen species production, this finding substantiates both the matrix localization of NLRX1, and its involvement in reactive oxygen signaling <ref type="bibr" target="#b0">(Arnoult et al., 2009</ref>).</p><p>Given the differences in localization between MAVS and NLRX1, at least in this system, it would appear unlikely that there could be a strong interaction between the two proteins in vivo. As noted by <ref type="bibr" target="#b0">Arnoult et al. (2009)</ref>, there is likely to be considerable physical distances between the NACHT domain of NLRX1 and the CARD domain of MAVS under normal physiological conditions, even at points where the inner and outer mitochondrial membranes are closely apposed. Further work will be required to understand if there is a change in NLRX1 localization under stressful conditions that would allow this molecular interaction to occur.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Other mitochondrial proteins and pathways in the innate immune system</head><p>Two other mitochondrial proteins have recently been linked to innate immunity <ref type="figure">(Figure 2</ref>). STING/MITA was discovered simultaneously by two independent groups, and has been shown to interact with both RIG-I and MAVS <ref type="bibr" target="#b7">(Ishikawa and Barber, 2008;</ref><ref type="bibr" target="#b46">Zhong et al., 2008)</ref>. While both groups showed that it was required for downstream RLH-pathway signaling (by connecting upstream activator proteins like MAVS to downstream signaling kinases), and that it could activate reporter constructs for immune proteins like ISRE, they differed on the localization of the protein. Using similar techniques, the same protein was localized to mitochondria (MITA) and the endoplasmic reticulum (STING) by biochemical and microscopical analysis <ref type="bibr" target="#b7">(Ishikawa and Barber, 2008;</ref><ref type="bibr" target="#b46">Zhong et al., 2008)</ref>. Recent studies from two other groups have strengthened the case for the endoplasmic reticulum localization of STING/MITA <ref type="bibr" target="#b3">Castanier et al., 2009)</ref>; and it has been shown further that STING/MITA is involved in the response to intracellular viral DNA produced by herpes simplex-1 virus, where it translocates from the endoplasmic reticulum (with the signaling kinase TBK-1) to perinuclear vesicles during infection <ref type="bibr" target="#b8">(Ishikawa et al., 2009)</ref>. While these data suggest that the endoplasmic reticulum localization of STING/MITA is correct, there are many regions of close apposition between this organelle and mitochondria, known as mitochondria-associated membranes (MAMs; <ref type="bibr" target="#b33">Vance, 1990)</ref>, which can make unequivocal findings difficult. It is likely that these MAMs are important regions for the interaction between MAVS and STING/MITA <ref type="bibr" target="#b3">(Castanier et al., 2009</ref>; see below).</p><p>The second protein implicated in regulating innate immunity is gC1qR, also known as p32, a receptor for the globular head component factor gC1. Overexpression of gC1qR has been shown to inhibit RLH signaling and IFN-β activation during Sendai virus infection, while knockdown of the endogenous protein by siRNA has the opposite effect <ref type="bibr" target="#b37">(Xu et al., 2009</ref>). The authors show that the inhibition of RLH signaling occurs via the binding of gC1qR to MAVS at the outer mitochondrial membrane <ref type="bibr" target="#b37">(Xu et al., 2009)</ref>, presumably in a similar manner to that postulated for MAVS regulation by NLRX1 <ref type="bibr" target="#b20">(Moore et al., 2008)</ref>. However, several previous papers have shown that gC1qR is imported into the mitochondrial matrix using a N-terminal localization sequence <ref type="bibr" target="#b21">(Muta et al., 1997;</ref><ref type="bibr" target="#b5">Dedio et al., 1998)</ref>, which would keep it away from MAVS under physiological conditions. As with NLRX1, more work is required to further elucidate the connection between this protein and the RLH pathway.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Mitochondrial dynamics and innate immunity -where form meets function</head><p>A new avenue of research in this growing field is the interplay between mitochondrial morphology and the innate immune system. Mitochondria are dynamic organelles, undergoing constant fission and fusion in many cell types, and a balance between these two processes controls the overall mitochondrial morphology in any individual cell (for review, see <ref type="bibr" target="#b29">Suen et al., 2008)</ref>. A recent study has shown that there is an interaction between MAVS and Mfn2, a dynamin-like GTPase involved in mitochondrial fusion <ref type="bibr" target="#b40">(Yasukawa et al., 2009)</ref>, demonstrating the first potential connection between mitochondrial morphology and immunity. Overexpression of Mfn2 blocked MAVS signaling, while knockdown of the endogenous protein increased interferon production during viral infection, indicating that Mfn2 may act as a negative regulator of the RLH pathway. However, the authors suggested that the Mfn2-MAVS link may be separate from the role of Mfn2 in mitochondrial fusion <ref type="bibr" target="#b40">(Yasukawa et al., 2009)</ref>.</p><p>A more direct link between the two processes comes from an elegant study by <ref type="bibr" target="#b3">Castanier et al. (2009)</ref>, which found that activation of the RLH signaling pathway led to mitochondrial elongation. Altering mitochondrial morphology, by down-regulating mitochondrial fission and fusion genes using RNAi, regulated the antiviral response to Sendai virus infection. In cells with depleted mitochondrial fission (which led to elongated mitochondria), there was enhanced activation of the IFN-β and NF-κB promoters during infection; conversely, in cells with fragmented mitochondria (caused by the down-regulation of mitochondrial fusion genes), the antiviral response to infection was attenuated <ref type="bibr" target="#b3">(Castanier et al., 2009</ref>). The authors further showed that MAVS interacts with, and may regulate, the function of a mitochondrial fusion protein, Mfn1 (a homologue of Mfn2), and that this may be the cause of the observed mitochondrial elongation during infection. Finally, it was demonstrated that the change in mitochondrial morphology aided the interaction between MAVS and STING/MITA on the endoplasmic reticulum, suggesting that the elongation promotes the physical interaction of the two organelles during the antiviral response <ref type="bibr" target="#b3">(Castanier et al., 2009)</ref>. In summary, it is clear that mitochondrial dynamics may play an important part in MAVS function, and it is likely that we have much more to learn about the role of mitochondrial morphology in this regard.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Conclusions</head><p>Prior to the discovery of MAVS, the closest links between mitochondria and the innate immune system came from mitochondrial involvement in apoptosis and reactive oxygen species production. However, it is now clear that mitochondria are more intimately linked to antiviral defenses than these important, yet slightly indirect processes. With MAVS and STING/MITA, we have direct and integral members of a crucial innate immune-signaling pathway localized at the mitochondria; while the data on NLRX1 shows that a NOD protein (from a family that is involved in the immune systems of both plants and animals; <ref type="bibr" target="#b9">Janeway and Medzhitov, 2002)</ref> has evolved to use mitochondria as a specific reactive oxygen species-producing factory to aid antimicrobial defenses. It will be interesting to see if there are other aspects of mitochondrial biology involved in the innate immune system, either involving the discovery of new mitochondrial proteins, or by finding a role for known mitochondrial processes in novel immune pathways. Intracellular microbial components, such as viral dsRNA, are recognized by cytosolic patternrecognition proteins (PRPs) like the RNA helicase RIG-I. Binding of dsRNA to the helicase region of RIG-I induces a conformational change in the protein, which exposes twin caspase activation and recruitment (CARD) domains. The CARD domains on RIG-I can then interact with a similar CARD domain on MAVS, which is localized on the outer mitochondrial membrane, to initiate an immune signaling cascade. The RIG-I:MAVS interaction activates kinases (represented here by IKKε) that phosphorylate pro-immune transcription factors (e.g. IRF3), which then translocate to the nucleus to initiate the production of cytokines, such as type 1 interferon.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 2. Mitochondrial proteins implicated in the innate immune response</head><p>A number of mitochondrial proteins have recently been implicated in the innate immune system, either through interaction with MAVS, or as part of an autonomous pathway. STING (also known as MITA) has been localized to both mitochondria and the endoplasmic reticulum, and may act downstream of RIG-I and MAVS in their initiation of pro-immune signaling kinases. NLRX1 and gC1qR have been implicated as regulators as MAVS function, possibly acting as physical barriers to prevent its interaction with RIG-I. However, there is strong evidence to suggest that the mature forms or both NLRX1 and gC1qR reside in the mitochondrial matrix, making a functional interaction with MAVS less likely. NLRX1 has recently been shown to physically interact with the respiratory chain complex III subunit UQCRC2, suggesting that it may be involved in reactive oxygen species production. Mfn2, an outer mitochondrial GTPase involved in mitochondrial fusion, has been shown to bind MAVS and negatively regulate immune signaling, raising questions about the role of mitochondrial dynamics in the immune response.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Overview of the RIG-I/MAVS signaling pathway</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Mitochondrion. Author manuscript; available in PMC 2011 June 1.</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>The author would like to thank Michael Sack (NHLBI, NIH) and Richard J. Youle (NINDS, NIH) for their help and support. The author would also like to thank the two anonymous reviewers who suggested improvements to this manuscript. This research was supported by the intramural research program of the National Heart, Lung and Blood Institute, National Institutes of Health.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">An N-terminal addressing sequence targets NLRX1 to the mitochondrial matrix</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Arnoult</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Soares</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Tattoli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="3161" to="3168" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 19692591</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">MDA-5 is cleaved in poliovirus-infected cells</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">M</forename><surname>Barral</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Drahos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="3677" to="3684" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 17267501</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Mitochondrion-targeted apoptosis regulators of viral origin</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Boya</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Roumier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Andreau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Biophys Res Commun</title>
+		<imprint>
+			<biblScope unit="volume">304</biblScope>
+			<biblScope unit="page" from="575" to="581" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 12729592</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Mitochondrial dynamics regulate the RIG-I-like receptor antiviral pathway. EMBO Rep</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Castanier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Garcin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Vazquez</surname></persName>
+		</author>
+		<idno type="doi">10.1038/embor.2009.258</idno>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>In Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The role of 2′-5′ oligoadenylate-activated ribonuclease L in apoptosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Castelli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">A</forename><surname>Hassel</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Maran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Differ</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="313" to="320" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 10200477</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The multiligand-binding protein gC1qR, putative c1q receptor, is a mitochondrial protein</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Dedio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Jahnen-Dechent</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bachmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">160</biblScope>
+			<biblScope unit="page" from="3534" to="3542" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 9531316</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Retinoic acid-inducible gene-I and interferon-beta promoter stimulator-1 augment proapoptotic responses following mammalian reovirus infection via interferon regulatory factor-3</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">H</forename><surname>Holm</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Zurney</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">V</forename><surname>Tumilasci</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page" from="21953" to="21961" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 17540767</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">STING is an endoplasmic reticulum adaptor that facilitates innate immune signalling</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Ishikawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">N</forename><surname>Barber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">455</biblScope>
+			<biblScope unit="page" from="674" to="678" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18724357</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">STING regulates intracellular DNA-mediated, type 1 interferondependent innate immunity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Ishikawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">N</forename><surname>Barber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">461</biblScope>
+			<biblScope unit="page" from="788" to="792" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 19776740</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Innate immune recognition</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Janeway</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Medzhitov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Immunol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="197" to="216" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 11861602</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Negative regulation of MAVS-mediated innate immune response by PSMA7</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="4241" to="4248" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 19734229</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">IPS-1, an adaptor triggering RIG-I-and MDA5-mediated type 1 interferon induction</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Sato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Immunol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="981" to="988" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 16127453</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Identification of MAVS splicing variants that interfere with RIG-I/ MAVS pathway signaling</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">P</forename><surname>Lad</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Scott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Immunol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="2277" to="2287" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18207245</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">MAVS-mediated apoptosis and its inhibition by viral proteins</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">B</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">M</forename><surname>Liesman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">5466</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 19404494</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">IPS-1 is crucial for DAP3-mediated anoikis induction by caspase-8 activation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Fujikura</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Harada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Differ</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1615" to="1621" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 19644511</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Dissociation of a MAVS/IPS-1/VISA/CARDIF-IKKe molecular complex from the mitochondrial outer membrane by hepatitis C virus NS3-4A proteolytic cleavage</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lacoste</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Nakhaei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="6072" to="6083" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 16731946</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Small self-RNA generated by RNase L amplifies antiviral innate immunity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Malathi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Gale</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">448</biblScope>
+			<biblScope unit="page" from="816" to="819" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 17653195</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Large-scale identification and characterization of human genes that activate NF-kB and MAPK signaling pathways</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Matsuda</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Honda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oncogene</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="3307" to="3318" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 12761501</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">CARDIF is an adaptor protein in the RIG-I antiviral pathway and is targeted by hepatitis C virus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Meylan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Curran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">437</biblScope>
+			<biblScope unit="page" from="1167" to="1172" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 16177806</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">NLRX1: Friend or foe?</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Meylan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Tschopp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="243" to="245" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18311173</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">NLRX1 is a regulator of mitochondrial antiviral immunity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">B</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">T</forename><surname>Bergstralh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Duncan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">451</biblScope>
+			<biblScope unit="page" from="573" to="577" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18200010</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">p32 protein, a splicing factor 2-associated protein, is localized in mitochondrial matrix and is functionally important in maintaining oxidative phosphorylation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Muta</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kitajima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page" from="24363" to="24370" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 9305894</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Innate immunity: Squelching anti-viral signalling with NLRX1</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>O&amp;apos;neill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="302" to="304" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18397740</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Crystal structure of human IPS-1/MAVS/VISA/CARDIF caspase activation recruitment domain</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Potter</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">E</forename><surname>Randall</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">L</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Struct Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18307765</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The antiviral adaptor proteins CARDIF and TRIF are processed and inactivated by caspases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Rebsamen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Meylan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Curran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Differ</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1804" to="1811" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18756281</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Regulation of antiviral responses by a direct and specific interaction between TRAF3 and CARDIF</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">K</forename><surname>Saha</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><forename type="middle">M</forename><surname>Pietras</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">Q</forename><surname>He</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="3257" to="3263" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 16858409</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Degradation of RIG-I following cytomegalovirus infection is independent of apoptosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Scott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbes Infect</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="973" to="979" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 19591957</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The mitochondrial antiviral signaling protein, MAVS, is cleaved during apoptosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">L</forename><surname>Norris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Biophys Res Commun</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="page" from="101" to="106" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18692023</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Identification and characterization of MAVS, a mitochondrial antiviral signaling protein that activates NF-kB and IRF3</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">B</forename><surname>Seth</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">K</forename><surname>Ea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="669" to="682" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 16125763</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Mitochondrial dynamics and apoptosis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">F</forename><surname>Suen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">L</forename><surname>Norris</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Youle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Dev</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="1577" to="1590" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18559474</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The specific and essential role of MAVS in antiviral innate immune responses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">H</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="633" to="642" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 16713980</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">an endoplasmic reticulum IFN stimulator, activates innate immune signaling through dimerization</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="8653" to="8658" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 19433799</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">NLRX1 is a mitochondrial NOD-like receptor that amplifies NF-kB and JNK pathways by inducing reactive oxygen species production</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><surname>Tattoli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">A</forename><surname>Carneiro</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Jehanno</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="293" to="300" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18219313</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Phospholipid synthesis in a membrane fraction associated with mitochondria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">E</forename><surname>Vance</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">265</biblScope>
+			<biblScope unit="page" from="7248" to="7256" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 2332429</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Loss of DExD/H box RNA helicase LGP2 manifests disparate antiviral responses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Venkataraman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Valdes</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Elsby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Immunol</title>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="page" from="6444" to="6455" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 17475874</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Polo-like kinase 1 (PLK1) regulates interferon (IFN) induction by MAVS</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Vitour</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Dabo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ahmadi</forename><surname>Pour</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">284</biblScope>
+			<biblScope unit="page" from="21797" to="21809" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 19546225</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The protein import machinery of mitochondria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Wiedemann</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Frazier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Pfanner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="14473" to="14476" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 14973134</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Inhibition of RIG-I and MDA5-dependent antiviral response by gC1qR at mitochondria</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="1530" to="1535" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 19164550</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">VISA is an adapter protein required for virus-triggered IFN-b signaling</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">G</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">J</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="727" to="740" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 16153868</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Disruption of innate immunity due to mitochondrial targeting of a picornaviral protease precursor</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Qu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="7253" to="7258" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 17438296</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Mitofusin 2 inhibits mitochondrial antiviral signaling</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Yasukawa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Oshiumi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Takeda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Signal</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">47</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 19690333</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">RNA recognition and signal transduction by RIG-I-like receptors</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Yoneyama</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Fujita</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunol Rev</title>
+		<imprint>
+			<biblScope unit="volume">227</biblScope>
+			<biblScope unit="page" from="54" to="65" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 19120475</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The RNA helicase RIG-I has an essential function in double-stranded RNA-induced innate antiviral responses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Yoneyama</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Kikuchi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Natsukawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Immunol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="730" to="737" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 15208624</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">PCBP2 mediates degradation of the adaptor MAVS via the HECT ubiquitin ligase AIP4</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Immunol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1300" to="1308" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 19881509</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The BCL-2 protein family: Opposing activities that mediate cell death</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">J</forename><surname>Youle</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Strasser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Mol Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="47" to="59" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18097445</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The Interferon Stimulator MAVS Facilitates Cell Death by Disrupting the Mitochondrial Membrane Potential and by Activating Caspases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">Y</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">L</forename><surname>Chiang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">H</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="doi">Press.10.1128/JVI.02174-09</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The adaptor protein MITA links virus-sensing receptors to IRF3 transcription factor activation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immunity</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="538" to="550" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18818105</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

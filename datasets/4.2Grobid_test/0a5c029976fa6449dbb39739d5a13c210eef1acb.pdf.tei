@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 C:\PWang\Datasets\grobid-0.5.5\grobid-0.5.5\grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.5" ident="GROBID" when="2020-06-22T14:00+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A simulation of a COVID-19 epidemic based on a deterministic SEIR model</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-04-08">8 Apr 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">José</forename><forename type="middle">M</forename><surname>Carcione</surname></persName>
+							<email>jcarcione@inogs.it</email>
+							<affiliation key="aff0">
+								<orgName type="institution">National Institute of Oceanography and Applied Geophysics -OGS</orgName>
+								<address>
+									<settlement>Trieste</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Juan</forename><surname>Santos</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Buenos Aires University</orgName>
+								<address>
+									<country key="AR">Argentina</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">and Purdue University</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Claudio</forename><surname>Bagaini</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">Haywards Heath</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jing</forename><surname>Ba</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution">Hohai University</orgName>
+								<address>
+									<settlement>Nanjing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A simulation of a COVID-19 epidemic based on a deterministic SEIR model</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-04-08">8 Apr 2020</date>
+						</imprint>
+					</monogr>
+					<note type="submission">Submitted: April 9, 2020</note>
+					<note>arXiv, submitted to Frontiers in Public Health 2</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>COVID-19 · epidemic · home isolation · SEIR model · Euler FD scheme</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Abstract An epidemic disease caused by a new coronavirus has spread in Northern Italy, with a strong contagion rate. We implement an SEIR model to compute the infected population and number of casualties of this epidemic. The example may ideally regard the situation in the Italian Region of Lombardy, where the epidemic started on February 25, but by no means attempts to perform a rigorous case study in view of the lack of suitable data and uncertainty of the different parameters, mainly the variation of the degree of home isolation and lockdown with time, the number of initially exposed individuals and infected people, and the fatality rate.</p><p>First, we perform an analysis of the results of the model, by varying the parameters and initial conditions.</p><p>Regarding the specific example, the results evolve as more data is available. We calibrate the model with the number of dead individuals to date (April 7, 2020). The peak occurs at day 40 (April 4), when there is a rapid decrease, with a reproduction ratio R 0 = 2.6 initially, 2.08 at day 22 and 0. Besides the specific example, the analysis proposed in this work shows that the use of isolation measures, social distancing and knowledge of the diffusion conditions help us to understand the dynamics of the epidemic. Hence, the importance to quantify the process to verify the effectiveness of the isolation.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>The most abundant species in nature are viruses, which are parasites, since they cannot replicate themselves. Upon replication, some viruses cause serious infectious diseases in human and/or animals and are medically, socially, and economically important <ref type="bibr">(Adachi, 2020)</ref>. One of these species is coronavirus. An outbreak of pneumonia caused by a novel coronavirus (COVID-19) began (officially) in <ref type="bibr">February 25, 2020,</ref> in Northern Italy, and the number of the newly reported cases still increase. Approximately16500 casualties are reported in Italy at the time of writing (April 7). The serious danger COVID-19 poses is reflected in the high number of cases of transmission to health-care workers, more than 20 % in Italy. The experience in China showed that the use of relative extreme isolation measures in conjunction with rapid diagnosis has a strong impact on the dynamics of the epidemic; hence, the importance to understand and quantify the process to verify the effectiveness of the isolation measures (e.g., <ref type="bibr" target="#b11">Chowell et al., 2003)</ref>.</p><p>There is a long history of mathematical models in epidemiology, going back to the eighteenth century.</p><p>Bernoulli (1760) used a mathematical method to evaluate the effectiveness of the techniques of variolation against smallpox, with the aim of influencing public health policy. Most of the models are compartmental models, with the population divided into classes and assumptions about the time rate of transfer from one class to another <ref type="bibr" target="#b16">(Hethcote, 2000;</ref><ref type="bibr" target="#b5">Brauer, 2017)</ref>. We consider a Susceptible-Exposed-Infected-Removed (SEIR) model to describe the spread of the virus and compute the number of infected and dead individuals.</p><p>The SEIR model has many versions and the mathematical treatment can be found, for instance, in <ref type="bibr" target="#b16">Hethcote (2000)</ref> and <ref type="bibr">Diekmann et al. (2013)</ref> among others. The goal is to compute the number of infected, recovered and dead individuals on the basis of the number of contacts, probability of the disease transmission, fatality rate, progression of the disease and per-capita recover rate. The epidemic disease model predicts a peak of infected and dead individuals per day as a function of time, and assumes that births and natural deaths are balanced, since we are dealing with a very short period of time. The population members solely decrease due to the disease dictated by the fatality rate of the virus. The differential equations are solved with a forward-Euler scheme.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Theory and differential equations</head><p>When no vaccine is available, the isolation of diagnosed infectives and social distancing are the only control measures available. We consider an SEIR epidemic disease model (e.g., <ref type="bibr">Hethcote, 2000, Al-Showaikh and</ref><ref type="bibr" target="#b3">Twizell, 2004;</ref><ref type="bibr">Diekmann et al., 2013)</ref>. The total (initial) population, N 0 , is categorized in four classes, namely, susceptible, S(t), exposed, E(t), infected, I(t) and recovered, R(t), where t is the time variable.</p><p>The governing differential equations areṠ</p><formula xml:id="formula_0">= Λ − µS − βS I N , E = βS I N − (µ + )E, I = E − (γ + µ + α)I, R = γI − µR,<label>(1)</label></formula><p>where N = S + E + I + R ≤ N 0 in this case, and a dot above a variable denotes time differentiation.</p><p>Equations (1) are subject to the initial conditions S(0), E(0), I(0) and R(0). The parameters are defined as:</p><p>Λ: Per-capita birth rate.</p><p>µ: Per-capita natural death rate.</p><p>α: Virus induced average fatality rate.</p><p>β: Probability of disease transmission per contact (dimensionless) times the number of contacts per unit time.</p><p>: Rate of progression from exposed to infected.</p><p>γ: Recover rate of infected individuals.</p><p>having units of (1/T), with T: time. The scheme is illustrated in <ref type="figure">Figure 1</ref>. The choice Λ = µ = 0 and = ∞ gives the classical SIR model (e.g., d <ref type="bibr">'Onofrio, 2015)</ref>, while if Λ and µ are not zero, the model is termed endemic SIR model (e.g., <ref type="bibr" target="#b2">Allen. 2017</ref>). However, the SIR model has no latent stage (no exposed individuals) and then it is inappropriate as a model for diseases with an such as that of the COVID-19.</p><p>Let us clarify better the meaning of each quantity. N is the total number of live humans in the system at time t. S is the number of humans susceptible to be exposed and E is the actual number of exposed individuals (a class in which the disease is latent); people go from S to E depending on the number of contacts with I individuals, multiplied by the probability of infection (β) (see <ref type="figure">Figure 1</ref>, where βI/N is the average number of contacts with infection per unit time of one susceptible). The other processes taking place at time t are: exposed (E) become infected (I) with a rate and infected recover (R) with a rate γ. Recovered means immune and asymptomatic, but slightly infectious, humans. These individuals do not flow back into the S class, as lifelong immunity is assumed, but it remains to be seen whether the recovered patients from COVID-19 will develop antibodies and achieve lifelong protection. The reciprocals −1 and γ −1 are the average disease incubation and infectious periods, respectively.</p><p>Λ is the rate of birth and µ is the natural rate of death, both per unit time. The reciprocal µ −1 , interpreted as the normal life expectancy (e.g., 70 yr), refers to average normal deaths (e.g., natural deaths, by normal flu, accidents, etc), not related to the infectious disease. These quantities describe a model with vital dynamics (endemic model), which have an inflow of births into the S class at rate Λ and deaths into the other classes at rates µS, µI and µR. If Λ = µN , the deaths balance the newborns and N is constant (but including casualties).The number of live people at time t is N (t) = S(t) + E(t) + I(t) + R(t), that can be lower or higher than N 0 depending on the value of Λ and µ. In this case, it is lower than N 0 .</p><p>One of the key parameters, besides β, is α that represents the disease-related fatality rate <ref type="bibr" target="#b11">(Chowell et al., 2003;</ref><ref type="bibr" target="#b23">Zhang et al., 2013)</ref>. In a very fast pandemic, we may assume that there are no births and normal deaths (or they balance and Λ = µN ), but deaths due to the fatality rate of the virus. This rate is an average, because the model does not take into account the age (a far higher portion of old people die from the disease than young people), the patients preexisting conditions and the healthcare quality.</p><p>In summary, susceptible persons enter the exposed class with a rate proportional to β and remain there for a mean incubation period of −1 , i.e., those already infected with the disease but not able to transmit it are in the exposed class and progress to the infectious class, to recover at the rate γ and die at the rate α.</p><p>The dead population as a function of time is D(t) = N 0 − N (t), whereas the curve giving the dead people per unit time isḊ</p><formula xml:id="formula_1">(t) = −Ṅ (t) = −(Ṡ +Ė +İ +Ṙ)(t).<label>(2)</label></formula><p>Another equivalent approach is an SEIDR model (e.g., <ref type="bibr" target="#b13">De la Sen et al., 2017)</ref>, where we have to adḋ</p><formula xml:id="formula_2">D(t) = αI(t)<label>(3)</label></formula><p>to equations (1). It can easily be shown that equations (2) and (3) are equivalent if births and natural deaths compensate.</p><p>The basic reproduction ratio, R 0 , is the classical epidemiological measure associated with the reproductive power of the disease. For the SEIR model, it is <ref type="bibr">(Diekmann and Heesterbeek, 2000;</ref><ref type="bibr" target="#b23">Zhang et al., 2013)</ref>. It gives the average number of secondary cases of infection generated by an infectious individual. Therefore, it is used to estimate the growth of the virus outbreak. R 0 provides a threshold for the stability of the disease-free equilibrium point. When R 0 &lt; 1, the disease dies out; when R 0 &gt; 1, an epidemic occurs. The behaviour of SEIR models as a function of R 0 can be found, for instance, in Al-Sheikh (2012).</p><formula xml:id="formula_3">R 0 = β ( + µ)(γ + α + µ)<label>(4)</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Numerical algorithm</head><p>We solve the differential equations by using a forward Euler finite-difference scheme (e.g., <ref type="bibr" target="#b8">Carcione, 2014)</ref>, discretizing the time variable as t = ndt, where n is a natural number and dt is the time step. Equations</p><p>(1) and (2) become after discretization:</p><formula xml:id="formula_4">S n+1 = S n + dt Λ − µS n − βS n I n N n , E n+1 = E n + dt βS n I n N n − (µ + )E n , I n+1 = I n + dt [ E n − (γ + µ + α)I n ] , R n+1 = R n + dt (γI n − µR n ) , D n = −(Ṡ n +Ė n +İ n +Ṙ n )(t),<label>(5)</label></formula><p>whereḊ n is the number of dead people only in the specific day n. This algorithm yields positive and bounded solutions [e.g., see <ref type="bibr" target="#b5">Brauer (2017)</ref> and Problem 1.42(iv) in Diekmann et al. <ref type="formula" target="#formula_0">(2013)</ref>], and the system converges to an equilibrium, i.e., S n + R n + D n = N 0 for t → ∞.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Let</head><formula xml:id="formula_5">β = (γ + α)R 0<label>(6)</label></formula><p>(µ = 0). We recall here that β is the probability of transmission times the number of contacts per unit time.</p><p>Basically, reducing β (and R 0 ), the peak decreases in intensity but moves to later times for R 0 higher than 1 <ref type="figure" target="#fig_1">(Figure 3a</ref>), although it is wider. There is a significant reduction in the number of infected individuals for R 0 ≤ 1, meaning that home isolation is very effective below a given threshold.</p><p>The effect of the initially exposed individuals are shown in <ref type="figure">Figure 4</ref> for two different values of R 0 , less (a) and greater (b) than 1. <ref type="figure">Figure 4a</ref> indicates that more exposed people does not mainly affects the intensity of the peak, but shifts the peak to earlier times, so that the location of the peak is highly dependent on E(0). On the other hand, <ref type="figure">Figure 4b</ref> shows that for R 0 &lt; 1, the peak location does not change but its intensity does it significantly, with more exposed, more infected. <ref type="figure">Figure 5</ref> shows that the incubation period (1/ ) has also an impact on the results. If R 0 &gt; 1 (5a), increasing the period from 3 to 9 days decreases the maximum number of infected individuals by almost half and shifts the peak at later times, but the peak is wider. If R 0 &lt; 1, the curves behave similarly, but there are much less infected cases. The initially infected individuals (from one to ten thousand) has not an important effects on the results, as can be seen in <ref type="figure">Figure 6</ref>. The effects of the infection period are shown in <ref type="figure">Figure   7</ref>, where, as expected, increasing this quantity shifts the peak to later times when R 0 &gt; 1. Below R 0 = 1, the number of infected individuals decreases substantially.</p><p>Let us assume now that isolation precautions have been imposed and after day 22 R 0 changes from 5.72 to 0.1 [a change of β according to equation <ref type="formula" target="#formula_5">(6)</ref>], and consider the same parameters to produce <ref type="figure">Figure 2</ref>. The results are shown in <ref type="figure">Figure 8</ref>, where the peak has moved from day 30 to day 25, with a significant slowing in the number of new cases. The total number of dead individuals has decreased, and the number of dead individuals per day at the peak has decreased from 22 K to 13 K, approximately. Extreme isolation after imperfect isolation anticipates the process. <ref type="figure">Figure 9</ref> shows the results if the isolation measures start two days before, at day 20 instead of day 22. The number of casualties decreased from 220 K to 155 K.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">The Lombardy case</head><p>Next, we attempt to model the COVID-19 epidemic in Lombardy (Italy). The time of writing is day 43 (April 7) and the availability of data allows us to perform a relatively reliable fit of the total number casualties from day 1 to date, based on the L 2 -norm, to obtain the values of α, β, , E(0) and γ after day 22 (March 17) from the beginning of the epidemic (day 1, February 25), i.e, five free parameters, while before day 22 we assume β = 0.75. After day 22, home isolation and partial Nation lockdown started to be effective, as indicated by an inflection point in the curve of casualties per day (see below), although it is debatable that the Italian government followed the same rules as in Wuhan, China. We have already seen that the number of initially infected individuals does not significantly affects the results.</p><p>We use the total number of deaths for calibration. The reported infected people cannot be used, because these data cannot be trusted, and the hospitalization numbers cannot be considered to be representative of the number of infected people. It is largely unknown at present the number of asymptomatic, undiagnosed infections. In any case, we are aware that even using the number of casualties is uncertain, since there can be an under-ascertainment of deaths. In order to accomplish the fit of the data, we use the algorithm developed by <ref type="bibr" target="#b15">Goffe et al. (1994)</ref>. The Fortran code can be found in: https://econwpa.ub.uni-muenchen.</p><p>de/econ-wp/prog/papers/9406/9406001.txt. We use the constraints given in  <ref type="table" target="#tab_0">Table 1</ref> is therefore consistent. Using these values, we obtain the curves shown in <ref type="figure">Figure 10</ref> compared to the data (black dots). The inflection point at day 22 ( <ref type="figure">Figure   9b</ref>) indicates that the isolation measures started to be effective. <ref type="figure">Figure 11</ref> shows the results extended to 120 days, where it can seen that the variation of R 0 from 2.08 to 0.7 after day 35 yield a good fit of the data. This is because strict isolation could not be achieved at day 22 due to several reasons and there is a reasonable delay of a few days before it can be implemented. The number of casualties can be reduced with this lower reproduction ratio, from approximately 18000 for R 0 = 2.08 to 12000 for R 0 = 0.7. The effective duration of the epidemic depends on the value of R 0 after day 35, from approximately 120 days (R 0 = 2.08) to 80 days (R 0 = 0.7) . Recent data reveal that the duration of the Wuhan epidemic was almost 60 days <ref type="bibr" target="#b22">(Wu et al., 2020</ref>, <ref type="figure">Fig. 1b)</ref>, a short period favoured by the very strict isolation measures applied in the city. <ref type="figure">Figure 12</ref> shows the numbers of individuals in all the classes, where the maximum number of infected humans is almost 800 thousand (blue curves), 8 % of the population. It is clear that the infected population decreases after day 35 when the isolation measures are intensified.</p><p>The reported number of deceased people could possibly be underestimated due to undeclared cases. This number depends on the country (quality of the health system) and the average age of the population, but it is certain that this novel virus is more deadly and spreads more quickly than seasonal flu. Moreover, authorities make a distinction between a death occurred "with the co-action" of the virus and the death "caused by" the virus. Indeed, only a small percentage of the casualties were in healthy conditions prior the infection and most of the patients were already affected by other healthy situations (eg. diabetes, dementia, cancer, stroke).</p><p>Next, we assume that 100 % more people has actually died, compared to the official figures. There can be more casualties due to a higher β, i.e., higher probability of contacts, or to a higher fatality rate α, so that there is an uncertainty in the inversion problem, but we consider the same constraints as above. We obtain α = 0.00117/day, β = 0.64/day, E(0) = 88500, −1 = 5.24 days, and γ −1 = 3.37 days. In this case, R 0 before and after day 22 is 2.52 and 2.16, respectively. If we assume that β = 0.2 after day 35 (R 0 = 0.67), we obtain the curves shown in <ref type="figure" target="#fig_1">Figure 13</ref>. As expected, the fatality rate is twice the previous value.</p><p>In fact, the total number of casualties at day 120 is almost twice the previous value. It can be shown that the maximum number of infected individuals is the same of the previous case. This high fatality rate is possibly due to the age of the population. <ref type="bibr" target="#b20">Verity et al. (2020,</ref>  is the life expectancy of an individual in the infected class, i.e, if α = 0.001/day, the expectancy is 1000 days.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Further comments</head><p>There are more complex versions of the SEIR model as, for instance, including a quarantine class and a class of isolated (hospitalized) members <ref type="bibr" target="#b6">(Brauer and Castillo-Chavez, 2012)</ref>, or generalizing the diffusion equations <ref type="formula" target="#formula_0">(1)</ref> with the use of temporal fractional derivatives. The replacement of the first-order temporal derivative by a Caputo fractional derivative of non-natural order provides an additional parameter to fit the data (e.g., <ref type="bibr" target="#b7">Caputo et al., 2011;</ref><ref type="bibr" target="#b18">Mainardi, 2010;</ref><ref type="bibr" target="#b9">Chen et al., 2020)</ref>.</p><p>Moreover, the model can be improved by including others classes. De la <ref type="bibr" target="#b13">Sen et al. (2017)</ref> propose an SEIADR model, where A are asymptomatic infectious and D are are dead-infective. In other models, recovered can become again susceptible (e.g., <ref type="bibr">Xia et al., 2016)</ref> and, in addition, there are stochastic models <ref type="bibr" target="#b2">(Allen, 2017)</ref>, although the calibration becomes extremely difficult with the incomplete data provided by the authorities and the high number of parameters to be found. At the end of the epidemic, more precise information about the parameters will be available and the complete data con be used to evaluate the development of β (and R 0 ) with time.</p><p>The outbreak of a pandemic can have catastrophic consequences, not only from the point of view of the casualties, but also economically. Therefore, it is essential to absolutely avoid it by taking the necessary measures at the right time, something that has not been accomplished in Italy and the rest of the world.</p><p>According to these calculations, one of the effective measures is home isolation and lockdown, since there is no health system designed for ordinary circumstances that can be prepared for a pandemic, when the infected individuals grows almost exponentially. As can be seen the pandemic can develop in a few days and the number of casualties can be extremely high if the fatality rate and contagiosity of the disease are high. Only a few days to take action can make a big difference in the prevention of this disaster.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Conclusions</head><p>A high number of secondary infections by COVID-19 can take place when an infected individual is introduced into a community. It is essential to simulate the process of infection (and death) in advance, to apply adequate control measures and mitigate the risk of virus diffusion. One of the most used mathematical algorithms to describe the diffusion of an epidemic disease is the SEIR model, that we have applied to compute the number of infected, recovered and dead individuals on the basis of the number of contacts, probability of the disease transmission, disease fatality rate, progression of the disease and per-capita recover rate.</p><p>A first analysis of the results of the model is based on parameters of the SARS disease and we assume that the parameters do not change during the whole epidemic. Reducing the number of contacts, the peak decreases in intensity but moves to later times, although it is wider. Moreover, more exposed people does not affect the intensity of the peak, but shifts the peak to earlier times. The incubation period has also an impact on the results, with higher values shifting the peak to later times. The dependence on the initial number of infected people is very weak, so it is almost the same to start with one or ten thousand infected individuals, while increasing the infection period has the opposite effect of increasing the incubation period.</p><p>Moreover, the day when the isolation starts is important, since only two days makes a big difference in the number of casualties.</p><p>The Lombardy modeling assumes ten million of individuals and has been calibrated on the basis of the total number of casualties (the first time to our knowledge). The results show that the peak occurs after 40 days with a final number of dead individuals depending of the reproduction ratio R 0 . With the present available data, this number is almost 12 thousand. Up to day 43 (April 7, the day of writing), the reproduction ratio is 2.6 before March 22 (day 17), 2.08 (between March 22 and March 30 (day 35) and 0.7 after March 30, whereas the fatality rate is 0.00057. We have also performed a fit of the data by doubling the number of casualties. As expected, the fatality rate in this case is 0.00117/day, almost twice the previous value.</p><p>Author Contributions: JMC has written the theory and made the analysis; JES verified the figures and contributed to the analysis; CB aided in the solution of the differential equations; JB contributed to the discussion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of Interest:</head><p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.  <ref type="figure">Fig. 1</ref> A typical SEIR model. The total population, N , is categorized in four classes, namely, susceptible, S, exposed E, infected I and recovered R (e.g., <ref type="bibr" target="#b10">Chitnis et al., 2008)</ref>. Λ and µ correspond to births and natural deaths independent of the disease, and α is the fatality rate.  <ref type="figure" target="#fig_1">Fig. 13</ref> Same as the red curve of <ref type="figure">Figure 11</ref>, but with twice the number of casualties. In this case, the fatality rate is α = 0.0117/day, twice the previous value. We have assumed that after day 35 β = 0.2/day or R 0 = 0.67.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>us consider the following base parameters as an example to analyze the results by varying some of them. N 0 = 10 million, α = 0.006/day, β = 0.75/day, γ = (1/8)/day, = (1/3)/day, Λ = µN = 0 (balance of births and natural deaths); and initial conditions: S(0) = N 0 − E(0) − 1, E(0) = 20000, I(0) = 1 and R(0) = 0. These data is taken from Chowell et al. (2003, Table 1) for SARS and implies an average disease incubation (latent period) of 3 days and an infectious period of 8 days. The data correspond to imperfect isolation conditions among individuals and an epidemic situation (high β, R 0 = 5.72 &gt; 1). The time step of the Euler scheme to solve the discretized equations (5) is dt = 0.01 day. Figure 2 shows the number of individuals in the different classes (a), and the total number of dead people (D) and the number of dead people per specific day (Ḋ) (b). As can be seen, the peak of dead individuals per day is reached at day 30. The high values in Figure 2b do not consider home isolation measures.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3</head><label>3</label><figDesc>Figure 3 shows the number of infected individuals for R 0 &gt; 1 (a) and R 0 ≤ 1 (b), where all the other parameters are kept constant unless β:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 Fig. 3 Fig. 4 Fig. 5 Fig. 6 Fig. 7 Fig. 8 Fig. 9 Fig. 10 Fig. 11 Fig. 12</head><label>23456789101112</label><figDesc>Fig. 2 Number of humans in the different classes (millions) (a), and total number of deaths and the number of deaths per specific day (thousands) (b). The number of exposed people at t = 0 is 20000 and there is one initial infected individual, I(0) = 1. The value of R 0 = 5.72 means imperfect isolation measures.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" validated="false"><head>Table 1 .</head><label>1</label><figDesc>after day 35. This case provides a good fit of the data. Verity et al. (2020) state that the average fatality rate of SARS (14 %) is 10 ten times higher than that of COVID-19, with a value of 1.38 %, but the latter is much more contagious. The final value in</figDesc><table>Up to day 22, we 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" validated="false"><head>Table 1 )</head><label>1</label><figDesc>estimate for China an average rate of 1.38 % but over 60 yr age this rate is 6.38 %. If the number of infected people is several times higher than the reported cases, the fatality rate could be considerably less than the official one, suggesting that this disease is less deadly than SARS and MERS, although much more contagious. The meaning of α</figDesc><table>−1 
+
+</table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" validated="true"><head>Table 1 .</head><label>1</label><figDesc>Constraints and initial-final values of the inversion algorithm.</figDesc><table>Variable → 
+α 
+β 
+
+−1 
+
+γ 
+
+−1 
+
+E(0) 
+I(0) 
+(day 
+−1 ) (day 
+−1 ) (day) (day) 
+
+Lower bound 
+10 
+
+−5 
+
+10 
+
+−6 
+
+3 
+3 
+10 
+
+3 
+
+1000 
+Upper bound 
+10 
+
+−1 
+
+10 
+
+3 
+
+6 
+6 
+2 × 10 
+
+5 
+
+1000 
+Initial value 
+0.006 
+0.2 
+5 
+5 
+10 
+
+5 
+
+1000 
+Final value 
+0.00057 
+0.6 
+5.16 
+3.53 
+79000 
+1000 
+
+Read et al. (2020) report the mean values 
+−1 = 4 days and γ 
+−1 = 3.6 days. 
+
+Lauer et al. (2020) report 
+−1 = 5.1 days. 
+
+Verity et al. (2020) report an α ten times smaller than that of SARS. </table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Acknowledgements: JMC dedicates this work to Antonio Buonomo, who passed away of COVID-19 on March 21, 2020.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Modeling and analysis of an SEIR apidemic nodel with a limited resource for treatment</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Al-Sheikh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Global Journal of Science Frontier Research, Mathematics and Decision Sciences</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">14</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Grand challenge in human/animal virology: Unseen, smallest replicative entities shape the whole globe</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Adachi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">frontiers in Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">431</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A primer on stochastic epidemic models: Formulation, numerical simulation, and analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">J S</forename><surname>Allen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infectious Disease Modelling</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="128" to="142" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">One-dimensional measles dynamics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Al-Showaikh</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Twizell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Math. Comput</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="169" to="194" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Essai d&apos;une nouvelle analyse de la mortalité causée par la petite vérole et des avantages de l&apos;inoculation pour la prévenir, Mémoires de Mathématiques et de Physique</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Bernoulli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Académie Royale des Sciences</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="45" />
+			<date type="published" when="1760" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Mathematical epidemiology: Past, present, and future, Infectious Disease Modelling</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Brauer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="113" to="127" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Mathematical Models in Population Biology and Epidemiology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Brauer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Castillo-Chavez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+			<publisher>Springer</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Wave simulation in biological media based on the Kelvin-Voigt fractional-derivative stress-strain relation</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Caputo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Carcione</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Cavallini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ultrasound in Med. &amp; Biol</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="996" to="1004" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Wave Fields in Real Media. Theory and numerical simulation of wave propagation in anisotropic, anelastic, porous and electromagnetic media</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Carcione</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>Elsevier</publisher>
+		</imprint>
+	</monogr>
+	<note>3rd edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">The reconstruction and prediction algorithm of the fractional TDD for the local outbreak of COVID-19</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2002.10302v1</idno>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+	<note>physics.soc-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Determining important parameters in the spread of malaria through the sensitivity analysis of a mathematical model</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Chitnis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Mac Hyman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Cushing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bulletin of Mathematical Biology</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1272" to="1296" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">SARS outbreak in Ontario, Hong Kong and Singapore: the role of diagnosis and isolation as a control mechanism</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Chowell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">W</forename><surname>Fenimore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">A</forename><surname>Castillo-Garsow</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Castillo-Chavez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Theor. Biol</title>
+		<imprint>
+			<biblScope unit="volume">224</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+				<title level="m">tious disease dynamics. Princeton Series in Theoretical and Computational Biology</title>
+		<meeting><address><addrLine>Princeton</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">On a new epidemic model with asymptomatic and dead-infective subpopulations with feedback controls useful for Ebola disease</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>De La Sen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ibeas</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Alonso-Quesada</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Nistal</surname></persName>
+		</author>
+		<idno type="doi">10.1155/2017/4232971</idno>
+		<ptr target="https://doi.org/10.1155/2017/4232971" />
+	</analytic>
+	<monogr>
+		<title level="j">Discrete Dynamics in Nature and Society</title>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Dynamic behaviour of a discrete-time SIR model with information dependent vaccine uptake</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Onofrio</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Manfredi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Salinelli</surname></persName>
+		</author>
+		<idno type="doi">10.1080/10236198.2015.1107549</idno>
+		<ptr target="http://dx.doi.org/10.1080/10236198.2015.1107549" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Difference Equations and Applications</title>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Global optimization of statistical functions with simulated annealing</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><forename type="middle">L</forename><surname>Goffe</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">D</forename><surname>Ferrier</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Rogers</forename></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Econometrics</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="65" to="99" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The mathematics of infectious diseases</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">W</forename><surname>Hethcote</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIAM Review</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="599" to="653" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The ncubation period of coronavirus disease 2019 (COVID-19) from publicly reported confirmed cases: Estimation and application</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">A</forename><surname>Lauer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">H</forename><surname>Grantz</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">K</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><forename type="middle">R</forename><surname>Meredith</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">S</forename><surname>Azman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">G</forename><surname>Reich</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Lessler</surname></persName>
+		</author>
+		<idno type="doi">10.7326/M20-0504</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Internal Medicine</title>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Fractional Calculus and Waves in Linear Viscoelasticity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Mainardi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>Imperial College Press</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">M</forename><surname>Read</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R E</forename><surname>Bridgen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A T</forename><surname>Cummings</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">P</forename><surname>Jewell</surname></persName>
+		</author>
+		<idno type="doi">10.1101/2020.01.23.20018549</idno>
+		<ptr target="https://doi.org/10.1101/2020.01.23.20018549" />
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Estimates of the severity of coronavirus disease 2019: a model-based analysis</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Verity</surname></persName>
+		</author>
+		<idno type="doi">10.1016/S1473-3099(20</idno>
+		<ptr target="https://doi.org/10.1016/S1473-3099(20" />
+		<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="30243" to="30250" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Dynamics of a delayed SEIQ epidemic Model</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Kundu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Maitra</surname></persName>
+		</author>
+		<idno type="doi">10.1186/s13662-018-1791-8</idno>
+		<ptr target="https://doi.org/10.1186/s13662-018-1791-8" />
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Difference Equations</title>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">336</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Estimating clinical severity of COVID-19 from the transmission dynamics in Wuhan, China</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Bushman</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Kishore</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Niehus</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">M</forename><surname>De Salazar</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><forename type="middle">J</forename><surname>Cowling</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><surname>Lipsitch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">M</forename><surname>Leung</surname></persName>
+		</author>
+		<idno>s41591-020-0822-7</idno>
+		<ptr target="https://doi.org/10.1038/" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Medicine Letters</title>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Global dynamics of an SEIRS epidemic model with constant immigration and immunity</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L.-J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Huo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">WSEAS Transactions on Mathematics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="630" to="640" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

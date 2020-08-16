@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 C:\PWang\Datasets\grobid-0.5.5\grobid-0.5.5\grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.5" ident="GROBID" when="2020-06-22T13:59+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A mathematical model for simulating the phase-based transmissibility of a novel coronavirus</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tian-Mu</forename><surname>Chen</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jia</forename><surname>Rui</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Qiu-Peng</forename><surname>Wang</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ze-Yu</forename><surname>Zhao</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jing-An</forename><surname>Cui</surname></persName>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ling</forename><surname>Yin</surname></persName>
+						</author>
+						<title level="a" type="main">A mathematical model for simulating the phase-based transmissibility of a novel coronavirus</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1186/s40249-020-00640-3</idno>
+					<note>R E S E A R C H A R T I C L E Open Access</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abstract</head><p>Background: As reported by the World Health Organization, a novel coronavirus (2019-nCoV) was identified as the causative virus of Wuhan pneumonia of unknown etiology by Chinese authorities on 7 January, 2020. The virus was named as severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) by International Committee on Taxonomy of Viruses on 11 February, 2020. This study aimed to develop a mathematical model for calculating the transmissibility of the virus. Methods: In this study, we developed a Bats-Hosts-Reservoir-People transmission network model for simulating the potential transmission from the infection source (probably be bats) to the human infection. Since the Bats-HostsReservoir network was hard to explore clearly and public concerns were focusing on the transmission from Huanan Seafood Wholesale Market (reservoir) to people, we simplified the model as Reservoir-People (RP) transmission network model. The next generation matrix approach was adopted to calculate the basic reproduction number (R 0 ) from the RP model to assess the transmissibility of the SARS-CoV-2. Results: The value of R 0 was estimated of 2.30 from reservoir to person and 3.58 from person to person which means that the expected number of secondary infections that result from introducing a single infected individual into an otherwise susceptible population was 3.58. Conclusions: Our model showed that the transmissibility of SARS-CoV-2 was higher than the Middle East respiratory syndrome in the Middle East countries, similar to severe acute respiratory syndrome, but lower than MERS in the Republic of Korea.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>On 31 December 2019, the World Health Organization (WHO) China Country Office was informed of cases of pneumonia of unknown etiology (unknown cause) detected in Wuhan City, Hubei Province of China, and WHO reported that a novel coronavirus (2019-nCoV), which was named as severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) by International Committee on Taxonomy of Viruses on 11 February, 2020, was identified as the causative virus by Chinese authorities on 7 January <ref type="bibr" target="#b0">[1]</ref>. It is reported that the virus might be bat origin <ref type="bibr" target="#b1">[2]</ref>, and the transmission of the virus might related to a seafood market (Huanan Seafood Wholesale Market) exposure <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>. The genetic features and some clinical findings of the infection have been reported recently <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref>. Potentials for international spread via commercial air travel had been assessed <ref type="bibr" target="#b6">[7]</ref>. Public health concerns are being paid globally on how many people are infected and suspected.</p><p>Therefore, it is urgent to develop a mathematical model to estimate the transmissibility and dynamic of the transmission of the virus. There were several researches focusing on mathematical modelling <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b7">8]</ref>. These researches focused on calculating the basic reproduction number (R 0 ) by using the serial intervals and intrinsic growth rate <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b9">9,</ref><ref type="bibr" target="#b11">10]</ref>, or using ordinary differential equations and Markov Chain Monte Carlo methods <ref type="bibr" target="#b7">[8]</ref>. However, the bat origin and the transmission route form the seafood market to people were not considered in the published models.</p><p>In this study, we developed a Bats-Hosts-ReservoirPeople (BHRP) transmission network model for simulating the potential transmission from the infection source (probably be bats) to the human infection. Since the Bats-Hosts-Reservoir network was hard to explore clearly and public concerns were focusing on the transmission from Huanan Seafood Wholesale Market (reservoir) to people, we simplified the model as Reservoir-People (RP) transmission network model, and R 0 was calculated based on the RP model to assess the transmissibility of the SARS-CoV-2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data source</head><p>The reported cases of SARS-CoV-2, which have been named as COVID-19, were collected for the modelling study from a published literature <ref type="bibr" target="#b2">[3]</ref>. As reported by Li et al. <ref type="bibr" target="#b2">[3]</ref>, the onset date of the first case was on 7 December, 2020, and the seafood market was closed on 1 January, 2020 <ref type="bibr" target="#b12">[11]</ref>. The epidemic curve from 7 December, 2019 to 1 January, 2020 was collected for our study, and the simulation time step was 1 day.  fourth-order Runge-Kutta method, with tolerance set at 0.001, was used to perform curve fitting. While the curve fitting is in progress, Berkeley Madonna displays the root mean square deviation between the data and best run so far. The coefficient of determination (R 2 ) was employed to assess the goodness-of-fit. SPSS 13.0 (IBM Corp., Armonk, NY, USA) was employed to calculate the R 2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Simulation methods and statistical analysis</head><p>The Bats-Hosts-Reservoir-People (BHRP) transmission network model</p><p>The BHRP transmission network model was posted to bioRxiv on 19 January, 2020 <ref type="bibr" target="#b13">[12]</ref>. We assumed that the virus transmitted among the bats, and then transmitted to unknown hosts (probably some wild animals). The hosts were hunted and sent to the seafood market which was defined as the reservoir of the virus. People exposed to the market got the risks of the infection <ref type="figure" target="#fig_0">(Fig. 1)</ref>. The BHRP transmission network model was based on the following assumptions or facts:</p><p>a) The bats were divided into four compartments: susceptible bats (S B ), exposed bats (E B ), infected bats (I B ), and removed bats (R B ). The birth rate and death rate of bats were defined as n B and m B . In this model, we set Ʌ B = n B × N B as the number of the newborn bats where N B refer to the total number of bats. The incubation period of bat infection was defined as 1/ω B and the infectious period of bat infection was defined as 1/γ B . The S B will be infected through sufficient contact with I B , and the transmission rate was defined as β B . b) The hosts were also divided into four compartments: susceptible hosts (S H ), exposed hosts (E H ), infected hosts (I H ), and removed hosts (R H ). The birth rate and death rate of hosts were defined as n H and m H . In this model, we set Ʌ H = n H × N H where N H refer to the total number of hosts. The incubation period of host infection was defined as 1/ω H and the infectious period of host infection was defined as 1/γ H . The S H will be infected through sufficient contact with I B and I H , and the transmission rates were defined as β BH and β H , respectively. c) The SARS-CoV-2 in reservoir (the seafood market) was denoted as W. We assumed that the retail purchases rate of the hosts in the market was a, and that the prevalence of SARS-CoV-2 in the purchases was I H /N H , therefore, the rate of the SARSCoV-2 in W imported form the hosts was aWI H /N H where N H was the total number of hosts. We also assumed that symptomatic infected people and asymptomatic infected people could export the virus into W with the rate of μ P and μ' P , although this assumption might occur in a low probability. The virus in W will subsequently leave the W compartment at a rate of εW, where 1/ε is the lifetime of the virus. d) The people were divided into five compartments:</p><p>susceptible people (S P ), exposed people (E P ), symptomatic infected people (I P ), asymptomatic infected people (A P ), and removed people (R P ) including recovered and death people. The birth rate and death rate of people were defined as n P and m P . In this model, we set Ʌ P = n P × N P where N P refer to the total number of people.</p><p>The incubation period and latent period of human infection was defined as 1/ω P and 1/ω' P . The infectious period of I P and A P was defined as 1/γ P and 1/γ' P . The proportion of asymptomatic infection was defined as δ P . The S P will be infected through sufficient contact with W and I P , and the transmission rates were defined as β W and β P , respectively. We also assumed that the transmissibility of A P was κ times that of I P , where 0 ≤ κ ≤ 1.</p><p>The parameters of the BHRP model were shown in <ref type="table" target="#tab_1">Table 1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The simplified reservoir-people transmission network model</head><p>We assumed that the SARS-CoV-2 might be imported to the seafood market in a short time. Therefore, we added the further assumptions as follows:</p><p>a) The transmission network of Bats-Host was ignored. b) Based on our previous studies on simulating importation <ref type="bibr" target="#b14">[13,</ref><ref type="bibr" target="#b15">14]</ref>, we set the initial value of W as following impulse function:</p><formula xml:id="formula_0">Importation ¼ impulse n; t 0 ; t i ð Þ</formula><p>In the function, n, t 0 and t i refer to imported volume of the SARS-CoV-2 to the market, start time of the simulation, and the interval of the importation.</p><p>Therefore, the BHRP model was simplified as RP model and is shown as follows:</p><formula xml:id="formula_1">dS P dt ¼ Λ P −m P S P −β P S P I P þ κA P ð Þ −β W S P W dE P dt ¼ β P S P I P þ κA P ð Þþβ W S P W − 1−δ P ð Þω P E P −δ P ω 0 P E P −m P E P dI P dt ¼ 1−δ P ð Þω P E P − γ P þ m P ð Þ I P dA P dt ¼ δ P ω 0 P E P − γ 0 P þ m P A P dR P dt ¼ γ P I P þ γ 0 P A P −m P R P dW dt ¼ μ P I P þ μ 0 P A P −εW 8 &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &lt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; :</formula><p>During the outbreak period, the natural birth rate and death rate in the population was in a relative low level. However, people would commonly travel into and out from Wuhan City mainly due to the Chinese New Year holiday. Therefore, n P and m P refer to the rate of people traveling into Wuhan City and traveling out from Wuhan City, respectively.</p><p>In the model, people and viruses have different dimensions. Based on our previous research <ref type="bibr" target="#b16">[15]</ref>, we therefore used the following sets to perform the normalization:</p><formula xml:id="formula_2">s P ¼ S P N P ; e P ¼ E P N P ; i P ¼ I P N P ; a P ¼ A P N P ; r P ¼ R P N P ; w ¼ εW μ P N P ; μ 0 P ¼ cμ P ; b P ¼ β P N P ; and b W ¼ μ P β W N P ε:</formula><p>In the normalization, parameter c refers to the relative shedding coefficient of A P compared to I P . The normalized RP model is changed as follows:</p><formula xml:id="formula_3">ds P dt ¼ n P −m P s P −b P s P i P þ κa P ð Þ −b W s P w de P dt ¼ b P s P i P þ κa P ð Þþb W s P w− 1−δ P ð Þω P e P −δ P ω 0 P e P −m P e P di P dt ¼ 1−δ P ð Þω P e P − γ P þ m P ð Þ i P da P dt ¼ δ P ω 0 P e P − γ 0 P þ m P a P dr P dt ¼ γ P i P þ γ 0 P a P −m P r P dw dt ¼ ε i P þ ca P −w ð Þ 8 &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &lt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; :</formula><p>The transmissibility of the SARS-CoV-2 based on the RP model</p><p>In this study, we used the R 0 to assess the transmissibility of the SARS-CoV-2. Commonly, R 0 was defined as the expected number of secondary infections that result from introducing a single infected individual into an otherwise susceptible population <ref type="bibr" target="#b14">[13,</ref><ref type="bibr" target="#b17">16,</ref><ref type="bibr" target="#b18">17]</ref>. If R 0 &gt; 1, the outbreak will occur. If R 0 &lt; 1, the outbreak will toward an end. In this study, R 0 was deduced from the RP model by the next generation matrix approach <ref type="bibr" target="#b19">[18]</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Parameter estimation</head><p>The parameters were estimated based on the following facts and assumptions:</p><p>a) The mean incubation period was 5.2 days (95% confidence interval [CI]: 4.1-7.0) <ref type="bibr" target="#b2">[3]</ref>. We set the same value (5.2 days) of the incubation period and the latent period in this study. Thus, ω P = ω' P = 0.1923. b) There is a mean 5-day delay from symptom onset to detection/hospitalization of a case (the cases detected in Thailand and Japan were hospitalized from 3 to 7 days after onset, respectively) <ref type="bibr" target="#b20">[19]</ref><ref type="bibr" target="#b21">[20]</ref><ref type="bibr" target="#b22">[21]</ref>. The duration from illness onset to first medical visit for the 45 patients with illness onset before January 1 was estimated to have a mean of 5.8 days (95% CI: 4.3-7.5) <ref type="bibr" target="#b2">[3]</ref>. In our model, we set the infectious period of the cases as 5.8 days. Therefore, γ P = 0.1724. c) Since there was no data on the proportion of asymptomatic infection of the virus, we simulated the baseline value of proportion of 0.5 (δ P = 0.5). d) Since there was no evidence about the transmissibility of asymptomatic infection, we assumed that the transmissibility of asymptomatic infection was 0.5 times that of symptomatic infection (κ = 0.5), which was the similar value as influenza <ref type="bibr" target="#b23">[22]</ref>. We assumed that the relative shedding rate of A P compared to I P was 0.5. Thus, c = 0.5. e) Since 14 January, 2020, Wuhan City has strengthened the body temperature detection of passengers leaving Wuhan at airports, railway stations, long-distance bus stations and passenger terminals. As of January 17, a total of nearly 0.3 million people had been tested for body temperature <ref type="bibr" target="#b24">[23]</ref>. In Wuhan, there are about 2.87 million mobile population <ref type="bibr" target="#b25">[24]</ref>. We assumed that there was 0.1 million people moving out to Wuhan City per day since January 10, 2020, and we believe that this number would increase (mainly due to the winter vacation and the Chinese New Year holiday) until 24 January, 2020. This means that the 2.87 million would move out from Wuhan City in about 14 days. Therefore, we set the moving volume of 0.2 million per day in our model. Since the population of Wuhan was about 11 million at the end of 2018 <ref type="bibr" target="#b26">[25]</ref>, the rate of people traveling out from Wuhan City would be 0.018 (0.2/11) per day. However, we assumed that the normal population mobility before January 1 was 0.1 times as that after January 10. Therefore, we set the rate of people moving into and moving out from Wuhan City as 0.0018 per day (n P = m P = 0.0018).</p><p>f) The parameters b P and b W were estimated by fitting the model with the collected data. g) At the beginning of the simulation, we assumed that the prevalence of the virus in the market was 1/100000. h) Since the SARS-CoV-2 is an RNA virus, we assumed that it could be died in the environment in a short time, but it could be stay for a longer time (10 days) in the unknown hosts in the market. We set ε = 0.1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>In this study, we assumed that the incubation period (1/ ω P ) was the same as latent period (1/ω' P ) of human infection, thus ω P = ω' P . Based on the equations of RP model, we can get the disease free equilibrium point as:</p><p>Λ P m P ; 0; 0; 0; 0; 0 In the matrix:</p><formula xml:id="formula_4">F ¼ 0 β P Λ P m P β P κ Λ P m P β W Λ P m P 0 0 0 0 0 0 0 0 0 0 0 0 2 6 6 6 4 3 7 7 7 5 ; V −1 ¼ 1 ω P þ m P 0 0 0 A 1 γ P þ m P 0 0 B 0 1 γ 0 P þ m P 0 B E G 1</formula><formula xml:id="formula_5">A ¼ 1−δ P ð Þω P ω P þ m P ð Þγ P þ m P ð Þ B ¼ δ P ω P ω P þ m P ð Þ γ 0 p þ m P D ¼ 1−δ P ð Þμω P ω P þ m P ð Þγ P þ m P ð Þ ε þ μ 0 δ P ω P ω P þ m P ð Þ γ 0 p þ m P ε E ¼ μ γ P þ m P ð Þ ε G ¼ μ 0 γ 0 p þ m P ε</formula><p>By the next generation matrix approach, we can get the next generation matrix and R 0 for the RP model:</p><formula xml:id="formula_6">FV −1 ¼ β p Λ P m P A þ β P κ Λ P m P þ β W Λ P m P D Ã Ã Ã 0 0 0 0 0 0 0 0 0 0 0 0 2 6 6 6 4 3 7 7 7 5 R 0 ¼ ρ FV −1 À Á ¼ β P Λ P m P 1−δ P ð Þω P ω P þ m P ð Þγ P þ m P ð Þ þ β P κ Λ P m P δ P ω P ω P þ m P ð Þγ 0 P þ m P ð Þ þ β W Λ P m P 1−δ P ð Þμω P ω P þ m P ð Þγ P þ m P ð Þ ε þ βW Λ P m P μ 0 δ P ω P ω P þ m P ð Þγ 0 P þ m P ð Þ ε</formula><p>The R 0 of the normalized RP model is shown as follows:</p><formula xml:id="formula_7">R 0 ¼ b p n P m p 1−δ P ð Þω P 1−δp ð Þω P þ δ P ω 0 P þ m P ½ γ P þ m P ð Þ þ κb P n P m P δ P ω 0 P 1−δ P ð Þω P þ δ P ω 0 P þ m P ½ γ 0 P þ m P ð Þ þ b W n P m P 1−δ p À Á ω p 1−δ p À Á ω P þ δ P ω 0 P þ m p Â Ã γ P þ m P ð Þ þ b W n P m P cδ P ω 0 P 1−δ p À Á ω P þ δ P ω 0 P þ m p Â Ã γ 0 P þ m P ð Þ</formula><p>Our modelling results showed that the normalized RP model fitted well to the reported SARS-CoV-2 cases data (R 2 = 0.512, P &lt; 0.001) <ref type="figure" target="#fig_1">(Fig. 2)</ref>. The value of R 0 was estimated of 2.30 from reservoir to person, and from person to person and 3.58 from person to person which means that the expected number of secondary infections that result from introducing a single infected individual into an otherwise susceptible population was 3.58.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>In this study, we developed RP transmission model, which considering the routes from reservoir to person and from person to person of SARS-CoV-2 respectively. We used the models to fit the reported data in Wuhan City, China from published literature <ref type="bibr" target="#b2">[3]</ref>. The simulation results showed that the R 0 of SARS-CoV-2 was 3.58 from person to person. There was a research showed that the R 0 of SARS-CoV-2 was 2.68 (95% CI: 2.47-2.86) <ref type="bibr" target="#b7">[8]</ref>. Another research showed that the R 0 of SARS-CoV-2 was 2.2 (95% CI: 1.4-3.9) <ref type="bibr" target="#b2">[3]</ref>. The different values might be due to the different methods. The methods which Li et al. employed were based on the epidemic growth rate of the epidemic curve and the serial interval <ref type="bibr" target="#b2">[3]</ref>. Our previous study showed that several methods could be used to calculate the R 0 based on the epidemic growth rate of the epidemic curve and the serial interval, and different methods might result in different values of R 0 <ref type="bibr" target="#b27">[26]</ref>. Our results also showed that the R 0 of SARSCoV-2 was 2.30 from reservoir to person which was lower than that of person to person. This means that the transmission route was mainly from person to person rather than from reservoir to person in the early stage of the transmission in Wuhan City. However, this result was based on the limited data from a published literature, and it might not show the real situation at the early stage of the transmission.</p><p>Researches showed that the R 0 of severe acute respiratory syndrome (SARS) was about 2.7-3.4 or 2-4 in Hong Kong, China <ref type="bibr" target="#b28">[27,</ref><ref type="bibr" target="#b29">28]</ref>. Another research found that the R 0 of SARS was about 2.1 in Hong Kong, China, 2.7 in Singapore, and 3.8 in Beijing, China <ref type="bibr" target="#b30">[29]</ref>. Therefore, we believe that the commonly acceptable average value of the R 0 of SARS might be 2.9 <ref type="bibr" target="#b31">[30]</ref>. The transmissibility of the Middle East respiratory syndrome (MERS) is much lower than SARS. The reported value of the R 0 of MERS was about 0.8-1.3 <ref type="bibr" target="#b32">[31]</ref>, with the inter-human transmissibility of the disease was about 0.6 or 0.9 in Middle East countries <ref type="bibr" target="#b33">[32]</ref>. However, MERS had a high transmissibility in the outbreak in the Republic of Korea with the R 0 of 2.5-7.2 <ref type="bibr" target="#b34">[33,</ref><ref type="bibr" target="#b35">34]</ref>. Therefore, the transmissibility of SARS-CoV-2 might be higher than MERS in the Middle East countries, similar to SARS, but lower than MERS transmitted in the Republic of Korea.</p><p>To contain the transmission of the virus, it is important to decrease R 0 . According to the equation of R 0 deduced from the simplified RP model, R 0 is related to many parameters. The mainly parameters which could be changed were b P , b W , and γ. Interventions such as wearing masks and increasing social distance could decrease the b P , the intervention that close the seafood market could decrease the b W , and shorten the duration form symptoms onset to be diagnosed could decrease 1/γ. All these interventions could decrease the effective reproduction number and finally be helpful to control the transmission.</p><p>Since there are too many parameters in our model, several limitations exist in this study. Firstly, we did not use the detailed data of the SARS-CoV-2 to perform the estimation instead of using the data from literatures <ref type="bibr" target="#b2">[3]</ref>. We simulated the natural history of the infection that the proportion of asymptomatic infection was 50%, and the transmissibility of asymptomatic infection was half of that of symptomatic infection, which were different to those of MERS and SARS. It is known that the proportion of asymptomatic infection of MERS and SARS was lower than 10%. Secondly, the parameters of population mobility were not from an accurate dataset. Thirdly, since there was no data of the initial prevalence of the virus in the seafood market, we assumed the initial value of 1/100 000. This assumption might lead to the simulation been under-or over-estimated. In addition, since we did not consider the changing rate of the individual's activity (such as wearing masks, increasing social distance, and not to travel to Wuhan City), the estimation of importation of the virus might not be correct. All these limitations will lead to the uncertainty of our results. Therefore, the accuracy and the validity of the estimation would be better if the models fit the first-hand data on the population mobility and the data on the natural history, the epidemiological characteristics, and the transmission mechanism of the virus.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>By calculating the published data, our model showed that the transmissibility of SARS-CoV-2 might be higher than MERS in the Middle East countries, similar to SARS, but lower than MERS in the Republic of Korea. Since the objective of this study was to provide a mathematical model for calculating the transmissibility of SARS-CoV-2, the R 0 was estimated based on limited data which published in a literature. More data were needed to estimate the transmissibility accurately. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Flowchart of the Bats-Hosts-Reservoir-People transmission network model</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 Curve fitting results of the RP model</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>Abbreviations 2019-nCoV: 2019 novel coronavirus; BHRP: Bats-Hosts-Reservoir-People; R 0 : Basic reproduction number; RP: Reservoir-People; SARS-CoV-2: Severe acute respiratory syndrome coronavirus 2; WHO: World Health Organization</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" validated="false"><head></head><label></label><figDesc>Berkeley Madonna 8.3.18 (developed by Robert Macey and George Oster of the University of California at Berkeley. Copyright©1993-2001 Robert I. Macey &amp; George F. Oster) was employed for the curve fitting. The</figDesc><table></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" validated="false"><head>Table 1</head><label>1</label><figDesc>Definition of those parameters in the Bats-Hosts- Reservoir-People (BHRP) modelThe multiple of the transmissibility of A P to that of I P .</figDesc><table>Parameter 
+Description 
+
+n B 
+The birth rate parameter of bats 
+
+n H 
+The birth rate parameter of hosts 
+
+n P 
+The birth rate parameter of people 
+
+m B 
+The death rate of bats 
+
+m H 
+The death rate of hosts 
+
+m P 
+The death rate of people 
+
+1/ω B 
+The incubation period of bats 
+
+1/ω H 
+The incubation period of hosts 
+
+1/ω P 
+The incubation period of people 
+
+1/ω' P 
+The latent period of people 
+
+1/γ B 
+The infectious period of bats 
+
+1/γ H 
+The infectious period of hosts 
+
+1/γ P 
+The infectious period of symptomatic infection of people 
+
+1/γ' P 
+The infectious period of asymptomatic infection of people 
+
+β B 
+The transmission rate from I B to S B 
+
+β BH 
+The transmission rate from I B to S H 
+
+β H 
+The transmission rate from I H to S H 
+
+β P 
+The transmission rate from I P to S P 
+
+β W 
+The transmission rate from W to S P 
+
+a 
+The retail purchases rate of the hosts in the market 
+
+μ P 
+The shedding coefficients from I P to W 
+
+μ' P 
+The shedding coefficients from A P to W 
+
+1/ε 
+The lifetime of the virus in W 
+
+δ P 
+The proportion of asymptomatic infection rate of people 
+
+κ 
+</table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head><p>We thank Qingqing Hu at School of Medicine, University of Utah for her reviewing and editing the English language.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Authors' contributions TC designed research; TC conceived the experiments, TC, JR, ZZ, QW, JAC, and LY conducted the experiments and analyzed the results; TC and JAC wrote the manuscript. All authors read and approved the final manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>This study was supported by Xiamen New Coronavirus Prevention and Control Emergency Tackling Special Topic Program (No: 3502Z2020YJ03).</head><p>Availability of data and materials Not applicable.</p><p>Ethics approval and consent to participate Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Consent for publication</head><p>Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare that they have no competing interests. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author details</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<ptr target="https://www.who.int/health-topics/coronavirus" />
+	</analytic>
+	<monogr>
+		<title level="j">World Health Organization. Coronavirus. World Health Organization</title>
+		<imprint>
+			<date type="published" when="2020-01-19" />
+		</imprint>
+	</monogr>
+	<note>cited</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A pneumonia outbreak associated with a new coronavirus of probable bat origin</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><forename type="middle">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><forename type="middle">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="doi">10.1038/s41586-020-2012-7</idno>
+		<ptr target="https://doi.org/10.1038/s41586-020-2012-7" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Tong</surname></persName>
+		</author>
+		<idno type="doi">10.1056/NEJMoa2001316</idno>
+		<ptr target="https://doi.org/10.1056/NEJMoa2001316" />
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Clinical features of patients infected with 2019 novel coronavirus in Wuhan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<idno type="doi">10.1016/S0140-6736(20</idno>
+		<ptr target="https://doi.org/10.1016/S0140-6736(20" />
+	</analytic>
+	<monogr>
+		<title level="j">China. Lancet</title>
+		<imprint>
+			<biblScope unit="page" from="30183" to="30188" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating personto-person transmission: a study of a family cluster</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">F</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">H</forename><surname>Kok</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><forename type="middle">K</forename><surname>To</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="doi">10.1016/S0140-6736(20</idno>
+		<ptr target="https://doi.org/10.1016/S0140-6736(20" />
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="page" from="30154" to="30163" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A novel coronavirus from patients with pneumonia in China</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Song</surname></persName>
+		</author>
+		<idno type="doi">10.1056/NEJMoa2001017</idno>
+		<ptr target="https://doi.org/10.1056/NEJMoa2001017" />
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Pneumonia of unknown etiology in Wuhan, China: Potential for International Spread Via Commercial Air Travel</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">I</forename><surname>Bogoch</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Watts</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Thomas-Bachli</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Mug</forename><surname>Kraemer</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Khan</surname></persName>
+		</author>
+		<idno type="doi">10.1093/jtm/taaa008</idno>
+		<ptr target="https://doi.org/10.1093/jtm/taaa008" />
+	</analytic>
+	<monogr>
+		<title level="j">J Travel Med</title>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">T</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">M</forename><surname>Leung</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">China: a modelling study</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Wuhan</surname></persName>
+		</author>
+		<idno type="doi">10.1016/S0140-6736</idno>
+		<ptr target="https://doi.org/10.1016/S0140-6736" />
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="30260" to="30269" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Preliminary estimation of the basic reproduction number of novel coronavirus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">S</forename><surname>Musa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">2019</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">2019 to 2020: a data-driven analysis in the early phase of the outbreak</title>
+		<idno type="doi">10.1016/j.ijid.2020.01.050</idno>
+		<ptr target="https://doi.org/10.1016/j.ijid.2020.01.050" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Infect Dis</title>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Estimating the unreported number of novel coronavirus (2019-nCoV) cases in China in the first half of January 2020: a data-driven Modelling analysis of the early outbreak</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">S</forename><surname>Musa</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Ran</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="doi">10.3390/jcm9020388</idno>
+		<ptr target="https://doi.org/10.3390/jcm9020388" />
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Med</title>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">World Health Organization. Novel Coronavirus -China. World Health Organization</title>
+		<ptr target="https://www.who.int/csr/don/12-january-2020-novel-coronavirus-china/en/.Accessed20" />
+		<imprint>
+			<date type="published" when="2020-01-20" />
+		</imprint>
+	</monogr>
+	<note>cited</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">A mathematical model for simulating the transmission of Wuhan novel Coronavirus</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Rui</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J-A</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Yin</surname></persName>
+		</author>
+		<idno>bioRxiv. 2020: 2020.2001.2019.911669. Accessed 13</idno>
+		<imprint>
+			<date type="published" when="2020-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Risk of imported Ebola virus disease in China</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Ka-Kit</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Travel Med Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="650" to="658" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Incidence dynamics and investigation of key interventions in a dengue outbreak in Ningbo City, China</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Rui</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">A</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Negl Trop Dis</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">7659</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Investigation of key interventions for shigellosis outbreak control in China</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">K</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">95006</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Transmissibility of acute haemorrhagic conjunctivitis in small-scale outbreaks in Hunan Province</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Yu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">China. Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">119</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Estimating the transmissibility of hand, foot, and mouth disease by a dynamic model</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Public Health</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="42" to="50" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Global dynamics of an epidemiological model with acute and chronic HCV infections</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J-A</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Math Lett</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page">106203</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Development of patients with pneumonia associated with new coronavirus. Ministry of Health Japan. cited 16</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Japan</forename><surname>Moh</surname></persName>
+		</author>
+		<ptr target="https://www.mhlw.go.jp/stf/newpage_08906.html" />
+		<imprint>
+			<date type="published" when="2020-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Novel Coronavirus -Thailand (ex-China). World Health Organization</title>
+		<ptr target="https://www.who.int/csr/don/14-january-2020-novel-coronavirus-thailand/en/" />
+		<imprint>
+			<date type="published" when="2020-01-20" />
+		</imprint>
+	</monogr>
+	<note>World Health Organization. cited</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Novel Coronavirus -Japan (ex-China). World Health Organization</title>
+		<ptr target="https://www.who.int/csr/don/17-january-2020-novel-coronavirus-japan-ex-china/en/" />
+		<imprint>
+			<date type="published" when="2020-01-20" />
+		</imprint>
+	</monogr>
+	<note>World Health Organization. cited</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Containing pandemic influenza at the source</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">I</forename><forename type="middle">M</forename><surname>Longini</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Nizam</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">K</forename><surname>Ungchusak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Hanshaoworakul</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">A</forename><surname>Cummings</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">309</biblScope>
+			<biblScope unit="page" from="1083" to="1090" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Wuhan City set up temperature detection points and screening points to strengthen the temperature detection of passengers leaving Wuhan</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Takefoto</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><surname>Cn</surname></persName>
+		</author>
+		<ptr target="https://baijiahao.baidu.com/s?id=1656211292146188271&amp;wfr=spider&amp;for=pc" />
+		<imprint>
+			<date type="published" when="2020-01-20" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Wuhan City has a permanent floating population of 2.87 million, ranking 15th in migration. China Business Network</title>
+		<ptr target="https://baijiahao.baidu.com/s?id=1656237519515683348&amp;wfr=spider&amp;for=pc" />
+		<imprint>
+			<date type="published" when="2020-01-20" />
+		</imprint>
+		<respStmt>
+			<orgName>China Business Network</orgName>
+		</respStmt>
+	</monogr>
+	<note>cited</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Population distribution. Wuhan Government</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Wuhan</forename><surname>Government</surname></persName>
+		</author>
+		<ptr target="http://www.wuhan.gov.cn/2019_web/zjwh_5785/whgk/201910/t20191022_20290870.html" />
+		<imprint>
+			<date type="published" when="2020-01-20" />
+		</imprint>
+	</monogr>
+	<note>cited</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The transmissibility estimation of influenza with early stage data of small-scale outbreaks in Changsha</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><forename type="middle">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Q</forename><forename type="middle">P</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Szot</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Epidemiol Infect</title>
+		<imprint>
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="page" from="424" to="457" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Transmission dynamics of the etiological agent of SARS in Hong Kong: impact of public health interventions</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Riley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Donnelly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">C</forename><surname>Ghani</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">J</forename><surname>Abu-Raddad</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">J</forename><surname>Hedley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">300</biblScope>
+			<biblScope unit="page" from="1961" to="1967" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Modeling the SARS epidemic</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Dye</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Gay</forename><forename type="middle">N</forename><surname>Epidemiology</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">300</biblScope>
+			<biblScope unit="page" from="1884" to="1889" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Severe acute respiratory syndrome epidemic in Asia</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><surname>Yan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Emerg Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1608" to="1618" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Comparing nonpharmaceutical interventions for containing emerging epidemics</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">M</forename><surname>Peak</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">L</forename><forename type="middle">M</forename><surname>Childs</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">H</forename><surname>Grad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="4023" to="4031" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Middle East respiratory syndrome coronavirus: quantification of the extent of the epidemic, surveillance biases, and transmissibility</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Cauchemez</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">D</forename><surname>Van Kerkhove</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">A</forename><surname>Donnelly</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">S</forename><surname>Riley</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Rambaut</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="50" to="56" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Interhuman transmissibility of Middle East respiratory syndrome coronavirus: estimation of pandemic risk</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Breban</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Riou</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Fontanet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">382</biblScope>
+			<biblScope unit="page" from="694" to="703" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Estimating and modelling the transmissibility of Middle East respiratory syndrome CoronaVirus during the 2015 outbreak in the Republic of Korea. Influenza Other Respir Viruses</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">X</forename><forename type="middle">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Pebody</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Charlett</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><surname>De Angelis</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><surname>Birrell</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Kang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="434" to="478" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Modeling the transmission of Middle East respirator syndrome Corona virus in the Republic of Korea</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Z</forename><forename type="middle">Q</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Y</forename><forename type="middle">K</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">G</forename><forename type="middle">Q</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Jin</forename><forename type="middle">Z</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">144778</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
